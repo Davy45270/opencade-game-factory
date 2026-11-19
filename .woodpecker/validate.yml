@@ -35,7 +35,10 @@ steps:
   - name: tests-unitaires
     image: *py
     commands:
-      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
+      # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git imagemagick >/dev/null
+      - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
@@ -44,7 +47,10 @@ steps:
   - name: tests-acceptation
     image: *py
     commands:
-      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
+      # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git imagemagick >/dev/null
+      - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'

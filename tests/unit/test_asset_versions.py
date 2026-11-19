@@ -73,6 +73,7 @@ class AssetVersions(unittest.TestCase):
 
     def test_legacy_migration_validate_base_and_old_lock(self):
         asset_id, asset = self.scan()
+        original = (self.world.depot("jeu-a") / M.FOUET).read_bytes()
         asset_path = self.root / "catalog" / "assets" / f"{asset_id}.json"
         paths = ["catalog/ids.json", asset_path.relative_to(self.root).as_posix()]
         for key in ("version", "versions"):
@@ -95,6 +96,10 @@ class AssetVersions(unittest.TestCase):
         self.check(["validate", "--base", base, "--json"])
 
         lock_path = self.root / "assets.lock.json"
+        locked_file = lock_path.parent / M.FOUET
+        locked_file.parent.mkdir(parents=True, exist_ok=True)
+        # The initial revision is still the one recorded by the old lock.
+        locked_file.write_bytes(original)
         row = {"assetId": asset_id, "assetVersion": "1", "sha256": asset["sha256"],
                "scene": "Cuisine", "role": "sprite", "path": M.FOUET}
         lock = {"schemaVersion": "1.0", "registryCommit": base, "game": "jeu-a", "assets": [row]}

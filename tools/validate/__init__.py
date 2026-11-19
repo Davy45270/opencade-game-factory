@@ -1,10 +1,12 @@
 """Contrôles en lecture seule du catalogue et de son évolution."""
 
+import hashlib
+import re
 from collections import Counter
 from pathlib import PurePosixPath
 
 from tools import asset_versions
-from tools.core.catalog import Catalogue, InvalidJSON
+from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, read_json
 from tools.core.git_base import read_base
 from tools.core.ids import DERIVED, verifier_contre_base, verifier_registre
 from tools.core.schemas import schemas
@@ -16,6 +18,10 @@ INFERABLE = (
 COORDINATES = ("x", "y", "w", "h")
 RECORDS = {"assets": "asset", "sheets": "sheet"}
 IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated"}
+PUBLISHED = PurePosixPath("published", "sha256")
+PUBLISHED_NAME = re.compile(r"([a-f0-9]{64})\.[A-Za-z0-9][A-Za-z0-9_-]{0,31}")
+MUTABLE_VERSION_FIELDS = {"nextVersion", "causalPrevious", "causalNext", "causalOrder", "atlasFrames"}
+
 
 
 class CatalogueValidation:
@@ -151,6 +157,73 @@ class CatalogueValidation:
                 if reference not in assets or reference == asset_id:
                     self.issue(path, "invalid-asset-reference", f"Référence d’asset invalide : {reference}")
 
+    def revision_proofs(self, assets, sheets):
+        publications = set()
+        for asset_id, asset in assets.items():
+            path = f"catalog/assets/{asset_id}.json"
+            for version in asset_versions.history(asset):
+                for frame in version.get("atlasFrames", ()):
+                    sheet = sheets.get(frame["atlasSheetId"])
+                    if (sheet is None or frame["sourceSheetSha256"].lower() != sheet["sha256"].lower()
+                            or sheet["dimensions"] is None or not in_bounds(frame, sheet["dimensions"])):
+                        self.issue(path, "invalid-atlas-proof", f"Preuve d’atlas invalide pour la version {version['version']}.")
+                publication = version.get("publication", {})
+                if local := publication.get("registry"):
+                    local = PurePosixPath(local)
+                    if local.parts[0] == "published":
+                        name = PUBLISHED_NAME.fullmatch(local.name)
+                        if (local.parent != PUBLISHED or not name or name[1] != version["sha256"].lower()
+                                or publication["status"] != "published"):
+                            self.issue(path, "invalid-published-path", "Adresse de publication incohérente.")
+                        else:
+                            publications.add(local.name)
+            provenance = asset["provenance"]
+            if parent_id := provenance.get("parentId"):
+                parent = assets.get(parent_id)
+                parent_number = provenance["parentVersion"]
+                versions = asset_versions.history(parent) if parent else []
+                if (parent_id != provenance["derivedFrom"] or parent_number > len(versions)
+                        or versions[parent_number - 1]["sha256"].lower() != provenance["parentSha256"].lower()):
+                    self.issue(path, "invalid-parent-revision", "La révision du parent ne correspond pas à sa preuve.")
+        return publications
+
+    def published_files(self, publications):
+        path = self.root / PUBLISHED
+        try:
+            Catalogue._regular_path(path.parent)
+            Catalogue._regular_path(path)
+            files = sorted(path.iterdir()) if path.exists() else []
+        except (OSError, CatalogueScopeError):
+            self.issue(PUBLISHED, "invalid-published-store", "Magasin de publication inaccessible.")
+            return set()
+        found = set()
+        digests = set()
+        for file in files:
+            match = PUBLISHED_NAME.fullmatch(file.name)
+            relative = PUBLISHED / file.name
+            if not match or file.is_symlink() or not file.is_file():
+                self.issue(relative, "invalid-published-file", "Nom ou type de fichier publié invalide.")
+                continue
+            found.add(file.name)
+            if file.name not in publications or match[1] in digests:
+                self.issue(relative, "unreferenced-published-file", "Publication absente ou adresse SHA-256 dupliquée.")
+            digests.add(match[1])
+            with file.open("rb") as stream:
+                if hashlib.file_digest(stream, "sha256").hexdigest() != match[1]:
+                    self.issue(relative, "published-digest", "Les octets publiés diffèrent de leur adresse.")
+        for missing in sorted(publications - found):
+            self.issue(PUBLISHED / missing, "missing-published-file", "Binaire publié introuvable.")
+        return found
+
+    def migration_report(self):
+        relative = "generated/reports/migration.json"
+        path = self.root / relative
+        if path.exists():
+            try:
+                self.document("migration", read_json(Catalogue._regular_path(path)), relative)
+            except (OSError, InvalidJSON, CatalogueScopeError) as exc:
+                self.issue(relative, "invalid-migration-report", str(exc))
+
     def sheet_rules(self, assets, sheets):
         for sheet_id, sheet in sheets.items():
             for index, region in enumerate(sheet["regions"]):
@@ -169,8 +242,30 @@ class CatalogueValidation:
                         or reverse["verified"] != (region["status"] == "verified")):
                     self.issue(path, "region-back-reference", f"Région source incohérente pour {asset_id}.")
 
-    def base_rules(self, ref, ids, paths, assets):
+    def immutable_revision_changed(self, old, new, prior_current):
+        if any(proof not in new.get("atlasFrames", ()) for proof in old.get("atlasFrames", ())):
+            return True
+        for field, value in old.items():
+            if field in MUTABLE_VERSION_FIELDS or value == new.get(field):
+                continue
+            if field == "publication" and old["version"] == prior_current:
+                previous_path = value.get("registry", "")
+                updated_path = new.get("publication", {}).get("registry", "")
+                if updated_path.startswith("published/sha256/") and (
+                        updated_path == previous_path or not previous_path.startswith("published/")):
+                    continue
+            return True
+        return False
+
+    def base_rules(self, ref, ids, paths, assets, published):
         base_ids, base_paths, base_document = read_base(self.root, ref)
+        from tools.discovery.repos import Git
+
+        git = Git(self.root)
+        tracked = git.run("ls-tree", "-rz", "--name-only", ref + "^{commit}", "--", PUBLISHED.as_posix())
+        for name in tracked.decode("utf-8", "replace").split("\0"):
+            if name and PurePosixPath(name).name not in published:
+                self.issue(name, "published-file-removed", "Conserver les octets publiés et leur chemin.")
         for error in verifier_contre_base(base_ids, ids):
             self.issue("catalog/ids.json", "immutable-id", error)
         for path in sorted(base_paths - paths):
@@ -186,7 +281,7 @@ class CatalogueValidation:
                 earlier = asset_versions.history(prior)
                 now = asset_versions.history(asset)
                 if (len(now) < len(earlier) or any(
-                        any(value != new.get(field) for field, value in old.items() if field != "nextVersion")
+                        self.immutable_revision_changed(old, new, asset_versions.version_number(prior))
                         for old, new in zip(earlier, now))):
                     self.issue(path, "immutable-version", "Conserver les versions antérieures et leurs empreintes.")
                 continue
@@ -215,9 +310,11 @@ class CatalogueValidation:
             for record_id in sorted((assets.keys() | sheets.keys()) - allocated):
                 self.issue("catalog/ids.json", "unregistered-id", f"ID non alloué : {record_id}")
         self.asset_rules(assets, sheets)
+        published = self.published_files(self.revision_proofs(assets, sheets))
         self.sheet_rules(assets, sheets)
+        self.migration_report()
         if base is not None:
-            self.base_rules(base, ids, paths, assets)
+            self.base_rules(base, ids, paths, assets, published)
         return self.issues
 
 

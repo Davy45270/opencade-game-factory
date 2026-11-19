@@ -3,7 +3,8 @@
 from collections import Counter, defaultdict
 from html import escape
 
-from tools.core.catalog import write_json, write_text
+from tools.core.catalog import InvalidJSON, write_json, write_text
+from tools.core.schemas import schemas
 
 TITLES = {
     "migration": "Migration des dépôts",
@@ -67,7 +68,7 @@ def _repo_markdown(repositories):
     return "\n\n".join(filter(None, parts))
 
 
-def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=()):
+def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=(), *, divergent_tags=()):
     reports = root / "generated" / "reports"
     reports.mkdir(parents=True, exist_ok=True)
     formats = coverage(rows)
@@ -95,11 +96,14 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
     outputs = {
         "migration": (
             {"repositories": repositories, "byFamily": dict(sorted(family_counts.items())),
-             "buildManifests": manifests},
+             "buildManifests": manifests, "divergentTags": list(divergent_tags)},
             _repo_markdown(repositories) + "\n\n" + _table(
                 ("Famille", "Fichiers importés"), sorted(family_counts.items()))
             + "\n\n## Manifests de build\n\n" + _table(
-                ("Dépôt", "Commit", "Chemin"), [(m["repo"], m["commit"], m["path"]) for m in manifests]),
+                ("Dépôt", "Commit", "Chemin"), [(m["repo"], m["commit"], m["path"]) for m in manifests])
+            + "\n\n## Tags divergents\n\n" + _table(("Dépôt", "Tag", "Fournisseur", "Commit", "Importé"),
+                [(t["repo"], t["name"], t["provider"], t["commit"], "oui" if t["imported"] else "non")
+                 for t in divergent_tags]),
         ),
         "exceptions": (exceptions, _files(exceptions)),
         "coverage": (
@@ -130,6 +134,8 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
             + "\n\n## Durées audio inconnues\n\n" + _files(audio),
         ),
     }
+    if not schemas().validator("migration").is_valid(outputs["migration"][0]):
+        raise InvalidJSON("Rapport de migration généré invalide.")
     for name, (data, markdown) in outputs.items():
         write_json(reports / f"{name}.json", data)
         write_text(reports / f"{name}.md", f"# {TITLES[name]}\n\n{markdown.strip()}\n")

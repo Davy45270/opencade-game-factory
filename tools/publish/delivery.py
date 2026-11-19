@@ -9,7 +9,7 @@ from pathlib import Path
 
 from tools import asset_versions
 from tools.cli import UsageError
-from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, json_text, read_json, write_json
+from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, json_text, parse_json, read_json, write_json
 from tools.core.exit_codes import ExitCode
 from tools.core.schemas import schemas
 from tools.discovery.importer import MAX_BLOB, read_assets
@@ -43,8 +43,8 @@ def worktree(path):
 def output_path(root, path, *, kind):
     root = root.resolve()
     path = scoped_path(root / path)
-    if any(part.lower() == ".git" for part in path.parts) or path.is_relative_to(root / "catalog"):
-        raise CatalogueScopeError("Destination interdite dans les métadonnées Git ou le catalogue.")
+    if any(part.lower() == ".git" for part in path.parts) or any(path.is_relative_to(root / tree) for tree in ("catalog", "published")):
+        raise CatalogueScopeError("Destination interdite dans les métadonnées Git, le catalogue ou le magasin publié.")
     if kind not in {"materialize", "usage"}:
         checkout = worktree(path)
         if checkout and checkout != root:
@@ -120,11 +120,32 @@ class Delivery:
         if asset_id not in self.assets:
             raise InvalidJSON(f"Asset introuvable : {asset_id}")
         asset = self.assets[asset_id]
-        if public:
-            self.require_public(asset)
-        if not schemas().validator("asset").is_valid(asset):
+        if public and isinstance(asset, dict) and isinstance(asset.get("sha256"), str):
+            self.require_public({**asset, "id": asset_id})
+        if (not schemas().validator("asset").is_valid(asset) or asset["id"] != asset_id
+                or next(asset_versions.problems(asset), None)):
             raise InvalidJSON(f"Fiche d’asset invalide : {asset_id}")
         return asset
+
+    def revision(self, asset, number):
+        if not 1 <= number <= len(asset_versions.history(asset)):
+            raise InvalidJSON(f"Version inconnue pour {asset['id']} : {number}.")
+        entry = asset_versions.history(asset)[number - 1]
+        current = number == asset_versions.version_number(asset)
+        publication = entry.get("publication", {})
+        files = {
+            **(asset["files"] if current else {}),
+            "registry": publication.get("registry") or (asset["files"].get("registry") if current else None),
+            "locations": [loc for loc in asset["files"]["locations"] if loc.get("assetVersion", 1) == number],
+        }
+        if frames := entry.get("atlasFrames"):
+            files.update(atlasFrames=frames, sha256Method="canonical-crop-png")
+        rights = asset if current else publication
+        return {**asset, "version": number, "files": files, "sha256": entry["sha256"], "format": entry.get("format", asset["format"]),
+                "sourceSheetId": asset["sourceSheetId"] if current else None,
+                "sourceRegion": asset["sourceRegion"] if current else None,
+                "license": rights.get("license"), "licenseEvidence": rights.get("licenseEvidence"),
+                "publicExport": rights.get("publicExport")}
 
     def require_public(self, asset):
         if not public_allowed(asset, self.sheet_hashes):
@@ -137,7 +158,8 @@ class Delivery:
                 raise CatalogueScopeError("Fichier hors du registre.")
             if any(part.lower() == ".git" for part in path.parts):
                 raise CatalogueScopeError("Objet Git interdit comme fichier du registre.")
-            yield _bounded_read(path)
+            if path.is_file():
+                yield _bounded_read(path)
 
     def mirror_files(self, record):
         if self.copies is None:
@@ -189,6 +211,10 @@ class Delivery:
                 continue
 
     def bytes(self, asset):
+        entry = asset_versions.history(asset)[asset_versions.version_number(asset) - 1]
+        stored = entry.get("publication", {}).get("registry")
+        if stored:
+            asset = {**asset, "files": {**asset["files"], "registry": stored}}
         if asset["files"].get("registry"):
             sources = self.registry_file(asset)
         elif asset["files"].get("sha256Method") == "canonical-crop-png":
@@ -213,8 +239,21 @@ def materialize(root, args):
     delivery = Delivery(root, args)
     destination = output_path(root, args.to, kind="materialize")
     public = not (args.private_target or private_destination(root, worktree(destination)))
-    asset = delivery.asset(args.id, public=public)
+    requested = getattr(args, "version", None)
+    asset = delivery.asset(args.id, public=public and requested is None)
+    if requested is not None:
+        if requested < 1:
+            raise UsageError("--version doit être un entier positif.")
+        if requested > len(asset_versions.history(asset)):
+            raise OSError(f"Version indisponible pour {args.id} : {requested}.")
+        asset = delivery.revision(asset, requested)
+        if destination.is_dir() or not destination.suffix:
+            destination = scoped_path(destination / (asset["id"] + extension(asset)))
+    else:
+        asset = delivery.revision(asset, asset_versions.version_number(asset))
     raw = delivery.bytes(asset)
+    if public and requested is not None:
+        delivery.require_public(asset)
     check_destination(destination, raw)
     if not args.dry_run:
         put(destination, raw)
@@ -222,14 +261,41 @@ def materialize(root, args):
 
 
 def publish(root, args):
+    with (nullcontext() if args.dry_run else directory_lock(root / "catalog")):
+        return _publish(root, args)
+
+
+def _publish(root, args):
     delivery = Delivery(root, args)
     assets = [delivery.asset(asset_id, public=args.target == "public") for asset_id in dict.fromkeys(args.ids)]
     directory = output_path(root, args.dest, kind="publish")
     paths = []
     rows = []
+    stored = {}
+    store = scoped_path(root / "published" / "sha256")
+    if store.is_dir():
+        for path in sorted(store.iterdir()):
+            if re.fullmatch(r"[a-f0-9]{64}\.[A-Za-z0-9][A-Za-z0-9_-]{0,31}", path.name):
+                digest = path.stem
+                if digest in stored:
+                    raise InvalidJSON(f"Plusieurs fichiers publiés pour {digest}.")
+                stored[digest] = path
+    records = []
+    catalogue = Catalogue(root)
     for asset in assets:
         path = scoped_path(directory / (asset["id"] + extension(asset)))
-        paths.append((path, delivery.bytes(asset)))
+        revision = delivery.revision(asset, asset_versions.version_number(asset))
+        raw = delivery.bytes(revision)
+        digest = sha(raw)
+        kept = stored.setdefault(digest, scoped_path(store / (digest + extension(asset))))
+        paths.append((path, raw))
+        asset_versions.initialize(asset)
+        asset["status"] = "published"
+        entry = asset["versions"][asset_versions.version_number(asset) - 1]
+        entry.setdefault("format", asset["format"])
+        asset_versions.archive_publication(asset, published_path=kept.relative_to(delivery.root).as_posix())
+        record_path = catalogue._regular_path(catalogue.path / "assets" / (asset["id"] + ".json"))
+        records.append((record_path, asset, kept, raw))
         author = asset["provenance"]["author"]
         rows.append({"id": asset["id"], "sha256": asset["sha256"], "path": path.name,
                      "license": asset["license"], "licenseEvidence": asset.get("licenseEvidence"),
@@ -239,11 +305,19 @@ def publish(root, args):
                         if asset["license"] == "CC-BY-4.0" else {})})
     manifest = {"target": args.target, "assets": rows}
     paths.append((scoped_path(directory / "manifest.json"), json_text(manifest).encode()))
+    for record_path, _, kept, raw in records:
+        check_destination(kept, raw)
+        if not record_path.is_file():
+            raise OSError(f"Fiche indisponible pour la publication : {record_path.name}.")
     for path, raw in paths:
         check_destination(path, raw)
     if not args.dry_run:
         for path, raw in paths:
             put(path, raw)
+        for path, asset, kept, raw in records:
+            put(kept, raw)
+            if read_json(path) != asset:
+                write_json(path, asset)
     return ExitCode.OK, {"ok": True, **manifest}
 
 
@@ -255,23 +329,73 @@ def read_lock(path):
     return lock
 
 
+def contains_version(asset, row):
+    return any(str(entry["version"]) == row["assetVersion"] and entry["sha256"].lower() == row["sha256"].lower()
+               for entry in asset_versions.history(asset))
+
+
+def revision_at(git, commit, asset_id):
+    path = f"catalog/assets/{asset_id}.json"
+    # A Git symlink is a blob too. Only accept a regular tracked fiche.
+    tree = git.run("ls-tree", commit, "--", f":(literal){path}").split()
+    if not tree or tree[0] not in {b"100644", b"100755"}:
+        return None
+    oid = tree[2].decode("ascii")
+    if int(git.run("cat-file", "-s", oid)) > MAX_BLOB:
+        return None
+    record = parse_json(git.run("cat-file", "blob", oid))
+    if (schemas().validator("asset").is_valid(record) and record["id"] == asset_id
+            and not next(asset_versions.problems(record), None)):
+        return record
+    return None
+
+
 def check_lock(root, args):
     delivery = Delivery(root, args)
-    lock = read_lock(root / args.file)
+    path = scoped_path(root / args.file)
+    lock = read_lock(path)
     errors = []
     warnings = []
+    try:
+        commit = delivery.git.run("rev-parse", "--verify", "--end-of-options",
+                                  lock["registryCommit"] + "^{commit}").decode().strip()
+        if commit != lock["registryCommit"].lower():
+            raise GitError("registryCommit ne désigne pas directement un commit.")
+    except GitError:
+        return ExitCode.CHECK_FAILED, {"ok": False, "errors": [{"error": "unknown-registry-commit"}], "warnings": []}
+
+    committed = {}
+    locked = []
     for row in lock["assets"]:
-        asset = delivery.assets.get(row["assetId"])
-        if asset is None:
-            errors.append({"id": row["assetId"], "error": "unknown-asset"})
+        asset_id = row["assetId"]
+        asset = delivery.assets.get(asset_id)
+        try:
+            if asset_id not in committed:
+                committed[asset_id] = revision_at(delivery.git, commit, asset_id)
+            record = committed[asset_id]
+        except (OSError, InvalidJSON):
+            record = None
+        try:
+            locked_file = scoped_path(path.parent / row["path"])
+            valid_file = locked_file.is_file() and sha(_bounded_read(locked_file)) == row["sha256"].lower()
+        except (OSError, CatalogueScopeError):
+            valid_file = False
+        if not record or not contains_version(record, row):
+            error = "version-absent-at-registry-commit"
+        elif asset is None or not contains_version(delivery.asset(asset_id), row):
+            error = "version-or-digest-mismatch"
+        elif not valid_file:
+            error = "locked-file-digest-mismatch"
+        else:
+            locked.append(delivery.revision(asset, int(row["assetVersion"])))
+            if row["assetVersion"] != asset_version(asset):
+                warnings.append({"id": asset_id, "path": row["path"], "warning": "non-current-version",
+                                 "assetVersion": row["assetVersion"], "currentVersion": asset_version(asset)})
             continue
-        asset = delivery.asset(row["assetId"], public=args.public)
-        if not any(str(int(entry["version"])) == row["assetVersion"] and entry["sha256"].lower() == row["sha256"].lower()
-                   for entry in asset_versions.history(asset)):
-            errors.append({"id": row["assetId"], "error": "version-or-digest-mismatch"})
-        elif row["assetVersion"] != asset_version(asset):
-            warnings.append({"id": row["assetId"], "path": row["path"], "warning": "non-current-version",
-                             "assetVersion": row["assetVersion"], "currentVersion": asset_version(asset)})
+        errors.append({"id": asset_id, "path": row["path"], "error": error})
+    if args.public and not errors:
+        for revision in locked:
+            delivery.require_public(revision)
     return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 

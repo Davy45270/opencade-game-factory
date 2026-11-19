@@ -151,7 +151,7 @@ def build_graph(snapshots, target, references_by_copy, git, prepared):
         record = references_by_copy[key]
         heads[key] = record["commit"], trees[key[0], record["commit"]]
         tags[key] = []
-        for tag in record["tags"]:
+        for tag in record.get("importedTags", record["tags"]):
             commit = tag["commit"]
             if not commit:
                 continue

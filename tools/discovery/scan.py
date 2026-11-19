@@ -7,8 +7,10 @@ import tempfile
 from collections import defaultdict
 from itertools import chain
 from contextlib import contextmanager
+from functools import cache as memoize
 from pathlib import Path
 
+from tools import asset_versions
 from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, parse_json, read_json, write_json
 from tools.core.exit_codes import ExitCode
 from tools.core.schemas import schemas
@@ -142,6 +144,35 @@ def _divergences(copies, prepared, git=None):
     return skipped, notices
 
 
+def _release_authority(prepared, skipped, git, enabled):
+    allowed = defaultdict(list)
+    notices = []
+    if not enabled:
+        return allowed, notices
+    tags = defaultdict(list)
+    for key, (mirror, reference) in prepared.items():
+        if key not in skipped:
+            for tag in reference["tags"]:
+                if tag["commit"]:
+                    tags[key[0], tag["name"]].append((key, mirror, tag))
+    for (repo, name), candidates in sorted(tags.items()):
+        candidates.sort(key=lambda item: CANONICAL_ORDER.index(item[0][1]))
+        commits = {tag["commit"] for _, _, tag in candidates}
+        if len(commits) == 1:
+            for key, _, tag in candidates:
+                allowed[key].append(tag)
+            continue
+        winner = next((tag["commit"] for _, mirror, tag in candidates
+                       if _descends_from_all(git, mirror, tag["commit"], commits)), candidates[0][2]["commit"])
+        for key, _, tag in candidates:
+            accepted = tag["commit"] == winner
+            if accepted:
+                allowed[key].append(tag)
+            notices.append({"repo": repo, "name": name, "provider": key[1],
+                            "commit": tag["commit"], "imported": accepted})
+    return allowed, notices
+
+
 def _repo_report(copies, prepared, errors, skipped=frozenset()):
     repositories = {}
     for copy in copies:
@@ -180,21 +211,45 @@ def _declared_assets(git, snapshot):
     return {key: next(iter(ids)) for key, ids in declarations.items() if len(ids) == 1}
 
 
+def _record_causality(target, trees, git):
+    mirrors = defaultdict(set)
+    for snapshot in trees:
+        mirrors[snapshot.repo].update(mirror for _, mirror, _, _ in snapshot.members)
+
+    @memoize
+    def present(mirror, commit):
+        try:
+            git.run("cat-file", "-e", commit + "^{commit}", mirror=mirror)
+        except GitError:
+            return False
+        return True
+
+    @memoize
+    def precedes(repos, a, b):
+        for mirror in sorted(set().union(*(mirrors[repo] for repo in repos))):
+            if present(mirror, a) and present(mirror, b):
+                if _descends_from_all(git, mirror, b, [a]):
+                    return -1
+                if _descends_from_all(git, mirror, a, [b]):
+                    return 1
+                return 0
+        return None
+
+    for asset_id, asset in target.assets.items():
+        repos = tuple(sorted(target.sources[asset_id]))
+        if not repos or not set(repos).intersection(mirrors):
+            continue
+        if asset_versions.set_causality(asset["versions"], lambda a, b: precedes(repos, a, b)):
+            target.changed.add(asset_id)
+
+
 def _scan(root, args, git, cache, temporary, copies, template):
     incremental = getattr(args, "incremental", False)
     references = _load_references(root)
-    unchanged = set()
     prepared = {}
     errors = {}
     for copy in copies:
         try:
-            stored = references.get(copy.key)
-            if incremental and args.fetch and stored:
-                commit, branch = git.remote_head(copy)
-                if (commit, branch) == (stored["commit"], stored["branch"]):
-                    prepared[copy.key] = None, stored
-                    unchanged.add(copy.key)
-                    continue
             if incremental and not args.fetch:
                 provider = Catalogue._regular_path(cache / copy.provider)
                 mirror = Catalogue._regular_path(provider / f"{copy.name}.git")
@@ -203,15 +258,25 @@ def _scan(root, args, git, cache, temporary, copies, template):
                 git.check_mirror(copy, mirror)
             else:
                 mirror = _mirror_for(git, copy, cache, args.fetch, temporary)
-            reference = git.reference(mirror, copy)
-            prepared[copy.key] = mirror, reference
-            if incremental and stored and (reference["commit"], reference["branch"]) == (stored["commit"], stored["branch"]):
-                unchanged.add(copy.key)
+            prepared[copy.key] = mirror, git.reference(mirror, copy)
         except GitError as exc:
             errors[copy.key] = str(exc)
 
     skipped, divergent = _divergences(copies, prepared, git)
-    imported = {key: value for key, value in prepared.items() if key not in skipped | unchanged}
+    allowed, divergent_tags = _release_authority(prepared, skipped, git, template["sources"]["includeReleases"])
+    next_refs = {}
+    changed_repos = set()
+    for key, (_, reference) in prepared.items():
+        if key in skipped:
+            continue
+        releases = sorted({tag["commit"] for tag in allowed[key] if tag["commit"] != reference["commit"]})
+        record = {"name": key[0], "provider": key[1], **reference, "releaseCommits": releases,
+                  "importedTags": allowed[key]}
+        next_refs[key] = record
+        if references.get(key) != record:
+            changed_repos.add(key[0])
+    # Reload a source as a group so authority and usage observations stay in sync across providers.
+    imported = {key: prepared[key] for key in next_refs if not incremental or key[0] in changed_repos}
     groups = defaultdict(list)
     current_commits = {}
     for copy in copies:
@@ -220,18 +285,14 @@ def _scan(root, args, git, cache, temporary, copies, template):
         mirror, reference = prepared[copy.key]
         head = reference["commit"]
         current_commits[copy.key] = head
-        releases = sorted({tag["commit"] for tag in reference["tags"] if tag["commit"] and tag["commit"] != head})
-        if not template["sources"]["includeReleases"]:
-            releases = []
-        for commit in [head, *releases]:
+        for commit in [head, *next_refs[copy.key]["releaseCommits"]]:
             groups[copy.name, commit].append((copy, mirror, commit != head, reference["date"]))
-        references[copy.key] = {"name": copy.name, "provider": copy.provider,
-                                **reference, "releaseCommits": releases}
+        references[copy.key] = next_refs[copy.key]
 
     if incremental and (errors or not groups):
         return (ExitCode.IO if errors else ExitCode.OK), {
             "ok": not errors, "scannedCopies": 0, "newAssets": 0, "newIds": 0,
-            "divergentSources": divergent, "errors": _repo_report(copies, prepared, errors, skipped) if errors else [],
+            "divergentSources": divergent, "divergentTags": divergent_tags, "errors": _repo_report(copies, prepared, errors, skipped) if errors else [],
         }
 
     inputs = [(copy.name, copy.provider, commit)
@@ -254,7 +315,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
         def add_blob(path, data, measured, earliest):
             digest = hashlib.sha256(data).hexdigest()
             snapshot.measurements[path] = measured.family, measured.metadata, measured.dimensions
-            snapshot.indexed[path] = target.import_blob(locations, commit, date, path, digest, measured, earliest,
+            snapshot.indexed[path] = target.import_blob(locations, snapshot, path, digest, measured, earliest, git,
                                                         declared.get((path, digest)))
 
         discovered, build_files = importer.scan_tree(git, mirror, repo, commit, snapshot.tree,
@@ -265,6 +326,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
 
     target.reconcile(current_commits)
     sheet_limits = SheetDiscovery(target, trees, git).run()
+    _record_causality(target, trees, git)
     snapshots.code_licenses(trees, target)
     snapshots.catalogue_enrichment(trees, target)
     dynamic = snapshots.build_graph(trees, target, references, git, imported)
@@ -284,7 +346,8 @@ def _scan(root, args, git, cache, temporary, copies, template):
         repositories = _repo_report(copies, prepared, errors, skipped)
         previous_exceptions = [row for row in exceptions if (row["repo"], row["commit"]) not in scanned]
         reports.emit(root, repositories, [*rows, *previous_exceptions], exceptions,
-                     target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values())
+                     target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values(),
+                     divergent_tags=divergent_tags)
         usage_index.emit(root, target.assets.values())
         licenses.emit(root, target.assets.values(), target.sheets.values())
         dynamic_path = root / "generated" / "reports" / "dynamic-refs.json"
@@ -302,7 +365,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
     # ont été lues : jamais de succès muet sur une source manquante.
     code = ExitCode.IO if errors else ExitCode.OK
     return code, {"ok": code == ExitCode.OK, "jobId": job_id, **target.counts(),
-                  "scannedCopies": len(imported), "divergentSources": divergent,
+                  "scannedCopies": len(imported), "divergentSources": divergent, "divergentTags": divergent_tags,
                   "errors": _repo_report(copies, prepared, errors, skipped) if errors else []}
 
 

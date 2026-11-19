@@ -30,6 +30,7 @@ def configure(command, parser):
             parser.add_argument("--padding", type=int, default=2)
     elif command == "materialize":
         parser.add_argument("id")
+        parser.add_argument("--version", type=int)
         parser.add_argument("--to", type=Path, required=True)
     elif command in {"check-lock", "validate-atlas"}:
         parser.add_argument("file", type=Path)

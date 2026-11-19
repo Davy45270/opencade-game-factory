@@ -106,8 +106,8 @@ def check_destinations(root, cache, log, local_copies):
         if (any(path.is_relative_to(source) for path in outputs)
                 or source.is_relative_to(cache)):
             raise CatalogueScopeError("Destination en conflit avec un dépôt source.")
-    if cache.is_relative_to(registry / "catalog") or cache.is_relative_to(registry / ".git"):
-        raise CatalogueScopeError("Le cache doit être extérieur au catalogue et à .git.")
+    if any(cache.is_relative_to(registry / directory) for directory in ("catalog", ".git", "published")):
+        raise CatalogueScopeError("Le cache doit être extérieur au catalogue, à .git et au magasin publié.")
 
 
 def git_environment(environ=None):

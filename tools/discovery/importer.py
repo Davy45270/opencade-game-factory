@@ -16,7 +16,7 @@ from tools.core.catalog import Catalogue, InvalidJSON, json_text, write_json
 from tools.core.ids import IdRegistry
 from tools.core.schemas import schemas
 from tools.discovery import enrich, formats
-from tools.discovery.repos import is_earlier
+from tools.discovery.repos import GitError, is_earlier
 
 MAX_BLOB = 64 * 1024 * 1024
 EXCLUSIONS = tuple(f"{name}/" for name in (
@@ -228,6 +228,13 @@ class Importer:
             raise InvalidJSON(str(exc)) from exc
         self.initial_ids = entries
         self.identity_owners = dict(entries)
+        self.legacy_regions = defaultdict(list)
+        self.migrated_atlas = {value for key, value in entries.items() if key.startswith("alias:atlas:")}
+        for key, value in entries.items():
+            if key.startswith("region:") and value in self.assets:
+                family = self.assets[value]["family"]
+                if isinstance(family, dict) and (frame := family.get("sprite", {}).get("frameName")):
+                    self.legacy_regions[frame].append(value)
         self.job_id = job_id
         self.dry_run = dry_run
         self.sightings = defaultdict(list)
@@ -238,6 +245,8 @@ class Importer:
         self.observed = {}
         self.active_sightings = set()
         self.release_only = {}
+        self.active_paths = defaultdict(dict)
+        self.historical_paths = {}
         for asset_id, asset in sorted(self.assets.items()):
             if asset_versions.initialize(asset):
                 self.changed.add(asset_id)
@@ -247,6 +256,8 @@ class Importer:
             for loc in asset["files"]["locations"]:
                 number = loc.get("assetVersion", 1)
                 self.remember(asset_id, loc, symbol, versions[number], number)
+                if not loc.get("releaseOnly") and loc.get("status") != "removed":
+                    self.active_paths[asset_id, loc["repo"]][loc["path"]] = loc["commit"]
 
     def remember(self, asset_id, loc, symbol, digest, number):
         repo, _, path = _slot(loc)
@@ -267,6 +278,7 @@ class Importer:
         if not is_release and not removed:
             self.active_sightings.add(sighting)
         self.observed[sighting] = number
+        self.historical_paths.setdefault((repo, path, loc["commit"], symbol), asset_id)
 
     def lineage(self, loc, symbol, digest, declared):
         repo, _, path = _slot(loc)
@@ -276,8 +288,8 @@ class Importer:
         slot = self.slots.get((repo, path, symbol))
         exact = self.content.get((repo, digest, symbol))
         if loc.get("releaseOnly"):
-            if slot and (slot[1], repo, path, loc["commit"]) in self.observed:
-                return slot[1]
+            if seen := self.historical_paths.get((repo, path, loc["commit"], symbol)):
+                return seen
             if slot and repo == min(self.sources[slot[1]]):
                 return slot[1]
             return exact[1] if exact else None
@@ -300,6 +312,24 @@ class Importer:
         self.identity_owners[key] = asset_id
         return asset_id
 
+    def split_alias(self, asset_id, snapshot, path, digest, git):
+        paths = self.active_paths[asset_id, snapshot.repo]
+        if path not in paths or len(paths) < 2 or self.assets[asset_id]["sha256"].lower() == digest:
+            return False
+        active = sorted(peer for peer in paths if peer in snapshot.tree)
+        oid = snapshot.tree[path].oid
+        peers = [peer for peer in active if snapshot.tree[peer].oid != oid]
+        if not peers:
+            return False
+        for peer in peers:
+            try:
+                tree = git.run("ls-tree", paths[peer], "--", f":(literal){peer}", mirror=snapshot.mirror).split()
+            except GitError:
+                continue
+            if tree and tree[2].decode() == snapshot.tree[peer].oid:
+                return True
+        return snapshot.tree[active[0]].oid != oid
+
     def update_version(self, asset, first, digest, date, measured, family, kind):
         asset_id = asset["id"]
         repo, _, path = _slot(first)
@@ -320,8 +350,10 @@ class Importer:
         promote = not release or (self.release_only.get(asset_id, True)
                                   and (asset["updatedAt"] is None or is_earlier(asset["updatedAt"], date)))
         if promote:
+            asset["versions"][asset["version"] - 1].setdefault("format", asset["format"])
             asset_versions.archive_publication(asset)
         number = asset_versions.append(asset, digest, current=promote, commit=commit, date=date)
+        asset["versions"][number - 1]["format"] = kind
         if promote:
             evidence = f"{repo}@{commit}:{path}"
             fresh = _asset(asset_id, asset["name"], evidence, asset["createdAt"], date, self.job_id,
@@ -347,7 +379,8 @@ class Importer:
         self.changed.add(asset_id)
         return number
 
-    def import_blob(self, references, commit, date, path, digest, measured, earliest, declared=None):
+    def import_blob(self, references, snapshot, path, digest, measured, earliest, git, declared=None):
+        commit, date = snapshot.commit, snapshot.date
         future = measured.family["type"]
         locations = [location(copy, commit, path, future, tag_only) for copy, tag_only in references]
         locations.sort(key=lambda loc: loc.get("releaseOnly", False))
@@ -371,6 +404,11 @@ class Importer:
                 family = {"type": future, "code": {"repo": first["repo"], "path": path, "symbol": label}}
             label = family.get("code", {}).get("symbol")
             asset_id = self.lineage(first, label, digest, declared)
+            if (asset_id is not None and future != "code-generated" and not first.get("releaseOnly")
+                    and self.split_alias(asset_id, snapshot, path, digest, git)):
+                identity = json_text([first["repo"], path, digest]).encode()
+                key = f"logical:file-path:{hashlib.sha256(identity).hexdigest()}"
+                asset_id = None
             if asset_id is None:
                 if future == "code-generated":
                     asset_id = self.ids.allouer(key, future.replace("-", ""), name)
@@ -411,26 +449,87 @@ class Importer:
             imported_ids.append(asset_id)
         return imported_ids
 
-    def import_region(self, key, name, snapshot, path, digest, pixels):
+    def legacy_atlas_id(self, legacy_key, repo, path, image_path, name, box):
+        suffix = f":{path}#{name}"
+        by_evidence, by_image, by_box = [], [], []
+        for asset_id in self.legacy_regions[name]:
+            if asset_id in self.migrated_atlas:
+                continue
+            asset = self.assets[asset_id]
+            if any(ref.startswith(repo + "@") and ref.endswith(suffix) for ref in asset["provenance"]["evidence"]):
+                by_evidence.append(asset_id)
+            for frame in asset["files"].get("atlasFrames", ()):
+                sheet = self.sheets.get(frame["atlasSheetId"])
+                if sheet and any(loc["repo"] == repo and loc["path"] == image_path
+                                 for loc in sheet["files"]["locations"]):
+                    by_image.append(asset_id)
+                    if all(frame[key] == box[key] for key in ("x", "y", "w", "h")):
+                        by_box.append(asset_id)
+        old_id = self.identity_owners.get(legacy_key)
+        if old_id in by_image:
+            return old_id
+        for candidates in (by_evidence, by_box, by_image):
+            if len(set(candidates)) == 1:
+                return candidates[0]
+        return None
+
+    def import_region(self, legacy_key, name, snapshot, path, image_path, digest, pixels, frame, sheet):
         family = {"type": "sprite", "sprite": {"frameName": name}}
-        asset_id = self.ids.allouer(key, "sprite", name)
+        digest_key = hashlib.sha256(json_text([snapshot.repo, path, name]).encode()).hexdigest()
+        key, alias = f"logical:atlas:{digest_key}", f"alias:atlas:{digest_key}"
+        asset_id = self.identity_owners.get(alias) or self.identity_owners.get(key)
+        if asset_id is None:
+            asset_id = self.legacy_atlas_id(legacy_key, snapshot.repo, path, image_path, name, frame)
+            if asset_id:
+                self.identity_owners[alias] = self.ids.add_alias(alias, asset_id)
+                self.migrated_atlas.add(asset_id)
+            else:
+                asset_id = self.identity_owners[key] = self.ids.allouer(key, "sprite", name)
+        evidence = f"{snapshot.repo}@{snapshot.commit}:{path}#{name}"
+        measured = formats.Format(family, formats.dimensions(*pixels.size),
+                                  pixels.getchannel("A").getextrema()[0] != 255, pixels)
+        release = all(item[2] for item in snapshot.members)
         if asset_id not in self.assets:
-            evidence = f"{snapshot.repo}@{snapshot.commit}:{path}#{name}"
-            measured = formats.Format(family, formats.dimensions(*pixels.size),
-                                      pixels.getchannel("A").getextrema()[0] != 255, pixels)
             asset = _asset(asset_id, name, evidence, snapshot.date, snapshot.date, self.job_id,
                            digest, measured, family, "png")
             asset["files"]["sha256Method"] = "canonical-crop-png"
+            asset["versions"][0].update(commit=snapshot.commit, date=snapshot.date)
             enrich.enrich(asset, path)
             self.assets[asset_id] = asset
             self.changed.add(asset_id)
         asset = self.assets[asset_id]
-        if not self.dry_run and asset.get("thumbnail"):
-            path = self.root / asset["thumbnail"]
-            Catalogue._regular_path(path.parent)
-            if not Catalogue._regular_path(path).exists():
-                _thumbnail(path, pixels)
-        return asset
+        old_number = asset["version"]
+        previous = asset["versions"][old_number - 1]
+        if "atlasFrames" not in previous and asset["files"].get("atlasFrames"):
+            proofs = [{**old, "sourceSheetSha256": self.sheets[old["atlasSheetId"]]["sha256"]}
+                      for old in asset["files"]["atlasFrames"] if old["atlasSheetId"] in self.sheets]
+            if proofs:
+                previous["atlasFrames"] = proofs
+                self.changed.add(asset_id)
+        first = {"repo": snapshot.repo, "path": path, "commit": snapshot.commit, "releaseOnly": release}
+        number = self.update_version(asset, first, digest, snapshot.date, measured, family, "png")
+        if old_number != asset["version"]:
+            asset["files"].pop("atlasFrames", None)
+            asset["updatedAt"] = snapshot.date
+        entry = asset["versions"][number - 1]
+        if "commit" not in entry:
+            entry.update(commit=snapshot.commit, date=snapshot.date)
+            self.changed.add(asset_id)
+        proofs = entry.setdefault("atlasFrames", [])
+        proof = {**frame, "sourceSheetSha256": sheet["sha256"]}
+        if proof not in proofs:
+            proofs.append(proof)
+            self.changed.add(asset_id)
+        self.sources[asset_id].add(snapshot.repo)
+        self.observed[asset_id, snapshot.repo, path, snapshot.commit] = number
+        if not release:
+            self.release_only[asset_id] = False
+        if not self.dry_run and asset.get("thumbnail") and number == asset["version"]:
+            thumbnail = self.root / asset["thumbnail"]
+            Catalogue._regular_path(thumbnail.parent)
+            if not Catalogue._regular_path(thumbnail).exists():
+                _thumbnail(thumbnail, pixels)
+        return asset, number
 
     def version_at(self, asset_id, snapshot, path):
         return self.observed.get((asset_id, snapshot.repo, path, snapshot.commit), 1)

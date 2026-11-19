@@ -6,6 +6,7 @@ from itertools import chain
 
 from PIL import Image, ImageOps
 
+from tools import asset_versions
 from tools.cli import UsageError
 from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, parse_json, read_json, write_json
 from tools.core.exit_codes import ExitCode
@@ -187,18 +188,23 @@ def derive(root, args):
         recipe_data = _bounded_read(scoped_path(args.recipe))
         recipe = parse_json(recipe_data)
         recipe_hash = sha(recipe_data)
-        identity = f"derived:{args.id}:{recipe_hash}"
+        parent_version = asset_versions.version_number(parent)
+        parent_digest = parent["sha256"].lower()
+        input_hash = sha(f"{parent_version}:{parent_digest}:{recipe_hash}".encode("ascii"))
+        identity = f"derived:{args.id}:{input_hash}"
         catalogue = Catalogue(root)
         ids = IdRegistry(catalogue.read(catalogue.path / "ids.json"))
+        parent_revision = {"parentId": args.id, "parentVersion": parent_version, "parentSha256": parent_digest}
         name = f"{parent['name']} variante"
         asset_id = ids.allouer(identity, "sprite", name)
         if asset_id in delivery.assets:
             existing = delivery.asset(asset_id)
-            if asset_id not in parent["variants"] or existing["provenance"].get("derivedFrom") != args.id:
+            if (asset_id not in parent["variants"] or existing["provenance"].get("derivedFrom") != args.id
+                    or any(existing["provenance"].get(key) != value for key, value in parent_revision.items())):
                 return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "derived-record-conflict"}
-            delivery.bytes(existing)
+            delivery.bytes(delivery.revision(existing, asset_versions.version_number(existing)))
             return ExitCode.OK, {"ok": True, "id": asset_id, "asset": existing}
-        pixels = transform(_image(delivery.bytes(parent)), recipe)
+        pixels = transform(_image(delivery.bytes(delivery.revision(parent, parent_version))), recipe)
         raw = canonical_png(pixels)
         digest = sha(raw)
         measured = formats.inspect("sprite.png", raw)
@@ -209,6 +215,7 @@ def derive(root, args):
         asset.pop("thumbnail", None)
         asset["files"]["registry"] = f"sprites/{asset_id}.png"
         asset["provenance"] = {"type": "derived", "derivedFrom": args.id,
+                               **parent_revision,
                                "author": parent["provenance"]["author"], "evidence": [evidence]}
         if parent["license"] in DERIVABLE and parent.get("licenseEvidence"):
             asset["license"] = parent["license"]

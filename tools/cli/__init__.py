@@ -176,7 +176,8 @@ def main(argv=None, *, root=ROOT):
                 log_path = scoped_path(args.log)
                 registry = Path(root).resolve()
                 checkout = worktree(log_path)
-                if (log_path.is_relative_to(registry / "catalog") or ".git" in log_path.parts
+                if (any(log_path.is_relative_to(registry / directory) for directory in ("catalog", "published"))
+                        or ".git" in log_path.parts
                         or checkout is not None and checkout != worktree(registry)):
                     raise CatalogueScopeError("Le journal doit être extérieur au catalogue et aux jeux.")
                 if not log_path.parent.is_dir() or (log_path.exists() and not log_path.is_file()):

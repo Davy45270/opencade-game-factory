@@ -190,12 +190,13 @@ class SheetDiscovery:
         cropped = regions.crop(image, box)
         digest = hashlib.sha256(regions.canonical_png(cropped)).hexdigest()
         key = _region_key(sheet["id"], box)
-        asset = self.target.import_region(key, name, snapshot, atlas_path, digest, cropped)
+        atlas_frame = {"atlasSheetId": sheet["id"], **box}
+        asset, number = self.target.import_region(
+            key, name, snapshot, atlas_path, image_path, digest, cropped, atlas_frame, sheet)
         snapshot.indexed[atlas_path].append(asset["id"])
         snapshot.frame_sources[asset["id"], atlas_path] = image_path
-        if asset["status"] == "published":
+        if number != asset["version"] or asset["status"] == "published":
             return
-        atlas_frame = {"atlasSheetId": sheet["id"], **box}
         if atlas_frame not in asset["files"].setdefault("atlasFrames", []):
             asset["files"]["atlasFrames"].append(atlas_frame)
             self.target.changed.add(asset["id"])

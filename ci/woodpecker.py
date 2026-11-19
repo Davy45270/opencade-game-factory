@@ -31,8 +31,10 @@ import sys
 ICI = pathlib.Path(__file__).resolve().parent
 GABARIT = ICI / "gabarit"
 SCRIPTS = ICI / "scripts"
-NODE_IMAGE = "harbor.pingfr.duckdns.org/dockerhub/library/node:26"
-GITLEAKS_IMAGE = "harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1"
+# Revue Codex 6 (19/11) : les sorties sont PUBLIQUES (dépôts GitHub des jeux) — ni nom d'hôte ni adresse du miroir du
+# homelab ; images publiques et aucune étiquette d'agent (le seul agent sans étiquette obligatoire prend le travail).
+NODE_IMAGE = "docker.io/library/node:26"
+GITLEAKS_IMAGE = "docker.io/zricethezav/gitleaks:v8.30.1"
 E2E_COMMANDE = "npx playwright test"
 CLES = {"node_image", "checks_extra", "e2e_commande", "e2e"}
 

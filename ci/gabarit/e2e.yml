@@ -1,9 +1,6 @@
 @ENTETE@
 # e2e : l'image Playwright est CELLE du package-lock (vérifiée avant tout test), puis le démarrage de l'application
 # construite sous la CSP de production (aucune violation, aucune erreur JS), puis les specs Playwright du jeu.
-labels:
-  host: tank01
-
 when:
   - event: push
     branch: main

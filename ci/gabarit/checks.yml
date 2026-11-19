@@ -1,9 +1,6 @@
 @ENTETE@
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
-labels:
-  host: tank01
-
 when:
   - event: push
     branch: main

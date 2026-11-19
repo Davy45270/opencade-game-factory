@@ -1,10 +1,7 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 130efaecaaf1) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit a570e24452ed) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
-labels:
-  host: tank01
-
 when:
   - event: push
     branch: main
@@ -12,7 +9,7 @@ when:
 
 steps:
   - name: npm ci
-    image: &node harbor.pingfr.duckdns.org/dockerhub/library/node:26
+    image: &node docker.io/library/node:26
     pull: true
     commands:
       - node --version
@@ -49,7 +46,7 @@ steps:
       - npm audit --audit-level=high
       - npm run --if-present check:licenses
   - name: secrets
-    image: harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1
+    image: docker.io/zricethezav/gitleaks:v8.30.1
     commands:
       - gitleaks detect --source . --no-banner --redact
   - name: journaux d'agents hors dépôt

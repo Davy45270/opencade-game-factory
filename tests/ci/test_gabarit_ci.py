@@ -169,7 +169,9 @@ class JeuTemoin(unittest.TestCase):
         for chemin in list((TEMOIN / ".woodpecker").rglob("*")):
             if chemin.is_file() and chemin.name != "usine.json":
                 t = chemin.read_text()
-                self.assertIsNone(re.search(r"\bHL-\d+|/home/|homelab", t), f"{chemin.name} : référence privée")
+                # revue Codex 6 (19/11) : ni nom d'hôte, ni domaine, ni adresse du réseau du homelab
+                self.assertIsNone(re.search(r"\bHL-\d+|/home/|homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav123|192\.168\.", t, re.I),
+                                  f"{chemin.name} : référence privée")
 
 
 @unittest.skipUnless(NODE, "node absent")

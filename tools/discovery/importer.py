@@ -228,6 +228,7 @@ class Importer:
             raise InvalidJSON(str(exc)) from exc
         self.initial_ids = entries
         self.identity_owners = dict(entries)
+        self.generated_lineages = {value for key, value in entries.items() if key.startswith("logical:generated-image:")}
         self.legacy_regions = defaultdict(list)
         self.migrated_atlas = {value for key, value in entries.items() if key.startswith("alias:atlas:")}
         for key, value in entries.items():
@@ -248,6 +249,8 @@ class Importer:
         self.active_paths = defaultdict(dict)
         self.historical_paths = {}
         for asset_id, asset in sorted(self.assets.items()):
+            if "generator" in asset["provenance"]:
+                self.generated_lineages.add(asset_id)
             if asset_versions.initialize(asset):
                 self.changed.add(asset_id)
             versions = {entry["version"]: entry["sha256"].lower() for entry in asset["versions"]}
@@ -280,13 +283,15 @@ class Importer:
         self.observed[sighting] = number
         self.historical_paths.setdefault((repo, path, loc["commit"], symbol), asset_id)
 
-    def lineage(self, loc, symbol, digest, declared):
+    def lineage(self, loc, symbol, digest, declared, isolated=()):
         repo, _, path = _slot(loc)
-        if declared in self.assets and repo in self.sources[declared] and symbol is None:
+        if declared in self.assets and declared not in isolated and repo in self.sources[declared] and symbol is None:
             if repo == min(self.sources[declared]) or self.assets[declared]["sha256"].lower() == digest:
                 return declared
         slot = self.slots.get((repo, path, symbol))
         exact = self.content.get((repo, digest, symbol))
+        if exact and exact[1] in isolated and (not slot or slot[1] != exact[1]):
+            exact = None
         if loc.get("releaseOnly"):
             if seen := self.historical_paths.get((repo, path, loc["commit"], symbol)):
                 return seen
@@ -302,14 +307,29 @@ class Importer:
                 return asset_id
         return None
 
-    def allocate(self, key, repo, digest, category, name):
+    def allocate(self, key, repo, digest, category, name, isolated=()):
         owner = self.identity_owners.get(key)
-        if owner in self.assets and (self.sources[owner] - {repo} or
+        if owner in self.assets and (owner in isolated or self.sources[owner] - {repo} or
                                      self.assets[owner]["sha256"].lower() != digest):
             scope = hashlib.sha256(repo.encode()).hexdigest()
             key = f"file:source:{scope}:{digest}"
+        if self.identity_owners.get(key) in isolated:
+            key = f"logical:ordinary-image:{hashlib.sha256(json_text([repo, digest]).encode()).hexdigest()}"
         asset_id = self.ids.allouer(key, category, name)
         self.identity_owners[key] = asset_id
+        return asset_id
+
+    def generated_lineage(self, repo, path, kind, name):
+        slot = self.slots.get((repo, path, None))
+        if slot:
+            asset_id = slot[1]
+            locations = (*self.assets[asset_id]["files"]["locations"], *self.sightings[asset_id])
+            if all((loc["repo"], loc["path"]) == (repo, path) for loc in locations):
+                self.generated_lineages.add(asset_id)
+                return asset_id
+        identity = hashlib.sha256(json_text([repo, path]).encode()).hexdigest()
+        asset_id = self.ids.allouer(f"logical:generated-image:{identity}", kind.replace("-", ""), name)
+        self.generated_lineages.add(asset_id)
         return asset_id
 
     def split_alias(self, asset_id, snapshot, path, digest, git):
@@ -403,8 +423,14 @@ class Importer:
                 label = "module" if symbol is None else symbol if symbol.strip() else repr(symbol)
                 family = {"type": future, "code": {"repo": first["repo"], "path": path, "symbol": label}}
             label = family.get("code", {}).get("symbol")
-            asset_id = self.lineage(first, label, digest, declared)
-            if (asset_id is not None and future != "code-generated" and not first.get("releaseOnly")
+            generated = path in snapshot.generated_paths
+            isolated = self.generated_lineages
+            if not generated and (exact := self.content.get((first["repo"], digest, label))):
+                if self.active_paths[exact[1], first["repo"]].keys() & snapshot.generated_paths.keys():
+                    isolated = isolated | {exact[1]}
+            asset_id = (self.generated_lineage(first["repo"], path, future, name) if generated
+                        else self.lineage(first, label, digest, declared, isolated))
+            if (asset_id is not None and not generated and future != "code-generated" and not first.get("releaseOnly")
                     and self.split_alias(asset_id, snapshot, path, digest, git)):
                 identity = json_text([first["repo"], path, digest]).encode()
                 key = f"logical:file-path:{hashlib.sha256(identity).hexdigest()}"
@@ -413,7 +439,7 @@ class Importer:
                 if future == "code-generated":
                     asset_id = self.ids.allouer(key, future.replace("-", ""), name)
                 else:
-                    asset_id = self.allocate(key, first["repo"], digest, future.replace("-", ""), name)
+                    asset_id = self.allocate(key, first["repo"], digest, future.replace("-", ""), name, isolated)
             created = datetime.fromtimestamp(earliest, timezone.utc).isoformat() if earliest is not None else date
             if asset_id not in self.assets:
                 evidence = f"{first['repo']}@{commit}:{path}"
@@ -556,6 +582,9 @@ class Importer:
         source_heads = defaultdict(set)
         for (repo, _), commit in commits.items():
             source_heads[repo].add(commit)
+        reassigned = {_slot(loc): (asset_id, loc["commit"])
+                      for asset_id in self.generated_lineages for loc in self.sightings[asset_id]
+                      if not loc.get("releaseOnly")}
         for asset_id, asset in self.assets.items():
             previous = asset["files"]["locations"]
             latest = self.sightings[asset_id]
@@ -581,6 +610,9 @@ class Importer:
                         final.append(entry)
                 elif seen is not None and seen["assetVersion"] == entry.get("assetVersion", 1):
                     continue
+                elif identity in reassigned and reassigned[identity] != (asset_id, entry["commit"]):
+                    _, moved_at = reassigned[identity]
+                    final.append({**entry, "status": "removed", "removedAtCommit": moved_at})
                 elif commit is not None and commit != entry["commit"]:
                     final.append({**entry, "status": "removed", "removedAtCommit": commit})
                 else:

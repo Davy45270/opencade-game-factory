@@ -961,6 +961,11 @@
     },
     "provenance": {
       "additionalProperties": false,
+      "if": {"required": ["generator"]},
+      "then": {
+        "properties": {"type": {"const": "code-generated"}},
+        "not": {"anyOf": [{"required": ["sourceSheetSha256"]}, {"required": ["derivedFrom"]}]}
+      },
       "properties": {
         "author": {
           "pattern": "\\S",
@@ -979,6 +984,16 @@
             "type": "string"
           },
           "type": "array"
+        },
+        "generator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "commit", "sha256"],
+          "properties": {
+            "path": {"$ref": "#/$defs/path"},
+            "commit": {"pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})(?![\\s\\S])", "type": "string"},
+            "sha256": {"$ref": "#/$defs/sha256"}
+          }
         },
         "model": {
           "pattern": "\\S",
@@ -1034,7 +1049,7 @@
               "const": "magick"
             },
             "toolVersion": {
-              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?![\\s\\S])",
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9]+)?(?![\\s\\S])",
               "type": "string"
             },
             "ref": {
@@ -1081,6 +1096,21 @@
     "versions": ["version"]
   },
   "allOf": [
+    {
+      "if": {
+        "properties": {"provenance": {"properties": {"type": {"const": "code-generated"}}}}
+      },
+      "then": {
+        "if": {"properties": {"family": {"type": "object", "properties": {"type": {"const": "code-generated"}}}}},
+        "else": {
+          "properties": {
+            "provenance": {"required": ["generator"]},
+            "sourceSheetId": {"type": "null"},
+            "sourceRegion": {"type": "null"}
+          }
+        }
+      }
+    },
     {
       "if": {
         "properties": {

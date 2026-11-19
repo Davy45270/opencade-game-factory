@@ -115,7 +115,7 @@ class SheetDiscovery:
         self.declarations = {}
         for snapshot in snapshots:
             for path, asset_ids in snapshot.indexed.items():
-                if formats.extension(path) in formats.RASTER:
+                if formats.extension(path) in formats.RASTER and path not in snapshot.generated_paths:
                     asset = self._image_record(snapshot, path, asset_ids[0])
                     self.images[asset["sha256"]].append((snapshot, path, asset))
 
@@ -172,7 +172,8 @@ class SheetDiscovery:
         basename_matches = [(other, path, asset) for records in self.images.values()
                             for other, path, asset in records if PurePosixPath(path).name == name
                             and (other is snapshot or _david_path(other, path))]
-        if len(local) == 1 and formats.extension(local[0]) in formats.RASTER:
+        if (len(local) == 1 and formats.extension(local[0]) in formats.RASTER
+                and local[0] not in snapshot.generated_paths):
             path = local[0]
             asset = self._image_record(snapshot, path, snapshot.indexed[path][0])
             return self._sheet(snapshot, path, asset), snapshot, path
@@ -387,7 +388,8 @@ class SheetDiscovery:
                     break
         for snapshot in self.snapshots:
             self.declarations[snapshot] = self._read_declarations(snapshot)
-            atlas_images = {path for path in snapshot.indexed if formats.extension(path) in formats.RASTER}
+            atlas_images = {path for path in snapshot.indexed if formats.extension(path) in formats.RASTER
+                            and path not in snapshot.generated_paths}
             atlas_files = atlas_images | {path for path, (family, _, _) in snapshot.measurements.items()
                                           if family["type"] == "atlas"}
             for atlas_path, (family, metadata, _) in snapshot.measurements.items():

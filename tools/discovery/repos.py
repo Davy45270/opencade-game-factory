@@ -27,6 +27,7 @@ class Copy:
     visibility: str
     default_branch: str | None
     path_aliases: tuple[tuple[str, str], ...] = ()
+    generated_resources: tuple[tuple[str, str, tuple[str, ...]], ...] = ()
 
     @property
     def key(self):
@@ -51,6 +52,9 @@ def source_problems(document):
         patterns = [alias["from"] for alias in source.get("pathAliases", ())]
         if len(set(patterns)) != len(patterns):
             yield f"Motif pathAliases répété pour {source['name']}."
+        patterns = [entry["path"] for entry in source.get("generatedResources", ())]
+        if len(set(patterns)) != len(patterns):
+            yield f"Motif generatedResources répété pour {source['name']}."
         seen = set()
         for copy in source["copies"]:
             provider = copy["provider"]
@@ -74,10 +78,12 @@ def _copies(path):
     result = {}
     for source in value["sources"]:
         aliases = tuple((alias["from"], alias["to"]) for alias in source.get("pathAliases", ()))
+        generated = tuple((entry["path"], entry["generator"], tuple(entry["mentions"]))
+                          for entry in source.get("generatedResources", ()))
         for item in source["copies"]:
             copy = Copy(source["name"], source["role"], tuple(source["games"]), item["provider"],
                         item.get("path", item.get("url")), item.get("visibility", "unknown"),
-                        item["defaultBranch"], aliases)
+                        item["defaultBranch"], aliases, generated)
             result[copy.key] = copy
     return result
 

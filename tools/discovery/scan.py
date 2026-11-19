@@ -14,7 +14,7 @@ from tools import asset_versions
 from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, parse_json, read_json, write_json
 from tools.core.exit_codes import ExitCode
 from tools.core.schemas import schemas
-from tools.discovery import formats, importer, references as usage_index, snapshots
+from tools.discovery import formats, generated, importer, references as usage_index, snapshots
 from tools.discovery.jobs import job_for
 from tools.discovery.repos import OID, Git, GitError, check_destinations, select
 from tools.extract.sheets import SheetDiscovery
@@ -299,12 +299,19 @@ def _scan(root, args, git, cache, temporary, copies, template):
     next_refs = {}
     changed_repos = set()
     aliases_by_copy = {copy.key: [list(alias) for alias in sorted(copy.path_aliases)] for copy in copies}
+    generated_by_copy = {
+        copy.key: [[path, generator, sorted(set(mentions))]
+                   for path, generator, mentions in sorted(copy.generated_resources)]
+        for copy in copies
+    }
     for key, (_, reference) in prepared.items():
         if key in skipped:
             continue
         releases = sorted({tag["commit"] for tag in allowed[key] if tag["commit"] != reference["commit"]})
         record = {"name": key[0], "provider": key[1], **reference, "releaseCommits": releases,
                   "importedTags": allowed[key], "pathAliases": aliases_by_copy[key]}
+        if generated_by_copy[key]:
+            record["generatedResources"] = generated_by_copy[key]
         next_refs[key] = record
         if references.get(key) != record:
             changed_repos.add(key[0])
@@ -343,6 +350,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
 
         snapshot = snapshots.Snapshot(repo, commit, mirror, date, members,
                                       {blob.path: blob for blob in git.tree(mirror, commit, sizes=True)})
+        snapshot.generated_paths = generated.declarations(snapshot.tree, members[0][0].generated_resources)
         trees.append(snapshot)
         declared = _declared_assets(git, snapshot)
 
@@ -364,6 +372,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
     _record_causality(target, trees, git)
     snapshots.code_licenses(trees, target)
     snapshots.catalogue_enrichment(trees, target)
+    generated_limits = generated.apply(trees, target, git)
     dynamic = snapshots.build_graph(trees, target, references, git, imported)
     active_commits = {(record["name"], commit) for record in references.values()
                       for commit in [record["commit"], *record["releaseCommits"]]}
@@ -386,9 +395,14 @@ def _scan(root, args, git, cache, temporary, copies, template):
             aliases.extend(row for row in read_json(aliases_path)
                            if (row["repo"], row["commit"]) in active_commits - scanned)
         aliases.sort(key=lambda row: tuple(row[key] for key in ("repo", "commit", "path", "field", "reference")))
+        limits_path = Catalogue._regular_path(root / "generated" / "reports" / "scan-limits.json")
+        if limits_path.is_file():
+            generated_limits.extend(row for row in read_json(limits_path).get("generatedResources", ())
+                                    if (row["repo"], row["commit"]) in active_commits - scanned)
+        generated_limits.sort(key=lambda row: (row["repo"], row["commit"], row["path"]))
         reports.emit(root, repositories, [*rows, *previous_exceptions], exceptions,
                      target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values(),
-                     divergent_tags=divergent_tags, path_aliases=aliases)
+                     divergent_tags=divergent_tags, path_aliases=aliases, generated_limits=generated_limits)
         usage_index.emit(root, target.assets.values())
         licenses.emit(root, target.assets.values(), target.sheets.values())
         dynamic_path = root / "generated" / "reports" / "dynamic-refs.json"

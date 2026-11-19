@@ -9,7 +9,7 @@ from shutil import which
 
 from PIL import Image
 
-VERSION = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+")
+VERSION = re.compile(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9]+)?")
 TIMEOUT = 30
 
 
@@ -24,7 +24,7 @@ def installed():
             result = subprocess.run([executable, "-version"], capture_output=True, check=True, timeout=TIMEOUT)
         except (OSError, subprocess.SubprocessError):
             return None
-        match = re.search(rb"ImageMagick ([0-9]+\.[0-9]+\.[0-9]+)", result.stdout)
+        match = re.search(rb"ImageMagick (" + VERSION.pattern.encode("ascii") + rb")(?=\s|$)", result.stdout)
         if match:
             return os.path.abspath(executable), match[1].decode("ascii")
     return None

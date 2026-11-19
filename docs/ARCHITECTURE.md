@@ -191,7 +191,7 @@ porte la preuve. » Sur les 14 entrées à raccords mesurées dans capsule-panic
 Le minimum hors raccord est de 3 605 pixels et la médiane de 4 840 pixels.
 Les masques de silhouette décrits dans `transformations` sont hors périmètre.
 
-Une recette déclarant `outils.magick` au format `N.N.N` utilise ImageMagick
+Une recette déclarant `outils.magick` au format `N.N.N` ou `N.N.N-N` utilise ImageMagick
 pour le recadrage avec marge, la mise à zéro de l’alpha sous 4 %, le rognage,
 le redimensionnement et le placement dans le cadre selon l’ancre. La preuve
 RMSE indique `tool: "magick"` et la version retournée par `magick -version`.
@@ -208,6 +208,34 @@ portion du nom remplace l’astérisque dans le chemin cible. Un résultat uniqu
 dans le même arbre Git est requis. Le scan consigne le chemin cité et le
 chemin résolu, avec le dépôt, le commit et le fichier déclarant la référence,
 dans `generated/reports/path-aliases.json` et son équivalent Markdown.
+
+### Images générées par code
+
+Dans `catalog/sources.json`, une source peut déclarer
+`"generatedResources": [{"path": "public/icons/icon-*.png", "generator": "scripts/icons.js", "mentions": ["public/icons/icon-"]}]`.
+Les chemins sont relatifs à la racine Git. Le chemin de sortie peut être
+littéral ou contenir un astérisque dans le nom de fichier, comme pour
+`pathAliases`. Pour une image raster prise en charge ou un SVG, le scan lit
+le générateur au commit importé et vérifie chaque fragment par correspondance
+littérale dans ses octets.
+
+L’image conserve sa famille de format. Sa provenance `code-generated`
+contient `generator.path`, `generator.commit` et `generator.sha256`, et les
+champs communs de planche et région valent `null`. La famille `code-generated`
+désigne un module de dessin ou un symbole de ce module inventorié comme code.
+La déclaration sépare l’identité de la sortie de celle des autres chemins
+de mêmes octets pour que chacun conserve ses propres droits.
+
+La licence du dépôt est lue dans `LICENSE` ou dans `package.json` à la racine
+du même commit. Le registre reconnaît les textes MIT, Apache-2.0, ISC et
+BSD-3-Clause, ainsi que les identifiants SPDX admis par le schéma sous la
+forme `SPDX-License-Identifier` ou dans la propriété `license` du manifeste.
+La preuve cite `LICENSE` quand ce fichier établit la licence et
+`package.json` quand le manifeste seul l’établit. Une divergence entre les
+deux fichiers, une licence indéterminée, un générateur indisponible, un
+fragment absent ou des déclarations incompatibles laissent la licence à
+`unknown`. Le rapport `scan-limits` cite chaque sortie concernée et son motif.
+Les révisions déjà publiées conservent leur preuve de publication.
 
 ## Codes de retour
 
@@ -316,9 +344,10 @@ explicite. Les révisions publiées sont lisibles après purge des miroirs.
 Une révision dont les octets sont indisponibles renvoie le code 4.
 
 `sync` compare les branches par défaut, les cartes nom–commit des tags et
-les tables `pathAliases` effectives aux références enregistrées. Un changement
-de tags ou d’alias déclenche une analyse même à tête inchangée. Une référence
-enregistrée avant l’ajout des tables au suivi est relue une fois. Pour un même
+les tables `pathAliases` et `generatedResources` effectives aux références
+enregistrées. Un changement de tags ou de table déclenche une analyse même à
+tête inchangée. Une référence enregistrée sans la table des alias est relue
+une fois. Pour un même
 nom de tag, parmi les copies retenues pour l’import, le commit descendant de
 tous les autres l’emporte. Si les
 commits divergent, la priorité est GitHub, Forgejo, puis local. Le rapport de

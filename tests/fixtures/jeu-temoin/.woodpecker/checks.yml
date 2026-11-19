@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 187e017c17d7) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 3b9db0b837de) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -28,6 +28,8 @@ steps:
   - name: test
     image: *node
     commands:
+      # La suite unitaire COMPLÈTE, à chaque push : deux lots écrits en parallèle passent chacun leurs tests ciblés,
+      # et c'est leur somme qui casse. En local, on garde les tests ciblés ; ici, jamais de filtre.
       - npm test
   - name: build
     image: *node
@@ -54,3 +56,8 @@ steps:
     image: harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1
     commands:
       - gitleaks detect --source . --no-banner --redact
+  - name: journaux d'agents hors dépôt
+    image: *node
+    commands:
+      # Les journaux et prompts d'agents (.codex-logs) ne se versionnent jamais dans un dépôt de jeu public.
+      - test -z "$(git ls-files .codex-logs .claude 2>/dev/null)" || { git ls-files .codex-logs .claude; exit 1; }

@@ -27,6 +27,8 @@ steps:
   - name: test
     image: *node
     commands:
+      # La suite unitaire COMPLÈTE, à chaque push : deux lots écrits en parallèle passent chacun leurs tests ciblés,
+      # et c'est leur somme qui casse. En local, on garde les tests ciblés ; ici, jamais de filtre.
       - npm test
   - name: build
     image: *node
@@ -50,3 +52,8 @@ steps:
     image: @GITLEAKS_IMAGE@
     commands:
       - gitleaks detect --source . --no-banner --redact
+  - name: journaux d'agents hors dépôt
+    image: *node
+    commands:
+      # Les journaux et prompts d'agents (.codex-logs) ne se versionnent jamais dans un dépôt de jeu public.
+      - test -z "$(git ls-files .codex-logs .claude 2>/dev/null)" || { git ls-files .codex-logs .claude; exit 1; }

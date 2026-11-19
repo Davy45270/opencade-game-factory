@@ -47,6 +47,9 @@ class JeuTemoin(unittest.TestCase):
         self.assertIn("version-playwright.mjs --verifier", e2e)
         self.assertIn("node .woodpecker/usine/demarrage-csp.mjs dist", e2e)
         self.assertIn("name: assets du jeu", checks)                # étape propre au jeu, par usine.json
+        self.assertRegex(checks, r"\n      - npm test\n")              # suite unitaire COMPLÈTE en CI, sans filtre
+        self.assertIn("git ls-files .codex-logs", checks)            # journaux d'agents jamais versionnés
+        self.assertIn("event: push", e2e)                            # e2e (démarrage sous CSP compris) à chaque push
         for s in ("verifier-sbom.mjs", "version-playwright.mjs", "demarrage-csp.mjs"):
             self.assertTrue((TEMOIN / ".woodpecker/usine" / s).is_file(), s)
 

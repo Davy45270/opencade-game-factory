@@ -132,5 +132,85 @@ class L8RaccordsPlafondEtPlancher(L6._Monde):
         self.assertFalse(mesures, f"couverture ≥ 75 % : pas de mesure : {mesures}")
 
 
+# ------------------------------------------------------------------------------------------------
+# M6 — `sync` lit un changement de `pathAliases` à refs sources constantes
+# ------------------------------------------------------------------------------------------------
+
+class L8SyncPathAliasesARefsConstantes(unittest.TestCase):
+    """Constat M6 (relecture n° 2) : « Si le catalogue commité ajoute ou modifie une table sans déplacement de
+    branche ou de tag source, la référence comparée reste identique. `sync` peut retourner 0, `scannedCopies: 0`,
+    avec la résolution et le rapport précédents. Un scan complet applique la table. »
+
+    Contrat : la table `pathAliases` effective fait partie de l'état comparé par le scan incrémental. Ajouter ou
+    retirer une table à commit source constant fait relire la copie (`scannedCopies` ≥ 1), et la branche de sync
+    porte la résolution que donnerait un scan complet (région de `sprite-p1` mesurée sous le seuil)."""
+
+    BRANCHE = "sync/l8-alias"
+
+    def setUp(self):
+        self.world = M.creer_monde()
+        self.addCleanup(self.world.nettoyer)
+        self.reg = self.world.registre
+
+    def _alias(self, valeur):
+        chemin = self.reg / C.SOURCES
+        doc = C.lire_json(chemin)
+        entree = next(s for s in doc[C.CLE_SOURCES] if s.get("name") == "jeu-p")
+        if valeur is None:
+            entree.pop("pathAliases", None)
+        else:
+            entree["pathAliases"] = valeur
+        chemin.write_text(_json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        self.world.commiter_registre("Registre : table pathAliases de jeu-p modifiée (refs sources constantes)")
+
+    def _sync(self):
+        r = self.world.ctl(C.cmd_sync(self.BRANCHE))
+        self.assertEqual(r.code, C.OK, f"sync\n{r}")
+        return _json.loads(r.stdout)
+
+    def _mesures_sur_branche(self):
+        def lire(dossier):
+            noms = self.world.git(self.reg, "ls-tree", "--name-only", f"{self.BRANCHE}:{dossier}").split()
+            return {n[:-5]: _json.loads(self.world.git(self.reg, "show", f"{self.BRANCHE}:{dossier}/{n}"))
+                    for n in noms if n.endswith(".json")}
+        ids = [i for i, a in lire(C.DOSSIER_ASSETS).items() if isinstance(a.get("family"), dict)
+               and a["family"].get("sprite", {}).get("frameName") == "sprite-p1"]
+        regions = [r for p in lire(C.DOSSIER_PLANCHES).values() for r in p.get("regions", [])
+                   if r.get("assetId") in ids]
+        return L6._rmse_mesurees(regions)
+
+    def test_ajout_de_la_table_relu_par_sync(self):
+        L6._ajouter_jeu(self, "jeu-p", L6._fichiers_jeu_p())
+        r = self.world.scan()
+        self.assertEqual(r.code, C.OK, f"fixture : scan sans table\n{r}")
+        self.world.commiter_registre("Catalogue sans table")
+        self._alias(L6.ALIAS)
+        sortie = self._sync()
+        self.assertGreaterEqual(sortie.get("scannedCopies", 0), 1,
+                                f"table ajoutée à refs constantes : la copie doit être relue : {sortie}")
+        mesures = self._mesures_sur_branche()
+        self.assertTrue(mesures and min(mesures) <= L6.SEUIL,
+                        f"la branche de sync porte la résolution par la table (comme un scan complet) : {mesures}")
+
+    def test_retrait_de_la_table_relu_par_sync(self):
+        L6._ajouter_jeu(self, "jeu-p", L6._fichiers_jeu_p(), alias=L6.ALIAS)
+        r = self.world.scan()
+        self.assertEqual(r.code, C.OK, f"fixture : scan avec table\n{r}")
+        self.world.commiter_registre("Catalogue avec table")
+        self._alias(None)
+        sortie = self._sync()
+        self.assertGreaterEqual(sortie.get("scannedCopies", 0), 1,
+                                f"table retirée à refs constantes : la copie doit être relue : {sortie}")
+
+    def test_temoin_refs_et_table_constantes_rien_a_relire(self):
+        L6._ajouter_jeu(self, "jeu-p", L6._fichiers_jeu_p(), alias=L6.ALIAS)
+        r = self.world.scan()
+        self.assertEqual(r.code, C.OK, f"fixture : scan avec table\n{r}")
+        self.world.commiter_registre("Catalogue avec table")
+        self._sync()
+        sortie = self._sync()
+        self.assertEqual(sortie.get("scannedCopies"), 0, f"témoin : rien n'a changé, rien à relire : {sortie}")
+
+
 if __name__ == "__main__":
     unittest.main()

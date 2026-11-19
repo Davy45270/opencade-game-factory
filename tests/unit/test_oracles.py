@@ -37,11 +37,11 @@ ASSET = {
 }
 
 
-class CatalogueOracles(unittest.TestCase):
+class CatalogueFixture:
     def setUp(self):
-        with contextlib.ExitStack() as cleanup:
-            self.root = Path(cleanup.enter_context(tempfile.TemporaryDirectory(dir=ROOT)))
-            self.addCleanup(cleanup.pop_all().close)
+        temporary = tempfile.TemporaryDirectory(dir=ROOT)
+        self.addCleanup(temporary.cleanup)
+        self.root = Path(temporary.name)
         for name in ("assets", "sheets", "universes"):
             (self.root / "catalog" / name).mkdir(parents=True)
         self.write("sources.json", [])
@@ -80,6 +80,8 @@ class CatalogueOracles(unittest.TestCase):
         self.git("-c", "user.name=Fixture", "-c", "user.email=fixture@example.invalid",
                  "commit", "-qm", "Base de test")
 
+
+class CatalogueOracles(CatalogueFixture, unittest.TestCase):
     def test_T01_27_champs_obligatoires(self):
         self.validate_asset(0)
         for field in FIELDS:

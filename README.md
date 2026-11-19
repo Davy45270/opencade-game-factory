@@ -34,7 +34,8 @@ le journal.
 | 1 | Contrôle en échec ou fiche introuvable |
 | 2 | Usage, arguments invalides ou commande prévue pour un autre lot |
 | 3 | Refus de sécurité (licence, périmètre, lecture seule) |
-| 4 | Erreur d’entrée/sortie ou dépendance indisponible |
+| 4 | Source indisponible : entrée/sortie, réseau, dépendance ou miroir injoignable |
+| 5 | Conflit de versions (catalogue, identifiants ou base modifiés entre lecture et écriture) — table commune, voir `docs/ARCHITECTURE.md` |
 
 [Architecture](docs/ARCHITECTURE.md) · [Contribution](docs/CONTRIBUTING.md) ·
 [Règles agents](docs/AGENTS.md) · [Migration](docs/MIGRATION.md)

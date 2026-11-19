@@ -93,8 +93,33 @@ les usages des assets qui en proviennent.
 | 1 | Contrôle en échec ou fiche introuvable |
 | 2 | Usage, arguments invalides ou commande prévue pour un autre lot |
 | 3 | Refus de sécurité (licence, périmètre, lecture seule) |
-| 4 | Erreur d’entrée/sortie ou dépendance indisponible |
+| 4 | Source indisponible : erreur d’entrée/sortie, réseau, dépendance ou miroir injoignable |
+| 5 | Conflit de versions : catalogue, registre d’identifiants ou base modifiés entre la lecture et l’écriture |
+
+Cette table est **commune à toutes les sous-commandes** et aux CLI à venir de l’usine (`specctl`, niveaux, briques),
+alignée sur celle de `specctl` (REG-003) : 0 succès, 1 contrôle, 2 usage, 3 refus, 4 source indisponible, 5 conflit
+de versions. Un module ne crée pas son propre code ; un cas nouveau s’ajoute ici. Les codes de la spec EXT-002
+(`levelctl` : 3 référence absente, 4 validation échouée, 5 droits, 6 simulation indéterminée, 7 infrastructure) se
+rangent dans cette table : référence absente et validation échouée → 1, droits → 3, infrastructure → 4 ; une
+simulation indéterminée (`inconclusive`) n’est jamais un succès et rend 1, avec `status: inconclusive` dans le JSON.
 
 Le journal JSON Lines est écrit sur stderr par défaut. `--log <fichier>`
 ajoute les événements à un fichier extérieur au catalogue. Le résultat
 `--json` est écrit sur stdout.
+
+## Modules à venir : le dépôt unique de l’usine
+
+Décision de David (HL-525 7-2955) : ce dépôt devient le dépôt unique de l’usine, avec un module par domaine, la même
+CLI et la même CI Woodpecker :
+
+| Module | Spec | État |
+| --- | --- | --- |
+| `assets` | OpenCade Asset Registry v1.0, EXT-001 | P0 en cours (code actuel de `tools/`) |
+| `levels` | EXT-002 Level & World | après EXT-001 ; validateurs puzzle, puis RPG et donjon |
+| `specs/` | REG-003 Specification Registry | à venir (analyse des écarts, HL-525 7-2957) |
+| `blocks/` | BB-001 Building Blocks | à venir |
+
+Règles qui le permettent dès maintenant : `tools/core/` reste générique (catalogue, identifiants, journal, codes de
+retour communs) ; ce qui est propre aux assets vit dans les autres paquets de `tools/` ; rien n’est renommé avant la
+décision de renommage, prise après le lot L3.
+

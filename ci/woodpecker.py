@@ -36,6 +36,7 @@ SCRIPTS = ICI / "scripts"
 NODE_IMAGE = "docker.io/library/node:26"
 GITLEAKS_IMAGE = "docker.io/zricethezav/gitleaks:v8.30.1"
 E2E_COMMANDE = "npx playwright test"
+PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav123|192\.168\.|\.lan\b|\.local\b", re.I)
 CLES = {"node_image", "checks_extra", "e2e_commande", "e2e"}
 
 
@@ -119,6 +120,9 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
     image = _ligne_simple("node_image", p["node_image"]) if "node_image" in p else NODE_IMAGE
     if not IMAGE_RE.fullmatch(image):
         raise Indisponible(f"usine.json : node_image invalide {image!r}")
+    # revue Codex 7 (19/11) : la sortie est PUBLIQUE — un node_image qui nomme le miroir ou un hôte du réseau privé fuirait
+    if PRIVE_RE.search(image):
+        raise Indisponible(f"usine.json : node_image nomme une infrastructure privée ({image!r}) : image publique seulement")
     commande = _ligne_simple("e2e_commande", p["e2e_commande"]) if "e2e_commande" in p else E2E_COMMANDE
     if "e2e" in p and not isinstance(p["e2e"], bool):
         raise Indisponible("usine.json : e2e doit être true ou false")

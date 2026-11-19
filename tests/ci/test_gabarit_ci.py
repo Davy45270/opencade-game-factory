@@ -138,6 +138,13 @@ class JeuTemoin(unittest.TestCase):
         self.parametres(node_image="node:26\n    privileged: true")
         self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)
 
+    def test_node_image_du_miroir_prive_refusee(self) -> None:
+        # revue Codex 7 (19/11) : un node_image hérité qui nomme le miroir interne fuirait dans le workflow public
+        self.parametres(node_image="harbor.pingfr.duckdns.org/dockerhub/library/node:26")
+        r = lancer("rendre", str(self.jeu))
+        self.assertEqual(r.returncode, 4)
+        self.assertIn("privée", r.stderr)
+
     def test_checks_extra_qui_ajoute_un_attribut_a_build_refuse(self) -> None:
         self.parametres(checks_extra="    privileged: true\n")
         self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)

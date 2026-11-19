@@ -93,10 +93,12 @@ Chaque fiche porte `version`, le numéro courant, et `sha256`, son empreinte.
 Les numéros sont immuables une fois inscrits. Les liens `causalPrevious`
 et `causalNext` désignent les voisins immédiats qui ressortent de l’ascendance
 des commits Git, et peuvent remonter ou descendre dans les numéros. Une
-extrémité ou une relation dont les objets Git sont indisponibles donne un lien
-nul. Les entrées portant des commits incomparables ont deux liens nuls et
-`causalOrder: "incomparable"`. Plusieurs voisins immédiats possibles donnent
-`causalOrder: "ambiguous"` et deux liens nuls.
+extrémité sans voisin donne un lien nul. Les entrées portant des commits
+incomparables ont deux liens nuls et `causalOrder: "incomparable"`. Plusieurs
+voisins immédiats possibles donnent `causalOrder: "ambiguous"` et deux liens
+nuls. Si une comparaison est indisponible pendant le recalcul, les versions
+de la fiche passent à `causalOrder: "unknown"` avec des liens nuls. Les liens
+inscrits sont réciproques et sans cycle.
 Une fiche L1–L3 se lit comme une version 1 implicite. Le scan suivant inscrit
 cette version dans le catalogue, avec un résultat identique au scan suivant
 sur les mêmes commits. `validate` contrôle les liens, l’empreinte courante et les
@@ -175,11 +177,19 @@ déclaré. Il normalise ensuite la découpe et compare les pixels au cadre
 d’atlas avec le seuil RMSE de 0,02. La provenance reste `derived`. Une recette
 illisible ou une géométrie invalide rend la comparaison indisponible et
 produit une entrée `declared-retouch-unreadable` dans `scan-limits`. Une recette
-valide sans raccord produit `declared-retouch-without-raccords`. Si l’union
-des cibles couvre plus de 50 % de la découpe avec sa marge effective, la
-mesure est refusée avec `raccord-target-coverage-exceeded`. Chaque pixel
-recouvert compte une seule fois. Les masques de silhouette décrits dans
-`transformations` sont hors périmètre.
+valide sans raccord produit `declared-retouch-without-raccords`. La mesure
+exige une couverture strictement inférieure à 75 % et au moins 1 024 pixels
+hors raccord dans la découpe avec sa marge effective. Chaque pixel de l’union
+des cibles compte une seule fois. Un refus laisse la RMSE absente et inscrit
+`raccord-target-coverage-exceeded` ou `raccord-outside-pixels-below-minimum` dans
+`scan-limits`.
+
+Arbitrage du coordinateur du 19 novembre 2026 (HL-538) « plafond à 75 %
+exclusif et plancher de 1 024 px hors raccord. C'est le plancher absolu qui
+porte la preuve. » Sur les 14 entrées à raccords mesurées dans capsule-panic,
+12 couvrent de 0,146 à 0,398 de la découpe, et les deux autres 0,530 et 0,697.
+Le minimum hors raccord est de 3 605 pixels et la médiane de 4 840 pixels.
+Les masques de silhouette décrits dans `transformations` sont hors périmètre.
 
 Une recette déclarant `outils.magick` au format `N.N.N` utilise ImageMagick
 pour le recadrage avec marge, la mise à zéro de l’alpha sous 4 %, le rognage,
@@ -264,6 +274,17 @@ de la recette et la révision courante du parent pour allouer l’ID. La
 provenance inscrit `parentId`, `parentVersion` et `parentSha256`. Une preuve de licence autorisant
 l’adaptation permet d’hériter de la licence.
 
+Une preuve de licence héritée suit la chaîne des révisions parentes citées
+par ID, numéro et SHA-256. Chaque parent doit encore porter la même licence,
+avec une preuve et une autorisation d’export admissibles. Pour un lock
+public, toute la chaîne est lue au `registryCommit` attesté. Pour
+`materialize` et `publish`, le contrôle utilise le catalogue de travail.
+
+Les chemins fournis à la CLI sont relatifs au répertoire courant de
+l’appelant. Dans `usage add`, `--path` désigne le chemin inscrit dans le lock
+et reste relatif à la racine du jeu désigné par `--repo-dir`. Les destinations
+restent soumises au périmètre de chaque commande.
+
 `usage add` écrit le lock à la racine du jeu et matérialise l’asset au
 chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
 a pour `assetVersion` la chaîne `"1"`. Pour une fiche versionnée, le lock
@@ -294,10 +315,12 @@ et de l’extension de cette révision. Il accepte aussi un chemin de fichier
 explicite. Les révisions publiées sont lisibles après purge des miroirs.
 Une révision dont les octets sont indisponibles renvoie le code 4.
 
-`sync` compare les branches par défaut et les cartes nom–commit des tags
-aux références enregistrées. Les changements de tags déclenchent une analyse
-même à tête inchangée. Pour un même nom de tag, parmi les copies retenues
-pour l’import, le commit descendant de tous les autres l’emporte. Si les
+`sync` compare les branches par défaut, les cartes nom–commit des tags et
+les tables `pathAliases` effectives aux références enregistrées. Un changement
+de tags ou d’alias déclenche une analyse même à tête inchangée. Une référence
+enregistrée avant l’ajout des tables au suivi est relue une fois. Pour un même
+nom de tag, parmi les copies retenues pour l’import, le commit descendant de
+tous les autres l’emporte. Si les
 commits divergent, la priorité est GitHub, Forgejo, puis local. Le rapport de
 migration consigne chaque candidat dans `divergentTags`. Le scan lit les
 arbres et les blobs des copies à importer et

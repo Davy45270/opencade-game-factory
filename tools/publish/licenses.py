@@ -3,11 +3,15 @@
 import re
 import unicodedata
 
+from tools import asset_versions
 from tools.core.catalog import write_json, write_text
+from tools.core.ids import parse_id
 from tools.core.schemas import schemas
 from tools.discovery.enrich import trace
 
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
+DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
+             "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 
 
 def assign(asset, license_id, method, ref, decision):
@@ -70,20 +74,51 @@ def apply_catalogue(asset, entry, ref):
             assign(asset, "MIT", "catalogue-import", ref, rights)
 
 
-def public_allowed(record, sheet_digests):
-    return (explicit_spdx(record.get("license")) and bool(record.get("licenseEvidence"))
-            and record.get("publicExport") != "forbidden"
-            and record["sha256"].lower() not in sheet_digests)
+def public_allowed(record, sheet_digests, find_parent):
+    """Check the selected revision and each revision it names as a parent."""
+    license_id = record.get("license")
+    seen = set()
+    while True:
+        if (record.get("license") != license_id or not explicit_spdx(license_id)
+                or not record.get("licenseEvidence") or record.get("publicExport") == "forbidden"
+                or record["sha256"].lower() in sheet_digests):
+            return False
+        provenance = record.get("provenance")
+        if not isinstance(provenance, dict) or "parentId" not in provenance:
+            return True
+        parent_id = provenance["parentId"]
+        number = provenance.get("parentVersion")
+        digest = provenance.get("parentSha256")
+        if not (license_id in DERIVABLE and isinstance(parent_id, str) and parse_id(parent_id)
+                and parent_id == provenance.get("derivedFrom")
+                and type(number) is int and isinstance(digest, str)):
+            return False
+        key = parent_id, number
+        if key in seen:
+            return False
+        seen.add(key)
+        parent = find_parent(parent_id)
+        if parent is None:
+            return False
+        versions = asset_versions.history(parent)
+        if not 1 <= number <= len(versions):
+            return False
+        entry = versions[number - 1]
+        if entry["sha256"].lower() != digest.lower():
+            return False
+        rights = parent if number == asset_versions.version_number(parent) else entry.get("publication", {})
+        record = {**rights, "sha256": entry["sha256"]}
 
 
 def emit(root, assets, sheets=()):
+    assets = {asset["id"]: asset for asset in assets}
     sheets = tuple(sheets)
     sheet_digests = {sheet["sha256"].lower() for sheet in sheets}
     rows = []
-    for record in sorted((*assets, *sheets), key=lambda item: item["id"]):
+    for record in sorted((*assets.values(), *sheets), key=lambda item: item["id"]):
         evidence = record.get("licenseEvidence")
         entire_sheet = record["sha256"].lower() in sheet_digests
-        allowed = public_allowed(record, sheet_digests)
+        allowed = public_allowed(record, sheet_digests, assets.get)
         reason = ("Planche entière réservée." if entire_sheet else "Licence et preuve enregistrées." if allowed
                   else "Autorisation non établie.")
         rows.append({"id": record["id"], "license": record["license"], "evidence": evidence,

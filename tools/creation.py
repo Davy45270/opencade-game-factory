@@ -20,10 +20,9 @@ from tools.extract.commands import _bounded_read, _image
 from tools.extract.regions import canonical_png, crop, in_image
 from tools.index.search import catalogue_fingerprint, committed_fingerprint
 from tools.publish.delivery import Delivery, check_destination, put, scoped_path, sha
+from tools.publish.licenses import DERIVABLE
 
 RECEIPT_AGE = timedelta(days=7)
-DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
-             "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 
 
 def matching_snapshot(root, receipt, fingerprint):

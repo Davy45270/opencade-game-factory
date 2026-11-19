@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from tools.asset_versions import initialize, version_number
-from tools.cli import UsageError
+from tools.cli import UsageError, caller_path
 from tools.core.catalog import Catalogue, InvalidJSON, write_json
 from tools.core.exit_codes import ExitCode
 from tools.discovery.importer import read_assets
@@ -196,7 +196,7 @@ def reference_hash(reference, records):
         raise InvalidJSON(f"pHash indisponible pour {reference}.")
     from PIL import Image
 
-    with Image.open(reference) as image:
+    with Image.open(caller_path(reference)) as image:
         return int(dedup.fingerprints(image)["phash"], 16)
 
 

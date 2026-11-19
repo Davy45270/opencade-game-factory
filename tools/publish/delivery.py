@@ -152,10 +152,19 @@ class Delivery:
                 "sourceSheetId": asset["sourceSheetId"] if current else None,
                 "sourceRegion": asset["sourceRegion"] if current else None,
                 "license": rights.get("license"), "licenseEvidence": rights.get("licenseEvidence"),
-                "publicExport": rights.get("publicExport")}
+                "publicExport": rights.get("publicExport"), "provenance": rights.get("provenance", {})}
 
-    def require_public(self, asset, sheet_hashes=None):
-        if not public_allowed(asset, self.sheet_hashes if sheet_hashes is None else sheet_hashes):
+    def require_public(self, asset, *, commit=None, sheet_hashes=None):
+        def find_parent(parent_id):
+            try:
+                if commit is not None:
+                    return revision_at(self.git, commit, parent_id)
+                return self.asset(parent_id)
+            except (GitError, InvalidJSON):
+                return None
+
+        hashes = self.sheet_hashes if sheet_hashes is None else sheet_hashes
+        if not public_allowed(asset, hashes, find_parent):
             raise CatalogueScopeError(f"Export public interdit pour {asset['id']}.")
 
     def registry_file(self, record):
@@ -430,7 +439,7 @@ def check_lock(root, args):
     if args.public and not errors and locked:
         hashes = sheet_hashes_at(delivery.git, commit)
         for revision in locked:
-            delivery.require_public(revision, hashes)
+            delivery.require_public(revision, commit=commit, sheet_hashes=hashes)
     return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
@@ -510,7 +519,7 @@ def usage(root, args):
             hashes = sheet_hashes_at(delivery.git, head)
             for row in lock["assets"]:
                 revision = delivery.revision(committed[row["assetId"]], int(row["assetVersion"]))
-                delivery.require_public(revision, hashes)
+                delivery.require_public(revision, commit=head, sheet_hashes=hashes)
         raw = delivery.bytes(asset)
         previous = None
         if matching and matching[0]["sha256"].lower() != entry["sha256"].lower() and destination.is_file():

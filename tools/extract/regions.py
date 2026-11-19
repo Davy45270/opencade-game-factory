@@ -8,7 +8,8 @@ from PIL import Image, ImageChops
 
 COORDINATES = "xywh"
 THRESHOLD = 0.02
-MAX_RACCORD_COVERAGE = 0.5
+MAX_RACCORD_COVERAGE = 0.75
+MIN_PIXELS_OUTSIDE_RACCORDS = 1024
 
 
 class RaccordCoverageError(ValueError):
@@ -133,8 +134,11 @@ def measure(image, box, margin, frame, anchor=None, *, options=None, raccords=No
         for _, target in raccords:
             x, y, w, h = (target[key] for key in COORDINATES)
             covered[y:y + h, x:x + w] = True
-        if covered.mean() > MAX_RACCORD_COVERAGE:
-            raise RaccordCoverageError("Les cibles des raccords couvrent plus de 50 % de la découpe.")
+        covered_pixels = np.count_nonzero(covered)
+        if covered_pixels >= MAX_RACCORD_COVERAGE * covered.size:
+            raise RaccordCoverageError("raccord-target-coverage-exceeded")
+        if covered.size - covered_pixels < MIN_PIXELS_OUTSIDE_RACCORDS:
+            raise RaccordCoverageError("raccord-outside-pixels-below-minimum")
         image = replay_raccords(source, raccords)
         region = dict(x=0, y=0, w=image.width, h=image.height)
         margin = 0

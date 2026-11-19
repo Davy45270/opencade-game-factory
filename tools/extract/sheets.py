@@ -309,9 +309,8 @@ class SheetDiscovery:
                 rmse = regions.measure(self._image(other, path), entry["boite"], margin, cropped,
                                        entry.get("ancre"), options=entry, normalizer=normalizer)
         except (magick.MagickError, regions.RaccordCoverageError) as exc:
-            reason = str(exc) if isinstance(exc, magick.MagickError) else "raccord-target-coverage-exceeded"
             self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
-                                "reason": reason, "frame": frame})
+                                "reason": str(exc), "frame": frame})
         verified = rmse is not None and rmse <= regions.THRESHOLD
         evidence = ({"method": "rmse", "value": rmse, "ref": ref, **tool} if rmse is not None
                     else f"Comparaison indisponible · {ref}")

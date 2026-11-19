@@ -2514,7 +2514,7 @@
           "format": {"$ref": "#/properties/format"},
           "causalPrevious": {"type": ["integer", "null"], "minimum": 1},
           "causalNext": {"type": ["integer", "null"], "minimum": 1},
-          "causalOrder": {"enum": ["incomparable", "ambiguous"]},
+          "causalOrder": {"enum": ["incomparable", "ambiguous", "unknown"]},
           "atlasFrames": {
             "type": "array",
             "minItems": 1,

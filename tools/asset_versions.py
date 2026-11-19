@@ -50,6 +50,7 @@ def set_causality(versions, precedes):
     previous = {number: set() for number in entries}
     following = {number: set() for number in entries}
     states = {}
+    incomplete = False
     for left, entry in entries.items():
         for right in range(left + 1, len(entries) + 1):
             a, b = entry.get("commit"), entries[right].get("commit")
@@ -62,16 +63,26 @@ def set_causality(versions, precedes):
                 following[right].add(left)
             elif relation == 0:
                 states[left] = states[right] = "incomparable"
+            else:
+                incomplete = True
+
+    neighbors = {}
+    for number in entries:
+        before = previous[number] - set().union(*(previous[col] for col in previous[number]))
+        after = following[number] - set().union(*(following[col] for col in following[number]))
+        if incomplete:
+            states[number] = "unknown"
+        elif len(before) > 1 or len(after) > 1:
+            states.setdefault(number, "ambiguous")
+        if number not in states:
+            neighbors[number] = (next(iter(before), None), next(iter(after), None))
 
     changed = False
     for number, entry in entries.items():
-        before = previous[number] - set().union(*(previous[col] for col in previous[number]))
-        after = following[number] - set().union(*(following[col] for col in following[number]))
         state = states.get(number)
-        if state is None and (len(before) > 1 or len(after) > 1):
-            state = "ambiguous"
-        links = {"causalPrevious": next(iter(before)) if len(before) == 1 and not state else None,
-                 "causalNext": next(iter(after)) if len(after) == 1 and not state else None}
+        before, after = neighbors.get(number, (None, None))
+        links = {"causalPrevious": before if neighbors.get(before, (None, None))[1] == number else None,
+                 "causalNext": after if neighbors.get(after, (None, None))[0] == number else None}
         if state:
             links["causalOrder"] = state
         if any(entry.get(key) != value or key not in entry for key, value in links.items()):
@@ -93,11 +104,28 @@ def problems(asset):
                 number, number - 1 or None, number + 1 if number < len(versions) else None):
             yield f"Numéro ou liens incohérents pour l’entrée {number}."
         for field in ("causalPrevious", "causalNext"):
-            if (linked := entry.get(field)) is not None and (linked == number or linked > len(versions)):
+            linked = entry.get(field)
+            if linked is None:
+                continue
+            if linked == number or not 1 <= linked <= len(versions):
                 yield f"Lien causal invalide pour l’entrée {number}."
-        if entry.get("causalOrder") in {"incomparable", "ambiguous"} and any(
+                continue
+            inverse = "causalNext" if field == "causalPrevious" else "causalPrevious"
+            if versions[linked - 1].get(inverse) != number:
+                yield f"Lien causal non réciproque pour l’entrée {number}."
+        if entry.get("causalOrder") in {"incomparable", "ambiguous", "unknown"} and any(
                 entry.get(field) is not None for field in ("causalPrevious", "causalNext")):
             yield f"Liens causaux non nuls sur une entrée {number} sans ordre unique."
+    visited = set()
+    for number in range(1, len(versions) + 1):
+        chain = set()
+        while number is not None and 1 <= number <= len(versions) and number not in visited:
+            if number in chain:
+                yield f"Cycle causal pour l’entrée {number}."
+                break
+            chain.add(number)
+            number = versions[number - 1].get("causalNext")
+        visited.update(chain)
     for record in (*asset["files"]["locations"], *asset["usages"]):
         if record.get("assetVersion", 1) > len(versions):
             yield "Un emplacement ou un usage désigne une version inconnue."

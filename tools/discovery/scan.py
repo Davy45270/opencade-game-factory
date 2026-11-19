@@ -239,9 +239,13 @@ def _record_causality(target, trees, git):
     def precedes(repos, a, b):
         for mirror in sorted(set().union(*(mirrors[repo] for repo in repos))):
             if present(mirror, a) and present(mirror, b):
-                if _descends_from_all(git, mirror, b, [a]):
+                try:
+                    bases = git.run("merge-base", "--all", a, b, mirror=mirror, ok=(0, 1)).split()
+                except GitError:
+                    continue
+                if a.encode() in bases:
                     return -1
-                if _descends_from_all(git, mirror, a, [b]):
+                if b.encode() in bases:
                     return 1
                 return 0
         return None
@@ -294,12 +298,13 @@ def _scan(root, args, git, cache, temporary, copies, template):
     allowed, divergent_tags = _release_authority(prepared, skipped, git, template["sources"]["includeReleases"])
     next_refs = {}
     changed_repos = set()
+    aliases_by_copy = {copy.key: [list(alias) for alias in sorted(copy.path_aliases)] for copy in copies}
     for key, (_, reference) in prepared.items():
         if key in skipped:
             continue
         releases = sorted({tag["commit"] for tag in allowed[key] if tag["commit"] != reference["commit"]})
         record = {"name": key[0], "provider": key[1], **reference, "releaseCommits": releases,
-                  "importedTags": allowed[key]}
+                  "importedTags": allowed[key], "pathAliases": aliases_by_copy[key]}
         next_refs[key] = record
         if references.get(key) != record:
             changed_repos.add(key[0])

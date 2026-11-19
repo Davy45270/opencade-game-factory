@@ -95,7 +95,35 @@ def _mirror_for(git, copy, cache, fetch, temporary, *, verify=False):
     return git.prepare(copy, use_cache, fetch)
 
 
-def _repo_report(copies, prepared, errors):
+CANONICAL_ORDER = ("github", "forgejo", "local")
+
+
+def _divergences(copies, prepared):
+    """Copies d'une même source à des commits différents : une seule est importée (GitHub, puis
+    Forgejo, puis la copie locale), les autres sont signalées « copies divergentes » au lieu de
+    produire une seconde version de chaque asset (HL-538, 19/11)."""
+    by_name = defaultdict(list)
+    for copy in copies:
+        if copy.key in prepared:
+            by_name[copy.name].append(copy)
+    skipped, notices = set(), []
+    for name, members in sorted(by_name.items()):
+        commits = {prepared[copy.key][1]["commit"] for copy in members}
+        if len(commits) < 2:
+            continue
+        canonical = min(members, key=lambda copy: CANONICAL_ORDER.index(copy.provider))
+        kept = prepared[canonical.key][1]["commit"]
+        ignored = [copy for copy in members if prepared[copy.key][1]["commit"] != kept]
+        skipped.update(copy.key for copy in ignored)
+        notices.append({"name": name, "message": "Copies divergentes : seule la copie "
+                        f"{canonical.provider} ({kept[:12]}) est importée.",
+                        "importedProvider": canonical.provider, "importedCommit": kept,
+                        "ignored": [{"provider": copy.provider, "commit": prepared[copy.key][1]["commit"]}
+                                    for copy in ignored]})
+    return skipped, notices
+
+
+def _repo_report(copies, prepared, errors, skipped=frozenset()):
     repositories = {}
     for copy in copies:
         repo = repositories.setdefault(copy.name, {"name": copy.name, "role": copy.role,
@@ -109,7 +137,8 @@ def _repo_report(copies, prepared, errors):
     for repo in repositories.values():
         repo["divergent"] = len({item["commit"] for item in repo["copies"] if "commit" in item}) > 1
         repo["divergentCopies"] = [
-            {"provider": item["provider"], "commit": item["commit"]} for item in repo["copies"]
+            {"provider": item["provider"], "commit": item["commit"],
+             "imported": (repo["name"], item["provider"]) not in skipped} for item in repo["copies"]
             if repo["divergent"] and "commit" in item
         ]
     return list(repositories.values())
@@ -125,11 +154,13 @@ def _scan(root, args, git, cache, temporary, copies, template):
         except GitError as exc:
             errors[copy.key] = str(exc)
 
+    skipped, divergent = _divergences(copies, prepared)
+    imported = {key: value for key, value in prepared.items() if key not in skipped}
     groups = defaultdict(list)
     references = _load_references(root)
     current_commits = {}
     for copy in copies:
-        if copy.key not in prepared:
+        if copy.key not in imported:
             continue
         mirror, reference = prepared[copy.key]
         head = reference["commit"]
@@ -171,7 +202,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
     sheet_limits = SheetDiscovery(target, trees, git).run()
     snapshots.code_licenses(trees, target)
     snapshots.catalogue_enrichment(trees, target)
-    dynamic = snapshots.build_graph(trees, target, references, git, prepared)
+    dynamic = snapshots.build_graph(trees, target, references, git, imported)
     active_commits = {(record["name"], commit) for record in references.values()
                       for commit in [record["commit"], *record["releaseCommits"]]}
     scanned = set(groups)
@@ -185,7 +216,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
         from tools.index.dedup import duplicates
 
         target.save(job)
-        repositories = _repo_report(copies, prepared, errors)
+        repositories = _repo_report(copies, prepared, errors, skipped)
         previous_exceptions = [row for row in exceptions if (row["repo"], row["commit"]) not in scanned]
         reports.emit(root, repositories, [*rows, *previous_exceptions], exceptions,
                      target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values())
@@ -193,7 +224,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
         licenses.emit(root, target.assets.values(), target.sheets.values())
         dynamic_path = root / "generated" / "reports" / "dynamic-refs.json"
         if dynamic_path.is_file():
-            refreshed = set(prepared)
+            refreshed = set(imported)
             dynamic.extend(row for row in read_json(dynamic_path)
                            if (row["repo"], row.get("provider")) not in refreshed)
         write_json(dynamic_path, sorted(dynamic, key=lambda row: (
@@ -202,9 +233,12 @@ def _scan(root, args, git, cache, temporary, copies, template):
         write_json(root / "catalog" / REFERENCE_FILE,
                    {"schemaVersion": "1.0", "references": [references[key] for key in sorted(references)]})
 
-    code = ExitCode.IO if errors and not prepared else ExitCode.OK
+    # Une copie indisponible (dont une branche par défaut absente) rend 4, même si d'autres copies
+    # ont été lues : jamais de succès muet sur une source manquante.
+    code = ExitCode.IO if errors else ExitCode.OK
     return code, {"ok": code == ExitCode.OK, "jobId": job_id, **target.counts(),
-                  "scannedCopies": len(prepared), "errors": _repo_report(copies, prepared, errors) if errors else []}
+                  "scannedCopies": len(imported), "divergentSources": divergent,
+                  "errors": _repo_report(copies, prepared, errors, skipped) if errors else []}
 
 
 def _inventory(git, mirror, repo, commit, recorded, forgotten):

@@ -151,7 +151,7 @@ class DiscoveryL2b(unittest.TestCase):
         document = C.lire_json(world.registre / C.SOURCES)
         source = next(e for e in document["sources"] if e["name"] == "jeu-a")
         source["copies"].append({"provider": "github", "url": "https://github.com/fixture/jeu-a",
-                                 "visibility": "public"})
+                                 "visibility": "public", "defaultBranch": "main"})
         (world.registre / C.SOURCES).write_text(json.dumps(document))
         local_commit = M.ajouter_commit(world, "jeu-a", {M.SCENE: "\n" + M.texte_scene()}, (),
                                        "2026-03-01T10:00:00+00:00", "Copie locale divergente")
@@ -163,10 +163,10 @@ class DiscoveryL2b(unittest.TestCase):
         self.assertEqual(result.code, 0, str(result))
         asset_id, asset = C.asset_par_chemin(world.registre, "jeu-a", M.FOUET)
         self.assertTrue(C.contient_valeur(C.lire_json(world.registre / "generated/usage-index.json"), asset_id))
-        self.assertEqual({(u["provider"], u["commit"]) for u in asset["usages"]},
-                         {("github", old_commit), ("local", local_commit), ("local", old_commit)})
-        head_use = next(u for u in asset["usages"] if u["commit"] == local_commit)
-        self.assertEqual(head_use["releases"], [])
+        # Copies divergentes (HL-538, 19/11) : seule la copie GitHub est importée, la locale est signalée.
+        self.assertEqual({(u["provider"], u["commit"]) for u in asset["usages"]}, {("github", old_commit)})
+        self.assertEqual(result.json["divergentSources"][0]["ignored"],
+                         [{"provider": "local", "commit": local_commit}])
 
     def test_catalogue_et_planche_externe(self):
         world = M.creer_monde()

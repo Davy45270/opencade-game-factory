@@ -264,7 +264,7 @@ def ecrire_sources(registre: Path, entrees: list[dict], exclus: list[dict]) -> N
 
 def source_locale(nom: str, chemin: Path, role: str = "game", jeux: list[str] | None = None) -> dict:
     return {"name": nom, "role": role, "games": jeux if jeux is not None else [nom],
-            "copies": [{"provider": "local", "path": str(chemin)}]}
+            "copies": [{"provider": "local", "path": str(chemin), "defaultBranch": "main"}]}
 
 
 # --------------------------------------------------------------------------------------------

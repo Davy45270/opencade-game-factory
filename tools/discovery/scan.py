@@ -99,10 +99,23 @@ def _mirror_for(git, copy, cache, fetch, temporary, *, verify=False):
 CANONICAL_ORDER = ("github", "forgejo", "local")
 
 
-def _divergences(copies, prepared):
-    """Copies d'une même source à des commits différents : une seule est importée (GitHub, puis
-    Forgejo, puis la copie locale), les autres sont signalées « copies divergentes » au lieu de
-    produire une seconde version de chaque asset (HL-538, 19/11)."""
+def _descends_from_all(git, mirror, commit, others):
+    for other in others:
+        if other == commit:
+            continue
+        try:  # code 1 : pas ancêtre ; 128 : objet absent de ce miroir (histoire inconnue ici)
+            git.run("merge-base", "--is-ancestor", other, commit, mirror=mirror)
+        except GitError:
+            return False
+    return True
+
+
+def _divergences(copies, prepared, git=None):
+    """Copies d'une même source à des commits différents : une seule est importée, les autres sont signalées
+    « copies divergentes » au lieu de produire une seconde version de chaque asset (HL-538, 19/11).
+    La copie importée est la plus avancée sur la même histoire (son commit descend de tous les autres : une copie
+    seulement en retard n'a rien de plus). Sans copie la plus avancée (histoires réellement divergentes), l'ordre
+    GitHub, Forgejo, locale départage et le motif le dit."""
     by_name = defaultdict(list)
     for copy in copies:
         if copy.key in prepared:
@@ -112,13 +125,18 @@ def _divergences(copies, prepared):
         commits = {prepared[copy.key][1]["commit"] for copy in members}
         if len(commits) < 2:
             continue
-        canonical = min(members, key=lambda copy: CANONICAL_ORDER.index(copy.provider))
+        ordered = sorted(members, key=lambda copy: CANONICAL_ORDER.index(copy.provider))
+        ahead = [copy for copy in ordered if git is not None and _descends_from_all(
+            git, prepared[copy.key][0], prepared[copy.key][1]["commit"], commits)]
+        canonical = ahead[0] if ahead else ordered[0]
+        reason = "la plus avancée" if ahead else "histoires divergentes, priorité GitHub > Forgejo > locale"
         kept = prepared[canonical.key][1]["commit"]
         ignored = [copy for copy in members if prepared[copy.key][1]["commit"] != kept]
         skipped.update(copy.key for copy in ignored)
         notices.append({"name": name, "message": "Copies divergentes : seule la copie "
-                        f"{canonical.provider} ({kept[:12]}) est importée.",
+                        f"{canonical.provider} ({kept[:12]}, {reason}) est importée.",
                         "importedProvider": canonical.provider, "importedCommit": kept,
+                        "reason": "ahead" if ahead else "forked",
                         "ignored": [{"provider": copy.provider, "commit": prepared[copy.key][1]["commit"]}
                                     for copy in ignored]})
     return skipped, notices
@@ -192,7 +210,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
         except GitError as exc:
             errors[copy.key] = str(exc)
 
-    skipped, divergent = _divergences(copies, prepared)
+    skipped, divergent = _divergences(copies, prepared, git)
     imported = {key: value for key, value in prepared.items() if key not in skipped | unchanged}
     groups = defaultdict(list)
     current_commits = {}

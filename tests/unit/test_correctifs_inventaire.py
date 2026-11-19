@@ -75,16 +75,18 @@ class VerifyCopiesDivergentes(unittest.TestCase):
     def test_copie_divergente_classee_divergente_pas_derive(self):
         code, report = self._verify()
         self.assertEqual(report["drift"], [], report)
-        self.assertIn({"name": "jeu-a", "provider": "local", "remoteCommit": self.ahead},
-                      [{k: d[k] for k in ("name", "provider", "remoteCommit")} for d in report.get("divergent", [])])
+        # La locale (en avance) est importée ; GitHub et Forgejo, en retard, sont « divergentes ».
+        self.assertEqual(sorted(d["provider"] for d in report.get("divergent", [])), ["forgejo", "github"], report)
         self.assertEqual(code, ExitCode.OK, report)
 
     def test_vraie_derive_toujours_signalee(self):
-        # La copie GitHub importée avance après le scan : c'est une dérive, code 1.
-        mirror = self.world.cache / "github" / "jeu-a.git"
-        self.world.git(mirror, "fetch", "-q", str(self.world.depot("jeu-a")), "+refs/heads/main:refs/heads/main")
+        # La copie importée (locale) avance après le scan : c'est une dérive, code 1.
+        depot = self.world.depot("jeu-a")
+        (depot / "LISEZMOI.md").write_text("après le scan\n", encoding="utf-8")
+        self.world.git(depot, "add", "--", "LISEZMOI.md")
+        self.world.git(depot, "commit", "-q", "-m", "Après le scan", date="2026-03-03T10:00:00+00:00")
         code, report = self._verify()
-        self.assertIn("github", [d["provider"] for d in report["drift"]], report)
+        self.assertIn("local", [d["provider"] for d in report["drift"]], report)
         self.assertEqual(code, ExitCode.CHECK_FAILED, report)
 
 

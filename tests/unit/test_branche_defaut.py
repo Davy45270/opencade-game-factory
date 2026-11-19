@@ -129,7 +129,9 @@ class CopiesDUneMemeSource(unittest.TestCase):
         repo = next(r for r in report if r["name"] == "jeu-a")
         self.assertFalse(repo["divergent"], repo)
 
-    def test_copies_divergentes_signalees_une_seule_version(self):
+    def test_copie_en_avance_importee_seule_les_autres_signalees(self):
+        # Locale en avance sur GitHub et Forgejo (même histoire) : c'est elle qui porte le travail, elle est
+        # importée ; les copies en retard sont signalées « divergentes », jamais une seconde version (19/11).
         _avec_copies_distantes(self.world)
         depot = self.world.depot("jeu-a")
         (depot / M.FOUET).write_bytes(M.png(M.uni(16, 16, ROUGE)))
@@ -140,13 +142,37 @@ class CopiesDUneMemeSource(unittest.TestCase):
         result = self.world.scan("--no-fetch", "--only", "jeu-a")
         self.assertEqual(result.code, C.OK, str(result))
         _, asset = C.asset_par_chemin(self.world.registre, "jeu-a", M.FOUET)  # une seule version
-        self.assertEqual({loc["commit"] for loc in asset["files"]["locations"]}, {self.main})
+        self.assertEqual({loc["commit"] for loc in asset["files"]["locations"] if not loc.get("releaseOnly")}, {ahead})
         report = C.lire_json(self.world.registre / "generated/reports/migration.json")["repositories"]
         repo = next(r for r in report if r["name"] == "jeu-a")
         self.assertTrue(repo["divergent"])
-        self.assertIn({"provider": "local", "commit": ahead, "imported": False}, repo["divergentCopies"])
+        for provider in ("github", "forgejo"):
+            self.assertIn({"provider": provider, "commit": self.main, "imported": False}, repo["divergentCopies"])
+        self.assertIn({"provider": "local", "commit": ahead, "imported": True}, repo["divergentCopies"])
         self.assertIn("copies divergentes", json.dumps(result.json, ensure_ascii=False).lower())
 
+    def test_histoires_divergentes_priorite_github(self):
+        # GitHub porte un commit que la locale n'a pas, et inversement : aucune copie n'est « en avance ».
+        _avec_copies_distantes(self.world)
+        depot = self.world.depot("jeu-a")
+        self.world.git(depot, "checkout", "-q", "-b", "fourche")
+        (depot / M.FOUET).write_bytes(M.png(M.uni(16, 16, (10, 200, 10, 255))))
+        self.world.git(depot, "add", "--", M.FOUET)
+        self.world.git(depot, "commit", "-q", "-m", "Fourche GitHub", date="2026-03-02T09:00:00+00:00")
+        fourche = self.world.git(depot, "rev-parse", "HEAD")
+        self.world.git(self.world.cache / "github" / "jeu-a.git", "fetch", "-q", str(depot),
+                       "+refs/heads/fourche:refs/heads/main")
+        self.world.git(depot, "checkout", "-q", "main")
+        (depot / M.FOUET).write_bytes(M.png(M.uni(16, 16, ROUGE)))
+        self.world.git(depot, "add", "--", M.FOUET)
+        self.world.git(depot, "commit", "-q", "-m", "Local en avance", date="2026-03-02T10:00:00+00:00")
+        _miroir_local(self.world)
+        result = self.world.scan("--no-fetch", "--only", "jeu-a")
+        self.assertEqual(result.code, C.OK, str(result))
+        _, asset = C.asset_par_chemin(self.world.registre, "jeu-a", M.FOUET)
+        self.assertEqual({loc["commit"] for loc in asset["files"]["locations"] if not loc.get("releaseOnly")}, {fourche})
+        notice = result.json["divergentSources"][0]
+        self.assertEqual((notice["importedProvider"], notice["reason"]), ("github", "forked"))
 
 if __name__ == "__main__":
     unittest.main()

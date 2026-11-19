@@ -1,0 +1,28 @@
+# AT-12 (E122) en CI : l'index se reconstruit depuis catalog/ seul, et generated/ commité est à jour.
+# Un generated/ qui diffère après `assetctl index` est un index périmé ou non déterministe : échec.
+# Aucun secret. Rejeu local sans conteneur : scripts/ci-local.sh build-index
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: main
+  - event: [pull_request, manual]
+
+depends_on:
+  - validate
+
+steps:
+  - name: index
+    image: harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - . .venv/bin/activate
+      - ./assetctl index --json
+      - git diff --stat --exit-code -- generated/
+      # Un fichier que index produit sans qu'il soit commité est aussi un écart.
+      - test -z "$(git status --porcelain --untracked-files=all -- generated/)" || { git status --short -- generated/; exit 1; }

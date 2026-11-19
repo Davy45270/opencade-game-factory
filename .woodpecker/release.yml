@@ -1,0 +1,20 @@
+# Release du registre (spec §9) : index reconstruit, SBOM CycloneDX de l'outillage, et manifeste de
+# licences d'assets (generated/licenses.json), distinct du SBOM. Aucun secret.
+# Rejeu local sans conteneur : scripts/ci-local.sh release
+labels:
+  host: tank01
+
+when:
+  - event: tag
+
+steps:
+  - name: sbom-et-licences
+    image: harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - . .venv/bin/activate
+      - ./assetctl index --json
+      - ./assetctl sbom --out generated/sbom.cdx.json
+      - bash scripts/ci-local.sh controle-release

@@ -1,0 +1,94 @@
+# Validation du registre (spec §8 « CI du registre ») : tests, JSON Schema, IDs, références,
+# empreintes, dimensions/alpha, licences, contrôle de PR d'AT-10, atlas, doublons, secrets.
+# Woodpecker et non GitHub Actions : écart validé par David (HL-538, condition 2).
+# Aucun secret dans ce pipeline. Rejeu local sans conteneur : scripts/ci-local.sh validate
+#
+# Image Python officielle par le proxy Harbor. Le .venv vit dans l'espace de travail, partagé par
+# les étapes ; git est installé dans chaque étape qui en a besoin (les tests construisent des dépôts
+# git de fixture, validate --base lit la base).
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: main
+  - event: [pull_request, manual]
+
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      # Historique complet : validate --base compare ids.json et le catalogue à la branche cible.
+      depth: 0
+      partial: false
+
+steps:
+  - name: dependances
+    image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - python3 --version
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - .venv/bin/pip freeze
+
+  - name: tests-unitaires
+    image: *py
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
+
+  # E085 : AT-01…AT-15 en boîte noire (fixtures git construites par les tests, aucun dépôt réel).
+  - name: tests-acceptation
+    image: *py
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'
+
+  # E075-E080 : schémas, unicité des IDs, références, empreintes, dimensions/alpha, licences.
+  - name: validate
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./assetctl validate --json
+
+  # AT-10 (E120) : tout asset nouveau porte creation.searchReceipt ; ids.json en ajout seul.
+  # Sans base lisible, le contrôle ne prouve rien : échec voulu plutôt qu'un vert muet.
+  - name: controle-de-pr
+    image: *py
+    when:
+      - event: pull_request
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - CIBLE="$${CI_COMMIT_TARGET_BRANCH:?branche cible inconnue}"
+      - git fetch -q --no-tags origin "+refs/heads/$$CIBLE:refs/remotes/origin/$$CIBLE"
+      - echo "base origin/$$CIBLE = $(git rev-parse "origin/$$CIBLE")"
+      - ./assetctl validate --base "origin/$$CIBLE" --json
+
+  # E083 : chaque atlas exporté du dépôt (transparence, dimensions, références).
+  - name: atlas
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - N=0
+      - for f in atlases/*.json; do [ -e "$$f" ] || continue; ./assetctl validate-atlas "$$f" --json || exit 1; N=$$((N + 1)); done
+      - echo "atlas validés $$N"
+
+  # E082 : doublons exacts et similaires proposés, jamais fusionnés.
+  - name: doublons
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./assetctl duplicates --json
+
+  # E081 : secrets.
+  - name: secrets
+    image: harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1
+    commands:
+      - gitleaks detect --source . --no-banner --redact

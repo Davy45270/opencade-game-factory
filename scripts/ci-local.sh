@@ -133,7 +133,7 @@ case "$PIPELINE" in
   scan)
     dependances
     etape reconciliation
-    ./assetctl scan-repos --verify --dry-run --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json
+    ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json
     ;;
   release)
     dependances

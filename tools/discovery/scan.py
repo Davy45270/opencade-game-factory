@@ -327,6 +327,14 @@ def _inventory(git, mirror, repo, commit, recorded, forgotten):
         forgotten.extend({"repo": repo, "commit": commit, "path": path} for path in sorted(missing_data))
 
 
+def _skipped_divergent(root):
+    path = Catalogue._regular_path(root / "generated" / "reports" / "migration.json")
+    if not path.is_file():
+        return set()
+    return {(repo["name"], item["provider"]) for repo in read_json(path).get("repositories", [])
+            for item in repo.get("divergentCopies", []) if item.get("imported") is False}
+
+
 def _verify(root, args, git, cache, temporary, copies):
     references = _load_references(root)
     records = importer.read_assets(root).values()
@@ -371,11 +379,15 @@ def _verify(root, args, git, cache, temporary, copies):
             except GitError as exc:
                 errors.append({"name": copy.name, "provider": copy.provider, "commit": commit,
                                "error": str(exc), "stage": "inventory"})
+    # Copies divergentes laissées de côté exprès par le scan (7901d3c) : signalées, jamais comptées en dérive.
+    skipped = _skipped_divergent(root)
+    divergent = [entry for entry in drift if (entry["name"], entry["provider"]) in skipped]
+    drift = [entry for entry in drift if (entry["name"], entry["provider"]) not in skipped]
     required = {(copy.name, commit) for copy in copies if (record := references.get(copy.key))
                 for commit in [record["commit"], *record["releaseCommits"]]}
     code = (ExitCode.CHECK_FAILED if forgotten or drift else
             ExitCode.IO if required - checked or (errors and not checked) else ExitCode.OK)
-    report = {"ok": code == ExitCode.OK, "forgotten": forgotten, "drift": drift,
+    report = {"ok": code == ExitCode.OK, "forgotten": forgotten, "drift": drift, "divergent": divergent,
               "errors": errors, "checkedCommits": len(checked)}
     if not args.dry_run:
         destination = root / "generated" / "reports"

@@ -74,7 +74,7 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
     unsupported = [row for row in rows if row["status"] == "unsupported"]
     excluded = [row for row in rows if row["status"] == "excluded"]
     missing_licenses = [{"id": asset["id"], "locations": asset["files"]["locations"]}
-                        for asset in assets if asset["license"] == "unknown"]
+                        for asset in sorted(assets, key=lambda item: item["id"]) if asset["license"] == "unknown"]
     missing_sheets = [{"id": sheet["id"], "locations": sheet["files"]["locations"]}
                       for sheet in sorted(sheets, key=lambda item: item["id"]) if sheet["license"] == "unknown"]
     audio = [row for row in rows if row.get("durationUnknown")]

@@ -79,15 +79,38 @@ class SheetDiscovery:
         self.declarations = {}
         for snapshot in snapshots:
             for path, asset_ids in snapshot.indexed.items():
-                asset = target.assets[asset_ids[0]]
                 if formats.extension(path) in formats.RASTER:
+                    asset = self._image_record(snapshot, path, asset_ids[0])
                     self.images[asset["sha256"]].append((snapshot, path, asset))
+
+    def _image_record(self, snapshot, path, asset_id):
+        asset = self.target.assets[asset_id]
+        version = self.target.version_at(asset_id, snapshot, path)
+        return {"sha256": asset["versions"][version - 1]["sha256"],
+                "dimensions": snapshot.measurements[path][2],
+                "locations": [{key: value for key, value in loc.items() if key != "assetVersion"}
+                              for loc in asset["files"]["locations"] if loc.get("assetVersion", 1) == version]}
 
     def _sheet(self, snapshot, path, asset):
         sheet = sheet_record(self.target, asset["sha256"], PurePosixPath(path).stem, asset["dimensions"],
                              f"{snapshot.repo}@{snapshot.commit}:{path}")
         sheet["dimensions"] = asset["dimensions"]
-        sheet["files"]["locations"] = asset["files"]["locations"].copy()
+        # One sheet can have matching bytes in several independently versioned sources.
+        def identity(loc):
+            return loc["repo"], loc.get("provider") or "", loc["path"]
+
+        def key(loc):
+            return (*identity(loc), loc["commit"], loc.get("releaseOnly", False), loc.get("status", "active"))
+
+        sightings = [loc for _, _, record in self.images[asset["sha256"]] for loc in record["locations"]]
+        observed = {(identity(loc), loc["commit"]) for loc in sightings if not loc.get("releaseOnly")}
+        active = {identity(loc) for loc in sightings
+                  if not loc.get("releaseOnly") and loc.get("status", "active") == "active"}
+        existing = {key(loc): loc for loc in sheet["files"]["locations"]
+                    if loc.get("releaseOnly") or loc.get("status") == "removed"
+                    or (identity(loc) not in active and (identity(loc), loc["commit"]) not in observed)}
+        existing.update((key(loc), loc) for loc in sightings)
+        sheet["files"]["locations"] = [existing[slot] for slot in sorted(existing)]
         return sheet
 
     def _source(self, snapshot, entry, metadata_path):
@@ -115,7 +138,8 @@ class SheetDiscovery:
                             and (other is snapshot or _david_path(other, path))]
         if len(local) == 1 and formats.extension(local[0]) in formats.RASTER:
             path = local[0]
-            return self._sheet(snapshot, path, self.target.assets[snapshot.indexed[path][0]]), snapshot, path
+            asset = self._image_record(snapshot, path, snapshot.indexed[path][0])
+            return self._sheet(snapshot, path, asset), snapshot, path
         if len({asset["sha256"] for _, _, asset in basename_matches}) == 1:
             other, path, asset = basename_matches[0]
             return self._sheet(other, path, asset), other, path
@@ -260,11 +284,10 @@ class SheetDiscovery:
                     break
         for snapshot in self.snapshots:
             self.declarations[snapshot] = self._read_declarations(snapshot)
-            for atlas_path, asset_ids in tuple(snapshot.indexed.items()):
-                atlas = self.target.assets[asset_ids[0]]
-                if atlas["family"]["type"] != "atlas":
+            for atlas_path, (family, metadata, _) in snapshot.measurements.items():
+                if family["type"] != "atlas":
                     continue
-                image = atlas["formatMetadata"]["atlasImage"]
+                image = metadata["atlasImage"]
                 options = references.resolve(atlas_path, references.Reference(image, 1, "atlas"),
                                              snapshot.tree, snapshot.indexed)
                 if not options or formats.extension(options[0]) not in formats.RASTER:
@@ -272,9 +295,10 @@ class SheetDiscovery:
                                         "reason": "atlas-image-unresolved"})
                     continue
                 image_path = options[0]
-                sheet = self._sheet(snapshot, image_path, self.target.assets[snapshot.indexed[image_path][0]])
+                asset = self._image_record(snapshot, image_path, snapshot.indexed[image_path][0])
+                sheet = self._sheet(snapshot, image_path, asset)
                 pixels = self._image(snapshot, image_path)
-                for frame in atlas["family"]["frames"]:
+                for frame in family["frames"]:
                     self._frame(snapshot, atlas_path, sheet, pixels, frame, image_path)
         self._image.cache_clear()
         return self.limits

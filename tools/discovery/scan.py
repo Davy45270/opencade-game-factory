@@ -1,6 +1,7 @@
 """Orchestration du scan et contrôle indépendant du catalogue."""
 
 import fcntl
+import hashlib
 import os
 import tempfile
 from collections import defaultdict
@@ -8,7 +9,7 @@ from itertools import chain
 from contextlib import contextmanager
 from pathlib import Path
 
-from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, read_json, write_json
+from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, parse_json, read_json, write_json
 from tools.core.exit_codes import ExitCode
 from tools.core.schemas import schemas
 from tools.discovery import formats, importer, references as usage_index, snapshots
@@ -144,6 +145,23 @@ def _repo_report(copies, prepared, errors, skipped=frozenset()):
     return list(repositories.values())
 
 
+def _declared_assets(git, snapshot):
+    blob = snapshot.tree.get("assets.lock.json")
+    if blob is None or blob.symlink or blob.size > importer.MAX_BLOB:
+        return {}
+    with git.batch(snapshot.mirror) as batch:
+        try:
+            lock = parse_json(batch.read(blob, importer.MAX_BLOB))
+        except InvalidJSON:
+            return {}
+    if not schemas().validator("lock").is_valid(lock):
+        return {}
+    declarations = defaultdict(set)
+    for entry in lock["assets"]:
+        declarations[entry["path"], entry["sha256"].lower()].add(entry["assetId"])
+    return {key: next(iter(ids)) for key, ids in declarations.items() if len(ids) == 1}
+
+
 def _scan(root, args, git, cache, temporary, copies, template):
     incremental = getattr(args, "incremental", False)
     references = _load_references(root)
@@ -213,9 +231,13 @@ def _scan(root, args, git, cache, temporary, copies, template):
         snapshot = snapshots.Snapshot(repo, commit, mirror, date, members,
                                       {blob.path: blob for blob in git.tree(mirror, commit, sizes=True)})
         trees.append(snapshot)
+        declared = _declared_assets(git, snapshot)
 
         def add_blob(path, data, measured, earliest):
-            snapshot.indexed[path] = target.import_blob(locations, commit, date, path, data, measured, earliest)
+            digest = hashlib.sha256(data).hexdigest()
+            snapshot.measurements[path] = measured.family, measured.metadata, measured.dimensions
+            snapshot.indexed[path] = target.import_blob(locations, commit, date, path, digest, measured, earliest,
+                                                        declared.get((path, digest)))
 
         discovered, build_files = importer.scan_tree(git, mirror, repo, commit, snapshot.tree,
                                                       add_blob, snapshot.examine)

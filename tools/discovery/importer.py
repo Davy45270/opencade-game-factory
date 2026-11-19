@@ -11,6 +11,7 @@ from urllib.parse import quote
 
 from PIL import Image
 
+from tools import asset_versions
 from tools.core.catalog import Catalogue, InvalidJSON, json_text, write_json
 from tools.core.ids import IdRegistry
 from tools.core.schemas import schemas
@@ -181,6 +182,7 @@ def _asset(asset_id, name, evidence, created, reference_date, job_id, digest, me
         asset["perceptual"] = fingerprints(measured.image)
         inference["perceptual"] = _trace(evidence)
         asset["thumbnail"] = f"thumbnails/{digest[:2]}/{digest}.webp"
+    asset_versions.initialize(asset)
     return asset
 
 
@@ -225,15 +227,130 @@ class Importer:
         except ValueError as exc:
             raise InvalidJSON(str(exc)) from exc
         self.initial_ids = entries
+        self.identity_owners = dict(entries)
         self.job_id = job_id
         self.dry_run = dry_run
         self.sightings = defaultdict(list)
         self.changed = set()
+        self.sources = defaultdict(set)
+        self.slots = {}
+        self.content = {}
+        self.observed = {}
+        self.active_sightings = set()
+        self.release_only = {}
+        for asset_id, asset in sorted(self.assets.items()):
+            if asset_versions.initialize(asset):
+                self.changed.add(asset_id)
+            versions = {entry["version"]: entry["sha256"].lower() for entry in asset["versions"]}
+            family = asset["family"]
+            symbol = family.get("code", {}).get("symbol") if isinstance(family, dict) else None
+            for loc in asset["files"]["locations"]:
+                number = loc.get("assetVersion", 1)
+                self.remember(asset_id, loc, symbol, versions[number], number)
 
-    def import_blob(self, references, commit, date, path, raw, measured, earliest):
-        digest = hashlib.sha256(raw).hexdigest()
+    def remember(self, asset_id, loc, symbol, digest, number):
+        repo, _, path = _slot(loc)
+        self.sources[asset_id].add(repo)
+        is_release = loc.get("releaseOnly", False)
+        removed = loc.get("status") == "removed"
+        if not is_release:
+            self.release_only[asset_id] = False
+        rank = (not is_release, not removed)
+        key = repo, path, symbol
+        prior = self.slots.get(key)
+        prior_content = self.content.get((repo, digest, symbol))
+        if prior is None or rank > prior[0]:
+            self.slots[key] = rank, asset_id
+        if prior_content is None or rank > prior_content[0]:
+            self.content[repo, digest, symbol] = rank, asset_id
+        sighting = asset_id, repo, path, loc["commit"]
+        if not is_release and not removed:
+            self.active_sightings.add(sighting)
+        self.observed[sighting] = number
+
+    def lineage(self, loc, symbol, digest, declared):
+        repo, _, path = _slot(loc)
+        if declared in self.assets and repo in self.sources[declared] and symbol is None:
+            if repo == min(self.sources[declared]) or self.assets[declared]["sha256"].lower() == digest:
+                return declared
+        slot = self.slots.get((repo, path, symbol))
+        exact = self.content.get((repo, digest, symbol))
+        if loc.get("releaseOnly"):
+            if slot and (slot[1], repo, path, loc["commit"]) in self.observed:
+                return slot[1]
+            if slot and repo == min(self.sources[slot[1]]):
+                return slot[1]
+            return exact[1] if exact else None
+        matches = (slot, exact) if slot and slot[0] == (True, True) else (exact, slot)
+        for match in matches:
+            if match is None:
+                continue
+            _, asset_id = match
+            if repo == min(self.sources[asset_id]) or (exact is not None and exact[1] == asset_id):
+                return asset_id
+        return None
+
+    def allocate(self, key, repo, digest, category, name):
+        owner = self.identity_owners.get(key)
+        if owner in self.assets and (self.sources[owner] - {repo} or
+                                     self.assets[owner]["sha256"].lower() != digest):
+            scope = hashlib.sha256(repo.encode()).hexdigest()
+            key = f"file:source:{scope}:{digest}"
+        asset_id = self.ids.allouer(key, category, name)
+        self.identity_owners[key] = asset_id
+        return asset_id
+
+    def update_version(self, asset, first, digest, date, measured, family, kind):
+        asset_id = asset["id"]
+        repo, _, path = _slot(first)
+        commit = first["commit"]
+        sighting = asset_id, repo, path, commit
+        observed = self.observed.get(sighting)
+        release = first.get("releaseOnly", False)
+        if (observed is not None and (release or sighting in self.active_sightings)
+                and asset["versions"][int(observed) - 1]["sha256"].lower() == digest):
+            return observed
+        current = asset["sha256"].lower() == digest
+        if current:
+            return asset["version"]
+        if release or (self.sources[asset_id] and repo != min(self.sources[asset_id])):
+            for entry in reversed(asset["versions"]):
+                if entry["sha256"].lower() == digest:
+                    return entry["version"]
+        promote = not release or (self.release_only.get(asset_id, True)
+                                  and (asset["updatedAt"] is None or is_earlier(asset["updatedAt"], date)))
+        if promote:
+            asset_versions.archive_publication(asset)
+        number = asset_versions.append(asset, digest, current=promote, commit=commit, date=date)
+        if promote:
+            evidence = f"{repo}@{commit}:{path}"
+            fresh = _asset(asset_id, asset["name"], evidence, asset["createdAt"], date, self.job_id,
+                           digest, measured, family, kind)
+            inference = asset.setdefault("inference", {})
+            for field in ("family", "format", "dimensions", "alpha", "formatMetadata", "perceptual",
+                          "thumbnail", "sha256"):
+                inference.pop(field, None)
+                if field in fresh:
+                    asset[field] = fresh[field]
+                else:
+                    asset.pop(field, None)
+                if field in fresh["inference"]:
+                    inference[field] = fresh["inference"][field]
+            if asset["status"] == "published":
+                asset["status"] = "needs-review"
+            if asset["files"].get("registry"):
+                asset["files"]["registry"] = None
+            asset["license"] = "unknown"
+            asset.pop("licenseEvidence", None)
+            if asset.get("publicExport") == "allowed":
+                asset.pop("publicExport")
+        self.changed.add(asset_id)
+        return number
+
+    def import_blob(self, references, commit, date, path, digest, measured, earliest, declared=None):
         future = measured.family["type"]
         locations = [location(copy, commit, path, future, tag_only) for copy, tag_only in references]
+        locations.sort(key=lambda loc: loc.get("releaseOnly", False))
         if future == "code-generated":
             for loc in locations:
                 loc["blobSha256"] = digest
@@ -252,23 +369,31 @@ class Importer:
                 key = f"code:{first['repo']}:{code_path}#{identity}"
                 label = "module" if symbol is None else symbol if symbol.strip() else repr(symbol)
                 family = {"type": future, "code": {"repo": first["repo"], "path": path, "symbol": label}}
-            asset_id = self.ids.allouer(key, future.replace("-", ""), name)
+            label = family.get("code", {}).get("symbol")
+            asset_id = self.lineage(first, label, digest, declared)
+            if asset_id is None:
+                if future == "code-generated":
+                    asset_id = self.ids.allouer(key, future.replace("-", ""), name)
+                else:
+                    asset_id = self.allocate(key, first["repo"], digest, future.replace("-", ""), name)
             created = datetime.fromtimestamp(earliest, timezone.utc).isoformat() if earliest is not None else date
             if asset_id not in self.assets:
                 evidence = f"{first['repo']}@{commit}:{path}"
                 self.assets[asset_id] = _asset(asset_id, name, evidence, created, date, self.job_id,
                                                digest, measured, family, formats.extension(path))
+                self.assets[asset_id]["versions"][0].update(commit=commit, date=date)
                 self.changed.add(asset_id)
             asset = self.assets[asset_id]
-            if asset["status"] != "published" and (asset_id not in self.initial_assets
+            number = self.update_version(asset, first, digest, date, measured, family, formats.extension(path))
+            if number == asset["version"] and asset["status"] != "published" and (asset_id not in self.initial_assets
                     or asset["description"].startswith("Ressource ")):
                 universe = first["game"].split("/")[-1] if first["game"] else None
                 enrich.enrich(asset, path, universe)
                 self.changed.add(asset_id)
-            if future == "code-generated" and asset["provenance"]["type"] == "repo-file":
+            if number == asset["version"] and future == "code-generated" and asset["provenance"]["type"] == "repo-file":
                 asset["provenance"]["type"] = "code-generated"
                 self.changed.add(asset_id)
-            if measured.image is not None and "thumbnail" in asset and not self.dry_run:
+            if measured.image is not None and not self.dry_run:
                 thumbnail = self.root / "thumbnails" / digest[:2] / f"{digest}.webp"
                 Catalogue._regular_path(thumbnail.parent)
                 if not Catalogue._regular_path(thumbnail).exists():
@@ -276,16 +401,13 @@ class Importer:
             if asset["createdAt"] is None or is_earlier(created, asset["createdAt"]):
                 asset["createdAt"] = created
                 self.changed.add(asset_id)
-            if asset["updatedAt"] is None or is_earlier(asset["updatedAt"], date):
+            if number == asset["version"] and (asset["updatedAt"] is None or is_earlier(asset["updatedAt"], date)):
                 asset["updatedAt"] = date
                 self.changed.add(asset_id)
-            if (future == "code-generated" and asset["status"] != "published"
-                    and not is_earlier(date, asset["updatedAt"])):
-                if asset["sha256"] != digest:
-                    asset["sha256"] = digest
-                    asset["inference"]["sha256"] = _trace(f"{first['repo']}@{commit}:{path}")
-                    self.changed.add(asset_id)
-            self.sightings[asset_id].extend(locations)
+            for loc in locations:
+                sighting = {**loc, "assetVersion": number}
+                self.sightings[asset_id].append(sighting)
+                self.remember(asset_id, sighting, label, digest, number)
             imported_ids.append(asset_id)
         return imported_ids
 
@@ -310,11 +432,37 @@ class Importer:
                 _thumbnail(path, pixels)
         return asset
 
+    def version_at(self, asset_id, snapshot, path):
+        return self.observed.get((asset_id, snapshot.repo, path, snapshot.commit), 1)
+
+    def order_new_history(self, asset, sightings):
+        # On a first import, older tags can be numbered before the head.
+        # Once written, the existing numbers stay fixed.
+        if asset["id"] in self.initial_assets or len(asset["versions"]) == 1:
+            return
+        current = asset["version"]
+        versions = sorted(asset["versions"], key=lambda entry: (
+            entry["version"] == current, datetime.fromisoformat(entry["date"]), entry["version"]))
+        numbers = {}
+        for number, entry in enumerate(versions, 1):
+            numbers[entry["version"]] = number
+            entry.update(version=number, previousVersion=number - 1 or None,
+                         nextVersion=number + 1 if number < len(versions) else None)
+        asset.update(version=numbers[current], versions=versions)
+        for loc in sightings:
+            loc["assetVersion"] = numbers[loc["assetVersion"]]
+            self.observed[asset["id"], loc["repo"], loc["path"], loc["commit"]] = loc["assetVersion"]
+
     def reconcile(self, commits):
+        source_heads = defaultdict(set)
+        for (repo, _), commit in commits.items():
+            source_heads[repo].add(commit)
         for asset_id, asset in self.assets.items():
             previous = asset["files"]["locations"]
             latest = self.sightings[asset_id]
+            self.order_new_history(asset, latest)
             current = {_slot(entry): entry for entry in latest if not entry.get("releaseOnly")}
+            current_by_source = {(entry["repo"], entry["path"]): entry for entry in current.values()}
             history = {(entry["repo"], entry.get("provider"), entry["path"], entry["commit"]): entry
                        for entry in latest if entry.get("releaseOnly")}
             final = []
@@ -322,19 +470,19 @@ class Importer:
                 identity = _slot(entry)
                 commit = commits.get(identity[:2])
                 seen = current.get(identity)
+                if not identity[1] and len(source_heads[identity[0]]) == 1:
+                    commit = next(iter(source_heads[identity[0]]))
+                    seen = current_by_source.get((identity[0], identity[2]))
                 if entry.get("releaseOnly"):
                     released = (*identity, entry["commit"])
                     if released not in history and (seen is None or seen["commit"] != entry["commit"]):
                         final.append(entry)
                 elif entry.get("status") == "removed":
                     if seen is None or entry["commit"] != seen["commit"]:
-                        history.pop((*identity, entry["commit"]), None)
                         final.append(entry)
-                elif seen is not None:
-                    # The location still carries the same content on this copy.
+                elif seen is not None and seen["assetVersion"] == entry.get("assetVersion", 1):
                     continue
                 elif commit is not None and commit != entry["commit"]:
-                    history.pop((*identity, entry["commit"]), None)
                     final.append({**entry, "status": "removed", "removedAtCommit": commit})
                 else:
                     final.append(entry)

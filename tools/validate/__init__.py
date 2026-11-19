@@ -3,6 +3,7 @@
 from collections import Counter
 from pathlib import PurePosixPath
 
+from tools import asset_versions
 from tools.core.catalog import Catalogue, InvalidJSON
 from tools.core.git_base import read_base
 from tools.core.ids import DERIVED, verifier_contre_base, verifier_registre
@@ -101,6 +102,8 @@ class CatalogueValidation:
     def asset_rules(self, assets, sheets):
         for asset_id, asset in assets.items():
             path = f"catalog/assets/{asset_id}.json"
+            for problem in asset_versions.problems(asset):
+                self.issue(path, "invalid-version-history", problem)
             for field in INFERABLE:
                 if asset[field] not in (None, "unknown", []) and field not in asset.get("inference", {}):
                     self.issue(path, "inference-required", f"Trace manquante pour {field}.")
@@ -167,7 +170,7 @@ class CatalogueValidation:
                     self.issue(path, "region-back-reference", f"Région source incohérente pour {asset_id}.")
 
     def base_rules(self, ref, ids, paths, assets):
-        base_ids, base_paths = read_base(self.root, ref)
+        base_ids, base_paths, base_document = read_base(self.root, ref)
         for error in verifier_contre_base(base_ids, ids):
             self.issue("catalog/ids.json", "immutable-id", error)
         for path in sorted(base_paths - paths):
@@ -177,6 +180,15 @@ class CatalogueValidation:
         for asset_id, asset in assets.items():
             path = PurePosixPath("catalog", "assets", f"{asset_id}.json")
             if path in base_paths:
+                prior = base_document(path)
+                if not self.document("asset", prior, f"{ref}:{path}"):
+                    continue
+                earlier = asset_versions.history(prior)
+                now = asset_versions.history(asset)
+                if (len(now) < len(earlier) or any(
+                        any(value != new.get(field) for field, value in old.items() if field != "nextVersion")
+                        for old, new in zip(earlier, now))):
+                    self.issue(path, "immutable-version", "Conserver les versions antérieures et leurs empreintes.")
                 continue
             creation = asset.get("creation", {})
             kind = asset["provenance"]["type"]

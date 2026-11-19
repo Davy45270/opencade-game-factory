@@ -72,6 +72,46 @@ Le validateur accepte aussi les contrats embarqués des fiches L1. Les rejets
 documentent l’ID et la raison. Une recherche sans
 candidat a un tableau de rejets vide.
 
+## Versions des assets et de leurs variantes
+
+Une variante ou dérivation garde sa propre fiche et son lien à l’asset parent.
+Chaque fiche porte `version`, le numéro courant, et `sha256`, son empreinte.
+`versions` contient les empreintes par numéro croissant, avec les liens
+`previousVersion` et `nextVersion`. Les deux extrémités ont un lien nul.
+Une fiche L1–L3 se lit comme une version 1 implicite. Le scan suivant inscrit
+cette version dans le catalogue, avec un résultat identique au scan suivant
+sur les mêmes commits. `validate` contrôle les liens, l’empreinte courante et les
+numéros cités par les emplacements et les usages. `validate --base` vérifie
+aussi la conservation des versions déjà enregistrées.
+
+Le numéro de version est local à la fiche. La clé de `ids.json` reste celle
+de l’allocation initiale et l’historique des empreintes vit dans la fiche.
+Le registre d’IDs continue ainsi d’associer une seule clé immuable à chaque ID.
+Le scan reconnaît une lignée par source logique et chemin, ou par un
+`assetId` déjà associé à cette source et déclaré par le lock du commit pour le
+chemin et le SHA-256 observés. Un déplacement de contenu identique dans la
+même source conserve l’ID et le numéro. Les copies d’une même source
+restent soumises à la sélection de la branche par défaut et au signalement
+des divergences.
+
+Les contenus identiques se regroupent par empreinte dans le rapport de
+doublons. Deux sources logiques peuvent faire évoluer ces contenus
+indépendamment. Quand la clé `file:sha256:<hex>` est déjà prise, l’allocateur
+peut employer `file:source:<sha256-du-nom-de-source>:<sha256-du-contenu>`.
+Pour une fiche héritée déjà partagée entre sources logiques, le premier nom
+de source par ordre lexical conserve la lignée en cas de changement et un
+contenu divergent d’une autre source ouvre sa propre lignée. Les usages
+antérieurs restent associés aux fiches qui les ont enregistrés.
+
+Les emplacements et usages issus d’un scan indiquent `assetVersion`. Un tag
+observé sur un ancien contenu au même chemin référence sa version sur la
+même fiche. Au premier import, les versions trouvées sur d’anciens tags
+précèdent celle de la branche par défaut. Un tag découvert plus tard peut
+ajouter une entrée historique en fin de liste, avec son commit et sa date.
+La fiche garde alors son numéro courant et les numéros déjà utilisés dans
+les locks. Une version publiée remplacée conserve la preuve de publication
+dans son entrée, avec le chemin du binaire enregistré lorsqu’il existe.
+
 ## Provenance, inférence et références
 
 Pour chaque champ interprétable, une valeur connue porte une trace
@@ -157,7 +197,12 @@ l’adaptation permet d’hériter de la licence.
 
 `usage add` écrit le lock à la racine du jeu et matérialise l’asset au
 chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
-a pour `assetVersion` la chaîne `"1"`. Les fichiers proviennent du registre
+a pour `assetVersion` la chaîne `"1"`. Pour une fiche versionnée, le lock
+enregistre le numéro courant sous forme de chaîne. `check-lock` vérifie le
+couple numéro et empreinte et renvoie l’avertissement `non-current-version`
+pour un couple historique valide. `inspect --json` restitue l’historique.
+L’index de recherche et `search` rendent le numéro et l’empreinte courants.
+Les fichiers proviennent du registre
 ou des objets Git des miroirs. Les découpes d’atlas importées sont
 reconstruites depuis leur cadre et leur planche. Dans chaque cas, le
 SHA-256 est contrôlé avant écriture. Une cible privée est déclarée dans

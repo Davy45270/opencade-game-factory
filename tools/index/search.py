@@ -9,6 +9,7 @@ from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
 
+from tools.asset_versions import initialize, version_number
 from tools.cli import UsageError
 from tools.core.catalog import Catalogue, InvalidJSON, write_json
 from tools.core.exit_codes import ExitCode
@@ -92,7 +93,7 @@ def family(asset):
 
 
 def row(asset):
-    return {"id": asset["id"], **{field: asset.get(field) for field in FIELDS},
+    return {"id": asset["id"], "version": version_number(asset), **{field: asset.get(field) for field in FIELDS},
             **{field: asset.get(field) for field in ("format", "license", "licenseEvidence", "publicExport", "status",
                                                     "dimensions", "sha256", "visualStyle", "facing", "subcategory")},
             "family": family(asset), "usages": asset["usages"], "phash": asset.get("perceptual", {}).get("phash")}
@@ -127,6 +128,8 @@ def index(root, args):
     with directory_lock(root / "catalog"):
         catalogue = Catalogue(root)
         assets = sorted(read_assets(root).values(), key=lambda asset: asset["id"])
+        for asset in assets:
+            initialize(asset)
         sheets = [catalogue.read(path) for path in catalogue.documents("sheets")]
         universes = [catalogue.read(path) for path in catalogue.documents("universes")]
         fingerprint = catalogue_fingerprint(root)

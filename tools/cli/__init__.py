@@ -108,6 +108,9 @@ def _inspect(root, record_id):
             for usage in asset["usages"]
         ]
     else:
+        from tools.asset_versions import initialize
+
+        initialize(record)
         usages = record["usages"]
     return ExitCode.OK, {"ok": True, kind: record, "usages": usages}
 

@@ -7,6 +7,7 @@ import tempfile
 from contextlib import nullcontext
 from pathlib import Path
 
+from tools import asset_versions
 from tools.cli import UsageError
 from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, json_text, read_json, write_json
 from tools.core.exit_codes import ExitCode
@@ -205,7 +206,7 @@ def extension(asset):
 
 
 def asset_version(asset):
-    return asset.get("assetVersion", "1")
+    return str(asset_versions.version_number(asset))
 
 
 def materialize(root, args):
@@ -258,15 +259,20 @@ def check_lock(root, args):
     delivery = Delivery(root, args)
     lock = read_lock(root / args.file)
     errors = []
+    warnings = []
     for row in lock["assets"]:
         asset = delivery.assets.get(row["assetId"])
         if asset is None:
             errors.append({"id": row["assetId"], "error": "unknown-asset"})
             continue
         asset = delivery.asset(row["assetId"], public=args.public)
-        if (asset["sha256"].lower() != row["sha256"].lower() or asset_version(asset) != row["assetVersion"]):
+        if not any(str(int(entry["version"])) == row["assetVersion"] and entry["sha256"].lower() == row["sha256"].lower()
+                   for entry in asset_versions.history(asset)):
             errors.append({"id": row["assetId"], "error": "version-or-digest-mismatch"})
-    return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors}
+        elif row["assetVersion"] != asset_version(asset):
+            warnings.append({"id": row["assetId"], "path": row["path"], "warning": "non-current-version",
+                             "assetVersion": row["assetVersion"], "currentVersion": asset_version(asset)})
+    return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
 def usage(root, args):

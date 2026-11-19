@@ -131,6 +131,9 @@
               }
             ],
             "properties": {
+              "assetVersion": {
+                "$ref": "#/$defs/versionNumber"
+              },
               "blobSha256": {
                 "$ref": "#/$defs/sha256"
               },
@@ -1045,11 +1048,19 @@
     "sheetId": {
       "pattern": "^sheet-(?=[a-z0-9-]{1,32}-[0-9]{4}(?![\\s\\S]))[a-z0-9]+(?:-[a-z0-9]+)*-(?!0000)[0-9]{4}(?![\\s\\S])",
       "type": "string"
+    },
+    "versionNumber": {
+      "minimum": 1,
+      "type": "integer"
     }
   },
   "$id": "https://opencade.invalid/schemas/asset.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
+  "dependentRequired": {
+    "version": ["versions"],
+    "versions": ["version"]
+  },
   "allOf": [
     {
       "if": {
@@ -2472,6 +2483,39 @@
       },
       "type": "array",
       "uniqueItems": true
+    },
+    "version": {
+      "$ref": "#/$defs/versionNumber"
+    },
+    "versions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "commit": {"$ref": "#/$defs/commit"},
+          "date": {"format": "date-time", "type": "string"},
+          "nextVersion": {"type": ["integer", "null"], "minimum": 1},
+          "previousVersion": {"type": ["integer", "null"], "minimum": 1},
+          "publication": {
+            "additionalProperties": false,
+            "properties": {
+              "license": {"$ref": "#/$defs/license"},
+              "licenseEvidence": {"$ref": "#/$defs/licenseEvidence"},
+              "provenance": {"$ref": "#/$defs/provenance"},
+              "publicExport": {"$ref": "#/properties/publicExport"},
+              "registry": {"$ref": "#/$defs/path"},
+              "status": {"$ref": "#/properties/status"}
+            },
+            "required": ["license", "provenance", "status"],
+            "type": "object"
+          },
+          "sha256": {"$ref": "#/$defs/sha256"},
+          "version": {"$ref": "#/$defs/versionNumber"}
+        },
+        "required": ["version", "sha256", "previousVersion", "nextVersion"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
     },
     "visualStyle": {
       "anyOf": [

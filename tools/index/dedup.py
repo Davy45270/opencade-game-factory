@@ -5,6 +5,8 @@ from collections import defaultdict
 import numpy as np
 from PIL import Image
 
+from tools.asset_versions import version_number
+
 N = 32
 MAX_DISTANCE = 8
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
@@ -64,7 +66,8 @@ def duplicates(assets):
         digest = asset["sha256"].lower()
         if kind != "code-generated":
             identities[digest].append(asset["id"])
-            locations[digest].extend(asset["files"]["locations"])
+            locations[digest].extend(loc for loc in asset["files"]["locations"]
+                                     if loc.get("assetVersion", 1) == version_number(asset))
         if "perceptual" in asset and (geometry := asset.get("dimensions")):
             hashes = asset["perceptual"]
             images.append((asset["id"], digest, geometry["width"] / geometry["height"],

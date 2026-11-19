@@ -163,6 +163,12 @@ class JeuTemoin(unittest.TestCase):
         (self.jeu / "package-lock.json").write_text(json.dumps(lock))
         self.assertEqual(lancer("verifier", str(self.jeu)).returncode, 4)
 
+    def test_chaque_workflow_exige_l_etiquette_de_capacite_e2e(self) -> None:
+        # coordinateur (19/11) : la suite lourde ne part que sur l'agent qui porte capacite=e2e (tank01), jamais sur Zalman
+        import yaml
+        for chemin in sorted((TEMOIN / ".woodpecker").glob("*.yml")):
+            self.assertEqual(yaml.safe_load(chemin.read_text()).get("labels"), {"capacite": "e2e"}, chemin.name)
+
     def test_aucune_reference_privee_dans_les_fichiers_generes(self) -> None:
         # Les fichiers générés partent dans des dépôts de jeux PUBLICS : ni ticket, ni chemin de machine.
         import re

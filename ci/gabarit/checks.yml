@@ -1,6 +1,10 @@
 @ENTETE@
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
+# Étiquette de CAPACITÉ, neutre : seul l'agent qui porte capacite=e2e prend ce travail (jamais un poste sans elle).
+labels:
+  capacite: e2e
+
 when:
   - event: push
     branch: main

@@ -1,7 +1,11 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit a570e24452ed) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 68a995fcd592) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # e2e : l'image Playwright est CELLE du package-lock (vérifiée avant tout test), puis le démarrage de l'application
 # construite sous la CSP de production (aucune violation, aucune erreur JS), puis les specs Playwright du jeu.
+# Étiquette de CAPACITÉ, neutre : seul l'agent qui porte capacite=e2e prend ce travail (jamais un poste sans elle).
+labels:
+  capacite: e2e
+
 when:
   - event: push
     branch: main

@@ -11,10 +11,12 @@ from pathlib import Path
 from tools.core.catalog import Catalogue, CatalogueScopeError, InvalidJSON, read_json, write_json
 from tools.core.exit_codes import ExitCode
 from tools.core.schemas import schemas
-from tools.discovery import formats, importer
+from tools.discovery import formats, importer, references as usage_index, snapshots
 from tools.discovery.jobs import job_for
 from tools.discovery.repos import OID, Git, GitError, check_destinations, select
+from tools.extract.sheets import SheetDiscovery
 from tools.index import reports
+from tools.publish import licenses
 
 REFERENCE_FILE = "scan-references.json"
 
@@ -26,7 +28,7 @@ def cache_path(args):
 def preflight(root, args):
     selected, local_copies = select(root, args)
     check_destinations(root, cache_path(args), getattr(args, "log", None), local_copies)
-    for relative in ("catalog", "catalog/assets", "catalog/import-jobs", "generated",
+    for relative in ("catalog", "catalog/assets", "catalog/sheets", "catalog/import-jobs", "generated",
                      "generated/reports", "thumbnails"):
         if (root / relative).is_symlink():
             raise CatalogueScopeError("Lien symbolique interdit dans une destination du scan.")
@@ -144,21 +146,32 @@ def _scan(root, args, git, cache, temporary, copies, template):
               for (_, commit), members in groups.items() for copy, *_ in members]
     job_id, job = job_for(template, inputs)
     target = importer.Importer(root, job_id, args.dry_run)
-    rows, manifests = [], []
-    for (repo, commit), members in sorted(groups.items()):
+    rows, manifests, trees = [], [], []
+    ordered = sorted(groups.items(), key=lambda item: (all(member[2] for member in item[1]), item[0]))
+    for (repo, commit), members in ordered:
         mirror = members[0][1]
         head_date = next((date for _, _, release, date in members if not release), None)
         date = head_date or git.run("show", "-s", "--format=%cI", commit, mirror=mirror).decode().strip()
         locations = [(copy, release) for copy, _, release, _ in members]
 
-        def add_blob(path, data, measured, earliest):
-            target.import_blob(locations, commit, date, path, data, measured, earliest)
+        snapshot = snapshots.Snapshot(repo, commit, mirror, date, members,
+                                      {blob.path: blob for blob in git.tree(mirror, commit, sizes=True)})
+        trees.append(snapshot)
 
-        discovered, build_files = importer.scan_tree(git, mirror, repo, commit, add_blob)
+        def add_blob(path, data, measured, earliest):
+            snapshot.indexed[path] = target.import_blob(locations, commit, date, path, data, measured, earliest)
+
+        discovered, build_files = importer.scan_tree(git, mirror, repo, commit, snapshot.tree,
+                                                      add_blob, snapshot.examine)
+        snapshot.import_referenced_data(git, discovered, add_blob)
         rows.extend(discovered)
         manifests.extend({"repo": repo, "commit": commit, "path": path} for path in build_files)
 
     target.reconcile(current_commits)
+    sheet_limits = SheetDiscovery(target, trees, git).run()
+    snapshots.code_licenses(trees, target)
+    snapshots.catalogue_enrichment(trees, target)
+    dynamic = snapshots.build_graph(trees, target, references, git, prepared)
     active_commits = {(record["name"], commit) for record in references.values()
                       for commit in [record["commit"], *record["releaseCommits"]]}
     scanned = set(groups)
@@ -175,7 +188,16 @@ def _scan(root, args, git, cache, temporary, copies, template):
         repositories = _repo_report(copies, prepared, errors)
         previous_exceptions = [row for row in exceptions if (row["repo"], row["commit"]) not in scanned]
         reports.emit(root, repositories, [*rows, *previous_exceptions], exceptions,
-                     target.assets.values(), importer.EXCLUSIONS, manifests)
+                     target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values())
+        usage_index.emit(root, target.assets.values())
+        licenses.emit(root, target.assets.values(), target.sheets.values())
+        dynamic_path = root / "generated" / "reports" / "dynamic-refs.json"
+        if dynamic_path.is_file():
+            refreshed = set(prepared)
+            dynamic.extend(row for row in read_json(dynamic_path)
+                           if (row["repo"], row.get("provider")) not in refreshed)
+        write_json(dynamic_path, sorted(dynamic, key=lambda row: (
+            row["repo"], row.get("provider", ""), row["commit"], row["path"], row["line"], row["excerpt"])))
         write_json(root / "generated" / "duplicates.json", duplicates(target.assets.values()))
         write_json(root / "catalog" / REFERENCE_FILE,
                    {"schemaVersion": "1.0", "references": [references[key] for key in sorted(references)]})
@@ -186,26 +208,42 @@ def _scan(root, args, git, cache, temporary, copies, template):
 
 
 def _inventory(git, mirror, repo, commit, recorded, forgotten):
-    # Enumerate the full committed tree before accounting for exclusions.
+    tree = {blob.path: blob for blob in git.tree(mirror, commit, sizes=True)}
+    examined_json = set()
     with git.batch(mirror) as batch:
-        for blob in git.tree(mirror, commit, sizes=False):
-            path = blob.path
+        for path, blob in tree.items():
             kind = formats.extension(path)
             key = repo, commit, path
-            if kind not in formats.SUPPORTED:
+            if kind not in formats.SUPPORTED or key in recorded or importer.exclusion(path):
                 continue
-            if key in recorded or importer.exclusion(path):
-                continue
-            if kind in formats.CONDITIONAL and not blob.symlink:
+            if kind in formats.CONDITIONAL and not blob.symlink and blob.size <= importer.MAX_BLOB:
                 data = batch.read(blob, importer.MAX_BLOB)
-                if data is not None:
-                    try:
-                        if formats.inspect(path, data) is None:
-                            continue
-                    except formats.Unreadable:
-                        if kind in {"ts", "js"} and not formats.is_generated_code(path, data):
-                            continue
+                try:
+                    if formats.inspect(path, data) is None:
+                        if kind == "json":
+                            examined_json.add(path)
+                        continue
+                except formats.Unreadable:
+                    pass
             forgotten.append({"repo": repo, "commit": commit, "path": path})
+        if not examined_json:
+            return
+        modules = {}
+        for path, blob in tree.items():
+            if (formats.extension(path) not in formats.CODE | {"html"}
+                    or blob.symlink or blob.size > importer.MAX_BLOB or importer.exclusion(path)
+                    or importer.UNSAFE_PATH.search(path)):
+                continue
+            try:
+                source = batch.read(blob, importer.MAX_BLOB).decode("utf-8-sig")
+            except UnicodeDecodeError:
+                continue
+            if "\0" not in source:
+                modules[path] = usage_index.analyse(path, source)
+        eligible = examined_json | {path for name, revision, path in recorded
+                                    if name == repo and revision == commit and path in tree}
+        missing_data = usage_index.explicit_data_targets(modules, tree, eligible) & examined_json
+        forgotten.extend({"repo": repo, "commit": commit, "path": path} for path in sorted(missing_data))
 
 
 def _verify(root, args, git, cache, temporary, copies):

@@ -65,6 +65,42 @@
     "files": {
       "additionalProperties": false,
       "properties": {
+        "atlasFrames": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "atlasSheetId": {
+                "$ref": "#/$defs/sheetId"
+              },
+              "h": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "w": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "x": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "y": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "atlasSheetId",
+              "x",
+              "y",
+              "w",
+              "h"
+            ],
+            "type": "object"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
         "locations": {
           "items": {
             "additionalProperties": false,
@@ -171,6 +207,9 @@
               "type": "null"
             }
           ]
+        },
+        "sha256Method": {
+          "const": "canonical-crop-png"
         }
       },
       "required": [
@@ -883,6 +922,36 @@
         "unknown"
       ]
     },
+    "licenseEvidence": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/evidence"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "decision": {
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "method": {
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "ref": {
+              "pattern": "\\S",
+              "type": "string"
+            }
+          },
+          "required": [
+            "method",
+            "ref",
+            "decision"
+          ],
+          "type": "object"
+        }
+      ]
+    },
     "path": {
       "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.{1,2}(?:/|$))[^/\\\\\\x00-\\x1f]+(?:/[^/\\\\\\x00-\\x1f]+)*(?![\\s\\S])",
       "type": "string"
@@ -904,6 +973,10 @@
             "type": "string"
           },
           "type": "array"
+        },
+        "model": {
+          "pattern": "\\S",
+          "type": "string"
         },
         "sourceSheetSha256": {
           "pattern": "^[0-9A-Fa-f]{64}(?![\\s\\S])",
@@ -930,6 +1003,40 @@
         "evidence"
       ],
       "type": "object"
+    },
+    "regionEvidence": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/evidence"
+        },
+        {
+          "pattern": "\\S",
+          "type": "string"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "method": {
+              "const": "rmse"
+            },
+            "ref": {
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "value": {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            }
+          },
+          "required": [
+            "method",
+            "ref",
+            "value"
+          ],
+          "type": "object"
+        }
+      ]
     },
     "sha256": {
       "pattern": "^[0-9A-Fa-f]{64}(?![\\s\\S])",
@@ -1613,7 +1720,9 @@
             "audio",
             "music",
             "shader",
-            "code-generated"
+            "code-generated",
+            "style",
+            "data"
           ]
         }
       },
@@ -1647,6 +1756,18 @@
       },
       "required": [],
       "type": "object"
+    },
+    "historicalGames": {
+      "items": {
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "historicalStatus": {
+      "pattern": "\\S",
+      "type": "string"
     },
     "id": {
       "$ref": "#/$defs/assetId"
@@ -1798,6 +1919,12 @@
         "formatMetadata": {
           "$ref": "#/properties/inference/properties/description"
         },
+        "historicalGames": {
+          "$ref": "#/properties/inference/properties/description"
+        },
+        "historicalStatus": {
+          "$ref": "#/properties/inference/properties/description"
+        },
         "orientation": {
           "additionalProperties": false,
           "if": {
@@ -1929,6 +2056,9 @@
             }
           },
           "type": "object"
+        },
+        "provenance": {
+          "$ref": "#/properties/inference/properties/description"
         },
         "sha256": {
           "$ref": "#/properties/inference/properties/description"
@@ -2113,7 +2243,7 @@
       "$ref": "#/$defs/license"
     },
     "licenseEvidence": {
-      "$ref": "#/$defs/evidence"
+      "$ref": "#/$defs/licenseEvidence"
     },
     "name": {
       "pattern": "\\S",
@@ -2206,7 +2336,7 @@
           "additionalProperties": false,
           "properties": {
             "evidence": {
-              "$ref": "#/$defs/evidence"
+              "$ref": "#/$defs/regionEvidence"
             },
             "h": {
               "minimum": 1,

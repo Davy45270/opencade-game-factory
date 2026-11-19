@@ -2,6 +2,11 @@
   "$id": "https://opencade.invalid/schemas/usage.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
+  "else": {
+    "required": [
+      "removedAtCommit"
+    ]
+  },
   "if": {
     "properties": {
       "status": {
@@ -10,6 +15,19 @@
     }
   },
   "properties": {
+    "assetBlobs": {
+      "additionalProperties": {
+        "$ref": "asset.schema.json#/$defs/commit"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "$ref": "asset.schema.json#/$defs/path"
+      },
+      "type": "object"
+    },
+    "assetPath": {
+      "$ref": "asset.schema.json#/$defs/files/properties/locations/items/properties/path"
+    },
     "codeRef": {
       "additionalProperties": false,
       "properties": {
@@ -40,6 +58,25 @@
     "importName": {
       "pattern": "\\S",
       "type": "string"
+    },
+    "inference": {
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "asset.schema.json#/properties/inference/properties/description"
+        }
+      },
+      "required": [
+        "role"
+      ],
+      "type": "object"
+    },
+    "provider": {
+      "enum": [
+        "github",
+        "forgejo",
+        "local"
+      ]
     },
     "releases": {
       "items": {

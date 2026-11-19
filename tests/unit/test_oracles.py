@@ -174,11 +174,14 @@ class CatalogueOracles(CatalogueFixture, unittest.TestCase):
             with self.subTest(command=command):
                 args = [ASSET_ID] if command == "inspect" else []
                 code, payload = self.cli(command, *args)
-                if command in ("validate", "inspect"):
+                if command in ("validate", "inspect", "index"):
                     self.assertEqual(code, 0, payload)
                 elif command == "scan-repos":
                     self.assertEqual(code, 0, payload)
                     self.assertEqual(payload["scannedCopies"], 0)
+                elif command in ("import-sheet", "extract"):
+                    self.assertEqual(code, 2, payload)
+                    self.assertEqual(payload["error"], "usage")
                 else:
                     self.assertEqual(code, 2, payload)
                     self.assertEqual(payload["error"], "not-implemented")

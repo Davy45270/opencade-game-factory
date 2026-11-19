@@ -11,10 +11,10 @@ from urllib.parse import quote
 
 from PIL import Image
 
-from tools.core.catalog import Catalogue, InvalidJSON, write_json
+from tools.core.catalog import Catalogue, InvalidJSON, json_text, write_json
 from tools.core.ids import IdRegistry
 from tools.core.schemas import schemas
-from tools.discovery import formats
+from tools.discovery import enrich, formats
 from tools.discovery.repos import is_earlier
 
 MAX_BLOB = 64 * 1024 * 1024
@@ -88,14 +88,15 @@ def added_row(row, measured):
     return result
 
 
-def scan_tree(git, mirror, repo, commit, import_blob):
+def scan_tree(git, mirror, repo, commit, tree, import_blob, examine):
     """Lit chaque blob candidat une seule fois pour un dépôt et un commit."""
     rows, blobs, manifests = [], [], []
-    for blob in git.tree(mirror, commit, sizes=True):
+    for blob in tree.values():
         if (not blob.symlink and PurePosixPath(blob.path).name in BUILD_MANIFESTS
                 and exclusion(blob.path) is None):
             manifests.append(blob.path)
-        if formats.extension(blob.path) in formats.SUPPORTED | formats.UNCOVERED:
+        if (formats.extension(blob.path) in formats.SUPPORTED | formats.UNCOVERED | formats.REFERENCE
+                or PurePosixPath(blob.path).name in {"LICENSE", "LICENSE.md"}):
             blobs.append(blob)
     earliest = git.history_dates(mirror, commit, {blob.oid for blob in blobs
                                  if not blob.symlink and formats.extension(blob.path) in formats.SUPPORTED
@@ -104,6 +105,10 @@ def scan_tree(git, mirror, repo, commit, import_blob):
         for blob in blobs:
             path, kind = blob.path, formats.extension(blob.path)
             base = {"repo": repo, "commit": commit, "path": path, "format": kind}
+            if kind not in formats.SUPPORTED | formats.UNCOVERED | formats.REFERENCE:
+                if not blob.symlink and blob.size <= MAX_BLOB and not exclusion(path) and not UNSAFE_PATH.search(path):
+                    examine(path, batch.read(blob, MAX_BLOB))
+                continue
             if kind in formats.UNCOVERED:
                 rows.append({**base, "status": "unsupported", "reason": "unsupported-format"})
                 continue
@@ -122,14 +127,16 @@ def scan_tree(git, mirror, repo, commit, import_blob):
                 rows.append({**base, "status": "excluded" if rule else "exception", "reason": rule or reason})
                 continue
             raw = batch.read(blob, MAX_BLOB)
+            if not rule:
+                examine(path, raw)
             try:
                 measured = formats.inspect(path, raw)
             except formats.Unreadable as exc:
-                if kind in {"ts", "js"} and not formats.is_generated_code(path, raw):
-                    continue
                 rows.append({**base, "status": "excluded" if rule else "exception", "reason": rule or str(exc)})
                 continue
             if measured is None:
+                rows.append({**base, "status": "excluded" if rule else "examined",
+                             "reason": rule or "no-asset"})
                 continue
             if rule:
                 rows.append({**base, "status": "excluded", "reason": rule})
@@ -143,18 +150,17 @@ def _trace(evidence, method="proven", confidence=1):
     return {"method": method, "confidence": confidence, "evidence": [evidence]}
 
 
-def _asset(asset_id, name, first, created, reference_date, job_id, digest, measured, family, kind):
-    evidence = f"{first['repo']}@{first['commit']}:{first['path']}"
+def _asset(asset_id, name, evidence, created, reference_date, job_id, digest, measured, family, kind):
     category = family["type"].replace("-", "")
     inference = {key: _trace(evidence) for key in ("family", "format", "sha256")}
     for key in ("dimensions", "alpha"):
         if getattr(measured, key) is not None:
             inference[key] = _trace(evidence)
-    inference["category"] = _trace(evidence, "catalogue-import", 1)
-    inference["description"] = _trace(evidence, "catalogue-import", 1)
+    inference["category"] = _trace(evidence, "heuristic", 0.4)
+    inference["description"] = _trace(evidence, "heuristic", 0.4)
     asset = {
         "schemaVersion": "1.0", "id": asset_id, "name": name,
-        "description": f"Ressource {kind} repérée dans {first['path']}.",
+        "description": f"Ressource {kind} repérée.",
         "category": category, "subcategory": None, "tags": "unknown",
         "originUniverse": "unknown", "visualStyle": None,
         "sourceSheetId": None, "sourceRegion": None,
@@ -209,6 +215,9 @@ class Importer:
         self.catalogue = Catalogue(root)
         self.assets = read_assets(root)
         self.initial_assets = set(self.assets)
+        self.sheets = {path.stem: self.catalogue.read(path) for path in self.catalogue.documents("sheets")}
+        self.initial_sheets = {sheet_id: json_text(sheet) for sheet_id, sheet in self.sheets.items()}
+        self.sheet_ids = {sheet["sha256"]: sheet_id for sheet_id, sheet in self.sheets.items()}
         self.ids_path = self.catalogue.path / "ids.json"
         entries = self.catalogue.read(self.ids_path)
         try:
@@ -228,6 +237,7 @@ class Importer:
         if future == "code-generated":
             for loc in locations:
                 loc["blobSha256"] = digest
+        imported_ids = []
         for symbol in measured.symbols or (None,):
             family = measured.family
             first = locations[0]
@@ -245,10 +255,19 @@ class Importer:
             asset_id = self.ids.allouer(key, future.replace("-", ""), name)
             created = datetime.fromtimestamp(earliest, timezone.utc).isoformat() if earliest is not None else date
             if asset_id not in self.assets:
-                self.assets[asset_id] = _asset(asset_id, name, first, created, date, self.job_id,
+                evidence = f"{first['repo']}@{commit}:{path}"
+                self.assets[asset_id] = _asset(asset_id, name, evidence, created, date, self.job_id,
                                                digest, measured, family, formats.extension(path))
                 self.changed.add(asset_id)
             asset = self.assets[asset_id]
+            if asset["status"] != "published" and (asset_id not in self.initial_assets
+                    or asset["description"].startswith("Ressource ")):
+                universe = first["game"].split("/")[-1] if first["game"] else None
+                enrich.enrich(asset, path, universe)
+                self.changed.add(asset_id)
+            if future == "code-generated" and asset["provenance"]["type"] == "repo-file":
+                asset["provenance"]["type"] = "code-generated"
+                self.changed.add(asset_id)
             if measured.image is not None and "thumbnail" in asset and not self.dry_run:
                 thumbnail = self.root / "thumbnails" / digest[:2] / f"{digest}.webp"
                 Catalogue._regular_path(thumbnail.parent)
@@ -267,6 +286,29 @@ class Importer:
                     asset["inference"]["sha256"] = _trace(f"{first['repo']}@{commit}:{path}")
                     self.changed.add(asset_id)
             self.sightings[asset_id].extend(locations)
+            imported_ids.append(asset_id)
+        return imported_ids
+
+    def import_region(self, key, name, snapshot, path, digest, pixels):
+        family = {"type": "sprite", "sprite": {"frameName": name}}
+        asset_id = self.ids.allouer(key, "sprite", name)
+        if asset_id not in self.assets:
+            evidence = f"{snapshot.repo}@{snapshot.commit}:{path}#{name}"
+            measured = formats.Format(family, formats.dimensions(*pixels.size),
+                                      pixels.getchannel("A").getextrema()[0] != 255, pixels)
+            asset = _asset(asset_id, name, evidence, snapshot.date, snapshot.date, self.job_id,
+                           digest, measured, family, "png")
+            asset["files"]["sha256Method"] = "canonical-crop-png"
+            enrich.enrich(asset, path)
+            self.assets[asset_id] = asset
+            self.changed.add(asset_id)
+        asset = self.assets[asset_id]
+        if not self.dry_run and asset.get("thumbnail"):
+            path = self.root / asset["thumbnail"]
+            Catalogue._regular_path(path.parent)
+            if not Catalogue._regular_path(path).exists():
+                _thumbnail(path, pixels)
+        return asset
 
     def reconcile(self, commits):
         for asset_id, asset in self.assets.items():
@@ -310,6 +352,10 @@ class Importer:
             if error:
                 field = "/".join(map(str, error.absolute_path))
                 raise InvalidJSON(f"Fiche générée invalide ({asset_id}, champ {field}).")
+        for sheet in self.sheets.values():
+            error = next(schemas().validator("sheet").iter_errors(sheet), None)
+            if error:
+                raise InvalidJSON(f"Planche générée invalide ({sheet['id']}, champ {list(error.absolute_path)}).")
         jobs = self.catalogue._regular_path(self.catalogue.path / "import-jobs")
         jobs.mkdir(exist_ok=True)
         target = self.catalogue._regular_path(jobs / f"{self.job_id}.json")
@@ -319,7 +365,13 @@ class Importer:
             write_json(self.ids_path, self.ids.entries)
         directory = self.catalogue._regular_path(self.catalogue.path / "assets")
         for asset_id in sorted(self.changed):
-            write_json(directory / f"{asset_id}.json", self.assets[asset_id])
+            target = Catalogue._regular_path(directory / f"{asset_id}.json")
+            if not target.exists() or self.catalogue.read(target) != self.assets[asset_id]:
+                write_json(target, self.assets[asset_id])
+        directory = self.catalogue._regular_path(self.catalogue.path / "sheets")
+        for sheet_id, sheet in sorted(self.sheets.items()):
+            if json_text(sheet) != self.initial_sheets.get(sheet_id):
+                write_json(Catalogue._regular_path(directory / f"{sheet_id}.json"), sheet)
 
     def counts(self):
         return {"newAssets": len(self.assets.keys() - self.initial_assets),

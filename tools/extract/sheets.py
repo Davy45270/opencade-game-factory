@@ -1,0 +1,301 @@
+"""Planches, tables de découpe et cadres attestés par les arbres Git."""
+
+import hashlib
+import io
+import posixpath
+import re
+from collections import defaultdict
+from functools import lru_cache
+from pathlib import PurePosixPath
+
+from PIL import Image
+
+from tools.discovery import formats, references
+from tools.extract import regions
+from tools.publish import licenses
+
+DIGEST = re.compile(r"[0-9a-fA-F]{64}")
+
+
+def sheet_record(target, digest, name, dimensions, evidence):
+    sheet_id = target.sheet_ids.get(digest)
+    if sheet_id is None:
+        sheet_id = target.ids.allouer(f"sheet:sha256:{digest}", "sheet", name)
+        target.sheet_ids[digest] = sheet_id
+    return target.sheets.setdefault(sheet_id, {
+        "schemaVersion": "1.0", "id": sheet_id, "name": name, "sha256": digest,
+        "dimensions": dimensions, "files": {"locations": [], "registry": None},
+        "provenance": {"type": "repo-file", "author": "unknown", "evidence": [evidence]},
+        "license": "unknown", "status": "needs-review", "regions": [],
+    })
+
+
+def link_region(target, asset, sheet, box, verified, evidence):
+    for sheet_id in {asset.get("sourceSheetId"), sheet["id"] if sheet else None}:
+        if sheet_id in target.sheets:
+            old = target.sheets[sheet_id]["regions"]
+            target.sheets[sheet_id]["regions"] = [item for item in old if item["assetId"] != asset["id"]]
+    asset["sourceSheetId"] = sheet["id"] if sheet else None
+    asset["sourceRegion"] = {**box, "verified": verified, "evidence": evidence} if box else None
+    if sheet and box:
+        sheet["regions"].append({**box, "assetId": asset["id"], "evidence": evidence,
+                                 "status": "verified" if verified else "needs-review"})
+        sheet["status"] = ("active" if all(item["status"] == "verified" for item in sheet["regions"])
+                           else "needs-review")
+
+
+def table_entries(document):
+    if not isinstance(document, dict) or not isinstance(document.get("elements"), list):
+        return []
+    fields = ("planche", "planche_sha256", "marge", "ancre", "taille", "licence", "detoure", "effacements",
+              "couverture_min", "masque_max")
+    defaults = {field: document[field] for field in fields if field in document}
+    return [{**defaults, **item} for item in document["elements"] if isinstance(item, dict)]
+
+
+def provenance_entries(document):
+    if isinstance(document, dict):
+        entries = document.get("assets")
+        return [item for item in entries if isinstance(item, dict)] if isinstance(entries, list) else []
+    if isinstance(document, list):
+        return [{**item, **item["origine"], "planche_sha256": item["origine"].get("sha256"), "origine": "planche"}
+                for item in document if isinstance(item, dict) and isinstance(item.get("origine"), dict)]
+    return []
+
+
+def _region_key(sheet_id, box):
+    return f"region:{sheet_id}:" + ",".join(str(box[k]) for k in regions.COORDINATES)
+
+
+class SheetDiscovery:
+    def __init__(self, target, snapshots, git):
+        self.target = target
+        self.git = git
+        self.snapshots = snapshots
+        self.images = defaultdict(list)
+        self.limits = []
+        self.processed = {}
+        self._image = lru_cache(maxsize=4)(self._read_image)
+        self.declarations = {}
+        for snapshot in snapshots:
+            for path, asset_ids in snapshot.indexed.items():
+                asset = target.assets[asset_ids[0]]
+                if formats.extension(path) in formats.RASTER:
+                    self.images[asset["sha256"]].append((snapshot, path, asset))
+
+    def _sheet(self, snapshot, path, asset):
+        sheet = sheet_record(self.target, asset["sha256"], PurePosixPath(path).stem, asset["dimensions"],
+                             f"{snapshot.repo}@{snapshot.commit}:{path}")
+        sheet["dimensions"] = asset["dimensions"]
+        sheet["files"]["locations"] = asset["files"]["locations"].copy()
+        return sheet
+
+    def _source(self, snapshot, entry, metadata_path):
+        raw_digest = entry.get("planche_sha256")
+        name = entry.get("planche")
+        name = PurePosixPath(name).name if isinstance(name, str) and name.strip() else None
+        evidence = f"{metadata_path}@{snapshot.commit}"
+        if isinstance(raw_digest, str) and DIGEST.fullmatch(raw_digest):
+            digest = raw_digest.lower()
+            locations = self.images.get(digest)
+            if locations:
+                other, path, asset = next((item for item in locations if item[0] is snapshot), locations[0])
+                return self._sheet(other, path, asset), other, path
+            sheet = sheet_record(self.target, digest, name or digest[:16], None, evidence)
+            self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
+                                "sheetId": sheet["id"], "sha256": digest, "reason": "source-sheet-unavailable"})
+            return sheet, None, None
+        if raw_digest is not None or not name:
+            return None, None, None
+        location = entry["planche"]
+        local = references.resolve(metadata_path, references.Reference(location, 1, "table"),
+                                   snapshot.tree, snapshot.indexed)
+        basename_matches = [(other, path, asset) for records in self.images.values()
+                            for other, path, asset in records if PurePosixPath(path).name == name
+                            and (other is snapshot or _david_path(other, path))]
+        if len(local) == 1 and formats.extension(local[0]) in formats.RASTER:
+            path = local[0]
+            return self._sheet(snapshot, path, self.target.assets[snapshot.indexed[path][0]]), snapshot, path
+        if len({asset["sha256"] for _, _, asset in basename_matches}) == 1:
+            other, path, asset = basename_matches[0]
+            return self._sheet(other, path, asset), other, path
+        self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
+                            "reason": "source-sheet-unresolved", "sheet": name})
+        return None, None, None
+
+    def _read_image(self, snapshot, path):
+        with self.git.batch(snapshot.mirror) as batch:
+            raw = batch.read(snapshot.tree[path], snapshot.tree[path].size)
+        with Image.open(io.BytesIO(raw)) as image:
+            return image.convert("RGBA")
+
+    def _declaration(self, snapshot, atlas_path, frame_name):
+        frame = _element_id(frame_name)
+        matches = []
+        for metadata_path, provenance, entry in self.declarations[snapshot].get(frame, ()):
+            atlas = entry.get("atlas")
+            if isinstance(atlas, str) and PurePosixPath(atlas).stem != PurePosixPath(atlas_path).stem:
+                continue
+            scope = posixpath.commonpath([atlas_path, metadata_path])
+            matches.append((bool(atlas), provenance, len(scope), metadata_path, entry))
+        if not matches:
+            return None
+        matches.sort(key=lambda match: match[:3], reverse=True)
+        best = matches[0]
+        ties = [match for match in matches if match[:3] == best[:3]]
+        if any(match[-1] != best[-1] for match in ties):
+            self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": atlas_path,
+                                "reason": "ambiguous-provenance", "frame": frame_name})
+            return None
+        if best[1]:
+            # The table may carry normalisation options omitted by the provenance writer.
+            tables = [match[-1] for match in matches if not match[1]
+                      and match[-1].get("planche") == best[-1].get("planche")
+                      and match[-1].get("boite") == best[-1].get("boite")]
+            if len(tables) == 1:
+                return best[3], {**tables[0], **best[4]}
+        return best[3], best[4]
+
+    def _frame(self, snapshot, atlas_path, sheet, image, frame, image_path):
+        box = {key: frame[key] for key in regions.COORDINATES}
+        if not regions.in_image(box, image):
+            self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": atlas_path,
+                                "reason": "atlas-frame-out-of-bounds", "frame": frame["name"]})
+            return
+        name = frame["name"]
+        cropped = regions.crop(image, box)
+        digest = hashlib.sha256(regions.canonical_png(cropped)).hexdigest()
+        key = _region_key(sheet["id"], box)
+        asset = self.target.import_region(key, name, snapshot, atlas_path, digest, cropped)
+        snapshot.indexed[atlas_path].append(asset["id"])
+        snapshot.frame_sources[asset["id"], atlas_path] = image_path
+        if asset["status"] == "published":
+            return
+        atlas_frame = {"atlasSheetId": sheet["id"], **box}
+        if atlas_frame not in asset["files"].setdefault("atlasFrames", []):
+            asset["files"]["atlasFrames"].append(atlas_frame)
+            self.target.changed.add(asset["id"])
+        declaration = self._declaration(snapshot, atlas_path, name)
+        release_only = all(release for _, _, release, _ in snapshot.members)
+        priority = (not release_only, declaration is not None)
+        if self.processed.get(asset["id"], ()) >= priority:
+            return
+        self.processed[asset["id"]] = priority
+        self.target.changed.add(asset["id"])
+        if declaration:
+            self._apply_declaration(snapshot, asset, cropped, declaration)
+            return
+        previous_license = asset.get("licenseEvidence")
+        if isinstance(previous_license, dict) and previous_license["method"] == "provenance-file":
+            asset["license"] = "unknown"
+            asset.pop("licenseEvidence", None)
+        if "sourceSheetSha256" in asset["provenance"] or asset["provenance"]["type"] == "derived":
+            asset["provenance"] = {"type": "repo-file", "author": "unknown", "evidence": [f"{atlas_path}@{snapshot.commit}"]}
+        link_region(self.target, asset, sheet, box, True, f"atlas {atlas_path}@{snapshot.commit}")
+
+    def _apply_declaration(self, snapshot, asset, cropped, declaration):
+        metadata_path, entry = declaration
+        ref = f"{metadata_path}@{snapshot.commit}"
+        asset["provenance"] = {"type": "repo-file", "author": "unknown", "evidence": [ref]}
+        asset["license"] = "unknown"
+        asset.pop("licenseEvidence", None)
+        explicit = entry.get("licence")
+        if licenses.explicit_spdx(explicit):
+            licenses.assign(asset, explicit, "provenance-file", ref, "Licence SPDX déclarée.")
+        if entry.get("origine") == "redessiné (marque)":
+            replacement = entry.get("element_remplace")
+            if isinstance(replacement, str) and replacement.strip():
+                asset["provenance"]["evidence"] = [replacement]
+            asset["provenance"]["type"] = "derived"
+            link_region(self.target, asset, None, None, False, ref)
+            return
+        source, other, path = self._source(snapshot, entry, metadata_path)
+        box = regions.named_box(entry.get("boite"))
+        margin = entry.get("marge", 0)
+        rmse = None
+        if source:
+            asset["provenance"]["sourceSheetSha256"] = source["sha256"]
+        if other and box and type(margin) is int and margin >= 0:
+            rmse = regions.measure(self._image(other, path), entry["boite"], margin, cropped,
+                                   entry.get("ancre"), options=entry)
+        verified = rmse is not None and rmse <= regions.THRESHOLD
+        evidence = ({"method": "rmse", "value": rmse, "ref": ref} if rmse is not None
+                    else f"Comparaison indisponible · {ref}")
+        if source and box and not _within_sheet(box, source):
+            self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
+                                "reason": "source-region-out-of-bounds", "frame": asset["name"]})
+            box = None
+        link_region(self.target, asset, source, box if source else None, verified, evidence)
+        from_provenance = bool(entry.get("planche_sha256") and PurePosixPath(metadata_path).name == "provenance.json")
+        trusted = source and (from_provenance or any(_david_location(loc) for loc in source["files"]["locations"]))
+        derived = entry.get("origine") == "dérivé" or bool(entry.get("effacements"))
+        if derived:
+            asset["provenance"]["type"] = "derived"
+        if verified and trusted and not derived:
+            asset["provenance"]["type"] = "original-sheet-cut"
+            licenses.assign(asset, "CC-BY-4.0", "provenance-file", ref, licenses.DAVID_DECISION)
+        if not verified:
+            asset["status"] = "needs-review"
+
+    def _read_declarations(self, snapshot):
+        entries_by_id = defaultdict(list)
+        for path, document in snapshot.metadata.items():
+            provenance = PurePosixPath(path).name == "provenance.json"
+            if not provenance and not path.endswith(".decoupe.json"):
+                continue
+            if document is None:
+                self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": path,
+                                    "reason": "invalid-sheet-metadata"})
+                continue
+            for entry in provenance_entries(document) if provenance else table_entries(document):
+                if element := _element_id(entry.get("id")):
+                    entries_by_id[element].append((path, provenance, entry))
+        return entries_by_id
+
+    def run(self):
+        for records in self.images.values():
+            for snapshot, path, asset in records:
+                if max(asset["dimensions"].values()) >= 512 and _sheet_path(path):
+                    self._sheet(snapshot, path, asset)
+                    break
+        for snapshot in self.snapshots:
+            self.declarations[snapshot] = self._read_declarations(snapshot)
+            for atlas_path, asset_ids in tuple(snapshot.indexed.items()):
+                atlas = self.target.assets[asset_ids[0]]
+                if atlas["family"]["type"] != "atlas":
+                    continue
+                image = atlas["formatMetadata"]["atlasImage"]
+                options = references.resolve(atlas_path, references.Reference(image, 1, "atlas"),
+                                             snapshot.tree, snapshot.indexed)
+                if not options or formats.extension(options[0]) not in formats.RASTER:
+                    self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": atlas_path,
+                                        "reason": "atlas-image-unresolved"})
+                    continue
+                image_path = options[0]
+                sheet = self._sheet(snapshot, image_path, self.target.assets[snapshot.indexed[image_path][0]])
+                pixels = self._image(snapshot, image_path)
+                for frame in atlas["family"]["frames"]:
+                    self._frame(snapshot, atlas_path, sheet, pixels, frame, image_path)
+        self._image.cache_clear()
+        return self.limits
+
+
+def _within_sheet(box, sheet):
+    dim = sheet["dimensions"]
+    return not dim or (box["x"] + box["w"] <= dim["width"] and box["y"] + box["h"] <= dim["height"])
+
+
+def _element_id(value):
+    return PurePosixPath(value).name.removeprefix("sprite-") if isinstance(value, str) else None
+
+
+def _david_path(snapshot, path):
+    return snapshot.repo == "jeux-assets" and path.startswith("planches/")
+
+
+def _david_location(location):
+    return location["repo"] == "jeux-assets" and location["path"].startswith("planches/")
+
+def _sheet_path(path):
+    parts = PurePosixPath(path.casefold()).parts
+    return any(p in {"planches", "sources"} for p in parts[:-1]) or bool(re.search("planche|sheet", parts[-1]))

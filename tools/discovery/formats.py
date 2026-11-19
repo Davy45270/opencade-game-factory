@@ -16,8 +16,11 @@ RASTER = {"png": "PNG", "jpg": "JPEG", "jpeg": "JPEG", "webp": "WEBP", "gif": "G
 AUDIO = frozenset("ogg mp3 wav m4a flac opus".split())
 FONTS = {"ttf": b"\x00\x01\x00\x00", "otf": b"OTTO", "woff": b"wOFF", "woff2": b"wOF2"}
 SHADERS = {"glsl": None, "vert": "vertex", "frag": "fragment", "wgsl": None}
-CONDITIONAL = frozenset(("json", "ts", "js"))
-SUPPORTED = frozenset(RASTER) | AUDIO | FONTS.keys() | SHADERS.keys() | CONDITIONAL | {
+CODE = frozenset("ts tsx js mjs jsx vue svelte".split())
+REFERENCE = CODE | frozenset("html css scss json webmanifest".split())
+CONDITIONAL = CODE | frozenset(("json",))
+STYLE = frozenset(("css", "scss"))
+SUPPORTED = frozenset(RASTER) | AUDIO | FONTS.keys() | SHADERS.keys() | CONDITIONAL | STYLE | {
     "svg", "ase", "aseprite", "tmj", "tmx", "tsj", "tsx",
 }
 UNCOVERED = frozenset("psd xcf kra blend fla swf mid mod xm".split())
@@ -256,7 +259,7 @@ def inspect(path, data):
             return _svg(data)
         if kind in {"ase", "aseprite"}:
             return _aseprite(data)
-        if kind in {"tmx", "tsx"}:
+        if kind == "tmx" or (kind == "tsx" and re.match(rb"(?:<\?xml[^>]*>\s*)?<tileset\b", data.removeprefix(b"\xef\xbb\xbf").lstrip())):
             return _tiled_xml(data, kind)
         if kind in {"json", "tmj", "tsj"}:
             return _json(data, kind)
@@ -264,13 +267,17 @@ def inspect(path, data):
             return _audio(data, kind)
         if kind in FONTS:
             return _font(data, kind)
+        if kind in STYLE:
+            if "\0" in data.decode("utf-8-sig"):
+                raise Unreadable("invalid-style-source")
+            return Format({"type": "style"})
         if kind in SHADERS:
             text = data.decode("utf-8-sig")
             if not text.strip() or "\0" in text:
                 raise Unreadable("invalid-shader-source")
             return Format({"type": "shader", "shader": {"language": "WGSL" if kind == "wgsl" else "GLSL",
                            "stage": SHADERS[kind]}})
-        if kind in {"ts", "js"}:
+        if kind in CODE:
             text = data.decode("utf-8-sig")
             if DRAW.search(text):
                 symbols = tuple(dict.fromkeys(match["key"] for match in SYMBOL.finditer(text)))
@@ -284,4 +291,4 @@ def inspect(path, data):
 
 
 def is_generated_code(path, data):
-    return extension(path) in {"ts", "js"} and bool(DRAW.search(data.decode("utf-8-sig", errors="replace")))
+    return extension(path) in CODE and bool(DRAW.search(data.decode("utf-8-sig", errors="replace")))

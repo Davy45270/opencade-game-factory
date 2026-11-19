@@ -25,7 +25,14 @@
   ],
   "properties": {
     "dimensions": {
-      "$ref": "asset.schema.json#/$defs/dimensions"
+      "anyOf": [
+        {
+          "$ref": "asset.schema.json#/$defs/dimensions"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "files": {
       "$ref": "asset.schema.json#/$defs/files"
@@ -37,7 +44,7 @@
       "$ref": "asset.schema.json#/$defs/license"
     },
     "licenseEvidence": {
-      "$ref": "asset.schema.json#/$defs/evidence"
+      "$ref": "asset.schema.json#/$defs/licenseEvidence"
     },
     "name": {
       "pattern": "\\S",
@@ -61,7 +68,7 @@
             ]
           },
           "evidence": {
-            "$ref": "asset.schema.json#/$defs/evidence"
+            "$ref": "asset.schema.json#/$defs/regionEvidence"
           },
           "h": {
             "minimum": 1,
@@ -105,6 +112,12 @@
     },
     "sha256": {
       "$ref": "asset.schema.json#/$defs/sha256"
+    },
+    "status": {
+      "enum": [
+        "needs-review",
+        "active"
+      ]
     }
   },
   "required": [

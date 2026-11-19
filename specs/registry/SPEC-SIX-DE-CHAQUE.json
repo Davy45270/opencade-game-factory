@@ -1,0 +1,3024 @@
+{
+  "id": "SPEC-SIX-DE-CHAQUE",
+  "project": "six-de-chaque",
+  "requirements": [
+    {
+      "evidence": {
+        "ref": "dépôt Davy45270/six-de-chaque, Forgejo david/six-de-chaque, Woodpecker 16, site six-de-chaque.dav123.fr",
+        "threshold": "aucun fichier d'Opencade",
+        "type": "mesure",
+        "value": "dépôt distinct"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E001",
+      "matrixId": "E001",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "dépôt, CI et site à part d'Opencade"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > apps/web/public/art/glyphs.svg is generated from the art source",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E002",
+      "matrixId": "E002",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "aucun asset tiers : l'art est généré par le code source du dépôt"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > stack is React, Vite, PixiJS, Vitest and Playwright",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E003",
+      "matrixId": "E003",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "pile : TypeScript strict, React/Vite, PixiJS, Vitest, Playwright (vérifiée par un test de configuration)"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E004",
+      "matrixId": "E004",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "gestionnaire de paquets : pnpm workspaces"
+    },
+    {
+      "evidence": {
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E005",
+      "matrixId": "E005",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "moteur pur sans DOM, rendu, horloge ni hasard"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > createGame rejects 1 or 5 players and a game without human",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E006",
+      "matrixId": "E006",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "partie classique de 2 à 4 joueurs"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > a game with an ai player can be created and played to the end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E007",
+      "matrixId": "E007",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "partie solo : un humain contre un ordinateur, jouée jusqu'au bout"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/challenges.spec.ts > defi-reussi",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E008",
+      "matrixId": "E008",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "mode puzzles (défis) jouable"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E009",
+      "matrixId": "E009",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "variante réseau"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > licences: code MIT and original art CC BY 4.0 are declared",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E010",
+      "matrixId": "E010",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "licences : code MIT, art original CC BY 4.0, titularité déclarée"
+    },
+    {
+      "evidence": {
+        "ref": "comparaison du 2026-11-19 aux règles publiées du jeu du commerce (Wikipedia, geekyhobbies, groupgames101), consignée sur le ticket",
+        "threshold": "chaque règle de la spec confrontée",
+        "type": "mesure",
+        "value": "0 écart sur 108 tuiles, main de 6, 1 point par tuile de ligne, +6 ligne de six, +6 fin, échange à 0 point tiré avant remise ; premier joueur : plus grand groupe (âge remplacé par la graine) ; passe et blocage absents de la règle publiée, tranchés par David (7-2900)"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E011",
+      "matrixId": "E011",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "règles confrontées à une édition officielle avant la release"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > target commands install, lint, typecheck, test, build and e2e exist",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E012",
+      "matrixId": "E012",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/README.md.txt"
+      },
+      "statement": "commandes cibles install, lint, typecheck, test, build, e2e disponibles sous ces noms"
+    },
+    {
+      "evidence": {
+        "ref": "tests/pwa.test.ts > declares the French app identity",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E013",
+      "matrixId": "E013",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "application web installable (PWA), bureau et mobile"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/offline.spec.ts > the installed app starts a game offline",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E014",
+      "matrixId": "E014",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "jouable hors ligne après installation"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/hotseat.spec.ts > hotseat-hides-hand",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E015",
+      "matrixId": "E015",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "2 à 4 joueurs humains sur un même appareil, main cachée entre les tours"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/termination.test.ts > one human against three computers plays to the end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E016",
+      "matrixId": "E016",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "un humain contre trois ordinateurs, partie jouée jusqu'au bout"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > save then load returns the same session",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E017",
+      "matrixId": "E017",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "sauvegarde de la partie"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/blocked-end.spec.ts > blocked-end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E018",
+      "matrixId": "E018",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "rejeu d'une partie terminée"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E019",
+      "matrixId": "E019",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "scores lisibles en partie (390×844)"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/a11y.spec.ts > T23 two full turns with the keyboard only, without forcing focus",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E020",
+      "matrixId": "E020",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "partie jouable au clavier seul"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E021",
+      "matrixId": "E021",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "partie jouable à la souris"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/touch.spec.ts > touch: a turn played with real taps",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E022",
+      "matrixId": "E022",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "partie jouable au toucher (tap réel, pas un clic)"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E023",
+      "matrixId": "E023",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "aucun compte : la partie démarre sans identification"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/no-network.spec.ts > no request leaves the application origin",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E024",
+      "matrixId": "E024",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "aucune requête réseau hors fichiers de l'application"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/tiles.test.ts > T01 108 unique ids, exactly 3 copies per colour-shape pair",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E025",
+      "matrixId": "E025",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "108 tuiles, 6 couleurs × 6 formes × 3 copies"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > createGame deals 6 tiles to each of 2..4 players and leaves 108-6n in the bag",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E026",
+      "matrixId": "E026",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "main de six tuiles"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > non-integer and out-of-bounds coordinates are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E027",
+      "matrixId": "E027",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "coordonnées entières, grille non bornée hors limite technique"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > isValidLine",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E028",
+      "matrixId": "E028",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne valide : une couleur et formes distinctes, ou une forme et couleurs distinctes"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T08 seventh tile is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E029",
+      "matrixId": "E029",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne de 1 à 6 tuiles"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T09 exact duplicate in a line is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E030",
+      "matrixId": "E030",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "aucun doublon exact dans une ligne"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T07 diagonal is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E031",
+      "matrixId": "E031",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "tuiles d'un coup alignées"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T06 two new tiles around an existing one are valid",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E032",
+      "matrixId": "E032",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne continue après pose, trous comblés par des tuiles existantes"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T10 crossing line violation is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E033",
+      "matrixId": "E033",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "lignes transverses valides"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T03 three distinct shapes of one colour on empty board is valid",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E034",
+      "matrixId": "E034",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "premier coup : une ou plusieurs tuiles alignées compatibles"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T02 single tile on empty board is valid",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E035",
+      "matrixId": "E035",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "une tuile seule n'a pas d'orientation"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T11 disconnected move is rejected unless board is empty",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E036",
+      "matrixId": "E036",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "coup suivant : contact orthogonal avec une tuile existante"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T12 tile not in hand / duplicated id / occupied cell are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E037",
+      "matrixId": "E037",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "pas de pose sur une case occupée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > segments are deduplicated",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E038",
+      "matrixId": "E038",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "score = somme des longueurs des lignes distinctes"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T02 isolated first tile scores 1",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E039",
+      "matrixId": "E039",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "première tuile isolée : 1 point"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > multi-tile move counts main line once plus each crossing line >= 2",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E040",
+      "matrixId": "E040",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne principale une fois, chaque transverse ≥ 2 une fois"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T05 one tile closing two lines of three scores 6",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E041",
+      "matrixId": "E041",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "tuile seule : ses deux lignes ≥ 2 comptent"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T02 isolated first tile scores 1",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E042",
+      "matrixId": "E042",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "tuile seule sans ligne : 1 point"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T04 completing a line of six scores 12",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E043",
+      "matrixId": "E043",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne de six : +6 une seule fois"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T08 seventh tile is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E044",
+      "matrixId": "E044",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ligne de six non prolongeable"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T15 last tile with empty bag gives +6 and ends the game",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E045",
+      "matrixId": "E045",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "fin par main vide, réserve vide : +6"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T-block full pass round ends the game without bonus",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E046",
+      "matrixId": "E046",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "blocage : fin après un tour complet de passes, sans bonus"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T14 exchange with fewer tiles in the bag than returned is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E047",
+      "matrixId": "E047",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "échange limité à la taille de la réserve"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T13 exchanged tiles are not drawn back in the same exchange",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E048",
+      "matrixId": "E048",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "échange : tirer avant de remettre, puis mélange déterministe"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > exchange scores 0 and passes the turn",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E049",
+      "matrixId": "E049",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "échange à 0 point"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > PASS is legal only when no placement is legal and the bag is empty",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E050",
+      "matrixId": "E050",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "passe seulement sans pose légale et sans échange possible"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E051",
+      "matrixId": "E051",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "écart : en position morte, passer est permis même si l'échange reste possible"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > first player holds the largest compatible group",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E052",
+      "matrixId": "E052",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "premier joueur : plus grand groupe compatible"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > tie on largest group is broken by the seed",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E053",
+      "matrixId": "E053",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "égalité départagée par la graine"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/controller.test.ts > select then placeAt builds a ghost and a score preview",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E054",
+      "matrixId": "E054",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "sélection, fantôme et score prévisionnel"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E055",
+      "matrixId": "E055",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "valider et annuler un coup"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > zoomAt keeps the focal point fixed",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E056",
+      "matrixId": "E056",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "zoom du plateau"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > panBy moves the board with the finger",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E057",
+      "matrixId": "E057",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "déplacement du plateau"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/keyboard.test.ts > keyboard: arrows, 1-6, Enter, Backspace, Escape, V map to the commands above",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E058",
+      "matrixId": "E058",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "raccourcis clavier"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > palette: six distinct colours and six distinct patterns",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E059",
+      "matrixId": "E059",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "un motif par couleur, en plus de la couleur"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > high contrast colours reach 4.5:1 against the tile background",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E060",
+      "matrixId": "E060",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "mode contraste élevé, contraste ≥ 4,5:1"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/a11y.spec.ts > T23 every tile exposes colour and shape in its accessible name",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E061",
+      "matrixId": "E061",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "noms accessibles des tuiles et commandes"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E062",
+      "matrixId": "E062",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "sauvegarde automatique après chaque coup validé"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > ai never reads other hands",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E063",
+      "matrixId": "E063",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ni l'indice ni l'ordinateur ne lisent la main adverse"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E064",
+      "matrixId": "E064",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "historique des coups visible en partie"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/examples.spec.ts > replay is only reachable once the game is over",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E065",
+      "matrixId": "E065",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "rejeu local seulement après la fin ; l'historique ne dit jamais les tuiles échangées"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > snapshot from createGame validates",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E066",
+      "matrixId": "E066",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "état sérialisable en JSON"
+    },
+    {
+      "evidence": {
+        "ref": "tests/validate-bench.test.ts, it.each([108, 200]) : validateAction × 1000 on a 200-tile board",
+        "threshold": "< 10 ms visés par la spec ; mesure seulement",
+        "type": "mesure",
+        "value": "10,2 µs par validation (médiane de 15 × 1000, Xeon E5-2680 v2, Node 26)"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E067",
+      "matrixId": "E067",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "validation d'un coup mesurée sur un plateau de 200 tuiles"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E068",
+      "matrixId": "E068",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "rendu du plateau à 60 FPS visés (mesure non concluante sans GPU : créneau tank01 Firefox 59,9, Chromium 25,6, WebKit 18,5 — appareil réel requis)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > T24 CANCEL stops the search before RESULT",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E069",
+      "matrixId": "E069",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "ordinateur dans un Worker annulable"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > createGame is deterministic for a seed",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E070",
+      "matrixId": "E070",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "même graine, même partie"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > unknown save version is refused",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E071",
+      "matrixId": "E071",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "sauvegardes versionnées"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/no-network.spec.ts > no request leaves the application origin",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E072",
+      "matrixId": "E072",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "aucune télémétrie"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > the six glyphs are the original set, never the commercial shapes",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E073",
+      "matrixId": "E073",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "aucune copie de logo, habillage ni illustration du jeu du commerce"
+    },
+    {
+      "evidence": {
+        "ref": "tests/brand-guard.test.ts > public text has no commercial names or internal ticket identifiers",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E074",
+      "matrixId": "E074",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "nom public distinct de la marque, choisi par David"
+    },
+    {
+      "evidence": {
+        "ref": "comparaison du 2026-11-19 aux règles publiées du jeu du commerce (Wikipedia, geekyhobbies, groupgames101), consignée sur le ticket",
+        "threshold": "chaque règle de la spec confrontée",
+        "type": "mesure",
+        "value": "0 écart sur 108 tuiles, main de 6, 1 point par tuile de ligne, +6 ligne de six, +6 fin, échange à 0 point tiré avant remise ; premier joueur : plus grand groupe (âge remplacé par la graine) ; passe et blocage absents de la règle publiée, tranchés par David (7-2900)"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E075",
+      "matrixId": "E075",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "passe, blocage et premier joueur confrontés à une source officielle"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/challenge.test.ts > plays solo with the fixed hand and scores a win on the final turn",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E076",
+      "matrixId": "E076",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "défis : mécanique propre, distincte de la partie classique"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > monorepo has apps/web, engine, ai, puzzles, renderer-pixi, contracts and shared",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E077",
+      "matrixId": "E077",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "application apps/web en React/Vite, PWA"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > PLACE removes tiles from hand, adds them to board, scores, refills to six",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E078",
+      "matrixId": "E078",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet engine : état, règles, score, événements"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > ai package exposes the legal move generator",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E079",
+      "matrixId": "E079",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet ai : génération des coups et politiques"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > solver finds the reference solution and replays it with the real engine to reach the target",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E080",
+      "matrixId": "E080",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet puzzles : générateur et solveur"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > screenToCell inverts cell-to-screen for any camera",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E081",
+      "matrixId": "E081",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet renderer-pixi"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > accepts a minimal valid snapshot",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E082",
+      "matrixId": "E082",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet contracts : schémas et validateurs"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > monorepo has apps/web, engine, ai, puzzles, renderer-pixi, contracts and shared",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E083",
+      "matrixId": "E083",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "paquet shared : types non métier"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > packages are ESM",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E084",
+      "matrixId": "E084",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "TypeScript strict, paquets en ESM"
+    },
+    {
+      "evidence": {
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E085",
+      "matrixId": "E085",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "engine n'importe ni PixiJS ni React"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > createGame is deterministic for a seed",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E086",
+      "matrixId": "E086",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "createGame(config, seed)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > validateAction never mutates its arguments",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E087",
+      "matrixId": "E087",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "validateAction(state, action) sans mutation"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T16 rejected action leaves state, rng, scores and log unchanged",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E088",
+      "matrixId": "E088",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "applyAction rend un nouvel état, sans effet de bord"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T03 three tiles in a line score 3",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E089",
+      "matrixId": "E089",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "calculateScore(boardBefore, placements)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > limit stops early",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E090",
+      "matrixId": "E090",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "getLegalMoves(state, playerId, limit?)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/project.test.ts > T20 projection hides other hands, bag and seed until the end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E091",
+      "matrixId": "E091",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "projectPublicState(state, viewerId)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > T17 replaying the log gives the same final hash",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E092",
+      "matrixId": "E092",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "replay(config, seed, events)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/tiles.test.ts > tile ids follow the index formula",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E093",
+      "matrixId": "E093",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "tuiles t-000…t-107, couleur et forme de 0 à 5"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > rejects board key",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E094",
+      "matrixId": "E094",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "plateau indexé par « x:y »"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T18 108 tiles are conserved after every action",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E095",
+      "matrixId": "E095",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "conservation des 108 tuiles"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > createGame deals 6 tiles to each of 2..4 players and leaves 108-6n in the bag",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E096",
+      "matrixId": "E096",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "2 à 4 joueurs, ordre fixe"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > non-integer and out-of-bounds coordinates are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E097",
+      "matrixId": "E097",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "limite technique des coordonnées, configurable"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > accepts the three action types",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E098",
+      "matrixId": "E098",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "actions complètes PLACE, EXCHANGE, PASS avec expectedTurn et actorId"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > an action on a state of another version is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E099",
+      "matrixId": "E099",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "contrôle de la version de l'état avant toute action"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > wrong actor and stale expectedTurn are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E100",
+      "matrixId": "E100",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "contrôles phase, acteur, tour, unicité, possession, limites"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > replay throws on a broken hash chain",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E101",
+      "matrixId": "E101",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "événement numéroté par le tour, sans horloge"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > save then load returns the same session",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E102",
+      "matrixId": "E102",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "instantané et journal persistés à chaque tour"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > settings persist",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E103",
+      "matrixId": "E103",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "IndexedDB : games, events, settings"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > migrates a published extended v1 save and its log to v2",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E104",
+      "matrixId": "E104",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "migration explicite v1 → v2 des sauvegardes"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > export then import round-trips",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E105",
+      "matrixId": "E105",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "import et export JSON validés par schéma"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > loadGame flags an inconsistent snapshot without deleting it",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E106",
+      "matrixId": "E106",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "rejeu au chargement avec vérification de l'empreinte finale"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > snapshot with an extra field is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E107",
+      "matrixId": "E107",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "l'instantané n'accepte aucun champ hors schéma"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/project.test.ts > T20 projection hides other hands, bag and seed until the end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E108",
+      "matrixId": "E108",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "projection : mains adverses, réserve et graine cachées jusqu'à la fin"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E109",
+      "matrixId": "E109",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "serveur réseau autoritaire"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > duplicate actionId is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E110",
+      "matrixId": "E110",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "commandes idempotentes par actionId, contrôle expectedTurn"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E111",
+      "matrixId": "E111",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "reconnexion, authentification optionnelle, limitation de débit"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E112",
+      "matrixId": "E112",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "serveur seul juge du score, de la pioche et de la légalité"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile and runs lint, typecheck, test, build, e2e and package in",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E113",
+      "matrixId": "E113",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "pipeline CI jusqu'à l'étape package"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E114",
+      "matrixId": "E114",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "installation sur lockfile figé"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > CI produces an SBOM, audits dependencies, scans secrets and checks licences",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E115",
+      "matrixId": "E115",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "SBOM, audit des dépendances, recherche de secrets, licences en CI"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > package is reproducible",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E116",
+      "matrixId": "E116",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "artefacts de couverture produits par la CI"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E117",
+      "matrixId": "E117",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "tag de version signé"
+    },
+    {
+      "evidence": {
+        "ref": "CHANGELOG.md du dépôt (commit ca42202)",
+        "threshold": "un journal des changements versionné présent",
+        "type": "mesure",
+        "value": "versions 0.1.0 et 0.2.0 décrites, package.json en 0.2.0"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E118",
+      "matrixId": "E118",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "journal des changements"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > package is reproducible",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E119",
+      "matrixId": "E119",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "sommes SHA-256 du paquet livré"
+    },
+    {
+      "evidence": {
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E120",
+      "matrixId": "E120",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "moteur sans accès réseau"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T12 tile not in hand / duplicated id / occupied cell are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E121",
+      "matrixId": "E121",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "rejets : vide, ID répété, case répétée, hors main, occupée, mauvais acteur, non entier"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > gap without existing tile is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E122",
+      "matrixId": "E122",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "intervalle des nouvelles tuiles entièrement occupé"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T11 disconnected move is rejected unless board is empty",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E123",
+      "matrixId": "E123",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "contact avec le plateau existant, pas seulement entre tuiles posées"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T16 rejected action leaves state, rng, scores and log unchanged",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E124",
+      "matrixId": "E124",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "aucune mutation en cas d'erreur"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > segments are deduplicated",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E125",
+      "matrixId": "E125",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "segments dédoublonnés par axe et bornes"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T04 completing a line of six scores 12",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E126",
+      "matrixId": "E126",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "ScoreBreakdown {segments, base, bonuses, total}"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/rng.test.ts > xoshiro128** reference vector",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E127",
+      "matrixId": "E127",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "mélange Fisher–Yates sur xoshiro128**"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > PLACE removes tiles from hand, adds them to board, scores, refills to six",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E128",
+      "matrixId": "E128",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "la pioche prend la tête de la réserve"
+    },
+    {
+      "evidence": {
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E129",
+      "matrixId": "E129",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "jamais Math.random"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T13 exchanged tiles are not drawn back in the same exchange",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E130",
+      "matrixId": "E130",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "pas de repioche d'une tuile rendue dans le même échange"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > exchange scores 0 and passes the turn",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E131",
+      "matrixId": "E131",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "échange : 0 point et joueur suivant"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > replay throws on a broken hash chain",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E132",
+      "matrixId": "E132",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "événement : action, score, empreinte d'état"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > duplicate actionId is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E133",
+      "matrixId": "E133",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "identifiant de commande anti-rejeu"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > the node budget caps the evaluation",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E134",
+      "matrixId": "E134",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "budget de nœuds et annulation de l'ordinateur"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > two lines of six completed at once give two bonuses",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E135",
+      "matrixId": "E135",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "deux lignes de six : deux bonus"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T08 seventh tile is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E136",
+      "matrixId": "E136",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "ligne de sept rejetée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > empty board: single tiles at (0,0) and compatible lines from (0,0)",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E137",
+      "matrixId": "E137",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "générateur sur plateau vide : origine (0,0)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > T19 every generated move is valid and has no duplicate keys",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E138",
+      "matrixId": "E138",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "clé canonique triée, dédoublonnage"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > T19 exhaustive against brute force on small boards",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E139",
+      "matrixId": "E139",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "exhaustivité contre un oracle de force brute"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > beginner picks among legal moves with a low score bias",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E140",
+      "matrixId": "E140",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "débutant : tirage pseudo-aléatoire, faible biais vers le score"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > intermediate avoids leaving a line of five open when it costs little",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E141",
+      "matrixId": "E141",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "intermédiaire : score immédiat, pénalité des lignes de cinq ouvertes"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/advanced.test.ts > advanced prefers a move that keeps a diverse hand",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E142",
+      "matrixId": "E142",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "avancé : score, diversité de main, mobilité, risque de ligne de six adverse"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/expert.test.ts > expert only samples tiles that are not visible",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E143",
+      "matrixId": "E143",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "expert : mains cachées échantillonnées, Monte-Carlo à budget de nœuds, reproductible"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > intermediate exchanges when no placement is useful",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E144",
+      "matrixId": "E144",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "échange quand aucune pose n'est utile selon la politique"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > exchange when no placement, pass when bag empty",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E145",
+      "matrixId": "E145",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "l'ordinateur ne passe que si c'est légal"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > every decision returns move, explanation, evaluatedNodes and seed",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E146",
+      "matrixId": "E146",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "décision {move, explanation, evaluatedNodes, seed}"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > puzzle schema rejects a missing field and an unknown drawPolicy",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E147",
+      "matrixId": "E147",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "format de puzzle"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > generated puzzles start from a replayed legal state",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E148",
+      "matrixId": "E148",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "génération depuis un état légal produit par rejeu"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > unsolvable only after an exhaustive search",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E149",
+      "matrixId": "E149",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "toutes les solutions calculées à profondeur bornée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > trivial and unsolvable candidates are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E150",
+      "matrixId": "E150",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "rejet des puzzles sans solution ou triviaux"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > committed puzzles and their receipt are re-verified",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E151",
+      "matrixId": "E151",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "empreinte de la solution optimale conservée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > drawPolicy none never draws, ordered draws in the given order",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E152",
+      "matrixId": "E152",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "drawPolicy none, ou ordre de pioche déterministe"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > uniqueness is claimed only with an exhaustive search",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E153",
+      "matrixId": "E153",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "« unique » seulement avec preuve d'exhaustivité"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > REQUEST_HINT is answered like REQUEST_MOVES",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E154",
+      "matrixId": "E154",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "messages du Worker, REQUEST_HINT compris"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > T24 stale result after state change is ignored",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E155",
+      "matrixId": "E155",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "résultat refusé si la partie a changé"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > cache returns the same decision without new nodes",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E156",
+      "matrixId": "E156",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "cache LRU par état, joueur, niveau"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > same view same decision",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E157",
+      "matrixId": "E157",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "décision stable à graine fixée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/bench.test.ts > ai decision time on reference positions",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E158",
+      "matrixId": "E158",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "performance de l'ordinateur mesurée sur positions de référence"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > T24 CANCEL stops the search before RESULT",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E159",
+      "matrixId": "E159",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "arrêt propre sur CANCEL"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > v1 schema matches the specification contract",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E160",
+      "matrixId": "E160",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/game.schema.json"
+      },
+      "statement": "schéma GameState v1 de la spec repris tel quel (titre et $id hors marque), extensions dans une version suivante"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > rejects board key",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E161",
+      "matrixId": "E161",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/game.schema.json"
+      },
+      "statement": "clé de case « x:y » canonique"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > rejects hand of 7",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E162",
+      "matrixId": "E162",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/game.schema.json"
+      },
+      "statement": "main de 6 au plus"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > accepts the three action types",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E163",
+      "matrixId": "E163",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "schéma des actions : trois types exclusifs"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > rejects PLACE with 0 or 7 placements",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E164",
+      "matrixId": "E164",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "PLACE de 1 à 6 poses"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > EXCHANGE schema accepts 1 to 6 tiles only",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E165",
+      "matrixId": "E165",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "EXCHANGE de 1 à 6 tuiles"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > rejects action with extra property",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E166",
+      "matrixId": "E166",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "PASS sans champ supplémentaire"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/tiles.test.ts > T01 108 unique ids",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E167",
+      "matrixId": "E167",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T01"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T02 isolated first tile scores 1",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E168",
+      "matrixId": "E168",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T02"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T03 three tiles in a line score 3",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E169",
+      "matrixId": "E169",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T03"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T04 completing a line of six scores 12",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E170",
+      "matrixId": "E170",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T04"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/score.test.ts > T05 one tile closing two lines of three scores 6",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E171",
+      "matrixId": "E171",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T05"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T06 two new tiles around an existing one are valid",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E172",
+      "matrixId": "E172",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T06"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T07 diagonal is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E173",
+      "matrixId": "E173",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T07"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T08 seventh tile is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E174",
+      "matrixId": "E174",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T08"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T09 exact duplicate in a line is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E175",
+      "matrixId": "E175",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T09"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T10 crossing line violation is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E176",
+      "matrixId": "E176",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T10"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T11 disconnected move is rejected unless board is empty",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E177",
+      "matrixId": "E177",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T11"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T12 tile not in hand / duplicated id / occupied cell are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E178",
+      "matrixId": "E178",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T12"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T13 exchanged tiles are not drawn back in the same exchange",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E179",
+      "matrixId": "E179",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T13"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T14 exchange with fewer tiles in the bag than returned is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E180",
+      "matrixId": "E180",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T14"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T15 last tile with empty bag gives +6 and ends the game",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E181",
+      "matrixId": "E181",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T15"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T16 rejected action leaves state, rng, scores and log unchanged",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E182",
+      "matrixId": "E182",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T16"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > T17 replaying the log gives the same final hash",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E183",
+      "matrixId": "E183",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T17 sur 1000 parties"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T18 108 tiles are conserved after every action",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E184",
+      "matrixId": "E184",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T18"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > T19 exhaustive against brute force on small boards",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E185",
+      "matrixId": "E185",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T19"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/project.test.ts > T20 projection hides other hands, bag and seed until the end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E186",
+      "matrixId": "E186",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T20"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > T21 corrupted JSON import returns an error and keeps the existing save",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E187",
+      "matrixId": "E187",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T21"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E188",
+      "matrixId": "E188",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T22"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/a11y.spec.ts > T23 two full turns with the keyboard only, without forcing focus",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E189",
+      "matrixId": "E189",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T23"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > T24 stale result after state change is ignored",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E190",
+      "matrixId": "E190",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T24"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/rng.test.ts > same seed same shuffle, different seed different shuffle",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E191",
+      "matrixId": "E191",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "tests unitaires Vitest"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > T19 exhaustive against brute force on small boards",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E192",
+      "matrixId": "E192",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "tests de propriétés fast-check"
+    },
+    {
+      "evidence": {
+        "ref": "Woodpecker six-de-chaque pipeline manuel #15 (mutation.yml, Stryker 10.1.1) sur 47f6ac6",
+        "threshold": "break 80",
+        "type": "mesure",
+        "value": "86,57 % (396 tués, 10 timeouts, 62 survivants, 1 sans couverture) sur validate, placement, score, apply, lines ; score.ts:24 tué ensuite par dff72bc (Stryker local score.ts 100 %)"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E193",
+      "matrixId": "E193",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "mutation des règles et du score exécutée, score ≥ seuil"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > playwright runs Chromium, Firefox and WebKit mobile projects",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E194",
+      "matrixId": "E194",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "E2E Chromium, Firefox et WebKit en profil mobile"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > coverage threshold is at least 95 percent of branches on rules and score",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E195",
+      "matrixId": "E195",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "couverture des branches des règles et du score ≥ 95 %"
+    },
+    {
+      "evidence": {
+        "ref": "tests/validate-bench.test.ts > tile board (median reported)",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E196",
+      "matrixId": "E196",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "performance rapportée avec le matériel, jamais déclarée atteinte ailleurs"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E197",
+      "matrixId": "E197",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T01 à T24 verts en CI"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E198",
+      "matrixId": "E198",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "relecture adverse sans défaut bloquant ouvert"
+    },
+    {
+      "evidence": {
+        "ref": "tests/project-config.test.ts > playwright runs Chromium, Firefox and WebKit mobile projects",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E199",
+      "matrixId": "E199",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "compatibilité navigateurs vérifiée en CI"
+    },
+    {
+      "evidence": {
+        "ref": "tests/brand-guard.test.ts > public text has no commercial names or internal ticket identifiers",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E200",
+      "matrixId": "E200",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "nom et graphisme hors marque vérifiés"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E201",
+      "matrixId": "E201",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "monorepo pnpm, TS strict ; la CI installe et vérifie les types"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/rng.test.ts > xoshiro128** reference vector",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E202",
+      "matrixId": "E202",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "paquet de tuiles et RNG déterministe"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/create.test.ts > checkInvariants reports duplicates, missing tiles and oversize hands",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E203",
+      "matrixId": "E203",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "état immuable et invariants"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > T06 two new tiles around an existing one are valid",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E204",
+      "matrixId": "E204",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "validateur de pose"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T15 last tile with empty bag gives +6 and ends the game",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E205",
+      "matrixId": "E205",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "score et fin de partie"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > T13 exchanged tiles are not drawn back in the same exchange",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E206",
+      "matrixId": "E206",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "échange, passe et journal"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/overflow.spec.ts > no horizontal overflow at",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E207",
+      "matrixId": "E207",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "plateau adaptatif : sans débordement en 360, 390 et 1280 px"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/a11y.spec.ts > T23 axe finds no serious violation on home, setup, play and end",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E208",
+      "matrixId": "E208",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "commandes de tour, score, accessibilité"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > T19 every generated move is valid and has no duplicate keys",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E209",
+      "matrixId": "E209",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "générateur de coups et oracle"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > every decision is a legal action",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E210",
+      "matrixId": "E210",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "débutant et intermédiaire : actions légales et déterministes"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > T21 import of an inconsistent snapshot keeps the existing save",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E211",
+      "matrixId": "E211",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "IndexedDB, migrations, rejeu"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E212",
+      "matrixId": "E212",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "propriétés, CI et E2E verts"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/expert.test.ts > expert never exceeds its node budget",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E213",
+      "matrixId": "E213",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "recherche avancée de l'ordinateur"
+    },
+    {
+      "evidence": {
+        "ref": "packages/puzzles/test/puzzles.test.ts > committed puzzles and their receipt are re-verified",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E214",
+      "matrixId": "E214",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "puzzles : format, générateur, solveur exact, résolubilité vérifiée"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > the SVG shows only the colour initial in colour-blind mode",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E215",
+      "matrixId": "E215",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "mode daltonien (en plus du contraste élevé et du clavier)"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E216",
+      "matrixId": "E216",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "serveur WebSocket autoritaire"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E217",
+      "matrixId": "E217",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
+      },
+      "statement": "salons privés, classements, défis du jour"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/validate-place.test.ts > placement validation reads O(k·L) cells",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E218",
+      "matrixId": "E218",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "validation en O(k·L) : nombre de cases lues borné par k × 6 × 2"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > blocked end follows config.blockedEndPolicy",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E219",
+      "matrixId": "E219",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "politique de fin par blocage lue dans la configuration de la partie"
+    },
+    {
+      "id": "REQ-SIX-DE-CHAQUE-E220",
+      "matrixId": "E220",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "écart : la fin par tour complet de passes vaut aussi en position morte, réserve non vide"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > replay rejects an event whose finalBonus was altered",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E221",
+      "matrixId": "E221",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "rejeu : l'identifiant et le bonus de fin portés par l'événement sont vérifiés contre l'action et l'empreinte"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/controller.test.ts > the score preview includes the final six points only with an empty bag and hand",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E222",
+      "matrixId": "E222",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "le score prévisionnel inclut le bonus de fin quand le coup vide la main, réserve vide"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/policies.test.ts > the node budget also caps move generation",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E223",
+      "matrixId": "E223",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "budget et annulation couvrent aussi la génération des coups ; budget dans la clé du cache"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > T21 an event that is null or malformed gives a controlled error",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E224",
+      "matrixId": "E224",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T21 : un événement null ou un champ faux rend une erreur contrôlée, jamais une exception"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/replay.test.ts > T17 two independent runs of the same seed give the same final hash",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E225",
+      "matrixId": "E225",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T17 : deux exécutions indépendantes d'une même graine donnent la même empreinte finale"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/a11y.spec.ts > T23 two full turns with the keyboard only, without forcing focus",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E226",
+      "matrixId": "E226",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "T23 : partie au clavier sans focus forcé ; la case du curseur annonce son contenu"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > cache evicts the least recently used decision",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E227",
+      "matrixId": "E227",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "cache : éviction LRU vérifiée"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/wheel-drag.spec.ts > wheel zooms and drag pans the board",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E228",
+      "matrixId": "E228",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "zoom à la molette et glisser branchés sur le plateau (e2e)"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/hotseat-many.spec.ts > humans hides every other hand",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E229",
+      "matrixId": "E229",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "3 et 4 humains sur un même appareil, mains cachées"
+    }
+  ],
+  "unversionedDocuments": [
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "556b053963433fe538e1b51718e111d23f40fe699f76f281c08c4f02d8a48935"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/contracts/actions.schema.json",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "7bdaef6ce7a1397984a8dd7cc4795a789b7b51f8bb4b3fae4e6001272b0dc5f0"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "9984080241e0018801911f75ee906b459f4a7d768f7694773a4d02e552c9106e"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/contracts/game.schema.json",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "a6e815deb8ae5c15260b2c443a99644d97163463431bd5df7d684dc1b0c07e1b"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "afc8757f9357d7991b3d60fdac2eefb84427e8c6a3a030ae3ef3966d036256fe"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "b4e9d47be38b0748d28b388c76ece131c3ceffe6856257987c2d295dd0b3c743"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/README.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "be8dcdde891aa2d71d5aad9ab0b33b94d7418f0aa0b21a9bc2d84b33d25b28a3"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/backlog/backlog.csv",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "c2ff4158d74d33e8069450a82a29397bfdee371a38abf33ae38f42613cc8364a"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "d8612bb7098bc32ecdbae4e685a99d48b1a0463eb5d6f60193346afe07e1bd1e"
+    }
+  ],
+  "versions": []
+}

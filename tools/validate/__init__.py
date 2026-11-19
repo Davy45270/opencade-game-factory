@@ -5,7 +5,7 @@ from pathlib import PurePosixPath
 
 from tools.core.catalog import Catalogue, InvalidJSON
 from tools.core.git_base import read_base
-from tools.core.ids import verifier_contre_base, verifier_registre
+from tools.core.ids import DERIVED, verifier_contre_base, verifier_registre
 from tools.core.schemas import schemas
 
 INFERABLE = (
@@ -41,7 +41,10 @@ class CatalogueValidation:
                 "/" + str(part).replace("~", "~0").replace("/", "~1")
                 for part in error.absolute_path
             )
-            self.issue(f"{path}#{suffix}", "schema", error.message)
+            message = error.message
+            if schema == "asset" and suffix == "/creation" and error.validator == "minProperties":
+                message = "creation doit contenir searchReceipt ou importJob."
+            self.issue(f"{path}#{suffix}", "schema", message)
             valid = False
         return valid
 
@@ -101,7 +104,14 @@ class CatalogueValidation:
             for field in INFERABLE:
                 if asset[field] not in (None, "unknown", []) and field not in asset.get("inference", {}):
                     self.issue(path, "inference-required", f"Trace manquante pour {field}.")
-            job = asset.get("creation", {}).get("importJob")
+            creation = asset.get("creation", {})
+            receipt = creation.get("searchReceipt", {})
+            if "results" in receipt:
+                rejections = creation.get("rejectedCandidates")
+                if (rejections != receipt["rejectedCandidates"] or rejections is None
+                        or sorted(row["assetId"] for row in rejections) != sorted(receipt["results"])):
+                    self.issue(path, "incomplete-search-receipt", "searchReceipt exige un rejet pour chaque résultat.")
+            job = creation.get("importJob")
             if isinstance(job, str):
                 from tools.discovery.jobs import job_id
 
@@ -162,6 +172,8 @@ class CatalogueValidation:
             self.issue("catalog/ids.json", "immutable-id", error)
         for path in sorted(base_paths - paths):
             self.issue(path, "record-removed", "Conserver la fiche et déprécier l’asset retiré.")
+        derivations = {asset_id: match[1] for key, asset_id in (ids.items() if isinstance(ids, dict) else ())
+                       if isinstance(key, str) and isinstance(asset_id, str) and (match := DERIVED.fullmatch(key))}
         for asset_id, asset in assets.items():
             path = PurePosixPath("catalog", "assets", f"{asset_id}.json")
             if path in base_paths:
@@ -172,7 +184,10 @@ class CatalogueValidation:
             catalogue_import = (kind == "generated" and bool(asset["files"]["locations"])
                                 and asset.get("inference", {}).get("provenance", {}).get("method") == "catalogue-import")
             imported = "importJob" in creation and (kind in IMPORT_TYPES or atlas_import or catalogue_import)
-            if not (imported or "searchReceipt" in creation):
+            parent_id = asset["provenance"].get("derivedFrom")
+            variant = (kind == "derived" and parent_id in assets and derivations.get(asset_id) == parent_id
+                       and asset_id in assets[parent_id]["variants"])
+            if not (imported or variant or "searchReceipt" in creation):
                 self.issue(path, "creation-required", "Un reçu de recherche ou un job d’import est requis.")
 
     def run(self, base=None):

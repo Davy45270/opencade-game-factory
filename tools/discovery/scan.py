@@ -22,7 +22,7 @@ REFERENCE_FILE = "scan-references.json"
 
 
 def cache_path(args):
-    return args.cache or Path.home() / ".cache" / "opencade-asset-registry" / "mirrors"
+    return getattr(args, "cache", None) or Path.home() / ".cache" / "opencade-asset-registry" / "mirrors"
 
 
 def preflight(root, args):
@@ -145,19 +145,38 @@ def _repo_report(copies, prepared, errors, skipped=frozenset()):
 
 
 def _scan(root, args, git, cache, temporary, copies, template):
+    incremental = getattr(args, "incremental", False)
+    references = _load_references(root)
+    unchanged = set()
     prepared = {}
     errors = {}
     for copy in copies:
         try:
-            mirror = _mirror_for(git, copy, cache, args.fetch, temporary)
-            prepared[copy.key] = mirror, git.reference(mirror)
+            stored = references.get(copy.key)
+            if incremental and args.fetch and stored:
+                commit, branch = git.remote_head(copy)
+                if (commit, branch) == (stored["commit"], stored["branch"]):
+                    prepared[copy.key] = None, stored
+                    unchanged.add(copy.key)
+                    continue
+            if incremental and not args.fetch:
+                provider = Catalogue._regular_path(cache / copy.provider)
+                mirror = Catalogue._regular_path(provider / f"{copy.name}.git")
+                if not mirror.is_dir():
+                    raise GitError("Miroir absent avec --no-fetch.")
+                git.check_mirror(copy, mirror)
+            else:
+                mirror = _mirror_for(git, copy, cache, args.fetch, temporary)
+            reference = git.reference(mirror, copy)
+            prepared[copy.key] = mirror, reference
+            if incremental and stored and (reference["commit"], reference["branch"]) == (stored["commit"], stored["branch"]):
+                unchanged.add(copy.key)
         except GitError as exc:
             errors[copy.key] = str(exc)
 
     skipped, divergent = _divergences(copies, prepared)
-    imported = {key: value for key, value in prepared.items() if key not in skipped}
+    imported = {key: value for key, value in prepared.items() if key not in skipped | unchanged}
     groups = defaultdict(list)
-    references = _load_references(root)
     current_commits = {}
     for copy in copies:
         if copy.key not in imported:
@@ -172,6 +191,12 @@ def _scan(root, args, git, cache, temporary, copies, template):
             groups[copy.name, commit].append((copy, mirror, commit != head, reference["date"]))
         references[copy.key] = {"name": copy.name, "provider": copy.provider,
                                 **reference, "releaseCommits": releases}
+
+    if incremental and (errors or not groups):
+        return (ExitCode.IO if errors else ExitCode.OK), {
+            "ok": not errors, "scannedCopies": 0, "newAssets": 0, "newIds": 0,
+            "divergentSources": divergent, "errors": _repo_report(copies, prepared, errors, skipped) if errors else [],
+        }
 
     inputs = [(copy.name, copy.provider, commit)
               for (_, commit), members in groups.items() for copy, *_ in members]

@@ -2,7 +2,21 @@
   "$id": "https://opencade.invalid/schemas/search-receipt.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
+  "dependentRequired": {
+    "catalogFingerprint": [
+      "results",
+      "searchedAt",
+      "filters",
+      "schemaVersion"
+    ],
+    "results": [
+      "catalogFingerprint"
+    ]
+  },
   "properties": {
+    "catalogFingerprint": {
+      "$ref": "asset.schema.json#/$defs/sha256"
+    },
     "filters": {
       "type": "object"
     },
@@ -30,6 +44,13 @@
           "reason"
         ],
         "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "results": {
+      "items": {
+        "$ref": "asset.schema.json#/$defs/assetId"
       },
       "type": "array",
       "uniqueItems": true

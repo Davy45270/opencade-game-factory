@@ -217,14 +217,18 @@ class Git:
             self.pin_default_branch(copy, mirror)
         return mirror
 
-    def pin_default_branch(self, copy, mirror):
-        """La source se lit sur sa branche par défaut, jamais sur la branche extraite ni l'arbre de
-        travail (HL-538, 19/11) ; absente : source indisponible, sans repli sur HEAD."""
+    def default_commit(self, copy, mirror):
         ref = f"refs/heads/{copy.default_branch}"
-        found = self.run("rev-parse", "--verify", "--quiet", "--end-of-options", ref + "^{commit}",
-                         mirror=mirror, ok=(0, 1, 128)).strip()
-        if not OID.fullmatch(found.decode("ascii", "replace")):
+        commit = self.run("rev-parse", "--verify", "--quiet", "--end-of-options", ref + "^{commit}",
+                          mirror=mirror, ok=(0, 1, 128)).decode("ascii", "replace").strip()
+        if not OID.fullmatch(commit):
             raise GitError(_missing_branch(copy))
+        return commit
+
+    def pin_default_branch(self, copy, mirror):
+        """La source se lit sur sa branche par défaut, même si son HEAD est ailleurs."""
+        self.default_commit(copy, mirror)
+        ref = f"refs/heads/{copy.default_branch}"
         current = self.run("symbolic-ref", "--quiet", "HEAD", mirror=mirror, ok=(0, 1)).strip()
         if current.decode("utf-8", "replace") != ref:
             self.run("symbolic-ref", "HEAD", ref, mirror=mirror)
@@ -247,10 +251,14 @@ class Git:
                          mirror=mirror).rstrip(b"\n") != copy.url.encode()):
             raise CatalogueScopeError("Origine du miroir différente de la copie autorisée.")
 
-    def reference(self, mirror):
-        commit = self.run("rev-parse", "--verify", "HEAD^{commit}", mirror=mirror).decode().strip()
-        symbolic = self.run("symbolic-ref", "--quiet", "--short", "HEAD", mirror=mirror, ok=(0, 1))
-        branch = symbolic.decode("utf-8", "backslashreplace").strip()
+    def reference(self, mirror, copy=None):
+        if copy is not None and copy.default_branch:
+            branch = copy.default_branch
+            commit = self.default_commit(copy, mirror)
+        else:
+            commit = self.run("rev-parse", "--verify", "HEAD^{commit}", mirror=mirror).decode().strip()
+            symbolic = self.run("symbolic-ref", "--quiet", "--short", "HEAD", mirror=mirror, ok=(0, 1))
+            branch = symbolic.decode("utf-8", "backslashreplace").strip()
         return {"branch": branch or None, "commit": commit,
                 "date": self.run("show", "-s", "--format=%cI", commit, mirror=mirror).decode().strip(),
                 "tags": self.tags(mirror)}

@@ -57,14 +57,18 @@ def _similar(images):
 def duplicates(assets):
     locations = defaultdict(list)
     images = []
+    identities = defaultdict(list)
     for asset in sorted(assets, key=lambda a: a["id"]):
-        if asset["family"]["type"] != "code-generated":
-            locations[asset["sha256"]].extend(asset["files"]["locations"])
-        if "perceptual" in asset:
-            geometry = asset["dimensions"]
+        family = asset["family"]
+        kind = family["type"] if isinstance(family, dict) else family
+        digest = asset["sha256"].lower()
+        if kind != "code-generated":
+            identities[digest].append(asset["id"])
+            locations[digest].extend(asset["files"]["locations"])
+        if "perceptual" in asset and (geometry := asset.get("dimensions")):
             hashes = asset["perceptual"]
-            images.append((asset["id"], asset["sha256"], geometry["width"] / geometry["height"],
+            images.append((asset["id"], digest, geometry["width"] / geometry["height"],
                            int(hashes["phash"], 16), int(hashes["dhash"], 16)))
-    exact = [{"sha256": sha, "locations": paths}
-             for sha, paths in sorted(locations.items()) if len(paths) > 1]
+    exact = [{"sha256": sha, "locations": paths, "ids": identities[sha]}
+             for sha, paths in sorted(locations.items()) if len(paths) > 1 or len(identities[sha]) > 1]
     return {"exact": exact, "similar": sorted(_similar(images), key=lambda pair: (pair["a"], pair["b"]))}

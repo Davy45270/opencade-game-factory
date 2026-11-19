@@ -70,14 +70,20 @@ def apply_catalogue(asset, entry, ref):
             assign(asset, "MIT", "catalogue-import", ref, rights)
 
 
+def public_allowed(record, sheet_digests):
+    return (explicit_spdx(record.get("license")) and bool(record.get("licenseEvidence"))
+            and record.get("publicExport") != "forbidden"
+            and record["sha256"].lower() not in sheet_digests)
+
+
 def emit(root, assets, sheets=()):
     sheets = tuple(sheets)
-    sheet_digests = {sheet["sha256"] for sheet in sheets}
+    sheet_digests = {sheet["sha256"].lower() for sheet in sheets}
     rows = []
     for record in sorted((*assets, *sheets), key=lambda item: item["id"]):
         evidence = record.get("licenseEvidence")
-        entire_sheet = record["sha256"] in sheet_digests
-        allowed = record["license"] != "unknown" and bool(evidence) and not entire_sheet
+        entire_sheet = record["sha256"].lower() in sheet_digests
+        allowed = public_allowed(record, sheet_digests)
         reason = ("Planche entière réservée." if entire_sheet else "Licence et preuve enregistrées." if allowed
                   else "Autorisation non établie.")
         rows.append({"id": record["id"], "license": record["license"], "evidence": evidence,
@@ -86,6 +92,10 @@ def emit(root, assets, sheets=()):
     root = root / "generated"
     root.mkdir(exist_ok=True)
     write_json(root / "licenses.json", {"assets": rows})
-    write_text(root / "licenses.md", "# Licences des ressources\n\n" + "\n".join(
-        f"- `{row['id']}` — {row['license']} · {row['publicExport']} · {row['reason']}" for row in rows) + "\n")
+    markdown = ["# Licences des ressources"]
+    if rows:
+        markdown.append("")
+        markdown.extend(f"- `{row['id']}` — {row['license']} · {row['publicExport']} · {row['reason']}"
+                        for row in rows)
+    write_text(root / "licenses.md", "\n".join(markdown) + "\n")
     return rows

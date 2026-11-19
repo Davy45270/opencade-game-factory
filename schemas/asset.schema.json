@@ -1082,6 +1082,10 @@
         }
       ]
     },
+    "assetVersion": {
+      "pattern": "\\S",
+      "type": "string"
+    },
     "category": {
       "anyOf": [
         {
@@ -1118,6 +1122,9 @@
               "type": "string"
             }
           ]
+        },
+        "rejectedCandidates": {
+          "$ref": "search-receipt.schema.json#/properties/rejectedCandidates"
         },
         "searchReceipt": {
           "$ref": "search-receipt.schema.json"
@@ -2323,6 +2330,12 @@
     },
     "provenance": {
       "$ref": "#/$defs/provenance"
+    },
+    "publicExport": {
+      "enum": [
+        "allowed",
+        "forbidden"
+      ]
     },
     "schemaVersion": {
       "const": "1.0"

@@ -129,3 +129,54 @@ Règles qui le permettent dès maintenant : `tools/core/` reste générique (cat
 retour communs) ; ce qui est propre aux assets vit dans les autres paquets de `tools/` ; rien n’est renommé avant la
 décision de renommage, prise après le lot L3.
 
+
+## Recherche et livraison
+
+`assetctl index` reconstruit les instantanés du catalogue, l’index des usages,
+l’index de recherche et la base FTS5. Le résultat contient
+`catalogFingerprint`, l’empreinte des JSON de `catalog/`, et `fingerprint`,
+l’empreinte des fichiers produits sous `generated/`. Les rapports de scan
+conservent leurs propres entrées. `search` reconstruit la base SQLite si
+l’empreinte du catalogue change. Les filtres sont exacts. `--used-by` retient
+les usages actifs et chaque résultat restitue aussi les usages historiques.
+`--similar-to` classe les résultats par distance de Hamming du pHash.
+
+`search --receipt chemin.json` enregistre l’empreinte, la requête, ses filtres
+et tous les IDs correspondants, y compris ceux masqués par `--limit`.
+`register` exige ce reçu, daté des sept derniers jours, et un
+`--reject ID:raison` pour chaque candidat. Le reçu correspond au catalogue
+courant. Un catalogue plus récent est admissible si les deux instantanés
+sont vérifiables dans des commits Git de la même lignée.
+
+`derive --recipe chemin.json` prend un objet avec les transformations
+`crop` (`{x,y,w,h}`), `mirror` (`true`, `false`, `horizontal` ou
+`vertical`), `resize` (`[largeur,hauteur]`) et `tint` (couleur
+`#RRGGBB`). Il les applique dans cet ordre et emploie le SHA-256 des octets
+de la recette pour allouer l’ID. Une preuve de licence autorisant
+l’adaptation permet d’hériter de la licence.
+
+`usage add` écrit le lock à la racine du jeu et matérialise l’asset au
+chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
+a pour `assetVersion` la chaîne `"1"`. Les fichiers proviennent du registre
+ou des objets Git des miroirs. Les découpes d’atlas importées sont
+reconstruites depuis leur cadre et leur planche. Dans chaque cas, le
+SHA-256 est contrôlé avant écriture. Une cible privée est déclarée dans
+`catalog/sources.json` ou indiquée explicitement par `--private-target`.
+La preuve `P14-assets-lock` s’obtient avec `check-lock`. Son option
+`--public` applique la garde de `publish --target public`.
+
+`sync` compare les pointeurs des branches par défaut aux derniers commits
+enregistrés. Il lit les arbres et les blobs des copies à importer et
+conserve les usages des copies inchangées. Il part de `main` ou du dernier
+commit de la même branche `sync/…` si celle-ci descend de `main`. Le scan se
+fait dans un clone temporaire et la branche de synchronisation se met à
+jour localement après succès. Les divergences et les suppressions sont
+signalées dans les rapports. `scannedCopies` compte les copies dont le
+contenu a été analysé.
+
+`export-atlas --out atlases/nom` produit `nom.png` et `nom.json` au
+format Phaser JSON Hash. `validate-atlas` contrôle les références, les
+dimensions, les limites et la transparence. `sbom --out
+generated/sbom.cdx.json` décrit les dépendances directes épinglées dans
+`requirements.txt`. Le manifeste des licences d’assets reste dans
+`generated/licenses.json`.

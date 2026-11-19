@@ -147,7 +147,7 @@ class JeuTemoin(unittest.TestCase):
 
     def test_node_image_d_un_registre_a_adresse_privee_refusee(self) -> None:
         # revue Codex 9 (19/11) : une adresse IPv4 privée (ici 10.0.0.5) fuirait aussi
-        for image in ("10.0.0.5/node:26", "172.20.1.2:5000/node:26", "100.110.0.84/node:26"):
+        for image in ("10.0.0.5/node:26", "172.20.1.2:5000/node:26", "100.110.0.84/node:26", "10.24.1.2.sslip.io/node:22"):
             self.parametres(node_image=image)
             self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4, image)
         self.parametres(node_image="docker.io/library/node:26.10.0")

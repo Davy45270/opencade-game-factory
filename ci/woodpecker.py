@@ -38,8 +38,9 @@ GITLEAKS_IMAGE = "docker.io/zricethezav/gitleaks:v8.30.1"
 E2E_COMMANDE = "npx playwright test"
 # revue Codex 9 : + toute adresse IPv4 privée (RFC 1918), tailnet (100.64/10) ou de boucle, avec ou sans port
 PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav123|\.lan\b|\.local\b|\.internal\b|localhost"
-                      r"|(?<![0-9.:])(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01])|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])|127\.\d{1,3})\.\d{1,3}\.\d{1,3}(?![0-9.])", re.I)
-# revue Codex 10 : une adresse = 4 octets, jamais précédée de « : » (un tag `node:10.24.1` n'est pas une adresse)
+                      r"|(?<![0-9.:])(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01])|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])|127\.\d{1,3})\.\d{1,3}\.\d{1,3}(?!\d|\.\d)", re.I)
+# revue Codex 10 : une adresse = 4 octets, jamais précédée de « : » (un tag `node:10.24.1` n'est pas une adresse) ;
+# revue Codex 11 : suivie d'un point et d'une lettre (10.24.1.2.sslip.io), c'est encore une adresse privée
 CLES = {"node_image", "checks_extra", "e2e_commande", "e2e"}
 
 

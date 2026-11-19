@@ -1,5 +1,15 @@
 """L8 — Correctifs différés (HL-538).
 
+Raccords : plafond relatif et plancher absolu. Arbitrage du coordinateur, HL-538, 19/11 : « (ii) retenue : plafond
+à 75 % exclusif et plancher de 1 024 px hors raccord. C'est le plancher absolu qui porte la preuve, et les deux
+découpes honnêtes de capsule restent vérifiables. » Raison : au-delà, la zone hors raccord ne suffit plus à prouver
+la provenance. Distribution mesurée (capsule-panic main, 14 entrées à raccords dans `*.retouches.json`) : couverture
+cumulée 0,146 à 0,398 pour 12 entrées, puis `cadre-statistiques-reussite` 0,530 et `barre-partie` 0,697 (vérifiée
+à 0,0068 une fois les raccords rejoués) ; pixels hors raccord : minimum 3 605 (`barre-partie`), médiane 4 840 ; les
+16 entrées sans raccord ont toutes au moins 1 911 px. Le plancher de 1 024 px (32 × 32) est 3,5 fois sous le
+minimum réel. Contrat : une région n'est mesurée que si la couverture cumulée des cibles est < 75 % ET s'il reste au
+moins 1 024 px hors raccord ; sinon, limite nommée dans `scan-limits` et aucune RMSE.
+
 Constat remonté par les agents de Cozy et de Six (19/11) : `assetctl check-lock <chemin relatif>` résout le chemin
 depuis le dossier du registre, pas depuis le répertoire courant de l'appelant (rc 4, « No such file »).
 
@@ -50,6 +60,76 @@ class L8CheminsRelatifsDepuisLeRepertoireCourant(unittest.TestCase):
         r = _depuis(self.world, self.jeu_b, ["check-lock", C.LOCK_JEU, "--json"])
         self.assertEqual(r.code, C.OK, "un chemin relatif se résout depuis le répertoire courant de l'appelant, "
                                        f"pas depuis le registre\n{r}")
+
+
+# ------------------------------------------------------------------------------------------------
+# Raccords : plafond 75 % exclusif et plancher 1 024 px hors raccord
+# ------------------------------------------------------------------------------------------------
+
+import json as _json
+
+import numpy as np
+
+from tests.acceptance import test_l6_correctifs as L6
+
+PLANCHER = 1024
+
+
+def _jeu_raccord(boite, bande, cible):
+    """Planche 512×512 ; découpe en bruit opaque, bande source à lignes constantes ; cadre = découpe raccordée."""
+    w, h, x, y = boite
+    decoupe = L6._bruit(h, w, 23)
+    bw, bh, bx, by = L6._geo(bande)
+    for i in range(bh):
+        decoupe[by + i, bx:bx + bw] = (20 + 5 * i, 120, 220 - 4 * i, 255)
+    cw, ch, cx, cy = L6._geo(cible)
+    decoupe[cy:cy + ch, cx:cx + cw] = (250, 0, 250, 255)            # libellé peint
+    cadre = decoupe.copy()
+    cadre[cy:cy + ch, cx:cx + cw] = np.repeat(decoupe[by:by + bh, bx:bx + 1], cw, axis=1)
+    planche = np.zeros((512, 512, 4), np.int32)
+    planche[y:y + h, x:x + w] = decoupe
+    planche_png = M.png(planche)
+    atlas_png, atlas_json = L6._atlas({"sprite-r": cadre}, "r.png")
+    entree = {"id": "sprite-r", "origine": "dérivé", "planche": "Planche_R.png", "planche_sha256": L6._sha(planche_png),
+              "boite": boite, "source_retouche": "assets/source/r.retouches.json",
+              "etapes": ["crop", "retouche raster ImageMagick", "resize", "atlas json-hash"]}
+    retouches = [{"id": "r", "boite": f"{w}x{h}+{x}+{y}", "raccords": [[bande, cible]]}]
+    return {
+        "package.json": _json.dumps({"name": "jeu-r", "private": True}) + "\n",
+        "assets/source/Planche_R.png": planche_png,
+        "assets/source/r.retouches.json": _json.dumps(retouches, indent=2) + "\n",
+        "assets/provenance.json": _json.dumps({"schemaVersion": 1, "outils": {"magick": "fixture"},
+                                               "assets": [entree]}, ensure_ascii=False, indent=2) + "\n",
+        "public/assets/atlas/r.png": atlas_png,
+        "public/assets/atlas/r.json": _json.dumps(atlas_json, indent=2) + "\n",
+    }
+
+
+class L8RaccordsPlafondEtPlancher(L6._Monde):
+    """Contrat : couverture cumulée < 75 % ET au moins 1 024 px hors raccord pour mesurer (voir docstring du module)."""
+
+    def _mesures(self, boite, bande, cible):
+        L6._ajouter_jeu(self, "jeu-r", _jeu_raccord(boite, bande, cible))
+        L6._scan(self)
+        asset_id, _ = L6._sprite(self, "sprite-r")
+        return L6._rmse_mesurees(L6._regions(self, asset_id))
+
+    def test_petite_region_sous_le_plancher_pas_de_mesure(self):
+        # 40×20 = 800 px ; cible 19×20 (47,5 %) : 420 px hors raccord < 1 024.
+        mesures = self._mesures([40, 20, 380, 40], "1x20+0+0", "19x20+1+0")
+        self.assertFalse(mesures, "moins de 1 024 px hors raccord : la région ne se mesure pas, même sous le plafond "
+                                  f"relatif : {mesures}")
+
+    def test_cas_barre_partie_70_pourcent_mesure(self):
+        # 120×40 = 4 800 px ; cible 84×40 (70 %) : 1 440 px hors raccord ≥ 1 024 — comme barre-partie (69,7 %).
+        mesures = self._mesures([120, 40, 300, 300], "2x40+0+0", "84x40+2+0")
+        self.assertTrue(mesures and min(mesures) <= L6.SEUIL,
+                        f"couverture 70 % < 75 % et 1 440 px hors raccord : mesurée et vérifiée : {mesures}")
+
+    def test_temoin_75_pourcent_refuse(self):
+        # 120×40 ; cible 90×40 (75 %, plafond exclusif) : 1 200 px hors raccord, mais couverture ≥ 75 %.
+        mesures = self._mesures([120, 40, 300, 300], "2x40+0+0", "90x40+2+0")
+        self.assertFalse(mesures, f"couverture ≥ 75 % : pas de mesure : {mesures}")
 
 
 if __name__ == "__main__":

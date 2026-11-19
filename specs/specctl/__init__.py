@@ -186,10 +186,13 @@ def coverage(records, project):
 
     total = len(requirements)
     applicable = total - waived
-    return (ExitCode.CHECK_FAILED if inconsistent else ExitCode.OK), {
-        "status": "non-compliant" if inconsistent else "ok",
+    # revue Codex 12 (19/11) : aucune exigence applicable (matrice absente à l'import, ou tout écarté) n'est jamais
+    # « 100 % couvert » : rien n'est mesuré, le contrôle échoue et le ratio est nul (None)
+    vide = applicable == 0
+    return (ExitCode.CHECK_FAILED if inconsistent or vide else ExitCode.OK), {
+        "status": "non-compliant" if inconsistent else ("no-applicable-requirements" if vide else "ok"),
         "project": project, "total": total, "covered": covered, "waived": waived,
-        "uncovered": uncovered, "ratio": round(covered / applicable, 4) if applicable else 1.0,
+        "uncovered": uncovered, "ratio": None if vide else round(covered / applicable, 4),
         "requirements": requirements, "inconsistent": inconsistent,
     }
 

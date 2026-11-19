@@ -399,6 +399,33 @@ def check_lock(root, args):
     return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
+COMMIT_CATALOGUE = "Avant usage add, commite le catalogue avec les versions du lock."
+
+
+def usage_head(git):
+    try:
+        head = git.run("rev-parse", "--verify", "HEAD^{commit}").decode().strip()
+        dirty = git.run("status", "--porcelain=v1", "--untracked-files=all", "--", "catalog/")
+    except GitError:
+        raise CatalogueScopeError(COMMIT_CATALOGUE) from None
+    if dirty:
+        raise CatalogueScopeError(COMMIT_CATALOGUE)
+    return head
+
+
+def require_committed_versions(git, head, rows):
+    committed = {}
+    for row in rows:
+        asset_id = row["assetId"]
+        try:
+            if asset_id not in committed:
+                committed[asset_id] = revision_at(git, head, asset_id)
+        except (OSError, InvalidJSON):
+            committed[asset_id] = None
+        if not committed[asset_id] or not contains_version(committed[asset_id], row):
+            raise CatalogueScopeError(COMMIT_CATALOGUE)
+
+
 def usage(root, args):
     delivery = Delivery(root, args)
     if args.subject != "add":
@@ -411,6 +438,9 @@ def usage(root, args):
     checkout = scoped_path(root / args.repo_dir)
     if not checkout.is_dir() or worktree(checkout) != checkout or checkout == root.resolve():
         raise CatalogueScopeError("--repo-dir doit désigner la racine du dépôt de jeu.")
+    head = usage_head(delivery.git)
+    if args.id not in delivery.assets:
+        raise CatalogueScopeError(COMMIT_CATALOGUE)
     public = not (args.private_target or private_destination(root, checkout))
     asset = delivery.asset(args.id, public=public)
     relative = args.path or Path("assets") / (asset["id"] + extension(asset))
@@ -418,10 +448,10 @@ def usage(root, args):
     lock_path = output_path(root, checkout / "assets.lock.json", kind="usage")
     if relative.is_absolute() or ".." in relative.parts or destination == lock_path or worktree(destination) != checkout:
         raise CatalogueScopeError("--path doit être un chemin de fichier relatif au jeu.")
-    raw = delivery.bytes(asset)
-    head = delivery.git.run("rev-parse", "--verify", "HEAD^{commit}").decode().strip()
     entry = {"assetId": asset["id"], "assetVersion": asset_version(asset), "sha256": asset["sha256"],
              "scene": args.scene, "role": args.role, "path": relative.as_posix()}
+    require_committed_versions(delivery.git, head, [entry])
+    raw = delivery.bytes(asset)
     with (nullcontext() if args.dry_run else directory_lock(checkout)):
         lock = read_lock(lock_path) if lock_path.exists() else {
             "schemaVersion": "1.0", "game": args.game, "registryCommit": head, "assets": [],
@@ -436,6 +466,7 @@ def usage(root, args):
                                     for row in other_rows):
             return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "lock-path-conflict"}
         lock["assets"] = sorted([*other_rows, entry], key=lambda row: (*[row[field] for field in slot], row["assetId"]))
+        require_committed_versions(delivery.git, head, other_rows)
         lock["registryCommit"] = head
         if not schemas().validator("lock").is_valid(lock):
             raise InvalidJSON("La nouvelle entrée ne respecte pas le schéma de lock.")

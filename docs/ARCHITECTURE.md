@@ -157,6 +157,26 @@ coordonnées et à son indicateur de vérification. Les usages retirés conserve
 leurs références et les tags de releases. L’inspection d’une planche restitue
 les usages des assets qui en proviennent.
 
+Pour une découpe dont la provenance déclare `source_retouche`, le scan lit le
+fichier `*.retouches.json` dans le même commit Git que la déclaration. Il étire
+chaque bande de la découpe initiale, puis la colle sur sa cible dans l’ordre
+déclaré. Il normalise ensuite la découpe et compare les pixels au cadre
+d’atlas avec le seuil RMSE de 0,02. La provenance reste `derived`. Une recette
+illisible ou une géométrie invalide rend la comparaison indisponible et
+produit une entrée `declared-retouch-unreadable` dans `scan-limits`. Une recette
+valide sans raccord produit `declared-retouch-without-raccords`. Les masques
+de silhouette décrits dans `transformations` sont hors périmètre.
+
+Une source de `catalog/sources.json` peut déclarer
+`"pathAliases": [{"from": "public/assets/*.png", "to": "assets/export/*.png"}]`.
+Chaque motif est relatif à la racine Git et contient un seul `*` dans le nom
+de fichier. Le scan applique la table aux références d’atlas `meta.image`
+et `atlas` de la provenance après échec de la résolution directe. La même
+portion du nom remplace l’astérisque dans le chemin cible. Un résultat unique
+dans le même arbre Git est requis. Le scan consigne le chemin cité et le
+chemin résolu, avec le dépôt, le commit et le fichier déclarant la référence,
+dans `generated/reports/path-aliases.json` et son équivalent Markdown.
+
 ## Codes de retour
 
 | Code | Signification |
@@ -225,10 +245,11 @@ l’adaptation permet d’hériter de la licence.
 `usage add` écrit le lock à la racine du jeu et matérialise l’asset au
 chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
 a pour `assetVersion` la chaîne `"1"`. Pour une fiche versionnée, le lock
-enregistre le numéro courant sous forme de chaîne. Pour créer un lock
-vérifiable, commiter la révision de l’asset dans le registre avant
-`usage add`. `check-lock` vérifie le couple numéro–empreinte dans le catalogue
-et dans le commit `registryCommit`, puis le SHA-256 du fichier relatif au
+enregistre le numéro courant sous forme de chaîne. `usage add` refuse avec
+le code 3 si `catalog/` a des changements non commités ou si HEAD ne contient
+pas les versions et empreintes du lock à écrire. `check-lock` vérifie le
+couple numéro–empreinte dans le catalogue et dans le commit `registryCommit`,
+puis le SHA-256 du fichier relatif au
 dossier du lock. Un couple historique valide émet l’avertissement
 `non-current-version`. `inspect --json` restitue l’historique.
 L’index de recherche et `search` rendent le numéro et l’empreinte courants.

@@ -13,6 +13,7 @@ TITLES = {
     "licenses-unknown": "Licences inconnues",
     "orphans": "Assets orphelins",
     "scan-limits": "Limites du scan",
+    "path-aliases": "Correspondances de chemins",
 }
 
 
@@ -68,7 +69,8 @@ def _repo_markdown(repositories):
     return "\n\n".join(filter(None, parts))
 
 
-def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=(), *, divergent_tags=()):
+def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=(), *,
+         divergent_tags=(), path_aliases=()):
     reports = root / "generated" / "reports"
     reports.mkdir(parents=True, exist_ok=True)
     formats = coverage(rows)
@@ -121,6 +123,12 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
             + "\n\n## Planches\n\n" + _table(("Planche",), [(item["id"],) for item in missing_sheets]),
         ),
         "orphans": ({"assets": orphan_ids}, _table(("Asset",), [(asset_id,) for asset_id in orphan_ids])),
+        "path-aliases": (
+            list(path_aliases),
+            _table(("Dépôt", "Commit", "Fichier", "Champ", "Chemin cité", "Chemin résolu"),
+                   [(row["repo"], row["commit"], row["path"], row["field"], row["from"], row["to"])
+                    for row in path_aliases]),
+        ),
         "scan-limits": (
             {"exclusions": [{"reason": reason, "count": sum(row["reason"] == reason for row in excluded)}
                             for reason in exclusions], "excluded": excluded, "unsupported": unsupported,

@@ -325,7 +325,8 @@ def _scan(root, args, git, cache, temporary, copies, template):
         manifests.extend({"repo": repo, "commit": commit, "path": path} for path in build_files)
 
     target.reconcile(current_commits)
-    sheet_limits = SheetDiscovery(target, trees, git).run()
+    sheet_discovery = SheetDiscovery(target, trees, git)
+    sheet_limits = sheet_discovery.run()
     _record_causality(target, trees, git)
     snapshots.code_licenses(trees, target)
     snapshots.catalogue_enrichment(trees, target)
@@ -345,9 +346,15 @@ def _scan(root, args, git, cache, temporary, copies, template):
         target.save(job)
         repositories = _repo_report(copies, prepared, errors, skipped)
         previous_exceptions = [row for row in exceptions if (row["repo"], row["commit"]) not in scanned]
+        aliases = list(sheet_discovery.path_aliases.values())
+        aliases_path = Catalogue._regular_path(root / "generated" / "reports" / "path-aliases.json")
+        if aliases_path.is_file():
+            aliases.extend(row for row in read_json(aliases_path)
+                           if (row["repo"], row["commit"]) in active_commits - scanned)
+        aliases.sort(key=lambda row: tuple(row[key] for key in ("repo", "commit", "path", "field", "reference")))
         reports.emit(root, repositories, [*rows, *previous_exceptions], exceptions,
                      target.assets.values(), importer.EXCLUSIONS, manifests, sheet_limits, target.sheets.values(),
-                     divergent_tags=divergent_tags)
+                     divergent_tags=divergent_tags, path_aliases=aliases)
         usage_index.emit(root, target.assets.values())
         licenses.emit(root, target.assets.values(), target.sheets.values())
         dynamic_path = root / "generated" / "reports" / "dynamic-refs.json"

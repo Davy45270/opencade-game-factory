@@ -15,6 +15,7 @@ from tools.extract import regions
 from tools.publish import licenses
 
 DIGEST = re.compile(r"[0-9a-fA-F]{64}")
+GEOMETRY = re.compile(r"([0-9]{1,10})x([0-9]{1,10})\+([0-9]{1,10})\+([0-9]{1,10})")
 
 
 def sheet_record(target, digest, name, dimensions, evidence):
@@ -67,6 +68,36 @@ def _region_key(sheet_id, box):
     return f"region:{sheet_id}:" + ",".join(str(box[k]) for k in regions.COORDINATES)
 
 
+def _geometry(value):
+    match = GEOMETRY.fullmatch(value) if isinstance(value, str) else None
+    return regions.named_box(tuple(map(int, match.groups()))) if match else None
+
+
+def _raccords(document, entry, box, margin):
+    if not isinstance(document, list) or not box or type(margin) is not int or margin < 0:
+        raise ValueError("Recette ou découpe invalide.")
+    element = _element_id(entry["id"])
+    matches = [item for item in document if isinstance(item, dict) and _element_id(item.get("id")) == element]
+    if len(matches) != 1:
+        raise ValueError("Identifiant de retouche absent ou ambigu.")
+    recipe, = matches
+    recipe_margin = recipe.get("marge", margin)
+    if _geometry(recipe.get("boite")) != box or type(recipe_margin) is not int or recipe_margin != margin:
+        raise ValueError("Géométrie de retouche absente, ambiguë ou différente de la provenance.")
+    raccords = recipe.get("raccords", [])
+    if not isinstance(raccords, list):
+        raise ValueError("Liste de raccords invalide.")
+    result = []
+    for pair in raccords:
+        if not isinstance(pair, list) or len(pair) != 2:
+            raise ValueError("Paire de raccord invalide.")
+        band, target = map(_geometry, pair)
+        if not band or not target:
+            raise ValueError("Géométrie de raccord invalide.")
+        result.append((band, target))
+    return result
+
+
 class SheetDiscovery:
     def __init__(self, target, snapshots, git):
         self.target = target
@@ -74,6 +105,7 @@ class SheetDiscovery:
         self.snapshots = snapshots
         self.images = defaultdict(list)
         self.limits = []
+        self.path_aliases = {}
         self.processed = {}
         self._image = lru_cache(maxsize=4)(self._read_image)
         self.declarations = {}
@@ -153,13 +185,31 @@ class SheetDiscovery:
         with Image.open(io.BytesIO(raw)) as image:
             return image.convert("RGBA")
 
-    def _declaration(self, snapshot, atlas_path, frame_name):
+    def _resolve(self, snapshot, path, value, available, field):
+        candidates = references.candidates(path, value, snapshot.tree)
+        for candidate in candidates:
+            if candidate in available and not snapshot.tree[candidate].symlink:
+                return candidate
+        if any(candidate in snapshot.tree for candidate in candidates):
+            return None
+        alias = references.resolve_path_alias(candidates, snapshot.path_aliases, available)
+        if alias:
+            cited, resolved = alias
+            key = snapshot.repo, snapshot.commit, path, field, value, cited, resolved
+            self.path_aliases[key] = {"repo": snapshot.repo, "commit": snapshot.commit, "path": path,
+                                      "field": field, "reference": value, "from": cited, "to": resolved}
+            return resolved
+        return None
+
+    def _declaration(self, snapshot, atlas_path, frame_name, image_path, atlas_files):
         frame = _element_id(frame_name)
         matches = []
         for metadata_path, provenance, entry in self.declarations[snapshot].get(frame, ()):
             atlas = entry.get("atlas")
-            if isinstance(atlas, str) and PurePosixPath(atlas).stem != PurePosixPath(atlas_path).stem:
-                continue
+            if isinstance(atlas, str):
+                resolved = self._resolve(snapshot, metadata_path, atlas, atlas_files, "atlas")
+                if resolved not in {atlas_path, image_path}:
+                    continue
             scope = posixpath.commonpath([atlas_path, metadata_path])
             matches.append((bool(atlas), provenance, len(scope), metadata_path, entry))
         if not matches:
@@ -180,7 +230,7 @@ class SheetDiscovery:
                 return best[3], {**tables[0], **best[4]}
         return best[3], best[4]
 
-    def _frame(self, snapshot, atlas_path, sheet, image, frame, image_path):
+    def _frame(self, snapshot, atlas_path, sheet, image, frame, image_path, atlas_files):
         box = {key: frame[key] for key in regions.COORDINATES}
         if not regions.in_image(box, image):
             self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": atlas_path,
@@ -200,7 +250,7 @@ class SheetDiscovery:
         if atlas_frame not in asset["files"].setdefault("atlasFrames", []):
             asset["files"]["atlasFrames"].append(atlas_frame)
             self.target.changed.add(asset["id"])
-        declaration = self._declaration(snapshot, atlas_path, name)
+        declaration = self._declaration(snapshot, atlas_path, name, image_path, atlas_files)
         release_only = all(release for _, _, release, _ in snapshot.members)
         priority = (not release_only, declaration is not None)
         if self.processed.get(asset["id"], ()) >= priority:
@@ -240,7 +290,9 @@ class SheetDiscovery:
         rmse = None
         if source:
             asset["provenance"]["sourceSheetSha256"] = source["sha256"]
-        if other and box and type(margin) is int and margin >= 0:
+        if "source_retouche" in entry:
+            rmse = self._measure_retouched(snapshot, metadata_path, entry, box, margin, cropped, other, path)
+        elif other and box and type(margin) is int and margin >= 0:
             rmse = regions.measure(self._image(other, path), entry["boite"], margin, cropped,
                                    entry.get("ancre"), options=entry)
         verified = rmse is not None and rmse <= regions.THRESHOLD
@@ -253,7 +305,7 @@ class SheetDiscovery:
         link_region(self.target, asset, source, box if source else None, verified, evidence)
         from_provenance = bool(entry.get("planche_sha256") and PurePosixPath(metadata_path).name == "provenance.json")
         trusted = source and (from_provenance or any(_david_location(loc) for loc in source["files"]["locations"]))
-        derived = entry.get("origine") == "dérivé" or bool(entry.get("effacements"))
+        derived = entry.get("origine") == "dérivé" or bool(entry.get("effacements")) or "source_retouche" in entry
         if derived:
             asset["provenance"]["type"] = "derived"
         if verified and trusted and not derived:
@@ -261,6 +313,30 @@ class SheetDiscovery:
             licenses.assign(asset, "CC-BY-4.0", "provenance-file", ref, licenses.DAVID_DECISION)
         if not verified:
             asset["status"] = "needs-review"
+
+    def _measure_retouched(self, snapshot, metadata_path, entry, box, margin, cropped, other, path):
+        recipe = entry["source_retouche"]
+        candidates = (references.candidates(metadata_path, recipe, snapshot.tree)
+                      if isinstance(recipe, str) and recipe.endswith(".retouches.json") else ())
+        recipe_path = next((candidate for candidate in candidates if candidate in snapshot.tree), None)
+        try:
+            raccords = _raccords(snapshot.metadata.get(recipe_path), entry, box, margin)
+            if raccords and other:
+                image = self._image(other, path)
+                if not regions.in_image(box, image):
+                    raise ValueError("Découpe de retouche hors planche.")
+                return regions.measure(image, entry["boite"], margin, cropped, entry.get("ancre"),
+                                       options=entry, raccords=raccords)
+        except ValueError:
+            reason = "declared-retouch-unreadable"
+        else:
+            if raccords:
+                return None  # L’indisponibilité de la planche est déjà signalée.
+            reason = "declared-retouch-without-raccords"
+        self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
+                            "reason": reason, "frame": entry["id"],
+                            "recipe": recipe_path or (recipe if isinstance(recipe, str) else None)})
+        return None
 
     def _read_declarations(self, snapshot):
         entries_by_id = defaultdict(list)
@@ -285,22 +361,23 @@ class SheetDiscovery:
                     break
         for snapshot in self.snapshots:
             self.declarations[snapshot] = self._read_declarations(snapshot)
+            atlas_images = {path for path in snapshot.indexed if formats.extension(path) in formats.RASTER}
+            atlas_files = atlas_images | {path for path, (family, _, _) in snapshot.measurements.items()
+                                          if family["type"] == "atlas"}
             for atlas_path, (family, metadata, _) in snapshot.measurements.items():
                 if family["type"] != "atlas":
                     continue
                 image = metadata["atlasImage"]
-                options = references.resolve(atlas_path, references.Reference(image, 1, "atlas"),
-                                             snapshot.tree, snapshot.indexed)
-                if not options or formats.extension(options[0]) not in formats.RASTER:
+                image_path = self._resolve(snapshot, atlas_path, image, atlas_images, "meta.image")
+                if not image_path:
                     self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": atlas_path,
                                         "reason": "atlas-image-unresolved"})
                     continue
-                image_path = options[0]
                 asset = self._image_record(snapshot, image_path, snapshot.indexed[image_path][0])
                 sheet = self._sheet(snapshot, image_path, asset)
                 pixels = self._image(snapshot, image_path)
                 for frame in family["frames"]:
-                    self._frame(snapshot, atlas_path, sheet, pixels, frame, image_path)
+                    self._frame(snapshot, atlas_path, sheet, pixels, frame, image_path, atlas_files)
         self._image.cache_clear()
         return self.limits
 

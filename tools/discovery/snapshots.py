@@ -17,6 +17,7 @@ class Snapshot:
         self.mirror = mirror
         self.date = date
         self.members = members
+        self.path_aliases = members[0][0].path_aliases
         self.tree = tree
         self.indexed = {}
         self.measurements = {}
@@ -29,7 +30,7 @@ class Snapshot:
         name = PurePosixPath(path).name
         if name in {"LICENSE", "LICENSE.md"}:
             self.license_texts[path] = licenses.from_text(raw)
-        if (name == "provenance.json" or name.endswith(".decoupe.json")
+        if (name == "provenance.json" or name.endswith((".decoupe.json", ".retouches.json"))
                 or (path == "catalogue.json" and self.repo == "jeux-assets")):
             try:
                 self.metadata[path] = parse_json(raw)

@@ -26,6 +26,7 @@ class Copy:
     address: str
     visibility: str
     default_branch: str | None
+    path_aliases: tuple[tuple[str, str], ...] = ()
 
     @property
     def key(self):
@@ -47,6 +48,9 @@ def source_problems(document):
     if len(set(names + excluded)) != len(names + excluded):
         yield "Nom canonique répété parmi les sources et les exclusions."
     for source in document["sources"]:
+        patterns = [alias["from"] for alias in source.get("pathAliases", ())]
+        if len(set(patterns)) != len(patterns):
+            yield f"Motif pathAliases répété pour {source['name']}."
         seen = set()
         for copy in source["copies"]:
             provider = copy["provider"]
@@ -69,10 +73,11 @@ def _copies(path):
         raise CatalogueScopeError("Liste d’autorisation invalide.")
     result = {}
     for source in value["sources"]:
+        aliases = tuple((alias["from"], alias["to"]) for alias in source.get("pathAliases", ()))
         for item in source["copies"]:
             copy = Copy(source["name"], source["role"], tuple(source["games"]), item["provider"],
                         item.get("path", item.get("url")), item.get("visibility", "unknown"),
-                        item["defaultBranch"])
+                        item["defaultBranch"], aliases)
             result[copy.key] = copy
     return result
 

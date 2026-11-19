@@ -84,6 +84,19 @@
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])",
           "type": "string"
         },
+        "pathAliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["from", "to"],
+            "properties": {
+              "from": {"$ref": "#/$defs/pathAliasPattern"},
+              "to": {"$ref": "#/$defs/pathAliasPattern"}
+            }
+          }
+        },
         "role": {
           "enum": [
             "game",
@@ -98,6 +111,10 @@
         "copies"
       ],
       "type": "object"
+    },
+    "pathAliasPattern": {
+      "type": "string",
+      "pattern": "^(?:(?!\\.{1,2}/)[^/\\\\*?#:\\x00-\\x1f]+/)*[^/\\\\*?#:\\x00-\\x1f]*\\*[^/\\\\*?#:\\x00-\\x1f]*(?![\\s\\S])"
     }
   },
   "$id": "https://opencade.invalid/schemas/sources.schema.json",

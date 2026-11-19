@@ -1,0 +1,151 @@
+{
+  "$id": "https://opencade.invalid/schemas/import-job.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "discovery": {
+      "additionalProperties": false,
+      "properties": {
+        "animations": {
+          "type": "boolean"
+        },
+        "audio": {
+          "type": "boolean"
+        },
+        "codeReferences": {
+          "type": "boolean"
+        },
+        "fonts": {
+          "type": "boolean"
+        },
+        "generatedAssets": {
+          "type": "boolean"
+        },
+        "images": {
+          "type": "boolean"
+        },
+        "tilemaps": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "images",
+        "animations",
+        "tilemaps",
+        "audio",
+        "fonts",
+        "generatedAssets",
+        "codeReferences"
+      ],
+      "type": "object"
+    },
+    "jobType": {
+      "const": "initial-discovery"
+    },
+    "output": {
+      "additionalProperties": false,
+      "properties": {
+        "generateMigrationReport": {
+          "type": "boolean"
+        },
+        "generateSearchIndex": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "generateMigrationReport",
+        "generateSearchIndex"
+      ],
+      "type": "object"
+    },
+    "processing": {
+      "additionalProperties": false,
+      "properties": {
+        "buildUsageGraph": {
+          "type": "boolean"
+        },
+        "describeWithAI": {
+          "type": "boolean"
+        },
+        "detectDuplicates": {
+          "type": "boolean"
+        },
+        "extractSpritesheets": {
+          "type": "boolean"
+        },
+        "verifyLicenses": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "extractSpritesheets",
+        "describeWithAI",
+        "detectDuplicates",
+        "buildUsageGraph",
+        "verifyLicenses"
+      ],
+      "type": "object"
+    },
+    "safety": {
+      "additionalProperties": false,
+      "properties": {
+        "deleteSourceFiles": {
+          "const": false
+        },
+        "modifySourceRepositories": {
+          "const": false
+        },
+        "publishUnknownLicenses": {
+          "const": false
+        }
+      },
+      "required": [
+        "modifySourceRepositories",
+        "deleteSourceFiles",
+        "publishUnknownLicenses"
+      ],
+      "type": "object"
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "sources": {
+      "additionalProperties": false,
+      "properties": {
+        "includeMonorepos": {
+          "type": "boolean"
+        },
+        "includeReleases": {
+          "type": "boolean"
+        },
+        "provider": {
+          "enum": [
+            "github",
+            "forgejo",
+            "local"
+          ]
+        },
+        "scope": {
+          "const": "authorized-game-repositories"
+        }
+      },
+      "required": [
+        "provider",
+        "scope",
+        "includeMonorepos",
+        "includeReleases"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "jobType",
+    "sources",
+    "discovery",
+    "processing",
+    "safety",
+    "output"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,50 @@
+{
+  "$id": "https://opencade.invalid/schemas/search-receipt.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "filters": {
+      "type": "object"
+    },
+    "query": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "registryCommit": {
+      "$ref": "asset.schema.json#/$defs/commit"
+    },
+    "rejectedCandidates": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "assetId": {
+            "$ref": "asset.schema.json#/$defs/assetId"
+          },
+          "reason": {
+            "pattern": "\\S",
+            "type": "string"
+          }
+        },
+        "required": [
+          "assetId",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "searchedAt": {
+      "format": "date-time",
+      "type": "string"
+    }
+  },
+  "required": [
+    "query",
+    "rejectedCandidates"
+  ],
+  "type": "object"
+}

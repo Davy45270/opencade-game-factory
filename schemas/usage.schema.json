@@ -1,0 +1,94 @@
+{
+  "$id": "https://opencade.invalid/schemas/usage.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "if": {
+    "properties": {
+      "status": {
+        "const": "active"
+      }
+    }
+  },
+  "properties": {
+    "codeRef": {
+      "additionalProperties": false,
+      "properties": {
+        "line": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "path": {
+          "$ref": "asset.schema.json#/$defs/path"
+        }
+      },
+      "required": [
+        "path",
+        "line"
+      ],
+      "type": "object"
+    },
+    "commit": {
+      "$ref": "asset.schema.json#/$defs/commit"
+    },
+    "evidence": {
+      "$ref": "asset.schema.json#/$defs/evidence"
+    },
+    "game": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "importName": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "releases": {
+      "items": {
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "removedAtCommit": {
+      "$ref": "asset.schema.json#/$defs/commit"
+    },
+    "repo": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "role": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "scene": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "removed"
+      ]
+    }
+  },
+  "required": [
+    "repo",
+    "game",
+    "scene",
+    "commit",
+    "codeRef",
+    "role",
+    "importName",
+    "evidence",
+    "status",
+    "releases"
+  ],
+  "then": {
+    "not": {
+      "required": [
+        "removedAtCommit"
+      ]
+    }
+  },
+  "type": "object"
+}

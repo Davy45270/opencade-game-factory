@@ -1,0 +1,63 @@
+{
+  "$id": "https://opencade.invalid/schemas/lock.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assets": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "assetId": {
+            "$ref": "asset.schema.json#/$defs/assetId"
+          },
+          "assetVersion": {
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "path": {
+            "$ref": "asset.schema.json#/$defs/path"
+          },
+          "role": {
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "scene": {
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "sha256": {
+            "$ref": "asset.schema.json#/$defs/sha256"
+          }
+        },
+        "required": [
+          "assetId",
+          "assetVersion",
+          "sha256",
+          "scene",
+          "role",
+          "path"
+        ],
+        "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "game": {
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "registryCommit": {
+      "$ref": "asset.schema.json#/$defs/commit"
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "game",
+    "registryCommit",
+    "assets"
+  ],
+  "type": "object"
+}

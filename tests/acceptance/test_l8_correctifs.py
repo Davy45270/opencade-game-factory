@@ -212,5 +212,64 @@ class L8SyncPathAliasesARefsConstantes(unittest.TestCase):
         self.assertEqual(sortie.get("scannedCopies"), 0, f"témoin : rien n'a changé, rien à relire : {sortie}")
 
 
+# ------------------------------------------------------------------------------------------------
+# M5 — liens causaux : validate refuse un lien arbitraire ou non réciproque
+# ------------------------------------------------------------------------------------------------
+
+from tests.acceptance import test_l5_correctifs as L5  # noqa: E402
+
+
+class L8LiensCausauxCoherents(L5._Monde):
+    """Constat M5 (relecture n° 2) : « Le validateur accepte aussi un lien causal arbitraire vers un numéro
+    existant si sa forme est valide. […] Correctif proposé — Conserver les relations établies, rendre explicite
+    l'ascendance incomplète et contrôler la réciprocité et la cohérence des liens. »
+
+    Contrat (côté validate) : sur chaque fiche, `causalPrevious`/`causalNext` sont réciproques
+    (a.causalNext == b ⇔ b.causalPrevious == a), jamais vers soi-même, et sans cycle. Une fiche qui viole
+    l'une de ces règles est un problème de validate (code 1) qui cite la fiche. Fixture : le tag tardif de L5
+    (v1 courante, v2 = tag, causalement antérieure)."""
+
+    def setUp(self):
+        super().setUp()
+        ancien = self.world.commits["jeu-a"]
+        self.world.git(self.jeu, "tag", "-d", "v1.0")
+        self.remplacer()
+        L5._scan(self)
+        self.asset_id, _ = C.asset_par_chemin(self.reg, "jeu-a", M.FOUET)
+        self.world.git(self.jeu, "tag", "v1.0", ancien)
+        L5._scan(self)
+        self.world.commiter_registre("Catalogue à deux versions causales")
+        self.chemin = self.reg / C.DOSSIER_ASSETS / f"{self.asset_id}.json"
+        fiche = C.lire_json(self.chemin)
+        par = {v["version"]: v for v in fiche["versions"]}
+        self.assertEqual((par[1].get("causalPrevious"), par[2].get("causalNext")), (2, 1),
+                         f"fixture : 2 précède causalement 1 : {fiche['versions']}")
+
+    def _alterer(self, fonction):
+        fiche = C.lire_json(self.chemin)
+        fonction({v["version"]: v for v in fiche["versions"]})
+        self.chemin.write_text(_json.dumps(fiche, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return self.world.ctl(["validate", "--json"])
+
+    def _exiger_refus(self, r, motif):
+        self.assertEqual(r.code, C.ECHEC, f"{motif} : validate doit rendre 1\n{r}")
+        self.assertIn(self.asset_id, r.stdout, f"le problème cite la fiche\n{r}")
+
+    def test_lien_vers_soi_meme(self):
+        self._exiger_refus(self._alterer(lambda par: par[1].update(causalPrevious=1)), "lien causal vers soi")
+
+    def test_lien_non_reciproque(self):
+        self._exiger_refus(self._alterer(lambda par: par[2].update(causalNext=None)),
+                           "1.causalPrevious = 2 mais 2.causalNext = null")
+
+    def test_cycle(self):
+        self._exiger_refus(self._alterer(lambda par: (par[1].update(causalNext=2), par[2].update(causalPrevious=1))),
+                           "cycle 1 → 2 → 1")
+
+    def test_temoin_liens_coherents(self):
+        r = self.world.ctl(["validate", "--json"])
+        self.assertEqual(r.code, C.OK, f"témoin : liens issus du scan\n{r}")
+
+
 if __name__ == "__main__":
     unittest.main()

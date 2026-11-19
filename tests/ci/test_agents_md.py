@@ -13,7 +13,7 @@ class AgentsMd(unittest.TestCase):
 
     def test_regles_communes_presentes(self) -> None:
         for regle in ("graphify", "token_budget=4000", "pkill", "killall", "<<'EOF'", "git add -A",
-                      "Aucun son", "n'approuve jamais sa propre dérogation", "expire", "codex-file.sh"):
+                      "Aucun son", "n'approuve jamais sa propre dérogation", "expire", "codex-file.sh", "CODEX_FILE_TICKET", "ne l'appelle pas"):
             self.assertIn(regle, self.texte, regle)
 
     def test_les_prompts_codex_renvoient_a_agents_md(self) -> None:

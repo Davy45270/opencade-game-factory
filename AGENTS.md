@@ -59,6 +59,7 @@ publication, un test désactivé, un seuil abaissé.
 ## 6. Charge et tests
 
 - Un seul Codex à la fois, **par la file** : `codex-file.sh <commande…>`. Jamais de `flock` nu ni de passe hors file.
+- **Si tu ES une passe Codex**, tu as été lancé PAR la file : tu es déjà dans ton créneau, ne l'appelle pas. La variable `CODEX_FILE_TICKET` (ton ticket) le prouve ; le verrou de la file est en lecture seule dans ton bac à sable, c'est normal. Seuls les orchestrateurs (humains, Claude, lanceurs) passent par `codex-file.sh`.
 - Jamais la suite de tests complète en local : seulement les tests ciblés de ce que tu changes. La CI Woodpecker fait
   le reste.
 - Les navigateurs et Vitest des jeux tournent dans le créneau E2E de tank01, pas sur le poste. L'onduleur doit rester

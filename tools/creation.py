@@ -191,21 +191,41 @@ def derive(root, args):
         parent_version = asset_versions.version_number(parent)
         parent_digest = parent["sha256"].lower()
         input_hash = sha(f"{parent_version}:{parent_digest}:{recipe_hash}".encode("ascii"))
-        identity = f"derived:{args.id}:{input_hash}"
+        original_identity = f"derived:{args.id}:{recipe_hash}"
+        revision_identity = f"derived:{args.id}:{input_hash}"
+        identity = original_identity if parent_version == 1 else revision_identity
         catalogue = Catalogue(root)
         ids = IdRegistry(catalogue.read(catalogue.path / "ids.json"))
         parent_revision = {"parentId": args.id, "parentVersion": parent_version, "parentSha256": parent_digest}
         name = f"{parent['name']} variante"
+        def render():
+            parent_raw = delivery.bytes(delivery.revision(parent, parent_version))
+            return canonical_png(transform(_image(parent_raw), recipe))
+
         asset_id = ids.allouer(identity, "sprite", name)
-        if asset_id in delivery.assets:
-            existing = delivery.asset(asset_id)
+        existing = delivery.asset(asset_id) if asset_id in delivery.assets else None
+        raw = None
+        if existing and identity == original_identity and "parentId" not in existing["provenance"]:
+            if asset_id not in parent["variants"] or existing["provenance"].get("derivedFrom") != args.id:
+                return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "derived-record-conflict"}
+            raw = render()
+            if sha(raw) == existing["sha256"].lower():
+                delivery.bytes(existing)
+                existing["provenance"].update(parent_revision)
+                if not args.dry_run:
+                    record = catalogue._regular_path(catalogue.path / "assets" / f"{asset_id}.json")
+                    write_json(record, existing)
+                return ExitCode.OK, {"ok": True, "id": asset_id, "asset": existing}
+            asset_id = ids.allouer(revision_identity, "sprite", name)
+            existing = delivery.asset(asset_id) if asset_id in delivery.assets else None
+        if existing:
             if (asset_id not in parent["variants"] or existing["provenance"].get("derivedFrom") != args.id
                     or any(existing["provenance"].get(key) != value for key, value in parent_revision.items())):
                 return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "derived-record-conflict"}
-            delivery.bytes(delivery.revision(existing, asset_versions.version_number(existing)))
+            delivery.bytes(existing)
             return ExitCode.OK, {"ok": True, "id": asset_id, "asset": existing}
-        pixels = transform(_image(delivery.bytes(delivery.revision(parent, parent_version))), recipe)
-        raw = canonical_png(pixels)
+        if raw is None:
+            raw = render()
         digest = sha(raw)
         measured = formats.inspect("sprite.png", raw)
         time = datetime.now(timezone.utc).isoformat()

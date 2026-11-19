@@ -55,8 +55,9 @@ Une clé d’identité représente un fichier (`file:sha256:<hex>`), une planche
 (`sheet:sha256:<hex>`), une région
 (`region:<sheetId>:<x>,<y>,<w>,<h>`), un symbole
 (`code:<repo>:<chemin>#<symbole>`) ou une dérivation
-(`derived:<parentId>:<entree-sha256>`). Pour les dérivations L5, l’empreinte
-d’entrée comprend la révision du parent et l’empreinte de la recette. Les SHA-256 des clés sont en hexadécimal
+(`derived:<parentId>:<entree-sha256>`). La clé de la première révision du
+parent utilise l’empreinte de la recette. Les révisions suivantes intègrent
+aussi le numéro et le SHA-256 du parent. Les SHA-256 des clés sont en hexadécimal
 minuscule et les coordonnées ont une écriture décimale canonique. Une fiche de
 planche et une fiche de fichier héritée de l’inventaire peuvent donc pointer vers
 le même contenu avec deux identités distinctes.

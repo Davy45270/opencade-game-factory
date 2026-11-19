@@ -1,0 +1,27 @@
+# Réconciliation périodique (spec §8 « scan périodique de réconciliation »), SANS SECRET.
+#
+# LIMITE, voulue : ce pipeline ne lit que les copies GitHub PUBLIQUES des jeux autorisés. Il ne porte
+# aucun jeton : ni le dépôt privé `asset`, ni la forge, ni les copies locales de Zalman (jeux en cours
+# de reprise, `jeux-assets`) ne sont lus d'ici. Il ne fait que CONSTATER : second scan de contrôle
+# (`--verify`) en `--dry-run`, et il échoue (code ≠ 0) s'il trouve une dérive. La synchronisation
+# complète (`assetctl sync`, toutes les copies) et l'ouverture de la PR se font depuis Zalman, où
+# vivent les accès.
+# Rejeu local sans conteneur : scripts/ci-local.sh scan
+labels:
+  host: tank01
+
+when:
+  - event: cron
+  - event: manual
+
+steps:
+  - name: reconciliation
+    image: harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - git config --global --add safe.directory '*'
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - . .venv/bin/activate
+      - ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json

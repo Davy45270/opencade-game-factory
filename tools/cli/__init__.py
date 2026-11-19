@@ -1,6 +1,7 @@
 """Interface headless du registre."""
 
 import argparse
+import os
 import sys
 from contextlib import ExitStack
 from pathlib import Path
@@ -23,7 +24,7 @@ COMMANDS = {
     "usage": ("L3", False),
     "publish": ("L3", True),
     "duplicates": ("L2", False),
-    "scan-repos": ("L2", True),
+    "scan-repos": (None, True),
     "sync": ("L3", True),
     "index": ("L3", True),
 }
@@ -59,6 +60,14 @@ def _parser():
             sub.add_argument("--base", metavar="REF", help="comparer le catalogue à une révision Git")
         elif command == "inspect":
             sub.add_argument("id")
+        elif command == "scan-repos":
+            sub.add_argument("--sources", type=Path, help="sélection issue de catalog/sources.json")
+            sub.add_argument("--cache", type=Path)
+            sub.add_argument("--only", nargs="+")
+            sub.add_argument("--provider", choices=("github", "forgejo", "local"))
+            sub.add_argument("--fetch", action=argparse.BooleanOptionalAction, default=True)
+            sub.add_argument("--job", type=Path)
+            sub.add_argument("--verify", action="store_true")
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         elif lot:
@@ -99,7 +108,11 @@ def _inspect(root, record_id):
     return ExitCode.OK, {"ok": True, kind: record, "usages": usages}
 
 
-def _run(args, root):
+def _run(args, root, selected=None):
+    if args.command == "scan-repos":
+        from tools.discovery.scan import run
+
+        return run(root, args, selected)
     if args.command == "validate":
         from tools.validate import validate
 
@@ -111,7 +124,7 @@ def _run(args, root):
 
 
 def _output(payload, *, as_json):
-    if as_json or "error" in payload or "usages" in payload:
+    if as_json or "error" in payload or "usages" in payload or "issues" not in payload:
         print(json_text(payload), end="")
     elif payload["ok"]:
         print("Catalogue valide.")
@@ -134,13 +147,29 @@ def main(argv=None, *, root=ROOT):
     with ExitStack() as stack:
         stream = None
         try:
+            selected = None
+            if args.command == "scan-repos":
+                from tools.discovery.scan import preflight
+
+                selected = preflight(Path(root), args)
             if getattr(args, "log", None) is not None:
                 log_path = args.log.resolve()
                 catalogue_path = (Path(root) / "catalog").resolve()
                 if log_path.is_relative_to(catalogue_path):
                     raise CatalogueScopeError("Le journal doit être extérieur au catalogue.")
-                stream = stack.enter_context(log_path.open("a", encoding="utf-8", newline="\n"))
-            code, payload = _run(args, Path(root))
+                if args.command == "scan-repos":
+                    def open_log(path, flags):
+                        descriptor = os.open(path, flags | os.O_NOFOLLOW, 0o600)
+                        if os.fstat(descriptor).st_nlink > 1:
+                            os.close(descriptor)
+                            raise CatalogueScopeError("Lien dur interdit pour le journal du scan.")
+                        return descriptor
+
+                    stream = stack.enter_context(open(log_path, "a", encoding="utf-8", newline="\n",
+                                                      opener=open_log))
+                else:
+                    stream = stack.enter_context(log_path.open("a", encoding="utf-8", newline="\n"))
+            code, payload = _run(args, Path(root), selected)
         except (UsageError, InvalidRef) as exc:
             code, payload = ExitCode.USAGE, {"ok": False, "error": "usage", "message": str(exc)}
         except CatalogueScopeError as exc:

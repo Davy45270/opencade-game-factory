@@ -39,6 +39,36 @@
       ],
       "type": "object"
     },
+    "inputs": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "commit": {
+            "pattern": "^(?:[0-9A-Fa-f]{40}|[0-9A-Fa-f]{64})(?![\\s\\S])",
+            "type": "string"
+          },
+          "name": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])",
+            "type": "string"
+          },
+          "provider": {
+            "enum": [
+              "github",
+              "forgejo",
+              "local"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "provider",
+          "commit"
+        ],
+        "type": "object"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
     "jobType": {
       "const": "initial-discovery"
     },

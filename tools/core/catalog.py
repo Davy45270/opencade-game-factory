@@ -73,7 +73,10 @@ def json_text(value):
 
 
 def write_json(path, value):
-    content = json_text(value)
+    write_text(path, json_text(value))
+
+
+def write_text(path, content):
     descriptor, temporary = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.")
     try:
         with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:

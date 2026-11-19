@@ -1,1 +1,280 @@
-[]
+{
+  "excluded": [
+    {
+      "name": "ironlink",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "ironlink-private",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "ironlink-rules",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "ironlink-ui",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc01",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc02",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc03",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc04",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc05",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc06",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc07",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc08",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc09",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc10",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc11",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "uc12",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "graphify",
+      "reason": "pas un dépôt de jeu"
+    },
+    {
+      "name": "opencade-asset-registry",
+      "reason": "le registre lui-même"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sources": [
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/Opencade.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/Opencade.git",
+          "visibility": "private"
+        }
+      ],
+      "games": [],
+      "name": "opencade",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/opencadkid.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/opencadkid.git",
+          "visibility": "private"
+        }
+      ],
+      "games": [],
+      "name": "opencadkid",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/echecs-kid.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/echecs-kid.git",
+          "visibility": "private"
+        }
+      ],
+      "games": [
+        "echecs-kid"
+      ],
+      "name": "echecs-kid",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/six-de-chaque.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/six-de-chaque.git",
+          "visibility": "private"
+        },
+        {
+          "path": "/home/david/Projets/jeux/six-de-chaque",
+          "provider": "local",
+          "visibility": "private"
+        }
+      ],
+      "games": [
+        "six-de-chaque"
+      ],
+      "name": "six-de-chaque",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/pestouille-rpg.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/pestouille-rpg.git",
+          "visibility": "private"
+        },
+        {
+          "path": "/home/david/Projets/jeux/pestouille-rpg",
+          "provider": "local",
+          "visibility": "private"
+        }
+      ],
+      "games": [
+        "pestouille-rpg"
+      ],
+      "name": "pestouille-rpg",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/capsule-panic.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/capsule-panic.git",
+          "visibility": "private"
+        },
+        {
+          "path": "/home/david/Projets/jeux/capsule-panic",
+          "provider": "local",
+          "visibility": "private"
+        }
+      ],
+      "games": [
+        "capsule-panic"
+      ],
+      "name": "capsule-panic",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/cozy-room-sort.git",
+          "visibility": "public"
+        },
+        {
+          "provider": "forgejo",
+          "url": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+          "visibility": "private"
+        },
+        {
+          "path": "/home/david/Projets/jeux/cozy-room-sort",
+          "provider": "local",
+          "visibility": "private"
+        }
+      ],
+      "games": [
+        "cozy-room-sort"
+      ],
+      "name": "cozy-room-sort",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/petit-astronome.git",
+          "visibility": "public"
+        }
+      ],
+      "games": [
+        "petit-astronome"
+      ],
+      "name": "petit-astronome",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/tictac.git",
+          "visibility": "public"
+        }
+      ],
+      "games": [
+        "tictac"
+      ],
+      "name": "tictac",
+      "role": "game"
+    },
+    {
+      "copies": [
+        {
+          "provider": "github",
+          "url": "https://github.com/Davy45270/asset.git",
+          "visibility": "private"
+        }
+      ],
+      "games": [],
+      "name": "asset",
+      "role": "shared-library"
+    },
+    {
+      "copies": [
+        {
+          "path": "/home/david/Projets/jeux/assets",
+          "provider": "local",
+          "visibility": "private"
+        }
+      ],
+      "games": [],
+      "name": "jeux-assets",
+      "role": "shared-library"
+    }
+  ]
+}

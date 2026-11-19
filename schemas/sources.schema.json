@@ -1,0 +1,143 @@
+{
+  "$defs": {
+    "entry": {
+      "additionalProperties": false,
+      "properties": {
+        "copies": {
+          "items": {
+            "additionalProperties": false,
+            "else": {
+              "not": {
+                "required": [
+                  "path"
+                ]
+              },
+              "required": [
+                "url"
+              ]
+            },
+            "if": {
+              "properties": {
+                "provider": {
+                  "const": "local"
+                }
+              }
+            },
+            "properties": {
+              "defaultBranch": {
+                "pattern": "\\S",
+                "type": "string"
+              },
+              "path": {
+                "pattern": "^/[^\\x00-\\x1f]+$",
+                "type": "string"
+              },
+              "provider": {
+                "enum": [
+                  "github",
+                  "forgejo",
+                  "local"
+                ]
+              },
+              "url": {
+                "format": "repository-url",
+                "pattern": "^https?://[^/@\\s]+(?:/[^\\s]*)?$",
+                "type": "string"
+              },
+              "visibility": {
+                "enum": [
+                  "public",
+                  "private",
+                  "unknown"
+                ]
+              }
+            },
+            "required": [
+              "provider"
+            ],
+            "then": {
+              "not": {
+                "required": [
+                  "url"
+                ]
+              },
+              "required": [
+                "path"
+              ]
+            },
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "games": {
+          "items": {
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "name": {
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "game",
+            "shared-library"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "role",
+        "games",
+        "copies"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://opencade.invalid/schemas/sources.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "excluded": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*(?![\\s\\S])",
+            "type": "string"
+          },
+          "reason": {
+            "pattern": "\\S",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/entry"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "sources",
+    "excluded"
+  ],
+  "type": "object"
+}

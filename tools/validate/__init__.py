@@ -51,7 +51,10 @@ class CatalogueValidation:
         if not loaded:
             return
         if not isinstance(sources, list):
-            self.issue(path, "schema", "La liste d’autorisation doit être un tableau.")
+            from tools.discovery.repos import source_problems
+
+            for problem in source_problems(sources):
+                self.issue(path, "schema", problem)
             return
         seen = set()
         for index, source in enumerate(sources):
@@ -98,6 +101,19 @@ class CatalogueValidation:
             for field in INFERABLE:
                 if asset[field] not in (None, "unknown", []) and field not in asset.get("inference", {}):
                     self.issue(path, "inference-required", f"Trace manquante pour {field}.")
+            job = asset.get("creation", {}).get("importJob")
+            if isinstance(job, str):
+                from tools.discovery.jobs import job_id
+
+                jobs = self.catalogue._regular_path(self.catalogue.path / "import-jobs")
+                job_file = jobs / f"{job}.json"
+                if not job_file.is_file():
+                    self.issue(path, "missing-import-job", f"Job d’import introuvable ({job}).")
+                else:
+                    loaded, contract = self.load(PurePosixPath("import-jobs", f"{job}.json"))
+                    if loaded and self.document("import-job", contract, f"catalog/import-jobs/{job}.json"):
+                        if "inputs" not in contract or job_id(contract["inputs"]) != job:
+                            self.issue(path, "invalid-import-job", f"Entrées incompatibles avec le job {job}.")
             sheet_id = asset["sourceSheetId"]
             region = asset["sourceRegion"]
             sheet = sheets.get(sheet_id)

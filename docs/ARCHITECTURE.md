@@ -8,11 +8,12 @@ ou univers dans `assets/`, `sheets/` ou `universes/`, ainsi que les fichiers
 avec une indentation de deux espaces, les clés triées et un LF final. Le nouveau
 fichier est écrit dans le même répertoire avant remplacement atomique.
 
-`sources.json` est un tableau d’entrées avec le fournisseur (`github`, `forgejo`
-ou `local`), le nom canonique `repo`, le rôle, les `games` et l’adresse `url`
-ou le `path` local. Ce tableau définit le périmètre que L2 pourra lire. Les
-localisations d’un fichier et les références de code décrivent un dépôt, un
-commit et un chemin relatif à ce dépôt.
+`sources.json` décrit le périmètre autorisé. Chaque entrée de `sources` associe
+un nom canonique, un rôle et des jeux à ses copies GitHub, Forgejo ou locales.
+Chaque copie porte une adresse et une visibilité. Les localisations du fichier
+importé gardent le fournisseur, le commit, le chemin relatif et l’état de
+l’emplacement. `catalog/scan-references.json` conserve les commits contrôlés
+par `scan-repos --verify`.
 
 Les binaires des jeux restent dans les jeux. Le catalogue garde l’empreinte
 SHA-256 et les emplacements d’origine. Le registre versionne ses propres
@@ -62,8 +63,10 @@ Avec `--base`, le validateur lit le registre et les chemins de fiches du
 commit Git demandé. Il contrôle l’ajout seul et la conservation des fiches.
 Chaque nouvel asset doit joindre un reçu de recherche ou, pour les types
 `repo-file`, `original-sheet-cut` et `code-generated`, un job d’import
-conforme au contrat initial-discovery. Les deux contrats sont embarqués dans
-`creation`. Les rejets documentent l’ID et la raison. Une recherche sans
+conforme au contrat initial-discovery. `creation.importJob` pointe vers un
+document de `catalog/import-jobs/` dont le nom est calculé sur les entrées Git.
+Le validateur accepte aussi les contrats embarqués des fiches L1. Les rejets
+documentent l’ID et la raison. Une recherche sans
 candidat a un tableau de rejets vide.
 
 ## Provenance, inférence et références

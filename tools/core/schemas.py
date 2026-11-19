@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 from .catalog import ROOT, InvalidJSON, read_json
 
-NAMES = ("asset", "sheet", "usage", "import-job", "source", "lock", "search-receipt")
+NAMES = ("asset", "sheet", "usage", "import-job", "source", "sources", "lock", "search-receipt")
 
 
 DATE_TIME = re.compile(

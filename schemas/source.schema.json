@@ -1,76 +1,83 @@
 {
   "$id": "https://opencade.invalid/schemas/source.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "additionalProperties": false,
-  "else": {
-    "not": {
-      "required": [
-        "path"
-      ]
-    },
-    "required": [
-      "url"
-    ]
-  },
-  "if": {
-    "properties": {
-      "provider": {
-        "const": "local"
-      }
-    }
-  },
-  "properties": {
-    "games": {
-      "items": {
-        "pattern": "\\S",
-        "type": "string"
+  "anyOf": [
+    {
+      "additionalProperties": false,
+      "else": {
+        "not": {
+          "required": [
+            "path"
+          ]
+        },
+        "required": [
+          "url"
+        ]
       },
-      "minItems": 1,
-      "type": "array",
-      "uniqueItems": true
-    },
-    "path": {
-      "pattern": "\\S",
-      "type": "string"
-    },
-    "provider": {
-      "enum": [
-        "github",
-        "forgejo",
-        "local"
-      ]
-    },
-    "repo": {
-      "pattern": "^[A-Za-z0-9_-][A-Za-z0-9_.-]*(?:/[A-Za-z0-9_-][A-Za-z0-9_.-]*)*(?![\\s\\S])",
-      "type": "string"
-    },
-    "role": {
-      "enum": [
-        "game",
-        "shared-library"
-      ]
-    },
-    "url": {
-      "format": "repository-url",
-      "pattern": "^https?://[^/@\\s]+(?:/[^\\s]*)?$",
-      "type": "string"
-    }
-  },
-  "required": [
-    "provider",
-    "repo",
-    "role",
-    "games"
-  ],
-  "then": {
-    "not": {
+      "if": {
+        "properties": {
+          "provider": {
+            "const": "local"
+          }
+        }
+      },
+      "properties": {
+        "games": {
+          "items": {
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "path": {
+          "pattern": "\\S",
+          "type": "string"
+        },
+        "provider": {
+          "enum": [
+            "github",
+            "forgejo",
+            "local"
+          ]
+        },
+        "repo": {
+          "pattern": "^[A-Za-z0-9_-][A-Za-z0-9_.-]*(?:/[A-Za-z0-9_-][A-Za-z0-9_.-]*)*(?![\\s\\S])",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "game",
+            "shared-library"
+          ]
+        },
+        "url": {
+          "format": "repository-url",
+          "pattern": "^https?://[^/@\\s]+(?:/[^\\s]*)?$",
+          "type": "string"
+        }
+      },
       "required": [
-        "url"
-      ]
+        "provider",
+        "repo",
+        "role",
+        "games"
+      ],
+      "then": {
+        "not": {
+          "required": [
+            "url"
+          ]
+        },
+        "required": [
+          "path"
+        ]
+      },
+      "type": "object"
     },
-    "required": [
-      "path"
-    ]
-  },
-  "type": "object"
+    {
+      "$ref": "sources.schema.json#/$defs/entry"
+    }
+  ]
 }

@@ -176,6 +176,9 @@ class CatalogueOracles(CatalogueFixture, unittest.TestCase):
                 code, payload = self.cli(command, *args)
                 if command in ("validate", "inspect"):
                     self.assertEqual(code, 0, payload)
+                elif command == "scan-repos":
+                    self.assertEqual(code, 0, payload)
+                    self.assertEqual(payload["scannedCopies"], 0)
                 else:
                     self.assertEqual(code, 2, payload)
                     self.assertEqual(payload["error"], "not-implemented")

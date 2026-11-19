@@ -20,9 +20,9 @@ Remplacer l’identifiant de l’exemple par celui d’une fiche du catalogue et
 de planche et ses usages. Les deux commandes lisent le catalogue du dépôt
 qui contient l’exécutable.
 
-Le lot L1 fournit `validate` et `inspect`. Les autres commandes répondent
-avec `not-implemented` et leur lot prévu. L2 couvre `import-sheet`, `extract`,
-`duplicates` et `scan-repos`. L3 couvre `search`, `register`, `derive`,
+Le registre fournit `validate`, `inspect` et `scan-repos`. Les commandes
+`import-sheet`, `extract` et `duplicates` restent prévues dans L2.
+L3 couvre `search`, `register`, `derive`,
 `usage`, `publish`, `sync` et `index rebuild`. Toutes acceptent
 `--json`. Les commandes de mutation acceptent `--dry-run`. Le résultat JSON
 est sur stdout et le journal JSON Lines sur stderr. `--log <fichier>` redirige

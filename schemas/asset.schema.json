@@ -68,18 +68,87 @@
         "locations": {
           "items": {
             "additionalProperties": false,
+            "allOf": [
+              {
+                "else": {
+                  "not": {
+                    "required": [
+                      "removedAtCommit"
+                    ]
+                  }
+                },
+                "if": {
+                  "properties": {
+                    "status": {
+                      "const": "removed"
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ]
+                },
+                "then": {
+                  "required": [
+                    "removedAtCommit"
+                  ]
+                }
+              }
+            ],
             "properties": {
+              "blobSha256": {
+                "$ref": "#/$defs/sha256"
+              },
+              "classification": {
+                "enum": [
+                  "game",
+                  "shared-library",
+                  "generated"
+                ]
+              },
               "commit": {
                 "pattern": "^(?:[0-9A-Fa-f]{40}|[0-9A-Fa-f]{64})(?![\\s\\S])",
                 "type": "string"
+              },
+              "game": {
+                "type": [
+                  "string",
+                  "null"
+                ]
               },
               "path": {
                 "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.{1,2}(?:/|$))[^/\\\\\\x00-\\x1f]+(?:/[^/\\\\\\x00-\\x1f]+)*(?![\\s\\S])",
                 "type": "string"
               },
+              "provider": {
+                "enum": [
+                  "github",
+                  "forgejo",
+                  "local"
+                ]
+              },
+              "releaseOnly": {
+                "type": "boolean"
+              },
+              "removedAtCommit": {
+                "pattern": "^(?:[0-9A-Fa-f]{40}|[0-9A-Fa-f]{64})(?![\\s\\S])",
+                "type": "string"
+              },
               "repo": {
                 "pattern": "\\S",
                 "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "active",
+                  "removed"
+                ]
+              },
+              "visibility": {
+                "enum": [
+                  "public",
+                  "private",
+                  "unknown"
+                ]
               }
             },
             "required": [
@@ -933,7 +1002,15 @@
       "minProperties": 1,
       "properties": {
         "importJob": {
-          "$ref": "import-job.schema.json"
+          "anyOf": [
+            {
+              "$ref": "import-job.schema.json"
+            },
+            {
+              "pattern": "^[0-9a-f]{16}$",
+              "type": "string"
+            }
+          ]
         },
         "searchReceipt": {
           "$ref": "search-receipt.schema.json"
@@ -1222,12 +1299,22 @@
           "additionalProperties": false,
           "properties": {
             "fps": {
-              "exclusiveMinimum": 0,
-              "type": "number"
+              "anyOf": [
+                {
+                  "exclusiveMinimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "frameCount": {
               "minimum": 1,
               "type": "integer"
+            },
+            "mode": {
+              "type": "string"
             }
           },
           "required": [
@@ -1240,16 +1327,37 @@
           "additionalProperties": false,
           "properties": {
             "channels": {
-              "minimum": 1,
-              "type": "integer"
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "durationSec": {
-              "minimum": 0,
-              "type": "number"
+              "anyOf": [
+                {
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "sampleRate": {
-              "minimum": 1,
-              "type": "integer"
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             }
           },
           "required": [
@@ -1285,12 +1393,26 @@
           "additionalProperties": false,
           "properties": {
             "family": {
-              "pattern": "\\S",
-              "type": "string"
+              "anyOf": [
+                {
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "style": {
-              "pattern": "\\S",
-              "type": "string"
+              "anyOf": [
+                {
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             }
           },
           "required": [
@@ -1342,6 +1464,9 @@
             "colorSpace": {
               "pattern": "\\S",
               "type": "string"
+            },
+            "mode": {
+              "type": "string"
             }
           },
           "required": [],
@@ -1355,8 +1480,15 @@
               "type": "string"
             },
             "stage": {
-              "pattern": "\\S",
-              "type": "string"
+              "anyOf": [
+                {
+                  "pattern": "\\S",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             }
           },
           "required": [
@@ -1379,9 +1511,23 @@
         "svg": {
           "additionalProperties": false,
           "properties": {
+            "height": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
             "viewBox": {
-              "pattern": "\\S",
-              "type": "string"
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "width": {
+              "type": [
+                "string",
+                "null"
+              ]
             }
           },
           "required": [],
@@ -1395,12 +1541,26 @@
               "type": "integer"
             },
             "tileHeight": {
-              "minimum": 1,
-              "type": "integer"
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "tileWidth": {
-              "minimum": 1,
-              "type": "integer"
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             }
           },
           "required": [
@@ -1414,8 +1574,15 @@
           "additionalProperties": false,
           "properties": {
             "tileCount": {
-              "minimum": 1,
-              "type": "integer"
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "tileHeight": {
               "minimum": 1,
@@ -1462,12 +1629,34 @@
       "pattern": "\\S",
       "type": "string"
     },
+    "formatMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "atlasImage": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "rasterMode": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tiledVersion": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
     "id": {
       "$ref": "#/$defs/assetId"
     },
     "inference": {
       "additionalProperties": false,
       "properties": {
+        "alpha": {
+          "$ref": "#/properties/inference/properties/description"
+        },
         "category": {
           "additionalProperties": false,
           "if": {
@@ -1554,6 +1743,9 @@
           },
           "type": "object"
         },
+        "dimensions": {
+          "$ref": "#/properties/inference/properties/description"
+        },
         "facing": {
           "additionalProperties": false,
           "if": {
@@ -1596,6 +1788,15 @@
             }
           },
           "type": "object"
+        },
+        "family": {
+          "$ref": "#/properties/inference/properties/description"
+        },
+        "format": {
+          "$ref": "#/properties/inference/properties/description"
+        },
+        "formatMetadata": {
+          "$ref": "#/properties/inference/properties/description"
         },
         "orientation": {
           "additionalProperties": false,
@@ -1683,6 +1884,9 @@
           },
           "type": "object"
         },
+        "perceptual": {
+          "$ref": "#/properties/inference/properties/description"
+        },
         "pivot": {
           "additionalProperties": false,
           "if": {
@@ -1725,6 +1929,9 @@
             }
           },
           "type": "object"
+        },
+        "sha256": {
+          "$ref": "#/properties/inference/properties/description"
         },
         "state": {
           "additionalProperties": false,
@@ -1936,6 +2143,24 @@
         }
       ]
     },
+    "perceptual": {
+      "additionalProperties": false,
+      "properties": {
+        "dhash": {
+          "pattern": "^[0-9a-f]{16}$",
+          "type": "string"
+        },
+        "phash": {
+          "pattern": "^[0-9a-f]{16}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "phash",
+        "dhash"
+      ],
+      "type": "object"
+    },
     "pivot": {
       "anyOf": [
         {
@@ -2076,6 +2301,10 @@
           "type": "null"
         }
       ]
+    },
+    "thumbnail": {
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.{1,2}(?:/|$))[^/\\\\\\x00-\\x1f]+(?:/[^/\\\\\\x00-\\x1f]+)*(?![\\s\\S])",
+      "type": "string"
     },
     "updatedAt": {
       "anyOf": [

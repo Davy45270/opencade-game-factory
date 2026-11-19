@@ -24,5 +24,29 @@ les empreintes des sources avant et après l’inventaire. Rejouer avec les mêm
 commits et vérifier la stabilité des identifiants. Réserver les données spécifiques
 au registre aux dossiers `sources/`, `sprites/`, `atlases/` et `thumbnails/`.
 
-L1 fournit les contrats et l’autorisation initialement vide. L’exécution de la
-migration dépend des outils de découverte et d’indexation des lots suivants.
+## Commandes de découverte
+
+```sh
+./assetctl scan-repos --provider local --only six-de-chaque --dry-run --json
+./assetctl scan-repos --provider local --only six-de-chaque --json
+./assetctl scan-repos --verify --provider local --only six-de-chaque --json
+```
+
+Démarrer les scans réels depuis un environnement autorisé. Les copies locales sont
+lues par le transport Git `file://`. Les miroirs nus vivent dans
+`~/.cache/opencade-asset-registry/mirrors` ou sous `--cache`. Un fichier passé
+à `--sources` sélectionne des entrées de la liste canonique. Les jetons optionnels
+`ASSETCTL_GITHUB_TOKEN` et `ASSETCTL_FORGEJO_TOKEN` restent dans l’environnement.
+
+Le scan lit la branche par défaut et les commits pointés par les tags. `--job`
+accepte le contrat §6 sans `inputs` et permet de choisir le fournisseur et le
+périmètre des monorepos et releases. Les autres étapes du contrat décrivent le
+pipeline complet. Les détections et rapports disponibles correspondent au lot
+en cours. Les identités des fichiers reposent sur le SHA-256. Un module de dessin
+emploie l'identité de son symbole ou du module entier lorsque la clé est dynamique.
+
+`--verify` parcourt les commits précédemment recensés et consulte la tête du
+dépôt distant. `--no-fetch` limite le scan et le contrôle aux miroirs locaux.
+`--dry-run` rend les compteurs ou le résultat du contrôle sur stdout. S’il faut
+un miroir pour ce mode, le cache temporaire est supprimé en fin de commande.
+Les rapports et propositions de similitude sont produits sous `generated/`.

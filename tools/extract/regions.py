@@ -8,6 +8,11 @@ from PIL import Image, ImageChops
 
 COORDINATES = "xywh"
 THRESHOLD = 0.02
+MAX_RACCORD_COVERAGE = 0.5
+
+
+class RaccordCoverageError(ValueError):
+    pass
 
 
 def named_box(box):
@@ -113,20 +118,27 @@ def replay_raccords(reference, raccords):
     return result
 
 
-def measure(image, box, margin, frame, anchor=None, *, options=None, raccords=None):
+def measure(image, box, margin, frame, anchor=None, *, options=None, raccords=None, normalizer=None):
     region = named_box(box)
     if not region or not in_image(region, image):
         return None
     options = options or {}
-    source = crop(image, region, margin)
-    if raccords is not None:
-        if any(not in_image(box, source) for pair in raccords for box in pair):
-            raise ValueError("Raccord hors de la découpe.")
     if "taille" in options and frame_size(options["taille"]) != frame.size:
         return None
     if raccords is not None:
-        source = replay_raccords(source, raccords)
-    expected = _normalize_crop(source, frame.size, anchor)
+        source = crop(image, region, margin)
+        if any(not in_image(box, source) for pair in raccords for box in pair):
+            raise ValueError("Raccord hors de la découpe.")
+        covered = np.zeros((source.height, source.width), dtype=bool)
+        for _, target in raccords:
+            x, y, w, h = (target[key] for key in COORDINATES)
+            covered[y:y + h, x:x + w] = True
+        if covered.mean() > MAX_RACCORD_COVERAGE:
+            raise RaccordCoverageError("Les cibles des raccords couvrent plus de 50 % de la découpe.")
+        image = replay_raccords(source, raccords)
+        region = dict(x=0, y=0, w=image.width, h=image.height)
+        margin = 0
+    expected = (normalizer or normalize)(image, region, margin, frame.size, anchor)
     frame = frame.convert("RGBA")
     if not expected.getbbox() or not frame.getbbox():
         return None

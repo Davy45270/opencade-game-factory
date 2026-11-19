@@ -77,17 +77,17 @@ retrouver le blob. Un cadre est associé par ID (`sprite-<id>` ou `<id>`) et par
 nom d’atlas lorsqu’il est fourni. Les associations ambiguës et les planches
 indisponibles figurent dans `scan-limits`. Une planche connue par sa seule
 empreinte a des dimensions inconnues et aucun emplacement. La vérification
-compare le cadre recadré au résultat normalisé en Pillow. Les écarts de
-rééchantillonnage avec ImageMagick peuvent affecter les mesures proches du
-seuil. Les retouches masquées et les éléments déclarés comme dérivés conservent
-cette provenance.
+compare le cadre recadré au résultat normalisé avec ImageMagick si la recette
+déclare sa version via `outils.magick`, et avec Pillow en l’absence de cette
+déclaration. Les retouches masquées et les éléments déclarés comme dérivés
+conservent cette provenance.
 
 `generated/licenses.json` et `licenses.md` contiennent la décision d’export par
 ressource. La licence d’un dépôt s’applique aux modules de dessin identifiés,
 sous réserve de reconnaissance du texte de licence. Une planche entière est
 réservée, y compris si elle figure aussi au catalogue comme fichier image. Les
-licences explicites reconnues et les découpes qui satisfont HL-538 conservent
-la référence au document Git.
+licences déclarées dans les recettes exigent une découpe vérifiée. Les
+preuves de licence conservent la référence au document Git.
 
 L’enrichissement utilise les jetons du chemin, du nom et les entrées du
 catalogue `jeux-assets` appariées par un préfixe de SHA-256 non ambigu. La

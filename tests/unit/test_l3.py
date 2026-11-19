@@ -25,6 +25,15 @@ class LotL3(unittest.TestCase):
         cls.world.git(cls.root, "add", "--", *paths)
         cls.world.git(cls.root, "commit", "-qm", "Import de fixture")
 
+    @classmethod
+    def commit_catalogue(cls, message):
+        paths = cls.world.git(cls.root, "ls-files", "-m", "-o", "--exclude-standard",
+                              "--", "catalog", "published").splitlines()
+        if not paths:
+            return
+        cls.world.git(cls.root, "add", "--", *paths)
+        cls.world.git(cls.root, "commit", "-qm", message, "--", *paths)
+
     def ctl(self, args, code=0):
         result = self.world.ctl([*args, "--json"])
         self.assertEqual(result.code, code, str(result))
@@ -108,12 +117,14 @@ class LotL3(unittest.TestCase):
         destination = "public/reutilise.png"
         found = self.ctl(["search", "fouet"])["results"][0]["id"]
         self.assertEqual(found, self.asset_id)
+        self.commit_catalogue("Catalogue avant la vérification du lock")
         self.ctl(C.cmd_usage_add(found, "jeu-b", "Menu", "sprite", game, destination, "--private-target"))
         path = game / "assets.lock.json"
         self.ctl(["check-lock", str(path)])
         self.ctl(["check-lock", str(path), "--public"], code=3)
         self.ctl(["materialize", found, "--to", str(game / destination), "--private-target"])
         self.assertEqual(C.sha256_fichier(game / destination), self.asset["sha256"])
+        self.addCleanup(path.write_bytes, path.read_bytes())
         lock = C.lire_json(path)
         lock["assets"][0]["assetVersion"] = "inconnue"
         path.write_text(json.dumps(lock), encoding="utf-8")
@@ -143,6 +154,7 @@ class LotL3(unittest.TestCase):
         self.ctl(["search", "zebre", "--receipt", str(path)])
         game = self.world.depot("jeu-b")
         new = self.new_asset()
+        self.commit_catalogue("Catalogue avant les mutations à blanc")
         before = C.empreinte_arbre(self.world.racine)
         cases = [
             ["index"], ["duplicates"], ["search", "fouet", "--receipt", str(path)],

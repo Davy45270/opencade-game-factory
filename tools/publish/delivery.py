@@ -5,6 +5,7 @@ import os
 import re
 import tempfile
 from contextlib import nullcontext
+from functools import cached_property
 from pathlib import Path
 
 from tools import asset_versions
@@ -109,12 +110,18 @@ class Delivery:
     def __init__(self, root, args):
         self.root = root.resolve()
         self.cache = scoped_path(cache_path(args))
-        catalogue = Catalogue(root)
         self.assets = read_assets(root)
-        self.sheets = {path.stem: catalogue.read(path) for path in catalogue.documents("sheets")}
-        self.sheet_hashes = {record["sha256"].lower() for record in self.sheets.values()}
         self.copies = None
         self.git = Git(root)
+
+    @cached_property
+    def sheets(self):
+        catalogue = Catalogue(self.root)
+        return {path.stem: catalogue.read(path) for path in catalogue.documents("sheets")}
+
+    @cached_property
+    def sheet_hashes(self):
+        return {record["sha256"].lower() for record in self.sheets.values()}
 
     def asset(self, asset_id, *, public=False):
         if asset_id not in self.assets:
@@ -147,8 +154,8 @@ class Delivery:
                 "license": rights.get("license"), "licenseEvidence": rights.get("licenseEvidence"),
                 "publicExport": rights.get("publicExport")}
 
-    def require_public(self, asset):
-        if not public_allowed(asset, self.sheet_hashes):
+    def require_public(self, asset, sheet_hashes=None):
+        if not public_allowed(asset, self.sheet_hashes if sheet_hashes is None else sheet_hashes):
             raise CatalogueScopeError(f"Export public interdit pour {asset['id']}.")
 
     def registry_file(self, record):
@@ -293,7 +300,12 @@ def _publish(root, args):
         asset["status"] = "published"
         entry = asset["versions"][asset_versions.version_number(asset) - 1]
         entry.setdefault("format", asset["format"])
-        asset_versions.archive_publication(asset, published_path=kept.relative_to(delivery.root).as_posix())
+        published_path = kept.relative_to(delivery.root).as_posix()
+        proof = asset_versions.publication_proof(asset, published_path)
+        if previous := entry.get("publication"):
+            if {**previous, "registry": previous.get("registry", published_path)} != proof:
+                raise CatalogueScopeError(f"Preuve de publication immuable pour {asset['id']}.")
+        entry["publication"] = proof
         record_path = catalogue._regular_path(catalogue.path / "assets" / (asset["id"] + ".json"))
         records.append((record_path, asset, kept, raw))
         author = asset["provenance"]["author"]
@@ -350,6 +362,33 @@ def revision_at(git, commit, asset_id):
     return None
 
 
+def sheet_hashes_at(git, commit):
+    hashes = set()
+    validator = schemas().validator("sheet")
+    with git.batch(None) as batch:
+        for blob in git.tree(None, commit, sizes=True, paths=("catalog/sheets/",)):
+            if not blob.path.endswith(".json"):
+                continue
+            path = Path(blob.path)
+            if path.parent.as_posix() != "catalog/sheets":
+                continue
+            if blob.symlink or blob.size > MAX_BLOB:
+                raise InvalidJSON(f"Planche invalide au commit attesté : {path}.")
+            sheet = parse_json(batch.read(blob, MAX_BLOB))
+            if not validator.is_valid(sheet) or sheet["id"] != path.stem:
+                raise InvalidJSON(f"Planche invalide au commit attesté : {path}.")
+            hashes.add(sheet["sha256"].lower())
+    return hashes
+
+
+def valid_locked_file(checkout, row):
+    try:
+        path = scoped_path(checkout / row["path"])
+        return path.is_file() and sha(_bounded_read(path)) == row["sha256"].lower()
+    except (OSError, CatalogueScopeError):
+        return False
+
+
 def check_lock(root, args):
     delivery = Delivery(root, args)
     path = scoped_path(root / args.file)
@@ -375,27 +414,23 @@ def check_lock(root, args):
             record = committed[asset_id]
         except (OSError, InvalidJSON):
             record = None
-        try:
-            locked_file = scoped_path(path.parent / row["path"])
-            valid_file = locked_file.is_file() and sha(_bounded_read(locked_file)) == row["sha256"].lower()
-        except (OSError, CatalogueScopeError):
-            valid_file = False
         if not record or not contains_version(record, row):
             error = "version-absent-at-registry-commit"
         elif asset is None or not contains_version(delivery.asset(asset_id), row):
             error = "version-or-digest-mismatch"
-        elif not valid_file:
+        elif not valid_locked_file(path.parent, row):
             error = "locked-file-digest-mismatch"
         else:
-            locked.append(delivery.revision(asset, int(row["assetVersion"])))
+            locked.append(delivery.revision(record, int(row["assetVersion"])))
             if row["assetVersion"] != asset_version(asset):
                 warnings.append({"id": asset_id, "path": row["path"], "warning": "non-current-version",
                                  "assetVersion": row["assetVersion"], "currentVersion": asset_version(asset)})
             continue
         errors.append({"id": asset_id, "path": row["path"], "error": error})
-    if args.public and not errors:
+    if args.public and not errors and locked:
+        hashes = sheet_hashes_at(delivery.git, commit)
         for revision in locked:
-            delivery.require_public(revision)
+            delivery.require_public(revision, hashes)
     return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
@@ -424,6 +459,7 @@ def require_committed_versions(git, head, rows):
             committed[asset_id] = None
         if not committed[asset_id] or not contains_version(committed[asset_id], row):
             raise CatalogueScopeError(COMMIT_CATALOGUE)
+    return committed
 
 
 def usage(root, args):
@@ -442,7 +478,7 @@ def usage(root, args):
     if args.id not in delivery.assets:
         raise CatalogueScopeError(COMMIT_CATALOGUE)
     public = not (args.private_target or private_destination(root, checkout))
-    asset = delivery.asset(args.id, public=public)
+    asset = delivery.asset(args.id)
     relative = args.path or Path("assets") / (asset["id"] + extension(asset))
     destination = output_path(root, checkout / relative, kind="usage")
     lock_path = output_path(root, checkout / "assets.lock.json", kind="usage")
@@ -450,8 +486,6 @@ def usage(root, args):
         raise CatalogueScopeError("--path doit être un chemin de fichier relatif au jeu.")
     entry = {"assetId": asset["id"], "assetVersion": asset_version(asset), "sha256": asset["sha256"],
              "scene": args.scene, "role": args.role, "path": relative.as_posix()}
-    require_committed_versions(delivery.git, head, [entry])
-    raw = delivery.bytes(asset)
     with (nullcontext() if args.dry_run else directory_lock(checkout)):
         lock = read_lock(lock_path) if lock_path.exists() else {
             "schemaVersion": "1.0", "game": args.game, "registryCommit": head, "assets": [],
@@ -466,10 +500,18 @@ def usage(root, args):
                                     for row in other_rows):
             return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "lock-path-conflict"}
         lock["assets"] = sorted([*other_rows, entry], key=lambda row: (*[row[field] for field in slot], row["assetId"]))
-        require_committed_versions(delivery.git, head, other_rows)
+        committed = require_committed_versions(delivery.git, head, lock["assets"])
         lock["registryCommit"] = head
         if not schemas().validator("lock").is_valid(lock):
             raise InvalidJSON("La nouvelle entrée ne respecte pas le schéma de lock.")
+        if any(not valid_locked_file(checkout, row) for row in other_rows if row["path"] != entry["path"]):
+            raise InvalidJSON("Un fichier de jeu diffère de la version verrouillée ou est indisponible.")
+        if public:
+            hashes = sheet_hashes_at(delivery.git, head)
+            for row in lock["assets"]:
+                revision = delivery.revision(committed[row["assetId"]], int(row["assetVersion"]))
+                delivery.require_public(revision, hashes)
+        raw = delivery.bytes(asset)
         previous = None
         if matching and matching[0]["sha256"].lower() != entry["sha256"].lower() and destination.is_file():
             previous = _bounded_read(destination)

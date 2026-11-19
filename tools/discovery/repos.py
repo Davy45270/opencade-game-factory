@@ -281,9 +281,9 @@ class Git:
                          "commit": oid.decode() if oid and kind in {b"tag", b"commit"} else None})
         return tags
 
-    def tree(self, mirror, commit, *, sizes):
+    def tree(self, mirror, commit, *, sizes, paths=()):
         flags = "-rlz" if sizes else "-rz"
-        for entry in self.run("ls-tree", flags, commit, mirror=mirror).split(b"\0"):
+        for entry in self.run("ls-tree", flags, commit, "--", *paths, mirror=mirror).split(b"\0"):
             if not entry:
                 continue
             header, path = entry.split(b"\t", 1)

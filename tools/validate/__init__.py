@@ -170,13 +170,14 @@ class CatalogueValidation:
                 publication = version.get("publication", {})
                 if local := publication.get("registry"):
                     local = PurePosixPath(local)
-                    if local.parts[0] == "published":
-                        name = PUBLISHED_NAME.fullmatch(local.name)
-                        if (local.parent != PUBLISHED or not name or name[1] != version["sha256"].lower()
-                                or publication["status"] != "published"):
-                            self.issue(path, "invalid-published-path", "Adresse de publication incohérente.")
-                        else:
-                            publications.add(local.name)
+                    name = PUBLISHED_NAME.fullmatch(local.name)
+                    if (local.parent != PUBLISHED or not name or name[1] != version["sha256"].lower()
+                            or publication["status"] != "published"):
+                        self.issue(path, "invalid-published-path", "Adresse de publication incohérente.")
+                    else:
+                        publications.add(local.name)
+                elif publication and version["version"] == asset_versions.version_number(asset):
+                    self.issue(path, "invalid-published-path", "Adresse de publication manquante.")
             provenance = asset["provenance"]
             if parent_id := provenance.get("parentId"):
                 parent = assets.get(parent_id)
@@ -242,17 +243,15 @@ class CatalogueValidation:
                         or reverse["verified"] != (region["status"] == "verified")):
                     self.issue(path, "region-back-reference", f"Région source incohérente pour {asset_id}.")
 
-    def immutable_revision_changed(self, old, new, prior_current):
+    def immutable_revision_changed(self, old, new):
         if any(proof not in new.get("atlasFrames", ()) for proof in old.get("atlasFrames", ())):
             return True
         for field, value in old.items():
             if field in MUTABLE_VERSION_FIELDS or value == new.get(field):
                 continue
-            if field == "publication" and old["version"] == prior_current:
-                previous_path = value.get("registry", "")
-                updated_path = new.get("publication", {}).get("registry", "")
-                if updated_path.startswith("published/sha256/") and (
-                        updated_path == previous_path or not previous_path.startswith("published/")):
+            if field == "publication" and "registry" not in value:
+                updated = new.get("publication", {})
+                if "registry" in updated and value == {k: v for k, v in updated.items() if k != "registry"}:
                     continue
             return True
         return False
@@ -281,7 +280,7 @@ class CatalogueValidation:
                 earlier = asset_versions.history(prior)
                 now = asset_versions.history(asset)
                 if (len(now) < len(earlier) or any(
-                        self.immutable_revision_changed(old, new, asset_versions.version_number(prior))
+                        self.immutable_revision_changed(old, new)
                         for old, new in zip(earlier, now))):
                     self.issue(path, "immutable-version", "Conserver les versions antérieures et leurs empreintes.")
                 continue

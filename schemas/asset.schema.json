@@ -1030,6 +1030,13 @@
             "method": {
               "const": "rmse"
             },
+            "tool": {
+              "const": "magick"
+            },
+            "toolVersion": {
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?![\\s\\S])",
+              "type": "string"
+            },
             "ref": {
               "pattern": "\\S",
               "type": "string"
@@ -1039,6 +1046,10 @@
               "minimum": 0,
               "type": "number"
             }
+          },
+          "dependentRequired": {
+            "tool": ["toolVersion"],
+            "toolVersion": ["tool"]
           },
           "required": [
             "method",

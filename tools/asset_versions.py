@@ -1,5 +1,7 @@
 """Historique de contenu des fiches d’assets, y compris les fiches L1–L3."""
 
+from copy import deepcopy
+
 
 def version_number(asset):
     return int(asset.get("version", 1))
@@ -18,18 +20,18 @@ def initialize(asset):
     return False
 
 
-def archive_publication(asset, *, published_path=None):
-    registry = published_path or asset["files"].get("registry")
-    if asset["status"] == "published" or registry:
-        fields = ("status", "license", "licenseEvidence", "publicExport", "provenance")
-        publication = {field: asset[field] for field in fields if field in asset}
-        if registry:
-            publication["registry"] = registry
+def publication_proof(asset, registry=None):
+    fields = ("status", "license", "licenseEvidence", "publicExport", "provenance")
+    publication = {field: deepcopy(asset[field]) for field in fields if field in asset}
+    if registry:
+        publication["registry"] = registry
+    return publication
+
+
+def archive_publication(asset):
+    if asset["status"] == "published":
         entry = asset["versions"][version_number(asset) - 1]
-        if published_path is None:
-            entry.setdefault("publication", publication)
-        else:
-            entry["publication"] = publication
+        entry.setdefault("publication", publication_proof(asset))
 
 
 def append(asset, digest, *, current, commit, date):

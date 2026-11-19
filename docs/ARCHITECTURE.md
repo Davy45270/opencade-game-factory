@@ -24,8 +24,11 @@ référence aux dépôts évite de l’exiger en L1.
 Chaque version livrée par `publish` conserve ses octets dans le dépôt privé,
 sous `published/sha256/<sha256><ext>`. Le premier export d’un SHA-256 fixe le
 nom employé par les exports suivants de ces mêmes octets. L’entrée de version
-enregistre ce chemin et la preuve de publication. Les fichiers du magasin
-sont ajoutés sans remplacement et `validate --base` contrôle leur conservation.
+enregistre ce chemin et la preuve de publication (licence, provenance et
+autorisation éventuelle). Republier la même révision exige la même preuve.
+`validate` contrôle l’adresse et l’empreinte du binaire. `validate --base`
+contrôle la conservation des octets et de la preuve. Une preuve historique
+antérieure au magasin peut être archivée sans adresse.
 Ajouter les fiches et binaires publiés au même commit du registre.
 
 Les instantanés JSON de `generated/` et `build/registry.sqlite` sont des produits
@@ -110,7 +113,13 @@ Le scan reconnaît une lignée par source logique et chemin, ou par un
 chemin et le SHA-256 observés. Un déplacement de contenu identique dans la
 même source conserve l’ID et le numéro. Les copies d’une même source
 restent soumises à la sélection de la branche par défaut et au signalement
-des divergences.
+des divergences. `catalog/scan-references.json` enregistre la dernière
+tête importée de chaque source logique. Le scan n’accepte qu’une tête égale
+ou descendante, même si un filtre fournisseur ou un miroir indisponible
+réduit les copies candidates. Si la continuité ne peut être établie pour une
+source sélectionnée, le scan renvoie 4 avant de modifier le catalogue. Avec
+un historique antérieur à ce suivi, les têtes importées encore enregistrées
+pour cette source servent de références.
 
 Les contenus identiques se regroupent par empreinte dans le rapport de
 doublons. Deux sources logiques peuvent faire évoluer ces contenus
@@ -152,7 +161,9 @@ selon le champ). Un tableau de tags vide ne contient aucune assertion.
 
 Une licence connue utilise un identifiant de la liste SPDX v3.27.0 et
 `licenseEvidence`. Un export public exigera une licence vérifiée et une
-autorisation. Une région reliée à un asset doit correspondre à sa planche, à ses
+autorisation. Un identifiant SPDX dans une déclaration de découpe ne peut
+attribuer de licence qu’après vérification de la découpe. Une région reliée
+à un asset doit correspondre à sa planche, à ses
 coordonnées et à son indicateur de vérification. Les usages retirés conservent
 leurs références et les tags de releases. L’inspection d’une planche restitue
 les usages des assets qui en proviennent.
@@ -164,8 +175,19 @@ déclaré. Il normalise ensuite la découpe et compare les pixels au cadre
 d’atlas avec le seuil RMSE de 0,02. La provenance reste `derived`. Une recette
 illisible ou une géométrie invalide rend la comparaison indisponible et
 produit une entrée `declared-retouch-unreadable` dans `scan-limits`. Une recette
-valide sans raccord produit `declared-retouch-without-raccords`. Les masques
-de silhouette décrits dans `transformations` sont hors périmètre.
+valide sans raccord produit `declared-retouch-without-raccords`. Si l’union
+des cibles couvre plus de 50 % de la découpe avec sa marge effective, la
+mesure est refusée avec `raccord-target-coverage-exceeded`. Chaque pixel
+recouvert compte une seule fois. Les masques de silhouette décrits dans
+`transformations` sont hors périmètre.
+
+Une recette déclarant `outils.magick` au format `N.N.N` utilise ImageMagick
+pour le recadrage avec marge, la mise à zéro de l’alpha sous 4 %, le rognage,
+le redimensionnement et le placement dans le cadre selon l’ancre. La preuve
+RMSE indique `tool: "magick"` et la version retournée par `magick -version`.
+L’absence de l’outil, une majeure différente ou un échec de la commande
+rendent la mesure indisponible et sont consignés dans `scan-limits`.
+Sans version déclarée, la normalisation utilise Pillow.
 
 Une source de `catalog/sources.json` peut déclarer
 `"pathAliases": [{"from": "public/assets/*.png", "to": "assets/export/*.png"}]`.
@@ -247,7 +269,10 @@ chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
 a pour `assetVersion` la chaîne `"1"`. Pour une fiche versionnée, le lock
 enregistre le numéro courant sous forme de chaîne. `usage add` refuse avec
 le code 3 si `catalog/` a des changements non commités ou si HEAD ne contient
-pas les versions et empreintes du lock à écrire. `check-lock` vérifie le
+pas les versions et empreintes du lock à écrire. Avant toute écriture,
+`usage add` vérifie les octets de chaque fichier référencé par le lock
+résultant et, pour une cible publique, les droits de chaque révision dans HEAD.
+`check-lock` vérifie le
 couple numéro–empreinte dans le catalogue et dans le commit `registryCommit`,
 puis le SHA-256 du fichier relatif au
 dossier du lock. Un couple historique valide émet l’avertissement
@@ -259,8 +284,9 @@ reconstruites depuis leur cadre et leur planche. Dans chaque cas, le
 SHA-256 est contrôlé avant écriture. Une cible privée est déclarée dans
 `catalog/sources.json` ou indiquée explicitement par `--private-target`.
 La preuve `P14-assets-lock` s’obtient avec `check-lock`. Son option
-`--public` applique la garde à la version verrouillée, y compris sa preuve
-de publication archivée lorsqu’elle est historique. Un écart de commit,
+`--public` applique la garde aux droits et aux planches du commit
+`registryCommit`. Pour une version historique à ce commit, la garde utilise
+la preuve de publication archivée. Un écart de commit,
 de version ou de fichier renvoie le code 1. Un refus de licence renvoie le code 3.
 
 `materialize <id> --version <n> --to <dossier>` livre le nom formé de l’ID

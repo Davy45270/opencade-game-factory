@@ -52,7 +52,7 @@ def _load_references(root):
     catalogue = Catalogue(root)
     path = catalogue._regular_path(catalogue.path / REFERENCE_FILE)
     if not path.exists():
-        return {}
+        return {}, {}
     records = {}
     try:
         document = catalogue.read(path)
@@ -64,9 +64,15 @@ def _load_references(root):
                     not all(OID.fullmatch(commit) for commit in (record["commit"], *record["releaseCommits"]))):
                 raise ValueError
             records[key] = record
+        heads = document.get("importedHeads", {})
+        if not isinstance(heads, dict) or not all(
+                isinstance(commit, str) and OID.fullmatch(commit)
+                and any(key[0] == name and record["commit"] == commit for key, record in records.items())
+                for name, commit in heads.items()):
+            raise ValueError
     except (KeyError, TypeError, ValueError) as exc:
         raise InvalidJSON("Historique des commits de référence invalide.") from exc
-    return records
+    return records, heads
 
 
 def _template(args, copies):
@@ -112,7 +118,7 @@ def _descends_from_all(git, mirror, commit, others):
     return True
 
 
-def _divergences(copies, prepared, git=None):
+def _divergences(copies, prepared, git=None, *, eligible=None):
     """Copies d'une même source à des commits différents : une seule est importée, les autres sont signalées
     « copies divergentes » au lieu de produire une seconde version de chaque asset (HL-538, 19/11).
     La copie importée est la plus avancée sur la même histoire (son commit descend de tous les autres : une copie
@@ -128,10 +134,15 @@ def _divergences(copies, prepared, git=None):
         if len(commits) < 2:
             continue
         ordered = sorted(members, key=lambda copy: CANONICAL_ORDER.index(copy.provider))
-        ahead = [copy for copy in ordered if git is not None and _descends_from_all(
-            git, prepared[copy.key][0], prepared[copy.key][1]["commit"], commits)]
-        canonical = ahead[0] if ahead else ordered[0]
-        reason = "la plus avancée" if ahead else "histoires divergentes, priorité GitHub > Forgejo > locale"
+        candidates = [copy for copy in ordered if eligible is None or copy.key in eligible]
+        contenders = candidates or ordered
+        contender_commits = {prepared[copy.key][1]["commit"] for copy in contenders}
+        ahead = next((copy for copy in contenders if git is not None and _descends_from_all(
+            git, prepared[copy.key][0], prepared[copy.key][1]["commit"], contender_commits)), None)
+        canonical = ahead or contenders[0]
+        reason = ("la plus avancée" if ahead and len(contender_commits) > 1 else
+                  "continuité avec la dernière tête importée" if len(candidates) < len(ordered) else
+                  "histoires divergentes, priorité GitHub > Forgejo > locale")
         kept = prepared[canonical.key][1]["commit"]
         ignored = [copy for copy in members if prepared[copy.key][1]["commit"] != kept]
         skipped.update(copy.key for copy in ignored)
@@ -245,7 +256,7 @@ def _record_causality(target, trees, git):
 
 def _scan(root, args, git, cache, temporary, copies, template):
     incremental = getattr(args, "incremental", False)
-    references = _load_references(root)
+    references, heads = _load_references(root)
     prepared = {}
     errors = {}
     for copy in copies:
@@ -262,7 +273,24 @@ def _scan(root, args, git, cache, temporary, copies, template):
         except GitError as exc:
             errors[copy.key] = str(exc)
 
-    skipped, divergent = _divergences(copies, prepared, git)
+    previous = defaultdict(set)
+    for (name, _), record in references.items():
+        previous[name].add(heads.get(name, record["commit"]))
+    eligible = {key for key, (mirror, ref) in prepared.items()
+                if _descends_from_all(git, mirror, ref["commit"], previous[key[0]])}
+    eligible_names = {name for name, _ in eligible}
+    blocked = {copy.name for copy in copies if previous[copy.name] and copy.name not in eligible_names}
+    if blocked:
+        for key in prepared:
+            if key[0] in blocked:
+                errors[key] = "Aucune continuité prouvée avec la dernière tête importée."
+        return ExitCode.IO, {
+            "ok": False, "scannedCopies": 0, "newAssets": 0, "newIds": 0,
+            "divergentSources": [], "divergentTags": [], "blockedSources": sorted(blocked),
+            "errors": _repo_report(copies, prepared, errors, prepared.keys()),
+        }
+    skipped, divergent = _divergences(copies, prepared, git, eligible=eligible)
+    skipped.update(prepared.keys() - eligible)
     allowed, divergent_tags = _release_authority(prepared, skipped, git, template["sources"]["includeReleases"])
     next_refs = {}
     changed_repos = set()
@@ -288,6 +316,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
         for commit in [head, *next_refs[copy.key]["releaseCommits"]]:
             groups[copy.name, commit].append((copy, mirror, commit != head, reference["date"]))
         references[copy.key] = next_refs[copy.key]
+        heads[copy.name] = head
 
     if incremental and (errors or not groups):
         return (ExitCode.IO if errors else ExitCode.OK), {
@@ -366,7 +395,8 @@ def _scan(root, args, git, cache, temporary, copies, template):
             row["repo"], row.get("provider", ""), row["commit"], row["path"], row["line"], row["excerpt"])))
         write_json(root / "generated" / "duplicates.json", duplicates(target.assets.values()))
         write_json(root / "catalog" / REFERENCE_FILE,
-                   {"schemaVersion": "1.0", "references": [references[key] for key in sorted(references)]})
+                   {"schemaVersion": "1.0", "references": [references[key] for key in sorted(references)],
+                    "importedHeads": dict(sorted(heads.items()))})
 
     # Une copie indisponible (dont une branche par défaut absente) rend 4, même si d'autres copies
     # ont été lues : jamais de succès muet sur une source manquante.
@@ -424,7 +454,7 @@ def _skipped_divergent(root):
 
 
 def _verify(root, args, git, cache, temporary, copies):
-    references = _load_references(root)
+    references, _ = _load_references(root)
     records = importer.read_assets(root).values()
     catalogue = Catalogue(root)
     sheets = (catalogue.read(path) for path in catalogue.documents("sheets"))

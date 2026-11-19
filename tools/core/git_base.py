@@ -42,4 +42,7 @@ def read_base(root, ref):
         raise OSError("Le catalogue de base contient des fiches sans registre d’identifiants.")
     else:
         ids = {}
-    return ids, documents
+    def read_document(path):
+        return parse_json(_output(_git(root, "cat-file", "blob", f"{commit}:{path}")))
+
+    return ids, documents, read_document

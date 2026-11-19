@@ -163,10 +163,10 @@ class DiscoveryL2b(unittest.TestCase):
         self.assertEqual(result.code, 0, str(result))
         asset_id, asset = C.asset_par_chemin(world.registre, "jeu-a", M.FOUET)
         self.assertTrue(C.contient_valeur(C.lire_json(world.registre / "generated/usage-index.json"), asset_id))
-        # Copies divergentes (HL-538, 19/11) : seule la copie GitHub est importée, la locale est signalée.
-        self.assertEqual({(u["provider"], u["commit"]) for u in asset["usages"]}, {("github", old_commit)})
+        # Copies divergentes (HL-538, 19/11) : la copie la plus avancée (locale) est importée, GitHub est signalée.
+        self.assertEqual({(u["provider"], u["commit"]) for u in asset["usages"]}, {("local", local_commit), ("local", old_commit)})  # old_commit : tag v1.0
         self.assertEqual(result.json["divergentSources"][0]["ignored"],
-                         [{"provider": "local", "commit": local_commit}])
+                         [{"provider": "github", "commit": old_commit}])
 
     def test_catalogue_et_planche_externe(self):
         world = M.creer_monde()

@@ -26,6 +26,7 @@ class Copy:
     address: str
     visibility: str
     default_branch: str | None
+    path_aliases: tuple[tuple[str, str], ...] = ()
 
     @property
     def key(self):
@@ -47,6 +48,9 @@ def source_problems(document):
     if len(set(names + excluded)) != len(names + excluded):
         yield "Nom canonique répété parmi les sources et les exclusions."
     for source in document["sources"]:
+        patterns = [alias["from"] for alias in source.get("pathAliases", ())]
+        if len(set(patterns)) != len(patterns):
+            yield f"Motif pathAliases répété pour {source['name']}."
         seen = set()
         for copy in source["copies"]:
             provider = copy["provider"]
@@ -69,10 +73,11 @@ def _copies(path):
         raise CatalogueScopeError("Liste d’autorisation invalide.")
     result = {}
     for source in value["sources"]:
+        aliases = tuple((alias["from"], alias["to"]) for alias in source.get("pathAliases", ()))
         for item in source["copies"]:
             copy = Copy(source["name"], source["role"], tuple(source["games"]), item["provider"],
                         item.get("path", item.get("url")), item.get("visibility", "unknown"),
-                        item["defaultBranch"])
+                        item["defaultBranch"], aliases)
             result[copy.key] = copy
     return result
 
@@ -106,8 +111,8 @@ def check_destinations(root, cache, log, local_copies):
         if (any(path.is_relative_to(source) for path in outputs)
                 or source.is_relative_to(cache)):
             raise CatalogueScopeError("Destination en conflit avec un dépôt source.")
-    if cache.is_relative_to(registry / "catalog") or cache.is_relative_to(registry / ".git"):
-        raise CatalogueScopeError("Le cache doit être extérieur au catalogue et à .git.")
+    if any(cache.is_relative_to(registry / directory) for directory in ("catalog", ".git", "published")):
+        raise CatalogueScopeError("Le cache doit être extérieur au catalogue, à .git et au magasin publié.")
 
 
 def git_environment(environ=None):
@@ -217,14 +222,18 @@ class Git:
             self.pin_default_branch(copy, mirror)
         return mirror
 
-    def pin_default_branch(self, copy, mirror):
-        """La source se lit sur sa branche par défaut, jamais sur la branche extraite ni l'arbre de
-        travail (HL-538, 19/11) ; absente : source indisponible, sans repli sur HEAD."""
+    def default_commit(self, copy, mirror):
         ref = f"refs/heads/{copy.default_branch}"
-        found = self.run("rev-parse", "--verify", "--quiet", "--end-of-options", ref + "^{commit}",
-                         mirror=mirror, ok=(0, 1, 128)).strip()
-        if not OID.fullmatch(found.decode("ascii", "replace")):
+        commit = self.run("rev-parse", "--verify", "--quiet", "--end-of-options", ref + "^{commit}",
+                          mirror=mirror, ok=(0, 1, 128)).decode("ascii", "replace").strip()
+        if not OID.fullmatch(commit):
             raise GitError(_missing_branch(copy))
+        return commit
+
+    def pin_default_branch(self, copy, mirror):
+        """La source se lit sur sa branche par défaut, même si son HEAD est ailleurs."""
+        self.default_commit(copy, mirror)
+        ref = f"refs/heads/{copy.default_branch}"
         current = self.run("symbolic-ref", "--quiet", "HEAD", mirror=mirror, ok=(0, 1)).strip()
         if current.decode("utf-8", "replace") != ref:
             self.run("symbolic-ref", "HEAD", ref, mirror=mirror)
@@ -247,10 +256,14 @@ class Git:
                          mirror=mirror).rstrip(b"\n") != copy.url.encode()):
             raise CatalogueScopeError("Origine du miroir différente de la copie autorisée.")
 
-    def reference(self, mirror):
-        commit = self.run("rev-parse", "--verify", "HEAD^{commit}", mirror=mirror).decode().strip()
-        symbolic = self.run("symbolic-ref", "--quiet", "--short", "HEAD", mirror=mirror, ok=(0, 1))
-        branch = symbolic.decode("utf-8", "backslashreplace").strip()
+    def reference(self, mirror, copy=None):
+        if copy is not None and copy.default_branch:
+            branch = copy.default_branch
+            commit = self.default_commit(copy, mirror)
+        else:
+            commit = self.run("rev-parse", "--verify", "HEAD^{commit}", mirror=mirror).decode().strip()
+            symbolic = self.run("symbolic-ref", "--quiet", "--short", "HEAD", mirror=mirror, ok=(0, 1))
+            branch = symbolic.decode("utf-8", "backslashreplace").strip()
         return {"branch": branch or None, "commit": commit,
                 "date": self.run("show", "-s", "--format=%cI", commit, mirror=mirror).decode().strip(),
                 "tags": self.tags(mirror)}

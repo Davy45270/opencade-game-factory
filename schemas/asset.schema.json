@@ -131,6 +131,9 @@
               }
             ],
             "properties": {
+              "assetVersion": {
+                "$ref": "#/$defs/versionNumber"
+              },
               "blobSha256": {
                 "$ref": "#/$defs/sha256"
               },
@@ -963,6 +966,9 @@
           "pattern": "\\S",
           "type": "string"
         },
+        "parentId": {"$ref": "#/$defs/assetId"},
+        "parentVersion": {"$ref": "#/$defs/versionNumber"},
+        "parentSha256": {"$ref": "#/$defs/sha256"},
         "derivedFrom": {
           "pattern": "^asset-[a-z][a-z0-9]*-(?=[a-z0-9-]{1,32}-[0-9]{4}(?![\\s\\S]))[a-z0-9]+(?:-[a-z0-9]+)*-(?!0000)[0-9]{4}(?![\\s\\S])",
           "type": "string"
@@ -996,6 +1002,11 @@
             "unknown"
           ]
         }
+      },
+      "dependentRequired": {
+        "parentId": ["parentVersion", "parentSha256", "derivedFrom"],
+        "parentVersion": ["parentId"],
+        "parentSha256": ["parentId"]
       },
       "required": [
         "type",
@@ -1045,11 +1056,19 @@
     "sheetId": {
       "pattern": "^sheet-(?=[a-z0-9-]{1,32}-[0-9]{4}(?![\\s\\S]))[a-z0-9]+(?:-[a-z0-9]+)*-(?!0000)[0-9]{4}(?![\\s\\S])",
       "type": "string"
+    },
+    "versionNumber": {
+      "minimum": 1,
+      "type": "integer"
     }
   },
   "$id": "https://opencade.invalid/schemas/asset.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
+  "dependentRequired": {
+    "version": ["versions"],
+    "versions": ["version"]
+  },
   "allOf": [
     {
       "if": {
@@ -1081,6 +1100,10 @@
           "type": "null"
         }
       ]
+    },
+    "assetVersion": {
+      "pattern": "\\S",
+      "type": "string"
     },
     "category": {
       "anyOf": [
@@ -1118,6 +1141,9 @@
               "type": "string"
             }
           ]
+        },
+        "rejectedCandidates": {
+          "$ref": "search-receipt.schema.json#/properties/rejectedCandidates"
         },
         "searchReceipt": {
           "$ref": "search-receipt.schema.json"
@@ -2276,6 +2302,7 @@
     "perceptual": {
       "additionalProperties": false,
       "properties": {
+        "flatColor": {"type": "string", "pattern": "^[0-9a-f]{6}$"},
         "dhash": {
           "pattern": "^[0-9a-f]{16}$",
           "type": "string"
@@ -2323,6 +2350,12 @@
     },
     "provenance": {
       "$ref": "#/$defs/provenance"
+    },
+    "publicExport": {
+      "enum": [
+        "allowed",
+        "forbidden"
+      ]
     },
     "schemaVersion": {
       "const": "1.0"
@@ -2459,6 +2492,61 @@
       },
       "type": "array",
       "uniqueItems": true
+    },
+    "version": {
+      "$ref": "#/$defs/versionNumber"
+    },
+    "versions": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "format": {"$ref": "#/properties/format"},
+          "causalPrevious": {"type": ["integer", "null"], "minimum": 1},
+          "causalNext": {"type": ["integer", "null"], "minimum": 1},
+          "causalOrder": {"enum": ["incomparable", "ambiguous"]},
+          "atlasFrames": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "atlasSheetId": {"$ref": "#/$defs/sheetId"},
+                "sourceSheetSha256": {"$ref": "#/$defs/sha256"},
+                "x": {"type": "integer", "minimum": 0},
+                "y": {"type": "integer", "minimum": 0},
+                "w": {"type": "integer", "minimum": 1},
+                "h": {"type": "integer", "minimum": 1}
+              },
+              "required": ["atlasSheetId", "sourceSheetSha256", "x", "y", "w", "h"]
+            }
+          },
+          "commit": {"$ref": "#/$defs/commit"},
+          "date": {"format": "date-time", "type": "string"},
+          "nextVersion": {"type": ["integer", "null"], "minimum": 1},
+          "previousVersion": {"type": ["integer", "null"], "minimum": 1},
+          "publication": {
+            "additionalProperties": false,
+            "properties": {
+              "license": {"$ref": "#/$defs/license"},
+              "licenseEvidence": {"$ref": "#/$defs/licenseEvidence"},
+              "provenance": {"$ref": "#/$defs/provenance"},
+              "publicExport": {"$ref": "#/properties/publicExport"},
+              "registry": {"$ref": "#/$defs/path"},
+              "status": {"$ref": "#/properties/status"}
+            },
+            "required": ["license", "provenance", "status"],
+            "type": "object"
+          },
+          "sha256": {"$ref": "#/$defs/sha256"},
+          "version": {"$ref": "#/$defs/versionNumber"}
+        },
+        "required": ["version", "sha256", "previousVersion", "nextVersion"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
     },
     "visualStyle": {
       "anyOf": [

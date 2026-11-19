@@ -15,6 +15,8 @@ OFFSET = r"(?:0|[1-9][0-9]*)"
 SIZE = r"[1-9][0-9]*"
 REGION = re.compile(rf"region:(sheet-.+):{OFFSET},{OFFSET},{SIZE},{SIZE}")
 DERIVED = re.compile(rf"derived:(asset-.+):{SHA256}")
+LOGICAL = re.compile(rf"logical:{SLUG}:{SHA256}")
+ALIAS = re.compile(rf"alias:({SLUG}):{SHA256}")
 CODE = re.compile(r"code:([A-Za-z0-9_-][A-Za-z0-9_./-]*):([^#\\\x00-\x1f]+)#([^#\s]+)")
 
 
@@ -28,7 +30,9 @@ def parse_id(value):
 def _valid_identity(key):
     if not isinstance(key, str):
         return False
-    if re.fullmatch(rf"(?:file|sheet):sha256:{SHA256}", key):
+    if LOGICAL.fullmatch(key) or ALIAS.fullmatch(key):
+        return True
+    if re.fullmatch(rf"(?:(?:file|sheet):sha256:|file:source:{SHA256}:){SHA256}", key):
         return True
     for pattern in (REGION, DERIVED):
         if match := pattern.fullmatch(key):
@@ -45,15 +49,23 @@ def verifier_registre(entries):
     if not isinstance(entries, Mapping):
         return ["Le registre doit associer les clés d’identité aux IDs."]
     errors = []
-    valid_ids = []
+    primary_ids = []
+    aliases = []
     for key, value in entries.items():
         if not _valid_identity(key):
             errors.append(f"Clé d’identité invalide : {key!r}")
         if parse_id(value):
-            valid_ids.append(value)
+            if isinstance(key, str) and (alias := ALIAS.fullmatch(key)):
+                aliases.append((alias[1], value))
+            else:
+                primary_ids.append(value)
         else:
             errors.append(f"ID invalide : {value!r}")
-    for value, count in Counter(valid_ids).items():
+    primaries = Counter(primary_ids)
+    for (scope, value), count in Counter(aliases).items():
+        if value not in primaries or count > 1:
+            errors.append(f"Alias incohérent pour {value} dans le domaine {scope}.")
+    for value, count in primaries.items():
         if count > 1:
             errors.append(f"ID attribué à plusieurs identités : {value}")
     return errors
@@ -82,18 +94,33 @@ class IdRegistry:
         if errors := verifier_registre(entries):
             raise ValueError("; ".join(errors))
         self._entries = dict(entries)
+        self._primary = {value for key, value in entries.items() if not ALIAS.fullmatch(key)}
+        self._alias_scopes = {(match[1], value) for key, value in entries.items() if (match := ALIAS.fullmatch(key))}
         self._last = {}
         for value in self._entries.values():
             parts = parse_id(value)
             prefix, number = parts["prefix"], int(parts["number"])
             self._last[prefix] = max(self._last.get(prefix, 0), number)
 
+    def add_alias(self, key, value):
+        match = ALIAS.fullmatch(key)
+        if not match or value not in self._primary:
+            raise ValueError("Alias d’identité invalide.")
+        if self._entries.get(key) == value:
+            return value
+        scope = match[1], value
+        if key in self._entries or scope in self._alias_scopes:
+            raise ValueError("Alias d’identité déjà attribué.")
+        self._entries[key] = value
+        self._alias_scopes.add(scope)
+        return value
+
     @property
     def entries(self):
         return dict(self._entries)
 
     def allouer(self, key, category, name):
-        if not _valid_identity(key):
+        if not _valid_identity(key) or ALIAS.fullmatch(key):
             raise ValueError(f"Clé d’identité invalide : {key!r}")
         if key in self._entries:
             return self._entries[key]
@@ -108,4 +135,5 @@ class IdRegistry:
         value = f"{prefix}-{number:04d}"
         self._last[prefix] = number
         self._entries[key] = value
+        self._primary.add(value)
         return value

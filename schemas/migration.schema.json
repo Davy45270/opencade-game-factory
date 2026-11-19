@@ -1,0 +1,27 @@
+{
+  "$id": "https://opencade.invalid/schemas/migration.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["repositories", "byFamily", "buildManifests"],
+  "properties": {
+    "repositories": {"type": "array"},
+    "byFamily": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "buildManifests": {"type": "array"},
+    "divergentTags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repo", "name", "provider", "commit", "imported"],
+        "properties": {
+          "repo": {"type": "string", "minLength": 1},
+          "name": {"type": "string", "minLength": 1},
+          "provider": {"enum": ["github", "forgejo", "local"]},
+          "commit": {"$ref": "asset.schema.json#/$defs/commit"},
+          "imported": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

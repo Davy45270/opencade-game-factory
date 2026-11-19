@@ -31,7 +31,11 @@ def crop(image, box, margin=0):
 
 
 def normalize(image, box, margin, size=None, anchor=None):
-    source = crop(image, box, margin).convert("RGBA")
+    return _normalize_crop(crop(image, box, margin), size, anchor)
+
+
+def _normalize_crop(source, size, anchor):
+    source = source.convert("RGBA")
     alpha = source.getchannel("A").point([0 if i < 0.04 * 255 else i for i in range(256)])
     source.putalpha(alpha)
     trimmed = source.getbbox()
@@ -100,25 +104,40 @@ def _masked_edits(delta, box, margin, options):
     return True
 
 
-def measure(image, box, margin, frame, anchor=None, *, options=None):
+def replay_raccords(reference, raccords):
+    result = reference.copy()
+    for band, target in raccords:
+        # The game takes every band from the original crop and pastes it opaque.
+        patch = crop(reference, band).resize((target["w"], target["h"]), Image.Resampling.LANCZOS)
+        result.paste(patch.convert("RGB"), (target["x"], target["y"]))
+    return result
+
+
+def measure(image, box, margin, frame, anchor=None, *, options=None, raccords=None):
     region = named_box(box)
     if not region or not in_image(region, image):
         return None
     options = options or {}
+    source = crop(image, region, margin)
+    if raccords is not None:
+        if any(not in_image(box, source) for pair in raccords for box in pair):
+            raise ValueError("Raccord hors de la découpe.")
     if "taille" in options and frame_size(options["taille"]) != frame.size:
         return None
-    expected = normalize(image, region, margin, frame.size, anchor)
+    if raccords is not None:
+        source = replay_raccords(source, raccords)
+    expected = _normalize_crop(source, frame.size, anchor)
     frame = frame.convert("RGBA")
     if not expected.getbbox() or not frame.getbbox():
         return None
-    if options.get("detoure"):
+    if raccords is None and options.get("detoure"):
         opaque = np.asarray(frame.getchannel("A")) >= 128
         if not opaque.any() or opaque.mean() < _fraction(options, "couverture_min", 0.05):
             return None
         delta = flatten(expected)[opaque] - np.asarray(frame.convert("RGB"))[opaque] / 255
     else:
         delta = flatten(expected) - flatten(frame)
-        if options.get("effacements") and not _masked_edits(delta, region, margin, options):
+        if raccords is None and options.get("effacements") and not _masked_edits(delta, region, margin, options):
             return None
     return float(np.sqrt(np.mean(delta ** 2)))
 

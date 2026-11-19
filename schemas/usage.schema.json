@@ -15,6 +15,9 @@
     }
   },
   "properties": {
+    "assetVersion": {
+      "$ref": "asset.schema.json#/$defs/versionNumber"
+    },
     "assetBlobs": {
       "additionalProperties": {
         "$ref": "asset.schema.json#/$defs/commit"

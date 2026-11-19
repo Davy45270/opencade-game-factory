@@ -3,7 +3,8 @@
 from collections import Counter, defaultdict
 from html import escape
 
-from tools.core.catalog import write_json, write_text
+from tools.core.catalog import InvalidJSON, write_json, write_text
+from tools.core.schemas import schemas
 
 TITLES = {
     "migration": "Migration des dépôts",
@@ -12,6 +13,7 @@ TITLES = {
     "licenses-unknown": "Licences inconnues",
     "orphans": "Assets orphelins",
     "scan-limits": "Limites du scan",
+    "path-aliases": "Correspondances de chemins",
 }
 
 
@@ -67,14 +69,15 @@ def _repo_markdown(repositories):
     return "\n\n".join(filter(None, parts))
 
 
-def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=()):
+def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=(), *,
+         divergent_tags=(), path_aliases=()):
     reports = root / "generated" / "reports"
     reports.mkdir(parents=True, exist_ok=True)
     formats = coverage(rows)
     unsupported = [row for row in rows if row["status"] == "unsupported"]
     excluded = [row for row in rows if row["status"] == "excluded"]
     missing_licenses = [{"id": asset["id"], "locations": asset["files"]["locations"]}
-                        for asset in assets if asset["license"] == "unknown"]
+                        for asset in sorted(assets, key=lambda item: item["id"]) if asset["license"] == "unknown"]
     missing_sheets = [{"id": sheet["id"], "locations": sheet["files"]["locations"]}
                       for sheet in sorted(sheets, key=lambda item: item["id"]) if sheet["license"] == "unknown"]
     audio = [row for row in rows if row.get("durationUnknown")]
@@ -95,11 +98,14 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
     outputs = {
         "migration": (
             {"repositories": repositories, "byFamily": dict(sorted(family_counts.items())),
-             "buildManifests": manifests},
+             "buildManifests": manifests, "divergentTags": list(divergent_tags)},
             _repo_markdown(repositories) + "\n\n" + _table(
                 ("Famille", "Fichiers importés"), sorted(family_counts.items()))
             + "\n\n## Manifests de build\n\n" + _table(
-                ("Dépôt", "Commit", "Chemin"), [(m["repo"], m["commit"], m["path"]) for m in manifests]),
+                ("Dépôt", "Commit", "Chemin"), [(m["repo"], m["commit"], m["path"]) for m in manifests])
+            + "\n\n## Tags divergents\n\n" + _table(("Dépôt", "Tag", "Fournisseur", "Commit", "Importé"),
+                [(t["repo"], t["name"], t["provider"], t["commit"], "oui" if t["imported"] else "non")
+                 for t in divergent_tags]),
         ),
         "exceptions": (exceptions, _files(exceptions)),
         "coverage": (
@@ -117,6 +123,12 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
             + "\n\n## Planches\n\n" + _table(("Planche",), [(item["id"],) for item in missing_sheets]),
         ),
         "orphans": ({"assets": orphan_ids}, _table(("Asset",), [(asset_id,) for asset_id in orphan_ids])),
+        "path-aliases": (
+            list(path_aliases),
+            _table(("Dépôt", "Commit", "Fichier", "Champ", "Chemin cité", "Chemin résolu"),
+                   [(row["repo"], row["commit"], row["path"], row["field"], row["from"], row["to"])
+                    for row in path_aliases]),
+        ),
         "scan-limits": (
             {"exclusions": [{"reason": reason, "count": sum(row["reason"] == reason for row in excluded)}
                             for reason in exclusions], "excluded": excluded, "unsupported": unsupported,
@@ -130,6 +142,8 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
             + "\n\n## Durées audio inconnues\n\n" + _files(audio),
         ),
     }
+    if not schemas().validator("migration").is_valid(outputs["migration"][0]):
+        raise InvalidJSON("Rapport de migration généré invalide.")
     for name, (data, markdown) in outputs.items():
         write_json(reports / f"{name}.json", data)
         write_text(reports / f"{name}.md", f"# {TITLES[name]}\n\n{markdown.strip()}\n")

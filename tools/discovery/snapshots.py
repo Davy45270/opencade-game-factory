@@ -17,8 +17,10 @@ class Snapshot:
         self.mirror = mirror
         self.date = date
         self.members = members
+        self.path_aliases = members[0][0].path_aliases
         self.tree = tree
         self.indexed = {}
+        self.measurements = {}
         self.metadata = {}
         self.license_texts = {}
         self.modules = {}
@@ -28,7 +30,7 @@ class Snapshot:
         name = PurePosixPath(path).name
         if name in {"LICENSE", "LICENSE.md"}:
             self.license_texts[path] = licenses.from_text(raw)
-        if (name == "provenance.json" or name.endswith(".decoupe.json")
+        if (name == "provenance.json" or name.endswith((".decoupe.json", ".retouches.json"))
                 or (path == "catalogue.json" and self.repo == "jeux-assets")):
             try:
                 self.metadata[path] = parse_json(raw)
@@ -114,7 +116,8 @@ def code_licenses(snapshots, target):
         for path, asset_ids in snapshot.indexed.items():
             for asset_id in asset_ids:
                 asset = target.assets[asset_id]
-                if asset["family"]["type"] != "code-generated" or asset["status"] == "published":
+                if (asset["family"]["type"] != "code-generated" or asset["status"] == "published"
+                        or target.version_at(asset_id, snapshot, path) != asset["version"]):
                     continue
                 license_path, value = snapshot.code_license(path)
                 claims[asset_id].append((release_only, value, f"{license_path}@{snapshot.commit}"))
@@ -133,7 +136,7 @@ def code_licenses(snapshots, target):
 
 def _identity(use):
     return (use["repo"], use.get("provider"), use["game"], use["scene"], use["codeRef"]["path"],
-            use["codeRef"]["line"], use["importName"], use.get("assetPath"), use["role"])
+            use["codeRef"]["line"], use["importName"], use.get("assetPath"), use["role"], use.get("assetVersion", 1))
 
 
 def _release_names(tags, code_path, code_oid, asset_blobs):
@@ -149,7 +152,7 @@ def build_graph(snapshots, target, references_by_copy, git, prepared):
         record = references_by_copy[key]
         heads[key] = record["commit"], trees[key[0], record["commit"]]
         tags[key] = []
-        for tag in record["tags"]:
+        for tag in record.get("importedTags", record["tags"]):
             commit = tag["commit"]
             if not commit:
                 continue
@@ -177,6 +180,7 @@ def build_graph(snapshots, target, references_by_copy, git, prepared):
                             use = references.usage(copy, snapshot.commit, path, game, scene, method,
                                                    asset, asset_path, ref, releases)
                             use["assetBlobs"] = blobs
+                            use["assetVersion"] = target.version_at(asset_id, snapshot, asset_path)
                             observations[asset_id].append((release_only, use))
     for asset in target.assets.values():
         _reconcile_usages(asset, heads, observations.get(asset["id"], ()), target)
@@ -223,7 +227,7 @@ def _reconcile_usages(asset, heads, sightings, target):
             kept[slot] = use
 
     for (key, commit), use in history.items():
-        if key in current and use["releases"] == current[key]["releases"]:
+        if key in current and set(use["releases"]) <= set(current[key]["releases"]):
             continue
         if removed_at := missing(use):
             use = {**use, "status": "removed", "removedAtCommit": removed_at}

@@ -2,6 +2,7 @@
 
 import argparse
 import os
+import sqlite3
 import sys
 from contextlib import ExitStack
 from pathlib import Path
@@ -12,21 +13,12 @@ from tools.core.exit_codes import ExitCode
 from tools.core.git_base import InvalidRef
 from tools.core.ids import parse_id
 
-# Les commandes de découverte et découpe précèdent la recherche et la publication.
 COMMANDS = {
-    "search": ("L3", False),
-    "inspect": (None, False),
-    "import-sheet": (None, True),
-    "extract": (None, True),
-    "register": ("L3", True),
-    "derive": ("L3", True),
-    "validate": (None, False),
-    "usage": ("L3", False),
-    "publish": ("L3", True),
-    "duplicates": ("L2", False),
-    "scan-repos": (None, True),
-    "sync": ("L3", True),
-    "index": (None, True),
+    "search": True, "inspect": False, "import-sheet": True, "extract": True,
+    "register": True, "derive": True, "validate": False, "usage": False,
+    "publish": True, "duplicates": True, "scan-repos": True, "sync": True,
+    "index": True, "materialize": True, "check-lock": False, "export-atlas": True,
+    "validate-atlas": False, "sbom": True,
 }
 
 
@@ -50,9 +42,10 @@ def _parser():
     parser = ArgumentParser(prog="assetctl", allow_abbrev=False)
     _options(parser)
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command, (lot, mutates) in COMMANDS.items():
-        description = f"prévu dans le lot {lot}" if lot else "consulter le catalogue"
-        sub = subparsers.add_parser(command, help=description, allow_abbrev=False)
+    from tools.cli.registry import configure
+
+    for command, mutates in COMMANDS.items():
+        sub = subparsers.add_parser(command, allow_abbrev=False)
         _options(sub)
         if mutates:
             sub.add_argument("--dry-run", action="store_true", help="simuler sans mutation")
@@ -80,8 +73,8 @@ def _parser():
             sub.add_argument("--cache", type=Path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
-        elif lot:
-            sub.add_argument("arguments", nargs="*", help=argparse.SUPPRESS)
+        else:
+            configure(command, sub)
     return parser
 
 
@@ -115,6 +108,9 @@ def _inspect(root, record_id):
             for usage in asset["usages"]
         ]
     else:
+        from tools.asset_versions import initialize
+
+        initialize(record)
         usages = record["usages"]
     return ExitCode.OK, {"ok": True, kind: record, "usages": usages}
 
@@ -135,23 +131,9 @@ def _run(args, root, selected=None):
         from tools.extract.commands import run
 
         return run(root, args)
-    if args.command == "index":
-        from tools.discovery.importer import read_assets
-        from tools.discovery.references import emit as emit_usages
-        from tools.discovery.scan import directory_lock
-        from tools.publish.licenses import emit as emit_licenses
+    from tools.cli.registry import run
 
-        with directory_lock(root / "catalog"):
-            assets = read_assets(root)
-            catalogue = Catalogue(root)
-            sheets = [catalogue.read(path) for path in catalogue.documents("sheets")]
-            if not args.dry_run:
-                for folder in ("generated", "generated/reports"):
-                    Catalogue._regular_path(root / folder)
-                emit_usages(root, assets.values())
-                emit_licenses(root, assets.values(), sheets)
-        return ExitCode.OK, {"ok": True, "assets": len(assets), "sheets": len(sheets)}
-    return ExitCode.USAGE, {"ok": False, "error": "not-implemented", "lot": COMMANDS[args.command][0]}
+    return run(root, args)
 
 
 def _output(payload, *, as_json):
@@ -187,31 +169,39 @@ def main(argv=None, *, root=ROOT):
                 from tools.extract.commands import preflight
 
                 preflight(Path(root), args)
-            if getattr(args, "log", None) is not None:
-                log_path = args.log.resolve()
-                catalogue_path = (Path(root) / "catalog").resolve()
-                if log_path.is_relative_to(catalogue_path):
-                    raise CatalogueScopeError("Le journal doit être extérieur au catalogue.")
-                if args.command in {"scan-repos", "import-sheet", "extract"}:
-                    def open_log(path, flags):
-                        descriptor = os.open(path, flags | os.O_NOFOLLOW, 0o600)
-                        if os.fstat(descriptor).st_nlink > 1:
-                            os.close(descriptor)
-                            raise CatalogueScopeError("Lien dur interdit pour le journal du scan.")
-                        return descriptor
+            log_path = None
+            if getattr(args, "log", None) is not None and not getattr(args, "dry_run", False):
+                from tools.publish.delivery import scoped_path, worktree
 
-                    stream = stack.enter_context(open(log_path, "a", encoding="utf-8", newline="\n",
-                                                      opener=open_log))
-                else:
-                    stream = stack.enter_context(log_path.open("a", encoding="utf-8", newline="\n"))
+                log_path = scoped_path(args.log)
+                registry = Path(root).resolve()
+                checkout = worktree(log_path)
+                if (any(log_path.is_relative_to(registry / directory) for directory in ("catalog", "published"))
+                        or ".git" in log_path.parts
+                        or checkout is not None and checkout != worktree(registry)):
+                    raise CatalogueScopeError("Le journal doit être extérieur au catalogue et aux jeux.")
+                if not log_path.parent.is_dir() or (log_path.exists() and not log_path.is_file()):
+                    raise OSError("Destination du journal indisponible.")
+                if log_path.exists() and log_path.stat().st_nlink > 1:
+                    raise CatalogueScopeError("Lien dur interdit pour le journal.")
             code, payload = _run(args, Path(root), selected)
+            if log_path is not None and code != ExitCode.SAFETY:
+                def open_log(path, flags):
+                    descriptor = os.open(path, flags | os.O_NOFOLLOW, 0o600)
+                    if os.fstat(descriptor).st_nlink > 1:
+                        os.close(descriptor)
+                        raise CatalogueScopeError("Lien dur interdit pour le journal.")
+                    return descriptor
+
+                stream = stack.enter_context(open(log_path, "a", encoding="utf-8", newline="\n",
+                                                  opener=open_log))
         except (UsageError, InvalidRef) as exc:
             code, payload = ExitCode.USAGE, {"ok": False, "error": "usage", "message": str(exc)}
         except CatalogueScopeError as exc:
             code, payload = ExitCode.SAFETY, {"ok": False, "error": "safety", "message": str(exc)}
         except InvalidJSON as exc:
             code, payload = ExitCode.CHECK_FAILED, {"ok": False, "error": "invalid-json", "message": str(exc)}
-        except (OSError, ImportError) as exc:
+        except (OSError, ImportError, sqlite3.Error) as exc:
             code, payload = ExitCode.IO, {"ok": False, "error": "io", "message": str(exc)}
 
         try:

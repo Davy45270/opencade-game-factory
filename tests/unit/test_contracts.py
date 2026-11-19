@@ -84,8 +84,10 @@ class Contracts(CatalogueFixture, TestCase):
         }
         sheet.update(id=SHEET_ID, sha256="b" * 64, regions=[])
         self.write(f"sheets/{SHEET_ID}.json", sheet)
+        version = {"version": 1, "sha256": self.asset["sha256"], "previousVersion": None, "nextVersion": None}
         self.assertEqual(self.cli("inspect", ASSET_ID),
-                         (0, {"ok": True, "asset": self.asset, "usages": [usage()]}))
+                         (0, {"ok": True, "asset": {**self.asset, "version": 1, "versions": [version]},
+                              "usages": [usage()]}))
         self.assertEqual(self.cli("inspect", SHEET_ID),
                          (0, {"ok": True, "sheet": sheet, "usages": [{"assetId": ASSET_ID, **usage()}]}))
         self.assertEqual(self.cli("inspect", "asset-kitchen-fouet-0099")[0], 1)

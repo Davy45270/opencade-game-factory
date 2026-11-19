@@ -21,8 +21,15 @@ dérivations, extraits et planches sources, et limite ses vignettes à 96 px. Gi
 LFS reste une option pour les futures sources volumineuses. Le stockage par
 référence aux dépôts évite de l’exiger en L1.
 
-Les JSON de `generated/` et `build/registry.sqlite` sont des produits dérivés
-reconstructibles à partir du catalogue seul (AT-12, L3). L’index utilise SQLite
+Chaque version livrée par `publish` conserve ses octets dans le dépôt privé,
+sous `published/sha256/<sha256><ext>`. Le premier export d’un SHA-256 fixe le
+nom employé par les exports suivants de ces mêmes octets. L’entrée de version
+enregistre ce chemin et la preuve de publication. Les fichiers du magasin
+sont ajoutés sans remplacement et `validate --base` contrôle leur conservation.
+Ajouter les fiches et binaires publiés au même commit du registre.
+
+Les instantanés JSON de `generated/` et `build/registry.sqlite` sont des produits
+dérivés. `catalog/` et `published/` sont des sources versionnées. L’index utilise SQLite
 FTS5 via la bibliothèque standard. L’architecture fonctionne sans service ni
 base serveur.
 
@@ -48,7 +55,9 @@ Une clé d’identité représente un fichier (`file:sha256:<hex>`), une planche
 (`sheet:sha256:<hex>`), une région
 (`region:<sheetId>:<x>,<y>,<w>,<h>`), un symbole
 (`code:<repo>:<chemin>#<symbole>`) ou une dérivation
-(`derived:<parentId>:<recette-sha256>`). Les SHA-256 des clés sont en hexadécimal
+(`derived:<parentId>:<entree-sha256>`). La clé de la première révision du
+parent utilise l’empreinte de la recette. Les révisions suivantes intègrent
+aussi le numéro et le SHA-256 du parent. Les SHA-256 des clés sont en hexadécimal
 minuscule et les coordonnées ont une écriture décimale canonique. Une fiche de
 planche et une fiche de fichier héritée de l’inventaire peuvent donc pointer vers
 le même contenu avec deux identités distinctes.
@@ -72,6 +81,63 @@ Le validateur accepte aussi les contrats embarqués des fiches L1. Les rejets
 documentent l’ID et la raison. Une recherche sans
 candidat a un tableau de rejets vide.
 
+## Versions des assets et de leurs variantes
+
+Une variante ou dérivation garde sa propre fiche et son lien à l’asset parent.
+Chaque fiche porte `version`, le numéro courant, et `sha256`, son empreinte.
+`versions` contient les empreintes par numéro croissant, avec les liens
+`previousVersion` et `nextVersion`. Les deux extrémités ont un lien nul.
+Les numéros sont immuables une fois inscrits. Les liens `causalPrevious`
+et `causalNext` désignent les voisins immédiats qui ressortent de l’ascendance
+des commits Git, et peuvent remonter ou descendre dans les numéros. Une
+extrémité ou une relation dont les objets Git sont indisponibles donne un lien
+nul. Les entrées portant des commits incomparables ont deux liens nuls et
+`causalOrder: "incomparable"`. Plusieurs voisins immédiats possibles donnent
+`causalOrder: "ambiguous"` et deux liens nuls.
+Une fiche L1–L3 se lit comme une version 1 implicite. Le scan suivant inscrit
+cette version dans le catalogue, avec un résultat identique au scan suivant
+sur les mêmes commits. `validate` contrôle les liens, l’empreinte courante et les
+numéros cités par les emplacements et les usages. `validate --base` vérifie
+aussi la conservation des versions déjà enregistrées.
+
+Le numéro de version est local à la fiche. La clé de `ids.json` reste celle
+de l’allocation initiale et l’historique des empreintes vit dans la fiche.
+Le registre d’IDs conserve une clé d’allocation immuable par ID. Une fiche
+d’atlas héritée peut recevoir un alias d’identité en ajoutant une clé
+`alias:atlas:…`, en conservant sa clé de région initiale.
+Le scan reconnaît une lignée par source logique et chemin, ou par un
+`assetId` déjà associé à cette source et déclaré par le lock du commit pour le
+chemin et le SHA-256 observés. Un déplacement de contenu identique dans la
+même source conserve l’ID et le numéro. Les copies d’une même source
+restent soumises à la sélection de la branche par défaut et au signalement
+des divergences.
+
+Les contenus identiques se regroupent par empreinte dans le rapport de
+doublons. Deux sources logiques peuvent faire évoluer ces contenus
+indépendamment. Quand la clé `file:sha256:<hex>` est déjà prise, l’allocateur
+peut employer `file:source:<sha256-du-nom-de-source>:<sha256-du-contenu>`.
+Pour une fiche héritée déjà partagée entre sources logiques, le premier nom
+de source par ordre lexical conserve la lignée en cas de changement et un
+contenu divergent d’une autre source ouvre sa propre lignée. Les usages
+antérieurs restent associés aux fiches qui les ont enregistrés. Si deux
+chemins d’une même source partagent un ID et que l’un diverge, ce chemin ouvre
+sa propre lignée et les références historiques conservent leur couple ID–version.
+
+L’identité d’un sprite d’atlas associe la source logique, le chemin du fichier
+d’atlas et le nom du cadre. La planche, son SHA-256 et les coordonnées sont
+des preuves dans l’entrée de version. Une retouche hors de la découpe ajoute
+une preuve pour le même contenu. Une retouche de la découpe crée une version
+sous le même ID.
+
+Les emplacements et usages issus d’un scan indiquent `assetVersion`. Un tag
+observé sur un ancien contenu au même chemin référence sa version sur la
+même fiche. Au premier import, les versions trouvées sur d’anciens tags
+précèdent celle de la branche par défaut. Un tag découvert plus tard peut
+ajouter une entrée historique en fin de liste, avec son commit et sa date.
+La fiche garde alors son numéro courant et les numéros déjà utilisés dans
+les locks. Une version publiée remplacée conserve la preuve de publication
+dans son entrée, avec le chemin du binaire enregistré lorsqu’il existe.
+
 ## Provenance, inférence et références
 
 Pour chaque champ interprétable, une valeur connue porte une trace
@@ -90,6 +156,26 @@ autorisation. Une région reliée à un asset doit correspondre à sa planche, �
 coordonnées et à son indicateur de vérification. Les usages retirés conservent
 leurs références et les tags de releases. L’inspection d’une planche restitue
 les usages des assets qui en proviennent.
+
+Pour une découpe dont la provenance déclare `source_retouche`, le scan lit le
+fichier `*.retouches.json` dans le même commit Git que la déclaration. Il étire
+chaque bande de la découpe initiale, puis la colle sur sa cible dans l’ordre
+déclaré. Il normalise ensuite la découpe et compare les pixels au cadre
+d’atlas avec le seuil RMSE de 0,02. La provenance reste `derived`. Une recette
+illisible ou une géométrie invalide rend la comparaison indisponible et
+produit une entrée `declared-retouch-unreadable` dans `scan-limits`. Une recette
+valide sans raccord produit `declared-retouch-without-raccords`. Les masques
+de silhouette décrits dans `transformations` sont hors périmètre.
+
+Une source de `catalog/sources.json` peut déclarer
+`"pathAliases": [{"from": "public/assets/*.png", "to": "assets/export/*.png"}]`.
+Chaque motif est relatif à la racine Git et contient un seul `*` dans le nom
+de fichier. Le scan applique la table aux références d’atlas `meta.image`
+et `atlas` de la provenance après échec de la résolution directe. La même
+portion du nom remplace l’astérisque dans le chemin cible. Un résultat unique
+dans le même arbre Git est requis. Le scan consigne le chemin cité et le
+chemin résolu, avec le dépôt, le commit et le fichier déclarant la référence,
+dans `generated/reports/path-aliases.json` et son équivalent Markdown.
 
 ## Codes de retour
 
@@ -129,3 +215,76 @@ Règles qui le permettent dès maintenant : `tools/core/` reste générique (cat
 retour communs) ; ce qui est propre aux assets vit dans les autres paquets de `tools/` ; rien n’est renommé avant la
 décision de renommage, prise après le lot L3.
 
+
+## Recherche et livraison
+
+`assetctl index` reconstruit les instantanés du catalogue, l’index des usages,
+l’index de recherche et la base FTS5. Le résultat contient
+`catalogFingerprint`, l’empreinte des JSON de `catalog/`, et `fingerprint`,
+l’empreinte des fichiers produits sous `generated/`. Les rapports de scan
+conservent leurs propres entrées. `search` reconstruit la base SQLite si
+l’empreinte du catalogue change. Les filtres sont exacts. `--used-by` retient
+les usages actifs et chaque résultat restitue aussi les usages historiques.
+`--similar-to` classe les résultats par distance de Hamming du pHash.
+
+`search --receipt chemin.json` enregistre l’empreinte, la requête, ses filtres
+et tous les IDs correspondants, y compris ceux masqués par `--limit`.
+`register` exige ce reçu, daté des sept derniers jours, et un
+`--reject ID:raison` pour chaque candidat. Le reçu correspond au catalogue
+courant. Un catalogue plus récent est admissible si les deux instantanés
+sont vérifiables dans des commits Git de la même lignée.
+
+`derive --recipe chemin.json` prend un objet avec les transformations
+`crop` (`{x,y,w,h}`), `mirror` (`true`, `false`, `horizontal` ou
+`vertical`), `resize` (`[largeur,hauteur]`) et `tint` (couleur
+`#RRGGBB`). Il les applique dans cet ordre et emploie le SHA-256 des octets
+de la recette et la révision courante du parent pour allouer l’ID. La
+provenance inscrit `parentId`, `parentVersion` et `parentSha256`. Une preuve de licence autorisant
+l’adaptation permet d’hériter de la licence.
+
+`usage add` écrit le lock à la racine du jeu et matérialise l’asset au
+chemin demandé, sous `assets/` par défaut. Une fiche sans version explicite
+a pour `assetVersion` la chaîne `"1"`. Pour une fiche versionnée, le lock
+enregistre le numéro courant sous forme de chaîne. `usage add` refuse avec
+le code 3 si `catalog/` a des changements non commités ou si HEAD ne contient
+pas les versions et empreintes du lock à écrire. `check-lock` vérifie le
+couple numéro–empreinte dans le catalogue et dans le commit `registryCommit`,
+puis le SHA-256 du fichier relatif au
+dossier du lock. Un couple historique valide émet l’avertissement
+`non-current-version`. `inspect --json` restitue l’historique.
+L’index de recherche et `search` rendent le numéro et l’empreinte courants.
+Les fichiers proviennent du registre
+ou des objets Git des miroirs. Les découpes d’atlas importées sont
+reconstruites depuis leur cadre et leur planche. Dans chaque cas, le
+SHA-256 est contrôlé avant écriture. Une cible privée est déclarée dans
+`catalog/sources.json` ou indiquée explicitement par `--private-target`.
+La preuve `P14-assets-lock` s’obtient avec `check-lock`. Son option
+`--public` applique la garde à la version verrouillée, y compris sa preuve
+de publication archivée lorsqu’elle est historique. Un écart de commit,
+de version ou de fichier renvoie le code 1. Un refus de licence renvoie le code 3.
+
+`materialize <id> --version <n> --to <dossier>` livre le nom formé de l’ID
+et de l’extension de cette révision. Il accepte aussi un chemin de fichier
+explicite. Les révisions publiées sont lisibles après purge des miroirs.
+Une révision dont les octets sont indisponibles renvoie le code 4.
+
+`sync` compare les branches par défaut et les cartes nom–commit des tags
+aux références enregistrées. Les changements de tags déclenchent une analyse
+même à tête inchangée. Pour un même nom de tag, parmi les copies retenues
+pour l’import, le commit descendant de tous les autres l’emporte. Si les
+commits divergent, la priorité est GitHub, Forgejo, puis local. Le rapport de
+migration consigne chaque candidat dans `divergentTags`. Le scan lit les
+arbres et les blobs des copies à importer et
+conserve les usages des copies inchangées. Il part de `main` ou du dernier
+commit de la même branche `sync/…` si celle-ci descend de `main`. Le scan se
+fait dans un clone temporaire et la branche de synchronisation se met à
+jour localement après succès. Les divergences et les suppressions sont
+signalées dans les rapports. `scannedCopies` compte les copies dont le
+contenu a été analysé.
+
+`export-atlas --out atlases/nom` produit `nom.png` et `nom.json` au
+format Phaser JSON Hash. `validate-atlas` contrôle les références, les
+dimensions, les limites et la transparence. `sbom --out
+generated/sbom.cdx.json` décrit les dépendances directes épinglées dans
+`requirements.txt`. Le manifeste des licences d’assets reste dans
+`generated/licenses.json`.

@@ -5,6 +5,8 @@ from collections import defaultdict
 import numpy as np
 from PIL import Image
 
+from tools.asset_versions import version_number
+
 N = 32
 MAX_DISTANCE = 8
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
@@ -27,7 +29,11 @@ def fingerprints(image):
     phash = _hex(low > np.median(low[1:]))
     strip = np.asarray(gray.resize((9, 8), Image.Resampling.LANCZOS))
     dhash = _hex(strip[:, 1:] > strip[:, :-1])
-    return {"phash": phash, "dhash": dhash}
+    result = {"phash": phash, "dhash": dhash}
+    red, green, blue, alpha = rgba.getextrema()
+    if alpha == (255, 255) and all(low == high for low, high in (red, green, blue)):
+        result["flatColor"] = f"{red[0]:02x}{green[0]:02x}{blue[0]:02x}"
+    return result
 
 
 def _bands(phash):
@@ -39,14 +45,16 @@ def _bands(phash):
 
 def _similar(images):
     index = defaultdict(list)
-    for order, (b, sha_b, ratio_b, phash_b, dhash_b) in enumerate(images):
+    for order, (b, sha_b, ratio_b, phash_b, dhash_b, color_b) in enumerate(images):
         candidates = set()
         for band in _bands(phash_b):
             candidates.update(index[band])
             index[band].append(order)
         for candidate in sorted(candidates):
-            a, sha_a, ratio_a, phash_a, dhash_a = images[candidate]
+            a, sha_a, ratio_a, phash_a, dhash_a, color_a = images[candidate]
             if sha_a == sha_b or max(ratio_a, ratio_b) > 1.1 * min(ratio_a, ratio_b):
+                continue
+            if color_a and color_b and color_a != color_b:
                 continue
             distance = (phash_a ^ phash_b).bit_count()
             if distance <= MAX_DISTANCE:
@@ -57,14 +65,19 @@ def _similar(images):
 def duplicates(assets):
     locations = defaultdict(list)
     images = []
+    identities = defaultdict(list)
     for asset in sorted(assets, key=lambda a: a["id"]):
-        if asset["family"]["type"] != "code-generated":
-            locations[asset["sha256"]].extend(asset["files"]["locations"])
-        if "perceptual" in asset:
-            geometry = asset["dimensions"]
+        family = asset["family"]
+        kind = family["type"] if isinstance(family, dict) else family
+        digest = asset["sha256"].lower()
+        if kind != "code-generated":
+            identities[digest].append(asset["id"])
+            locations[digest].extend(loc for loc in asset["files"]["locations"]
+                                     if loc.get("assetVersion", 1) == version_number(asset))
+        if "perceptual" in asset and (geometry := asset.get("dimensions")):
             hashes = asset["perceptual"]
-            images.append((asset["id"], asset["sha256"], geometry["width"] / geometry["height"],
-                           int(hashes["phash"], 16), int(hashes["dhash"], 16)))
-    exact = [{"sha256": sha, "locations": paths}
-             for sha, paths in sorted(locations.items()) if len(paths) > 1]
+            images.append((asset["id"], digest, geometry["width"] / geometry["height"],
+                           int(hashes["phash"], 16), int(hashes["dhash"], 16), hashes.get("flatColor")))
+    exact = [{"sha256": sha, "locations": paths, "ids": identities[sha]}
+             for sha, paths in sorted(locations.items()) if len(paths) > 1 or len(identities[sha]) > 1]
     return {"exact": exact, "similar": sorted(_similar(images), key=lambda pair: (pair["a"], pair["b"]))}

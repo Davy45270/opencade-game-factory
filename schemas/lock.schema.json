@@ -11,6 +11,7 @@
             "$ref": "asset.schema.json#/$defs/assetId"
           },
           "assetVersion": {
+            "description": "Le contrôle vérifie ce numéro dans la fiche du commit registryCommit.",
             "pattern": "\\S",
             "type": "string"
           },
@@ -47,6 +48,7 @@
       "type": "string"
     },
     "registryCommit": {
+      "description": "Commit du registre contenant les révisions verrouillées.",
       "$ref": "asset.schema.json#/$defs/commit"
     },
     "schemaVersion": {

@@ -20,8 +20,7 @@ schemaVersion id name description category subcategory tags originUniverse visua
 sourceSheetId sourceRegion orientation facing state dimensions format alpha pivot files
 sha256 provenance license status usages variants createdAt updatedAt
 """.split()
-MUTATIONS = "import-sheet extract register derive publish scan-repos sync index".split()
-COMMANDS = [*MUTATIONS, "search", "inspect", "validate", "usage", "duplicates"]
+
 
 ASSET = {
     "schemaVersion": "1.0", "id": ASSET_ID, "name": "Fouet",
@@ -170,25 +169,33 @@ class CatalogueOracles(CatalogueFixture, unittest.TestCase):
                 self.assertFalse(schema.is_valid(unsafe))
 
     def test_T08_json_toutes_commandes_et_dry_run(self):
-        for command in COMMANDS:
-            with self.subTest(command=command):
-                args = [ASSET_ID] if command == "inspect" else []
-                code, payload = self.cli(command, *args)
-                if command in ("validate", "inspect", "index"):
-                    self.assertEqual(code, 0, payload)
-                elif command == "scan-repos":
-                    self.assertEqual(code, 0, payload)
-                    self.assertEqual(payload["scannedCopies"], 0)
-                elif command in ("import-sheet", "extract"):
-                    self.assertEqual(code, 2, payload)
-                    self.assertEqual(payload["error"], "usage")
-                else:
-                    self.assertEqual(code, 2, payload)
-                    self.assertEqual(payload["error"], "not-implemented")
-                    self.assertIn(payload["lot"], {"L2", "L3"})
-                if command in MUTATIONS:
-                    self.assertEqual(self.cli(command, "--dry-run"), (code, payload))
-        self.assertEqual(self.cli("index", "rebuild", "--dry-run"), self.cli("index"))
+        succeeds = [
+            ("validate",), ("inspect", ASSET_ID), ("index",), ("scan-repos",),
+            ("search", "fouet"), ("usage", ASSET_ID), ("duplicates",),
+        ]
+        invalid = [
+            ("import-sheet",), ("extract",), ("register",), ("derive",), ("publish",),
+            ("sync", "--branch", "main"), ("materialize",), ("usage", "add"),
+            ("check-lock",), ("export-atlas",), ("validate-atlas",), ("sbom",),
+        ]
+        for args in succeeds:
+            with self.subTest(args=args):
+                code, payload = self.cli(*args)
+                self.assertEqual(code, 0, payload)
+                self.assertTrue(payload["ok"])
+        for args in invalid:
+            with self.subTest(args=args):
+                code, payload = self.cli(*args)
+                self.assertEqual(code, 2, payload)
+                self.assertEqual(payload["error"], "usage")
+
+        self.assertEqual(self.cli("duplicates", "--dry-run"), self.cli("duplicates"))
+        code, simulation = self.cli("index", "rebuild", "--dry-run")
+        self.assertEqual(code, 0, simulation)
+        code, index = self.cli("index")
+        self.assertEqual(code, 0, index)
+        self.assertEqual(simulation["catalogFingerprint"], index["catalogFingerprint"])
+        self.assertRegex(index["fingerprint"], r"^[0-9a-f]{64}$")
 
     def test_AT10_nouvel_asset_exige_un_recu_ou_import(self):
         self.commit_base()

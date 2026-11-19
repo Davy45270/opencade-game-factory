@@ -9,7 +9,8 @@
 import { readFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
-export const TICKET = /\b[A-Z]{2,10}-\d+\b/;
+// Bornes explicites (revue du 19/11) : « _ » est une frontière (\b ne la voyait pas : « x_AB-12 » passait).
+export const TICKET = /(?<![A-Za-z0-9])[A-Z]{2,10}-\d+(?![0-9])/;
 // Identifiants SPDX (https://spdx.org/licenses/) qui contiennent la forme MAJUSCULES-chiffres. Liste fermée : une
 // licence absente reste refusée jusqu'à son ajout ici, avec un test.
 export const LICENCES_SPDX = [
@@ -19,7 +20,8 @@ export const LICENCES_SPDX = [
     'GPL-2.0', 'GPL-3.0', 'LGPL-2.1', 'LGPL-3.0', 'AGPL-3.0', 'MPL-2.0', 'EPL-2.0', 'EUPL-1.2', 'OFL-1.1',
 ];
 const echapper = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const SPDX = new RegExp(`(?<![A-Za-z0-9.+-])(?:${LICENCES_SPDX.map(echapper).join('|')})(?:-only|-or-later|\\+)?(?![A-Za-z0-9-])`, 'g');
+// Licence ENTIÈRE et isolée : ni « _ » collé, ni « .<chiffre> » à droite (« CC-BY-4.0.1 » n'est pas dans la liste).
+const SPDX = new RegExp(`(?<![A-Za-z0-9_.+-])(?:${LICENCES_SPDX.map(echapper).join('|')})(?:-only|-or-later|\\+)?(?![A-Za-z0-9_-]|\\.[A-Za-z0-9])`, 'g');
 
 export const estTicket = (ligne) => TICKET.test(String(ligne).replace(SPDX, ' '));
 

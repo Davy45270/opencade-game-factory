@@ -59,6 +59,10 @@ publication, un test désactivé, un seuil abaissé.
 ## 6. Charge et tests
 
 - Un seul Codex à la fois, **par la file** : `codex-file.sh <commande…>`. Jamais de `flock` nu ni de passe hors file.
+- Une passe Codex tourne dans un **clone complet**, jamais dans un worktree : bwrap ne monte pas un `.git` qui est un
+  fichier, et git ne peut pas écrire le gitdir du worktree depuis le bac à sable. La passe rend alors un résultat vide
+  ou sans commit. La file refuse `-C <worktree>` (rc 2), sauf si les deux gitdirs sont montés par `--add-dir` et
+  qu'un test prouve que le commit passe.
 - **Si tu ES une passe Codex**, tu as été lancé PAR la file : tu es déjà dans ton créneau, ne l'appelle pas. La variable `CODEX_FILE_TICKET` (ton ticket) le prouve ; le verrou de la file est en lecture seule dans ton bac à sable, c'est normal. Seuls les orchestrateurs (humains, Claude, lanceurs) passent par `codex-file.sh`.
 - Jamais la suite de tests complète en local : seulement les tests ciblés de ce que tu changes. La CI Woodpecker fait
   le reste.

@@ -276,6 +276,12 @@ class ScriptsCommuns(unittest.TestCase):
         self.assertEqual(self.garde("voir HL-123", "QWK-012 : score", "CC-BY-4.0 et HL-9", "XCC-BY-4.0", "CC-BY-4"),
                          [True, True, True, True, True])
 
+    def test_garde_ticket_variantes_hors_liste_et_tickets_colles(self) -> None:
+        # revue Codex 5 (19/11, n°6) : borne droite « . » + chiffre, « _ » des deux côtés
+        self.assertEqual(self.garde("CC-BY-4.0.1", "CC-BY-4.0_AB-9", "AB-9_CC-BY-4.0", "x_AB-12", "AB-12_x"),
+                         [True, True, True, True, True])
+        self.assertEqual(self.garde("licence CC-BY-4.0.", "CC-BY-4.0, MIT", "(CC-BY-SA-4.0)"), [False, False, False])
+
     def test_garde_ticket_cli(self) -> None:
         (self.tmp / "ok.txt").write_text("licence CC-BY-4.0\n")
         (self.tmp / "ko.txt").write_text("ligne propre\nréf HL-42\n")

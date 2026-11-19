@@ -11,6 +11,7 @@ from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
 from .decisions import VersionConflict, import_decisions
+from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, search
@@ -44,6 +45,7 @@ def parser():
         "validate": "Vérifier le catalogue.",
         "import-decisions": "Importer des décisions Markdown en conservant leur provenance.",
         "search": "Chercher dans le graphe graphify.",
+        "duplicates": "Signaler les doublons entre dépôts.",
         "evaluate": "Appliquer les gates et calculer la note pondérée.",
         "decide": "Enregistrer une décision motivée.",
     }
@@ -65,6 +67,10 @@ def parser():
     searcher.add_argument("--repo")
     searcher.add_argument("--kind")
     searcher.add_argument("--receipt", type=Path)
+    detector = sub["duplicates"]
+    detector.add_argument("--graph", type=Path, required=True)
+    detector.add_argument("--root", action="append", default=[], metavar="DÉPÔT=CHEMIN")
+    detector.add_argument("--min-similarity", type=float, default=0.85)
     sub["evaluate"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
@@ -73,6 +79,16 @@ def parser():
 
 
 def check_args(cli, args):
+    if args.command == "duplicates":
+        if not 0 <= args.min_similarity <= 1:
+            cli.error("--min-similarity doit être compris entre 0 et 1.")
+        roots = {}
+        for value in args.root:
+            repo, _, path = value.partition("=")
+            if not repo or not path or repo in roots:
+                cli.error("--root exige DÉPÔT=CHEMIN, une fois par dépôt.")
+            roots[repo] = Path(path).expanduser()
+        args.roots = roots
     if args.command == "decide" and not nonblank(args.reason):
         cli.error("--reason exige une justification.")
     if args.command == "search" and not nonblank(args.query):
@@ -86,6 +102,8 @@ def check_args(cli, args):
 
 def run(args, root):
     command = args.command
+    if command == "duplicates":
+        return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
     write = command == "decide" or (command == "import-decisions" and not args.dry_run)
     with lock(root, write=write):

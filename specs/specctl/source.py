@@ -168,6 +168,8 @@ class Source:
                     fields = {"type": "type", "ref": "ref", "valeur": "value", "seuil": "threshold"}
                     requirement["evidence"] = {key: evidence[original] for original, key in fields.items()
                                                if original in evidence}
+                if "arbitrage" in row:
+                    requirement["arbitrage"] = row["arbitrage"]
                 requirements.append(requirement)
         except (KeyError, TypeError, AttributeError) as exc:
             raise InvalidJSON(f"Matrice invalide : {matrix}") from exc

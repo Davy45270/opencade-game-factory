@@ -44,6 +44,7 @@ def parser():
         "import": "inventorier les archives de documentation",
         "validate": "valider les fiches et leurs identifiants",
         "resolve": "résoudre la version applicable d’un projet",
+        "coverage": "calculer la couverture des exigences d’un projet",
         "verify": "contrôler les relations, les preuves et les archives",
         "arbitrer": "consigner une version choisie par David",
     }.items():
@@ -54,7 +55,7 @@ def parser():
                                  metavar="HOMELAB-DOCS")
         if name == "import":
             command.add_argument("--dry-run", action="store_true")
-        if name == "resolve":
+        if name in {"resolve", "coverage"}:
             command.add_argument("--project", required=True)
         if name == "arbitrer":
             command.add_argument("--spec", required=True)
@@ -157,6 +158,42 @@ def verify(records, source):
     }
 
 
+def coverage(records, project):
+    record = next((record for record in records.values() if record["project"] == project), None)
+    if record is None:
+        return ExitCode.CHECK_FAILED, {"status": "project-not-found", "project": project}
+
+    requirements, uncovered, inconsistent = [], [], []
+    covered = waived = 0
+    for row in record["requirements"]:
+        requirement_id = row["id"]
+        status = row["matrixStatus"]
+        evidence = row.get("evidence")
+        if evidence is not None and all(evidence[key].strip() for key in ("type", "ref")):
+            evidence = {key: evidence[key] for key in ("type", "ref")}
+        else:
+            evidence = None
+        requirements.append({"id": requirement_id, "matrixId": row["matrixId"],
+                             "status": status, "evidence": evidence})
+        if status == "ecartee":
+            waived += 1
+        elif status == "faite" and evidence is not None:
+            covered += 1
+        else:
+            uncovered.append(requirement_id)
+            if status == "faite":
+                inconsistent.append(requirement_id)
+
+    total = len(requirements)
+    applicable = total - waived
+    return (ExitCode.CHECK_FAILED if inconsistent else ExitCode.OK), {
+        "status": "non-compliant" if inconsistent else "ok",
+        "project": project, "total": total, "covered": covered, "waived": waived,
+        "uncovered": uncovered, "ratio": round(covered / applicable, 4) if applicable else 1.0,
+        "requirements": requirements, "inconsistent": inconsistent,
+    }
+
+
 def arbitrate(store, records, args):
     record = records.get(args.spec)
     if record is None or args.version not in {entry["version"] for entry in record["versions"]}:
@@ -182,6 +219,8 @@ def run(args, root):
             return ExitCode.OK, {"status": "ok", "count": len(records)}
         if command == "resolve":
             return resolve(records, args.project)
+        if command == "coverage":
+            return coverage(records, args.project)
         if command == "verify":
             return verify(records, source)
         return arbitrate(store, records, args)

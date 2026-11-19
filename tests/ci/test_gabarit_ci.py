@@ -202,6 +202,59 @@ class JeuTemoin(unittest.TestCase):
 
 
 @unittest.skipUnless(NODE, "node absent")
+class BaseE2E(unittest.TestCase):
+    """HL-523 7-3033 : sur une PR, l'e2e n'avait pas de base, se repliait sur un échantillon et ne jouait pas les specs
+    modifiées par la PR (faux vert). La base d'une PR est le merge-base avec la branche cible ; introuvable = échec."""
+    SCRIPT = RACINE / "ci" / "scripts" / "base-e2e.mjs"
+
+    def setUp(self) -> None:
+        self.tmp = pathlib.Path(tempfile.mkdtemp(prefix="usine-base-"))
+        g = lambda *a, c=None: subprocess.run(["git", "-C", str(c or self.tmp / "amont"), *a], check=True,
+                                               capture_output=True, text=True).stdout.strip()
+        self.g = g
+        (self.tmp / "amont").mkdir()
+        g("init", "-q", "-b", "main")
+        for i in (1, 2):
+            g("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "--allow-empty", "-m", f"m{i}")
+        self.base = g("rev-parse", "HEAD")
+        subprocess.run(["git", "clone", "-q", str(self.tmp / "amont"), str(self.tmp / "jeu")], check=True)
+        self.jeu = self.tmp / "jeu"
+        g("checkout", "-q", "-b", "pr", c=self.jeu)
+        g("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "--allow-empty", "-m", "pr", c=self.jeu)
+        # main avance après le départ de la PR : la base reste le point de divergence, pas la tête de main
+        g("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "--allow-empty", "-m", "m3")
+
+    def tearDown(self) -> None:
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def base_e2e(self, **env: str) -> subprocess.CompletedProcess:
+        e = {k: v for k, v in __import__("os").environ.items() if not k.startswith("CI_") and k != "E2E_BASE"}
+        return subprocess.run([NODE, str(self.SCRIPT)], cwd=self.jeu, env={**e, **env}, capture_output=True,
+                              text=True, timeout=60)
+
+    @unittest.skipUnless(NODE, "node absent")
+    def test_pr_base_au_merge_base_de_la_branche_cible(self) -> None:
+        r = self.base_e2e(CI_PIPELINE_EVENT="pull_request", CI_COMMIT_TARGET_BRANCH="main")
+        self.assertEqual((r.returncode, r.stdout.strip()), (0, self.base), r.stderr)
+
+    @unittest.skipUnless(NODE, "node absent")
+    def test_pr_sans_base_echoue_au_lieu_de_se_replier(self) -> None:
+        for env in ({"CI_COMMIT_TARGET_BRANCH": "inexistante"}, {}):
+            r = self.base_e2e(CI_PIPELINE_EVENT="pull_request", **env)
+            self.assertEqual((r.returncode, r.stdout.strip()), (1, ""), env)
+            self.assertIn("PR sans base", r.stderr)
+
+    def test_gabarit_exporte_la_base_avant_la_commande_e2e_en_historique_complet(self) -> None:
+        import yaml  # noqa: PLC0415
+        y = yaml.safe_load((RACINE / "ci" / "gabarit" / "e2e.yml").read_text().replace("@ENTETE@", "")
+                           .replace("@PLAYWRIGHT_IMAGE@", "img").replace("@E2E_COMMANDE@", "E2E"))
+        self.assertEqual(y["clone"][0]["settings"]["depth"], 0)
+        cmds = y["steps"][0]["commands"]
+        i = next(n for n, c in enumerate(cmds) if "base-e2e.mjs" in c)
+        self.assertIn("export E2E_BASE", cmds[i + 1])
+        self.assertLess(i, cmds.index("E2E"))
+
+
 class ScriptsCommuns(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = pathlib.Path(tempfile.mkdtemp(prefix="usine-csp-"))

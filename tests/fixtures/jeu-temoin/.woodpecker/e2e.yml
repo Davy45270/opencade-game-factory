@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 68a995fcd592) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit a54573cd07d5) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # e2e : l'image Playwright est CELLE du package-lock (vérifiée avant tout test), puis le démarrage de l'application
 # construite sous la CSP de production (aucune violation, aucune erreur JS), puis les specs Playwright du jeu.
@@ -11,6 +11,14 @@ when:
     branch: main
   - event: [pull_request, manual]
 
+# Historique complet : la base du diff e2e d'une PR est son merge-base avec la branche cible.
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      depth: 0
+      partial: false
+
 steps:
   - name: e2e
     image: &playwright mcr.microsoft.com/playwright:v1.65.1-noble
@@ -19,6 +27,9 @@ steps:
       CI: "1"
     commands:
       - node .woodpecker/usine/version-playwright.mjs --verifier "$${PW_IMAGE}"
+      # Base du diff pour la commande du jeu : une PR sans base échoue ici au lieu de jouer un simple échantillon.
+      - E2E_BASE="$(node .woodpecker/usine/base-e2e.mjs)"
+      - export E2E_BASE; echo "base e2e '$${E2E_BASE:-aucune}' ($${CI_PIPELINE_EVENT})"
       - npm ci
       - npm run build
       - node .woodpecker/usine/demarrage-csp.mjs dist

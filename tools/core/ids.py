@@ -28,7 +28,7 @@ def parse_id(value):
 def _valid_identity(key):
     if not isinstance(key, str):
         return False
-    if re.fullmatch(rf"file:sha256:{SHA256}", key):
+    if re.fullmatch(rf"(?:file|sheet):sha256:{SHA256}", key):
         return True
     for pattern in (REGION, DERIVED):
         if match := pattern.fullmatch(key):

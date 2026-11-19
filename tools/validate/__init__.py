@@ -125,6 +125,12 @@ class CatalogueValidation:
                     self.issue(path, "sheet-digest", "Empreinte différente de la planche source.")
                 if region is not None and not in_bounds(region, sheet["dimensions"]):
                     self.issue(path, "region-bounds", "La région dépasse les dimensions de la planche.")
+                if region and region["verified"] and sheet["dimensions"] is None:
+                    self.issue(path, "region-unmeasurable", "Une région vérifiée exige les dimensions de la planche.")
+            for frame in asset["files"].get("atlasFrames", ()):
+                atlas = sheets.get(frame["atlasSheetId"])
+                if atlas is None or atlas["dimensions"] is None or not in_bounds(frame, atlas["dimensions"]):
+                    self.issue(path, "atlas-frame", "Cadre hors limites ou planche technique introuvable.")
             references = list(asset["variants"])
             if parent := asset["provenance"].get("derivedFrom"):
                 references.append(parent)
@@ -161,7 +167,11 @@ class CatalogueValidation:
             if path in base_paths:
                 continue
             creation = asset.get("creation", {})
-            imported = asset["provenance"]["type"] in IMPORT_TYPES and "importJob" in creation
+            kind = asset["provenance"]["type"]
+            atlas_import = kind == "derived" and bool(asset["files"].get("atlasFrames"))
+            catalogue_import = (kind == "generated" and bool(asset["files"]["locations"])
+                                and asset.get("inference", {}).get("provenance", {}).get("method") == "catalogue-import")
+            imported = "importJob" in creation and (kind in IMPORT_TYPES or atlas_import or catalogue_import)
             if not (imported or "searchReceipt" in creation):
                 self.issue(path, "creation-required", "Un reçu de recherche ou un job d’import est requis.")
 
@@ -185,7 +195,9 @@ class CatalogueValidation:
 
 
 def in_bounds(region, dimensions):
-    return region["x"] + region["w"] <= dimensions["width"] and region["y"] + region["h"] <= dimensions["height"]
+    return dimensions is None or (
+        region["x"] + region["w"] <= dimensions["width"] and region["y"] + region["h"] <= dimensions["height"]
+    )
 
 
 def validate(root, base=None):

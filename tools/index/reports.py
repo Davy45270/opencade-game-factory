@@ -45,7 +45,7 @@ def coverage(rows):
         if status == "excluded":
             excluded[kind][row["reason"]] += 1
     return [{"format": kind, **{key: counter[key] for key in
-             ("found", "imported", "exception", "excluded", "unsupported")},
+             ("found", "imported", "exception", "excluded", "unsupported", "examined")},
              "exclusionReasons": dict(sorted(excluded[kind].items()))}
             for kind, counter in sorted(counts.items())]
 
@@ -67,7 +67,7 @@ def _repo_markdown(repositories):
     return "\n\n".join(filter(None, parts))
 
 
-def emit(root, repositories, rows, exceptions, assets, exclusions, manifests):
+def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=()):
     reports = root / "generated" / "reports"
     reports.mkdir(parents=True, exist_ok=True)
     formats = coverage(rows)
@@ -75,9 +75,12 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests):
     excluded = [row for row in rows if row["status"] == "excluded"]
     missing_licenses = [{"id": asset["id"], "locations": asset["files"]["locations"]}
                         for asset in assets if asset["license"] == "unknown"]
+    missing_sheets = [{"id": sheet["id"], "locations": sheet["files"]["locations"]}
+                      for sheet in sorted(sheets, key=lambda item: item["id"]) if sheet["license"] == "unknown"]
     audio = [row for row in rows if row.get("durationUnknown")]
     family_counts = Counter(row["family"] for row in rows if row["status"] == "imported")
-    orphan_note = "Analyse des usages indisponible à ce lot. La liste des orphelins est vide."
+    orphan_ids = sorted(asset["id"] for asset in assets
+                        if not any(usage["status"] == "active" for usage in asset["usages"]))
     limits = [
         "Seuls les blobs des commits Git de référence et des releases demandées sont lus. "
         "Les fichiers et modifications non commités sont invisibles.",
@@ -101,27 +104,29 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests):
         "exceptions": (exceptions, _files(exceptions)),
         "coverage": (
             {"formats": formats, "unsupported": unsupported, "excluded": excluded},
-            _table(("Format", "Trouvés", "Importés", "Exceptions", "Exclus", "Non couverts", "Motifs"),
+            _table(("Format", "Trouvés", "Importés", "Exceptions", "Exclus", "Non couverts", "Examinés sans asset", "Motifs"),
                    [(row["format"], row["found"], row["imported"], row["exception"], row["excluded"],
-                     row["unsupported"], ", ".join(f"{reason} ({n})" for reason, n in row["exclusionReasons"].items()))
+                     row["unsupported"], row["examined"], ", ".join(f"{reason} ({n})" for reason, n in row["exclusionReasons"].items()))
                     for row in formats]) + "\n\n## Non couverts\n\n" + _files(unsupported)
             + "\n\n## Exclus\n\n" + _files(excluded),
         ),
         "licenses-unknown": (
-            {"assets": missing_licenses},
-            _table(("Asset", "Dépôt", "Chemin"), [(asset["id"], loc["repo"], loc["path"])
-                   for asset in missing_licenses for loc in asset["locations"]]),
+            {"assets": missing_licenses, "sheets": missing_sheets},
+            _table(("Asset", "Dépôt", "Chemin"), [(asset["id"], loc.get("repo"), loc.get("path"))
+                   for asset in missing_licenses for loc in asset["locations"] or [{}]])
+            + "\n\n## Planches\n\n" + _table(("Planche",), [(item["id"],) for item in missing_sheets]),
         ),
-        "orphans": ({"assets": [], "usageAnalysis": "pending", "note": orphan_note}, orphan_note),
+        "orphans": ({"assets": orphan_ids}, _table(("Asset",), [(asset_id,) for asset_id in orphan_ids])),
         "scan-limits": (
             {"exclusions": [{"reason": reason, "count": sum(row["reason"] == reason for row in excluded)}
                             for reason in exclusions], "excluded": excluded, "unsupported": unsupported,
-             "audioDurationUnknown": audio, "limits": limits},
+             "audioDurationUnknown": audio, "limits": limits, "sheets": list(sheet_limits)},
             "\n".join(f"- {limit}" for limit in limits)
             + "\n\n" + _table(("Exclusion", "Fichiers"), [(reason, sum(row["reason"] == reason for row in excluded))
                                                           for reason in exclusions])
             + "\n\n## Fichiers exclus\n\n" + _files(excluded)
             + "\n\n## Formats non couverts\n\n" + _files(unsupported)
+            + "\n\n## Planches\n\n" + _files(sheet_limits)
             + "\n\n## Durées audio inconnues\n\n" + _files(audio),
         ),
     }

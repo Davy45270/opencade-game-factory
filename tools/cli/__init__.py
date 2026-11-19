@@ -16,8 +16,8 @@ from tools.core.ids import parse_id
 COMMANDS = {
     "search": ("L3", False),
     "inspect": (None, False),
-    "import-sheet": ("L2", True),
-    "extract": ("L2", True),
+    "import-sheet": (None, True),
+    "extract": (None, True),
     "register": ("L3", True),
     "derive": ("L3", True),
     "validate": (None, False),
@@ -26,7 +26,7 @@ COMMANDS = {
     "duplicates": ("L2", False),
     "scan-repos": (None, True),
     "sync": ("L3", True),
-    "index": ("L3", True),
+    "index": (None, True),
 }
 
 
@@ -68,6 +68,16 @@ def _parser():
             sub.add_argument("--fetch", action=argparse.BooleanOptionalAction, default=True)
             sub.add_argument("--job", type=Path)
             sub.add_argument("--verify", action="store_true")
+        elif command == "import-sheet":
+            sub.add_argument("file", type=Path)
+            sub.add_argument("--decoupe", type=Path)
+        elif command == "extract":
+            sub.add_argument("sheet_id")
+            mode = sub.add_mutually_exclusive_group()
+            mode.add_argument("--regions", type=Path)
+            mode.add_argument("--candidates", action="store_true")
+            sub.add_argument("--out", type=Path)
+            sub.add_argument("--cache", type=Path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         elif lot:
@@ -101,6 +111,7 @@ def _inspect(root, record_id):
             {"assetId": asset["id"], **usage}
             for path in catalogue.documents("assets")
             if (asset := read_record(path, "asset"))["sourceSheetId"] == record_id
+            or any(frame["atlasSheetId"] == record_id for frame in asset["files"].get("atlasFrames", ()))
             for usage in asset["usages"]
         ]
     else:
@@ -120,6 +131,26 @@ def _run(args, root, selected=None):
         return (ExitCode.CHECK_FAILED if issues else ExitCode.OK), {"ok": not issues, "issues": issues}
     if args.command == "inspect":
         return _inspect(root, args.id)
+    if args.command in {"import-sheet", "extract"}:
+        from tools.extract.commands import run
+
+        return run(root, args)
+    if args.command == "index":
+        from tools.discovery.importer import read_assets
+        from tools.discovery.references import emit as emit_usages
+        from tools.discovery.scan import directory_lock
+        from tools.publish.licenses import emit as emit_licenses
+
+        with directory_lock(root / "catalog"):
+            assets = read_assets(root)
+            catalogue = Catalogue(root)
+            sheets = [catalogue.read(path) for path in catalogue.documents("sheets")]
+            if not args.dry_run:
+                for folder in ("generated", "generated/reports"):
+                    Catalogue._regular_path(root / folder)
+                emit_usages(root, assets.values())
+                emit_licenses(root, assets.values(), sheets)
+        return ExitCode.OK, {"ok": True, "assets": len(assets), "sheets": len(sheets)}
     return ExitCode.USAGE, {"ok": False, "error": "not-implemented", "lot": COMMANDS[args.command][0]}
 
 
@@ -152,12 +183,16 @@ def main(argv=None, *, root=ROOT):
                 from tools.discovery.scan import preflight
 
                 selected = preflight(Path(root), args)
+            if args.command in {"import-sheet", "extract"}:
+                from tools.extract.commands import preflight
+
+                preflight(Path(root), args)
             if getattr(args, "log", None) is not None:
                 log_path = args.log.resolve()
                 catalogue_path = (Path(root) / "catalog").resolve()
                 if log_path.is_relative_to(catalogue_path):
                     raise CatalogueScopeError("Le journal doit être extérieur au catalogue.")
-                if args.command == "scan-repos":
+                if args.command in {"scan-repos", "import-sheet", "extract"}:
                     def open_log(path, flags):
                         descriptor = os.open(path, flags | os.O_NOFOLLOW, 0o600)
                         if os.fstat(descriptor).st_nlink > 1:

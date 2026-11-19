@@ -70,9 +70,9 @@ class LotL7(L7._Monde):
 
 class Raccords(unittest.TestCase):
     def test_cibles_superposees_couvrant_exactement_la_moitie(self):
-        pixels = Image.new("RGBA", (10, 10), (13, 55, 82, 255))
-        band = regions.named_box([1, 10, 0, 0])
-        targets = [regions.named_box([4, 10, 0, 0]), regions.named_box([3, 10, 2, 0])]
-        score = regions.measure(pixels, [10, 10, 0, 0], 0, pixels,
+        pixels = Image.new("RGBA", (64, 64), (13, 55, 82, 255))
+        band = regions.named_box([1, 64, 0, 0])
+        targets = [regions.named_box([24, 64, 0, 0]), regions.named_box([24, 64, 8, 0])]
+        score = regions.measure(pixels, [64, 64, 0, 0], 0, pixels,
                                 raccords=[(band, target) for target in targets])
         self.assertEqual(score, 0)

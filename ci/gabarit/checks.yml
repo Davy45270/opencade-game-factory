@@ -36,7 +36,6 @@ steps:
       - npm run build
       - sha256sum dist/index.html
       - echo "empreinte dist $(cd dist && find . -type f -print0 | LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -c1-64)"
-@CHECKS_EXTRA@
   - name: sbom
     image: *node
     commands:
@@ -57,3 +56,4 @@ steps:
     commands:
       # Les journaux et prompts d'agents (.codex-logs) ne se versionnent jamais dans un dépôt de jeu public.
       - test -z "$(git ls-files .codex-logs .claude 2>/dev/null)" || { git ls-files .codex-logs .claude; exit 1; }
+@CHECKS_EXTRA@

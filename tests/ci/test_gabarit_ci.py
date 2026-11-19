@@ -95,6 +95,74 @@ class JeuTemoin(unittest.TestCase):
     def test_usage(self) -> None:
         self.assertEqual(lancer("inventer", str(self.jeu)).returncode, 2)
 
+    # --- revue Codex 3 (19/11) : sorties résiduelles, liens symboliques, injection YAML, cohérence Python/JS ---
+    def parametres(self, **p) -> None:
+        f = self.jeu / ".woodpecker/usine.json"
+        f.write_text(json.dumps({**json.loads(f.read_text()), **p}))
+
+    def test_e2e_desactive_mais_ancien_e2e_yml_present_est_une_derive(self) -> None:
+        self.parametres(e2e=False)
+        r = lancer("verifier", str(self.jeu))
+        self.assertEqual(r.returncode, 1, r.stdout)
+        self.assertIn("e2e.yml", r.stdout)
+
+    def test_workflow_ou_script_surnumeraire_est_une_derive(self) -> None:
+        (self.jeu / ".woodpecker/autre.yml").write_text("steps: []\n")
+        (self.jeu / ".woodpecker/usine/ancien.mjs").write_text("// ancien\n")
+        r = lancer("verifier", str(self.jeu))
+        self.assertEqual(r.returncode, 1)
+        self.assertIn("autre.yml", r.stdout)
+        self.assertIn("ancien.mjs", r.stdout)
+
+    def test_fichier_genere_en_lien_symbolique_est_une_derive(self) -> None:
+        f = self.jeu / ".woodpecker/checks.yml"
+        copie = self.tmp / "copie.yml"
+        copie.write_text(f.read_text()); f.unlink(); f.symlink_to(copie)
+        r = lancer("verifier", str(self.jeu))
+        self.assertEqual(r.returncode, 1)
+        self.assertIn("lien", r.stdout)
+
+    def test_ecrire_ne_suit_pas_un_lien_hors_du_jeu(self) -> None:
+        f = self.jeu / ".woodpecker/checks.yml"
+        dehors = self.tmp / "dehors.yml"
+        dehors.write_text("intact\n"); f.unlink(); f.symlink_to(dehors)
+        r = lancer("rendre", str(self.jeu), "--ecrire")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertEqual(dehors.read_text(), "intact\n")
+
+    def test_e2e_commande_multiligne_refusee(self) -> None:
+        self.parametres(e2e_commande="npx playwright test\n    privileged: true")
+        self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)
+
+    def test_node_image_qui_sort_du_scalaire_refusee(self) -> None:
+        self.parametres(node_image="node:26\n    privileged: true")
+        self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)
+
+    def test_checks_extra_qui_ajoute_un_attribut_a_build_refuse(self) -> None:
+        self.parametres(checks_extra="    privileged: true\n")
+        self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)
+
+    def test_e2e_commande_avec_deux_points_reste_une_chaine(self) -> None:
+        try:
+            import yaml
+        except ImportError:
+            self.skipTest("PyYAML absent")
+        self.parametres(e2e_commande="npx playwright test --grep 'a: b'")
+        self.assertEqual(lancer("rendre", str(self.jeu), "--ecrire").returncode, 0)
+        doc = yaml.safe_load((self.jeu / ".woodpecker/e2e.yml").read_text())
+        self.assertEqual(doc["steps"][0]["commands"][-1], "npx playwright test --grep 'a: b'")
+
+    def test_etapes_du_jeu_apres_les_controles_communs(self) -> None:
+        checks = (TEMOIN / ".woodpecker/checks.yml").read_text()
+        self.assertGreater(checks.index("name: assets du jeu"), checks.index("name: journaux d'agents hors dépôt"))
+
+    def test_version_playwright_premiere_valeur_non_exacte_refusee_comme_en_js(self) -> None:
+        lock = json.loads((self.jeu / "package-lock.json").read_text())
+        lock["packages"]["node_modules/@playwright/test"]["version"] = "^1.65.0"
+        lock["packages"]["node_modules/playwright"] = {"version": "1.65.1"}
+        (self.jeu / "package-lock.json").write_text(json.dumps(lock))
+        self.assertEqual(lancer("verifier", str(self.jeu)).returncode, 4)
+
     def test_aucune_reference_privee_dans_les_fichiers_generes(self) -> None:
         # Les fichiers générés partent dans des dépôts de jeux PUBLICS : ni ticket, ni chemin de machine.
         import re
@@ -126,6 +194,54 @@ class ScriptsCommuns(unittest.TestCase):
 
     def test_demarrage_csp_en_entete_seule(self) -> None:
         self.assertEqual(self.csp("<html></html>", "--csp", "default-src 'self'"), 0)
+
+    def test_demarrage_csp_commentee_ne_compte_pas(self) -> None:
+        self.assertEqual(self.csp('<html><head><!-- <meta http-equiv="Content-Security-Policy" content="default-src \'self\'"> -->'
+                                  "</head></html>"), 1)
+
+    def test_demarrage_csp_attributs_dans_l_autre_ordre(self) -> None:
+        self.assertEqual(self.csp('<html><head><meta content="default-src \'self\'" http-equiv="Content-Security-Policy"></head></html>'), 0)
+
+    def test_demarrage_csp_politique_entiere_avec_apostrophes(self) -> None:
+        (self.tmp / "index.html").write_text('<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; script-src \'self\'">')
+        r = subprocess.run([NODE, str(RACINE / "ci/scripts/demarrage-csp.mjs"), str(self.tmp), "--sec"], capture_output=True, text=True, timeout=30)
+        self.assertIn("script-src 'self'", r.stdout)
+
+    def test_serveur_csp_ne_sert_rien_hors_de_dist(self) -> None:
+        import urllib.error
+        import urllib.request
+        dist = self.tmp / "dist"; dist.mkdir()
+        (dist / "index.html").write_text('<meta http-equiv="Content-Security-Policy" content="default-src \'self\'">ok')
+        dehors = self.tmp / "secret.txt"; dehors.write_text("SECRET")
+        (dist / "lien.txt").symlink_to(dehors)
+        (self.tmp / "rep").mkdir(); (self.tmp / "rep/index.html").write_text("DEHORS")
+        (dist / "rep").symlink_to(self.tmp / "rep")
+        p = subprocess.Popen([NODE, str(RACINE / "ci/scripts/demarrage-csp.mjs"), str(dist), "--servir"], stdout=subprocess.PIPE, text=True)
+        try:
+            url = ""
+            for _ in range(5):
+                ligne = p.stdout.readline()
+                if ligne.startswith("servi sur "):
+                    url = ligne.split()[-1]; break
+            self.assertTrue(url, "pas d'URL")
+            def code(chemin):
+                try:
+                    return urllib.request.urlopen(url + chemin, timeout=5).status
+                except urllib.error.HTTPError as e:
+                    return e.code
+            self.assertEqual((code(""), code("lien.txt"), code("rep/"), code("%E0%A4%A")), (200, 403, 403, 400))
+            self.assertIsNone(p.poll(), "le serveur est tombé")
+        finally:
+            p.kill(); p.wait()
+
+    def test_verifier_sbom_version_inconnue_et_composant_sans_type(self) -> None:
+        f = self.tmp / "sbom.json"
+        base = {"bomFormat": "CycloneDX", "specVersion": "1.5", "components": [{"type": "library", "name": "vite", "version": "8.3.6"}]}
+        def rc(b):
+            f.write_text(json.dumps(b))
+            return subprocess.run([NODE, str(RACINE / "ci/scripts/verifier-sbom.mjs"), str(f)], capture_output=True).returncode
+        self.assertEqual((rc(base), rc({**base, "specVersion": "1.9"}), rc({**base, "components": [{"name": "vite"}]}),
+                          rc({**base, "components": [{"type": "truc", "name": "vite"}]})), (0, 1, 1, 1))
 
     def test_version_playwright_verifie_l_image(self) -> None:
         v = RACINE / "ci/scripts/version-playwright.mjs"

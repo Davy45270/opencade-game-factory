@@ -12,8 +12,9 @@ Codes (table commune de l'usine) : 0 succès, 1 contrôle en échec, 2 usage, 4 
 
 Paramètres du jeu, `.woodpecker/usine.json` (tous facultatifs) :
   node_image     image Node des contrôles (défaut : NODE_IMAGE ci-dessous)
-  checks_extra   étapes YAML propres au jeu, insérées après `build` (texte, indentation de `steps:` à 2 espaces)
-  e2e_commande   commande des specs Playwright (défaut : npx playwright test)
+  checks_extra   étapes YAML propres au jeu, ajoutées APRÈS les contrôles communs (liste « - name: » à 2 espaces ;
+                 ni privileged, ni volumes, ni attribut glissé dans une étape commune)
+  e2e_commande   commande des specs Playwright, une seule ligne (défaut : npx playwright test)
   e2e            false = pas d'e2e.yml (jeu sans Playwright)
 Ce qui est COMMUN et non négociable : SBOM CycloneDX vérifié, image Playwright lue au package-lock, e2e de démarrage
 sous la CSP de production, audit, licences, secrets.
@@ -22,6 +23,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import pathlib
 import re
 import sys
@@ -39,6 +41,40 @@ class Indisponible(Exception):
     """Source indisponible (code 4) : lock ou paramètres illisibles."""
 
 
+class Refus(Exception):
+    """Contrôle en échec (code 1) : écriture refusée (lien symbolique, chemin hors du jeu)."""
+
+
+# Revue Codex 3 (19/11) : les paramètres du jeu ne peuvent ni sortir de leur scalaire, ni ajouter d'attribut à une étape commune.
+IMAGE_RE = re.compile(r"[a-z0-9][a-z0-9._/:@-]{0,254}")
+INTERDITS_EXTRA = re.compile(r"^\s*-?\s*(privileged|volumes|network_mode|devices|pull|failure)\s*:", re.M)
+
+
+def _ligne_simple(cle: str, v) -> str:
+    if not isinstance(v, str) or not v.strip() or any(c in v for c in "\r\n\t\0") or len(v) > 500:
+        raise Indisponible(f"usine.json : {cle} doit être une chaîne d'une seule ligne, non vide")
+    return v
+
+
+def _checks_extra(v) -> str:
+    """Étapes propres au jeu : une liste d'étapes `  - name: …` à 2 espaces, rien d'autre (pas d'attribut glissé dans
+    l'étape précédente, pas de clé de premier niveau, pas de privilège)."""
+    if v in (None, ""):
+        return ""
+    if not isinstance(v, str) or "\t" in v or "\r" in v:
+        raise Indisponible("usine.json : checks_extra doit être un texte YAML sans tabulation")
+    lignes = [l for l in v.rstrip("\n").split("\n")]
+    pleines = [l for l in lignes if l.strip()]
+    if not pleines or not pleines[0].startswith("  - name: "):
+        raise Indisponible("usine.json : checks_extra doit commencer par « - name: » (indentation 2)")
+    for l in pleines:
+        if not (l.startswith("  - name: ") or l.startswith("    ")):
+            raise Indisponible(f"usine.json : checks_extra, ligne hors d'une étape : {l!r}")
+    if INTERDITS_EXTRA.search(v):
+        raise Indisponible("usine.json : checks_extra ne peut pas demander privileged, volumes, network_mode, devices, pull, failure")
+    return "\n".join(lignes)
+
+
 def empreinte_gabarit() -> str:
     """Empreinte de TOUT ce qui fait la CI commune : un gabarit ou un script changé ⇒ chaque jeu est en dérive."""
     h = hashlib.sha256()
@@ -48,12 +84,13 @@ def empreinte_gabarit() -> str:
 
 
 def version_playwright(lock: dict) -> str | None:
-    """Même règle que scripts/version-playwright.mjs."""
+    """Même règle que scripts/version-playwright.mjs : la PREMIÈRE valeur présente, qui doit être exacte (revue Codex 3 :
+    Python sautait une première valeur inexacte que le script JS, lui, refuse)."""
     p, d = lock.get("packages") or {}, lock.get("dependencies") or {}
     for v in ((p.get("node_modules/@playwright/test") or {}).get("version"), (p.get("node_modules/playwright") or {}).get("version"),
               (d.get("@playwright/test") or {}).get("version"), (d.get("playwright") or {}).get("version")):
-        if isinstance(v, str) and re.fullmatch(r"\d+\.\d+\.\d+", v):
-            return v
+        if v is not None:
+            return v if isinstance(v, str) and re.fullmatch(r"\d+\.\d+\.\d+", v) else None
     return None
 
 
@@ -76,9 +113,16 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
     emp = empreinte_gabarit()
     entete = (f"# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit {emp[:12]}) : ne pas éditer à la main.\n"
               "# Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.")
-    extra = str(p.get("checks_extra") or "").rstrip("\n")
-    valeurs = {"@ENTETE@": entete, "@NODE_IMAGE@": p.get("node_image") or NODE_IMAGE, "@GITLEAKS_IMAGE@": GITLEAKS_IMAGE,
-               "@CHECKS_EXTRA@": extra, "@E2E_COMMANDE@": p.get("e2e_commande") or E2E_COMMANDE}
+    extra = _checks_extra(p.get("checks_extra"))
+    image = _ligne_simple("node_image", p["node_image"]) if "node_image" in p else NODE_IMAGE
+    if not IMAGE_RE.fullmatch(image):
+        raise Indisponible(f"usine.json : node_image invalide {image!r}")
+    commande = _ligne_simple("e2e_commande", p["e2e_commande"]) if "e2e_commande" in p else E2E_COMMANDE
+    if "e2e" in p and not isinstance(p["e2e"], bool):
+        raise Indisponible("usine.json : e2e doit être true ou false")
+    # json.dumps = scalaire YAML entre guillemets doubles : « a: b », « # », « & » restent du texte
+    valeurs = {"@ENTETE@": entete, "@NODE_IMAGE@": image, "@GITLEAKS_IMAGE@": GITLEAKS_IMAGE,
+               "@CHECKS_EXTRA@": extra, "@E2E_COMMANDE@": json.dumps(commande, ensure_ascii=False)}
     fichiers = {"checks.yml": True, "e2e.yml": p.get("e2e", True) is not False}
     if fichiers["e2e.yml"]:
         try:
@@ -105,12 +149,33 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
     return out
 
 
+def _liens(depot: pathlib.Path, chemin: str) -> str | None:
+    """Premier composant de `chemin` (dans le dépôt) qui est un lien symbolique, ou None."""
+    c = depot
+    for part in pathlib.PurePosixPath(chemin).parts:
+        c = c / part
+        if c.is_symlink():
+            return str(c.relative_to(depot))
+    return None
+
+
 def derives(depot: pathlib.Path) -> list[str]:
-    """Écarts entre la CI du jeu et le gabarit ; vide = conforme."""
+    """Écarts entre la CI du jeu et le gabarit ; vide = conforme. Revue Codex 3 (19/11) : un workflow ou un script
+    SURNUMÉRAIRE (ancien e2e.yml d'un jeu passé à `e2e: false`, autre .yml, ancien .mjs) est aussi une dérive, car
+    Woodpecker exécute tout `.woodpecker/*.yml` ; un fichier généré en lien symbolique aussi."""
     out = []
-    for chemin, attendu in rendre(depot).items():
+    attendus = rendre(depot)
+    wp = depot / ".woodpecker"
+    if wp.is_dir() and not wp.is_symlink():
+        presents = {str(f.relative_to(depot)) for f in wp.rglob("*") if (f.is_file() or f.is_symlink()) and f.name != "usine.json"}
+        for chemin in sorted(presents - set(attendus)):
+            out.append(f"{chemin} surnuméraire (non généré par l'usine : le retirer)")
+    for chemin, attendu in attendus.items():
         f = depot / chemin
-        if not f.is_file():
+        lien = _liens(depot, chemin)
+        if lien:
+            out.append(f"{chemin} : {lien} est un lien symbolique (fichier réel exigé)")
+        elif not f.is_file():
             out.append(f"{chemin} absent")
         elif f.read_text(encoding="utf-8") != attendu:
             out.append(f"{chemin} diffère du gabarit (modifié à la main, gabarit plus récent ou lock changé)")
@@ -137,10 +202,18 @@ def main(argv: list[str]) -> int:
             return 1 if d else 0
         fichiers = rendre(depot)
         if "--ecrire" in drapeaux:
+            for chemin in fichiers:   # tout vérifier AVANT d'écrire quoi que ce soit
+                lien = _liens(depot, chemin)
+                if lien:
+                    raise Refus(f"{lien} est un lien symbolique : écriture refusée (elle sortirait peut-être du jeu)")
             for chemin, texte in fichiers.items():
                 f = depot / chemin
                 f.parent.mkdir(parents=True, exist_ok=True)
-                f.write_text(texte, encoding="utf-8")
+                tmp = f.with_name(f".{f.name}.usine-tmp")
+                fd = os.open(tmp, os.O_WRONLY | os.O_CREAT | os.O_TRUNC | os.O_NOFOLLOW, 0o644)
+                with os.fdopen(fd, "w", encoding="utf-8") as h:
+                    h.write(texte)
+                os.replace(tmp, f)
         if "--json" in drapeaux:
             print(json.dumps({"ok": True, "fichiers": sorted(fichiers), "ecrit": "--ecrire" in drapeaux}, ensure_ascii=False))
         else:
@@ -150,6 +223,9 @@ def main(argv: list[str]) -> int:
     except Indisponible as e:
         print(f"source indisponible : {e}", file=sys.stderr)
         return 4
+    except Refus as e:
+        print(f"REFUS : {e}", file=sys.stderr)
+        return 1
 
 
 if __name__ == "__main__":

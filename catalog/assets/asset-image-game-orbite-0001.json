@@ -1,0 +1,170 @@
+{
+  "alpha": false,
+  "category": "image",
+  "createdAt": "2026-11-11T09:00:57+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Game orbite — image 780×1688",
+  "dimensions": {
+    "height": 1688,
+    "width": 780
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGB"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "da58e8e8881d7500ac63f2af5c4664650d644c54",
+        "game": null,
+        "path": "code/opencade/apercus/game-orbite.webp",
+        "provider": "local",
+        "repo": "jeux-assets",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-game-orbite-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "code/opencade/apercus/game-orbite.webp · game-orbite"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "game-orbite",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "2c9c98b81eaeb08e",
+    "phash": "b45af4b4a65ab41a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "jeux-assets@da58e8e8881d7500ac63f2af5c4664650d644c54:code/opencade/apercus/game-orbite.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "188cb131cca2e3177847841e59d6f61dfe8282c00c622c8dca5b0e50ce63fa33",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/18/188cb131cca2e3177847841e59d6f61dfe8282c00c622c8dca5b0e50ce63fa33.webp",
+  "updatedAt": "2026-11-11T10:00:57+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "code/opencade/apercus/game-orbite.webp": "4924b78fc86f435e9546ff28204e711cb39d09f9"
+      },
+      "assetPath": "code/opencade/apercus/game-orbite.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11623,
+        "path": "catalogue.json"
+      },
+      "commit": "da58e8e8881d7500ac63f2af5c4664650d644c54",
+      "evidence": [
+        "literal: code/opencade/apercus/game-orbite.webp",
+        "module-path: catalogue.json"
+      ],
+      "game": "jeux-assets",
+      "importName": "game-orbite",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "jeux-assets",
+      "role": "sprite",
+      "scene": "catalogue.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "da58e8e8881d7500ac63f2af5c4664650d644c54",
+      "date": "2026-11-11T10:00:57+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "188cb131cca2e3177847841e59d6f61dfe8282c00c622c8dca5b0e50ce63fa33",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

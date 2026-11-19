@@ -1,0 +1,225 @@
+{
+  "alpha": true,
+  "category": "environments",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite paillasse fond jeu — sprite 224×224",
+  "dimensions": {
+    "height": 224,
+    "width": 224
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-paillasse-fond-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-fond-jeu-2x-0001",
+        "h": 224,
+        "w": 224,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-paillasse-fond-jeu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@2x.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@2x.json · sprite-paillasse-fond-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@2x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@2x.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@2x.json · backgrounds"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-paillasse-fond-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "08c419cae633c800",
+    "phash": "c13bbec4453b3ac4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 113,
+    "verified": false,
+    "w": 304,
+    "x": 1169,
+    "y": 616
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "backgrounds",
+  "tags": [
+    "backgrounds"
+  ],
+  "thumbnail": "thumbnails/f2/f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fond-jeu@2x.json": "93ca21e1618319cbc98f7ba8ae97bc376181bfe9",
+        "packages/assets/atlas/fond-jeu@2x.png": "ccb56390bc4ecae448ba3cdba237f18d3bfbdca1"
+      },
+      "assetPath": "packages/assets/atlas/fond-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2622,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fond-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fond-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fond-jeu@2x.json": "93ca21e1618319cbc98f7ba8ae97bc376181bfe9",
+        "packages/assets/atlas/fond-jeu@2x.png": "ccb56390bc4ecae448ba3cdba237f18d3bfbdca1"
+      },
+      "assetPath": "packages/assets/atlas/fond-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 232,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fond-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fond-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

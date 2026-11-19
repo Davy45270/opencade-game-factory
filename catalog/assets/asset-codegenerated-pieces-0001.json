@@ -1,0 +1,194 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-18T12:10:30+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Pieces — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "src/art/pieces.ts",
+      "repo": "echecs-kid",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "659a2a6c3c07591f7d47c2425d1b612d93ade3fcd9bb6ee1cfd4947b8c7e6d25",
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "src/art/pieces.ts",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "659a2a6c3c07591f7d47c2425d1b612d93ade3fcd9bb6ee1cfd4947b8c7e6d25",
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "src/art/pieces.ts",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-pieces-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/art/pieces.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/art/pieces.ts · pieces"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/art/pieces.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/art/pieces.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/art/pieces.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c"
+  },
+  "name": "pieces",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/art/pieces.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "659a2a6c3c07591f7d47c2425d1b612d93ade3fcd9bb6ee1cfd4947b8c7e6d25",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/art/pieces.ts": "2c668819f48e89110b24a678a5d1123b6dbd0ae1"
+      },
+      "assetPath": "src/art/pieces.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "scripts/make-icons.js"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: src/art/pieces.ts",
+        "module-path: scripts/make-icons.js"
+      ],
+      "game": "echecs-kid",
+      "importName": "pieces",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "scripts/make-icons.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/art/pieces.ts": "2c668819f48e89110b24a678a5d1123b6dbd0ae1"
+      },
+      "assetPath": "src/art/pieces.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "scripts/make-icons.js"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: src/art/pieces.ts",
+        "module-path: scripts/make-icons.js"
+      ],
+      "game": "echecs-kid",
+      "importName": "pieces",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "scripts/make-icons.js",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "659a2a6c3c07591f7d47c2425d1b612d93ade3fcd9bb6ee1cfd4947b8c7e6d25",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

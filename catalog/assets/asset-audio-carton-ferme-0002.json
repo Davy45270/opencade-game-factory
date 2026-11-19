@@ -1,0 +1,269 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-19T08:47:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Carton ferme — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 44100
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/carton-ferme.ogg",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/carton-ferme.ogg",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-carton-ferme-0002",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/carton-ferme.ogg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/public/sons/carton-ferme.ogg · carton-ferme"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/carton-ferme.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/carton-ferme.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/carton-ferme.ogg"
+      ],
+      "method": "proven"
+    },
+    "state": {
+      "confidence": 0.75,
+      "evidence": [
+        "apps/web/public/sons/carton-ferme.ogg · ferme"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "apps/web/public/sons/carton-ferme.ogg · closed"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "carton-ferme",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/carton-ferme.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ea85bc8a4ce7375a22cdf33d81c281fe006a28ec2d639ada85854844c65462a0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": "closed",
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "closed"
+  ],
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/carton-ferme.ogg": "abb2db904e8416bc818669c5aa78425025bb46f2"
+      },
+      "assetPath": "apps/web/public/sons/carton-ferme.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 47,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/carton-ferme.ogg",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "carton-ferme",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/carton-ferme.ogg": "abb2db904e8416bc818669c5aa78425025bb46f2"
+      },
+      "assetPath": "apps/web/public/sons/carton-ferme.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5758,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/carton-ferme.ogg",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "carton-ferme",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/carton-ferme.ogg": "abb2db904e8416bc818669c5aa78425025bb46f2"
+      },
+      "assetPath": "apps/web/public/sons/carton-ferme.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 47,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/carton-ferme.ogg",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "carton-ferme",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/carton-ferme.ogg": "abb2db904e8416bc818669c5aa78425025bb46f2"
+      },
+      "assetPath": "apps/web/public/sons/carton-ferme.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5758,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/carton-ferme.ogg",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "carton-ferme",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ea85bc8a4ce7375a22cdf33d81c281fe006a28ec2d639ada85854844c65462a0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,214 @@
+{
+  "alpha": false,
+  "category": "image",
+  "createdAt": "2026-11-18T12:10:30+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Pieces mobile — image 336×234",
+  "dimensions": {
+    "height": 234,
+    "width": 336
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGB"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "docs/captures/pieces-mobile.png",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "docs/captures/pieces-mobile.png",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-pieces-mobile-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "docs/captures/pieces-mobile.png · pieces-mobile"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "pieces-mobile",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "4b6bb7a62424dbdb",
+    "phash": "adad2bdf53a92420"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/pieces-mobile.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d6ea45fbfc445dcd0df65f0a9580ee979cca634414a599cc249794365dacff8f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/d6/d6ea45fbfc445dcd0df65f0a9580ee979cca634414a599cc249794365dacff8f.webp",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "docs/captures/pieces-mobile.png": "5f4e4a81edd7d276e6de430950006ca7897f5e85"
+      },
+      "assetPath": "docs/captures/pieces-mobile.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "tests/e2e/captures.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: docs/captures/pieces-mobile.png",
+        "module-path: tests/e2e/captures.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "pieces-mobile",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "tests/e2e/captures.spec.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "docs/captures/pieces-mobile.png": "5f4e4a81edd7d276e6de430950006ca7897f5e85"
+      },
+      "assetPath": "docs/captures/pieces-mobile.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "tests/e2e/captures.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: docs/captures/pieces-mobile.png",
+        "module-path: tests/e2e/captures.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "pieces-mobile",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "tests/e2e/captures.spec.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d6ea45fbfc445dcd0df65f0a9580ee979cca634414a599cc249794365dacff8f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

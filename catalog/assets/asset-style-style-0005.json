@@ -1,0 +1,189 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-11T12:40:55+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/demineur",
+        "path": "src/games/demineur/style.css",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/demineur",
+        "path": "src/games/demineur/style.css",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0005",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/demineur/style.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/games/demineur/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/demineur/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/demineur/style.css"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/demineur/style.css · demineur"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/demineur/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "demineur",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/demineur/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fe3cf55ab8a11e684de0a9878cf7f487291e5dfbfa8c3fa97e29570096b0a1c3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/games/demineur/style.css": "287f053a7b35e45a64fe1bb49221c7d2446f965c"
+      },
+      "assetPath": "src/games/demineur/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "src/games/demineur/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/demineur/style.css",
+        "phaser-super: demineur"
+      ],
+      "game": "opencade/demineur",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "demineur",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/demineur/style.css": "287f053a7b35e45a64fe1bb49221c7d2446f965c"
+      },
+      "assetPath": "src/games/demineur/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "src/games/demineur/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/demineur/style.css",
+        "phaser-super: demineur"
+      ],
+      "game": "opencade/demineur",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "demineur",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fe3cf55ab8a11e684de0a9878cf7f487291e5dfbfa8c3fa97e29570096b0a1c3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,250 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T08:47:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "P01 meubles — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 192,
+        "name": "sprite-chaise-bois",
+        "w": 192,
+        "x": 2,
+        "y": 2
+      },
+      {
+        "h": 192,
+        "name": "sprite-commode",
+        "w": 192,
+        "x": 198,
+        "y": 2
+      },
+      {
+        "h": 192,
+        "name": "sprite-etagere-plante",
+        "w": 192,
+        "x": 394,
+        "y": 2
+      },
+      {
+        "h": 192,
+        "name": "sprite-evier-vert",
+        "w": 192,
+        "x": 2,
+        "y": 198
+      },
+      {
+        "h": 192,
+        "name": "sprite-fauteuil-terracotta",
+        "w": 192,
+        "x": 198,
+        "y": 198
+      },
+      {
+        "h": 192,
+        "name": "sprite-frigo",
+        "w": 192,
+        "x": 394,
+        "y": 198
+      },
+      {
+        "h": 192,
+        "name": "sprite-lit-bleu",
+        "w": 192,
+        "x": 2,
+        "y": 394
+      },
+      {
+        "h": 192,
+        "name": "sprite-table-ronde",
+        "w": 192,
+        "x": 198,
+        "y": 394
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p01-meubles.json",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p01-meubles.json",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "p01-meubles.webp"
+  },
+  "id": "asset-atlas-p01-meubles-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p01-meubles.json · p01-meubles"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "p01-meubles",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8c9fd955d95f01c8fdf38169e09b0eb6dd0d48665601cd02a40694152e850f81",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-meubles.json": "a8fd2bc23e80e88909d310ad96a59a08e02d66af"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-meubles.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 103,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-meubles.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-meubles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-meubles.json": "a8fd2bc23e80e88909d310ad96a59a08e02d66af"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-meubles.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 103,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-meubles.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-meubles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8c9fd955d95f01c8fdf38169e09b0eb6dd0d48665601cd02a40694152e850f81",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

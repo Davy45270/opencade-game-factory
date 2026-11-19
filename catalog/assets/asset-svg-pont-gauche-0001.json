@@ -1,0 +1,197 @@
+{
+  "alpha": null,
+  "category": "svg",
+  "createdAt": "2026-11-19T06:17:37+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Pont gauche — svg",
+  "dimensions": null,
+  "facing": "left",
+  "family": {
+    "svg": {
+      "height": null,
+      "viewBox": "0 0 96 96",
+      "width": null
+    },
+    "type": "svg"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/pont-gauche.svg",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "svg",
+  "id": "asset-svg-pont-gauche-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-gauche.svg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/source/svg/pont-gauche.svg · pont-gauche"
+      ],
+      "method": "heuristic"
+    },
+    "facing": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-gauche.svg · left"
+      ],
+      "method": "path-tokens"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-gauche.svg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-gauche.svg"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-gauche.svg · gauche"
+      ],
+      "method": "path-tokens"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-gauche.svg · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-gauche.svg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "pont-gauche",
+  "orientation": "left",
+  "originUniverse": "assets",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-gauche.svg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "15644cca41ba18d84b4482432be932134dba874e23ed0078e2115f14f03d43b5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/pont-gauche.svg": "85e8a85a48ed95da5d0bc75f28911d0af6276d0e"
+      },
+      "assetPath": "packages/assets/source/svg/pont-gauche.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7404,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/pont-gauche.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pont-gauche",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/pont-gauche.svg": "85e8a85a48ed95da5d0bc75f28911d0af6276d0e"
+      },
+      "assetPath": "packages/assets/source/svg/pont-gauche.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3118,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/pont-gauche.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pont-gauche",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "15644cca41ba18d84b4482432be932134dba874e23ed0078e2115f14f03d43b5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

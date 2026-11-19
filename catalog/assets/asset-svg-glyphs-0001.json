@@ -1,0 +1,319 @@
+{
+  "alpha": null,
+  "category": "svg",
+  "createdAt": "2026-11-18T20:57:44+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Glyphs — svg",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "svg": {
+      "height": null,
+      "viewBox": "0 0 24 24",
+      "width": null
+    },
+    "type": "svg"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "apps/web/public/art/glyphs.svg",
+        "provider": "forgejo",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "apps/web/public/art/glyphs.svg",
+        "provider": "local",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "svg",
+  "id": "asset-svg-glyphs-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/art/glyphs.svg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/public/art/glyphs.svg · glyphs"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/art/glyphs.svg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/art/glyphs.svg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/art/glyphs.svg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "glyphs",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/art/glyphs.svg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5151d9cbd40f3172a120636c70ebc8f17a5675fca3db30d0195399c482e50f9b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:38:02+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 60,
+        "path": "packages/renderer-pixi/test/palette.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: packages/renderer-pixi/test/palette.test.ts"
+      ],
+      "game": "six-de-chaque/renderer-pixi",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "packages/renderer-pixi/test/palette.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 60,
+        "path": "packages/renderer-pixi/test/palette.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: packages/renderer-pixi/test/palette.test.ts"
+      ],
+      "game": "six-de-chaque/renderer-pixi",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "packages/renderer-pixi/test/palette.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "date": "2026-11-19T15:38:02+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5151d9cbd40f3172a120636c70ebc8f17a5675fca3db30d0195399c482e50f9b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

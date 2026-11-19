@@ -1,0 +1,239 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "M02 creatures — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 96,
+        "name": "sprite-champignon-mignon-evolue",
+        "w": 96,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-champignon-mignon",
+        "w": 96,
+        "x": 96,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-lapin-aile",
+        "w": 96,
+        "x": 192,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-lapin",
+        "w": 96,
+        "x": 0,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-mossling-fleuri",
+        "w": 96,
+        "x": 96,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-mossling",
+        "w": 96,
+        "x": 192,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-sanglier-brun-evolue",
+        "w": 96,
+        "x": 0,
+        "y": 192
+      },
+      {
+        "h": 96,
+        "name": "sprite-sanglier-brun",
+        "w": 96,
+        "x": 96,
+        "y": 192
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m02-creatures.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "m02-creatures.png"
+  },
+  "id": "asset-atlas-m02-creatures-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/m02-creatures.json · m02-creatures"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "m02-creatures",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-creatures.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7b5d98179c035d808dac64c37a1aeeae1a5ac3431c76d524140d5355eb8e89bb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 830,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m02-creatures.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/manifests/m02-creatures.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7b5d98179c035d808dac64c37a1aeeae1a5ac3431c76d524140d5355eb8e89bb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

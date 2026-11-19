@@ -1,0 +1,512 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-19T13:17:41+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Styles — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/src/styles.css",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/src/styles.css",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-styles-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/src/styles.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/src/styles.css · styles"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "styles",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/src/styles.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1e480fd59920f6840de6a3185002f0ce5a0bbf25fb1cd329426e83ace163384b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11,
+        "path": "apps/web/src/main.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "import: apps/web/src/styles.css",
+        "module-path: apps/web/src/main.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "apps/web/src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 29,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 101,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 149,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 39,
+        "path": "tests/unit/web/view-fade.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/view-fade.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/view-fade.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11,
+        "path": "apps/web/src/main.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "import: apps/web/src/styles.css",
+        "module-path: apps/web/src/main.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "apps/web/src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 29,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 101,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 149,
+        "path": "tests/unit/web/styles.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/styles.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/styles.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "63b937f643902e4dc9cb5ffedb50f6c93cdf58ec"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 39,
+        "path": "tests/unit/web/view-fade.test.ts"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/unit/web/view-fade.test.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "tests/unit/web/view-fade.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1e480fd59920f6840de6a3185002f0ce5a0bbf25fb1cd329426e83ace163384b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

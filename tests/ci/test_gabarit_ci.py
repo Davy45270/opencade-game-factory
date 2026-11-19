@@ -140,6 +140,33 @@ class ScriptsCommuns(unittest.TestCase):
         r = subprocess.run([NODE, str(RACINE / "ci/scripts/verifier-sbom.mjs"), str(f)], capture_output=True)
         self.assertEqual(r.returncode, 1)
 
+    # Garde « identifiant de ticket » (relevé de Cozy, 19/11) : CC-BY-4.0 était pris pour un ticket (motif BY-4).
+    # Les identifiants de licence SPDX connus sont exclus PAR LISTE ; le motif de ticket n'est pas élargi.
+    def garde(self, *lignes: str) -> list[bool]:
+        f = self.tmp / "lignes.json"
+        f.write_text(json.dumps(list(lignes)))
+        code = ("import { estTicket } from " + json.dumps((RACINE / "ci/scripts/garde-ticket.mjs").as_uri()) + ";"
+                "import { readFileSync } from 'node:fs';"
+                "console.log(JSON.stringify(JSON.parse(readFileSync(process.argv[1], 'utf8')).map(estTicket)));")
+        r = subprocess.run([NODE, "--input-type=module", "-e", code, str(f)], capture_output=True, text=True, timeout=30)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        return json.loads(r.stdout)
+
+    def test_garde_ticket_licences_spdx_passent(self) -> None:
+        self.assertEqual(self.garde('"licence": "CC-BY-4.0",', "Assets : CC-BY-SA-4.0.", "GPL-3.0-or-later", "code MIT, assets CC-BY-4.0"),
+                         [False, False, False, False])
+
+    def test_garde_ticket_tickets_restent_refuses(self) -> None:
+        self.assertEqual(self.garde("voir HL-123", "QWK-012 : score", "CC-BY-4.0 et HL-9", "XCC-BY-4.0", "CC-BY-4"),
+                         [True, True, True, True, True])
+
+    def test_garde_ticket_cli(self) -> None:
+        (self.tmp / "ok.txt").write_text("licence CC-BY-4.0\n")
+        (self.tmp / "ko.txt").write_text("ligne propre\nréf HL-42\n")
+        r = subprocess.run([NODE, str(RACINE / "ci/scripts/garde-ticket.mjs"), str(self.tmp / "ok.txt"), str(self.tmp / "ko.txt")],
+                           capture_output=True, text=True, timeout=30)
+        self.assertEqual((r.returncode, r.stdout.strip()), (1, f"{self.tmp / 'ko.txt'}:2"))
+
 
 if __name__ == "__main__":
     unittest.main()

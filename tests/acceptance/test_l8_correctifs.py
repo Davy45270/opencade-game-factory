@@ -271,5 +271,53 @@ class L8LiensCausauxCoherents(L5._Monde):
         self.assertEqual(r.code, C.OK, f"témoin : liens issus du scan\n{r}")
 
 
+# ------------------------------------------------------------------------------------------------
+# Mineur — la preuve héritée d'un dérivé suit la révision de son parent
+# ------------------------------------------------------------------------------------------------
+
+class L8PreuveHeriteeSuitLeParent(L5._Monde):
+    """Constat mineur (relecture n° 2) : « Il reste un risque si la preuve d'un parent est corrigée vers
+    `unknown` à numéro et SHA constants. Un dérivé déjà créé conserve sa preuve copiée, et la garde de livraison
+    ne vérifie que sa propre fiche. Si cette correction invalide l'autorisation d'origine, le dérivé reste
+    exportable. Il faut rattacher la preuve héritée à la décision sur la révision du parent et traiter
+    explicitement son invalidation. »
+
+    Contrat : la garde publique d'un dérivé relit la révision du parent qu'il cite (`parentId`,
+    `parentVersion`, `parentSha256`). Si cette révision n'a plus de licence admissible prouvée, `materialize`
+    vers une cible publique refuse le dérivé (code 3). Témoin : parent CC0 prouvé, dérivé livrable."""
+
+    def setUp(self):
+        super().setUp()
+        L5._scan(self)
+        self.parent_id, _ = C.asset_par_chemin(self.reg, "jeu-a", M.FOUET)
+        L5._modifier_fiche(self.reg, self.parent_id, license="CC0-1.0", licenseEvidence=L5.PREUVE)
+        self.world.commiter_registre("Catalogue : parent CC0 prouvé")
+        recette = self.world.racine / "recette-l8.json"
+        recette.write_text('{"mirror": true}\n', encoding="utf-8")
+        r = self.world.ctl(["derive", self.parent_id, "--recipe", str(recette), "--json"])
+        self.assertEqual(r.code, C.OK, f"fixture : derive\n{r}")
+        self.derive = r.json["asset"]
+        self.assertEqual(self.derive.get("license"), "CC0-1.0", f"fixture : licence héritée : {self.derive}")
+        self.world.commiter_registre("Catalogue : dérivé du parent CC0")
+        self.dest = self.world.racine / "sortie-l8"
+
+    def _livrer(self):
+        return self.world.ctl(C.cmd_materialize(self.derive["id"], self.dest / "derive.png"))
+
+    def test_temoin_parent_prouve_derive_livrable(self):
+        r = self._livrer()
+        self.assertEqual(r.code, C.OK, f"témoin : parent CC0 prouvé, dérivé livrable en public\n{r}")
+
+    def test_parent_corrige_vers_unknown_derive_refuse(self):
+        parent = C.assets(self.reg)[self.parent_id]
+        corrige = L5._modifier_fiche(self.reg, self.parent_id, license="unknown", licenseEvidence=[])
+        self.assertEqual((corrige["version"], corrige["sha256"]), (parent["version"], parent["sha256"]),
+                         "fixture : correction à numéro et SHA constants")
+        self.world.commiter_registre("Catalogue : licence du parent corrigée vers unknown")
+        r = self._livrer()
+        self.assertEqual(r.code, C.REFUS, "la révision du parent n'a plus de licence prouvée : le dérivé "
+                                          f"ne doit plus être livrable en public (3)\n{r}")
+
+
 if __name__ == "__main__":
     unittest.main()

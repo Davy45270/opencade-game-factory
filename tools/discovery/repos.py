@@ -72,7 +72,7 @@ def _copies(path):
         for item in source["copies"]:
             copy = Copy(source["name"], source["role"], tuple(source["games"]), item["provider"],
                         item.get("path", item.get("url")), item.get("visibility", "unknown"),
-                        item.get("defaultBranch"))
+                        item["defaultBranch"])
             result[copy.key] = copy
     return result
 
@@ -138,6 +138,10 @@ class GitError(OSError):
     pass
 
 
+def _missing_branch(copy):
+    return f"Branche par défaut « {copy.default_branch} » absente de la copie {copy.provider} de {copy.name}."
+
+
 class Git:
     def __init__(self, root):
         self.root = root
@@ -172,7 +176,7 @@ class Git:
     def remote_head(self, copy):
         url = self.transport(copy)
         ref = f"refs/heads/{copy.default_branch}" if copy.default_branch else "HEAD"
-        values = self.run("ls-remote", "--symref", "--exit-code", "--", url, ref).splitlines()
+        values = self.run("ls-remote", "--symref", "--exit-code", "--", url, ref, ok=(0, 2)).splitlines()
         branch = copy.default_branch
         commit = None
         for value in values:
@@ -184,7 +188,7 @@ class Git:
             elif OID.fullmatch(target.decode()):
                 commit = target.decode()
         if commit is None:
-            raise GitError("Tête distante absente.")
+            raise GitError(_missing_branch(copy) if copy.default_branch else "Tête distante absente.")
         return commit, branch
 
     def prepare(self, copy, cache, fetch):
@@ -209,7 +213,21 @@ class Git:
                          "+refs/*:refs/*", mirror=mirror)
                 if branch:
                     self.run("symbolic-ref", "HEAD", f"refs/heads/{branch}", mirror=mirror)
+        if copy.default_branch:
+            self.pin_default_branch(copy, mirror)
         return mirror
+
+    def pin_default_branch(self, copy, mirror):
+        """La source se lit sur sa branche par défaut, jamais sur la branche extraite ni l'arbre de
+        travail (HL-538, 19/11) ; absente : source indisponible, sans repli sur HEAD."""
+        ref = f"refs/heads/{copy.default_branch}"
+        found = self.run("rev-parse", "--verify", "--quiet", "--end-of-options", ref + "^{commit}",
+                         mirror=mirror, ok=(0, 1, 128)).strip()
+        if not OID.fullmatch(found.decode("ascii", "replace")):
+            raise GitError(_missing_branch(copy))
+        current = self.run("symbolic-ref", "--quiet", "HEAD", mirror=mirror, ok=(0, 1)).strip()
+        if current.decode("utf-8", "replace") != ref:
+            self.run("symbolic-ref", "HEAD", ref, mirror=mirror)
 
     def check_mirror(self, copy, mirror):
         for relative in ("config", "objects", "objects/info", "objects/pack", "refs", "HEAD", "packed-refs"):

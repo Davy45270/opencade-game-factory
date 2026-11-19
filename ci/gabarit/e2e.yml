@@ -1,0 +1,23 @@
+@ENTETE@
+# e2e : l'image Playwright est CELLE du package-lock (vérifiée avant tout test), puis le démarrage de l'application
+# construite sous la CSP de production (aucune violation, aucune erreur JS), puis les specs Playwright du jeu.
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: main
+  - event: [pull_request, manual]
+
+steps:
+  - name: e2e
+    image: &playwright @PLAYWRIGHT_IMAGE@
+    environment:
+      PW_IMAGE: *playwright
+      CI: "1"
+    commands:
+      - node .woodpecker/usine/version-playwright.mjs --verifier "$${PW_IMAGE}"
+      - npm ci
+      - npm run build
+      - node .woodpecker/usine/demarrage-csp.mjs dist
+      - @E2E_COMMANDE@

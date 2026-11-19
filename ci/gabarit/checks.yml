@@ -1,0 +1,52 @@
+@ENTETE@
+# Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
+# VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: main
+  - event: [pull_request, manual]
+
+steps:
+  - name: npm ci
+    image: &node @NODE_IMAGE@
+    pull: true
+    commands:
+      - node --version
+      - npm ci
+  - name: lint
+    image: *node
+    commands:
+      - npm run --if-present lint
+  - name: typecheck
+    image: *node
+    commands:
+      - npm run --if-present typecheck
+  - name: test
+    image: *node
+    commands:
+      - npm test
+  - name: build
+    image: *node
+    commands:
+      - npm run build
+      - sha256sum dist/index.html
+      - echo "empreinte dist $(cd dist && find . -type f -print0 | LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -c1-64)"
+@CHECKS_EXTRA@
+  - name: sbom
+    image: *node
+    commands:
+      - npm sbom --sbom-format cyclonedx --sbom-type application --package-lock-only > sbom.json
+      - node .woodpecker/usine/verifier-sbom.mjs sbom.json
+      - sha256sum sbom.json
+  - name: audit et licences
+    image: *node
+    commands:
+      - npm audit --audit-level=high
+      - npm run --if-present check:licenses
+  - name: secrets
+    image: @GITLEAKS_IMAGE@
+    commands:
+      - gitleaks detect --source . --no-banner --redact

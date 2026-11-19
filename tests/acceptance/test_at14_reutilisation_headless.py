@@ -22,6 +22,9 @@ class AT14ReutilisationHeadless(MondeScanne):
 
     def test_search_usage_add_materialize_check_lock(self):
         self.exiger_scan_ok()
+        # Comme dans un vrai usage, le catalogue importé est commité avant `usage add` : le lock cite un
+        # `registryCommit` qui contient le couple assetId/assetVersion (contrat L5, arbitrage HL-538 du 19/11).
+        self.monde.commiter_registre("Catalogue importé (AT-14)")
         asset_id, fouet = self.asset("jeu-a", FOUET)
         r = self.ctl(C.cmd_search("fouet"))
         self.exiger_code(r, C.OK)

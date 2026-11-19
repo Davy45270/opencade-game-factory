@@ -301,5 +301,63 @@ class L6CorrespondanceDeChemins(_Monde):
         self.assertEqual(r.code, C.OK, f"`pathAliases` fait partie du schéma des sources\n{r}")
 
 
+# ------------------------------------------------------------------------------------------------
+# 3. `usage add` sur un catalogue non commité (mode de panne mis au jour par AT-14 sous L5)
+# ------------------------------------------------------------------------------------------------
+
+DEST_U = "public/assets/reutilise/fouet.png"
+
+
+class L6UsageAddCatalogueNonCommite(_Monde):
+    """Arbitrage du coordinateur, HL-538, 19/11 : « AT-14 : ACCEPTÉ. Le scénario commite le catalogue après le
+    scan, comme dans un vrai usage. […] ajoute un cas d'oracle où `usage add` s'exécute sur un catalogue qui
+    n'est pas commité, ou dont le HEAD ne contient pas l'asset. Il doit être REFUSÉ (rc 3, avec un message qui
+    dit « commite le catalogue »), au lieu d'écrire un registryCommit faux. »
+
+    Contrat : `usage add` refuse (code 3), n'écrit aucun lock, et son message contient « commite le catalogue »,
+    quand le catalogue a des changements non commités ou quand HEAD ne contient pas le couple
+    assetId/assetVersion demandé. Témoin : catalogue commité → code 0, `registryCommit` = HEAD."""
+
+    def _usage_add(self, asset_id):
+        jeu_b = self.world.depot("jeu-b")
+        r = self.world.ctl(C.cmd_usage_add(asset_id, "jeu-b", "Menu", "sprite", jeu_b, DEST_U, C.OPTION_CIBLE_PRIVEE))
+        return r, jeu_b / C.LOCK_JEU
+
+    def _refus(self, r, lock):
+        self.assertEqual(r.code, C.REFUS, f"usage add sur un catalogue non commité : refus (3) attendu\n{r}")
+        self.assertIn("commite le catalogue", (r.stdout + r.stderr).casefold(),
+                      f"le refus dit quoi faire : « commite le catalogue »\n{r}")
+        self.assertFalse(lock.exists(), "un refus n'écrit aucun lock (pas de registryCommit faux)")
+
+    def test_catalogue_non_commite_refuse(self):
+        _scan(self)                                   # catalogue importé, PAS commité
+        asset_id, _ = _un(self, "jeu-a", M.FOUET)
+        self._refus(*self._usage_add(asset_id))
+
+    def test_head_sans_l_asset_refuse(self):
+        _scan(self)
+        self.world.commiter_registre("Catalogue importé")
+        M.ajouter_commit(self.world, "jeu-a", {"public/assets/neuf.png": M.png(M.uni(10, 10, (5, 99, 7, 255)))},
+                         (), "2026-03-06T10:00:00+00:00", "Nouvel asset")
+        _scan(self)                                   # le nouvel asset n'est que dans l'arbre de travail
+        asset_id, _ = _un(self, "jeu-a", "public/assets/neuf.png")
+        self._refus(*self._usage_add(asset_id))
+
+    def test_temoin_catalogue_commite_accepte(self):
+        _scan(self)
+        head = self.world.commiter_registre("Catalogue importé")
+        asset_id, _ = _un(self, "jeu-a", M.FOUET)
+        r, lock = self._usage_add(asset_id)
+        self.assertEqual(r.code, C.OK, f"témoin : catalogue commité, usage add accepté\n{r}")
+        self.assertEqual(C.lire_json(lock).get("registryCommit"), head)
+
+
+def _un(test, depot, chemin):
+    trouves = [(i, a) for i, a in C.assets(test.reg).items()
+               if any(l.get("repo") == depot and l.get("path") == chemin for l in a["files"]["locations"])]
+    test.assertEqual(len(trouves), 1, f"un asset attendu à {depot}:{chemin} : {[i for i, _ in trouves]}")
+    return trouves[0]
+
+
 if __name__ == "__main__":
     unittest.main()

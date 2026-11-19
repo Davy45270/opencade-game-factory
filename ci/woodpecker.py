@@ -36,7 +36,9 @@ SCRIPTS = ICI / "scripts"
 NODE_IMAGE = "docker.io/library/node:26"
 GITLEAKS_IMAGE = "docker.io/zricethezav/gitleaks:v8.30.1"
 E2E_COMMANDE = "npx playwright test"
-PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav123|192\.168\.|\.lan\b|\.local\b", re.I)
+# revue Codex 9 : + toute adresse IPv4 privée (RFC 1918), tailnet (100.64/10) ou de boucle, avec ou sans port
+PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav123|\.lan\b|\.local\b|\.internal\b|localhost"
+                      r"|(?<![0-9.])(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01])|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])|127\.\d{1,3})\.\d{1,3}", re.I)
 CLES = {"node_image", "checks_extra", "e2e_commande", "e2e"}
 
 

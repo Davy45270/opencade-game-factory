@@ -145,6 +145,14 @@ class JeuTemoin(unittest.TestCase):
         self.assertEqual(r.returncode, 4)
         self.assertIn("privée", r.stderr)
 
+    def test_node_image_d_un_registre_a_adresse_privee_refusee(self) -> None:
+        # revue Codex 9 (19/11) : une adresse IPv4 privée (ici 10.0.0.5) fuirait aussi
+        for image in ("10.0.0.5/node:26", "172.20.1.2:5000/node:26", "100.110.0.84/node:26"):
+            self.parametres(node_image=image)
+            self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4, image)
+        self.parametres(node_image="docker.io/library/node:26.10.0")
+        self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 0)
+
     def test_checks_extra_qui_ajoute_un_attribut_a_build_refuse(self) -> None:
         self.parametres(checks_extra="    privileged: true\n")
         self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)

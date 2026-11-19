@@ -104,7 +104,7 @@ class ImportDecisions(Base):
     def test_candidats_lus_par_en_tete_sans_licence_inventee(self) -> None:
         self.importer()
         atlas = self.decisions()["atlas-des-planches"]["candidates"]
-        self.assertEqual(len(atlas), 10)
+        self.assertEqual(len(atlas), 11)   # la fiche figée compte 11 lignes de candidats (12 à 22)
         phaser = atlas[0]
         self.assertEqual((phaser["candidate"], phaser["licenseRaw"], phaser["licenseSpdx"]),
                          ("Phaser, chargeur JSON hash", "MIT", "MIT"))

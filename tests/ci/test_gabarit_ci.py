@@ -153,6 +153,12 @@ class JeuTemoin(unittest.TestCase):
         self.parametres(node_image="docker.io/library/node:26.10.0")
         self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 0)
 
+    def test_tag_node_numerique_n_est_pas_une_adresse(self) -> None:
+        # revue Codex 10 (19/11) : node:10.24.1 ou node:127.0.1 sont des tags publics, pas des registres privés
+        for image in ("docker.io/library/node:10.24.1", "node:10.24.1-alpine", "docker.io/library/node:172.16.0"):
+            self.parametres(node_image=image)
+            self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 0, image)
+
     def test_checks_extra_qui_ajoute_un_attribut_a_build_refuse(self) -> None:
         self.parametres(checks_extra="    privileged: true\n")
         self.assertEqual(lancer("rendre", str(self.jeu)).returncode, 4)

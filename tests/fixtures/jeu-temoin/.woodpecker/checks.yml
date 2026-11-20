@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit a54573cd07d5) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit ca73bbb258cf) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -18,6 +18,11 @@ steps:
     commands:
       - node --version
       - npm ci
+  - name: spec résolue
+    image: *node
+    commands:
+      # REG-06 : une PR est refusée sans résolution des specs (fichier écrit par l'usine à la génération de cette CI).
+      - node .woodpecker/usine/spec-resolue.mjs
   - name: lint
     image: *node
     commands:

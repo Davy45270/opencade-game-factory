@@ -26,6 +26,7 @@ import json
 import os
 import pathlib
 import re
+import subprocess
 import sys
 
 ICI = pathlib.Path(__file__).resolve().parent
@@ -41,7 +42,7 @@ PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav1
                       r"|(?<![0-9.:])(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01])|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])|127\.\d{1,3})\.\d{1,3}\.\d{1,3}(?!\d|\.\d)", re.I)
 # revue Codex 10 : une adresse = 4 octets, jamais précédée de « : » (un tag `node:10.24.1` n'est pas une adresse) ;
 # revue Codex 11 : suivie d'un point et d'une lettre (10.24.1.2.sslip.io), c'est encore une adresse privée
-CLES = {"node_image", "checks_extra", "e2e_commande", "e2e"}
+CLES = {"node_image", "checks_extra", "e2e_commande", "e2e", "projet"}
 
 
 class Indisponible(Exception):
@@ -156,7 +157,34 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
         out[f".woodpecker/{nom}"] = texte
     for s in sorted(SCRIPTS.glob("*.mjs")):
         out[f".woodpecker/usine/{s.name}"] = s.read_text(encoding="utf-8")
+    out[".woodpecker/usine/spec.json"] = json.dumps(_resolution(depot, p), ensure_ascii=False, indent=1) + "\n"
     return out
+
+
+def _resolution(depot: pathlib.Path, p: dict) -> dict:
+    """REG-06 : résolution de la spec du jeu par `specctl resolve` (registre de l'usine, USINE_RACINE respecté). Seuls
+    projet, identifiant, version et statut sortent : le fichier part dans un dépôt public. Statut ≠ ok = CI rouge."""
+    projet = p.get("projet")
+    if projet is None:
+        try:
+            projet = json.loads((depot / "package.json").read_text(encoding="utf-8")).get("name")
+        except (OSError, ValueError):
+            projet = None
+    if not isinstance(projet, str) or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", projet):
+        return {"project": projet if isinstance(projet, str) else None, "status": "projet-invalide"}
+    try:
+        r = subprocess.run([str(ICI.parent / "specctl"), "--json", "resolve", "--project", projet], capture_output=True,
+                           text=True, timeout=60)
+        v = json.loads(r.stdout)
+    except (OSError, ValueError, subprocess.TimeoutExpired) as e:
+        raise Indisponible(f"specctl resolve indisponible : {e.__class__.__name__}") from e
+    if r.returncode == 4:
+        raise Indisponible("specctl resolve : source indisponible (code 4)")
+    specs = v.get("specs") if isinstance(v, dict) else None
+    if r.returncode == 0 and isinstance(specs, list) and len(specs) == 1 and specs[0].get("version"):
+        return {"project": projet, "specId": specs[0].get("specId"), "version": specs[0]["version"], "status": "ok"}
+    return {"project": projet, "specId": v.get("specId") if isinstance(v, dict) else None,
+            "status": (v.get("status") if isinstance(v, dict) else None) or f"code-{r.returncode}"}
 
 
 def _liens(depot: pathlib.Path, chemin: str) -> str | None:

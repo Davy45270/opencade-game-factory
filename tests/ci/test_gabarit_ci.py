@@ -255,6 +255,63 @@ class BaseE2E(unittest.TestCase):
         self.assertLess(i, cmds.index("E2E"))
 
 
+class SpecResolue(unittest.TestCase):
+    """REG-06 sur PR (spec REG-003, ligne REG-06 « PR refusée sans résolution des specs ») : `rendre` écrit la résolution de
+    la spec du jeu (`specctl resolve`) dans `.woodpecker/usine/spec.json`, et l'étape commune la refuse si elle n'est pas
+    `ok`. Aucune donnée privée : projet, identifiant, version, statut."""
+
+    def setUp(self) -> None:
+        self.tmp = pathlib.Path(tempfile.mkdtemp(prefix="usine-reg06-"))
+        self.jeu = self.tmp / "jeu"
+        shutil.copytree(TEMOIN, self.jeu)
+
+    def tearDown(self) -> None:
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def rendre(self, usine: pathlib.Path | None = None) -> subprocess.CompletedProcess:
+        env = {**__import__("os").environ, **({"USINE_RACINE": str(usine)} if usine else {})}
+        r = subprocess.run([sys.executable, str(OUTIL), "rendre", str(self.jeu), "--ecrire"], capture_output=True, text=True,
+                           timeout=120, env=env)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        return r
+
+    def etape(self) -> subprocess.CompletedProcess:
+        return subprocess.run([NODE, ".woodpecker/usine/spec-resolue.mjs"], cwd=self.jeu, capture_output=True, text=True, timeout=30)
+
+    def test_checks_lance_l_etape_spec_resolue(self) -> None:
+        import yaml  # noqa: PLC0415
+        self.rendre()
+        y = yaml.safe_load((self.jeu / ".woodpecker/checks.yml").read_text())
+        self.assertTrue(any("spec-resolue.mjs" in c for st in y["steps"] for c in st.get("commands", [])))
+
+    @unittest.skipUnless(NODE, "node absent")
+    def test_temoin_rouge_spec_non_resolue(self) -> None:
+        vide = self.tmp / "usine-vide"; vide.mkdir()
+        self.rendre(vide)
+        spec = json.loads((self.jeu / ".woodpecker/usine/spec.json").read_text())
+        self.assertNotEqual(spec.get("status"), "ok")
+        r = self.etape()
+        self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+        self.assertIn("REG-06", r.stdout + r.stderr)
+
+    @unittest.skipUnless(NODE, "node absent")
+    def test_spec_resolue_passe(self) -> None:
+        sys.path.insert(0, str(RACINE))
+        from tests.specs._outil import SPEC_A, Docs  # noqa: PLC0415
+        d = Docs()
+        try:
+            d.archive("jeu-temoin", {"Jeu_Temoin_v1.0.md.txt": SPEC_A})
+            d.commit("témoin")
+            self.assertEqual(d.specctl("import", "--from", str(d.docs), "--json").rc, 0)
+            self.rendre(d.usine)
+        finally:
+            d.nettoyer()
+        spec = json.loads((self.jeu / ".woodpecker/usine/spec.json").read_text())
+        self.assertEqual((spec.get("status"), spec.get("project"), spec.get("version")), ("ok", "jeu-temoin", "1.0.0"), spec)
+        r = self.etape()
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+
 class ScriptsCommuns(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = pathlib.Path(tempfile.mkdtemp(prefix="usine-csp-"))

@@ -17,6 +17,11 @@ steps:
     commands:
       - node --version
       - npm ci
+  - name: spec résolue
+    image: *node
+    commands:
+      # REG-06 : une PR est refusée sans résolution des specs (fichier écrit par l'usine à la génération de cette CI).
+      - node .woodpecker/usine/spec-resolue.mjs
   - name: lint
     image: *node
     commands:

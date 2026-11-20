@@ -9,6 +9,7 @@ from tools.core.catalog import InvalidJSON, parse_json
 
 PROJECT = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 FINGERPRINT = re.compile(r"([a-fA-F0-9]{64}) [ *](.+)")
+ZIP_NAME = re.compile(r"(?<![\w.+-])[\w.+-]+\.zip(?![\w+-]|\.[\w.])", re.IGNORECASE)
 VERSION = re.compile(
     r"(?:^|[-_])v(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)"
     r"(?:\.(0|[1-9][0-9]*))?(?!\.[0-9])"
@@ -42,6 +43,15 @@ def version_of(path):
         major, minor, patch = match.groups()
         return f"{major}.{minor}.{patch or '0'}"
     return None
+
+
+def document_version(relative, archive_version):
+    parts = PurePosixPath(relative).parts
+    for name in reversed(parts):
+        version = version_of(name)
+        if version is not None:
+            return version
+    return archive_version
 
 
 def relative_path(value):
@@ -112,8 +122,16 @@ class Source:
         if manifest not in self.files:
             warnings.append({"path": manifest, "issue": "manifest-missing"})
             return []
+        lines = self.read(manifest).decode("utf-8-sig").splitlines()
+        archive_versions = {
+            version
+            for line in lines if line.lstrip().startswith("#")
+            for name in ZIP_NAME.findall(line)
+            if (version := version_of(name)) is not None
+        }
+        archive_version = next(iter(archive_versions)) if len(archive_versions) == 1 else None
         entries = []
-        for number, line in enumerate(self.read(manifest).decode("utf-8-sig").splitlines(), 1):
+        for number, line in enumerate(lines, 1):
             if not line.strip() or line.lstrip().startswith("#"):
                 continue
             match = FINGERPRINT.fullmatch(line)
@@ -130,7 +148,7 @@ class Source:
                 continue
             if sha256(self.read(path)) != digest.lower():
                 raise InvalidJSON(f"Empreinte différente du manifeste : {path}")
-            entries.append((version_of(path), digest.lower(),
+            entries.append((document_version(relative, archive_version), digest.lower(),
                             {"repo": "homelab-docs", "path": path, "commitSha": self.head}))
         return entries
 

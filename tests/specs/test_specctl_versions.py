@@ -89,3 +89,36 @@ class VersionsDesSpecs(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class IdentifiantsStables(unittest.TestCase):
+    """20/11 : depuis HL-525 (19/11, Cozy), un élément de planche s'identifie par `E-<table>-<élément>` (identifiant
+    stable, minuscules ASCII). Le schéma du registre n'acceptait que `E###` : l'import de TOUT le registre échouait
+    (« SPEC-COZY-ROOM-SORT : schéma invalide (requirements/261/id, pattern) »), et REG-06 restait sur un registre périmé."""
+
+    def setUp(self) -> None:
+        self.d = Docs()
+
+    def tearDown(self) -> None:
+        self.d.nettoyer()
+
+    def matrice(self, ids: list[str]) -> None:
+        self.d.archive("jeu-s", {"Jeu_S_v1.0.md.txt": SPEC_A})
+        self.d.matrice("jeu-s", "Jeu_S_v1.0.md.txt", [(i, "Le joueur pose une tuile.", "a_faire") for i in ids])
+        self.d.commit("jeu S")
+
+    def test_identifiant_stable_importe(self) -> None:
+        self.matrice(["E001", "E-p01-objets-carton-ferme"])
+        r = self.d.specctl("import", "--from", str(self.d.docs), "--json")
+        self.assertEqual(r.rc, 0, r)
+        reqs = {x["matrixId"]: x["id"] for x in self.d.registre()["SPEC-JEU-S"]["requirements"]}
+        self.assertEqual(reqs.get("E-p01-objets-carton-ferme"), "REQ-JEU-S-E-P01-OBJETS-CARTON-FERME", reqs)
+        self.assertEqual(self.d.specctl("validate", "--json").rc, 0)
+
+    def test_identifiant_mal_forme_refuse(self) -> None:
+        for mauvais in ("E-", "E-P01-Majuscules", "E-p01--double", "X001"):
+            with self.subTest(mauvais=mauvais):
+                self.d.nettoyer(); self.d = Docs()
+                self.matrice(["E001", mauvais])
+                r = self.d.specctl("import", "--from", str(self.d.docs), "--json")
+                self.assertNotEqual(r.rc, 0, r)

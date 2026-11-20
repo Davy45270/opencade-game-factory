@@ -67,7 +67,7 @@
               "required": ["repo", "path", "commitSha"],
               "properties": {
                 "repo": {"const": "homelab-docs"},
-                "path": {"type": "string", "pattern": "^specs/[a-z0-9-]+-sources/(?!.*(?:^|/)\\.\\.?(?:/|$))(?!/)[^\\\\\\u0000-\\u001f]+$"},
+                "path": {"type": "string", "pattern": "^specs/[a-z0-9-]+-sources(?:-(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*))?/(?!.*(?:^|/)\\.\\.?(?:/|$))(?!/)[^\\\\\\u0000-\\u001f]+$"},
                 "commitSha": {"type": "string", "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"}
               }
             }

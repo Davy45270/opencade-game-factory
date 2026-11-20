@@ -8,6 +8,8 @@ from pathlib import PurePosixPath
 from tools.core.catalog import InvalidJSON, parse_json
 
 PROJECT = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+# `<projet>-sources/` ou `<projet>-sources-<x.y.z>/` : sources figées d'un projet, le suffixe donne leur version
+SOURCES = re.compile(r"(.+)-sources(?:-((?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)))?")
 FINGERPRINT = re.compile(r"([a-fA-F0-9]{64}) [ *](.+)")
 ZIP_NAME = re.compile(r"(?<![\w.+-])[\w.+-]+\.zip(?![\w+-]|\.[\w.])", re.IGNORECASE)
 VERSION = re.compile(
@@ -101,35 +103,56 @@ class Source:
     def inventory(self):
         folders = sorted({PurePosixPath(path).parts[1] for path in self.files
                           if len(PurePosixPath(path).parts) >= 3
-                          and PurePosixPath(path).parts[1].endswith("-sources")})
+                          and SOURCES.fullmatch(PurePosixPath(path).parts[1])})
         if not folders:
             raise OSError("Aucun dossier d’archives dans le commit source.")
-        records, warnings = {}, []
+        par_projet, warnings = {}, []
         for folder in folders:
-            project = folder.removesuffix("-sources")
+            project, folder_version = SOURCES.fullmatch(folder).groups()
             if not PROJECT.fullmatch(project):
                 raise InvalidJSON(f"Nom de projet invalide : {folder}")
+            par_projet.setdefault(project, []).extend(self.documents(folder, warnings, folder_version, project))
+        records = {}
+        for project, entries in sorted(par_projet.items()):
             spec_id = f"SPEC-{project.upper()}"
             record = {"id": spec_id, "project": project, "requirements": []}
-            entries = self.documents(folder, warnings)
             set_documents(record, entries)
             record["requirements"] = self.requirements(project, spec_id, warnings)
             records[spec_id] = record
         return records, warnings
 
-    def documents(self, folder, warnings):
+    def matrix_fingerprints(self, folder, project):
+        """Empreintes d'un dossier de sources SANS manifeste : les `sources` de la matrice du projet qui y sont rangées
+        (spec tirée d'un dépôt de jeu, pas de Drive). Lignes au format du manifeste : « <sha256>  <chemin relatif> »."""
+        matrix = f"specs/{project}-conformite.json"
+        if matrix not in self.files:
+            return None
+        try:
+            sources = parse_json(self.read(matrix)).get("sources") or []
+        except AttributeError as exc:
+            raise InvalidJSON(f"Matrice invalide : {matrix}") from exc
+        prefix = f"specs/{folder}/"
+        lines = [f"{s['sha256']}  {s['fichier'][len(prefix):]}" for s in sources
+                 if isinstance(s, dict) and str(s.get("fichier", "")).startswith(prefix) and s.get("sha256")]
+        return lines or None
+
+    def documents(self, folder, warnings, folder_version=None, project=None):
         manifest = f"specs/{folder}/empreintes-drive.sha256"
-        if manifest not in self.files:
-            warnings.append({"path": manifest, "issue": "manifest-missing"})
-            return []
-        lines = self.read(manifest).decode("utf-8-sig").splitlines()
+        if manifest in self.files:
+            lines = self.read(manifest).decode("utf-8-sig").splitlines()
+        else:
+            lines = self.matrix_fingerprints(folder, project) if project else None
+            if lines is None:
+                warnings.append({"path": manifest, "issue": "manifest-missing"})
+                return []
+            manifest = f"specs/{project}-conformite.json"
         archive_versions = {
             version
             for line in lines if line.lstrip().startswith("#")
             for name in ZIP_NAME.findall(line)
             if (version := version_of(name)) is not None
         }
-        archive_version = next(iter(archive_versions)) if len(archive_versions) == 1 else None
+        archive_version = next(iter(archive_versions)) if len(archive_versions) == 1 else folder_version
         entries = []
         for number, line in enumerate(lines, 1):
             if not line.strip() or line.lstrip().startswith("#"):

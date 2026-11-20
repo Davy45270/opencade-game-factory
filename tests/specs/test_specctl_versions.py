@@ -14,7 +14,9 @@ from __future__ import annotations
 
 import unittest
 
-from ._outil import SPEC_A, SPEC_B, Docs
+import json
+
+from ._outil import SPEC_A, SPEC_B, Docs, sha
 
 
 class VersionsDesSpecs(unittest.TestCase):
@@ -122,3 +124,77 @@ class IdentifiantsStables(unittest.TestCase):
                 self.matrice(["E001", mauvais])
                 r = self.d.specctl("import", "--from", str(self.d.docs), "--json")
                 self.assertNotEqual(r.rc, 0, r)
+
+
+class SourcesFigeesVersionnees(unittest.TestCase):
+    """20/11 (Kid, REG-06 « project-not-found » au sha 88a6323) : les sources figées d'un jeu peuvent vivre dans
+    `specs/<jeu>-sources-<x.y.z>/`, sans manifeste Drive (spec tirée d'un dépôt, pas de Drive). Le dossier donne la
+    version ; les empreintes sont celles de la matrice (`sources`, sha256 vérifiés). Un dossier sans manifeste ni source
+    de matrice ne donne aucune version (jamais une version inventée)."""
+
+    def setUp(self) -> None:
+        self.d = Docs()
+
+    def tearDown(self) -> None:
+        self.d.nettoyer()
+
+    def figer(self, dossier: str, fichiers: dict[str, str]) -> None:
+        for nom, texte in fichiers.items():
+            p = self.d.docs / "specs" / dossier / nom
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(texte)
+
+    def matrice(self, x: str, sources: list[tuple[str, str]]) -> None:
+        f0 = sources[0][0]
+        m = {"schema": "conformite-jeu/1", "jeu": x,
+             "sources": [{"fichier": f, "sha256": h} for f, h in sources],
+             "exigences": [{"id": "E001", "source": {"fichier": f0, "extrait": "Le joueur saute."}, "statut": "a_faire"}]}
+        (self.d.docs / "specs" / f"{x}-conformite.json").write_text(json.dumps(m, ensure_ascii=False))
+
+    def resoudre(self, projet: str, import_rc: int = 0):
+        r = self.d.specctl("import", "--from", str(self.d.docs), "--json")
+        self.assertEqual(r.rc, import_rc, r)
+        return self.d.specctl("resolve", "--project", projet, "--json")
+
+    def test_dossier_versionne_sans_manifeste_empreintes_de_la_matrice(self) -> None:
+        self.figer("jeu-k-sources", {"GAME_SPEC.md.txt": SPEC_A})                 # 1.0 figée, sans manifeste
+        self.figer("jeu-k-sources-1.1.0", {"GAME_SPEC.md.txt": SPEC_B, "README.md.txt": SPEC_A})
+        f = "specs/jeu-k-sources-1.1.0/"
+        self.matrice("jeu-k", [(f + "GAME_SPEC.md.txt", sha(SPEC_B.encode())), (f + "README.md.txt", sha(SPEC_A.encode())),
+                               ("specs/autre-sources/X.md.txt", "0" * 64)])
+        self.d.commit("jeu K")
+        r = self.resoudre("jeu-k")
+        self.assertEqual(r.rc, 0, r)
+        self.assertEqual([(s["specId"], s["version"]) for s in r.json["specs"]], [("SPEC-JEU-K", "1.1.0")], r)
+
+    def test_empreinte_de_matrice_fausse_refusee(self) -> None:
+        self.figer("jeu-k-sources-1.1.0", {"GAME_SPEC.md.txt": SPEC_B})
+        self.matrice("jeu-k", [("specs/jeu-k-sources-1.1.0/GAME_SPEC.md.txt", sha(SPEC_A.encode()))])
+        self.d.commit("jeu K, empreinte fausse")
+        r = self.d.specctl("import", "--from", str(self.d.docs), "--json")
+        self.assertNotEqual(r.rc, 0, r)                                           # jamais importée en silence
+
+    def test_dossier_versionne_avec_manifeste(self) -> None:
+        self.figer("jeu-m-sources-2.0.0", {"README.md.txt": SPEC_A})
+        (self.d.docs / "specs/jeu-m-sources-2.0.0/empreintes-drive.sha256").write_text(
+            f"# Drive : x\n{sha(SPEC_A.encode())}  README.md.txt\n")
+        self.d.commit("jeu M")
+        r = self.resoudre("jeu-m")
+        self.assertEqual(r.rc, 0, r)
+        self.assertEqual([s["version"] for s in r.json["specs"]], ["2.0.0"], r)
+
+    def test_temoin_sans_manifeste_ni_matrice_aucune_version(self) -> None:
+        self.figer("jeu-n-sources-1.1.0", {"README.md.txt": SPEC_A})
+        self.d.commit("jeu N")
+        r = self.resoudre("jeu-n")
+        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.json.get("status"), "version-missing", r)
+
+    def test_deux_dossiers_versionnes_arbitrage_requis(self) -> None:
+        for v, t in (("1.0.0", SPEC_A), ("1.1.0", SPEC_B)):
+            self.figer(f"jeu-p-sources-{v}", {"README.md.txt": t})
+            (self.d.docs / f"specs/jeu-p-sources-{v}/empreintes-drive.sha256").write_text(f"{sha(t.encode())}  README.md.txt\n")
+        self.d.commit("jeu P")
+        r = self.resoudre("jeu-p")
+        self.assertEqual(r.rc, 5, r)                                              # on ne choisit jamais à la place de David
+        self.assertEqual(sorted(r.json.get("versions") or []), ["1.0.0", "1.1.0"], r)

@@ -11,7 +11,7 @@ from tempfile import TemporaryDirectory
 
 from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, read_json, write_json
 
-from .source import document_entries, relative_path
+from .source import SOURCES, document_entries, relative_path
 
 
 @cache
@@ -62,7 +62,9 @@ def check_record(name, record):
     paths = set()
     for _, _, provenance in document_entries(record):
         path = provenance["path"]
-        if (relative_path(path) != path or PurePosixPath(path).parts[:2] != ("specs", f"{project}-sources")
+        dossier = PurePosixPath(path).parts[1] if len(PurePosixPath(path).parts) > 1 else ""
+        m = SOURCES.fullmatch(dossier)
+        if (relative_path(path) != path or PurePosixPath(path).parts[0] != "specs" or not m or m[1] != project
                 or path in paths):
             raise InvalidJSON(f"{spec_id} : provenance hors archive ou dupliquée.")
         paths.add(path)

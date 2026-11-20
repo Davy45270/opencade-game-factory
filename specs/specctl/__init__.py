@@ -14,6 +14,7 @@ from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
 from .registry import RegistryStore, check_record
+from . import tour
 from .source import Source, VersionConflict, document_entries, set_documents, sha256
 
 COMMENT = re.compile(r"HL-[0-9]+ 7-[0-9]+")
@@ -221,7 +222,9 @@ def run(args, root):
         if command == "validate":
             return ExitCode.OK, {"status": "ok", "count": len(records)}
         if command == "resolve":
-            return resolve(records, args.project)
+            code, payload = resolve(records, args.project)
+            tour.emettre_resolution(args.project, code, payload)     # opt-in, n'échoue jamais
+            return code, payload
         if command == "coverage":
             return coverage(records, args.project)
         if command == "verify":

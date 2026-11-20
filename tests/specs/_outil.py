@@ -93,8 +93,10 @@ class Docs:
                 h.update(str(p.relative_to(self.usine)).encode() + b"\0" + p.read_bytes())
         return h.hexdigest()
 
-    def specctl(self, *args: str, entree: str | None = None) -> "Resultat":
-        env = {**os.environ, "USINE_RACINE": str(self.usine)}
+    def specctl(self, *args: str, entree: str | None = None, env_tour: dict[str, str] | None = None) -> "Resultat":
+        # Isolation : jamais la Control Tower réelle de la machine. Un test qui veut des événements passe env_tour.
+        env = {k: v for k, v in os.environ.items() if not k.startswith("TOWER_")}
+        env.update(USINE_RACINE=str(self.usine), **(env_tour or {}))
         r = subprocess.run([str(SPECCTL), *args], capture_output=True, text=True, env=env, input=entree, timeout=120,
                            cwd=str(self.tmp))
         return Resultat(r.returncode, r.stdout, r.stderr)

@@ -228,8 +228,12 @@ def run(args, root):
         if command == "coverage":
             return coverage(records, args.project)
         if command == "verify":
-            return verify(records, source)
-        return arbitrate(store, records, args)
+            code, payload = verify(records, source)
+            tour.emettre_peremptions(records, payload)              # opt-in, n'échoue jamais
+            return code, payload
+        code, payload = arbitrate(store, records, args)
+        tour.emettre_approbation(records, code, payload)            # opt-in, n'échoue jamais
+        return code, payload
 
 
 def main(argv=None):

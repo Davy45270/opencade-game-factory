@@ -18,7 +18,7 @@ import pathlib
 import re
 import unittest
 
-from ._outil import SPEC_A_V11, Docs
+from ._outil import SPEC_A, SPEC_A_V11, Docs
 
 
 class EvenementsSpec(unittest.TestCase):
@@ -102,6 +102,37 @@ class EvenementsSpec(unittest.TestCase):
         r = self.resoudre(TOWER_DIR=str(self.tour))
         self.assertEqual(r.rc, 0, r)
         self.assertTrue(r.json["specs"])
+
+    def test_arbitrage_emet_spec_approved(self) -> None:
+        self.d.archive("jeu-a", {"Jeu_A_v1.1.md.txt": SPEC_A_V11})
+        self.d.commit("v1.1 déposée")
+        self.assertEqual(self.d.specctl("import", "--from", str(self.d.docs), "--json").rc, 0)
+        env = {"TOWER_DIR": str(self.tour), "TOWER_TRACE_ID": "six-T2"}
+        refus = self.d.specctl("arbitrer", "--spec", "SPEC-JEU-A", "--version", "1.1.0", "--ref", "par l'agent",
+                               "--json", env_tour=env)
+        self.assertEqual(refus.rc, 3, refus)
+        self.assertEqual(self.evenements(), [])                   # un refus n'est pas une approbation
+        r = self.d.specctl("arbitrer", "--spec", "SPEC-JEU-A", "--version", "1.1.0", "--ref", "HL-0 7-0",
+                           "--json", env_tour=env)
+        self.assertEqual(r.rc, 0, r)
+        (e,) = self.evenements()
+        self.assertEqual((e["eventType"], e["status"], e["projectId"], e["traceId"]),
+                         ("spec.approved", "success", "jeu-a", "six-T2"))
+        self.assertEqual(e["specRefs"], ["SPEC-JEU-A@1.1.0"])
+        self.assertEqual(e["metadata"]["ref"], "HL-0 7-0")
+
+    def test_archive_modifiee_emet_spec_outdated(self) -> None:
+        r = self.d.specctl("verify", "--from", str(self.d.docs), "--json", env_tour={"TOWER_DIR": str(self.tour)})
+        self.assertEqual(r.rc, 0, r)
+        self.assertEqual(self.evenements(), [])                   # archive intacte : rien à signaler
+        (self.d.docs / "specs/jeu-a-sources/Jeu_A_v1.0.md.txt").write_text(SPEC_A + "édition sauvage\n")
+        self.d.commit("archive éditée")
+        r = self.d.specctl("verify", "--from", str(self.d.docs), "--json", env_tour={"TOWER_DIR": str(self.tour)})
+        self.assertEqual(r.rc, 1, r)
+        (e,) = self.evenements()
+        self.assertEqual((e["eventType"], e["status"], e["projectId"]), ("spec.outdated", "failure", "jeu-a"))
+        self.assertEqual(e["specRefs"], ["SPEC-JEU-A"])
+        self.assertEqual(e["metadata"]["paths"], ["specs/jeu-a-sources/Jeu_A_v1.0.md.txt"])
 
     def test_aucun_chemin_de_machine_dans_le_module(self) -> None:
         src = pathlib.Path(__file__).resolve().parents[2] / "specs" / "specctl"

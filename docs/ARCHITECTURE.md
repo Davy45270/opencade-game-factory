@@ -423,3 +423,46 @@ changement de licence ou un retrait à la source s'ajoute à `provenance.externa
 rend 1 si une fiche externe déclare une licence que son pack n'a pas prouvée. Chaque export public
 (`publish --target public`) écrit `THIRD_PARTY_ASSETS.md` et `provenance.json`.
 
+
+## Niveaux et mondes (EXT-002)
+
+Le paquet `tools/levels/` porte le module de la spec EXT-002 ; `assetctl level …` tient lieu de `levelctl` (dépôt
+unique de l'usine, HL-525 7-2955). Les fiches vivent dans `catalog/levels/` (schéma `schemas/level.schema.json`,
+repris du contrat de la spec et complété par la provenance, le contenu normalisé, `losses`, `observations` et
+`versions`), les originaux dans `originals/sha256/`, les versions publiées dans `published/levels/<id>/<version>.json`.
+`ASSETCTL_LEVELS=off` désactive le module sans toucher au registre d'assets.
+
+- `discover --scope repos.json` lit les dépôts (ou leurs sous-jeux, `games: {préfixe: jeu}`) sans les écrire :
+  empreintes avant et après (`sourcesUnchanged`), formats `.tmx .tsx .tmj .json .ldtk .ldtkl .lua .ts .js .py .xml
+  .blend`, références de niveaux par AST (Python) ou motifs (autres), générateurs avec leurs paramètres, constructions
+  dynamiques signalées `unresolved`, doublons de structure proposés et jamais fusionnés ; tout fichier détecté est
+  inventorié, en exception (avec motif) ou ignoré (avec motif) : `coverage.ratio` vaut 1.
+- `import --source local --repo <clone> [--ref <sha>]` ou `--source archive --archive <zip>` : clé d'idempotence
+  `{provider, repo, commit, path, contentSha256}` ; un même fichier à un nouveau commit garde son ID et ajoute une
+  observation. La licence n'est `verified` que si le texte de licence lu dans la source confirme l'identifiant
+  déclaré (même évaluateur qu'EXT-001) ; sinon `unknown`, et `publish` rend 3. Une archive dangereuse va en
+  quarantaine. Les sources distantes passent par un clone local (`scan-repos` tient le miroir).
+- Formats : Tiled JSON et TMX (couches, gids bruts avec drapeaux de retournement, propriétés, objets, décalages,
+  tilesets externes `.tsx`), LDtk (IntGrid, entités et leurs champs, `defs`, disposition du monde, niveaux externes
+  `.ldtkl`). Chaque conversion rend `losses[]`, même vide ; `to_tiled_json` fait l'aller-retour.
+- Conventions lues dans la carte : couche de tuiles `collision` (ou propriété `collision: true`), couche `track`
+  pour un circuit, entités typées (`spawn`, `goal`, `boss`, `key`/`door` + `color`, `switch` + `gate` avec
+  `switches`, `quest`/`item`/`barrier` avec `requires`/`gives`, `checkpoint` + `order`, `moving-platform` + `toX`/`toY`,
+  `hazard`, `transition` + `target`/`bidirectional`), propriété d'asset `assetId`/`assetVersion` sur un tileset ou
+  une entité.
+- `validate` : gates communes (bornes, IDs, apparition hors obstacle, assets EXT-001 résolus, transitions
+  bidirectionnelles), puis le validateur du genre : donjon (recherche d'états case/clés/interrupteurs, clé derrière
+  sa propre porte), RPG (point fixe capacités et quêtes, lieux obligatoires, chemin point de sauvegarde → boss),
+  plateforme (simulation à pas fixe avec les paramètres du profil `platformer`, marge de contrôle ; une plateforme
+  mobile offre chaque position de sa trajectoire, le joueur pouvant l'attendre), circuit (boucle fermée, ordre des
+  points de contrôle, largeur minimale du profil de kart, longueur de tour mesurée). Un budget dépassé rend
+  `inconclusive` (code 1), jamais `pass`. Le genre `puzzle` attend le moteur de son jeu.
+- `generate --genre dungeon --seed N` : découpage BSP avec un PRNG mulberry32 sérialisable, sans horloge ; seed +
+  version + contraintes donnent la même sortie à l'octet. **ADR** : l'algorithme BSP est l'algorithme standard de
+  ROT.js et libtcod ; ces bibliothèques sont en JavaScript et en C, le registre est en Python : il est repris tel
+  quel plutôt qu'appelé, et un autre genre n'aura de générateur qu'en réutilisant une bibliothèque existante.
+- `derive --constraints '{"transforms": ["mirror"]}'` crée une variante liée (`derivedFrom`, `transformations`).
+- `publish --version x.y.z` : licence vérifiée, validation `pass`, version immuable (un autre contenu sous la même
+  version rend 5) ; rend l'entrée `{id, version, sha256, transform}` d'un `level.lock.json`.
+- `usages <id> --scope repos.json` lit les `level.lock.json` des jeux : index inverse jeu/version et historique
+  par commit.

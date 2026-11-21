@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 from .catalog import ROOT, InvalidJSON, read_json
 
-NAMES = ("asset", "sheet", "usage", "import-job", "source", "sources", "lock", "search-receipt", "migration",
+NAMES = ("asset", "level", "sheet", "usage", "import-job", "source", "sources", "lock", "search-receipt", "migration",
          "external-import")
 
 

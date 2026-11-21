@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenCade Level Registry record",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "kind",
+    "name",
+    "origin",
+    "format",
+    "geometry",
+    "dependencies",
+    "validation",
+    "usage",
+    "content",
+    "contentSha256",
+    "losses",
+    "observations",
+    "versions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^level-[a-z0-9-]+$"
+    },
+    "kind": {
+      "enum": [
+        "rpg",
+        "dungeon",
+        "platformer",
+        "circuit",
+        "puzzle"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "type": "object",
+      "required": [
+        "game",
+        "universe",
+        "sourceRepo",
+        "sourceCommit",
+        "sourcePath",
+        "licenseStatus"
+      ],
+      "properties": {
+        "game": {
+          "type": "string"
+        },
+        "universe": {
+          "type": "string"
+        },
+        "sourceRepo": {
+          "type": "string"
+        },
+        "sourceCommit": {
+          "type": "string"
+        },
+        "sourcePath": {
+          "type": "string"
+        },
+        "licenseStatus": {
+          "enum": [
+            "verified",
+            "unknown",
+            "restricted"
+          ]
+        },
+        "license": {
+          "type": "string"
+        },
+        "licenseEvidence": {
+          "type": "string"
+        },
+        "provider": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attribution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "format": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "object",
+      "required": [
+        "width",
+        "height"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tileWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tileHeight": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "mechanics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "structure": {
+          "enum": [
+            "pending",
+            "pass",
+            "fail",
+            "inconclusive"
+          ]
+        },
+        "solvability": {
+          "enum": [
+            "pending",
+            "pass",
+            "fail",
+            "inconclusive"
+          ]
+        },
+        "simulation": {
+          "enum": [
+            "pending",
+            "pass",
+            "fail",
+            "inconclusive"
+          ]
+        }
+      }
+    },
+    "usage": {
+      "type": "array"
+    },
+    "generation": {
+      "type": "object"
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "format",
+        "name",
+        "width",
+        "height",
+        "tileWidth",
+        "tileHeight",
+        "layers",
+        "tilesets"
+      ]
+    },
+    "contentSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "losses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "provider",
+          "repo",
+          "commit",
+          "path",
+          "contentSha256"
+        ],
+        "properties": {
+          "contentSha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "transformations": {
+      "type": "array"
+    },
+    "derivedFrom": {
+      "type": "object",
+      "required": [
+        "id",
+        "contentSha256"
+      ]
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "version",
+          "sha256"
+        ],
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  },
+  "$id": "https://opencade.invalid/schemas/level.schema.json",
+  "description": "Contrat repris de la spec EXT-002 (contracts/level.schema.json) à l'identique pour ses champs ; les champs ajoutés portent la provenance complète (§ 1), le contenu normalisé, les pertes de conversion (§ 3), l'idempotence (observations) et les versions publiées immuables (§ 2)."
+}

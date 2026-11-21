@@ -18,7 +18,7 @@ COMMANDS = {
     "register": True, "derive": True, "validate": False, "usage": False,
     "publish": True, "duplicates": True, "scan-repos": True, "sync": True,
     "index": True, "materialize": True, "check-lock": False, "export-atlas": True,
-    "validate-atlas": False, "sbom": True, "external": False,
+    "validate-atlas": False, "sbom": True, "external": False, "level": False,
 }
 
 
@@ -80,6 +80,10 @@ def _parser():
             from tools.external.commands import configure as external
 
             external(sub, caller_path)
+        elif command == "level":
+            from tools.levels.commands import configure as level
+
+            level(sub, caller_path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         else:
@@ -142,6 +146,10 @@ def _run(args, root, selected=None):
         return run(root, args)
     if args.command == "external":
         from tools.external.commands import run
+
+        return run(root, args)
+    if args.command == "level":
+        from tools.levels.commands import run
 
         return run(root, args)
     from tools.cli.registry import run

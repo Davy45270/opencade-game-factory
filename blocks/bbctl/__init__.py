@@ -15,6 +15,7 @@ from .discover import discover, impact, inspect, usages
 from .opensource import search_opensource
 from . import evenements
 from .adoption import Conflict, adopt, gate, write_block
+from .liens import link_specs
 from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
@@ -66,6 +67,7 @@ def parser():
         "impact": "Projets touchés par un changement de version.",
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
+        "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
     }
     sub = {}
     for name, description in descriptions.items():
@@ -109,6 +111,7 @@ def parser():
     adopter.add_argument("--sbom")
     for name in ("adopt", "decide"):
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
+    sub["link-specs"].add_argument("--dry-run", action="store_true")
     gater = sub["gate"]
     gater.add_argument("--repo", type=Path, required=True)
     gater.add_argument("--base", required=True)
@@ -148,7 +151,7 @@ def run(args, root):
     if command == "duplicates":
         return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
-    write = (command in {"decide", "adopt", "gate"} or (command in {"import-decisions", "discover"} and not args.dry_run)
+    write = (command in {"decide", "adopt", "gate"} or (command == "link-specs" and not args.dry_run) or (command in {"import-decisions", "discover"} and not args.dry_run)
              or (command == "search" and args.scope == "opensource" and args.record))
     with lock(root, write=write):
         if command == "import-decisions":
@@ -171,6 +174,8 @@ def run(args, root):
             return impact(records, args.block, args.to_version)
         if command == "adopt":
             return adopt(blocks, records, args)
+        if command == "link-specs":
+            return link_specs(blocks, records, args.dry_run)
         if command == "gate":
             try:
                 result = gate(blocks, records, args.repo, args.base, args.head, args.name)

@@ -36,3 +36,18 @@ steps:
       - . .venv/bin/activate
       - ./specctl --json validate
       - ./specctl --json verify
+
+  # § 3 et T10 : les index générés (generated/specs) se reconstruisent depuis les fiches seules, et ceux qui sont
+  # commités sont à jour (périmé = code 2).
+  - name: index
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json index --check
+
+  # § 9 : SBOM CycloneDX de specctl (fermeture des dépendances installées), licences dans la politique.
+  - name: sbom-specctl
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json sbom --out /tmp/specctl.cdx.json

@@ -15,7 +15,7 @@ from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
 from .registry import RegistryStore, check_record
-from . import commandes, fiche, tour
+from . import commandes, fiche, generes, tour
 from .source import Source, VersionConflict, document_entries, set_documents, sha256
 
 COMMENT = re.compile(r"HL-[0-9]+ 7-[0-9]+")
@@ -57,6 +57,8 @@ def parser():
         "arbitrer": "consigner une version choisie par David",
         "statuer": "changer lifecycle ou visibilité (approbation de David pour approuver, déprécier, publier)",
         "relier": "ajouter une relation typée entre specs",
+        "index": "reconstruire les index générés (--check : comparer sans écrire)",
+        "sbom": "SBOM CycloneDX de specctl, licences des dépendances contrôlées",
     }.items():
         command = commands.add_parser(name, help=description, allow_abbrev=False)
         command.add_argument("--json", action="store_true", default=argparse.SUPPRESS)
@@ -99,6 +101,12 @@ def parser():
             command.add_argument("--from", dest="before", required=True)
             command.add_argument("--to", dest="after", required=True)
             command.add_argument("--spec")
+        if name == "index":
+            command.add_argument("--out", type=Path, default=None, help="défaut : generated/specs de l’usine")
+            command.add_argument("--check", action="store_true")
+        if name == "sbom":
+            command.add_argument("--out", type=Path, required=True)
+            command.add_argument("--allow", nargs="+", metavar="SPDX", help="politique de licences (défaut intégré)")
         if name == "export":
             command.add_argument("--format", dest="fmt", choices=("markdown", "json"), default="json")
             command.add_argument("--public", action="store_true")
@@ -268,6 +276,8 @@ def run(args, root):
         return ExitCode.SAFETY, {"status": "refused", "message": "Référence attendue au format HL-n 7-n."}
     if command == "compare":
         return commandes.compare(root, args.before, args.after, args.spec)
+    if command == "sbom":
+        return generes.sbom(args.out, args.allow)
     if command == "verify" and (args.project or args.commit or args.repo):
         if not (args.project and args.commit and args.repo):
             return ExitCode.USAGE, {"status": "usage", "message": "--project, --commit et --repo vont ensemble."}
@@ -312,6 +322,8 @@ def run(args, root):
             return code, payload
         if command == "export":
             return commandes.export(records, args.fmt, args.public)
+        if command == "index":
+            return generes.index(records, args.out or root / "generated" / "specs", args.check)
         if command == "blocks":
             return commandes.blocks(records, root, args.spec)
         if command == "statuer":

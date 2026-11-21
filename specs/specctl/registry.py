@@ -168,7 +168,11 @@ class RegistryStore:
         path = self.path / IDS
         return read_json(path) if path.is_file() else {}
 
-    def publish(self, changes, command):
+    def publish_side(self, name, value, command, key):
+        """Fichier annexe du registre (ex. documents Drive à importer), publié dans le même lot atomique, journalisé."""
+        self.publish({}, command, side={name: value}, key=key)
+
+    def publish(self, changes, command, side=None, key=None):
         """Prépare le lot avant de rendre visible le nouveau dossier en une opération. Le registre d'IDs (ajout seul)
         et le journal d'audit (une ligne par fiche dont le contenu change) font partie du même lot atomique."""
         self.path.parent.mkdir(exist_ok=True)
@@ -195,6 +199,14 @@ class RegistryStore:
                 write_json(target, record)
                 lines.append({"at": at, "command": command, "specId": spec_id,
                               "sha256Before": before, "sha256After": after})
+            for name, value in (side or {}).items():
+                target = stage / name
+                before = sha256_text(target.read_text(encoding="utf-8")) if target.is_file() else None
+                after = sha256_text(json_text(value))
+                if before != after:
+                    write_json(target, value)
+                    lines.append({"at": at, "command": command, "file": name, "key": key,
+                                  "sha256Before": before, "sha256After": after})
             if not (stage / IDS).is_file() or read_json(stage / IDS) != ids:
                 write_json(stage / IDS, dict(sorted(ids.items())))
             if lines:

@@ -57,16 +57,23 @@ def parser():
         "arbitrer": "consigner une version choisie par David",
         "statuer": "changer lifecycle ou visibilité (approbation de David pour approuver, déprécier, publier)",
         "relier": "ajouter une relation typée entre specs",
+        "sync": "recopier statut, preuve et critère des matrices de homelab-docs (énoncés inchangés)",
+        "inscrire-drive": "inscrire un document Drive « à importer » (pas encore archivé)",
         "index": "reconstruire les index générés (--check : comparer sans écrire)",
         "sbom": "SBOM CycloneDX de specctl, licences des dépendances contrôlées",
     }.items():
         command = commands.add_parser(name, help=description, allow_abbrev=False)
         command.add_argument("--json", action="store_true", default=argparse.SUPPRESS)
-        if name in {"import", "verify"}:
-            command.add_argument("--from", dest="source", type=Path, required=name == "import",
+        if name in {"import", "verify", "sync"}:
+            command.add_argument("--from", dest="source", type=Path, required=name in {"import", "sync"},
                                  metavar="HOMELAB-DOCS")
-        if name == "import":
+        if name in {"import", "sync"}:
             command.add_argument("--dry-run", action="store_true")
+        if name == "inscrire-drive":
+            command.add_argument("--drive", required=True)
+            command.add_argument("--name", required=True)
+            command.add_argument("--project", required=True)
+        if name == "import":
             command.add_argument("--report", action="store_true", help="rapport de migration (§ 5)")
         if name in {"resolve", "coverage", "lock"}:
             command.add_argument("--project", required=True)
@@ -288,7 +295,10 @@ def run(args, root):
         if args.source is None:
             return ExitCode.USAGE, {"status": "usage", "message": "--from <homelab-docs> attendu."}
         source = args.source
-    with store.lock(write=command in {"arbitrer", "statuer", "relier"}):
+    if command == "sync":
+        incoming, _ = Source(args.source).inventory()
+    with store.lock(write=command in {"arbitrer", "statuer", "relier", "inscrire-drive"}
+                    or (command == "sync" and not args.dry_run)):
         records = store.read()
         if command == "validate":
             ids = store.ids()
@@ -322,7 +332,7 @@ def run(args, root):
                 return commandes.discover_docs(records, source)
             if args.kind == "github":
                 return commandes.discover_github(records, args.sources, args.clones)
-            return commandes.discover_drive(records, args.listing)
+            return commandes.discover_drive(records, args.listing, commandes.pending_drive(root))
         if command == "search":
             return commandes.search(records, args.query, args.project, args.limit)
         if command == "lock":
@@ -333,6 +343,10 @@ def run(args, root):
             return code, payload
         if command == "export":
             return commandes.export(records, args.fmt, args.public)
+        if command == "sync":
+            return commandes.sync(store, records, incoming, args.dry_run)
+        if command == "inscrire-drive":
+            return commandes.inscrire_drive(store, args.drive, args.name, args.project)
         if command == "index":
             return generes.index(records, args.out or root / "generated" / "specs", args.check)
         if command == "blocks":

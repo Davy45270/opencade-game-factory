@@ -9,7 +9,7 @@
   },
   "evidence": "verified",
   "id": "SPEC-CAPSULE-PANIC",
-  "implementation": "partial",
+  "implementation": "verified",
   "importOrigins": {
     "authority": "usine",
     "drive": [
@@ -129,9 +129,13 @@
     },
     {
       "acceptance": "test PWA (manifeste, service worker) + T30",
+      "evidence": {
+        "ref": "tests/e2e/hors-ligne.spec.ts > [E008]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E008",
       "matrixId": "E008",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/README.md.txt"
       },
@@ -199,7 +203,7 @@
       "acceptance": "mesure : oracle daté avant la première passe Codex",
       "id": "REQ-CAPSULE-PANIC-E013",
       "matrixId": "E013",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -209,7 +213,7 @@
       "acceptance": "mesure : historique git, un sujet par commit",
       "id": "REQ-CAPSULE-PANIC-E014",
       "matrixId": "E014",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -231,9 +235,15 @@
     },
     {
       "acceptance": "revue adverse Codex contre la spec + ADR",
+      "evidence": {
+        "ref": "qualite/preuves/capsule-panic/1ee61dc…/P7-revue-adverse.md (--base 4b54dd8) + ea68eeb/P7-revue-adverse.md",
+        "threshold": "revue adverse contre la spec + ADR",
+        "type": "mesure",
+        "value": "revue adverse de 1ee61dc contre la spec originale (--base 4b54dd8), puis du delta ea68eeb : aucun comportement inventé relevé hors des lignes arbitrées ; ADR du dépôt dans docs/adr"
+      },
       "id": "REQ-CAPSULE-PANIC-E016",
       "matrixId": "E016",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -241,9 +251,15 @@
     },
     {
       "acceptance": "brand-guard + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "test brand-guard vert + planche de contrôle",
+        "type": "mesure",
+        "value": "tests/brand-guard.test.ts vert dans le job e2e de ea68eeb ; planches de contrôle P4 relues (éléments de marque redessinés)"
+      },
       "id": "REQ-CAPSULE-PANIC-E017",
       "matrixId": "E017",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -289,9 +305,15 @@
     },
     {
       "acceptance": "mesure/test d'audit accessibilité",
+      "evidence": {
+        "ref": "preuves:audit-avant-release.md",
+        "threshold": "audit accessibilité : tests d'accessibilité verts au sha",
+        "type": "mesure",
+        "value": "tests/e2e/accessibilite.spec.ts et tests/e2e/daltonien.spec.ts verts sur les 8 projets du job e2e de ea68eeb ; P11 cibles vert"
+      },
       "id": "REQ-CAPSULE-PANIC-E021",
       "matrixId": "E021",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -299,9 +321,15 @@
     },
     {
       "acceptance": "mesure/test d'audit performances",
+      "evidence": {
+        "ref": "preuves:audit-avant-release.md",
+        "threshold": "audit performances : médiane ≥ 60 i/s sur GPU réel",
+        "type": "mesure",
+        "value": "tests/e2e/fps.spec.ts sur chromium-gpu (ANGLE, Intel Arc A770) : fenêtres 61, 60, 60, 60, 60, médiane 60 au job e2e de ea68eeb ; performance.test.ts vert"
+      },
       "id": "REQ-CAPSULE-PANIC-E022",
       "matrixId": "E022",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -309,9 +337,15 @@
     },
     {
       "acceptance": "mesure/test d'audit offline",
+      "evidence": {
+        "ref": "preuves:audit-avant-release.md",
+        "threshold": "audit offline : partie jouable hors ligne",
+        "type": "mesure",
+        "value": "tests/e2e/hors-ligne.spec.ts (T30) vert sur les 4 projets Chromium du job e2e de ea68eeb (service worker observable sous Chromium seulement) ; P10-avion vert"
+      },
       "id": "REQ-CAPSULE-PANIC-E023",
       "matrixId": "E023",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -319,9 +353,15 @@
     },
     {
       "acceptance": "mesure/test d'audit sécurité",
+      "evidence": {
+        "ref": "preuves:audit-avant-release.md",
+        "threshold": "audit sécurité : SAST vert + SBOM",
+        "type": "mesure",
+        "value": "check:sast (eslint sécurité, 0 avertissement) vert en CI à ea68eeb ; SBOM de ea68eeb"
+      },
       "id": "REQ-CAPSULE-PANIC-E024",
       "matrixId": "E024",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/docs/AGENT_HANDOFF.md.txt"
       },
@@ -346,7 +386,7 @@
     {
       "acceptance": "test : vecteur de référence + ADR PRNG",
       "evidence": {
-        "ref": "docs/adr/prng.md > Test discriminant",
+        "ref": "packages/engine/test/rng.test.ts > [E026]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E026",
@@ -360,7 +400,7 @@
     {
       "acceptance": "test barème + ADR",
       "evidence": {
-        "ref": "docs/adr/score.md > Test discriminant",
+        "ref": "packages/engine/test/resolve.test.ts > [E027]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E027",
@@ -374,7 +414,7 @@
     {
       "acceptance": "test T14 + ADR",
       "evidence": {
-        "ref": "docs/adr/gravite.md > Test discriminant",
+        "ref": "packages/engine/test/gravity.test.ts > [E028]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E028",
@@ -388,7 +428,7 @@
     {
       "acceptance": "test de la boucle (45/30/15) + ADR",
       "evidence": {
-        "ref": "docs/adr/cadence.md > Test discriminant",
+        "ref": "apps/web/test/loop.test.ts > [E029]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E029",
@@ -402,7 +442,7 @@
     {
       "acceptance": "test T06 + ADR",
       "evidence": {
-        "ref": "docs/adr/rotation.md > Test discriminant",
+        "ref": "packages/engine/test/rotate.test.ts > [E030]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E030",
@@ -432,7 +472,7 @@
     {
       "acceptance": "test niveau 20 + ADR",
       "evidence": {
-        "ref": "docs/adr/niveau-20.md > Test discriminant",
+        "ref": "packages/engine/test/generate.test.ts > [E032]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E032",
@@ -445,9 +485,13 @@
     },
     {
       "acceptance": "e2e 390×844, 360×740, 1280×800 + T30",
+      "evidence": {
+        "ref": "tests/e2e/hors-ligne.spec.ts > [E033]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E033",
       "matrixId": "E033",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -563,9 +607,13 @@
     },
     {
       "acceptance": "T29",
+      "evidence": {
+        "ref": "tests/e2e/daltonien.spec.ts > [E042]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E042",
       "matrixId": "E042",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -616,7 +664,7 @@
     {
       "acceptance": "test + e2e",
       "evidence": {
-        "ref": "packages/engine/test/drop.test.ts > [E046]",
+        "ref": "apps/web/test/session.test.ts > [E046]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E046",
@@ -644,7 +692,7 @@
     {
       "acceptance": "test + e2e",
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > [E048]",
+        "ref": "apps/web/test/ecrans.test.ts > [E048]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E048",
@@ -798,7 +846,7 @@
     {
       "acceptance": "test de répartition des couleurs",
       "evidence": {
-        "ref": "packages/engine/test/rules.test.ts > [E061]",
+        "ref": "apps/web/test/ecrans.test.ts > [E061]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E061",
@@ -1433,9 +1481,13 @@
     },
     {
       "acceptance": "e2e : aucune requête hors de l'application",
+      "evidence": {
+        "ref": "tests/e2e/sauvegarde.spec.ts > [E107]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E107",
       "matrixId": "E107",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -1443,9 +1495,15 @@
     },
     {
       "acceptance": "matrice : chaque règle a son test",
+      "evidence": {
+        "ref": "homelab-docs specs/capsule-panic-conformite.json",
+        "threshold": "chaque règle a son test (matrice)",
+        "type": "mesure",
+        "value": "matrice à ea68eeb : TESTS.md 46 lignes prouvées par un test vert, 1 par mesure (E282), 1 écartée (E258) ; ENGINE.md 28 par test, 12 écartées ; game.schema 5 par test ; aucune règle « à faire »"
+      },
       "id": "REQ-CAPSULE-PANIC-E108",
       "matrixId": "E108",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -1468,7 +1526,7 @@
     {
       "acceptance": "e2e clavier + tactile",
       "evidence": {
-        "ref": "tests/e2e/ecrans.spec.ts > [E110]",
+        "ref": "apps/web/test/ecrans.test.ts > [E110]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E110",
@@ -1495,9 +1553,13 @@
     },
     {
       "acceptance": "T30",
+      "evidence": {
+        "ref": "tests/e2e/hors-ligne.spec.ts > [E112]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E112",
       "matrixId": "E112",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -1683,9 +1745,13 @@
     },
     {
       "acceptance": "e2e a11y + PWA",
+      "evidence": {
+        "ref": "tests/e2e/accessibilite.spec.ts > [E126]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E126",
       "matrixId": "E126",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -1707,9 +1773,13 @@
     },
     {
       "acceptance": "test renderer (n'importe pas step) + test événements",
+      "evidence": {
+        "ref": "packages/renderer/test/purete.test.ts > [E128]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E128",
       "matrixId": "E128",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -1717,9 +1787,13 @@
     },
     {
       "acceptance": "test input",
+      "evidence": {
+        "ref": "packages/input/test/input.test.ts > [E129]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E129",
       "matrixId": "E129",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -1761,9 +1835,13 @@
     },
     {
       "acceptance": "test : packages/assets présent et utilisé",
+      "evidence": {
+        "ref": "tests/assets-utilises.test.ts > [E133]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E133",
       "matrixId": "E133",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -1842,7 +1920,7 @@
     {
       "acceptance": "T23 + test de migration",
       "evidence": {
-        "ref": "packages/engine/test/serialize.test.ts > [E139]",
+        "ref": "apps/web/test/ecrans.test.ts > [E139]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E139",
@@ -1856,7 +1934,7 @@
     {
       "acceptance": "propriété « step ne mute pas » + engine-purity",
       "evidence": {
-        "ref": "packages/engine/test/rules.test.ts > [E140]",
+        "ref": "packages/engine/test/evenements-copies.test.ts > [E140]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E140",
@@ -2024,7 +2102,7 @@
     {
       "acceptance": "test session",
       "evidence": {
-        "ref": "apps/web/test/session.test.ts > [E152]",
+        "ref": "apps/web/test/ecrans.test.ts > [E152]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E152",
@@ -2067,7 +2145,7 @@
       "acceptance": "e2e : aucun champ de saisie personnel",
       "id": "REQ-CAPSULE-PANIC-E155",
       "matrixId": "E155",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -2075,9 +2153,13 @@
     },
     {
       "acceptance": "mesure FPS e2e",
+      "evidence": {
+        "ref": "tests/e2e/fps.spec.ts > [E156]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E156",
       "matrixId": "E156",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -2176,7 +2258,7 @@
     {
       "acceptance": "test / étape CI",
       "evidence": {
-        "ref": "tests/build/static.test.ts > [E164]",
+        "ref": "tests/tooling.test.ts > [E164]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E164",
@@ -2218,7 +2300,7 @@
     {
       "acceptance": "test / étape CI",
       "evidence": {
-        "ref": "tests/ci-ordre.test.ts > [E167]",
+        "ref": "tests/tooling.test.ts > [E167]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E167",
@@ -2260,7 +2342,7 @@
     {
       "acceptance": "test / étape CI",
       "evidence": {
-        "ref": "tests/ci-ordre.test.ts > [E170]",
+        "ref": "tests/tooling.test.ts > [E170]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E170",
@@ -2288,7 +2370,7 @@
     {
       "acceptance": "test : ordre des étapes Woodpecker",
       "evidence": {
-        "ref": "tests/ci-ordre.test.ts > [E172]",
+        "ref": "tests/tooling.test.ts > [E172]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E172",
@@ -2327,9 +2409,15 @@
     },
     {
       "acceptance": "P7 revue adverse Codex",
+      "evidence": {
+        "ref": "qualite/preuves/capsule-panic/ea68eeb/P7-revue-adverse.md (delta --base 1ee61dc) + 1ee61dc…/P7-revue-adverse.md (--base 4b54dd8)",
+        "threshold": "chaque changement relu (P7) et chaque bloquant traité",
+        "type": "mesure",
+        "value": "revues adverses Codex de 4b54dd8..1ee61dc (version publiée) puis 1ee61dc..ea68eeb (passe de finition) ; bloquants tous couverts : bilan E385/E383 dette 7-3074 citée à 4b54dd8 ; E281, capsuleSerial, crypto.subtle en HTTP, import retardé, frange du ruban en convergence 7-3025 (arbitrages du coordinateur 21/11) ; 4 bloquants de la revue de 979409a en 7-3025"
+      },
       "id": "REQ-CAPSULE-PANIC-E175",
       "matrixId": "E175",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -2408,8 +2496,10 @@
     {
       "acceptance": "build dist/ statique",
       "evidence": {
-        "ref": "tests/build/static.test.ts > [E181]",
-        "type": "test"
+        "ref": "forge : statut ci/woodpecker/push/checks de ea68eeb",
+        "threshold": "test de build vert dans la CI du commit",
+        "type": "mesure",
+        "value": "tests/build/static.test.ts > [E181] vert : étape `npm run check:static` (vitest.build.config.ts, après le build) de la CI checks de ea68eeb au statut success"
       },
       "id": "REQ-CAPSULE-PANIC-E181",
       "matrixId": "E181",
@@ -2436,8 +2526,10 @@
     {
       "acceptance": "test PWA",
       "evidence": {
-        "ref": "tests/build/static.test.ts > [E183]",
-        "type": "test"
+        "ref": "forge : statut ci/woodpecker/push/checks de ea68eeb",
+        "threshold": "test de build vert dans la CI du commit",
+        "type": "mesure",
+        "value": "tests/build/static.test.ts > [E183] vert : étape `npm run check:static` (vitest.build.config.ts, après le build) de la CI checks de ea68eeb au statut success"
       },
       "id": "REQ-CAPSULE-PANIC-E183",
       "matrixId": "E183",
@@ -2450,8 +2542,10 @@
     {
       "acceptance": "test configuration du service worker",
       "evidence": {
-        "ref": "tests/build/static.test.ts > [E184]",
-        "type": "test"
+        "ref": "forge : statut ci/woodpecker/push/checks de ea68eeb",
+        "threshold": "test de build vert dans la CI du commit",
+        "type": "mesure",
+        "value": "tests/build/static.test.ts > [E184] vert : étape `npm run check:static` (vitest.build.config.ts, après le build) de la CI checks de ea68eeb au statut success"
       },
       "id": "REQ-CAPSULE-PANIC-E184",
       "matrixId": "E184",
@@ -2465,7 +2559,7 @@
       "acceptance": "mesure : artefact dist versionné par commit",
       "id": "REQ-CAPSULE-PANIC-E185",
       "matrixId": "E185",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/technical/ARCHITECTURE.md.txt"
       },
@@ -3408,7 +3502,7 @@
     {
       "acceptance": "test nommé T22",
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > [E256]",
+        "ref": "apps/web/test/session.test.ts > [E256]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E256",
@@ -3488,7 +3582,7 @@
     {
       "acceptance": "test nommé T28",
       "evidence": {
-        "ref": "packages/engine/test/drop.test.ts > [E262]",
+        "ref": "apps/web/test/session.test.ts > [E262]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E262",
@@ -3502,7 +3596,7 @@
     {
       "acceptance": "test nommé T29",
       "evidence": {
-        "ref": "tests/e2e/daltonien.spec.ts > [E263]",
+        "ref": "apps/web/test/ecrans.test.ts > [E263]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E263",
@@ -3783,9 +3877,15 @@
     },
     {
       "acceptance": "côte à côte des écrans",
+      "evidence": {
+        "ref": "preuves:P12-grille.json",
+        "threshold": "côte à côte des écrans",
+        "type": "mesure",
+        "value": "21 côte à côte de ea68eeb relus (P12-cote-a-cote) : fond de laboratoire nocturne, réacteur cyan, fioles ; grille P12 palette ✅ sur les 8 écrans"
+      },
       "id": "REQ-CAPSULE-PANIC-E283",
       "matrixId": "E283",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3807,9 +3907,15 @@
     },
     {
       "acceptance": "planche de contrôle (redessinés)",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "planche de contrôle (redessinés)",
+        "type": "mesure",
+        "value": "planches de contrôle P4 de ea68eeb relues : segments ronds-carrés à pont d'énergie, cristaux triangulaires, hexagonaux et losanges ; capture partie : cristaux ambre, cyan et rose sur le plateau"
+      },
       "id": "REQ-CAPSULE-PANIC-E285",
       "matrixId": "E285",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3833,9 +3939,15 @@
     },
     {
       "acceptance": "P4 : alpha réel",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E287",
       "matrixId": "E287",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3843,9 +3955,13 @@
     },
     {
       "acceptance": "test : chaque élément redessiné a son SVG source",
+      "evidence": {
+        "ref": "tests/assets.test.ts > [E288]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E288",
       "matrixId": "E288",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3863,9 +3979,15 @@
     },
     {
       "acceptance": "atlas + capture",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E290",
       "matrixId": "E290",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3873,9 +3995,15 @@
     },
     {
       "acceptance": "atlas + capture",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E291",
       "matrixId": "E291",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3883,9 +4011,15 @@
     },
     {
       "acceptance": "atlas + capture",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E292",
       "matrixId": "E292",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3893,9 +4027,15 @@
     },
     {
       "acceptance": "atlas + capture",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E293",
       "matrixId": "E293",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3919,7 +4059,7 @@
       "acceptance": "atlas + capture",
       "id": "REQ-CAPSULE-PANIC-E295",
       "matrixId": "E295",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3929,7 +4069,7 @@
       "acceptance": "atlas + capture",
       "id": "REQ-CAPSULE-PANIC-E296",
       "matrixId": "E296",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -3939,7 +4079,7 @@
       "acceptance": "atlas + capture",
       "id": "REQ-CAPSULE-PANIC-E297",
       "matrixId": "E297",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -4079,9 +4219,13 @@
     },
     {
       "acceptance": "test provenance/licences",
+      "evidence": {
+        "ref": "tests/assets.test.ts > [E308]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E308",
       "matrixId": "E308",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/artistic/ART_DIRECTION.md.txt"
       },
@@ -4161,7 +4305,7 @@
       "acceptance": "mesure : commits avec tests + README/ADR",
       "id": "REQ-CAPSULE-PANIC-E314",
       "matrixId": "E314",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4169,9 +4313,15 @@
     },
     {
       "acceptance": "tests de la tâche",
+      "evidence": {
+        "ref": "forge : statuts ci/woodpecker de ea68eeb",
+        "threshold": "CI verte : lint, typecheck, build",
+        "type": "mesure",
+        "value": "lint, typecheck et build verts dans la CI de la PR et du job e2e à ea68eeb"
+      },
       "id": "REQ-CAPSULE-PANIC-E315",
       "matrixId": "E315",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4235,9 +4385,13 @@
     },
     {
       "acceptance": "tests de la tâche",
+      "evidence": {
+        "ref": "tests/engine-purity.test.ts > [E320]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E320",
       "matrixId": "E320",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4245,9 +4399,13 @@
     },
     {
       "acceptance": "tests de la tâche",
+      "evidence": {
+        "ref": "tests/e2e/jeu.spec.ts > [E321]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E321",
       "matrixId": "E321",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4255,9 +4413,13 @@
     },
     {
       "acceptance": "tests de la tâche",
+      "evidence": {
+        "ref": "apps/web/test/storage.test.ts > [E322]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E322",
       "matrixId": "E322",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4265,9 +4427,13 @@
     },
     {
       "acceptance": "tests de la tâche",
+      "evidence": {
+        "ref": "packages/engine/test/properties.test.ts > [E323]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E323",
       "matrixId": "E323",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -4375,9 +4541,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E333",
       "matrixId": "E333",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "596x183+379+10",
         "path": "specs/capsule-panic-conformite.json"
@@ -4386,9 +4558,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E334",
       "matrixId": "E334",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "557x145+399+208",
         "path": "specs/capsule-panic-conformite.json"
@@ -4397,9 +4575,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E335",
       "matrixId": "E335",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "272x144+1001+30",
         "path": "specs/capsule-panic-conformite.json"
@@ -4408,9 +4592,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E336",
       "matrixId": "E336",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "259x151+995+205",
         "path": "specs/capsule-panic-conformite.json"
@@ -4419,9 +4609,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E337",
       "matrixId": "E337",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "595x90+333+382",
         "path": "specs/capsule-panic-conformite.json"
@@ -4430,9 +4626,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E338",
       "matrixId": "E338",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "258x620+1266+24",
         "path": "specs/capsule-panic-conformite.json"
@@ -4443,7 +4645,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E339",
       "matrixId": "E339",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "195x174+369+480",
         "path": "specs/capsule-panic-conformite.json"
@@ -4454,7 +4656,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E341",
       "matrixId": "E341",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "181x147+785+489",
         "path": "specs/capsule-panic-conformite.json"
@@ -4523,9 +4725,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E347",
       "matrixId": "E347",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "94x84+408+718",
         "path": "specs/capsule-panic-conformite.json"
@@ -4536,7 +4744,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E348",
       "matrixId": "E348",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "94x85+511+718",
         "path": "specs/capsule-panic-conformite.json"
@@ -4547,7 +4755,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E349",
       "matrixId": "E349",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "89x85+615+717",
         "path": "specs/capsule-panic-conformite.json"
@@ -4558,7 +4766,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E350",
       "matrixId": "E350",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "247x117+719+692",
         "path": "specs/capsule-panic-conformite.json"
@@ -4569,7 +4777,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E351",
       "matrixId": "E351",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "272x117+989+692",
         "path": "specs/capsule-panic-conformite.json"
@@ -4580,7 +4788,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E352",
       "matrixId": "E352",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "240x117+1283+692",
         "path": "specs/capsule-panic-conformite.json"
@@ -4591,7 +4799,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E353",
       "matrixId": "E353",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "111x114+53+818",
         "path": "specs/capsule-panic-conformite.json"
@@ -4602,7 +4810,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E354",
       "matrixId": "E354",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "108x113+188+820",
         "path": "specs/capsule-panic-conformite.json"
@@ -4613,7 +4821,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E355",
       "matrixId": "E355",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "108x112+319+820",
         "path": "specs/capsule-panic-conformite.json"
@@ -4624,7 +4832,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E356",
       "matrixId": "E356",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "157x104+475+829",
         "path": "specs/capsule-panic-conformite.json"
@@ -4657,7 +4865,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E359",
       "matrixId": "E359",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "165x116+1009+822",
         "path": "specs/capsule-panic-conformite.json"
@@ -4668,7 +4876,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E360",
       "matrixId": "E360",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "107x103+1206+825",
         "path": "specs/capsule-panic-conformite.json"
@@ -4679,7 +4887,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E361",
       "matrixId": "E361",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "109x106+1355+828",
         "path": "specs/capsule-panic-conformite.json"
@@ -4690,7 +4898,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E362",
       "matrixId": "E362",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "332x77+86+944",
         "path": "specs/capsule-panic-conformite.json"
@@ -4701,7 +4909,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E363",
       "matrixId": "E363",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "305x73+446+948",
         "path": "specs/capsule-panic-conformite.json"
@@ -4712,7 +4920,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E364",
       "matrixId": "E364",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "297x74+787+948",
         "path": "specs/capsule-panic-conformite.json"
@@ -4723,7 +4931,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E365",
       "matrixId": "E365",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "300x74+1129+948",
         "path": "specs/capsule-panic-conformite.json"
@@ -4749,7 +4957,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E367",
       "matrixId": "E367",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "138x91+136+180",
         "path": "specs/capsule-panic-conformite.json"
@@ -4758,9 +4966,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E369",
       "matrixId": "E369",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "281x240+618+49",
         "path": "specs/capsule-panic-conformite.json"
@@ -4867,7 +5081,7 @@
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "evidence": {
-        "ref": "tests/e2e/ecrans.spec.ts > [E378]",
+        "ref": "tests/barre-partie.test.ts > [E378]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E378",
@@ -5001,9 +5215,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E389",
       "matrixId": "E389",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "79x77+16+804",
         "path": "specs/capsule-panic-conformite.json"
@@ -5047,7 +5267,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E393",
       "matrixId": "E393",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "79x41+393+800",
         "path": "specs/capsule-panic-conformite.json"
@@ -5058,7 +5278,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E394",
       "matrixId": "E394",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "80x42+479+800",
         "path": "specs/capsule-panic-conformite.json"
@@ -5080,7 +5300,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E396",
       "matrixId": "E396",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "252x124+687+793",
         "path": "specs/capsule-panic-conformite.json"
@@ -5089,9 +5309,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E398",
       "matrixId": "E398",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "296x48+927+142",
         "path": "specs/capsule-panic-conformite.json"
@@ -5100,9 +5326,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E399",
       "matrixId": "E399",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "289x80+933+201",
         "path": "specs/capsule-panic-conformite.json"
@@ -5111,9 +5343,13 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "packages/renderer/test/board-view.test.ts > [E400]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E400",
       "matrixId": "E400",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "83x83+1252+53",
         "path": "specs/capsule-panic-conformite.json"
@@ -5122,9 +5358,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E401",
       "matrixId": "E401",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "296x83+1352+53",
         "path": "specs/capsule-panic-conformite.json"
@@ -5146,7 +5388,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E403",
       "matrixId": "E403",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "137x47+1181+352",
         "path": "specs/capsule-panic-conformite.json"
@@ -5155,9 +5397,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E404",
       "matrixId": "E404",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "77x75+1356+337",
         "path": "specs/capsule-panic-conformite.json"
@@ -5166,9 +5414,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E405",
       "matrixId": "E405",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "72x74+1470+336",
         "path": "specs/capsule-panic-conformite.json"
@@ -5177,9 +5431,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E406",
       "matrixId": "E406",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "70x40+1570+352",
         "path": "specs/capsule-panic-conformite.json"
@@ -5190,7 +5450,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E408",
       "matrixId": "E408",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "304x113+1169+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5201,7 +5461,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E409",
       "matrixId": "E409",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "89x119+1488+611",
         "path": "specs/capsule-panic-conformite.json"
@@ -5212,7 +5472,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E410",
       "matrixId": "E410",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "66x114+1589+613",
         "path": "specs/capsule-panic-conformite.json"
@@ -5223,7 +5483,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E411",
       "matrixId": "E411",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "148x60+959+793",
         "path": "specs/capsule-panic-conformite.json"
@@ -5234,7 +5494,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E412",
       "matrixId": "E412",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "118x60+1120+793",
         "path": "specs/capsule-panic-conformite.json"
@@ -5245,7 +5505,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E413",
       "matrixId": "E413",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "133x61+1252+793",
         "path": "specs/capsule-panic-conformite.json"
@@ -5299,9 +5559,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E418",
       "matrixId": "E418",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "280x200+12+6",
         "path": "specs/capsule-panic-conformite.json"
@@ -5321,9 +5587,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E420",
       "matrixId": "E420",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "300x180+595+43",
         "path": "specs/capsule-panic-conformite.json"
@@ -5343,9 +5615,13 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "packages/renderer/test/art.test.ts > [E422]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E422",
       "matrixId": "E422",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "200x55+938+49",
         "path": "specs/capsule-panic-conformite.json"
@@ -5354,9 +5630,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E423",
       "matrixId": "E423",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "240x40+924+112",
         "path": "specs/capsule-panic-conformite.json"
@@ -5367,7 +5649,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E425",
       "matrixId": "E425",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "64x62+1180+49",
         "path": "specs/capsule-panic-conformite.json"
@@ -5376,9 +5658,15 @@
     },
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E426",
       "matrixId": "E426",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "210x62+1250+49",
         "path": "specs/capsule-panic-conformite.json"
@@ -5400,7 +5688,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E428",
       "matrixId": "E428",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "183x354+1471+7",
         "path": "specs/capsule-panic-conformite.json"
@@ -5471,7 +5759,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E435",
       "matrixId": "E435",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "150x50+1040+355",
         "path": "specs/capsule-panic-conformite.json"
@@ -5482,7 +5770,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E436",
       "matrixId": "E436",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "280x40+905+440",
         "path": "specs/capsule-panic-conformite.json"
@@ -5491,9 +5779,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E437",
       "matrixId": "E437",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "280x60+905+500",
         "path": "specs/capsule-panic-conformite.json"
@@ -5502,9 +5796,13 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "packages/renderer/test/board-view.test.ts > [E438]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E438",
       "matrixId": "E438",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "243x275+1212+272",
         "path": "specs/capsule-panic-conformite.json"
@@ -5515,7 +5813,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E439",
       "matrixId": "E439",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "50x40+1365+300",
         "path": "specs/capsule-panic-conformite.json"
@@ -5526,7 +5824,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E440",
       "matrixId": "E440",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "50x30+1330+350",
         "path": "specs/capsule-panic-conformite.json"
@@ -5559,7 +5857,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E444",
       "matrixId": "E444",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "138x48+412+617",
         "path": "specs/capsule-panic-conformite.json"
@@ -5585,7 +5883,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E446",
       "matrixId": "E446",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "85x48+636+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5596,7 +5894,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E447",
       "matrixId": "E447",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "73x47+723+617",
         "path": "specs/capsule-panic-conformite.json"
@@ -5607,7 +5905,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E448",
       "matrixId": "E448",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "114x48+799+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5618,7 +5916,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E449",
       "matrixId": "E449",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "51x48+416+677",
         "path": "specs/capsule-panic-conformite.json"
@@ -5689,7 +5987,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E455",
       "matrixId": "E455",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "160x56+929+582",
         "path": "specs/capsule-panic-conformite.json"
@@ -5700,7 +5998,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E456",
       "matrixId": "E456",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "83x52+1090+581",
         "path": "specs/capsule-panic-conformite.json"
@@ -5722,7 +6020,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E458",
       "matrixId": "E458",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "58x53+1069+644",
         "path": "specs/capsule-panic-conformite.json"
@@ -5733,7 +6031,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E459",
       "matrixId": "E459",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "50x50+1133+644",
         "path": "specs/capsule-panic-conformite.json"
@@ -5766,7 +6064,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E462",
       "matrixId": "E462",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "100x64+1196+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5777,7 +6075,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E463",
       "matrixId": "E463",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "79x64+1297+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5788,7 +6086,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E464",
       "matrixId": "E464",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "78x64+1379+616",
         "path": "specs/capsule-panic-conformite.json"
@@ -5799,7 +6097,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E465",
       "matrixId": "E465",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "190x85+1472+613",
         "path": "specs/capsule-panic-conformite.json"
@@ -5810,7 +6108,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E466",
       "matrixId": "E466",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "170x42+1483+696",
         "path": "specs/capsule-panic-conformite.json"
@@ -5836,7 +6134,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E468",
       "matrixId": "E468",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "157x126+216+796",
         "path": "specs/capsule-panic-conformite.json"
@@ -5847,7 +6145,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E469",
       "matrixId": "E469",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "140x126+379+796",
         "path": "specs/capsule-panic-conformite.json"
@@ -5918,7 +6216,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E474",
       "matrixId": "E474",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "88x87+1197+800",
         "path": "specs/capsule-panic-conformite.json"
@@ -5929,7 +6227,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E475",
       "matrixId": "E475",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "163x90+1291+802",
         "path": "specs/capsule-panic-conformite.json"
@@ -5940,7 +6238,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E476",
       "matrixId": "E476",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "180x42+1470+796",
         "path": "specs/capsule-panic-conformite.json"
@@ -5970,9 +6268,15 @@
     },
     {
       "acceptance": "mesure : PR Forgejo par tâche",
+      "evidence": {
+        "ref": "homelab-docs specs/capsule-panic-releve-pr-2026-11-20.txt",
+        "threshold": "chaque tâche livrée par une MR",
+        "type": "mesure",
+        "value": "14 PR fusionnées (n°22 à 35), toutes par demande de fusion sur main protégée, CI checks et e2e verts"
+      },
       "id": "REQ-CAPSULE-PANIC-E479",
       "matrixId": "E479",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/capsule-panic-sources/backlog/ISSUES.md.txt"
       },
@@ -6014,7 +6318,7 @@
       "acceptance": "test : génération sans solveur",
       "id": "REQ-CAPSULE-PANIC-E482",
       "matrixId": "E482",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/capsule-panic-sources/specifications/functional/PRD.md.txt"
       },
@@ -6522,7 +6826,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E521",
       "matrixId": "E521",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "125x72+397+848",
         "path": "specs/capsule-panic-conformite.json"
@@ -6542,9 +6846,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E523",
       "matrixId": "E523",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "120x70+915+350",
         "path": "specs/capsule-panic-conformite.json"
@@ -6555,7 +6865,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E524",
       "matrixId": "E524",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "193x162+581+487",
         "path": "specs/capsule-panic-conformite.json"
@@ -6566,7 +6876,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E525",
       "matrixId": "E525",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "254x191+987+406",
         "path": "specs/capsule-panic-conformite.json"
@@ -6606,7 +6916,7 @@
     {
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "evidence": {
-        "ref": "tests/e2e/ecrans.spec.ts > [E528]",
+        "ref": "apps/web/test/ecrans.test.ts > [E528]",
         "type": "test"
       },
       "id": "REQ-CAPSULE-PANIC-E528",
@@ -6650,9 +6960,13 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "apps/web/test/session.test.ts > [E531]",
+        "type": "test"
+      },
       "id": "REQ-CAPSULE-PANIC-E531",
       "matrixId": "E531",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "455x135+1199+430",
         "path": "specs/capsule-panic-conformite.json"
@@ -6672,9 +6986,15 @@
     },
     {
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
+      "evidence": {
+        "ref": "preuves:P4-chaine.json",
+        "threshold": "chaîne graphique P4 verte au commit, planche de contrôle relue",
+        "type": "mesure",
+        "value": "P4 vert à ea68eeb : découpe, provenance, palette, atlas et planches de contrôle relues ; écarts de palette déclarés au manifeste (HL-536 7-3051, 7-2984), aucun seuil abaissé"
+      },
       "id": "REQ-CAPSULE-PANIC-E533",
       "matrixId": "E533",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "anchor": "236x65+926+157",
         "path": "specs/capsule-panic-conformite.json"
@@ -6700,7 +7020,7 @@
       "acceptance": "verifier-decoupe RMSE ≤ 0,02 + côte à côte",
       "id": "REQ-CAPSULE-PANIC-E535",
       "matrixId": "E535",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "245x62+910+281",
         "path": "specs/capsule-panic-conformite.json"
@@ -6711,7 +7031,7 @@
       "acceptance": "style-palette ≥ 90 % + planche de contrôle",
       "id": "REQ-CAPSULE-PANIC-E536",
       "matrixId": "E536",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "ecartee",
       "source": {
         "anchor": "93x120+17+608",
         "path": "specs/capsule-panic-conformite.json"
@@ -6728,6 +7048,587 @@
         "path": "specs/capsule-panic-conformite.json"
       },
       "statement": "élément de planche non repris (A2) : boutons son, muet, musique"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/session.ts:24@4b54dd8"
+        ],
+        "couvre": [
+          "E154"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue 8dd008b n° 3 : statistiques remises à zéro à la reprise déjà publiées (session.ts:24@4b54dd8) ; la partie export JSON (code neuf) est en convergence 7-3025",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E538",
+      "matrixId": "E538",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : l'export JSON ne porte que l'état, sans les statistiques de la partie (capsules, meilleur combo)"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "packages/renderer/src/board-view.ts:80-99@4b54dd8"
+        ],
+        "couvre": [
+          "E439"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue 8dd008b n° 4 : déjà publié sans impact ni pose animée (4b54dd8 : seuls des éclats sur les cases retirées) ; le delta ajoute une pose animée sans alignement",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E539",
+      "matrixId": "E539",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : l'impact découpé de Gameplay 03 n'est pas rendu à la fin de la chute"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E294"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/style.css"
+        ],
+        "note": "revue 8dd008b n° 5 : 4b54dd8 n'affiche aucun texte de combo, le text-shadow est du code neuf ; cosmétique ; revérification du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E540",
+      "matrixId": "E540",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : le halo de combo est une ombre CSS et non le sprite d'anneau découpé"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E378"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/screens/Game.tsx"
+        ],
+        "note": "revue 8dd008b n° 6 : 4b54dd8 montre un glyphe ⏸ (Game.tsx:90@4b54dd8), le sprite carré est du code neuf ; cosmétique ; revérification du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E541",
+      "matrixId": "E541",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : la barre de partie montre le bouton carré de Planche 01 au lieu du bouton rond de Gameplay 02"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "packages/renderer/src/board-view.ts:85@4b54dd8",
+          "packages/renderer/src/board-view.ts:102@4b54dd8"
+        ],
+        "couvre": [
+          "E101"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue 8dd008b n° 7 : déjà publié, fadeMatch calculé une fois et onResize qui ne redessine que le plateau",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E542",
+      "matrixId": "E542",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : un redimensionnement pendant un retrait laisse les effets à l'ancienne géométrie"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E438",
+          "E531"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/renderer/src/board-view.ts"
+        ],
+        "note": "revue 6d97d47 n° 3 : animation de pose incomplète (cas avec alignement), état et score justes ; arbitrage relecteur 20/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E543",
+      "matrixId": "E543",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : ni descente ni éclat de verrouillage quand la pose crée un alignement"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E531"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/renderer/src/board-view.ts"
+        ],
+        "note": "revue 6d97d47 n° 4 : cosmétique rare (redimensionnement pendant une chute de moins d'une seconde), état et score justes ; arbitrage relecteur 20/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E544",
+      "matrixId": "E544",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : la traînée de chute garde l'ancienne géométrie si l'écran change pendant la chute"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "packages/engine/src/spawn.ts:16@4b54dd8",
+          "packages/engine/src/spawn.ts:23@4b54dd8"
+        ],
+        "couvre": [
+          "E140"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue c8fc449 n° 5 : déjà publié, colors pris dans nextQueue[0] et repris tel quel dans l'événement",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E545",
+      "matrixId": "E545",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : le payload de SPAWNED partage le tableau des couleurs avec la file et la capsule active"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E535"
+        ],
+        "date": "2026-11-21",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/renderer/src/board-view.ts"
+        ],
+        "note": "revérifié 21/11 contre la version publiée 4b54dd8 : aucune texture d'explosion ni de nuage n'y existe (éclats g.star, board-view.ts:94@4b54dd8) ; le choix des textures de Gameplay 02 est du code neuf, cosmétique, sans effet sur l'état ni le score",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E546",
+      "matrixId": "E546",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : l'explosion et le nuage du retrait viennent de Gameplay 02 au lieu des découpes de Gameplay 03"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/session.ts:32@4b54dd8",
+          "packages/renderer/src/art.ts:33@4b54dd8"
+        ],
+        "couvre": [
+          "E106"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue c8fc449 n° 1 (reste de la cascade) : déjà publié, `if (this.#animating) return false` ; en mouvement réduit durée 0 et promesse résolue aussitôt (board-view.ts:84@4b54dd8), même comportement à 979409a (stopped() au premier pas) ; arbitrage relecteur 20/11 : la fenêtre logique fixe va au lot suivant",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E547",
+      "matrixId": "E547",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : pendant une cascade, l'entrée est bloquée le temps de l'animation, plus court en mouvement réduit"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/App.tsx:27-30@4b54dd8",
+          "apps/web/src/storage.ts:41@4b54dd8"
+        ],
+        "couvre": [
+          "E111"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue 137a70b n° 2 : déjà publié, rejet de loadGame (transaction annulée) traité comme illisible puis clearGame",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E548",
+      "matrixId": "E548",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : un échec ponctuel de lecture du point de reprise l'efface au démarrage"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E304"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/renderer/src/pieces.ts",
+          "apps/web/src/settings.ts"
+        ],
+        "note": "revue 137a70b n° 3 : choix de la spec T29 (PR #24), à confirmer par David ; art.ts:8@4b54dd8 « jamais de distinction par la couleur seule » ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E549",
+      "matrixId": "E549",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : hors mode daltonien, les segments se distinguent par la seule couleur"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E152"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/session.ts"
+        ],
+        "note": "revue 137a70b n° 1 : conséquence de l'arbitrage relecteur 21/11 (lecture 7f99e3f validée : l'état avance tout de suite, seul l'affichage attend l'éclat) ; sauvegarde de l'état juste, frontière entre deux capsules ; règle d'arrêt : un défaut d'animation qui laisse l'état juste ne rouvre pas de cycle ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E550",
+      "matrixId": "E550",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : le point de reprise s'écrit pendant l'éclat d'une pose ordinaire"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E094"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/App.tsx"
+        ],
+        "note": "revue 8dd008b n° 3 : l'export n'existe pas à 4b54dd8 (code neuf) ; l'import n'écrit que le point de reprise (store games), jamais les scores enregistrés ; non bloquant, arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E551",
+      "matrixId": "E551",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : l'export JSON ne porte que l'état, sans les statistiques de la partie"
+    },
+    {
+      "acceptance": "correction ou dette datée",
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/screens/End.tsx:12-17@4b54dd8"
+        ],
+        "couvre": [
+          "E385",
+          "E383"
+        ],
+        "date": "2026-11-20",
+        "decision": "HL-536 7-3094",
+        "expire": "2026-12-31",
+        "note": "revue 1ee61dc n° 1 : déjà publié, bilan en <ul className=\"stats\"> sans cadre peint ni coches ; arbitrage du coordinateur 21/11 (tri de la revue finale)",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E552",
+      "matrixId": "E552",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "dette : le bilan de fin de niveau est une liste HTML et non le cadre peint à coches de Gameplay 02"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E281"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          ".woodpecker/e2e.yml"
+        ],
+        "note": "revue 979409a n° 1 (et 1ee61dc n° 5) : livraison CI, sans effet joueur ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E553",
+      "matrixId": "E553",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : la CI construit l'archive et le SBOM sans les publier"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E139",
+          "E153",
+          "E257",
+          "E229"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/engine/src/serialize.ts"
+        ],
+        "note": "revue 979409a n° 2 (et 1ee61dc n° 4) : seul un JSON forgé à la main a cette forme, toute sauvegarde écrite par 4b54dd8 porte un entier ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E554",
+      "matrixId": "E554",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : la migration retire un capsuleSerial malformé sans le valider"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E092",
+          "E139"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/contracts/schemas/game.schema.json"
+        ],
+        "note": "revue 979409a n° 3 : seul un JSON forgé à la main ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E555",
+      "matrixId": "E555",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : un score importé au-delà de 2^53 annule les points de chute"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E274"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "packages/engine/test/simulate.test.ts"
+        ],
+        "note": "revue 979409a n° 4 : outillage de test, sans effet joueur ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E556",
+      "matrixId": "E556",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : une simulation qui épuise son budget ne rapporte pas sa graine"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E049",
+          "E111",
+          "E151",
+          "E182"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/storage.ts"
+        ],
+        "note": "revue 1ee61dc n° 2 : code neuf (pas d'empreinte à 4b54dd8) ; le jeu n'est servi qu'en HTTPS (capsule.dav123.fr, github.io), le conteneur en HTTP LAN n'est pas un chemin de livraison ; sonde vitest du 21/11 sans crypto.subtle : partie publiée (forme texte) relue, saveGame rejeté, partie intacte ; App.tsx:65 affiche « Le stockage local est indisponible. », démarrage en allSettled sans plantage ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E557",
+      "matrixId": "E557",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : la sauvegarde exige crypto.subtle, absent en HTTP hors boucle locale"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E049",
+          "E111",
+          "E154"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/App.tsx"
+        ],
+        "note": "revue 1ee61dc n° 3 : code neuf (pas d'import à 4b54dd8) ; exige de quitter les Options et lancer une partie pendant la lecture d'un fichier local, hors usage normal ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E558",
+      "matrixId": "E558",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : un import encore en lecture peut écraser la partie démarrée juste après"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E287",
+          "E529"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "scripts/assets-runtime.py",
+          "packages/assets/runtime/sprite-ruban-reussite.webp"
+        ],
+        "note": "revue ea68eeb n° 1 : finition du détourage (seuil 18 % depuis les coins, halo des étoiles coupé net) ; le rectangle opaque de 1ee61dc est corrigé ; règle d'arrêt : un défaut de finition qui laisse l'état juste ne rouvre pas de cycle ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E559",
+      "matrixId": "E559",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : le détourage du ruban de réussite laisse une frange brune crénelée autour des étoiles"
+    },
+    {
+      "acceptance": "correction ou convergence datée",
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E099",
+          "E379",
+          "E377",
+          "E413"
+        ],
+        "date": "2026-11-20",
+        "expire": "1.32.0",
+        "fichiers": [
+          "apps/web/src/style.css",
+          "apps/web/src/screens/Game.tsx"
+        ],
+        "note": "second regard agy de ea68eeb (P12-second-regard-agy.md) : trois finitions de l'écran de partie, identiques pixel à pixel à 1ee61dc (compare AE = 0), absentes de 4b54dd8 ; état et score justes ; arbitrage du coordinateur 21/11",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-CAPSULE-PANIC-E560",
+      "matrixId": "E560",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/capsule-panic-conformite.json"
+      },
+      "statement": "convergence : écran de partie, la capsule de SUIVANT affleure le cadre intérieur, CRISTAUX est serré et le bouton de pose directe est plat"
     }
   ],
   "title": "Capsule Panic — dossier de spécifications et implémentation v1.0",

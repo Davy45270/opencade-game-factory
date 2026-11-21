@@ -9,7 +9,7 @@
   },
   "evidence": "verified",
   "id": "SPEC-SIX-DE-CHAQUE",
-  "implementation": "partial",
+  "implementation": "verified",
   "importOrigins": {
     "authority": "usine",
     "drive": [
@@ -82,7 +82,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in packages/engine/src",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E005",
@@ -156,10 +156,10 @@
     },
     {
       "evidence": {
-        "ref": "comparaison du 2026-11-19 aux règles publiées du jeu du commerce (Wikipedia, geekyhobbies, groupgames101), consignée sur le ticket",
-        "threshold": "chaque règle de la spec confrontée",
+        "ref": "specs/six-de-chaque-references/regles-officielles.md",
+        "threshold": "chaque règle de la spec confrontée à la source de l'éditeur",
         "type": "mesure",
-        "value": "0 écart sur 108 tuiles, main de 6, 1 point par tuile de ligne, +6 ligne de six, +6 fin, échange à 0 point tiré avant remise ; premier joueur : plus grand groupe (âge remplacé par la graine) ; passe et blocage absents de la règle publiée, tranchés par David (7-2900)"
+        "value": "règles de l'éditeur (Schmidt Spiele, version autorisée « Leichte Sprache », juin 2021, sha256 4084bac0…) : 0 écart sur matériel, main, lignes, score, ligne de six, échange, fin, bonus de fin ; premier joueur à égalité départagé par la graine comme la spec l'exige ; passe absente de la source, tranchée par David (E051, 7-2900)"
       },
       "id": "REQ-SIX-DE-CHAQUE-E011",
       "matrixId": "E011",
@@ -261,9 +261,13 @@
       "statement": "rejeu d'une partie terminée"
     },
     {
+      "evidence": {
+        "ref": "P12-captures/jeu-390x844.png",
+        "type": "capture"
+      },
       "id": "REQ-SIX-DE-CHAQUE-E019",
       "matrixId": "E019",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
@@ -323,7 +327,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/e2e/no-network.spec.ts > no request leaves the application origin",
+        "ref": "tests/e2e/no-network.spec.ts > no request carries a query string or leaves the built files, across settings, import, challenges and play",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E024",
@@ -865,7 +869,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/contracts/test/schemas.test.ts > snapshot from createGame validates",
+        "ref": "packages/contracts/test/schemas.test.ts > v2 snapshot from createGame validates",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E066",
@@ -941,7 +945,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/e2e/no-network.spec.ts > no request leaves the application origin",
+        "ref": "tests/e2e/no-network.spec.ts > no request carries a query string or leaves the built files, across settings, import, challenges and play",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E072",
@@ -980,10 +984,10 @@
     },
     {
       "evidence": {
-        "ref": "comparaison du 2026-11-19 aux règles publiées du jeu du commerce (Wikipedia, geekyhobbies, groupgames101), consignée sur le ticket",
-        "threshold": "chaque règle de la spec confrontée",
+        "ref": "specs/six-de-chaque-references/regles-officielles.md",
+        "threshold": "chaque règle de la spec confrontée à la source de l'éditeur",
         "type": "mesure",
-        "value": "0 écart sur 108 tuiles, main de 6, 1 point par tuile de ligne, +6 ligne de six, +6 fin, échange à 0 point tiré avant remise ; premier joueur : plus grand groupe (âge remplacé par la graine) ; passe et blocage absents de la règle publiée, tranchés par David (7-2900)"
+        "value": "règles de l'éditeur (Schmidt Spiele, version autorisée « Leichte Sprache », juin 2021, sha256 4084bac0…) : 0 écart sur matériel, main, lignes, score, ligne de six, échange, fin, bonus de fin ; premier joueur à égalité départagé par la graine comme la spec l'exige ; passe absente de la source, tranchée par David (E051, 7-2900)"
       },
       "id": "REQ-SIX-DE-CHAQUE-E075",
       "matrixId": "E075",
@@ -1112,7 +1116,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in packages/engine/src",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E085",
@@ -1203,7 +1207,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/replay.test.ts > T17 replaying the log gives the same final hash",
+        "ref": "packages/engine/test/replay.test.ts > T17 two independent runs of the same seed give the same final hash",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E092",
@@ -1229,7 +1233,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/contracts/test/schemas.test.ts > rejects board key",
+        "ref": "packages/contracts/test/schemas.test.ts > rejects board key \"1.5:0\"",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E094",
@@ -1464,7 +1468,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile and runs lint, typecheck, test, build, e2e and package in",
+        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile and runs lint, typecheck, test, build, e2e and package in that order",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E113",
@@ -1477,7 +1481,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile",
+        "ref": "tests/project-config.test.ts > CI installs from the frozen lockfile and runs lint, typecheck, test, build, e2e and package in that order",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E114",
@@ -1503,8 +1507,10 @@
     },
     {
       "evidence": {
-        "ref": "tests/project-config.test.ts > package is reproducible",
-        "type": "test"
+        "ref": "CI Woodpecker six-de-chaque pipeline #42 (commit 9fb9441), étape e2e/package (npm run package, après vitest --coverage)",
+        "threshold": "artefact de couverture du commit produit et publié par la CI",
+        "type": "mesure",
+        "value": "six-de-chaque-0.2.0.tar.gz (sha256 107fdacb…) produit avec le résumé de couverture du commit : branches 98,43 %, lignes 100 %, fonctions 100 %"
       },
       "id": "REQ-SIX-DE-CHAQUE-E116",
       "matrixId": "E116",
@@ -1553,7 +1559,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in packages/engine/src",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E120",
@@ -1657,7 +1663,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/apply.test.ts > PLACE removes tiles from hand, adds them to board, scores, refills to six",
+        "ref": "packages/engine/test/apply.test.ts > T13 exchanged tiles are not drawn back in the same exchange",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E128",
@@ -1670,7 +1676,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in",
+        "ref": "tests/engine-purity.test.ts > engine purity is enforced by lint in packages/engine/src",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E129",
@@ -1852,7 +1858,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/ai/test/expert.test.ts > expert only samples tiles that are not visible",
+        "ref": "packages/ai/test/expert.test.ts > at a fixed budget the expert choice depends on its sampling of hidden tiles",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E143",
@@ -1995,7 +2001,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/ai/test/host.test.ts > REQUEST_HINT is answered like REQUEST_MOVES",
+        "ref": "packages/ai/test/host.test.ts > REQUEST_HINT is answered like REQUEST_MOVES with its own cache key",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E154",
@@ -2021,7 +2027,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/ai/test/host.test.ts > cache returns the same decision without new nodes",
+        "ref": "packages/ai/test/host.test.ts > the move cache key changes with the player and the level at constant game hash",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E156",
@@ -2086,7 +2092,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/contracts/test/schemas.test.ts > rejects board key",
+        "ref": "packages/contracts/test/schemas.test.ts > rejects board key \"1.5:0\"",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E161",
@@ -2164,7 +2170,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/tiles.test.ts > T01 108 unique ids",
+        "ref": "packages/engine/test/tiles.test.ts > T01 108 unique ids, exactly 3 copies per colour-shape pair",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E167",
@@ -2372,8 +2378,10 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/replay.test.ts > T17 replaying the log gives the same final hash",
-        "type": "test"
+        "ref": "CI Woodpecker six-de-chaque pipeline #42 (commit 9fb9441), étape checks/test, T17_RUNS=1000 (.woodpecker/checks.yml)",
+        "threshold": "1000 parties : rejeu et seconde exécution indépendante au même hash final ; 0 échec",
+        "type": "mesure",
+        "value": "« T17 replaying the log gives the same final hash (1000 games) » ✓ (80,2 s) ; « T17 every game is replayed and also replayed independently from the same seed to the same final hash » ✓ (1000 graines, 130,2 s)"
       },
       "id": "REQ-SIX-DE-CHAQUE-E183",
       "matrixId": "E183",
@@ -2530,8 +2538,10 @@
     },
     {
       "evidence": {
-        "ref": "tests/project-config.test.ts > coverage threshold is at least 95 percent of branches on rules and score",
-        "type": "test"
+        "ref": "CI Woodpecker six-de-chaque pipeline #42 (commit 9fb9441), étape checks/test, vitest --coverage",
+        "threshold": "≥ 95 % des branches (thresholds.branches 95, bloquant en CI)",
+        "type": "mesure",
+        "value": "branches 98,43 % sur validate, placement, score, apply, lines (apply/placement/score/validate 100 %, lines 88,88 %)"
       },
       "id": "REQ-SIX-DE-CHAQUE-E195",
       "matrixId": "E195",
@@ -2543,7 +2553,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/validate-bench.test.ts > tile board (median reported)",
+        "ref": "tests/validate-bench.test.ts > validateAction median per single move stays under 10 ms, six-tile placements included",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E196",
@@ -2555,18 +2565,30 @@
       "statement": "performance rapportée avec le matériel, jamais déclarée atteinte ailleurs"
     },
     {
+      "evidence": {
+        "ref": "P0-tests-*-six-de-chaque-9fb9441a….json (e2e officiel tank01 du commit 9fb9441, vitest + Playwright) et CI Woodpecker pipeline #42",
+        "threshold": "T01–T24 verts, 0 échec",
+        "type": "mesure",
+        "value": "T01–T24 tous présents ; vitest 366/366 (couverture, tank01) ; Playwright 276 attendus verts, 0 inattendu, 0 instable, 4 sautés déclarés ; 1 PAUSE onduleur de 30 s sans chevauchement ; CI #42 : vitest 366/366, Playwright 276 passés, 4 sautés"
+      },
       "id": "REQ-SIX-DE-CHAQUE-E197",
       "matrixId": "E197",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
       },
       "statement": "T01 à T24 verts en CI"
     },
     {
+      "evidence": {
+        "ref": "revues adverses P7 de 548cf70 au candidat fa45022 (base de revue : version publiée 4c69be5, outil à verdict structuré), second regard agy sur les 58 captures P12 ; barrière publier-opencade.py verte au sha fa45022bf4c142402b765d03f44bb1e0a329d561 le 2026-11-21 (0/8 manquante), etat --sha vert ; défauts bloquants régressifs corrigés avec oracle vu rouge (passes Codex 8 à 25, lots F à R) ; tris validés par la coordination",
+        "threshold": "0 régression bloquante ouverte (perte ou corruption de sauvegarde atteignable, faille, exigence de la spec, défaut atteignable par un joueur, import compris) ; tout défaut préexistant en dette citée au sha publié ; chaque non bloquant avec raison et expire",
+        "type": "mesure",
+        "value": "aucune régression bloquante ouverte au candidat final ; défauts déjà présents dans 4c69be5 en dette existante (HL-525 7-3074, E277 à E283, citations fichier:ligne@4c69be5 vérifiées par la barrière, expire 2026-12-31) ; non bloquants en convergence (HL-525 7-3025, expire 0.3.0, dont E284 couvrant E268/E270) ; P8 7/8 tuées, 1 survivante justifiée équivalente (historique-sans-cesure, liée à E281)"
+      },
       "id": "REQ-SIX-DE-CHAQUE-E198",
       "matrixId": "E198",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
       },
@@ -2574,7 +2596,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/project-config.test.ts > playwright runs Chromium, Firefox and WebKit mobile projects",
+        "ref": "tests/e2e/draw-order.spec.ts > the draw order for seed clavier matches the reference vector in the browser",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E199",
@@ -2674,7 +2696,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/e2e/overflow.spec.ts > no horizontal overflow at",
+        "ref": "tests/e2e/overflow.spec.ts > no horizontal overflow at 320 px",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E207",
@@ -2738,9 +2760,15 @@
       "statement": "IndexedDB, migrations, rejeu"
     },
     {
+      "evidence": {
+        "ref": "CI Woodpecker pipeline #42 (commit 9fb9441) + e2e officiel tank01 du même commit",
+        "threshold": "CI et e2e verts",
+        "type": "mesure",
+        "value": "tests de propriétés (T17 ×1000 deux façons, T19 exhaustif, terminaison ×1000) verts en CI (vitest 366/366) ; e2e CI 276 passés 0 échec, 4 sautés déclarés"
+      },
       "id": "REQ-SIX-DE-CHAQUE-E212",
       "matrixId": "E212",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/six-de-chaque-sources/backlog/backlog.csv"
       },
@@ -2879,7 +2907,7 @@
     },
     {
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > T21 an event that is null or malformed gives a controlled error",
+        "ref": "apps/web/test/storage.test.ts > T21 an event that is null or malformed gives a controlled error and keeps the existing save",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E224",
@@ -2892,7 +2920,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/replay.test.ts > T17 two independent runs of the same seed give the same final hash",
+        "ref": "packages/engine/test/replay.test.ts > T17 every game is replayed and also replayed independently from the same seed to the same final hash",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E225",
@@ -2944,7 +2972,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/e2e/hotseat-many.spec.ts > humans hides every other hand",
+        "ref": "tests/e2e/hotseat-many.spec.ts > hotseat with 3 humans hides every other hand",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E229",
@@ -2954,6 +2982,856 @@
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
       "statement": "3 et 4 humains sur un même appareil, mains cachées"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/draw-order.spec.ts > the reserve order for seed clavier matches the reference vector in the browser",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E230",
+      "matrixId": "E230",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "ordre de tirage identique sur toutes les plateformes (vecteurs de référence, 4 navigateurs)"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/ai-turn-fallback-bound.test.ts > the fallback returns a legal move within 50 ms on a 108-tile board with no placement",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E231",
+      "matrixId": "E231",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "le repli hors Worker rend un coup légal en moins de 50 ms (médiane de cinq appels) sur une position où les 108 tuiles sont réparties, 72 posées en deux carrés disjoints, sans aucune pose légale"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/pass-and-generator.test.ts > a pass and an exchange both score zero points",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E232",
+      "matrixId": "E232",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "une passe et un échange rapportent zéro point"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/pass-and-generator.test.ts > move generation is bounded by frontier cells, hand subsets and candidate placements",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E233",
+      "matrixId": "E233",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "génération des coups bornée par frontières × sous-ensembles de main × placements candidats"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > every action variant requires a non-negative integer expectedTurn",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E234",
+      "matrixId": "E234",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "chaque variante d'action exige un expectedTurn entier non négatif"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/moves.test.ts > every move returned by getLegalMoves is accepted by validateAction, off turn and after the end included",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E235",
+      "matrixId": "E235",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "chaque coup rendu par le générateur public est accepté par validateAction (hors tour et partie finie compris : aucun coup)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > the client ignores a result whose gameHash does not match the current state",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E236",
+      "matrixId": "E236",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "protocole du Worker : requestId, gameHash et budget de nœuds ; un résultat d'un autre état est refusé"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/symmetry.test.ts > identical copies never cause the same candidate to be validated twice",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E237",
+      "matrixId": "E237",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "les copies physiques identiques de la main ne sont explorées qu'une fois (même nombre de poses candidates qu'une main sans doublon)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/symmetry.test.ts > the generator only starts from empty cells orthogonally adjacent to the board, accepted or not",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E238",
+      "matrixId": "E238",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "le générateur ne part que de cases vides orthogonalement adjacentes au plateau"
+    },
+    {
+      "arbitrage": {
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "Publier avec le verrou vide (assets: [], assetctl check-lock rc 0) ; la spec du registre (§ 1) inclut les ressources générées par code : le registre inventoriera ces images ensuite",
+        "ref": "HL-535 7-3026",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E239",
+      "matrixId": "E239",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
+      },
+      "statement": "assets.lock.json versionné au commit, valide au schéma lock 1.0 du registre ; aucun asset du registre : images générées dans le dépôt (test assets-provenance)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > a PLACE placement with an extra property is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E240",
+      "matrixId": "E240",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "pose de PLACE : aucune propriété supplémentaire"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > a PLACE placement missing tileId, x or y is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E241",
+      "matrixId": "E241",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "pose de PLACE : tileId, x et y obligatoires"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > a PLACE placement with non-integer coordinates is rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E242",
+      "matrixId": "E242",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "pose de PLACE : coordonnées entières"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > the client ignores a result whose requestId does not match the pending request",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E243",
+      "matrixId": "E243",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "protocole du Worker : un résultat dont le requestId ne correspond pas à la demande en cours est ignoré"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/palette.test.ts > high contrast colours reach 4.5:1 against the tile background",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E244",
+      "matrixId": "E244",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "mode contraste élevé : couleurs des galets à au moins 4,5:1 sur leur fond"
+    },
+    {
+      "evidence": {
+        "ref": "tests/assets-provenance.test.ts > every image in the repository comes from a generator in the repository",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E245",
+      "matrixId": "E245",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "logos, icônes et illustrations : tous produits par les générateurs du dépôt, aucun repris"
+    },
+    {
+      "evidence": {
+        "ref": "packages/engine/test/apply.test.ts > exchange is refused in opening",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E246",
+      "matrixId": "E246",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "le premier coup de la partie est une pose : l'échange est refusé à l'ouverture (règle de l'éditeur : « Wer die längste Reihe legen kann, fängt an. », voir specs/six-de-chaque-references/regles-officielles.md)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/board-interaction.test.ts > a pinch keeps the world point under the fingers' midpoint",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E247",
+      "matrixId": "E247",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "zoom tactile par pincement : appliqué dès le premier mouvement, le point du plateau reste sous le milieu des doigts"
+    },
+    {
+      "evidence": {
+        "ref": "packages/ai/test/host.test.ts > the move cache key changes with passLegal alone",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E248",
+      "matrixId": "E248",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "cache de l'hôte IA : la clé distingue aussi le droit de passer (passLegal)"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/export-schema.test.ts > an export re-imports to the same snapshot and journal",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E249",
+      "matrixId": "E249",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "un export se réimporte à l'identique (instantané et journal, champ par champ)"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/board-interaction.test.ts > high contrast ghost tiles keep at least 3:1 contrast on the board and stay distinct from placed tiles",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E250",
+      "matrixId": "E250",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "contraste élevé : tuiles fantômes à au moins 3:1 et distinctes des tuiles posées (couleurs de rendu)"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/resume-app.test.ts > saveAll refuses to write a snapshot that breaks the contract",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E251",
+      "matrixId": "E251",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "l'instantané écrit dans IndexedDB ne porte que les champs du schéma v2 ; un instantané hors contrat est refusé, rien n'est écrit"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "modification manuelle d'IndexedDB seulement ; aucune perte silencieuse. Test qui le montrerait : write-conflicts, supprimer seq=1 d'un journal de 3 puis jouer : StaleGameError",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E252",
+      "matrixId": "E252",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "non bloquant : un journal altéré à la main au milieu (événement supprimé, tête réécrite en gardant son hash) laisse saveTurn accepter le tour suivant ; la reprise est ensuite refusée avec message, et l'import refuse ce fichier"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "modification manuelle d'IndexedDB seulement. Test qui le montrerait : resume-app, score -1 et journal intact : reprise reconstruite depuis le journal",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E253",
+      "matrixId": "E253",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "non bloquant : un score négatif injecté à la main dans l'instantané IndexedDB n'est pas réparé depuis le journal (reprise refusée avec message ; par l'import, refusé avec message)"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "l'interface crée toujours la limite par défaut. Test qui le montrerait : createGame avec coordinateLimit 200000 puis export/import",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E254",
+      "matrixId": "E254",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "non bloquant : une sauvegarde v2 créée par l'API avec une limite de coordonnées au-delà de 100 000 serait refusée par le contrat v2"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "la spec ne désigne pas le bouton principal de cet écran ; les trois actions sont présentes. Test qui le montrerait : e2e défis, bouton principal « Liste des défis » sur défi réussi",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E255",
+      "matrixId": "E255",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "non bloquant : sur l'écran « Défi réussi », « Réessayer » reste le bouton principal"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "seul un appel direct à l'API produit un tel état ; le moteur et l'import ne le font pas. Test qui le montrerait : aller-retour export/import après une transition sur un état enrichi",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E256",
+      "matrixId": "E256",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "non bloquant : un état portant un champ étranger AVANT une transition donne un journal dont l'empreinte ne correspond plus à l'instantané projeté (export non réimportable)"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "les événements du moteur sont propres ; l'import valide l'action. Test qui le montrerait : lecture brute du journal après saveTurn avec un champ note",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E257",
+      "matrixId": "E257",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "non bloquant : saveTurn/saveAll appelés directement recopient les propriétés étrangères d'un événement dans IndexedDB"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "rejeu, reprise et import conservent l'ordre : une même position n'arrive pas sous deux ordres. Test qui le montrerait : permuter les clés du plateau, comparer cache chaud et recherche fraîche",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E258",
+      "matrixId": "E258",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/03-ia-et-puzzles.md.txt"
+      },
+      "statement": "non bloquant : la décision de l'IA dépend de l'ordre d'insertion des clés du plateau, que la clé du cache ignore"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "date": "2026-11-19",
+        "expire": "0.3.0",
+        "note": "les chemins de sauvegarde et d'import refusent ces clés avec un message (export-schema > an imported board key -0:0 is refused with a message or normalised). Test qui le montrerait : validateGameSnapshot sur 0:-0",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E259",
+      "matrixId": "E259",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/game.schema.json"
+      },
+      "statement": "non bloquant : le validateur public v2 accepte -0:0 et 0:-0, deux graphies de la même case"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/ai-fallback-budget.test.ts > the fallback AI search is abandoned when the turn is no longer current",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E260",
+      "matrixId": "E260",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "le repli hors Worker est borné par un budget de nœuds et s'interrompt dès que le tour n'est plus d'actualité, en rendant la main entre deux tranches"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/ai-fallback-budget.test.ts > the fallback AI search stops at its node budget and still returns a legal action",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E261",
+      "matrixId": "E261",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "le repli hors Worker s'arrête à son budget de nœuds et rend une action légale"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/controller.test.ts > on resume the keyboard cursor starts on the board, not at the origin",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E262",
+      "matrixId": "E262",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "à la reprise ou à l'import, le curseur clavier démarre sur une case occupée ; le premier rendu cadre toujours le plateau entier (aucun plancher de cadrage hormis 0,02 technique), puis le joueur zoome pas à pas jusqu'à une lecture confortable"
+    },
+    {
+      "evidence": {
+        "ref": "tests/e2e/history-expanded.spec.ts > the expanded move history shows every move, each line fully visible after scrolling, without horizontal overflow",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E263",
+      "matrixId": "E263",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "historique déplié dans le navigateur : tous les coups, chaque ligne visible au défilement, sans débordement horizontal"
+    },
+    {
+      "evidence": {
+        "ref": "packages/contracts/test/schemas.test.ts > PLACE, EXCHANGE and PASS actions with a non-string actorId are rejected",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E264",
+      "matrixId": "E264",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/contracts/actions.schema.json"
+      },
+      "statement": "actions : actorId et actionId de type chaîne dans les trois types, identifiants de tuile de l'échange de type chaîne"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > fitBoard keeps every tile of a 17 by 14 board inside a 366 by 364 view",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E265",
+      "matrixId": "E265",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "un plateau de 17 × 14 cases tient entier dans une vue de 366 × 364 px au cadrage"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > from a fit below the minimum zoom the user can zoom in step by step up to a comfortable reading zoom of 1",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E266",
+      "matrixId": "E266",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "depuis un cadrage sous le zoom minimal, le joueur zoome pas à pas jusqu'au zoom 1"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/replay-keyboard.test.ts > in replay the board can be zoomed and panned with the keyboard and the zoom buttons",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E267",
+      "matrixId": "E267",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "rejeu : plateau focalisable, zoom et déplacement au clavier, boutons Zoomer et Dézoomer"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/resume-app.test.ts > after finishing a game and going home, the last finished game can still be replayed, also after a reload",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E268",
+      "matrixId": "E268",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "la dernière partie terminée reste accessible depuis l'accueil (rejeu et export), y compris après rechargement"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > after zooming in from a fit below the minimum, zooming out returns to the fit",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E269",
+      "matrixId": "E269",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dézoom : depuis n'importe quel zoom, des « − » répétés reviennent exactement au cadrage complet du plateau courant, jamais en dessous"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/resume-app.test.ts > an imported finished game can be replayed from home after a reload",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E270",
+      "matrixId": "E270",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "une partie terminée importée, ou une sauvegarde v1 terminée, se revoit depuis l'accueil"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/resume-app.test.ts > an imported game in progress is resumable from home after a reload even if no later write happens",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E271",
+      "matrixId": "E271",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "l'import écrit instantané, journal et pointeur de reprise ou de rejeu dans une seule transaction : une partie importée en cours se reprend après rechargement"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/hint-exchange.test.ts > a hint advising an exchange selects the advised tiles in exchange mode and announces it",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E272",
+      "matrixId": "E272",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "l'indice conseille aussi un échange (tuiles de la main présélectionnées, annonce) ou une passe"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/board-interaction.test.ts > a secondary mouse click never taps a cell",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E273",
+      "matrixId": "E273",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "souris : seul le bouton principal sélectionne une case ; le clic secondaire n'ajoute jamais de fantôme"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/board-interaction.test.ts > after a manual pan, a render with an unchanged cursor keeps the camera",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E274",
+      "matrixId": "E274",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "après un déplacement manuel, la vue ne bouge pas tant que le curseur clavier ne change pas (sélectionner une tuile ne recadre pas)"
+    },
+    {
+      "evidence": {
+        "ref": "apps/web/test/hint-exchange.test.ts > a pass hint in a dead position where exchange is legal says that exchanging is possible",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E275",
+      "matrixId": "E275",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "l'indice de passe en position morte dit que l'échange reste possible quand il est légal"
+    },
+    {
+      "evidence": {
+        "ref": "packages/renderer-pixi/test/camera.test.ts > fitBoard keeps every tile of a 36-row board inside a 220 px high view",
+        "type": "test"
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E276",
+      "matrixId": "E276",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
+      },
+      "statement": "un plateau de 36 rangées ou de 58 colonnes tient entier dans la vue mobile au cadrage"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/App.tsx:33@4c69be5",
+          "apps/web/src/App.tsx:57-62@4c69be5",
+          "apps/web/src/App.tsx:81@4c69be5",
+          "apps/web/src/App.tsx:160@4c69be5",
+          "apps/web/src/components.tsx:38@4c69be5"
+        ],
+        "couvre": [
+          "E262"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (open ne remet pas le zoom à zéro, le plateau rejoue le dernier facteur) ; revue P7 de 3ef52a7, bloquant 1 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E277",
+      "matrixId": "E277",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dette existante : un zoom demandé dans une partie est rejoué sur le plateau de la partie ouverte ensuite (import, reprise) et peut le rogner au premier rendu"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/screens/Handover.tsx:4@4c69be5",
+          "apps/web/src/screens/Setup.tsx:31@4c69be5",
+          "apps/web/src/styles.css:10@4c69be5"
+        ],
+        "couvre": [
+          "E229"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (même h1, même maxLength 20, aucune coupure) ; revue P7 de 3ef52a7, bloquant 2 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E278",
+      "matrixId": "E278",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dette existante : un nom de 20 caractères sans espace déborde du titre de l'écran de passage à 390 px"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/App.tsx:43@4c69be5",
+          "apps/web/src/App.tsx:63@4c69be5",
+          "apps/web/src/storage/db.ts:8@4c69be5"
+        ],
+        "couvre": [
+          "E017",
+          "E188"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (pointeur unique posé dans open) ; revue P7 de 9fb9441, bloquant 1 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E279",
+      "matrixId": "E279",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
+      },
+      "statement": "dette existante : avec deux onglets, une partie A jouée après l'ouverture d'une partie B n'est plus proposée en reprise après rechargement (un seul pointeur lastGameId)"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "packages/renderer-pixi/src/camera.ts:5@4c69be5",
+          "packages/renderer-pixi/src/camera.ts:7@4c69be5",
+          "packages/renderer-pixi/src/camera.ts:15@4c69be5",
+          "packages/renderer-pixi/src/board-view.ts:140@4c69be5"
+        ],
+        "couvre": [
+          "E269"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (plancher 0,35, zoomAt au centre sans recadrage) ; revue P7 de 9fb9441, bloquant 2 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E280",
+      "matrixId": "E280",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dette existante : après un glisser, dézoomer au centre peut laisser le plateau hors de l'écran (pas de recadrage)"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/styles.css:32-34@4c69be5",
+          "apps/web/src/screens/Play.tsx:40-42@4c69be5"
+        ],
+        "couvre": [
+          "E207",
+          "E229"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (bandeau en flex-wrap, li sans min-width:0 ni overflow-wrap) ; le delta l'atténue (overflow-wrap anywhere sur .players .name : un nom latin tient) ; trouvé par le lot R (mutant historique-sans-cesure) ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E281",
+      "matrixId": "E281",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dette existante : un nom légal de 20 caractères larges sans espace (ex. U+01F1 ×20) élargit le bandeau des joueurs de l'écran de jeu au-delà de 390 px"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "packages/engine/src/types.ts:12@4c69be5",
+          "packages/engine/src/create.ts:7@4c69be5"
+        ],
+        "couvre": [
+          "E219"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (même littéral unique) ; revue P7 de fa45022, bloquant 4 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E282",
+      "matrixId": "E282",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
+      },
+      "statement": "dette existante : la politique de fin par blocage n'a qu'une valeur ('fullPassRound') ; la configuration publique n'offre aucun choix"
+    },
+    {
+      "arbitrage": {
+        "categorie": "dette_existante",
+        "citations_base": [
+          "apps/web/src/App.tsx:82-86@4c69be5",
+          "apps/web/src/game/keyboard.ts:27@4c69be5"
+        ],
+        "couvre": [
+          "E020",
+          "E058",
+          "E272"
+        ],
+        "date": "2026-11-20",
+        "expire": "2026-12-31",
+        "note": "défaut déjà dans la version publiée 4c69be5 (seuls les indices PLACE étaient traités) ; le delta ajoute l'indice d'échange en mode pose sans aggraver ce cas ; revue P7 de fa45022, bloquant 3 ; classement relu par le coordinateur",
+        "ref": "HL-525 7-3074",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E283",
+      "matrixId": "E283",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "dette existante : l'indice demandé au clavier (I) depuis le mode échange est ignoré quand il conseille un échange"
+    },
+    {
+      "arbitrage": {
+        "categorie": "non_bloquant_convergence",
+        "couvre": [
+          "E268",
+          "E270"
+        ],
+        "date": "2026-11-21",
+        "expire": "0.3.0",
+        "fichiers": [
+          "apps/web/src/game/resume.ts",
+          "apps/web/src/storage/db.ts"
+        ],
+        "note": "arbitrage du coordinateur 21/11 : la version publiée 4c69be5 ne proposait aucun rejeu depuis l'accueil (App.tsx:45 garde !x.finished), aucune donnée perdue, rien de pire qu'avant ; revue P7 de fa45022, bloquant 1",
+        "ref": "HL-525 7-3025",
+        "valide_par_david": true
+      },
+      "id": "REQ-SIX-DE-CHAQUE-E284",
+      "matrixId": "E284",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
+      },
+      "statement": "non bloquant : une partie v1 terminée, revue depuis l'accueil, n'y est plus proposée après le démarrage d'une nouvelle partie (aucun lastFinishedGameId posé par l'aperçu) ; données conservées"
     }
   ],
   "title": "Qwarkle — dossier de spécification et d'implémentation v1.0",

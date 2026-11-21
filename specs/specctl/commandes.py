@@ -156,7 +156,7 @@ def discover_github(records, sources_file, clones):
                          "new": sum(item["status"] == "new" for item in items), "readOnly": True}
 
 
-def discover_drive(records, listing):
+def discover_drive(records, listing, pending=None):
     """Liste Drive exportée par le connecteur (id, name) : rapprochée des identifiants Drive des fiches."""
     if listing is None:
         return ExitCode.IO, {"status": "source-unavailable", "source": "drive",
@@ -169,10 +169,14 @@ def discover_drive(records, listing):
         raise InvalidJSON("Liste Drive invalide : objets {id, name} attendus.") from exc
     known = {drive_id: spec_id for spec_id, record in records.items()
              for drive_id in record.get("importOrigins", {}).get("drive", [])}
+    pending = pending or {}
     items = [{"driveId": drive_id, "name": name, "knownAs": known.get(drive_id),
-              "status": "known" if drive_id in known else "new"} for drive_id, name in sorted(rows)]
+              "status": "known" if drive_id in known else "pending" if drive_id in pending else "new",
+              **({"project": pending[drive_id]["project"]} if drive_id in pending and drive_id not in known else {})}
+             for drive_id, name in sorted(rows)]
     return ExitCode.OK, {"status": "ok", "source": "drive", "documents": items,
-                         "new": sum(item["status"] == "new" for item in items), "readOnly": True}
+                         "new": sum(item["status"] == "new" for item in items),
+                         "pending": sum(item["status"] == "pending" for item in items), "readOnly": True}
 
 
 # --- search, impact, blocks ----------------------------------------------------------------------------------------
@@ -477,3 +481,69 @@ def report(records, source, warnings, incoming):
             "duplicates": duplicates, "conflicts": conflicts, "unknown": warnings, "brokenLinks": broken,
             "coverage": coverage, "graph": graph,
             "decisionsRequired": [conflict["specId"] for conflict in conflicts]}
+
+
+# --- sync des matrices, documents Drive à importer ----------------------------------------------------------------
+
+SYNC_FIELDS = ("matrixStatus", "evidence", "acceptance")
+
+
+def sync(store, records, incoming, dry_run):
+    """L'avancement (statut, preuve, critère) se ferme dans les matrices de homelab-docs ; les énoncés restent ceux
+    du registre. Recopie quand l'énoncé est identique, ajoute les exigences nouvelles, garde les disparues (jamais
+    recyclées) et signale sans l'appliquer un énoncé réécrit (décision requise)."""
+    changes, updated, added, changed_statements, missing = {}, 0, 0, [], []
+    for spec_id, record in sorted(records.items()):
+        source = incoming.get(spec_id)
+        if source is None:
+            continue
+        theirs = {row["id"]: row for row in source["requirements"]}
+        new = copy.deepcopy(record)
+        mine = {row["id"]: row for row in new["requirements"]}
+        for req_id, row in mine.items():
+            other = theirs.get(req_id)
+            if other is None:
+                missing.append(req_id)
+                continue
+            if other["statement"] != row["statement"]:
+                changed_statements.append({"id": req_id, "registry": row["statement"], "matrix": other["statement"]})
+                continue
+            before = {key: row.get(key) for key in SYNC_FIELDS}
+            for key in SYNC_FIELDS:
+                if key in other:
+                    row[key] = copy.deepcopy(other[key])
+                else:
+                    row.pop(key, None)
+            updated += before != {key: row.get(key) for key in SYNC_FIELDS}
+        for req_id in sorted(set(theirs) - set(mine)):
+            new["requirements"].append(copy.deepcopy(theirs[req_id]))
+            added += 1
+        new["requirements"].sort(key=lambda row: row["id"])
+        if new != record:
+            changes[spec_id] = new
+    if changes and not dry_run:
+        store.publish(changes, "sync")
+    return ExitCode.OK, {"status": "ok", "dryRun": dry_run, "updated": updated, "added": added,
+                         "specs": sorted(changes), "statementChanged": changed_statements,
+                         "missingFromMatrix": sorted(missing)}
+
+
+PENDING = "drive-a-importer.json"
+
+
+def pending_drive(root):
+    path = root / "specs" / "registry" / PENDING
+    return parse_json(path.read_bytes()) if path.is_file() else {}
+
+
+def inscrire_drive(store, drive_id, name, project):
+    from .fiche import DRIVE_ID
+    if not DRIVE_ID.fullmatch(drive_id or "") or not re.fullmatch(r"[a-z0-9][a-z0-9-]*", project or ""):
+        return ExitCode.USAGE, {"status": "usage", "message": "Identifiant Drive ou projet invalide."}
+    entries = pending_drive(store.root)
+    entry = {"name": name, "project": project, "status": "a-importer"}
+    changed = entries.get(drive_id) != entry
+    if changed:
+        entries[drive_id] = entry
+        store.publish_side(PENDING, dict(sorted(entries.items())), "inscrire-drive", drive_id)
+    return ExitCode.OK, {"status": "ok", "driveId": drive_id, "changed": changed, "pending": len(entries)}

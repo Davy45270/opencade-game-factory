@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "002-salon",
+  "name": "Coussins partout",
+  "theme": "salon",
+  "difficulty": "easy",
+  "seed": 44000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "livres",
+      "label": "Livres"
+    },
+    {
+      "id": "plantes",
+      "label": "Plantes et fleurs"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "livres",
+      "capacity": 3
+    },
+    {
+      "id": "carton-2",
+      "category": "plantes",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "cadres",
+      "capacity": 4
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-8",
+      "category": "plantes",
+      "asset": "hortensias",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.415
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-1",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.215,
+        "y": 0.366
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-4",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-8",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.225,
+        "y": 0.328
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-10",
+      "category": "livres",
+      "asset": "livres-trio",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.295
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "plantes",
+      "asset": "cactus",
+      "blockedBy": [],
+      "position": {
+        "x": 0.486,
+        "y": 0.244
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-5",
+      "category": "plantes",
+      "asset": "bouquet-blanc",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.515,
+        "y": 0.131
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "cadres",
+      "asset": "cadre-feuille",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.896
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-6",
+      "category": "cadres",
+      "asset": "cadre-chat",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.858
+      },
+      "layer": 3,
+      "hidden": true
+    },
+    {
+      "id": "pile-7",
+      "category": "cadres",
+      "asset": "cadre-tulipe",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.495,
+        "y": 0.821
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-9",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-3",
+        "pile-6",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.485,
+        "y": 0.783
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 1,
+    "twoStarsMaxBuffered": 3
+  },
+  "meta": {
+    "solution": [
+      "pile-8",
+      "pile-1",
+      "pile-4",
+      "pile-10",
+      "pile-2",
+      "pile-5",
+      "pile-3",
+      "pile-6",
+      "pile-7",
+      "pile-9"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 13,
+    "nonTrivialDecisions": 168,
+    "legalMoves": 611,
+    "blockingMoves": 15,
+    "blockingMoveShare": 0.024549918166939442
+  }
+}

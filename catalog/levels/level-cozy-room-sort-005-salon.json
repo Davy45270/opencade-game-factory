@@ -1,0 +1,399 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "005-salon",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 6,
+          "category": "plantes",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 4,
+          "category": "livres",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 3,
+          "category": "coussins",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 4,
+          "category": "lumieres",
+          "id": "carton-4"
+        }
+      ],
+      "categories": [
+        {
+          "id": "plantes",
+          "label": "Plantes et fleurs"
+        },
+        {
+          "id": "livres",
+          "label": "Livres"
+        },
+        {
+          "id": "coussins",
+          "label": "Coussins et plaids"
+        },
+        {
+          "id": "lumieres",
+          "label": "Lumières"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "005-salon",
+      "meta": {
+        "blockingMoveShare": 0.20487364620938628,
+        "blockingMoves": 227,
+        "engineVersion": "0.1.0",
+        "legalMoves": 1108,
+        "nonTrivialDecisions": 171,
+        "solution": [
+          "pile-10",
+          "pile-14",
+          "pile-1",
+          "pile-5",
+          "pile-9",
+          "pile-12",
+          "pile-13",
+          "pile-17",
+          "pile-11",
+          "pile-2",
+          "pile-6",
+          "pile-16",
+          "pile-3",
+          "pile-7",
+          "pile-4",
+          "pile-8",
+          "pile-15"
+        ],
+        "statesExplored": 90
+      },
+      "name": "Après la fête",
+      "objects": [
+        {
+          "asset": "livres-trio",
+          "blockedBy": [],
+          "category": "livres",
+          "id": "pile-10",
+          "layer": 8,
+          "position": {
+            "x": 0.795,
+            "y": 0.933
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-10"
+          ],
+          "category": "livres",
+          "id": "pile-14",
+          "layer": 7,
+          "position": {
+            "x": 0.791,
+            "y": 0.917
+          }
+        },
+        {
+          "asset": "monstera-panier",
+          "blockedBy": [
+            "pile-10",
+            "pile-14"
+          ],
+          "category": "plantes",
+          "hidden": true,
+          "id": "pile-1",
+          "layer": 6,
+          "position": {
+            "x": 0.786,
+            "y": 0.906
+          }
+        },
+        {
+          "asset": "plante-panier",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1"
+          ],
+          "category": "plantes",
+          "id": "pile-5",
+          "layer": 5,
+          "position": {
+            "x": 0.783,
+            "y": 0.891
+          }
+        },
+        {
+          "asset": "plante-panier",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1",
+            "pile-5"
+          ],
+          "category": "plantes",
+          "id": "pile-9",
+          "layer": 4,
+          "position": {
+            "x": 0.779,
+            "y": 0.875
+          }
+        },
+        {
+          "asset": "plante-pot",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1",
+            "pile-5",
+            "pile-9"
+          ],
+          "category": "plantes",
+          "hidden": true,
+          "id": "pile-12",
+          "layer": 3,
+          "position": {
+            "x": 0.774,
+            "y": 0.859
+          }
+        },
+        {
+          "asset": "tournesols",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1",
+            "pile-5",
+            "pile-9",
+            "pile-12"
+          ],
+          "category": "plantes",
+          "id": "pile-13",
+          "layer": 2,
+          "position": {
+            "x": 0.769,
+            "y": 0.843
+          }
+        },
+        {
+          "asset": "plante-pot",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1",
+            "pile-5",
+            "pile-9",
+            "pile-12",
+            "pile-13"
+          ],
+          "category": "plantes",
+          "id": "pile-17",
+          "layer": 1,
+          "position": {
+            "x": 0.765,
+            "y": 0.827
+          }
+        },
+        {
+          "asset": "coussin-patte",
+          "blockedBy": [],
+          "category": "coussins",
+          "id": "pile-11",
+          "layer": 3,
+          "position": {
+            "x": 0.765,
+            "y": 0.346
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-11"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.78,
+            "y": 0.304
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-11",
+            "pile-2"
+          ],
+          "category": "livres",
+          "id": "pile-6",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.247
+          }
+        },
+        {
+          "asset": "lanterne-maison",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-16",
+          "layer": 3,
+          "position": {
+            "x": 0.205,
+            "y": 0.869
+          }
+        },
+        {
+          "asset": "coussin-creme",
+          "blockedBy": [
+            "pile-16"
+          ],
+          "category": "coussins",
+          "id": "pile-3",
+          "layer": 2,
+          "position": {
+            "x": 0.22,
+            "y": 0.797
+          }
+        },
+        {
+          "asset": "coussin-patte",
+          "blockedBy": [
+            "pile-16",
+            "pile-3"
+          ],
+          "category": "coussins",
+          "id": "pile-7",
+          "layer": 1,
+          "position": {
+            "x": 0.235,
+            "y": 0.736
+          }
+        },
+        {
+          "asset": "lampe-table",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-4",
+          "layer": 3,
+          "position": {
+            "x": 0.206,
+            "y": 0.415
+          }
+        },
+        {
+          "asset": "lampe-table",
+          "blockedBy": [
+            "pile-4"
+          ],
+          "category": "lumieres",
+          "id": "pile-8",
+          "layer": 2,
+          "position": {
+            "x": 0.221,
+            "y": 0.358
+          }
+        },
+        {
+          "asset": "lampe-table",
+          "blockedBy": [
+            "pile-4",
+            "pile-8"
+          ],
+          "category": "lumieres",
+          "id": "pile-15",
+          "layer": 1,
+          "position": {
+            "x": 0.236,
+            "y": 0.302
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 4,
+        "twoStarsMaxBuffered": 6
+      },
+      "seed": 47000,
+      "theme": "salon"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 17
+  },
+  "contentSha256": "3dce6452fb2898c66399e9bc0c0e83e714f6e9ad3d1248aa8fbbdd380a62512a",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 17
+  },
+  "id": "level-cozy-room-sort-005-salon",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "005-salon",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "3dce6452fb2898c66399e9bc0c0e83e714f6e9ad3d1248aa8fbbdd380a62512a",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/005-salon.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "005-salon — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/005-salon.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

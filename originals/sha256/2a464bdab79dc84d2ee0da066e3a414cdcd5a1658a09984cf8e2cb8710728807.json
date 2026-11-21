@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "001-salon",
+  "name": "Le salon en désordre",
+  "theme": "salon",
+  "difficulty": "easy",
+  "seed": 43004,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "plantes",
+      "label": "Plantes et fleurs"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    },
+    {
+      "id": "lumieres",
+      "label": "Lumières"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "plantes",
+      "capacity": 3
+    },
+    {
+      "id": "carton-2",
+      "category": "cadres",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "lumieres",
+      "capacity": 3
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-1",
+      "category": "plantes",
+      "asset": "tournesols",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.869
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-4",
+      "category": "plantes",
+      "asset": "bouquet-blanc",
+      "blockedBy": [
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.813
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-7",
+      "category": "plantes",
+      "asset": "plante-pot",
+      "blockedBy": [
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.756
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "cadres",
+      "asset": "cadre-feuille",
+      "blockedBy": [],
+      "position": {
+        "x": 0.795,
+        "y": 0.94
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-5",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.78,
+        "y": 0.883
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-8",
+      "category": "cadres",
+      "asset": "cadre-tulipe",
+      "blockedBy": [
+        "pile-2",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.765,
+        "y": 0.827
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "lumieres",
+      "asset": "cloche-lumineuse",
+      "blockedBy": [],
+      "position": {
+        "x": 0.486,
+        "y": 0.896
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-6",
+      "category": "lumieres",
+      "asset": "lampe-chevet",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.501,
+        "y": 0.84
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-9",
+      "category": "lumieres",
+      "asset": "lampe-chevet",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.516,
+        "y": 0.783
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 0,
+    "twoStarsMaxBuffered": 2
+  },
+  "meta": {
+    "solution": [
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-2",
+      "pile-5",
+      "pile-8",
+      "pile-3",
+      "pile-6",
+      "pile-9"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 10,
+    "nonTrivialDecisions": 96,
+    "legalMoves": 315,
+    "blockingMoves": 0,
+    "blockingMoveShare": 0
+  }
+}

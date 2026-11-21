@@ -20,11 +20,10 @@ Remplacer l’identifiant de l’exemple par celui d’une fiche du catalogue et
 de planche et ses usages. Les deux commandes lisent le catalogue du dépôt
 qui contient l’exécutable.
 
-Le registre fournit `validate`, `inspect` et `scan-repos`. Les commandes
-`import-sheet`, `extract` et `duplicates` restent prévues dans L2.
-L3 couvre `search`, `register`, `derive`,
-`usage`, `publish`, `sync` et `index rebuild`. Toutes acceptent
-`--json`. Les commandes de mutation acceptent `--dry-run`. Le résultat JSON
+Le registre fournit `search`, `inspect`, `import-sheet`, `extract`, `register`,
+`derive`, `validate`, `usage`, `publish`, `duplicates`, `scan-repos`, `sync`,
+`index`, `materialize`, `check-lock`, `export-atlas`, `validate-atlas` et
+`sbom`. Toutes acceptent `--json`. Les commandes de mutation acceptent `--dry-run`. Le résultat JSON
 est sur stdout et le journal JSON Lines sur stderr. `--log <fichier>` redirige
 le journal.
 

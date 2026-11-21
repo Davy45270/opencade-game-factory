@@ -1,0 +1,13 @@
+# Configuration gitleaks du registre (étape « secrets » de .woodpecker/validate.yml).
+# Règles par défaut conservées ; une seule exception, ciblée.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = """Empreintes git (SHA-1 de blob, 40 hex) des binaires de jeux dans les cartes « assetBlobs »
+des fiches et des rapports générés : nom de fichier → identifiant d'objet git, aucune valeur secrète.
+76 faux positifs generic-api-key relevés dans 8b87a55 (inventaire-initial, HL-538) : les noms « sapin »,
+« lapin », « papier », « secret » contiennent un mot-clé de la règle."""
+paths = ['''^(catalog/assets|generated)/.*\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"[^"]+\.(png|webp|jpg|jpeg|gif|svg|ogg|wav|mp3|ttf|otf|woff2?)"\s*:\s*"[0-9a-f]{40}",?\s*$''']

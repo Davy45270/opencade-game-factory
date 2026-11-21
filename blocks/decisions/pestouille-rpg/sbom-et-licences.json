@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "candidate": "`npm sbom` (npm 11)",
+      "licenseRaw": "Artistic-2.0",
+      "licenseSpdx": "Artistic-2.0",
+      "need": "SBOM",
+      "verdict": "intégré, mais oublie les dépendances des workspaces (Ajv absent)",
+      "version": null
+    },
+    {
+      "candidate": "@cyclonedx/cyclonedx-npm",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "SBOM",
+      "verdict": "complet, une dépendance de plus et un horodatage à neutraliser",
+      "version": null
+    },
+    {
+      "candidate": "syft",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "SBOM",
+      "verdict": "binaire Go hors npm, utile pour les images de conteneurs",
+      "version": null
+    },
+    {
+      "candidate": "script sur `package-lock.json`",
+      "licenseRaw": "MIT (le nôtre)",
+      "licenseSpdx": "UNKNOWN",
+      "need": "SBOM",
+      "verdict": "150 lignes, déterministe, workspaces compris",
+      "version": null
+    },
+    {
+      "candidate": "license-checker",
+      "licenseRaw": "BSD-3-Clause",
+      "licenseSpdx": "BSD-3-Clause",
+      "need": "licences",
+      "verdict": "plus maintenu depuis 2019",
+      "version": null
+    },
+    {
+      "candidate": "lecture de `package-lock.json`",
+      "licenseRaw": "MIT (le nôtre)",
+      "licenseSpdx": "UNKNOWN",
+      "need": "licences",
+      "verdict": "le champ `license` y est déjà, aucune dépendance",
+      "version": null
+    },
+    {
+      "candidate": "`npm audit`",
+      "licenseRaw": "Artistic-2.0",
+      "licenseSpdx": "Artistic-2.0",
+      "need": "vulnérabilités",
+      "verdict": "intégré, base GitHub Advisory",
+      "version": null
+    },
+    {
+      "candidate": "osv-scanner",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "vulnérabilités",
+      "verdict": "binaire à part, base OSV plus large",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-SBOM-ET-LICENCES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/sbom-et-licences.md",
+    "repo": "pestouille-rpg",
+    "sha256": "10cb9537e5f3995958fa49bb657e82e5bcc04a64d9288c33d03e2f3b76357cb6"
+  }
+}

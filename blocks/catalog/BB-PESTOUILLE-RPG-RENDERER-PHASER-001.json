@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:pestouille-rpg:packages/renderer-phaser"
+  },
+  "id": "BB-PESTOUILLE-RPG-RENDERER-PHASER-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "renderer-phaser",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/renderer-phaser",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "licenseSpdx": "MIT",
+    "path": "packages/renderer-phaser",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "pestouille-rpg/apps/web",
+    "pestouille-rpg/tests/integration",
+    "pestouille-rpg/tests/unit"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:rolldown@1.3.0"
+  },
+  "id": "BB-NPM-ROLLDOWN-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "rolldown",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "package.json",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "1.3.0"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:vite-plugin-pwa@2.0.0"
+  },
+  "id": "BB-NPM-VITE-PLUGIN-PWA-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "vite-plugin-pwa",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "package.json",
+      "repo": "capsule-panic"
+    },
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "package.json",
+      "repo": "cozy-room-sort"
+    },
+    {
+      "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "path": "package.json",
+      "repo": "echecs-kid"
+    },
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "package.json",
+      "repo": "opencade"
+    },
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "package.json",
+      "repo": "opencadkid"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "package.json",
+      "repo": "pestouille-rpg"
+    },
+    {
+      "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": "package.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "package.json",
+      "repo": "six-de-chaque"
+    },
+    {
+      "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "path": "package.json",
+      "repo": "tictac"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "2.0.0"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic",
+    "cozy-room-sort",
+    "echecs-kid",
+    "opencade",
+    "opencadkid",
+    "pestouille-rpg",
+    "petit-astronome",
+    "six-de-chaque",
+    "tictac"
+  ]
+}

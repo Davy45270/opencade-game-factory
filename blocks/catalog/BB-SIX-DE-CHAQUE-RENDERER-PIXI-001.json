@@ -1,0 +1,50 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:six-de-chaque:packages/renderer-pixi"
+  },
+  "id": "BB-SIX-DE-CHAQUE-RENDERER-PIXI-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "renderer-pixi",
+  "observedIn": [
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "packages/renderer-pixi",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+    "licenseSpdx": "MIT",
+    "path": "packages/renderer-pixi",
+    "repo": "six-de-chaque",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "six-de-chaque/apps/web",
+    "six-de-chaque/tests/e2e"
+  ]
+}

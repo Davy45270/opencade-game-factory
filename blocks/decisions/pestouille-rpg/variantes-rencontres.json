@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "`rot-js` (npm)",
+      "licenseRaw": "BSD-3-Clause",
+      "licenseSpdx": "BSD-3-Clause",
+      "need": null,
+      "verdict": "boîte à outils de jeu (RNG, cartes, tables pondérées) ; seul le RNG servirait, et il ne partage pas l'état du moteur",
+      "version": "2.2.1"
+    },
+    {
+      "candidate": "`chance` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "générateurs aléatoires variés ; graine possible, état non sérialisable simplement",
+      "version": "1.1.13"
+    },
+    {
+      "candidate": "`pure-rand` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "générateurs purs à état sérialisable ; ferait doublon avec le PRNG du moteur",
+      "version": "8.4.2"
+    },
+    {
+      "candidate": "Profils de difficulté et PRNG du moteur (`progression.ts`, `rng.ts`, `EncounterBalance`)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "variation tirée à la création de la rencontre dans l'état de combat, donc sauvegardée et rejouée",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-VARIANTES-RENCONTRES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/variantes-rencontres.md",
+    "repo": "pestouille-rpg",
+    "sha256": "adc13f109b69bb3cb0c2692680e4eb6c4be449028204c532059e495f54ea634f"
+  }
+}

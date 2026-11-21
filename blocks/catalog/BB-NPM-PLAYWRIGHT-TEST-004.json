@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@playwright/test@unresolved"
+  },
+  "id": "BB-NPM-PLAYWRIGHT-TEST-004",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "test-harness",
+  "name": "@playwright/test",
+  "observedIn": [
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "packages/level-tools/package.json",
+      "repo": "cozy-room-sort"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "UNKNOWN",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "cozy-room-sort"
+  ]
+}

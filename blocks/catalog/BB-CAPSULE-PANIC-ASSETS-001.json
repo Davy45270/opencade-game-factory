@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:capsule-panic:packages/assets"
+  },
+  "id": "BB-CAPSULE-PANIC-ASSETS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "assets",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "packages/assets",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+    "licenseSpdx": "UNKNOWN",
+    "path": "packages/assets",
+    "repo": "capsule-panic",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic/apps/web"
+  ]
+}

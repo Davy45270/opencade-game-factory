@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:yaml@2.9.1"
+  },
+  "id": "BB-NPM-YAML-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "yaml",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "package.json",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "ISC",
+    "repositoryUrl": null,
+    "version": "2.9.1"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@jsquash/webp@1.5.0"
+  },
+  "id": "BB-NPM-JSQUASH-WEBP-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "@jsquash/webp",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "package.json",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "Apache-2.0",
+    "repositoryUrl": null,
+    "version": "1.5.0"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

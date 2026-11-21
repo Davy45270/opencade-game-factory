@@ -1,0 +1,50 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:opencadkid:src/engines/dictee"
+  },
+  "id": "BB-OPENCADKID-DICTEE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "dictee",
+  "observedIn": [
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "src/engines/dictee",
+      "repo": "opencadkid"
+    }
+  ],
+  "origin": {
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+    "licenseSpdx": "MIT",
+    "path": "src/engines/dictee",
+    "repo": "opencadkid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencadkid/dictee",
+    "opencadkid/tests/e2e"
+  ]
+}

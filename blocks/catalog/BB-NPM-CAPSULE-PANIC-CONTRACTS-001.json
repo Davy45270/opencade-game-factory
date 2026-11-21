@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@capsule-panic/contracts@unresolved"
+  },
+  "id": "BB-NPM-CAPSULE-PANIC-CONTRACTS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "external-library",
+  "name": "@capsule-panic/contracts",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "packages/engine/package.json",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "UNKNOWN",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

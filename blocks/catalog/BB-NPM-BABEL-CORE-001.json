@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@babel/core@8.1.2"
+  },
+  "id": "BB-NPM-BABEL-CORE-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "@babel/core",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "package.json",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "8.1.2"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

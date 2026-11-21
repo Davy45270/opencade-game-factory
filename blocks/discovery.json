@@ -1,0 +1,4119 @@
+{
+  "asset": {
+    "blocks": [],
+    "commitSha": "839485403d47155e33471e20fd7fe2c04bfc6366"
+  },
+  "capsule-panic": {
+    "blocks": [
+      {
+        "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:capsule-panic:packages/assets",
+        "kind": "game-local-module",
+        "license": "UNKNOWN",
+        "name": "assets",
+        "path": "packages/assets",
+        "usedBy": [
+          "capsule-panic/apps/web"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:capsule-panic:packages/contracts",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "contracts",
+        "path": "packages/contracts",
+        "usedBy": [
+          "capsule-panic/apps/web",
+          "capsule-panic/packages/engine",
+          "capsule-panic/packages/input",
+          "capsule-panic/packages/renderer",
+          "capsule-panic/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:capsule-panic:packages/engine",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "engine",
+        "path": "packages/engine",
+        "usedBy": [
+          "capsule-panic/apps/web",
+          "capsule-panic/packages/renderer"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:capsule-panic:packages/input",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "input",
+        "path": "packages/input",
+        "usedBy": [
+          "capsule-panic/apps/web"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:capsule-panic:packages/renderer",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "renderer",
+        "path": "packages/renderer",
+        "usedBy": [
+          "capsule-panic/apps/web"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@babel/core@8.1.2",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@babel/core",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "8.1.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@babel/eslint-parser@8.1.2",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@babel/eslint-parser",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "8.1.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@capsule-panic/contracts@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@capsule-panic/contracts",
+        "path": "packages/engine/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@capsule-panic/engine@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@capsule-panic/engine",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@capsule-panic/input@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@capsule-panic/input",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@capsule-panic/renderer@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@capsule-panic/renderer",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.0",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "1.65.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/react-dom@19.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/react-dom",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "19.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/react@19.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/react",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "19.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@vitejs/plugin-react@6.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@vitejs/plugin-react",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "6.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@vitest/coverage-v8@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "@vitest/coverage-v8",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "5.1.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:ajv@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "ajv",
+        "path": "packages/contracts/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:eslint-plugin-security@4.2.1",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "eslint-plugin-security",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "4.2.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:eslint@10.15.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "eslint",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "10.15.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fake-indexeddb@6.2.8",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "fake-indexeddb",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "6.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fast-check@4.10.3",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "fast-check",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "4.10.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:happy-dom@21.0.4",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "happy-dom",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "21.0.4"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:pixi.js@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "pixi.js",
+        "path": "packages/renderer/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:prettier@3.10.1",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "prettier",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "3.10.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:react-dom@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "react-dom",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:react@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "react",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "5.1.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:yaml@2.9.1",
+        "kind": "cli-tool",
+        "license": "ISC",
+        "name": "yaml",
+        "path": "package.json",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "2.9.1"
+      }
+    ],
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341"
+  },
+  "cozy-room-sort": {
+    "blocks": [
+      {
+        "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:cozy-room-sort:packages/engine",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "engine",
+        "path": "packages/engine",
+        "usedBy": [
+          "cozy-room-sort/apps/web",
+          "cozy-room-sort/packages/level-tools",
+          "cozy-room-sort/packages/solver",
+          "cozy-room-sort/tests/e2e",
+          "cozy-room-sort/tests/integration",
+          "cozy-room-sort/tests/property",
+          "cozy-room-sort/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:cozy-room-sort:packages/generator",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "generator",
+        "path": "packages/generator",
+        "usedBy": [
+          "cozy-room-sort/packages/level-tools",
+          "cozy-room-sort/tests/integration",
+          "cozy-room-sort/tests/property",
+          "cozy-room-sort/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:cozy-room-sort:packages/level-tools",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "level-tools",
+        "path": "packages/level-tools",
+        "usedBy": [
+          "cozy-room-sort/tests/integration"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:cozy-room-sort:packages/schemas",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "schemas",
+        "path": "packages/schemas",
+        "usedBy": [
+          "cozy-room-sort/apps/web",
+          "cozy-room-sort/content/assets",
+          "cozy-room-sort/packages/engine",
+          "cozy-room-sort/packages/generator",
+          "cozy-room-sort/packages/level-tools",
+          "cozy-room-sort/packages/solver",
+          "cozy-room-sort/tests/e2e",
+          "cozy-room-sort/tests/integration",
+          "cozy-room-sort/tests/property",
+          "cozy-room-sort/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:cozy-room-sort:packages/solver",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "solver",
+        "path": "packages/solver",
+        "usedBy": [
+          "cozy-room-sort/apps/web",
+          "cozy-room-sort/packages/generator",
+          "cozy-room-sort/tests/integration",
+          "cozy-room-sort/tests/property",
+          "cozy-room-sort/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@cozy-room-sort/engine@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@cozy-room-sort/engine",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@cozy-room-sort/generator@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@cozy-room-sort/generator",
+        "path": "packages/level-tools/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@cozy-room-sort/schemas@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@cozy-room-sort/schemas",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@cozy-room-sort/solver@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@cozy-room-sort/solver",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.0",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "1.65.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@unresolved",
+        "kind": "test-harness",
+        "license": "UNKNOWN",
+        "name": "@playwright/test",
+        "path": "packages/level-tools/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:ajv@8.20.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "ajv",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "8.20.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fake-indexeddb@6.2.8",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "fake-indexeddb",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "6.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fast-check@4.10.3",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "fast-check",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "4.10.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:happy-dom@21.0.4",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "happy-dom",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "21.0.4"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:phaser@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "phaser",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "cozy-room-sort"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa"
+  },
+  "echecs-kid": {
+    "blocks": [
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.0",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "1.65.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:happy-dom@21.0.4",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "happy-dom",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "21.0.4"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "echecs-kid"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c"
+  },
+  "jeux-assets": {
+    "blocks": [],
+    "commitSha": "788c83fd9852c543982614d5b0e3e724c565d3fb"
+  },
+  "opencade": {
+    "blocks": [
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/alunir",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "alunir",
+        "path": "src/engines/alunir",
+        "usedBy": [
+          "opencade/alunir",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/artificiers",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "artificiers",
+        "path": "src/engines/artificiers",
+        "usedBy": [
+          "opencade/artificiers",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/bombercade",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "bombercade",
+        "path": "src/engines/bombercade",
+        "usedBy": [
+          "opencade/bombercade",
+          "opencade/src/games",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/briqueterie",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "briqueterie",
+        "path": "src/engines/briqueterie",
+        "usedBy": [
+          "opencade/briqueterie",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/bubble",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "bubble",
+        "path": "src/engines/bubble",
+        "usedBy": [
+          "opencade/bubble",
+          "opencade/src/games",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/busfolie",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "busfolie",
+        "path": "src/engines/busfolie",
+        "usedBy": [
+          "opencade/busfolie",
+          "opencade/scripts/game",
+          "opencade/src/games"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/caisses",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "caisses",
+        "path": "src/engines/caisses",
+        "usedBy": [
+          "opencade/caisses",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/collier",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "collier",
+        "path": "src/engines/collier",
+        "usedBy": [
+          "opencade/collier",
+          "opencade/src/games",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/dedale",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "dedale",
+        "path": "src/engines/dedale",
+        "usedBy": [
+          "opencade/dedale",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/demineur",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "demineur",
+        "path": "src/engines/demineur",
+        "usedBy": [
+          "opencade/demineur",
+          "opencade/src/games"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/derapage",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "derapage",
+        "path": "src/engines/derapage",
+        "usedBy": [
+          "opencade/derapage",
+          "opencade/src/shell",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/devisso",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "devisso",
+        "path": "src/engines/devisso",
+        "usedBy": [
+          "opencade/devisso",
+          "opencade/src/games"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/empilo",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "empilo",
+        "path": "src/engines/empilo",
+        "usedBy": [
+          "opencade/empilo",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/essaim",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "essaim",
+        "path": "src/engines/essaim",
+        "usedBy": [
+          "opencade/essaim",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/ferraille",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "ferraille",
+        "path": "src/engines/ferraille",
+        "usedBy": [
+          "opencade/ferraille",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/fusio",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "fusio",
+        "path": "src/engines/fusio",
+        "usedBy": [
+          "opencade/fusio",
+          "opencade/src/games"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/gourmandises",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "gourmandises",
+        "path": "src/engines/gourmandises",
+        "usedBy": [
+          "opencade/gourmandises",
+          "opencade/src/games"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/marmaille",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "marmaille",
+        "path": "src/engines/marmaille",
+        "usedBy": [
+          "opencade/marmaille",
+          "opencade/src/games",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/orbite",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "orbite",
+        "path": "src/engines/orbite",
+        "usedBy": [
+          "opencade/orbite",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/pepites",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "pepites",
+        "path": "src/engines/pepites",
+        "usedBy": [
+          "opencade/pepites",
+          "opencade/src/games",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/petits-pompiers",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "petits-pompiers",
+        "path": "src/engines/petits-pompiers",
+        "usedBy": [
+          "opencade/petits-pompiers"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/serpentin",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "serpentin",
+        "path": "src/engines/serpentin",
+        "usedBy": [
+          "opencade/serpentin",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/shared",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "shared",
+        "path": "src/engines/shared",
+        "usedBy": [
+          "opencade/gourmandises",
+          "opencade/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/sudoku",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "sudoku",
+        "path": "src/engines/sudoku",
+        "usedBy": [
+          "opencade/src/games",
+          "opencade/sudoku"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencade:src/engines/traverse",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "traverse",
+        "path": "src/engines/traverse",
+        "usedBy": [
+          "opencade/tests/e2e",
+          "opencade/traverse"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.1",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "1.65.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:phaser@4.2.1",
+        "kind": "external-library",
+        "license": "MIT",
+        "name": "phaser",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "4.2.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:rolldown@1.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "rolldown",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "1.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "opencade"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a"
+  },
+  "opencadkid": {
+    "blocks": [
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/arrosoir",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "arrosoir",
+        "path": "src/engines/arrosoir",
+        "usedBy": [
+          "opencadkid/arrosoir",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/atelier",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "atelier",
+        "path": "src/engines/atelier",
+        "usedBy": [
+          "opencadkid/atelier",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/autobus",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "autobus",
+        "path": "src/engines/autobus",
+        "usedBy": [
+          "opencadkid/autobus",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/bonbons",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "bonbons",
+        "path": "src/engines/bonbons",
+        "usedBy": [
+          "opencadkid/bonbons",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/briques",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "briques",
+        "path": "src/engines/briques",
+        "usedBy": [
+          "opencadkid/briques",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/bulles",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "bulles",
+        "path": "src/engines/bulles",
+        "usedBy": [
+          "opencadkid/bulles",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/caisses",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "caisses",
+        "path": "src/engines/caisses",
+        "usedBy": [
+          "opencadkid/caisses",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/cartons",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "cartons",
+        "path": "src/engines/cartons",
+        "usedBy": [
+          "opencadkid/cartons",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/chemin",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "chemin",
+        "path": "src/engines/chemin",
+        "usedBy": [
+          "opencadkid/chemin",
+          "opencadkid/src/shell",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/chenille",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "chenille",
+        "path": "src/engines/chenille",
+        "usedBy": [
+          "opencadkid/chenille",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/cherche",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "cherche",
+        "path": "src/engines/cherche",
+        "usedBy": [
+          "opencadkid/cherche",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/collier",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "collier",
+        "path": "src/engines/collier",
+        "usedBy": [
+          "opencadkid/collier",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/compter",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "compter",
+        "path": "src/engines/compter",
+        "usedBy": [
+          "opencadkid/compter",
+          "opencadkid/src/shell",
+          "opencadkid/src/ui",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/dedale",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "dedale",
+        "path": "src/engines/dedale",
+        "usedBy": [
+          "opencadkid/dedale",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/derapage",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "derapage",
+        "path": "src/engines/derapage",
+        "usedBy": [
+          "opencadkid/derapage",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/dictee",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "dictee",
+        "path": "src/engines/dictee",
+        "usedBy": [
+          "opencadkid/dictee",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/eclosion",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "eclosion",
+        "path": "src/engines/eclosion",
+        "usedBy": [
+          "opencadkid/eclosion",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/empilo",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "empilo",
+        "path": "src/engines/empilo",
+        "usedBy": [
+          "opencadkid/empilo",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/essaim",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "essaim",
+        "path": "src/engines/essaim",
+        "usedBy": [
+          "opencadkid/essaim",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/ferraille",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "ferraille",
+        "path": "src/engines/ferraille",
+        "usedBy": [
+          "opencadkid/ferraille",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/formes",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "formes",
+        "path": "src/engines/formes",
+        "usedBy": [
+          "opencadkid/formes",
+          "opencadkid/src/shell",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/fusee",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "fusee",
+        "path": "src/engines/fusee",
+        "usedBy": [
+          "opencadkid/fusee",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/gouter",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "gouter",
+        "path": "src/engines/gouter",
+        "usedBy": [
+          "opencadkid/gouter",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/grille",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "grille",
+        "path": "src/engines/grille",
+        "usedBy": [
+          "opencadkid/grille",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/orbite",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "orbite",
+        "path": "src/engines/orbite",
+        "usedBy": [
+          "opencadkid/orbite",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/paires",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "paires",
+        "path": "src/engines/paires",
+        "usedBy": [
+          "opencadkid/paires",
+          "opencadkid/src/shell",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/pepites",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "pepites",
+        "path": "src/engines/pepites",
+        "usedBy": [
+          "opencadkid/pepites",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/promenade",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "promenade",
+        "path": "src/engines/promenade",
+        "usedBy": [
+          "opencadkid/promenade",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/puzzle",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "puzzle",
+        "path": "src/engines/puzzle",
+        "usedBy": [
+          "opencadkid/puzzle",
+          "opencadkid/src/shell",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/ranger",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "ranger",
+        "path": "src/engines/ranger",
+        "usedBy": [
+          "opencadkid/ranger",
+          "opencadkid/src/shell",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/sons",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "sons",
+        "path": "src/engines/sons",
+        "usedBy": [
+          "opencadkid/sons",
+          "opencadkid/src/shell"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/suites",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "suites",
+        "path": "src/engines/suites",
+        "usedBy": [
+          "opencadkid/src/shell",
+          "opencadkid/suites",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/tambours",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "tambours",
+        "path": "src/engines/tambours",
+        "usedBy": [
+          "opencadkid/src/shell",
+          "opencadkid/tambours",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/taupes",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "taupes",
+        "path": "src/engines/taupes",
+        "usedBy": [
+          "opencadkid/taupes",
+          "opencadkid/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/traverse",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "traverse",
+        "path": "src/engines/traverse",
+        "usedBy": [
+          "opencadkid/tests/e2e",
+          "opencadkid/traverse"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:opencadkid:src/engines/vis",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "vis",
+        "path": "src/engines/vis",
+        "usedBy": [
+          "opencadkid/tests/e2e",
+          "opencadkid/vis"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.1",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "1.65.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "opencadkid"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de"
+  },
+  "pestouille-rpg": {
+    "blocks": [
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/assets-pipeline",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "assets-pipeline",
+        "path": "packages/assets-pipeline",
+        "usedBy": [
+          "pestouille-rpg/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/characters",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "characters",
+        "path": "packages/characters",
+        "usedBy": [
+          "pestouille-rpg/packages/combat",
+          "pestouille-rpg/packages/creatures",
+          "pestouille-rpg/packages/engine"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/combat",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "combat",
+        "path": "packages/combat",
+        "usedBy": [
+          "pestouille-rpg/packages/engine",
+          "pestouille-rpg/packages/solver",
+          "pestouille-rpg/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/content",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "content",
+        "path": "packages/content",
+        "usedBy": [
+          "pestouille-rpg/apps/web",
+          "pestouille-rpg/tests/unit",
+          "pestouille-rpg/tools/cartes"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/core",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "core",
+        "path": "packages/core",
+        "usedBy": [
+          "pestouille-rpg/packages/characters",
+          "pestouille-rpg/packages/combat",
+          "pestouille-rpg/packages/creatures",
+          "pestouille-rpg/packages/engine",
+          "pestouille-rpg/packages/inventory",
+          "pestouille-rpg/packages/quests",
+          "pestouille-rpg/packages/solver",
+          "pestouille-rpg/packages/world",
+          "pestouille-rpg/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/creatures",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "creatures",
+        "path": "packages/creatures",
+        "usedBy": [
+          "pestouille-rpg/packages/combat",
+          "pestouille-rpg/packages/engine",
+          "pestouille-rpg/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/engine",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "engine",
+        "path": "packages/engine",
+        "usedBy": [
+          "pestouille-rpg/apps/web",
+          "pestouille-rpg/packages/content",
+          "pestouille-rpg/packages/renderer-phaser",
+          "pestouille-rpg/tests/e2e",
+          "pestouille-rpg/tests/integration",
+          "pestouille-rpg/tests/unit",
+          "pestouille-rpg/tools/cartes"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/inventory",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "inventory",
+        "path": "packages/inventory",
+        "usedBy": [
+          "pestouille-rpg/packages/engine"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/quests",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "quests",
+        "path": "packages/quests",
+        "usedBy": [
+          "pestouille-rpg/packages/engine",
+          "pestouille-rpg/packages/world"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/renderer-phaser",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "renderer-phaser",
+        "path": "packages/renderer-phaser",
+        "usedBy": [
+          "pestouille-rpg/apps/web",
+          "pestouille-rpg/tests/integration",
+          "pestouille-rpg/tests/unit"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/solver",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "solver",
+        "path": "packages/solver",
+        "usedBy": [
+          "pestouille-rpg/packages/engine"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:pestouille-rpg:packages/world",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "world",
+        "path": "packages/world",
+        "usedBy": [
+          "pestouille-rpg/apps/web",
+          "pestouille-rpg/packages/engine"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@axe-core/playwright@4.14.0",
+        "kind": "cli-tool",
+        "license": "MPL-2.0",
+        "name": "@axe-core/playwright",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "4.14.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@jsquash/webp@1.5.0",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "@jsquash/webp",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "1.5.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@pestouille/assets-pipeline@unresolved",
+        "kind": "cli-tool",
+        "license": "UNKNOWN",
+        "name": "@pestouille/assets-pipeline",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/characters@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/characters",
+        "path": "packages/combat/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/combat@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/combat",
+        "path": "packages/engine/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/content@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/content",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/core@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/core",
+        "path": "packages/characters/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/creatures@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/creatures",
+        "path": "packages/combat/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/engine@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/engine",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/inventory@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/inventory",
+        "path": "packages/engine/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/quests@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/quests",
+        "path": "packages/engine/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/renderer-phaser@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/renderer-phaser",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/solver@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/solver",
+        "path": "packages/engine/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/web@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/web",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@pestouille/world@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@pestouille/world",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.1",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "1.65.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@vitest/coverage-v8@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "@vitest/coverage-v8",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "5.1.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:ajv@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "ajv",
+        "path": "packages/content/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:eslint@9.39.5",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "eslint",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "9.39.5"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fake-indexeddb@6.2.8",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "fake-indexeddb",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "6.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fast-check@4.10.3",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "fast-check",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "4.10.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:phaser@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "phaser",
+        "path": "packages/renderer-phaser/package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript-eslint@8.73.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "typescript-eslint",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "8.73.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@6.0.3",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "6.0.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "pestouille-rpg"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57"
+  },
+  "petit-astronome": {
+    "blocks": [
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@eslint/js@10.0.1",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@eslint/js",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "10.0.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@fontsource/fredoka@5.2.8",
+        "kind": "external-library",
+        "license": "OFL-1.1",
+        "name": "@fontsource/fredoka",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "5.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.64.1",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "1.64.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@22.20.5",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "22.20.5"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:eslint@10.13.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "eslint",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "10.13.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript-eslint@8.72.1",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "typescript-eslint",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "8.72.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@6.0.3",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "6.0.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.5",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "8.3.5"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.0.5",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "petit-astronome"
+        ],
+        "version": "5.0.5"
+      }
+    ],
+    "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89"
+  },
+  "six-de-chaque": {
+    "blocks": [
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/ai",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "ai",
+        "path": "packages/ai",
+        "usedBy": [
+          "six-de-chaque/apps/web",
+          "six-de-chaque/packages/puzzles"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/contracts",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "contracts",
+        "path": "packages/contracts",
+        "usedBy": [
+          "six-de-chaque/apps/web",
+          "six-de-chaque/packages/puzzles"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/engine",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "engine",
+        "path": "packages/engine",
+        "usedBy": [
+          "six-de-chaque/apps/web",
+          "six-de-chaque/packages/ai",
+          "six-de-chaque/packages/contracts",
+          "six-de-chaque/packages/puzzles",
+          "six-de-chaque/packages/renderer-pixi",
+          "six-de-chaque/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/puzzles",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "puzzles",
+        "path": "packages/puzzles",
+        "usedBy": [
+          "six-de-chaque/apps/web"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/renderer-pixi",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "renderer-pixi",
+        "path": "packages/renderer-pixi",
+        "usedBy": [
+          "six-de-chaque/apps/web",
+          "six-de-chaque/tests/e2e"
+        ],
+        "version": null
+      },
+      {
+        "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "ecosystem": "local",
+        "interface": {
+          "language": "typescript",
+          "runtime": "browser"
+        },
+        "key": "local:six-de-chaque:packages/shared",
+        "kind": "game-local-module",
+        "license": "MIT",
+        "name": "shared",
+        "path": "packages/shared",
+        "usedBy": [],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@axe-core/playwright@4.14.0",
+        "kind": "cli-tool",
+        "license": "MPL-2.0",
+        "name": "@axe-core/playwright",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "4.14.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.65.0",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "1.65.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@six-de-chaque/ai@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@six-de-chaque/ai",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@six-de-chaque/contracts@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@six-de-chaque/contracts",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@six-de-chaque/engine@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@six-de-chaque/engine",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@six-de-chaque/puzzles@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@six-de-chaque/puzzles",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@six-de-chaque/renderer-pixi@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "@six-de-chaque/renderer-pixi",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@stryker-mutator/core@10.1.1",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "@stryker-mutator/core",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "10.1.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@stryker-mutator/vitest-runner@10.1.1",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "@stryker-mutator/vitest-runner",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "10.1.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@26.6.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "26.6.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/react-dom@19.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/react-dom",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "19.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/react@19.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/react",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "19.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@vitejs/plugin-react@6.3.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@vitejs/plugin-react",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "6.3.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@vitest/coverage-v8@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "@vitest/coverage-v8",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "5.1.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:ajv@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "ajv",
+        "path": "packages/contracts/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fake-indexeddb@6.2.8",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "fake-indexeddb",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "6.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:fast-check@4.10.3",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "fast-check",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "4.10.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:happy-dom@21.0.4",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "happy-dom",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "21.0.4"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint-tsgolint@7.0.2006",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint-tsgolint",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "7.0.2006"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:oxlint@1.92.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "oxlint",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "1.92.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:pixi.js@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "pixi.js",
+        "path": "packages/renderer-pixi/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:react-dom@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "react-dom",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:react@unresolved",
+        "kind": "external-library",
+        "license": "UNKNOWN",
+        "name": "react",
+        "path": "apps/web/package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": null
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@7.0.2",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "7.0.2"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.6",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "8.3.6"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.1.0",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "six-de-chaque"
+        ],
+        "version": "5.1.0"
+      }
+    ],
+    "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561"
+  },
+  "tictac": {
+    "blocks": [
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@eslint/js@10.0.1",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@eslint/js",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "10.0.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "browser"
+        },
+        "key": "npm:@fontsource/fredoka@5.2.8",
+        "kind": "external-library",
+        "license": "OFL-1.1",
+        "name": "@fontsource/fredoka",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "5.2.8"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@playwright/test@1.64.1",
+        "kind": "test-harness",
+        "license": "Apache-2.0",
+        "name": "@playwright/test",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "1.64.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:@types/node@22.20.5",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "@types/node",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "22.20.5"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:eslint@10.13.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "eslint",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "10.13.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript-eslint@8.72.1",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "typescript-eslint",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "8.72.1"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:typescript@6.0.3",
+        "kind": "cli-tool",
+        "license": "Apache-2.0",
+        "name": "typescript",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "6.0.3"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite-plugin-pwa@2.0.0",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite-plugin-pwa",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "2.0.0"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vite@8.3.5",
+        "kind": "cli-tool",
+        "license": "MIT",
+        "name": "vite",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "8.3.5"
+      },
+      {
+        "ecosystem": "npm",
+        "interface": {
+          "language": "javascript",
+          "runtime": "node"
+        },
+        "key": "npm:vitest@5.0.5",
+        "kind": "test-harness",
+        "license": "MIT",
+        "name": "vitest",
+        "path": "package.json",
+        "usedBy": [
+          "tictac"
+        ],
+        "version": "5.0.5"
+      }
+    ],
+    "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1"
+  }
+}

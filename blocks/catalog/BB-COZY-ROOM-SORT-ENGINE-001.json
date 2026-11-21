@@ -1,0 +1,55 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:cozy-room-sort:packages/engine"
+  },
+  "id": "BB-COZY-ROOM-SORT-ENGINE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "engine",
+  "observedIn": [
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "packages/engine",
+      "repo": "cozy-room-sort"
+    }
+  ],
+  "origin": {
+    "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "licenseSpdx": "MIT",
+    "path": "packages/engine",
+    "repo": "cozy-room-sort",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "cozy-room-sort/apps/web",
+    "cozy-room-sort/packages/level-tools",
+    "cozy-room-sort/packages/solver",
+    "cozy-room-sort/tests/e2e",
+    "cozy-room-sort/tests/integration",
+    "cozy-room-sort/tests/property",
+    "cozy-room-sort/tests/unit"
+  ]
+}

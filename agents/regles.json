@@ -1,0 +1,229 @@
+{
+ "version": 1,
+ "regles": [
+  {
+   "id": "ADD-1",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Auditer l'existant avant toute conception ou modification.",
+   "section": "Étape 0 : existant audité",
+   "mecanismes": [
+    {
+     "chemin": "AGENTS.md",
+     "motif": "## 0. Étape 0 : graphify, avant tout geste"
+    }
+   ]
+  },
+  {
+   "id": "ADD-2",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Ne jamais assimiler « inaccessible » à « absent ».",
+   "section": "Limites de visibilité",
+   "mecanismes": [
+    {
+     "chemin": "docs/ARCHITECTURE.md",
+     "motif": "4 source indisponible"
+    },
+    {
+     "chemin": "blocks/bbctl/discover.py",
+     "motif": "Ce qui est inconnu reste null ou UNKNOWN"
+    }
+   ]
+  },
+  {
+   "id": "ADD-3",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Préférer configuration, extension et intégration à la création.",
+   "section": "Réutilisation : ce qui existe déjà",
+   "mecanismes": [
+    {
+     "chemin": "blocks/bbctl/adoption.py",
+     "motif": "REUSE = {\"reuse\", \"adapt\", \"wrap\", \"fork\"}"
+    },
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "node .woodpecker/usine/reutilisation.mjs"
+    }
+   ]
+  },
+  {
+   "id": "ADD-4",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Justifier chaque nouveau building block par une gap analysis et une ADR.",
+   "section": "Justification : gap analysis et ADR",
+   "mecanismes": [
+    {
+     "chemin": "blocks/bbctl/adoption.py",
+     "motif": "adoption sans décision reuse/adapt/wrap/fork enregistrée"
+    }
+   ]
+  },
+  {
+   "id": "ADD-5",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Interroger REG-003 et BB-001 avant toute tâche ; vérifier les licences et versions.",
+   "section": "Specs et briques consultées",
+   "mecanismes": [
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "node .woodpecker/usine/spec-resolue.mjs"
+    },
+    {
+     "chemin": "blocks/bbctl/opensource.py",
+     "motif": "osv"
+    }
+   ]
+  },
+  {
+   "id": "ADD-6",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Référencer toute nouvelle spec dans REG-003, toute solution dans BB-001, toute preuve d'exécution dans OPS-001.",
+   "section": "Enregistrements prévus",
+   "mecanismes": [
+    {
+     "chemin": "specs/specctl/commandes.py",
+     "motif": "def sync("
+    },
+    {
+     "chemin": "blocks/bbctl/evenements.py",
+     "motif": "def emettre("
+    }
+   ]
+  },
+  {
+   "id": "ADD-7",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Respecter les workflows existants, les accès et les validations humaines nécessaires.",
+   "section": "Validations humaines",
+   "mecanismes": [
+    {
+     "chemin": "AGENTS.md",
+     "motif": "## 5. Dérogations : jamais par soi-même"
+    }
+   ]
+  },
+  {
+   "id": "ADD-8",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Exécuter les tests et produire SBOM, provenance et rapport de livraison.",
+   "section": "Tests, SBOM et provenance",
+   "mecanismes": [
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "verifier-sbom.mjs sbom.json"
+    }
+   ]
+  },
+  {
+   "id": "ADD-9",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Préserver les dépôts et workflows existants ; aucune modification destructive sans approbation.",
+   "section": "Gestes destructifs",
+   "mecanismes": [
+    {
+     "chemin": "blocks/bbctl/adoption.py",
+     "motif": "class Conflict(ValueError)"
+    },
+    {
+     "chemin": "AGENTS.md",
+     "motif": "**Jamais `git add -A`**"
+    }
+   ]
+  },
+  {
+   "id": "ADD-10",
+   "source": "ARCH-001 AGENTS_ADDENDUM",
+   "texte": "Documenter les limites de visibilité et demander un arbitrage plutôt que deviner.",
+   "section": "Arbitrages demandés",
+   "mecanismes": [
+    {
+     "chemin": "AGENTS.md",
+     "motif": "un prompt qui en contredit une"
+    }
+   ]
+  },
+  {
+   "id": "AG-1",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Avant toute modification : `specctl resolve` puis `bbctl search` interne et externe si pertinent.",
+   "section": "Specs et briques consultées",
+   "mecanismes": [
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "node .woodpecker/usine/spec-resolue.mjs"
+    },
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "node .woodpecker/usine/reutilisation.mjs"
+    }
+   ]
+  },
+  {
+   "id": "AG-2",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Ne jamais inventer une licence, un commit, un résultat de test ou un lien de provenance.",
+   "section": "Provenance : rien d'inventé",
+   "mecanismes": [
+    {
+     "chemin": "blocks/bbctl/discover.py",
+     "motif": "else \"UNKNOWN\""
+    },
+    {
+     "chemin": "docs/AGENTS.md",
+     "motif": "Aucune licence, origine, coordonnée ou compatibilité inventée."
+    }
+   ]
+  },
+  {
+   "id": "AG-3",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Ne pas modifier les dépôts durant l'inventaire initial.",
+   "section": "Dépôts en lecture seule",
+   "mecanismes": [
+    {
+     "chemin": "docs/AGENTS.md",
+     "motif": "Ne pas modifier les jeux pendant l'inventaire initial."
+    }
+   ]
+  },
+  {
+   "id": "AG-4",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Les changements de contrats partagés, de sécurité et de publication exigent une approbation humaine.",
+   "section": "Validations humaines",
+   "mecanismes": [
+    {
+     "chemin": "AGENTS.md",
+     "motif": "## 5. Dérogations : jamais par soi-même"
+    }
+   ]
+  },
+  {
+   "id": "AG-5",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Toute PR doit fournir exigences, building blocks évalués, justification, tests, SBOM, liens de provenance et événements de suivi OPS-001.",
+   "section": "Contenu de la PR",
+   "mecanismes": [
+    {
+     "chemin": ".forgejo/pull_request_template.md",
+     "motif": "## Événements OPS-001"
+    }
+   ]
+  },
+  {
+   "id": "AG-6",
+   "source": "REG-003/BB-001 AGENTS.md",
+   "texte": "Tout le pipeline doit être exécutable headless et reproductible.",
+   "section": "Headless et reproductible",
+   "mecanismes": [
+    {
+     "chemin": "ci/gabarit/checks.yml",
+     "motif": "npm ci"
+    },
+    {
+     "chemin": "docs/AGENTS.md",
+     "motif": "Headless first"
+    }
+   ]
+  }
+ ]
+}

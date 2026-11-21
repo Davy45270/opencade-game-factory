@@ -92,4 +92,37 @@ def sync(root, args):
             git.run("update-ref", ref, commit, old or "0" * len(commit))
         except GitError:
             return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "sync-ref-changed"}
-    return ExitCode.OK, {**result, "commit": commit, "report": "generated/reports/sync-pr.md"}
+        body = (work / "generated" / "reports" / "sync-pr.md").read_text(encoding="utf-8")
+    result = {**result, "commit": commit, "report": "generated/reports/sync-pr.md"}
+    if getattr(args, "open_pr", False):
+        if commit == base:
+            result["pullRequest"] = None
+        else:
+            return open_pr(git, args, branch, ref, body, result)
+    return ExitCode.OK, result
+
+
+def open_pr(git, args, branch, ref, body, result):
+    """Pousse la branche sync/… (jamais main, jamais en force) puis ouvre la PR vers main."""
+    from tools.publish.forge import FORGE_URL, ForgeError, open_pull_request
+
+    if not args.forge_repo:
+        raise UsageError("--open-pr exige --forge-repo propriétaire/dépôt.")
+    import os
+
+    if not os.environ.get("ASSETCTL_FORGEJO_TOKEN"):
+        return ExitCode.IO, {**result, "ok": False, "error": "sync-pr-failed",
+                             "message": "ASSETCTL_FORGEJO_TOKEN absent : branche ni poussée ni proposée."}
+    remote = args.pr_remote or f"{(args.forge_url or FORGE_URL).rstrip('/')}/{args.forge_repo}.git"
+    try:
+        git.run("push", "--no-verify", "--", remote, f"{ref}:{ref}")
+    except GitError:
+        return ExitCode.IO, {**result, "ok": False, "error": "sync-push-failed"}
+    try:
+        result["pullRequest"] = open_pull_request(args.forge_repo, branch, "main", "Synchronisation du catalogue des assets",
+                                                  body, forge_url=args.forge_url)
+    except ForgeError as exc:
+        return ExitCode.IO, {**result, "ok": False, "error": "sync-pr-failed", "message": str(exc)}
+    except ValueError as exc:
+        raise UsageError(str(exc)) from exc
+    return ExitCode.OK, result

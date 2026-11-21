@@ -51,6 +51,11 @@ def configure(command, parser):
         parser.add_argument("--only", nargs="+", action="extend")
         parser.add_argument("--branch")
         parser.add_argument("--fetch", action=argparse.BooleanOptionalAction, default=True)
+        parser.add_argument("--open-pr", action="store_true",
+                            help="pousse la branche sync/… et ouvre la PR vers main (ASSETCTL_FORGEJO_TOKEN)")
+        parser.add_argument("--forge-repo", help="propriétaire/dépôt du registre sur la forge")
+        parser.add_argument("--forge-url", help="URL de la forge (défaut : forgejo.pingfr.duckdns.org)")
+        parser.add_argument("--pr-remote", help="dépôt où pousser la branche (défaut : <forge-url>/<forge-repo>.git)")
     elif command == "sbom":
         parser.add_argument("--out", type=caller_path, required=True)
 

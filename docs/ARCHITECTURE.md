@@ -477,3 +477,16 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   version rend 2) ; rend l'entrée `{id, version, sha256, transform}` d'un `level.lock.json`.
 - `usages <id> --scope repos.json` lit les `level.lock.json` des jeux : index inverse jeu/version et historique
   par commit.
+- Formats des jeux de David : plan en grille ASCII de Pestouille (`terrain`, `spawn`, `exits` avec drapeaux requis,
+  `entities` ; genre donné par le nom du fichier, `dungeon.json` → donjon) et graphe de monde (`regions`,
+  `transitions`, `gates`, `checkpoints`, complété par le fichier voisin nommé d'après son `id` : `start`, `grants`).
+  Règle reprise du jeu (`packages/world`) : une région sans transition interne se parcourt librement. Le validateur RPG
+  d'un graphe fait le point fixe des drapeaux, vérifie chaque porte, chaque lieu (obligatoire : points de sauvegarde
+  et boss) et l'absence de softlock depuis chaque point de sauvegarde. Types d'objets en français reconnus (`lieu`,
+  `sortie`, `clé`, `porte`…) ; un lieu et une sortie doivent être atteignables.
+- Un miroir nu de `scan-repos` se lit par git comme un clone ; l'import est transactionnel (toutes les fiches sont
+  contrôlées contre le schéma avant la première écriture) ; MIT est vérifiée par son texte, `LICENSE` sans extension
+  compris.
+- Rapports réels : `generated/reports/levels/discover.json` (11 dépôts autorisés, 2 646 fichiers, 100 % classés,
+  sources inchangées) et `generated/reports/levels/pestouille-validation.json` (20 niveaux de Pestouille, tous
+  `pass`, provenance et licence vérifiées). Ils se refont avec `level discover` puis `level validate`.

@@ -6,6 +6,9 @@
 # Image Python officielle par le proxy Harbor. Le .venv vit dans l'espace de travail, partagé par
 # les étapes ; git est installé dans chaque étape qui en a besoin (les tests construisent des dépôts
 # git de fixture, validate --base lit la base).
+# Reste sur tank01 (HL-542) : sur contabo-amd64, ce workflow a pris 46 min contre ~12 ici
+# (pipeline 90 : tests-unitaires 1034 s contre 288 s, un seul processus, cœur plus lent).
+# Le déplacer seulement si les tests passent en parallèle.
 labels:
   host: tank01
 

@@ -7,8 +7,10 @@
 # complète (`assetctl sync`, toutes les copies) et l'ouverture de la PR se font depuis Zalman, où
 # vivent les accès.
 # Rejeu local sans conteneur : scripts/ci-local.sh scan
+# Agent de Contabo (HL-542) : workflow léger, sans construction d'image ni e2e ; tank01 garde
+# ses 2 places pour les jeux. Images par le proxy Harbor (IP tailnet de Contabo en liste blanche CrowdSec).
 labels:
-  host: tank01
+  host: contabo
 
 when:
   - event: cron

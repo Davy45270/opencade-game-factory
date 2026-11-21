@@ -143,3 +143,186 @@ class GardesDeConception(unittest.TestCase):
             texte = fichier.read_text(encoding="utf-8")
             with self.subTest(fichier=fichier.name):
                 self.assertNotRegex(texte, r"serve_forever|HTTPServer|socketserver|import psycopg")
+
+
+class BinairesDuRegistre(CatalogueFixture, unittest.TestCase):
+    """E078, E079 : la CI du registre contrôle empreintes, dimensions et alpha des binaires qu'il garde."""
+
+    def setUp(self):
+        super().setUp()
+        import hashlib
+        import io
+        from PIL import Image
+        image = Image.new("RGBA", (16, 16), (200, 30, 30, 255))
+        image.putpixel((0, 0), (0, 0, 0, 0))
+        flux = io.BytesIO()
+        image.save(flux, "PNG")
+        self.octets = flux.getvalue()
+        (self.root / "sprites").mkdir()
+        (self.root / "sprites" / "fouet.png").write_bytes(self.octets)
+        self.asset["files"] = {"locations": [], "registry": "sprites/fouet.png"}
+        self.asset["sha256"] = hashlib.sha256(self.octets).hexdigest()
+        self.write("ids.json", {f"file:sha256:{self.asset['sha256']}": ASSET_ID})
+
+    def codes(self):
+        self.write_asset()
+        code, payload = self.cli("validate")
+        return code, {issue["code"] for issue in payload.get("issues", [])}
+
+    def test_binaire_conforme_puis_chaque_ecart_refuse(self):
+        self.assertEqual(self.codes(), (0, set()))
+        cas = {
+            "registry-digest": lambda a: a.update(sha256="d" * 64),
+            "registry-dimensions": lambda a: a.update(dimensions={"width": 16, "height": 17}),
+            "registry-alpha": lambda a: a.update(alpha=False),
+        }
+        for attendu, alterer in cas.items():
+            with self.subTest(ecart=attendu):
+                self.asset = copy.deepcopy(self.asset_sain())
+                alterer(self.asset)
+                code, codes = self.codes()
+                self.assertEqual(code, 1)
+                self.assertIn(attendu, codes)
+        self.asset = self.asset_sain()
+        (self.root / "sprites" / "fouet.png").unlink()
+        self.assertEqual(self.codes(), (1, {"missing-registry-file"}))
+
+    def asset_sain(self):
+        import hashlib
+        sain = copy.deepcopy(ASSET)
+        sain["files"] = {"locations": [], "registry": "sprites/fouet.png"}
+        sain["sha256"] = hashlib.sha256(self.octets).hexdigest()
+        return sain
+
+
+class DetourageSansInterface(unittest.TestCase):
+    """E018, E104 : le pipeline headless détoure (recette `detour` de `derive`), sans rien deviner."""
+
+    def planche(self):
+        from PIL import Image, ImageDraw
+        image = Image.new("RGB", (40, 40), (255, 0, 255))
+        dessin = ImageDraw.Draw(image)
+        dessin.ellipse((5, 5, 34, 34), fill=(200, 30, 30))
+        # Trou de la couleur du fond, enfermé dans le sujet : il n'est pas relié au bord.
+        dessin.rectangle((18, 18, 21, 21), fill=(255, 0, 255))
+        return image
+
+    def test_fond_relie_au_bord_transparent_sujet_et_trou_interieur_intacts(self):
+        from tools.creation import transform
+        resultat = transform(self.planche(), {"detour": {"tolerance": 8}})
+        alpha = resultat.getchannel("A")
+        for coin in ((0, 0), (39, 0), (0, 39), (39, 39), (2, 20)):
+            self.assertEqual(alpha.getpixel(coin), 0, coin)
+        for interieur in ((10, 20), (19, 19), (30, 20)):
+            self.assertEqual(alpha.getpixel(interieur), 255, interieur)
+
+    def test_coins_discordants_refuses(self):
+        from tools.core.catalog import InvalidJSON
+        from tools.creation import transform
+        image = self.planche()
+        image.putpixel((39, 39), (0, 255, 0))
+        with self.assertRaises(InvalidJSON):
+            transform(image, {"detour": {"tolerance": 8}})
+        for invalide in ({"tolerance": -1}, {"tolerance": 300}, {"tolerance": 1.5}, {}):
+            with self.subTest(options=invalide), self.assertRaises(InvalidJSON):
+                transform(self.planche(), {"detour": invalide})
+
+
+class SynchronisationParPR(unittest.TestCase):
+    """E042, E073 : la synchronisation pousse une branche sync/… et OUVRE une PR vers main, sans toucher main
+    ni le jeu ; rejouée, elle retrouve la même PR ; le jeton n'apparaît nulle part."""
+
+    JETON = "jeton-de-fixture-sync-pr"
+
+    def setUp(self):
+        import json as _json
+        import threading
+        from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+        from tests.acceptance import _monde as M
+        self.M = M
+        self.world = M.creer_monde()
+        self.addCleanup(self.world.nettoyer)
+        self.assertEqual(self.world.scan().code, 0)
+        self.world.commiter_registre("Import de fixture")
+        self.requetes, ouvertes = [], []
+        test = self
+
+        class Forge(BaseHTTPRequestHandler):
+            def log_message(self, *args):
+                pass
+
+            def repondre(self, code, valeur):
+                corps = _json.dumps(valeur).encode()
+                self.send_response(code)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", str(len(corps)))
+                self.end_headers()
+                self.wfile.write(corps)
+
+            def do_POST(self):
+                corps = _json.loads(self.rfile.read(int(self.headers["Content-Length"])))
+                test.requetes.append(("POST", self.path, self.headers.get("Authorization"), corps))
+                if ouvertes:
+                    return self.repondre(409, {"message": "pull request already exists"})
+                ouvertes.append({"number": 7, "html_url": "http://forge/pulls/7", "head": {"ref": corps["head"]},
+                                 "base": {"ref": corps["base"]}})
+                self.repondre(201, ouvertes[0])
+
+            def do_GET(self):
+                test.requetes.append(("GET", self.path, self.headers.get("Authorization"), None))
+                self.repondre(200, ouvertes)
+
+        self.serveur = ThreadingHTTPServer(("127.0.0.1", 0), Forge)
+        threading.Thread(target=self.serveur.serve_forever, daemon=True).start()
+        self.addCleanup(self.serveur.server_close)
+        self.addCleanup(self.serveur.shutdown)
+        self.distant = self.world.racine / "forge.git"
+        self.world.git(self.world.racine, "init", "-q", "--bare", str(self.distant))
+
+    def sync(self, *extra, jeton=True):
+        import subprocess
+        import sys
+        from tests.acceptance import _contrat as C
+        env = C.environnement(self.world.home)
+        if jeton:
+            env["ASSETCTL_FORGEJO_TOKEN"] = self.JETON
+        p = subprocess.run([sys.executable, str(self.world.registre / "assetctl"), "sync", "--branch", "sync/pr",
+                            "--open-pr", "--forge-repo", "david/registre",
+                            "--forge-url", f"http://127.0.0.1:{self.serveur.server_port}",
+                            "--pr-remote", self.distant.as_uri(), *extra, "--json"],
+                           cwd=self.world.registre, env=env, capture_output=True, text=True, timeout=300)
+        self.assertNotIn(self.JETON, p.stdout + p.stderr)
+        import json as _json
+        return p.returncode, _json.loads(p.stdout)
+
+    def test_pr_ouverte_puis_retrouvee_main_et_jeu_intacts(self):
+        from tests.acceptance import _contrat as C
+        main = self.world.git(self.world.registre, "rev-parse", "main")
+        self.M.ajouter_commit(self.world, "jeu-a", {"public/assets/sync-pr.png": self.M.png(self.M.uni(5, 6, (9, 99, 199, 255)))},
+                              (), "2026-03-03T10:00:00Z", "Ajout pour la PR de sync")
+        jeu = C.empreinte_arbre(self.world.depot("jeu-a"))
+        code, premier = self.sync()
+        self.assertEqual(code, 0, premier)
+        self.assertEqual(premier["pullRequest"], {"number": 7, "url": "http://forge/pulls/7", "created": True})
+        poste = [r for r in self.requetes if r[0] == "POST"][0]
+        self.assertEqual(poste[1], "/api/v1/repos/david/registre/pulls")
+        self.assertEqual(poste[2], f"token {self.JETON}")
+        self.assertEqual((poste[3]["head"], poste[3]["base"]), ("sync/pr", "main"))
+        self.assertIn("Copies analysées · 1", poste[3]["body"])
+        pousse = self.world.git(self.distant, "rev-parse", "refs/heads/sync/pr")
+        self.assertEqual(pousse, premier["commit"])
+        self.assertNotIn("main", self.world.git(self.distant, "for-each-ref", "--format=%(refname:short)"))
+        code, second = self.sync()
+        self.assertEqual(code, 0, second)
+        self.assertEqual(second["pullRequest"]["number"], 7)
+        self.assertFalse(second["pullRequest"]["created"])
+        self.assertEqual(self.world.git(self.world.registre, "rev-parse", "main"), main)
+        self.assertEqual(C.empreinte_arbre(self.world.depot("jeu-a")), jeu)
+
+    def test_sans_jeton_pas_de_pr_et_code_4(self):
+        self.M.ajouter_commit(self.world, "jeu-a", {"public/assets/sync-pr.png": self.M.png(self.M.uni(5, 6, (9, 99, 199, 255)))},
+                              (), "2026-03-03T10:00:00Z", "Ajout pour la PR de sync")
+        code, resultat = self.sync(jeton=False)
+        self.assertEqual((code, resultat["error"]), (4, "sync-pr-failed"))
+        self.assertEqual([r for r in self.requetes if r[0] == "POST"], [])
+        self.assertEqual(self.world.git(self.distant, "for-each-ref"), "")

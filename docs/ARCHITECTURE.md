@@ -295,7 +295,9 @@ courant. Un catalogue plus récent est admissible si les deux instantanés
 sont vérifiables dans des commits Git de la même lignée.
 
 `derive --recipe chemin.json` prend un objet avec les transformations
-`crop` (`{x,y,w,h}`), `mirror` (`true`, `false`, `horizontal` ou
+`detour` (`{"tolerance": 0…255}` : le fond uni relié au bord devient
+transparent ; la couleur des quatre coins fait foi, et des coins discordants
+font refuser la recette au lieu de deviner un fond), `crop` (`{x,y,w,h}`), `mirror` (`true`, `false`, `horizontal` ou
 `vertical`), `resize` (`[largeur,hauteur]`) et `tint` (couleur
 `#RRGGBB`). Il les applique dans cet ordre et emploie le SHA-256 des octets
 de la recette et la révision courante du parent pour allouer l’ID. La
@@ -359,6 +361,13 @@ fait dans un clone temporaire et la branche de synchronisation se met à
 jour localement après succès. Les divergences et les suppressions sont
 signalées dans les rapports. `scannedCopies` compte les copies dont le
 contenu a été analysé.
+
+`sync --open-pr --forge-repo propriétaire/dépôt` pousse ensuite la branche
+`sync/…` (jamais `main`, jamais en force) et ouvre la PR vers `main` avec
+`generated/reports/sync-pr.md` pour description. Rejouée, elle retrouve la
+PR déjà ouverte au lieu d’en créer une autre. Le jeton vient de
+`ASSETCTL_FORGEJO_TOKEN` ; absent, rien n’est poussé et la commande rend 4.
+`--forge-url` et `--pr-remote` désignent une autre forge ou un autre dépôt.
 
 `export-atlas --out atlases/nom` produit `nom.png` et `nom.json` au
 format Phaser JSON Hash. `validate-atlas` contrôle les références, les

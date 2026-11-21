@@ -412,7 +412,7 @@ def _scan(root, args, git, cache, temporary, copies, template):
                            if (row["repo"], row.get("provider")) not in refreshed)
         write_json(dynamic_path, sorted(dynamic, key=lambda row: (
             row["repo"], row.get("provider", ""), row["commit"], row["path"], row["line"], row["excerpt"])))
-        write_json(root / "generated" / "duplicates.json", duplicates(target.assets.values()))
+        write_json(root / "generated" / "duplicates.json", duplicates(target.assets.values(), root))
         write_json(root / "catalog" / REFERENCE_FILE,
                    {"schemaVersion": "1.0", "references": [references[key] for key in sorted(references)],
                     "importedHeads": dict(sorted(heads.items()))})

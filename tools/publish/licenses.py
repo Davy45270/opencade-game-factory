@@ -10,6 +10,9 @@ from tools.core.schemas import schemas
 from tools.discovery.enrich import trace
 
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
+# Licence privée de David (HL-538 7-3162) : jamais publique, sauf autorisation explicite du jeu qui emploie
+# l'asset (catalog/sources.json, publicationGrants ; ex. pestouille-rpg, HL-537 7-3167). Non dérivable.
+PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"})
 DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
              "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 
@@ -74,9 +77,13 @@ def apply_catalogue(asset, entry, ref):
             assign(asset, "MIT", "catalogue-import", ref, rights)
 
 
-def public_allowed(record, sheet_digests, find_parent):
-    """Check the selected revision and each revision it names as a parent."""
+def public_allowed(record, sheet_digests, find_parent, granted=frozenset()):
+    """Check the selected revision and each revision it names as a parent.
+
+    `granted` lists the private licenses that the destination game is explicitly allowed to publish."""
     license_id = record.get("license")
+    if license_id in PRIVATE_LICENSES and license_id not in granted:
+        return False
     seen = set()
     while True:
         if (record.get("license") != license_id or not explicit_spdx(license_id)

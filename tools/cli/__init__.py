@@ -18,7 +18,7 @@ COMMANDS = {
     "register": True, "derive": True, "validate": False, "usage": False,
     "publish": True, "duplicates": True, "scan-repos": True, "sync": True,
     "index": True, "materialize": True, "check-lock": False, "export-atlas": True,
-    "validate-atlas": False, "sbom": True,
+    "validate-atlas": False, "sbom": True, "external": False, "level": False,
 }
 
 
@@ -31,10 +31,15 @@ class ArgumentParser(argparse.ArgumentParser):
         raise UsageError(message)
 
 
+def caller_path(value):
+    # Keep symlinks visible to the directory and file guards.
+    return Path(os.path.abspath(value))
+
+
 def _options(parser):
     parser.add_argument("--json", action="store_true", default=argparse.SUPPRESS,
                         help="écrire le résultat en JSON sur stdout")
-    parser.add_argument("--log", type=Path, default=argparse.SUPPRESS,
+    parser.add_argument("--log", type=caller_path, default=argparse.SUPPRESS,
                         help="ajouter le journal JSON Lines à ce fichier")
 
 
@@ -54,23 +59,31 @@ def _parser():
         elif command == "inspect":
             sub.add_argument("id")
         elif command == "scan-repos":
-            sub.add_argument("--sources", type=Path, help="sélection issue de catalog/sources.json")
-            sub.add_argument("--cache", type=Path)
+            sub.add_argument("--sources", type=caller_path, help="sélection issue de catalog/sources.json")
+            sub.add_argument("--cache", type=caller_path)
             sub.add_argument("--only", nargs="+")
             sub.add_argument("--provider", choices=("github", "forgejo", "local"))
             sub.add_argument("--fetch", action=argparse.BooleanOptionalAction, default=True)
-            sub.add_argument("--job", type=Path)
+            sub.add_argument("--job", type=caller_path)
             sub.add_argument("--verify", action="store_true")
         elif command == "import-sheet":
-            sub.add_argument("file", type=Path)
-            sub.add_argument("--decoupe", type=Path)
+            sub.add_argument("file", type=caller_path)
+            sub.add_argument("--decoupe", type=caller_path)
         elif command == "extract":
             sub.add_argument("sheet_id")
             mode = sub.add_mutually_exclusive_group()
-            mode.add_argument("--regions", type=Path)
+            mode.add_argument("--regions", type=caller_path)
             mode.add_argument("--candidates", action="store_true")
-            sub.add_argument("--out", type=Path)
-            sub.add_argument("--cache", type=Path)
+            sub.add_argument("--out", type=caller_path)
+            sub.add_argument("--cache", type=caller_path)
+        elif command == "external":
+            from tools.external.commands import configure as external
+
+            external(sub, caller_path)
+        elif command == "level":
+            from tools.levels.commands import configure as level
+
+            level(sub, caller_path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         else:
@@ -131,6 +144,14 @@ def _run(args, root, selected=None):
         from tools.extract.commands import run
 
         return run(root, args)
+    if args.command == "external":
+        from tools.external.commands import run
+
+        return run(root, args)
+    if args.command == "level":
+        from tools.levels.commands import run
+
+        return run(root, args)
     from tools.cli.registry import run
 
     return run(root, args)
@@ -150,6 +171,8 @@ def main(argv=None, *, root=ROOT):
     argv = sys.argv[1:] if argv is None else argv
     try:
         args = _parser().parse_args(argv)
+        if getattr(args, "format", None) == "json":
+            args.json = True
     except UsageError as exc:
         result = {"ok": False, "error": "usage", "message": str(exc)}
         journal.event("usage-error", message=str(exc), code=int(ExitCode.USAGE))

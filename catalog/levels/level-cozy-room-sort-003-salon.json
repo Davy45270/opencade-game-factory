@@ -1,0 +1,274 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "003-salon",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 4,
+          "category": "cadres",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 3,
+          "category": "lumieres",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 3,
+          "category": "livres",
+          "id": "carton-3"
+        }
+      ],
+      "categories": [
+        {
+          "id": "cadres",
+          "label": "Cadres"
+        },
+        {
+          "id": "lumieres",
+          "label": "Lumières"
+        },
+        {
+          "id": "livres",
+          "label": "Livres"
+        }
+      ],
+      "difficulty": "easy",
+      "id": "003-salon",
+      "meta": {
+        "blockingMoveShare": 0.013404825737265416,
+        "blockingMoves": 10,
+        "engineVersion": "0.1.0",
+        "legalMoves": 746,
+        "nonTrivialDecisions": 199,
+        "solution": [
+          "pile-8",
+          "pile-1",
+          "pile-4",
+          "pile-7",
+          "pile-10",
+          "pile-9",
+          "pile-2",
+          "pile-5",
+          "pile-3",
+          "pile-6"
+        ],
+        "statesExplored": 34
+      },
+      "name": "La grande étagère",
+      "objects": [
+        {
+          "asset": "cloche-lumineuse",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-8",
+          "layer": 5,
+          "position": {
+            "x": 0.236,
+            "y": 0.415
+          }
+        },
+        {
+          "asset": "cadre-chat",
+          "blockedBy": [
+            "pile-8"
+          ],
+          "category": "cadres",
+          "id": "pile-1",
+          "layer": 4,
+          "position": {
+            "x": 0.228,
+            "y": 0.386
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-8",
+            "pile-1"
+          ],
+          "category": "cadres",
+          "id": "pile-4",
+          "layer": 3,
+          "position": {
+            "x": 0.22,
+            "y": 0.358
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-8",
+            "pile-1",
+            "pile-4"
+          ],
+          "category": "cadres",
+          "id": "pile-7",
+          "layer": 2,
+          "position": {
+            "x": 0.212,
+            "y": 0.33
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-8",
+            "pile-1",
+            "pile-4",
+            "pile-7"
+          ],
+          "category": "cadres",
+          "id": "pile-10",
+          "layer": 1,
+          "position": {
+            "x": 0.205,
+            "y": 0.302
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [],
+          "category": "livres",
+          "id": "pile-9",
+          "layer": 3,
+          "position": {
+            "x": 0.515,
+            "y": 0.885
+          }
+        },
+        {
+          "asset": "lampe-chevet",
+          "blockedBy": [
+            "pile-9"
+          ],
+          "category": "lumieres",
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.501,
+            "y": 0.84
+          }
+        },
+        {
+          "asset": "lanterne-maison",
+          "blockedBy": [
+            "pile-9",
+            "pile-2"
+          ],
+          "category": "lumieres",
+          "id": "pile-5",
+          "layer": 1,
+          "position": {
+            "x": 0.485,
+            "y": 0.783
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [],
+          "category": "livres",
+          "id": "pile-3",
+          "layer": 2,
+          "position": {
+            "x": 0.765,
+            "y": 0.932
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "livres",
+          "id": "pile-6",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.82
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 5,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 2,
+        "twoStarsMaxBuffered": 4
+      },
+      "seed": 45000,
+      "theme": "salon"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 10
+  },
+  "contentSha256": "3d586ff8a6dd15a0ddc636f846a693e93631baf56f1e524cfe5c91c16ec1d3e1",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 10
+  },
+  "id": "level-cozy-room-sort-003-salon",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "003-salon",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "3d586ff8a6dd15a0ddc636f846a693e93631baf56f1e524cfe5c91c16ec1d3e1",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/003-salon.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "003-salon — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/003-salon.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

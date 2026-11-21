@@ -1,0 +1,923 @@
+{
+  "dimensions": {
+    "height": 941,
+    "width": 1672
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-pestouille-rpg-maquette-01-explo-0001.png"
+  },
+  "id": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. Utilisables dans les jeux de David, jamais exposés publiquement sans son accord.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "Maquette 01 : exploration et combat",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : Pestouille_RPG_Maquette_01_Exploration_Combat.png · SHA-256 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "Canal : Drive de David (dossier 1QcNf1uDi8to793k8sFR4LnHmsB0PtAGv, sources de la spec Pestouille RPG v1.x), déposé le 2026-11-18 entre 18:00 et 18:45 UTC ; copie sans modification dans homelab-docs/specs/pestouille-rpg-sources/planches/.",
+      "Maquette d'écran déjà découpée par le jeu (m01-*.decoupe.json) ; ses cadres relèvent de l'inventaire du jeu."
+    ],
+    "type": "unknown"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-bouton-attaque-0001",
+      "evidence": "m01-boutons.decoupe.json · SHA-256 68029c8fa11410b3d9ac09d5fb27e1a16be23d51c1057e641bee476dbbcf4d44 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 68,
+      "status": "verified",
+      "w": 85,
+      "x": 47,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-bouton-competence-0001",
+      "evidence": "m01-boutons.decoupe.json · SHA-256 68029c8fa11410b3d9ac09d5fb27e1a16be23d51c1057e641bee476dbbcf4d44 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 68,
+      "status": "verified",
+      "w": 87,
+      "x": 140,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-bouton-defense-0001",
+      "evidence": "m01-boutons.decoupe.json · SHA-256 68029c8fa11410b3d9ac09d5fb27e1a16be23d51c1057e641bee476dbbcf4d44 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 68,
+      "status": "verified",
+      "w": 88,
+      "x": 237,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-bouton-objet-0001",
+      "evidence": "m01-boutons.decoupe.json · SHA-256 68029c8fa11410b3d9ac09d5fb27e1a16be23d51c1057e641bee476dbbcf4d44 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 68,
+      "status": "verified",
+      "w": 87,
+      "x": 335,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-bouton-fuite-0001",
+      "evidence": "m01-boutons.decoupe.json · SHA-256 68029c8fa11410b3d9ac09d5fb27e1a16be23d51c1057e641bee476dbbcf4d44 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 68,
+      "status": "verified",
+      "w": 87,
+      "x": 432,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-aubepin-portrait-0001",
+      "evidence": "m01-dialogue.decoupe.json · SHA-256 4e6603b7c6eab5d51ef2c8dcbccb02a7b1627638f3bfe0995ecf26bcc1f4b2d1 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 126,
+      "status": "verified",
+      "w": 120,
+      "x": 575,
+      "y": 766
+    },
+    {
+      "assetId": "asset-sprite-souche-0001",
+      "evidence": "m01-ennemis.decoupe.json · SHA-256 e9c16000bbca1c4a255bb2a893f4e8cf8a2132ec3ba4ce75849a5eb0dfde4eb7 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 71,
+      "status": "verified",
+      "w": 53,
+      "x": 217,
+      "y": 654
+    },
+    {
+      "assetId": "asset-sprite-fond-village-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 234,
+      "status": "verified",
+      "w": 541,
+      "x": 17,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-fond-foret-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 234,
+      "status": "verified",
+      "w": 530,
+      "x": 588,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-fond-temple-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 234,
+      "status": "verified",
+      "w": 510,
+      "x": 1144,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-fond-combat-foret-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 222,
+      "status": "verified",
+      "w": 424,
+      "x": 16,
+      "y": 586
+    },
+    {
+      "assetId": "asset-sprite-carte-monde-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 320,
+      "status": "verified",
+      "w": 390,
+      "x": 1251,
+      "y": 584
+    },
+    {
+      "assetId": "asset-sprite-panneau-dialogue-0001",
+      "evidence": "m01-fonds.decoupe.json · SHA-256 dd286cd4fa5cbc662d5c97aa4d83e6c38e5eae4580f9333385ee0b7a1afa56e9 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 91,
+      "status": "verified",
+      "w": 218,
+      "x": 697,
+      "y": 797
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-a-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 59,
+      "x": 1231,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-b-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 48,
+      "status": "verified",
+      "w": 53,
+      "x": 1303,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-c-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 51,
+      "x": 1365,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-d-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 51,
+      "x": 1426,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-e-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 52,
+      "x": 1485,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-pestouille-cote-f-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 46,
+      "status": "verified",
+      "w": 50,
+      "x": 1544,
+      "y": 18
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-a-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 56,
+      "status": "verified",
+      "w": 56,
+      "x": 1236,
+      "y": 72
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-b-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 55,
+      "status": "verified",
+      "w": 49,
+      "x": 1307,
+      "y": 72
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-c-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 54,
+      "status": "verified",
+      "w": 54,
+      "x": 1365,
+      "y": 73
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-d-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 52,
+      "status": "verified",
+      "w": 48,
+      "x": 1427,
+      "y": 74
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-e-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 52,
+      "status": "verified",
+      "w": 51,
+      "x": 1484,
+      "y": 74
+    },
+    {
+      "assetId": "asset-sprite-lila-cote-f-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 51,
+      "status": "verified",
+      "w": 44,
+      "x": 1545,
+      "y": 75
+    },
+    {
+      "assetId": "asset-sprite-borin-cote-a-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 50,
+      "status": "verified",
+      "w": 52,
+      "x": 1238,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-borin-cote-b-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 43,
+      "x": 1307,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-borin-cote-c-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 62,
+      "x": 1356,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-borin-cote-d-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 42,
+      "x": 1430,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-borin-cote-e-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 48,
+      "status": "verified",
+      "w": 42,
+      "x": 1550,
+      "y": 134
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-a-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 49,
+      "status": "verified",
+      "w": 56,
+      "x": 1235,
+      "y": 189
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-b-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 47,
+      "status": "verified",
+      "w": 48,
+      "x": 1304,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-c-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 45,
+      "status": "verified",
+      "w": 47,
+      "x": 1365,
+      "y": 191
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-d-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 46,
+      "status": "verified",
+      "w": 55,
+      "x": 1425,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-e-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 46,
+      "status": "verified",
+      "w": 53,
+      "x": 1486,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-nox-cote-f-0001",
+      "evidence": "m01-heros.decoupe.json · SHA-256 9520c648eb528d54607a8cee7b2b2e7fc9ca891d1aeabc3ec0d020c2c4b50dd3 · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 45,
+      "status": "verified",
+      "w": 52,
+      "x": 1546,
+      "y": 191
+    },
+    {
+      "assetId": "asset-sprite-epee-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 42,
+      "status": "verified",
+      "w": 44,
+      "x": 1083,
+      "y": 607
+    },
+    {
+      "assetId": "asset-sprite-bouclier-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 46,
+      "status": "verified",
+      "w": 43,
+      "x": 1162,
+      "y": 605
+    },
+    {
+      "assetId": "asset-sprite-armure-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 43,
+      "status": "verified",
+      "w": 51,
+      "x": 1080,
+      "y": 672
+    },
+    {
+      "assetId": "asset-sprite-anneau-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 44,
+      "status": "verified",
+      "w": 47,
+      "x": 1161,
+      "y": 671
+    },
+    {
+      "assetId": "asset-sprite-potion-rouge-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 40,
+      "status": "verified",
+      "w": 35,
+      "x": 970,
+      "y": 752
+    },
+    {
+      "assetId": "asset-sprite-potion-bleue-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 40,
+      "status": "verified",
+      "w": 35,
+      "x": 1022,
+      "y": 752
+    },
+    {
+      "assetId": "asset-sprite-feuille-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 35,
+      "status": "verified",
+      "w": 35,
+      "x": 1075,
+      "y": 753
+    },
+    {
+      "assetId": "asset-sprite-eclat-givre-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 37,
+      "status": "verified",
+      "w": 37,
+      "x": 1125,
+      "y": 753
+    },
+    {
+      "assetId": "asset-sprite-cle-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 38,
+      "status": "verified",
+      "w": 35,
+      "x": 1177,
+      "y": 752
+    },
+    {
+      "assetId": "asset-sprite-livre-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 38,
+      "status": "verified",
+      "w": 38,
+      "x": 967,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-grimoire-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 42,
+      "status": "verified",
+      "w": 34,
+      "x": 1021,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-feuille-doree-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 38,
+      "status": "verified",
+      "w": 37,
+      "x": 1073,
+      "y": 806
+    },
+    {
+      "assetId": "asset-sprite-bourse-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 38,
+      "status": "verified",
+      "w": 37,
+      "x": 1125,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-parchemin-quete-0001",
+      "evidence": "m01-icones.decoupe.json · SHA-256 506c3e508413b784b1c315ab1f5f43944498fb4595905fd43f526fdfaebe247b · planche 3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+      "h": 38,
+      "status": "verified",
+      "w": 38,
+      "x": 1175,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouton-attaque-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 68,
+      "status": "needs-review",
+      "w": 85,
+      "x": 47,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouton-competence-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 68,
+      "status": "needs-review",
+      "w": 87,
+      "x": 140,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouton-defense-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 68,
+      "status": "needs-review",
+      "w": 88,
+      "x": 237,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouton-fuite-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 68,
+      "status": "needs-review",
+      "w": 87,
+      "x": 432,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouton-objet-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 68,
+      "status": "needs-review",
+      "w": 87,
+      "x": 335,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-sprite-souche-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 71,
+      "status": "needs-review",
+      "w": 53,
+      "x": 217,
+      "y": 654
+    },
+    {
+      "assetId": "asset-sprite-sprite-carte-monde-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 320,
+      "status": "needs-review",
+      "w": 390,
+      "x": 1251,
+      "y": 584
+    },
+    {
+      "assetId": "asset-sprite-sprite-fond-combat-foret-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 234,
+      "status": "needs-review",
+      "w": 530,
+      "x": 588,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-sprite-fond-foret-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 234,
+      "status": "needs-review",
+      "w": 530,
+      "x": 588,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-sprite-fond-temple-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 234,
+      "status": "needs-review",
+      "w": 510,
+      "x": 1144,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-sprite-fond-village-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 234,
+      "status": "needs-review",
+      "w": 541,
+      "x": 17,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-sprite-panneau-dialogue-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 91,
+      "status": "needs-review",
+      "w": 218,
+      "x": 697,
+      "y": 797
+    },
+    {
+      "assetId": "asset-sprite-sprite-borin-cote-a-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 50,
+      "status": "needs-review",
+      "w": 52,
+      "x": 1238,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-sprite-borin-cote-b-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 43,
+      "x": 1307,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-sprite-borin-cote-c-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 62,
+      "x": 1356,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-sprite-borin-cote-d-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 42,
+      "x": 1430,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-sprite-borin-cote-e-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 48,
+      "status": "needs-review",
+      "w": 42,
+      "x": 1550,
+      "y": 134
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-a-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 56,
+      "status": "needs-review",
+      "w": 56,
+      "x": 1236,
+      "y": 72
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-b-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 55,
+      "status": "needs-review",
+      "w": 49,
+      "x": 1307,
+      "y": 72
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-c-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 54,
+      "status": "needs-review",
+      "w": 54,
+      "x": 1365,
+      "y": 73
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-d-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 52,
+      "status": "needs-review",
+      "w": 48,
+      "x": 1427,
+      "y": 74
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-e-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 52,
+      "status": "needs-review",
+      "w": 51,
+      "x": 1484,
+      "y": 74
+    },
+    {
+      "assetId": "asset-sprite-sprite-lila-cote-f-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 51,
+      "status": "needs-review",
+      "w": 44,
+      "x": 1545,
+      "y": 75
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-a-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 56,
+      "x": 1235,
+      "y": 189
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-b-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 47,
+      "status": "needs-review",
+      "w": 48,
+      "x": 1304,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-c-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 45,
+      "status": "needs-review",
+      "w": 47,
+      "x": 1365,
+      "y": 191
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-d-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 46,
+      "status": "needs-review",
+      "w": 55,
+      "x": 1425,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-e-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 46,
+      "status": "needs-review",
+      "w": 53,
+      "x": 1486,
+      "y": 190
+    },
+    {
+      "assetId": "asset-sprite-sprite-nox-cote-f-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 45,
+      "status": "needs-review",
+      "w": 52,
+      "x": 1546,
+      "y": 191
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-a-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 59,
+      "x": 1231,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-b-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 48,
+      "status": "needs-review",
+      "w": 53,
+      "x": 1303,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-c-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 51,
+      "x": 1365,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-d-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 51,
+      "x": 1426,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-e-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 49,
+      "status": "needs-review",
+      "w": 52,
+      "x": 1485,
+      "y": 16
+    },
+    {
+      "assetId": "asset-sprite-sprite-pestouille-cote-f-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 46,
+      "status": "needs-review",
+      "w": 50,
+      "x": 1544,
+      "y": 18
+    },
+    {
+      "assetId": "asset-sprite-sprite-anneau-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 44,
+      "status": "needs-review",
+      "w": 47,
+      "x": 1161,
+      "y": 671
+    },
+    {
+      "assetId": "asset-sprite-sprite-armure-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 43,
+      "status": "needs-review",
+      "w": 51,
+      "x": 1080,
+      "y": 672
+    },
+    {
+      "assetId": "asset-sprite-sprite-bouclier-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 46,
+      "status": "needs-review",
+      "w": 43,
+      "x": 1162,
+      "y": 605
+    },
+    {
+      "assetId": "asset-sprite-sprite-bourse-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 38,
+      "status": "needs-review",
+      "w": 37,
+      "x": 1125,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-sprite-cle-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 38,
+      "status": "needs-review",
+      "w": 35,
+      "x": 1177,
+      "y": 752
+    },
+    {
+      "assetId": "asset-sprite-sprite-eclat-givre-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 37,
+      "status": "needs-review",
+      "w": 37,
+      "x": 1125,
+      "y": 753
+    },
+    {
+      "assetId": "asset-sprite-sprite-epee-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 42,
+      "status": "needs-review",
+      "w": 44,
+      "x": 1083,
+      "y": 607
+    },
+    {
+      "assetId": "asset-sprite-sprite-feuille-doree-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 38,
+      "status": "needs-review",
+      "w": 37,
+      "x": 1073,
+      "y": 806
+    },
+    {
+      "assetId": "asset-sprite-sprite-feuille-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 35,
+      "status": "needs-review",
+      "w": 35,
+      "x": 1075,
+      "y": 753
+    },
+    {
+      "assetId": "asset-sprite-sprite-grimoire-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 42,
+      "status": "needs-review",
+      "w": 34,
+      "x": 1021,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-sprite-livre-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 38,
+      "status": "needs-review",
+      "w": 38,
+      "x": 967,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-sprite-parchemin-quete-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 38,
+      "status": "needs-review",
+      "w": 38,
+      "x": 1175,
+      "y": 805
+    },
+    {
+      "assetId": "asset-sprite-sprite-potion-bleue-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 40,
+      "status": "needs-review",
+      "w": 35,
+      "x": 1022,
+      "y": 752
+    },
+    {
+      "assetId": "asset-sprite-sprite-potion-rouge-0001",
+      "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "h": 40,
+      "status": "needs-review",
+      "w": 35,
+      "x": 970,
+      "y": 752
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+  "status": "needs-review"
+}

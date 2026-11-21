@@ -24,6 +24,41 @@
    candidats rejetés, chacun identifié et accompagné d’une raison. Un tableau vide
    indique une recherche sans candidat. Un import initial autorisé joint
    `creation.importJob`.
-5. Exécuter `assetctl validate --base <ref-git> --json` avant la PR. En L1, le
-   catalogue est consultable via `assetctl inspect <id> --json`. La commande
-   `search`, la production du reçu et les mutations sont livrées dans les lots suivants.
+5. Exécuter `assetctl validate --base <ref-git> --json` avant la PR. Une fiche se
+   consulte avec `assetctl inspect <id> --json` ; `assetctl search <texte> --receipt
+   recu.json` produit le reçu exigé par `register`.
+
+## Bibliothèques externes (EXT-001)
+
+**OBLIGATOIRE :** Search internal → Search external → Reuse → Import → Derive → Create.
+
+1. `assetctl search` d'abord ; puis `assetctl external search --query … --format json`. Une recherche
+   externe `unavailable` ne prouve pas qu'aucun asset n'existe : ne pas créer sur cette seule base.
+2. `assetctl external decide --query …` compare et rend `reuse`, `derive`, `import`, `create` ou `block`,
+   avec la justification, les candidats consultés et la raison de chaque rejet. Recopier cette décision
+   dans le rapport de tâche et dans la PR.
+3. Ne jamais présumer la licence d'un pack : « gratuit » n'est pas CC0. Seul le texte de licence lu dans
+   l'archive vérifie la licence annoncée ; sinon `unknown`, et la publication est bloquée.
+4. Importer par `external plan-import` puis `external import --plan` : archive inspectée (chemins
+   traversants, liens, exécutables, bombes ZIP refusés et mis en quarantaine), empreintes contrôlées,
+   import transactionnel et idempotent.
+5. Le module reste indépendant, désactivable (`ASSETCTL_EXTERNAL=off`) et entièrement headless.
+6. Un asset externe peut remplacer un élément de planche si le style colle (arbitrage de David, HL-538
+   7-2949) ; la preuve est un côte à côte avec la planche, joint au ticket du jeu.
+
+## Niveaux et mondes (EXT-002)
+
+`assetctl level …` tient lieu de `levelctl` (même dépôt, même CLI, même CI : décision HL-525 7-2955).
+
+1. Rechercher les niveaux internes avant les bibliothèques externes, puis adapter avant de générer
+   (`level search`, puis `level derive`, puis `level generate`).
+2. Réutiliser des bibliothèques de génération existantes plutôt que réimplémenter ; une réécriture exige un ADR.
+3. Ne jamais inventer licence, auteur, source ou preuve de solvabilité.
+4. Ne pas modifier les dépôts sources pendant le bootstrap (`level discover` lit, compare les empreintes avant et
+   après, et le dit dans `sourcesUnchanged`).
+5. Ne pas publier de niveau dont les assets ou les dépendances ont des droits inconnus.
+6. Produire seed, contraintes, versions, rapport de validation, captures et diff dans chaque PR.
+7. Utiliser exclusivement CLI et fichiers déclaratifs ; pas de clics manuels nécessaires.
+8. Limiter les corrections automatiques à 3 tentatives et escalader avec logs reproductibles.
+9. Ne pas confondre validation structurelle et qualité ludique : un solveur qui passe ne prouve pas l'amusement.
+10. Mettre à jour les manifestes d'usage des jeux à chaque adoption (`level.lock.json`, puis `level usages`).

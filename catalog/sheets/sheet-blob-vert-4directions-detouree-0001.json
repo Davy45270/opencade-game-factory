@@ -1,0 +1,645 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-blob-vert-4directions-detouree-0001.png"
+  },
+  "id": "sheet-blob-vert-4directions-detouree-0001",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. Utilisables dans les jeux de David, jamais exposés publiquement sans son accord.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "Blob vert, 4 directions (type Blob, taille M) — détourée",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Détourage de sheet-blob-vert-4directions-0001 (blob_vert_4directions.png, SHA-256 b3d81375d545180ee2637caef73dd809663a998e91149766b7327428686c1e43) par sources/editable/pestouille-2026-11-21/decoupe.py (SHA-256 92b98a4bd05d07667f02c8777ee0c2bdc5cdf4542a74953b6b566ba284375ec7), gabarit gabarit4, options --attaque-reelle bas=7,haut=7 : fond noir relié au bord des cases -> alpha 0, hors cases (titres, cartouches, cadres jaunes, portraits) -> alpha 0 ; RGB inchangé.",
+      "Table de découpe : sources/editable/pestouille-2026-11-21/blob-vert-4directions.decoupe.json (SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c).",
+      "La « grille 64x64 » annoncée par le cartouche n'est pas utilisée : pas réel 65 à 72 px (INVENTAIRE du 21/11)."
+    ],
+    "tool": "decoupe.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-idl-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 62,
+      "status": "verified",
+      "w": 59,
+      "x": 168,
+      "y": 235
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-idl-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 62,
+      "status": "verified",
+      "w": 60,
+      "x": 232,
+      "y": 235
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-idl-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 62,
+      "status": "verified",
+      "w": 62,
+      "x": 298,
+      "y": 236
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-idl-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 60,
+      "x": 364,
+      "y": 239
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 56,
+      "x": 449,
+      "y": 238
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 56,
+      "x": 513,
+      "y": 237
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 54,
+      "status": "verified",
+      "w": 56,
+      "x": 575,
+      "y": 237
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 54,
+      "status": "verified",
+      "w": 56,
+      "x": 638,
+      "y": 242
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 56,
+      "status": "verified",
+      "w": 55,
+      "x": 702,
+      "y": 241
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-mar-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 54,
+      "status": "verified",
+      "w": 56,
+      "x": 763,
+      "y": 241
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-att-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 73,
+      "status": "verified",
+      "w": 417,
+      "x": 844,
+      "y": 225
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-ble-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 87,
+      "status": "verified",
+      "w": 68,
+      "x": 1291,
+      "y": 213
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-ble-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 63,
+      "x": 1369,
+      "y": 238
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-droite-ble-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 85,
+      "status": "verified",
+      "w": 63,
+      "x": 1446,
+      "y": 215
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-idl-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 59,
+      "x": 171,
+      "y": 431
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-idl-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 60,
+      "x": 237,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-idl-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 60,
+      "x": 303,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-idl-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 60,
+      "x": 369,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 55,
+      "status": "verified",
+      "w": 54,
+      "x": 453,
+      "y": 433
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 55,
+      "status": "verified",
+      "w": 56,
+      "x": 513,
+      "y": 429
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 56,
+      "status": "verified",
+      "w": 55,
+      "x": 576,
+      "y": 432
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 55,
+      "status": "verified",
+      "w": 56,
+      "x": 638,
+      "y": 431
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 57,
+      "status": "verified",
+      "w": 54,
+      "x": 702,
+      "y": 431
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-mar-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 56,
+      "x": 763,
+      "y": 431
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-att-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 74,
+      "status": "verified",
+      "w": 416,
+      "x": 847,
+      "y": 418
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-ble-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 85,
+      "status": "verified",
+      "w": 64,
+      "x": 1295,
+      "y": 408
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-ble-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 64,
+      "x": 1373,
+      "y": 432
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-gauche-ble-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 85,
+      "status": "verified",
+      "w": 68,
+      "x": 1448,
+      "y": 407
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-idle-a-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 58,
+      "x": 168,
+      "y": 626
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-idle-b-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 59,
+      "x": 233,
+      "y": 626
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-idle-c-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 57,
+      "status": "verified",
+      "w": 58,
+      "x": 299,
+      "y": 626
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-idle-d-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 57,
+      "status": "verified",
+      "w": 57,
+      "x": 366,
+      "y": 626
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 56,
+      "x": 452,
+      "y": 626
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 56,
+      "x": 514,
+      "y": 625
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 55,
+      "x": 577,
+      "y": 621
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 58,
+      "x": 638,
+      "y": 628
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 57,
+      "x": 702,
+      "y": 627
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-marche-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 57,
+      "x": 766,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 53,
+      "status": "verified",
+      "w": 54,
+      "x": 850,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 52,
+      "status": "verified",
+      "w": 53,
+      "x": 911,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 53,
+      "status": "verified",
+      "w": 54,
+      "x": 971,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 114,
+      "status": "verified",
+      "w": 59,
+      "x": 1029,
+      "y": 612
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 53,
+      "status": "verified",
+      "w": 53,
+      "x": 1093,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 52,
+      "status": "verified",
+      "w": 54,
+      "x": 1152,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-attaqu-0007",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 53,
+      "status": "verified",
+      "w": 54,
+      "x": 1211,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-blesse-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 87,
+      "status": "verified",
+      "w": 66,
+      "x": 1293,
+      "y": 600
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-blesse-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 63,
+      "status": "verified",
+      "w": 61,
+      "x": 1372,
+      "y": 624
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-bas-blesse-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 87,
+      "status": "verified",
+      "w": 63,
+      "x": 1448,
+      "y": 600
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-idle-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 59,
+      "x": 169,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-idle-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 59,
+      "x": 235,
+      "y": 837
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-idle-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 59,
+      "x": 302,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-idle-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 59,
+      "x": 367,
+      "y": 837
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 57,
+      "x": 450,
+      "y": 837
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 62,
+      "status": "verified",
+      "w": 58,
+      "x": 512,
+      "y": 834
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 63,
+      "status": "verified",
+      "w": 57,
+      "x": 576,
+      "y": 830
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 64,
+      "status": "verified",
+      "w": 57,
+      "x": 638,
+      "y": 838
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 57,
+      "x": 701,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-march-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 64,
+      "status": "verified",
+      "w": 59,
+      "x": 764,
+      "y": 834
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 58,
+      "status": "verified",
+      "w": 57,
+      "x": 847,
+      "y": 838
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 61,
+      "status": "verified",
+      "w": 56,
+      "x": 908,
+      "y": 834
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 60,
+      "status": "verified",
+      "w": 57,
+      "x": 969,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0004",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 102,
+      "status": "verified",
+      "w": 57,
+      "x": 1030,
+      "y": 787
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0005",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 56,
+      "x": 1092,
+      "y": 837
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0006",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 59,
+      "status": "verified",
+      "w": 56,
+      "x": 1151,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-attaq-0007",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 57,
+      "status": "verified",
+      "w": 56,
+      "x": 1209,
+      "y": 839
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-bless-0001",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 94,
+      "status": "verified",
+      "w": 65,
+      "x": 1292,
+      "y": 809
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-bless-0002",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 66,
+      "status": "verified",
+      "w": 63,
+      "x": 1371,
+      "y": 836
+    },
+    {
+      "assetId": "asset-sprite-blob-vert-4directions-haut-bless-0003",
+      "evidence": "blob-vert-4directions.decoupe.json · SHA-256 9c2b60e3aae5c7b9de7e517859d1c1c99a653aa7e980128c2ec5b7b1f82d152c · planche ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+      "h": 94,
+      "status": "verified",
+      "w": 64,
+      "x": 1448,
+      "y": 809
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+  "status": "active"
+}

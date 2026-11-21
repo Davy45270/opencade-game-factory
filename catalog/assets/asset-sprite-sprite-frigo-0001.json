@@ -1,0 +1,215 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T14:38:14+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite frigo — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-frigo"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-p01-meubles-0001",
+        "h": 192,
+        "w": 192,
+        "x": 394,
+        "y": 198
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-frigo-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p01-meubles.json · sprite-frigo"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-meubles.json#sprite-frigo"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-frigo",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "70e0f0f0f0e0f031",
+    "phash": "cf9238c3383c656d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "content/assets/planches/source/p01-meubles.decoupe.json@d0adc4b9b4b56e1629a9940c436ecd49ea8f010c"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "082d4592ac2e6a5fd380aa26efa61b1a4af5e0130755545d5487e950ebce837f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/08/082d4592ac2e6a5fd380aa26efa61b1a4af5e0130755545d5487e950ebce837f.webp",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-meubles.json": "a8fd2bc23e80e88909d310ad96a59a08e02d66af",
+        "content/assets/planches/atlas/p01-meubles.webp": "d75601df9c03b6d518f5fce07028028323ea6c77"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-meubles.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 103,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-meubles.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-meubles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-meubles.json": "a8fd2bc23e80e88909d310ad96a59a08e02d66af",
+        "content/assets/planches/atlas/p01-meubles.webp": "d75601df9c03b6d518f5fce07028028323ea6c77"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-meubles.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 103,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-meubles.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-meubles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p01-meubles-0001",
+          "h": 192,
+          "sourceSheetSha256": "8f8ad61f6f06215f84f6ce307a05a28ba44d35a5399328c9369d0f3350b4baaf",
+          "w": 192,
+          "x": 394,
+          "y": 198
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "date": "2026-11-19T15:44:43+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "082d4592ac2e6a5fd380aa26efa61b1a4af5e0130755545d5487e950ebce837f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

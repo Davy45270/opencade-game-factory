@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "015-salle-de-bain",
+  "name": "La salle de bain après le bain",
+  "theme": "salle-de-bain",
+  "difficulty": "easy",
+  "seed": 57000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "parfums",
+      "label": "Bougies et parfums"
+    },
+    {
+      "id": "serviettes",
+      "label": "Serviettes et linge"
+    },
+    {
+      "id": "accessoires",
+      "label": "Accessoires"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "parfums",
+      "capacity": 4
+    },
+    {
+      "id": "carton-2",
+      "category": "serviettes",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "accessoires",
+      "capacity": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-8",
+      "category": "serviettes",
+      "asset": "panier-serviette",
+      "blockedBy": [],
+      "position": {
+        "x": 0.235,
+        "y": 0.875
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-1",
+      "category": "parfums",
+      "asset": "bougie-verre",
+      "blockedBy": [
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.228,
+        "y": 0.847
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-4",
+      "category": "parfums",
+      "asset": "plante-blanche",
+      "blockedBy": [
+        "pile-8",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.221,
+        "y": 0.819
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-7",
+      "category": "parfums",
+      "asset": "diffuseur-bambou",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.213,
+        "y": 0.791
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-10",
+      "category": "parfums",
+      "asset": "bougie-verre",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.206,
+        "y": 0.763
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-12",
+      "category": "accessoires",
+      "asset": "peigne",
+      "blockedBy": [],
+      "position": {
+        "x": 0.236,
+        "y": 0.396
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-2",
+      "category": "serviettes",
+      "asset": "panier-serviette",
+      "blockedBy": [
+        "pile-12"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.34
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-5",
+      "category": "serviettes",
+      "asset": "serviette-anneau",
+      "blockedBy": [
+        "pile-12",
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.205,
+        "y": 0.283
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "accessoires",
+      "asset": "gobelet-brosses",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.331
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-6",
+      "category": "accessoires",
+      "asset": "peigne",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.294
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-9",
+      "category": "accessoires",
+      "asset": "gobelet-brosses",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.495,
+        "y": 0.256
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-11",
+      "category": "accessoires",
+      "asset": "canard",
+      "blockedBy": [
+        "pile-3",
+        "pile-6",
+        "pile-9"
+      ],
+      "position": {
+        "x": 0.486,
+        "y": 0.219
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 2,
+    "twoStarsMaxBuffered": 4
+  },
+  "meta": {
+    "solution": [
+      "pile-8",
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-10",
+      "pile-12",
+      "pile-2",
+      "pile-5",
+      "pile-3",
+      "pile-6",
+      "pile-9",
+      "pile-11"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 36,
+    "nonTrivialDecisions": 250,
+    "legalMoves": 1019,
+    "blockingMoves": 25,
+    "blockingMoveShare": 0.02453385672227674
+  }
+}

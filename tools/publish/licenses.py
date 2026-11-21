@@ -3,11 +3,23 @@
 import re
 import unicodedata
 
+from tools import asset_versions
 from tools.core.catalog import write_json, write_text
+from tools.core.ids import parse_id
 from tools.core.schemas import schemas
 from tools.discovery.enrich import trace
 
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
+# Licence privée de David (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
+# Règle centrale unique, sans liste de jeux à tenir : tout dépôt de rôle « game » de catalog/sources.json (le registre
+# n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Non dérivable.
+PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"})
+GAME_GRANT = {"ref": "HL-538 (David, 2026-11-21)",
+              "decision": "« autorise pour tous mes jeux sans exceptions !!! » : remplace l'autorisation réservée à "
+                          "pestouille-rpg (HL-537 7-3167). Restent bloqués : un dépôt public qui n'est pas un jeu de David, "
+                          "et la publication d'une planche source brute hors d'un jeu."}
+DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
+             "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 
 
 def assign(asset, license_id, method, ref, decision):
@@ -70,20 +82,55 @@ def apply_catalogue(asset, entry, ref):
             assign(asset, "MIT", "catalogue-import", ref, rights)
 
 
-def public_allowed(record, sheet_digests):
-    return (explicit_spdx(record.get("license")) and bool(record.get("licenseEvidence"))
-            and record.get("publicExport") != "forbidden"
-            and record["sha256"].lower() not in sheet_digests)
+def public_allowed(record, sheet_digests, find_parent, granted=frozenset()):
+    """Check the selected revision and each revision it names as a parent.
+
+    `granted` lists the private licenses that the destination (a game of David, GAME_GRANT) may publish."""
+    license_id = record.get("license")
+    if license_id in PRIVATE_LICENSES and license_id not in granted:
+        return False
+    seen = set()
+    while True:
+        if (record.get("license") != license_id or not explicit_spdx(license_id)
+                or not record.get("licenseEvidence") or record.get("publicExport") == "forbidden"
+                or record["sha256"].lower() in sheet_digests):
+            return False
+        provenance = record.get("provenance")
+        if not isinstance(provenance, dict) or "parentId" not in provenance:
+            return True
+        parent_id = provenance["parentId"]
+        number = provenance.get("parentVersion")
+        digest = provenance.get("parentSha256")
+        if not (license_id in DERIVABLE and isinstance(parent_id, str) and parse_id(parent_id)
+                and parent_id == provenance.get("derivedFrom")
+                and type(number) is int and isinstance(digest, str)):
+            return False
+        key = parent_id, number
+        if key in seen:
+            return False
+        seen.add(key)
+        parent = find_parent(parent_id)
+        if parent is None:
+            return False
+        versions = asset_versions.history(parent)
+        if not 1 <= number <= len(versions):
+            return False
+        entry = versions[number - 1]
+        if entry["sha256"].lower() != digest.lower():
+            return False
+        rights = parent if number == asset_versions.version_number(parent) else entry.get("publication", {})
+        record = {**rights, "sha256": entry["sha256"]}
 
 
 def emit(root, assets, sheets=()):
+    assets = {asset["id"]: asset for asset in assets}
     sheets = tuple(sheets)
     sheet_digests = {sheet["sha256"].lower() for sheet in sheets}
     rows = []
-    for record in sorted((*assets, *sheets), key=lambda item: item["id"]):
+    for record in sorted((*assets.values(), *sheets), key=lambda item: item["id"]):
         evidence = record.get("licenseEvidence")
         entire_sheet = record["sha256"].lower() in sheet_digests
-        allowed = public_allowed(record, sheet_digests)
+        allowed = public_allowed(record, sheet_digests, assets.get)
         reason = ("Planche entière réservée." if entire_sheet else "Licence et preuve enregistrées." if allowed
                   else "Autorisation non établie.")
         rows.append({"id": record["id"], "license": record["license"], "evidence": evidence,

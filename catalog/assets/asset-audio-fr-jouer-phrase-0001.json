@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-16T11:07:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Fr jouer phrase — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-jouer-phrase.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-jouer-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-fr-jouer-phrase-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/dictee/audio/fr-jouer-phrase.ogg · audio"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/dictee/audio/fr-jouer-phrase.ogg · fr-jouer-phrase"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-jouer-phrase.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-jouer-phrase.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-jouer-phrase.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "fr-jouer-phrase",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-jouer-phrase.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5405bd03b6d0911fee6d48692b455afb52af44c63c8e4682b07dc80eb2181cc7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jouer-phrase.ogg": "81c7981f2e1df42b6b24d0fd9b37f0201920e479"
+      },
+      "assetPath": "public/dictee/audio/fr-jouer-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10782,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jouer-phrase.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jouer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jouer-phrase.ogg": "81c7981f2e1df42b6b24d0fd9b37f0201920e479"
+      },
+      "assetPath": "public/dictee/audio/fr-jouer-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 432,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jouer-phrase.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jouer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jouer-phrase.ogg": "81c7981f2e1df42b6b24d0fd9b37f0201920e479"
+      },
+      "assetPath": "public/dictee/audio/fr-jouer-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10782,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jouer-phrase.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jouer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jouer-phrase.ogg": "81c7981f2e1df42b6b24d0fd9b37f0201920e479"
+      },
+      "assetPath": "public/dictee/audio/fr-jouer-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 432,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jouer-phrase.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jouer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "date": "2026-11-18T20:05:47+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5405bd03b6d0911fee6d48692b455afb52af44c63c8e4682b07dc80eb2181cc7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

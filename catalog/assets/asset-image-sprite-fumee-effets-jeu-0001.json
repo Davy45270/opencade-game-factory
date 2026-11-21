@@ -1,0 +1,183 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite fumee effets jeu — image 93×96",
+  "dimensions": {
+    "height": 96,
+    "width": 93
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-fumee-effets-jeu.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-sprite-fumee-effets-jeu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/runtime/sprite-fumee-effets-jeu.webp · sprite-fumee-effets-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/runtime/sprite-fumee-effets-jeu.webp · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-fumee-effets-jeu",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "71b094ecd0a0f073",
+    "phash": "c09d3fca2f367061"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-fumee-effets-jeu.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "eebf7f87a4b0299e1cc9a2778d2849c6c5f7869d1d986229ef57097bcb9a4805",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/ee/eebf7f87a4b0299e1cc9a2778d2849c6c5f7869d1d986229ef57097bcb9a4805.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-fumee-effets-jeu.webp": "fffaa0b916399c262e4ad75f83ef92b16839fae7"
+      },
+      "assetPath": "packages/assets/runtime/sprite-fumee-effets-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 12,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-fumee-effets-jeu.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "fumeeEffetsJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-fumee-effets-jeu-0002",
+    "asset-sprite-sprite-fumee-effets-jeu-0001",
+    "asset-sprite-sprite-fumee-effets-jeu-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "eebf7f87a4b0299e1cc9a2778d2849c6c5f7869d1d986229ef57097bcb9a4805",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

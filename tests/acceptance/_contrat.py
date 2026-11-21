@@ -230,6 +230,9 @@ def copier_registre(dest: Path, home: Path) -> Path:
             for f in sorted(racine.rglob("*"), reverse=True):
                 if f.is_file() and f.name != ".gitkeep":
                     f.unlink()
+    # Les têtes importées du vrai catalogue n'existent pas dans les dépôts du monde : les garder bloquerait tout
+    # scan (« aucune continuité prouvée »), comme sur un catalogue qui n'aurait jamais rien importé.
+    (dest / "catalog" / "scan-references.json").unlink(missing_ok=True)
     ids = dest / FICHIER_IDS
     ids.parent.mkdir(parents=True, exist_ok=True)
     ids.write_text("{}\n", encoding="utf-8")

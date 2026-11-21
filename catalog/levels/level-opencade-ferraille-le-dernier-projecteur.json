@@ -1,0 +1,108 @@
+{
+  "content": {
+    "format": "game-platformer",
+    "height": 1,
+    "layers": [],
+    "name": "Le dernier projecteur",
+    "orientation": "platformer",
+    "platformer": {
+      "boss": "reactor",
+      "discovery": "Le dernier projecteur · Projecteur",
+      "enemies": [
+        "armored",
+        "drone",
+        "kamikaze"
+      ],
+      "ferraille": 29,
+      "name": "Le dernier projecteur",
+      "openingEnemy": {
+        "aim": 3.141592653589793,
+        "clock": 0,
+        "h": 14,
+        "hp": 1,
+        "kind": "turret",
+        "opening": true,
+        "originY": 242,
+        "phase": 0,
+        "vx": 0,
+        "vy": 0,
+        "w": 14,
+        "x": 108,
+        "y": 242
+      },
+      "recovery": false,
+      "sequence": [
+        "spotlight",
+        "crate",
+        "gate",
+        "lava",
+        "secret"
+      ],
+      "star": "spotlight",
+      "structure": "arena",
+      "theme": "night",
+      "weapon": "grenade"
+    },
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "platformer"
+      }
+    ],
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 5
+  },
+  "contentSha256": "8c70e0ef3d9ed37c02efe6b7fad4849ff7e8631c0587c266f720e1933864e99d",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-platformer",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 5
+  },
+  "id": "level-opencade-ferraille-le-dernier-projecteur",
+  "kind": "platformer",
+  "losses": [],
+  "mechanics": [],
+  "name": "Le dernier projecteur",
+  "observations": [
+    {
+      "commit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+      "contentSha256": "8c70e0ef3d9ed37c02efe6b7fad4849ff7e8631c0587c266f720e1933864e99d",
+      "observedAt": "2026-11-21T15:48:48Z",
+      "path": "ferraille/ferraille-29.json",
+      "provider": "archive",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts"
+    }
+  ],
+  "origin": {
+    "attribution": "Le dernier projecteur — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "opencade-ferraille",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE.txt",
+    "licenseStatus": "verified",
+    "provider": "archive",
+    "sourceCommit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+    "sourcePath": "ferraille/ferraille-29.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "sourceUrl": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

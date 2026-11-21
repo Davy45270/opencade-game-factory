@@ -1,0 +1,36 @@
+{
+ "ferraille": 3,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "tunnel",
+ "sequence": [
+  "tunnel",
+  "lava",
+  "spotlight",
+  "piston",
+  "crate"
+ ],
+ "name": "Sous les conduites",
+ "theme": "factory",
+ "structure": "corridor",
+ "enemies": [
+  "shooter",
+  "crawler"
+ ],
+ "weapon": "flame",
+ "discovery": "Sous les conduites · Conduit bas",
+ "recovery": false
+}

@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "009-chambre",
+  "name": "Les piles de coussins",
+  "theme": "chambre",
+  "difficulty": "easy",
+  "seed": 51000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 2,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "coussins",
+      "label": "Coussins"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    },
+    {
+      "id": "livres",
+      "label": "Livres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "coussins",
+      "capacity": 6
+    },
+    {
+      "id": "carton-2",
+      "category": "cadres",
+      "capacity": 4
+    },
+    {
+      "id": "carton-3",
+      "category": "livres",
+      "capacity": 4
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-12",
+      "category": "livres",
+      "asset": "livres-trio",
+      "blockedBy": [],
+      "position": {
+        "x": 0.485,
+        "y": 0.205
+      },
+      "layer": 7
+    },
+    {
+      "id": "pile-1",
+      "category": "coussins",
+      "asset": "coussin-patte",
+      "blockedBy": [
+        "pile-12"
+      ],
+      "position": {
+        "x": 0.49,
+        "y": 0.173
+      },
+      "layer": 6
+    },
+    {
+      "id": "pile-4",
+      "category": "coussins",
+      "asset": "coussins-duo",
+      "blockedBy": [
+        "pile-12",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.495,
+        "y": 0.163
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-7",
+      "category": "coussins",
+      "asset": "coussins-duo",
+      "blockedBy": [
+        "pile-12",
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.5,
+        "y": 0.144
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-10",
+      "category": "coussins",
+      "asset": "coussin-creme",
+      "blockedBy": [
+        "pile-12",
+        "pile-1",
+        "pile-4",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.505,
+        "y": 0.121
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-13",
+      "category": "coussins",
+      "asset": "coussin-patte",
+      "blockedBy": [
+        "pile-12",
+        "pile-1",
+        "pile-4",
+        "pile-7",
+        "pile-10"
+      ],
+      "position": {
+        "x": 0.51,
+        "y": 0.098
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-14",
+      "category": "coussins",
+      "asset": "coussin-patte",
+      "blockedBy": [
+        "pile-12",
+        "pile-1",
+        "pile-4",
+        "pile-7",
+        "pile-10",
+        "pile-13"
+      ],
+      "position": {
+        "x": 0.515,
+        "y": 0.079
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "cadres",
+      "asset": "miroir-rond",
+      "blockedBy": [],
+      "position": {
+        "x": 0.795,
+        "y": 0.354
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-5",
+      "category": "cadres",
+      "asset": "cadre-chat",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.786,
+        "y": 0.317
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-8",
+      "category": "cadres",
+      "asset": "cadre-suspendu",
+      "blockedBy": [
+        "pile-2",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.775,
+        "y": 0.279
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-11",
+      "category": "cadres",
+      "asset": "cadre-montagne",
+      "blockedBy": [
+        "pile-2",
+        "pile-5",
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.766,
+        "y": 0.242
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.906
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-6",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.825
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-9",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.794
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 0,
+    "twoStarsMaxBuffered": 2
+  },
+  "meta": {
+    "solution": [
+      "pile-2",
+      "pile-5",
+      "pile-8",
+      "pile-11",
+      "pile-12",
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-10",
+      "pile-13",
+      "pile-14",
+      "pile-3",
+      "pile-6",
+      "pile-9"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 36,
+    "nonTrivialDecisions": 160,
+    "legalMoves": 748,
+    "blockingMoves": 0,
+    "blockingMoveShare": 0
+  }
+}

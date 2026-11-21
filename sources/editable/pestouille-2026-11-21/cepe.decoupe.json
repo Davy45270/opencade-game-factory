@@ -1,0 +1,946 @@
+{
+ "planche": "cepe-detouree.png",
+ "planche_sha256": "5f7e7baf20910cb1525ba7d9e0c608ea257528f0c9767ce1c74ae002c2bafa58",
+ "marge": 0,
+ "source": "cepe.png",
+ "source_sha256": "3e4bbe809fbd798753902322804589c60bde3f943a28de3b0a46ce3219b7c5ac",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "cepe-droite-idle-a",
+   "boite": [
+    69,
+    74,
+    163,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-droite-idle-b",
+   "boite": [
+    67,
+    73,
+    232,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-droite-idle-c",
+   "boite": [
+    68,
+    73,
+    299,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-droite-idle-d",
+   "boite": [
+    68,
+    73,
+    367,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-droite-marche-a",
+   "boite": [
+    65,
+    74,
+    452,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-marche-b",
+   "boite": [
+    64,
+    72,
+    517,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-marche-c",
+   "boite": [
+    64,
+    74,
+    581,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-marche-d",
+   "boite": [
+    60,
+    76,
+    645,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-marche-e",
+   "boite": [
+    62,
+    72,
+    705,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-marche-f",
+   "boite": [
+    65,
+    72,
+    767,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-droite-attaque-bloc",
+   "boite": [
+    413,
+    122,
+    850,
+    195
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "cepe-droite-blesse-a",
+   "boite": [
+    83,
+    122,
+    1285,
+    196
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-droite-blesse-b",
+   "boite": [
+    77,
+    105,
+    1368,
+    214
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-droite-blesse-c",
+   "boite": [
+    73,
+    120,
+    1450,
+    199
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-gauche-idle-a",
+   "boite": [
+    67,
+    71,
+    163,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-gauche-idle-b",
+   "boite": [
+    67,
+    72,
+    230,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-gauche-idle-c",
+   "boite": [
+    68,
+    71,
+    297,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-gauche-idle-d",
+   "boite": [
+    70,
+    72,
+    365,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-gauche-marche-a",
+   "boite": [
+    63,
+    71,
+    449,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-marche-b",
+   "boite": [
+    60,
+    72,
+    512,
+    436
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-marche-c",
+   "boite": [
+    66,
+    75,
+    572,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-marche-d",
+   "boite": [
+    63,
+    71,
+    638,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-marche-e",
+   "boite": [
+    66,
+    75,
+    701,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-marche-f",
+   "boite": [
+    65,
+    74,
+    767,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-gauche-attaque-bloc",
+   "boite": [
+    414,
+    121,
+    847,
+    391
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "cepe-gauche-blesse-a",
+   "boite": [
+    75,
+    118,
+    1287,
+    393
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-gauche-blesse-b",
+   "boite": [
+    77,
+    103,
+    1362,
+    408
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-gauche-blesse-c",
+   "boite": [
+    84,
+    122,
+    1439,
+    389
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-bas-idle-a",
+   "boite": [
+    68,
+    75,
+    163,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-bas-idle-b",
+   "boite": [
+    64,
+    73,
+    233,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-bas-idle-c",
+   "boite": [
+    64,
+    73,
+    299,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-bas-idle-d",
+   "boite": [
+    66,
+    73,
+    367,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-bas-marche-a",
+   "boite": [
+    65,
+    79,
+    451,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-marche-b",
+   "boite": [
+    59,
+    74,
+    516,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-marche-c",
+   "boite": [
+    65,
+    79,
+    575,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-marche-d",
+   "boite": [
+    65,
+    76,
+    640,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-marche-e",
+   "boite": [
+    62,
+    73,
+    705,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-marche-f",
+   "boite": [
+    63,
+    73,
+    767,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-bas-attaque-bloc",
+   "boite": [
+    408,
+    126,
+    852,
+    578
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "cepe-bas-blesse-a",
+   "boite": [
+    79,
+    125,
+    1286,
+    580
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-bas-blesse-b",
+   "boite": [
+    76,
+    120,
+    1365,
+    586
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-bas-blesse-c",
+   "boite": [
+    75,
+    126,
+    1448,
+    579
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-haut-idle-a",
+   "boite": [
+    65,
+    73,
+    167,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-haut-idle-b",
+   "boite": [
+    64,
+    72,
+    235,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-haut-idle-c",
+   "boite": [
+    63,
+    72,
+    302,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-haut-idle-d",
+   "boite": [
+    65,
+    72,
+    369,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "cepe-haut-marche-a",
+   "boite": [
+    65,
+    78,
+    454,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-marche-b",
+   "boite": [
+    56,
+    72,
+    519,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-marche-c",
+   "boite": [
+    67,
+    78,
+    575,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-marche-d",
+   "boite": [
+    62,
+    75,
+    645,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-marche-e",
+   "boite": [
+    60,
+    74,
+    707,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-marche-f",
+   "boite": [
+    60,
+    71,
+    770,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "cepe-haut-attaque-bloc",
+   "boite": [
+    409,
+    133,
+    852,
+    773
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "cepe-haut-blesse-a",
+   "boite": [
+    80,
+    127,
+    1287,
+    777
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-haut-blesse-b",
+   "boite": [
+    74,
+    108,
+    1367,
+    796
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "cepe-haut-blesse-c",
+   "boite": [
+    74,
+    127,
+    1449,
+    777
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

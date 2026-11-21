@@ -1,0 +1,179 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite quitter commandes apercu — image 144×63",
+  "dimensions": {
+    "height": 63,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-quitter-commandes-apercu.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-sprite-quitter-commandes-apercu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/runtime/sprite-quitter-commandes-apercu.webp · sprite-quitter-commandes-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/runtime/sprite-quitter-commandes-apercu.webp · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-quitter-commandes-apercu",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "982ad0ccccdba249",
+    "phash": "d7d43a6486193b66"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-quitter-commandes-apercu.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "398f9bbae0afc3c85e2075133efbdddf917ef41a5dafd377af8b87db0b149fbf",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/39/398f9bbae0afc3c85e2075133efbdddf917ef41a5dafd377af8b87db0b149fbf.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-quitter-commandes-apercu.webp": "467e22ae45fbe02455015b763c5b25f6f6bce13f"
+      },
+      "assetPath": "packages/assets/runtime/sprite-quitter-commandes-apercu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-quitter-commandes-apercu.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "quitterCommandesApercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "398f9bbae0afc3c85e2075133efbdddf917ef41a5dafd377af8b87db0b149fbf",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

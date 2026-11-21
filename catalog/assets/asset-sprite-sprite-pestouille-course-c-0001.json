@@ -1,0 +1,239 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite pestouille course c — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-course-c"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e04-heros-0001",
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 128
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-course-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e04-heros.json · sprite-pestouille-course-c"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-heros.json#sprite-pestouille-course-c"
+      ],
+      "method": "proven"
+    },
+    "state": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/e04-heros.json · course"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/e04-heros.json · run"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-course-c",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "0697193ad8393b16",
+    "phash": "bbc4e49b054d9a27"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 36,
+    "verified": false,
+    "w": 39,
+    "x": 123,
+    "y": 256
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-04-comba-0001",
+  "state": "run",
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "run"
+  ],
+  "thumbnail": "thumbnails/1c/1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 341,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-heros.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/manifests/e04-heros.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e04-heros-0001",
+          "h": 64,
+          "sourceSheetSha256": "8d2d4a748b204c88fb5ab2526d353a7bb0011560db206a9737395531fa9f9a61",
+          "w": 64,
+          "x": 0,
+          "y": 128
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

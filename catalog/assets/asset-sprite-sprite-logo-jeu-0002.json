@@ -1,0 +1,184 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite logo jeu — sprite 345×345",
+  "dimensions": {
+    "height": 345,
+    "width": 345
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-logo-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-logo-jeu-3x-0001",
+        "h": 345,
+        "w": 345,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-logo-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/logo-jeu@3x.json · sprite-logo-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/logo-jeu@3x.json#sprite-logo-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-logo-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "3001b02e5c9d3944",
+    "phash": "d4c5a93297b470cb"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "344x192+14+14"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ce28d89393b5e47952b920e334fc48f1094d185390d11322205b6cfd58f53266",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/ce/ce28d89393b5e47952b920e334fc48f1094d185390d11322205b6cfd58f53266.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/logo-jeu@3x.json": "0e0fc115ca5ab7f6639d07cc97235b6a3dd631bc",
+        "packages/assets/atlas/logo-jeu@3x.png": "c21fb79fd9fcb10a1378aa68e6b47a98a2eb9d2d"
+      },
+      "assetPath": "packages/assets/atlas/logo-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3285,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/logo-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "logo-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-logo-jeu-0002",
+    "asset-sprite-sprite-logo-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-logo-jeu-3x-0001",
+          "h": 345,
+          "sourceSheetSha256": "f6bac7754af6f4f27a3151bb631954d3c6d342fe1a406a398e0c25d1ef893a7f",
+          "w": 345,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ce28d89393b5e47952b920e334fc48f1094d185390d11322205b6cfd58f53266",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

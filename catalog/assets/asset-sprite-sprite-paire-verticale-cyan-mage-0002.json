@@ -1,0 +1,183 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite paire verticale cyan magenta — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-paire-verticale-cyan-magenta"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-paires-verticale-origine-3x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-paire-verticale-cyan-mage-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/paires-verticale-origine@3x.json · sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-magenta"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-paire-verticale-cyan-magenta",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "ccce8e55d4ce8e69",
+    "phash": "e5c132c7cb3a226b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "77x151+995+205"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1378e6ece8fee3676504fe052d3e0508c147b55b3f5ac13ed21285597f50af4a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/13/1378e6ece8fee3676504fe052d3e0508c147b55b3f5ac13ed21285597f50af4a.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/paires-verticale-origine@3x.json": "ad915c2f3b2be4c1c92e8430fc653ecec84772a2",
+        "packages/assets/atlas/paires-verticale-origine@3x.png": "f6833437b59afb72822e4dd92f9e28831dc07527"
+      },
+      "assetPath": "packages/assets/atlas/paires-verticale-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4419,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/paires-verticale-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "paires-verticale-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-sprite-paire-verticale-cyan-mage-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-paires-verticale-origine-3x-0001",
+          "h": 192,
+          "sourceSheetSha256": "a065113031463e76da0d5f2dfa78a5130f7c55dd4e0048cb983352a2694263eb",
+          "w": 192,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1378e6ece8fee3676504fe052d3e0508c147b55b3f5ac13ed21285597f50af4a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

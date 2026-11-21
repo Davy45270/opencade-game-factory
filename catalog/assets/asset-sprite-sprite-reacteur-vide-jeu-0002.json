@@ -1,0 +1,184 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite reacteur vide jeu — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-reacteur-vide-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-objets-jeu-3x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 196,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-reacteur-vide-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/objets-jeu@3x.json · sprite-reacteur-vide-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/objets-jeu@3x.json#sprite-reacteur-vide-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-reacteur-vide-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "0341414141414121",
+    "phash": "fff5d581818181d5"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "89x119+1488+611"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f72400191e50ece800355d6bd24a9add0902ae56f829a874fbb5062eb1b0df67",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/f7/f72400191e50ece800355d6bd24a9add0902ae56f829a874fbb5062eb1b0df67.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/objets-jeu@3x.json": "ec83b117dbbc75dae53a0a9e6c66c974d62bbc4a",
+        "packages/assets/atlas/objets-jeu@3x.png": "f3cec5a160aaa95323805547bfa43720a2cc11ce"
+      },
+      "assetPath": "packages/assets/atlas/objets-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4023,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/objets-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "objets-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-reacteur-vide-jeu-0001",
+    "asset-sprite-sprite-reacteur-vide-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-objets-jeu-3x-0001",
+          "h": 192,
+          "sourceSheetSha256": "8c2a52b2cd001bbf2d398e39b98d9a5837f07d0e2c19fed4ce6a44afc21ccafc",
+          "w": 192,
+          "x": 196,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f72400191e50ece800355d6bd24a9add0902ae56f829a874fbb5062eb1b0df67",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

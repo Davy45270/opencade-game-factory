@@ -1,0 +1,250 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-19T12:10:49+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Styles — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "apps/web/src/styles.css",
+        "provider": "forgejo",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "apps/web/src/styles.css",
+        "provider": "local",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-styles-0002",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/src/styles.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/src/styles.css · styles"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/src/styles.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "styles",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/src/styles.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6d1a6c633162bd8674c352de294762a522d708c0381a0921bbb2961710138eaa",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:38:02+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "ebaf39e5f7f0022351646112ef6ab882e006e29b"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "apps/web/src/main.tsx"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "import: apps/web/src/styles.css",
+        "module-path: apps/web/src/main.tsx"
+      ],
+      "game": "six-de-chaque",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "style",
+      "scene": "apps/web/src/main.tsx",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "ebaf39e5f7f0022351646112ef6ab882e006e29b"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 67,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "style",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "ebaf39e5f7f0022351646112ef6ab882e006e29b"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "apps/web/src/main.tsx"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "import: apps/web/src/styles.css",
+        "module-path: apps/web/src/main.tsx"
+      ],
+      "game": "six-de-chaque",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "style",
+      "scene": "apps/web/src/main.tsx",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "ebaf39e5f7f0022351646112ef6ab882e006e29b"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 67,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: apps/web/src/styles.css",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "style",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "date": "2026-11-19T15:38:02+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6d1a6c633162bd8674c352de294762a522d708c0381a0921bbb2961710138eaa",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

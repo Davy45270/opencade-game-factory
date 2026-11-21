@@ -1,0 +1,108 @@
+{
+  "content": {
+    "format": "game-platformer",
+    "height": 1,
+    "layers": [],
+    "name": "La cuve de Tenaille",
+    "orientation": "platformer",
+    "platformer": {
+      "boss": "crossfire",
+      "discovery": "La cuve de Tenaille · Lave montante",
+      "enemies": [
+        "armored",
+        "drone",
+        "kamikaze"
+      ],
+      "ferraille": 24,
+      "name": "La cuve de Tenaille",
+      "openingEnemy": {
+        "aim": 3.141592653589793,
+        "clock": 0,
+        "h": 14,
+        "hp": 1,
+        "kind": "turret",
+        "opening": true,
+        "originY": 242,
+        "phase": 0,
+        "vx": 0,
+        "vy": 0,
+        "w": 14,
+        "x": 108,
+        "y": 242
+      },
+      "recovery": false,
+      "sequence": [
+        "lava",
+        "spring",
+        "bridge",
+        "tunnel",
+        "chain"
+      ],
+      "star": "lava",
+      "structure": "arena",
+      "theme": "factory",
+      "weapon": "grenade"
+    },
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "platformer"
+      }
+    ],
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 5
+  },
+  "contentSha256": "5460cfd5e0904882084754f20c8af3035ab40163b187655f36b524bb68aec80b",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-platformer",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 5
+  },
+  "id": "level-opencade-ferraille-la-cuve-de-tenaille",
+  "kind": "platformer",
+  "losses": [],
+  "mechanics": [],
+  "name": "La cuve de Tenaille",
+  "observations": [
+    {
+      "commit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+      "contentSha256": "5460cfd5e0904882084754f20c8af3035ab40163b187655f36b524bb68aec80b",
+      "observedAt": "2026-11-21T15:48:48Z",
+      "path": "ferraille/ferraille-24.json",
+      "provider": "archive",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts"
+    }
+  ],
+  "origin": {
+    "attribution": "La cuve de Tenaille — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "opencade-ferraille",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE.txt",
+    "licenseStatus": "verified",
+    "provider": "archive",
+    "sourceCommit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+    "sourcePath": "ferraille/ferraille-24.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "sourceUrl": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

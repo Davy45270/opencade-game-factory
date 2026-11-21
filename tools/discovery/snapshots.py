@@ -18,6 +18,7 @@ class Snapshot:
         self.date = date
         self.members = members
         self.path_aliases = members[0][0].path_aliases
+        self.generated_paths = {}
         self.tree = tree
         self.indexed = {}
         self.measurements = {}

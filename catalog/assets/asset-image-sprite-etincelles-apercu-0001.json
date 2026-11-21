@@ -1,0 +1,179 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite etincelles apercu — image 84×96",
+  "dimensions": {
+    "height": 96,
+    "width": 84
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-etincelles-apercu.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-sprite-etincelles-apercu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/runtime/sprite-etincelles-apercu.webp · sprite-etincelles-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/runtime/sprite-etincelles-apercu.webp · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-etincelles-apercu",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "29e0e3dcccd97824",
+    "phash": "c3ce2cf1303cc9e6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-etincelles-apercu.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5ffea22631a6b5598e8cc1470b10bb2fe761bedecb5e339f5553cbda2686e32f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/5f/5ffea22631a6b5598e8cc1470b10bb2fe761bedecb5e339f5553cbda2686e32f.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-etincelles-apercu.webp": "3e80601d93b87224cf0d402edc965ade30a20767"
+      },
+      "assetPath": "packages/assets/runtime/sprite-etincelles-apercu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-etincelles-apercu.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "etincellesApercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5ffea22631a6b5598e8cc1470b10bb2fe761bedecb5e339f5553cbda2686e32f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

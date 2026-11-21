@@ -1,0 +1,42 @@
+# Correspondances de chemins
+
+| Dépôt | Commit | Fichier | Champ | Chemin cité | Chemin résolu |
+| --- | --- | --- | --- | --- | --- |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e03-interface.png | assets/export/e03-interface.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e03-menu.png | assets/export/e03-menu.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e03-objets.png | assets/export/e03-objets.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e03-personnages.png | assets/export/e03-personnages.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e03-portraits.png | assets/export/e03-portraits.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e04-boss.png | assets/export/e04-boss.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e04-heros.png | assets/export/e04-heros.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e04-icones.png | assets/export/e04-icones.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e04-monstres.png | assets/export/e04-monstres.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/e04-portraits.png | assets/export/e04-portraits.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m01-boutons.png | assets/export/m01-boutons.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m01-ennemis.png | assets/export/m01-ennemis.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m01-fonds.png | assets/export/m01-fonds.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m01-heros.png | assets/export/m01-heros.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m01-icones.png | assets/export/m01-icones.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m02-creatures.png | assets/export/m02-creatures.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/m02-fonds.png | assets/export/m02-fonds.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/p02-objets.png | assets/export/p02-objets.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | assets/provenance.json | atlas | public/assets/p02-pestouille.png | assets/export/p02-pestouille.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e03-interface.json | meta.image | public/assets/e03-interface.png | assets/export/e03-interface.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e03-menu.json | meta.image | public/assets/e03-menu.png | assets/export/e03-menu.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e03-objets.json | meta.image | public/assets/e03-objets.png | assets/export/e03-objets.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e03-personnages.json | meta.image | public/assets/e03-personnages.png | assets/export/e03-personnages.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e03-portraits.json | meta.image | public/assets/e03-portraits.png | assets/export/e03-portraits.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e04-boss.json | meta.image | public/assets/e04-boss.png | assets/export/e04-boss.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e04-heros.json | meta.image | public/assets/e04-heros.png | assets/export/e04-heros.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e04-icones.json | meta.image | public/assets/e04-icones.png | assets/export/e04-icones.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e04-monstres.json | meta.image | public/assets/e04-monstres.png | assets/export/e04-monstres.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/e04-portraits.json | meta.image | public/assets/e04-portraits.png | assets/export/e04-portraits.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m01-boutons.json | meta.image | public/assets/m01-boutons.png | assets/export/m01-boutons.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m01-ennemis.json | meta.image | public/assets/m01-ennemis.png | assets/export/m01-ennemis.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m01-fonds.json | meta.image | public/assets/m01-fonds.png | assets/export/m01-fonds.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m01-heros.json | meta.image | public/assets/m01-heros.png | assets/export/m01-heros.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m01-icones.json | meta.image | public/assets/m01-icones.png | assets/export/m01-icones.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m02-creatures.json | meta.image | public/assets/m02-creatures.png | assets/export/m02-creatures.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/m02-fonds.json | meta.image | public/assets/m02-fonds.png | assets/export/m02-fonds.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/p02-objets.json | meta.image | public/assets/p02-objets.png | assets/export/p02-objets.png |
+| pestouille-rpg | 183f999d5c685c361f503bc559bf18b84f9e91ae | public/assets/p02-pestouille.json | meta.image | public/assets/p02-pestouille.png | assets/export/p02-pestouille.png |

@@ -1,0 +1,203 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T12:46:08+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "P04 quotas — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 256,
+        "name": "sprite-panneau-quotas-sdb",
+        "w": 256,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p04-quotas.json",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p04-quotas.json",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "p04-quotas.webp"
+  },
+  "id": "asset-atlas-p04-quotas-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p04-quotas.json · p04-quotas"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "p04-quotas",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-quotas.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d58d350150bfb34e27be413f282bb7480d085141b45bb99438fffa19b153cbbd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:44:43+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p04-quotas.json": "e772bdf53be6a3a1e2331e38ccd0bb43f957be46"
+      },
+      "assetPath": "content/assets/planches/atlas/p04-quotas.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 871,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p04-quotas.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p04-quotas",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p04-quotas.json": "e772bdf53be6a3a1e2331e38ccd0bb43f957be46"
+      },
+      "assetPath": "content/assets/planches/atlas/p04-quotas.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 871,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p04-quotas.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p04-quotas",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d58d350150bfb34e27be413f282bb7480d085141b45bb99438fffa19b153cbbd",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

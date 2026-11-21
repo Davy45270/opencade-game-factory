@@ -1,0 +1,376 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "004-salon",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 3,
+          "category": "plantes",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 4,
+          "category": "cadres",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 4,
+          "category": "coussins",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 5,
+          "category": "livres",
+          "id": "carton-4"
+        }
+      ],
+      "categories": [
+        {
+          "id": "plantes",
+          "label": "Plantes et fleurs"
+        },
+        {
+          "id": "cadres",
+          "label": "Cadres"
+        },
+        {
+          "id": "coussins",
+          "label": "Coussins et plaids"
+        },
+        {
+          "id": "livres",
+          "label": "Livres"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "004-salon",
+      "meta": {
+        "blockingMoveShare": 0.32503276539973786,
+        "blockingMoves": 248,
+        "engineVersion": "0.1.0",
+        "legalMoves": 763,
+        "nonTrivialDecisions": 123,
+        "solution": [
+          "pile-10",
+          "pile-11",
+          "pile-14",
+          "pile-1",
+          "pile-5",
+          "pile-15",
+          "pile-9",
+          "pile-2",
+          "pile-6",
+          "pile-3",
+          "pile-7",
+          "pile-4",
+          "pile-8",
+          "pile-12",
+          "pile-13",
+          "pile-16"
+        ],
+        "statesExplored": 77
+      },
+      "name": "Le tas du canapé",
+      "objects": [
+        {
+          "asset": "cadre-tulipe",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-10",
+          "layer": 5,
+          "position": {
+            "x": 0.515,
+            "y": 0.244
+          }
+        },
+        {
+          "asset": "cadre-paysage",
+          "blockedBy": [
+            "pile-10"
+          ],
+          "category": "cadres",
+          "id": "pile-14",
+          "layer": 4,
+          "position": {
+            "x": 0.507,
+            "y": 0.217
+          }
+        },
+        {
+          "asset": "monstera-panier",
+          "blockedBy": [
+            "pile-10",
+            "pile-14"
+          ],
+          "category": "plantes",
+          "id": "pile-1",
+          "layer": 3,
+          "position": {
+            "x": 0.5,
+            "y": 0.186
+          }
+        },
+        {
+          "asset": "tournesols",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1"
+          ],
+          "category": "plantes",
+          "id": "pile-5",
+          "layer": 2,
+          "position": {
+            "x": 0.493,
+            "y": 0.159
+          }
+        },
+        {
+          "asset": "bouquet-blanc",
+          "blockedBy": [
+            "pile-10",
+            "pile-14",
+            "pile-1",
+            "pile-5"
+          ],
+          "category": "plantes",
+          "id": "pile-9",
+          "layer": 1,
+          "position": {
+            "x": 0.485,
+            "y": 0.131
+          }
+        },
+        {
+          "asset": "plaid-bleu",
+          "blockedBy": [],
+          "category": "coussins",
+          "id": "pile-11",
+          "layer": 4,
+          "position": {
+            "x": 0.515,
+            "y": 0.883
+          }
+        },
+        {
+          "asset": "plaid-bleu",
+          "blockedBy": [
+            "pile-11"
+          ],
+          "category": "coussins",
+          "hidden": true,
+          "id": "pile-15",
+          "layer": 3,
+          "position": {
+            "x": 0.505,
+            "y": 0.846
+          }
+        },
+        {
+          "asset": "cadre-tulipe",
+          "blockedBy": [
+            "pile-11",
+            "pile-15"
+          ],
+          "category": "cadres",
+          "hidden": true,
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.495,
+            "y": 0.821
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-11",
+            "pile-15",
+            "pile-2"
+          ],
+          "category": "cadres",
+          "id": "pile-6",
+          "layer": 1,
+          "position": {
+            "x": 0.485,
+            "y": 0.783
+          }
+        },
+        {
+          "asset": "coussin-creme",
+          "blockedBy": [],
+          "category": "coussins",
+          "id": "pile-3",
+          "layer": 2,
+          "position": {
+            "x": 0.795,
+            "y": 0.351
+          }
+        },
+        {
+          "asset": "coussin-creme",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "coussins",
+          "id": "pile-7",
+          "layer": 1,
+          "position": {
+            "x": 0.765,
+            "y": 0.238
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [],
+          "category": "livres",
+          "id": "pile-4",
+          "layer": 5,
+          "position": {
+            "x": 0.205,
+            "y": 0.859
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [
+            "pile-4"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-8",
+          "layer": 4,
+          "position": {
+            "x": 0.212,
+            "y": 0.83
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [
+            "pile-4",
+            "pile-8"
+          ],
+          "category": "livres",
+          "id": "pile-12",
+          "layer": 3,
+          "position": {
+            "x": 0.22,
+            "y": 0.802
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [
+            "pile-4",
+            "pile-8",
+            "pile-12"
+          ],
+          "category": "livres",
+          "id": "pile-13",
+          "layer": 2,
+          "position": {
+            "x": 0.227,
+            "y": 0.774
+          }
+        },
+        {
+          "asset": "livres-pile",
+          "blockedBy": [
+            "pile-4",
+            "pile-8",
+            "pile-12",
+            "pile-13"
+          ],
+          "category": "livres",
+          "id": "pile-16",
+          "layer": 1,
+          "position": {
+            "x": 0.235,
+            "y": 0.722
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 4,
+        "twoStarsMaxBuffered": 6
+      },
+      "seed": 46224,
+      "theme": "salon"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 16
+  },
+  "contentSha256": "8c92db8af3130f68b5eccc55def97da21bc9cde1328b19689bae86f4c48e1694",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 16
+  },
+  "id": "level-cozy-room-sort-004-salon",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "004-salon",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "8c92db8af3130f68b5eccc55def97da21bc9cde1328b19689bae86f4c48e1694",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/004-salon.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "004-salon — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/004-salon.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

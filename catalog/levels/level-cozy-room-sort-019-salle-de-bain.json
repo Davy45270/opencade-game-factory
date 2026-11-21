@@ -1,0 +1,574 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "019-salle-de-bain",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 7,
+          "category": "flacons",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 6,
+          "category": "serviettes",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 8,
+          "category": "soins",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 6,
+          "category": "accessoires",
+          "id": "carton-4"
+        }
+      ],
+      "categories": [
+        {
+          "id": "flacons",
+          "label": "Flacons"
+        },
+        {
+          "id": "serviettes",
+          "label": "Serviettes et linge"
+        },
+        {
+          "id": "soins",
+          "label": "Pots et soins"
+        },
+        {
+          "id": "accessoires",
+          "label": "Accessoires"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "019-salle-de-bain",
+      "meta": {
+        "blockingMoveShare": 0.040467250730079264,
+        "blockingMoves": 97,
+        "engineVersion": "0.1.0",
+        "legalMoves": 2397,
+        "nonTrivialDecisions": 406,
+        "solution": [
+          "pile-26",
+          "pile-1",
+          "pile-5",
+          "pile-9",
+          "pile-11",
+          "pile-13",
+          "pile-17",
+          "pile-25",
+          "pile-27",
+          "pile-2",
+          "pile-6",
+          "pile-10",
+          "pile-14",
+          "pile-22",
+          "pile-3",
+          "pile-7",
+          "pile-15",
+          "pile-18",
+          "pile-19",
+          "pile-21",
+          "pile-23",
+          "pile-4",
+          "pile-8",
+          "pile-12",
+          "pile-16",
+          "pile-20",
+          "pile-24"
+        ],
+        "statesExplored": 28
+      },
+      "name": "Les étagères de soins",
+      "objects": [
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [],
+          "category": "serviettes",
+          "id": "pile-26",
+          "layer": 8,
+          "position": {
+            "x": 0.235,
+            "y": 0.396
+          }
+        },
+        {
+          "asset": "flacon-creme",
+          "blockedBy": [
+            "pile-26"
+          ],
+          "category": "flacons",
+          "id": "pile-1",
+          "layer": 7,
+          "position": {
+            "x": 0.231,
+            "y": 0.38
+          }
+        },
+        {
+          "asset": "flacon-pompe",
+          "blockedBy": [
+            "pile-26",
+            "pile-1"
+          ],
+          "category": "flacons",
+          "id": "pile-5",
+          "layer": 6,
+          "position": {
+            "x": 0.226,
+            "y": 0.364
+          }
+        },
+        {
+          "asset": "flacon-bleu",
+          "blockedBy": [
+            "pile-26",
+            "pile-1",
+            "pile-5"
+          ],
+          "category": "flacons",
+          "id": "pile-9",
+          "layer": 5,
+          "position": {
+            "x": 0.222,
+            "y": 0.348
+          }
+        },
+        {
+          "asset": "flacon-creme",
+          "blockedBy": [
+            "pile-26",
+            "pile-1",
+            "pile-5",
+            "pile-9"
+          ],
+          "category": "flacons",
+          "id": "pile-11",
+          "layer": 4,
+          "position": {
+            "x": 0.218,
+            "y": 0.332
+          }
+        },
+        {
+          "asset": "flacon-creme",
+          "blockedBy": [
+            "pile-26",
+            "pile-1",
+            "pile-5",
+            "pile-9",
+            "pile-11"
+          ],
+          "category": "flacons",
+          "id": "pile-13",
+          "layer": 3,
+          "position": {
+            "x": 0.214,
+            "y": 0.315
+          }
+        },
+        {
+          "asset": "flacon-rose",
+          "blockedBy": [
+            "pile-26",
+            "pile-1",
+            "pile-5",
+            "pile-9",
+            "pile-11",
+            "pile-13"
+          ],
+          "category": "flacons",
+          "id": "pile-17",
+          "layer": 2,
+          "position": {
+            "x": 0.21,
+            "y": 0.299
+          }
+        },
+        {
+          "asset": "flacon-bleu",
+          "blockedBy": [
+            "pile-26",
+            "pile-1",
+            "pile-5",
+            "pile-9",
+            "pile-11",
+            "pile-13",
+            "pile-17"
+          ],
+          "category": "flacons",
+          "hidden": true,
+          "id": "pile-25",
+          "layer": 1,
+          "position": {
+            "x": 0.205,
+            "y": 0.283
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [],
+          "category": "soins",
+          "id": "pile-27",
+          "layer": 6,
+          "position": {
+            "x": 0.206,
+            "y": 0.875
+          }
+        },
+        {
+          "asset": "serviette-anneau",
+          "blockedBy": [
+            "pile-27"
+          ],
+          "category": "serviettes",
+          "id": "pile-2",
+          "layer": 5,
+          "position": {
+            "x": 0.211,
+            "y": 0.852
+          }
+        },
+        {
+          "asset": "serviette-anneau",
+          "blockedBy": [
+            "pile-27",
+            "pile-2"
+          ],
+          "category": "serviettes",
+          "hidden": true,
+          "id": "pile-6",
+          "layer": 4,
+          "position": {
+            "x": 0.217,
+            "y": 0.83
+          }
+        },
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [
+            "pile-27",
+            "pile-2",
+            "pile-6"
+          ],
+          "category": "serviettes",
+          "id": "pile-10",
+          "layer": 3,
+          "position": {
+            "x": 0.223,
+            "y": 0.807
+          }
+        },
+        {
+          "asset": "peignoir",
+          "blockedBy": [
+            "pile-27",
+            "pile-2",
+            "pile-6",
+            "pile-10"
+          ],
+          "category": "serviettes",
+          "hidden": true,
+          "id": "pile-14",
+          "layer": 2,
+          "position": {
+            "x": 0.23,
+            "y": 0.785
+          }
+        },
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [
+            "pile-27",
+            "pile-2",
+            "pile-6",
+            "pile-10",
+            "pile-14"
+          ],
+          "category": "serviettes",
+          "hidden": true,
+          "id": "pile-22",
+          "layer": 1,
+          "position": {
+            "x": 0.235,
+            "y": 0.763
+          }
+        },
+        {
+          "asset": "pot-bleu",
+          "blockedBy": [],
+          "category": "soins",
+          "id": "pile-3",
+          "layer": 7,
+          "position": {
+            "x": 0.795,
+            "y": 0.487
+          }
+        },
+        {
+          "asset": "pot-creme",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "soins",
+          "id": "pile-7",
+          "layer": 6,
+          "position": {
+            "x": 0.79,
+            "y": 0.46
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [
+            "pile-3",
+            "pile-7"
+          ],
+          "category": "soins",
+          "id": "pile-15",
+          "layer": 5,
+          "position": {
+            "x": 0.786,
+            "y": 0.454
+          }
+        },
+        {
+          "asset": "tube-creme",
+          "blockedBy": [
+            "pile-3",
+            "pile-7",
+            "pile-15"
+          ],
+          "category": "soins",
+          "id": "pile-18",
+          "layer": 4,
+          "position": {
+            "x": 0.781,
+            "y": 0.435
+          }
+        },
+        {
+          "asset": "pot-creme",
+          "blockedBy": [
+            "pile-3",
+            "pile-7",
+            "pile-15",
+            "pile-18"
+          ],
+          "category": "soins",
+          "id": "pile-19",
+          "layer": 3,
+          "position": {
+            "x": 0.775,
+            "y": 0.404
+          }
+        },
+        {
+          "asset": "pot-bleu",
+          "blockedBy": [
+            "pile-3",
+            "pile-7",
+            "pile-15",
+            "pile-18",
+            "pile-19"
+          ],
+          "category": "soins",
+          "id": "pile-21",
+          "layer": 2,
+          "position": {
+            "x": 0.77,
+            "y": 0.394
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [
+            "pile-3",
+            "pile-7",
+            "pile-15",
+            "pile-18",
+            "pile-19",
+            "pile-21"
+          ],
+          "category": "soins",
+          "id": "pile-23",
+          "layer": 1,
+          "position": {
+            "x": 0.766,
+            "y": 0.379
+          }
+        },
+        {
+          "asset": "peigne",
+          "blockedBy": [],
+          "category": "accessoires",
+          "id": "pile-4",
+          "layer": 6,
+          "position": {
+            "x": 0.516,
+            "y": 0.331
+          }
+        },
+        {
+          "asset": "peigne",
+          "blockedBy": [
+            "pile-4"
+          ],
+          "category": "accessoires",
+          "id": "pile-8",
+          "layer": 5,
+          "position": {
+            "x": 0.51,
+            "y": 0.309
+          }
+        },
+        {
+          "asset": "rasoir",
+          "blockedBy": [
+            "pile-4",
+            "pile-8"
+          ],
+          "category": "accessoires",
+          "hidden": true,
+          "id": "pile-12",
+          "layer": 4,
+          "position": {
+            "x": 0.503,
+            "y": 0.286
+          }
+        },
+        {
+          "asset": "rasoir",
+          "blockedBy": [
+            "pile-4",
+            "pile-8",
+            "pile-12"
+          ],
+          "category": "accessoires",
+          "id": "pile-16",
+          "layer": 3,
+          "position": {
+            "x": 0.497,
+            "y": 0.264
+          }
+        },
+        {
+          "asset": "gobelet-brosses",
+          "blockedBy": [
+            "pile-4",
+            "pile-8",
+            "pile-12",
+            "pile-16"
+          ],
+          "category": "accessoires",
+          "id": "pile-20",
+          "layer": 2,
+          "position": {
+            "x": 0.491,
+            "y": 0.241
+          }
+        },
+        {
+          "asset": "brosse",
+          "blockedBy": [
+            "pile-4",
+            "pile-8",
+            "pile-12",
+            "pile-16",
+            "pile-20"
+          ],
+          "category": "accessoires",
+          "hidden": true,
+          "id": "pile-24",
+          "layer": 1,
+          "position": {
+            "x": 0.486,
+            "y": 0.219
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 2,
+        "twoStarsMaxBuffered": 4
+      },
+      "seed": 61000,
+      "theme": "salle-de-bain"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 27
+  },
+  "contentSha256": "0afcd4fd1c9c85a90a88c3b45e1ff5d1283b8fdb4c43fea0dcc500c9f2bec3a4",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 27
+  },
+  "id": "level-cozy-room-sort-019-salle-de-bain",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "019-salle-de-bain",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "0afcd4fd1c9c85a90a88c3b45e1ff5d1283b8fdb4c43fea0dcc500c9f2bec3a4",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/019-salle-de-bain.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "019-salle-de-bain — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/019-salle-de-bain.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "003-salon",
+  "name": "La grande étagère",
+  "theme": "salon",
+  "difficulty": "easy",
+  "seed": 45000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    },
+    {
+      "id": "lumieres",
+      "label": "Lumières"
+    },
+    {
+      "id": "livres",
+      "label": "Livres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "cadres",
+      "capacity": 4
+    },
+    {
+      "id": "carton-2",
+      "category": "lumieres",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "livres",
+      "capacity": 3
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-8",
+      "category": "lumieres",
+      "asset": "cloche-lumineuse",
+      "blockedBy": [],
+      "position": {
+        "x": 0.236,
+        "y": 0.415
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-1",
+      "category": "cadres",
+      "asset": "cadre-chat",
+      "blockedBy": [
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.228,
+        "y": 0.386
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-4",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-8",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.358
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-7",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.212,
+        "y": 0.33
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-10",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.205,
+        "y": 0.302
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-9",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.885
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-2",
+      "category": "lumieres",
+      "asset": "lampe-chevet",
+      "blockedBy": [
+        "pile-9"
+      ],
+      "position": {
+        "x": 0.501,
+        "y": 0.84
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-5",
+      "category": "lumieres",
+      "asset": "lanterne-maison",
+      "blockedBy": [
+        "pile-9",
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.485,
+        "y": 0.783
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "livres",
+      "asset": "livres-trio",
+      "blockedBy": [],
+      "position": {
+        "x": 0.765,
+        "y": 0.932
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-6",
+      "category": "livres",
+      "asset": "livres-trio",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.795,
+        "y": 0.82
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 2,
+    "twoStarsMaxBuffered": 4
+  },
+  "meta": {
+    "solution": [
+      "pile-8",
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-10",
+      "pile-9",
+      "pile-2",
+      "pile-5",
+      "pile-3",
+      "pile-6"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 34,
+    "nonTrivialDecisions": 199,
+    "legalMoves": 746,
+    "blockingMoves": 10,
+    "blockingMoveShare": 0.013404825737265416
+  }
+}

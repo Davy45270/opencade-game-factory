@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-16T11:07:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Fr garder — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-garder.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-garder.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-fr-garder-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/dictee/audio/fr-garder.ogg · audio"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/dictee/audio/fr-garder.ogg · fr-garder"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-garder.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-garder.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-garder.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "fr-garder",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-garder.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2f25689241ae7eb89724dce76731fa6272e091554ce8d08f87c0b01d3d3a2507",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-garder.ogg": "68b7c142b9bb820c556e3f7daa73ab5bf60fbe5d"
+      },
+      "assetPath": "public/dictee/audio/fr-garder.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14954,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-garder.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-garder",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-garder.ogg": "68b7c142b9bb820c556e3f7daa73ab5bf60fbe5d"
+      },
+      "assetPath": "public/dictee/audio/fr-garder.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 371,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-garder.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-garder",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-garder.ogg": "68b7c142b9bb820c556e3f7daa73ab5bf60fbe5d"
+      },
+      "assetPath": "public/dictee/audio/fr-garder.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14954,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-garder.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-garder",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-garder.ogg": "68b7c142b9bb820c556e3f7daa73ab5bf60fbe5d"
+      },
+      "assetPath": "public/dictee/audio/fr-garder.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 371,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-garder.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-garder",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "date": "2026-11-18T20:05:47+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2f25689241ae7eb89724dce76731fa6272e091554ce8d08f87c0b01d3d3a2507",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

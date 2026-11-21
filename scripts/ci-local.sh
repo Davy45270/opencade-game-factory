@@ -6,6 +6,7 @@
 #   scripts/ci-local.sh build-index       .woodpecker/build-index.yml
 #   scripts/ci-local.sh scan              .woodpecker/scan.yml (réseau : copies GitHub publiques)
 #   scripts/ci-local.sh release           .woodpecker/release.yml
+#   scripts/ci-local.sh specs             .woodpecker/specs.yml (module specs/, REG-003)
 #   scripts/ci-local.sh controle-release  contrôle du SBOM et du manifeste de licences (appelé par release.yml)
 #
 # Variables :
@@ -111,6 +112,8 @@ case "$PIPELINE" in
     N=0
     for f in atlases/*.json; do [ -e "$f" ] || continue; ./assetctl validate-atlas "$f" --json || exit 1; N=$((N + 1)); done
     echo "atlas validés $N"
+    etape licences-externes
+    ./assetctl external audit-licenses --json
     etape doublons
     ./assetctl duplicates --json
     etape secrets
@@ -122,6 +125,14 @@ case "$PIPELINE" in
       echo "gitleaks absent : installer gitleaks v8.30.1, ou CI_LOCAL_SANS_GITLEAKS=1 pour sauter l'étape en le disant"
       exit 4
     fi
+    ;;
+  specs)
+    dependances
+    etape oracles-specctl
+    python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
+    etape registre
+    ./specctl --json validate
+    ./specctl --json verify
     ;;
   build-index)
     dependances

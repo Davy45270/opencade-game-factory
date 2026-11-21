@@ -1,0 +1,191 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite bloc rouge plateau jeu — sprite 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-bloc-rouge-plateau-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-plateau-jeu-3x-0001",
+        "h": 96,
+        "w": 96,
+        "x": 198,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-bloc-rouge-plateau-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/plateau-jeu@3x.json · sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/plateau-jeu@3x.json#sprite-bloc-rouge-plateau-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-bloc-rouge-plateau-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "c484a0a0a0a082cc",
+    "phash": "c0c02b033f0f3f3f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ef06e78f1bbe99e782012e0185274cb0edf873a455a203f5929186a315851571",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 83,
+    "verified": false,
+    "w": 82,
+    "x": 1462,
+    "y": 53
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/ef/ef06e78f1bbe99e782012e0185274cb0edf873a455a203f5929186a315851571.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/plateau-jeu@3x.json": "0a684097ebae3bcffab6fa8e300c7b180cb95499",
+        "packages/assets/atlas/plateau-jeu@3x.png": "f67bb08978f6d07eb666f88fb4c93d5d8ba91407"
+      },
+      "assetPath": "packages/assets/atlas/plateau-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5169,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/plateau-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "plateau-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-sprite-bloc-rouge-plateau-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-plateau-jeu-3x-0001",
+          "h": 96,
+          "sourceSheetSha256": "baf6ddc3443503ed16f1400978dc633be5a18d98947a6c0a619cd11aeb0eea21",
+          "w": 96,
+          "x": 198,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ef06e78f1bbe99e782012e0185274cb0edf873a455a203f5929186a315851571",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

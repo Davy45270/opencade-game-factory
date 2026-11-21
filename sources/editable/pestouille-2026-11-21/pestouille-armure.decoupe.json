@@ -1,0 +1,946 @@
+{
+ "planche": "pestouille-armure-detouree.png",
+ "planche_sha256": "5e0e4d627d2600ed56bd7537c987374d7cb1dbcd01dd0469efd7d4e394a1f205",
+ "marge": 0,
+ "source": "pestouille_armure.png",
+ "source_sha256": "6e856dade7ea03f4579b9f89dd6418ffd852bbf4f8995c4d0a8787b454f1153f",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-armure-droite-idle-a",
+   "boite": [
+    64,
+    88,
+    165,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-droite-idle-b",
+   "boite": [
+    65,
+    88,
+    234,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-droite-idle-c",
+   "boite": [
+    64,
+    88,
+    303,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-droite-idle-d",
+   "boite": [
+    65,
+    88,
+    369,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-droite-marche-a",
+   "boite": [
+    66,
+    88,
+    450,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-marche-b",
+   "boite": [
+    66,
+    87,
+    516,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-marche-c",
+   "boite": [
+    64,
+    87,
+    582,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-marche-d",
+   "boite": [
+    63,
+    87,
+    646,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-marche-e",
+   "boite": [
+    62,
+    87,
+    709,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-marche-f",
+   "boite": [
+    63,
+    88,
+    771,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-droite-attaque-bloc",
+   "boite": [
+    416,
+    125,
+    850,
+    191
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-armure-droite-blesse-a",
+   "boite": [
+    87,
+    130,
+    1283,
+    187
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-droite-blesse-b",
+   "boite": [
+    74,
+    95,
+    1370,
+    222
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-droite-blesse-c",
+   "boite": [
+    77,
+    124,
+    1447,
+    194
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-gauche-idle-a",
+   "boite": [
+    64,
+    84,
+    165,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-gauche-idle-b",
+   "boite": [
+    66,
+    84,
+    232,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-gauche-idle-c",
+   "boite": [
+    65,
+    84,
+    300,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-gauche-idle-d",
+   "boite": [
+    65,
+    84,
+    365,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-a",
+   "boite": [
+    63,
+    85,
+    450,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-b",
+   "boite": [
+    64,
+    84,
+    513,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-c",
+   "boite": [
+    64,
+    84,
+    577,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-d",
+   "boite": [
+    62,
+    85,
+    641,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-e",
+   "boite": [
+    64,
+    84,
+    703,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-marche-f",
+   "boite": [
+    64,
+    84,
+    767,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-attaque-bloc",
+   "boite": [
+    416,
+    118,
+    848,
+    391
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-armure-gauche-blesse-a",
+   "boite": [
+    78,
+    119,
+    1284,
+    392
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-gauche-blesse-b",
+   "boite": [
+    76,
+    95,
+    1366,
+    417
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-gauche-blesse-c",
+   "boite": [
+    83,
+    126,
+    1442,
+    386
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-bas-idle-a",
+   "boite": [
+    62,
+    89,
+    166,
+    614
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-bas-idle-b",
+   "boite": [
+    63,
+    91,
+    233,
+    613
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-bas-idle-c",
+   "boite": [
+    62,
+    90,
+    302,
+    613
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-bas-idle-d",
+   "boite": [
+    63,
+    90,
+    369,
+    613
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-bas-marche-a",
+   "boite": [
+    62,
+    93,
+    450,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-marche-b",
+   "boite": [
+    61,
+    93,
+    516,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-marche-c",
+   "boite": [
+    61,
+    94,
+    580,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-marche-d",
+   "boite": [
+    60,
+    92,
+    646,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-marche-e",
+   "boite": [
+    61,
+    93,
+    706,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-marche-f",
+   "boite": [
+    62,
+    92,
+    771,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-bas-attaque-bloc",
+   "boite": [
+    411,
+    167,
+    850,
+    577
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-armure-bas-blesse-a",
+   "boite": [
+    81,
+    131,
+    1285,
+    576
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-bas-blesse-b",
+   "boite": [
+    73,
+    95,
+    1368,
+    613
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-bas-blesse-c",
+   "boite": [
+    73,
+    127,
+    1447,
+    580
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-haut-idle-a",
+   "boite": [
+    66,
+    90,
+    163,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-haut-idle-b",
+   "boite": [
+    65,
+    90,
+    232,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-haut-idle-c",
+   "boite": [
+    63,
+    90,
+    301,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-haut-idle-d",
+   "boite": [
+    66,
+    90,
+    369,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-armure-haut-marche-a",
+   "boite": [
+    64,
+    94,
+    448,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-marche-b",
+   "boite": [
+    62,
+    92,
+    515,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-marche-c",
+   "boite": [
+    60,
+    90,
+    581,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-marche-d",
+   "boite": [
+    59,
+    91,
+    645,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-marche-e",
+   "boite": [
+    61,
+    90,
+    707,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-marche-f",
+   "boite": [
+    61,
+    90,
+    771,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-armure-haut-attaque-bloc",
+   "boite": [
+    418,
+    135,
+    847,
+    769
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-armure-haut-blesse-a",
+   "boite": [
+    89,
+    128,
+    1282,
+    774
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-haut-blesse-b",
+   "boite": [
+    69,
+    99,
+    1371,
+    804
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-armure-haut-blesse-c",
+   "boite": [
+    77,
+    128,
+    1446,
+    775
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

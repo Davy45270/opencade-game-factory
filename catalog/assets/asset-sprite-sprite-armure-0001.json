@@ -1,0 +1,239 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite armure — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-armure"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m01-icones-0001",
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-armure-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/m01-icones.json · sprite-armure"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-armure",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "538da46263631b26",
+    "phash": "cff630298ecdc4b0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b0a6bd5ca5d070dc20afa44745d84b6ea80ee81d2fbc70d967a20f1fc9898154",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 43,
+    "verified": false,
+    "w": 51,
+    "x": 1080,
+    "y": 672
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "thumbnail": "thumbnails/b0/b0a6bd5ca5d070dc20afa44745d84b6ea80ee81d2fbc70d967a20f1fc9898154.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2",
+        "public/assets/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066"
+      },
+      "assetPath": "public/assets/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 776,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2",
+        "public/assets/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066"
+      },
+      "assetPath": "public/assets/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m01-icones.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-icones.json",
+        "module-path: assets/manifests/m01-icones.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m01-icones-0001",
+          "h": 64,
+          "sourceSheetSha256": "e910f0c0d4fc8530c99630fc3247584b3127e5b02100ec0fa4fdad695e19a0f2",
+          "w": 64,
+          "x": 64,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b0a6bd5ca5d070dc20afa44745d84b6ea80ee81d2fbc70d967a20f1fc9898154",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

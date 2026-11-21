@@ -1,0 +1,38 @@
+# Module specs/ (REG-003, registre des spécifications) : oracles d'acceptation de `specctl`, fiches du registre
+# valides, graphe sans lien cassé ni cycle. Woodpecker et non GitHub Actions : écart validé par David (HL-525 7-2955,
+# HL-538 condition 2). Aucun secret. Rejeu local sans conteneur : scripts/ci-local.sh specs
+#
+# Les oracles construisent leur propre homelab-docs jetable (git) et pointent USINE_RACINE vers un dossier
+# temporaire : aucun test n'écrit dans le dépôt, ni ne lit la doc réelle.
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: [main, usine]
+  - event: [pull_request, manual]
+
+steps:
+  - name: dependances
+    image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+
+  # REG-T01…T12 et REG-01…REG-08 : oracles écrits avant le code (tests/specs), chacun vu rouge avant son correctif.
+  - name: oracles-specctl
+    image: *py
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
+
+  # Le registre réel du dépôt : schémas, identifiants, relations typées, liens cassés et cycles.
+  - name: registre
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json validate
+      - ./specctl --json verify

@@ -1,0 +1,226 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite tutoriel aligner — sprite 112×112",
+  "dimensions": {
+    "height": 112,
+    "width": 112
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-tutoriel-aligner"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-tutoriel-apercu-2x-0001",
+        "h": 112,
+        "w": 112,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-tutoriel-aligner-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/tutoriel-apercu@2x.json · sprite-tutoriel-aligner"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@2x.json#sprite-tutoriel-aligner"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-tutoriel-aligner",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "116c6417aaaa0701",
+    "phash": "958eeac1f87a9584"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "20630b992548486c196ae6b79e4d00ceaed4b4c38f44aebfa9202d3a46ae3d41",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 122,
+    "verified": false,
+    "w": 160,
+    "x": 843,
+    "y": 798
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-03-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/20/20630b992548486c196ae6b79e4d00ceaed4b4c38f44aebfa9202d3a46ae3d41.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@2x.json": "7971a1943852ef6c5e50b568e7e3fd5b3e1297bf",
+        "packages/assets/atlas/tutoriel-apercu@2x.png": "590452a7a064fc66c263f9e64e7922569528d7eb"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5490,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@2x.json": "7971a1943852ef6c5e50b568e7e3fd5b3e1297bf",
+        "packages/assets/atlas/tutoriel-apercu@2x.png": "590452a7a064fc66c263f9e64e7922569528d7eb"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 613,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-tutoriel-aligner-0002",
+    "asset-sprite-sprite-tutoriel-aligner-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-tutoriel-apercu-2x-0001",
+          "h": 112,
+          "sourceSheetSha256": "9e6342f488c22b40f7c348067cf3c24e287d082f06d9c5f82d32cb9019af17de",
+          "w": 112,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "20630b992548486c196ae6b79e4d00ceaed4b4c38f44aebfa9202d3a46ae3d41",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

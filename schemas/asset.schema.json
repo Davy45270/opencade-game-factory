@@ -1,5 +1,54 @@
 {
   "$defs": {
+    "externalProvenance": {
+      "description": "EXT-001 § 6 : provenance d'une ressource externe ; licence vérifiée par le texte lu dans l'archive.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "externalPackId", "sourceVersion", "sourceUrl", "license", "observedAt", "importedAt",
+                   "archiveSha256", "archivePath", "pathInArchive", "restrictions"],
+      "properties": {
+        "provider": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "externalPackId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"},
+        "sourceVersion": {"type": "string", "pattern": "\\S"},
+        "sourceUrl": {"type": "string", "pattern": "\\S"},
+        "downloadUrl": {"type": "string", "pattern": "^(?:https|file)://\\S+$"},
+        "author": {"type": "string", "pattern": "\\S"},
+        "license": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["spdxId", "status", "evidence"],
+          "properties": {
+            "spdxId": {"type": "string", "pattern": "\\S"},
+            "status": {"enum": ["verified", "unknown", "incompatible"]},
+            "evidence": {"type": "string", "pattern": "\\S"},
+            "evidenceUrl": {"type": ["string", "null"]},
+            "textPath": {"type": ["string", "null"]},
+            "attribution": {"type": "boolean"}
+          }
+        },
+        "observedAt": {"type": "string", "format": "date-time"},
+        "importedAt": {"type": "string", "format": "date-time"},
+        "archiveSha256": {"$ref": "#/$defs/sha256"},
+        "archivePath": {"$ref": "#/$defs/path"},
+        "pathInArchive": {"type": "string", "pattern": "\\S"},
+        "restrictions": {"type": "array", "items": {"type": "string", "pattern": "\\S"}},
+        "sourceStatus": {"enum": ["available", "removed"]},
+        "licenseHistory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["observedAt", "from", "to"],
+            "properties": {
+              "observedAt": {"type": "string", "format": "date-time"},
+              "from": {"type": "string"},
+              "to": {"type": "string"},
+              "note": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
     "assetId": {
       "pattern": "^asset-[a-z][a-z0-9]*-(?=[a-z0-9-]{1,32}-[0-9]{4}(?![\\s\\S]))[a-z0-9]+(?:-[a-z0-9]+)*-(?!0000)[0-9]{4}(?![\\s\\S])",
       "type": "string"
@@ -221,7 +270,7 @@
       "type": "object"
     },
     "license": {
-      "description": "Identifiants SPDX License List v3.27.0, plus unknown.",
+      "description": "Identifiants SPDX License List v3.27.0, plus LicenseRef-David-Prive-Tous-Droits-Reserves (licence privée de David, texte dans LICENSES/, HL-538 7-3162) et unknown.",
       "enum": [
         "0BSD",
         "3D-Slicer-1.0",
@@ -922,6 +971,7 @@
         "xpp",
         "xzoom",
         "zlib-acknowledgement",
+        "LicenseRef-David-Prive-Tous-Droits-Reserves",
         "unknown"
       ]
     },
@@ -961,6 +1011,11 @@
     },
     "provenance": {
       "additionalProperties": false,
+      "if": {"required": ["generator"]},
+      "then": {
+        "properties": {"type": {"const": "code-generated"}},
+        "not": {"anyOf": [{"required": ["sourceSheetSha256"]}, {"required": ["derivedFrom"]}]}
+      },
       "properties": {
         "author": {
           "pattern": "\\S",
@@ -980,6 +1035,16 @@
           },
           "type": "array"
         },
+        "generator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "commit", "sha256"],
+          "properties": {
+            "path": {"$ref": "#/$defs/path"},
+            "commit": {"pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})(?![\\s\\S])", "type": "string"},
+            "sha256": {"$ref": "#/$defs/sha256"}
+          }
+        },
         "model": {
           "pattern": "\\S",
           "type": "string"
@@ -992,6 +1057,7 @@
           "pattern": "\\S",
           "type": "string"
         },
+        "external": {"$ref": "#/$defs/externalProvenance"},
         "type": {
           "enum": [
             "original-sheet-cut",
@@ -999,6 +1065,7 @@
             "code-generated",
             "derived",
             "generated",
+            "external",
             "unknown"
           ]
         }
@@ -1030,6 +1097,13 @@
             "method": {
               "const": "rmse"
             },
+            "tool": {
+              "const": "magick"
+            },
+            "toolVersion": {
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9]+)?(?![\\s\\S])",
+              "type": "string"
+            },
             "ref": {
               "pattern": "\\S",
               "type": "string"
@@ -1039,6 +1113,10 @@
               "minimum": 0,
               "type": "number"
             }
+          },
+          "dependentRequired": {
+            "tool": ["toolVersion"],
+            "toolVersion": ["tool"]
           },
           "required": [
             "method",
@@ -1070,6 +1148,21 @@
     "versions": ["version"]
   },
   "allOf": [
+    {
+      "if": {
+        "properties": {"provenance": {"properties": {"type": {"const": "code-generated"}}}}
+      },
+      "then": {
+        "if": {"properties": {"family": {"type": "object", "properties": {"type": {"const": "code-generated"}}}}},
+        "else": {
+          "properties": {
+            "provenance": {"required": ["generator"]},
+            "sourceSheetId": {"type": "null"},
+            "sourceRegion": {"type": "null"}
+          }
+        }
+      }
+    },
     {
       "if": {
         "properties": {
@@ -1135,6 +1228,9 @@
           "anyOf": [
             {
               "$ref": "import-job.schema.json"
+            },
+            {
+              "$ref": "external-import.schema.json"
             },
             {
               "pattern": "^[0-9a-f]{16}$",
@@ -2503,7 +2599,7 @@
           "format": {"$ref": "#/properties/format"},
           "causalPrevious": {"type": ["integer", "null"], "minimum": 1},
           "causalNext": {"type": ["integer", "null"], "minimum": 1},
-          "causalOrder": {"enum": ["incomparable", "ambiguous"]},
+          "causalOrder": {"enum": ["incomparable", "ambiguous", "unknown"]},
           "atlasFrames": {
             "type": "array",
             "minItems": 1,

@@ -70,7 +70,7 @@ def _repo_markdown(repositories):
 
 
 def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sheet_limits=(), sheets=(), *,
-         divergent_tags=(), path_aliases=()):
+         divergent_tags=(), path_aliases=(), generated_limits=()):
     reports = root / "generated" / "reports"
     reports.mkdir(parents=True, exist_ok=True)
     formats = coverage(rows)
@@ -132,13 +132,15 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
         "scan-limits": (
             {"exclusions": [{"reason": reason, "count": sum(row["reason"] == reason for row in excluded)}
                             for reason in exclusions], "excluded": excluded, "unsupported": unsupported,
-             "audioDurationUnknown": audio, "limits": limits, "sheets": list(sheet_limits)},
+             "audioDurationUnknown": audio, "limits": limits, "sheets": list(sheet_limits),
+             "generatedResources": list(generated_limits)},
             "\n".join(f"- {limit}" for limit in limits)
             + "\n\n" + _table(("Exclusion", "Fichiers"), [(reason, sum(row["reason"] == reason for row in excluded))
                                                           for reason in exclusions])
             + "\n\n## Fichiers exclus\n\n" + _files(excluded)
             + "\n\n## Formats non couverts\n\n" + _files(unsupported)
             + "\n\n## Planches\n\n" + _files(sheet_limits)
+            + "\n\n## Ressources générées par code\n\n" + _files(generated_limits)
             + "\n\n## Durées audio inconnues\n\n" + _files(audio),
         ),
     }

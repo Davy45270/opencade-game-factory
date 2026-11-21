@@ -1,0 +1,179 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite jouer accueil — image 126×32",
+  "dimensions": {
+    "height": 32,
+    "width": 126
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-jouer-accueil.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-sprite-jouer-accueil-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/runtime/sprite-jouer-accueil.webp · sprite-jouer-accueil"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/runtime/sprite-jouer-accueil.webp · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-jouer-accueil",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "922fd0d2d292b05e",
+    "phash": "e1c19cd4c3c53ed1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-jouer-accueil.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a4236afcfaf24b7286677959449e41733112daffc4b4e32da2451f38308cbb24",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/a4/a4236afcfaf24b7286677959449e41733112daffc4b4e32da2451f38308cbb24.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-jouer-accueil.webp": "ab2d7b281680b080993a2b8e15340fe1fc773cae"
+      },
+      "assetPath": "packages/assets/runtime/sprite-jouer-accueil.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-jouer-accueil.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "jouerAccueil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a4236afcfaf24b7286677959449e41733112daffc4b4e32da2451f38308cbb24",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

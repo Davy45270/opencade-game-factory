@@ -1,0 +1,315 @@
+{
+ "status": "provisoire",
+ "planche": "Pestouille_RPG_Maquette_01_Exploration_Combat.png",
+ "marge": 2,
+ "taille": 64,
+ "detoure": true,
+ "modele": "fond:30",
+ "unique": true,
+ "elements": [
+  {
+   "id": "pestouille-cote-a",
+   "boite": [
+    59,
+    49,
+    1231,
+    16
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-cote-b",
+   "boite": [
+    53,
+    48,
+    1303,
+    16
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-cote-c",
+   "boite": [
+    51,
+    49,
+    1365,
+    16
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-cote-d",
+   "boite": [
+    51,
+    49,
+    1426,
+    16
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-cote-e",
+   "boite": [
+    52,
+    49,
+    1485,
+    16
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-cote-f",
+   "boite": [
+    50,
+    46,
+    1544,
+    18
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-a",
+   "boite": [
+    56,
+    56,
+    1236,
+    72
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-b",
+   "boite": [
+    49,
+    55,
+    1307,
+    72
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-c",
+   "boite": [
+    54,
+    54,
+    1365,
+    73
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-d",
+   "boite": [
+    48,
+    52,
+    1427,
+    74
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-e",
+   "boite": [
+    51,
+    52,
+    1484,
+    74
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-cote-f",
+   "boite": [
+    44,
+    51,
+    1545,
+    75
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-cote-a",
+   "boite": [
+    52,
+    50,
+    1238,
+    133
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-cote-b",
+   "boite": [
+    43,
+    49,
+    1307,
+    133
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-cote-c",
+   "boite": [
+    62,
+    49,
+    1356,
+    133
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-cote-d",
+   "boite": [
+    42,
+    49,
+    1430,
+    133
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-cote-e",
+   "boite": [
+    42,
+    48,
+    1550,
+    134
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-a",
+   "boite": [
+    56,
+    49,
+    1235,
+    189
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-b",
+   "boite": [
+    48,
+    47,
+    1304,
+    190
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-c",
+   "boite": [
+    47,
+    45,
+    1365,
+    191
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-d",
+   "boite": [
+    55,
+    46,
+    1425,
+    190
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-e",
+   "boite": [
+    53,
+    46,
+    1486,
+    190
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-cote-f",
+   "boite": [
+    52,
+    45,
+    1546,
+    191
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "directions": [
+  "east"
+ ],
+ "animations": {
+  "pestouille/idle": {
+   "frames": [
+    "pestouille-cote-a"
+   ]
+  },
+  "pestouille/walk": {
+   "frames": [
+    "pestouille-cote-b",
+    "pestouille-cote-c",
+    "pestouille-cote-d",
+    "pestouille-cote-e"
+   ]
+  },
+  "pestouille/attack": {
+   "frames": [
+    "pestouille-cote-f"
+   ]
+  },
+  "lila/idle": {
+   "frames": [
+    "lila-cote-a"
+   ]
+  },
+  "lila/walk": {
+   "frames": [
+    "lila-cote-b",
+    "lila-cote-c",
+    "lila-cote-d"
+   ]
+  },
+  "lila/attack": {
+   "frames": [
+    "lila-cote-e",
+    "lila-cote-f"
+   ]
+  },
+  "borin/idle": {
+   "frames": [
+    "borin-cote-a",
+    "borin-cote-e"
+   ]
+  },
+  "borin/attack": {
+   "frames": [
+    "borin-cote-b",
+    "borin-cote-c",
+    "borin-cote-d"
+   ]
+  },
+  "nox/idle": {
+   "frames": [
+    "nox-cote-a"
+   ]
+  },
+  "nox/walk": {
+   "frames": [
+    "nox-cote-b",
+    "nox-cote-c",
+    "nox-cote-d"
+   ]
+  },
+  "nox/attack": {
+   "frames": [
+    "nox-cote-e",
+    "nox-cote-f"
+   ]
+  }
+ },
+ "licence": "CC-BY-4.0",
+ "planche_sha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479"
+}

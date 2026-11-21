@@ -1,0 +1,230 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-06T20:00:02+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Camion — image 174×102",
+  "dimensions": {
+    "height": 102,
+    "width": 174
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/petits-pompiers",
+        "path": "src/games/petits-pompiers/iso/camion.webp",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/petits-pompiers",
+        "path": "src/games/petits-pompiers/iso/camion.webp",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-camion-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/games/petits-pompiers/iso/camion.webp · camion"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/petits-pompiers/iso/camion.webp · iso"
+      ],
+      "method": "path-tokens"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/petits-pompiers/iso/camion.webp · petits-pompiers"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "camion",
+  "orientation": "isometric",
+  "originUniverse": "petits-pompiers",
+  "perceptual": {
+    "dhash": "a6670c9e9e544d5d",
+    "phash": "b7b84bccb06619f0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/iso/camion.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "28cb0f846c311f76a27556108c52e5170724d0c72d69a60facd1566c98b2360b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/28/28cb0f846c311f76a27556108c52e5170724d0c72d69a60facd1566c98b2360b.webp",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/iso/camion.webp": "a8f0655de3c0a6f05be22fd77873d9b71bcbdf3e"
+      },
+      "assetPath": "src/games/petits-pompiers/iso/camion.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 165,
+        "path": "tests/petits-pompiers-iso.test.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/iso/camion.webp",
+        "module-path: tests/petits-pompiers-iso.test.ts"
+      ],
+      "game": "opencade",
+      "importName": "camion",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "tests/petits-pompiers-iso.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/iso/camion.webp": "a8f0655de3c0a6f05be22fd77873d9b71bcbdf3e"
+      },
+      "assetPath": "src/games/petits-pompiers/iso/camion.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 165,
+        "path": "tests/petits-pompiers-iso.test.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/iso/camion.webp",
+        "module-path: tests/petits-pompiers-iso.test.ts"
+      ],
+      "game": "opencade",
+      "importName": "camion",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "tests/petits-pompiers-iso.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "28cb0f846c311f76a27556108c52e5170724d0c72d69a60facd1566c98b2360b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

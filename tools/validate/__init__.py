@@ -17,7 +17,7 @@ INFERABLE = (
 )
 COORDINATES = ("x", "y", "w", "h")
 RECORDS = {"assets": "asset", "sheets": "sheet"}
-IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated"}
+IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated", "external"}
 PUBLISHED = PurePosixPath("published", "sha256")
 PUBLISHED_NAME = re.compile(r"([a-f0-9]{64})\.[A-Za-z0-9][A-Za-z0-9_-]{0,31}")
 MUTABLE_VERSION_FIELDS = {"nextVersion", "causalPrevious", "causalNext", "causalOrder", "atlasFrames"}
@@ -133,6 +133,14 @@ class CatalogueValidation:
                     if loaded and self.document("import-job", contract, f"catalog/import-jobs/{job}.json"):
                         if "inputs" not in contract or job_id(contract["inputs"]) != job:
                             self.issue(path, "invalid-import-job", f"Entrées incompatibles avec le job {job}.")
+            provenance = asset["provenance"]
+            if (provenance["type"] == "external") != ("external" in provenance):
+                self.issue(path, "external-provenance", "Une ressource externe porte provenance.external, et elle seule.")
+            elif "external" in provenance:
+                declared = provenance["external"]["license"]
+                if asset["license"] != "unknown" and (declared["status"] != "verified"
+                                                      or declared["spdxId"] != asset["license"]):
+                    self.issue(path, "external-license", "Licence externe non vérifiée dans le texte du pack : unknown exigé.")
             sheet_id = asset["sourceSheetId"]
             region = asset["sourceRegion"]
             sheet = sheets.get(sheet_id)
@@ -170,13 +178,14 @@ class CatalogueValidation:
                 publication = version.get("publication", {})
                 if local := publication.get("registry"):
                     local = PurePosixPath(local)
-                    if local.parts[0] == "published":
-                        name = PUBLISHED_NAME.fullmatch(local.name)
-                        if (local.parent != PUBLISHED or not name or name[1] != version["sha256"].lower()
-                                or publication["status"] != "published"):
-                            self.issue(path, "invalid-published-path", "Adresse de publication incohérente.")
-                        else:
-                            publications.add(local.name)
+                    name = PUBLISHED_NAME.fullmatch(local.name)
+                    if (local.parent != PUBLISHED or not name or name[1] != version["sha256"].lower()
+                            or publication["status"] != "published"):
+                        self.issue(path, "invalid-published-path", "Adresse de publication incohérente.")
+                    else:
+                        publications.add(local.name)
+                elif publication and version["version"] == asset_versions.version_number(asset):
+                    self.issue(path, "invalid-published-path", "Adresse de publication manquante.")
             provenance = asset["provenance"]
             if parent_id := provenance.get("parentId"):
                 parent = assets.get(parent_id)
@@ -215,6 +224,40 @@ class CatalogueValidation:
             self.issue(PUBLISHED / missing, "missing-published-file", "Binaire publié introuvable.")
         return found
 
+    def registry_files(self, records):
+        """§ 8 « empreintes, dimensions/alpha » : un binaire gardé par le registre (files.registry) a l'empreinte,
+        les dimensions et l'alpha que déclare sa fiche. Un binaire absent ou illisible est un échec, jamais un saut."""
+        from tools.discovery.formats import Unreadable, inspect
+        for collection, items in records.items():
+            for record_id, record in items.items():
+                local = record["files"].get("registry") if isinstance(record.get("files"), dict) else None
+                if not local:
+                    continue
+                path = f"catalog/{collection}/{record_id}.json"
+                try:
+                    binary = self.catalogue._regular_path(self.root / local)
+                    data = binary.read_bytes()
+                except (OSError, CatalogueScopeError):
+                    self.issue(path, "missing-registry-file", f"Binaire du registre illisible : {local}")
+                    continue
+                try:
+                    measured = inspect(local, data)
+                except Unreadable as exc:
+                    self.issue(path, "registry-unreadable", f"{local} : {exc}")
+                    continue
+                # Empreinte des OCTETS servis, comme la livraison (Delivery.verified) : réencoder le PNG dépendrait
+                # de la version de zlib et de Pillow (pipeline 24 et 26 : 32 faux écarts sous python:3.13-slim).
+                digest = hashlib.sha256(data).hexdigest()
+                if str(record.get("sha256") or "").lower() != digest:
+                    self.issue(path, "registry-digest", f"Empreinte de {local} différente de la fiche.")
+                if measured is None:
+                    continue
+                if measured.dimensions is not None and record.get("dimensions") != measured.dimensions:
+                    self.issue(path, "registry-dimensions", f"Dimensions de {local} : {measured.dimensions}, "
+                                                            f"fiche : {record.get('dimensions')}.")
+                if measured.alpha is not None and record.get("alpha") is not None and record["alpha"] != measured.alpha:
+                    self.issue(path, "registry-alpha", f"Alpha de {local} : {measured.alpha}, fiche : {record['alpha']}.")
+
     def migration_report(self):
         relative = "generated/reports/migration.json"
         path = self.root / relative
@@ -242,17 +285,15 @@ class CatalogueValidation:
                         or reverse["verified"] != (region["status"] == "verified")):
                     self.issue(path, "region-back-reference", f"Région source incohérente pour {asset_id}.")
 
-    def immutable_revision_changed(self, old, new, prior_current):
+    def immutable_revision_changed(self, old, new):
         if any(proof not in new.get("atlasFrames", ()) for proof in old.get("atlasFrames", ())):
             return True
         for field, value in old.items():
             if field in MUTABLE_VERSION_FIELDS or value == new.get(field):
                 continue
-            if field == "publication" and old["version"] == prior_current:
-                previous_path = value.get("registry", "")
-                updated_path = new.get("publication", {}).get("registry", "")
-                if updated_path.startswith("published/sha256/") and (
-                        updated_path == previous_path or not previous_path.startswith("published/")):
+            if field == "publication" and "registry" not in value:
+                updated = new.get("publication", {})
+                if "registry" in updated and value == {k: v for k, v in updated.items() if k != "registry"}:
                     continue
             return True
         return False
@@ -281,7 +322,7 @@ class CatalogueValidation:
                 earlier = asset_versions.history(prior)
                 now = asset_versions.history(asset)
                 if (len(now) < len(earlier) or any(
-                        self.immutable_revision_changed(old, new, asset_versions.version_number(prior))
+                        self.immutable_revision_changed(old, new)
                         for old, new in zip(earlier, now))):
                     self.issue(path, "immutable-version", "Conserver les versions antérieures et leurs empreintes.")
                 continue
@@ -312,6 +353,7 @@ class CatalogueValidation:
         self.asset_rules(assets, sheets)
         published = self.published_files(self.revision_proofs(assets, sheets))
         self.sheet_rules(assets, sheets)
+        self.registry_files(records)
         self.migration_report()
         if base is not None:
             self.base_rules(base, ids, paths, assets, published)

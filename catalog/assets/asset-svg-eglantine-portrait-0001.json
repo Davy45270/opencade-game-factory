@@ -81,13 +81,18 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de David = licence privée ; une dérivation dans un jeu de David garde cette licence (redessin citant sa planche source et son SHA-256, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162 ; HL-537 ; assets/provenance.json · sprite-redessine-eglantine-portrait (origine « redessiné (marque) », planche Pestouille_RPG_Elements_03_Monde_Interface.png SHA-256 21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd)"
+  },
   "name": "eglantine-portrait",
   "orientation": "unknown",
   "originUniverse": "unknown",
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "redessin dans le style des planches de Davy45270",
     "evidence": [
       "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/redessine/eglantine-portrait.svg"
     ],
@@ -167,6 +172,35 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/redessine/eglantine-portrait.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/redessine/eglantine-portrait.svg"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image assets/redessine/eglantine-portrait.svg livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "eglantine-portrait",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/redessine/eglantine-portrait.svg · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/redessine/eglantine-portrait.svg",
       "status": "active"
     }
   ],

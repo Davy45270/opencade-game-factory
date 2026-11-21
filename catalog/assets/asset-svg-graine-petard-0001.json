@@ -81,13 +81,18 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de David = licence privée ; une dérivation dans un jeu de David garde cette licence (redessin citant sa planche source et son SHA-256, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162 ; HL-537 ; assets/provenance.json · sprite-redessine-graine-petard (origine « redessiné (marque) », planche Pestouille_Planche_02_Sprites_Tilesets_Enigmes.png SHA-256 568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2)"
+  },
   "name": "graine-petard",
   "orientation": "unknown",
   "originUniverse": "unknown",
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "redessin dans le style des planches de Davy45270",
     "evidence": [
       "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/redessine/graine-petard.svg"
     ],
@@ -167,6 +172,35 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/redessine/graine-petard.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/redessine/graine-petard.svg"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image assets/redessine/graine-petard.svg livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "graine-petard",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/redessine/graine-petard.svg · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/redessine/graine-petard.svg",
       "status": "active"
     }
   ],

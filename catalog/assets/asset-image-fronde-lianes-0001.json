@@ -93,7 +93,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de David = licence privée ; une dérivation dans un jeu de David garde cette licence (redessin citant sa planche source et son SHA-256, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162 ; HL-537 ; assets/provenance.json · sprite-redessine-fronde-lianes (origine « redessiné (marque) », planche Pestouille_Planche_02_Sprites_Tilesets_Enigmes.png SHA-256 568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2)"
+  },
   "name": "fronde-lianes",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,7 +108,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "redessin dans le style des planches de Davy45270",
     "evidence": [
       "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/redessine/fronde-lianes.png"
     ],
@@ -217,6 +222,35 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "tests/assets/empreintes-planches.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/assets/redessine/fronde-lianes.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/redessine/fronde-lianes.png"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image public/assets/redessine/fronde-lianes.png livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "fronde-lianes",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/redessine/fronde-lianes.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "public/assets/redessine/fronde-lianes.png",
       "status": "active"
     }
   ],

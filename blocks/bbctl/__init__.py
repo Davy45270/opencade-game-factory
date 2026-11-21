@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from tools.core import journal
-from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text, write_json
+from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text, read_json, write_json
 from tools.core.exit_codes import ExitCode
 
 from .decisions import VersionConflict, import_decisions
@@ -185,7 +185,7 @@ def run(args, root):
                 raise Uncovered(result)
             return result
         if command == "validate":
-            return {"count": len(records)}
+            return {"count": len(records), "specLinks": check_spec_links(root, records)}
         if args.candidate not in records:
             raise InvalidJSON(f"Candidat absent du catalogue : {args.candidate}.")
         path, block = records[args.candidate]
@@ -204,6 +204,23 @@ def run(args, root):
                                {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
                                specs=block.get("specIds") or ())
         return {"candidate": block["id"], "decision": decision, "changed": changed}
+
+
+def check_spec_links(root, records):
+    """ARCH-001 E055 : chaque specIds résout vers une fiche du registre des specs ; registre absent = dit, pas refusé."""
+    registry = root / "specs" / "registry"
+    if not registry.is_dir():
+        return "registre-absent"
+    known = set()
+    for path in registry.glob("SPEC-*.json"):
+        record = read_json(path)
+        if isinstance(record, dict) and isinstance(record.get("id"), str):
+            known.add(record["id"])
+    broken = sorted(f"{block_id} -> {spec}" for block_id, (_, block) in records.items()
+                    for spec in block.get("specIds") or () if spec not in known)
+    if broken:
+        raise InvalidJSON("Lien de spec non résolu : " + ", ".join(broken))
+    return "verifies"
 
 
 def main(argv=None):

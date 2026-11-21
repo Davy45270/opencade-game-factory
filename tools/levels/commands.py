@@ -18,9 +18,8 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 
 from tools.core.catalog import json_text, read_json, write_json
-from tools.core.exit_codes import ExitCode
 from tools.discovery.scan import directory_lock
-from tools.levels import enabled
+from tools.levels import LevelExit, enabled, status_code
 from tools.levels.formats import (CODE_EXTENSIONS, LEVEL_EXTENSIONS, OTHER_EXTENSIONS, SCANNED, TILESET_EXTENSIONS,
                                   Unsupported, parse, parse_tileset, semantics)
 from tools.levels.generate import GENERATORS, TRANSFORMS
@@ -126,7 +125,7 @@ def _now():
 
 
 def _envelope(code, status, artifacts=(), diagnostics=(), **extra):
-    return code, {"ok": code == ExitCode.OK, "operationId": uuid.uuid4().hex, "status": status,
+    return code, {"ok": code == LevelExit.OK, "operationId": uuid.uuid4().hex, "status": status,
                   "artifacts": list(artifacts), "diagnostics": list(diagnostics), **extra}
 
 
@@ -331,8 +330,8 @@ def discover(root, args):
     coverage = {**totals, "classified": classified, "ratio": 1.0 if not totals["detected"] else
                 round(classified / totals["detected"], 4)}
     unchanged = all(r["sourcesUnchanged"] for r in report)
-    code = ExitCode.OK if coverage["ratio"] == 1.0 and unchanged and not diagnostics else ExitCode.CHECK_FAILED
-    return _envelope(code, "ok" if code == ExitCode.OK else "failed", diagnostics=diagnostics, repos=report,
+    code = LevelExit.OK if coverage["ratio"] == 1.0 and unchanged and not diagnostics else LevelExit.VALIDATION_FAILED
+    return _envelope(code, "ok" if code == LevelExit.OK else "failed", diagnostics=diagnostics, repos=report,
                      coverage=coverage, sourcesUnchanged=unchanged, dryRun=True)
 
 
@@ -351,7 +350,7 @@ def _license(source_read, declared, evidence, texts=None):
 
 def import_levels(root, args):
     if args.source in {"github", "forgejo"}:
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{
             "code": "remote-source", "severity": "error",
             "message": "import distant : cloner d'abord (scan-repos tient le miroir), puis --source local --ref <sha>"}])
     if args.source == "archive":
@@ -388,7 +387,7 @@ def _import_archive(root, args):
     report = inspect_archive(args.archive)
     if not report["ok"]:
         place = None if args.dry_run else quarantine(root, args.archive, digest, {"problems": report["problems"]})
-        return _envelope(ExitCode.SAFETY, "blocked", diagnostics=[{"code": "unsafe-archive", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "blocked", diagnostics=[{"code": "unsafe-archive", "severity": "error",
                                                                    "message": p} for p in report["problems"]],
                          quarantine=place)
     import zipfile
@@ -483,7 +482,7 @@ def _store(root, args, candidates, origin, verdict):
                 path = _dir(root) / f"{record['id']}.json"
                 _write(path, record)
                 artifacts.append(path.relative_to(root).as_posix())
-    return _envelope(ExitCode.OK, "ok", artifacts, diagnostics, created=created, observed=observed,
+    return _envelope(LevelExit.OK, "ok", artifacts, diagnostics, created=created, observed=observed,
                      unchanged=unchanged, licenseStatus=verdict["status"], dryRun=args.dry_run)
 
 
@@ -515,7 +514,7 @@ def search(root, args):
         found = [row[0] for row in db.execute("SELECT id FROM levels WHERE levels MATCH ? ORDER BY bm25(levels), id",
                                               (query,))]
         results = [records[i] for i in found]
-    return _envelope(ExitCode.OK, "ok", results=[{"id": r["id"], "kind": r["kind"], "name": r["name"],
+    return _envelope(LevelExit.OK, "ok", results=[{"id": r["id"], "kind": r["kind"], "name": r["name"],
                                                   "game": r["origin"]["game"], "mechanics": r["mechanics"],
                                                   "licenseStatus": r["origin"]["licenseStatus"]} for r in results])
 
@@ -526,7 +525,7 @@ def _get(root, level_id):
 
 
 def _missing(level_id):
-    return _envelope(ExitCode.CHECK_FAILED, "failed", diagnostics=[{"code": "level-not-found", "severity": "error",
+    return _envelope(LevelExit.MISSING_REFERENCE, "failed", diagnostics=[{"code": "level-not-found", "severity": "error",
                                                                    "message": f"niveau introuvable : {level_id}"}])
 
 
@@ -552,7 +551,7 @@ def derive(root, args):
     constraints = read_json(args.constraints)
     unknown = sorted(set(constraints.get("transforms", [])) - set(TRANSFORMS))
     if unknown or not constraints.get("transforms"):
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{"code": "transform", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{"code": "transform", "severity": "error",
                                                                 "message": f"transformations inconnues : {unknown}"}])
     content = parent["content"]
     for name in constraints["transforms"]:
@@ -568,15 +567,15 @@ def derive(root, args):
               "versions": [], "usage": []}
     artifacts, state = _save_new(root, args, record)
     if artifacts is None:
-        return _envelope(ExitCode.VERSION_CONFLICT, "failed", diagnostics=[{"code": "id-taken", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{"code": "id-taken", "severity": "error",
                                                                            "message": record["id"]}])
-    return _envelope(ExitCode.OK, state, artifacts, id=record["id"], contentSha256=sha, derivedFrom=parent["id"])
+    return _envelope(LevelExit.OK, state, artifacts, id=record["id"], contentSha256=sha, derivedFrom=parent["id"])
 
 
 def generate(root, args):
     generator = GENERATORS.get(args.genre)
     if generator is None:
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{
             "code": "no-generator", "severity": "error",
             "message": f"aucun générateur pour {args.genre} : réutiliser une bibliothèque existante (ADR requis)"}])
     constraints = read_json(args.constraints)
@@ -599,7 +598,7 @@ def generate(root, args):
               "observations": [], "transformations": [], "versions": []}
     report = run_validators(record, constraints.get("profile"))
     artifacts, state = _save_new(root, args, record) if report["status"] == "pass" else ([], "rejected")
-    code = ExitCode.OK if report["status"] == "pass" else ExitCode.CHECK_FAILED
+    code = status_code(report["status"], report["diagnostics"])
     return _envelope(code, state, artifacts or [], report["diagnostics"], id=record["id"], contentSha256=sha,
                      generation=generation, validation=report["status"])
 
@@ -615,7 +614,7 @@ def validate(root, args):
     if record is None:
         return _missing(args.level_id)
     report = run_validators(record, _profile(args), _known_assets(root), _load_all(root))
-    code = ExitCode.OK if report["status"] == "pass" else ExitCode.CHECK_FAILED
+    code = status_code(report["status"], report["diagnostics"])
     return _envelope(code, report["status"], diagnostics=report["diagnostics"], checks=report["checks"])
 
 
@@ -625,18 +624,18 @@ def simulate(root, args):
         return _missing(args.level_id)
     kind = AGENTS[args.agent]
     if record["kind"] != kind:
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{"code": "agent-kind", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{"code": "agent-kind", "severity": "error",
                                                                 "message": f"{args.agent} simule un {kind}"}])
     profile = _profile(args) or {}
     result = VALIDATORS[kind](record["content"], profile, Budget(profile.get("budget")))
-    code = ExitCode.OK if result["status"] == "pass" else ExitCode.CHECK_FAILED
+    code = status_code(result["status"], result["diagnostics"])
     return _envelope(code, result["status"], diagnostics=result["diagnostics"], metrics=result["metrics"],
                      agent=args.agent)
 
 
 def usages(root, args):
     if not args.scope:
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{"code": "scope", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{"code": "scope", "severity": "error",
                                                                 "message": "--scope requis"}])
     scope = read_json(args.scope)
     base = Path(args.scope).parent
@@ -656,7 +655,7 @@ def usages(root, args):
                     history += [{"game": game, "repo": repo["name"], "commit": sha, "date": when,
                                  "version": e.get("version"), "sha256": e.get("sha256")}
                                 for e in old.get("levels", []) if e.get("id") == args.level_id]
-    return _envelope(ExitCode.OK, "ok", levelId=args.level_id, usages=current,
+    return _envelope(LevelExit.OK, "ok", levelId=args.level_id, usages=current,
                      games=sorted({u["game"] for u in current}), history=history)
 
 
@@ -665,25 +664,25 @@ def publish(root, args):
     if record is None:
         return _missing(args.level_id)
     if not re.fullmatch(r"\d+\.\d+\.\d+", args.version):
-        return _envelope(ExitCode.USAGE, "failed", diagnostics=[{"code": "version", "severity": "error",
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{"code": "version", "severity": "error",
                                                                 "message": "version semver attendue (1.2.0)"}])
     if record["origin"]["licenseStatus"] != "verified":
-        return _envelope(ExitCode.SAFETY, "blocked", diagnostics=[{
+        return _envelope(LevelExit.RIGHTS_BLOCKED, "blocked", diagnostics=[{
             "code": "license-unknown", "severity": "error",
             "message": f"licence {record['origin']['licenseStatus']} : publication refusée"}])
     report = run_validators(record, _profile(args), _known_assets(root), _load_all(root))
     if report["status"] != "pass":
-        return _envelope(ExitCode.CHECK_FAILED, report["status"], diagnostics=report["diagnostics"])
+        return _envelope(status_code(report["status"], report["diagnostics"]), report["status"], diagnostics=report["diagnostics"])
     sha = record["contentSha256"] if record["format"] == "generated" else _sha(record["content"])
     previous = next((v for v in record["versions"] if v["version"] == args.version), None)
     lock = {"id": record["id"], "version": args.version, "sha256": sha,
             "transform": record.get("transformations") or None}
     if previous and previous["sha256"] != sha:
-        return _envelope(ExitCode.VERSION_CONFLICT, "failed", diagnostics=[{
+        return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{
             "code": "version-immutable", "severity": "error",
             "message": f"{record['id']}@{args.version} est déjà publiée avec un autre contenu"}])
     if previous:
-        return _envelope(ExitCode.OK, "unchanged", lock=lock)
+        return _envelope(LevelExit.OK, "unchanged", lock=lock)
     artifacts = []
     if not args.dry_run:
         with directory_lock(Path(root) / "catalog"):
@@ -696,21 +695,21 @@ def publish(root, args):
             record["validation"] = {k: "pass" for k in ("structure", "solvability", "simulation")}
             _write(_dir(root) / f"{record['id']}.json", record)
             artifacts = [target.relative_to(root).as_posix()]
-    return _envelope(ExitCode.OK, "published" if not args.dry_run else "dry-run", artifacts, lock=lock)
+    return _envelope(LevelExit.OK, "published" if not args.dry_run else "dry-run", artifacts, lock=lock)
 
 
 def run(root, args):
     if not enabled():
-        return ExitCode.USAGE, {"ok": False, "error": "levels-disabled",
+        return LevelExit.INFRASTRUCTURE, {"ok": False, "error": "levels-disabled",
                                 "message": "Module EXT-002 désactivé (ASSETCTL_LEVELS=off)."}
     handlers = {"discover": discover, "import": import_levels, "search": search, "derive": derive,
                 "generate": generate, "validate": validate, "simulate": simulate, "usages": usages,
                 "publish": publish}
     if args.level_command == "inspect":
         record = _get(root, args.level_id)
-        return _missing(args.level_id) if record is None else _envelope(ExitCode.OK, "ok", level=record)
+        return _missing(args.level_id) if record is None else _envelope(LevelExit.OK, "ok", level=record)
     try:
         return handlers[args.level_command](root, args)
     except subprocess.CalledProcessError as exc:
-        return _envelope(ExitCode.IO, "failed", diagnostics=[{"code": "git", "severity": "error",
+        return _envelope(LevelExit.INFRASTRUCTURE, "failed", diagnostics=[{"code": "git", "severity": "error",
                                                               "message": f"git a échoué ({exc.returncode})"}])

@@ -1,0 +1,140 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "apps/web/style.css",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0011",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c8eedb1f16305d21aac3b2c29e977d5da5bc562851a1e0d4572f91a944bf824f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "d9582c2bee41263e791a35dc552d266c7c07dcea"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 15,
+        "path": "apps/web/main.ts"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "import: apps/web/style.css",
+        "module-path: apps/web/main.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "apps/web/main.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c8eedb1f16305d21aac3b2c29e977d5da5bc562851a1e0d4572f91a944bf824f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

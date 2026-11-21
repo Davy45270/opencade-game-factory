@@ -1,6 +1,7 @@
 """Empreintes visuelles et propositions de rapprochement."""
 
 from collections import defaultdict
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
@@ -9,6 +10,16 @@ from tools.asset_versions import version_number
 
 N = 32
 MAX_DISTANCE = 8
+# Règle de statut d'une paire similaire (HL-538, P0-08 : jamais de fusion automatique) : écart moyen par pixel,
+# images composées sur gris moyen et réduites à 64 × 64 par moyenne d'aire (numpy pur, identique d'une machine à
+# l'autre). On mesure le binaire du registre ou, pour une fiche d'inventaire qui ne le copie pas, sa vignette.
+# Plafond du bruit = maximum mesuré sur TOUTES les images du registre (3 832 binaires), par classe de taille, pour
+# trois façons d'obtenir « la même image » : rééchantillonnage ±10 %, vignette, réencodage JPEG/WebP qualité 75.
+# Moins de 64 px de côté : 15,48 (rééchantillonnage) ; sinon 10,86 (JPEG). Au-dessus : « distinct ». En dessous, la
+# mesure ne sépare pas la paire d'une même image réencodée : c'est un quasi-doublon, qui devient une variante liée
+# (`linked-variant`) et reste « needs-review » tant qu'il ne l'est pas. Lier ne supprime ni ne fusionne rien.
+PIXEL_SIZE = 64
+PIXEL_NOISE = {"small": 15.5, "large": 10.9}
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
 _DCT[0] /= np.sqrt(2)
 _DCT *= np.sqrt(2 / N)
@@ -62,7 +73,58 @@ def _similar(images):
                        "dhashDistance": (dhash_a ^ dhash_b).bit_count(), "status": "needs-review"}
 
 
-def duplicates(assets):
+def _weights(length, size):
+    """Poids de recouvrement exact (aire) entre `length` pixels source et `size` cases cible."""
+    edges = np.arange(size + 1) * (length / size)
+    starts, ends = np.arange(length), np.arange(1, length + 1)
+    overlap = np.clip(np.minimum(ends[None, :], edges[1:, None]) - np.maximum(starts[None, :], edges[:-1, None]), 0, None)
+    return overlap / (length / size)
+
+
+def _box(array, size):
+    """Réduction par moyenne d'aire en numpy pur : même résultat d'une machine à l'autre (le rééchantillonnage de
+    Pillow varie selon sa version et rendait generated/duplicates.json dépendant de l'environnement)."""
+    rows, cols = _weights(array.shape[0], size), _weights(array.shape[1], size)
+    data = array.astype(np.float64)
+    return np.stack([rows @ data[..., c] @ cols.T for c in range(data.shape[2])], axis=-1)
+
+
+def _pixels(root, asset):
+    local = asset.get("files", {}).get("registry") or asset.get("thumbnail")
+    if not root or not local:
+        return None
+    try:
+        image = Image.open(Path(root) / local)
+        image.load()
+    except (OSError, ValueError):
+        return None
+    rgba = np.asarray(image.convert("RGBA"), dtype=np.int64)
+    alpha = rgba[..., 3:4]
+    flat = (rgba[..., :3] * alpha + 128 * (255 - alpha)) / 255
+    return _box(flat, PIXEL_SIZE)
+
+
+def rule(pair, assets_by_id, root, cache):
+    """Statue une paire : déjà liée comme variante → `linked-variant` ; sinon par la mesure de pixels quand les deux
+    binaires du registre sont lisibles. Règle du registre : un quasi-doublon devient une variante liée (champ
+    `variants`), jamais une suppression ni une fusion."""
+    if pair["b"] in assets_by_id[pair["a"]].get("variants", ()) or \
+            pair["a"] in assets_by_id[pair["b"]].get("variants", ()):
+        return {**pair, "status": "linked-variant"}
+    for key in (pair["a"], pair["b"]):
+        if key not in cache:
+            cache[key] = _pixels(root, assets_by_id[key])
+    a, b = cache[pair["a"]], cache[pair["b"]]
+    if a is None or b is None:
+        return pair
+    distance = round(float(np.abs(a - b).mean()), 2)
+    sides = [min((assets_by_id[key].get("dimensions") or {}).get(axis, 0) for axis in ("width", "height"))
+             for key in (pair["a"], pair["b"])]
+    ceiling = PIXEL_NOISE["small" if min(sides) < PIXEL_SIZE else "large"]
+    return {**pair, "pixelDistance": distance, "status": "distinct" if distance > ceiling else "needs-review"}
+
+
+def duplicates(assets, root=None):
     locations = defaultdict(list)
     images = []
     identities = defaultdict(list)
@@ -80,4 +142,6 @@ def duplicates(assets):
                            int(hashes["phash"], 16), int(hashes["dhash"], 16), hashes.get("flatColor")))
     exact = [{"sha256": sha, "locations": paths, "ids": identities[sha]}
              for sha, paths in sorted(locations.items()) if len(paths) > 1 or len(identities[sha]) > 1]
-    return {"exact": exact, "similar": sorted(_similar(images), key=lambda pair: (pair["a"], pair["b"]))}
+    by_id, cache = {asset["id"]: asset for asset in assets}, {}
+    similar = [rule(pair, by_id, root, cache) for pair in sorted(_similar(images), key=lambda p: (p["a"], p["b"]))]
+    return {"exact": exact, "similar": similar}

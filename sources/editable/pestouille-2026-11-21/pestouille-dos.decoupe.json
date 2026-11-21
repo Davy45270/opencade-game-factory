@@ -1,0 +1,316 @@
+{
+ "planche": "pestouille-dos-detouree.png",
+ "planche_sha256": "e21fe9e9daba2f56e9d60579716625c6cce0f08065176e87f145b401fa24ef8b",
+ "marge": 0,
+ "source": "pestouille_dos.png",
+ "source_sha256": "beb54a99de86d43e7bbdade501e16d7d4f23bab5301ee26417f400146680a29b",
+ "gabarit": "planche19",
+ "seuil_fond": null,
+ "seuil_alpha": 128,
+ "constats": [
+  {
+   "ligne": "",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-dos-idle-a",
+   "boite": [
+    144,
+    172,
+    149,
+    21
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-dos-idle-b",
+   "boite": [
+    132,
+    176,
+    378,
+    17
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-dos-idle-c",
+   "boite": [
+    145,
+    172,
+    593,
+    21
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-dos-idle-d",
+   "boite": [
+    138,
+    169,
+    818,
+    24
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-dos-marche-a",
+   "boite": [
+    135,
+    167,
+    154,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-marche-b",
+   "boite": [
+    138,
+    166,
+    374,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-marche-c",
+   "boite": [
+    136,
+    166,
+    596,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-marche-d",
+   "boite": [
+    138,
+    204,
+    813,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-marche-e",
+   "boite": [
+    135,
+    170,
+    1041,
+    237
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-marche-f",
+   "boite": [
+    137,
+    172,
+    1261,
+    233
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-a",
+   "boite": [
+    143,
+    168,
+    150,
+    466
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-b",
+   "boite": [
+    155,
+    163,
+    365,
+    468
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-c",
+   "boite": [
+    171,
+    164,
+    575,
+    467
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-d",
+   "boite": [
+    179,
+    189,
+    791,
+    443
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-e",
+   "boite": [
+    155,
+    188,
+    1031,
+    447
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-attaque-f",
+   "boite": [
+    135,
+    166,
+    1264,
+    468
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-dos-blesse-a",
+   "boite": [
+    138,
+    172,
+    153,
+    684
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-dos-blesse-b",
+   "boite": [
+    163,
+    181,
+    364,
+    672
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-dos-blesse-c",
+   "boite": [
+    140,
+    177,
+    597,
+    677
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

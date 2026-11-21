@@ -1,0 +1,1222 @@
+{
+ "planche": "plante-verte-4directions-detouree.png",
+ "planche_sha256": "d00165929825f7501bc648626e5c4469f6e5b585e3c57a4a811a459dc0c54b96",
+ "marge": 0,
+ "source": "plante_verte_4directions.png",
+ "source_sha256": "d9be36f41a4048ee761a99a3a4d7d53914bf3c1e1c37beca5b0c7f424c860163",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "plante-verte-4directions-droite-idle-a",
+   "boite": [
+    66,
+    84,
+    167,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-droite-idle-b",
+   "boite": [
+    64,
+    84,
+    241,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-droite-idle-c",
+   "boite": [
+    61,
+    80,
+    314,
+    248
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-droite-idle-d",
+   "boite": [
+    60,
+    80,
+    385,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-a",
+   "boite": [
+    57,
+    76,
+    465,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-b",
+   "boite": [
+    58,
+    76,
+    527,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-c",
+   "boite": [
+    56,
+    75,
+    589,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-d",
+   "boite": [
+    55,
+    74,
+    651,
+    253
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-e",
+   "boite": [
+    56,
+    74,
+    711,
+    254
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-marche-f",
+   "boite": [
+    54,
+    73,
+    772,
+    254
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-a",
+   "boite": [
+    61,
+    78,
+    846,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-b",
+   "boite": [
+    64,
+    87,
+    914,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-c",
+   "boite": [
+    65,
+    89,
+    984,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-d",
+   "boite": [
+    69,
+    103,
+    1053,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-e",
+   "boite": [
+    62,
+    94,
+    1122,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-attaque-f",
+   "boite": [
+    59,
+    76,
+    1193,
+    253
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-droite-blesse-a",
+   "boite": [
+    73,
+    98,
+    1276,
+    234
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-droite-blesse-b",
+   "boite": [
+    65,
+    80,
+    1362,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-droite-blesse-c",
+   "boite": [
+    64,
+    101,
+    1446,
+    231
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-gauche-idle-a",
+   "boite": [
+    66,
+    84,
+    169,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-gauche-idle-b",
+   "boite": [
+    68,
+    83,
+    239,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-gauche-idle-c",
+   "boite": [
+    65,
+    83,
+    313,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-gauche-idle-d",
+   "boite": [
+    63,
+    81,
+    384,
+    440
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-a",
+   "boite": [
+    59,
+    77,
+    465,
+    443
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-b",
+   "boite": [
+    59,
+    76,
+    526,
+    443
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-c",
+   "boite": [
+    58,
+    77,
+    589,
+    442
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-d",
+   "boite": [
+    58,
+    77,
+    651,
+    442
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-e",
+   "boite": [
+    58,
+    77,
+    712,
+    442
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-marche-f",
+   "boite": [
+    55,
+    75,
+    773,
+    444
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-a",
+   "boite": [
+    62,
+    83,
+    848,
+    440
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-b",
+   "boite": [
+    68,
+    86,
+    912,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-c",
+   "boite": [
+    70,
+    91,
+    980,
+    433
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-d",
+   "boite": [
+    73,
+    105,
+    1050,
+    418
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-e",
+   "boite": [
+    67,
+    88,
+    1123,
+    435
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-attaque-f",
+   "boite": [
+    62,
+    79,
+    1193,
+    443
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-gauche-blesse-a",
+   "boite": [
+    66,
+    105,
+    1282,
+    419
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-gauche-blesse-b",
+   "boite": [
+    66,
+    83,
+    1365,
+    441
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-gauche-blesse-c",
+   "boite": [
+    64,
+    100,
+    1453,
+    425
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-bas-idle-a",
+   "boite": [
+    56,
+    85,
+    175,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-bas-idle-b",
+   "boite": [
+    54,
+    84,
+    247,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-bas-idle-c",
+   "boite": [
+    53,
+    82,
+    317,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-bas-idle-d",
+   "boite": [
+    53,
+    82,
+    387,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-a",
+   "boite": [
+    49,
+    80,
+    472,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-b",
+   "boite": [
+    50,
+    82,
+    534,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-c",
+   "boite": [
+    50,
+    77,
+    595,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-d",
+   "boite": [
+    47,
+    79,
+    657,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-e",
+   "boite": [
+    46,
+    77,
+    717,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-marche-f",
+   "boite": [
+    47,
+    80,
+    776,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-a",
+   "boite": [
+    53,
+    84,
+    852,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-b",
+   "boite": [
+    52,
+    87,
+    921,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-c",
+   "boite": [
+    54,
+    93,
+    989,
+    617
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-d",
+   "boite": [
+    70,
+    103,
+    1056,
+    607
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-e",
+   "boite": [
+    56,
+    83,
+    1126,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-attaque-f",
+   "boite": [
+    53,
+    83,
+    1197,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-bas-blesse-a",
+   "boite": [
+    72,
+    99,
+    1284,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-bas-blesse-b",
+   "boite": [
+    61,
+    81,
+    1366,
+    635
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-bas-blesse-c",
+   "boite": [
+    63,
+    101,
+    1448,
+    614
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-haut-idle-a",
+   "boite": [
+    60,
+    86,
+    172,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-haut-idle-b",
+   "boite": [
+    58,
+    86,
+    245,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-haut-idle-c",
+   "boite": [
+    57,
+    85,
+    315,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-haut-idle-d",
+   "boite": [
+    57,
+    84,
+    386,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-a",
+   "boite": [
+    53,
+    81,
+    468,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-b",
+   "boite": [
+    52,
+    79,
+    529,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-c",
+   "boite": [
+    48,
+    81,
+    594,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-d",
+   "boite": [
+    48,
+    81,
+    655,
+    822
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-e",
+   "boite": [
+    48,
+    79,
+    716,
+    822
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-marche-f",
+   "boite": [
+    48,
+    82,
+    776,
+    822
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-a",
+   "boite": [
+    55,
+    85,
+    848,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-b",
+   "boite": [
+    55,
+    89,
+    918,
+    819
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-c",
+   "boite": [
+    56,
+    93,
+    987,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-d",
+   "boite": [
+    69,
+    112,
+    1045,
+    795
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-e",
+   "boite": [
+    58,
+    87,
+    1125,
+    820
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-attaque-f",
+   "boite": [
+    56,
+    92,
+    1196,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plante-verte-4directions-haut-blesse-a",
+   "boite": [
+    62,
+    104,
+    1284,
+    806
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-haut-blesse-b",
+   "boite": [
+    63,
+    87,
+    1366,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plante-verte-4directions-haut-blesse-c",
+   "boite": [
+    64,
+    98,
+    1450,
+    813
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

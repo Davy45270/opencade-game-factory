@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "010-chambre",
+  "name": "Le tas de peluches",
+  "theme": "chambre",
+  "difficulty": "easy",
+  "seed": 52000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "peluches",
+      "label": "Peluches"
+    },
+    {
+      "id": "coussins",
+      "label": "Coussins"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "peluches",
+      "capacity": 3
+    },
+    {
+      "id": "carton-2",
+      "category": "coussins",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "cadres",
+      "capacity": 3
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-1",
+      "category": "peluches",
+      "asset": "ours-panier",
+      "blockedBy": [],
+      "position": {
+        "x": 0.235,
+        "y": 0.917
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-4",
+      "category": "peluches",
+      "asset": "ours-panier",
+      "blockedBy": [
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.86
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-7",
+      "category": "peluches",
+      "asset": "lapin",
+      "blockedBy": [
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.206,
+        "y": 0.804
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "coussins",
+      "asset": "coussin-creme",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.445
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-5",
+      "category": "coussins",
+      "asset": "coussin-patte",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.383
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-8",
+      "category": "coussins",
+      "asset": "coussin-patte",
+      "blockedBy": [
+        "pile-2",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.327
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "cadres",
+      "asset": "cadre-suspendu",
+      "blockedBy": [],
+      "position": {
+        "x": 0.795,
+        "y": 0.354
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-6",
+      "category": "cadres",
+      "asset": "cadre-chat",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.781,
+        "y": 0.298
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-9",
+      "category": "cadres",
+      "asset": "cadre-chat",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.766,
+        "y": 0.242
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 0,
+    "twoStarsMaxBuffered": 2
+  },
+  "meta": {
+    "solution": [
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-2",
+      "pile-5",
+      "pile-8",
+      "pile-3",
+      "pile-6",
+      "pile-9"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 10,
+    "nonTrivialDecisions": 96,
+    "legalMoves": 315,
+    "blockingMoves": 0,
+    "blockingMoveShare": 0
+  }
+}

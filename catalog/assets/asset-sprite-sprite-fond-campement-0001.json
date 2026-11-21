@@ -1,0 +1,239 @@
+{
+  "alpha": false,
+  "category": "environments",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite fond campement — sprite 295×132",
+  "dimensions": {
+    "height": 132,
+    "width": 295
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-fond-campement"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m02-fonds-0001",
+        "h": 132,
+        "w": 295,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-fond-campement-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m02-fonds.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/m02-fonds.json · sprite-fond-campement"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.json#sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m02-fonds.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m02-fonds.json · backgrounds"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-fond-campement",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "3cbcbc949457dbd8",
+    "phash": "90340faf5c6b5ec1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "4170a3672ad5c3e802b51a4eddf6a7c9c0c194c275ba41799444a82bf9d3c477",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 132,
+    "verified": false,
+    "w": 295,
+    "x": 1363,
+    "y": 659
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-02-metie-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "backgrounds",
+  "tags": [
+    "backgrounds"
+  ],
+  "thumbnail": "thumbnails/0a/0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m02-fonds.png": "8d93aa4083b3382f1d36130fc0364d72b7e8deed",
+        "public/assets/m02-fonds.json": "b8214114f7b6f05c45fd1663964b67a67ed3c67f"
+      },
+      "assetPath": "public/assets/m02-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 890,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m02-fonds.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-fonds.png": "8d93aa4083b3382f1d36130fc0364d72b7e8deed",
+        "public/assets/m02-fonds.json": "b8214114f7b6f05c45fd1663964b67a67ed3c67f"
+      },
+      "assetPath": "public/assets/m02-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m02-fonds.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m02-fonds.json",
+        "module-path: assets/manifests/m02-fonds.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m02-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m02-fonds-0001",
+          "h": 132,
+          "sourceSheetSha256": "5fdf6b89ea81d8b10842341b23d42a89bc2981f8dc8d217f9b4659178ff0db97",
+          "w": 295,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,192 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite fioles sous logo — sprite 108×108",
+  "dimensions": {
+    "height": 108,
+    "width": 108
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-fioles-sous-logo"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-fioles-logo-3x-0001",
+        "h": 108,
+        "w": 108,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-fioles-sous-logo-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/fioles-logo@3x.json · sprite-fioles-sous-logo"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fioles-logo@3x.json#sprite-fioles-sous-logo"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-fioles-sous-logo",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "b2494dc998946d13",
+    "phash": "f3a32c7cc1076c78"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "153984a5e16894e822268cf83917ae62c9be697e2269bc96318fb4f8f6f0d384",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 91,
+    "verified": false,
+    "w": 138,
+    "x": 136,
+    "y": 180
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/15/153984a5e16894e822268cf83917ae62c9be697e2269bc96318fb4f8f6f0d384.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fioles-logo@3x.json": "3d241fe7c26ef12511f3752af302974df4ede9db",
+        "packages/assets/atlas/fioles-logo@3x.png": "d71d9e7e239abbe76247039d2d40470c38ded91d"
+      },
+      "assetPath": "packages/assets/atlas/fioles-logo@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2451,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fioles-logo@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fioles-logo@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-fioles-sous-logo-0002",
+    "asset-sprite-sprite-fioles-sous-logo-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-fioles-logo-3x-0001",
+          "h": 108,
+          "sourceSheetSha256": "3abcbda841e1ae4fe592b6acaae3a5511ec66b4175679e1b500fb789b3bf7f24",
+          "w": 108,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "153984a5e16894e822268cf83917ae62c9be697e2269bc96318fb4f8f6f0d384",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

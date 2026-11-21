@@ -21,6 +21,9 @@ clone:
       # Historique complet : validate --base compare ids.json et le catalogue à la branche cible.
       depth: 0
       partial: false
+      # La branche cible est récupérée ICI, par le plugin qui détient les identifiants (dépôt privé) :
+      # un `git fetch` dans une étape Python, sans identifiants, sortait en 128 (pipeline 18, HL-538).
+      fetch_target_branch: true
 
 steps:
   - name: dependances
@@ -35,7 +38,10 @@ steps:
   - name: tests-unitaires
     image: *py
     commands:
-      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
+      # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git imagemagick >/dev/null
+      - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
@@ -44,7 +50,10 @@ steps:
   - name: tests-acceptation
     image: *py
     commands:
-      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
+      # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git imagemagick >/dev/null
+      - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'
@@ -67,7 +76,8 @@ steps:
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - CIBLE="$${CI_COMMIT_TARGET_BRANCH:?branche cible inconnue}"
-      - git fetch -q --no-tags origin "+refs/heads/$$CIBLE:refs/remotes/origin/$$CIBLE"
+      # origin/<cible> vient de l'étape clone (fetch_target_branch) ; absente, le contrôle échoue (pas de vert muet).
+      - git rev-parse --verify -q "refs/remotes/origin/$$CIBLE^{commit}" >/dev/null || { echo "origin/$$CIBLE absente du clone"; exit 1; }
       - echo "base origin/$$CIBLE = $(git rev-parse "origin/$$CIBLE")"
       - ./assetctl validate --base "origin/$$CIBLE" --json
 
@@ -79,6 +89,14 @@ steps:
       - N=0
       - for f in atlases/*.json; do [ -e "$$f" ] || continue; ./assetctl validate-atlas "$$f" --json || exit 1; N=$$((N + 1)); done
       - echo "atlas validés $$N"
+
+  # EXT-001 (E164) : aucune fiche externe ne déclare une licence que son pack n'a pas prouvée.
+  # Ses tests d'acceptation EXT-T01…T12 tournent hors ligne dans tests-unitaires (tests/unit/test_ext001.py).
+  - name: licences-externes
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./assetctl external audit-licenses --json
 
   # E082 : doublons exacts et similaires proposés, jamais fusionnés.
   - name: doublons

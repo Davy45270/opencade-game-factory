@@ -1,0 +1,262 @@
+{
+  "alpha": null,
+  "category": "svg",
+  "createdAt": "2026-11-19T06:17:37+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Verrouillage animations apercu — svg",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "svg": {
+      "height": null,
+      "viewBox": "0 0 224 120",
+      "width": null
+    },
+    "type": "svg"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/verrouillage-animations-apercu.svg",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/verrouillage-animations-jeu.svg",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "svg",
+  "id": "asset-svg-verrouillage-animations-apercu-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/verrouillage-animations-apercu.svg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/source/svg/verrouillage-animations-apercu.svg · verrouillage-animations-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/verrouillage-animations-apercu.svg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/verrouillage-animations-apercu.svg"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/verrouillage-animations-jeu.svg · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/verrouillage-animations-apercu.svg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "verrouillage-animations-apercu",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/verrouillage-animations-apercu.svg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "bac7c56bcc02008fe02d996e07eebbe60801520f5e18f701398a6686997f16ce",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/verrouillage-animations-apercu.svg": "658a756b26facfec32d20de5c30b2a5fceb6d57e"
+      },
+      "assetPath": "packages/assets/source/svg/verrouillage-animations-apercu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7978,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/verrouillage-animations-apercu.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "verrouillage-animations-apercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/verrouillage-animations-jeu.svg": "658a756b26facfec32d20de5c30b2a5fceb6d57e"
+      },
+      "assetPath": "packages/assets/source/svg/verrouillage-animations-jeu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7994,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/verrouillage-animations-jeu.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "verrouillage-animations-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/verrouillage-animations-jeu.svg": "658a756b26facfec32d20de5c30b2a5fceb6d57e"
+      },
+      "assetPath": "packages/assets/source/svg/verrouillage-animations-jeu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 54,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/verrouillage-animations-jeu.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "verrouillage-animations-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/verrouillage-animations-apercu.svg": "658a756b26facfec32d20de5c30b2a5fceb6d57e"
+      },
+      "assetPath": "packages/assets/source/svg/verrouillage-animations-apercu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 993,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/verrouillage-animations-apercu.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "verrouillage-animations-apercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "bac7c56bcc02008fe02d996e07eebbe60801520f5e18f701398a6686997f16ce",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,239 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite bouton objet — sprite 96×76",
+  "dimensions": {
+    "height": 76,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-bouton-objet"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m01-boutons-0001",
+        "h": 76,
+        "w": 96,
+        "x": 96,
+        "y": 76
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-bouton-objet-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-boutons.json · bouton"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/m01-boutons.json · sprite-bouton-objet"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-boutons.json#sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-boutons.json · bouton"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-boutons.json · buttons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-bouton-objet",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "8c31336161713146",
+    "phash": "cfbcb093c534c4c9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 68,
+    "verified": false,
+    "w": 87,
+    "x": 335,
+    "y": 827
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "buttons",
+  "tags": [
+    "buttons"
+  ],
+  "thumbnail": "thumbnails/c0/c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd",
+        "public/assets/m01-boutons.json": "3226b8bc00ef2e741e865da5b96bab871168ac03"
+      },
+      "assetPath": "public/assets/m01-boutons.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 557,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-boutons.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd",
+        "public/assets/m01-boutons.json": "3226b8bc00ef2e741e865da5b96bab871168ac03"
+      },
+      "assetPath": "public/assets/m01-boutons.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m01-boutons.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-boutons.json",
+        "module-path: assets/manifests/m01-boutons.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m01-boutons.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m01-boutons-0001",
+          "h": 76,
+          "sourceSheetSha256": "f2232ddca4f5a2502dd790d6eb11060c903bc2db77f8b8861ff947a0fb7d6fac",
+          "w": 96,
+          "x": 96,
+          "y": 76
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -123,7 +123,7 @@ class _Monde(unittest.TestCase):
 # 1. Raccords déclarés (capsule-panic) : rejouer la retouche avant de comparer
 # ------------------------------------------------------------------------------------------------
 
-BOITE_R = [48, 24, 380, 40]            # w, h, x, y sur la planche 512×512
+BOITE_R = [48, 30, 380, 40]            # w, h, x, y sur la planche 512×512 ; 1 140 px hors raccord ≥ plancher L8
 BANDE = "4x10+2+5"                     # bande source, coordonnées DANS la découpe
 CIBLE = "30x10+8+5"                    # zone cible (libellé peint), coordonnées dans la découpe
 

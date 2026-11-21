@@ -1,0 +1,479 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "017-salle-de-bain",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 6,
+          "category": "serviettes",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 4,
+          "category": "parfums",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 4,
+          "category": "accessoires",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 4,
+          "category": "flacons",
+          "id": "carton-4"
+        },
+        {
+          "capacity": 4,
+          "category": "soins",
+          "id": "carton-5"
+        }
+      ],
+      "categories": [
+        {
+          "id": "serviettes",
+          "label": "Serviettes et linge"
+        },
+        {
+          "id": "parfums",
+          "label": "Bougies et parfums"
+        },
+        {
+          "id": "accessoires",
+          "label": "Accessoires"
+        },
+        {
+          "id": "flacons",
+          "label": "Flacons"
+        },
+        {
+          "id": "soins",
+          "label": "Pots et soins"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "017-salle-de-bain",
+      "meta": {
+        "blockingMoveShare": 0.5542422963275644,
+        "blockingMoves": 2626,
+        "engineVersion": "0.1.0",
+        "legalMoves": 4738,
+        "nonTrivialDecisions": 481,
+        "solution": [
+          "pile-1",
+          "pile-6",
+          "pile-11",
+          "pile-12",
+          "pile-16",
+          "pile-21",
+          "pile-13",
+          "pile-18",
+          "pile-2",
+          "pile-7",
+          "pile-17",
+          "pile-22",
+          "pile-3",
+          "pile-8",
+          "pile-4",
+          "pile-9",
+          "pile-14",
+          "pile-19",
+          "pile-5",
+          "pile-10",
+          "pile-15",
+          "pile-20"
+        ],
+        "statesExplored": 59
+      },
+      "name": "Les placards ouverts",
+      "objects": [
+        {
+          "asset": "peignoir",
+          "blockedBy": [],
+          "category": "serviettes",
+          "id": "pile-1",
+          "layer": 6,
+          "position": {
+            "x": 0.486,
+            "y": 0.331
+          }
+        },
+        {
+          "asset": "serviettes-pile",
+          "blockedBy": [
+            "pile-1"
+          ],
+          "category": "serviettes",
+          "id": "pile-6",
+          "layer": 5,
+          "position": {
+            "x": 0.491,
+            "y": 0.309
+          }
+        },
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [
+            "pile-1",
+            "pile-6"
+          ],
+          "category": "serviettes",
+          "id": "pile-11",
+          "layer": 4,
+          "position": {
+            "x": 0.497,
+            "y": 0.286
+          }
+        },
+        {
+          "asset": "serviettes-pile",
+          "blockedBy": [
+            "pile-1",
+            "pile-6",
+            "pile-11"
+          ],
+          "category": "serviettes",
+          "id": "pile-12",
+          "layer": 3,
+          "position": {
+            "x": 0.503,
+            "y": 0.264
+          }
+        },
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [
+            "pile-1",
+            "pile-6",
+            "pile-11",
+            "pile-12"
+          ],
+          "category": "serviettes",
+          "id": "pile-16",
+          "layer": 2,
+          "position": {
+            "x": 0.509,
+            "y": 0.241
+          }
+        },
+        {
+          "asset": "peignoir",
+          "blockedBy": [
+            "pile-1",
+            "pile-6",
+            "pile-11",
+            "pile-12",
+            "pile-16"
+          ],
+          "category": "serviettes",
+          "hidden": true,
+          "id": "pile-21",
+          "layer": 1,
+          "position": {
+            "x": 0.516,
+            "y": 0.219
+          }
+        },
+        {
+          "asset": "seche-cheveux",
+          "blockedBy": [],
+          "category": "accessoires",
+          "id": "pile-13",
+          "layer": 6,
+          "position": {
+            "x": 0.236,
+            "y": 0.396
+          }
+        },
+        {
+          "asset": "eponge",
+          "blockedBy": [
+            "pile-13"
+          ],
+          "category": "accessoires",
+          "id": "pile-18",
+          "layer": 5,
+          "position": {
+            "x": 0.229,
+            "y": 0.339
+          }
+        },
+        {
+          "asset": "bougie-verre",
+          "blockedBy": [
+            "pile-13",
+            "pile-18"
+          ],
+          "category": "parfums",
+          "id": "pile-2",
+          "layer": 4,
+          "position": {
+            "x": 0.224,
+            "y": 0.351
+          }
+        },
+        {
+          "asset": "bougie-verre",
+          "blockedBy": [
+            "pile-13",
+            "pile-18",
+            "pile-2"
+          ],
+          "category": "parfums",
+          "hidden": true,
+          "id": "pile-7",
+          "layer": 3,
+          "position": {
+            "x": 0.218,
+            "y": 0.328
+          }
+        },
+        {
+          "asset": "plante-blanche",
+          "blockedBy": [
+            "pile-13",
+            "pile-18",
+            "pile-2",
+            "pile-7"
+          ],
+          "category": "parfums",
+          "id": "pile-17",
+          "layer": 2,
+          "position": {
+            "x": 0.212,
+            "y": 0.306
+          }
+        },
+        {
+          "asset": "bougie-verre",
+          "blockedBy": [
+            "pile-13",
+            "pile-18",
+            "pile-2",
+            "pile-7",
+            "pile-17"
+          ],
+          "category": "parfums",
+          "id": "pile-22",
+          "layer": 1,
+          "position": {
+            "x": 0.206,
+            "y": 0.283
+          }
+        },
+        {
+          "asset": "gobelet-brosses",
+          "blockedBy": [],
+          "category": "accessoires",
+          "id": "pile-3",
+          "layer": 2,
+          "position": {
+            "x": 0.515,
+            "y": 0.863
+          }
+        },
+        {
+          "asset": "peigne",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "accessoires",
+          "id": "pile-8",
+          "layer": 1,
+          "position": {
+            "x": 0.486,
+            "y": 0.75
+          }
+        },
+        {
+          "asset": "flacon-bleu",
+          "blockedBy": [],
+          "category": "flacons",
+          "id": "pile-4",
+          "layer": 4,
+          "position": {
+            "x": 0.765,
+            "y": 0.492
+          }
+        },
+        {
+          "asset": "flacon-bleu",
+          "blockedBy": [
+            "pile-4"
+          ],
+          "category": "flacons",
+          "id": "pile-9",
+          "layer": 3,
+          "position": {
+            "x": 0.775,
+            "y": 0.454
+          }
+        },
+        {
+          "asset": "flacon-bleu",
+          "blockedBy": [
+            "pile-4",
+            "pile-9"
+          ],
+          "category": "flacons",
+          "id": "pile-14",
+          "layer": 2,
+          "position": {
+            "x": 0.785,
+            "y": 0.417
+          }
+        },
+        {
+          "asset": "flacon-pompe",
+          "blockedBy": [
+            "pile-4",
+            "pile-9",
+            "pile-14"
+          ],
+          "category": "flacons",
+          "hidden": true,
+          "id": "pile-19",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.379
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [],
+          "category": "soins",
+          "id": "pile-5",
+          "layer": 4,
+          "position": {
+            "x": 0.236,
+            "y": 0.875
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [
+            "pile-5"
+          ],
+          "category": "soins",
+          "id": "pile-10",
+          "layer": 3,
+          "position": {
+            "x": 0.226,
+            "y": 0.837
+          }
+        },
+        {
+          "asset": "sels-roses",
+          "blockedBy": [
+            "pile-5",
+            "pile-10"
+          ],
+          "category": "soins",
+          "hidden": true,
+          "id": "pile-15",
+          "layer": 2,
+          "position": {
+            "x": 0.216,
+            "y": 0.8
+          }
+        },
+        {
+          "asset": "pot-creme",
+          "blockedBy": [
+            "pile-5",
+            "pile-10",
+            "pile-15"
+          ],
+          "category": "soins",
+          "id": "pile-20",
+          "layer": 1,
+          "position": {
+            "x": 0.205,
+            "y": 0.75
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 2,
+        "twoStarsMaxBuffered": 4
+      },
+      "seed": 59000,
+      "theme": "salle-de-bain"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 22
+  },
+  "contentSha256": "f72f7f379c59dfdcf5bc0abe61e90fefab342eca0385b566fffad06c99720d98",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 22
+  },
+  "id": "level-cozy-room-sort-017-salle-de-bain",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "017-salle-de-bain",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "f72f7f379c59dfdcf5bc0abe61e90fefab342eca0385b566fffad06c99720d98",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/017-salle-de-bain.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "017-salle-de-bain — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/017-salle-de-bain.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

@@ -1,0 +1,305 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "015-salle-de-bain",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 4,
+          "category": "parfums",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 3,
+          "category": "serviettes",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 5,
+          "category": "accessoires",
+          "id": "carton-3"
+        }
+      ],
+      "categories": [
+        {
+          "id": "parfums",
+          "label": "Bougies et parfums"
+        },
+        {
+          "id": "serviettes",
+          "label": "Serviettes et linge"
+        },
+        {
+          "id": "accessoires",
+          "label": "Accessoires"
+        }
+      ],
+      "difficulty": "easy",
+      "id": "015-salle-de-bain",
+      "meta": {
+        "blockingMoveShare": 0.02453385672227674,
+        "blockingMoves": 25,
+        "engineVersion": "0.1.0",
+        "legalMoves": 1019,
+        "nonTrivialDecisions": 250,
+        "solution": [
+          "pile-8",
+          "pile-1",
+          "pile-4",
+          "pile-7",
+          "pile-10",
+          "pile-12",
+          "pile-2",
+          "pile-5",
+          "pile-3",
+          "pile-6",
+          "pile-9",
+          "pile-11"
+        ],
+        "statesExplored": 36
+      },
+      "name": "La salle de bain après le bain",
+      "objects": [
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [],
+          "category": "serviettes",
+          "id": "pile-8",
+          "layer": 5,
+          "position": {
+            "x": 0.235,
+            "y": 0.875
+          }
+        },
+        {
+          "asset": "bougie-verre",
+          "blockedBy": [
+            "pile-8"
+          ],
+          "category": "parfums",
+          "id": "pile-1",
+          "layer": 4,
+          "position": {
+            "x": 0.228,
+            "y": 0.847
+          }
+        },
+        {
+          "asset": "plante-blanche",
+          "blockedBy": [
+            "pile-8",
+            "pile-1"
+          ],
+          "category": "parfums",
+          "id": "pile-4",
+          "layer": 3,
+          "position": {
+            "x": 0.221,
+            "y": 0.819
+          }
+        },
+        {
+          "asset": "diffuseur-bambou",
+          "blockedBy": [
+            "pile-8",
+            "pile-1",
+            "pile-4"
+          ],
+          "category": "parfums",
+          "id": "pile-7",
+          "layer": 2,
+          "position": {
+            "x": 0.213,
+            "y": 0.791
+          }
+        },
+        {
+          "asset": "bougie-verre",
+          "blockedBy": [
+            "pile-8",
+            "pile-1",
+            "pile-4",
+            "pile-7"
+          ],
+          "category": "parfums",
+          "id": "pile-10",
+          "layer": 1,
+          "position": {
+            "x": 0.206,
+            "y": 0.763
+          }
+        },
+        {
+          "asset": "peigne",
+          "blockedBy": [],
+          "category": "accessoires",
+          "id": "pile-12",
+          "layer": 3,
+          "position": {
+            "x": 0.236,
+            "y": 0.396
+          }
+        },
+        {
+          "asset": "panier-serviette",
+          "blockedBy": [
+            "pile-12"
+          ],
+          "category": "serviettes",
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.22,
+            "y": 0.34
+          }
+        },
+        {
+          "asset": "serviette-anneau",
+          "blockedBy": [
+            "pile-12",
+            "pile-2"
+          ],
+          "category": "serviettes",
+          "id": "pile-5",
+          "layer": 1,
+          "position": {
+            "x": 0.205,
+            "y": 0.283
+          }
+        },
+        {
+          "asset": "gobelet-brosses",
+          "blockedBy": [],
+          "category": "accessoires",
+          "id": "pile-3",
+          "layer": 4,
+          "position": {
+            "x": 0.515,
+            "y": 0.331
+          }
+        },
+        {
+          "asset": "peigne",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "accessoires",
+          "id": "pile-6",
+          "layer": 3,
+          "position": {
+            "x": 0.506,
+            "y": 0.294
+          }
+        },
+        {
+          "asset": "gobelet-brosses",
+          "blockedBy": [
+            "pile-3",
+            "pile-6"
+          ],
+          "category": "accessoires",
+          "id": "pile-9",
+          "layer": 2,
+          "position": {
+            "x": 0.495,
+            "y": 0.256
+          }
+        },
+        {
+          "asset": "canard",
+          "blockedBy": [
+            "pile-3",
+            "pile-6",
+            "pile-9"
+          ],
+          "category": "accessoires",
+          "id": "pile-11",
+          "layer": 1,
+          "position": {
+            "x": 0.486,
+            "y": 0.219
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 5,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 2,
+        "twoStarsMaxBuffered": 4
+      },
+      "seed": 57000,
+      "theme": "salle-de-bain"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 12
+  },
+  "contentSha256": "72d0aee16a339772aea0ad78225385c40daa307b0949b562b83e09065c83d786",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 12
+  },
+  "id": "level-cozy-room-sort-015-salle-de-bain",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "015-salle-de-bain",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "72d0aee16a339772aea0ad78225385c40daa307b0949b562b83e09065c83d786",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/015-salle-de-bain.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "015-salle-de-bain — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/015-salle-de-bain.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

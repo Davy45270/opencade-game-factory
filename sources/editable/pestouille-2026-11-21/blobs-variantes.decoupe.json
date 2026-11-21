@@ -1,0 +1,1412 @@
+{
+ "planche": "blobs-variantes-detouree.png",
+ "planche_sha256": "1492792eef953f64efa2922605af23725c94be87de332e441409c2b3a287421e",
+ "marge": 0,
+ "source": "blobs_variantes.png",
+ "source_sha256": "d0c5613a33112d6fd282e7080addfa2cb7e44fd923ae5cf110b3566860923696",
+ "gabarit": "variantes",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "vert",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bleu",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "or",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "vert",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bleu",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "or",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "vert",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bleu",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "feu",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "glace",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "poison",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "or",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "vert",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bleu",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "or",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "blobs-variantes-vert-idle-a",
+   "boite": [
+    68,
+    74,
+    123,
+    127
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "vert",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-vert-idle-b",
+   "boite": [
+    68,
+    73,
+    195,
+    127
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "vert",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-vert-idle-c",
+   "boite": [
+    71,
+    65,
+    263,
+    135
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "vert",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-vert-idle-d",
+   "boite": [
+    70,
+    69,
+    334,
+    132
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "vert",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-bleu-idle-a",
+   "boite": [
+    65,
+    84,
+    424,
+    117
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bleu",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-bleu-idle-b",
+   "boite": [
+    63,
+    80,
+    491,
+    121
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bleu",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-bleu-idle-c",
+   "boite": [
+    65,
+    73,
+    554,
+    127
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bleu",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-bleu-idle-d",
+   "boite": [
+    63,
+    68,
+    619,
+    133
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bleu",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-feu-idle-a",
+   "boite": [
+    65,
+    90,
+    700,
+    111
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-feu-idle-b",
+   "boite": [
+    65,
+    85,
+    765,
+    116
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-feu-idle-c",
+   "boite": [
+    63,
+    79,
+    830,
+    122
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-feu-idle-d",
+   "boite": [
+    64,
+    82,
+    893,
+    119
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-glace-idle-a",
+   "boite": [
+    65,
+    85,
+    976,
+    116
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-glace-idle-b",
+   "boite": [
+    64,
+    82,
+    1041,
+    119
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-glace-idle-c",
+   "boite": [
+    64,
+    78,
+    1105,
+    123
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-glace-idle-d",
+   "boite": [
+    63,
+    77,
+    1169,
+    124
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-poison-idle-a",
+   "boite": [
+    65,
+    83,
+    1251,
+    118
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-poison-idle-b",
+   "boite": [
+    63,
+    81,
+    1316,
+    120
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-poison-idle-c",
+   "boite": [
+    64,
+    67,
+    1379,
+    133
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-poison-idle-d",
+   "boite": [
+    64,
+    73,
+    1443,
+    127
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-or-idle-a",
+   "boite": [
+    62,
+    75,
+    1527,
+    126
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "or",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-or-idle-b",
+   "boite": [
+    58,
+    71,
+    1591,
+    129
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "or",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-or-idle-c",
+   "boite": [
+    61,
+    73,
+    1649,
+    128
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "or",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-or-idle-d",
+   "boite": [
+    55,
+    69,
+    1710,
+    132
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "or",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blobs-variantes-vert-marche-a",
+   "boite": [
+    53,
+    60,
+    122,
+    319
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-marche-b",
+   "boite": [
+    52,
+    64,
+    175,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-marche-c",
+   "boite": [
+    47,
+    63,
+    227,
+    316
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-marche-d",
+   "boite": [
+    46,
+    56,
+    274,
+    322
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-marche-e",
+   "boite": [
+    43,
+    57,
+    320,
+    322
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-marche-f",
+   "boite": [
+    41,
+    56,
+    363,
+    323
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "vert",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-a",
+   "boite": [
+    50,
+    66,
+    422,
+    316
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-b",
+   "boite": [
+    48,
+    73,
+    472,
+    308
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-c",
+   "boite": [
+    43,
+    72,
+    520,
+    310
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-d",
+   "boite": [
+    42,
+    65,
+    563,
+    316
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-e",
+   "boite": [
+    39,
+    70,
+    605,
+    311
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-marche-f",
+   "boite": [
+    40,
+    64,
+    644,
+    317
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bleu",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-a",
+   "boite": [
+    48,
+    74,
+    698,
+    305
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-b",
+   "boite": [
+    48,
+    75,
+    746,
+    304
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-c",
+   "boite": [
+    43,
+    74,
+    794,
+    305
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-d",
+   "boite": [
+    43,
+    67,
+    837,
+    312
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-e",
+   "boite": [
+    40,
+    74,
+    880,
+    305
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-feu-marche-f",
+   "boite": [
+    40,
+    71,
+    920,
+    307
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-a",
+   "boite": [
+    50,
+    69,
+    976,
+    311
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-b",
+   "boite": [
+    46,
+    70,
+    1026,
+    310
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-c",
+   "boite": [
+    43,
+    68,
+    1072,
+    311
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-d",
+   "boite": [
+    41,
+    67,
+    1115,
+    313
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-e",
+   "boite": [
+    37,
+    66,
+    1156,
+    314
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-glace-marche-f",
+   "boite": [
+    41,
+    65,
+    1193,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-a",
+   "boite": [
+    48,
+    68,
+    1249,
+    311
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-b",
+   "boite": [
+    48,
+    73,
+    1297,
+    306
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-c",
+   "boite": [
+    43,
+    69,
+    1345,
+    309
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-d",
+   "boite": [
+    44,
+    64,
+    1388,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-e",
+   "boite": [
+    40,
+    71,
+    1432,
+    308
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-poison-marche-f",
+   "boite": [
+    40,
+    66,
+    1472,
+    312
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-a",
+   "boite": [
+    47,
+    62,
+    1526,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-b",
+   "boite": [
+    43,
+    62,
+    1573,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-c",
+   "boite": [
+    40,
+    59,
+    1616,
+    317
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-d",
+   "boite": [
+    38,
+    62,
+    1656,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-e",
+   "boite": [
+    38,
+    60,
+    1694,
+    317
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-or-marche-f",
+   "boite": [
+    36,
+    60,
+    1732,
+    316
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "or",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blobs-variantes-vert-attaque-bloc",
+   "boite": [
+    280,
+    73,
+    124,
+    499
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "vert",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-bleu-attaque-bloc",
+   "boite": [
+    261,
+    79,
+    421,
+    492
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bleu",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-feu-attaque-bloc",
+   "boite": [
+    261,
+    78,
+    698,
+    493
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "feu",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-glace-attaque-bloc",
+   "boite": [
+    256,
+    79,
+    976,
+    492
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "glace",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-poison-attaque-bloc",
+   "boite": [
+    262,
+    80,
+    1249,
+    491
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "poison",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-or-attaque-bloc",
+   "boite": [
+    243,
+    69,
+    1525,
+    501
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "or",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "blobs-variantes-vert-blesse-a",
+   "boite": [
+    86,
+    84,
+    127,
+    700
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "vert",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-vert-blesse-b",
+   "boite": [
+    80,
+    63,
+    222,
+    721
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "vert",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-vert-blesse-c",
+   "boite": [
+    81,
+    89,
+    315,
+    694
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "vert",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-bleu-blesse-a",
+   "boite": [
+    78,
+    83,
+    430,
+    700
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bleu",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-bleu-blesse-b",
+   "boite": [
+    75,
+    65,
+    517,
+    718
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bleu",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-bleu-blesse-c",
+   "boite": [
+    76,
+    89,
+    602,
+    694
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bleu",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-feu-blesse-a",
+   "boite": [
+    79,
+    88,
+    705,
+    696
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-feu-blesse-b",
+   "boite": [
+    76,
+    73,
+    790,
+    710
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-feu-blesse-c",
+   "boite": [
+    75,
+    92,
+    876,
+    692
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-glace-blesse-a",
+   "boite": [
+    77,
+    85,
+    984,
+    699
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-glace-blesse-b",
+   "boite": [
+    74,
+    71,
+    1069,
+    712
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-glace-blesse-c",
+   "boite": [
+    73,
+    93,
+    1153,
+    691
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-poison-blesse-a",
+   "boite": [
+    81,
+    89,
+    1254,
+    695
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-poison-blesse-b",
+   "boite": [
+    77,
+    69,
+    1342,
+    715
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-poison-blesse-c",
+   "boite": [
+    78,
+    93,
+    1428,
+    690
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-or-blesse-a",
+   "boite": [
+    80,
+    85,
+    1527,
+    698
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "or",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-or-blesse-b",
+   "boite": [
+    76,
+    68,
+    1609,
+    715
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "or",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blobs-variantes-or-blesse-c",
+   "boite": [
+    76,
+    92,
+    1689,
+    691
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "or",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

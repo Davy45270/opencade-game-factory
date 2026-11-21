@@ -1,0 +1,1112 @@
+{
+ "planche": "blob-vert-4directions-detouree.png",
+ "planche_sha256": "ef3a5fc162fb9f006b1c660e8a75d6ca17c877c5491acfcca65086f5ad901345",
+ "marge": 0,
+ "source": "blob_vert_4directions.png",
+ "source_sha256": "b3d81375d545180ee2637caef73dd809663a998e91149766b7327428686c1e43",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 7,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 7,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 7,
+   "trouve": 7,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 7,
+   "trouve": 7,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "blob-vert-4directions-droite-idle-a",
+   "boite": [
+    59,
+    62,
+    168,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-droite-idle-b",
+   "boite": [
+    60,
+    62,
+    232,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-droite-idle-c",
+   "boite": [
+    62,
+    62,
+    298,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-droite-idle-d",
+   "boite": [
+    60,
+    59,
+    364,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-a",
+   "boite": [
+    56,
+    59,
+    449,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-b",
+   "boite": [
+    56,
+    59,
+    513,
+    237
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-c",
+   "boite": [
+    56,
+    54,
+    575,
+    237
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-d",
+   "boite": [
+    56,
+    54,
+    638,
+    242
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-e",
+   "boite": [
+    55,
+    56,
+    702,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-marche-f",
+   "boite": [
+    56,
+    54,
+    763,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-attaque-bloc",
+   "boite": [
+    417,
+    73,
+    844,
+    225
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 7,
+   "attendus": 6
+  },
+  {
+   "id": "blob-vert-4directions-droite-blesse-a",
+   "boite": [
+    68,
+    87,
+    1291,
+    213
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-droite-blesse-b",
+   "boite": [
+    63,
+    61,
+    1369,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-droite-blesse-c",
+   "boite": [
+    63,
+    85,
+    1446,
+    215
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-gauche-idle-a",
+   "boite": [
+    59,
+    58,
+    171,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-gauche-idle-b",
+   "boite": [
+    60,
+    61,
+    237,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-gauche-idle-c",
+   "boite": [
+    60,
+    61,
+    303,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-gauche-idle-d",
+   "boite": [
+    60,
+    61,
+    369,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-a",
+   "boite": [
+    54,
+    55,
+    453,
+    433
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-b",
+   "boite": [
+    56,
+    55,
+    513,
+    429
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-c",
+   "boite": [
+    55,
+    56,
+    576,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-d",
+   "boite": [
+    56,
+    55,
+    638,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-e",
+   "boite": [
+    54,
+    57,
+    702,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-marche-f",
+   "boite": [
+    56,
+    58,
+    763,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-attaque-bloc",
+   "boite": [
+    416,
+    74,
+    847,
+    418
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 7,
+   "attendus": 6
+  },
+  {
+   "id": "blob-vert-4directions-gauche-blesse-a",
+   "boite": [
+    64,
+    85,
+    1295,
+    408
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-gauche-blesse-b",
+   "boite": [
+    64,
+    61,
+    1373,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-gauche-blesse-c",
+   "boite": [
+    68,
+    85,
+    1448,
+    407
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-bas-idle-a",
+   "boite": [
+    58,
+    58,
+    168,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-bas-idle-b",
+   "boite": [
+    59,
+    58,
+    233,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-bas-idle-c",
+   "boite": [
+    58,
+    57,
+    299,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-bas-idle-d",
+   "boite": [
+    57,
+    57,
+    366,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-a",
+   "boite": [
+    56,
+    58,
+    452,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-b",
+   "boite": [
+    56,
+    59,
+    514,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-c",
+   "boite": [
+    55,
+    61,
+    577,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-d",
+   "boite": [
+    58,
+    61,
+    638,
+    628
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-e",
+   "boite": [
+    57,
+    60,
+    702,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-marche-f",
+   "boite": [
+    57,
+    60,
+    766,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-a",
+   "boite": [
+    54,
+    53,
+    850,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-b",
+   "boite": [
+    53,
+    52,
+    911,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-c",
+   "boite": [
+    54,
+    53,
+    971,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-d",
+   "boite": [
+    59,
+    114,
+    1029,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-e",
+   "boite": [
+    53,
+    53,
+    1093,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-f",
+   "boite": [
+    54,
+    52,
+    1152,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-attaque-g",
+   "boite": [
+    54,
+    53,
+    1211,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 7,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-bas-blesse-a",
+   "boite": [
+    66,
+    87,
+    1293,
+    600
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-bas-blesse-b",
+   "boite": [
+    61,
+    63,
+    1372,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-bas-blesse-c",
+   "boite": [
+    63,
+    87,
+    1448,
+    600
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-haut-idle-a",
+   "boite": [
+    59,
+    61,
+    169,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-haut-idle-b",
+   "boite": [
+    59,
+    60,
+    235,
+    837
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-haut-idle-c",
+   "boite": [
+    59,
+    60,
+    302,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-haut-idle-d",
+   "boite": [
+    59,
+    59,
+    367,
+    837
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-a",
+   "boite": [
+    57,
+    60,
+    450,
+    837
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-b",
+   "boite": [
+    58,
+    62,
+    512,
+    834
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-c",
+   "boite": [
+    57,
+    63,
+    576,
+    830
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-d",
+   "boite": [
+    57,
+    64,
+    638,
+    838
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-e",
+   "boite": [
+    57,
+    61,
+    701,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-marche-f",
+   "boite": [
+    59,
+    64,
+    764,
+    834
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-a",
+   "boite": [
+    57,
+    58,
+    847,
+    838
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-b",
+   "boite": [
+    56,
+    61,
+    908,
+    834
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-c",
+   "boite": [
+    57,
+    60,
+    969,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-d",
+   "boite": [
+    57,
+    102,
+    1030,
+    787
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-e",
+   "boite": [
+    56,
+    59,
+    1092,
+    837
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-f",
+   "boite": [
+    56,
+    59,
+    1151,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-attaque-g",
+   "boite": [
+    56,
+    57,
+    1209,
+    839
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 7,
+   "cadres": 7
+  },
+  {
+   "id": "blob-vert-4directions-haut-blesse-a",
+   "boite": [
+    65,
+    94,
+    1292,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-haut-blesse-b",
+   "boite": [
+    63,
+    66,
+    1371,
+    836
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "blob-vert-4directions-haut-blesse-c",
+   "boite": [
+    64,
+    94,
+    1448,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

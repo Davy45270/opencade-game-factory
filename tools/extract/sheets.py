@@ -5,13 +5,13 @@ import io
 import posixpath
 import re
 from collections import defaultdict
-from functools import lru_cache
+from functools import cached_property, lru_cache, partial
 from pathlib import PurePosixPath
 
 from PIL import Image
 
 from tools.discovery import formats, references
-from tools.extract import regions
+from tools.extract import magick, regions
 from tools.publish import licenses
 
 DIGEST = re.compile(r"[0-9a-fA-F]{64}")
@@ -99,6 +99,10 @@ def _raccords(document, entry, box, margin):
 
 
 class SheetDiscovery:
+    @cached_property
+    def magick_installation(self):
+        return magick.installed()
+
     def __init__(self, target, snapshots, git):
         self.target = target
         self.git = git
@@ -111,7 +115,7 @@ class SheetDiscovery:
         self.declarations = {}
         for snapshot in snapshots:
             for path, asset_ids in snapshot.indexed.items():
-                if formats.extension(path) in formats.RASTER:
+                if formats.extension(path) in formats.RASTER and path not in snapshot.generated_paths:
                     asset = self._image_record(snapshot, path, asset_ids[0])
                     self.images[asset["sha256"]].append((snapshot, path, asset))
 
@@ -168,7 +172,8 @@ class SheetDiscovery:
         basename_matches = [(other, path, asset) for records in self.images.values()
                             for other, path, asset in records if PurePosixPath(path).name == name
                             and (other is snapshot or _david_path(other, path))]
-        if len(local) == 1 and formats.extension(local[0]) in formats.RASTER:
+        if (len(local) == 1 and formats.extension(local[0]) in formats.RASTER
+                and local[0] not in snapshot.generated_paths):
             path = local[0]
             asset = self._image_record(snapshot, path, snapshot.indexed[path][0])
             return self._sheet(snapshot, path, asset), snapshot, path
@@ -258,7 +263,7 @@ class SheetDiscovery:
         self.processed[asset["id"]] = priority
         self.target.changed.add(asset["id"])
         if declaration:
-            self._apply_declaration(snapshot, asset, cropped, declaration)
+            self._apply_declaration(snapshot, asset, cropped, name, declaration)
             return
         previous_license = asset.get("licenseEvidence")
         if isinstance(previous_license, dict) and previous_license["method"] == "provenance-file":
@@ -268,15 +273,12 @@ class SheetDiscovery:
             asset["provenance"] = {"type": "repo-file", "author": "unknown", "evidence": [f"{atlas_path}@{snapshot.commit}"]}
         link_region(self.target, asset, sheet, box, True, f"atlas {atlas_path}@{snapshot.commit}")
 
-    def _apply_declaration(self, snapshot, asset, cropped, declaration):
+    def _apply_declaration(self, snapshot, asset, cropped, frame, declaration):
         metadata_path, entry = declaration
         ref = f"{metadata_path}@{snapshot.commit}"
         asset["provenance"] = {"type": "repo-file", "author": "unknown", "evidence": [ref]}
         asset["license"] = "unknown"
         asset.pop("licenseEvidence", None)
-        explicit = entry.get("licence")
-        if licenses.explicit_spdx(explicit):
-            licenses.assign(asset, explicit, "provenance-file", ref, "Licence SPDX déclarée.")
         if entry.get("origine") == "redessiné (marque)":
             replacement = entry.get("element_remplace")
             if isinstance(replacement, str) and replacement.strip():
@@ -290,13 +292,28 @@ class SheetDiscovery:
         rmse = None
         if source:
             asset["provenance"]["sourceSheetSha256"] = source["sha256"]
-        if "source_retouche" in entry:
-            rmse = self._measure_retouched(snapshot, metadata_path, entry, box, margin, cropped, other, path)
-        elif other and box and type(margin) is int and margin >= 0:
-            rmse = regions.measure(self._image(other, path), entry["boite"], margin, cropped,
-                                   entry.get("ancre"), options=entry)
+        tool = {}
+        try:
+            normalizer = None
+            if declared := entry.get("_magick"):
+                if self.magick_installation is None:
+                    raise magick.MagickError("magick-unavailable")
+                executable, version = self.magick_installation
+                if version.split(".")[0].lstrip("0") != declared.split(".")[0].lstrip("0"):
+                    raise magick.MagickError("magick-major-version-mismatch")
+                normalizer = partial(magick.normalize, executable)
+                tool = {"tool": "magick", "toolVersion": version}
+            if "source_retouche" in entry:
+                rmse = self._measure_retouched(snapshot, metadata_path, entry, box, margin, cropped, other, path,
+                                               normalizer=normalizer)
+            elif other and box and type(margin) is int and margin >= 0:
+                rmse = regions.measure(self._image(other, path), entry["boite"], margin, cropped,
+                                       entry.get("ancre"), options=entry, normalizer=normalizer)
+        except (magick.MagickError, regions.RaccordCoverageError) as exc:
+            self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
+                                "reason": str(exc), "frame": frame})
         verified = rmse is not None and rmse <= regions.THRESHOLD
-        evidence = ({"method": "rmse", "value": rmse, "ref": ref} if rmse is not None
+        evidence = ({"method": "rmse", "value": rmse, "ref": ref, **tool} if rmse is not None
                     else f"Comparaison indisponible · {ref}")
         if source and box and not _within_sheet(box, source):
             self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": metadata_path,
@@ -311,10 +328,13 @@ class SheetDiscovery:
         if verified and trusted and not derived:
             asset["provenance"]["type"] = "original-sheet-cut"
             licenses.assign(asset, "CC-BY-4.0", "provenance-file", ref, licenses.DAVID_DECISION)
+        explicit = entry.get("licence")
+        if verified and licenses.explicit_spdx(explicit) and explicit != asset["license"]:
+            licenses.assign(asset, explicit, "provenance-file", ref, "Licence SPDX déclarée, découpe vérifiée.")
         if not verified:
             asset["status"] = "needs-review"
 
-    def _measure_retouched(self, snapshot, metadata_path, entry, box, margin, cropped, other, path):
+    def _measure_retouched(self, snapshot, metadata_path, entry, box, margin, cropped, other, path, *, normalizer):
         recipe = entry["source_retouche"]
         candidates = (references.candidates(metadata_path, recipe, snapshot.tree)
                       if isinstance(recipe, str) and recipe.endswith(".retouches.json") else ())
@@ -326,7 +346,9 @@ class SheetDiscovery:
                 if not regions.in_image(box, image):
                     raise ValueError("Découpe de retouche hors planche.")
                 return regions.measure(image, entry["boite"], margin, cropped, entry.get("ancre"),
-                                       options=entry, raccords=raccords)
+                                       options=entry, raccords=raccords, normalizer=normalizer)
+        except (magick.MagickError, regions.RaccordCoverageError):
+            raise
         except ValueError:
             reason = "declared-retouch-unreadable"
         else:
@@ -348,8 +370,13 @@ class SheetDiscovery:
                 self.limits.append({"repo": snapshot.repo, "commit": snapshot.commit, "path": path,
                                     "reason": "invalid-sheet-metadata"})
                 continue
+            tools = document.get("outils") if isinstance(document, dict) else None
+            version = tools.get("magick") if isinstance(tools, dict) else None
             for entry in provenance_entries(document) if provenance else table_entries(document):
                 if element := _element_id(entry.get("id")):
+                    entry = {key: value for key, value in entry.items() if key != "_magick"}
+                    if isinstance(version, str) and magick.VERSION.fullmatch(version):
+                        entry["_magick"] = version
                     entries_by_id[element].append((path, provenance, entry))
         return entries_by_id
 
@@ -361,7 +388,8 @@ class SheetDiscovery:
                     break
         for snapshot in self.snapshots:
             self.declarations[snapshot] = self._read_declarations(snapshot)
-            atlas_images = {path for path in snapshot.indexed if formats.extension(path) in formats.RASTER}
+            atlas_images = {path for path in snapshot.indexed if formats.extension(path) in formats.RASTER
+                            and path not in snapshot.generated_paths}
             atlas_files = atlas_images | {path for path, (family, _, _) in snapshot.measurements.items()
                                           if family["type"] == "atlas"}
             for atlas_path, (family, metadata, _) in snapshot.measurements.items():

@@ -1,0 +1,35 @@
+{
+ "ferraille": 20,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "piston",
+ "sequence": [
+  "piston",
+  "tower",
+  "lava",
+  "conveyor",
+  "secret"
+ ],
+ "name": "Le rythme des presses",
+ "theme": "factory",
+ "structure": "corridor",
+ "enemies": [
+  "crawler"
+ ],
+ "weapon": "grenade",
+ "discovery": "Le rythme des presses · Piston",
+ "recovery": true
+}

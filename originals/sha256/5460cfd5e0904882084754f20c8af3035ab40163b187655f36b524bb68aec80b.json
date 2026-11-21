@@ -1,0 +1,38 @@
+{
+ "ferraille": 24,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "lava",
+ "sequence": [
+  "lava",
+  "spring",
+  "bridge",
+  "tunnel",
+  "chain"
+ ],
+ "name": "La cuve de Tenaille",
+ "theme": "factory",
+ "structure": "arena",
+ "enemies": [
+  "armored",
+  "drone",
+  "kamikaze"
+ ],
+ "weapon": "grenade",
+ "discovery": "La cuve de Tenaille · Lave montante",
+ "recovery": false,
+ "boss": "crossfire"
+}

@@ -1,0 +1,216 @@
+{
+  "alpha": false,
+  "category": "image",
+  "createdAt": "2026-11-18T11:30:13+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Mascotte — image 480×120",
+  "dimensions": {
+    "height": 120,
+    "width": 480
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGB"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "docs/captures/mascotte.png",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "docs/captures/mascotte.png",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-mascotte-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "docs/captures/mascotte.png · mascotte"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "mascotte",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "1a5555d555555455",
+    "phash": "d229edde81b48647"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:docs/captures/mascotte.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "44df920bb0f01b82affe5d761318931c9c9b76b244151465551e79e70248514d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/44/44df920bb0f01b82affe5d761318931c9c9b76b244151465551e79e70248514d.webp",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "docs/captures/mascotte.png": "625f5920636b92e079b41975a4d88bee940811fd"
+      },
+      "assetPath": "docs/captures/mascotte.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "tests/e2e/captures.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: docs/captures/mascotte.png",
+        "module-path: tests/e2e/captures.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "mascotte",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "tests/e2e/captures.spec.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "docs/captures/mascotte.png": "625f5920636b92e079b41975a4d88bee940811fd"
+      },
+      "assetPath": "docs/captures/mascotte.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "tests/e2e/captures.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: docs/captures/mascotte.png",
+        "module-path: tests/e2e/captures.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "mascotte",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sprite",
+      "scene": "tests/e2e/captures.spec.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "44df920bb0f01b82affe5d761318931c9c9b76b244151465551e79e70248514d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

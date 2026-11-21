@@ -1,0 +1,174 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T10:46:31+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "E03 menu — image 96×64",
+  "dimensions": {
+    "height": 64,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "assets/export/e03-menu.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-e03-menu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/e03-menu.png · e03-menu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "e03-menu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "6c92b26956b2b66a",
+    "phash": "9d5a66b562265a95"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/e03-menu.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1db6581d25ff2a4b4cbf69cf1d86a1d4ede80b9cfc5dbad4c25b429cc02414ad",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/1d/1db6581d25ff2a4b4cbf69cf1d86a1d4ede80b9cfc5dbad4c25b429cc02414ad.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e03-menu.png": "998aa6830a58910b172b56a68dd0aacbb3b07455"
+      },
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 44,
+        "path": "tests/unit/web-assets.test.ts"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: assets/export/e03-menu.png",
+        "module-path: tests/unit/web-assets.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-menu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/web-assets.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-e03-menu-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1db6581d25ff2a4b4cbf69cf1d86a1d4ede80b9cfc5dbad4c25b429cc02414ad",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

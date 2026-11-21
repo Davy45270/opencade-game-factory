@@ -1,0 +1,226 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite anneau etoiles effets origine — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-anneau-etoiles-effets-origine"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-effets-origine-2x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 196,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-anneau-etoiles-effets-ori-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/effets-origine@2x.json · sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/effets-origine@2x.json#sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-anneau-etoiles-effets-origine",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "6166a6871e58f334",
+    "phash": "c4a60f5332c8d3bd"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "565c8dc902f53413a874dc0a663e724080ec4467156089082a3a336a787d5323",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 162,
+    "verified": false,
+    "w": 193,
+    "x": 581,
+    "y": 487
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-planche-01-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/56/565c8dc902f53413a874dc0a663e724080ec4467156089082a3a336a787d5323.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-origine@2x.json": "0fc79f01fb886888f38af65bd4693b3247ce9fd7",
+        "packages/assets/atlas/effets-origine@2x.png": "ad06cfdbc4718b510bf3e492109c6e95c18d95d3"
+      },
+      "assetPath": "packages/assets/atlas/effets-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2142,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-origine@2x.json": "0fc79f01fb886888f38af65bd4693b3247ce9fd7",
+        "packages/assets/atlas/effets-origine@2x.png": "ad06cfdbc4718b510bf3e492109c6e95c18d95d3"
+      },
+      "assetPath": "packages/assets/atlas/effets-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 685,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-anneau-etoiles-effets-ori-0001",
+    "asset-sprite-sprite-anneau-etoiles-effets-ori-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-effets-origine-2x-0001",
+          "h": 192,
+          "sourceSheetSha256": "b9ea2b18e5900fa5419a1b0a4d2cde8fdd7aa06047dfd1c7f683179adf966828",
+          "w": 192,
+          "x": 196,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "565c8dc902f53413a874dc0a663e724080ec4467156089082a3a336a787d5323",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

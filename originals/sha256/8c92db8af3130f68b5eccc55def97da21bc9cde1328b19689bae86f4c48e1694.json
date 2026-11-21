@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "004-salon",
+  "name": "Le tas du canapé",
+  "theme": "salon",
+  "difficulty": "medium",
+  "seed": 46224,
+  "rules": {
+    "bufferCapacity": 4,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "plantes",
+      "label": "Plantes et fleurs"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    },
+    {
+      "id": "coussins",
+      "label": "Coussins et plaids"
+    },
+    {
+      "id": "livres",
+      "label": "Livres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "plantes",
+      "capacity": 3
+    },
+    {
+      "id": "carton-2",
+      "category": "cadres",
+      "capacity": 4
+    },
+    {
+      "id": "carton-3",
+      "category": "coussins",
+      "capacity": 4
+    },
+    {
+      "id": "carton-4",
+      "category": "livres",
+      "capacity": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-10",
+      "category": "cadres",
+      "asset": "cadre-tulipe",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.244
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-14",
+      "category": "cadres",
+      "asset": "cadre-paysage",
+      "blockedBy": [
+        "pile-10"
+      ],
+      "position": {
+        "x": 0.507,
+        "y": 0.217
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-1",
+      "category": "plantes",
+      "asset": "monstera-panier",
+      "blockedBy": [
+        "pile-10",
+        "pile-14"
+      ],
+      "position": {
+        "x": 0.5,
+        "y": 0.186
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-5",
+      "category": "plantes",
+      "asset": "tournesols",
+      "blockedBy": [
+        "pile-10",
+        "pile-14",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.493,
+        "y": 0.159
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-9",
+      "category": "plantes",
+      "asset": "bouquet-blanc",
+      "blockedBy": [
+        "pile-10",
+        "pile-14",
+        "pile-1",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.485,
+        "y": 0.131
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-11",
+      "category": "coussins",
+      "asset": "plaid-bleu",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.883
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-15",
+      "category": "coussins",
+      "asset": "plaid-bleu",
+      "blockedBy": [
+        "pile-11"
+      ],
+      "position": {
+        "x": 0.505,
+        "y": 0.846
+      },
+      "layer": 3,
+      "hidden": true
+    },
+    {
+      "id": "pile-2",
+      "category": "cadres",
+      "asset": "cadre-tulipe",
+      "blockedBy": [
+        "pile-11",
+        "pile-15"
+      ],
+      "position": {
+        "x": 0.495,
+        "y": 0.821
+      },
+      "layer": 2,
+      "hidden": true
+    },
+    {
+      "id": "pile-6",
+      "category": "cadres",
+      "asset": "cadre-collines",
+      "blockedBy": [
+        "pile-11",
+        "pile-15",
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.485,
+        "y": 0.783
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "coussins",
+      "asset": "coussin-creme",
+      "blockedBy": [],
+      "position": {
+        "x": 0.795,
+        "y": 0.351
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-7",
+      "category": "coussins",
+      "asset": "coussin-creme",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.765,
+        "y": 0.238
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-4",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.859
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-8",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.212,
+        "y": 0.83
+      },
+      "layer": 4,
+      "hidden": true
+    },
+    {
+      "id": "pile-12",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-4",
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.22,
+        "y": 0.802
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-13",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-4",
+        "pile-8",
+        "pile-12"
+      ],
+      "position": {
+        "x": 0.227,
+        "y": 0.774
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-16",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [
+        "pile-4",
+        "pile-8",
+        "pile-12",
+        "pile-13"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.722
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 4,
+    "twoStarsMaxBuffered": 6
+  },
+  "meta": {
+    "solution": [
+      "pile-10",
+      "pile-11",
+      "pile-14",
+      "pile-1",
+      "pile-5",
+      "pile-15",
+      "pile-9",
+      "pile-2",
+      "pile-6",
+      "pile-3",
+      "pile-7",
+      "pile-4",
+      "pile-8",
+      "pile-12",
+      "pile-13",
+      "pile-16"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 77,
+    "nonTrivialDecisions": 123,
+    "legalMoves": 763,
+    "blockingMoves": 248,
+    "blockingMoveShare": 0.32503276539973786
+  }
+}

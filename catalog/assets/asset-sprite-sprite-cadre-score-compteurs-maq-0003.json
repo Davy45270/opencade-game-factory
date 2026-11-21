@@ -1,0 +1,226 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite cadre score compteurs maquettes jeu — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-cadre-score-compteurs-maquettes-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-compteurs-maquettes-jeu-2x-0001",
+        "h": 64,
+        "w": 64,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-cadre-score-compteurs-maq-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/compteurs-maquettes-jeu@2x.json · sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteurs-maquettes-jeu@2x.json#sprite-cadre-score-compteurs-maquettes-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-cadre-score-compteurs-maquettes-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "108479794561a000",
+    "phash": "db9aa4641b9bca64"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3e3b59712ab00b932adeb7383694b2ec15ce6c351e04d2215ceeb1ed07cc1a59",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 60,
+    "verified": false,
+    "w": 148,
+    "x": 959,
+    "y": 793
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/3e/3e3b59712ab00b932adeb7383694b2ec15ce6c351e04d2215ceeb1ed07cc1a59.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteurs-maquettes-jeu@2x.json": "a46cd7aaa846885a1814d0183aa7404692d4709b",
+        "packages/assets/atlas/compteurs-maquettes-jeu@2x.png": "adb5f2c9fb308d5c9194fab4ce6b97d09dff3dc9"
+      },
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1698,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteurs-maquettes-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteurs-maquettes-jeu@2x.json": "a46cd7aaa846885a1814d0183aa7404692d4709b",
+        "packages/assets/atlas/compteurs-maquettes-jeu@2x.png": "adb5f2c9fb308d5c9194fab4ce6b97d09dff3dc9"
+      },
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 156,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteurs-maquettes-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-cadre-score-compteurs-maq-0002",
+    "asset-sprite-sprite-cadre-score-compteurs-maq-0004"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-compteurs-maquettes-jeu-2x-0001",
+          "h": 64,
+          "sourceSheetSha256": "96c2ce9b306b3ef7a39caf5ad7037b3e62ee48530b4d54cd54d52199caa68f79",
+          "w": 64,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3e3b59712ab00b932adeb7383694b2ec15ce6c351e04d2215ceeb1ed07cc1a59",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

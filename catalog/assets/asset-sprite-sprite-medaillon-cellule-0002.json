@@ -1,0 +1,184 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite medaillon cellule — sprite 120×120",
+  "dimensions": {
+    "height": 120,
+    "width": 120
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-medaillon-cellule"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-medaillon-origine-3x-0001",
+        "h": 120,
+        "w": 120,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-medaillon-cellule-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/medaillon-origine@3x.json · sprite-medaillon-cellule"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/medaillon-origine@3x.json#sprite-medaillon-cellule"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-medaillon-cellule",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "1771f0e8e861338e",
+    "phash": "cfd1381ef16d9130"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "109x106+1355+828"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "77d3ac77363f28d6c8d47980b8b95a0cfa9469f10bcaedde490909acadea4da7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/77/77d3ac77363f28d6c8d47980b8b95a0cfa9469f10bcaedde490909acadea4da7.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/medaillon-origine@3x.json": "b6e73416a69e0009a139036fc3921742af7b1a7b",
+        "packages/assets/atlas/medaillon-origine@3x.png": "c4b563039a6fb39375236af6072d1638fbbe700a"
+      },
+      "assetPath": "packages/assets/atlas/medaillon-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3399,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/medaillon-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "medaillon-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-medaillon-cellule-0001",
+    "asset-sprite-sprite-medaillon-cellule-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-medaillon-origine-3x-0001",
+          "h": 120,
+          "sourceSheetSha256": "cb8e8b66edb4a5eae444fec97ee6b028fff8d2916969e463f8f8363785b88717",
+          "w": 120,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "77d3ac77363f28d6c8d47980b8b95a0cfa9469f10bcaedde490909acadea4da7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

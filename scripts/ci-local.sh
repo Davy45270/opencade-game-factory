@@ -112,6 +112,8 @@ case "$PIPELINE" in
     N=0
     for f in atlases/*.json; do [ -e "$f" ] || continue; ./assetctl validate-atlas "$f" --json || exit 1; N=$((N + 1)); done
     echo "atlas validés $N"
+    etape licences-externes
+    ./assetctl external audit-licenses --json
     etape doublons
     ./assetctl duplicates --json
     etape secrets

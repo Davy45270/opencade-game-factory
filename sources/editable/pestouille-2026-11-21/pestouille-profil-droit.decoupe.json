@@ -1,0 +1,316 @@
+{
+ "planche": "pestouille_profil_droit.png",
+ "planche_sha256": "9708698ca0e97a1d44e33f592b0299dd7178f7348e82d38be017c1fd1f211eef",
+ "marge": 0,
+ "source": "pestouille_profil_droit.png",
+ "source_sha256": "9708698ca0e97a1d44e33f592b0299dd7178f7348e82d38be017c1fd1f211eef",
+ "gabarit": "planche19",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-profil-droit-idle-a",
+   "boite": [
+    199,
+    183,
+    57,
+    30
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-profil-droit-idle-b",
+   "boite": [
+    197,
+    183,
+    352,
+    30
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-profil-droit-idle-c",
+   "boite": [
+    199,
+    183,
+    646,
+    30
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-profil-droit-idle-d",
+   "boite": [
+    198,
+    183,
+    941,
+    30
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-profil-droit-marche-a",
+   "boite": [
+    207,
+    190,
+    57,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-marche-b",
+   "boite": [
+    204,
+    190,
+    353,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-marche-c",
+   "boite": [
+    210,
+    192,
+    644,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-marche-d",
+   "boite": [
+    205,
+    190,
+    942,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-marche-e",
+   "boite": [
+    203,
+    191,
+    1240,
+    241
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-marche-f",
+   "boite": [
+    204,
+    193,
+    1534,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-a",
+   "boite": [
+    244,
+    188,
+    57,
+    462
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-b",
+   "boite": [
+    203,
+    181,
+    354,
+    467
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-c",
+   "boite": [
+    209,
+    182,
+    638,
+    465
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-d",
+   "boite": [
+    247,
+    188,
+    930,
+    460
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-e",
+   "boite": [
+    202,
+    182,
+    1233,
+    465
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-attaque-f",
+   "boite": [
+    201,
+    186,
+    1533,
+    462
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-profil-droit-blesse-a",
+   "boite": [
+    228,
+    193,
+    57,
+    674
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-profil-droit-blesse-b",
+   "boite": [
+    195,
+    183,
+    349,
+    684
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-profil-droit-blesse-c",
+   "boite": [
+    213,
+    197,
+    647,
+    670
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

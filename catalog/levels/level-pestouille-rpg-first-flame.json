@@ -1,0 +1,289 @@
+{
+  "content": {
+    "format": "world-graph",
+    "graph": {
+      "bosses": [
+        "temple.boss"
+      ],
+      "checkpoints": [
+        "forest.camp",
+        "temple.antechamber",
+        "village.place"
+      ],
+      "edges": [
+        [
+          "forest.camp",
+          "forest.entry"
+        ],
+        [
+          "forest.camp",
+          "forest.glade"
+        ],
+        [
+          "forest.camp",
+          "forest.pond"
+        ],
+        [
+          "forest.camp",
+          "forest.spring"
+        ],
+        [
+          "forest.camp",
+          "forest.temple_gate"
+        ],
+        [
+          "forest.entry",
+          "forest.glade"
+        ],
+        [
+          "forest.entry",
+          "forest.pond"
+        ],
+        [
+          "forest.entry",
+          "forest.spring"
+        ],
+        [
+          "forest.entry",
+          "forest.temple_gate"
+        ],
+        [
+          "forest.entry",
+          "village.forest_gate"
+        ],
+        [
+          "forest.glade",
+          "forest.pond"
+        ],
+        [
+          "forest.glade",
+          "forest.spring"
+        ],
+        [
+          "forest.glade",
+          "forest.temple_gate"
+        ],
+        [
+          "forest.pond",
+          "forest.spring"
+        ],
+        [
+          "forest.pond",
+          "forest.temple_gate"
+        ],
+        [
+          "forest.spring",
+          "forest.temple_gate"
+        ],
+        [
+          "forest.temple_gate",
+          "temple.hall"
+        ],
+        [
+          "temple.antechamber",
+          "temple.boss"
+        ],
+        [
+          "temple.antechamber",
+          "temple.key"
+        ],
+        [
+          "temple.blocks",
+          "temple.hall"
+        ],
+        [
+          "temple.blocks",
+          "temple.switches"
+        ],
+        [
+          "temple.key",
+          "temple.switches"
+        ],
+        [
+          "village.clinic",
+          "village.forest_gate"
+        ],
+        [
+          "village.clinic",
+          "village.forge"
+        ],
+        [
+          "village.clinic",
+          "village.home"
+        ],
+        [
+          "village.clinic",
+          "village.inn"
+        ],
+        [
+          "village.clinic",
+          "village.place"
+        ],
+        [
+          "village.forest_gate",
+          "village.forge"
+        ],
+        [
+          "village.forest_gate",
+          "village.home"
+        ],
+        [
+          "village.forest_gate",
+          "village.inn"
+        ],
+        [
+          "village.forest_gate",
+          "village.place"
+        ],
+        [
+          "village.forge",
+          "village.home"
+        ],
+        [
+          "village.forge",
+          "village.inn"
+        ],
+        [
+          "village.forge",
+          "village.place"
+        ],
+        [
+          "village.home",
+          "village.inn"
+        ],
+        [
+          "village.home",
+          "village.place"
+        ],
+        [
+          "village.inn",
+          "village.place"
+        ]
+      ],
+      "gates": [
+        {
+          "requires": "root_key",
+          "target": "temple.antechamber"
+        },
+        {
+          "requires": "root_key",
+          "target": "temple.boss"
+        },
+        {
+          "requires": "party_four",
+          "target": "temple.hall"
+        },
+        {
+          "requires": "blocks_solved",
+          "target": "temple.key"
+        },
+        {
+          "requires": "fresque_solved",
+          "target": "temple.key"
+        },
+        {
+          "requires": "switches_solved",
+          "target": "temple.key"
+        },
+        {
+          "requires": "blocks_solved",
+          "target": "temple.switches"
+        }
+      ],
+      "grants": {
+        "temple.blocks": "blocks_solved",
+        "temple.hall": "fresque_solved",
+        "temple.key": "root_key",
+        "temple.switches": "switches_solved",
+        "village.place": "party_four"
+      },
+      "nodes": [
+        "forest.camp",
+        "forest.entry",
+        "forest.glade",
+        "forest.pond",
+        "forest.spring",
+        "forest.temple_gate",
+        "temple.antechamber",
+        "temple.blocks",
+        "temple.boss",
+        "temple.hall",
+        "temple.key",
+        "temple.switches",
+        "village.clinic",
+        "village.forest_gate",
+        "village.forge",
+        "village.home",
+        "village.inn",
+        "village.place"
+      ],
+      "overlay": "first_flame.json",
+      "start": "village.place"
+    },
+    "height": 1,
+    "layers": [],
+    "name": "first_flame",
+    "orientation": "graph",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "rpg"
+      }
+    ],
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 18
+  },
+  "contentSha256": "5b5d80414e5fba472883422331de4738c8dd39b07f881686ae0bbe733b416173",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "world-graph",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 18
+  },
+  "id": "level-pestouille-rpg-first-flame",
+  "kind": "rpg",
+  "losses": [],
+  "mechanics": [],
+  "name": "first_flame",
+  "observations": [
+    {
+      "commit": "ca7042f97f1eae57c9d90a94a0f4f5c6bc3fbdc3",
+      "contentSha256": "5b5d80414e5fba472883422331de4738c8dd39b07f881686ae0bbe733b416173",
+      "observedAt": "2026-11-21T15:21:17Z",
+      "path": "content/world/world_graph.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/pestouille-rpg.git"
+    }
+  ],
+  "origin": {
+    "attribution": "first_flame — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "pestouille-rpg",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "ca7042f97f1eae57c9d90a94a0f4f5c6bc3fbdc3",
+    "sourcePath": "content/world/world_graph.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/pestouille-rpg.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

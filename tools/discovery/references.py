@@ -92,13 +92,18 @@ def resolve(path, reference, tree, indexed):
     return []
 
 
+def match_path_pattern(pattern, path):
+    prefix, star, suffix = pattern.partition("*")
+    capture = r"([^/\\\x00-\x1f]*)" if star else ""
+    return re.fullmatch(re.escape(prefix) + capture + re.escape(suffix), path)
+
+
 def resolve_path_alias(candidates, aliases, available):
     """Retourne les chemins cités et résolus pour une correspondance unique."""
     matches = {}
     for cited in candidates:
         for source, target in aliases:
-            prefix, suffix = source.split("*")
-            match = re.fullmatch(re.escape(prefix) + r"([^/\\\x00-\x1f]*)" + re.escape(suffix), cited)
+            match = match_path_pattern(source, cited)
             if match:
                 resolved = target.replace("*", match[1])
                 if PurePosixPath(resolved).name not in {"", ".", ".."} and resolved in available:

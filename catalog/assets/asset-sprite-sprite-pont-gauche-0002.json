@@ -1,0 +1,198 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite pont gauche — sprite 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "left",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pont-gauche"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-pieces-origine-3x-0001",
+        "h": 96,
+        "w": 96,
+        "x": 296,
+        "y": 100
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pont-gauche-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@3x.json · sprite-pont-gauche"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    },
+    "facing": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@3x.json · left"
+      ],
+      "method": "path-tokens"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@3x.json · gauche"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@3x.json#sprite-pont-gauche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pont-gauche",
+  "orientation": "left",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "4000c02828c00040",
+    "phash": "bf1ec0e1fe1e01c1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "181x89+333+382"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9b6f4baecca12ace45368a5f140b240965bde6ce5bb0f3815ac146591cd0f0a7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/9b/9b6f4baecca12ace45368a5f140b240965bde6ce5bb0f3815ac146591cd0f0a7.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/pieces-origine@3x.json": "d8e30b20d7f86d683e3c04c9dc6a15e6f31c4cd5",
+        "packages/assets/atlas/pieces-origine@3x.png": "d0dfb153819121ff715f7049336c8c4158bfc81a"
+      },
+      "assetPath": "packages/assets/atlas/pieces-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4848,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/pieces-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pieces-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-pont-gauche-0001",
+    "asset-sprite-sprite-pont-gauche-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-pieces-origine-3x-0001",
+          "h": 96,
+          "sourceSheetSha256": "627d8eeed314342671911c56c7580f61d5ec50b8d8b39ff6dbaf04882243870e",
+          "w": 96,
+          "x": 296,
+          "y": 100
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9b6f4baecca12ace45368a5f140b240965bde6ce5bb0f3815ac146591cd0f0a7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

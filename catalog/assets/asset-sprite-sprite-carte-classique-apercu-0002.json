@@ -1,0 +1,184 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite carte classique apercu — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-carte-classique-apercu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-panneaux-apercu-3x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 2,
+        "y": 196
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-carte-classique-apercu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/panneaux-apercu@3x.json · sprite-carte-classique-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/panneaux-apercu@3x.json#sprite-carte-classique-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-carte-classique-apercu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "33333333690b1b23",
+    "phash": "afccf493c4333096"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "93x120+17+608"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "46068c5aa43d72f4be148abb973fb48ce9ca7c6be58de40ae55f62d1fae9c6a2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/46/46068c5aa43d72f4be148abb973fb48ce9ca7c6be58de40ae55f62d1fae9c6a2.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/panneaux-apercu@3x.json": "e1c038e798f98f1b784f4d9bb6634ba9cc951f6a",
+        "packages/assets/atlas/panneaux-apercu@3x.png": "4c3b26430ddd3ba2f6ed3f941f1cfb4690d39120"
+      },
+      "assetPath": "packages/assets/atlas/panneaux-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4557,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/panneaux-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "panneaux-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-carte-classique-apercu-0002",
+    "asset-sprite-sprite-carte-classique-apercu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-panneaux-apercu-3x-0001",
+          "h": 192,
+          "sourceSheetSha256": "fddd4eaaad356ac7fa2a024ba1eb8fa24174aaf13910f5698655b8416a84984c",
+          "w": 192,
+          "x": 2,
+          "y": 196
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "46068c5aa43d72f4be148abb973fb48ce9ca7c6be58de40ae55f62d1fae9c6a2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

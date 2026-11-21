@@ -1,0 +1,282 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T12:46:08+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "P03 objets — image 660×660",
+  "dimensions": {
+    "height": 660,
+    "width": 660
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p03-objets.webp",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p03-objets.webp",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-p03-objets-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p03-objets.webp · p03-objets"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "p03-objets",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "5555551513cdc548",
+    "phash": "839f4775781e070d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p03-objets.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a77ca8fd4bfbaafbe77d0f3c8c0bc910fc9c19c84ee6d44c7f4d603baf908c9d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/a7/a77ca8fd4bfbaafbe77d0f3c8c0bc910fc9c19c84ee6d44c7f4d603baf908c9d.webp",
+  "updatedAt": "2026-11-19T15:44:43+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p03-objets.webp": "9bd98ff2297ab185edc03fedeff8cc749c4650f1"
+      },
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 647,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p03-objets.webp",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p03-objets.webp": "9bd98ff2297ab185edc03fedeff8cc749c4650f1"
+      },
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 468,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p03-objets.webp",
+        "module-path: content/assets/planches/atlas/p03-objets.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p03-objets.webp": "9bd98ff2297ab185edc03fedeff8cc749c4650f1"
+      },
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 647,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p03-objets.webp",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p03-objets.webp": "9bd98ff2297ab185edc03fedeff8cc749c4650f1"
+      },
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 468,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p03-objets.webp",
+        "module-path: content/assets/planches/atlas/p03-objets.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a77ca8fd4bfbaafbe77d0f3c8c0bc910fc9c19c84ee6d44c7f4d603baf908c9d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,196 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-13T08:07:10+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Test assets — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "scripts/test-assets.js",
+      "repo": "opencade",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "fef64ef090d11abcc5819e66cb89843fbbe27040bdae796a7a7c0019b2213bd0",
+        "classification": "shared-library",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": null,
+        "path": "scripts/test-assets.js",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "fef64ef090d11abcc5819e66cb89843fbbe27040bdae796a7a7c0019b2213bd0",
+        "classification": "shared-library",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": null,
+        "path": "scripts/test-assets.js",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "js",
+  "id": "asset-codegenerated-test-assets-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:scripts/test-assets.js"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "scripts/test-assets.js · test-assets"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:scripts/test-assets.js"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:scripts/test-assets.js"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:scripts/test-assets.js"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+  },
+  "name": "test-assets",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:scripts/test-assets.js"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fef64ef090d11abcc5819e66cb89843fbbe27040bdae796a7a7c0019b2213bd0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "scripts/test-assets.js": "e9ecd39e726644739b17469c5ed3e1da2272ea91"
+      },
+      "assetPath": "scripts/test-assets.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "scripts/node-checks.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: scripts/test-assets.js",
+        "module-path: scripts/node-checks.js"
+      ],
+      "game": "opencade",
+      "importName": "test-assets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/node-checks.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/test-assets.js": "e9ecd39e726644739b17469c5ed3e1da2272ea91"
+      },
+      "assetPath": "scripts/test-assets.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "scripts/node-checks.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: scripts/test-assets.js",
+        "module-path: scripts/node-checks.js"
+      ],
+      "game": "opencade",
+      "importName": "test-assets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/node-checks.js",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fef64ef090d11abcc5819e66cb89843fbbe27040bdae796a7a7c0019b2213bd0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

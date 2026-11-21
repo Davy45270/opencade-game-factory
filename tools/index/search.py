@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from tools.asset_versions import initialize, version_number
-from tools.cli import UsageError
+from tools.cli import UsageError, caller_path
 from tools.core.catalog import Catalogue, InvalidJSON, write_json
 from tools.core.exit_codes import ExitCode
 from tools.discovery.importer import read_assets
@@ -147,7 +147,7 @@ def index(root, args):
         write_json(generated / "search-index.json", {"assets": rows})
         emit_usages(root, assets)
         emit_licenses(root, assets, sheets)
-        write_json(generated / "duplicates.json", dedup.duplicates(assets))
+        write_json(generated / "duplicates.json", dedup.duplicates(assets, root))
         rebuild_database(root, rows, fingerprint)
         result["fingerprint"] = digest_files([generated / name for name in OUTPUTS], generated)
         return ExitCode.OK, result
@@ -196,7 +196,7 @@ def reference_hash(reference, records):
         raise InvalidJSON(f"pHash indisponible pour {reference}.")
     from PIL import Image
 
-    with Image.open(reference) as image:
+    with Image.open(caller_path(reference)) as image:
         return int(dedup.fingerprints(image)["phash"], 16)
 
 
@@ -250,7 +250,7 @@ def search(root, args):
 
 def duplicates(root, args):
     with directory_lock(root / "catalog"):
-        report = dedup.duplicates(read_assets(root).values())
+        report = dedup.duplicates(read_assets(root).values(), root)
         if not args.dry_run:
             directory = Catalogue._regular_path(root / "generated")
             directory.mkdir(exist_ok=True)

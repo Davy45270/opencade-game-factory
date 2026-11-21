@@ -152,6 +152,35 @@
       "role": "sprite",
       "scene": "assets/liste-assets.json",
       "status": "active"
+    },
+    {
+      "assetPath": "public/assets/e04-heros.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/e04-heros.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-heros.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/e04-heros.json",
+      "status": "active"
     }
   ],
   "variants": [

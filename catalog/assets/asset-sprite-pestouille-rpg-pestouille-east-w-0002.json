@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:36:10.358224+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-east-walk-b-0001",
+        "reason": "découpe brute de l'élément pestouille-east-walk-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "40029bbce14f647a71879af602144620a9c8e33bb6a9129c4eecf53790e467e9",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille east walk b",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-east-walk-b-0001",
+          "reason": "découpe brute de l'élément pestouille-east-walk-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-east-walk-b-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:36:09.992426+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-east-walk-b » (assets/export/pestouille-east.png), forme normalisée par le jeu de l'élément pestouille-east-walk-b",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-east-w-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-east-w-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-east.json · cadre sprite-pestouille-east-walk-b"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-east-walk-b-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-212.png, SHA-256 0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-east.json · cadre sprite-pestouille-east-walk-b"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-east-walk-b (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "000c2e139b1932bc",
+    "phash": "b9c69633e80db26c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-east-walk-b-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-east-walk-b livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/pestouille-east.png",
+      "recette {\"atlas\": \"assets/export/pestouille-east.png (png)\", \"boite\": [204, 189, 353, 243], \"cadre\": \"sprite-pestouille-east-walk-b\", \"element\": \"pestouille-east-walk-b\", \"empreintePixels\": \"92dc67f09ad2ee6f1c90bc7a6db3010d796d51c1b77575fbe81f90216234e46a\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"noir-jpeg\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 136, \"w\": 147, \"x\": 255, \"y\": 176}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-east.decoupe.json\", \"tableSha256\": \"5ef6050879185a379fbf9398a2607a882afddd76e12da474974df52ce957c299\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-east-walk-b-0001",
+    "parentSha256": "91c651c3c025e7707ad560b5c6c7e04aafa5c86731e10c1f5c8d92ea3b5a17d8",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-east.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:36:10.358224+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/pestouille-east.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 114,
+        "path": "assets/export/pestouille-east.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-east-walk-b de assets/export/pestouille-east.png (empreinte de pixels 92dc67f09ad2ee6f)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-east-walk-b",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/pestouille-east.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/pestouille-east.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0d2c88f496d48444c70a629638d3fa567cb33113afbef400879d112808cf6986",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

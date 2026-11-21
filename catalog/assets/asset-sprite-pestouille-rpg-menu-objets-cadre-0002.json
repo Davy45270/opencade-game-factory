@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:41:56.636128+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-menu-objets-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-menu-objets (empreinte b00a6518defb)"
+      },
+      {
+        "assetId": "asset-sprite-menu-objets-0001",
+        "reason": "découpe brute de l'élément menu-objets : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2bdf6a59d536a030bb5129a19e1c65ce76f32856390d8c454d53238b9c8434c4",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "menu objets",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-menu-objets-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-menu-objets (empreinte b00a6518defb)"
+        },
+        {
+          "assetId": "asset-sprite-menu-objets-0001",
+          "reason": "découpe brute de l'élément menu-objets : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-menu-objets-cadre-0001",
+        "asset-sprite-menu-objets-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:41:56.275392+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-menu-objets » (public/assets/e03-menu.webp), forme normalisée par le jeu de l'élément menu-objets",
+  "dimensions": {
+    "height": 32,
+    "width": 32
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-menu-objets-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-menu-objets-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-menu.json · cadre sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-menu-objets-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-menu.json · cadre sprite-menu-objets"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg menu-objets (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "96ab6171aba3231f",
+    "phash": "cb95306897cf8734"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-menu-objets-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-menu-objets livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-menu.webp",
+      "recette {\"atlas\": \"public/assets/e03-menu.webp (webp)\", \"boite\": [26, 24, 1524, 796], \"cadre\": \"sprite-menu-objets\", \"element\": \"menu-objets\", \"empreintePixels\": \"b00a6518defb92aee71731f3324d9a621c4b175f9c99c3e58ee6b2d6f3408e00\", \"parametres\": {\"detoure\": true, \"marge\": 1, \"modele\": \"fond:30\", \"taille\": 32, \"unique\": true}, \"regionDuBrut\": {\"h\": 24, \"w\": 26, \"x\": 1524, \"y\": 796}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-menu.decoupe.json\", \"tableSha256\": \"a270542ca9f05223750829f6928f7c45911ebf11ca3df7b349cdf585bfa48aac\"}"
+    ],
+    "parentId": "asset-sprite-menu-objets-0001",
+    "parentSha256": "5dca72771ea2520b6ee9bbd6cd61299ed7767cb67498a677859733a130220446",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-menu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:41:56.636128+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-menu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "public/assets/e03-menu.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-menu-objets de public/assets/e03-menu.webp (empreinte de pixels b00a6518defb92ae)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-menu-objets",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-menu.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-menu.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e212a25faffb9e51ca5dd33cd6347dce80f8d8236b011fff21c903d2cd103a82",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

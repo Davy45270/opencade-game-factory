@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:16:15.462501+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pnj-boulanger-0001",
+        "reason": "découpe brute de l'élément pnj-boulanger : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1d4c60d267a25c7a56de8a61822a64a095294804f8afe636d845adb470a1e9f6",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj boulanger",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pnj-boulanger-0001",
+          "reason": "découpe brute de l'élément pnj-boulanger : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pnj-boulanger-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:16:15.114149+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-boulanger » (assets/export/e03-personnages.png), forme normalisée par le jeu de l'élément pnj-boulanger",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-boulanger-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-boulanger-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-boulanger"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-boulanger-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-boulanger"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-boulanger (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "323232324555228e",
+    "phash": "8c993992676d6633"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-boulanger-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-boulanger livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-personnages.png",
+      "recette {\"atlas\": \"assets/export/e03-personnages.png (png)\", \"boite\": [50, 77, 183, 836], \"cadre\": \"sprite-pnj-boulanger\", \"element\": \"pnj-boulanger\", \"empreintePixels\": \"da8338e06e90f40c65df9df488475cc9041afc92a61518398f2e4082aabc7192\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 77, \"w\": 50, \"x\": 183, \"y\": 836}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-boulanger-0001",
+    "parentSha256": "b25588e62f785944602f11f9e8063779db6bb4498f50ee17c290829f3ee149a0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:16:15.462501+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-boulanger de assets/export/e03-personnages.png (empreinte de pixels da8338e06e90f40c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-boulanger",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e42686739029a8a209a1442af6e029495d020c9dd574b3bdde24d661436d7d7b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

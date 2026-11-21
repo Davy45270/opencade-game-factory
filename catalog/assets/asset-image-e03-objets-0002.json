@@ -152,6 +152,35 @@
       "role": "sprite",
       "scene": "assets/liste-assets.json",
       "status": "active"
+    },
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/e03-objets.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
     }
   ],
   "variants": [

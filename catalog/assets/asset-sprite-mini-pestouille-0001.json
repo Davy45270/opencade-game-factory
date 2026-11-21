@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/60/60e18e5c57ba4247df536b20b7c1b40bd975e5cdbf96b75b80833fcd919ab146.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/e04-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mini-pestouille de assets/export/e04-portraits.png (empreinte de pixels f9730add5ce0725b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mini-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-mini-pestouille-c-0001"
+  ],
   "version": 1,
   "versions": [
     {

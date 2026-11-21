@@ -119,7 +119,37 @@
   "tags": "unknown",
   "thumbnail": "thumbnails/32/324503ccdaa50eb37ef8357035cdb0c782d93cad2764357a1d023ce352f78bbd.webp",
   "updatedAt": "2026-11-19T15:22:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/e03-personnages.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-image-e03-personnages-0002"
   ],

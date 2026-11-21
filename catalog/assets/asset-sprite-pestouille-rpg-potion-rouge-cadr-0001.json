@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:28:41.845879+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-potion-rouge-0001",
+        "reason": "découpe brute de l'élément potion-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9772e0d44b153af303956b77ba8b80fc763a903b9e7cf9aa6cba87173601f814",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "potion rouge",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-potion-rouge-0001",
+          "reason": "découpe brute de l'élément potion-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-potion-rouge-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:28:41.486606+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-potion-rouge » (assets/export/m01-icones.png), forme normalisée par le jeu de l'élément potion-rouge",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-potion-rouge-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-potion-rouge-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-potion-rouge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-potion-rouge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-154.png, SHA-256 3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-potion-rouge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg potion-rouge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b2a222e4c6868c79",
+    "phash": "c4cc3861c7b66d71"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-potion-rouge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-potion-rouge livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-icones.png",
+      "recette {\"atlas\": \"assets/export/m01-icones.png (png)\", \"boite\": [35, 40, 970, 752], \"cadre\": \"sprite-potion-rouge\", \"element\": \"potion-rouge\", \"empreintePixels\": \"637c090423930890f9059c3c543e846e873903dd3701c885066a62e56b093ae2\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 35, \"x\": 970, \"y\": 752}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-potion-rouge-0001",
+    "parentSha256": "a415a30b3ba5ad9bf69345ca435737168ff7f9e030308f4921a7c98fc1afe21c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:28:41.845879+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 106,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-potion-rouge de assets/export/m01-icones.png (empreinte de pixels 637c090423930890)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-potion-rouge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3ea3f05c65af04ac217878a0a03dae3a5df27a437e68567de56dff5ceab890f8",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

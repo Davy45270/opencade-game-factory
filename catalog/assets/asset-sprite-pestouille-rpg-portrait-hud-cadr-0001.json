@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:41:29.225039+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-portrait-hud-0001",
+        "reason": "découpe brute de l'élément portrait-hud : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4d9f45cfb12bece6513131dcc0ee21b6518d458e3c5753ec15995ebc503565ce",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "portrait hud",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-portrait-hud-0001",
+          "reason": "découpe brute de l'élément portrait-hud : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-portrait-hud-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:41:28.869154+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-portrait-hud » (public/assets/e03-interface.webp), forme normalisée par le jeu de l'élément portrait-hud",
+  "dimensions": {
+    "height": 73,
+    "width": 85
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-portrait-hud-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-portrait-hud-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-portrait-hud"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-portrait-hud-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-portrait-hud"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg portrait-hud (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "92c96874767230b0",
+    "phash": "df6360bd6038cc96"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-portrait-hud-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-portrait-hud livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-interface.webp",
+      "recette {\"atlas\": \"public/assets/e03-interface.webp (webp)\", \"boite\": [85, 73, 1132, 832], \"cadre\": \"sprite-portrait-hud\", \"element\": \"portrait-hud\", \"empreintePixels\": \"e3cb46ed7cdbcb06fd8182f2301a2baba85b12a037733c99284bf1950dfc7595\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": 96}, \"regionDuBrut\": {\"h\": 73, \"w\": 85, \"x\": 1132, \"y\": 832}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-interface.decoupe.json\", \"tableSha256\": \"43edceed2f951d2886ec73ac43b51e1b2b7bd98b31305a143f98ea67ea7a1b6f\"}"
+    ],
+    "parentId": "asset-sprite-portrait-hud-0001",
+    "parentSha256": "84af1f6ebb61a124dfddfebbb225fa447d6f0e4e7a4fa969d532ffd2b97b659d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-interface.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:41:29.225039+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-portrait-hud de public/assets/e03-interface.webp (empreinte de pixels e3cb46ed7cdbcb06)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-portrait-hud",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e6692e0dfb3cbeed41736c6dd52f3175ff6c0563c45bf4b50cc160049c21ec68",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

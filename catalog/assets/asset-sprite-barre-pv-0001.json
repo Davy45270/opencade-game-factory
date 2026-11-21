@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/5a/5a2a08ee1d830673d135fa1edc2c684015bff54aa49cda1af7d8fd7dca25423a.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-interface.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-barre-pv de assets/export/e03-interface.png (empreinte de pixels 101c200d6c8c024d)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-barre-pv",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-barre-pv-cadre-li-0001"
+  ],
   "version": 1,
   "versions": [
     {

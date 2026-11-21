@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:48:23.515669+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-lila-face-cadre-l-0001",
+        "reason": "pixels différents du cadre livré sprite-lila-face (empreinte 46de68a6b427)"
+      },
+      {
+        "assetId": "asset-sprite-lila-face-0001",
+        "reason": "découpe brute de l'élément lila-face : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5c0eb11899c935ac2135bd0fb5b57937f3047c5b251d4dc37adb88a3006164fe",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lila face",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-lila-face-cadre-l-0001",
+          "reason": "pixels différents du cadre livré sprite-lila-face (empreinte 46de68a6b427)"
+        },
+        {
+          "assetId": "asset-sprite-lila-face-0001",
+          "reason": "découpe brute de l'élément lila-face : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-lila-face-cadre-l-0001",
+        "asset-sprite-lila-face-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:48:23.140535+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lila-face » (public/assets/e04-heros.webp), forme normalisée par le jeu de l'élément lila-face",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lila-face-cadre-l-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lila-face-cadre-l-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-heros.json · cadre sprite-lila-face"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lila-face-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-320.png, SHA-256 e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-heros.json · cadre sprite-lila-face"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lila-face (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "98333b3b333b3b3b",
+    "phash": "b992a667e39b6604"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lila-face-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lila-face livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-heros.webp",
+      "recette {\"atlas\": \"public/assets/e04-heros.webp (webp)\", \"boite\": [47, 65, 88, 447], \"cadre\": \"sprite-lila-face\", \"element\": \"lila-face\", \"empreintePixels\": \"46de68a6b4276c23d76fd5189e107d83eff89db2ddba00797f4fa2c4c3144114\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 65, \"w\": 47, \"x\": 88, \"y\": 447}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-heros.decoupe.json\", \"tableSha256\": \"687055e22edef5a2df9f8d1aa4cdcd635b5251a5aa715ba53c64a5e0c72b4195\"}"
+    ],
+    "parentId": "asset-sprite-lila-face-0001",
+    "parentSha256": "be2cf874bd1e025563ec2b0d5bc83df5628dc8a0a3ddf15e31a557eaa19941bc",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:48:23.515669+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-heros.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lila-face de public/assets/e04-heros.webp (empreinte de pixels 46de68a6b4276c23)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lila-face",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e0dd0ec12d5158f3a70ac168ab335fbafbde8b526258e120ff4d0fc476e2f1f4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

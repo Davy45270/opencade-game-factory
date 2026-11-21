@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:12:14.416604+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-menu-competences-0001",
+        "reason": "découpe brute de l'élément menu-competences : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1aa5da5599300f6f84c8579506de7961e974dde39a8194d9184306ea2315dfec",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "menu competences",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-menu-competences-0001",
+          "reason": "découpe brute de l'élément menu-competences : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-menu-competences-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:12:14.053654+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-menu-competences » (assets/export/e03-menu.png), forme normalisée par le jeu de l'élément menu-competences",
+  "dimensions": {
+    "height": 32,
+    "width": 32
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-menu-competences-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-menu-competences-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-competences"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-menu-competences-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-2.png, SHA-256 75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-competences"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg menu-competences (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4e5793e429696d93",
+    "phash": "dac1612e9587d978"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-menu-competences-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-menu-competences livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-menu.png",
+      "recette {\"atlas\": \"assets/export/e03-menu.png (png)\", \"boite\": [23, 18, 1525, 824], \"cadre\": \"sprite-menu-competences\", \"element\": \"menu-competences\", \"empreintePixels\": \"aec6a00bbbe728f78b0356261f6002e53e7f4cbc8a3d5910cadc9da893b2ceb2\", \"parametres\": {\"detoure\": true, \"marge\": 1, \"modele\": \"fond:30\", \"taille\": 32, \"unique\": true}, \"regionDuBrut\": {\"h\": 18, \"w\": 23, \"x\": 1525, \"y\": 824}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-menu.decoupe.json\", \"tableSha256\": \"a270542ca9f05223750829f6928f7c45911ebf11ca3df7b349cdf585bfa48aac\"}"
+    ],
+    "parentId": "asset-sprite-menu-competences-0001",
+    "parentSha256": "3c74f17dfab3860feda272be5178dc274405ea263566465a7ce3d48858446b3d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-menu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:12:14.416604+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/e03-menu.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-menu-competences de assets/export/e03-menu.png (empreinte de pixels aec6a00bbbe728f7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-menu-competences",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-menu.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-menu.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "75ae8fdb006c0990c33f4ce02f190b99678bc332f3ff7aaf96f719dc2c343358",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

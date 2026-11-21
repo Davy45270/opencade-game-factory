@@ -160,8 +160,40 @@
   ],
   "thumbnail": "thumbnails/0f/0f7cf68db462f9e47204954d198309cc6b0df51de691159fdf7710494b95c243.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-recrutement.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e04-recrutement.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-non de assets/export/e04-recrutement.png (empreinte de pixels 075f61e8aaf157f5)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-non",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-bouton-non-cadre-0001"
+  ],
   "version": 1,
   "versions": [
     {

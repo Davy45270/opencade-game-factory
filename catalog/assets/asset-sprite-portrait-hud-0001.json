@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/84/84af1f6ebb61a124dfddfebbb225fa447d6f0e4e7a4fa969d532ffd2b97b659d.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-interface.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "assets/export/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-portrait-hud de assets/export/e03-interface.png (empreinte de pixels ab3ea4389ebae932)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-portrait-hud",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-portrait-hud-cadr-0001"
+  ],
   "version": 1,
   "versions": [
     {

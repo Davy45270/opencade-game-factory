@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:17:58.805130+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-golem-glace-0001",
+        "reason": "découpe brute de l'élément golem-glace : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "78e3bcfe35033158382e24329a78fbcd0826c93a27173c20b395f54ea05d5d21",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "golem glace",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-golem-glace-0001",
+          "reason": "découpe brute de l'élément golem-glace : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-golem-glace-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:17:58.469437+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-golem-glace » (assets/export/e04-boss.png), forme normalisée par le jeu de l'élément golem-glace",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-golem-glace-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-golem-glace-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-boss.json · cadre sprite-golem-glace"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-golem-glace-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-55.png, SHA-256 8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-boss.json · cadre sprite-golem-glace"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg golem-glace (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "927154d292ad298f",
+    "phash": "b98d4e7869963631"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-golem-glace-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-golem-glace livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-boss.png",
+      "recette {\"atlas\": \"assets/export/e04-boss.png (png)\", \"boite\": [86, 113, 1458, 637], \"cadre\": \"sprite-golem-glace\", \"element\": \"golem-glace\", \"empreintePixels\": \"bf6b13caf68ec4f194f59d2973cda71a06f695a7d7994d61f8fe4575ce48f8ba\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 192, \"unique\": true}, \"regionDuBrut\": {\"h\": 113, \"w\": 86, \"x\": 1458, \"y\": 637}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-boss.decoupe.json\", \"tableSha256\": \"745cc38dd59edbaa9838283fc2827681e12d93d5dbe9d8bb814d9dd4a5f3a234\"}"
+    ],
+    "parentId": "asset-sprite-golem-glace-0001",
+    "parentSha256": "f37f232f7b87cc9587ddcd943d7d7c387d83065f82632614815fc612c4e42786",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-boss.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:17:58.805130+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-boss.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/e04-boss.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-golem-glace de assets/export/e04-boss.png (empreinte de pixels bf6b13caf68ec4f1)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-golem-glace",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-boss.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-boss.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8ea6009250da0a7fe9f13e9858f1f5b4d306bc36adc084bfe9abe1f025eb4f0a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

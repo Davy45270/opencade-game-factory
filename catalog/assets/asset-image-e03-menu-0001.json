@@ -152,6 +152,35 @@
       "role": "sprite",
       "scene": "tests/unit/web-assets.test.ts",
       "status": "active"
+    },
+    {
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/e03-menu.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/e03-menu.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-menu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-menu.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e03-menu.json",
+      "status": "active"
     }
   ],
   "variants": [

@@ -1,0 +1,213 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:55:54.986140+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-fond-village-cadr-0001",
+        "reason": "pixels différents du cadre livré sprite-fond-village (empreinte 7194c68bd6e8)"
+      },
+      {
+        "assetId": "asset-sprite-fond-village-0001",
+        "reason": "découpe brute de l'élément fond-village : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3e70a3d1d4a086cc1d11fab39b3c89116affad8b64718cc475622aa6891d6836",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fond village",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-fond-village-cadr-0001",
+          "reason": "pixels différents du cadre livré sprite-fond-village (empreinte 7194c68bd6e8)"
+        },
+        {
+          "assetId": "asset-sprite-fond-village-0001",
+          "reason": "découpe brute de l'élément fond-village : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-fond-village-cadr-0001",
+        "asset-sprite-fond-village-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:55:54.636277+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fond-village » (public/assets/m01-fonds.webp), forme normalisée par le jeu de l'élément fond-village",
+  "dimensions": {
+    "height": 234,
+    "width": 541
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fond-village-cadr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fond-village-cadr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-village"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fond-village-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-385.png, SHA-256 63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-village"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg fond-village (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b22a2ae6684cf2b2",
+    "phash": "cc6e59974824b3d9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fond-village-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fond-village livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m01-fonds.webp (webp)\", \"boite\": [541, 234, 17, 320], \"cadre\": \"sprite-fond-village\", \"element\": \"fond-village\", \"empreintePixels\": \"7194c68bd6e840500f9e3a3d5f85d691f0d6d4f47dc5ceae5cce08782eebc580\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"541x234\"}, \"regionDuBrut\": {\"h\": 234, \"w\": 541, \"x\": 17, \"y\": 320}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-fonds.decoupe.json\", \"tableSha256\": \"263fefc0df2de507a53df33350cc44802501066400054f83cbfa6f3401319fda\"}"
+    ],
+    "parentId": "asset-sprite-fond-village-0001",
+    "parentSha256": "ed0cb436c8e7e4d461c4731c8f150f088c9b119fa604f1c4146b1b8ee275abdb",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:55:54.986140+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-village de public/assets/m01-fonds.webp (empreinte de pixels 7194c68bd6e84050)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-village",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "63beea6cf2b411cd438719dcf0118db2b1a4bb9d97196fc888cb7f60899cfebc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

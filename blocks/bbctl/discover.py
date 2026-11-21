@@ -12,6 +12,7 @@ l'union des observations, à l'octet (T03). Les identifiants viennent de `blocks
 
 import json
 import os
+import tomllib
 import re
 import subprocess
 from pathlib import Path, PurePosixPath
@@ -65,12 +66,14 @@ def npm(repo):
         manifest = repo.json(path)
         if not isinstance(manifest, dict):
             continue
-        lock = repo.json(str(pure.with_name("package-lock.json"))) or {}
+        lock = repo.json(str(pure.with_name("package-lock.json"))) or repo.json("package-lock.json") or {}
         packages = lock.get("packages") if isinstance(lock.get("packages"), dict) else {}
+        linked = {key.removeprefix("node_modules/") for key, entry in packages.items()
+                  if isinstance(entry, dict) and entry.get("link")}
         for section, dev in (("dependencies", False), ("devDependencies", True)):
             for name in sorted(manifest.get(section) or {}):
-                if not isinstance(name, str):
-                    continue
+                if not isinstance(name, str) or name in linked:
+                    continue                            # paquet de l'espace de travail : c'est un module local
                 entry = packages.get(f"node_modules/{name}") or {}
                 version = entry.get("version") if isinstance(entry.get("version"), str) else None
                 kind = "test-harness" if name in TEST_HARNESSES else "cli-tool" if dev else "external-library"
@@ -95,6 +98,81 @@ def python(repo):
             found.append({"key": f"pypi:{name.lower()}@{version or 'unresolved'}", "ecosystem": "pypi", "name": name,
                           "kind": "external-library", "version": version, "license": "UNKNOWN", "path": path,
                           "usedBy": [repo.name], "interface": {"language": "python", "runtime": "cpython"}})
+    return found
+
+
+def toml(repo, path):
+    try:
+        return tomllib.loads(repo.read(path).decode("utf-8"))
+    except (tomllib.TOMLDecodeError, UnicodeError):
+        return None
+
+
+def external(key_ecosystem, name, version, path, repo, language, runtime, kind="external-library"):
+    return {"key": f"{key_ecosystem}:{name if key_ecosystem != 'pypi' else name.lower()}@{version or 'unresolved'}",
+            "ecosystem": key_ecosystem, "name": name, "kind": kind, "version": version, "license": "UNKNOWN",
+            "path": path, "usedBy": [repo.name], "interface": {"language": language, "runtime": runtime}}
+
+
+def pyproject(repo):
+    found = []
+    for path in repo.paths:
+        if PurePosixPath(path).name != "pyproject.toml":
+            continue
+        data = toml(repo, path) or {}
+        for entry in (data.get("project") or {}).get("dependencies") or []:
+            match = REQUIREMENT.match(entry.strip()) if isinstance(entry, str) else None
+            if match:
+                found.append(external("pypi", match[1], match[2], path, repo, "python", "cpython"))
+    return found
+
+
+def cargo(repo):
+    found = []
+    for path in repo.paths:
+        if PurePosixPath(path).name != "Cargo.toml":
+            continue
+        for name in sorted((toml(repo, path) or {}).get("dependencies") or {}):
+            found.append(external("cargo", name, None, path, repo, "rust", "native"))
+    return found
+
+
+def gomod(repo):
+    found = []
+    for path in repo.paths:
+        if PurePosixPath(path).name != "go.mod":
+            continue
+        block = False
+        for line in repo.read(path).decode("utf-8", errors="replace").splitlines():
+            line = line.split("//")[0].strip()
+            if line.startswith("require ("):
+                block = True
+                continue
+            if block and line == ")":
+                block = False
+                continue
+            parts = line.removeprefix("require ").split() if (block or line.startswith("require ")) else []
+            if len(parts) >= 2:
+                found.append(external("go", parts[0], parts[1], path, repo, "go", "native"))
+    return found
+
+
+def dockerfile(repo):
+    found = []
+    for path in repo.paths:
+        if not PurePosixPath(path).name.startswith("Dockerfile"):
+            continue
+        stages = set()
+        for line in repo.read(path).decode("utf-8", errors="replace").splitlines():
+            words = line.split()
+            if len(words) >= 2 and words[0].upper() == "FROM":
+                image = next((w for w in words[1:] if not w.startswith("--")), "")
+                if len(words) >= 4 and words[-2].upper() == "AS":
+                    stages.add(words[-1].lower())
+                if not image or image.lower() in stages or "$" in image:
+                    continue
+                name, _, tag = image.partition("@")[0].rpartition(":") if ":" in image.split("/")[-1] else (image, "", "")
+                found.append(external("docker", name or image, tag or None, path, repo, "container", "oci", "service"))
     return found
 
 
@@ -150,7 +228,7 @@ def local_modules(repo):
             for module, name in sorted(modules.items())]
 
 
-ADAPTERS = (npm, python, local_modules)
+ADAPTERS = (npm, python, pyproject, cargo, gomod, dockerfile, local_modules)
 
 
 def observe(repo):
@@ -255,6 +333,10 @@ def discover(blocks, sources_file, clones, dry_run):
             record = read_json(path)
             existing[record.get("id")] = record
     records = build(observations, ids, existing)
+    for block_id, record in existing.items():                 # plus observée : gardée (jamais recyclée), plus utilisée
+        if block_id in records or (record.get("provenance") or {}).get("discoveredBy") != DISCOVERED_BY:
+            continue
+        records[block_id] = {**record, "usedBy": [], "observedIn": []}
     unknown = sorted(record["id"] for record in records.values() if record["origin"]["licenseSpdx"] == "UNKNOWN")
     if not dry_run:
         catalog.mkdir(parents=True, exist_ok=True)

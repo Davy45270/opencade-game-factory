@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit ca73bbb258cf) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 7360c9385b58) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -23,6 +23,12 @@ steps:
     commands:
       # REG-06 : une PR est refusée sans résolution des specs (fichier écrit par l'usine à la génération de cette CI).
       - node .woodpecker/usine/spec-resolue.mjs
+  - name: réutilisation (avertissement)
+    image: *node
+    commands:
+      # BB-001 § 5 : brique nouvelle sans recherche documentée = avertissement (non bloquant pour l'instant).
+      # Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
+      - node .woodpecker/usine/reutilisation.mjs
   - name: lint
     image: *node
     commands:

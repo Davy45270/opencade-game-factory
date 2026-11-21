@@ -157,8 +157,39 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
         out[f".woodpecker/{nom}"] = texte
     for s in sorted(SCRIPTS.glob("*.mjs")):
         out[f".woodpecker/usine/{s.name}"] = s.read_text(encoding="utf-8")
-    out[".woodpecker/usine/spec.json"] = json.dumps(_resolution(depot, p), ensure_ascii=False, indent=1) + "\n"
+    resolution = _resolution(depot, p)
+    out[".woodpecker/usine/spec.json"] = json.dumps(resolution, ensure_ascii=False, indent=1) + "\n"
+    out[".woodpecker/usine/briques.json"] = json.dumps(briques_du_jeu(ICI.parent, resolution.get("project")),
+                                                      ensure_ascii=False, indent=1) + "\n"
     return out
+
+
+REF_HL = re.compile(r"HL-[0-9]+ 7-[0-9]+")
+
+
+def briques_du_jeu(usine: pathlib.Path, projet) -> dict:
+    """BB-001 § 5 (reuse before build, en avertissement) : clés des briques DÉCIDÉES au catalogue (dépendances
+    externes, et modules locaux de ce jeu) et dérogations approuvées. Seules des clés et des références sortent : le
+    fichier part dans un dépôt public."""
+    decided, derogations = set(), {}
+    for f in sorted((usine / "blocks" / "catalog").glob("*.json")):
+        try:
+            b = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        key = (b.get("discovery") or {}).get("key") if isinstance(b, dict) else None
+        if not isinstance(key, str) or (b.get("decision") or {}).get("status") != "decided":
+            continue
+        if not key.startswith("local:") or key.startswith(f"local:{projet}:"):
+            decided.add(key)
+    try:
+        brut = json.loads((usine / "blocks" / "derogations.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        brut = {}
+    for key, entry in sorted((brut if isinstance(brut, dict) else {}).items()):
+        if isinstance(entry, dict) and REF_HL.fullmatch(str(entry.get("ref", ""))):
+            derogations[key] = entry["ref"]
+    return {"repo": projet, "decided": sorted(decided), "derogations": derogations}
 
 
 def _resolution(depot: pathlib.Path, p: dict) -> dict:

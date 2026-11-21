@@ -1,0 +1,214 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T14:38:14+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite seche cheveux — sprite 128×128",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-seche-cheveux"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-p04-objets-0001",
+        "h": 128,
+        "w": 128,
+        "x": 266,
+        "y": 530
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-seche-cheveux-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p04-objets.json · sprite-seche-cheveux"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p04-objets.json#sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée.",
+    "method": "provenance-file",
+    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+  },
+  "name": "sprite-seche-cheveux",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "f9e9711972b20c4a",
+    "phash": "d9cb662c39322c3d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+    ],
+    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
+    "h": 109,
+    "verified": false,
+    "w": 91,
+    "x": 1017,
+    "y": 603
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/db/db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84.webp",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p04-objets.json": "15873c151f2aa8090645dfd8d9f0f4032f663e4b",
+        "content/assets/planches/atlas/p04-objets.webp": "0812bde21fa96157a966dfb5de39718213db6d9b"
+      },
+      "assetPath": "content/assets/planches/atlas/p04-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 765,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p04-objets.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p04-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p04-objets.json": "15873c151f2aa8090645dfd8d9f0f4032f663e4b",
+        "content/assets/planches/atlas/p04-objets.webp": "0812bde21fa96157a966dfb5de39718213db6d9b"
+      },
+      "assetPath": "content/assets/planches/atlas/p04-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 765,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p04-objets.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p04-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sprite",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,214 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T14:38:14+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite btn recommencer — sprite 128×128",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-btn-recommencer"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-p01-ui-0001",
+        "h": 128,
+        "w": 128,
+        "x": 2,
+        "y": 134
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-btn-recommencer-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "content/assets/planches/atlas/p01-ui.json · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p01-ui.json · sprite-btn-recommencer"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p01-ui.json#sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée.",
+    "method": "provenance-file",
+    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+  },
+  "name": "sprite-btn-recommencer",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "f08c96b69296ccf0",
+    "phash": "f5ef43931cc46143"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+    ],
+    "sourceSheetSha256": "295a8fca9186e91b40e7d2f5e2878e57ac9d52627a72f38f7ea6600e28cb28f3",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
+    "h": 96,
+    "verified": false,
+    "w": 96,
+    "x": 124,
+    "y": 175
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-01-webp-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/03/038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2.webp",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-ui.json": "83f5b831912ab61c6999ba7e02b5a37f9c6aac70",
+        "content/assets/planches/atlas/p01-ui.webp": "8eb5f627100838a95412a3b9330ed4f94b40fa93"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-ui.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 297,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-ui.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-ui",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "ui"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "ui",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p01-ui.json": "83f5b831912ab61c6999ba7e02b5a37f9c6aac70",
+        "content/assets/planches/atlas/p01-ui.webp": "8eb5f627100838a95412a3b9330ed4f94b40fa93"
+      },
+      "assetPath": "content/assets/planches/atlas/p01-ui.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 297,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p01-ui.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p01-ui",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "ui"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "ui",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

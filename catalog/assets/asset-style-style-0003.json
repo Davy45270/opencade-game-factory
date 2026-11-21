@@ -1,0 +1,332 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-10-31T02:50:16+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/artificiers",
+        "path": "src/games/artificiers/style.css",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "053ba95739da4a71e343a4b75022bd90b9694a5b",
+        "game": "opencade/artificiers",
+        "path": "src/games/artificiers/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "0e652a57e4cac687d270a16eb62b43e5df35e220",
+        "game": "opencade/artificiers",
+        "path": "src/games/artificiers/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/artificiers",
+        "path": "src/games/artificiers/style.css",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
+        "game": "opencade/artificiers",
+        "path": "src/games/artificiers/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0003",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/artificiers/style.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/games/artificiers/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/artificiers/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/artificiers/style.css"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/artificiers/style.css · artificiers"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/artificiers/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "artificiers",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/artificiers/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b58e516b4b921f925537608d94c61a20a6935137817dac7e9ef706049605a408",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/games/artificiers/style.css": "d2059618791336db7066574f87c38767558b64de"
+      },
+      "assetPath": "src/games/artificiers/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "src/main.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/artificiers/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/artificiers/style.css": "d2059618791336db7066574f87c38767558b64de"
+      },
+      "assetPath": "src/games/artificiers/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "src/main.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/artificiers/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/artificiers/style.css": "d2059618791336db7066574f87c38767558b64de"
+      },
+      "assetPath": "src/games/artificiers/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 115,
+        "path": "src/main.ts"
+      },
+      "commit": "0e652a57e4cac687d270a16eb62b43e5df35e220",
+      "evidence": [
+        "import: src/games/artificiers/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.4.0"
+      ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/artificiers/style.css": "d2059618791336db7066574f87c38767558b64de"
+      },
+      "assetPath": "src/games/artificiers/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 116,
+        "path": "src/main.ts"
+      },
+      "commit": "053ba95739da4a71e343a4b75022bd90b9694a5b",
+      "evidence": [
+        "import: src/games/artificiers/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.0",
+        "v0.5.1"
+      ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/artificiers/style.css": "d2059618791336db7066574f87c38767558b64de"
+      },
+      "assetPath": "src/games/artificiers/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 116,
+        "path": "src/main.ts"
+      },
+      "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
+      "evidence": [
+        "import: src/games/artificiers/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.0",
+        "v0.5.1"
+      ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b58e516b4b921f925537608d94c61a20a6935137817dac7e9ef706049605a408",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

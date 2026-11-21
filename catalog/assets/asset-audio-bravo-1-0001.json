@@ -1,0 +1,187 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-18T11:33:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Bravo 1 — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/voix/bravo.1.ogg",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/voix/bravo.1.ogg",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-bravo-1-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/bravo.1.ogg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/voix/bravo.1.ogg · bravo.1"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/bravo.1.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/bravo.1.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/bravo.1.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "bravo.1",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/bravo.1.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2f9ef3a4aaf96fd0e687a3acba58d3c0dc7ec8e2f8a55beed3820bc10d8ce665",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/voix/bravo.1.ogg": "5936f0447919d70967948f4628ebbbf6dfd557e0"
+      },
+      "assetPath": "public/voix/bravo.1.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 56,
+        "path": "tests/voix.test.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/bravo.1.ogg",
+        "module-path: tests/voix.test.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "bravo.1",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/voix.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/voix/bravo.1.ogg": "5936f0447919d70967948f4628ebbbf6dfd557e0"
+      },
+      "assetPath": "public/voix/bravo.1.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 56,
+        "path": "tests/voix.test.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/bravo.1.ogg",
+        "module-path: tests/voix.test.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "bravo.1",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/voix.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2f9ef3a4aaf96fd0e687a3acba58d3c0dc7ec8e2f8a55beed3820bc10d8ce665",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

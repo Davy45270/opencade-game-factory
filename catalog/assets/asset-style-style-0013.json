@@ -1,0 +1,689 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-10-30T15:46:54+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 6,
+        "classification": "game",
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ae25ee5977f01c337bdf4f7d20480fa3aed402e9",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "classification": "game",
+        "commit": "c57a688e72f2e0ec41ac45b33e383b3ee0019729",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 4,
+        "classification": "game",
+        "commit": "cba472eee1035ef666ff4802020f5cbadde35d64",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "d7abe725ae8aa560ec2080bb56a5195268497470",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 5,
+        "classification": "game",
+        "commit": "f3cc726e59a0eb84e9507b3eb448be600c4ca775",
+        "game": "tictac",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "tictac",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0013",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/ui/style.css · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/ui/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "tictac@05959b8f6103482adf2f4bb3d81f9af823c623f1:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "tictac@05959b8f6103482adf2f4bb3d81f9af823c623f1:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "tictac@05959b8f6103482adf2f4bb3d81f9af823c623f1:src/ui/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "tictac@05959b8f6103482adf2f4bb3d81f9af823c623f1:src/ui/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7aadcf8c11b7e9b5c58794ab30b671b3f56a216f7e6791667bf3f1956f6111fd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-04T16:47:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "dc0378d734dd5f08f418eac03e6101301505fff4"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 6,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "588ec8319f80865d70ca5c0e174e3e3299311f6b"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "ae25ee5977f01c337bdf4f7d20480fa3aed402e9",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.1.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "d3fde81e72b2bd0d0a89c41fec8aadea75fbabd1"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "c57a688e72f2e0ec41ac45b33e383b3ee0019729",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.3.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "663513c148a1ac376ef9639130b659be7162a44c"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 4,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "cba472eee1035ef666ff4802020f5cbadde35d64",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.4.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "9fe3a7a354f83bf97e246a0354ee40454c9ddbff"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "d7abe725ae8aa560ec2080bb56a5195268497470",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.2.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "00ed7b7bb11fb62c331f03d58d7fd45009a76b9e"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "f3cc726e59a0eb84e9507b3eb448be600c4ca775",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "dc0378d734dd5f08f418eac03e6101301505fff4"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 6,
+      "codeRef": {
+        "line": 26,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "d3fde81e72b2bd0d0a89c41fec8aadea75fbabd1"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 26,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "c57a688e72f2e0ec41ac45b33e383b3ee0019729",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.3.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "663513c148a1ac376ef9639130b659be7162a44c"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 4,
+      "codeRef": {
+        "line": 26,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "cba472eee1035ef666ff4802020f5cbadde35d64",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.4.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "00ed7b7bb11fb62c331f03d58d7fd45009a76b9e"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 26,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "f3cc726e59a0eb84e9507b3eb448be600c4ca775",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "dc0378d734dd5f08f418eac03e6101301505fff4"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 6,
+      "codeRef": {
+        "line": 54,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "d3fde81e72b2bd0d0a89c41fec8aadea75fbabd1"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 54,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "c57a688e72f2e0ec41ac45b33e383b3ee0019729",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.3.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "663513c148a1ac376ef9639130b659be7162a44c"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 4,
+      "codeRef": {
+        "line": 54,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "cba472eee1035ef666ff4802020f5cbadde35d64",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.4.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "00ed7b7bb11fb62c331f03d58d7fd45009a76b9e"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 54,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "f3cc726e59a0eb84e9507b3eb448be600c4ca775",
+      "evidence": [
+        "new URL: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "tictac",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.0"
+      ],
+      "repo": "tictac",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 6,
+  "versions": [
+    {
+      "commit": "ae25ee5977f01c337bdf4f7d20480fa3aed402e9",
+      "date": "2026-10-30T19:06:39+01:00",
+      "nextVersion": 2,
+      "previousVersion": null,
+      "sha256": "91da3c7ac91f3da6b4e1c9ec111de8b337845042425ea88d9ddec527e3cb3866",
+      "version": 1
+    },
+    {
+      "commit": "d7abe725ae8aa560ec2080bb56a5195268497470",
+      "date": "2026-10-30T19:24:33+01:00",
+      "nextVersion": 3,
+      "previousVersion": 1,
+      "sha256": "17c6ea18d14325e55324f70d7e7f41890756e0da2cfd14e873ab5f9bb9303521",
+      "version": 2
+    },
+    {
+      "commit": "c57a688e72f2e0ec41ac45b33e383b3ee0019729",
+      "date": "2026-10-30T23:42:41+01:00",
+      "nextVersion": 4,
+      "previousVersion": 2,
+      "sha256": "ead3ce684d2d67ef84a43514294872ec8c2bb274061c4771dc96ac78d4f2d3e1",
+      "version": 3
+    },
+    {
+      "commit": "cba472eee1035ef666ff4802020f5cbadde35d64",
+      "date": "2026-11-03T22:35:18+01:00",
+      "nextVersion": 5,
+      "previousVersion": 3,
+      "sha256": "eb8b172c9ca3555300b88809118a0c16f9ac47fd8e3b82a0ce0f8499027708fd",
+      "version": 4
+    },
+    {
+      "commit": "f3cc726e59a0eb84e9507b3eb448be600c4ca775",
+      "date": "2026-11-04T07:52:15+01:00",
+      "nextVersion": 6,
+      "previousVersion": 4,
+      "sha256": "5d02b59c08db07bff82114444bddf4f17cb2c288cea2fa7a1b8864f0b06a8d9b",
+      "version": 5
+    },
+    {
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "date": "2026-11-04T16:47:46+01:00",
+      "nextVersion": null,
+      "previousVersion": 5,
+      "sha256": "7aadcf8c11b7e9b5c58794ab30b671b3f56a216f7e6791667bf3f1956f6111fd",
+      "version": 6
+    }
+  ],
+  "visualStyle": null
+}

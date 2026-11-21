@@ -1,0 +1,253 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-19T08:47:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Rangement — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 44100
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/rangement.ogg",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/rangement.ogg",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-rangement-0002",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/rangement.ogg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/public/sons/rangement.ogg · rangement"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/rangement.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/rangement.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/rangement.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "rangement",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/rangement.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "491c46bf40ec52ec989705524dc20d301300ba20365a9862164d20dab4c095a4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/rangement.ogg": "bd4a33f5976348ec9f439cc37687c1ff0095aa30"
+      },
+      "assetPath": "apps/web/public/sons/rangement.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 63,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/rangement.ogg",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "rangement",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/rangement.ogg": "bd4a33f5976348ec9f439cc37687c1ff0095aa30"
+      },
+      "assetPath": "apps/web/public/sons/rangement.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5749,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/rangement.ogg",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "rangement",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/rangement.ogg": "bd4a33f5976348ec9f439cc37687c1ff0095aa30"
+      },
+      "assetPath": "apps/web/public/sons/rangement.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 63,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/rangement.ogg",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "rangement",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/rangement.ogg": "bd4a33f5976348ec9f439cc37687c1ff0095aa30"
+      },
+      "assetPath": "apps/web/public/sons/rangement.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5749,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/rangement.ogg",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "rangement",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "491c46bf40ec52ec989705524dc20d301300ba20365a9862164d20dab4c095a4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

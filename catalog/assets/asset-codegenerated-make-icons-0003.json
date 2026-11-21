@@ -1,0 +1,408 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-11-18T20:32:51+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Make icons — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "scripts/make-icons.js",
+      "repo": "six-de-chaque",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "5ede5e1f21f01601123356a494183739f08a04ee3b529084343b4688356e6912",
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "scripts/make-icons.js",
+        "provider": "forgejo",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "5ede5e1f21f01601123356a494183739f08a04ee3b529084343b4688356e6912",
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque",
+        "path": "scripts/make-icons.js",
+        "provider": "local",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "js",
+  "id": "asset-codegenerated-make-icons-0003",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "scripts/make-icons.js · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "scripts/make-icons.js · make-icons"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:scripts/make-icons.js"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:scripts/make-icons.js"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:scripts/make-icons.js"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "scripts/make-icons.js · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "scripts/make-icons.js · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@05c83c760d733ac016713c5bd8a0505b3fc19f43"
+  },
+  "name": "make-icons",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:scripts/make-icons.js"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5ede5e1f21f01601123356a494183739f08a04ee3b529084343b4688356e6912",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "updatedAt": "2026-11-19T15:38:02+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 15,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 17,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 114,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 15,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 17,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/make-icons.js": "d6919e9f7c6d96e87537e587ce85c9b4c1fbcb37"
+      },
+      "assetPath": "scripts/make-icons.js",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 114,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: scripts/make-icons.js",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "make-icons",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "icon",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "date": "2026-11-19T15:38:02+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5ede5e1f21f01601123356a494183739f08a04ee3b529084343b4688356e6912",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

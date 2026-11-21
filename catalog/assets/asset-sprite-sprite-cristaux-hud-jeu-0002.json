@@ -1,0 +1,170 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite cristaux hud jeu — sprite 144×144",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-cristaux-hud-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-compteur-jeu-3x-0001",
+        "h": 144,
+        "w": 144,
+        "x": 148,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-cristaux-hud-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/compteur-jeu@3x.json · hud"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/compteur-jeu@3x.json · sprite-cristaux-hud-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/compteur-jeu@3x.json#sprite-cristaux-hud-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-cristaux-hud-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "135d4d2125252d07",
+    "phash": "fed38179a1688578"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "62x70+502+525"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "18282c4b26957d4f1fe070f9f5fbe1b27b89240b3cee3616314ec51fd03933bd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/18/18282c4b26957d4f1fe070f9f5fbe1b27b89240b3cee3616314ec51fd03933bd.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-jeu@3x.json": "4f7587cb8c037aaa20a430172e71b951af6dc841",
+        "packages/assets/atlas/compteur-jeu@3x.png": "bdec6c671553b38e7ff2dd6b8c3b40ac03ea3c05"
+      },
+      "assetPath": "packages/assets/atlas/compteur-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1404,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-cristaux-hud-jeu-0002",
+    "asset-sprite-sprite-cristaux-hud-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "18282c4b26957d4f1fe070f9f5fbe1b27b89240b3cee3616314ec51fd03933bd",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

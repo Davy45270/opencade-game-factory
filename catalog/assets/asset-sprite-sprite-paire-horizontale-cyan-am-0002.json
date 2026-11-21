@@ -1,0 +1,170 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite paire horizontale cyan ambre — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-paire-horizontale-cyan-ambre"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-paires-horizontale-origine-3x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 196,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-paire-horizontale-cyan-am-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/paires-horizontale-origine@3x.json · sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-horizontale-origine@3x.json#sprite-paire-horizontale-cyan-ambre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-paire-horizontale-cyan-ambre",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "548caa3a3aaadc71",
+    "phash": "91f0624b4c1f6e9e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "181x90+540+382"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "638bcf84c4053b15f7a1ec4a1bbcafb69bd70dab30337f7a972730779724eb9b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/63/638bcf84c4053b15f7a1ec4a1bbcafb69bd70dab30337f7a972730779724eb9b.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/paires-horizontale-origine@3x.json": "5f539d1072ced0a3bba2198a56bca1adbb857c49",
+        "packages/assets/atlas/paires-horizontale-origine@3x.png": "a17f697f9eb34335835fdfdf4eed33e1e2710db6"
+      },
+      "assetPath": "packages/assets/atlas/paires-horizontale-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4293,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/paires-horizontale-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "paires-horizontale-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-paire-horizontale-cyan-am-0001",
+    "asset-sprite-sprite-paire-horizontale-cyan-am-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "638bcf84c4053b15f7a1ec4a1bbcafb69bd70dab30337f7a972730779724eb9b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

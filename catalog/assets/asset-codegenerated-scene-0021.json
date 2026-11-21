@@ -1,0 +1,267 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-06T20:09:10+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Scene — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "src/games/petits-pompiers/scene.ts",
+      "repo": "opencade",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "42dd0eb5443a7708c629e7a0e10f10ce85f8e67a4aae6482ebf9514d86ff1f1a",
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/petits-pompiers",
+        "path": "src/games/petits-pompiers/scene.ts",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "42dd0eb5443a7708c629e7a0e10f10ce85f8e67a4aae6482ebf9514d86ff1f1a",
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/petits-pompiers",
+        "path": "src/games/petits-pompiers/scene.ts",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-scene-0021",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/scene.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/games/petits-pompiers/scene.ts · scene"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/scene.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/scene.ts"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/petits-pompiers/scene.ts · petits-pompiers"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/scene.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+  },
+  "name": "scene",
+  "orientation": "unknown",
+  "originUniverse": "petits-pompiers",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/petits-pompiers/scene.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "42dd0eb5443a7708c629e7a0e10f10ce85f8e67a4aae6482ebf9514d86ff1f1a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/scene.ts": "7135242a2bf306dace365bb94843a4203e6eb1be"
+      },
+      "assetPath": "src/games/petits-pompiers/scene.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "scripts/petits-pompiers-scene-oracle.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/scene.ts",
+        "module-path: scripts/petits-pompiers-scene-oracle.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/petits-pompiers-scene-oracle.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/scene.ts": "7135242a2bf306dace365bb94843a4203e6eb1be"
+      },
+      "assetPath": "src/games/petits-pompiers/scene.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 19,
+        "path": "scripts/test-e2e-impact.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/scene.ts",
+        "module-path: scripts/test-e2e-impact.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/test-e2e-impact.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/scene.ts": "7135242a2bf306dace365bb94843a4203e6eb1be"
+      },
+      "assetPath": "src/games/petits-pompiers/scene.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "scripts/petits-pompiers-scene-oracle.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/scene.ts",
+        "module-path: scripts/petits-pompiers-scene-oracle.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/petits-pompiers-scene-oracle.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/petits-pompiers/scene.ts": "7135242a2bf306dace365bb94843a4203e6eb1be"
+      },
+      "assetPath": "src/games/petits-pompiers/scene.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 19,
+        "path": "scripts/test-e2e-impact.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: src/games/petits-pompiers/scene.ts",
+        "module-path: scripts/test-e2e-impact.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/test-e2e-impact.js",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "42dd0eb5443a7708c629e7a0e10f10ce85f8e67a4aae6482ebf9514d86ff1f1a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

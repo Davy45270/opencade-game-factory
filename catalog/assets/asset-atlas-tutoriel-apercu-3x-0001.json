@@ -1,0 +1,185 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T06:17:37+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Tutoriel apercu 3x — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 168,
+        "name": "sprite-tutoriel-aligner",
+        "w": 168,
+        "x": 2,
+        "y": 2
+      },
+      {
+        "h": 168,
+        "name": "sprite-tutoriel-deplacer",
+        "w": 168,
+        "x": 172,
+        "y": 2
+      },
+      {
+        "h": 168,
+        "name": "sprite-tutoriel-pivoter",
+        "w": 168,
+        "x": 342,
+        "y": 2
+      },
+      {
+        "h": 168,
+        "name": "sprite-tutoriel-eliminer",
+        "w": 168,
+        "x": 512,
+        "y": 2
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/tutoriel-apercu@3x.json",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "tutoriel-apercu@3x.png"
+  },
+  "id": "asset-atlas-tutoriel-apercu-3x-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/tutoriel-apercu@3x.json · tutoriel-apercu@3x"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/tutoriel-apercu@3x.json · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "tutoriel-apercu@3x",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/tutoriel-apercu@3x.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4bb594d0567c2c6f736a1ae232d74c21a02eef4dc69d0641156adedf6e760629",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@3x.json": "de639eda09f9d96c0760f13f0d7a0766f0c80687"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5559,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4bb594d0567c2c6f736a1ae232d74c21a02eef4dc69d0641156adedf6e760629",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

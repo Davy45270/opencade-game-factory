@@ -1,0 +1,253 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-19T08:47:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Victoire — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": null,
+      "durationSec": null,
+      "sampleRate": null
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/victoire.mp3",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "apps/web/public/sons/victoire.mp3",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "mp3",
+  "id": "asset-audio-victoire-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/victoire.mp3"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/public/sons/victoire.mp3 · victoire"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/victoire.mp3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/victoire.mp3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/victoire.mp3"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "victoire",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/sons/victoire.mp3"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6e3ac35251dde71ccfd2bb79dda67bf9cfcd6e3a6325e86419edc200afd9384c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/victoire.mp3": "8f58e9d793832f8dac98640689d80604faaef50d"
+      },
+      "assetPath": "apps/web/public/sons/victoire.mp3",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/victoire.mp3",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "victoire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/victoire.mp3": "8f58e9d793832f8dac98640689d80604faaef50d"
+      },
+      "assetPath": "apps/web/public/sons/victoire.mp3",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5768,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/victoire.mp3",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "victoire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/victoire.mp3": "8f58e9d793832f8dac98640689d80604faaef50d"
+      },
+      "assetPath": "apps/web/public/sons/victoire.mp3",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/victoire.mp3",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "victoire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/sons/victoire.mp3": "8f58e9d793832f8dac98640689d80604faaef50d"
+      },
+      "assetPath": "apps/web/public/sons/victoire.mp3",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5768,
+        "path": "content/assets/provenance.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: apps/web/public/sons/victoire.mp3",
+        "module-path: content/assets/provenance.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "victoire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "sfx",
+      "scene": "content/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6e3ac35251dde71ccfd2bb79dda67bf9cfcd6e3a6325e86419edc200afd9384c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

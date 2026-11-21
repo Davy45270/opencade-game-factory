@@ -1,0 +1,253 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-16T11:07:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Fr pere phrase — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-pere-phrase.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-pere-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-fr-pere-phrase-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/dictee/audio/fr-pere-phrase.ogg · audio"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/dictee/audio/fr-pere-phrase.ogg · fr-pere-phrase"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-pere-phrase.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-pere-phrase.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-pere-phrase.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "fr-pere-phrase",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-pere-phrase.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b9e289ddcb60b7c19b201f3696371d01c8da3b03f72071357a9a32a706507454",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-pere-phrase.ogg": "aab70fccd3a58aa4db4d327e97e8bc5af9b6f0f9"
+      },
+      "assetPath": "public/dictee/audio/fr-pere-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7297,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-pere-phrase.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-pere-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-pere-phrase.ogg": "aab70fccd3a58aa4db4d327e97e8bc5af9b6f0f9"
+      },
+      "assetPath": "public/dictee/audio/fr-pere-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 662,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-pere-phrase.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-pere-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-pere-phrase.ogg": "aab70fccd3a58aa4db4d327e97e8bc5af9b6f0f9"
+      },
+      "assetPath": "public/dictee/audio/fr-pere-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7297,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-pere-phrase.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-pere-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-pere-phrase.ogg": "aab70fccd3a58aa4db4d327e97e8bc5af9b6f0f9"
+      },
+      "assetPath": "public/dictee/audio/fr-pere-phrase.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 662,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-pere-phrase.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-pere-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "date": "2026-11-18T20:05:47+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b9e289ddcb60b7c19b201f3696371d01c8da3b03f72071357a9a32a706507454",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

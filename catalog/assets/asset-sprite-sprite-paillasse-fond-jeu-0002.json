@@ -1,0 +1,194 @@
+{
+  "alpha": true,
+  "category": "environments",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite paillasse fond jeu — sprite 336×336",
+  "dimensions": {
+    "height": 336,
+    "width": 336
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-paillasse-fond-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-fond-jeu-3x-0001",
+        "h": 336,
+        "w": 336,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-paillasse-fond-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@3x.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@3x.json · sprite-paillasse-fond-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fond-jeu@3x.json#sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@3x.json · fond"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fond-jeu@3x.json · backgrounds"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-paillasse-fond-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "08c419cae6334400",
+    "phash": "c13bbec4453b3ac4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "63806e5570bb10ba8eca479096131b8aeae803d357d073206f895acbdf80f736",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 113,
+    "verified": false,
+    "w": 304,
+    "x": 1169,
+    "y": 616
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "backgrounds",
+  "tags": [
+    "backgrounds"
+  ],
+  "thumbnail": "thumbnails/63/63806e5570bb10ba8eca479096131b8aeae803d357d073206f895acbdf80f736.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fond-jeu@3x.json": "83cbca5930afa5e0876da6b8b4c4b64dfb43db2b",
+        "packages/assets/atlas/fond-jeu@3x.png": "7038118f0b2d93aa62cd119f98a0d45a290f712c"
+      },
+      "assetPath": "packages/assets/atlas/fond-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2679,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fond-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fond-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-paillasse-fond-jeu-0002",
+    "asset-sprite-sprite-paillasse-fond-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "63806e5570bb10ba8eca479096131b8aeae803d357d073206f895acbdf80f736",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

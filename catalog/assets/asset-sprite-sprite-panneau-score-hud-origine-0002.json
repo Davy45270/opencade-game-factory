@@ -1,0 +1,178 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite panneau score hud origine — sprite 288×288",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-panneau-score-hud-origine"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-hud-origine-3x-0001",
+        "h": 288,
+        "w": 288,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-panneau-score-hud-origine-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/hud-origine@3x.json · hud"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/hud-origine@3x.json · sprite-panneau-score-hud-origine"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/hud-origine@3x.json#sprite-panneau-score-hud-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-panneau-score-hud-origine",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "2186797947218001",
+    "phash": "ba9ac1653e9a1a65"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "83efc24d32c5b889612a97235841b48c616bd6ce663bc2cb6132ece132ee4dad",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 117,
+    "verified": false,
+    "w": 247,
+    "x": 719,
+    "y": 692
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-planche-01-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/83/83efc24d32c5b889612a97235841b48c616bd6ce663bc2cb6132ece132ee4dad.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/hud-origine@3x.json": "26cbeb529df392e0fc27d40bd4c0104f6dec5440",
+        "packages/assets/atlas/hud-origine@3x.png": "219106265493fc71674c5a4d1f5b5dac99399122"
+      },
+      "assetPath": "packages/assets/atlas/hud-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3054,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/hud-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "hud-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "hud"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "ui",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-panneau-score-hud-origine-0001",
+    "asset-sprite-sprite-panneau-score-hud-origine-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "83efc24d32c5b889612a97235841b48c616bd6ce663bc2cb6132ece132ee4dad",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

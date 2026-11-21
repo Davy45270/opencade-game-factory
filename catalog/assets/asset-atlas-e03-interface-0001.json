@@ -1,0 +1,218 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "E03 interface — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 15,
+        "name": "sprite-barre-pm",
+        "w": 139,
+        "x": 110,
+        "y": 92
+      },
+      {
+        "h": 19,
+        "name": "sprite-barre-pv",
+        "w": 139,
+        "x": 110,
+        "y": 73
+      },
+      {
+        "h": 48,
+        "name": "sprite-case-inventaire",
+        "w": 48,
+        "x": 195,
+        "y": 0
+      },
+      {
+        "h": 99,
+        "name": "sprite-minicarte",
+        "w": 110,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 73,
+        "name": "sprite-portrait-hud",
+        "w": 85,
+        "x": 110,
+        "y": 0
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e03-interface.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "e03-interface.png"
+  },
+  "id": "asset-atlas-e03-interface-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e03-interface.json · e03-interface"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "e03-interface",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-interface.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "220434a5fa4a1200a1ccf069fb4748274579e3a6b7e44c94affd61b61360e36d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.json": "9f23b502a2b476ae1bb35eaf171551c989a7cc74"
+      },
+      "assetPath": "public/assets/e03-interface.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-interface.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.json": "9f23b502a2b476ae1bb35eaf171551c989a7cc74"
+      },
+      "assetPath": "public/assets/e03-interface.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e03-interface.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-interface.json",
+        "module-path: assets/manifests/e03-interface.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "220434a5fa4a1200a1ccf069fb4748274579e3a6b7e44c94affd61b61360e36d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

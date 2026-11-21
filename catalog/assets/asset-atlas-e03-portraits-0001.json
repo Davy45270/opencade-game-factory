@@ -1,0 +1,225 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "E03 portraits — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 256,
+        "name": "sprite-borin-portrait",
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 256,
+        "name": "sprite-lila-portrait",
+        "w": 256,
+        "x": 256,
+        "y": 0
+      },
+      {
+        "h": 256,
+        "name": "sprite-logo",
+        "w": 256,
+        "x": 512,
+        "y": 0
+      },
+      {
+        "h": 256,
+        "name": "sprite-nox-portrait",
+        "w": 256,
+        "x": 0,
+        "y": 256
+      },
+      {
+        "h": 256,
+        "name": "sprite-pestouille-portrait",
+        "w": 256,
+        "x": 256,
+        "y": 256
+      },
+      {
+        "h": 256,
+        "name": "sprite-pestouille-pose",
+        "w": 256,
+        "x": 512,
+        "y": 256
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e03-portraits.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "e03-portraits.png"
+  },
+  "id": "asset-atlas-e03-portraits-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e03-portraits.json · e03-portraits"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "e03-portraits",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f12b1ac21487b000d88554064203f97719d5af2a95fb4112fe2b2e94e48541d5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 221,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e03-portraits.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets/manifests/e03-portraits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f12b1ac21487b000d88554064203f97719d5af2a95fb4112fe2b2e94e48541d5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

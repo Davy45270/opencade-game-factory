@@ -1,0 +1,260 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T06:17:37+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite pont gauche — image 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "left",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-pont-gauche.png",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-sprite-pont-gauche-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/sprites/sprite-pont-gauche.png · sprite-pont-gauche"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    },
+    "facing": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/sprites/sprite-pont-gauche.png · left"
+      ],
+      "method": "path-tokens"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/sprites/sprite-pont-gauche.png · gauche"
+      ],
+      "method": "path-tokens"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/sprites/sprite-pont-gauche.png · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pont-gauche",
+  "orientation": "left",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "4000c02828c00040",
+    "phash": "bf1ec0e1fe1e01c1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-pont-gauche.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a4de31642f8bfaa477a70856f4643ec34260e1e32849c7cf83366023ede9e171",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/a4/a4de31642f8bfaa477a70856f4643ec34260e1e32849c7cf83366023ede9e171.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-pont-gauche.png": "9f98cd4758d257f296096b48566cf2306eff28a6"
+      },
+      "assetPath": "packages/assets/sprites/sprite-pont-gauche.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7393,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-pont-gauche.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-pont-gauche",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-pont-gauche.png": "9f98cd4758d257f296096b48566cf2306eff28a6"
+      },
+      "assetPath": "packages/assets/sprites/sprite-pont-gauche.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 887,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-pont-gauche.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-pont-gauche",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-pont-gauche.png": "9f98cd4758d257f296096b48566cf2306eff28a6"
+      },
+      "assetPath": "packages/assets/sprites/sprite-pont-gauche.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-pont-gauche.png",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "pontGauche",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-sprite-pont-gauche-0001",
+    "asset-sprite-sprite-pont-gauche-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a4de31642f8bfaa477a70856f4643ec34260e1e32849c7cf83366023ede9e171",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

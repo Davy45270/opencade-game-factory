@@ -1,0 +1,170 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite paire verticale cyan ambre — sprite 192×192",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-paire-verticale-cyan-ambre"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-paires-verticale-origine-3x-0001",
+        "h": 192,
+        "w": 192,
+        "x": 196,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-paire-verticale-cyan-ambr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/paires-verticale-origine@3x.json · sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/paires-verticale-origine@3x.json#sprite-paire-verticale-cyan-ambre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-paire-verticale-cyan-ambre",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "ccce8e55d4cc96e8",
+    "phash": "c56fe3c34b383238"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "77x151+1086+205"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d120cd9bcdd6f7046bf6c5541d3869a6d703ea890ebae9157fa467a55c427c50",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/d1/d120cd9bcdd6f7046bf6c5541d3869a6d703ea890ebae9157fa467a55c427c50.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/paires-verticale-origine@3x.json": "ad915c2f3b2be4c1c92e8430fc653ecec84772a2",
+        "packages/assets/atlas/paires-verticale-origine@3x.png": "f6833437b59afb72822e4dd92f9e28831dc07527"
+      },
+      "assetPath": "packages/assets/atlas/paires-verticale-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4419,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/paires-verticale-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "paires-verticale-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-paire-verticale-cyan-ambr-0001",
+    "asset-sprite-sprite-paire-verticale-cyan-ambr-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d120cd9bcdd6f7046bf6c5541d3869a6d703ea890ebae9157fa467a55c427c50",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

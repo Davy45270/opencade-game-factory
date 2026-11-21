@@ -1,0 +1,243 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T08:47:17+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "P02 objets — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 128,
+        "name": "sprite-bougie-ruban",
+        "w": 128,
+        "x": 2,
+        "y": 2
+      },
+      {
+        "h": 128,
+        "name": "sprite-cadre-suspendu",
+        "w": 128,
+        "x": 134,
+        "y": 2
+      },
+      {
+        "h": 128,
+        "name": "sprite-cloche-lumineuse",
+        "w": 128,
+        "x": 266,
+        "y": 2
+      },
+      {
+        "h": 128,
+        "name": "sprite-coussins-duo",
+        "w": 128,
+        "x": 2,
+        "y": 134
+      },
+      {
+        "h": 128,
+        "name": "sprite-lanterne-maison",
+        "w": 128,
+        "x": 134,
+        "y": 134
+      },
+      {
+        "h": 128,
+        "name": "sprite-livres-plante",
+        "w": 128,
+        "x": 266,
+        "y": 134
+      },
+      {
+        "h": 128,
+        "name": "sprite-ours-panier",
+        "w": 128,
+        "x": 2,
+        "y": 266
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p02-objets.json",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+        "game": "cozy-room-sort",
+        "path": "content/assets/planches/atlas/p02-objets.json",
+        "provider": "local",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "p02-objets.webp"
+  },
+  "id": "asset-atlas-p02-objets-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/assets/planches/atlas/p02-objets.json · p02-objets"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "p02-objets",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/atlas/p02-objets.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "bc96a513f3ab25f7338eadde48af00bd5c65a703685e9b95c63936d74e0fb509",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T14:38:14+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p02-objets.json": "a3e40476ba2d1eeeb649e9eee7bfa1020eab4c01"
+      },
+      "assetPath": "content/assets/planches/atlas/p02-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 459,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p02-objets.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p02-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/assets/planches/atlas/p02-objets.json": "a3e40476ba2d1eeeb649e9eee7bfa1020eab4c01"
+      },
+      "assetPath": "content/assets/planches/atlas/p02-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 459,
+        "path": "content/assets/inventaire.json"
+      },
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "evidence": [
+        "literal: content/assets/planches/atlas/p02-objets.json",
+        "module-path: content/assets/inventaire.json"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "p02-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas",
+      "scene": "content/assets/inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "date": "2026-11-19T14:38:14+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "bc96a513f3ab25f7338eadde48af00bd5c65a703685e9b95c63936d74e0fb509",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

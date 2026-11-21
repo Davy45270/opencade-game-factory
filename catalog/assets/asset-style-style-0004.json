@@ -1,0 +1,189 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-11T17:33:28+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/busfolie",
+        "path": "src/games/busfolie/style.css",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": "opencade/busfolie",
+        "path": "src/games/busfolie/style.css",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0004",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/busfolie/style.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/games/busfolie/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/busfolie/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/busfolie/style.css"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/games/busfolie/style.css · busfolie"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/busfolie/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "busfolie",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:src/games/busfolie/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "598b9f4cf53171c76156a71bc7de017b7f02158c4a87637fbfbb404e2227a4fa",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/games/busfolie/style.css": "7b782d62961df9125ef145e9d3e58cdc4c3067b9"
+      },
+      "assetPath": "src/games/busfolie/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "src/games/busfolie/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/busfolie/style.css",
+        "phaser-super: busfolie"
+      ],
+      "game": "opencade/busfolie",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "busfolie",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/busfolie/style.css": "7b782d62961df9125ef145e9d3e58cdc4c3067b9"
+      },
+      "assetPath": "src/games/busfolie/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "src/games/busfolie/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "import: src/games/busfolie/style.css",
+        "phaser-super: busfolie"
+      ],
+      "game": "opencade/busfolie",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "busfolie",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "598b9f4cf53171c76156a71bc7de017b7f02158c4a87637fbfbb404e2227a4fa",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

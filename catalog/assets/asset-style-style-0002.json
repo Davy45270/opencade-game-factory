@@ -1,0 +1,182 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-11-18T13:02:36+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "src/ui/style.css",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0002",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/ui/style.css · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/ui/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/ui/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:src/ui/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "28c0039c8c6a0501cde65a46c8418fa692c8d92ce1142512f7e3ba9ed883088f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "62bc34e765768c060cfb5484c8a769e7acc00e02"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "62bc34e765768c060cfb5484c8a769e7acc00e02"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "28c0039c8c6a0501cde65a46c8418fa692c8d92ce1142512f7e3ba9ed883088f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

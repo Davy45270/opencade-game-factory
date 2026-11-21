@@ -12,11 +12,14 @@ N = 32
 MAX_DISTANCE = 8
 # Règle de statut d'une paire similaire (HL-538, P0-08 : jamais de fusion automatique) : écart moyen par pixel,
 # images composées sur gris moyen et réduites à 64 × 64 par moyenne d'aire (numpy pur, identique d'une machine à
-# l'autre). Plafond du bruit mesuré sur 400 rééchantillonnages (±10 %) d'une même image du registre : 6,73 / 255.
-# Au-dessus : « distinct », deux dessins différents. En dessous : même image à la précision du rééchantillonnage ;
-# la paire reste « needs-review » tant qu'elle n'est pas liée en variante (`linked-variant`).
+# l'autre). On mesure le binaire du registre ou, pour une fiche d'inventaire qui ne le copie pas, sa vignette.
+# Plafond du bruit = maximum mesuré sur TOUTES les images du registre (3 832 binaires), par classe de taille, pour
+# trois façons d'obtenir « la même image » : rééchantillonnage ±10 %, vignette, réencodage JPEG/WebP qualité 75.
+# Moins de 64 px de côté : 15,48 (rééchantillonnage) ; sinon 10,86 (JPEG). Au-dessus : « distinct ». En dessous, la
+# mesure ne sépare pas la paire d'une même image réencodée : c'est un quasi-doublon, qui devient une variante liée
+# (`linked-variant`) et reste « needs-review » tant qu'il ne l'est pas. Lier ne supprime ni ne fusionne rien.
 PIXEL_SIZE = 64
-PIXEL_NOISE = 6.8
+PIXEL_NOISE = {"small": 15.5, "large": 10.9}
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
 _DCT[0] /= np.sqrt(2)
 _DCT *= np.sqrt(2 / N)
@@ -87,7 +90,7 @@ def _box(array, size):
 
 
 def _pixels(root, asset):
-    local = asset.get("files", {}).get("registry")
+    local = asset.get("files", {}).get("registry") or asset.get("thumbnail")
     if not root or not local:
         return None
     try:
@@ -115,7 +118,10 @@ def rule(pair, assets_by_id, root, cache):
     if a is None or b is None:
         return pair
     distance = round(float(np.abs(a - b).mean()), 2)
-    return {**pair, "pixelDistance": distance, "status": "distinct" if distance > PIXEL_NOISE else "needs-review"}
+    sides = [min((assets_by_id[key].get("dimensions") or {}).get(axis, 0) for axis in ("width", "height"))
+             for key in (pair["a"], pair["b"])]
+    ceiling = PIXEL_NOISE["small" if min(sides) < PIXEL_SIZE else "large"]
+    return {**pair, "pixelDistance": distance, "status": "distinct" if distance > ceiling else "needs-review"}
 
 
 def duplicates(assets, root=None):

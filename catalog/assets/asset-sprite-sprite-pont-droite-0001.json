@@ -1,0 +1,215 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite pont droite — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "right",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pont-droite"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-pieces-origine-2x-0001",
+        "h": 64,
+        "w": 64,
+        "x": 728,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pont-droite-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@2x.json · sprite-pont-droite"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    },
+    "facing": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@2x.json · right"
+      ],
+      "method": "path-tokens"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/pieces-origine@2x.json · droite"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/pieces-origine@2x.json#sprite-pont-droite"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pont-droite",
+  "orientation": "right",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "0003040b0b040300",
+    "phash": "ea4a95b4ab4b54b4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "181x89+333+382"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f4b4b10bdfa7c466950322fdd519343a93cdce89310118ece11358a83c039094",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/f4/f4b4b10bdfa7c466950322fdd519343a93cdce89310118ece11358a83c039094.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/pieces-origine@2x.json": "1bffbcfc776485def737f02dda4b4820f91320db",
+        "packages/assets/atlas/pieces-origine@2x.png": "e03017305f108cd7cb189112e54437d7bab051c7"
+      },
+      "assetPath": "packages/assets/atlas/pieces-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4752,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/pieces-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pieces-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/pieces-origine@2x.json": "1bffbcfc776485def737f02dda4b4820f91320db",
+        "packages/assets/atlas/pieces-origine@2x.png": "e03017305f108cd7cb189112e54437d7bab051c7"
+      },
+      "assetPath": "packages/assets/atlas/pieces-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 817,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/pieces-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pieces-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f4b4b10bdfa7c466950322fdd519343a93cdce89310118ece11358a83c039094",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

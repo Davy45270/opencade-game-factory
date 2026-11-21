@@ -135,13 +135,15 @@ chemins d’une même source partagent un ID et que l’un diverge, ce chemin ou
 sa propre lignée et les références historiques conservent leur couple ID–version.
 
 Les paires « similaires » (pHash à 8 bits ou moins) sont statuées par une mesure, jamais fusionnées : écart moyen
-par pixel des deux binaires du registre, composés sur gris moyen et réduits à 64 × 64 par moyenne d'aire en numpy
-pur (`dedup.rule`), pour que `generated/duplicates.json` soit le même sur toute machine. Le plafond du bruit,
-6,8 / 255, vient de 400 rééchantillonnages à ±10 % d'une même image (maximum mesuré 6,73). Au-dessus, la paire est
-`distinct`. En dessous, c'est la même image à la précision du rééchantillonnage : un tel quasi-doublon devient une
-variante liée (chacun nomme l'autre dans `variants`), jamais une suppression d'un dessin, et la paire est alors
-`linked-variant` ; tant qu'il n'est pas lié, il reste `needs-review`. Sans binaire lisible, la paire reste
-`needs-review` sans distance.
+par pixel, composé sur gris moyen et réduit à 64 × 64 par moyenne d'aire en numpy pur (`dedup.rule`), pour que
+`generated/duplicates.json` soit le même sur toute machine. On mesure le binaire du registre ou, pour une fiche
+d'inventaire qui ne copie pas son binaire, sa vignette. Le plafond du bruit est le maximum mesuré sur **toutes** les
+images du registre (3 832) pour trois façons d'obtenir « la même image » — rééchantillonnage ±10 %, vignette,
+réencodage JPEG/WebP qualité 75 — par classe de taille : 15,5 / 255 sous 64 px de côté, 10,9 au-delà. Au-dessus, la
+paire est `distinct`. En dessous, la mesure ne la sépare pas d'une même image réencodée : c'est un quasi-doublon,
+qui devient une variante liée (chacun nomme l'autre dans `variants`), jamais une suppression d'un dessin, et la paire
+est alors `linked-variant` ; tant qu'il n'est pas lié, il reste `needs-review`. Sans binaire ni vignette lisible, la
+paire reste `needs-review` sans distance.
 
 L’identité d’un sprite d’atlas associe la source logique, le chemin du fichier
 d’atlas et le nom du cadre. La planche, son SHA-256 et les coordonnées sont

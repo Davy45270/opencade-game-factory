@@ -1,0 +1,188 @@
+{
+  "alpha": false,
+  "category": "ui",
+  "createdAt": "2026-11-18T20:13:58+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Pestouille 512 — image 512×512",
+  "dimensions": {
+    "height": 512,
+    "width": 512
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "P"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/icons/pestouille-512.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-pestouille-512-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/pestouille-512.png · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/icons/pestouille-512.png · pestouille-512"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/pestouille-512.png · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/pestouille-512.png · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "pestouille-512",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "02a6470736b2934c",
+    "phash": "ece7d29896638d60"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/icons/pestouille-512.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d7dd616db3c1c5e565fa67d288a5537efa442d6ff4b3b35f327f60140e4d00aa",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "thumbnail": "thumbnails/d7/d7dd616db3c1c5e565fa67d288a5537efa442d6ff4b3b35f327f60140e4d00aa.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/icons/pestouille-512.png": "5d6d33d3377987a4f5972bcc31a1c2366c33bd07"
+      },
+      "assetPath": "public/icons/pestouille-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "pwa-manifest.ts"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/icons/pestouille-512.png",
+        "module-path: pwa-manifest.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-512",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "icon",
+      "scene": "pwa-manifest.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-pestouille-192-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d7dd616db3c1c5e565fa67d288a5537efa442d6ff4b3b35f327f60140e4d00aa",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

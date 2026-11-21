@@ -1,0 +1,204 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:55:48.190891+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fond-temple-0001",
+        "reason": "découpe brute de l'élément fond-temple : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "63eab814312f60d42f7f101f99876f2b0df7b710d311b46717d20d2465af2a51",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fond temple",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fond-temple-0001",
+          "reason": "découpe brute de l'élément fond-temple : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fond-temple-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:55:47.816273+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fond-temple » (public/assets/m01-fonds.webp), forme normalisée par le jeu de l'élément fond-temple",
+  "dimensions": {
+    "height": 234,
+    "width": 510
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fond-temple-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fond-temple-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-temple"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fond-temple-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-384.png, SHA-256 62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-temple"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg fond-temple (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "72f1b8d8e8b893b1",
+    "phash": "994738878f79dd80"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fond-temple-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fond-temple livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m01-fonds.webp (webp)\", \"boite\": [510, 234, 1144, 320], \"cadre\": \"sprite-fond-temple\", \"element\": \"fond-temple\", \"empreintePixels\": \"bf81a3746fd61bc0aefeae3e4ba5bc030c7776dc02803a4b9866777dba384d25\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"541x234\"}, \"regionDuBrut\": {\"h\": 234, \"w\": 510, \"x\": 1144, \"y\": 320}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-fonds.decoupe.json\", \"tableSha256\": \"263fefc0df2de507a53df33350cc44802501066400054f83cbfa6f3401319fda\"}"
+    ],
+    "parentId": "asset-sprite-fond-temple-0001",
+    "parentSha256": "dc581db6fdff7adcd050440814433c056747bcae92d8490704f6804936b05662",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:55:48.190891+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "public/assets/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-temple de public/assets/m01-fonds.webp (empreinte de pixels bf81a3746fd61bc0)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-temple",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "62b8e01447bc34a2c89bca1fc7df776e39a8af3b220efd092ed6deec1a41201f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

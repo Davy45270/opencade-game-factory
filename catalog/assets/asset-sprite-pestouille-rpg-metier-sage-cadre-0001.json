@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:14:57.738848+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-metier-sage-0001",
+        "reason": "découpe brute de l'élément metier-sage : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a21d4abd795e1b83f6aea5939e93fb27baafaee80134036a0c84c49e122f5fc9",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "metier sage",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-metier-sage-0001",
+          "reason": "découpe brute de l'élément metier-sage : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-metier-sage-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:14:57.380588+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-metier-sage » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément metier-sage",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-metier-sage-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-metier-sage-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-metier-sage"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-metier-sage-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-27.png, SHA-256 d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-metier-sage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg metier-sage (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "325561f0615535cc",
+    "phash": "cccd3139d394874e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-metier-sage-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-metier-sage livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [41, 33, 1605, 198], \"cadre\": \"sprite-metier-sage\", \"element\": \"metier-sage\", \"empreintePixels\": \"cd73a7be0a6319e0419c69ab67b3865dc7cdfc3165a24bbf74c31b8d47adc57b\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 33, \"w\": 41, \"x\": 1605, \"y\": 198}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-metier-sage-0001",
+    "parentSha256": "571b16e9a62948a7e1096e895d3acce5acdfe28565b427b298cc17b1e3b8d1d4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:14:57.738848+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 162,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-metier-sage de assets/export/e03-objets.png (empreinte de pixels cd73a7be0a6319e0)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-metier-sage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d18a67cb41bb62ade75fd7f56bcee9254dba064bfc2630d7be4deaa4e878c5a4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:26:25.452922+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-nox-cote-e-0001",
+        "reason": "découpe brute de l'élément nox-cote-e : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c311332dddf37e378b231b31e14dd124d2b5eb239e346d73932e23899be6438d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "nox cote e",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-nox-cote-e-0001",
+          "reason": "découpe brute de l'élément nox-cote-e : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-nox-cote-e-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:26:25.096583+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-nox-cote-e » (assets/export/m01-heros.png), forme normalisée par le jeu de l'élément nox-cote-e",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-nox-cote-e-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-nox-cote-e-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-heros.json · cadre sprite-nox-cote-e"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-nox-cote-e-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-133.png, SHA-256 b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-heros.json · cadre sprite-nox-cote-e"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg nox-cote-e (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "70966bb4b0323626",
+    "phash": "bcd2678992c66393"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-nox-cote-e-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-nox-cote-e livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-heros.png",
+      "recette {\"atlas\": \"assets/export/m01-heros.png (png)\", \"boite\": [53, 46, 1486, 190], \"cadre\": \"sprite-nox-cote-e\", \"element\": \"nox-cote-e\", \"empreintePixels\": \"61a9a7b4723a95acc6965eb2fe8e0bd5d5ea587179ff041e3dd9e167debfb434\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 53, \"x\": 1486, \"y\": 190}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-heros.decoupe.json\", \"tableSha256\": \"8a3f917bda3be02f4dfc1d1bdcd107f05465c537aabe4249ccfa5c4ac74dbe72\"}"
+    ],
+    "parentId": "asset-sprite-nox-cote-e-0001",
+    "parentSha256": "f640514f4491a435db9789a5c775447858e9b4fc6bf8ea4bd30598914933310c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:26:25.452922+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-heros.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 122,
+        "path": "assets/export/m01-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-nox-cote-e de assets/export/m01-heros.png (empreinte de pixels 61a9a7b4723a95ac)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-nox-cote-e",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b63f7207e055956b0404f3b7d9960b1b31be589fdbd4b425c21cf1fd14af0626",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

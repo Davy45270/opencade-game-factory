@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:51:36.790553+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-competence-griffe-0001",
+        "reason": "pixels différents du cadre livré sprite-competence-griffe (empreinte dab2291568ed)"
+      },
+      {
+        "assetId": "asset-sprite-competence-griffe-0001",
+        "reason": "découpe brute de l'élément competence-griffe : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5802a684c77bd51d28e77775347e53a09997b7e920e582004d4c1066547c5a30",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "competence griffe",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-competence-griffe-0001",
+          "reason": "pixels différents du cadre livré sprite-competence-griffe (empreinte dab2291568ed)"
+        },
+        {
+          "assetId": "asset-sprite-competence-griffe-0001",
+          "reason": "découpe brute de l'élément competence-griffe : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-competence-griffe-0001",
+        "asset-sprite-competence-griffe-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:51:36.444054+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-competence-griffe » (public/assets/e04-icones.webp), forme normalisée par le jeu de l'élément competence-griffe",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-competence-griffe-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-competence-griffe-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-competence-griffe"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-competence-griffe-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-348.png, SHA-256 83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-competence-griffe"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg competence-griffe (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "679c344d51331c63",
+    "phash": "9a94b169c3b64cda"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-competence-griffe-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-competence-griffe livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-icones.webp",
+      "recette {\"atlas\": \"public/assets/e04-icones.webp (webp)\", \"boite\": [35, 25, 540, 497], \"cadre\": \"sprite-competence-griffe\", \"element\": \"competence-griffe\", \"empreintePixels\": \"dab2291568ed56011493e163853908e5ef4191c67d98cc68edac3bed1c101cc0\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 25, \"w\": 35, \"x\": 540, \"y\": 497}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-competence-griffe-0001",
+    "parentSha256": "fd6446896f275f0ed43d9f67dcc7233d492d0eb38e5ee237d94eb63a0b02c420",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:51:36.790553+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 50,
+        "path": "public/assets/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-competence-griffe de public/assets/e04-icones.webp (empreinte de pixels dab2291568ed5601)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-competence-griffe",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "83e7c5493d2ab588e8097e7a20241b6887bd5cb97436132d233d72e303d031a5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

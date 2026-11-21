@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:39:54.794809+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-south-idle-a-0001",
+        "reason": "découpe brute de l'élément pestouille-south-idle-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9757cee2343e8370ff27e8d15888aa264eef3f86d2288fe11cf696eb06630595",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille south idle a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-south-idle-a-0001",
+          "reason": "découpe brute de l'élément pestouille-south-idle-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-south-idle-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:39:54.425910+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-south-idle-a » (assets/export/pestouille-south.png), forme normalisée par le jeu de l'élément pestouille-south-idle-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-south-0010.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-south-0010",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-south.json · cadre sprite-pestouille-south-idle-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-south-idle-a-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-245.png, SHA-256 26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-south.json · cadre sprite-pestouille-south-idle-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-south-idle-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "001264abaf331292",
+    "phash": "b9c69919669986d9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-south-idle-a-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-south-idle-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/pestouille-south.png",
+      "recette {\"atlas\": \"assets/export/pestouille-south.png (png)\", \"boite\": [171, 184, 60, 15], \"cadre\": \"sprite-pestouille-south-idle-a\", \"element\": \"pestouille-south-idle-a\", \"empreintePixels\": \"a3a2d43d42702a4c5a0bdae174c92e68f2e10f18abe55512da7cf7a68ee1b1a7\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"alpha\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 132, \"w\": 120, \"x\": 45, \"y\": 12}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-south.decoupe.json\", \"tableSha256\": \"60e71d4ad0a2c29b45549f79a6a07e47aa62de8effccc28ae70aeb7771e3f5b8\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-south-idle-a-0001",
+    "parentSha256": "4fdff852cdfb46a628f532fcbde4f2c457fddc3a59a531c764104334033ae957",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-south.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:39:54.794809+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/pestouille-south.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "assets/export/pestouille-south.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-south-idle-a de assets/export/pestouille-south.png (empreinte de pixels a3a2d43d42702a4c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-south-idle-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/pestouille-south.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/pestouille-south.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "26b44e6bc7a7100dbf765978a8e2e028504a69a6460fac3f564fdc2f102c0edc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

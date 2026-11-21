@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:24:15.850268+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bouton-objet-0001",
+        "reason": "découpe brute de l'élément bouton-objet : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "314c8d48eff261c09d0c5ba7822e2a3dddd68eef6036f4dc1b8069f402060d38",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouton objet",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bouton-objet-0001",
+          "reason": "découpe brute de l'élément bouton-objet : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bouton-objet-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:24:15.447824+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouton-objet » (assets/export/m01-boutons.png), forme normalisée par le jeu de l'élément bouton-objet",
+  "dimensions": {
+    "height": 76,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouton-objet-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouton-objet-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-boutons.json · cadre sprite-bouton-objet"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouton-objet-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-113.png, SHA-256 c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-boutons.json · cadre sprite-bouton-objet"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouton-objet (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "8c31336161713146",
+    "phash": "cfbcb093c534c4c9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouton-objet-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouton-objet livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-boutons.png",
+      "recette {\"atlas\": \"assets/export/m01-boutons.png (png)\", \"boite\": [87, 68, 335, 827], \"cadre\": \"sprite-bouton-objet\", \"element\": \"bouton-objet\", \"empreintePixels\": \"28c6b62f31805692a198f7fa4914644239ca2d5ad10576f03a1268cebdc03d3d\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:45:plein\", \"taille\": \"96x76\", \"unique\": true}, \"regionDuBrut\": {\"h\": 68, \"w\": 87, \"x\": 335, \"y\": 827}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-boutons.decoupe.json\", \"tableSha256\": \"799dfb0fd6cde478ba99dc24b628a97e2b190cdb4e2502e8690973ecc97b5815\"}"
+    ],
+    "parentId": "asset-sprite-bouton-objet-0001",
+    "parentSha256": "e1194bd8a01622ea49040721f0af926c6669d9f48207ffcf9a582cd238828f2e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-boutons.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:24:15.850268+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "assets/export/m01-boutons.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-objet de assets/export/m01-boutons.png (empreinte de pixels 28c6b62f31805692)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-objet",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-boutons.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-boutons.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c00a8da91bcc133cdb936a503af0ff55e07aed2b4ea2fc826e3676d20b78c780",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:22:44.733561+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bete-ecarlate-0001",
+        "reason": "découpe brute de l'élément bete-ecarlate : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "23ab0e3f1885f5c4f17d9fc710e9874f73c6faf24ae2387dd709a798c07dbde2",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bete ecarlate",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bete-ecarlate-0001",
+          "reason": "découpe brute de l'élément bete-ecarlate : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bete-ecarlate-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:22:44.326513+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bete-ecarlate » (assets/export/e04-monstres.png), forme normalisée par le jeu de l'élément bete-ecarlate",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bete-ecarlate-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bete-ecarlate-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bete-ecarlate-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-99.png, SHA-256 3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bete-ecarlate (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "c613694da41a1b0b",
+    "phash": "fbc42935847396d2"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bete-ecarlate-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bete-ecarlate livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-monstres.png",
+      "recette {\"atlas\": \"assets/export/e04-monstres.png (png)\", \"boite\": [68, 63, 1107, 699], \"cadre\": \"sprite-bete-ecarlate\", \"element\": \"bete-ecarlate\", \"empreintePixels\": \"f919fbcb1a57cfa3c83419e6412c3e3ecb75b0688a63d20722918826bb6012f2\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 63, \"w\": 68, \"x\": 1107, \"y\": 699}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-bete-ecarlate-0001",
+    "parentSha256": "547636f3b580147cd24ff9b80382ff236b78579a5fd66ff5ee941e9508da54eb",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:22:44.733561+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-monstres.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bete-ecarlate de assets/export/e04-monstres.png (empreinte de pixels f919fbcb1a57cfa3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bete-ecarlate",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

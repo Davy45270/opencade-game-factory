@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:40:42.103285+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-south-walk-d-0001",
+        "reason": "découpe brute de l'élément pestouille-south-walk-d : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "27b588309da892300c48419c5978379f6595f718cd93542fd20107ee25729d8a",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille south walk d",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-south-walk-d-0001",
+          "reason": "découpe brute de l'élément pestouille-south-walk-d : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-south-walk-d-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:40:41.736839+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-south-walk-d » (assets/export/pestouille-south.png), forme normalisée par le jeu de l'élément pestouille-south-walk-d",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-south-0017.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-south-0017",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-south.json · cadre sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-south-walk-d-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-south.json · cadre sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-south-walk-d (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "001225a6af179696",
+    "phash": "ecc691386699b699"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-south-walk-d-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-south-walk-d livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/pestouille-south.png",
+      "recette {\"atlas\": \"assets/export/pestouille-south.png (png)\", \"boite\": [162, 190, 951, 233], \"cadre\": \"sprite-pestouille-south-walk-d\", \"element\": \"pestouille-south-walk-d\", \"empreintePixels\": \"ff026385a5490f81c0c8f14c759ff65dc2490cd9348d2c67279a423c56706eda\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"alpha\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 135, \"w\": 114, \"x\": 688, \"y\": 170}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-south.decoupe.json\", \"tableSha256\": \"60e71d4ad0a2c29b45549f79a6a07e47aa62de8effccc28ae70aeb7771e3f5b8\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-south-walk-d-0001",
+    "parentSha256": "bba47bafd032858bafd6416704606a821bc8e24f887040f10b888274bea609c4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-south.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:40:42.103285+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/pestouille-south.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 130,
+        "path": "assets/export/pestouille-south.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-south-walk-d de assets/export/pestouille-south.png (empreinte de pixels ff026385a5490f81)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-south-walk-d",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/pestouille-south.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/pestouille-south.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

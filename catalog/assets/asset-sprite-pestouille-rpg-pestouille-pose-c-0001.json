@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:17:45.771584+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-pose-0001",
+        "reason": "découpe brute de l'élément pestouille-pose : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-pose-cote-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-pose (empreinte 40370c2c28a0)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8a09f7143cbbd2f75daf94f1b17c52445401d27ecd6fb213518e5509acc4fdd0",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille pose",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-pose-0001",
+          "reason": "découpe brute de l'élément pestouille-pose : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-pose-cote-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-pose (empreinte 40370c2c28a0)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-pose-0001",
+        "asset-sprite-pestouille-pose-cote-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:17:45.413553+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-pose » (assets/export/e03-portraits.png), forme normalisée par le jeu de l'élément pestouille-pose",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-pose-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-pose-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-portraits.json · cadre sprite-pestouille-pose"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-pose-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-portraits.json · cadre sprite-pestouille-pose"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-pose (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "a7919b09c9393b97",
+    "phash": "b3cc6c86e73c9261"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-pose-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-pose livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-portraits.png",
+      "recette {\"atlas\": \"assets/export/e03-portraits.png (png)\", \"boite\": [100, 120, 1055, 632], \"cadre\": \"sprite-pestouille-pose\", \"element\": \"pestouille-pose\", \"empreintePixels\": \"40370c2c28a074702c878c04c634b1d5f45100719740e8ed961b28483b5c4af6\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 120, \"w\": 100, \"x\": 1055, \"y\": 632}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"3a8bcd7711359f9dd441fb8f47ea6d98ca34eacd687bf53e2ee07fc7abf0ee1c\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-pose-0001",
+    "parentSha256": "06c3f9b25ce84fe22089ea7bf26bfb186589a2c15f447255bc4c8899f1bc8872",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:17:45.771584+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "assets/export/e03-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-pose de assets/export/e03-portraits.png (empreinte de pixels 40370c2c28a07470)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-pose",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "555fa5ae9671d61cfe6214cd6c7301210bbd6cba8251a1e0609cf9aba4846e1c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

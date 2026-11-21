@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:15:49.864785+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-florifeu-0001",
+        "reason": "découpe brute de l'élément florifeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "450775347f4d6d4818bdfef15eee52eb6c1524611a30f59a13d6cfc3034dfa4f",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "florifeu",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-florifeu-0001",
+          "reason": "découpe brute de l'élément florifeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-florifeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:15:49.506477+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-florifeu » (assets/export/e03-personnages.png), forme normalisée par le jeu de l'élément florifeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-florifeu-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-florifeu-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-florifeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-florifeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-35.png, SHA-256 4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-florifeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg florifeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4e8b28b035932525",
+    "phash": "fa91a7699e948916"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-florifeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-florifeu livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-personnages.png",
+      "recette {\"atlas\": \"assets/export/e03-personnages.png (png)\", \"boite\": [74, 64, 1166, 33], \"cadre\": \"sprite-florifeu\", \"element\": \"florifeu\", \"empreintePixels\": \"a6710984d178e92b6e942ca498dde1092f164e2521e9406b6db5fd2738660ba2\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 64, \"w\": 74, \"x\": 1166, \"y\": 33}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-florifeu-0001",
+    "parentSha256": "944d1b08e979e97d92bdca4b5679612a0c0a41e1ae2a6c879f5dc45a33a93841",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:15:49.864785+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-florifeu de assets/export/e03-personnages.png (empreinte de pixels a6710984d178e92b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-florifeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4c8a058ddbd675a8f2ae4401184ac7d0c68713380450cac0756f64dd9dd101a7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

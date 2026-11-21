@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:41:08.889614+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-barre-pv-0001",
+        "reason": "découpe brute de l'élément barre-pv : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b9b618d2eb91122af214af01f3848a59a8f079dfdb6f9abeac856bfffadfd99e",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "barre pv",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-barre-pv-0001",
+          "reason": "découpe brute de l'élément barre-pv : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-barre-pv-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:41:08.526457+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-barre-pv » (public/assets/e03-interface.webp), forme normalisée par le jeu de l'élément barre-pv",
+  "dimensions": {
+    "height": 19,
+    "width": 139
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-barre-pv-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-barre-pv-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-barre-pv"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-barre-pv-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-256.png, SHA-256 2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-barre-pv"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg barre-pv (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "926bc0d048585994",
+    "phash": "d1c0203fd4d5d46f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-barre-pv-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-barre-pv livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-interface.webp",
+      "recette {\"atlas\": \"public/assets/e03-interface.webp (webp)\", \"boite\": [139, 19, 1222, 856], \"cadre\": \"sprite-barre-pv\", \"element\": \"barre-pv\", \"empreintePixels\": \"61e1041d158162b7e5c0e950349b033ebee0d163c449a7c9eb78c0d9bc7fad50\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": 96}, \"regionDuBrut\": {\"h\": 19, \"w\": 139, \"x\": 1222, \"y\": 856}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-interface.decoupe.json\", \"tableSha256\": \"43edceed2f951d2886ec73ac43b51e1b2b7bd98b31305a143f98ea67ea7a1b6f\"}"
+    ],
+    "parentId": "asset-sprite-barre-pv-0001",
+    "parentSha256": "5a2a08ee1d830673d135fa1edc2c684015bff54aa49cda1af7d8fd7dca25423a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-interface.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:41:08.889614+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-barre-pv de public/assets/e03-interface.webp (empreinte de pixels 61e1041d158162b7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-barre-pv",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2a8caceeb4d0408b310acb5a53803033f0743596c9e8849560e058c3e659523c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

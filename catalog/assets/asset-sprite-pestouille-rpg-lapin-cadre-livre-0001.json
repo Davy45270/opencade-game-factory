@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:29:15.096140+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-lapin-aile-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-lapin (empreinte 6feca524c620)"
+      },
+      {
+        "assetId": "asset-sprite-lapin-0001",
+        "reason": "découpe brute de l'élément lapin : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-lapin-aile-0001",
+        "reason": "pixels différents du cadre livré sprite-lapin (empreinte 6feca524c620)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "95699fd6988d6aeee2b24621f9d017bc0b286cda74e751654858cb204c9897e6",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lapin",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-lapin-aile-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-lapin (empreinte 6feca524c620)"
+        },
+        {
+          "assetId": "asset-sprite-lapin-0001",
+          "reason": "découpe brute de l'élément lapin : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-lapin-aile-0001",
+          "reason": "pixels différents du cadre livré sprite-lapin (empreinte 6feca524c620)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-lapin-aile-cadre-0001",
+        "asset-sprite-lapin-0001",
+        "asset-sprite-lapin-aile-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:29:14.729741+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lapin » (assets/export/m02-creatures.png), forme normalisée par le jeu de l'élément lapin",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lapin-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lapin-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-lapin"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lapin-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-159.png, SHA-256 892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-lapin"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lapin (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "444ccc6169d27159",
+    "phash": "c3b738cc6e8d303a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lapin-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lapin livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m02-creatures.png",
+      "recette {\"atlas\": \"assets/export/m02-creatures.png (png)\", \"boite\": [53, 58, 1415, 15], \"cadre\": \"sprite-lapin\", \"element\": \"lapin\", \"empreintePixels\": \"6feca524c620d2b385688ff9945b7e4bf0ea14fb807842d92efc0bda9fa564f8\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 58, \"w\": 53, \"x\": 1415, \"y\": 15}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-creatures.decoupe.json\", \"tableSha256\": \"b94f5bd22223f9f7289775a765bc51f6330227e2deae50c91a6fe3e5ed25c513\"}"
+    ],
+    "parentId": "asset-sprite-lapin-0001",
+    "parentSha256": "ddc99c00ea152f695939c942beb4cd3e4d19509ef85fb3a977be6940d366d5f6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-creatures.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:29:15.096140+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m02-creatures.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/m02-creatures.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lapin de assets/export/m02-creatures.png (empreinte de pixels 6feca524c620d2b3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lapin",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m02-creatures.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "892bf2773553d267054c0d77b02c765d0b8f1f751a0b96cff0fa2ebcd20d8797",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

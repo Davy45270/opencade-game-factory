@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:15:30.156197+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pot-0001",
+        "reason": "découpe brute de l'élément pot : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1a29b3ffaaf39c7afae64ef7d04def907b012cc277ca8ad0a14955e2ad543ac5",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pot",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pot-0001",
+          "reason": "découpe brute de l'élément pot : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pot-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:15:29.801130+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pot » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément pot",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pot-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pot-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-pot"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pot-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-32.png, SHA-256 2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-pot"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pot (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b24d4df0c4e123a7",
+    "phash": "c2b53dcac00d9776"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pot-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pot livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [43, 40, 604, 881], \"cadre\": \"sprite-pot\", \"element\": \"pot\", \"empreintePixels\": \"19bb57e6138722f980e4ae61e5b52202ebbc271f7121cfef7cc11d2e6f6ac6dd\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 43, \"x\": 604, \"y\": 881}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-pot-0001",
+    "parentSha256": "521beb695c031782e0f9d3e69d9f42ac7f8473f860837a04a802bb0a0296e535",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:15:30.156197+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 202,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pot de assets/export/e03-objets.png (empreinte de pixels 19bb57e6138722f9)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pot",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2e0f3cc115fb04124a84286eaa1f181d3019733c051e27f8d1ea93576ff5d4b0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

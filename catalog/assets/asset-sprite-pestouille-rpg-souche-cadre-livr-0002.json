@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:55:20.720858+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-souche-cadre-livr-0001",
+        "reason": "pixels différents du cadre livré sprite-souche (empreinte 89980af02899)"
+      },
+      {
+        "assetId": "asset-sprite-souche-0001",
+        "reason": "découpe brute de l'élément souche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "46563c85ceee143a2e2c6a17d76d0338dcd4ba2df2891159e2f22ed6d6ae89c2",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "souche",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-souche-cadre-livr-0001",
+          "reason": "pixels différents du cadre livré sprite-souche (empreinte 89980af02899)"
+        },
+        {
+          "assetId": "asset-sprite-souche-0001",
+          "reason": "découpe brute de l'élément souche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-souche-cadre-livr-0001",
+        "asset-sprite-souche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:55:20.354035+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-souche » (public/assets/m01-ennemis.webp), forme normalisée par le jeu de l'élément souche",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-souche-cadre-livr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-souche-cadre-livr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-ennemis.json · cadre sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-souche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-380.png, SHA-256 6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-ennemis.json · cadre sprite-souche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg souche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "34f1eb1d9a333326",
+    "phash": "98c7ce1835346f65"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-souche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-souche livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-ennemis.webp",
+      "recette {\"atlas\": \"public/assets/m01-ennemis.webp (webp)\", \"boite\": [53, 71, 217, 654], \"cadre\": \"sprite-souche\", \"element\": \"souche\", \"empreintePixels\": \"89980af028999d113f0edd4a2fea4d4036a81601433289e75ad8d9e0cd5e92e8\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"u2netp\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 71, \"w\": 53, \"x\": 217, \"y\": 654}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-ennemis.decoupe.json\", \"tableSha256\": \"6c023e1113b43e5b39caf7c26a6ca2351fff1f87b8917e8faa60a11ddba4a970\"}"
+    ],
+    "parentId": "asset-sprite-souche-0001",
+    "parentSha256": "79719683c09e7e0cc8940d7d96d15a03e0df3e0f5ec8150b8deb8415ebf85a23",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-ennemis.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:55:20.720858+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-ennemis.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/m01-ennemis.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-souche de public/assets/m01-ennemis.webp (empreinte de pixels 89980af028999d11)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-souche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-ennemis.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-ennemis.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6320d83fd7a262448cdf5923afd998fd95283c3c6db8e4ff6141881d94c27e0b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

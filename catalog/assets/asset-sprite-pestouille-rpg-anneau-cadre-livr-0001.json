@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:27:17.182590+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-anneau-0001",
+        "reason": "découpe brute de l'élément anneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-anneau-argent-0001",
+        "reason": "pixels différents du cadre livré sprite-anneau (empreinte d1e4f6561cba)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7a8549547fad145e0e4c4309a02691b907c5a653ba3ad80ab1dde40ec53e98ae",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "anneau",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-anneau-0001",
+          "reason": "découpe brute de l'élément anneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-anneau-argent-0001",
+          "reason": "pixels différents du cadre livré sprite-anneau (empreinte d1e4f6561cba)"
+        }
+      ],
+      "results": [
+        "asset-sprite-anneau-0001",
+        "asset-sprite-anneau-argent-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:27:16.814482+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-anneau » (assets/export/m01-icones.png), forme normalisée par le jeu de l'élément anneau",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-anneau-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-anneau-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-anneau"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-anneau-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-141.png, SHA-256 fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-anneau"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg anneau (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b270c69aa69de306",
+    "phash": "d09d0f9a3461734f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-anneau-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-anneau livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-icones.png",
+      "recette {\"atlas\": \"assets/export/m01-icones.png (png)\", \"boite\": [47, 44, 1161, 671], \"cadre\": \"sprite-anneau\", \"element\": \"anneau\", \"empreintePixels\": \"d1e4f6561cbab39c2c9d4b8bc81fc6074b5ea1fdb2b27c346bc4d873a666d36e\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 44, \"w\": 47, \"x\": 1161, \"y\": 671}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-anneau-0001",
+    "parentSha256": "b5d05d5adf0fce164192319a84d7748662537e85a6623453b46289c9f88dea40",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:27:17.182590+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-anneau de assets/export/m01-icones.png (empreinte de pixels d1e4f6561cbab39c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-anneau",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fd7ecc7577eefbdfd5174d821ef3dcb5ee5ee0dcc21611f6bb512f2382dcf7f8",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

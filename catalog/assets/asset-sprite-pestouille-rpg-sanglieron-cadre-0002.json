@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:46:50.178221+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-sanglieron-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-sanglieron (empreinte 9a7f6cf1210b)"
+      },
+      {
+        "assetId": "asset-sprite-sanglieron-0001",
+        "reason": "découpe brute de l'élément sanglieron : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ea0c7b04216a4e034f7d149602551453efc402dae7a97fcd6d4b96304f4ab0c7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "sanglieron",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-sanglieron-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-sanglieron (empreinte 9a7f6cf1210b)"
+        },
+        {
+          "assetId": "asset-sprite-sanglieron-0001",
+          "reason": "découpe brute de l'élément sanglieron : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-sanglieron-cadre-0001",
+        "asset-sprite-sanglieron-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:46:49.824374+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-sanglieron » (public/assets/e03-personnages.webp), forme normalisée par le jeu de l'élément sanglieron",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-sanglieron-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-sanglieron-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-sanglieron"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sanglieron-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-sanglieron"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg sanglieron (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "04314e2d4dd22317",
+    "phash": "ee902dc03e6a956b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-sanglieron-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sanglieron livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-personnages.webp",
+      "recette {\"atlas\": \"public/assets/e03-personnages.webp (webp)\", \"boite\": [90, 59, 1268, 37], \"cadre\": \"sprite-sanglieron\", \"element\": \"sanglieron\", \"empreintePixels\": \"9a7f6cf1210b9c4fd4a2aeff166552a5e41ce57bc9b4548ea7fa00559a7c692a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 59, \"w\": 90, \"x\": 1268, \"y\": 37}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-sanglieron-0001",
+    "parentSha256": "9d33aa15bfd170b028a9f21e732851d8b746a0151f96612a2756012a0bebd1ff",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:46:50.178221+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-sanglieron de public/assets/e03-personnages.webp (empreinte de pixels 9a7f6cf1210b9c4f)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-sanglieron",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e83cb62d66eeeff18f252148b007831be2a188255200ade36e9b5ab9cd838e89",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

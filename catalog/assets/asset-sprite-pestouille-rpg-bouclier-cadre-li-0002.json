@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:58:58.883615+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-bouclier-cadre-li-0001",
+        "reason": "pixels différents du cadre livré sprite-bouclier (empreinte debb4c730adc)"
+      },
+      {
+        "assetId": "asset-sprite-bouclier-0001",
+        "reason": "découpe brute de l'élément bouclier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5e6b734f0ae91df96bb4c0ed6fdc517d4a659bc32284e465c482afe79d636a6b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouclier",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-bouclier-cadre-li-0001",
+          "reason": "pixels différents du cadre livré sprite-bouclier (empreinte debb4c730adc)"
+        },
+        {
+          "assetId": "asset-sprite-bouclier-0001",
+          "reason": "découpe brute de l'élément bouclier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-bouclier-cadre-li-0001",
+        "asset-sprite-bouclier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:58:58.503567+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouclier » (public/assets/m01-icones.webp), forme normalisée par le jeu de l'élément bouclier",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouclier-cadre-li-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouclier-cadre-li-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-bouclier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouclier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-412.png, SHA-256 caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-bouclier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouclier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "71e6e2e2e2552116",
+    "phash": "ccc5323a1bca656d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouclier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouclier livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-icones.webp",
+      "recette {\"atlas\": \"public/assets/m01-icones.webp (webp)\", \"boite\": [43, 46, 1162, 605], \"cadre\": \"sprite-bouclier\", \"element\": \"bouclier\", \"empreintePixels\": \"debb4c730adc6d62e1f9f0c472d2a95761a50f7a4505f3184845f72c627a970a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 43, \"x\": 1162, \"y\": 605}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-bouclier-0001",
+    "parentSha256": "49fb71620f1d5a0b66d1a905e2b1182e96e52ff202ce8776eced037625e6fdb2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:58:58.883615+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouclier de public/assets/m01-icones.webp (empreinte de pixels debb4c730adc6d62)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouclier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "caced02658b78c79d8e4fb2c467d3c31b75cb4622c7a39738d181d898624a64a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

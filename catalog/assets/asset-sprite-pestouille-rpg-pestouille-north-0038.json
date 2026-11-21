@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:09:50.372481+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-north-walk-f-0001",
+        "reason": "découpe brute de l'élément pestouille-north-walk-f : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pestouille-north-0019",
+        "reason": "pixels différents du cadre livré sprite-pestouille-north-walk-f (empreinte 56c8101a86bb)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b3babd7c4bd5652658073715ca607a4b01440b98b57be374dc8b33c3af6cf854",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille north walk f",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-north-walk-f-0001",
+          "reason": "découpe brute de l'élément pestouille-north-walk-f : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pestouille-north-0019",
+          "reason": "pixels différents du cadre livré sprite-pestouille-north-walk-f (empreinte 56c8101a86bb)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-north-walk-f-0001",
+        "asset-sprite-pestouille-rpg-pestouille-north-0019"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:09:49.994793+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-north-walk-f » (public/assets/pestouille-north.webp), forme normalisée par le jeu de l'élément pestouille-north-walk-f",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-north-0038.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-north-0038",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/pestouille-north.json · cadre sprite-pestouille-north-walk-f"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-north-walk-f-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-496.png, SHA-256 29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/pestouille-north.json · cadre sprite-pestouille-north-walk-f"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-north-walk-f (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "001228929655b696",
+    "phash": "e88b966639cc336c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-north-walk-f-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-north-walk-f livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/pestouille-north.webp",
+      "recette {\"atlas\": \"public/assets/pestouille-north.webp (webp)\", \"boite\": [137, 173, 1261, 233], \"cadre\": \"sprite-pestouille-north-walk-f\", \"element\": \"pestouille-north-walk-f\", \"empreintePixels\": \"56c8101a86bbf67d47c1b5896322f5ea5afa8d006815de1085ba7c438006b4a6\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"alpha\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 126, \"w\": 100, \"x\": 909, \"y\": 167}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-north.decoupe.json\", \"tableSha256\": \"16b36532cd5892dd7223938fff4712d2db2a129c69ae6264e1e3f20abbbc80f1\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-north-walk-f-0001",
+    "parentSha256": "f0d7965bd90437cda3ff53a0728ff2208ad631ce1c96abbb1ce2d96b10c64d31",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-north.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:09:50.372481+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/pestouille-north.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 146,
+        "path": "public/assets/pestouille-north.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-north-walk-f de public/assets/pestouille-north.webp (empreinte de pixels 56c8101a86bbf67d)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-north-walk-f",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/pestouille-north.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/pestouille-north.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "29f0a565810e753df14a789f7291b17052f1e58db801fbd7827150848156a020",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

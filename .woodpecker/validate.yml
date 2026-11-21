@@ -90,6 +90,14 @@ steps:
       - for f in atlases/*.json; do [ -e "$$f" ] || continue; ./assetctl validate-atlas "$$f" --json || exit 1; N=$$((N + 1)); done
       - echo "atlas validés $$N"
 
+  # EXT-001 (E164) : aucune fiche externe ne déclare une licence que son pack n'a pas prouvée.
+  # Ses tests d'acceptation EXT-T01…T12 tournent hors ligne dans tests-unitaires (tests/unit/test_ext001.py).
+  - name: licences-externes
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./assetctl external audit-licenses --json
+
   # E082 : doublons exacts et similaires proposés, jamais fusionnés.
   - name: doublons
     image: *py

@@ -1,5 +1,54 @@
 {
   "$defs": {
+    "externalProvenance": {
+      "description": "EXT-001 § 6 : provenance d'une ressource externe ; licence vérifiée par le texte lu dans l'archive.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "externalPackId", "sourceVersion", "sourceUrl", "license", "observedAt", "importedAt",
+                   "archiveSha256", "archivePath", "pathInArchive", "restrictions"],
+      "properties": {
+        "provider": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "externalPackId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"},
+        "sourceVersion": {"type": "string", "pattern": "\\S"},
+        "sourceUrl": {"type": "string", "pattern": "\\S"},
+        "downloadUrl": {"type": "string", "pattern": "^(?:https|file)://\\S+$"},
+        "author": {"type": "string", "pattern": "\\S"},
+        "license": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["spdxId", "status", "evidence"],
+          "properties": {
+            "spdxId": {"type": "string", "pattern": "\\S"},
+            "status": {"enum": ["verified", "unknown", "incompatible"]},
+            "evidence": {"type": "string", "pattern": "\\S"},
+            "evidenceUrl": {"type": ["string", "null"]},
+            "textPath": {"type": ["string", "null"]},
+            "attribution": {"type": "boolean"}
+          }
+        },
+        "observedAt": {"type": "string", "format": "date-time"},
+        "importedAt": {"type": "string", "format": "date-time"},
+        "archiveSha256": {"$ref": "#/$defs/sha256"},
+        "archivePath": {"$ref": "#/$defs/path"},
+        "pathInArchive": {"type": "string", "pattern": "\\S"},
+        "restrictions": {"type": "array", "items": {"type": "string", "pattern": "\\S"}},
+        "sourceStatus": {"enum": ["available", "removed"]},
+        "licenseHistory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["observedAt", "from", "to"],
+            "properties": {
+              "observedAt": {"type": "string", "format": "date-time"},
+              "from": {"type": "string"},
+              "to": {"type": "string"},
+              "note": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
     "assetId": {
       "pattern": "^asset-[a-z][a-z0-9]*-(?=[a-z0-9-]{1,32}-[0-9]{4}(?![\\s\\S]))[a-z0-9]+(?:-[a-z0-9]+)*-(?!0000)[0-9]{4}(?![\\s\\S])",
       "type": "string"
@@ -1008,6 +1057,7 @@
           "pattern": "\\S",
           "type": "string"
         },
+        "external": {"$ref": "#/$defs/externalProvenance"},
         "type": {
           "enum": [
             "original-sheet-cut",
@@ -1015,6 +1065,7 @@
             "code-generated",
             "derived",
             "generated",
+            "external",
             "unknown"
           ]
         }
@@ -1177,6 +1228,9 @@
           "anyOf": [
             {
               "$ref": "import-job.schema.json"
+            },
+            {
+              "$ref": "external-import.schema.json"
             },
             {
               "pattern": "^[0-9a-f]{16}$",

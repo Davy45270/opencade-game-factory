@@ -302,6 +302,30 @@ def materialize(root, args):
     return ExitCode.OK, {"ok": True, "id": args.id, "path": str(destination), "sha256": asset["sha256"]}
 
 
+def third_party(assets):
+    """Manifeste de provenance et THIRD_PARTY_ASSETS.md d'un export public (EXT-001 § 6)."""
+    rows, lines = [], ["# Ressources tierces", ""]
+    for asset in sorted(assets, key=lambda row: row["id"]):
+        origin = asset["provenance"]
+        external = origin.get("external")
+        row = {"id": asset["id"], "sha256": asset["sha256"], "license": asset["license"],
+               "author": origin.get("author", "unknown"), "provenanceType": origin["type"]}
+        if external:
+            row.update(provider=external["provider"], pack=external["externalPackId"],
+                       sourceVersion=external["sourceVersion"], sourceUrl=external["sourceUrl"],
+                       licenseEvidence=external["license"]["evidence"], licenseText=external["license"].get("textPath"),
+                       pathInArchive=external["pathInArchive"], restrictions=external["restrictions"])
+            lines.append(f"- **{asset['name']}** (`{asset['id']}`) — {external['provider']} / {external['externalPackId']} "
+                         f"{external['sourceVersion']}, auteur {row['author']}, licence {asset['license']}, "
+                         f"source {external['sourceUrl']}")
+        elif asset["license"].startswith("CC-BY"):
+            lines.append(f"- **{asset['name']}** (`{asset['id']}`) — auteur {row['author']}, licence {asset['license']}")
+        rows.append(row)
+    if len(lines) == 2:
+        lines.append("Aucune ressource tierce ni attribution requise dans cet export.")
+    return {"schemaVersion": "1.0", "assets": rows}, "\n".join(lines) + "\n"
+
+
 def publish(root, args):
     with (nullcontext() if args.dry_run else directory_lock(root / "catalog")):
         return _publish(root, args)
@@ -352,6 +376,11 @@ def _publish(root, args):
                         if asset["license"] == "CC-BY-4.0" else {})})
     manifest = {"target": args.target, "assets": rows}
     paths.append((scoped_path(directory / "manifest.json"), json_text(manifest).encode()))
+    if args.target == "public":
+        # EXT-001 § 6 (EXT-T10) : crédits et manifeste de provenance à CHAQUE export public.
+        provenance, credits = third_party(assets)
+        paths.append((scoped_path(directory / "provenance.json"), json_text(provenance).encode()))
+        paths.append((scoped_path(directory / "THIRD_PARTY_ASSETS.md"), credits.encode()))
     for record_path, _, kept, raw in records:
         check_destination(kept, raw)
         if not record_path.is_file():

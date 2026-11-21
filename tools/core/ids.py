@@ -18,6 +18,8 @@ DERIVED = re.compile(rf"derived:(asset-.+):{SHA256}")
 LOGICAL = re.compile(rf"logical:{SLUG}:{SHA256}")
 ALIAS = re.compile(rf"alias:({SLUG}):{SHA256}")
 CODE = re.compile(r"code:([A-Za-z0-9_-][A-Za-z0-9_./-]*):([^#\\\x00-\x1f]+)#([^#\s]+)")
+# EXT-001 § 5 : identité d'une ressource externe = (fournisseur, pack, version source, SHA-256 du fichier).
+EXTERNAL = re.compile(rf"external:{SLUG}:[A-Za-z0-9][A-Za-z0-9._-]{{0,127}}:[A-Za-z0-9][A-Za-z0-9._:+-]{{0,127}}:{SHA256}")
 
 
 def parse_id(value):
@@ -30,7 +32,7 @@ def parse_id(value):
 def _valid_identity(key):
     if not isinstance(key, str):
         return False
-    if LOGICAL.fullmatch(key) or ALIAS.fullmatch(key):
+    if LOGICAL.fullmatch(key) or ALIAS.fullmatch(key) or EXTERNAL.fullmatch(key):
         return True
     if re.fullmatch(rf"(?:(?:file|sheet):sha256:|file:source:{SHA256}:){SHA256}", key):
         return True

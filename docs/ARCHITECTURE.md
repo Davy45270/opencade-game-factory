@@ -383,3 +383,34 @@ dimensions, les limites et la transparence. `sbom --out
 generated/sbom.cdx.json` décrit les dépendances directes épinglées dans
 `requirements.txt`. Le manifeste des licences d’assets reste dans
 `generated/licenses.json`.
+
+## Bibliothèques externes (EXT-001)
+
+Le paquet `tools/external/` porte le module de la spec EXT-001 (la spec le nomme
+`packages/external-discovery/` et l'écrit en TypeScript ; le registre est en Python). Interfaces :
+`ProviderAdapter` et `ExternalIndex` (`adapters.py`), `LicenseEvaluator` (`licenses.py`),
+`DownloadManager` (`download.py`), `ImportPlanner` et `ImportExecutor` (`importer.py`),
+`ImportDecision` (`decision.py`). Rien hors de `assetctl external` ne l'importe :
+`ASSETCTL_EXTERNAL=off` le désactive (code 2) sans toucher la recherche ni les imports internes.
+
+Un fournisseur se lit par son index de packs, `external/<fournisseur>/index.json`, ou le chemin ou
+l'URL de `ASSETCTL_EXTERNAL_INDEX_<FOURNISSEUR>`. Kenney est le seul fournisseur P0 actif. Une URL
+d'index qui porte un identifiant ou un jeton est refusée. Les téléchargements sont en HTTPS (ou
+`file://`), bornés en taille et en durée, repris trois fois, au plus une requête par seconde et par hôte.
+
+`plan-import` télécharge l'archive, l'inspecte, lit son texte de licence, cherche d'abord dans le
+registre interne et écrit le plan (`schemas/external-import.schema.json`) avec la décision. `--dry-run`
+n'écrit ni quarantaine ni fiche ; le plan n'est écrit que si `--out` est donné. `import --plan` est
+la seconde étape, différée et rejouable : il exige la même archive à l'octet et le même verdict de
+licence, puis écrit en une transaction les binaires adressés par SHA-256
+(`sources/external/sha256/`), l'archive d'origine (`sources/external/archives/`), le texte de
+licence (`sources/external/licenses/`), les fiches et leurs identités
+`external:<fournisseur>:<pack>:<version>:<sha256>`. Un même fichier venu de deux packs donne deux
+fiches (deux provenances) pour un seul binaire. Relancé, l'import ne crée rien.
+
+`external sync --from <nouvel index>` signale les packs nouveaux, mis à jour et retirés ; un
+changement de licence ou un retrait à la source s'ajoute à `provenance.external.licenseHistory` ou
+`sourceStatus`, sans changer la licence ni les versions déjà importées. `external audit-licenses`
+rend 1 si une fiche externe déclare une licence que son pack n'a pas prouvée. Chaque export public
+(`publish --target public`) écrit `THIRD_PARTY_ASSETS.md` et `provenance.json`.
+

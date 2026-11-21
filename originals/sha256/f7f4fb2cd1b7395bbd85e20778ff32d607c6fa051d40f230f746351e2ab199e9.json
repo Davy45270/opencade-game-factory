@@ -1,0 +1,37 @@
+{
+ "ferraille": 14,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "chain",
+ "sequence": [
+  "chain",
+  "tower",
+  "secret",
+  "piston",
+  "rails"
+ ],
+ "name": "Les chaînes du Scarabombe",
+ "theme": "jungle",
+ "structure": "arena",
+ "enemies": [
+  "turret",
+  "kamikaze"
+ ],
+ "weapon": "bounce",
+ "discovery": "Les chaînes du Scarabombe · Chaîne oscillante",
+ "recovery": false,
+ "boss": "bombs"
+}

@@ -165,3 +165,89 @@ class EXT002Puzzle(NiveauxFixture, TestCase):
         niveau = self.importer_puzzle("cozy-seul")
         self.assertEqual(self.lv("validate", niveau, "--profile", self.profil(sans_moteur=True), code=6)["status"],
                          "inconclusive")
+
+
+MOTEUR_CIRCUIT = '''import json, sys
+circuit = json.load(open(sys.argv[1]))
+# Règle du « jeu » de la fixture : une boucle demande au moins trois points de contrôle.
+ok = len(circuit["controls"]) >= 3
+print(f"OK {circuit['name']} 3 tours" if ok else f"ÉCHEC {circuit['name']} : course non terminée")
+sys.exit(0 if ok else 1)
+'''
+
+
+def trace(points=4):
+    """Même structure qu'un circuit de Dérapage (Opencade) exporté par tools/levels/engines/derapage-export.mjs."""
+    return {"name": "La Boucle", "family": "urbain", "controls": [[0, 0, 20], [60, 0, 20], [60, 60, 20], [0, 60, 20]][:points],
+            "gates": [], "tunnel": [], "port": [], "elevation": [], "plaza": False}
+
+
+class EXT002Circuit(NiveauxFixture, TestCase):
+    """E212 : le circuit arrive avec son premier jeu ; sa course est jugée par le moteur du jeu, sans écran."""
+
+    def profil(self):
+        jeu = self.repos / "moteur-circuit"
+        jeu.mkdir(exist_ok=True)
+        (jeu / "valider.py").write_text(MOTEUR_CIRCUIT)
+        path = self.root / "profil-circuit.json"
+        import sys
+        path.write_text(json.dumps({"engine": {"cwd": str(jeu), "command": [sys.executable, "valider.py"]}}))
+        return str(path)
+
+    def importer(self, name, points):
+        repo = self.depot(name, {"circuits/circuit-00.json": trace(points), "LICENSE": MIT})
+        return self.lv("import", "--source", "local", "--repo", str(repo), "--game", name, "--license", "MIT",
+                       "--license-evidence", "LICENSE")["created"][0]
+
+    def test_moteur_du_jeu_juge_la_course(self):
+        bon = self.importer("derapage", 4)
+        fiche = self.lv("inspect", bon)["level"]
+        self.assertEqual((fiche["kind"], fiche["format"]), ("circuit", "game-circuit"))
+        rapport = self.lv("validate", bon, "--profile", self.profil())
+        self.assertEqual(rapport["checks"]["circuit"]["metrics"]["verdict"], "OK La Boucle 3 tours")
+        mauvais = self.importer("derapage-court", 2)
+        echec = self.lv("validate", mauvais, "--profile", self.profil(), code=4)
+        self.assertIn("circuit-rejected-by-engine", self.codes(echec))
+
+
+MOTEUR_PLATEFORME = '''import json, sys
+niveau = json.load(open(sys.argv[1]))
+# Règle du « jeu » de la fixture : le pilote ne survit pas à plus de trois ennemis blindés.
+vaincu = niveau["enemies"].count("armored") > 3
+print(f"ÉCHEC {niveau['name']} : pilote vaincu" if vaincu else f"OK {niveau['name']} gagné")
+sys.exit(1 if vaincu else 0)
+'''
+
+
+def sequence_ferraille(blindes=0):
+    """Même structure qu'un niveau de Ferraille (Opencade) exporté par tools/levels/engines/ferraille-export.mjs."""
+    return {"ferraille": 5, "name": "Forteresse", "star": "lift", "sequence": ["lift", "tunnel"], "theme": "desert",
+            "structure": "ascent", "enemies": ["crawler"] + ["armored"] * blindes, "weapon": "flame", "recovery": True}
+
+
+class EXT002Plateforme(NiveauxFixture, TestCase):
+    """E211 : le simulateur de plateforme arrive avec son premier jeu ; le pilote du jeu joue le niveau, sans écran."""
+
+    def profil(self):
+        jeu = self.repos / "moteur-plateforme"
+        jeu.mkdir(exist_ok=True)
+        (jeu / "valider.py").write_text(MOTEUR_PLATEFORME)
+        path = self.root / "profil-plateforme.json"
+        import sys
+        path.write_text(json.dumps({"engine": {"cwd": str(jeu), "command": [sys.executable, "valider.py"]}}))
+        return str(path)
+
+    def importer(self, name, blindes):
+        repo = self.depot(name, {"ferraille/ferraille-05.json": sequence_ferraille(blindes), "LICENSE": MIT})
+        return self.lv("import", "--source", "local", "--repo", str(repo), "--game", name, "--license", "MIT",
+                       "--license-evidence", "LICENSE")["created"][0]
+
+    def test_pilote_du_jeu_juge_le_niveau(self):
+        bon = self.importer("ferraille", 0)
+        fiche = self.lv("inspect", bon)["level"]
+        self.assertEqual((fiche["kind"], fiche["format"]), ("platformer", "game-platformer"))
+        rapport = self.lv("validate", bon, "--profile", self.profil())
+        self.assertEqual(rapport["status"], "pass")
+        self.assertEqual(rapport["checks"]["platformer"]["metrics"]["verdict"], "OK Forteresse gagné")
+        echec = self.lv("validate", self.importer("ferraille-blinde", 4), "--profile", self.profil(), code=4)
+        self.assertIn("platformer-rejected-by-engine", self.codes(echec))

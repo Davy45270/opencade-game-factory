@@ -1,0 +1,36 @@
+{
+ "ferraille": 22,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "rails",
+ "sequence": [
+  "rails",
+  "spotlight",
+  "spring",
+  "lift",
+  "tower"
+ ],
+ "name": "Les rails de livraison",
+ "theme": "factory",
+ "structure": "vehicle",
+ "enemies": [
+  "turret",
+  "kamikaze"
+ ],
+ "weapon": "grenade",
+ "discovery": "Les rails de livraison · Aiguillage",
+ "recovery": false
+}

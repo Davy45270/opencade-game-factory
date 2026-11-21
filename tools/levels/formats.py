@@ -319,6 +319,10 @@ def parse(path, raw, read=None):
             return parse_world_graph(data, read, stem)
         if isinstance(data, dict) and {"rules", "objects", "scoring"} <= set(data):
             return parse_game_puzzle(data, stem)
+        if isinstance(data, dict) and {"controls", "gates", "name"} <= set(data):
+            return parse_game_circuit(data, stem)
+        if isinstance(data, dict) and {"sequence", "structure", "weapon", "enemies"} <= set(data):
+            return parse_game_platformer(data, stem)
         raise Unsupported("JSON qui n'est ni une carte Tiled, ni un projet LDtk, ni un plan en grille, ni un graphe de monde")
     raise Unsupported(f"format {suffix or '—'} non pris en charge")
 
@@ -413,6 +417,26 @@ def parse_game_puzzle(data, name):
     level = _canonical("game-puzzle", str(data.get("id", name)), max(1, len(objects)), 1, 1, 1, "puzzle",
                        [{"name": "kind", "type": "string", "value": "puzzle"}], [], [], [], [])
     level["puzzle"] = data
+    return [level]
+
+
+def parse_game_circuit(data, name):
+    """Circuit propre à un jeu (Dérapage d'Opencade : points de contrôle `controls` [x, y, largeur], portes) : gardé
+    tel quel dans `circuit`, car sa physique et sa course appartiennent au jeu ; seul le moteur du jeu le valide."""
+    controls = data.get("controls") or []
+    level = _canonical("game-circuit", str(data.get("name", name)), max(1, len(controls)), 1, 1, 1, "circuit",
+                       [{"name": "kind", "type": "string", "value": "circuit"}], [], [], [], [])
+    level["circuit"] = data
+    return [level]
+
+
+def parse_game_platformer(data, name):
+    """Niveau de plateforme propre à un jeu (Ferraille d'Opencade : séquence de modules, structure, ennemis, arme) :
+    gardé tel quel dans `platformer`, car sauts, collisions et ennemis appartiennent au jeu ; seul son moteur le juge."""
+    sequence = data.get("sequence") or []
+    level = _canonical("game-platformer", str(data.get("name", name)), max(1, len(sequence)), 1, 1, 1, "platformer",
+                       [{"name": "kind", "type": "string", "value": "platformer"}], [], [], [], [])
+    level["platformer"] = data
     return [level]
 
 

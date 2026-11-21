@@ -3,7 +3,8 @@
 // Briques NOUVELLES entre la base et HEAD, avec les clés de `bbctl gate` (npm : version du package-lock ; Docker : image
 // des FROM ; module local : src/engines/<x> ou packages/<x>). Couvertes si décidées au catalogue de l'usine ou si une
 // dérogation `HL-n 7-n` existe (.woodpecker/usine/briques.json, écrit par l'usine). Rapport : reutilisation-rapport.json.
-// usage : node .woodpecker/usine/reutilisation.mjs [--base <réf>]   (défaut : CI_PREV_COMMIT_SHA, puis HEAD~1)
+// usage : node .woodpecker/usine/reutilisation.mjs [--base <réf>]   (défaut : merge-base avec origin/<cible> sur une PR,
+// puis CI_PREV_COMMIT_SHA, puis HEAD~1 ; base absente du clone = statut « base-indisponible », jamais d’échec)
 import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -89,7 +90,17 @@ function cles(commit, repo) {
 
 const args = process.argv.slice(2);
 const i = args.indexOf("--base");
-const demandee = i >= 0 ? args[i + 1] : process.env.CI_PREV_COMMIT_SHA || "HEAD~1";
+// Base : --base ; sur une PR, le point de divergence avec la branche cible ; sur un push, le commit précédent.
+function baseParDefaut() {
+  const cible = process.env.CI_COMMIT_TARGET_BRANCH;
+  if (cible) {
+    try {
+      return git("merge-base", "HEAD", `origin/${cible}`).trim();
+    } catch { /* branche cible absente du clone : on tente la suite */ }
+  }
+  return process.env.CI_PREV_COMMIT_SHA || "HEAD~1";
+}
+const demandee = i >= 0 ? args[i + 1] : baseParDefaut();
 let briques;
 try {
   briques = JSON.parse(readFileSync(".woodpecker/usine/briques.json", "utf8"));

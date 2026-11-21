@@ -470,6 +470,20 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   `inconclusive` (code 6), jamais `pass`. Le genre `puzzle` n'a aucune règle dans le registre : le profil du jeu
   déclare sa commande de validation sans écran (`engine.command`, `engine.cwd`), qui importe le moteur et le solveur
   du jeu et répond `OK <id> …` ou `ÉCHEC <id> : motif` ; sans elle, le puzzle reste `inconclusive`.
+- Circuit natif d'un jeu (Dérapage d'Opencade : `controls` [x, y, largeur], `gates`, gardé tel quel, format
+  `game-circuit`) : même contrat `engine.command` que le puzzle. Le circuit arrive avec son premier jeu : les circuits
+  sont du code TypeScript (`src/engines/derapage/circuits.ts`), exportés en JSON par
+  `tools/levels/engines/derapage-export.mjs` lancé dans le dépôt du jeu, empaquetés avec la licence
+  (`LICENSE.txt`) et importés par `level import --source archive --source-url <dépôt>@<commit>:<fichier>`. Le
+  validateur `tools/levels/engines/derapage.mjs` met le circuit à la place d'un tracé du jeu et fait courir la course
+  complète par le pilote de démonstration du jeu (`controller`) avec son moteur (`Engine`) : `pass` si les trois
+  tours sont bouclés. Les sources TypeScript se chargent sans écran par `tools/levels/engines/ts-resolve.mjs`
+  (imports sans extension, transpilation par le `rolldown` du jeu).
+- Plateforme native d'un jeu (Ferraille d'Opencade : séquence de modules, structure, ennemis, arme, format
+  `game-platformer`) : même contrat. `tools/levels/engines/ferraille-export.mjs` exporte les 30 niveaux (séquences
+  complétées par le catalogue de niveaux du jeu) ; `tools/levels/engines/ferraille.mjs` remet le niveau à son rang
+  et le fait jouer par le pilote du jeu (`pilot`, commandes ordinaires) : `pass` si le pilote gagne. Le départ
+  d'un niveau natif est placé par le jeu : la gate commune `spawn` ne s'y applique pas.
 - `generate --genre dungeon --seed N` : découpage BSP avec un PRNG mulberry32 sérialisable, sans horloge ; seed +
   version + contraintes donnent la même sortie à l'octet. **ADR** : l'algorithme BSP est l'algorithme standard de
   ROT.js et libtcod ; ces bibliothèques sont en JavaScript et en C, le registre est en Python : il est repris tel
@@ -479,7 +493,7 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   version rend 2) ; rend l'entrée `{id, version, sha256, transform}` d'un `level.lock.json`.
 - `usages <id> --scope repos.json` lit les `level.lock.json` des jeux : index inverse jeu/version et historique
   par commit.
-- Formats des jeux de David : niveau de puzzle d'un jeu (Cozy : `rules`, `objects`, `scoring`, gardé tel quel), plan en grille ASCII de Pestouille (`terrain`, `spawn`, `exits` avec drapeaux requis,
+- Formats des jeux de David : circuit de Dérapage (ci-dessus), niveau de puzzle d'un jeu (Cozy : `rules`, `objects`, `scoring`, gardé tel quel), plan en grille ASCII de Pestouille (`terrain`, `spawn`, `exits` avec drapeaux requis,
   `entities` ; genre donné par le nom du fichier, `dungeon.json` → donjon) et graphe de monde (`regions`,
   `transitions`, `gates`, `checkpoints`, complété par le fichier voisin nommé d'après son `id` : `start`, `grants`).
   Règle reprise du jeu (`packages/world`) : une région sans transition interne se parcourt librement. Le validateur RPG
@@ -493,5 +507,9 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   sources inchangées), `generated/reports/levels/pestouille-validation.json` (20 niveaux de Pestouille, tous
   `pass`, provenance et licence vérifiées) et `generated/reports/levels/cozy-validation.json` (20 niveaux de Cozy
   Room Sort jugés par le moteur et le solveur du jeu, `node tools/validate-levels.ts` : tous `pass` ; ses 10 niveaux
-  de test volontairement défectueux sont tous rejetés par ce même moteur). Ils se refont avec `level discover` puis
-  `level validate`.
+  de test volontairement défectueux sont tous rejetés par ce même moteur) et
+  `generated/reports/levels/derapage-validation.json` (30 circuits de Dérapage au commit 172156a, tous bouclés par
+  le moteur du jeu ; deux circuits cassés — deux points, tracé aplati — sont rejetés),
+  `generated/reports/levels/ferraille-validation.json` (30 niveaux de Ferraille, tous gagnés par le pilote du jeu ;
+  la mutation huit blindés + boss réacteur est rejetée, le moteur tolère en revanche un module inconnu). Ils se refont avec
+  `level discover` puis `level validate`.

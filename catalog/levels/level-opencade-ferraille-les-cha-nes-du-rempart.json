@@ -1,0 +1,106 @@
+{
+  "content": {
+    "format": "game-platformer",
+    "height": 1,
+    "layers": [],
+    "name": "Les chaînes du rempart",
+    "orientation": "platformer",
+    "platformer": {
+      "discovery": "Les chaînes du rempart · Chaîne oscillante",
+      "enemies": [
+        "shooter",
+        "crawler"
+      ],
+      "ferraille": 6,
+      "name": "Les chaînes du rempart",
+      "openingEnemy": {
+        "aim": 3.141592653589793,
+        "clock": 0,
+        "h": 14,
+        "hp": 1,
+        "kind": "turret",
+        "opening": true,
+        "originY": 242,
+        "phase": 0,
+        "vx": 0,
+        "vy": 0,
+        "w": 14,
+        "x": 108,
+        "y": 242
+      },
+      "recovery": false,
+      "sequence": [
+        "chain",
+        "hut",
+        "gate",
+        "bridge",
+        "wind"
+      ],
+      "star": "chain",
+      "structure": "descent",
+      "theme": "desert",
+      "weapon": "flame"
+    },
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "platformer"
+      }
+    ],
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 5
+  },
+  "contentSha256": "fae70cc00dd9dcc03abd852f834cff3c412f849121a93584fc0a7515aeaa0b71",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-platformer",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 5
+  },
+  "id": "level-opencade-ferraille-les-cha-nes-du-rempart",
+  "kind": "platformer",
+  "losses": [],
+  "mechanics": [],
+  "name": "Les chaînes du rempart",
+  "observations": [
+    {
+      "commit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+      "contentSha256": "fae70cc00dd9dcc03abd852f834cff3c412f849121a93584fc0a7515aeaa0b71",
+      "observedAt": "2026-11-21T15:48:48Z",
+      "path": "ferraille/ferraille-06.json",
+      "provider": "archive",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts"
+    }
+  ],
+  "origin": {
+    "attribution": "Les chaînes du rempart — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "opencade-ferraille",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE.txt",
+    "licenseStatus": "verified",
+    "provider": "archive",
+    "sourceCommit": "00813410f426ed3439ae8e883faa62db7255143d03271f3dd61b90ded0d7952f",
+    "sourcePath": "ferraille/ferraille-06.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "sourceUrl": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

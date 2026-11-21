@@ -1,0 +1,252 @@
+{
+ "webp_near_lossless": 80,
+ "status": "provisoire",
+ "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+ "planche": "Pestouille_RPG_Animations_Face_HL541.jpg",
+ "marge": 0,
+ "taille": 64,
+ "detoure": true,
+ "modele": "noir-jpeg",
+ "directions": [
+  "south"
+ ],
+ "elements": [
+  {
+   "id": "pestouille-south-idle-a",
+   "boite": [
+    120,
+    132,
+    45,
+    12
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-idle-b",
+   "boite": [
+    122,
+    132,
+    258,
+    12
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-idle-c",
+   "boite": [
+    120,
+    133,
+    472,
+    11
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-idle-d",
+   "boite": [
+    121,
+    132,
+    685,
+    12
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-a",
+   "boite": [
+    118,
+    136,
+    45,
+    169
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-b",
+   "boite": [
+    118,
+    140,
+    260,
+    165
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-c",
+   "boite": [
+    119,
+    137,
+    472,
+    169
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-d",
+   "boite": [
+    114,
+    135,
+    688,
+    170
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-e",
+   "boite": [
+    121,
+    136,
+    897,
+    169
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-walk-f",
+   "boite": [
+    116,
+    139,
+    1114,
+    166
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-attack-a",
+   "boite": [
+    120,
+    133,
+    45,
+    332
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-attack-b",
+   "boite": [
+    125,
+    130,
+    257,
+    335
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-attack-c",
+   "boite": [
+    135,
+    136,
+    467,
+    329
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-attack-d",
+   "boite": [
+    144,
+    136,
+    678,
+    329
+   ],
+   "ancre": "bas",
+   "centre_corps": 746
+  },
+  {
+   "id": "pestouille-south-attack-e",
+   "boite": [
+    122,
+    134,
+    897,
+    331
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-attack-f",
+   "boite": [
+    120,
+    134,
+    1112,
+    331
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-south-hurt-a",
+   "boite": [
+    128,
+    133,
+    45,
+    490
+   ],
+   "ancre": "bas",
+   "sommet_corps": 495,
+   "centre_corps": 105
+  },
+  {
+   "id": "pestouille-south-hurt-b",
+   "boite": [
+    135,
+    121,
+    249,
+    503
+   ],
+   "ancre": "bas",
+   "centre_corps": 318
+  },
+  {
+   "id": "pestouille-south-hurt-c",
+   "boite": [
+    120,
+    132,
+    472,
+    492
+   ],
+   "ancre": "bas",
+   "sommet_corps": 503
+  }
+ ],
+ "animations": {
+  "pestouille/idle": {
+   "frames": [
+    "pestouille-south-idle-a",
+    "pestouille-south-idle-b",
+    "pestouille-south-idle-c",
+    "pestouille-south-idle-d"
+   ],
+   "fps": 6
+  },
+  "pestouille/walk": {
+   "frames": [
+    "pestouille-south-walk-a",
+    "pestouille-south-walk-b",
+    "pestouille-south-walk-c",
+    "pestouille-south-walk-d",
+    "pestouille-south-walk-e",
+    "pestouille-south-walk-f"
+   ],
+   "fps": 8
+  },
+  "pestouille/attack": {
+   "frames": [
+    "pestouille-south-attack-a",
+    "pestouille-south-attack-b",
+    "pestouille-south-attack-c",
+    "pestouille-south-attack-d",
+    "pestouille-south-attack-e",
+    "pestouille-south-attack-f"
+   ],
+   "fps": 10
+  },
+  "pestouille/hurt": {
+   "frames": [
+    "pestouille-south-hurt-a",
+    "pestouille-south-hurt-b",
+    "pestouille-south-hurt-c"
+   ],
+   "fps": 8
+  }
+ },
+ "planche_sha256": "299fdcf49919bfc03e89fd0b00a42025fe01d3375f45cc752782ca6ea0f5cf4f"
+}

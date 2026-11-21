@@ -21,6 +21,9 @@ clone:
       # Historique complet : validate --base compare ids.json et le catalogue à la branche cible.
       depth: 0
       partial: false
+      # La branche cible est récupérée ICI, par le plugin qui détient les identifiants (dépôt privé) :
+      # un `git fetch` dans une étape Python, sans identifiants, sortait en 128 (pipeline 18, HL-538).
+      fetch_target_branch: true
 
 steps:
   - name: dependances
@@ -73,7 +76,8 @@ steps:
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - CIBLE="$${CI_COMMIT_TARGET_BRANCH:?branche cible inconnue}"
-      - git fetch -q --no-tags origin "+refs/heads/$$CIBLE:refs/remotes/origin/$$CIBLE"
+      # origin/<cible> vient de l'étape clone (fetch_target_branch) ; absente, le contrôle échoue (pas de vert muet).
+      - git rev-parse --verify -q "refs/remotes/origin/$$CIBLE^{commit}" >/dev/null || { echo "origin/$$CIBLE absente du clone"; exit 1; }
       - echo "base origin/$$CIBLE = $(git rev-parse "origin/$$CIBLE")"
       - ./assetctl validate --base "origin/$$CIBLE" --json
 

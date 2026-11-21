@@ -85,7 +85,12 @@ def _pixels(root, asset):
 
 
 def rule(pair, assets_by_id, root, cache):
-    """Statue une paire par la mesure de pixels quand les deux binaires du registre sont lisibles."""
+    """Statue une paire : déjà liée comme variante → `linked-variant` ; sinon par la mesure de pixels quand les deux
+    binaires du registre sont lisibles. Règle du registre : un quasi-doublon devient une variante liée (champ
+    `variants`), jamais une suppression ni une fusion."""
+    if pair["b"] in assets_by_id[pair["a"]].get("variants", ()) or \
+            pair["a"] in assets_by_id[pair["b"]].get("variants", ()):
+        return {**pair, "status": "linked-variant"}
     for key in (pair["a"], pair["b"]):
         if key not in cache:
             cache[key] = _pixels(root, assets_by_id[key])

@@ -138,7 +138,9 @@ Les paires « similaires » (pHash à 8 bits ou moins) sont statuées par une me
 par pixel des deux binaires du registre, composés sur gris moyen et ramenés à 64 × 64 (`dedup.rule`). Le plafond
 du bruit, 6,0 / 255, vient de 400 rééchantillonnages à ±10 % d'une même image (maximum mesuré 5,97). Au-dessus, la
 paire est `distinct` ; en dessous, elle reste `needs-review` avec sa `pixelDistance` : même image à la précision
-du rééchantillonnage, à décider. Sans binaire lisible, la paire reste `needs-review` sans distance.
+du rééchantillonnage. Un tel quasi-doublon devient une variante liée (chacun nomme l'autre dans `variants`), jamais
+une suppression d'un dessin : la paire est alors `linked-variant`. Sans binaire lisible, la paire reste
+`needs-review` sans distance.
 
 L’identité d’un sprite d’atlas associe la source logique, le chemin du fichier
 d’atlas et le nom du cadre. La planche, son SHA-256 et les coordonnées sont

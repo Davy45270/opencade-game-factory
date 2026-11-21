@@ -47,3 +47,10 @@ class DoublonsParMesure(TestCase):
         self.assertTrue(all(a["variants"] == [] for a in assets))
         sans_binaire = duplicates(assets)
         self.assertNotIn("pixelDistance", sans_binaire["similar"][0])
+
+    def test_quasi_doublon_lie_en_variante_jamais_supprime(self):
+        a, b = self.asset("a", dessin()), self.asset("b", dessin().resize((92, 92), Image.Resampling.LANCZOS))
+        a["variants"], b["variants"] = ["b"], ["a"]
+        rapport = duplicates([a, b], self.root)
+        self.assertEqual([p["status"] for p in rapport["similar"]], ["linked-variant"])
+        self.assertTrue((self.root / "a.png").is_file() and (self.root / "b.png").is_file())

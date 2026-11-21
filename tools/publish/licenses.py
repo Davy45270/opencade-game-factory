@@ -10,9 +10,14 @@ from tools.core.schemas import schemas
 from tools.discovery.enrich import trace
 
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
-# Licence privée de David (HL-538 7-3162) : jamais publique, sauf autorisation explicite du jeu qui emploie
-# l'asset (catalog/sources.json, publicationGrants ; ex. pestouille-rpg, HL-537 7-3167). Non dérivable.
+# Licence privée de David (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
+# Règle centrale unique, sans liste de jeux à tenir : tout dépôt de rôle « game » de catalog/sources.json (le registre
+# n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Non dérivable.
 PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"})
+GAME_GRANT = {"ref": "HL-538 (David, 2026-11-21)",
+              "decision": "« autorise pour tous mes jeux sans exceptions !!! » : remplace l'autorisation réservée à "
+                          "pestouille-rpg (HL-537 7-3167). Restent bloqués : un dépôt public qui n'est pas un jeu de David, "
+                          "et la publication d'une planche source brute hors d'un jeu."}
 DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
              "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 
@@ -80,7 +85,7 @@ def apply_catalogue(asset, entry, ref):
 def public_allowed(record, sheet_digests, find_parent, granted=frozenset()):
     """Check the selected revision and each revision it names as a parent.
 
-    `granted` lists the private licenses that the destination game is explicitly allowed to publish."""
+    `granted` lists the private licenses that the destination (a game of David, GAME_GRANT) may publish."""
     license_id = record.get("license")
     if license_id in PRIVATE_LICENSES and license_id not in granted:
         return False

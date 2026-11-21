@@ -1,11 +1,11 @@
-"""L10 (HL-538 7-3162, HL-537 7-3167) : licence privée de David et autorisation explicite de publication par jeu.
+"""L10 (HL-538 7-3162 ; décision de David du 2026-11-21) : licence privée de David, publiable à travers TOUS ses jeux.
 
-Règle de David : « utilisable dans SES jeux, jamais exposé publiquement sans son accord ».
-- PASSENT : un jeu dont toutes les copies sont privées (forge privée, dépôt GitHub privé des assets) ;
-  un jeu public qui porte l'autorisation explicite (`publicationGrants`) pour cette licence, à travers ce jeu.
-- BLOQUÉS : un jeu public sans autorisation ; `publish --target public` (aucun jeu) ; la planche source,
-  même vers le jeu autorisé ; un asset privé non employé par le jeu autorisé, publié directement.
-Chaque cas a sa contre-épreuve : le même geste sans la condition qui le permet est refusé."""
+Règle de David : « autorise pour tous mes jeux sans exceptions !!! ». Règle centrale unique (GAME_GRANT) : un dépôt
+de rôle `game` de catalog/sources.json est un jeu de David.
+- PASSENT : un jeu dont toutes les copies sont privées ; un jeu PUBLIC de David (Capsule, par exemple), pour ce qu'il emploie.
+- BLOQUÉS : un dépôt public tiers (absent de sources.json) ; un dépôt public de David qui n'est pas un jeu
+  (bibliothèque) ; `publish --target public` (aucun jeu) ; la planche source, même vers un jeu.
+Chaque cas a sa contre-épreuve : le même geste vers une destination qui n'est pas un jeu de David est refusé."""
 from __future__ import annotations
 
 import json
@@ -17,7 +17,6 @@ from ._monde import BOUTON_B, FOUET, PLANCHE, NIVEAU, _depot
 LICENCE = "LicenseRef-David-Prive-Tous-Droits-Reserves"
 PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
           "decision": "Dessins de David : privé, tous droits réservés."}
-GRANT = {"license": LICENCE, "ref": "HL-537 7-3167", "decision": "Publication du jeu autorisée par David."}
 
 
 class L10LicencePrivee(MondeScanne):
@@ -27,19 +26,20 @@ class L10LicencePrivee(MondeScanne):
         super().setUpClass()
         m = cls.monde
         fichiers = {"package.json": '{"name": "x", "private": true}\n'}
-        for nom, date in (("jeu-prive", "2026-02-04T10:00:00+00:00"), ("jeu-public", "2026-02-05T10:00:00+00:00"),
-                          ("jeu-autorise", "2026-02-06T10:00:00+00:00")):
+        for nom, date in (("jeu-prive", "2026-02-04T10:00:00+00:00"), ("jeu-capsule", "2026-02-05T10:00:00+00:00"),
+                          ("depot-tiers", "2026-02-06T10:00:00+00:00"), ("lib-publique", "2026-02-07T10:00:00+00:00")):
             m.commits[nom] = _depot(m, nom, dict(fichiers), date)
         chemin = m.registre / C.SOURCES
         sources = json.loads(chemin.read_text(encoding="utf-8"))
         prive = C.source_locale("jeu-prive", m.depot("jeu-prive"))
         prive["copies"][0]["visibility"] = "private"
-        public = C.source_locale("jeu-public", m.depot("jeu-public"))
-        public["copies"][0]["visibility"] = "public"
-        autorise = C.source_locale("jeu-autorise", m.depot("jeu-autorise"))
-        autorise["copies"][0]["visibility"] = "public"
-        autorise["publicationGrants"] = [GRANT]
-        sources["sources"] += [prive, public, autorise]
+        capsule = C.source_locale("jeu-capsule", m.depot("jeu-capsule"))
+        capsule["copies"][0]["visibility"] = "public"
+        lib = C.source_locale("lib-publique", m.depot("lib-publique"))
+        lib["copies"][0]["visibility"] = "public"
+        lib["role"] = "shared-library"
+        # depot-tiers n'est PAS déclaré : un dépôt public qui n'est pas à David
+        sources["sources"] += [prive, capsule, lib]
         chemin.write_text(json.dumps(sources, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         cls.prives = {}
         for depot, fichier in (("jeu-a", FOUET), ("jeu-a", NIVEAU), ("jeu-a", PLANCHE), ("jeu-b", BOUTON_B)):
@@ -70,29 +70,34 @@ class L10LicencePrivee(MondeScanne):
         self.exiger_code(r, C.OK)
         self.assertTrue((self.monde.depot("jeu-prive") / "assets/fouet.png").is_file())
 
-    def test_jeu_public_sans_autorisation_refuse(self):
-        r = self._usage(FOUET, "jeu-public", "assets/fouet.png")
-        self.exiger_refus_public(r)
-        self.assertFalse((self.monde.depot("jeu-public") / "assets/fouet.png").exists(), "un refus n'écrit rien")
-        self.assertFalse((self.monde.depot("jeu-public") / C.LOCK_JEU).exists())
-
-    def test_jeu_autorise_passe_et_check_lock_public(self):
-        r = self._usage(NIVEAU, "jeu-autorise", "assets/niveau.png")
+    def test_jeu_public_de_david_passe_et_check_lock_public(self):
+        r = self._usage(NIVEAU, "jeu-capsule", "assets/niveau.png")
         self.exiger_code(r, C.OK)
-        lock = self.monde.depot("jeu-autorise") / C.LOCK_JEU
+        lock = self.monde.depot("jeu-capsule") / C.LOCK_JEU
         self.exiger_code(self.ctl(C.cmd_check_lock(lock, "--public")), C.OK)
-        # Contre-épreuve : le même lock, copié dans le jeu public sans autorisation, est refusé en public.
-        copie = self.monde.depot("jeu-public") / "copie.lock.json"
+        # Contre-épreuve : le même lock, copié dans un dépôt public tiers, est refusé en public.
+        copie = self.monde.depot("depot-tiers") / "copie.lock.json"
         copie.write_text(lock.read_text(encoding="utf-8"), encoding="utf-8")
-        (self.monde.depot("jeu-public") / "assets").mkdir(exist_ok=True)
-        (self.monde.depot("jeu-public") / "assets/niveau.png").write_bytes(
-            (self.monde.depot("jeu-autorise") / "assets/niveau.png").read_bytes())
+        (self.monde.depot("depot-tiers") / "assets").mkdir(exist_ok=True)
+        (self.monde.depot("depot-tiers") / "assets/niveau.png").write_bytes(
+            (self.monde.depot("jeu-capsule") / "assets/niveau.png").read_bytes())
         self.exiger_refus_public(self.ctl(C.cmd_check_lock(copie, "--public")))
 
-    def test_planche_source_refusee_meme_vers_le_jeu_autorise(self):
-        r = self._usage(PLANCHE, "jeu-autorise", "assets/planche.png")
+    def test_depot_public_tiers_refuse(self):
+        r = self._usage(FOUET, "depot-tiers", "assets/fouet.png")
         self.exiger_refus_public(r)
-        self.assertFalse((self.monde.depot("jeu-autorise") / "assets/planche.png").exists())
+        self.assertFalse((self.monde.depot("depot-tiers") / "assets/fouet.png").exists(), "un refus n'écrit rien")
+        self.assertFalse((self.monde.depot("depot-tiers") / C.LOCK_JEU).exists())
+
+    def test_depot_public_de_david_qui_n_est_pas_un_jeu_refuse(self):
+        r = self._usage(FOUET, "lib-publique", "assets/fouet.png")
+        self.exiger_refus_public(r)
+        self.assertFalse((self.monde.depot("lib-publique") / "assets/fouet.png").exists())
+
+    def test_planche_source_refusee_meme_vers_un_jeu(self):
+        r = self._usage(PLANCHE, "jeu-capsule", "assets/planche.png")
+        self.exiger_refus_public(r)
+        self.assertFalse((self.monde.depot("jeu-capsule") / "assets/planche.png").exists())
 
     def test_asset_non_employe_publie_directement_refuse(self):
         dest = self.monde.racine / "export-prive"
@@ -100,8 +105,8 @@ class L10LicencePrivee(MondeScanne):
         self.exiger_refus_public(r)
         self.assertFalse(dest.exists() and any(dest.rglob("*")), "un refus ne doit rien écrire")
 
-    def test_materialize_public_refuse_sans_autorisation(self):
-        dest = self.monde.depot("jeu-public") / "assets/bouton.png"
+    def test_materialize_vers_un_depot_tiers_refuse(self):
+        dest = self.monde.depot("depot-tiers") / "assets/bouton.png"
         self.exiger_refus_public(self.ctl(C.cmd_materialize(self.prives[BOUTON_B], dest)))
         self.assertFalse(dest.exists())
 

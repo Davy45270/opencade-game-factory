@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:01:48.055671+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-lanterne-cadre-li-0001",
+        "reason": "pixels différents du cadre livré sprite-lanterne (empreinte d9a8e2ed2934)"
+      },
+      {
+        "assetId": "asset-sprite-lanterne-0001",
+        "reason": "découpe brute de l'élément lanterne : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5e64c8606b1ae6d343d59167fc33ec78cf191026e6c82f620b5f264952d43090",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lanterne",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-lanterne-cadre-li-0001",
+          "reason": "pixels différents du cadre livré sprite-lanterne (empreinte d9a8e2ed2934)"
+        },
+        {
+          "assetId": "asset-sprite-lanterne-0001",
+          "reason": "découpe brute de l'élément lanterne : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-lanterne-cadre-li-0001",
+        "asset-sprite-lanterne-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:01:47.692731+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lanterne » (public/assets/p02-objets.webp), forme normalisée par le jeu de l'élément lanterne",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lanterne-cadre-li-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lanterne-cadre-li-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-lanterne"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lanterne-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-437.png, SHA-256 60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-lanterne"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lanterne (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "9623617171716117",
+    "phash": "ce65349a3369d1cc"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lanterne-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lanterne livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/p02-objets.webp",
+      "recette {\"atlas\": \"public/assets/p02-objets.webp (webp)\", \"boite\": [36, 44, 301, 341], \"cadre\": \"sprite-lanterne\", \"element\": \"lanterne\", \"empreintePixels\": \"d9a8e2ed293443cb2e8c765e48b57f8a97608524a0ba66aa3a1d8fe18501059c\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 44, \"w\": 36, \"x\": 301, \"y\": 341}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-objets.decoupe.json\", \"tableSha256\": \"8da505fd794f1c83b370cff0060a2d0b69883c160c8d7f475ecf9620ce2112d7\"}"
+    ],
+    "parentId": "asset-sprite-lanterne-0001",
+    "parentSha256": "910b0b35c24fd71ee7077f1fe79cd26e4a2b284fa06aeb2f53387d6b18fc7627",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:01:48.055671+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/p02-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lanterne de public/assets/p02-objets.webp (empreinte de pixels d9a8e2ed293443cb)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lanterne",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "60c9fb4fa67b9781980720992cbc4ae74e88a064cf626d5cdfe0072d0206e0ae",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

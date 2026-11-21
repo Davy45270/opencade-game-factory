@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:53:49.807442+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-sanglier-epineux-0001",
+        "reason": "pixels différents du cadre livré sprite-sanglier-epineux (empreinte 2d532ba9b5dc)"
+      },
+      {
+        "assetId": "asset-sprite-sanglier-epineux-0001",
+        "reason": "découpe brute de l'élément sanglier-epineux : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d72ed268264a4e184b9fccdc93edf6233eff2bcc102c18d0b4b841d917028828",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "sanglier epineux",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-sanglier-epineux-0001",
+          "reason": "pixels différents du cadre livré sprite-sanglier-epineux (empreinte 2d532ba9b5dc)"
+        },
+        {
+          "assetId": "asset-sprite-sanglier-epineux-0001",
+          "reason": "découpe brute de l'élément sanglier-epineux : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-sanglier-epineux-0001",
+        "asset-sprite-sanglier-epineux-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:53:49.432202+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-sanglier-epineux » (public/assets/e04-monstres.webp), forme normalisée par le jeu de l'élément sanglier-epineux",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-sanglier-epineux-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-sanglier-epineux-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-sanglier-epineux"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sanglier-epineux-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-367.png, SHA-256 b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-sanglier-epineux"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg sanglier-epineux (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "942743d4881b1317",
+    "phash": "e9863d52c03997e9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-sanglier-epineux-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sanglier-epineux livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-monstres.webp",
+      "recette {\"atlas\": \"public/assets/e04-monstres.webp (webp)\", \"boite\": [57, 53, 1140, 637], \"cadre\": \"sprite-sanglier-epineux\", \"element\": \"sanglier-epineux\", \"empreintePixels\": \"2d532ba9b5dc584d6b7b5c820b0be8fe02c29bbf646a9000f7a9a518d53bd1a1\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 53, \"w\": 57, \"x\": 1140, \"y\": 637}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-sanglier-epineux-0001",
+    "parentSha256": "0165f6897b5559e5348e04746b7a7811bfd5344e4e671d22cab348b8b8a587b7",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:53:49.807442+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-monstres.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "public/assets/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-sanglier-epineux de public/assets/e04-monstres.webp (empreinte de pixels 2d532ba9b5dc584d)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-sanglier-epineux",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b2cbea299409d29bcb894aac36fec95f3b30c49feff440b7477dee476f7a6fc1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

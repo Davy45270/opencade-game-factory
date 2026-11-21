@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:12:40.625208+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-menu-quetes-0001",
+        "reason": "découpe brute de l'élément menu-quetes : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3abc9d3311896cc1b7cd71c64758cca4c8660c8ddbf88d5ff01f2f7e2ef0f37e",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "menu quetes",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-menu-quetes-0001",
+          "reason": "découpe brute de l'élément menu-quetes : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-menu-quetes-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:12:40.268690+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-menu-quetes » (assets/export/e03-menu.png), forme normalisée par le jeu de l'élément menu-quetes",
+  "dimensions": {
+    "height": 32,
+    "width": 32
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-menu-quetes-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-menu-quetes-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-quetes"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-menu-quetes-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-quetes"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg menu-quetes (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "11cc796969e0611f",
+    "phash": "9ec3314479699d3c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-menu-quetes-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-menu-quetes livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-menu.png",
+      "recette {\"atlas\": \"assets/export/e03-menu.png (png)\", \"boite\": [22, 20, 1526, 865], \"cadre\": \"sprite-menu-quetes\", \"element\": \"menu-quetes\", \"empreintePixels\": \"7798c2c3abc3d110fdd2c849277b467e7f794edc5065795c1a52c7b1167756cb\", \"parametres\": {\"detoure\": true, \"marge\": 1, \"modele\": \"fond:30\", \"taille\": 32, \"unique\": true}, \"regionDuBrut\": {\"h\": 20, \"w\": 22, \"x\": 1526, \"y\": 865}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-menu.decoupe.json\", \"tableSha256\": \"a270542ca9f05223750829f6928f7c45911ebf11ca3df7b349cdf585bfa48aac\"}"
+    ],
+    "parentId": "asset-sprite-menu-quetes-0001",
+    "parentSha256": "18b8aa2af7acc1c3fc083e1c91aa755b6ee94566a1c8fb4896a58f488e9750ea",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-menu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:12:40.625208+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "assets/export/e03-menu.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-menu-quetes de assets/export/e03-menu.png (empreinte de pixels 7798c2c3abc3d110)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-menu-quetes",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-menu.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-menu.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "cf64fd98264e6c242f8617c6b450183da9710ef284b9e48f30060964616b524e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

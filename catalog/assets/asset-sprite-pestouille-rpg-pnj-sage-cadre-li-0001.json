@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:16:47.677005+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pnj-sage-0001",
+        "reason": "découpe brute de l'élément pnj-sage : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5a46b4107fe02d3b61fdf65bd616dbcf1ff9b523754a8b42d069093412bc79fe",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj sage",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pnj-sage-0001",
+          "reason": "découpe brute de l'élément pnj-sage : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pnj-sage-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:16:47.325046+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-sage » (assets/export/e03-personnages.png), forme normalisée par le jeu de l'élément pnj-sage",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-sage"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-sage-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-44.png, SHA-256 484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-sage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-sage (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "9d3672637337322e",
+    "phash": "cdc63478d363328d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-sage-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-sage livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-personnages.png",
+      "recette {\"atlas\": \"assets/export/e03-personnages.png (png)\", \"boite\": [61, 82, 19, 831], \"cadre\": \"sprite-pnj-sage\", \"element\": \"pnj-sage\", \"empreintePixels\": \"00a26a55144a191a35ef9b2f9f010442b8bc50854e9d238be9a235b5ea915b01\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 82, \"w\": 61, \"x\": 19, \"y\": 831}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-sage-0001",
+    "parentSha256": "72211e4a1e79c3d7219976f8985db042c394ac1f9eede7bc987c310e3641458b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:16:47.677005+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-sage de assets/export/e03-personnages.png (empreinte de pixels 00a26a55144a191a)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-sage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "484798b192a03e5d27255a490100c967af0f29cdb4d8736d015c653243efd5fe",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

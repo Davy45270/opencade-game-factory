@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:22:25.134294+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-flamme-rouge-0001",
+        "reason": "découpe brute de l'élément flamme-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e9b04decf9592fc1d1e6991fe62d10e388093d0537de7cb7039652cd26a8636b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "flamme rouge",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-flamme-rouge-0001",
+          "reason": "découpe brute de l'élément flamme-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-flamme-rouge-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:22:24.781921+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-flamme-rouge » (assets/export/e04-icones.png), forme normalisée par le jeu de l'élément flamme-rouge",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-flamme-rouge-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-flamme-rouge-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-flamme-rouge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-flamme-rouge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-96.png, SHA-256 97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-flamme-rouge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg flamme-rouge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "2c441233717171b6",
+    "phash": "c83437cb348c73d9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-flamme-rouge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-flamme-rouge livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-icones.png",
+      "recette {\"atlas\": \"assets/export/e04-icones.png (png)\", \"boite\": [36, 46, 1333, 63], \"cadre\": \"sprite-flamme-rouge\", \"element\": \"flamme-rouge\", \"empreintePixels\": \"94dfcc8a55c8b5d6a04e1bea452cec234bcf06e2187a427e274cc20aec578b2e\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 36, \"x\": 1333, \"y\": 63}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-flamme-rouge-0001",
+    "parentSha256": "ca2df48357326f8eaf93c5d788418d6c89acd65610cc6cbd91b89d716eb2161c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:22:25.134294+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 106,
+        "path": "assets/export/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-flamme-rouge de assets/export/e04-icones.png (empreinte de pixels 94dfcc8a55c8b5d6)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-flamme-rouge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "97708c9b353dc5a10d0fd3895952b98023459d06de71a0ebffd0275ce686b524",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

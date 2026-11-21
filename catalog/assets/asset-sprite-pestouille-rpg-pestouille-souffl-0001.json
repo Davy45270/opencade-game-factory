@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:32:46.300038+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-competence-souffl-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-souffle (empreinte 52300b53a9fd)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-souffle-0001",
+        "reason": "découpe brute de l'élément pestouille-souffle : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-competence-souffle-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-souffle (empreinte 52300b53a9fd)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "fb6bb0046a7cf8858957485c40772c6c712c5ddde74163c6dbda24a9c7f09c9d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille souffle",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-competence-souffl-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-souffle (empreinte 52300b53a9fd)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-souffle-0001",
+          "reason": "découpe brute de l'élément pestouille-souffle : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-competence-souffle-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-souffle (empreinte 52300b53a9fd)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-competence-souffl-0001",
+        "asset-sprite-pestouille-souffle-0001",
+        "asset-sprite-competence-souffle-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:32:45.944536+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-souffle » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-souffle",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-souffl-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-souffl-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-souffle"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-souffle-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-souffle"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-souffle (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "2a2511ba5873644c",
+    "phash": "9de0668f334d5932"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-souffle-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-souffle livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [44, 43, 751, 120], \"cadre\": \"sprite-pestouille-souffle\", \"element\": \"pestouille-souffle\", \"empreintePixels\": \"52300b53a9fd67531212410f462b3b27eb4230eb2aee71c2d1f76e271ba8cbb2\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 43, \"w\": 44, \"x\": 751, \"y\": 120}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-souffle-0001",
+    "parentSha256": "286ec03cc23f56bea6cdabb336a4f82f6e8c47c19a8acbda3119e2e4010c10ba",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:32:46.300038+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 178,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-souffle de assets/export/p02-pestouille.png (empreinte de pixels 52300b53a9fd6753)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ce57e1e3ef20a8749ac8646a68ad50aa69eea9f56e097f4e439a925410f4cef5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

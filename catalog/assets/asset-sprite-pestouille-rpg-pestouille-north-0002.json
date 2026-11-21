@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:36:50.608842+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-north-attack-b-0001",
+        "reason": "découpe brute de l'élément pestouille-north-attack-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c54143f5401a0d3a817ded773dbd0837026500f87a2a38080da057ae5c12df7a",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille north attack b",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-north-attack-b-0001",
+          "reason": "découpe brute de l'élément pestouille-north-attack-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-north-attack-b-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:36:50.228738+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-north-attack-b » (assets/export/pestouille-north.png), forme normalisée par le jeu de l'élément pestouille-north-attack-b",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-north-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-north-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-north.json · cadre sprite-pestouille-north-attack-b"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-north-attack-b-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-north.json · cadre sprite-pestouille-north-attack-b"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-north-attack-b (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "001668b2165db6b6",
+    "phash": "a4cb963338ccb36c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-north-attack-b-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-north-attack-b livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/pestouille-north.png",
+      "recette {\"atlas\": \"assets/export/pestouille-north.png (png)\", \"boite\": [156, 163, 364, 468], \"cadre\": \"sprite-pestouille-north-attack-b\", \"element\": \"pestouille-north-attack-b\", \"empreintePixels\": \"5fae7c9500c1772b1c174b2b889a5bc16af059671f3346cf125c49fdd69508a2\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"alpha\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 120, \"w\": 113, \"x\": 263, \"y\": 337}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-north.decoupe.json\", \"tableSha256\": \"16b36532cd5892dd7223938fff4712d2db2a129c69ae6264e1e3f20abbbc80f1\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-north-attack-b-0001",
+    "parentSha256": "0cebbade353e2849baba150c1ce2dd8ded92449ecab2536e206ac0b82edf26f8",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-north.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:36:50.608842+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/pestouille-north.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/pestouille-north.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-north-attack-b de assets/export/pestouille-north.png (empreinte de pixels 5fae7c9500c1772b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-north-attack-b",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/pestouille-north.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/pestouille-north.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7f491f81fa6aad3b659ea5f4f67adb3971022ddb397982048d6e39580f9e45c5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

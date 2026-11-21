@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:32:39.592589+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-repos-b-0001",
+        "reason": "découpe brute de l'élément pestouille-repos-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a18232b804877b1c34dbfc847decf48290653c432399903031b7503959e683fa",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille repos b",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-repos-b-0001",
+          "reason": "découpe brute de l'élément pestouille-repos-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-repos-b-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:32:39.232418+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-repos-b » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-repos-b",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-repos-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-repos-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-repos-b"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-repos-b-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-190.png, SHA-256 b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-repos-b"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-repos-b (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "00002e511a0a4c66",
+    "phash": "b7d88633c9867c85"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-repos-b-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-repos-b livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [46, 25, 1232, 138], \"cadre\": \"sprite-pestouille-repos-b\", \"element\": \"pestouille-repos-b\", \"empreintePixels\": \"0ab5dfbaa8bbc1c4f2d30c26154c1c3240f6ea898c5d0c721841eb24cdf98f31\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 25, \"w\": 46, \"x\": 1232, \"y\": 138}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-repos-b-0001",
+    "parentSha256": "b4534b90b3cf8358e33e9d89766d3c1ca51461d61cea9394d022cced289f5d9c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:32:39.592589+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 170,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-repos-b de assets/export/p02-pestouille.png (empreinte de pixels 0ab5dfbaa8bbc1c4)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-repos-b",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b4a9f776bcdcdb67e6a03306ebb253b6ec5820a2d01d7a5e21f1f1fb65e67102",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

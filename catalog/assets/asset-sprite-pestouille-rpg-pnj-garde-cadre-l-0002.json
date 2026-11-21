@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:46:17.030943+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0001",
+        "reason": "pixels différents du cadre livré sprite-pnj-garde (empreinte 7334678e6d3f)"
+      },
+      {
+        "assetId": "asset-sprite-pnj-garde-0001",
+        "reason": "découpe brute de l'élément pnj-garde : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cb5d7430d9d469aa65d4cdec940055cd88f52cd75265ad77458af0467b78f2df",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj garde",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0001",
+          "reason": "pixels différents du cadre livré sprite-pnj-garde (empreinte 7334678e6d3f)"
+        },
+        {
+          "assetId": "asset-sprite-pnj-garde-0001",
+          "reason": "découpe brute de l'élément pnj-garde : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0001",
+        "asset-sprite-pnj-garde-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:46:16.673830+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-garde » (public/assets/e03-personnages.webp), forme normalisée par le jeu de l'élément pnj-garde",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-garde"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-garde-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-301.png, SHA-256 a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-garde"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-garde (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4db6b2b2b60b8e8e",
+    "phash": "eccc339363633334"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-garde-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-garde livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-personnages.webp",
+      "recette {\"atlas\": \"public/assets/e03-personnages.webp (webp)\", \"boite\": [38, 80, 287, 833], \"cadre\": \"sprite-pnj-garde\", \"element\": \"pnj-garde\", \"empreintePixels\": \"7334678e6d3f41cd838bf1eedf5275a72d72aca40fdd777ecf08f4623815371d\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 80, \"w\": 38, \"x\": 287, \"y\": 833}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-garde-0001",
+    "parentSha256": "a905ff6949d0408fd9361ddd5605565a5da10b3681bc0741b2ae2a1cb4a17317",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:46:17.030943+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-garde de public/assets/e03-personnages.webp (empreinte de pixels 7334678e6d3f41cd)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-garde",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a4928f799e5e7f547c67bf1e8f6e230cd41fc6c069e0d6961002d5422fd1099e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

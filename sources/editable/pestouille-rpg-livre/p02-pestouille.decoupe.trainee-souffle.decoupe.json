@@ -1,0 +1,117 @@
+{
+ "status": "provisoire",
+ "planche": "Pestouille_Planche_02_Sprites_Tilesets_Enigmes.png",
+ "marge": 2,
+ "webp_fidelite_cadres": {
+  "sprite-pestouille-expression-colere": 60,
+  "sprite-pestouille-expression-joie": 60,
+  "sprite-pestouille-expression-mefiance": 60,
+  "sprite-pestouille-expression-sommeil": 60,
+  "sprite-pestouille-expression-surprise": 60
+ },
+ "taille": 64,
+ "detoure": false,
+ "alpha_planche": true,
+ "elements": [
+  {
+   "id": "trainee-souffle",
+   "boite": [
+    53,
+    31,
+    801,
+    130
+   ],
+   "taille": [
+    57,
+    35
+   ],
+   "ancre": "centre"
+  }
+ ],
+ "directions": [
+  "south",
+  "north",
+  "east",
+  "west"
+ ],
+ "animations": {
+  "pestouille/idle": {
+   "frames": [
+    "pestouille-marche-a"
+   ]
+  },
+  "pestouille/walk": {
+   "frames": [
+    "pestouille-marche-a",
+    "pestouille-marche-b",
+    "pestouille-marche-c",
+    "pestouille-marche-d"
+   ]
+  },
+  "pestouille/run": {
+   "frames": [
+    "pestouille-course-a",
+    "pestouille-course-b",
+    "pestouille-course-c",
+    "pestouille-course-d"
+   ]
+  },
+  "pestouille/fly": {
+   "frames": [
+    "pestouille-vol-a",
+    "pestouille-vol-b",
+    "pestouille-vol-c"
+   ]
+  },
+  "pestouille/attack": {
+   "frames": [
+    "pestouille-attaque-a",
+    "pestouille-attaque-b",
+    "pestouille-attaque-c"
+   ]
+  },
+  "pestouille/breath": {
+   "frames": [
+    "pestouille-souffle"
+   ]
+  },
+  "pestouille/hurt": {
+   "frames": [
+    "pestouille-degats-a",
+    "pestouille-degats-b"
+   ]
+  },
+  "pestouille/victory": {
+   "frames": [
+    "pestouille-victoire-a",
+    "pestouille-victoire-b"
+   ]
+  },
+  "pestouille/sleep": {
+   "frames": [
+    "pestouille-repos-a",
+    "pestouille-repos-b"
+   ]
+  }
+ },
+ "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+ "variantes": {
+  "south": {
+   "atlas": "pestouille-south"
+  },
+  "north": {
+   "atlas": "pestouille-north"
+  },
+  "east": {
+   "atlas": "pestouille-east",
+   "repli": {
+    "atlas": "p02-pestouille",
+    "echelle": 0.75
+   }
+  },
+  "west": {
+   "miroir": "east"
+  }
+ },
+ "planche_sha256": "568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2"
+}

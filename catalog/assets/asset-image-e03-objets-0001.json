@@ -119,7 +119,37 @@
   "tags": "unknown",
   "thumbnail": "thumbnails/cf/cf8e7e397159fba8109145af9ab6fdcc0cba4ac29ad9ce61ada45abcfb1b1618.webp",
   "updatedAt": "2026-11-19T15:22:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/e03-objets.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-image-e03-objets-0002"
   ],

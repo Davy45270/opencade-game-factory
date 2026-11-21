@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/0a/0ac969afad00e0abf59bf583fd55658703349b49ca16baa359baf90ac5cc7ba6.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-dialogue.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/m01-dialogue.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-aubepin-portrait de assets/export/m01-dialogue.png (empreinte de pixels 4fffee5c76ebbfba)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-aubepin-portrait",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-dialogue.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-dialogue.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-aubepin-portrait-0001"
+  ],
   "version": 1,
   "versions": [
     {

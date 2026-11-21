@@ -135,7 +135,37 @@
   ],
   "thumbnail": "thumbnails/f2/f2232ddca4f5a2502dd790d6eb11060c903bc2db77f8b8861ff947a0fb7d6fac.webp",
   "updatedAt": "2026-11-19T15:22:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/m01-boutons.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/m01-boutons.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-boutons.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/m01-boutons.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-image-m01-boutons-0002"
   ],

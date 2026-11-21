@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:12:47.077148+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bloc-pierre-0001",
+        "reason": "découpe brute de l'élément bloc-pierre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8320ed5e4be8957f79a3bf9ece637d0a555f05000cfb57ae7bfa954137b539e6",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bloc pierre",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bloc-pierre-0001",
+          "reason": "découpe brute de l'élément bloc-pierre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bloc-pierre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:12:46.692507+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bloc-pierre » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément bloc-pierre",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bloc-pierre-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bloc-pierre-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-bloc-pierre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bloc-pierre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-7.png, SHA-256 9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-bloc-pierre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bloc-pierre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "1394d4948c9494b4",
+    "phash": "d0a92fba2b682bc6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bloc-pierre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bloc-pierre livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [40, 37, 801, 833], \"cadre\": \"sprite-bloc-pierre\", \"element\": \"bloc-pierre\", \"empreintePixels\": \"c05cb29bca85f79b65d2d50c278ba37086d0c0ff46c549e84b52f2982ba5d595\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 37, \"w\": 40, \"x\": 801, \"y\": 833}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-bloc-pierre-0001",
+    "parentSha256": "be42a8e4f88d1563b7bc950ff1302ef46ee5a2216a14fa0dc67fe19c8b0d94ae",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:12:47.077148+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bloc-pierre de assets/export/e03-objets.png (empreinte de pixels c05cb29bca85f79b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bloc-pierre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9503028d18c375a0dae078301ed74aaf2ad78fa580e508e5e00079909a21de66",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:31:14.721200+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-degats-a-0001",
+        "reason": "découpe brute de l'élément pestouille-degats-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1caaa8d9a6485c2dc25d6313fc02c5373cd7581f317cb93fb5c9535c339ec158",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille degats a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-degats-a-0001",
+          "reason": "découpe brute de l'élément pestouille-degats-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-degats-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:31:14.363276+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-degats-a » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-degats-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-degats-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-degats-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-degats-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-degats-a-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-177.png, SHA-256 8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-degats-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-degats-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "2aa115321b191d93",
+    "phash": "ba4ce6922d946373"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-degats-a-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-degats-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [33, 44, 907, 124], \"cadre\": \"sprite-pestouille-degats-a\", \"element\": \"pestouille-degats-a\", \"empreintePixels\": \"0f2384a083eb2a3b9e28f19a68c7a3417471dbe450823aab532ef6bdbc1cbff1\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 44, \"w\": 33, \"x\": 907, \"y\": 124}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-degats-a-0001",
+    "parentSha256": "1c1720fae32f596e4145c5ac0b4bcce9407478163a8548fd0590852f48d04481",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:31:14.721200+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-degats-a de assets/export/p02-pestouille.png (empreinte de pixels 0f2384a083eb2a3b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-degats-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8a58b332b7cb87c5e220c2ba0b006fe4cf37a3bdca2923bfd6f117753535dcf4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

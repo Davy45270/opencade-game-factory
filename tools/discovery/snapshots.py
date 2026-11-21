@@ -135,6 +135,9 @@ def code_licenses(snapshots, target):
         target.changed.add(asset_id)
 
 
+DELIVERED_MARK = "importer_livre"
+
+
 def _identity(use):
     return (use["repo"], use.get("provider"), use["game"], use["scene"], use["codeRef"]["path"],
             use["codeRef"]["line"], use["importName"], use.get("assetPath"), use["role"], use.get("assetVersion", 1))
@@ -216,7 +219,11 @@ def _reconcile_usages(asset, heads, sightings, target):
     for use in previous:
         key = _identity(use)
         slot = key, use["commit"]
-        if use["status"] == "removed":
+        if any(str(e).startswith(DELIVERED_MARK) for e in use.get("evidence") or ()):
+            # Cadres livrés posés par scripts/importer_livre.py : le scan du code ne les voit pas (ils sont dans un
+            # atlas) ; ils ne sont pas à lui. L'importeur les remplace lui-même à chaque passage.
+            kept[slot] = use
+        elif use["status"] == "removed":
             history.pop(slot, None)
             kept[slot] = use
         elif removed_at := missing(use):

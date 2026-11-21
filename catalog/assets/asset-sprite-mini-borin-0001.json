@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/aa/aaef3cd87f41f854c107c57a3f1d5478a55b2502bab64325064f7b28d72c6d94.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e04-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mini-borin de assets/export/e04-portraits.png (empreinte de pixels 65a0cce7c8e8aee7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mini-borin",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-mini-borin-cadre-0001"
+  ],
   "version": 1,
   "versions": [
     {

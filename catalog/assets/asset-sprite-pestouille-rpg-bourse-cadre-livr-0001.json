@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:27:36.892195+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bourse-0001",
+        "reason": "découpe brute de l'élément bourse : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "653d826160296f77433952f6f085261f226ad87b30867e08ec76a3a2435877ab",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bourse",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bourse-0001",
+          "reason": "découpe brute de l'élément bourse : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bourse-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:27:36.532033+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bourse » (assets/export/m01-icones.png), forme normalisée par le jeu de l'élément bourse",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bourse-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bourse-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-bourse"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bourse-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-144.png, SHA-256 f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-bourse"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bourse (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "2e75234bd9d9e12b",
+    "phash": "cb3c3cd1634f2c38"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bourse-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bourse livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-icones.png",
+      "recette {\"atlas\": \"assets/export/m01-icones.png (png)\", \"boite\": [37, 38, 1125, 805], \"cadre\": \"sprite-bourse\", \"element\": \"bourse\", \"empreintePixels\": \"7d5a9813d3b57cdae6e2370930c4bd50eecc6b39960c513e9040d9093f6d18e5\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 38, \"w\": 37, \"x\": 1125, \"y\": 805}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-bourse-0001",
+    "parentSha256": "07626ef62f8ae3201d0ec7965e441c68636552bd07c6bd4328ffe0637bb3490a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:27:36.892195+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bourse de assets/export/m01-icones.png (empreinte de pixels 7d5a9813d3b57cda)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bourse",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f8f2f8657dfffa8f160c80bce95864762e07644ca5e8b61586124a01ed93b20f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

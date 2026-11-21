@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:54:04.010678+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-mini-lila-0001",
+        "reason": "découpe brute de l'élément mini-lila : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b5e075419076167983f5907b846fb965987c827e6e017d6c7c171ac89c72c55b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "mini lila",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-mini-lila-0001",
+          "reason": "découpe brute de l'élément mini-lila : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-mini-lila-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:54:03.625895+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-mini-lila » (public/assets/e04-portraits.webp), forme normalisée par le jeu de l'élément mini-lila",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-mini-lila-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-mini-lila-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-portraits.json · cadre sprite-mini-lila"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-mini-lila-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-portraits.json · cadre sprite-mini-lila"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg mini-lila (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b7717269693872c8",
+    "phash": "9fac20d8e2ad94d5"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-mini-lila-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-mini-lila livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-portraits.webp",
+      "recette {\"atlas\": \"public/assets/e04-portraits.webp (webp)\", \"boite\": [48, 48, 307, 276], \"cadre\": \"sprite-mini-lila\", \"element\": \"mini-lila\", \"empreintePixels\": \"7f4ee2828b2b1c41b24932b0c7da9e7fbb584b35acd0c348b2dc8e9637eea48f\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": 48}, \"regionDuBrut\": {\"h\": 48, \"w\": 48, \"x\": 307, \"y\": 276}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-portraits.decoupe.json\", \"tableSha256\": \"662e7fa9fc606f73cd1cac0ec68b3223067c81a107baab2ae4fd8e780af7c0f9\"}"
+    ],
+    "parentId": "asset-sprite-mini-lila-0001",
+    "parentSha256": "21195d06a2783e8f8b5e59ddb0d22c5069777711f6ed77c403378ea3cbf1c688",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:54:04.010678+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-portraits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/e04-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mini-lila de public/assets/e04-portraits.webp (empreinte de pixels 7f4ee2828b2b1c41)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mini-lila",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "bad7ede3ad795ff94a61e6d4512fac4dad4b4d19e7ce07e8225f2ef7b9837a25",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

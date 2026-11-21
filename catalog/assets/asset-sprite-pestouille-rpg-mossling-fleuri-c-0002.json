@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:00:53.869857+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-mossling-fleuri-c-0001",
+        "reason": "pixels différents du cadre livré sprite-mossling-fleuri (empreinte 44d00926dbbd)"
+      },
+      {
+        "assetId": "asset-sprite-mossling-fleuri-0001",
+        "reason": "découpe brute de l'élément mossling-fleuri : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "fb9646675c2338f2d717b915f74f54984775905f2451b8571b85844ed4e91912",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "mossling fleuri",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-mossling-fleuri-c-0001",
+          "reason": "pixels différents du cadre livré sprite-mossling-fleuri (empreinte 44d00926dbbd)"
+        },
+        {
+          "assetId": "asset-sprite-mossling-fleuri-0001",
+          "reason": "découpe brute de l'élément mossling-fleuri : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-mossling-fleuri-c-0001",
+        "asset-sprite-mossling-fleuri-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:00:53.489044+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-mossling-fleuri » (public/assets/m02-creatures.webp), forme normalisée par le jeu de l'élément mossling-fleuri",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-mossling-fleuri-c-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-mossling-fleuri-c-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-creatures.json · cadre sprite-mossling-fleuri"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-mossling-fleuri-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-429.png, SHA-256 5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-creatures.json · cadre sprite-mossling-fleuri"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg mossling-fleuri (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "2956ad53d75291a5",
+    "phash": "e99736d12ccb32a4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-mossling-fleuri-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-mossling-fleuri livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m02-creatures.webp",
+      "recette {\"atlas\": \"public/assets/m02-creatures.webp (webp)\", \"boite\": [78, 60, 1582, 100], \"cadre\": \"sprite-mossling-fleuri\", \"element\": \"mossling-fleuri\", \"empreintePixels\": \"44d00926dbbd65a9356e9e73662a6cbe994b5a5de571840f3100b0a07b1a9d2a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 60, \"w\": 78, \"x\": 1582, \"y\": 100}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-creatures.decoupe.json\", \"tableSha256\": \"b94f5bd22223f9f7289775a765bc51f6330227e2deae50c91a6fe3e5ed25c513\"}"
+    ],
+    "parentId": "asset-sprite-mossling-fleuri-0001",
+    "parentSha256": "1b29d43bffa52c104c8a437ee6cb3703cad4aa96fd8657d9f3c7212457693c77",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-creatures.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:00:53.869857+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m02-creatures.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/m02-creatures.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mossling-fleuri de public/assets/m02-creatures.webp (empreinte de pixels 44d00926dbbd65a9)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mossling-fleuri",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m02-creatures.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5d4900d36d901fc20cad039fe97826a04fd98b4119779c88322ad2fee5d8fa87",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

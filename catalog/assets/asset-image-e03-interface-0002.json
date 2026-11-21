@@ -185,6 +185,35 @@
       "role": "sprite",
       "scene": "tests/unit/web-assets.test.ts",
       "status": "active"
+    },
+    {
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/e03-interface.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-interface.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/e03-interface.json",
+      "status": "active"
     }
   ],
   "variants": [

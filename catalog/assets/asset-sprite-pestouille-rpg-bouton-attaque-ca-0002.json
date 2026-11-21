@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:54:38.793928+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-bouton-attaque-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-bouton-attaque (empreinte 02c10696d37f)"
+      },
+      {
+        "assetId": "asset-sprite-bouton-attaque-0001",
+        "reason": "découpe brute de l'élément bouton-attaque : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3a4156405782490d2c2b7190506fa5092d54238916e29e7cf90efdf3073a68a5",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouton attaque",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-bouton-attaque-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-bouton-attaque (empreinte 02c10696d37f)"
+        },
+        {
+          "assetId": "asset-sprite-bouton-attaque-0001",
+          "reason": "découpe brute de l'élément bouton-attaque : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-bouton-attaque-ca-0001",
+        "asset-sprite-bouton-attaque-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:54:38.421924+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouton-attaque » (public/assets/m01-boutons.webp), forme normalisée par le jeu de l'élément bouton-attaque",
+  "dimensions": {
+    "height": 76,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouton-attaque-ca-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouton-attaque-ca-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-boutons.json · cadre sprite-bouton-attaque"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouton-attaque-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-boutons.json · cadre sprite-bouton-attaque"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouton-attaque (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "f02d1913636757aa",
+    "phash": "fa92816c853b963e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouton-attaque-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouton-attaque livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-boutons.webp",
+      "recette {\"atlas\": \"public/assets/m01-boutons.webp (webp)\", \"boite\": [85, 68, 47, 827], \"cadre\": \"sprite-bouton-attaque\", \"element\": \"bouton-attaque\", \"empreintePixels\": \"02c10696d37fd6880a40d4e6de534ff1fb52dc353e0f4bf220f8719f44dba6e0\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:45:plein\", \"taille\": \"96x76\", \"unique\": true}, \"regionDuBrut\": {\"h\": 68, \"w\": 85, \"x\": 47, \"y\": 827}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-boutons.decoupe.json\", \"tableSha256\": \"799dfb0fd6cde478ba99dc24b628a97e2b190cdb4e2502e8690973ecc97b5815\"}"
+    ],
+    "parentId": "asset-sprite-bouton-attaque-0001",
+    "parentSha256": "6cce9898336f4af8261dcf26023eaeb51ddd5a7cac342dbef19407feefd85b18",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-boutons.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:54:38.793928+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-boutons.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/m01-boutons.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-attaque de public/assets/m01-boutons.webp (empreinte de pixels 02c10696d37fd688)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-attaque",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-boutons.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-boutons.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b1442b0bfb77debe1658623ebc63195cbcfb7c25aeaf17f1c7785af54759bacc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

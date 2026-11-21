@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:41:15.757701+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-case-inventaire-0001",
+        "reason": "découpe brute de l'élément case-inventaire : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "58db640b4fa2cf78f3a543a9082afeb78da50d8b39dda926cb51aace75ced48b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "case inventaire",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-case-inventaire-0001",
+          "reason": "découpe brute de l'élément case-inventaire : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-case-inventaire-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:41:15.395798+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-case-inventaire » (public/assets/e03-interface.webp), forme normalisée par le jeu de l'élément case-inventaire",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-case-inventaire-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-case-inventaire-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-case-inventaire"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-case-inventaire-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-257.png, SHA-256 12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-interface.json · cadre sprite-case-inventaire"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg case-inventaire (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "8705454545454527",
+    "phash": "fef7800780578557"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-case-inventaire-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-case-inventaire livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-interface.webp",
+      "recette {\"atlas\": \"public/assets/e03-interface.webp (webp)\", \"boite\": [48, 48, 822, 717], \"cadre\": \"sprite-case-inventaire\", \"element\": \"case-inventaire\", \"empreintePixels\": \"6cd3e9e0ca9caf311ad65beacc08d059977d6b2e359bd76f7a2438f60132199f\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 48, \"x\": 822, \"y\": 717}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-interface.decoupe.json\", \"tableSha256\": \"43edceed2f951d2886ec73ac43b51e1b2b7bd98b31305a143f98ea67ea7a1b6f\"}"
+    ],
+    "parentId": "asset-sprite-case-inventaire-0001",
+    "parentSha256": "6602e1317d69f4a2e8cf6e32f4bce935c867531743a88f2dd7183b7da5ef14a2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-interface.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:41:15.757701+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-case-inventaire de public/assets/e03-interface.webp (empreinte de pixels 6cd3e9e0ca9caf31)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-case-inventaire",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "12f80f5604d1115ff6e2c2608f62597db37ed4ce9352b294e7cde7edae5fb78e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

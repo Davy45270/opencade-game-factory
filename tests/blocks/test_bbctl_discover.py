@@ -132,7 +132,7 @@ class Decouverte(Base):
         avant = self.u.empreinte(self.u.usine)
         r = self.decouvrir("--dry-run")
         self.assertEqual(r.rc, 0, r)
-        self.assertGreaterEqual(r.json["blocks"], 7)
+        self.assertEqual(r.json["blocks"], 6)                    # phaser ×2, vitest, pillow, combat, save
         self.assertEqual(self.u.empreinte(self.u.usine), avant)
         self.decouvrir()
         self.assertEqual(self.u.empreinte(self.clones), avant_depots)
@@ -145,6 +145,27 @@ class Decouverte(Base):
         r = self.decouvrir()
         self.assertEqual(r.rc, 4, r)
         self.assertEqual(self.u.empreinte(self.u.usine), avant)
+
+    def test_paquet_d_espace_de_travail_importe_par_son_nom(self) -> None:
+        self.depot("mono", {
+            "packages/moteur/package.json": json.dumps({"name": "@mono/moteur", "license": "MIT"}),
+            "packages/moteur/src/index.ts": "export const m = 1\n",
+            "apps/web/src/main.ts": "import { m } from '@mono/moteur'\n",
+            "packages/rendu/src/index.ts": "import { m } from \"@mono/moteur/sous\"\n",
+            "packages/rendu/package.json": json.dumps({"name": "@mono/rendu"})})
+        self.decouvrir()
+        (moteur,) = self.par_nom("moteur")
+        self.assertEqual(moteur["usedBy"], ["mono/apps/web", "mono/packages/rendu"])
+        self.assertEqual(moteur["origin"]["licenseSpdx"], "MIT")
+
+    def test_copie_locale_declaree_dans_les_sources(self) -> None:
+        autre = self.u.tmp / "ailleurs" / "nom-different"
+        autre.parent.mkdir()
+        (self.clones / "jeu-b").rename(autre)
+        self.sources.write_text(json.dumps({"schemaVersion": 1, "excluded": [], "sources": [
+            {"name": "jeu-b", "copies": [{"provider": "local", "path": str(autre)}]}]}))
+        r = self.decouvrir()
+        self.assertEqual((r.json["scanned"], r.json["exceptions"]), (["jeu-b"], []))
 
     def test_identifiants_stables_et_jamais_recycles(self) -> None:
         self.decouvrir()

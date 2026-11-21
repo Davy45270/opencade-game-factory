@@ -7,9 +7,9 @@
     },
     "path": "specs/registry/SPEC-ASSET-REGISTRY.json"
   },
-  "evidence": "missing",
+  "evidence": "verified",
   "id": "SPEC-ASSET-REGISTRY",
-  "implementation": "not-started",
+  "implementation": "partial",
   "importOrigins": {
     "authority": "usine",
     "drive": [
@@ -25,9 +25,15 @@
   "requirements": [
     {
       "acceptance": "rapport de migration : liste des dépôts découverts (pas une liste figée dans le code)",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json et coverage.json",
+        "threshold": "un dépôt autorisé non scanné manquerait au rapport",
+        "type": "mesure",
+        "value": "11 dépôts autorisés sur 11, 22 copies (local/Forgejo/GitHub) avec commit ; 5 610 fiches"
+      },
       "id": "REQ-ASSET-REGISTRY-E001",
       "matrixId": "E001",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -35,9 +41,13 @@
     },
     {
       "acceptance": "test unitaire de la détection de formats (une fixture par famille)",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T10_formats",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E002",
       "matrixId": "E002",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -45,9 +55,13 @@
     },
     {
       "acceptance": "schemas/ : noyau commun + spécialisation par famille, test de validation",
+      "evidence": {
+        "ref": "tests/unit/test_contracts.py > Contracts.test_familles_et_licences",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E003",
       "matrixId": "E003",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -55,9 +69,15 @@
     },
     {
       "acceptance": "mesure : API GitHub private=true",
+      "evidence": {
+        "ref": "API GitHub anonyme le 2026-11-21 14:2x : GET /repos/Davy45270/opencade-asset-registry ; témoin public GET /repos/Davy45270/capsule-panic ; le dépôt existe (ref github/main 68fc96d du 2026-11-20 dans le clone de Zalman)",
+        "threshold": "un dépôt public rendrait 200",
+        "type": "mesure",
+        "value": "404 sans authentification (témoin public : 200)"
+      },
       "id": "REQ-ASSET-REGISTRY-E004",
       "matrixId": "E004",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -85,9 +105,15 @@
     },
     {
       "acceptance": "rapport de migration : dépôts autorisés = dépôts recensés",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json ; HL-538",
+        "threshold": "inventaire présent avant toute génération",
+        "type": "mesure",
+        "value": "11 dépôts sur 11 inventoriés, 0 erreur, avant toute génération d'asset"
+      },
       "id": "REQ-ASSET-REGISTRY-E007",
       "matrixId": "E007",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -95,9 +121,13 @@
     },
     {
       "acceptance": "mesure : empreintes des dépôts avant/après identiques (AT-03)",
+      "evidence": {
+        "ref": "tests/acceptance/test_at03_lecture_seule.py > AT03LectureSeule.test_empreintes_identiques_avant_apres",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E008",
       "matrixId": "E008",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -105,9 +135,13 @@
     },
     {
       "acceptance": "test : import d'une planche avec table de découpe -> assets avec sourceSheetId et sourceRegion",
+      "evidence": {
+        "ref": "tests/unit/test_l2b.py > DiscoveryL2b.test_import_sheet_et_extraction",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E009",
       "matrixId": "E009",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -115,9 +149,13 @@
     },
     {
       "acceptance": "test : validate sur le catalogue",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T01_27_champs_obligatoires",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E010",
       "matrixId": "E010",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -125,9 +163,13 @@
     },
     {
       "acceptance": "test + mutation sur le registre d'identifiants",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T05_registre_immuable_et_allocation",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E011",
       "matrixId": "E011",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -135,9 +177,13 @@
     },
     {
       "acceptance": "test : usage d'un asset rend ces 6 champs",
+      "evidence": {
+        "ref": "tests/acceptance/test_at07_usages_par_scene.py > AT07UsagesParScene.test_usage_complet_du_chargement_litteral",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E012",
       "matrixId": "E012",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -145,9 +191,13 @@
     },
     {
       "acceptance": "test : search avec chaque filtre",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > RechercheParFiltre.test_chaque_filtre_de_la_spec_departage_les_deux_assets",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E013",
       "matrixId": "E013",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -155,9 +205,13 @@
     },
     {
       "acceptance": "test : register sans reçu de recherche échoue (AT-10)",
+      "evidence": {
+        "ref": "tests/acceptance/test_at10_recherche_avant_creation.py > AT10RechercheAvantCreation.test_register_et_controle_de_pr",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E014",
       "matrixId": "E014",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -165,9 +219,13 @@
     },
     {
       "acceptance": "test : deux fichiers identiques -> un groupe exact",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T13_exact",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E015",
       "matrixId": "E015",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -175,9 +233,13 @@
     },
     {
       "acceptance": "test : image retouchée -> candidat similaire",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T14_similaire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E016",
       "matrixId": "E016",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -185,9 +247,13 @@
     },
     {
       "acceptance": "test + mutation : un similaire n'est jamais fusionné",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T14_similaire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E017",
       "matrixId": "E017",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -195,9 +261,13 @@
     },
     {
       "acceptance": "test : extract + export d'atlas sans interface ; adaptateur Aseprite CLI",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DetourageSansInterface.test_fond_relie_au_bord_transparent_sujet_et_trou_interieur_intacts",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E018",
       "matrixId": "E018",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -205,9 +275,15 @@
     },
     {
       "acceptance": "mesure : PR Forgejo fusionnée après CI verte",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #4 : pipelines 24 et 26 rouges (fusion impossible à juste titre), pipeline 32 verte, PR fusionnée le 2026-11-21 ~15:07",
+        "threshold": "une PR à CI rouge reste ouverte",
+        "type": "mesure",
+        "value": "fusionnée après CI verte (statut success sur c6cd69e)"
+      },
       "id": "REQ-ASSET-REGISTRY-E019",
       "matrixId": "E019",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -215,9 +291,13 @@
     },
     {
       "acceptance": "test : validate refuse provenance/licence absentes",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T01_27_champs_obligatoires",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E020",
       "matrixId": "E020",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -225,9 +305,13 @@
     },
     {
       "acceptance": "test + mutation : publish public refuse unknown (AT-08)",
+      "evidence": {
+        "ref": "tests/acceptance/test_at08_garde_publication.py > AT08GardePublication.test_licence_inconnue_refusee_sans_rien_ecrire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E021",
       "matrixId": "E021",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -235,9 +319,13 @@
     },
     {
       "acceptance": "test : sync ne relit que les commits nouveaux",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T28_incremental_sync_counts_only_changed_copies",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E022",
       "matrixId": "E022",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -245,9 +333,13 @@
     },
     {
       "acceptance": "schéma + test lock",
+      "evidence": {
+        "ref": "tests/unit/test_contracts.py > Contracts.test_schemas_source_usage_et_lock",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E023",
       "matrixId": "E023",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -255,9 +347,15 @@
     },
     {
       "acceptance": "fichiers de rapport produits par l'inventaire réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/{coverage,exceptions,licenses-unknown,orphans}.json",
+        "threshold": "chaque rapport doit exister et compter",
+        "type": "mesure",
+        "value": "couverture 13 formats, 0 non pris en charge ; 0 exception ; 3 048 licences inconnues signalées ; 445 assets orphelins"
+      },
       "id": "REQ-ASSET-REGISTRY-E024",
       "matrixId": "E024",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -265,9 +363,13 @@
     },
     {
       "acceptance": "test : arborescence attendue présente",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > OrganisationDuDepot.test_chaque_chemin_du_paragraphe_3_est_suivi_par_git",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E025",
       "matrixId": "E025",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -285,9 +387,13 @@
     },
     {
       "acceptance": "fichiers présents",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > OrganisationDuDepot.test_chaque_chemin_du_paragraphe_3_est_suivi_par_git",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E027",
       "matrixId": "E027",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -295,9 +401,13 @@
     },
     {
       "acceptance": "test AT-12",
+      "evidence": {
+        "ref": "tests/acceptance/test_at12_index_reconstruit.py > AT12IndexReconstruit.test_reconstruction_identique_depuis_catalog_seul",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E028",
       "matrixId": "E028",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -305,9 +415,13 @@
     },
     {
       "acceptance": "décision écrite dans ARCHITECTURE.md (option, pas obligation)",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_git_lfs_decision_ecrite",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E029",
       "matrixId": "E029",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -315,9 +429,13 @@
     },
     {
       "acceptance": "schéma asset : required = ces champs ; test",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T01_27_champs_obligatoires",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E030",
       "matrixId": "E030",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -325,9 +443,13 @@
     },
     {
       "acceptance": "test de schéma : valeur hors liste refusée",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T02_orientations",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E031",
       "matrixId": "E031",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -335,9 +457,13 @@
     },
     {
       "acceptance": "test + mutation : sans preuve -> unknown/null",
+      "evidence": {
+        "ref": "tests/acceptance/test_at06_planche_et_region.py > AT06PlancheEtRegion.test_sprite_sans_provenance_region_inconnue",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E032",
       "matrixId": "E032",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -345,9 +471,13 @@
     },
     {
       "acceptance": "test de schéma : champ inféré sans confidence/evidence refusé",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T03_inference_et_preuve",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E033",
       "matrixId": "E033",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -355,9 +485,13 @@
     },
     {
       "acceptance": "schéma : méthode de chaque inférence ; test",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T03_inference_et_preuve",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E034",
       "matrixId": "E034",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -365,9 +499,13 @@
     },
     {
       "acceptance": "revue : aucun champ de l'exemple codé en dur",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > GardesDeConception.test_identifiants_de_l_exemple_absents_du_code",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E035",
       "matrixId": "E035",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -375,9 +513,13 @@
     },
     {
       "acceptance": "schémas sheet/asset/usage reliés ; test de cohérence des références ; versions d'un asset : tests/acceptance/test_av01_versions_assets.py vert (oracle f8c695a, lot L4, arbitrage HL-538 19/11)",
+      "evidence": {
+        "ref": "tests/acceptance/test_av01_versions_assets.py > AV01VersionsAssets.test_contenu_modifie_nouvelle_version_du_meme_asset",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E036",
       "matrixId": "E036",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -385,9 +527,13 @@
     },
     {
       "acceptance": "test : usage porte ces champs",
+      "evidence": {
+        "ref": "tests/acceptance/test_at07_usages_par_scene.py > AT07UsagesParScene.test_usage_complet_du_chargement_litteral",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E037",
       "matrixId": "E037",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -395,9 +541,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at09_recherche_fouet.py > AT09RechercheFouet.test_historique_d_usage_dans_le_resultat",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E038",
       "matrixId": "E038",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -405,9 +555,13 @@
     },
     {
       "acceptance": "test AT-11",
+      "evidence": {
+        "ref": "tests/acceptance/test_at11_suppression_signalee.py > AT11SuppressionSignalee.test_suppression_signalee_historique_conserve",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E039",
       "matrixId": "E039",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -415,9 +569,13 @@
     },
     {
       "acceptance": "schéma lock + test",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T27_lock_checks_version_and_public_policy",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E040",
       "matrixId": "E040",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -425,9 +583,13 @@
     },
     {
       "acceptance": "test : generated/usage-index.json",
+      "evidence": {
+        "ref": "tests/acceptance/test_at07_usages_par_scene.py > AT07UsagesParScene.test_usage_dans_l_index_inverse",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E041",
       "matrixId": "E041",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -435,9 +597,13 @@
     },
     {
       "acceptance": "test : sync écrit une branche, pas main ; mesure PR",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > SynchronisationParPR.test_pr_ouverte_puis_retrouvee_main_et_jeu_intacts",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E042",
       "matrixId": "E042",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -445,9 +611,13 @@
     },
     {
       "acceptance": "test : un dépôt absent de la liste d'autorisation n'est pas lu",
+      "evidence": {
+        "ref": "tests/acceptance/test_at01_depots_autorises.py > AT01DepotsAutorises.test_depot_non_autorise_ni_lu_ni_cite",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E043",
       "matrixId": "E043",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -455,9 +625,13 @@
     },
     {
       "acceptance": "rapport : commit de la branche par défaut et tags lus par dépôt",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_tags_classification_exclusions_et_job",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E044",
       "matrixId": "E044",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -465,9 +639,13 @@
     },
     {
       "acceptance": "test de classification",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_tags_classification_exclusions_et_job",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E045",
       "matrixId": "E045",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -475,9 +653,13 @@
     },
     {
       "acceptance": "test : une fixture par format",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T10_formats",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E046",
       "matrixId": "E046",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -485,9 +667,13 @@
     },
     {
       "acceptance": "test : référence littérale résolue, gabarit dynamique journalisé",
+      "evidence": {
+        "ref": "tests/unit/test_l2b.py > DiscoveryL2b.test_T12_references",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E047",
       "matrixId": "E047",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -495,9 +681,13 @@
     },
     {
       "acceptance": "test : deux chemins identiques -> 1 asset, 2 emplacements",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T13_exact",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E048",
       "matrixId": "E048",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -505,9 +695,13 @@
     },
     {
       "acceptance": "test : atlas JSON -> cadres ; planche sans métadonnées -> candidats needs-review",
+      "evidence": {
+        "ref": "tests/unit/test_l2b.py > DiscoveryL2b.test_T17_candidats",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E049",
       "matrixId": "E049",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -515,9 +709,13 @@
     },
     {
       "acceptance": "test : champ inféré porte confidence + evidence + méthode",
+      "evidence": {
+        "ref": "tests/unit/test_l2b.py > DiscoveryL2b.test_T20_enrichissement",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E050",
       "matrixId": "E050",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -525,9 +723,13 @@
     },
     {
       "acceptance": "test AT-08",
+      "evidence": {
+        "ref": "tests/acceptance/test_at08_garde_publication.py > AT08GardePublication.test_lot_mixte_refuse_en_entier",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E051",
       "matrixId": "E051",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -535,9 +737,15 @@
     },
     {
       "acceptance": "AT-04 réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json ; second scan --no-fetch identique",
+        "threshold": "un second import créerait des assets",
+        "type": "mesure",
+        "value": "second scan : newAssets 0, newIds 0, 0 fichier modifié ; index régénéré inchangé"
+      },
       "id": "REQ-ASSET-REGISTRY-E052",
       "matrixId": "E052",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -545,9 +753,15 @@
     },
     {
       "acceptance": "mesure : second scan, 0 ressource oubliée",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/verify.json + second scan de contrôle",
+        "threshold": "un commit oublié ou une dérive serait compté",
+        "type": "mesure",
+        "value": "53 commits contrôlés, 0 oublié, 0 dérive, 0 erreur ; second scan : 0 changement"
+      },
       "id": "REQ-ASSET-REGISTRY-E053",
       "matrixId": "E053",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -555,9 +769,13 @@
     },
     {
       "acceptance": "mesure AT-03 + clones en lecture seule",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_lecture_seule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E054",
       "matrixId": "E054",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -565,9 +783,13 @@
     },
     {
       "acceptance": "test : publish public refuse ; gitleaks en CI",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_jeton",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E055",
       "matrixId": "E055",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -575,9 +797,13 @@
     },
     {
       "acceptance": "test : licence non déduite de la visibilité du dépôt",
+      "evidence": {
+        "ref": "tests/unit/test_l2b.py > DiscoveryL2b.test_T19_code_et_image",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E056",
       "matrixId": "E056",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -585,9 +811,13 @@
     },
     {
       "acceptance": "test : fichier corrompu -> exception + couverture",
+      "evidence": {
+        "ref": "tests/acceptance/test_at02_formats_couverts.py > AT02FormatsCouverts.test_png_tronque_en_exception_et_compte_dans_la_couverture",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E057",
       "matrixId": "E057",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -595,9 +825,13 @@
     },
     {
       "acceptance": "test + AT-04 réel",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T15_idempotent",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E058",
       "matrixId": "E058",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -605,9 +839,13 @@
     },
     {
       "acceptance": "schéma import-job + job réel validé",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_tags_classification_exclusions_et_job",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E059",
       "matrixId": "E059",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -615,9 +853,13 @@
     },
     {
       "acceptance": "test : un job qui met true est refusé",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T07_import_en_lecture_seule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E060",
       "matrixId": "E060",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -625,9 +867,13 @@
     },
     {
       "acceptance": "test : chaque sous-commande répond",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T08_json_toutes_commandes_et_dry_run",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E061",
       "matrixId": "E061",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -635,9 +881,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T08_json_toutes_commandes_et_dry_run",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E062",
       "matrixId": "E062",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -645,9 +895,13 @@
     },
     {
       "acceptance": "test : dry-run n'écrit rien",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T29_dry_run_mutations_leave_files_unchanged",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E063",
       "matrixId": "E063",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -655,9 +909,13 @@
     },
     {
       "acceptance": "docs + test",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_codes_de_retour_documentes_egaux_aux_codes_du_programme",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E064",
       "matrixId": "E064",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -665,9 +923,13 @@
     },
     {
       "acceptance": "test : journal JSON lines",
+      "evidence": {
+        "ref": "tests/unit/test_contracts.py > Contracts.test_points_entree_et_journal",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E065",
       "matrixId": "E065",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -675,9 +937,13 @@
     },
     {
       "acceptance": "test : deux exécutions, même état",
+      "evidence": {
+        "ref": "tests/acceptance/test_at04_import_idempotent.py > AT04ImportIdempotent.test_second_import_identique_a_l_octet",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E066",
       "matrixId": "E066",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -685,9 +951,13 @@
     },
     {
       "acceptance": "test : search --similar-to",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T21_similarity_and_exact_filters",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E067",
       "matrixId": "E067",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -695,9 +965,13 @@
     },
     {
       "acceptance": "test : derive crée une variante liée",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T32_parent_record_changes_only_variants",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E068",
       "matrixId": "E068",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -705,9 +979,13 @@
     },
     {
       "acceptance": "test : register exige rejets motivés",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T22_refuses_expired_or_incomplete_receipts",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E069",
       "matrixId": "E069",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -715,9 +993,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > RechercheParFiltre.test_recherche_textuelle_par_fts5",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E070",
       "matrixId": "E070",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -725,9 +1007,13 @@
     },
     {
       "acceptance": "revue : dépendances",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > GardesDeConception.test_aucune_base_serveur_ni_service_permanent",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E071",
       "matrixId": "E071",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -745,9 +1031,13 @@
     },
     {
       "acceptance": "test sync",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > SynchronisationParPR.test_pr_ouverte_puis_retrouvee_main_et_jeu_intacts",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E073",
       "matrixId": "E073",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -755,9 +1045,13 @@
     },
     {
       "acceptance": "test : sync n'écrit jamais dans un dépôt de jeu",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T28_incremental_sync_counts_only_changed_copies",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E074",
       "matrixId": "E074",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -765,9 +1059,13 @@
     },
     {
       "acceptance": "étape validate",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T01_27_champs_obligatoires",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E075",
       "matrixId": "E075",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -775,9 +1073,13 @@
     },
     {
       "acceptance": "étape validate + test",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T04_ids_en_double",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E076",
       "matrixId": "E076",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -785,9 +1087,13 @@
     },
     {
       "acceptance": "étape validate + test",
+      "evidence": {
+        "ref": "tests/unit/test_oracles.py > CatalogueOracles.test_T06_references",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E077",
       "matrixId": "E077",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -795,9 +1101,13 @@
     },
     {
       "acceptance": "étape validate",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > BinairesDuRegistre.test_binaire_conforme_puis_chaque_ecart_refuse",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E078",
       "matrixId": "E078",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -805,9 +1115,13 @@
     },
     {
       "acceptance": "étape validate",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > BinairesDuRegistre.test_binaire_conforme_puis_chaque_ecart_refuse",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E079",
       "matrixId": "E079",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -815,9 +1129,13 @@
     },
     {
       "acceptance": "étape validate",
+      "evidence": {
+        "ref": "tests/acceptance/test_at08_garde_publication.py > AT08GardePublication.test_licence_inconnue_refusee_sans_rien_ecrire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E080",
       "matrixId": "E080",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -825,9 +1143,15 @@
     },
     {
       "acceptance": "étape gitleaks",
+      "evidence": {
+        "ref": "gitleaks v8.30.1 (étape CI du registre) : PR #7 fusionnée ; scan de 8b87a55 avant/après l'exception ciblée, plus un témoin planté",
+        "threshold": "un secret planté doit être détecté",
+        "type": "mesure",
+        "value": "76 faux positifs (SHA-1 de blob git) → 0 ; témoin détecté ; aucun secret réel"
+      },
       "id": "REQ-ASSET-REGISTRY-E081",
       "matrixId": "E081",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -835,9 +1159,13 @@
     },
     {
       "acceptance": "étape duplicates",
+      "evidence": {
+        "ref": "tests/unit/test_discovery.py > Discovery.test_T14_similaire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E082",
       "matrixId": "E082",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -845,9 +1173,13 @@
     },
     {
       "acceptance": "test AT-13 en CI",
+      "evidence": {
+        "ref": "tests/acceptance/test_at13_export_atlas.py > AT13ExportAtlas.test_atlas_trafiques_refuses",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E083",
       "matrixId": "E083",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -855,9 +1187,13 @@
     },
     {
       "acceptance": "test lock",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T27_lock_checks_version_and_public_policy",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E084",
       "matrixId": "E084",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -865,9 +1201,15 @@
     },
     {
       "acceptance": "étape tests",
+      "evidence": {
+        "ref": "Woodpecker pipelines 24 et 26 de la PR #4 : test_points_entree_et_journal en échec dans l'image python:3.13-slim (rejoué à l'identique), pipeline 28 verte après correction 2825d52",
+        "threshold": "une étape de tests qui ne tourne pas resterait verte",
+        "type": "mesure",
+        "value": "rouge sur un test cassé, verte une fois corrigé"
+      },
       "id": "REQ-ASSET-REGISTRY-E085",
       "matrixId": "E085",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -875,9 +1217,13 @@
     },
     {
       "acceptance": "rapports JSON + Markdown",
+      "evidence": {
+        "ref": "tests/acceptance/test_at15_rapports.py > AT15Rapports.test_chaque_rapport_en_json_et_markdown",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E086",
       "matrixId": "E086",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -885,9 +1231,13 @@
     },
     {
       "acceptance": "test AT-08",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T23_rejects_whole_public_batch_and_exports_private",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E087",
       "matrixId": "E087",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -895,9 +1245,13 @@
     },
     {
       "acceptance": "generated/licenses.json",
+      "evidence": {
+        "ref": "tests/acceptance/test_at08_garde_publication.py > AT08GardePublication.test_manifeste_de_licences",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E088",
       "matrixId": "E088",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -905,9 +1259,13 @@
     },
     {
       "acceptance": "sbom.cdx.json validé en CI",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T31_deterministic_cyclonedx",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E089",
       "matrixId": "E089",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -935,9 +1293,13 @@
     },
     {
       "acceptance": "E010",
+      "evidence": {
+        "ref": "tests/unit/test_contracts.py > Contracts.test_schemas_source_usage_et_lock",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E092",
       "matrixId": "E092",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -945,9 +1307,15 @@
     },
     {
       "acceptance": "AT-01",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json",
+        "threshold": "un dépôt autorisé manquant",
+        "type": "mesure",
+        "value": "11 dépôts autorisés sur 11 découverts (22 copies, divergences signalées)"
+      },
       "id": "REQ-ASSET-REGISTRY-E093",
       "matrixId": "E093",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -955,9 +1323,15 @@
     },
     {
       "acceptance": "AT-02",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/coverage.json",
+        "threshold": "un format présent non pris en charge serait compté",
+        "type": "mesure",
+        "value": "13 formats inventoriés, 0 non pris en charge, 1 exclusion motivée (build/)"
+      },
       "id": "REQ-ASSET-REGISTRY-E094",
       "matrixId": "E094",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -965,9 +1339,15 @@
     },
     {
       "acceptance": "AT-07",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/../usage-index.json et dynamic-refs.json",
+        "threshold": "un usage non résolu doit être signalé",
+        "type": "mesure",
+        "value": "index inverse sur 5 610 assets, 3 250 avec usages ; 890 références dynamiques signalées"
+      },
       "id": "REQ-ASSET-REGISTRY-E095",
       "matrixId": "E095",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -975,9 +1355,15 @@
     },
     {
       "acceptance": "AT-06",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/../../catalog/sheets (374 planches)",
+        "threshold": "les sprites d'atlas doivent porter leur planche source",
+        "type": "mesure",
+        "value": "2 342 sprites avec sourceSheetId, dont 696 cadres d'atlas découpés"
+      },
       "id": "REQ-ASSET-REGISTRY-E096",
       "matrixId": "E096",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -985,9 +1371,15 @@
     },
     {
       "acceptance": "E050",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/../../catalog/assets",
+        "threshold": "fiche sans description ni orientation refusée par validate",
+        "type": "mesure",
+        "value": "5 610 fiches sur 5 610 avec description et orientation ; validate ok"
+      },
       "id": "REQ-ASSET-REGISTRY-E097",
       "matrixId": "E097",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -995,9 +1387,15 @@
     },
     {
       "acceptance": "E015-E017",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/../duplicates.json (mesure de pixels, plafond par classe de taille)",
+        "threshold": "une paire sous le plafond non liée resterait needs-review",
+        "type": "mesure",
+        "value": "0 needs-review ; 1 242 paires liées en variantes, 1 606 distinctes ; aucune suppression"
+      },
       "id": "REQ-ASSET-REGISTRY-E098",
       "matrixId": "E098",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1005,9 +1403,15 @@
     },
     {
       "acceptance": "rapport licences",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/../licenses.json et licenses-unknown.json",
+        "threshold": "aucune licence présumée : sans preuve → unknown",
+        "type": "mesure",
+        "value": "5 610 licences tracées : 3 048 unknown signalées, 1 884 privées David, 646 MIT, 32 CC0, chacune avec sa preuve"
+      },
       "id": "REQ-ASSET-REGISTRY-E099",
       "matrixId": "E099",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1015,9 +1419,15 @@
     },
     {
       "acceptance": "AT-04",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json ; second scan --no-fetch",
+        "threshold": "un second import identique créerait des fiches",
+        "type": "mesure",
+        "value": "newAssets 0, newIds 0, 0 fichier modifié"
+      },
       "id": "REQ-ASSET-REGISTRY-E100",
       "matrixId": "E100",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1025,9 +1435,15 @@
     },
     {
       "acceptance": "AT-15",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/coverage.json et exceptions.json",
+        "threshold": "ressource non couverte comptée",
+        "type": "mesure",
+        "value": "13 formats, 0 non pris en charge, 0 exception, 1 exclusion motivée"
+      },
       "id": "REQ-ASSET-REGISTRY-E101",
       "matrixId": "E101",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1035,9 +1451,13 @@
     },
     {
       "acceptance": "E022",
+      "evidence": {
+        "ref": "tests/unit/test_l3.py > LotL3.test_T28_incremental_sync_counts_only_changed_copies",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E102",
       "matrixId": "E102",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1045,9 +1465,13 @@
     },
     {
       "acceptance": "E061, E070",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > RechercheParFiltre.test_recherche_textuelle_par_fts5",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E103",
       "matrixId": "E103",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1055,9 +1479,13 @@
     },
     {
       "acceptance": "E018",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DetourageSansInterface.test_fond_relie_au_bord_transparent_sujet_et_trou_interieur_intacts",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E104",
       "matrixId": "E104",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1065,9 +1493,13 @@
     },
     {
       "acceptance": "E040, E041",
+      "evidence": {
+        "ref": "tests/acceptance/test_at07_usages_par_scene.py > AT07UsagesParScene.test_usage_dans_l_index_inverse",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E105",
       "matrixId": "E105",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1125,9 +1557,15 @@
     },
     {
       "acceptance": "rapport réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/migration.json",
+        "threshold": "un dépôt accessible sans commit de référence",
+        "type": "mesure",
+        "value": "11 dépôts sur 11 avec commit de référence (22 copies)"
+      },
       "id": "REQ-ASSET-REGISTRY-E111",
       "matrixId": "E111",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1135,9 +1573,15 @@
     },
     {
       "acceptance": "rapport réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/coverage.json",
+        "threshold": "une ressource prise en charge ni importée ni en exception",
+        "type": "mesure",
+        "value": "100 % : 0 non pris en charge, 0 exception non motivée"
+      },
       "id": "REQ-ASSET-REGISTRY-E112",
       "matrixId": "E112",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1145,9 +1589,13 @@
     },
     {
       "acceptance": "empreintes avant/après",
+      "evidence": {
+        "ref": "tests/acceptance/test_at03_lecture_seule.py > AT03LectureSeule.test_empreintes_identiques_avant_apres",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E113",
       "matrixId": "E113",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1155,9 +1603,15 @@
     },
     {
       "acceptance": "second import réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/second scan --no-fetch sur les mêmes miroirs",
+        "threshold": "un second import identique créerait un asset",
+        "type": "mesure",
+        "value": "newAssets 0, newIds 0, 0 fichier modifié"
+      },
       "id": "REQ-ASSET-REGISTRY-E114",
       "matrixId": "E114",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1165,9 +1619,13 @@
     },
     {
       "acceptance": "validate réel",
+      "evidence": {
+        "ref": "tests/acceptance/test_at05_metadonnees_minimales.py > AT05MetadonneesMinimales.test_validate_rend_0_puis_1_sans_description",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E115",
       "matrixId": "E115",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1175,9 +1633,13 @@
     },
     {
       "acceptance": "validate réel + test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at06_planche_et_region.py > AT06PlancheEtRegion.test_cadre_decoupe_pointe_vers_planche_et_region_verifiee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E116",
       "matrixId": "E116",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1185,9 +1647,13 @@
     },
     {
       "acceptance": "usage réel + test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at07_usages_par_scene.py > AT07UsagesParScene.test_usage_complet_du_chargement_litteral",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E117",
       "matrixId": "E117",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1195,9 +1661,13 @@
     },
     {
       "acceptance": "test + mutation",
+      "evidence": {
+        "ref": "tests/acceptance/test_at08_garde_publication.py > AT08GardePublication.test_licence_inconnue_refusee_sans_rien_ecrire",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E118",
       "matrixId": "E118",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1205,9 +1675,13 @@
     },
     {
       "acceptance": "test e2e",
+      "evidence": {
+        "ref": "tests/acceptance/test_at09_recherche_fouet.py > AT09RechercheFouet.test_historique_d_usage_dans_le_resultat",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E119",
       "matrixId": "E119",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1215,9 +1689,13 @@
     },
     {
       "acceptance": "test + CI",
+      "evidence": {
+        "ref": "tests/acceptance/test_at10_recherche_avant_creation.py > AT10RechercheAvantCreation.test_register_et_controle_de_pr",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E120",
       "matrixId": "E120",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1225,9 +1703,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at11_suppression_signalee.py > AT11SuppressionSignalee.test_suppression_signalee_historique_conserve",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E121",
       "matrixId": "E121",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1235,9 +1717,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at12_index_reconstruit.py > AT12IndexReconstruit.test_reconstruction_identique_depuis_catalog_seul",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E122",
       "matrixId": "E122",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1245,9 +1731,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/acceptance/test_at13_export_atlas.py > AT13ExportAtlas.test_export_valide",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E123",
       "matrixId": "E123",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1255,9 +1745,13 @@
     },
     {
       "acceptance": "test e2e",
+      "evidence": {
+        "ref": "tests/acceptance/test_at14_reutilisation_headless.py > AT14ReutilisationHeadless.test_search_usage_add_materialize_check_lock",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E124",
       "matrixId": "E124",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1265,9 +1759,15 @@
     },
     {
       "acceptance": "rapport réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #12 (inventaire réel rescanné au code de main, 2026-11-21) : generated/reports/{licenses-unknown,scan-limits,coverage,exceptions}.json",
+        "threshold": "inconnues et limites absentes des rapports",
+        "type": "mesure",
+        "value": "3 048 licences inconnues, 5 limites de scan, 1 020 durées audio inconnues, 1 exclusion : tous rapportés"
+      },
       "id": "REQ-ASSET-REGISTRY-E125",
       "matrixId": "E125",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1275,9 +1775,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E126",
       "matrixId": "E126",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1285,9 +1789,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E127",
       "matrixId": "E127",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1295,9 +1803,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + schéma",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E128",
       "matrixId": "E128",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1305,9 +1817,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + E032",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E129",
       "matrixId": "E129",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1315,9 +1831,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + test AV-01 (versions, lot L4)",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E130",
       "matrixId": "E130",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1325,9 +1845,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + AT-14",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E131",
       "matrixId": "E131",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1335,9 +1859,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + AT-03",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E132",
       "matrixId": "E132",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1345,9 +1873,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + PR",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E133",
       "matrixId": "E133",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1355,9 +1887,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + AT-08",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E134",
       "matrixId": "E134",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1365,9 +1901,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md + sync",
+      "evidence": {
+        "ref": "tests/unit/test_conformite_spec.py > DocumentationImperative.test_les_dix_regles_numerotees_dans_agents_md",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E135",
       "matrixId": "E135",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1375,9 +1915,15 @@
     },
     {
       "acceptance": "HL-538 description, condition 1",
+      "evidence": {
+        "ref": "HL-538 description, condition 1 « Dépôts » ; liste d'autorisation : catalog/sources.json (11 sources)",
+        "threshold": "décision de David présente dans la description de HL-538",
+        "type": "mesure",
+        "value": "décision écrite au ticket (boutons de David du 2026-11-19 08:03 CET)"
+      },
       "id": "REQ-ASSET-REGISTRY-E136",
       "matrixId": "E136",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1385,9 +1931,15 @@
     },
     {
       "acceptance": "HL-538 description, condition 4",
+      "evidence": {
+        "ref": "HL-538 description, condition 4 « Jeux en cours » : chaque jeu reçoit son assets.lock.json avant publication",
+        "threshold": "décision de David présente dans la description de HL-538",
+        "type": "mesure",
+        "value": "décision écrite au ticket (boutons de David du 2026-11-19 08:03 CET)"
+      },
       "id": "REQ-ASSET-REGISTRY-E137",
       "matrixId": "E137",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1395,9 +1947,15 @@
     },
     {
       "acceptance": "HL-538 description, condition 3",
+      "evidence": {
+        "ref": "HL-538 description, condition 3 « Export » (CC BY 4.0, provenance prouvée ; unknown reste privé), précisée le 21/11 (7-3165, licence privée)",
+        "threshold": "décision de David présente dans la description de HL-538",
+        "type": "mesure",
+        "value": "décision écrite au ticket (boutons de David du 2026-11-19 08:03 CET)"
+      },
       "id": "REQ-ASSET-REGISTRY-E138",
       "matrixId": "E138",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/OpenCade_Asset_Registry_Specifications_v1.0.md.txt"
       },
@@ -1405,9 +1963,13 @@
     },
     {
       "acceptance": "test : module désactivé, search et scan-repos internes OK",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_module_desactive_recherche_et_validation_internes_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E139",
       "matrixId": "E139",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1415,9 +1977,13 @@
     },
     {
       "acceptance": "test licences",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E140",
       "matrixId": "E140",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1425,9 +1991,13 @@
     },
     {
       "acceptance": "test adaptateur Kenney sur fixtures",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T02_cc0_verifie_import_permis_preuve_conservee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E141",
       "matrixId": "E141",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1435,9 +2005,13 @@
     },
     {
       "acceptance": "revue adaptateur + test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E142",
       "matrixId": "E142",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1445,9 +2019,13 @@
     },
     {
       "acceptance": "test EXT-T03",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E143",
       "matrixId": "E143",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1455,9 +2033,13 @@
     },
     {
       "acceptance": "test EXT-T04",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T04_copyleft_vers_un_export_public_bloque_et_documente",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E144",
       "matrixId": "E144",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1465,9 +2047,13 @@
     },
     {
       "acceptance": "test du moteur de décision",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_moteur_de_decision_justifie_chaque_issue",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E145",
       "matrixId": "E145",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1475,9 +2061,13 @@
     },
     {
       "acceptance": "test EXT-04",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T02_cc0_verifie_import_permis_preuve_conservee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E146",
       "matrixId": "E146",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1485,9 +2075,13 @@
     },
     {
       "acceptance": "test EXT-T07",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T07_fournisseur_indisponible_aucun_faux_negatif",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E147",
       "matrixId": "E147",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1495,9 +2089,13 @@
     },
     {
       "acceptance": "test EXT-01 (adaptateur simulé)",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_registre_des_fournisseurs_et_adaptateur_simule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E148",
       "matrixId": "E148",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1505,9 +2103,13 @@
     },
     {
       "acceptance": "test EXT-T05",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_telechargement_borne_https_seulement_et_repris",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E149",
       "matrixId": "E149",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1515,9 +2117,13 @@
     },
     {
       "acceptance": "schéma + test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_contrat_d_import_valide_et_securite_non_negociable",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E150",
       "matrixId": "E150",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1525,9 +2131,13 @@
     },
     {
       "acceptance": "schéma + test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T02_cc0_verifie_import_permis_preuve_conservee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E151",
       "matrixId": "E151",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1535,9 +2145,13 @@
     },
     {
       "acceptance": "test EXT-T10",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T10_export_public_avec_credits_et_licences",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E152",
       "matrixId": "E152",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1545,9 +2159,13 @@
     },
     {
       "acceptance": "test EXT-02",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_registre_des_fournisseurs_et_adaptateur_simule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E153",
       "matrixId": "E153",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1555,9 +2173,13 @@
     },
     {
       "acceptance": "test : manifeste sans jeton",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_aucun_jeton_dans_index_plan_ou_fiche",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E154",
       "matrixId": "E154",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1565,9 +2187,13 @@
     },
     {
       "acceptance": "test EXT-T06",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T06_lien_symbolique_et_executable_refuses",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E155",
       "matrixId": "E155",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1575,9 +2201,13 @@
     },
     {
       "acceptance": "test EXT-T03",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E156",
       "matrixId": "E156",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1585,9 +2215,13 @@
     },
     {
       "acceptance": "test EXT-T09",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T09_changement_de_licence_alerte_versions_historisees",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E157",
       "matrixId": "E157",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1595,9 +2229,13 @@
     },
     {
       "acceptance": "test EXT-T08",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T08_fichier_identique_deux_provenances",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E158",
       "matrixId": "E158",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1605,9 +2243,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_registre_des_fournisseurs_et_adaptateur_simule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E159",
       "matrixId": "E159",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1615,9 +2257,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_registre_des_fournisseurs_et_adaptateur_simule",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E160",
       "matrixId": "E160",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1635,9 +2281,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Module.test_moteur_de_decision_justifie_chaque_issue",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E162",
       "matrixId": "E162",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1645,9 +2295,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T05_meme_import_deux_fois_aucun_doublon",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E163",
       "matrixId": "E163",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1655,9 +2309,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E164",
       "matrixId": "E164",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1665,9 +2323,13 @@
     },
     {
       "acceptance": "pipeline Woodpecker",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T12_ci_sans_interface_sur_fixtures",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E165",
       "matrixId": "E165",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1745,9 +2407,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T01_asset_interne_compatible_aucune_creation_ni_import",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E173",
       "matrixId": "E173",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1755,9 +2421,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T02_cc0_verifie_import_permis_preuve_conservee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E174",
       "matrixId": "E174",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1765,9 +2435,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T03_licence_non_confirmee_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E175",
       "matrixId": "E175",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1775,9 +2449,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T04_copyleft_vers_un_export_public_bloque_et_documente",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E176",
       "matrixId": "E176",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1785,9 +2463,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T05_meme_import_deux_fois_aucun_doublon",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E177",
       "matrixId": "E177",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1795,9 +2477,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T06_archive_traversante_rejetee_et_mise_en_quarantaine",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E178",
       "matrixId": "E178",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1805,9 +2491,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T07_fournisseur_indisponible_aucun_faux_negatif",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E179",
       "matrixId": "E179",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1815,9 +2505,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T08_fichier_identique_deux_provenances",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E180",
       "matrixId": "E180",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1825,9 +2519,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T09_changement_de_licence_alerte_versions_historisees",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E181",
       "matrixId": "E181",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1835,9 +2533,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T10_export_public_avec_credits_et_licences",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E182",
       "matrixId": "E182",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1845,9 +2547,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T11_nouvelle_orientation_variante_liee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E183",
       "matrixId": "E183",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1855,9 +2561,13 @@
     },
     {
       "acceptance": "test d'acceptation EXT",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Acceptation.test_T12_ci_sans_interface_sur_fixtures",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E184",
       "matrixId": "E184",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1865,9 +2575,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md",
+      "evidence": {
+        "ref": "tests/unit/test_ext001.py > EXT001Documentation.test_regles_agents_ext001",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E185",
       "matrixId": "E185",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-001/OpenCade_Asset_Registry_EXT-001_External_Libraries_v1.0.md.txt"
       },
@@ -1885,9 +2599,15 @@
     },
     {
       "acceptance": "rapport réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #13 : generated/reports/levels/discover.json (level discover sur les 11 dépôts autorisés)",
+        "threshold": "un fichier de niveau non classé ferait passer le ratio sous 1",
+        "type": "mesure",
+        "value": "2 646 fichiers détectés, ratio inventorié/exception/ignoré motivé = 1.0"
+      },
       "id": "REQ-ASSET-REGISTRY-E187",
       "matrixId": "E187",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1895,9 +2615,13 @@
     },
     {
       "acceptance": "empreintes avant/après",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT02_monorepo_multijeux_references_generateurs_sources_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E188",
       "matrixId": "E188",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1905,9 +2629,13 @@
     },
     {
       "acceptance": "test AT08",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT08_licence_absente_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E189",
       "matrixId": "E189",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1915,9 +2643,13 @@
     },
     {
       "acceptance": "schéma level",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_schema_level_de_la_spec",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E190",
       "matrixId": "E190",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1925,9 +2657,13 @@
     },
     {
       "acceptance": "test AT10",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT10_asset_ext001_manquant_signale",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E191",
       "matrixId": "E191",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1935,9 +2671,13 @@
     },
     {
       "acceptance": "test : validateur puzzle importe le moteur du jeu",
+      "evidence": {
+        "ref": "tests/unit/test_ext002_jeux.py > EXT002Puzzle.test_moteur_du_jeu_juge_le_niveau",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E192",
       "matrixId": "E192",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1945,9 +2685,13 @@
     },
     {
       "acceptance": "test AT19",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT19_generation_stable_par_seed",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E193",
       "matrixId": "E193",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1955,9 +2699,15 @@
     },
     {
       "acceptance": "rapport réel",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #13 : generated/reports/levels/discover.json et pestouille-validation.json",
+        "threshold": "sources modifiées ou niveau sans provenance → false / > 0",
+        "type": "mesure",
+        "value": "100 % classés ; sourcesUnchanged true (false mesuré quand un agent modifiait Pestouille) ; 0 niveau sans provenance"
+      },
       "id": "REQ-ASSET-REGISTRY-E194",
       "matrixId": "E194",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/01_VISION.md.txt"
       },
@@ -1975,9 +2725,13 @@
     },
     {
       "acceptance": "schéma + test",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_publication_lock_et_version_immuable",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E196",
       "matrixId": "E196",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/02_ARCHITECTURE.md.txt"
       },
@@ -1995,9 +2749,13 @@
     },
     {
       "acceptance": "test AT09",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT09_archive_traversante_rejetee_en_quarantaine",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E198",
       "matrixId": "E198",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/02_ARCHITECTURE.md.txt"
       },
@@ -2005,9 +2763,13 @@
     },
     {
       "acceptance": "test LV-02",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT04_format_inconnu_en_exception",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E199",
       "matrixId": "E199",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2015,9 +2777,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT02_monorepo_multijeux_references_generateurs_sources_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E200",
       "matrixId": "E200",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2025,9 +2791,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT02_monorepo_multijeux_references_generateurs_sources_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E201",
       "matrixId": "E201",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2035,9 +2805,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_doublons_de_structure_proposes_jamais_fusionnes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E202",
       "matrixId": "E202",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2045,9 +2819,13 @@
     },
     {
       "acceptance": "test AT07",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT07_conversion_avec_pertes_declarees_et_aller_retour",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E203",
       "matrixId": "E203",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2055,9 +2833,13 @@
     },
     {
       "acceptance": "test AT03",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT03_import_repete_sans_doublon_et_nouveau_commit_meme_id",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E204",
       "matrixId": "E204",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/03_FORMATS_ET_IMPORT.md.txt"
       },
@@ -2075,9 +2857,13 @@
     },
     {
       "acceptance": "test AT19",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT19_generation_stable_par_seed",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E206",
       "matrixId": "E206",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/04_GENERATION.md.txt"
       },
@@ -2095,9 +2881,13 @@
     },
     {
       "acceptance": "tests",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT14_apparition_dans_un_obstacle",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E208",
       "matrixId": "E208",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2105,9 +2895,15 @@
     },
     {
       "acceptance": "validateur RPG (Pestouille)",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #13 : generated/reports/levels/pestouille-validation.json (pestouille-rpg ca7042f) ; test EXT002Jeux",
+        "threshold": "retirer la clé de racine doit rendre les portes et le boss inatteignables",
+        "type": "mesure",
+        "value": "12 niveaux RPG sur 12 pass (dont le graphe du monde) ; mutation clé retirée → fail"
+      },
       "id": "REQ-ASSET-REGISTRY-E209",
       "matrixId": "E209",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2115,9 +2911,15 @@
     },
     {
       "acceptance": "validateur donjon (Pestouille)",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #13 : generated/reports/levels/pestouille-validation.json ; test EXT002Jeux.test_plan_en_grille_pestouille_valide_et_boss_mure_insoluble",
+        "threshold": "un boss emmuré doit être déclaré insoluble",
+        "type": "mesure",
+        "value": "8 donjons de Pestouille sur 8 résolus ; boss emmuré → insoluble"
+      },
       "id": "REQ-ASSET-REGISTRY-E210",
       "matrixId": "E210",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2125,9 +2927,15 @@
     },
     {
       "acceptance": "validateur plateforme",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #14 : generated/reports/levels/ferraille-validation.json (Opencade 172156a, moteur + pilote du jeu, sans écran) ; test EXT002Plateforme (mutations vérifiées)",
+        "threshold": "un niveau que le pilote ne peut gagner doit être rejeté",
+        "type": "mesure",
+        "value": "30 niveaux de Ferraille sur 30 gagnés ; mutation huit blindés + boss rejetée"
+      },
       "id": "REQ-ASSET-REGISTRY-E211",
       "matrixId": "E211",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2135,9 +2943,15 @@
     },
     {
       "acceptance": "validateur circuit",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #14 : generated/reports/levels/derapage-validation.json (Opencade 172156a, moteur Engine + pilote controller du jeu, sans écran) ; test EXT002Circuit (mutation vérifiée)",
+        "threshold": "un circuit cassé doit être rejeté par le moteur du jeu",
+        "type": "mesure",
+        "value": "30 circuits sur 30 bouclés ; circuits cassés (deux points, tracé aplati) rejetés"
+      },
       "id": "REQ-ASSET-REGISTRY-E212",
       "matrixId": "E212",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2145,9 +2959,13 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_budget_depasse_inconclusive_jamais_pass",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E213",
       "matrixId": "E213",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/05_VALIDATION.md.txt"
       },
@@ -2155,9 +2973,13 @@
     },
     {
       "acceptance": "test LV-13",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_codes_de_retour_de_la_spec",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E214",
       "matrixId": "E214",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/06_CLI_AGENTS.md.txt"
       },
@@ -2165,9 +2987,13 @@
     },
     {
       "acceptance": "docs/AGENTS.md",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Documentation.test_regles_agents_ext002",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E215",
       "matrixId": "E215",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/06_CLI_AGENTS.md.txt"
       },
@@ -2175,9 +3001,13 @@
     },
     {
       "acceptance": "schemas/level.schema.json repris",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_schema_level_de_la_spec",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E216",
       "matrixId": "E216",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/contracts/level.schema.json"
       },
@@ -2185,9 +3015,15 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "Forgejo david/opencade-asset-registry PR #13 : generated/reports/levels/discover.json",
+        "threshold": "rapport complet + exceptions sur les dépôts autorisés",
+        "type": "mesure",
+        "value": "11 dépôts, 2 646 fichiers, 100 % inventoriés ou en exception motivée"
+      },
       "id": "REQ-ASSET-REGISTRY-E217",
       "matrixId": "E217",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2195,9 +3031,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT02_monorepo_multijeux_references_generateurs_sources_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E218",
       "matrixId": "E218",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2205,9 +3045,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_schema_level_de_la_spec",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E219",
       "matrixId": "E219",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2215,9 +3059,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT07_conversion_avec_pertes_declarees_et_aller_retour",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E220",
       "matrixId": "E220",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2225,9 +3073,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT06_ldtk_entites_et_couches_conservees",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E221",
       "matrixId": "E221",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2235,9 +3087,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_recherche_fts5_et_filtre_par_genre",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E222",
       "matrixId": "E222",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2245,9 +3101,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT10_asset_ext001_manquant_signale",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E223",
       "matrixId": "E223",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2255,9 +3115,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT13_rpg_quete_inaccessible",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E224",
       "matrixId": "E224",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2265,9 +3129,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT11_donjon_cle_derriere_sa_porte",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E225",
       "matrixId": "E225",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2275,9 +3143,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT15_saut_hors_de_portee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E226",
       "matrixId": "E226",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2285,9 +3157,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT18_points_de_controle_desordonnes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E227",
       "matrixId": "E227",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2295,9 +3171,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT19_generation_stable_par_seed",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E228",
       "matrixId": "E228",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2305,9 +3185,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT19_generation_stable_par_seed",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E229",
       "matrixId": "E229",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2315,9 +3199,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Registre.test_publication_lock_et_version_immuable",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E230",
       "matrixId": "E230",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2325,9 +3213,13 @@
     },
     {
       "acceptance": "backlog P0 EXT-002",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT08_licence_absente_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E231",
       "matrixId": "E231",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2385,9 +3277,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT01_depot_vide",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E237",
       "matrixId": "E237",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2395,9 +3291,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT02_monorepo_multijeux_references_generateurs_sources_intactes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E238",
       "matrixId": "E238",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2405,9 +3305,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT03_import_repete_sans_doublon_et_nouveau_commit_meme_id",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E239",
       "matrixId": "E239",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2415,9 +3319,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT04_format_inconnu_en_exception",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E240",
       "matrixId": "E240",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2425,9 +3333,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT05_tmx_avec_tileset_externe",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E241",
       "matrixId": "E241",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2435,9 +3347,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT06_ldtk_entites_et_couches_conservees",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E242",
       "matrixId": "E242",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2445,9 +3361,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT07_conversion_avec_pertes_declarees_et_aller_retour",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E243",
       "matrixId": "E243",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2455,9 +3375,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT08_licence_absente_publication_refusee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E244",
       "matrixId": "E244",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2465,9 +3389,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT09_archive_traversante_rejetee_en_quarantaine",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E245",
       "matrixId": "E245",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2475,9 +3403,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT10_asset_ext001_manquant_signale",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E246",
       "matrixId": "E246",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2485,9 +3417,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT11_donjon_cle_derriere_sa_porte",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E247",
       "matrixId": "E247",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2495,9 +3431,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT12_donjon_multi_interrupteurs",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E248",
       "matrixId": "E248",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2505,9 +3445,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT13_rpg_quete_inaccessible",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E249",
       "matrixId": "E249",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2515,9 +3459,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT14_apparition_dans_un_obstacle",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E250",
       "matrixId": "E250",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2525,9 +3473,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT15_saut_hors_de_portee",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E251",
       "matrixId": "E251",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2535,9 +3487,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT16_plateforme_mobile_et_timing",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E252",
       "matrixId": "E252",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2545,9 +3501,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT17_circuit_interrompu",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E253",
       "matrixId": "E253",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2555,9 +3515,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT18_points_de_controle_desordonnes",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E254",
       "matrixId": "E254",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2565,9 +3529,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT19_generation_stable_par_seed",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E255",
       "matrixId": "E255",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },
@@ -2575,9 +3543,13 @@
     },
     {
       "acceptance": "fixture versionnée + commandes CLI + assertions + rapport JSON",
+      "evidence": {
+        "ref": "tests/unit/test_ext002.py > EXT002Acceptation.test_AT20_usage_multijeux_et_historique",
+        "type": "test"
+      },
       "id": "REQ-ASSET-REGISTRY-E256",
       "matrixId": "E256",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/asset-registry-sources/ext-002/07_BACKLOG_TESTS.md.txt"
       },

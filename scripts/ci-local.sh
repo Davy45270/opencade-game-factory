@@ -7,6 +7,7 @@
 #   scripts/ci-local.sh scan              .woodpecker/scan.yml (réseau : copies GitHub publiques)
 #   scripts/ci-local.sh release           .woodpecker/release.yml
 #   scripts/ci-local.sh specs             .woodpecker/specs.yml (module specs/, REG-003)
+#   scripts/ci-local.sh modules           .woodpecker/modules.yml (modules blocks/ et ci/, BB-001 et gabarit)
 #   scripts/ci-local.sh controle-release  contrôle du SBOM et du manifeste de licences (appelé par release.yml)
 #
 # Variables :
@@ -137,6 +138,12 @@ case "$PIPELINE" in
     ./specctl --json index --check
     etape sbom-specctl
     ./specctl --json sbom --out "${TMPDIR:-/tmp}/specctl.cdx.json"
+    ;;
+  modules)
+    dependances
+    etape oracles-bbctl-et-gabarit
+    python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
+    python3 -m unittest discover -s tests/ci -t . -p 'test_*.py'
     ;;
   build-index)
     dependances

@@ -1,0 +1,34 @@
+# Modules blocks/ (BB-001, `bbctl`) et ci/ (gabarit CI des jeux) : leurs oracles ne tournaient dans aucun pipeline
+# (anomalie relevée le 21/11, HL-525). Aucun secret. Rejeu local : scripts/ci-local.sh modules
+#
+# node et PyYAML sont installés pour que les tests du gabarit ne se sautent pas (skipUnless node / PyYAML) : seul
+# test_agents_md peut se sauter (.codex-logs est gitignoré). L'étape compte les tests sautés et échoue au-delà de 1.
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: [main, usine]
+  - event: [pull_request, manual]
+
+steps:
+  - name: dependances
+    image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt pyyaml
+
+  - name: oracles-bbctl-et-gabarit
+    image: *py
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git nodejs >/dev/null
+      - git config --global --add safe.directory '*'
+      - git config --global user.name ci && git config --global user.email ci@localhost
+      - . .venv/bin/activate
+      - python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
+      - python3 -m unittest discover -s tests/ci -t . -p 'test_*.py' 2>&1 | tee /tmp/ci.txt
+      - grep -q '^OK' /tmp/ci.txt
+      - >-
+        SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2);
+        test "$${SAUTES:-0}" -le 1 || { echo "tests sautés - $$SAUTES"; exit 1; }

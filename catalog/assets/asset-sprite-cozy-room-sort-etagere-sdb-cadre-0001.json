@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:58:23.925507+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-etagere-sdb-0001",
+        "reason": "découpe brute de l'élément etagere-sdb : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9f9198f59b339566d36391a0c0d4111db0a5ddee8b9e543756a1fb6a3fddd3df",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "etagere sdb",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-etagere-sdb-0001",
+          "reason": "découpe brute de l'élément etagere-sdb : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-etagere-sdb-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:58:23.598229+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-etagere-sdb » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément etagere-sdb",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-etagere-sdb-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-etagere-sdb-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-etagere-sdb"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etagere-sdb-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-294.png, SHA-256 d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-etagere-sdb"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort etagere-sdb (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "70f1696961616939",
+    "phash": "ca9838cf389b6f30"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-etagere-sdb-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etagere-sdb livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [144, 206, 1248, 203], \"cadre\": \"sprite-etagere-sdb\", \"element\": \"etagere-sdb\", \"empreintePixels\": \"bddcffb0a2c1bc328d0f5e51b2a0eaaa555d0bbf20a03979106b90e8c86e66c2\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 206, \"w\": 144, \"x\": 1248, \"y\": 203}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-etagere-sdb-0001",
+    "parentSha256": "35814b23c850b5e500c59930784726275a773a4d927d3a29a99aee0f76197c45",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:58:23.925507+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-etagere-sdb de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels bddcffb0a2c1bc32)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-etagere-sdb",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d3eb25d2536d0da2a84f9e83eef74dc5404ec3d4056a5fd48a1d8a02f8be78cb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

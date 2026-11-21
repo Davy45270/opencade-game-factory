@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:48:46.578895+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-sol-vert-0001",
+        "reason": "découpe brute de l'élément sol-vert : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "74631000ae6e5c0d3e51ff2ee6c3281a72ef3b5262190d3573274bbd9731b88e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "sol vert",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-sol-vert-0001",
+          "reason": "découpe brute de l'élément sol-vert : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-sol-vert-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:48:46.180831+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-sol-vert » (content/assets/planches/atlas/p01-panneaux.webp), forme normalisée par le jeu de l'élément sol-vert",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-sol-vert-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-sol-vert-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-sol-vert"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sol-vert-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-sol-vert"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort sol-vert (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "8088a0c090b28201",
+    "phash": "d4c22b112a6fbf2a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-sol-vert-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sol-vert livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-panneaux.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-panneaux.webp (webp)\", \"boite\": [143, 98, 1016, 905], \"cadre\": \"sprite-sol-vert\", \"element\": \"sol-vert\", \"empreintePixels\": \"942e4218b7afdaf49695676576082fb51b4675afe4ee398d26b60b5d9f31f625\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 98, \"w\": 143, \"x\": 1016, \"y\": 905}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-sol-vert-0001",
+    "parentSha256": "321c4e5cf4e54cacc2a382f8d1ace653c06d5c9622eb4af0b50bb52064233341",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-panneaux.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:48:46.578895+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-panneaux.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "content/assets/planches/atlas/p01-panneaux.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-sol-vert de content/assets/planches/atlas/p01-panneaux.webp (empreinte de pixels 942e4218b7afdaf4)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-sol-vert",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-panneaux.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-panneaux.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0a51e5f3589afe0915be4b5e74824a76fb5fe4a689d2fef33680f79c00894dbc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

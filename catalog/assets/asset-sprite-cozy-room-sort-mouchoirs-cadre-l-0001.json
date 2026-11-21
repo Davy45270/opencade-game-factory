@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:01:52.161060+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-mouchoirs-0001",
+        "reason": "découpe brute de l'élément mouchoirs : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e7720fb0c848d0017dde9347115bbb2fe30d94ca2ef52dc03f812a9606b31930",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "mouchoirs",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-mouchoirs-0001",
+          "reason": "découpe brute de l'élément mouchoirs : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-mouchoirs-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:01:51.811501+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-mouchoirs » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément mouchoirs",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-mouchoirs-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-mouchoirs-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-mouchoirs"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-mouchoirs-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-325.png, SHA-256 696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-mouchoirs"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort mouchoirs (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "b27169f29888f93b",
+    "phash": "ca9f3f602565271a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-mouchoirs-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-mouchoirs livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [90, 90, 1199, 475], \"cadre\": \"sprite-mouchoirs\", \"element\": \"mouchoirs\", \"empreintePixels\": \"12b1f64e0be7e8ca6aa880db167deef206bae53cdc35b4b0fb7470195288fc50\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 90, \"w\": 90, \"x\": 1199, \"y\": 475}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-mouchoirs-0001",
+    "parentSha256": "bbffb8aa6893a825dd6170f7d878deff5f0b3baff3e656ad51145a2e99966d8f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:01:52.161060+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 339,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-mouchoirs de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 12b1f64e0be7e8ca)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-mouchoirs",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "696fbe9067d4ebdd56e1ef66b3e201490fdf4fbca773a75ba5ce0ca2068c7633",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

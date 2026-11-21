@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:52:09.345199+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lanterne-maison-0001",
+        "reason": "découpe brute de l'élément lanterne-maison : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "65de5d3a2096f1852a4966b8bd7b1f8babd632b15eef98e65f281975e086d36e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "lanterne maison",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lanterne-maison-0001",
+          "reason": "découpe brute de l'élément lanterne-maison : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lanterne-maison-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:52:08.948718+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-lanterne-maison » (content/assets/planches/atlas/p02-objets.webp), forme normalisée par le jeu de l'élément lanterne-maison",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-lanterne-maison-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-lanterne-maison-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-lanterne-maison"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lanterne-maison-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-240.png, SHA-256 481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-lanterne-maison"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort lanterne-maison (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "56a761d3f0f4f0f0",
+    "phash": "c56c389469cf369c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-lanterne-maison-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lanterne-maison livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-objets.webp (webp)\", \"boite\": [177, 229, 1328, 744], \"cadre\": \"sprite-lanterne-maison\", \"element\": \"lanterne-maison\", \"empreintePixels\": \"d38f70a9a833e2b15d14c387020da0921a1f81fe20909e05efa61e8c7e1fc821\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 229, \"w\": 177, \"x\": 1328, \"y\": 744}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-lanterne-maison-0001",
+    "parentSha256": "723f131bc0784ba02778b1d79f34d7a5412c1454ebc580f30f4324e705441d57",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:52:09.345199+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p02-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-lanterne-maison de content/assets/planches/atlas/p02-objets.webp (empreinte de pixels d38f70a9a833e2b1)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-lanterne-maison",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "481f6d4131fabd711e9eb0a2cf39de87adbd80ab9bc89bc2b3c1a2a9ca263a3e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

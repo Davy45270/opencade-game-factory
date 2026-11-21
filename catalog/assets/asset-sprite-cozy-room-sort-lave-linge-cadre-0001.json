@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:58:37.256502+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lave-linge-0001",
+        "reason": "découpe brute de l'élément lave-linge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c499f2b880b5feae3c61c8ee5fbeeaf740732090e91f3130c0e4b97e6edc89c7",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "lave linge",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lave-linge-0001",
+          "reason": "découpe brute de l'élément lave-linge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lave-linge-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:58:36.929165+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-lave-linge » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément lave-linge",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-lave-linge-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-lave-linge-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-lave-linge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lave-linge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-296.png, SHA-256 673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-lave-linge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort lave-linge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "60d8c8989c9cd8f1",
+    "phash": "d086cf3c3cc96c6c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-lave-linge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lave-linge livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [131, 165, 1106, 243], \"cadre\": \"sprite-lave-linge\", \"element\": \"lave-linge\", \"empreintePixels\": \"688545563c9dffa2b408839d04dfafc4582b2c568d56e763f1f8dcef4b03b637\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 165, \"w\": 131, \"x\": 1106, \"y\": 243}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-lave-linge-0001",
+    "parentSha256": "bae4e725dbac6bc09c75a3324f84215233da220e6e792f96d1fe3ab6c3b0d1b0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:58:37.256502+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-lave-linge de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels 688545563c9dffa2)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-lave-linge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "673b1fcc8fb1ef6c6d8e880b58efd38c58cd11ee909111cbbc0c5b9f3ec0477f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

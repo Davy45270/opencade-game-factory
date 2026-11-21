@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:03:08.432214+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-sels-peche-0001",
+        "reason": "découpe brute de l'élément sels-peche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "aae71d71bfab481476a1c3e689380ab475e33f216142999f387b11966bff3bd0",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "sels peche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-sels-peche-0001",
+          "reason": "découpe brute de l'élément sels-peche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-sels-peche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:03:08.071280+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-sels-peche » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément sels-peche",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-sels-peche-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-sels-peche-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-sels-peche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sels-peche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-336.png, SHA-256 a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-sels-peche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort sels-peche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "72a261c8d8c0d071",
+    "phash": "c32c3cd0b3d32736"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-sels-peche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sels-peche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [83, 94, 609, 734], \"cadre\": \"sprite-sels-peche\", \"element\": \"sels-peche\", \"empreintePixels\": \"9f1d4dfee306d0a0019c9a11a147fd00399a311c0d366957510a94e980d26bd6\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 94, \"w\": 83, \"x\": 609, \"y\": 734}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-sels-peche-0001",
+    "parentSha256": "ad90c4be8fc213b28ed11dc9c2e4eba46919ce082ed2613b4e9e2a8c06b8d800",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:03:08.432214+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 570,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-sels-peche de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 9f1d4dfee306d0a0)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-sels-peche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a4c26ab5f62b6a3abaa0de6348a78f99f9d53ef6de01fa5cbd6ec32e9633d877",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

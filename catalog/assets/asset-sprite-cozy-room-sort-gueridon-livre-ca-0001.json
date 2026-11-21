@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:53:52.984271+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-gueridon-livre (empreinte 8de5829ebe91)"
+      },
+      {
+        "assetId": "asset-sprite-gueridon-livre-0001",
+        "reason": "découpe brute de l'élément gueridon-livre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "29ad86ef40ec606ea5c456af9ba5c751d244a0f9a46aea169ed14e9974b98d0c",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "gueridon livre",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-gueridon-livre (empreinte 8de5829ebe91)"
+        },
+        {
+          "assetId": "asset-sprite-gueridon-livre-0001",
+          "reason": "découpe brute de l'élément gueridon-livre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001",
+        "asset-sprite-gueridon-livre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:53:52.626750+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-gueridon-livre » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément gueridon-livre",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-gueridon-livre-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-gueridon-livre-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-gueridon-livre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-gueridon-livre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-255.png, SHA-256 72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-gueridon-livre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort gueridon-livre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "1978e4f923911145",
+    "phash": "93933b393bd0e464"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-gueridon-livre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-gueridon-livre livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [121, 151, 1220, 383], \"cadre\": \"sprite-gueridon-livre\", \"element\": \"gueridon-livre\", \"empreintePixels\": \"8de5829ebe91ed12d61ac6b59b7de23d2b2a54659b77dc24e1e5363f752f88ae\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 151, \"w\": 121, \"x\": 1220, \"y\": 383}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-gueridon-livre-0001",
+    "parentSha256": "26059a29345fbc6223d831c706eca901ec97ec7e67ca01260e4f604e6dceb27f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:53:52.984271+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 255,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-gueridon-livre de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels 8de5829ebe91ed12)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-gueridon-livre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "72f7f883c2aecd3a164f6499cef24e9e1f2669db7ccd4a175b4d2ccdeed6787c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

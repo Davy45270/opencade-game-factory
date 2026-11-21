@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:04:07.351278+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-choix-cuisine-0001",
+        "reason": "découpe brute de l'élément choix-cuisine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e2fc6e3a6f610ac94ad4c791c508fdfdcadcd9e4942c0550c15af2035a66394c",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "choix cuisine",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-choix-cuisine-0001",
+          "reason": "découpe brute de l'élément choix-cuisine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-choix-cuisine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:04:06.996352+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-choix-cuisine » (content/assets/planches/atlas/p04-selecteur.webp), forme normalisée par le jeu de l'élément choix-cuisine",
+  "dimensions": {
+    "height": 200,
+    "width": 200
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-choix-cuisine-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-choix-cuisine-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-cuisine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-choix-cuisine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-344.png, SHA-256 0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-cuisine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort choix-cuisine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "70cc892c6c6cd4c4",
+    "phash": "9668c91f1cd86b69"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-choix-cuisine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-choix-cuisine livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-selecteur.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-selecteur.webp (webp)\", \"boite\": [165, 177, 1178, 10], \"cadre\": \"sprite-choix-cuisine\", \"element\": \"choix-cuisine\", \"empreintePixels\": \"abef0c4e5d20a161f9a05f568d644a42f173363f018279d332377e3efeec7e91\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 177, \"w\": 165, \"x\": 1178, \"y\": 10}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-choix-cuisine-0001",
+    "parentSha256": "e1d402fcd64136262c131634a2de2a1d18bd4e62b609d7de548dbd41a123d2c6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-selecteur.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:04:07.351278+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-selecteur.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/assets/planches/atlas/p04-selecteur.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-choix-cuisine de content/assets/planches/atlas/p04-selecteur.webp (empreinte de pixels abef0c4e5d20a161)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-choix-cuisine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-selecteur.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-selecteur.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0a967fc683bd6ca7821cc917946bdc12c528e0a7e7d059276a7cb5caf89eec73",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:49:39.290905+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-btn-refaire-0001",
+        "reason": "découpe brute de l'élément btn-refaire : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3828004f70597e6326f10eda4ce2e1b599006869f074ec5aa327e6330b39efa7",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "btn refaire",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-btn-refaire-0001",
+          "reason": "découpe brute de l'élément btn-refaire : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-btn-refaire-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:49:38.932246+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-btn-refaire » (content/assets/planches/atlas/p01-ui.webp), forme normalisée par le jeu de l'élément btn-refaire",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-btn-refaire-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-btn-refaire-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-refaire"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-btn-refaire-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-220.png, SHA-256 7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-refaire"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort btn-refaire (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "e0441af848d46823",
+    "phash": "dfd976668a1a202b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-btn-refaire-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-btn-refaire livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-ui.webp (webp)\", \"boite\": [99, 87, 221, 291], \"cadre\": \"sprite-btn-refaire\", \"element\": \"btn-refaire\", \"empreintePixels\": \"952d598c090d08fb457e5f83f0f2ae66a631e4d5ff237681959506e281f0cf1c\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 87, \"w\": 99, \"x\": 221, \"y\": 291}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-btn-refaire-0001",
+    "parentSha256": "032f3c7032b6c93173ff491843728fe9d02133cac050906a1accb086e496759f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:49:39.290905+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p01-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-btn-refaire de content/assets/planches/atlas/p01-ui.webp (empreinte de pixels 952d598c090d08fb)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-btn-refaire",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7ff752aa9b3ce2bc2ca390025a69b3d9b8b5be7ca6905bea073e1718a31b8acf",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

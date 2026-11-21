@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:51:24.032530+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-monstera-coeur-0001",
+        "reason": "découpe brute de l'élément monstera-coeur : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "185e1801a498d7d5d1dcae60eaad151041ceb1161581361fb987f6591be5f3b8",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "monstera coeur",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-monstera-coeur-0001",
+          "reason": "découpe brute de l'élément monstera-coeur : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-monstera-coeur-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:51:23.640398+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-monstera-coeur » (content/assets/planches/atlas/p02-meubles.webp), forme normalisée par le jeu de l'élément monstera-coeur",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-monstera-coeur-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-monstera-coeur-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-monstera-coeur"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-monstera-coeur-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-234.png, SHA-256 c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-monstera-coeur"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort monstera-coeur (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "1c75471b0b6969b0",
+    "phash": "cb259c97319b6686"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-monstera-coeur-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-monstera-coeur livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-meubles.webp (webp)\", \"boite\": [252, 318, 178, 391], \"cadre\": \"sprite-monstera-coeur\", \"element\": \"monstera-coeur\", \"empreintePixels\": \"c8dc1f71ae11363765b427cc4e1b07bbb806d408f537ac4dea053acbd30a1d1c\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 318, \"w\": 252, \"x\": 178, \"y\": 391}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-monstera-coeur-0001",
+    "parentSha256": "06c372100eec930c9f363c6971ffbf5f61970e73726a6c319aebdc05080e2108",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:51:24.032530+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p02-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-monstera-coeur de content/assets/planches/atlas/p02-meubles.webp (empreinte de pixels c8dc1f71ae113637)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-monstera-coeur",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c60a9b506bc853f584c4c2dfaf00ecb0e95ab3b9b16731081886e8577307daf0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

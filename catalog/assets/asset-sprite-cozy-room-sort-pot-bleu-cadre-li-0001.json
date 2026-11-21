@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:02:41.381606+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pot-bleu-0001",
+        "reason": "découpe brute de l'élément pot-bleu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a2ffcf5ecfd098ea0a9e5edace6ac8dee5513e78257fbd1ce8943f1f54515486",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "pot bleu",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pot-bleu-0001",
+          "reason": "découpe brute de l'élément pot-bleu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pot-bleu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:02:41.045112+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-pot-bleu » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément pot-bleu",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-pot-bleu-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-pot-bleu-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-pot-bleu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pot-bleu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-332.png, SHA-256 c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-pot-bleu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort pot-bleu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "61d0c086c0c0c071",
+    "phash": "c1163fc13c646bcb"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-pot-bleu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pot-bleu livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [77, 79, 390, 753], \"cadre\": \"sprite-pot-bleu\", \"element\": \"pot-bleu\", \"empreintePixels\": \"3e7388f881c23092e3b48b38c6761b49f9483d71b2ab7b82e9e60fc96a8940af\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 79, \"w\": 77, \"x\": 390, \"y\": 753}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-pot-bleu-0001",
+    "parentSha256": "57f7fb3e34d7cc45365abf924a690750fbc43a852940a3e0f6fb03d0364f27e7",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:02:41.381606+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 486,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-pot-bleu de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 3e7388f881c23092)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-pot-bleu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c38697a5039125cf5f479c9fd31af1823f0282e24f7f6de044fc6e2d994c463d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

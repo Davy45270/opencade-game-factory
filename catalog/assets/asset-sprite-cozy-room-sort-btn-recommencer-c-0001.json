@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:49:32.025055+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-btn-recommencer-0001",
+        "reason": "découpe brute de l'élément btn-recommencer : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0c2c9bc7550ba74f39ff594e585b06df8cf60a5d0af3e86a9a82c1a95a57337a",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "btn recommencer",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-btn-recommencer-0001",
+          "reason": "découpe brute de l'élément btn-recommencer : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-btn-recommencer-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:49:31.643531+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-btn-recommencer » (content/assets/planches/atlas/p01-ui.webp), forme normalisée par le jeu de l'élément btn-recommencer",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-btn-recommencer-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-btn-recommencer-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-btn-recommencer-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-219.png, SHA-256 038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-recommencer"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort btn-recommencer (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f08c96b69296ccf0",
+    "phash": "f5ef43931cc46143"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-btn-recommencer-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-btn-recommencer livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-ui.webp (webp)\", \"boite\": [96, 96, 124, 175], \"cadre\": \"sprite-btn-recommencer\", \"element\": \"btn-recommencer\", \"empreintePixels\": \"d0459caf535601d967a333bfef49a893a1ca2168f031c9c3d8c2fa9a3226cbf4\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 96, \"w\": 96, \"x\": 124, \"y\": 175}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-btn-recommencer-0001",
+    "parentSha256": "d7e90592f8d46e3de559f615d7b1285159880e8ab14dd977c3565b8c6aa0cbe9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:49:32.025055+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p01-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-btn-recommencer de content/assets/planches/atlas/p01-ui.webp (empreinte de pixels d0459caf535601d9)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-btn-recommencer",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "038fd7a4afac0f152c2143fa1c2f075612c9e6ae27dea22db4f4e169f90cffa2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

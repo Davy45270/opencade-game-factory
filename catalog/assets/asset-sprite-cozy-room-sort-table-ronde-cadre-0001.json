@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:45:21.646079+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-table-ronde-0001",
+        "reason": "découpe brute de l'élément table-ronde : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0d1c4493ab0071b0c71230a4ca7cdd284284133553f228394f59ac64fb187a84",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "table ronde",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-table-ronde-0001",
+          "reason": "découpe brute de l'élément table-ronde : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-table-ronde-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:45:21.237961+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-table-ronde » (content/assets/planches/atlas/p01-meubles.webp), forme normalisée par le jeu de l'élément table-ronde",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-table-ronde-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-table-ronde-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-table-ronde"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-table-ronde-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-185.png, SHA-256 7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-table-ronde"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort table-ronde (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "23e086f0694d4d8c",
+    "phash": "c2c43d2b3b90b43f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-table-ronde-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-table-ronde livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-meubles.webp (webp)\", \"boite\": [135, 127, 829, 469], \"cadre\": \"sprite-table-ronde\", \"element\": \"table-ronde\", \"empreintePixels\": \"20d0b93b8a8e946cfc9eac74ebb6d1ebc92ebaa7c5701fd1bdddbf62af97e8ef\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 127, \"w\": 135, \"x\": 829, \"y\": 469}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-table-ronde-0001",
+    "parentSha256": "c6b1403dde407a4b8ab6a6830ea02ae2e07387009f6bffdea18d5f00184e53f6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:45:21.646079+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 150,
+        "path": "content/assets/planches/atlas/p01-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-table-ronde de content/assets/planches/atlas/p01-meubles.webp (empreinte de pixels 20d0b93b8a8e946c)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-table-ronde",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7105a3772a70aae560aa448016d82899e61f12fc6b2ef1d5b2e5c6c8e46c12dc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -25,6 +25,10 @@ TILED_KEPT = {"width", "height", "tilewidth", "tileheight", "orientation", "laye
               "compressionlevel", "staggeraxis", "staggerindex", "hexsidelength"}
 COLLISION_NAMES = {"collision", "collisions", "solid", "solids", "walls", "murs"}
 TRACK_NAMES = {"track", "piste", "road", "route"}
+# Types d'objets en français des cartes des jeux de David (Pestouille : « lieu », « sortie »…) → type canonique.
+TYPE_ALIASES = {"lieu": "place", "sortie": "transition", "depart": "spawn", "départ": "spawn",
+                "point-de-sauvegarde": "checkpoint", "cle": "key", "clé": "key", "porte": "door",
+                "interrupteur": "switch", "objectif": "goal"}
 
 
 class Unsupported(ValueError):
@@ -309,8 +313,107 @@ def parse(path, raw, read=None):
             return parse_ldtk(raw, read, stem)
         if isinstance(data, dict) and "tilewidth" in data and "layers" in data:
             return parse_tiled_json(raw, read, stem)
-        raise Unsupported("JSON qui n'est ni une carte Tiled ni un projet LDtk")
+        if isinstance(data, dict) and isinstance(data.get("terrain"), list) and "spawn" in data:
+            return parse_ascii_grid(data, stem)
+        if isinstance(data, dict) and isinstance(data.get("regions"), dict) and "transitions" in data:
+            return parse_world_graph(data, read, stem)
+        if isinstance(data, dict) and {"rules", "objects", "scoring"} <= set(data):
+            return parse_game_puzzle(data, stem)
+        raise Unsupported("JSON qui n'est ni une carte Tiled, ni un projet LDtk, ni un plan en grille, ni un graphe de monde")
     raise Unsupported(f"format {suffix or '—'} non pris en charge")
+
+
+# --- Plans en grille ASCII (Pestouille) et graphes de monde ------------------------------------------------------
+
+GRID_WALLS = {"#"}
+
+
+def parse_ascii_grid(data, name):
+    """Plan en grille ASCII : `terrain` (lignes, `#` = mur), `spawn`, `exits[]` (cible, drapeaux requis), `entities[]`.
+    Le genre vient du nom du fichier (`dungeon.json` → donjon, sinon RPG). Les décors ajoutés au chargement par le
+    jeu (empreintes bloquantes) ne sont pas dans le plan : c'est une perte déclarée."""
+    size = int(data.get("tileSize", 16))
+    rows = data["terrain"]
+    width, height = int(data.get("width", len(rows[0]) if rows else 0)), int(data.get("height", len(rows)))
+    cells = [1 if (rows[y][x] if y < len(rows) and x < len(rows[y]) else "#") in GRID_WALLS else 0
+             for y in range(height) for x in range(width)]
+    objects, number = [], 0
+
+    def obj(kind, at, name_, properties):
+        nonlocal number
+        number += 1
+        objects.append({"id": number, "name": name_, "type": kind, "x": at["x"] * size, "y": at["y"] * size,
+                        "width": size, "height": size,
+                        "properties": [{"name": k, "type": "string", "value": v} for k, v in properties.items()]})
+    obj("spawn", data["spawn"], "spawn", {})
+    for entity in data.get("entities", []):
+        extra = {"definitionId": entity["definitionId"]} if entity.get("definitionId") else {}
+        obj(entity.get("kind", "entity"), entity["at"], entity.get("id", ""), extra)
+    for exit_ in data.get("exits", []):
+        extra = {"target": exit_.get("targetMapId", ""), "targetSpawn": exit_.get("targetSpawn", "")}
+        if exit_.get("requiredFlags"):
+            extra["requires"] = ",".join(exit_["requiredFlags"])
+        obj("transition", exit_["at"], exit_.get("id", ""), extra)
+    kind = "dungeon" if name == "dungeon" or str(data.get("id", "")).endswith("_dungeon") else "rpg"
+    layers = [{"name": "collision", "offset": [0, 0], "properties": [], "visible": True, "type": "tiles",
+               "width": width, "height": height, "data": cells},
+              {"name": "entities", "offset": [0, 0], "properties": [], "visible": True, "type": "objects",
+               "objects": objects}]
+    losses = ["décors posés par le jeu au chargement (empreintes bloquantes) absents du plan"]
+    losses += [f"champ {key} non conservé" for key in sorted(set(data) - {"id", "regionId", "width", "height",
+                                                                         "tileSize", "terrain", "spawn", "exits",
+                                                                         "entities"})]
+    return [_canonical("ascii-grid", str(data.get("id", name)), width, height, size, size, "orthogonal",
+                       [{"name": "kind", "type": "string", "value": kind},
+                        {"name": "region", "type": "string", "value": data.get("regionId", "")}],
+                       [], layers, losses, [])]
+
+
+def parse_world_graph(data, read, name):
+    """Graphe de monde : `regions` {région: [lieux]}, `transitions` [[a, b]] (praticables dans les deux sens),
+    `gates` [{target, requires}], `checkpoints` ; une région sans transition interne se parcourt librement. Son complément de progression (`start`, `grants` {lieu: drapeau},
+    portes supplémentaires) vit, par convention du jeu, dans le fichier voisin nommé d'après son `id`."""
+    nodes = sorted(f"{region}.{place}" for region, places in data["regions"].items() for place in places)
+    gates, grants, start = list(data.get("gates", [])), dict(data.get("grants", {})), data.get("start")
+    losses, diagnostics = [], []
+    overlay_name = f"{data.get('id')}.json" if data.get("id") else None
+    overlay = read(overlay_name) if read and overlay_name and overlay_name != f"{name}.json" else None
+    if overlay is not None:
+        extra = json.loads(overlay)
+        gates += extra.get("gates", [])
+        grants.update(extra.get("grants", {}))
+        start = extra.get("start", start)
+    edges = {tuple(sorted(edge)) for edge in data["transitions"]}
+    for region, places in data["regions"].items():
+        # Règle du jeu (pestouille-rpg, packages/world) : une région sans transition interne se parcourt librement ;
+        # une région qui en a ne suit que ses transitions.
+        if not any(a.startswith(f"{region}.") and b.startswith(f"{region}.") for a, b in data["transitions"]):
+            edges |= {tuple(sorted((f"{region}.{a}", f"{region}.{b}"))) for a in places for b in places if a < b}
+    graph = {"nodes": nodes, "edges": [list(edge) for edge in sorted(edges)],
+             "gates": sorted(({"target": g["target"], "requires": g["requires"]} for g in gates),
+                             key=lambda g: (g["target"], g["requires"])),
+             "grants": dict(sorted(grants.items())), "start": start, "checkpoints": sorted(data.get("checkpoints", [])),
+             "bosses": [n for n in nodes if n.rsplit(".", 1)[-1] == "boss"], "overlay": overlay_name if overlay else None}
+    for node in [e for edge in graph["edges"] for e in edge] + [g["target"] for g in graph["gates"]] + \
+            list(grants) + graph["checkpoints"] + ([start] if start else []):
+        if node not in nodes:
+            diagnostics.append({"code": "graph-unknown-place", "severity": "error",
+                                "message": f"lieu inconnu du graphe : {node}"})
+    # Un graphe n'a pas de grille : sa géométrie compte ses lieux (largeur) sur une ligne, pour le contrat du schéma.
+    level = _canonical("world-graph", str(data.get("id", name)), len(nodes), 1, 1, 1, "graph",
+                       [{"name": "kind", "type": "string", "value": "rpg"}], [], [], losses, diagnostics)
+    level["graph"] = graph
+    return [level]
+
+
+def parse_game_puzzle(data, name):
+    """Niveau de puzzle propre à un jeu (Cozy Room Sort : `rules`, `objects`, `scoring`, `meta.solution`) : gardé tel
+    quel dans `puzzle`, car ses règles appartiennent au jeu (EXT-002) ; seul le moteur du jeu le valide."""
+    objects = data.get("objects") or []
+    level = _canonical("game-puzzle", str(data.get("id", name)), max(1, len(objects)), 1, 1, 1, "puzzle",
+                       [{"name": "kind", "type": "string", "value": "puzzle"}], [], [], [], [])
+    level["puzzle"] = data
+    return [level]
 
 
 def to_tiled_json(level):
@@ -362,6 +465,7 @@ def semantics(level):
             continue
         for obj in layer["objects"]:
             kind = (obj.get("type") or obj.get("class") or obj.get("name") or "").lower()
+            kind = TYPE_ALIASES.get(kind, kind)
             x = int((obj.get("x", 0) + layer["offset"][0]) // tw)
             y = int((obj.get("y", 0) + layer["offset"][1]) // th)
             entities.append({"id": str(obj.get("id")), "name": obj.get("name", ""), "type": kind, "x": x, "y": y,

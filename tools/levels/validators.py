@@ -1,4 +1,4 @@
-"""Validateurs de niveaux (EXT-002 § 5) : gates communes, donjon, RPG, plateforme, circuit.
+"""Validateurs de niveaux (EXT-002 § 5) : gates communes, donjon, RPG, plateforme, circuit, puzzle (moteur du jeu).
 
 Chaque validateur rend {status: pass|fail|inconclusive, diagnostics, metrics}. Un budget de calcul dépassé rend
 `inconclusive`, jamais `pass`. Les règles de jeu restent au jeu : ces validateurs lisent les conventions déclarées
@@ -7,6 +7,7 @@ réimplémentent pas un moteur.
 """
 
 from collections import deque
+from pathlib import Path
 
 from tools.levels.formats import semantics
 
@@ -64,7 +65,7 @@ def common(record, level, known_assets=None):
         if layer["type"] == "tiles" and len(layer["data"]) != layer["width"] * layer["height"]:
             diagnostics.append(_diag("layer-size", f"couche {layer['name']} : taille incohérente"))
     spawns = [e for e in sem["entities"] if e["type"] in SPAWNS]
-    if record["kind"] in {"rpg", "dungeon", "platformer"} and not spawns:
+    if record["kind"] in {"rpg", "dungeon", "platformer"} and not spawns and "graph" not in level:
         diagnostics.append(_diag("spawn-missing", "aucun point d'apparition (spawn)"))
     for spawn in spawns:
         if _cells(spawn) & sem["solid"]:
@@ -210,7 +211,74 @@ def _rpg_fixpoint(level, sem, start, inventory, budget):
                     "complete": complete}
 
 
+def _graph_fixpoint(graph, start, inventory, budget):
+    """Point fixe sur un graphe de lieux : parcourir les liaisons dont la porte d'arrivée est ouverte, recevoir les
+    drapeaux des lieux atteints, recommencer. Rend l'ensemble atteint, l'inventaire et le tour d'obtention."""
+    neighbours = {n: set() for n in graph["nodes"]}
+    for a, b in graph["edges"]:
+        neighbours.setdefault(a, set()).add(b)
+        neighbours.setdefault(b, set()).add(a)
+    requires = {}
+    for gate in graph["gates"]:
+        requires.setdefault(gate["target"], set()).add(gate["requires"])
+    inventory, gained_at, reaches, complete = set(inventory), {}, [], True
+    while True:
+        reach, queue = {start}, deque([start])
+        while queue:
+            if not budget.spend():
+                complete = False
+                break
+            for nxt in sorted(neighbours.get(queue.popleft(), ())):
+                if nxt not in reach and requires.get(nxt, set()) <= inventory:
+                    reach.add(nxt)
+                    queue.append(nxt)
+        reaches.append(reach)
+        gained = {graph["grants"][n] for n in reach if n in graph["grants"]} - inventory
+        for flag in gained:
+            gained_at[flag] = len(reaches) - 1
+        inventory |= gained
+        if not gained or not complete:
+            return {"reach": reach, "inventory": inventory, "gainedAt": gained_at, "reaches": reaches,
+                    "complete": complete}
+
+
+def rpg_graph(level, profile=None, budget=None):
+    """RPG décrit par un graphe de monde : lieux obligatoires (points de sauvegarde, boss) atteignables, chaque porte
+    ouvrable par un drapeau effectivement obtenu, et aucun point de sauvegarde d'où le boss deviendrait inatteignable."""
+    graph = level["graph"]
+    budget = budget or Budget((profile or {}).get("budget"))
+    if not graph.get("start"):
+        return _result([_diag("spawn-missing", "graphe de monde sans lieu de départ (start)")])
+    state = _graph_fixpoint(graph, graph["start"], set(), budget)
+    reach, inventory = state["reach"], state["inventory"]
+    diagnostics = []
+    for gate in graph["gates"]:
+        if gate["requires"] not in inventory:
+            origin = "jamais attribué" if gate["requires"] not in graph["grants"].values() else "attribué hors d'atteinte"
+            diagnostics.append(_diag("quest-unreachable", f"porte {gate['target']} : drapeau {gate['requires']} "
+                                     f"{origin}", gate=gate["target"], flag=gate["requires"]))
+    mandatory = set(graph["checkpoints"] + graph["bosses"])
+    for node in graph["nodes"]:
+        if node not in reach:
+            diagnostics.append(_diag("place-unreachable", f"lieu {'obligatoire ' if node in mandatory else ''}{node} "
+                                     "inatteignable", severity="error" if node in mandatory else "warning",
+                                     place=node))
+    for checkpoint in (c for c in graph["checkpoints"] if c in reach):
+        first = next(i for i, r in enumerate(state["reaches"]) if checkpoint in r)
+        held = {flag for flag, when in state["gainedAt"].items() if when <= first}
+        sub = _graph_fixpoint(graph, checkpoint, held, budget)
+        for boss in graph["bosses"]:
+            if boss in reach and boss not in sub["reach"] and sub["complete"]:
+                diagnostics.append(_diag("softlock", f"depuis le point de sauvegarde {checkpoint}, le boss {boss} "
+                                         "n'est plus atteignable"))
+    return _result(diagnostics, {"placesReached": len(reach), "places": len(graph["nodes"]),
+                                 "flags": sorted(inventory), "budget": budget.limit},
+                   inconclusive=not state["complete"])
+
+
 def rpg(level, profile=None, budget=None):
+    if "graph" in level:
+        return rpg_graph(level, profile, budget)
     sem = semantics(level)
     budget = budget or Budget((profile or {}).get("budget"))
     spawn = next((e for e in sem["entities"] if e["type"] in SPAWNS), None)
@@ -225,7 +293,8 @@ def rpg(level, profile=None, budget=None):
             missing = sorted(_split(entity["props"].get("requires")) - inventory)
             where = "hors d'atteinte" if not _cells(entity) & reach else f"prérequis manquants : {', '.join(missing)}"
             diagnostics.append(_diag("quest-unreachable", f"quête {key} inaccessible ({where})", quest=key))
-        required = entity["type"] in {"boss", "checkpoint"} or entity["props"].get("required") is True
+        required = entity["type"] in {"boss", "checkpoint", "place", "transition"} or \
+            entity["props"].get("required") is True
         if required and not _cells(entity) & reach:
             diagnostics.append(_diag("place-unreachable", f"lieu obligatoire {entity['type']} {entity['id']} "
                                      "inatteignable", entity=entity["id"]))
@@ -437,7 +506,43 @@ def _distance(sources, targets, passable, width, height, budget):
     return None
 
 
-VALIDATORS = {"dungeon": dungeon, "rpg": rpg, "platformer": platformer, "circuit": circuit}
+
+
+
+
+# --- Puzzle : le moteur du jeu, sans écran ------------------------------------------------------------------------
+
+def puzzle(level, profile=None, budget=None):
+    """Les règles d'un puzzle appartiennent au jeu (arbitrage 7-2949) : on n'en réimplémente rien. Le profil du jeu
+    déclare sa commande de validation sans écran (`engine.command`, lancée dans `engine.cwd`), qui importe le moteur
+    et le solveur du jeu ; elle reçoit le niveau en fichier et répond par ligne `OK <id> …` ou `ÉCHEC <id> : motif`."""
+    import json
+    import subprocess
+    import tempfile
+
+    engine = (profile or {}).get("engine")
+    if not engine or "puzzle" not in level:
+        return {"status": "inconclusive", "diagnostics": [_diag(
+            "no-validator", "puzzle : le profil du jeu doit déclarer engine.command (moteur du jeu sans écran)",
+            severity="warning")], "metrics": {}}
+    name = str(level["puzzle"].get("id") or level["name"])
+    with tempfile.TemporaryDirectory(prefix="level-puzzle-") as folder:
+        path = Path(folder) / f"{name}.json"
+        path.write_text(json.dumps(level["puzzle"], ensure_ascii=False))
+        try:
+            run = subprocess.run([*engine["command"], str(path)], cwd=engine.get("cwd"), capture_output=True,
+                                 text=True, timeout=engine.get("timeout", 120))
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            return {"status": "inconclusive", "diagnostics": [_diag("engine-unavailable", f"moteur du jeu : {exc}")],
+                    "metrics": {}}
+    lines = [line for line in run.stdout.splitlines() if line.startswith(("OK ", "ÉCHEC "))]
+    metrics = {"engine": " ".join(engine["command"]), "exitCode": run.returncode, "verdict": lines[-1] if lines else None}
+    if run.returncode == 0 and lines and lines[-1].startswith("OK "):
+        return _result([], metrics)
+    if lines and lines[-1].startswith("ÉCHEC "):
+        return _result([_diag("puzzle-rejected-by-engine", lines[-1].split(" : ", 1)[-1])], metrics)
+    return _result([_diag("engine-unreadable", f"réponse du moteur illisible (code {run.returncode})",
+                          severity="warning")], metrics, inconclusive=True)
 
 
 def validate(record, profile=None, known_assets=None, others=None):
@@ -458,3 +563,6 @@ def validate(record, profile=None, known_assets=None, others=None):
     status = "fail" if "fail" in statuses else "inconclusive" if "inconclusive" in statuses else "pass"
     return {"status": status, "checks": report,
             "diagnostics": [d for part in report.values() for d in part["diagnostics"]]}
+
+
+VALIDATORS = {"dungeon": dungeon, "rpg": rpg, "platformer": platformer, "circuit": circuit, "puzzle": puzzle}

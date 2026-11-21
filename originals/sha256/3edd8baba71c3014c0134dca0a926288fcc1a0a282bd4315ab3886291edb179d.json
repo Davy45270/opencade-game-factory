@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "016-salle-de-bain",
+  "name": "La pile de serviettes",
+  "theme": "salle-de-bain",
+  "difficulty": "easy",
+  "seed": 58000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "accessoires",
+      "label": "Accessoires"
+    },
+    {
+      "id": "serviettes",
+      "label": "Serviettes et linge"
+    },
+    {
+      "id": "soins",
+      "label": "Pots et soins"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "accessoires",
+      "capacity": 3
+    },
+    {
+      "id": "carton-2",
+      "category": "serviettes",
+      "capacity": 3
+    },
+    {
+      "id": "carton-3",
+      "category": "soins",
+      "capacity": 3
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-8",
+      "category": "serviettes",
+      "asset": "serviette-barre",
+      "blockedBy": [],
+      "position": {
+        "x": 0.485,
+        "y": 0.333
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-1",
+      "category": "accessoires",
+      "asset": "canard",
+      "blockedBy": [
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.496,
+        "y": 0.294
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-4",
+      "category": "accessoires",
+      "asset": "seche-cheveux",
+      "blockedBy": [
+        "pile-8",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.256
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-7",
+      "category": "accessoires",
+      "asset": "seche-cheveux",
+      "blockedBy": [
+        "pile-8",
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.516,
+        "y": 0.219
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-9",
+      "category": "soins",
+      "asset": "pot-bleu",
+      "blockedBy": [],
+      "position": {
+        "x": 0.765,
+        "y": 0.487
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-2",
+      "category": "serviettes",
+      "asset": "serviette-barre",
+      "blockedBy": [
+        "pile-9"
+      ],
+      "position": {
+        "x": 0.78,
+        "y": 0.437
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-5",
+      "category": "serviettes",
+      "asset": "serviette-anneau",
+      "blockedBy": [
+        "pile-9",
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.795,
+        "y": 0.379
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "soins",
+      "asset": "sels-roses",
+      "blockedBy": [],
+      "position": {
+        "x": 0.206,
+        "y": 0.396
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-6",
+      "category": "soins",
+      "asset": "sels-peche",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.236,
+        "y": 0.283
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 2,
+    "twoStarsMaxBuffered": 4
+  },
+  "meta": {
+    "solution": [
+      "pile-8",
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-9",
+      "pile-2",
+      "pile-5",
+      "pile-3",
+      "pile-6"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 29,
+    "nonTrivialDecisions": 157,
+    "legalMoves": 580,
+    "blockingMoves": 10,
+    "blockingMoveShare": 0.017241379310344827
+  }
+}

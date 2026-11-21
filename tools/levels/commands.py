@@ -162,7 +162,9 @@ class Source:
 
     def __init__(self, path, ref=None):
         self.path = Path(path)
-        self.git = (self.path / ".git").exists()
+        # Un clone (`.git`) ou un miroir nu (`HEAD` + `objects/`, ceux de scan-repos) se lisent tous deux par git ;
+        # un miroir nu lu comme un dossier ordinaire ne montrerait aucun fichier et passerait pour vide.
+        self.git = (self.path / ".git").exists() or ((self.path / "HEAD").is_file() and (self.path / "objects").is_dir())
         self.commit = "unversioned"
         if self.git:
             self.commit = self._git("rev-parse", "--verify", f"{ref or 'HEAD'}^{{commit}}").decode().strip()
@@ -418,7 +420,10 @@ def _import_archive(root, args):
 
 def _store(root, args, candidates, origin, verdict):
     existing = _load_all(root)
+    from tools.core.schemas import schemas
+
     created, observed, unchanged, artifacts, diagnostics = [], [], [], [], []
+    pending, originals = {}, []
     game = args.game or Path(str(origin["repo"])).name
     with directory_lock(Path(root) / "catalog") if not args.dry_run else _null():
         for name, raw, level in candidates:
@@ -472,13 +477,25 @@ def _store(root, args, candidates, origin, verdict):
                     "observations": [{**key, "observedAt": _now()}], "transformations": [], "versions": []}
                 existing[level_id] = record
                 created.append(level_id)
-                if not args.dry_run:
-                    original = Path(root) / "originals" / "sha256" / f"{content_sha}{PurePosixPath(name).suffix}"
-                    original.parent.mkdir(parents=True, exist_ok=True)
-                    if not original.exists():
-                        original.write_bytes(raw)
+                originals.append((Path(root) / "originals" / "sha256" / f"{content_sha}{PurePosixPath(name).suffix}",
+                                  raw))
             diagnostics += level["diagnostics"]
-            if not args.dry_run:
+            pending[record["id"]] = record
+        # Transactionnel : chaque fiche est contrôlée contre le schéma AVANT la première écriture ; une seule
+        # invalide et rien n'est écrit (ni fiche, ni original).
+        invalid = [(r["id"], e.message) for r in pending.values()
+                   for e in [next(schemas().validator("level").iter_errors(r), None)] if e is not None]
+        if invalid:
+            return _envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[
+                {"code": "invalid-record", "severity": "error", "message": f"fiche {i} invalide : {m}"}
+                for i, m in invalid] + diagnostics, created=[], observed=[], unchanged=unchanged,
+                licenseStatus=verdict["status"], dryRun=args.dry_run)
+        if not args.dry_run:
+            for original, raw in originals:
+                original.parent.mkdir(parents=True, exist_ok=True)
+                if not original.exists():
+                    original.write_bytes(raw)
+            for record in pending.values():
                 path = _dir(root) / f"{record['id']}.json"
                 _write(path, record)
                 artifacts.append(path.relative_to(root).as_posix())

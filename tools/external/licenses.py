@@ -8,7 +8,8 @@ est `incompatible` tant qu'aucune revue n'est enregistrée.
 
 import re
 
-LICENSE_FILES = re.compile(r"(?i)(?:^|/)(license|licence|copying|readme)[^/]*\.(?:txt|md)$")
+# Fichier de licence : LICENSE, COPYING, README… avec ou sans extension .txt/.md (un LICENSE nu est le cas courant).
+LICENSE_FILES = re.compile(r"(?i)(?:^|/)(license|licence|copying|readme)(?:[^/]*\.(?:txt|md)|[^/.]*)$")
 # Texte qui CONFIRME l'identifiant ; aucune déduction depuis le nom du fournisseur.
 PROOFS = {
     "CC0-1.0": re.compile(r"(?i)(creative\s+commons\s+zero|\bCC0\b|publicdomain/zero/1\.0)"),
@@ -17,6 +18,7 @@ PROOFS = {
     "CC-BY-SA-4.0": re.compile(r"(?i)(attribution-sharealike\s+4\.0|licenses/by-sa/4\.0)"),
     "CC-BY-SA-3.0": re.compile(r"(?i)(attribution-sharealike\s+3\.0|licenses/by-sa/3\.0)"),
     "OFL-1.1": re.compile(r"(?i)SIL\s+OPEN\s+FONT\s+LICENSE"),
+    "MIT": re.compile(r"(?is)MIT\s+License.*Permission\s+is\s+hereby\s+granted,\s+free\s+of\s+charge"),
 }
 POLICY = {
     "CC0-1.0": {"attribution": False, "copyleft": False},
@@ -25,6 +27,7 @@ POLICY = {
     "CC-BY-SA-4.0": {"attribution": True, "copyleft": True},
     "CC-BY-SA-3.0": {"attribution": True, "copyleft": True},
     "OFL-1.1": {"attribution": True, "copyleft": True},
+    "MIT": {"attribution": True, "copyleft": False},
 }
 
 

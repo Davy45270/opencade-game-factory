@@ -1,0 +1,427 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "018-salle-de-bain",
+  "name": "Autour du lavabo",
+  "theme": "salle-de-bain",
+  "difficulty": "medium",
+  "seed": 60000,
+  "rules": {
+    "bufferCapacity": 4,
+    "activeBoxCount": 1,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "soins",
+      "label": "Pots et soins"
+    },
+    {
+      "id": "accessoires",
+      "label": "Accessoires"
+    },
+    {
+      "id": "serviettes",
+      "label": "Serviettes et linge"
+    },
+    {
+      "id": "flacons",
+      "label": "Flacons"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "soins",
+      "capacity": 7
+    },
+    {
+      "id": "carton-2",
+      "category": "accessoires",
+      "capacity": 4
+    },
+    {
+      "id": "carton-3",
+      "category": "serviettes",
+      "capacity": 7
+    },
+    {
+      "id": "carton-4",
+      "category": "flacons",
+      "capacity": 4
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-18",
+      "category": "accessoires",
+      "asset": "fleur-douche",
+      "blockedBy": [],
+      "position": {
+        "x": 0.236,
+        "y": 0.396
+      },
+      "layer": 9
+    },
+    {
+      "id": "pile-22",
+      "category": "accessoires",
+      "asset": "gobelet-brosses",
+      "blockedBy": [
+        "pile-18"
+      ],
+      "position": {
+        "x": 0.231,
+        "y": 0.382
+      },
+      "layer": 8
+    },
+    {
+      "id": "pile-1",
+      "category": "soins",
+      "asset": "tube-creme",
+      "blockedBy": [
+        "pile-18",
+        "pile-22"
+      ],
+      "position": {
+        "x": 0.228,
+        "y": 0.368
+      },
+      "layer": 7
+    },
+    {
+      "id": "pile-5",
+      "category": "soins",
+      "asset": "tube-creme",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.224,
+        "y": 0.354
+      },
+      "layer": 6
+    },
+    {
+      "id": "pile-9",
+      "category": "soins",
+      "asset": "sels-roses",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.221,
+        "y": 0.34
+      },
+      "layer": 5,
+      "hidden": true
+    },
+    {
+      "id": "pile-13",
+      "category": "soins",
+      "asset": "sels-peche",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1",
+        "pile-5",
+        "pile-9"
+      ],
+      "position": {
+        "x": 0.217,
+        "y": 0.326
+      },
+      "layer": 4,
+      "hidden": true
+    },
+    {
+      "id": "pile-16",
+      "category": "soins",
+      "asset": "tube-creme",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1",
+        "pile-5",
+        "pile-9",
+        "pile-13"
+      ],
+      "position": {
+        "x": 0.213,
+        "y": 0.311
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-17",
+      "category": "soins",
+      "asset": "sels-peche",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1",
+        "pile-5",
+        "pile-9",
+        "pile-13",
+        "pile-16"
+      ],
+      "position": {
+        "x": 0.209,
+        "y": 0.297
+      },
+      "layer": 2,
+      "hidden": true
+    },
+    {
+      "id": "pile-21",
+      "category": "soins",
+      "asset": "sels-roses",
+      "blockedBy": [
+        "pile-18",
+        "pile-22",
+        "pile-1",
+        "pile-5",
+        "pile-9",
+        "pile-13",
+        "pile-16",
+        "pile-17"
+      ],
+      "position": {
+        "x": 0.206,
+        "y": 0.283
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "accessoires",
+      "asset": "brosse",
+      "blockedBy": [],
+      "position": {
+        "x": 0.236,
+        "y": 0.875
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-6",
+      "category": "accessoires",
+      "asset": "canard",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.206,
+        "y": 0.763
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-20",
+      "category": "flacons",
+      "asset": "flacon-pompe",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.863
+      },
+      "layer": 8
+    },
+    {
+      "id": "pile-3",
+      "category": "serviettes",
+      "asset": "serviette-anneau",
+      "blockedBy": [
+        "pile-20"
+      ],
+      "position": {
+        "x": 0.511,
+        "y": 0.846
+      },
+      "layer": 7,
+      "hidden": true
+    },
+    {
+      "id": "pile-7",
+      "category": "serviettes",
+      "asset": "serviette-anneau",
+      "blockedBy": [
+        "pile-20",
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.83
+      },
+      "layer": 6
+    },
+    {
+      "id": "pile-10",
+      "category": "serviettes",
+      "asset": "serviettes-pile",
+      "blockedBy": [
+        "pile-20",
+        "pile-3",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.502,
+        "y": 0.814
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-11",
+      "category": "serviettes",
+      "asset": "serviette-barre",
+      "blockedBy": [
+        "pile-20",
+        "pile-3",
+        "pile-7",
+        "pile-10"
+      ],
+      "position": {
+        "x": 0.498,
+        "y": 0.799
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-14",
+      "category": "serviettes",
+      "asset": "serviettes-pile",
+      "blockedBy": [
+        "pile-20",
+        "pile-3",
+        "pile-7",
+        "pile-10",
+        "pile-11"
+      ],
+      "position": {
+        "x": 0.494,
+        "y": 0.782
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-15",
+      "category": "serviettes",
+      "asset": "serviette-anneau",
+      "blockedBy": [
+        "pile-20",
+        "pile-3",
+        "pile-7",
+        "pile-10",
+        "pile-11",
+        "pile-14"
+      ],
+      "position": {
+        "x": 0.489,
+        "y": 0.766
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-19",
+      "category": "serviettes",
+      "asset": "peignoir",
+      "blockedBy": [
+        "pile-20",
+        "pile-3",
+        "pile-7",
+        "pile-10",
+        "pile-11",
+        "pile-14",
+        "pile-15"
+      ],
+      "position": {
+        "x": 0.486,
+        "y": 0.75
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-4",
+      "category": "flacons",
+      "asset": "flacon-rose",
+      "blockedBy": [],
+      "position": {
+        "x": 0.516,
+        "y": 0.331
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-8",
+      "category": "flacons",
+      "asset": "flacon-pompe",
+      "blockedBy": [
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.5,
+        "y": 0.275
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-12",
+      "category": "flacons",
+      "asset": "flacon-creme",
+      "blockedBy": [
+        "pile-4",
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.486,
+        "y": 0.219
+      },
+      "layer": 1,
+      "hidden": true
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 3,
+    "twoStarsMaxBuffered": 5
+  },
+  "meta": {
+    "solution": [
+      "pile-18",
+      "pile-22",
+      "pile-1",
+      "pile-5",
+      "pile-9",
+      "pile-13",
+      "pile-16",
+      "pile-17",
+      "pile-21",
+      "pile-2",
+      "pile-6",
+      "pile-20",
+      "pile-3",
+      "pile-7",
+      "pile-10",
+      "pile-11",
+      "pile-14",
+      "pile-15",
+      "pile-19",
+      "pile-4",
+      "pile-8",
+      "pile-12"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 27,
+    "nonTrivialDecisions": 190,
+    "legalMoves": 1179,
+    "blockingMoves": 201,
+    "blockingMoveShare": 0.17048346055979643
+  }
+}

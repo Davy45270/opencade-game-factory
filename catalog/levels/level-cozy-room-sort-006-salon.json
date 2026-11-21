@@ -1,0 +1,442 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "006-salon",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 3,
+          "category": "coussins",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 4,
+          "category": "plantes",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 5,
+          "category": "cadres",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 3,
+          "category": "livres",
+          "id": "carton-4"
+        },
+        {
+          "capacity": 5,
+          "category": "lumieres",
+          "id": "carton-5"
+        }
+      ],
+      "categories": [
+        {
+          "id": "coussins",
+          "label": "Coussins et plaids"
+        },
+        {
+          "id": "plantes",
+          "label": "Plantes et fleurs"
+        },
+        {
+          "id": "cadres",
+          "label": "Cadres"
+        },
+        {
+          "id": "livres",
+          "label": "Livres"
+        },
+        {
+          "id": "lumieres",
+          "label": "Lumières"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "006-salon",
+      "meta": {
+        "blockingMoveShare": 0.42998955067920586,
+        "blockingMoves": 823,
+        "engineVersion": "0.1.0",
+        "legalMoves": 1914,
+        "nonTrivialDecisions": 247,
+        "solution": [
+          "pile-12",
+          "pile-17",
+          "pile-1",
+          "pile-6",
+          "pile-16",
+          "pile-13",
+          "pile-18",
+          "pile-2",
+          "pile-7",
+          "pile-3",
+          "pile-8",
+          "pile-11",
+          "pile-19",
+          "pile-20",
+          "pile-4",
+          "pile-9",
+          "pile-14",
+          "pile-5",
+          "pile-10",
+          "pile-15"
+        ],
+        "statesExplored": 1037
+      },
+      "name": "Tout sur les rayons",
+      "objects": [
+        {
+          "asset": "cactus",
+          "blockedBy": [],
+          "category": "plantes",
+          "id": "pile-12",
+          "layer": 5,
+          "position": {
+            "x": 0.766,
+            "y": 0.94
+          }
+        },
+        {
+          "asset": "cactus",
+          "blockedBy": [
+            "pile-12"
+          ],
+          "category": "plantes",
+          "id": "pile-17",
+          "layer": 4,
+          "position": {
+            "x": 0.773,
+            "y": 0.911
+          }
+        },
+        {
+          "asset": "plaid-bleu",
+          "blockedBy": [
+            "pile-12",
+            "pile-17"
+          ],
+          "category": "coussins",
+          "hidden": true,
+          "id": "pile-1",
+          "layer": 3,
+          "position": {
+            "x": 0.78,
+            "y": 0.872
+          }
+        },
+        {
+          "asset": "plaid-bleu",
+          "blockedBy": [
+            "pile-12",
+            "pile-17",
+            "pile-1"
+          ],
+          "category": "coussins",
+          "id": "pile-6",
+          "layer": 2,
+          "position": {
+            "x": 0.788,
+            "y": 0.844
+          }
+        },
+        {
+          "asset": "coussins-duo",
+          "blockedBy": [
+            "pile-12",
+            "pile-17",
+            "pile-1",
+            "pile-6"
+          ],
+          "category": "coussins",
+          "id": "pile-16",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.817
+          }
+        },
+        {
+          "asset": "cadre-tulipe",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-13",
+          "layer": 4,
+          "position": {
+            "x": 0.205,
+            "y": 0.869
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-13"
+          ],
+          "category": "cadres",
+          "id": "pile-18",
+          "layer": 3,
+          "position": {
+            "x": 0.215,
+            "y": 0.831
+          }
+        },
+        {
+          "asset": "hortensias",
+          "blockedBy": [
+            "pile-13",
+            "pile-18"
+          ],
+          "category": "plantes",
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.225,
+            "y": 0.794
+          }
+        },
+        {
+          "asset": "tournesols",
+          "blockedBy": [
+            "pile-13",
+            "pile-18",
+            "pile-2"
+          ],
+          "category": "plantes",
+          "hidden": true,
+          "id": "pile-7",
+          "layer": 1,
+          "position": {
+            "x": 0.235,
+            "y": 0.756
+          }
+        },
+        {
+          "asset": "cadre-chat",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-3",
+          "layer": 3,
+          "position": {
+            "x": 0.766,
+            "y": 0.367
+          }
+        },
+        {
+          "asset": "cadre-feuille",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "cadres",
+          "id": "pile-8",
+          "layer": 2,
+          "position": {
+            "x": 0.78,
+            "y": 0.31
+          }
+        },
+        {
+          "asset": "cadre-paysage",
+          "blockedBy": [
+            "pile-3",
+            "pile-8"
+          ],
+          "category": "cadres",
+          "id": "pile-11",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.255
+          }
+        },
+        {
+          "asset": "cloche-lumineuse",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-19",
+          "layer": 5,
+          "position": {
+            "x": 0.486,
+            "y": 0.896
+          }
+        },
+        {
+          "asset": "cloche-lumineuse",
+          "blockedBy": [
+            "pile-19"
+          ],
+          "category": "lumieres",
+          "id": "pile-20",
+          "layer": 4,
+          "position": {
+            "x": 0.493,
+            "y": 0.868
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-19",
+            "pile-20"
+          ],
+          "category": "livres",
+          "id": "pile-4",
+          "layer": 3,
+          "position": {
+            "x": 0.5,
+            "y": 0.833
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-19",
+            "pile-20",
+            "pile-4"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-9",
+          "layer": 2,
+          "position": {
+            "x": 0.507,
+            "y": 0.805
+          }
+        },
+        {
+          "asset": "livres-pile",
+          "blockedBy": [
+            "pile-19",
+            "pile-20",
+            "pile-4",
+            "pile-9"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-14",
+          "layer": 1,
+          "position": {
+            "x": 0.515,
+            "y": 0.752
+          }
+        },
+        {
+          "asset": "lampe-table",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-5",
+          "layer": 3,
+          "position": {
+            "x": 0.516,
+            "y": 0.244
+          }
+        },
+        {
+          "asset": "lanterne-maison",
+          "blockedBy": [
+            "pile-5"
+          ],
+          "category": "lumieres",
+          "id": "pile-10",
+          "layer": 2,
+          "position": {
+            "x": 0.5,
+            "y": 0.188
+          }
+        },
+        {
+          "asset": "lampe-table",
+          "blockedBy": [
+            "pile-5",
+            "pile-10"
+          ],
+          "category": "lumieres",
+          "id": "pile-15",
+          "layer": 1,
+          "position": {
+            "x": 0.486,
+            "y": 0.131
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 6,
+        "twoStarsMaxBuffered": 8
+      },
+      "seed": 48000,
+      "theme": "salon"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 20
+  },
+  "contentSha256": "e7717c47cb97360757bfe132d50e93aa6c29e905f4ec39a280866fc29ebb641b",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 20
+  },
+  "id": "level-cozy-room-sort-006-salon",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "006-salon",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "e7717c47cb97360757bfe132d50e93aa6c29e905f4ec39a280866fc29ebb641b",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/006-salon.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "006-salon — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/006-salon.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

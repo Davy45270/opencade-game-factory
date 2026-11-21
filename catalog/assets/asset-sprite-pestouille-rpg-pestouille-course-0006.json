@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:30:48.471244+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pestouille-course-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-course-a (empreinte 7d769197ed1c)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-course-a-0002",
+        "reason": "découpe brute de l'élément pestouille-course-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-course-a-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-course-a (empreinte 7d769197ed1c)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0be883c4b31ddcb83439a45efeb39150e9590e59546f45556054f10eda93d571",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille course a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pestouille-course-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-course-a (empreinte 7d769197ed1c)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-course-a-0002",
+          "reason": "découpe brute de l'élément pestouille-course-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-course-a-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-course-a (empreinte 7d769197ed1c)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pestouille-course-0001",
+        "asset-sprite-pestouille-course-a-0002",
+        "asset-sprite-pestouille-course-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:30:48.115673+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-course-a » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-course-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-course-0006.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-course-0006",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-course-a-0002"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-173.png, SHA-256 589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-course-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4e2715521873664c",
+    "phash": "9df0e68d33cc3832"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-course-a-0002",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-course-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [45, 43, 735, 40], \"cadre\": \"sprite-pestouille-course-a\", \"element\": \"pestouille-course-a\", \"empreintePixels\": \"7d769197ed1ccbeebb2cd4256ec1984102e48607c279d865eff62ce91940c223\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 43, \"w\": 45, \"x\": 735, \"y\": 40}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-course-a-0002",
+    "parentSha256": "68ee352dfed4f0e69ed490d25d99869fe00cb453b1c6dbd23c165b17cbac85ab",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:30:48.471244+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-course-a de assets/export/p02-pestouille.png (empreinte de pixels 7d769197ed1ccbee)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-course-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

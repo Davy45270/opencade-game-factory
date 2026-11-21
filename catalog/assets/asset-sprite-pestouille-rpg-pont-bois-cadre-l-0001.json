@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:15:23.641400+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pont-bois-0001",
+        "reason": "découpe brute de l'élément pont-bois : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "70b08bbde532d86a9bda7d93c894a58eadc13e9570f5fe508e923f39ec66ce66",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pont bois",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pont-bois-0001",
+          "reason": "découpe brute de l'élément pont-bois : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pont-bois-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:15:23.277826+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pont-bois » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément pont-bois",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pont-bois-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pont-bois-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-pont-bois"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pont-bois-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-31.png, SHA-256 f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-pont-bois"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pont-bois (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "8845b2b2b29605e0",
+    "phash": "94dd6a069170f4cf"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pont-bois-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pont-bois livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [46, 24, 855, 869], \"cadre\": \"sprite-pont-bois\", \"element\": \"pont-bois\", \"empreintePixels\": \"ca525974bc823bd186a8bc32e1a23b1708de7316be8a566ff782fccfdf622c94\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 24, \"w\": 46, \"x\": 855, \"y\": 869}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-pont-bois-0001",
+    "parentSha256": "85931e7c1d7548c2333e601a7dc6164264a8c0f3844f1cb5e95c77db94f504c9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:15:23.641400+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 194,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pont-bois de assets/export/e03-objets.png (empreinte de pixels ca525974bc823bd1)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pont-bois",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f7b9e7394e422403923f39c3083d0abac0605fa1f4e0cd08d5509a93562f7f45",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

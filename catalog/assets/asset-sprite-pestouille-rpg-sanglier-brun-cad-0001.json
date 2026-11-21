@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:29:41.179852+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-sanglier-brun-evo-0001",
+        "reason": "pixels différents du cadre livré sprite-sanglier-brun (empreinte 93051b8a6b02)"
+      },
+      {
+        "assetId": "asset-sprite-sanglier-brun-0001",
+        "reason": "découpe brute de l'élément sanglier-brun : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-sanglier-brun-evolue-0001",
+        "reason": "pixels différents du cadre livré sprite-sanglier-brun (empreinte 93051b8a6b02)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "42dc0b8b78129450f1616279beaaf2db559e78384ad6599cb1439cca5f11da93",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "sanglier brun",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-sanglier-brun-evo-0001",
+          "reason": "pixels différents du cadre livré sprite-sanglier-brun (empreinte 93051b8a6b02)"
+        },
+        {
+          "assetId": "asset-sprite-sanglier-brun-0001",
+          "reason": "découpe brute de l'élément sanglier-brun : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-sanglier-brun-evolue-0001",
+          "reason": "pixels différents du cadre livré sprite-sanglier-brun (empreinte 93051b8a6b02)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-sanglier-brun-evo-0001",
+        "asset-sprite-sanglier-brun-0001",
+        "asset-sprite-sanglier-brun-evolue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:29:40.830739+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-sanglier-brun » (assets/export/m02-creatures.png), forme normalisée par le jeu de l'élément sanglier-brun",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-sanglier-brun-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-sanglier-brun-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-sanglier-brun"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sanglier-brun-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-sanglier-brun"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg sanglier-brun (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "710e4bd5b5853717",
+    "phash": "e8833dd4d09be34c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-sanglier-brun-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sanglier-brun livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m02-creatures.png",
+      "recette {\"atlas\": \"assets/export/m02-creatures.png (png)\", \"boite\": [68, 55, 1497, 17], \"cadre\": \"sprite-sanglier-brun\", \"element\": \"sanglier-brun\", \"empreintePixels\": \"93051b8a6b02fc7c24f5ace2329cdb2d731a727ba3791eefb8a4d84dd8890e1b\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 55, \"w\": 68, \"x\": 1497, \"y\": 17}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-creatures.decoupe.json\", \"tableSha256\": \"b94f5bd22223f9f7289775a765bc51f6330227e2deae50c91a6fe3e5ed25c513\"}"
+    ],
+    "parentId": "asset-sprite-sanglier-brun-0001",
+    "parentSha256": "b9c182600723a5a01d50002ea3959240a087b8bc6461de4109dcb278ca191095",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-creatures.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:29:41.179852+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m02-creatures.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "assets/export/m02-creatures.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-sanglier-brun de assets/export/m02-creatures.png (empreinte de pixels 93051b8a6b02fc7c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-sanglier-brun",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m02-creatures.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3c2de2aec3f4796b537ee4925073d6df4c3385aa38e5588f347ac18841899176",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

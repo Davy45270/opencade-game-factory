@@ -9,7 +9,7 @@
   },
   "evidence": "verified",
   "id": "SPEC-SIX-DE-CHAQUE",
-  "implementation": "verified",
+  "implementation": "partial",
   "importOrigins": {
     "authority": "usine",
     "drive": [
@@ -47,7 +47,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/renderer-pixi/test/palette.test.ts > apps/web/public/art/glyphs.svg is generated from the art source",
+        "ref": "tests/assets-provenance.test.ts > every image in the repository comes from a generator in the repository",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E002",
@@ -739,7 +739,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/renderer-pixi/test/camera.test.ts > zoomAt keeps the focal point fixed",
+        "ref": "tests/e2e/wheel-drag.spec.ts > wheel zooms and drag pans the board",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E056",
@@ -790,13 +790,9 @@
       "statement": "un motif par couleur, en plus de la couleur"
     },
     {
-      "evidence": {
-        "ref": "packages/renderer-pixi/test/palette.test.ts > high contrast colours reach 4.5:1 against the tile background",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E060",
       "matrixId": "E060",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
@@ -843,7 +839,7 @@
     },
     {
       "evidence": {
-        "ref": "tests/e2e/turn.spec.ts > T22 start, place, cancel, validate, reload and resume",
+        "ref": "apps/web/test/play-history.test.ts > during play every public move stays listed beyond the twelfth",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E064",
@@ -855,13 +851,9 @@
       "statement": "historique des coups visible en partie"
     },
     {
-      "evidence": {
-        "ref": "tests/e2e/examples.spec.ts > replay is only reachable once the game is over",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E065",
       "matrixId": "E065",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
@@ -882,10 +874,8 @@
     },
     {
       "evidence": {
-        "ref": "tests/validate-bench.test.ts, it.each([108, 200]) : validateAction × 1000 on a 200-tile board",
-        "threshold": "< 10 ms visés par la spec ; mesure seulement",
-        "type": "mesure",
-        "value": "10,2 µs par validation (médiane de 15 × 1000, Xeon E5-2680 v2, Node 26)"
+        "ref": "tests/validate-bench.test.ts > validateAction median per single move stays under 10 ms, six-tile placements included",
+        "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E067",
       "matrixId": "E067",
@@ -957,26 +947,18 @@
       "statement": "aucune télémétrie"
     },
     {
-      "evidence": {
-        "ref": "packages/renderer-pixi/test/palette.test.ts > the six glyphs are the original set, never the commercial shapes",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E073",
       "matrixId": "E073",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
       "statement": "aucune copie de logo, habillage ni illustration du jeu du commerce"
     },
     {
-      "evidence": {
-        "ref": "tests/brand-guard.test.ts > public text has no commercial names or internal ticket identifiers",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E074",
       "matrixId": "E074",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/specifications/01-produit-et-regles.md.txt"
       },
@@ -1272,7 +1254,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/engine/test/validate-place.test.ts > non-integer and out-of-bounds coordinates are rejected",
+        "ref": "packages/engine/test/pass-and-generator.test.ts > a configured coordinate limit is enforced by validation and by the generator",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E097",
@@ -1337,7 +1319,7 @@
     },
     {
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > save then load returns the same session",
+        "ref": "apps/web/test/resume-app.test.ts > a validated turn is saved before it is shown",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E102",
@@ -1363,7 +1345,7 @@
     },
     {
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > migrates a published extended v1 save and its log to v2",
+        "ref": "apps/web/test/online-v1-saves.test.ts > every IndexedDB save produced by the online version loads and resumes in this version",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E104",
@@ -1376,7 +1358,7 @@
     },
     {
       "evidence": {
-        "ref": "apps/web/test/storage.test.ts > export then import round-trips",
+        "ref": "apps/web/test/export-schema.test.ts > every exported file validates against the save schema and carries only known snapshot fields",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E105",
@@ -1401,13 +1383,9 @@
       "statement": "rejeu au chargement avec vérification de l'empreinte finale"
     },
     {
-      "evidence": {
-        "ref": "packages/contracts/test/schemas.test.ts > snapshot with an extra field is rejected",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E107",
       "matrixId": "E107",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
       },
@@ -1436,13 +1414,9 @@
       "statement": "serveur réseau autoritaire"
     },
     {
-      "evidence": {
-        "ref": "packages/engine/test/replay.test.ts > duplicate actionId is rejected",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E110",
       "matrixId": "E110",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/implementation/01-architecture.md.txt"
       },
@@ -1936,7 +1910,7 @@
     },
     {
       "evidence": {
-        "ref": "packages/puzzles/test/puzzles.test.ts > unsolvable only after an exhaustive search",
+        "ref": "packages/puzzles/test/puzzles.test.ts > uniqueness is claimed only with an exhaustive search",
         "type": "test"
       },
       "id": "REQ-SIX-DE-CHAQUE-E149",
@@ -2608,13 +2582,9 @@
       "statement": "compatibilité navigateurs vérifiée en CI"
     },
     {
-      "evidence": {
-        "ref": "tests/brand-guard.test.ts > public text has no commercial names or internal ticket identifiers",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E200",
       "matrixId": "E200",
-      "matrixStatus": "faite",
+      "matrixStatus": "ecartee",
       "source": {
         "path": "specs/six-de-chaque-sources/tests/acceptance.md.txt"
       },
@@ -2832,13 +2802,9 @@
       "statement": "salons privés, classements, défis du jour"
     },
     {
-      "evidence": {
-        "ref": "packages/engine/test/validate-place.test.ts > placement validation reads O(k·L) cells",
-        "type": "test"
-      },
       "id": "REQ-SIX-DE-CHAQUE-E218",
       "matrixId": "E218",
-      "matrixStatus": "faite",
+      "matrixStatus": "a_faire",
       "source": {
         "path": "specs/six-de-chaque-sources/implementation/02-algorithmes.md.txt"
       },

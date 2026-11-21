@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:47:03.454214+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-lila-portrait-cad-0001",
+        "reason": "pixels différents du cadre livré sprite-lila-portrait (empreinte 166a6d291f55)"
+      },
+      {
+        "assetId": "asset-sprite-lila-portrait-0001",
+        "reason": "découpe brute de l'élément lila-portrait : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f8b0c7f397fe4a3717d436774cde6cec1c95db3ff344b08228b40ae56712e43d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lila portrait",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-lila-portrait-cad-0001",
+          "reason": "pixels différents du cadre livré sprite-lila-portrait (empreinte 166a6d291f55)"
+        },
+        {
+          "assetId": "asset-sprite-lila-portrait-0001",
+          "reason": "découpe brute de l'élément lila-portrait : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-lila-portrait-cad-0001",
+        "asset-sprite-lila-portrait-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:47:03.098471+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lila-portrait » (public/assets/e03-portraits.webp), forme normalisée par le jeu de l'élément lila-portrait",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lila-portrait-cad-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lila-portrait-cad-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-portraits.json · cadre sprite-lila-portrait"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lila-portrait-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-308.png, SHA-256 54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-portraits.json · cadre sprite-lila-portrait"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lila-portrait (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "96363333362b1939",
+    "phash": "b98582e634db4b9a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lila-portrait-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lila-portrait livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-portraits.webp",
+      "recette {\"atlas\": \"public/assets/e03-portraits.webp (webp)\", \"boite\": [137, 180, 618, 13], \"cadre\": \"sprite-lila-portrait\", \"element\": \"lila-portrait\", \"empreintePixels\": \"166a6d291f551960cd3d9d1b903b2922714dfad23c6c759e0fd328a0f74271fe\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 180, \"w\": 137, \"x\": 618, \"y\": 13}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"3a8bcd7711359f9dd441fb8f47ea6d98ca34eacd687bf53e2ee07fc7abf0ee1c\"}"
+    ],
+    "parentId": "asset-sprite-lila-portrait-0001",
+    "parentSha256": "5c2349737e4e371ba1c85f83d4713383278e33dee65f9e4bbce14086d68774f1",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:47:03.454214+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-portraits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/e03-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lila-portrait de public/assets/e03-portraits.webp (empreinte de pixels 166a6d291f551960)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lila-portrait",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "54e22d62479c04f808f68f23469e687eb0bf4bc2fc2d9a65bc4701d3716fdbc4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

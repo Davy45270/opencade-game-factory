@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:51:16.465119+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-commande-fuite-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-commande-fuite (empreinte 015826fa015c)"
+      },
+      {
+        "assetId": "asset-sprite-commande-fuite-0001",
+        "reason": "découpe brute de l'élément commande-fuite : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "67fa6860fb7ad672592068ea4455992fb7c2c2d0ed9f9c3650a3d780e31a24e6",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "commande fuite",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-commande-fuite-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-commande-fuite (empreinte 015826fa015c)"
+        },
+        {
+          "assetId": "asset-sprite-commande-fuite-0001",
+          "reason": "découpe brute de l'élément commande-fuite : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-commande-fuite-ca-0001",
+        "asset-sprite-commande-fuite-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:51:16.079890+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-commande-fuite » (public/assets/e04-icones.webp), forme normalisée par le jeu de l'élément commande-fuite",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-commande-fuite-ca-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-commande-fuite-ca-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-commande-fuite"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-commande-fuite-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-345.png, SHA-256 dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-commande-fuite"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg commande-fuite (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "6589733465922cc8",
+    "phash": "8cce6331a69cc94f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-commande-fuite-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-commande-fuite livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-icones.webp",
+      "recette {\"atlas\": \"public/assets/e04-icones.webp (webp)\", \"boite\": [24, 20, 347, 565], \"cadre\": \"sprite-commande-fuite\", \"element\": \"commande-fuite\", \"empreintePixels\": \"015826fa015ca6692484a8ac50c2562c986eab284cdb1a3ec449043d858e808c\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 20, \"w\": 24, \"x\": 347, \"y\": 565}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-commande-fuite-0001",
+    "parentSha256": "b8592bb8b6e26036ad6c4109862b7270886389e4c216f143bab5799747a887e1",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:51:16.465119+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "public/assets/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-commande-fuite de public/assets/e04-icones.webp (empreinte de pixels 015826fa015ca669)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-commande-fuite",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "dc78bc5141c5416b2d8a3f167c19c1ac1dcdc6c03737b5ade29f78624870f9a7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

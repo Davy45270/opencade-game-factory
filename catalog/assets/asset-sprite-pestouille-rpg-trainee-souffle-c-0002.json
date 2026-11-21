@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:05:23.238511+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-trainee-souffle-c-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-souffle (empreinte 612758a544d2)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-souffle-0001",
+        "reason": "découpe brute de l'élément trainee-souffle : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "acb68afac4427cf92f63cf38ccc77c03d5ce7e2988b8a2fdcbb15b7e813b1c93",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "trainee souffle",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-trainee-souffle-c-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-souffle (empreinte 612758a544d2)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-souffle-0001",
+          "reason": "découpe brute de l'élément trainee-souffle : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-trainee-souffle-c-0001",
+        "asset-sprite-trainee-souffle-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:05:22.852124+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-trainee-souffle » (public/assets/p02-pestouille.webp), forme normalisée par le jeu de l'élément trainee-souffle",
+  "dimensions": {
+    "height": 35,
+    "width": 57
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-trainee-souffle-c-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-trainee-souffle-c-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-pestouille.json · cadre sprite-trainee-souffle"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trainee-souffle-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-458.png, SHA-256 ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-pestouille.json · cadre sprite-trainee-souffle"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg trainee-souffle (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "492cfcdcf8ec7812",
+    "phash": "96b46bcac5351ac9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-trainee-souffle-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trainee-souffle livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/p02-pestouille.webp",
+      "recette {\"atlas\": \"public/assets/p02-pestouille.webp (webp)\", \"boite\": [53, 31, 801, 130], \"cadre\": \"sprite-trainee-souffle\", \"element\": \"trainee-souffle\", \"empreintePixels\": \"612758a544d25f5510ebc57c9a00eeacc3f57510a541c3b751d93ecc00aac60b\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 31, \"w\": 53, \"x\": 801, \"y\": 130}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-trainee-souffle-0001",
+    "parentSha256": "5949db0cb5dcc1bf00dc7beb41b7d10b688ee1888eefc94c955772f2ed90ceb2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:05:23.238511+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/p02-pestouille.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 154,
+        "path": "public/assets/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-trainee-souffle de public/assets/p02-pestouille.webp (empreinte de pixels 612758a544d25f55)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-trainee-souffle",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ccf06e2f613e25a4b970d53f157bf2f1641679e065f4f84ecd2d423926caebd5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

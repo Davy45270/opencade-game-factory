@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:50:19.812558+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pestouille-marche-0005",
+        "reason": "pixels différents du cadre livré sprite-pestouille-marche-e (empreinte 8c51b63fdbdb)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-marche-e-0001",
+        "reason": "découpe brute de l'élément pestouille-marche-e : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5641eb45c838ff4ee81415925d713ce37630e5fd6accd6708ae6e475c6104ebf",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille marche e",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pestouille-marche-0005",
+          "reason": "pixels différents du cadre livré sprite-pestouille-marche-e (empreinte 8c51b63fdbdb)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-marche-e-0001",
+          "reason": "découpe brute de l'élément pestouille-marche-e : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pestouille-marche-0005",
+        "asset-sprite-pestouille-marche-e-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:50:19.412482+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-marche-e » (public/assets/e04-heros.webp), forme normalisée par le jeu de l'élément pestouille-marche-e",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-marche-0014.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-marche-0014",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-heros.json · cadre sprite-pestouille-marche-e"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-marche-e-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-337.png, SHA-256 9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-heros.json · cadre sprite-pestouille-marche-e"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-marche-e (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4ea7993a98793b0e",
+    "phash": "bbc4e4932599d239"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-marche-e-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-marche-e livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-heros.webp",
+      "recette {\"atlas\": \"public/assets/e04-heros.webp (webp)\", \"boite\": [38, 35, 225, 213], \"cadre\": \"sprite-pestouille-marche-e\", \"element\": \"pestouille-marche-e\", \"empreintePixels\": \"8c51b63fdbdbcce1b1b418178af33aa057bfd9d8046353ca2c19af60bfb3a1e9\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 35, \"w\": 38, \"x\": 225, \"y\": 213}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-heros.decoupe.json\", \"tableSha256\": \"687055e22edef5a2df9f8d1aa4cdcd635b5251a5aa715ba53c64a5e0c72b4195\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-marche-e-0001",
+    "parentSha256": "1ed173d0f93808f12e795c2e821ad164361701ef2df1ebdc5678ca4e08965834",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:50:19.812558+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-heros.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 170,
+        "path": "public/assets/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-marche-e de public/assets/e04-heros.webp (empreinte de pixels 8c51b63fdbdbcce1)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-marche-e",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9b7841f7749c732433eba5789207a830ff665c986cca90f8325ee22c02631e19",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

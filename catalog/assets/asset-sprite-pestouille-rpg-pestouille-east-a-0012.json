@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:06:06.387984+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pestouille-east-a-0006",
+        "reason": "pixels différents du cadre livré sprite-pestouille-east-attack-f (empreinte 2fb812646f89)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-east-attack-f-0001",
+        "reason": "découpe brute de l'élément pestouille-east-attack-f : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "88e06974330f5b659b7c58db4464526b286304b649a67fe2f81d01b7b57283b4",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille east attack f",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pestouille-east-a-0006",
+          "reason": "pixels différents du cadre livré sprite-pestouille-east-attack-f (empreinte 2fb812646f89)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-east-attack-f-0001",
+          "reason": "découpe brute de l'élément pestouille-east-attack-f : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pestouille-east-a-0006",
+        "asset-sprite-pestouille-east-attack-f-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:06:06.000455+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-east-attack-f » (public/assets/pestouille-east.webp), forme normalisée par le jeu de l'élément pestouille-east-attack-f",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-east-a-0012.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-east-a-0012",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/pestouille-east.json · cadre sprite-pestouille-east-attack-f"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-east-attack-f-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-464.png, SHA-256 a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/pestouille-east.json · cadre sprite-pestouille-east-attack-f"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-east-attack-f (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "004ca69313193a0e",
+    "phash": "b9c4961b6c9932cd"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-east-attack-f-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-east-attack-f livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/pestouille-east.webp",
+      "recette {\"atlas\": \"public/assets/pestouille-east.webp (webp)\", \"boite\": [200, 185, 1534, 462], \"cadre\": \"sprite-pestouille-east-attack-f\", \"element\": \"pestouille-east-attack-f\", \"empreintePixels\": \"2fb812646f89e5dd080946450d7c9a571c536cd20c10c2f14bc96a17b97a53d2\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"noir-jpeg\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 133, \"w\": 144, \"x\": 1107, \"y\": 334}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-east.decoupe.json\", \"tableSha256\": \"5ef6050879185a379fbf9398a2607a882afddd76e12da474974df52ce957c299\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-east-attack-f-0001",
+    "parentSha256": "7579b82278cc38043bb8dc3f4b5c987b85876090cb6cdca96176a35af480f195",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-east.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:06:06.387984+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/pestouille-east.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "public/assets/pestouille-east.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-east-attack-f de public/assets/pestouille-east.webp (empreinte de pixels 2fb812646f89e5dd)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-east-attack-f",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/pestouille-east.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/pestouille-east.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a898bdd24d6f62985c63dd86e7886d5e555127949e587085052ddaca350a927d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

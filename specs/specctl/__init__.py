@@ -126,6 +126,8 @@ def parser():
 def import_records(store, source, dry_run, report=False):
     incoming, warnings = source.inventory()
     for spec_id, record in incoming.items():
+        for row in record["requirements"]:
+            row.pop("_previousMatrixId", None)          # suivi des renommages : sync seulement, jamais écrit
         check_record(spec_id, record)
 
     with store.lock(write=not dry_run):

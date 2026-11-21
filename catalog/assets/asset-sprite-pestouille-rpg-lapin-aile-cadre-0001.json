@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:29:08.586578+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lapin-aile-0001",
+        "reason": "découpe brute de l'élément lapin-aile : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9e03fc742f9717cb2bd7f79c8f08585ec7a6d112b3568283539ddc018337ee83",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lapin aile",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lapin-aile-0001",
+          "reason": "découpe brute de l'élément lapin-aile : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lapin-aile-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:29:08.219965+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lapin-aile » (assets/export/m02-creatures.png), forme normalisée par le jeu de l'élément lapin-aile",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lapin-aile-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lapin-aile-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-lapin-aile"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lapin-aile-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m02-creatures.json · cadre sprite-lapin-aile"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lapin-aile (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "a99796ea65d03009",
+    "phash": "80a1795e5e9da51e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lapin-aile-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lapin-aile livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m02-creatures.png",
+      "recette {\"atlas\": \"assets/export/m02-creatures.png (png)\", \"boite\": [65, 63, 1407, 100], \"cadre\": \"sprite-lapin-aile\", \"element\": \"lapin-aile\", \"empreintePixels\": \"dbe4cc218dde6108d88af25ecec1d64023413b004b2ab0d7c3c99409942727c5\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 63, \"w\": 65, \"x\": 1407, \"y\": 100}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-creatures.decoupe.json\", \"tableSha256\": \"b94f5bd22223f9f7289775a765bc51f6330227e2deae50c91a6fe3e5ed25c513\"}"
+    ],
+    "parentId": "asset-sprite-lapin-aile-0001",
+    "parentSha256": "088e1517ee120497755efa11ab32fd3f9f30c79bd0e9d270f2940536a0391813",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-creatures.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:29:08.586578+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m02-creatures.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "assets/export/m02-creatures.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lapin-aile de assets/export/m02-creatures.png (empreinte de pixels dbe4cc218dde6108)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lapin-aile",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m02-creatures.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2c7d85a1585d407c3cc2d72a70c5f30b534fb7f4be058333b3a132a524075682",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

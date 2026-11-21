@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/0f/0fff72e5a92b7b135dc15ff557f41eb4f545325c9a566ba7ae89af5572b01121.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "assets/export/e04-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mini-nox de assets/export/e04-portraits.png (empreinte de pixels 1cf07fa90eb991ef)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mini-nox",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-mini-nox-cadre-li-0001"
+  ],
   "version": 1,
   "versions": [
     {

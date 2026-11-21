@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:51:43.441605+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-competence-protec-0001",
+        "reason": "pixels différents du cadre livré sprite-competence-protection (empreinte ecc84c84c3bf)"
+      },
+      {
+        "assetId": "asset-sprite-competence-protection-0001",
+        "reason": "découpe brute de l'élément competence-protection : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d920942359687cca03bf2ee3a3c60697fb560263001a3c8a237d2c3ae2af26f7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "competence protection",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-competence-protec-0001",
+          "reason": "pixels différents du cadre livré sprite-competence-protection (empreinte ecc84c84c3bf)"
+        },
+        {
+          "assetId": "asset-sprite-competence-protection-0001",
+          "reason": "découpe brute de l'élément competence-protection : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-competence-protec-0001",
+        "asset-sprite-competence-protection-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:51:43.090805+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-competence-protection » (public/assets/e04-icones.webp), forme normalisée par le jeu de l'élément competence-protection",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-competence-protec-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-competence-protec-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-competence-protection"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-competence-protection-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-competence-protection"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg competence-protection (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "cc1b717054753312",
+    "phash": "cfb13062c7ce1639"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-competence-protection-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-competence-protection livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-icones.webp",
+      "recette {\"atlas\": \"public/assets/e04-icones.webp (webp)\", \"boite\": [35, 25, 540, 523], \"cadre\": \"sprite-competence-protection\", \"element\": \"competence-protection\", \"empreintePixels\": \"ecc84c84c3bfdf50ab6be6a14916b62f73744de88ad33b16045561118fec52cb\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 25, \"w\": 35, \"x\": 540, \"y\": 523}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-competence-protection-0001",
+    "parentSha256": "e9174ce3d7add0ce436547ec6551df85ba828058c5ef94cff38b6b8a6cce8df3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:51:43.441605+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "public/assets/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-competence-protection de public/assets/e04-icones.webp (empreinte de pixels ecc84c84c3bfdf50)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-competence-protection",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "cfbe0e764079ec5c4cea959259d7fba3ab91855c1062058292a81b5fbe067c7b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

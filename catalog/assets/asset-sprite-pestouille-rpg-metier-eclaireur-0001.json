@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:14:31.552992+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-metier-eclaireur-0001",
+        "reason": "découpe brute de l'élément metier-eclaireur : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8e69045edf39c8845ba0c8da2082a70df4b266e0aeb64d1ac39cfb3f43e0e9e9",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "metier eclaireur",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-metier-eclaireur-0001",
+          "reason": "découpe brute de l'élément metier-eclaireur : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-metier-eclaireur-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:14:31.182609+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-metier-eclaireur » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément metier-eclaireur",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-metier-eclaireur-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-metier-eclaireur-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-metier-eclaireur"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-metier-eclaireur-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-23.png, SHA-256 010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-metier-eclaireur"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg metier-eclaireur (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b21c39936d529769",
+    "phash": "fac29025ce69cb1e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-metier-eclaireur-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-metier-eclaireur livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [42, 33, 1310, 198], \"cadre\": \"sprite-metier-eclaireur\", \"element\": \"metier-eclaireur\", \"empreintePixels\": \"696325d174b67c5845326cb3fbc4f7f14a635f39008a08209568cb9f268888dc\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 33, \"w\": 42, \"x\": 1310, \"y\": 198}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-metier-eclaireur-0001",
+    "parentSha256": "723db7c48898b05572db1456f3711ec25d5c49d54cc8aea1c9595f6a3313c6a3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:14:31.552992+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 130,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-metier-eclaireur de assets/export/e03-objets.png (empreinte de pixels 696325d174b67c58)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-metier-eclaireur",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "010931eb93379ddb8cb0d428bce839b6c8a8f60dbdb8146bae560ab30ad27b97",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

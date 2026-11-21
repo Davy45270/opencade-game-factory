@@ -160,8 +160,40 @@
   ],
   "thumbnail": "thumbnails/0a/0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/m02-fonds.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/m02-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-campement de assets/export/m02-fonds.png (empreinte de pixels 8557a25b680115e6)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-campement",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m02-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m02-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-fond-campement-ca-0001"
+  ],
   "version": 1,
   "versions": [
     {

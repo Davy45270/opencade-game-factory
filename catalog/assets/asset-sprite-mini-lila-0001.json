@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/21/21195d06a2783e8f8b5e59ddb0d22c5069777711f6ed77c403378ea3cbf1c688.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/e04-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mini-lila de assets/export/e04-portraits.png (empreinte de pixels d0ade7e74dd83dec)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mini-lila",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-mini-lila-cadre-l-0001"
+  ],
   "version": 1,
   "versions": [
     {

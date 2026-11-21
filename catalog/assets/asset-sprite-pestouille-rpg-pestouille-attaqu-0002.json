@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:19:03.419892+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-attaque-b-0002",
+        "reason": "pixels différents du cadre livré sprite-pestouille-attaque-b (empreinte c93c7bbdcc09)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-attaque-b-0001",
+        "reason": "découpe brute de l'élément pestouille-attaque-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "61d552a07ac7cbbdbc83b1ebcd7276e2062b170961e23c76a582a016aeff4730",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille attaque b",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-attaque-b-0002",
+          "reason": "pixels différents du cadre livré sprite-pestouille-attaque-b (empreinte c93c7bbdcc09)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-attaque-b-0001",
+          "reason": "découpe brute de l'élément pestouille-attaque-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-attaque-b-0002",
+        "asset-sprite-pestouille-attaque-b-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:19:03.054075+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-attaque-b » (assets/export/e04-heros.png), forme normalisée par le jeu de l'élément pestouille-attaque-b",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-attaqu-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-attaqu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-pestouille-attaque-b"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-attaque-b-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-65.png, SHA-256 161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-pestouille-attaque-b"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-attaque-b (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4ca7193ab879730e",
+    "phash": "bbc0e59b344dd234"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-attaque-b-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-attaque-b livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-heros.png",
+      "recette {\"atlas\": \"assets/export/e04-heros.png (png)\", \"boite\": [42, 38, 80, 299], \"cadre\": \"sprite-pestouille-attaque-b\", \"element\": \"pestouille-attaque-b\", \"empreintePixels\": \"c93c7bbdcc0924659aa26ef587e2b2ae982521d380cb1dc95f6d8db48219e726\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 38, \"w\": 42, \"x\": 80, \"y\": 299}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-heros.decoupe.json\", \"tableSha256\": \"687055e22edef5a2df9f8d1aa4cdcd635b5251a5aa715ba53c64a5e0c72b4195\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-attaque-b-0001",
+    "parentSha256": "3d4e167ecf1fa3f0c91319675001892327e4bc47e81e2a310630db602a72eb98",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:19:03.419892+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-heros.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "assets/export/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-attaque-b de assets/export/e04-heros.png (empreinte de pixels c93c7bbdcc092465)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-b",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "161d6202497a61925bcc3a4c01db824e1c8d95ae977f8d7e8f32e9933b9fdb31",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

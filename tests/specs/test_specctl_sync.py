@@ -18,7 +18,7 @@ from ._outil import Docs
 DRIVE = "1AbCdEfGhIjKlMnOpQrStUvWxYz012345"
 
 
-class Sync(unittest.TestCase):
+class BaseSync(unittest.TestCase):
     def setUp(self) -> None:
         self.d = Docs()
         self.assertEqual(self.d.specctl("import", "--from", str(self.d.docs), "--json").rc, 0)
@@ -37,6 +37,9 @@ class Sync(unittest.TestCase):
 
     def exigences(self) -> dict:
         return {r["id"]: r for r in self.d.registre()["SPEC-JEU-A"]["requirements"]}
+
+
+class Sync(BaseSync):
 
     def test_statut_et_preuve_recopies_si_enonce_identique(self) -> None:
         r = self.d.specctl("sync", "--from", str(self.d.docs), "--json")
@@ -91,6 +94,52 @@ class Sync(unittest.TestCase):
         self.d.specctl("sync", "--from", str(self.d.docs), "--json")
         lignes = (self.d.usine / "specs" / "registry" / "journal.jsonl").read_text().splitlines()
         self.assertEqual(json.loads(lignes[-1])["command"], "sync")
+
+
+class SyncSuitLesRenommages(BaseSync):
+    """21/11 (HL-525 7-3200) : une matrice qui renomme ses lignes (E### → E-<table>-<élément>, `ancien_id`) ou décale
+    ses identifiants ne fait pas « disparaître » des exigences : sync les retrouve par `ancien_id` à énoncé égal, puis
+    par énoncé identique et unique ; l'avancement suit, l'identifiant du registre ne change pas."""
+
+    def renommer(self, lignes) -> None:
+        m = self.d.docs / "specs" / "jeu-a-conformite.json"
+        mat = json.loads(m.read_text())
+        mat["exigences"] = lignes(mat["exigences"])
+        m.write_text(json.dumps(mat, ensure_ascii=False))
+        self.d.commit("matrice renommée")
+
+    def test_ancien_id_suivi_pas_de_disparition_ni_d_ajout(self) -> None:
+        def f(ex):
+            ex[1] = ex[1] | {"id": "E-p01-fin", "ancien_id": "E002"}
+            return ex
+        self.renommer(f)
+        r = self.d.specctl("sync", "--from", str(self.d.docs), "--json")
+        self.assertEqual(r.rc, 0, r)
+        self.assertEqual(r.json["missingFromMatrix"], [])
+        self.assertEqual(r.json["renamed"], [{"id": "REQ-JEU-A-E002", "matrixId": "E-p01-fin", "by": "ancien_id"}])
+        e = self.exigences()
+        self.assertNotIn("REQ-JEU-A-E-P01-FIN", e)
+        self.assertEqual((e["REQ-JEU-A-E002"]["matrixStatus"], e["REQ-JEU-A-E002"]["matrixId"]), ("faite", "E002"))
+
+    def test_identifiant_decale_retrouve_par_enonce(self) -> None:
+        def f(ex):
+            ex[1] = ex[1] | {"id": "E009"}                                      # même énoncé, autre identifiant
+            return ex
+        self.renommer(f)
+        r = self.d.specctl("sync", "--from", str(self.d.docs), "--json")
+        self.assertEqual(r.json["missingFromMatrix"], [])
+        self.assertEqual(r.json["renamed"], [{"id": "REQ-JEU-A-E002", "matrixId": "E009", "by": "statement"}])
+        self.assertEqual(self.exigences()["REQ-JEU-A-E002"]["matrixStatus"], "faite")
+
+    def test_ancien_id_a_enonce_different_non_suivi(self) -> None:
+        def f(ex):
+            ex[1] = ex[1] | {"id": "E-p01-fin", "ancien_id": "E002"}
+            ex[1]["source"] = ex[1]["source"] | {"extrait": "Autre chose."}
+            return ex
+        self.renommer(f)
+        r = self.d.specctl("sync", "--from", str(self.d.docs), "--json")
+        self.assertEqual(r.json["missingFromMatrix"], ["REQ-JEU-A-E002"])
+        self.assertEqual(r.json["renamed"], [])
 
 
 class InscrireDrive(unittest.TestCase):

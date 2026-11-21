@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:00:27.085252+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-champignon-mignon-0001",
+        "reason": "pixels différents du cadre livré sprite-champignon-mignon-evolue (empreinte c1bafa8fe99c)"
+      },
+      {
+        "assetId": "asset-sprite-champignon-mignon-evolue-0001",
+        "reason": "découpe brute de l'élément champignon-mignon-evolue : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1df07fbe91d78a9402ba4b4330380c349fb93d3134738823ed145e0894215903",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "champignon mignon evolue",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-champignon-mignon-0001",
+          "reason": "pixels différents du cadre livré sprite-champignon-mignon-evolue (empreinte c1bafa8fe99c)"
+        },
+        {
+          "assetId": "asset-sprite-champignon-mignon-evolue-0001",
+          "reason": "découpe brute de l'élément champignon-mignon-evolue : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-champignon-mignon-0001",
+        "asset-sprite-champignon-mignon-evolue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:00:26.721563+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-champignon-mignon-evolue » (public/assets/m02-creatures.webp), forme normalisée par le jeu de l'élément champignon-mignon-evolue",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-champignon-mignon-0003.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-champignon-mignon-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-creatures.json · cadre sprite-champignon-mignon-evolue"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-champignon-mignon-evolue-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-425.png, SHA-256 5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-creatures.json · cadre sprite-champignon-mignon-evolue"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg champignon-mignon-evolue (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "8e27519c2361713b",
+    "phash": "ceb1a58e30d1c34f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-champignon-mignon-evolue-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-champignon-mignon-evolue livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m02-creatures.webp",
+      "recette {\"atlas\": \"public/assets/m02-creatures.webp (webp)\", \"boite\": [73, 65, 1320, 98], \"cadre\": \"sprite-champignon-mignon-evolue\", \"element\": \"champignon-mignon-evolue\", \"empreintePixels\": \"c1bafa8fe99c27d3ff33acf51cc33d1efac3166f14a8eecb224f287e8f16bb60\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 65, \"w\": 73, \"x\": 1320, \"y\": 98}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-creatures.decoupe.json\", \"tableSha256\": \"b94f5bd22223f9f7289775a765bc51f6330227e2deae50c91a6fe3e5ed25c513\"}"
+    ],
+    "parentId": "asset-sprite-champignon-mignon-evolue-0001",
+    "parentSha256": "922bd401e17144a1caaf90efd05d0440b6082f703b595983a4da691d09afd015",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-creatures.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:00:27.085252+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m02-creatures.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/m02-creatures.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-champignon-mignon-evolue de public/assets/m02-creatures.webp (empreinte de pixels c1bafa8fe99c27d3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-champignon-mignon-evolue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m02-creatures.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m02-creatures.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5ea8765bd522a4e85a672994c9871ee9c611b8a0a3c33288e8d964cc46ddf065",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

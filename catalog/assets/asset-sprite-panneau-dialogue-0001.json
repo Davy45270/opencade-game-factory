@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/46/46cdc7d1632b413b30d7b9e2d69f6e051d906baf5a394bd711241e2ea84baace.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "assets/export/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-panneau-dialogue de assets/export/m01-fonds.png (empreinte de pixels 0c4c61d3749e6482)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-panneau-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-panneau-dialogue-0001"
+  ],
   "version": 1,
   "versions": [
     {

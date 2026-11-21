@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:13:26.443031+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-cristal-socle-cad-0001",
+        "reason": "pixels différents du cadre livré sprite-cristal (empreinte 844ee343ec96)"
+      },
+      {
+        "assetId": "asset-sprite-cristal-0001",
+        "reason": "découpe brute de l'élément cristal : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-cristal-socle-0001",
+        "reason": "pixels différents du cadre livré sprite-cristal (empreinte 844ee343ec96)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "10a97c6b86c61b91987e964d868f852fc5fa53966d36f89084912459146edcc1",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "cristal",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-cristal-socle-cad-0001",
+          "reason": "pixels différents du cadre livré sprite-cristal (empreinte 844ee343ec96)"
+        },
+        {
+          "assetId": "asset-sprite-cristal-0001",
+          "reason": "découpe brute de l'élément cristal : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-cristal-socle-0001",
+          "reason": "pixels différents du cadre livré sprite-cristal (empreinte 844ee343ec96)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-cristal-socle-cad-0001",
+        "asset-sprite-cristal-0001",
+        "asset-sprite-cristal-socle-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:13:26.028327+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-cristal » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément cristal",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-cristal-cadre-liv-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-cristal-cadre-liv-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-cristal"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cristal-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-13.png, SHA-256 c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-cristal"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg cristal (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "963361733396f457",
+    "phash": "cc4c32b13bc3639e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-cristal-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cristal livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [43, 49, 551, 831], \"cadre\": \"sprite-cristal\", \"element\": \"cristal\", \"empreintePixels\": \"844ee343ec96df2e6a7303d7db4260d275e408e873606b80a70bb9ea153b7ced\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 49, \"w\": 43, \"x\": 551, \"y\": 831}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-cristal-0001",
+    "parentSha256": "1d1925d5a8d39621a16a0f17f1dd1b6546468dde1d124f7de3f9897ad0661ba3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:13:26.443031+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 50,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-cristal de assets/export/e03-objets.png (empreinte de pixels 844ee343ec96df2e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-cristal",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c558716edff4840258833f9f28504b4ddf84411ef3b63eb8aa33d5895c5686d9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

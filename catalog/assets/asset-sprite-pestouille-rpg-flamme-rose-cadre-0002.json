@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:52:18.183475+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-flamme-rose-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-flamme-rose (empreinte 65d831c21c81)"
+      },
+      {
+        "assetId": "asset-sprite-flamme-rose-0001",
+        "reason": "découpe brute de l'élément flamme-rose : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cf34d253198636db2f0ce271422eb097b0fa840b74a7f919c6bdd0b9ab1e8451",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "flamme rose",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-flamme-rose-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-flamme-rose (empreinte 65d831c21c81)"
+        },
+        {
+          "assetId": "asset-sprite-flamme-rose-0001",
+          "reason": "découpe brute de l'élément flamme-rose : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-flamme-rose-cadre-0001",
+        "asset-sprite-flamme-rose-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:52:17.815058+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-flamme-rose » (public/assets/e04-icones.webp), forme normalisée par le jeu de l'élément flamme-rose",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-flamme-rose-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-flamme-rose-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-flamme-rose"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-flamme-rose-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-354.png, SHA-256 57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-icones.json · cadre sprite-flamme-rose"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg flamme-rose (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "5a32f2f1f0f0f132",
+    "phash": "c8393dd266cb349c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-flamme-rose-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-flamme-rose livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-icones.webp",
+      "recette {\"atlas\": \"public/assets/e04-icones.webp (webp)\", \"boite\": [36, 46, 1582, 63], \"cadre\": \"sprite-flamme-rose\", \"element\": \"flamme-rose\", \"empreintePixels\": \"65d831c21c81ad3c48f7234461b30463a94456c5f8a0e347523edaeedcb12fef\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 36, \"x\": 1582, \"y\": 63}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-flamme-rose-0001",
+    "parentSha256": "ce75d27380e63492953b124edee4d2f8abfc7d80e5132e3c0266fafcd0bccd53",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:52:18.183475+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "public/assets/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-flamme-rose de public/assets/e04-icones.webp (empreinte de pixels 65d831c21c81ad3c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-flamme-rose",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "57b021ad94d67b0131134632a203b7d123db5ec19d4ccadda03954725aa9282d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

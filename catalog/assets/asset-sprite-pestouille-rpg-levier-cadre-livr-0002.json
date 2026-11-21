@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:43:38.908016+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-levier-cadre-livr-0001",
+        "reason": "pixels différents du cadre livré sprite-levier (empreinte 26caa651c963)"
+      },
+      {
+        "assetId": "asset-sprite-levier-0001",
+        "reason": "découpe brute de l'élément levier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "47638bd870ef2051c8fe357d6d6bce2874674c3812a2193efbcb411752a0c432",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "levier",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-levier-cadre-livr-0001",
+          "reason": "pixels différents du cadre livré sprite-levier (empreinte 26caa651c963)"
+        },
+        {
+          "assetId": "asset-sprite-levier-0001",
+          "reason": "découpe brute de l'élément levier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-levier-cadre-livr-0001",
+        "asset-sprite-levier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:43:38.533152+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-levier » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément levier",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-levier-cadre-livr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-levier-cadre-livr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-levier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-levier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-278.png, SHA-256 fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-levier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg levier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "1515ab524488d91b",
+    "phash": "ca6c5ad62d99b14a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-levier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-levier livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [40, 40, 642, 831], \"cadre\": \"sprite-levier\", \"element\": \"levier\", \"empreintePixels\": \"26caa651c963043025b45e007b9b65b78bf62f4253f9ecc2a871efd9a1a8af13\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 40, \"x\": 642, \"y\": 831}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-levier-0001",
+    "parentSha256": "95c6d9b9185466c802f0743720c6334d513e17ee8dc1c7d93abf8819f1bb39b5",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:43:38.908016+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-levier de public/assets/e03-objets.webp (empreinte de pixels 26caa651c9630430)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-levier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fab5aa02731817ff1a5aa1a0c5fde66748e7cb05b9f8ed260b4b5412f17ca480",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

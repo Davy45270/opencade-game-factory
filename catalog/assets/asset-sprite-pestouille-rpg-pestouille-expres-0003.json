@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:31:40.754509+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-expression-joie-0001",
+        "reason": "découpe brute de l'élément pestouille-expression-joie : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cb1e83f931ea225e502c71f1fafded28a33de49dc5ddddaf6acebeaa57b78ba4",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille expression joie",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-expression-joie-0001",
+          "reason": "découpe brute de l'élément pestouille-expression-joie : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-expression-joie-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:31:40.405984+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-expression-joie » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-expression-joie",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-expres-0003.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-expres-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-expression-joie-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-expression-joie (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "cf4d79496a6471f2",
+    "phash": "cf73c8e4f1189499"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-expression-joie-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-expression-joie livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [65, 65, 1320, 40], \"cadre\": \"sprite-pestouille-expression-joie\", \"element\": \"pestouille-expression-joie\", \"empreintePixels\": \"c3d273ddd652ef673443e210a787c1a703c6a1c1a1f4de5bb57c14e66b07b3a3\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 65, \"w\": 65, \"x\": 1320, \"y\": 40}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-expression-joie-0001",
+    "parentSha256": "1bab583f1b31091befc5e82c9ea09f0a928885894f1907bae3d72a5dadc93d74",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:31:40.754509+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-expression-joie de assets/export/p02-pestouille.png (empreinte de pixels c3d273ddd652ef67)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-joie",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

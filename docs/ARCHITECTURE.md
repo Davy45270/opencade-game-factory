@@ -479,6 +479,11 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   complète par le pilote de démonstration du jeu (`controller`) avec son moteur (`Engine`) : `pass` si les trois
   tours sont bouclés. Les sources TypeScript se chargent sans écran par `tools/levels/engines/ts-resolve.mjs`
   (imports sans extension, transpilation par le `rolldown` du jeu).
+- Plateforme native d'un jeu (Ferraille d'Opencade : séquence de modules, structure, ennemis, arme, format
+  `game-platformer`) : même contrat. `tools/levels/engines/ferraille-export.mjs` exporte les 30 niveaux (séquences
+  complétées par le catalogue de niveaux du jeu) ; `tools/levels/engines/ferraille.mjs` remet le niveau à son rang
+  et le fait jouer par le pilote du jeu (`pilot`, commandes ordinaires) : `pass` si le pilote gagne. Le départ
+  d'un niveau natif est placé par le jeu : la gate commune `spawn` ne s'y applique pas.
 - `generate --genre dungeon --seed N` : découpage BSP avec un PRNG mulberry32 sérialisable, sans horloge ; seed +
   version + contraintes donnent la même sortie à l'octet. **ADR** : l'algorithme BSP est l'algorithme standard de
   ROT.js et libtcod ; ces bibliothèques sont en JavaScript et en C, le registre est en Python : il est repris tel
@@ -504,5 +509,7 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   Room Sort jugés par le moteur et le solveur du jeu, `node tools/validate-levels.ts` : tous `pass` ; ses 10 niveaux
   de test volontairement défectueux sont tous rejetés par ce même moteur) et
   `generated/reports/levels/derapage-validation.json` (30 circuits de Dérapage au commit 172156a, tous bouclés par
-  le moteur du jeu ; deux circuits cassés — deux points, tracé aplati — sont rejetés). Ils se refont avec
+  le moteur du jeu ; deux circuits cassés — deux points, tracé aplati — sont rejetés),
+  `generated/reports/levels/ferraille-validation.json` (30 niveaux de Ferraille, tous gagnés par le pilote du jeu ;
+  la mutation huit blindés + boss réacteur est rejetée, le moteur tolère en revanche un module inconnu). Ils se refont avec
   `level discover` puis `level validate`.

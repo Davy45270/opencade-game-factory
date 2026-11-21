@@ -65,8 +65,9 @@ def common(record, level, known_assets=None):
     for layer in level["layers"]:
         if layer["type"] == "tiles" and len(layer["data"]) != layer["width"] * layer["height"]:
             diagnostics.append(_diag("layer-size", f"couche {layer['name']} : taille incohérente"))
+    # Un niveau natif de jeu (graphe de monde, plateforme de Ferraille) place son départ selon les règles du jeu.
     spawns = [e for e in sem["entities"] if e["type"] in SPAWNS]
-    if record["kind"] in {"rpg", "dungeon", "platformer"} and not spawns and "graph" not in level:
+    if record["kind"] in {"rpg", "dungeon", "platformer"} and not spawns and not {"graph", "platformer"} & set(level):
         diagnostics.append(_diag("spawn-missing", "aucun point d'apparition (spawn)"))
     for spawn in spawns:
         if _cells(spawn) & sem["solid"]:
@@ -373,6 +374,8 @@ def _jump(start, vx, vy0, params, solid, landing, stands, hazards, width, height
 
 
 def platformer(level, profile=None, budget=None):
+    if "platformer" in level:
+        return game_engine(level, profile, "platformer")
     sem = semantics(level)
     params = {**PLATFORM_DEFAULTS, **((profile or {}).get("platformer") or {})}
     margin = 1 - float(params.get("margin", 0))

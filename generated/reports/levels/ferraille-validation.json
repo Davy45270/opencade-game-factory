@@ -1,0 +1,303 @@
+{
+  "engine": "tools/levels/engines/ferraille.mjs : moteur Engine + pilote pilot du jeu (commandes ordinaires), sans écran",
+  "engineCommit": "172156af3849e6061e3706166a991c77cf95528a",
+  "export": "tools/levels/engines/ferraille-export.mjs",
+  "game": "opencade (Ferraille)",
+  "levels": 30,
+  "mutations": [
+    {
+      "exitCode": 1,
+      "mutation": "armure-boss",
+      "verdict": "ÉCHEC armure-boss : pilote vaincu"
+    },
+    {
+      "exitCode": 0,
+      "mutation": "lave-partout",
+      "verdict": "OK lave-partout gagné en 1745 images, 3 vie(s) restante(s)"
+    },
+    {
+      "exitCode": 0,
+      "mutation": "module-inconnu",
+      "verdict": "OK module-inconnu gagné en 337 images, 3 vie(s) restante(s)"
+    },
+    {
+      "exitCode": 0,
+      "mutation": "pistons",
+      "verdict": "OK pistons gagné en 2800 images, 3 vie(s) restante(s)"
+    }
+  ],
+  "note": "Le moteur du jeu tolère un module inconnu et une séquence de lave ou de pistons : son verdict fait foi ; seule la mutation armure + boss est rejetée.",
+  "pass": 30,
+  "results": [
+    {
+      "engineVerdict": "OK Forteresse oubliée gagné en 958 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-forteresse-oubli-e",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-05.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Jungle mécanique gagné en 897 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-jungle-m-canique",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-13.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK L’entrepôt empilé gagné en 949 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-l-entrep-t-empil",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-26.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La cache des bambous gagné en 966 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-cache-des-bambous",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-10.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La cour des caisses gagné en 953 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-cour-des-caisses",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-08.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La cuve de Tenaille gagné en 1461 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-cuve-de-tenaille",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-24.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La dune contraire gagné en 1007 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-dune-contraire",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-07.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La passerelle suspendue gagné en 1152 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-passerelle-suspendue",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-12.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La réserve cachée gagné en 844 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-r-serve-cach-e",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-21.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La rafale de la Faucheuse gagné en 1217 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-rafale-de-la-faucheuse",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-19.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La serrure du réacteur gagné en 1000 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-serrure-du-r-acteur",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-28.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK La vanne de l’Éventreur gagné en 1840 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-la-vanne-de-l-ventreur",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-04.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le conduit des sentinelles gagné en 506 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-conduit-des-sentinelles",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-16.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le dernier projecteur gagné en 2206 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-dernier-projecteur",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-29.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le monte-charge nocturne gagné en 1003 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-monte-charge-nocturne",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-18.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le pont fragile gagné en 1207 images, 1 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-pont-fragile",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-02.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le quai roulant gagné en 854 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-quai-roulant",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-00.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le rail bifurqué gagné en 426 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-rail-bifurqu",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-11.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le rebond des étoiles gagné en 421 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-rebond-des-toiles",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-27.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le refuge des dunes gagné en 916 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-refuge-des-dunes",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-25.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le rythme des presses gagné en 1022 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-rythme-des-presses",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-20.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Le tremplin du Pilon gagné en 1513 images, 1 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-le-tremplin-du-pilon",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-09.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les cabanes prisonnières gagné en 1091 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-cabanes-prisonni-res",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-17.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les chaînes du rempart gagné en 1078 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-cha-nes-du-rempart",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-06.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les chaînes du Scarabombe gagné en 1969 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-cha-nes-du-scarabombe",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-14.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les faisceaux de nuit gagné en 881 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-faisceaux-de-nuit",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-15.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les presses patientes gagné en 1159 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-presses-patientes",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-01.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Les rails de livraison gagné en 424 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-les-rails-de-livraison",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-22.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Sous les conduites gagné en 1381 images, 2 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-sous-les-conduites",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-03.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK Usine infernale gagné en 1004 images, 3 vie(s) restante(s)",
+      "exitCode": 0,
+      "id": "level-opencade-ferraille-usine-infernale",
+      "licenseStatus": "verified",
+      "sourcePath": "ferraille/ferraille-23.json",
+      "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/Opencade.git@172156af3849e6061e3706166a991c77cf95528a:src/engines/ferraille/levels.ts",
+      "status": "pass"
+    }
+  ]
+}

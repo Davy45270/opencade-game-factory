@@ -1,0 +1,38 @@
+{
+ "ferraille": 29,
+ "openingEnemy": {
+  "kind": "turret",
+  "x": 108,
+  "y": 242,
+  "w": 14,
+  "h": 14,
+  "vx": 0,
+  "vy": 0,
+  "hp": 1,
+  "clock": 0,
+  "originY": 242,
+  "phase": 0,
+  "aim": 3.141592653589793,
+  "opening": true
+ },
+ "star": "spotlight",
+ "sequence": [
+  "spotlight",
+  "crate",
+  "gate",
+  "lava",
+  "secret"
+ ],
+ "name": "Le dernier projecteur",
+ "theme": "night",
+ "structure": "arena",
+ "enemies": [
+  "armored",
+  "drone",
+  "kamikaze"
+ ],
+ "weapon": "grenade",
+ "discovery": "Le dernier projecteur · Projecteur",
+ "recovery": false,
+ "boss": "reactor"
+}

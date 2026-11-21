@@ -11,11 +11,12 @@ from tools.asset_versions import version_number
 N = 32
 MAX_DISTANCE = 8
 # Règle de statut d'une paire similaire (HL-538, P0-08 : jamais de fusion automatique) : écart moyen par pixel,
-# images composées sur gris moyen et ramenées à 64 × 64. Plafond du bruit mesuré sur 400 rééchantillonnages
-# (±10 %) d'une même image du registre : 5,97 / 255. Au-dessus : « distinct », deux dessins différents. En dessous :
-# la paire reste « needs-review » (même image à la précision du rééchantillonnage) : à décider, jamais fusionnée.
+# images composées sur gris moyen et réduites à 64 × 64 par moyenne d'aire (numpy pur, identique d'une machine à
+# l'autre). Plafond du bruit mesuré sur 400 rééchantillonnages (±10 %) d'une même image du registre : 6,73 / 255.
+# Au-dessus : « distinct », deux dessins différents. En dessous : même image à la précision du rééchantillonnage ;
+# la paire reste « needs-review » tant qu'elle n'est pas liée en variante (`linked-variant`).
 PIXEL_SIZE = 64
-PIXEL_NOISE = 6.0
+PIXEL_NOISE = 6.8
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
 _DCT[0] /= np.sqrt(2)
 _DCT *= np.sqrt(2 / N)
@@ -69,6 +70,22 @@ def _similar(images):
                        "dhashDistance": (dhash_a ^ dhash_b).bit_count(), "status": "needs-review"}
 
 
+def _weights(length, size):
+    """Poids de recouvrement exact (aire) entre `length` pixels source et `size` cases cible."""
+    edges = np.arange(size + 1) * (length / size)
+    starts, ends = np.arange(length), np.arange(1, length + 1)
+    overlap = np.clip(np.minimum(ends[None, :], edges[1:, None]) - np.maximum(starts[None, :], edges[:-1, None]), 0, None)
+    return overlap / (length / size)
+
+
+def _box(array, size):
+    """Réduction par moyenne d'aire en numpy pur : même résultat d'une machine à l'autre (le rééchantillonnage de
+    Pillow varie selon sa version et rendait generated/duplicates.json dépendant de l'environnement)."""
+    rows, cols = _weights(array.shape[0], size), _weights(array.shape[1], size)
+    data = array.astype(np.float64)
+    return np.stack([rows @ data[..., c] @ cols.T for c in range(data.shape[2])], axis=-1)
+
+
 def _pixels(root, asset):
     local = asset.get("files", {}).get("registry")
     if not root or not local:
@@ -78,10 +95,10 @@ def _pixels(root, asset):
         image.load()
     except (OSError, ValueError):
         return None
-    rgba = image.convert("RGBA")
-    background = Image.new("RGBA", rgba.size, (128, 128, 128, 255))
-    flat = Image.alpha_composite(background, rgba).convert("RGB")
-    return np.asarray(flat.resize((PIXEL_SIZE, PIXEL_SIZE), Image.Resampling.LANCZOS), dtype=np.int16)
+    rgba = np.asarray(image.convert("RGBA"), dtype=np.int64)
+    alpha = rgba[..., 3:4]
+    flat = (rgba[..., :3] * alpha + 128 * (255 - alpha)) / 255
+    return _box(flat, PIXEL_SIZE)
 
 
 def rule(pair, assets_by_id, root, cache):

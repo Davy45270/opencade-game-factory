@@ -146,9 +146,46 @@ def register(root, args):
         return save_asset(root, ids, asset, raw, args.dry_run)
 
 
+def detour(image, options):
+    """Détourage sans interface (spec P0-09) : rend transparent le fond uni RELIÉ AU BORD, et lui seul.
+
+    Le fond est la couleur des quatre coins ; s'ils ne s'accordent pas à `tolerance` près, rien n'est deviné :
+    la recette est refusée. Un pixel de même couleur enfermé dans le sujet n'est pas touché."""
+    import numpy as np
+
+    if (not isinstance(options, dict) or set(options) != {"tolerance"} or type(options["tolerance"]) is not int
+            or not 0 <= options["tolerance"] <= 255):
+        raise InvalidJSON("detour exige {\"tolerance\": entier de 0 à 255}.")
+    tolerance = options["tolerance"]
+    rgba = np.array(image.convert("RGBA"), dtype=np.int16)
+    corners = rgba[[0, 0, -1, -1], [0, -1, 0, -1], :3]
+    if int((corners.max(axis=0) - corners.min(axis=0)).max()) > tolerance:
+        raise InvalidJSON("detour : les quatre coins ne partagent pas une couleur de fond ; rien n'est deviné.")
+    background = corners[0]
+    candidate = (np.abs(rgba[..., :3] - background).max(axis=2) <= tolerance) & (rgba[..., 3] > 0)
+    reached = np.zeros_like(candidate)
+    reached[0, :], reached[-1, :], reached[:, 0], reached[:, -1] = (
+        candidate[0, :], candidate[-1, :], candidate[:, 0], candidate[:, -1])
+    while True:
+        grown = reached.copy()
+        grown[1:, :] |= reached[:-1, :]
+        grown[:-1, :] |= reached[1:, :]
+        grown[:, 1:] |= reached[:, :-1]
+        grown[:, :-1] |= reached[:, 1:]
+        grown &= candidate
+        if (grown == reached).all():
+            break
+        reached = grown
+    rgba[reached, 3] = 0
+    return Image.fromarray(rgba.astype(np.uint8), "RGBA")
+
+
 def transform(image, recipe):
-    if not isinstance(recipe, dict) or not recipe or set(recipe) - {"crop", "mirror", "resize", "tint"}:
-        raise InvalidJSON("Recette attendue avec crop, mirror, resize ou tint.")
+    if (not isinstance(recipe, dict) or not recipe
+            or set(recipe) - {"detour", "crop", "mirror", "resize", "tint"}):
+        raise InvalidJSON("Recette attendue avec detour, crop, mirror, resize ou tint.")
+    if "detour" in recipe:
+        image = detour(image, recipe["detour"])
     if "crop" in recipe:
         box = recipe["crop"]
         if (not isinstance(box, dict) or set(box) != {"x", "y", "w", "h"}

@@ -216,6 +216,40 @@ class CatalogueValidation:
             self.issue(PUBLISHED / missing, "missing-published-file", "Binaire publié introuvable.")
         return found
 
+    def registry_files(self, records):
+        """§ 8 « empreintes, dimensions/alpha » : un binaire gardé par le registre (files.registry) a l'empreinte,
+        les dimensions et l'alpha que déclare sa fiche. Un binaire absent ou illisible est un échec, jamais un saut."""
+        from tools.discovery.formats import Unreadable, inspect
+        for collection, items in records.items():
+            for record_id, record in items.items():
+                local = record["files"].get("registry") if isinstance(record.get("files"), dict) else None
+                if not local:
+                    continue
+                path = f"catalog/{collection}/{record_id}.json"
+                try:
+                    binary = self.catalogue._regular_path(self.root / local)
+                    data = binary.read_bytes()
+                except (OSError, CatalogueScopeError):
+                    self.issue(path, "missing-registry-file", f"Binaire du registre illisible : {local}")
+                    continue
+                try:
+                    measured = inspect(local, data)
+                except Unreadable as exc:
+                    self.issue(path, "registry-unreadable", f"{local} : {exc}")
+                    continue
+                # Empreinte des OCTETS servis, comme la livraison (Delivery.verified) : réencoder le PNG dépendrait
+                # de la version de zlib et de Pillow (pipeline 24 et 26 : 32 faux écarts sous python:3.13-slim).
+                digest = hashlib.sha256(data).hexdigest()
+                if str(record.get("sha256") or "").lower() != digest:
+                    self.issue(path, "registry-digest", f"Empreinte de {local} différente de la fiche.")
+                if measured is None:
+                    continue
+                if measured.dimensions is not None and record.get("dimensions") != measured.dimensions:
+                    self.issue(path, "registry-dimensions", f"Dimensions de {local} : {measured.dimensions}, "
+                                                            f"fiche : {record.get('dimensions')}.")
+                if measured.alpha is not None and record.get("alpha") is not None and record["alpha"] != measured.alpha:
+                    self.issue(path, "registry-alpha", f"Alpha de {local} : {measured.alpha}, fiche : {record['alpha']}.")
+
     def migration_report(self):
         relative = "generated/reports/migration.json"
         path = self.root / relative
@@ -311,6 +345,7 @@ class CatalogueValidation:
         self.asset_rules(assets, sheets)
         published = self.published_files(self.revision_proofs(assets, sheets))
         self.sheet_rules(assets, sheets)
+        self.registry_files(records)
         self.migration_report()
         if base is not None:
             self.base_rules(base, ids, paths, assets, published)

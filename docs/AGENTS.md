@@ -24,6 +24,6 @@
    candidats rejetés, chacun identifié et accompagné d’une raison. Un tableau vide
    indique une recherche sans candidat. Un import initial autorisé joint
    `creation.importJob`.
-5. Exécuter `assetctl validate --base <ref-git> --json` avant la PR. En L1, le
-   catalogue est consultable via `assetctl inspect <id> --json`. La commande
-   `search`, la production du reçu et les mutations sont livrées dans les lots suivants.
+5. Exécuter `assetctl validate --base <ref-git> --json` avant la PR. Une fiche se
+   consulte avec `assetctl inspect <id> --json` ; `assetctl search <texte> --receipt
+   recu.json` produit le reçu exigé par `register`.

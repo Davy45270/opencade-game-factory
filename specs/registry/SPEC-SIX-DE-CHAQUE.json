@@ -1,6 +1,34 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-SIX-DE-CHAQUE.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-SIX-DE-CHAQUE",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "15Xw8kGExmF7UkcOb0uQ3UxfkBLx-rcpR"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "six-de-chaque",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
   "requirements": [
     {
       "evidence": {
@@ -2928,6 +2956,7 @@
       "statement": "3 et 4 humains sur un même appareil, mains cachées"
     }
   ],
+  "title": "Qwarkle — dossier de spécification et d'implémentation v1.0",
   "versions": [
     {
       "documents": [
@@ -3024,5 +3053,6 @@
       ],
       "version": "1.0.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

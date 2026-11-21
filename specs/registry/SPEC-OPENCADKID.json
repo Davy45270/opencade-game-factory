@@ -1,6 +1,32 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b70935672c5809a91af112d6ac3ef5d3b6280dec",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-OPENCADKID.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-OPENCADKID",
+  "implementation": "verified",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": []
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "opencadkid",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
   "requirements": [
     {
       "evidence": {
@@ -44431,6 +44457,7 @@
       "statement": "Une seule requête par enregistrement, partagée par la mise en cache et le lecteur"
     }
   ],
+  "title": "Opencadkid — game specification 1.1.0",
   "versions": [
     {
       "documents": [
@@ -44457,5 +44484,6 @@
       ],
       "version": "1.1.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

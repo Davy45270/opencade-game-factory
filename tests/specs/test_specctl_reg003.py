@@ -310,7 +310,7 @@ class LiensBB001(Base):
             "origin": {"repositoryUrl": "https://example.org/x", "licenseSpdx": licence, "commitSha": "a" * 40},
             "capabilities": ["x"], "interfaces": [{"language": "ts", "runtime": "browser"}], "specIds": ["SPEC-JEU-A"],
             "usedBy": [], "quality": {"status": "adopted", "sbomRef": None, "securityReportRef": None},
-            "decision": decision, "provenance": {}}))
+            "decision": decision, "provenance": {"discoveredBy": "oracle", "verifiedAt": None}}))
 
     def test_T11_decision_et_licence_tracables(self) -> None:
         self.importer()

@@ -1,5 +1,21 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-CONTROL-TOWER.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-CONTROL-TOWER",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": []
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "control-tower",
   "requirements": [
     {
@@ -1355,6 +1371,7 @@
       "statement": "le module ne bloque pas les jeux en cas de panne"
     }
   ],
+  "title": "OPS-001 — OpenCade Control Tower",
   "versions": [
     {
       "documents": [
@@ -1371,5 +1388,6 @@
       ],
       "version": "1.0.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

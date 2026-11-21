@@ -1,5 +1,5 @@
 """Codes de retour COMMUNS à toutes les sous-commandes de l'usine (assetctl, et demain specctl, levelctl, blocks).
-Table unique : docs/ARCHITECTURE.md § Codes de retour (alignée sur specctl, HL-525 7-2957)."""
+Table unique : docs/ARCHITECTURE.md § Codes de retour (specctl et assetctl level rendent les codes de leur spec)."""
 from enum import IntEnum
 
 

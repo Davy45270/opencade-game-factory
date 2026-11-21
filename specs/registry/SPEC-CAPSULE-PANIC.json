@@ -1,6 +1,35 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-CAPSULE-PANIC.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-CAPSULE-PANIC",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "1QcNf1uDi8to793k8sFR4LnHmsB0PtAGv",
+      "1uOc7e3-J6eSRnjEmnR5RxZHSKDmxPjzw"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "capsule-panic",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
   "requirements": [
     {
       "acceptance": "test : LICENSE MIT présent et déclaré",
@@ -6701,6 +6730,7 @@
       "statement": "élément de planche non repris (A2) : boutons son, muet, musique"
     }
   ],
+  "title": "Capsule Panic — dossier de spécifications et implémentation v1.0",
   "versions": [
     {
       "documents": [
@@ -6817,5 +6847,6 @@
       ],
       "version": "1.0.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

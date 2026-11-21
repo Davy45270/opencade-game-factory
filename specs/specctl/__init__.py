@@ -1,6 +1,7 @@
 """CLI headless du registre de spécifications."""
 
 import argparse
+import copy
 import os
 import re
 import sys
@@ -14,7 +15,7 @@ from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
 from .registry import RegistryStore, check_record
-from . import tour
+from . import commandes, fiche, tour
 from .source import Source, VersionConflict, document_entries, set_documents, sha256
 
 COMMENT = re.compile(r"HL-[0-9]+ 7-[0-9]+")
@@ -32,22 +33,30 @@ class Parser(argparse.ArgumentParser):
 def parser():
     cli = Parser(
         prog="specctl", allow_abbrev=False, formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""Codes de retour
+        epilog="""Codes de retour (REG-003 § 6)
   0  Succès
-  1  Contrôle en échec ou fiche introuvable
-  2  Usage invalide
-  3  Refus de sécurité
-  4  Source indisponible
-  5  Conflit de versions""",
+  2  Non-conformité : contrôle en échec, fiche ou projet introuvable, spec périmée
+  3  Entrée invalide : usage, ou refus de sécurité (approbation de David absente)
+  4  Source indisponible : doc, dépôt, Drive ou registre illisible (jamais une non-conformité)
+  5  Conflit de versions : arbitrage de David requis""",
     )
     commands = cli.add_subparsers(dest="command", required=True)
     for name, description in {
+        "discover": "inventorier en lecture seule les specs d’une source (docs, github, drive)",
         "import": "inventorier les archives de documentation",
         "validate": "valider les fiches et leurs identifiants",
+        "search": "chercher une spec ou une exigence par mots",
         "resolve": "résoudre la version applicable d’un projet",
+        "lock": "verrou du jeu de specs appliqué (SemVer, empreinte, horodatage)",
         "coverage": "calculer la couverture des exigences d’un projet",
-        "verify": "contrôler les relations, les preuves et les archives",
+        "verify": "contrôler relations, preuves, archives ; ou le verrou d’une PR (--project --commit)",
+        "impact": "projets consommateurs d’une spec",
+        "compare": "comparer deux états du registre (références git de l’usine)",
+        "export": "exporter le registre (markdown ou json ; --public : specs publiques seulement)",
+        "blocks": "décisions BB-001 liées à une spec, par identifiant",
         "arbitrer": "consigner une version choisie par David",
+        "statuer": "changer lifecycle ou visibilité (approbation de David pour approuver, déprécier, publier)",
+        "relier": "ajouter une relation typée entre specs",
     }.items():
         command = commands.add_parser(name, help=description, allow_abbrev=False)
         command.add_argument("--json", action="store_true", default=argparse.SUPPRESS)
@@ -56,17 +65,48 @@ def parser():
                                  metavar="HOMELAB-DOCS")
         if name == "import":
             command.add_argument("--dry-run", action="store_true")
-        if name in {"resolve", "coverage"}:
+            command.add_argument("--report", action="store_true", help="rapport de migration (§ 5)")
+        if name in {"resolve", "coverage", "lock"}:
             command.add_argument("--project", required=True)
-        if name == "arbitrer":
+        if name == "verify":
+            command.add_argument("--project")
+            command.add_argument("--commit")
+            command.add_argument("--repo", type=Path)
+        if name in {"arbitrer", "statuer", "relier", "impact", "blocks"}:
             command.add_argument("--spec", required=True)
+        if name == "arbitrer":
             command.add_argument("--version", required=True)
+        if name in {"arbitrer", "statuer"}:
             command.add_argument("--ref", help="commentaire de David au format HL-n 7-n")
+        if name == "statuer":
+            command.add_argument("--lifecycle", choices=fiche.LIFECYCLES)
+            command.add_argument("--visibility", choices=fiche.VISIBILITIES)
+        if name == "relier":
+            command.add_argument("--type", dest="kind", required=True, choices=sorted(commandes.RELATIONS))
+            command.add_argument("--target", required=True)
+            command.add_argument("--range", dest="rule")
+        if name == "discover":
+            command.add_argument("--source", dest="kind", required=True, choices=("docs", "github", "drive"))
+            command.add_argument("--from", dest="source", type=Path, metavar="HOMELAB-DOCS")
+            command.add_argument("--sources", type=Path, default=ROOT / "catalog" / "sources.json")
+            command.add_argument("--clones", type=Path, default=Path.home() / "Projets" / "jeux")
+            command.add_argument("--listing", type=Path, help="liste Drive exportée par le connecteur claude.ai")
+        if name == "search":
+            command.add_argument("query")
+            command.add_argument("--project")
+            command.add_argument("--limit", type=int, default=20)
+        if name == "compare":
+            command.add_argument("--from", dest="before", required=True)
+            command.add_argument("--to", dest="after", required=True)
+            command.add_argument("--spec")
+        if name == "export":
+            command.add_argument("--format", dest="fmt", choices=("markdown", "json"), default="json")
+            command.add_argument("--public", action="store_true")
     cli.add_argument("--json", action="store_true", help="écrire le résultat en JSON sur stdout")
     return cli
 
 
-def import_records(store, source, dry_run):
+def import_records(store, source, dry_run, report=False):
     incoming, warnings = source.inventory()
     for spec_id, record in incoming.items():
         check_record(spec_id, record)
@@ -81,17 +121,21 @@ def import_records(store, source, dry_run):
                 created += 1
             else:
                 # Les exigences, liens et arbitrages sont édités dans l’usine après le premier import.
-                record = previous.copy()
+                record = copy.deepcopy(previous)
                 set_documents(record, chain(document_entries(previous), document_entries(incoming[spec_id])))
+                fiche.adopt(record, incoming[spec_id])
                 updated += record != previous
             if record != previous:
                 changes[spec_id] = record
             records[spec_id] = record
         if not dry_run and changes:
             store.publish(changes)
-    return ExitCode.OK, {"status": "ok", "specs": [records[key] for key in incoming],
-                         "created": created, "updated": updated, "warnings": warnings,
-                         "sourceCommit": source.head, "dryRun": dry_run}
+    payload = {"status": "ok", "specs": [records[key] for key in incoming],
+               "created": created, "updated": updated, "warnings": warnings,
+               "sourceCommit": source.head, "dryRun": dry_run}
+    if report:
+        payload["report"] = commandes.report(records, source, warnings, incoming)
+    return ExitCode.OK, payload
 
 
 def resolve(records, project):
@@ -123,7 +167,7 @@ def resolve(records, project):
 def verify(records, source):
     nodes = set(records)
     nodes.update(row["id"] for record in records.values() for row in record["requirements"])
-    broken, cycles, outdated, missing, declared, specs = [], [], [], [], [], []
+    broken, cycles, outdated, missing, declared, specs, incompatible = [], [], [], [], [], [], []
     graph = TopologicalSorter()
     for spec_id, record in records.items():
         archives = list(document_entries(record))
@@ -132,8 +176,13 @@ def verify(records, source):
             target = relation["target"]
             if target not in nodes:
                 broken.append({"specId": spec_id, **relation})
-            elif relation["type"] in {"requires", "supersedes"}:
-                graph.add(spec_id, target)
+            else:
+                if relation["type"] in {"requires", "supersedes"}:
+                    graph.add(spec_id, target)
+                if "range" in relation and not commandes.satisfies(commandes.spec_version(target, records),
+                                                                   relation["range"]):
+                    incompatible.append({"specId": spec_id, **relation,
+                                         "resolved": commandes.spec_version(target, records)})
         for row in record["requirements"]:
             if "evidence" not in row:
                 # Une ligne « faite » déclare une couverture, sans en fournir de preuve vérifiable.
@@ -151,10 +200,11 @@ def verify(records, source):
         graph.prepare()
     except CycleError as exc:
         cycles.append(exc.args[1])
-    failed = bool(broken or cycles or outdated)
+    failed = bool(broken or cycles or outdated or incompatible)
     return (ExitCode.CHECK_FAILED if failed else ExitCode.OK), {
         "status": "non-compliant" if failed else "ok",
         "specs": specs, "brokenLinks": broken, "cycles": cycles, "outdated": outdated,
+        "incompatibleVersions": incompatible,
         "requirementsWithoutEvidence": missing, "requirementsDeclaredWithoutProof": declared,
     }
 
@@ -213,11 +263,20 @@ def run(args, root):
     store = RegistryStore(root)
     command = args.command
     if command == "import":
-        return import_records(store, Source(args.source), args.dry_run)
+        return import_records(store, Source(args.source), args.dry_run, args.report)
     if command == "arbitrer" and not COMMENT.fullmatch(args.ref or ""):
         return ExitCode.SAFETY, {"status": "refused", "message": "Référence attendue au format HL-n 7-n."}
+    if command == "compare":
+        return commandes.compare(root, args.before, args.after, args.spec)
+    if command == "verify" and (args.project or args.commit or args.repo):
+        if not (args.project and args.commit and args.repo):
+            return ExitCode.USAGE, {"status": "usage", "message": "--project, --commit et --repo vont ensemble."}
     source = Source(args.source) if command == "verify" and args.source is not None else None
-    with store.lock(write=command == "arbitrer"):
+    if command == "discover" and args.kind == "docs":
+        if args.source is None:
+            return ExitCode.USAGE, {"status": "usage", "message": "--from <homelab-docs> attendu."}
+        source = args.source
+    with store.lock(write=command in {"arbitrer", "statuer", "relier"}):
         records = store.read()
         if command == "validate":
             return ExitCode.OK, {"status": "ok", "count": len(records)}
@@ -226,14 +285,53 @@ def run(args, root):
             tour.emettre_resolution(args.project, code, payload)     # opt-in, n'échoue jamais
             return code, payload
         if command == "coverage":
-            return coverage(records, args.project)
+            code, payload = coverage(records, args.project)
+            tour.emettre_verifications(records, args.project, payload)   # opt-in, n'échoue jamais
+            return code, payload
+        if command == "verify" and args.project:
+            code, payload = commandes.verify_project(records, args.project, args.commit, args.repo)
+            tour.emettre_verrou(records, code, payload)               # opt-in, n'échoue jamais
+            return code, payload
         if command == "verify":
             code, payload = verify(records, source)
             tour.emettre_peremptions(records, payload)              # opt-in, n'échoue jamais
             return code, payload
+        if command == "discover":
+            if args.kind == "docs":
+                return commandes.discover_docs(records, source)
+            if args.kind == "github":
+                return commandes.discover_github(records, args.sources, args.clones)
+            return commandes.discover_drive(records, args.listing)
+        if command == "search":
+            return commandes.search(records, args.query, args.project, args.limit)
+        if command == "lock":
+            return commandes.lock(records, args.project)
+        if command == "impact":
+            code, payload = commandes.impact(records, args.spec)
+            tour.emettre_impact(records, code, payload)               # opt-in, n'échoue jamais
+            return code, payload
+        if command == "export":
+            return commandes.export(records, args.fmt, args.public)
+        if command == "blocks":
+            return commandes.blocks(records, root, args.spec)
+        if command == "statuer":
+            code, payload = commandes.statuer(store, records, args.spec, args.lifecycle, args.visibility, args.ref)
+            if payload.get("lifecycle") == "approved" and payload.get("changed"):
+                tour.emettre_approbation(records, code, {"status": "ok", "specId": args.spec,
+                                                         "arbitration": None, "lifecycleRef": args.ref})
+            return code, payload
+        if command == "relier":
+            return commandes.relier(store, records, args.spec, args.kind, args.target, args.rule)
         code, payload = arbitrate(store, records, args)
         tour.emettre_approbation(records, code, payload)            # opt-in, n'échoue jamais
         return code, payload
+
+
+# REG-003 § 6 : 0 succès, 2 non-conformité, 3 entrée invalide, 4 source indisponible, 5 conflit de versions.
+# Le cœur parle la table commune de l'usine (tools.core.exit_codes) ; la sortie de specctl est traduite ici, comme
+# `assetctl level` le fait pour EXT-002 (docs/ARCHITECTURE.md § Codes de retour).
+CODES_REG003 = {ExitCode.OK: 0, ExitCode.CHECK_FAILED: 2, ExitCode.USAGE: 3, ExitCode.SAFETY: 3, ExitCode.IO: 4,
+                ExitCode.VERSION_CONFLICT: 5}
 
 
 def main(argv=None):
@@ -247,12 +345,20 @@ def main(argv=None):
         code, payload = ExitCode.USAGE, {"status": "usage", "message": str(exc)}
     except CatalogueScopeError as exc:
         code, payload = ExitCode.SAFETY, {"status": "refused", "message": str(exc)}
+    except ValueError as exc:
+        if not isinstance(exc, (InvalidJSON, UnicodeError, VersionConflict)):
+            code, payload = ExitCode.USAGE, {"status": "usage", "message": str(exc)}
+        elif isinstance(exc, VersionConflict):
+            code, payload = ExitCode.VERSION_CONFLICT, {"status": "version-conflict", "message": str(exc)}
+        else:
+            code, payload = ExitCode.CHECK_FAILED, {"status": "non-compliant", "message": str(exc)}
     except (InvalidJSON, UnicodeError) as exc:
         code, payload = ExitCode.CHECK_FAILED, {"status": "non-compliant", "message": str(exc)}
     except VersionConflict as exc:
         code, payload = ExitCode.VERSION_CONFLICT, {"status": "version-conflict", "message": str(exc)}
     except (OSError, ImportError) as exc:
         code, payload = ExitCode.IO, {"status": "source-unavailable", "message": str(exc)}
+    code = CODES_REG003[ExitCode(int(code))]
     journal.event("command-finished", command=command, status=payload["status"], code=int(code))
     if "--json" in argv:
         print(json_text(payload), end="")

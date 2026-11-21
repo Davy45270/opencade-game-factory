@@ -3,8 +3,34 @@
     "ref": "HL-537 7-2880",
     "version": "1.4.0"
   },
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "49d0ccc22b66e3c1c2eb7f9051da291c123580e3",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-PESTOUILLE-RPG.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-PESTOUILLE-RPG",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": []
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "pestouille-rpg",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
   "requirements": [
     {
       "acceptance": "titre visible à l'écran d'accueil (capture)",
@@ -19112,6 +19138,7 @@
       "statement": "Done : publiée dans une PR GitHub vérifiée — part : livraison par PR GitHub (GitHub ne sert que de dépôt)"
     }
   ],
+  "title": "Pestouille RPG — Addendum v1.4 : Reuse-first, GitHub public, SBOM et auditabilité",
   "versions": [
     {
       "documents": [
@@ -20048,5 +20075,6 @@
       ],
       "version": "1.4.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

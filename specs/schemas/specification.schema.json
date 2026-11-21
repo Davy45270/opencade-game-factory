@@ -3,26 +3,56 @@
   "$id": "urn:opencade:specs:specification",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "project", "versions", "requirements"],
+  "required": [
+    "id",
+    "project",
+    "title",
+    "owner",
+    "lifecycle",
+    "implementation",
+    "evidence",
+    "visibility",
+    "canonical",
+    "versions",
+    "requirements"
+  ],
   "properties": {
-    "id": {"type": "string", "pattern": "^SPEC-[A-Z0-9]+(?:-[A-Z0-9]+)*$"},
-    "project": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "id": {
+      "type": "string",
+      "pattern": "^SPEC-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+    },
+    "project": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
     "versions": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["version", "documents"],
+        "required": [
+          "version",
+          "documents"
+        ],
         "properties": {
-          "version": {"$ref": "#/$defs/version"},
-          "documents": {"$ref": "#/$defs/documents", "minItems": 1}
+          "version": {
+            "$ref": "#/$defs/version"
+          },
+          "documents": {
+            "$ref": "#/$defs/documents",
+            "minItems": 1
+          }
         }
       }
     },
-    "unversionedDocuments": {"$ref": "#/$defs/documents"},
+    "unversionedDocuments": {
+      "$ref": "#/$defs/documents"
+    },
     "requirements": {
       "type": "array",
-      "items": {"$ref": "urn:opencade:specs:requirement"}
+      "items": {
+        "$ref": "urn:opencade:specs:requirement"
+      }
     },
     "relations": {
       "type": "array",
@@ -30,33 +60,182 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["type", "target"],
+        "required": [
+          "type",
+          "target"
+        ],
         "properties": {
-          "type": {"enum": ["requires", "implements", "tested-by", "supersedes", "conflicts-with", "reuses", "consumes", "produces", "deployed-in"]},
-          "target": {"type": "string", "pattern": "^[A-Z][A-Z0-9]*-[A-Z0-9]+(?:-[A-Z0-9]+)*$"}
+          "type": {
+            "enum": [
+              "requires",
+              "implements",
+              "tested-by",
+              "supersedes",
+              "conflicts-with",
+              "reuses",
+              "consumes",
+              "produces",
+              "deployed-in"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9]*-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+          },
+          "range": {
+            "type": "string",
+            "pattern": "^(?:\\^|~|>=|=)?(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+          }
         }
       }
     },
     "arbitration": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["version", "ref"],
+      "required": [
+        "version",
+        "ref"
+      ],
       "properties": {
-        "version": {"$ref": "#/$defs/version"},
-        "ref": {"type": "string", "pattern": "^HL-[0-9]+ 7-[0-9]+$"}
+        "version": {
+          "$ref": "#/$defs/version"
+        },
+        "ref": {
+          "type": "string",
+          "pattern": "^HL-[0-9]+ 7-[0-9]+$"
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "owner": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "lifecycle": {
+      "enum": [
+        "draft",
+        "approved",
+        "deprecated",
+        "retired"
+      ]
+    },
+    "lifecycleRef": {
+      "type": "string",
+      "pattern": "^HL-[0-9]+ 7-[0-9]+$"
+    },
+    "implementation": {
+      "enum": [
+        "not-started",
+        "partial",
+        "implemented",
+        "verified"
+      ]
+    },
+    "evidence": {
+      "enum": [
+        "missing",
+        "unverified",
+        "verified"
+      ]
+    },
+    "visibility": {
+      "enum": [
+        "private",
+        "public"
+      ]
+    },
+    "visibilityRef": {
+      "type": "string",
+      "pattern": "^HL-[0-9]+ 7-[0-9]+$"
+    },
+    "canonical": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "editableIn",
+        "path",
+        "importedFrom"
+      ],
+      "properties": {
+        "editableIn": {
+          "const": "usine"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^specs/registry/SPEC-[A-Z0-9-]+\\.json$"
+        },
+        "importedFrom": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "repo",
+            "commitSha"
+          ],
+          "properties": {
+            "repo": {
+              "const": "homelab-docs"
+            },
+            "commitSha": {
+              "type": "string",
+              "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+            }
+          }
+        }
+      }
+    },
+    "importOrigins": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drive",
+        "authority"
+      ],
+      "properties": {
+        "drive": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{25,44}$"
+          }
+        },
+        "authority": {
+          "const": "usine"
+        }
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^(?:BB|ADR)-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
       }
     }
   },
   "$defs": {
-    "version": {"type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-(?:(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*)(?:\\.(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*))*))?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$"},
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-(?:(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*)(?:\\.(?:0|[1-9][0-9]*|[0-9]*[A-Za-z-][0-9A-Za-z-]*))*))?(?:\\+[0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*)?$"
+    },
     "documents": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["sha256", "provenances"],
+        "required": [
+          "sha256",
+          "provenances"
+        ],
         "properties": {
-          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
           "provenances": {
             "type": "array",
             "minItems": 1,
@@ -64,11 +243,23 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["repo", "path", "commitSha"],
+              "required": [
+                "repo",
+                "path",
+                "commitSha"
+              ],
               "properties": {
-                "repo": {"const": "homelab-docs"},
-                "path": {"type": "string", "pattern": "^specs/[a-z0-9-]+-sources(?:-(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*))?/(?!.*(?:^|/)\\.\\.?(?:/|$))(?!/)[^\\\\\\u0000-\\u001f]+$"},
-                "commitSha": {"type": "string", "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"}
+                "repo": {
+                  "const": "homelab-docs"
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^specs/[a-z0-9-]+-sources(?:-(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*)\\.(?:0|[1-9][0-9]*))?/(?!.*(?:^|/)\\.\\.?(?:/|$))(?!/)[^\\\\\\u0000-\\u001f]+$"
+                },
+                "commitSha": {
+                  "type": "string",
+                  "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+                }
               }
             }
           }

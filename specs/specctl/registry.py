@@ -11,6 +11,7 @@ from tempfile import TemporaryDirectory
 
 from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, read_json, write_json
 
+from . import fiche
 from .source import SOURCES, document_entries, relative_path
 
 
@@ -48,6 +49,15 @@ def check_record(name, record):
                 or relative_path(source_path) != source_path):
             raise InvalidJSON(f"{spec_id} : exigence incohérente ou dupliquée ({expected_id}).")
         matrix_ids.add(matrix_id)
+
+    if (record["implementation"], record["evidence"]) != fiche.derived(record):
+        raise InvalidJSON(f"{spec_id} : statuts implementation/evidence différents du calcul sur les exigences.")
+    if record["lifecycle"] in fiche.NEEDS_APPROVAL and "lifecycleRef" not in record:
+        raise InvalidJSON(f"{spec_id} : lifecycle {record['lifecycle']} sans approbation de David (lifecycleRef).")
+    if record["visibility"] == "public" and "visibilityRef" not in record:
+        raise InvalidJSON(f"{spec_id} : spec publique sans approbation de David (visibilityRef).")
+    if record["canonical"]["path"] != f"specs/registry/{spec_id}.json":
+        raise InvalidJSON(f"{spec_id} : origine canonique incohérente.")
 
     versions = [entry["version"] for entry in record["versions"]]
     if len(set(versions)) != len(versions):
@@ -116,6 +126,7 @@ class RegistryStore:
             else:
                 stage.mkdir()
             for spec_id, record in changes.items():
+                fiche.refresh(record)
                 check_record(spec_id, record)
                 write_json(stage / f"{spec_id}.json", record)
             if self.path.exists():

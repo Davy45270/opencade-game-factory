@@ -2132,9 +2132,15 @@
     },
     {
       "acceptance": "énumération du schéma block",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/schemas/block.schema.json (kind : 12 valeurs) ; tests/blocks/test_bbctl_acceptation.py :: test_schema_valide_et_conforme_au_contrat, test_type_hors_enumeration_refuse",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E174",
       "matrixId": "E174",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2172,9 +2178,15 @@
     },
     {
       "acceptance": "rapport bbctl discover",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_doublons.py (9 tests : hash, nom normalisé, seuil, rapport sans fusion, dépôts lus seulement)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E178",
       "matrixId": "E178",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2192,9 +2204,15 @@
     },
     {
       "acceptance": "rapport bbctl discover",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run, test_indexation_incrementale_par_commit, test_exceptions_et_source_indisponible ; réel : 11/11 dépôts, relance = 11 sautés",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E180",
       "matrixId": "E180",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2212,9 +2230,15 @@
     },
     {
       "acceptance": "test BB",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_transitive_n_est_pas_une_brique_licence_jamais_inventee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E182",
       "matrixId": "E182",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2242,9 +2266,15 @@
     },
     {
       "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus, test_recu_de_recherche_tracable",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E185",
       "matrixId": "E185",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2252,9 +2282,15 @@
     },
     {
       "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel ; réel : rot-js 2.2.1 BSD-3-Clause, 0 vulnérabilité OSV",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E186",
       "matrixId": "E186",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2262,9 +2298,15 @@
     },
     {
       "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere, test_evaluation_absente",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E187",
       "matrixId": "E187",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2272,9 +2314,15 @@
     },
     {
       "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_decision_justifiee, test_decision_sans_justification_ou_choix_inconnu (6 choix dont defer)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E188",
       "matrixId": "E188",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2282,9 +2330,15 @@
     },
     {
       "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_adoption_complete_et_tracee, test_T11_sans_sbom_adoption_refusee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E189",
       "matrixId": "E189",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2302,9 +2356,15 @@
     },
     {
       "acceptance": "bbctl evaluate --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere, test_score_sans_preuve_refuse, test_score_hors_echelle_refuse",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E191",
       "matrixId": "E191",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2312,9 +2372,15 @@
     },
     {
       "acceptance": "BB-T04/T05",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T04_licence_inconnue_eliminee_avant_le_score, test_T05_vulnerabilite_critique_non_acceptee_eliminee, test_provenance_inconnue_eliminee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E192",
       "matrixId": "E192",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2322,9 +2388,15 @@
     },
     {
       "acceptance": "champ tco de la fiche",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_tco_incomplet_refuse (7 postes, hypothèse exigée)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E193",
       "matrixId": "E193",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2332,9 +2404,15 @@
     },
     {
       "acceptance": "block.schema.json + validate",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/schemas/block.schema.json ; tests/blocks/test_bbctl_acceptation.py :: test_schema_valide_et_conforme_au_contrat, test_catalogue_valide",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E194",
       "matrixId": "E194",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2342,9 +2420,15 @@
     },
     {
       "acceptance": "test",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_licence_inventee_refusee, test_candidats_lus_par_en_tete_sans_licence_inventee ; tests/blocks/test_bbctl_discover.py :: test_transitive_n_est_pas_une_brique_licence_jamais_inventee ; réel : 32 licences UNKNOWN laissées telles",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E195",
       "matrixId": "E195",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2352,9 +2436,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run (--dry-run --json)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E196",
       "matrixId": "E196",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2362,9 +2452,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus (internal) ; tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel (opensource)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E197",
       "matrixId": "E197",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2372,9 +2468,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus (internal) ; tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel (opensource)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E198",
       "matrixId": "E198",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2382,9 +2484,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_inspect",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E199",
       "matrixId": "E199",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2392,9 +2500,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E200",
       "matrixId": "E200",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2402,9 +2516,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_decision_justifiee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E201",
       "matrixId": "E201",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2412,9 +2532,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_usages",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E202",
       "matrixId": "E202",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2422,9 +2548,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T10_changement_de_version_partagee_projets_impactes",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E203",
       "matrixId": "E203",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2432,9 +2564,15 @@
     },
     {
       "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_catalogue_valide ; réel : validate --all = 0",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E204",
       "matrixId": "E204",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2442,9 +2580,15 @@
     },
     {
       "acceptance": "BB-T12",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_journal_d_audit, test_T13_fiche_modifiee_entre_temps_jamais_ecrasee ; tests/blocks/test_bbctl_oss.py :: test_T12_registre_injoignable_erreur_explicite ; tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run, test_T03_relance_octets_identiques",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E205",
       "matrixId": "E205",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2472,9 +2616,15 @@
     },
     {
       "acceptance": "adaptateurs npm, Python",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/bbctl/discover.py : adaptateurs npm, python, local_modules ; tests/blocks/test_bbctl_discover.py :: test_T01_monorepo_modules_et_usages_par_jeu, test_T02_meme_bibliotheque_deux_versions_deux_instances",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E208",
       "matrixId": "E208",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2502,9 +2652,15 @@
     },
     {
       "acceptance": "CI en conteneur sans secret",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_metadonnees_seulement_aucune_archive ; CI en conteneur sans secret (.woodpecker/modules.yml)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E211",
       "matrixId": "E211",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2512,9 +2668,15 @@
     },
     {
       "acceptance": "fiche + commit",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_adoption_complete_et_tracee (PR, verrou de version, tests, SBOM, usedBy ; décision versionnée par Git)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E212",
       "matrixId": "E212",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2574,9 +2736,15 @@
     },
     {
       "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_doublons.py :: test_rapport_sans_fusion_catalogue_intact, test_depots_lus_seulement",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E217",
       "matrixId": "E217",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2600,9 +2768,15 @@
     },
     {
       "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel, test_inconnues_jamais_inventees_et_vulnerabilite_critique_relevee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E219",
       "matrixId": "E219",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2646,9 +2820,15 @@
     },
     {
       "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_BB10_evenement_relie_aux_specifications, test_T14_decisions_correlables_dans_la_tour (specRefs + buildingBlockRefs + traceId)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E223",
       "matrixId": "E223",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2686,9 +2866,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T01_monorepo_modules_et_usages_par_jeu",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E227",
       "matrixId": "E227",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2696,9 +2882,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T02_meme_bibliotheque_deux_versions_deux_instances",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E228",
       "matrixId": "E228",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2706,9 +2898,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T03_relance_octets_identiques ; tests/blocks/test_bbctl_acceptation.py :: test_T03_import_relance_aucune_duplication",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E229",
       "matrixId": "E229",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2716,9 +2914,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T04_licence_inconnue_eliminee_avant_le_score",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E230",
       "matrixId": "E230",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2726,9 +2930,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T05_vulnerabilite_critique_non_acceptee_eliminee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E231",
       "matrixId": "E231",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2756,9 +2966,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T08_creation_sans_recherche_echoue ; réel : capsule-panic HEAD~30..HEAD, 18 briques nouvelles non documentées, code 1",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E234",
       "matrixId": "E234",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2766,9 +2982,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T09_derogation_approuvee_passe_avec_audit",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E235",
       "matrixId": "E235",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2776,9 +2998,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T10_changement_de_version_partagee_projets_impactes",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E236",
       "matrixId": "E236",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2786,9 +3014,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T11_sans_sbom_adoption_refusee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E237",
       "matrixId": "E237",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2796,9 +3030,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T12_graphe_indisponible_erreur_explicite_aucun_resultat_invente ; tests/blocks/test_bbctl_discover.py :: test_exceptions_et_source_indisponible",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E238",
       "matrixId": "E238",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2806,9 +3046,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T13_fiche_modifiee_entre_temps_jamais_ecrasee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E239",
       "matrixId": "E239",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },
@@ -2816,9 +3062,15 @@
     },
     {
       "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T14_decisions_correlables_dans_la_tour, test_T14_blocage_emis",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
       "id": "REQ-GAME-FACTORY-E240",
       "matrixId": "E240",
-      "matrixStatus": "a_faire",
+      "matrixStatus": "faite",
       "source": {
         "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
       },

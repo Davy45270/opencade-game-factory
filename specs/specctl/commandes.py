@@ -492,7 +492,7 @@ def sync(store, records, incoming, dry_run):
     """L'avancement (statut, preuve, critère) se ferme dans les matrices de homelab-docs ; les énoncés restent ceux
     du registre. Recopie quand l'énoncé est identique, ajoute les exigences nouvelles, garde les disparues (jamais
     recyclées) et signale sans l'appliquer un énoncé réécrit (décision requise)."""
-    changes, updated, added, changed_statements, missing = {}, 0, 0, [], []
+    changes, updated, added, changed_statements, missing, renamed = {}, 0, 0, [], [], []
     for spec_id, record in sorted(records.items()):
         source = incoming.get(spec_id)
         if source is None:
@@ -500,8 +500,35 @@ def sync(store, records, incoming, dry_run):
         theirs = {row["id"]: row for row in source["requirements"]}
         new = copy.deepcopy(record)
         mine = {row["id"]: row for row in new["requirements"]}
+        # 21/11 : une ligne renommée (ancien_id) ou décalée garde son exigence ; on la retrouve par
+        # ancien_id à énoncé égal, puis par énoncé identique et unique dans la matrice. Deux exigences du registre
+        # peuvent alors viser la même ligne (l'ancienne et celle ajoutée sous le nouvel identifiant) : c'est un alias.
+        match, claimed = {}, set()
         for req_id, row in mine.items():
             other = theirs.get(req_id)
+            if other is not None and other["statement"] == row["statement"]:
+                match[req_id] = (other, None)
+                claimed.add(other["id"])
+        by_previous = {r["_previousMatrixId"]: r for r in theirs.values() if r.get("_previousMatrixId")}
+        by_statement = {}
+        for r in theirs.values():
+            by_statement.setdefault(r["statement"], []).append(r)
+        for how in ("ancien_id", "statement"):
+            for req_id, row in mine.items():
+                if req_id in match:
+                    continue
+                if how == "ancien_id":
+                    other = by_previous.get(row.get("matrixId"))
+                    found = other if other is not None and other["statement"] == row["statement"] else None
+                else:
+                    same = by_statement.get(row["statement"], [])
+                    found = same[0] if len(same) == 1 else None
+                if found is not None:
+                    match[req_id] = (found, how)
+                    claimed.add(found["id"])
+                    renamed.append({"id": req_id, "matrixId": found["matrixId"], "by": how})
+        for req_id, row in mine.items():
+            other, how = match.get(req_id, (theirs.get(req_id), None))
             if other is None:
                 missing.append(req_id)
                 continue
@@ -515,8 +542,8 @@ def sync(store, records, incoming, dry_run):
                 else:
                     row.pop(key, None)
             updated += before != {key: row.get(key) for key in SYNC_FIELDS}
-        for req_id in sorted(set(theirs) - set(mine)):
-            new["requirements"].append(copy.deepcopy(theirs[req_id]))
+        for req_id in sorted(set(theirs) - set(mine) - claimed):
+            new["requirements"].append({k: copy.deepcopy(v) for k, v in theirs[req_id].items() if not k.startswith("_")})
             added += 1
         new["requirements"].sort(key=lambda row: row["id"])
         if new != record:
@@ -525,7 +552,7 @@ def sync(store, records, incoming, dry_run):
         store.publish(changes, "sync")
     return ExitCode.OK, {"status": "ok", "dryRun": dry_run, "updated": updated, "added": added,
                          "specs": sorted(changes), "statementChanged": changed_statements,
-                         "missingFromMatrix": sorted(missing)}
+                         "missingFromMatrix": sorted(missing), "renamed": sorted(renamed, key=lambda r: r["id"])}
 
 
 PENDING = "drive-a-importer.json"

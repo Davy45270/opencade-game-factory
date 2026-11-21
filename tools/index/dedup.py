@@ -1,6 +1,7 @@
 """Empreintes visuelles et propositions de rapprochement."""
 
 from collections import defaultdict
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
@@ -9,6 +10,12 @@ from tools.asset_versions import version_number
 
 N = 32
 MAX_DISTANCE = 8
+# Règle de statut d'une paire similaire (HL-538, P0-08 : jamais de fusion automatique) : écart moyen par pixel,
+# images composées sur gris moyen et ramenées à 64 × 64. Plafond du bruit mesuré sur 400 rééchantillonnages
+# (±10 %) d'une même image du registre : 5,97 / 255. Au-dessus : « distinct », deux dessins différents. En dessous :
+# la paire reste « needs-review » (même image à la précision du rééchantillonnage) : à décider, jamais fusionnée.
+PIXEL_SIZE = 64
+PIXEL_NOISE = 6.0
 _DCT = np.cos(np.pi / N * np.arange(N)[:, None] * (np.arange(N) + 0.5))
 _DCT[0] /= np.sqrt(2)
 _DCT *= np.sqrt(2 / N)
@@ -62,7 +69,34 @@ def _similar(images):
                        "dhashDistance": (dhash_a ^ dhash_b).bit_count(), "status": "needs-review"}
 
 
-def duplicates(assets):
+def _pixels(root, asset):
+    local = asset.get("files", {}).get("registry")
+    if not root or not local:
+        return None
+    try:
+        image = Image.open(Path(root) / local)
+        image.load()
+    except (OSError, ValueError):
+        return None
+    rgba = image.convert("RGBA")
+    background = Image.new("RGBA", rgba.size, (128, 128, 128, 255))
+    flat = Image.alpha_composite(background, rgba).convert("RGB")
+    return np.asarray(flat.resize((PIXEL_SIZE, PIXEL_SIZE), Image.Resampling.LANCZOS), dtype=np.int16)
+
+
+def rule(pair, assets_by_id, root, cache):
+    """Statue une paire par la mesure de pixels quand les deux binaires du registre sont lisibles."""
+    for key in (pair["a"], pair["b"]):
+        if key not in cache:
+            cache[key] = _pixels(root, assets_by_id[key])
+    a, b = cache[pair["a"]], cache[pair["b"]]
+    if a is None or b is None:
+        return pair
+    distance = round(float(np.abs(a - b).mean()), 2)
+    return {**pair, "pixelDistance": distance, "status": "distinct" if distance > PIXEL_NOISE else "needs-review"}
+
+
+def duplicates(assets, root=None):
     locations = defaultdict(list)
     images = []
     identities = defaultdict(list)
@@ -80,4 +114,6 @@ def duplicates(assets):
                            int(hashes["phash"], 16), int(hashes["dhash"], 16), hashes.get("flatColor")))
     exact = [{"sha256": sha, "locations": paths, "ids": identities[sha]}
              for sha, paths in sorted(locations.items()) if len(paths) > 1 or len(identities[sha]) > 1]
-    return {"exact": exact, "similar": sorted(_similar(images), key=lambda pair: (pair["a"], pair["b"]))}
+    by_id, cache = {asset["id"]: asset for asset in assets}, {}
+    similar = [rule(pair, by_id, root, cache) for pair in sorted(_similar(images), key=lambda p: (p["a"], p["b"]))]
+    return {"exact": exact, "similar": similar}

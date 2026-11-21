@@ -134,6 +134,12 @@ antérieurs restent associés aux fiches qui les ont enregistrés. Si deux
 chemins d’une même source partagent un ID et que l’un diverge, ce chemin ouvre
 sa propre lignée et les références historiques conservent leur couple ID–version.
 
+Les paires « similaires » (pHash à 8 bits ou moins) sont statuées par une mesure, jamais fusionnées : écart moyen
+par pixel des deux binaires du registre, composés sur gris moyen et ramenés à 64 × 64 (`dedup.rule`). Le plafond
+du bruit, 6,0 / 255, vient de 400 rééchantillonnages à ±10 % d'une même image (maximum mesuré 5,97). Au-dessus, la
+paire est `distinct` ; en dessous, elle reste `needs-review` avec sa `pixelDistance` : même image à la précision
+du rééchantillonnage, à décider. Sans binaire lisible, la paire reste `needs-review` sans distance.
+
 L’identité d’un sprite d’atlas associe la source logique, le chemin du fichier
 d’atlas et le nom du cadre. La planche, son SHA-256 et les coordonnées sont
 des preuves dans l’entrée de version. Une retouche hors de la découpe ajoute

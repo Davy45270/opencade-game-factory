@@ -12,10 +12,17 @@
 labels:
   host: tank01
 
+# Volume (HL-542) : une modification de documentation seule ne déclenche rien ; les fichiers de
+# données ou d'outils, si. Une PR ne lance que des pipelines `pull_request` (pas de `push` hors main).
 when:
   - event: push
     branch: main
-  - event: [pull_request, manual]
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: pull_request
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: manual
 
 clone:
   - name: clone
@@ -45,6 +52,13 @@ steps:
   - name: tests-unitaires
     image: *py
     depends_on: [dependances]
+    # Les suites de tests seulement quand le code peut avoir changé (HL-542) : une PR de données seules
+    # (catalog/, generated/, sprites/…) est couverte par validate, contrôle de PR, atlas, licences, doublons.
+    when:
+      - event: [push, pull_request]
+        path:
+          include: ['tools/**', 'scripts/**', 'tests/**', 'schemas/**', 'assetctl', 'requirements*.txt', '.woodpecker/**']
+      - event: manual
     commands:
       # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
       # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
@@ -58,6 +72,13 @@ steps:
   - name: tests-acceptation
     image: *py
     depends_on: [dependances]
+    # Les suites de tests seulement quand le code peut avoir changé (HL-542) : une PR de données seules
+    # (catalog/, generated/, sprites/…) est couverte par validate, contrôle de PR, atlas, licences, doublons.
+    when:
+      - event: [push, pull_request]
+        path:
+          include: ['tools/**', 'scripts/**', 'tests/**', 'schemas/**', 'assetctl', 'requirements*.txt', '.woodpecker/**']
+      - event: manual
     commands:
       # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
       # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.

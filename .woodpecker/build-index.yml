@@ -6,10 +6,17 @@
 labels:
   host: contabo
 
+# Volume (HL-542) : une modification de documentation seule ne déclenche rien ; les fichiers de
+# données ou d'outils, si. Une PR ne lance que des pipelines `pull_request` (pas de `push` hors main).
 when:
   - event: push
     branch: main
-  - event: [pull_request, manual]
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: pull_request
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: manual
 
 depends_on:
   - validate

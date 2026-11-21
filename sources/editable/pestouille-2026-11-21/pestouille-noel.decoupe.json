@@ -1,0 +1,946 @@
+{
+ "planche": "pestouille-noel-detouree.png",
+ "planche_sha256": "a6232ed9fefa46073eccb25b7872412226a293acd9ff822a18da6fdcb881b62a",
+ "marge": 0,
+ "source": "pestouille_noel.png",
+ "source_sha256": "72b62e67071a8ba374d33b1eef5d7c81d261af537d5d84c2bc52b724c9325ff2",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-noel-droite-idle-a",
+   "boite": [
+    68,
+    92,
+    161,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-droite-idle-b",
+   "boite": [
+    69,
+    91,
+    229,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-droite-idle-c",
+   "boite": [
+    68,
+    89,
+    298,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-droite-idle-d",
+   "boite": [
+    66,
+    90,
+    368,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-droite-marche-a",
+   "boite": [
+    68,
+    89,
+    451,
+    230
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-marche-b",
+   "boite": [
+    62,
+    95,
+    519,
+    229
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-marche-c",
+   "boite": [
+    65,
+    93,
+    581,
+    229
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-marche-d",
+   "boite": [
+    60,
+    89,
+    646,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-marche-e",
+   "boite": [
+    61,
+    89,
+    706,
+    229
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-marche-f",
+   "boite": [
+    65,
+    89,
+    767,
+    228
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-droite-attaque-bloc",
+   "boite": [
+    419,
+    122,
+    845,
+    196
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-noel-droite-blesse-a",
+   "boite": [
+    82,
+    131,
+    1279,
+    191
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-droite-blesse-b",
+   "boite": [
+    77,
+    89,
+    1365,
+    234
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-droite-blesse-c",
+   "boite": [
+    78,
+    129,
+    1448,
+    194
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-gauche-idle-a",
+   "boite": [
+    70,
+    87,
+    161,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-gauche-idle-b",
+   "boite": [
+    69,
+    87,
+    231,
+    429
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-gauche-idle-c",
+   "boite": [
+    70,
+    87,
+    300,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-gauche-idle-d",
+   "boite": [
+    68,
+    87,
+    370,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-a",
+   "boite": [
+    65,
+    86,
+    450,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-b",
+   "boite": [
+    66,
+    92,
+    515,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-c",
+   "boite": [
+    63,
+    94,
+    581,
+    425
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-d",
+   "boite": [
+    65,
+    87,
+    644,
+    426
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-e",
+   "boite": [
+    60,
+    86,
+    709,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-marche-f",
+   "boite": [
+    64,
+    86,
+    769,
+    426
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-attaque-bloc",
+   "boite": [
+    421,
+    118,
+    845,
+    395
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-noel-gauche-blesse-a",
+   "boite": [
+    79,
+    127,
+    1288,
+    394
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-gauche-blesse-b",
+   "boite": [
+    80,
+    128,
+    1367,
+    392
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-gauche-blesse-c",
+   "boite": [
+    82,
+    133,
+    1447,
+    389
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-bas-idle-a",
+   "boite": [
+    67,
+    98,
+    162,
+    610
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-bas-idle-b",
+   "boite": [
+    66,
+    99,
+    232,
+    610
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-bas-idle-c",
+   "boite": [
+    66,
+    98,
+    300,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-bas-idle-d",
+   "boite": [
+    66,
+    98,
+    368,
+    610
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-bas-marche-a",
+   "boite": [
+    61,
+    100,
+    453,
+    607
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-marche-b",
+   "boite": [
+    66,
+    106,
+    514,
+    608
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-marche-c",
+   "boite": [
+    60,
+    102,
+    584,
+    608
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-marche-d",
+   "boite": [
+    60,
+    98,
+    647,
+    608
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-marche-e",
+   "boite": [
+    61,
+    97,
+    707,
+    609
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-marche-f",
+   "boite": [
+    61,
+    96,
+    770,
+    609
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-bas-attaque-bloc",
+   "boite": [
+    416,
+    166,
+    845,
+    574
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-noel-bas-blesse-a",
+   "boite": [
+    74,
+    132,
+    1281,
+    578
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-bas-blesse-b",
+   "boite": [
+    76,
+    95,
+    1365,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-bas-blesse-c",
+   "boite": [
+    75,
+    134,
+    1449,
+    578
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-haut-idle-a",
+   "boite": [
+    65,
+    99,
+    165,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-haut-idle-b",
+   "boite": [
+    64,
+    98,
+    235,
+    811
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-haut-idle-c",
+   "boite": [
+    64,
+    98,
+    304,
+    811
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-haut-idle-d",
+   "boite": [
+    65,
+    99,
+    372,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-noel-haut-marche-a",
+   "boite": [
+    60,
+    110,
+    454,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-marche-b",
+   "boite": [
+    65,
+    110,
+    514,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-marche-c",
+   "boite": [
+    63,
+    110,
+    579,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-marche-d",
+   "boite": [
+    60,
+    103,
+    646,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-marche-e",
+   "boite": [
+    60,
+    103,
+    709,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-marche-f",
+   "boite": [
+    60,
+    103,
+    772,
+    808
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-noel-haut-attaque-bloc",
+   "boite": [
+    418,
+    147,
+    847,
+    772
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pestouille-noel-haut-blesse-a",
+   "boite": [
+    76,
+    143,
+    1285,
+    771
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-haut-blesse-b",
+   "boite": [
+    74,
+    98,
+    1370,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-noel-haut-blesse-c",
+   "boite": [
+    73,
+    137,
+    1454,
+    777
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

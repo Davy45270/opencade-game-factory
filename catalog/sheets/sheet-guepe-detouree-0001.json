@@ -1,0 +1,582 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-guepe-detouree-0001.png"
+  },
+  "id": "sheet-guepe-detouree-0001",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. Utilisables dans les jeux de David, jamais exposés publiquement sans son accord.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "Guêpe guerrière (type Aérien, taille S) — détourée",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Détourage de sheet-guepe-0001 (guepe.png, SHA-256 5ddd05433d5b32b1f9d728affc5581957388c7e92bbc4d1195604d0744e1d0b5) par sources/editable/pestouille-2026-11-21/decoupe.py (SHA-256 92b98a4bd05d07667f02c8777ee0c2bdc5cdf4542a74953b6b566ba284375ec7), gabarit gabarit4, options aucune : fond noir relié au bord des cases -> alpha 0, hors cases (titres, cartouches, cadres jaunes, portraits) -> alpha 0 ; RGB inchangé.",
+      "Table de découpe : sources/editable/pestouille-2026-11-21/guepe.decoupe.json (SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e).",
+      "La « grille 64x64 » annoncée par le cartouche n'est pas utilisée : pas réel 65 à 72 px (INVENTAIRE du 21/11)."
+    ],
+    "tool": "decoupe.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-guepe-droite-idle-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 88,
+      "status": "verified",
+      "w": 67,
+      "x": 167,
+      "y": 231
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-idle-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 88,
+      "status": "verified",
+      "w": 63,
+      "x": 239,
+      "y": 231
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-idle-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 87,
+      "status": "verified",
+      "w": 63,
+      "x": 308,
+      "y": 231
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-idle-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 87,
+      "status": "verified",
+      "w": 60,
+      "x": 377,
+      "y": 231
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 81,
+      "status": "verified",
+      "w": 59,
+      "x": 457,
+      "y": 235
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 85,
+      "status": "verified",
+      "w": 60,
+      "x": 520,
+      "y": 228
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 77,
+      "status": "verified",
+      "w": 61,
+      "x": 584,
+      "y": 236
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 79,
+      "status": "verified",
+      "w": 60,
+      "x": 647,
+      "y": 232
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-e-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 80,
+      "status": "verified",
+      "w": 65,
+      "x": 707,
+      "y": 232
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-marche-f-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 78,
+      "status": "verified",
+      "w": 54,
+      "x": 776,
+      "y": 234
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-attaque-bloc-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 123,
+      "status": "verified",
+      "w": 409,
+      "x": 853,
+      "y": 206
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-blesse-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 120,
+      "status": "verified",
+      "w": 73,
+      "x": 1284,
+      "y": 204
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-blesse-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 87,
+      "status": "verified",
+      "w": 78,
+      "x": 1360,
+      "y": 237
+    },
+    {
+      "assetId": "asset-sprite-guepe-droite-blesse-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 122,
+      "status": "verified",
+      "w": 78,
+      "x": 1443,
+      "y": 201
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-idle-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 85,
+      "status": "verified",
+      "w": 62,
+      "x": 161,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-idle-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 84,
+      "status": "verified",
+      "w": 63,
+      "x": 228,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-idle-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 84,
+      "status": "verified",
+      "w": 63,
+      "x": 296,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-idle-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 84,
+      "status": "verified",
+      "w": 63,
+      "x": 365,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 77,
+      "status": "verified",
+      "w": 56,
+      "x": 451,
+      "y": 430
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 82,
+      "status": "verified",
+      "w": 61,
+      "x": 511,
+      "y": 424
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 76,
+      "status": "verified",
+      "w": 60,
+      "x": 574,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 76,
+      "status": "verified",
+      "w": 67,
+      "x": 637,
+      "y": 430
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-e-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 83,
+      "status": "verified",
+      "w": 59,
+      "x": 704,
+      "y": 425
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-marche-f-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 77,
+      "status": "verified",
+      "w": 60,
+      "x": 765,
+      "y": 430
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-attaque-bloc-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 121,
+      "status": "verified",
+      "w": 413,
+      "x": 842,
+      "y": 402
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-blesse-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 123,
+      "status": "verified",
+      "w": 78,
+      "x": 1279,
+      "y": 399
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-blesse-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 90,
+      "status": "verified",
+      "w": 77,
+      "x": 1363,
+      "y": 431
+    },
+    {
+      "assetId": "asset-sprite-guepe-gauche-blesse-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 123,
+      "status": "verified",
+      "w": 81,
+      "x": 1440,
+      "y": 398
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-idle-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 58,
+      "x": 167,
+      "y": 620
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-idle-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 57,
+      "x": 236,
+      "y": 620
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-idle-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 56,
+      "x": 305,
+      "y": 620
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-idle-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 57,
+      "x": 373,
+      "y": 620
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 83,
+      "status": "verified",
+      "w": 51,
+      "x": 460,
+      "y": 621
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 91,
+      "status": "verified",
+      "w": 51,
+      "x": 522,
+      "y": 612
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 79,
+      "status": "verified",
+      "w": 47,
+      "x": 588,
+      "y": 622
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 76,
+      "status": "verified",
+      "w": 49,
+      "x": 652,
+      "y": 625
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-e-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 79,
+      "status": "verified",
+      "w": 52,
+      "x": 711,
+      "y": 621
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-marche-f-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 83,
+      "status": "verified",
+      "w": 47,
+      "x": 778,
+      "y": 617
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 85,
+      "status": "verified",
+      "w": 58,
+      "x": 849,
+      "y": 619
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 57,
+      "x": 917,
+      "y": 619
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 85,
+      "status": "verified",
+      "w": 57,
+      "x": 985,
+      "y": 620
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 150,
+      "status": "verified",
+      "w": 74,
+      "x": 1050,
+      "y": 584
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-e-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 86,
+      "status": "verified",
+      "w": 58,
+      "x": 1130,
+      "y": 619
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-attaque-f-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 87,
+      "status": "verified",
+      "w": 56,
+      "x": 1201,
+      "y": 618
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-blesse-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 129,
+      "status": "verified",
+      "w": 58,
+      "x": 1289,
+      "y": 585
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-blesse-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 92,
+      "status": "verified",
+      "w": 59,
+      "x": 1370,
+      "y": 622
+    },
+    {
+      "assetId": "asset-sprite-guepe-bas-blesse-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 134,
+      "status": "verified",
+      "w": 58,
+      "x": 1452,
+      "y": 581
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-idle-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 93,
+      "status": "verified",
+      "w": 62,
+      "x": 163,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-idle-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 93,
+      "status": "verified",
+      "w": 62,
+      "x": 233,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-idle-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 92,
+      "status": "verified",
+      "w": 61,
+      "x": 303,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-idle-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 93,
+      "status": "verified",
+      "w": 60,
+      "x": 372,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 89,
+      "status": "verified",
+      "w": 58,
+      "x": 451,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 89,
+      "status": "verified",
+      "w": 65,
+      "x": 514,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 88,
+      "status": "verified",
+      "w": 65,
+      "x": 579,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-d-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 87,
+      "status": "verified",
+      "w": 58,
+      "x": 647,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-e-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 88,
+      "status": "verified",
+      "w": 67,
+      "x": 705,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-marche-f-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 85,
+      "status": "verified",
+      "w": 58,
+      "x": 772,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-attaque-bloc-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 157,
+      "status": "verified",
+      "w": 416,
+      "x": 846,
+      "y": 775
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-blesse-a-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 134,
+      "status": "verified",
+      "w": 77,
+      "x": 1282,
+      "y": 780
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-blesse-b-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 97,
+      "status": "verified",
+      "w": 68,
+      "x": 1364,
+      "y": 816
+    },
+    {
+      "assetId": "asset-sprite-guepe-haut-blesse-c-0001",
+      "evidence": "guepe.decoupe.json · SHA-256 a438fc9a4f7639240b018f1b03f4c362772beb10cfe817d7c3b0b46aa9c3cd0e · planche 2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+      "h": 129,
+      "status": "verified",
+      "w": 70,
+      "x": 1446,
+      "y": 785
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "2182033e4e0453fcbebc58129ae56e75e5e5a8a2ecb3a012c1a760254289278d",
+  "status": "active"
+}

@@ -1,0 +1,946 @@
+{
+ "planche": "telephone-malicieux-detouree.png",
+ "planche_sha256": "845fbdd4638c3a3aee98a284977619cedf965d1562b097262d54111ae08314ba",
+ "marge": 0,
+ "source": "telephone_malicieux.png",
+ "source_sha256": "e2cbb6756da19e423c04bedb3ac490b35ea647e3f55ea1e6e979ad681982c4fd",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 7,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 7,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 5,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 5,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "telephone-malicieux-droite-idle-a",
+   "boite": [
+    56,
+    79,
+    172,
+    233
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-droite-idle-b",
+   "boite": [
+    54,
+    78,
+    242,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-droite-idle-c",
+   "boite": [
+    54,
+    76,
+    309,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-droite-idle-d",
+   "boite": [
+    54,
+    74,
+    375,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-a",
+   "boite": [
+    56,
+    78,
+    455,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-b",
+   "boite": [
+    54,
+    78,
+    523,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-c",
+   "boite": [
+    61,
+    73,
+    585,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-d",
+   "boite": [
+    54,
+    78,
+    657,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-e",
+   "boite": [
+    56,
+    72,
+    719,
+    234
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-marche-f",
+   "boite": [
+    52,
+    75,
+    781,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-attaque-bloc",
+   "boite": [
+    398,
+    108,
+    860,
+    205
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 7,
+   "attendus": 6
+  },
+  {
+   "id": "telephone-malicieux-droite-blesse-a",
+   "boite": [
+    67,
+    114,
+    1288,
+    200
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-droite-blesse-b",
+   "boite": [
+    65,
+    75,
+    1367,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-droite-blesse-c",
+   "boite": [
+    65,
+    111,
+    1446,
+    203
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-gauche-idle-a",
+   "boite": [
+    51,
+    75,
+    171,
+    425
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-gauche-idle-b",
+   "boite": [
+    51,
+    75,
+    239,
+    425
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-gauche-idle-c",
+   "boite": [
+    51,
+    74,
+    309,
+    425
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-gauche-idle-d",
+   "boite": [
+    53,
+    74,
+    373,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-a",
+   "boite": [
+    51,
+    72,
+    454,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-b",
+   "boite": [
+    52,
+    71,
+    517,
+    422
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-c",
+   "boite": [
+    53,
+    74,
+    581,
+    422
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-d",
+   "boite": [
+    52,
+    70,
+    647,
+    422
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-e",
+   "boite": [
+    53,
+    70,
+    711,
+    422
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-marche-f",
+   "boite": [
+    54,
+    74,
+    775,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-attaque-bloc",
+   "boite": [
+    397,
+    104,
+    859,
+    395
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 7,
+   "attendus": 6
+  },
+  {
+   "id": "telephone-malicieux-gauche-blesse-a",
+   "boite": [
+    63,
+    106,
+    1290,
+    396
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-gauche-blesse-b",
+   "boite": [
+    61,
+    73,
+    1369,
+    429
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-gauche-blesse-c",
+   "boite": [
+    65,
+    109,
+    1448,
+    393
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-bas-idle-a",
+   "boite": [
+    60,
+    74,
+    170,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-bas-idle-b",
+   "boite": [
+    58,
+    74,
+    239,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-bas-idle-c",
+   "boite": [
+    58,
+    74,
+    304,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-bas-idle-d",
+   "boite": [
+    58,
+    73,
+    371,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-a",
+   "boite": [
+    60,
+    73,
+    455,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-b",
+   "boite": [
+    59,
+    74,
+    518,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-c",
+   "boite": [
+    62,
+    74,
+    583,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-d",
+   "boite": [
+    58,
+    73,
+    649,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-e",
+   "boite": [
+    60,
+    72,
+    712,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-marche-f",
+   "boite": [
+    57,
+    73,
+    775,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-bas-attaque-bloc",
+   "boite": [
+    386,
+    145,
+    864,
+    566
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 5
+  },
+  {
+   "id": "telephone-malicieux-bas-blesse-a",
+   "boite": [
+    72,
+    112,
+    1284,
+    592
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-bas-blesse-b",
+   "boite": [
+    70,
+    74,
+    1365,
+    630
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-bas-blesse-c",
+   "boite": [
+    70,
+    113,
+    1444,
+    591
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-haut-idle-a",
+   "boite": [
+    59,
+    71,
+    169,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-haut-idle-b",
+   "boite": [
+    58,
+    71,
+    238,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-haut-idle-c",
+   "boite": [
+    59,
+    71,
+    304,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-haut-idle-d",
+   "boite": [
+    57,
+    71,
+    372,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-a",
+   "boite": [
+    59,
+    72,
+    453,
+    819
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-b",
+   "boite": [
+    58,
+    74,
+    518,
+    819
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-c",
+   "boite": [
+    63,
+    74,
+    584,
+    820
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-d",
+   "boite": [
+    61,
+    72,
+    647,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-e",
+   "boite": [
+    57,
+    69,
+    712,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-marche-f",
+   "boite": [
+    57,
+    71,
+    776,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "telephone-malicieux-haut-attaque-bloc",
+   "boite": [
+    397,
+    143,
+    859,
+    763
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 5
+  },
+  {
+   "id": "telephone-malicieux-haut-blesse-a",
+   "boite": [
+    84,
+    111,
+    1281,
+    788
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-haut-blesse-b",
+   "boite": [
+    70,
+    72,
+    1367,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "telephone-malicieux-haut-blesse-c",
+   "boite": [
+    73,
+    112,
+    1443,
+    788
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

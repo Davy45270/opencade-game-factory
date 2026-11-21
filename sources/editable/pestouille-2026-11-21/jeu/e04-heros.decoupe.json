@@ -1,0 +1,361 @@
+{
+ "status": "provisoire",
+ "planche": "Pestouille_RPG_Elements_04_Combat_Progression.png",
+ "marge": 2,
+ "taille": 64,
+ "detoure": true,
+ "modele": "fond:30",
+ "unique": true,
+ "elements": [
+  {
+   "id": "pestouille-face",
+   "boite": [
+    61,
+    64,
+    17,
+    448
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-face",
+   "boite": [
+    47,
+    65,
+    88,
+    447
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-face",
+   "boite": [
+    54,
+    64,
+    146,
+    447
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-face",
+   "boite": [
+    47,
+    64,
+    210,
+    448
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-dos",
+   "boite": [
+    44,
+    59,
+    30,
+    522
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "lila-dos",
+   "boite": [
+    45,
+    59,
+    90,
+    521
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "borin-dos",
+   "boite": [
+    46,
+    59,
+    151,
+    521
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "nox-dos",
+   "boite": [
+    41,
+    60,
+    213,
+    520
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-marche-a",
+   "boite": [
+    39,
+    35,
+    22,
+    213
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-marche-b",
+   "boite": [
+    38,
+    36,
+    73,
+    212
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-marche-c",
+   "boite": [
+    39,
+    35,
+    124,
+    213
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-marche-d",
+   "boite": [
+    38,
+    35,
+    175,
+    213
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-marche-e",
+   "boite": [
+    38,
+    35,
+    225,
+    213
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-course-a",
+   "boite": [
+    39,
+    37,
+    22,
+    255
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-course-b",
+   "boite": [
+    38,
+    36,
+    73,
+    255
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-course-c",
+   "boite": [
+    39,
+    36,
+    123,
+    256
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-course-d",
+   "boite": [
+    38,
+    36,
+    174,
+    256
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-course-e",
+   "boite": [
+    37,
+    36,
+    225,
+    256
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-attaque-a",
+   "boite": [
+    42,
+    38,
+    24,
+    299
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-attaque-b",
+   "boite": [
+    42,
+    38,
+    80,
+    299
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-attaque-c",
+   "boite": [
+    41,
+    37,
+    136,
+    299
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "boule-de-feu",
+   "boite": [
+    59,
+    30,
+    188,
+    303
+   ],
+   "ancre": "centre"
+  },
+  {
+   "id": "pestouille-vol-a",
+   "boite": [
+    55,
+    38,
+    22,
+    344
+   ],
+   "ancre": "centre"
+  },
+  {
+   "id": "pestouille-vol-b",
+   "boite": [
+    52,
+    44,
+    84,
+    342
+   ],
+   "ancre": "centre"
+  },
+  {
+   "id": "pestouille-pose-cote",
+   "boite": [
+    44,
+    39,
+    146,
+    348
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "pestouille-sommeil",
+   "boite": [
+    55,
+    29,
+    208,
+    358
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "directions": [
+  "south",
+  "north",
+  "east"
+ ],
+ "animations": {
+  "pestouille/idle-south": {
+   "frames": [
+    "pestouille-face"
+   ]
+  },
+  "pestouille/idle-north": {
+   "frames": [
+    "pestouille-dos"
+   ]
+  },
+  "lila/idle-south": {
+   "frames": [
+    "lila-face"
+   ]
+  },
+  "lila/idle-north": {
+   "frames": [
+    "lila-dos"
+   ]
+  },
+  "borin/idle-south": {
+   "frames": [
+    "borin-face"
+   ]
+  },
+  "borin/idle-north": {
+   "frames": [
+    "borin-dos"
+   ]
+  },
+  "nox/idle-south": {
+   "frames": [
+    "nox-face"
+   ]
+  },
+  "nox/idle-north": {
+   "frames": [
+    "nox-dos"
+   ]
+  },
+  "pestouille/walk-east": {
+   "frames": [
+    "pestouille-marche-a",
+    "pestouille-marche-b",
+    "pestouille-marche-c",
+    "pestouille-marche-d",
+    "pestouille-marche-e"
+   ]
+  },
+  "pestouille/run-east": {
+   "frames": [
+    "pestouille-course-a",
+    "pestouille-course-b",
+    "pestouille-course-c",
+    "pestouille-course-d",
+    "pestouille-course-e"
+   ]
+  },
+  "pestouille/attack-east": {
+   "frames": [
+    "pestouille-attaque-a",
+    "pestouille-attaque-b",
+    "pestouille-attaque-c"
+   ]
+  },
+  "pestouille/fly-east": {
+   "frames": [
+    "pestouille-vol-a",
+    "pestouille-vol-b"
+   ]
+  },
+  "pestouille/idle-east": {
+   "frames": [
+    "pestouille-pose-cote"
+   ]
+  },
+  "pestouille/sleep": {
+   "frames": [
+    "pestouille-sommeil"
+   ]
+  }
+ },
+ "licence": "CC-BY-4.0",
+ "planche_sha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a"
+}

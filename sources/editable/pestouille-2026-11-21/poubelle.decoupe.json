@@ -1,0 +1,946 @@
+{
+ "planche": "poubelle-detouree.png",
+ "planche_sha256": "df45f2bb1817efdf6b94f71c29126797d3672d78085c6b705b7b6ed02b10670a",
+ "marge": 0,
+ "source": "poubelle.png",
+ "source_sha256": "9e0197028d79f0c479ab33a245c21da425aac35a362df10517add2058574e9b8",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": true,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "poubelle-droite-idle-a",
+   "boite": [
+    61,
+    72,
+    172,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-droite-idle-b",
+   "boite": [
+    62,
+    72,
+    239,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-droite-idle-c",
+   "boite": [
+    63,
+    72,
+    306,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-droite-idle-d",
+   "boite": [
+    62,
+    72,
+    373,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-droite-marche-a",
+   "boite": [
+    65,
+    75,
+    454,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-marche-b",
+   "boite": [
+    61,
+    75,
+    519,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-marche-c",
+   "boite": [
+    62,
+    75,
+    585,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-marche-d",
+   "boite": [
+    62,
+    75,
+    647,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-marche-e",
+   "boite": [
+    61,
+    77,
+    709,
+    243
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-marche-f",
+   "boite": [
+    62,
+    75,
+    770,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-droite-attaque-bloc",
+   "boite": [
+    410,
+    123,
+    850,
+    194
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "poubelle-droite-blesse-a",
+   "boite": [
+    77,
+    131,
+    1287,
+    195
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-droite-blesse-b",
+   "boite": [
+    84,
+    109,
+    1364,
+    214
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-droite-blesse-c",
+   "boite": [
+    67,
+    119,
+    1452,
+    203
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-gauche-idle-a",
+   "boite": [
+    62,
+    72,
+    167,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-gauche-idle-b",
+   "boite": [
+    62,
+    72,
+    234,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-gauche-idle-c",
+   "boite": [
+    64,
+    72,
+    300,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-gauche-idle-d",
+   "boite": [
+    62,
+    72,
+    368,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-gauche-marche-a",
+   "boite": [
+    62,
+    75,
+    449,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-marche-b",
+   "boite": [
+    61,
+    74,
+    513,
+    436
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-marche-c",
+   "boite": [
+    61,
+    75,
+    577,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-marche-d",
+   "boite": [
+    64,
+    74,
+    638,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-marche-e",
+   "boite": [
+    63,
+    75,
+    702,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-marche-f",
+   "boite": [
+    61,
+    72,
+    767,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-gauche-attaque-bloc",
+   "boite": [
+    411,
+    118,
+    847,
+    391
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "poubelle-gauche-blesse-a",
+   "boite": [
+    75,
+    116,
+    1282,
+    397
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-gauche-blesse-b",
+   "boite": [
+    81,
+    107,
+    1361,
+    406
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-gauche-blesse-c",
+   "boite": [
+    77,
+    122,
+    1442,
+    387
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-bas-idle-a",
+   "boite": [
+    56,
+    85,
+    171,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-bas-idle-b",
+   "boite": [
+    57,
+    86,
+    239,
+    622
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-bas-idle-c",
+   "boite": [
+    57,
+    86,
+    306,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-bas-idle-d",
+   "boite": [
+    57,
+    85,
+    373,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-bas-marche-a",
+   "boite": [
+    56,
+    86,
+    453,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-marche-b",
+   "boite": [
+    64,
+    89,
+    509,
+    620
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-marche-c",
+   "boite": [
+    68,
+    86,
+    573,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-marche-d",
+   "boite": [
+    60,
+    84,
+    641,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-marche-e",
+   "boite": [
+    64,
+    87,
+    701,
+    622
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-marche-f",
+   "boite": [
+    57,
+    84,
+    771,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-bas-attaque-bloc",
+   "boite": [
+    406,
+    131,
+    851,
+    576
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "poubelle-bas-blesse-a",
+   "boite": [
+    78,
+    133,
+    1287,
+    578
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-bas-blesse-b",
+   "boite": [
+    73,
+    114,
+    1365,
+    597
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-bas-blesse-c",
+   "boite": [
+    67,
+    131,
+    1452,
+    580
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-haut-idle-a",
+   "boite": [
+    55,
+    79,
+    171,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-haut-idle-b",
+   "boite": [
+    56,
+    79,
+    239,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-haut-idle-c",
+   "boite": [
+    57,
+    80,
+    306,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-haut-idle-d",
+   "boite": [
+    56,
+    79,
+    373,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "poubelle-haut-marche-a",
+   "boite": [
+    55,
+    80,
+    454,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-marche-b",
+   "boite": [
+    65,
+    82,
+    509,
+    822
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-marche-c",
+   "boite": [
+    67,
+    81,
+    574,
+    823
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-marche-d",
+   "boite": [
+    55,
+    79,
+    648,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-marche-e",
+   "boite": [
+    62,
+    80,
+    703,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-marche-f",
+   "boite": [
+    57,
+    75,
+    771,
+    824
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "poubelle-haut-attaque-bloc",
+   "boite": [
+    407,
+    132,
+    850,
+    771
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "poubelle-haut-blesse-a",
+   "boite": [
+    77,
+    134,
+    1286,
+    776
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-haut-blesse-b",
+   "boite": [
+    74,
+    113,
+    1363,
+    796
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "poubelle-haut-blesse-c",
+   "boite": [
+    71,
+    130,
+    1449,
+    779
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

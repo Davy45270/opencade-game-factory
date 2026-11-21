@@ -1,0 +1,321 @@
+{
+ "webp_near_lossless": 80,
+ "status": "provisoire",
+ "planche": "Pestouille_RPG_Animations_Profil_HL541.jpg",
+ "marge": 0,
+ "taille": 64,
+ "detoure": true,
+ "modele": "noir-jpeg",
+ "directions": [
+  "east"
+ ],
+ "elements": [
+  {
+   "id": "pestouille-east-idle-a",
+   "boite": [
+    144,
+    131,
+    41,
+    22
+   ],
+   "ancre": "bas",
+   "centre_corps": 120
+  },
+  {
+   "id": "pestouille-east-idle-b",
+   "boite": [
+    141,
+    131,
+    255,
+    22
+   ],
+   "ancre": "bas",
+   "centre_corps": 332
+  },
+  {
+   "id": "pestouille-east-idle-c",
+   "boite": [
+    143,
+    131,
+    466,
+    22
+   ],
+   "ancre": "bas",
+   "centre_corps": 544
+  },
+  {
+   "id": "pestouille-east-idle-d",
+   "boite": [
+    143,
+    133,
+    679,
+    21
+   ],
+   "ancre": "bas",
+   "centre_corps": 758
+  },
+  {
+   "id": "pestouille-east-walk-a",
+   "boite": [
+    149,
+    136,
+    42,
+    176
+   ],
+   "ancre": "bas",
+   "centre_corps": 123
+  },
+  {
+   "id": "pestouille-east-walk-b",
+   "boite": [
+    147,
+    136,
+    255,
+    176
+   ],
+   "ancre": "bas",
+   "centre_corps": 335
+  },
+  {
+   "id": "pestouille-east-walk-c",
+   "boite": [
+    151,
+    138,
+    465,
+    174
+   ],
+   "ancre": "bas",
+   "centre_corps": 547
+  },
+  {
+   "id": "pestouille-east-walk-d",
+   "boite": [
+    148,
+    136,
+    680,
+    176
+   ],
+   "ancre": "bas",
+   "centre_corps": 761
+  },
+  {
+   "id": "pestouille-east-walk-e",
+   "boite": [
+    146,
+    138,
+    895,
+    174
+   ],
+   "ancre": "bas",
+   "centre_corps": 972
+  },
+  {
+   "id": "pestouille-east-walk-f",
+   "boite": [
+    147,
+    139,
+    1107,
+    173
+   ],
+   "ancre": "bas",
+   "centre_corps": 1185
+  },
+  {
+   "id": "pestouille-east-attack-a",
+   "boite": [
+    146,
+    135,
+    41,
+    333
+   ],
+   "ancre": "bas",
+   "centre_corps": 121
+  },
+  {
+   "id": "pestouille-east-attack-b",
+   "boite": [
+    146,
+    129,
+    256,
+    338
+   ],
+   "ancre": "bas",
+   "centre_corps": 336
+  },
+  {
+   "id": "pestouille-east-attack-c",
+   "boite": [
+    150,
+    131,
+    461,
+    336
+   ],
+   "ancre": "bas",
+   "centre_corps": 546
+  },
+  {
+   "id": "pestouille-east-attack-d",
+   "boite": [
+    178,
+    135,
+    672,
+    332
+   ],
+   "ancre": "bas",
+   "centre_corps": 758
+  },
+  {
+   "id": "pestouille-east-attack-e",
+   "boite": [
+    145,
+    131,
+    890,
+    336
+   ],
+   "ancre": "bas",
+   "centre_corps": 968
+  },
+  {
+   "id": "pestouille-east-attack-f",
+   "boite": [
+    144,
+    133,
+    1107,
+    334
+   ],
+   "ancre": "bas",
+   "centre_corps": 1183
+  },
+  {
+   "id": "pestouille-east-hurt-a",
+   "boite": [
+    164,
+    140,
+    41,
+    486
+   ],
+   "ancre": "bas",
+   "centre_corps": 121,
+   "sommet_corps": 490
+  },
+  {
+   "id": "pestouille-east-hurt-b",
+   "boite": [
+    140,
+    132,
+    252,
+    494
+   ],
+   "ancre": "bas",
+   "centre_corps": 333
+  },
+  {
+   "id": "pestouille-east-hurt-c",
+   "boite": [
+    153,
+    144,
+    467,
+    482
+   ],
+   "ancre": "bas",
+   "centre_corps": 546,
+   "sommet_corps": 491
+  }
+ ],
+ "animations": {
+  "pestouille/idle": {
+   "frames": [
+    "pestouille-east-idle-a",
+    "pestouille-east-idle-b",
+    "pestouille-east-idle-c",
+    "pestouille-east-idle-d"
+   ],
+   "fps": 6
+  },
+  "pestouille/walk": {
+   "frames": [
+    "pestouille-east-walk-a",
+    "pestouille-east-walk-b",
+    "pestouille-east-walk-c",
+    "pestouille-east-walk-d",
+    "pestouille-east-walk-e",
+    "pestouille-east-walk-f"
+   ],
+   "fps": 8
+  },
+  "pestouille/attack": {
+   "frames": [
+    "pestouille-east-attack-a",
+    "pestouille-east-attack-b",
+    "pestouille-east-attack-c",
+    "pestouille-east-attack-d",
+    "pestouille-east-attack-e",
+    "pestouille-east-attack-f"
+   ],
+   "fps": 10
+  },
+  "pestouille/hurt": {
+   "frames": [
+    "pestouille-east-hurt-a",
+    "pestouille-east-hurt-b",
+    "pestouille-east-hurt-c"
+   ],
+   "fps": 8
+  }
+ },
+ "quadrillage": {
+  "x": [
+   [
+    0,
+    9
+   ],
+   [
+    211,
+    220
+   ],
+   [
+    424,
+    433
+   ],
+   [
+    635,
+    645
+   ],
+   [
+    850,
+    858
+   ],
+   [
+    1061,
+    1070
+   ],
+   [
+    1273,
+    1280
+   ]
+  ],
+  "y": [
+   [
+    0,
+    8
+   ],
+   [
+    155,
+    164
+   ],
+   [
+    314,
+    323
+   ],
+   [
+    472,
+    482
+   ],
+   [
+    631,
+    640
+   ]
+  ]
+ },
+ "planche_sha256": "f508008dcb9e859052d65ee27a00cdb34eb5e33c1748681a7225f798e3fa5c1b"
+}

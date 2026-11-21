@@ -122,6 +122,12 @@ class DocumentationImperative(unittest.TestCase):
                 self.assertEqual({int(n) for n in re.findall(r"^\| (\d) \|", texte, re.M)}, attendus)
 
 
+    def test_codes_de_niveaux_documentes_egaux_a_la_spec_ext002(self):
+        from tools.levels import LevelExit
+        self.assertEqual({int(code) for code in LevelExit}, {0, 2, 3, 4, 5, 6, 7})
+        texte = (ROOT / "docs" / "ARCHITECTURE.md").read_text(encoding="utf-8")
+        self.assertEqual({int(n) for n in re.findall(r"^\| `(\d)` \|", texte, re.M)}, {int(c) for c in LevelExit})
+
 class GardesDeConception(unittest.TestCase):
     """E035 (aucune valeur de l'exemple contractuel codée en dur) et E071 (ni PostgreSQL ni service permanent)."""
 

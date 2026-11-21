@@ -269,10 +269,21 @@ Les révisions déjà publiées conservent leur preuve de publication.
 
 Cette table est **commune à toutes les sous-commandes** et aux CLI à venir de l’usine (`specctl`, niveaux, briques),
 alignée sur celle de `specctl` (REG-003) : 0 succès, 1 contrôle, 2 usage, 3 refus, 4 source indisponible, 5 conflit
-de versions. Un module ne crée pas son propre code ; un cas nouveau s’ajoute ici. Les codes de la spec EXT-002
-(`levelctl` : 3 référence absente, 4 validation échouée, 5 droits, 6 simulation indéterminée, 7 infrastructure) se
-rangent dans cette table : référence absente et validation échouée → 1, droits → 3, infrastructure → 4 ; une
-simulation indéterminée (`inconclusive`) n’est jamais un succès et rend 1, avec `status: inconclusive` dans le JSON.
+de versions. Un module ne crée pas son propre code ; un cas nouveau s’ajoute ici.
+
+**Seule exception : `assetctl level` (EXT-002, `levelctl`)**, dont la spec fixe ses propres codes (06_CLI_AGENTS) et
+qui les rend tels quels (`tools/levels.LevelExit`). Correspondance vers la table commune, pour un appelant qui
+enchaîne plusieurs modules :
+
+| Code `level` (spec EXT-002) | Signification | Code commun équivalent |
+| --- | --- | --- |
+| `0` | Succès | 0 |
+| `2` | Entrée invalide : arguments, version non semver, ID ou version déjà pris avec un autre contenu, archive dangereuse | 2 (usage) ; 5 pour une version ou un ID déjà pris ; 3 pour une archive dangereuse |
+| `3` | Référence absente : niveau inconnu, asset EXT-001 introuvable | 1 |
+| `4` | Validation échouée (structure, solvabilité, simulation, couverture de `discover`) | 1 |
+| `5` | Droits ou licence bloquants | 3 |
+| `6` | Simulation ou validation indéterminée (`inconclusive`, budget épuisé) : jamais un succès | 1 |
+| `7` | Erreur d’infrastructure : git, source illisible, module désactivé (`ASSETCTL_LEVELS=off`) | 4 |
 
 Le journal JSON Lines est écrit sur stderr par défaut. `--log <fichier>`
 ajoute les événements à un fichier extérieur au catalogue. Le résultat
@@ -442,7 +453,7 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
 - `import --source local --repo <clone> [--ref <sha>]` ou `--source archive --archive <zip>` : clé d'idempotence
   `{provider, repo, commit, path, contentSha256}` ; un même fichier à un nouveau commit garde son ID et ajoute une
   observation. La licence n'est `verified` que si le texte de licence lu dans la source confirme l'identifiant
-  déclaré (même évaluateur qu'EXT-001) ; sinon `unknown`, et `publish` rend 3. Une archive dangereuse va en
+  déclaré (même évaluateur qu'EXT-001) ; sinon `unknown`, et `publish` rend 5. Une archive dangereuse va en
   quarantaine. Les sources distantes passent par un clone local (`scan-repos` tient le miroir).
 - Formats : Tiled JSON et TMX (couches, gids bruts avec drapeaux de retournement, propriétés, objets, décalages,
   tilesets externes `.tsx`), LDtk (IntGrid, entités et leurs champs, `defs`, disposition du monde, niveaux externes
@@ -458,13 +469,13 @@ repris du contrat de la spec et complété par la provenance, le contenu normali
   plateforme (simulation à pas fixe avec les paramètres du profil `platformer`, marge de contrôle ; une plateforme
   mobile offre chaque position de sa trajectoire, le joueur pouvant l'attendre), circuit (boucle fermée, ordre des
   points de contrôle, largeur minimale du profil de kart, longueur de tour mesurée). Un budget dépassé rend
-  `inconclusive` (code 1), jamais `pass`. Le genre `puzzle` attend le moteur de son jeu.
+  `inconclusive` (code 6), jamais `pass`. Le genre `puzzle` attend le moteur de son jeu.
 - `generate --genre dungeon --seed N` : découpage BSP avec un PRNG mulberry32 sérialisable, sans horloge ; seed +
   version + contraintes donnent la même sortie à l'octet. **ADR** : l'algorithme BSP est l'algorithme standard de
   ROT.js et libtcod ; ces bibliothèques sont en JavaScript et en C, le registre est en Python : il est repris tel
   quel plutôt qu'appelé, et un autre genre n'aura de générateur qu'en réutilisant une bibliothèque existante.
 - `derive --constraints '{"transforms": ["mirror"]}'` crée une variante liée (`derivedFrom`, `transformations`).
 - `publish --version x.y.z` : licence vérifiée, validation `pass`, version immuable (un autre contenu sous la même
-  version rend 5) ; rend l'entrée `{id, version, sha256, transform}` d'un `level.lock.json`.
+  version rend 2) ; rend l'entrée `{id, version, sha256, transform}` d'un `level.lock.json`.
 - `usages <id> --scope repos.json` lit les `level.lock.json` des jeux : index inverse jeu/version et historique
   par commit.

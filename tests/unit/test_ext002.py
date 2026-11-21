@@ -247,7 +247,7 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
     def test_AT08_licence_absente_publication_refusee(self):
         sans = self.importer("sans-licence", "S.G", license_=False)
         self.assertEqual(self.lv("inspect", sans)["level"]["origin"]["licenseStatus"], "unknown")
-        refus = self.lv("publish", sans, "--version", "1.0.0", code=3)
+        refus = self.lv("publish", sans, "--version", "1.0.0", code=5)
         self.assertEqual((refus["status"], self.codes(refus)), ("blocked", {"license-unknown"}))
         self.assertFalse((self.root / "published" / "levels").exists())
         repo = self.depot("faux", {"levels/a.tmj": tiled("S.G"), "LICENSE.txt": "Free to use!"})
@@ -262,7 +262,7 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         with zipfile.ZipFile(archive, "w") as z:
             z.writestr("../../evasion.tmj", json.dumps(tiled("S.G")))
             z.writestr("LICENSE.txt", CC0)
-        refus = self.lv("import", "--source", "archive", "--archive", str(archive), "--license", "CC0-1.0", code=3)
+        refus = self.lv("import", "--source", "archive", "--archive", str(archive), "--license", "CC0-1.0", code=2)
         self.assertEqual(refus["status"], "blocked")
         self.assertIn("unsafe-archive", self.codes(refus))
         self.assertTrue((self.root / refus["quarantine"]).is_file())
@@ -279,7 +279,7 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         tileset = [{"firstgid": 1, "name": "cuisine", "properties": [
             {"name": "assetId", "type": "string", "value": "asset-sprite-introuvable-0001"}]}]
         absent = self.importer("absent", tiled("S.G", tilesets=tileset))
-        echec = self.lv("validate", absent, code=1)
+        echec = self.lv("validate", absent, code=3)
         self.assertIn("asset-missing", self.codes(echec))
         present = self.importer("present", tiled("S.G", tilesets=[{"firstgid": 1, "name": "cuisine", "properties": [
             {"name": "assetId", "type": "string", "value": ASSET_ID}]}]))
@@ -290,7 +290,7 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
 
     def test_AT11_donjon_cle_derriere_sa_porte(self):
         piege = self.importer("piege", "S...D.k\n#######\n......G", kind="dungeon")
-        echec = self.lv("validate", piege, code=1)
+        echec = self.lv("validate", piege, code=4)
         self.assertTrue({"key-behind-own-door", "dungeon-unsolvable"} <= self.codes(echec))
         bon = self.importer("bon", "S.k.D.G\n#######", kind="dungeon")
         rapport = self.lv("validate", bon)
@@ -301,13 +301,13 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         rapport = self.lv("validate", ok)
         self.assertEqual(rapport["checks"]["dungeon"]["metrics"]["pathLength"], 11)
         coince = self.importer("coince", "1.S##\n##.#2\n##g##\n##G##", kind="dungeon")
-        self.assertIn("dungeon-unsolvable", self.codes(self.lv("validate", coince, code=1)))
+        self.assertIn("dungeon-unsolvable", self.codes(self.lv("validate", coince, code=4)))
 
     def test_AT13_rpg_quete_inaccessible(self):
         quete = {"Q": ("quest", {"quest": "q1", "requires": "epee", "gives": "cle"}),
                  "E": ("item", {"gives": "epee"}), "X": ("barrier", {"requires": "cle"})}
         bloque = self.importer("bloque", tiled("S.Q.X.E\n#######", entities=quete), kind="rpg")
-        echec = self.lv("validate", bloque, code=1)
+        echec = self.lv("validate", bloque, code=4)
         self.assertIn("quest-unreachable", self.codes(echec))
         jouable = self.importer("jouable", tiled("S.E.Q.X.B\n#########", entities=quete), kind="rpg")
         rapport = self.lv("validate", jouable)
@@ -318,17 +318,17 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         carte["layers"][-1]["objects"].append({"id": 50, "name": "spawn", "type": "spawn", "x": 0, "y": 0,
                                               "width": 16, "height": 16, "properties": []})
         niveau = self.importer("mur", carte, kind="dungeon")
-        self.assertIn("spawn-in-obstacle", self.codes(self.lv("validate", niveau, code=1)))
+        self.assertIn("spawn-in-obstacle", self.codes(self.lv("validate", niveau, code=4)))
 
     def test_AT15_saut_hors_de_portee(self):
         proche = self.importer("proche", plateforme(3), kind="platformer")
         self.assertEqual(self.lv("validate", proche)["status"], "pass")
         loin = self.importer("loin", plateforme(12), kind="platformer")
-        echec = self.lv("validate", loin, code=1)
+        echec = self.lv("validate", loin, code=4)
         self.assertIn("jump-out-of-range", self.codes(echec))
         profil = self.root / "profil.json"
         profil.write_text(json.dumps({"platformer": {"jumpVelocity": 4.0}}))
-        self.assertIn("jump-out-of-range", self.codes(self.lv("validate", proche, "--profile", str(profil), code=1)))
+        self.assertIn("jump-out-of-range", self.codes(self.lv("validate", proche, "--profile", str(profil), code=4)))
 
     def test_AT16_plateforme_mobile_et_timing(self):
         navette = {"P": ("moving-platform", {"toX": 16, "period": 4})}
@@ -338,12 +338,12 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         self.assertEqual(rapport["metrics"]["movingPlatformCells"], 10)
         courte = {"P": ("moving-platform", {"toX": 9, "period": 4})}
         sans = self.importer("courte", tiled(plateforme(12, (7, 9)), entities=courte), kind="platformer")
-        self.assertIn("jump-out-of-range", self.codes(self.lv("simulate", sans, "--agent", "platform-bot", code=1)))
+        self.assertIn("jump-out-of-range", self.codes(self.lv("simulate", sans, "--agent", "platform-bot", code=4)))
         self.assertEqual(self.lv("simulate", avec, "--agent", "kart-bot", code=2)["status"], "failed")
 
     def test_AT17_circuit_interrompu(self):
         rompu = self.importer("rompu", tiled(_circuit(ANNEAU_ROMPU), entities=CIRCUIT, track=True), kind="circuit")
-        self.assertIn("circuit-interrupted", self.codes(self.lv("validate", rompu, code=1)))
+        self.assertIn("circuit-interrupted", self.codes(self.lv("validate", rompu, code=4)))
 
     def test_AT18_points_de_controle_desordonnes(self):
         bon = self.importer("bon", tiled(_circuit(ANNEAU), entities=CIRCUIT, track=True), kind="circuit")
@@ -351,10 +351,10 @@ class EXT002Acceptation(NiveauxFixture, TestCase):
         self.assertGreater(rapport["checks"]["circuit"]["metrics"]["lapCells"], 10)
         desordre = {**CIRCUIT, "b": ("checkpoint", {"order": 3}), "c": ("checkpoint", {"order": 2})}
         faux = self.importer("faux", tiled(_circuit(ANNEAU), entities=desordre, track=True), kind="circuit")
-        self.assertIn("checkpoints-out-of-order", self.codes(self.lv("validate", faux, code=1)))
+        self.assertIn("checkpoints-out-of-order", self.codes(self.lv("validate", faux, code=4)))
         etroit = self.root / "kart.json"
         etroit.write_text(json.dumps({"circuit": {"minWidth": 5, "kart": {"id": "kart-a", "version": "1.0.0"}}}))
-        self.assertIn("checkpoint-off-track", self.codes(self.lv("validate", bon, "--profile", str(etroit), code=1)))
+        self.assertIn("checkpoint-off-track", self.codes(self.lv("validate", bon, "--profile", str(etroit), code=4)))
 
     def test_AT19_generation_stable_par_seed(self):
         contraintes = self.root / "demande.json"
@@ -402,7 +402,7 @@ class EXT002Registre(NiveauxFixture, TestCase):
         self.assertEqual(self.lv("publish", niveau, "--version", "1.0.0")["status"], "unchanged")
         self.depot("jeu", {"levels/a.tmj": tiled("S..G")})
         self.lv(*args)
-        conflit = self.lv("publish", niveau, "--version", "1.0.0", code=5)
+        conflit = self.lv("publish", niveau, "--version", "1.0.0", code=2)
         self.assertIn("version-immutable", self.codes(conflit))
         self.assertEqual(self.lv("publish", niveau, "--version", "1.1.0")["status"], "published")
         versions = self.lv("inspect", niveau)["level"]["versions"]
@@ -425,7 +425,7 @@ class EXT002Registre(NiveauxFixture, TestCase):
         niveau = self.importer("grand", "S" + "." * 30 + "\n" + "." * 30 + "G", kind="dungeon")
         profil = self.root / "budget.json"
         profil.write_text(json.dumps({"budget": 5}))
-        rapport = self.lv("validate", niveau, "--profile", str(profil), code=1)
+        rapport = self.lv("validate", niveau, "--profile", str(profil), code=6)
         self.assertEqual(rapport["status"], "inconclusive")
 
     def test_recherche_fts5_et_filtre_par_genre(self):
@@ -446,7 +446,7 @@ class EXT002Registre(NiveauxFixture, TestCase):
     def test_transition_bidirectionnelle_exigee(self):
         aller = tiled("S.G", entities={"G": ("transition", {"target": "level-b-niveau", "bidirectional": True})})
         a = self.importer("a", aller, kind="rpg")
-        self.assertIn("transition-one-way", self.codes(self.lv("validate", a, code=1)))
+        self.assertIn("transition-one-way", self.codes(self.lv("validate", a, code=4)))
         self.importer("b", tiled("S.G", entities={"G": ("transition", {"target": a})}), kind="rpg")
         self.assertEqual(self.lv("validate", a)["status"], "pass")
 
@@ -460,9 +460,28 @@ class EXT002Registre(NiveauxFixture, TestCase):
             faux = {k: v for k, v in fiche.items() if k != champ}
             self.assertFalse(valide.is_valid(faux))
 
+    def test_codes_de_retour_de_la_spec(self):
+        """06_CLI_AGENTS : 0 succès, 2 entrée invalide, 3 référence absente, 4 validation échouée,
+        5 droits/licence bloquants, 6 simulation indéterminée, 7 erreur d'infrastructure."""
+        bon = self.importer("codes-ok", "S.G", kind="dungeon")
+        self.lv("validate", bon, code=0)
+        self.lv("publish", bon, "--version", "pas-semver", code=2)
+        self.lv("inspect", "level-qui-n-existe-pas", code=3)
+        piege = self.importer("codes-piege", "S#G", kind="dungeon")
+        self.lv("validate", piege, code=4)
+        profil = self.root / "codes-budget.json"
+        profil.write_text(json.dumps({"budget": 1}))
+        grand = self.importer("codes-grand", "S" + "." * 20 + "G", kind="dungeon")
+        self.lv("validate", grand, "--profile", str(profil), code=6)
+        with mock.patch("tools.levels.commands.Source.files",
+                        side_effect=subprocess.CalledProcessError(128, "git")):
+            portee = self.root / "codes-scope.json"
+            portee.write_text(json.dumps({"repos": [{"name": "x", "path": "."}]}))
+            self.lv("usages", bon, "--scope", str(portee), code=7)
+
     def test_module_desactive_et_registre_intact(self):
         with mock.patch.dict(os.environ, {"ASSETCTL_LEVELS": "off"}):
-            self.assertEqual(self.cli("level", "search")[0], 2)
+            self.assertEqual(self.cli("level", "search")[0], 7)
             self.assertEqual(self.cli("validate")[0], 0)
 
 

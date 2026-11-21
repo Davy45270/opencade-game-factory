@@ -133,6 +133,10 @@ case "$PIPELINE" in
     etape registre
     ./specctl --json validate
     ./specctl --json verify
+    etape index
+    ./specctl --json index --check
+    etape sbom-specctl
+    ./specctl --json sbom --out "${TMPDIR:-/tmp}/specctl.cdx.json"
     ;;
   build-index)
     dependances

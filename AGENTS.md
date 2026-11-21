@@ -81,6 +81,6 @@ envoyée à un tiers ni écrite dans un dépôt public. Les commits de jeux util
 | Module | Outil | Où |
 | --- | --- | --- |
 | assets | `assetctl` | `tools/` (registre, lots L1 à L3) |
-| specs | `specctl` | `specs/` : REG-003 ; oracles dans `tests/specs/` |
+| specs | `specctl` | `specs/` : REG-003 ; oracles dans `tests/specs/` ; après toute écriture du registre, `./specctl index` (la CI refuse un index périmé) |
 | blocks | `bbctl` | `blocks/` : BB-001 au-dessus de graphify ; oracles dans `tests/blocks/` |
 | CI commune des jeux | `ci/woodpecker.py` | `ci/` : gabarit Woodpecker inclus par génération vérifiée |

@@ -12,6 +12,16 @@ when:
     branch: [main, usine]
   - event: [pull_request, manual]
 
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      depth: 0
+      partial: false
+      # Branche cible récupérée par le plugin qui détient les identifiants (dépôt privé) : un `git fetch` dans une
+      # étape sort en 128 (pipeline 64, comme le pipeline 18 de HL-538).
+      fetch_target_branch: true
+
 steps:
   - name: dependances
     image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
@@ -29,6 +39,20 @@ steps:
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
 
+  # § 2 : sur une PR, aucun identifiant du registre d'IDs (specs/registry/ids.json) n'est retiré ni réattribué par
+  # rapport à la branche cible. Même mécanisme que controle-de-pr de validate.yml : la cible vient du clone.
+  - name: ids-contre-la-cible
+    image: *py
+    when:
+      - event: pull_request
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - CIBLE="$${CI_COMMIT_TARGET_BRANCH:?branche cible inconnue}"
+      - git rev-parse --verify -q "refs/remotes/origin/$$CIBLE^{commit}" >/dev/null || { echo "origin/$$CIBLE absente du clone"; exit 1; }
+      - ./specctl --json validate --base "origin/$$CIBLE"
+
   # Le registre réel du dépôt : schémas, identifiants, relations typées, liens cassés et cycles.
   - name: registre
     image: *py
@@ -36,3 +60,18 @@ steps:
       - . .venv/bin/activate
       - ./specctl --json validate
       - ./specctl --json verify
+
+  # § 3 et T10 : les index générés (generated/specs) se reconstruisent depuis les fiches seules, et ceux qui sont
+  # commités sont à jour (périmé = code 2).
+  - name: index
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json index --check
+
+  # § 9 : SBOM CycloneDX de specctl (fermeture des dépendances installées), licences dans la politique.
+  - name: sbom-specctl
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json sbom --out /tmp/specctl.cdx.json

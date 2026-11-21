@@ -423,7 +423,7 @@ def statuer(store, records, spec_id, lifecycle, visibility, ref):
         else:
             updated.pop("visibilityRef", None)
     if updated != record:
-        store.publish({spec_id: updated})
+        store.publish({spec_id: updated}, "statuer")
     return ExitCode.OK, {"status": "ok", "specId": spec_id, "lifecycle": updated["lifecycle"],
                          "visibility": updated["visibility"], "changed": updated != record}
 
@@ -441,7 +441,7 @@ def relier(store, records, spec_id, kind, target, rule):
     relations = [r for r in updated.get("relations", []) if (r["type"], r["target"]) != (kind, target)]
     updated["relations"] = sorted(relations + [relation], key=lambda r: (r["type"], r["target"]))
     if updated != record:
-        store.publish({spec_id: updated})
+        store.publish({spec_id: updated}, "relier")
     return ExitCode.OK, {"status": "ok", "specId": spec_id, "relation": relation, "changed": updated != record}
 
 

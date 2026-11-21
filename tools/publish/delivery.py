@@ -18,7 +18,7 @@ from tools.discovery.repos import Git, GitError, _copies
 from tools.discovery.scan import cache_path, directory_lock
 from tools.extract.commands import _bounded_read, _image
 from tools.extract.regions import canonical_png, crop, in_image
-from tools.publish.licenses import public_allowed
+from tools.publish.licenses import PRIVATE_LICENSES, public_allowed
 
 
 def scoped_path(path):
@@ -73,7 +73,8 @@ def private_destination(root, checkout):
 
 
 def granted_licenses(root, checkout):
-    """Private licenses that EVERY source matching this game checkout explicitly allows to publish."""
+    """Private licenses this checkout may publish: all of them when EVERY source matching it is a game of David
+    (role « game » in catalog/sources.json, GAME_GRANT, HL-538 2026-11-21) ; none for any other destination."""
     if checkout is None:
         return frozenset()
     catalogue = Catalogue(root)
@@ -92,9 +93,8 @@ def granted_licenses(root, checkout):
             return frozenset()
         names = {copy.name for copy in copies_for(root).values() if copy.provider != "local"
                  and origin.removesuffix(".git") == copy.url.removesuffix(".git")}
-    grants = [frozenset(grant["license"] for grant in source.get("publicationGrants", ()))
-              for source in value.get("sources", ()) if source.get("name") in names]
-    return frozenset.intersection(*grants) if grants else frozenset()
+    roles = [source.get("role") for source in value.get("sources", ()) if source.get("name") in names]
+    return PRIVATE_LICENSES if roles and all(role == "game" for role in roles) else frozenset()
 
 
 def sha(raw):

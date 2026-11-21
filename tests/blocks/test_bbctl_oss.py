@@ -125,6 +125,15 @@ class OpenSource(unittest.TestCase):
 
 
 class AutresEcosystemes(Base):
+    def test_dependance_retiree_fiche_gardee_plus_utilisee(self) -> None:
+        self.decouvrir()
+        (pillow,) = self.par_nom("pillow")
+        self.depot("jeu-b", {"requirements.txt": "\n"})
+        self.decouvrir()
+        f = self.catalogue()[pillow["id"]]                                      # identifiant jamais recyclé
+        self.assertEqual((f["usedBy"], f["observedIn"]), ([], []))
+        self.assertEqual(self.u.bbctl("validate", "--all", "--json").rc, 0)
+
     def test_espace_de_travail_npm_version_du_lockfile_racine(self) -> None:
         lock = {"lockfileVersion": 3, "packages": {"": {"name": "mono"},
                 "node_modules/pixi.js": {"version": "8.1.0", "license": "MIT"},

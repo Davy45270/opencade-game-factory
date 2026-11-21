@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "docker",
+    "key": "docker:nginxinc/nginx-unprivileged@1.30.0-alpine"
+  },
+  "id": "BB-DOCKER-NGINXINC-NGINX-UNPRIVILEGED-001",
+  "interfaces": [
+    {
+      "language": "container",
+      "runtime": "oci"
+    }
+  ],
+  "kind": "service",
+  "name": "nginxinc/nginx-unprivileged",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "Dockerfile",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "UNKNOWN",
+    "repositoryUrl": null,
+    "version": "1.30.0-alpine"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

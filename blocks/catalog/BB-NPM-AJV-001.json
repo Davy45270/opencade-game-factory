@@ -12,16 +12,31 @@
   "interfaces": [
     {
       "language": "javascript",
-      "runtime": "node"
+      "runtime": "browser"
     }
   ],
-  "kind": "cli-tool",
+  "kind": "external-library",
   "name": "ajv",
   "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "packages/contracts/package.json",
+      "repo": "capsule-panic"
+    },
     {
       "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
       "path": "package.json",
       "repo": "cozy-room-sort"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/content/package.json",
+      "repo": "pestouille-rpg"
+    },
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "packages/contracts/package.json",
+      "repo": "six-de-chaque"
     }
   ],
   "origin": {
@@ -42,6 +57,9 @@
   "schemaVersion": "1.0",
   "specIds": [],
   "usedBy": [
-    "cozy-room-sort"
+    "capsule-panic",
+    "cozy-room-sort",
+    "pestouille-rpg",
+    "six-de-chaque"
   ]
 }

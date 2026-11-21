@@ -6,6 +6,22 @@
   "capsule-panic": {
     "blocks": [
       {
+        "ecosystem": "docker",
+        "interface": {
+          "language": "container",
+          "runtime": "oci"
+        },
+        "key": "docker:nginxinc/nginx-unprivileged@1.30.0-alpine",
+        "kind": "service",
+        "license": "UNKNOWN",
+        "name": "nginxinc/nginx-unprivileged",
+        "path": "Dockerfile",
+        "usedBy": [
+          "capsule-panic"
+        ],
+        "version": "1.30.0-alpine"
+      },
+      {
         "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "ecosystem": "local",
         "interface": {
@@ -131,70 +147,6 @@
         "ecosystem": "npm",
         "interface": {
           "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@capsule-panic/contracts@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@capsule-panic/contracts",
-        "path": "packages/engine/package.json",
-        "usedBy": [
-          "capsule-panic"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@capsule-panic/engine@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@capsule-panic/engine",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "capsule-panic"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@capsule-panic/input@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@capsule-panic/input",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "capsule-panic"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@capsule-panic/renderer@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@capsule-panic/renderer",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "capsule-panic"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
           "runtime": "node"
         },
         "key": "npm:@playwright/test@1.65.0",
@@ -293,15 +245,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:ajv@unresolved",
+        "key": "npm:ajv@8.20.0",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "ajv",
         "path": "packages/contracts/package.json",
         "usedBy": [
           "capsule-panic"
         ],
-        "version": null
+        "version": "8.20.0"
       },
       {
         "ecosystem": "npm",
@@ -421,15 +373,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:pixi.js@unresolved",
+        "key": "npm:pixi.js@8.23.0",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "pixi.js",
         "path": "packages/renderer/package.json",
         "usedBy": [
           "capsule-panic"
         ],
-        "version": null
+        "version": "8.23.0"
       },
       {
         "ecosystem": "npm",
@@ -453,15 +405,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:react-dom@unresolved",
+        "key": "npm:react-dom@19.3.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "react-dom",
         "path": "apps/web/package.json",
         "usedBy": [
           "capsule-panic"
         ],
-        "version": null
+        "version": "19.3.1"
       },
       {
         "ecosystem": "npm",
@@ -469,15 +421,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:react@unresolved",
+        "key": "npm:react@19.3.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "react",
         "path": "apps/web/package.json",
         "usedBy": [
           "capsule-panic"
         ],
-        "version": null
+        "version": "19.3.1"
       },
       {
         "ecosystem": "npm",
@@ -675,70 +627,6 @@
         "ecosystem": "npm",
         "interface": {
           "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@cozy-room-sort/engine@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@cozy-room-sort/engine",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "cozy-room-sort"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@cozy-room-sort/generator@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@cozy-room-sort/generator",
-        "path": "packages/level-tools/package.json",
-        "usedBy": [
-          "cozy-room-sort"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@cozy-room-sort/schemas@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@cozy-room-sort/schemas",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "cozy-room-sort"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@cozy-room-sort/solver@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@cozy-room-sort/solver",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "cozy-room-sort"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
           "runtime": "node"
         },
         "key": "npm:@playwright/test@1.65.0",
@@ -750,22 +638,6 @@
           "cozy-room-sort"
         ],
         "version": "1.65.0"
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "node"
-        },
-        "key": "npm:@playwright/test@unresolved",
-        "kind": "test-harness",
-        "license": "UNKNOWN",
-        "name": "@playwright/test",
-        "path": "packages/level-tools/package.json",
-        "usedBy": [
-          "cozy-room-sort"
-        ],
-        "version": null
       },
       {
         "ecosystem": "npm",
@@ -885,15 +757,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:phaser@unresolved",
+        "key": "npm:phaser@4.2.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "phaser",
         "path": "apps/web/package.json",
         "usedBy": [
           "cozy-room-sort"
         ],
-        "version": null
+        "version": "4.2.1"
       },
       {
         "ecosystem": "npm",
@@ -2796,214 +2668,6 @@
           "language": "javascript",
           "runtime": "node"
         },
-        "key": "npm:@pestouille/assets-pipeline@unresolved",
-        "kind": "cli-tool",
-        "license": "UNKNOWN",
-        "name": "@pestouille/assets-pipeline",
-        "path": "package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/characters@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/characters",
-        "path": "packages/combat/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/combat@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/combat",
-        "path": "packages/engine/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/content@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/content",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/core@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/core",
-        "path": "packages/characters/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/creatures@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/creatures",
-        "path": "packages/combat/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/engine@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/engine",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/inventory@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/inventory",
-        "path": "packages/engine/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/quests@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/quests",
-        "path": "packages/engine/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/renderer-phaser@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/renderer-phaser",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/solver@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/solver",
-        "path": "packages/engine/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/web@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/web",
-        "path": "package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@pestouille/world@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@pestouille/world",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "pestouille-rpg"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "node"
-        },
         "key": "npm:@playwright/test@1.65.1",
         "kind": "test-harness",
         "license": "Apache-2.0",
@@ -3052,15 +2716,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:ajv@unresolved",
+        "key": "npm:ajv@8.20.0",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "ajv",
         "path": "packages/content/package.json",
         "usedBy": [
           "pestouille-rpg"
         ],
-        "version": null
+        "version": "8.20.0"
       },
       {
         "ecosystem": "npm",
@@ -3148,15 +2812,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:phaser@unresolved",
+        "key": "npm:phaser@4.2.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "phaser",
         "path": "packages/renderer-phaser/package.json",
         "usedBy": [
           "pestouille-rpg"
         ],
-        "version": null
+        "version": "4.2.1"
       },
       {
         "ecosystem": "npm",
@@ -3552,86 +3216,6 @@
         "ecosystem": "npm",
         "interface": {
           "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@six-de-chaque/ai@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@six-de-chaque/ai",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "six-de-chaque"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@six-de-chaque/contracts@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@six-de-chaque/contracts",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "six-de-chaque"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@six-de-chaque/engine@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@six-de-chaque/engine",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "six-de-chaque"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@six-de-chaque/puzzles@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@six-de-chaque/puzzles",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "six-de-chaque"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
-          "runtime": "browser"
-        },
-        "key": "npm:@six-de-chaque/renderer-pixi@unresolved",
-        "kind": "external-library",
-        "license": "UNKNOWN",
-        "name": "@six-de-chaque/renderer-pixi",
-        "path": "apps/web/package.json",
-        "usedBy": [
-          "six-de-chaque"
-        ],
-        "version": null
-      },
-      {
-        "ecosystem": "npm",
-        "interface": {
-          "language": "javascript",
           "runtime": "node"
         },
         "key": "npm:@stryker-mutator/core@10.1.1",
@@ -3746,15 +3330,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:ajv@unresolved",
+        "key": "npm:ajv@8.20.0",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "ajv",
         "path": "packages/contracts/package.json",
         "usedBy": [
           "six-de-chaque"
         ],
-        "version": null
+        "version": "8.20.0"
       },
       {
         "ecosystem": "npm",
@@ -3842,15 +3426,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:pixi.js@unresolved",
+        "key": "npm:pixi.js@8.23.0",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "pixi.js",
         "path": "packages/renderer-pixi/package.json",
         "usedBy": [
           "six-de-chaque"
         ],
-        "version": null
+        "version": "8.23.0"
       },
       {
         "ecosystem": "npm",
@@ -3858,15 +3442,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:react-dom@unresolved",
+        "key": "npm:react-dom@19.3.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "react-dom",
         "path": "apps/web/package.json",
         "usedBy": [
           "six-de-chaque"
         ],
-        "version": null
+        "version": "19.3.1"
       },
       {
         "ecosystem": "npm",
@@ -3874,15 +3458,15 @@
           "language": "javascript",
           "runtime": "browser"
         },
-        "key": "npm:react@unresolved",
+        "key": "npm:react@19.3.1",
         "kind": "external-library",
-        "license": "UNKNOWN",
+        "license": "MIT",
         "name": "react",
         "path": "apps/web/package.json",
         "usedBy": [
           "six-de-chaque"
         ],
-        "version": null
+        "version": "19.3.1"
       },
       {
         "ecosystem": "npm",

@@ -12,6 +12,9 @@ from tools.core.exit_codes import ExitCode
 
 from .decisions import VersionConflict, import_decisions
 from .discover import discover, impact, inspect, usages
+from .opensource import search_opensource
+from . import evenements
+from .adoption import Conflict, adopt, gate, write_block
 from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
@@ -29,6 +32,14 @@ CODE_HELP = """Codes de retour
 
 class UsageError(ValueError):
     pass
+
+
+class Uncovered(Exception):
+    """gate : briques nouvelles sans décision ni dérogation (code 1, résultat complet en JSON)."""
+
+    def __init__(self, result):
+        super().__init__("Brique nouvelle sans recherche documentée : " + ", ".join(result["uncovered"]))
+        self.result = result
 
 
 class Parser(argparse.ArgumentParser):
@@ -53,6 +64,8 @@ def parser():
         "inspect": "Afficher une fiche.",
         "usages": "Dépôts et jeux qui utilisent une brique.",
         "impact": "Projets touchés par un changement de version.",
+        "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
+        "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
     }
     sub = {}
     for name, description in descriptions.items():
@@ -67,7 +80,10 @@ def parser():
     importer.add_argument("--dry-run", action="store_true")
     searcher = sub["search"]
     searcher.add_argument("--query", required=True)
-    searcher.add_argument("--scope", choices=("internal",), required=True)
+    searcher.add_argument("--scope", choices=("internal", "opensource"), required=True)
+    searcher.add_argument("--ecosystem", choices=("npm",), default="npm", help="opensource : registre interrogé.")
+    searcher.add_argument("--size", type=int, default=10, help="opensource : nombre de candidats.")
+    searcher.add_argument("--record", action="store_true", help="opensource : inscrire les candidats au catalogue.")
     searcher.add_argument("--graph", type=Path, help="Défaut : BBCTL_GRAPH ou ~/graphify/public/graph.json.")
     searcher.add_argument("--repo")
     searcher.add_argument("--kind")
@@ -84,6 +100,20 @@ def parser():
     for name in ("inspect", "usages", "impact"):
         sub[name].add_argument("block")
     sub["impact"].add_argument("--to-version", required=True)
+    adopter = sub["adopt"]
+    adopter.add_argument("--candidate", required=True)
+    adopter.add_argument("--used-by", required=True)
+    adopter.add_argument("--version", required=True)
+    adopter.add_argument("--pr", required=True)
+    adopter.add_argument("--tests", required=True)
+    adopter.add_argument("--sbom")
+    for name in ("adopt", "decide"):
+        sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
+    gater = sub["gate"]
+    gater.add_argument("--repo", type=Path, required=True)
+    gater.add_argument("--base", required=True)
+    gater.add_argument("--head", default="HEAD")
+    gater.add_argument("--name", help="Nom du dépôt (défaut : nom du dossier).")
     sub["evaluate"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
@@ -118,10 +148,13 @@ def run(args, root):
     if command == "duplicates":
         return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
-    write = command == "decide" or (command in {"import-decisions", "discover"} and not args.dry_run)
+    write = (command in {"decide", "adopt", "gate"} or (command in {"import-decisions", "discover"} and not args.dry_run)
+             or (command == "search" and args.scope == "opensource" and args.record))
     with lock(root, write=write):
         if command == "import-decisions":
             return import_decisions(blocks, args.source, args.repo, args.commit, args.dry_run)
+        if command == "search" and args.scope == "opensource":
+            return search_opensource(blocks, args.query, args.ecosystem, args.size, args.record)
         if command == "search":
             graph_path = args.graph or Path(os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json")
             return search(blocks, args, graph_path.expanduser())
@@ -136,6 +169,16 @@ def run(args, root):
             return usages(records, args.block)
         if command == "impact":
             return impact(records, args.block, args.to_version)
+        if command == "adopt":
+            return adopt(blocks, records, args)
+        if command == "gate":
+            try:
+                result = gate(blocks, records, args.repo, args.base, args.head, args.name)
+            except ValueError as exc:
+                raise UsageError(str(exc)) from exc
+            if result["uncovered"]:
+                raise Uncovered(result)
+            return result
         if command == "validate":
             return {"count": len(records)}
         if args.candidate not in records:
@@ -147,10 +190,14 @@ def run(args, root):
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
         decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason}
-        if block["decision"] != decision:
+        changed = False
+        if block["decision"] != decision or args.expect is not None:
             block["decision"] = decision
-            write_json(path, block)
-        return {"candidate": block["id"], "decision": decision}
+            changed = write_block(blocks, path, block, "decide", args.expect)
+        if changed:
+            evenements.emettre("bb.decided", "success", (block["usedBy"] or ["inconnu"])[0], [block["id"]],
+                               {"choice": args.choice, "score": result["score"]}, args.choice + args.reason)
+        return {"candidate": block["id"], "decision": decision, "changed": changed}
 
 
 def main(argv=None):
@@ -168,6 +215,10 @@ def main(argv=None):
         code, payload = ExitCode.USAGE, {"status": "usage", "error": str(exc)}
     except (GraphUnavailable, OSError, ImportError) as exc:
         code, payload = ExitCode.IO, {"status": "source-unavailable", "error": str(exc)}
+    except Uncovered as exc:
+        code, payload = ExitCode.CHECK_FAILED, {"status": "check-failed", "error": str(exc), **exc.result}
+    except Conflict as exc:
+        code, payload = ExitCode.VERSION_CONFLICT, {"status": "conflict", "error": str(exc)}
     except VersionConflict as exc:
         code, payload = ExitCode.VERSION_CONFLICT, {"status": "version-conflict", "error": str(exc)}
     except CatalogueScopeError as exc:

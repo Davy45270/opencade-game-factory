@@ -1,0 +1,946 @@
+{
+ "planche": "araignee-grotte-detouree.png",
+ "planche_sha256": "4b9e03a237cb09add3933b47324b53fc9ae444bc6ca854e5e156ce299f1b706a",
+ "marge": 0,
+ "source": "araignee_grotte.png",
+ "source_sha256": "71b1e858aff8f5a5fa3a12a796cbaf870383808d971461a829e66dabc21dc1e7",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "araignee-grotte-droite-idle-a",
+   "boite": [
+    64,
+    56,
+    165,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-droite-idle-b",
+   "boite": [
+    63,
+    56,
+    235,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-droite-idle-c",
+   "boite": [
+    64,
+    56,
+    302,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-droite-idle-d",
+   "boite": [
+    64,
+    56,
+    369,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-droite-marche-a",
+   "boite": [
+    64,
+    56,
+    452,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-marche-b",
+   "boite": [
+    64,
+    57,
+    516,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-marche-c",
+   "boite": [
+    62,
+    56,
+    580,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-marche-d",
+   "boite": [
+    62,
+    56,
+    642,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-marche-e",
+   "boite": [
+    62,
+    56,
+    704,
+    251
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-marche-f",
+   "boite": [
+    62,
+    56,
+    766,
+    252
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-droite-attaque-bloc",
+   "boite": [
+    412,
+    81,
+    845,
+    227
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "araignee-grotte-droite-blesse-a",
+   "boite": [
+    75,
+    97,
+    1282,
+    211
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-droite-blesse-b",
+   "boite": [
+    73,
+    60,
+    1364,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-droite-blesse-c",
+   "boite": [
+    74,
+    92,
+    1447,
+    216
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-gauche-idle-a",
+   "boite": [
+    64,
+    55,
+    165,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-gauche-idle-b",
+   "boite": [
+    65,
+    56,
+    235,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-gauche-idle-c",
+   "boite": [
+    65,
+    56,
+    300,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-gauche-idle-d",
+   "boite": [
+    66,
+    56,
+    369,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-a",
+   "boite": [
+    62,
+    55,
+    454,
+    439
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-b",
+   "boite": [
+    64,
+    55,
+    516,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-c",
+   "boite": [
+    63,
+    56,
+    580,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-d",
+   "boite": [
+    62,
+    56,
+    643,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-e",
+   "boite": [
+    62,
+    57,
+    705,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-marche-f",
+   "boite": [
+    62,
+    57,
+    767,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-attaque-bloc",
+   "boite": [
+    412,
+    81,
+    847,
+    414
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "araignee-grotte-gauche-blesse-a",
+   "boite": [
+    73,
+    88,
+    1283,
+    407
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-gauche-blesse-b",
+   "boite": [
+    73,
+    59,
+    1366,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-gauche-blesse-c",
+   "boite": [
+    73,
+    95,
+    1448,
+    401
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-bas-idle-a",
+   "boite": [
+    66,
+    64,
+    164,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-bas-idle-b",
+   "boite": [
+    66,
+    65,
+    233,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-bas-idle-c",
+   "boite": [
+    65,
+    64,
+    301,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-bas-idle-d",
+   "boite": [
+    68,
+    65,
+    366,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-bas-marche-a",
+   "boite": [
+    63,
+    63,
+    452,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-marche-b",
+   "boite": [
+    61,
+    65,
+    518,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-marche-c",
+   "boite": [
+    62,
+    65,
+    582,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-marche-d",
+   "boite": [
+    62,
+    64,
+    644,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-marche-e",
+   "boite": [
+    59,
+    63,
+    708,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-marche-f",
+   "boite": [
+    62,
+    64,
+    767,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-bas-attaque-bloc",
+   "boite": [
+    414,
+    140,
+    845,
+    581
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "araignee-grotte-bas-blesse-a",
+   "boite": [
+    81,
+    95,
+    1280,
+    595
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-bas-blesse-b",
+   "boite": [
+    77,
+    69,
+    1363,
+    622
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-bas-blesse-c",
+   "boite": [
+    76,
+    99,
+    1446,
+    591
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-haut-idle-a",
+   "boite": [
+    69,
+    66,
+    162,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-haut-idle-b",
+   "boite": [
+    65,
+    66,
+    234,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-haut-idle-c",
+   "boite": [
+    65,
+    65,
+    301,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-haut-idle-d",
+   "boite": [
+    67,
+    65,
+    368,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "araignee-grotte-haut-marche-a",
+   "boite": [
+    65,
+    64,
+    451,
+    827
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-marche-b",
+   "boite": [
+    64,
+    66,
+    516,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-marche-c",
+   "boite": [
+    63,
+    63,
+    580,
+    827
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-marche-d",
+   "boite": [
+    62,
+    65,
+    643,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-marche-e",
+   "boite": [
+    61,
+    64,
+    705,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-marche-f",
+   "boite": [
+    64,
+    63,
+    766,
+    827
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "araignee-grotte-haut-attaque-bloc",
+   "boite": [
+    415,
+    124,
+    844,
+    768
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "araignee-grotte-haut-blesse-a",
+   "boite": [
+    82,
+    100,
+    1280,
+    792
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-haut-blesse-b",
+   "boite": [
+    76,
+    66,
+    1364,
+    825
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "araignee-grotte-haut-blesse-c",
+   "boite": [
+    76,
+    102,
+    1446,
+    790
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

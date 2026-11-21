@@ -1,0 +1,316 @@
+{
+ "planche": "pestouille_face.png",
+ "planche_sha256": "139937dd0f0dd17791cf71120c8185ff5f650ecdc4635ba20e632db4a323623d",
+ "marge": 0,
+ "source": "pestouille_face.png",
+ "source_sha256": "139937dd0f0dd17791cf71120c8185ff5f650ecdc4635ba20e632db4a323623d",
+ "gabarit": "planche19",
+ "seuil_fond": null,
+ "seuil_alpha": 0,
+ "constats": [
+  {
+   "ligne": "",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-face-idle-a",
+   "boite": [
+    165,
+    182,
+    63,
+    17
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-face-idle-b",
+   "boite": [
+    167,
+    181,
+    359,
+    17
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-face-idle-c",
+   "boite": [
+    166,
+    181,
+    654,
+    17
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-face-idle-d",
+   "boite": [
+    166,
+    181,
+    951,
+    17
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-face-marche-a",
+   "boite": [
+    160,
+    187,
+    64,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-marche-b",
+   "boite": [
+    162,
+    192,
+    361,
+    231
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-marche-c",
+   "boite": [
+    163,
+    188,
+    654,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-marche-d",
+   "boite": [
+    158,
+    187,
+    953,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-marche-e",
+   "boite": [
+    166,
+    187,
+    1244,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-marche-f",
+   "boite": [
+    159,
+    192,
+    1544,
+    231
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-a",
+   "boite": [
+    164,
+    183,
+    64,
+    461
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-b",
+   "boite": [
+    173,
+    179,
+    356,
+    465
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-c",
+   "boite": [
+    186,
+    186,
+    648,
+    458
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-d",
+   "boite": [
+    197,
+    187,
+    940,
+    457
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-e",
+   "boite": [
+    166,
+    184,
+    1245,
+    460
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-attaque-f",
+   "boite": [
+    166,
+    184,
+    1541,
+    460
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-face-blesse-a",
+   "boite": [
+    175,
+    182,
+    63,
+    680
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-face-blesse-b",
+   "boite": [
+    187,
+    166,
+    345,
+    698
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-face-blesse-c",
+   "boite": [
+    165,
+    180,
+    654,
+    683
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

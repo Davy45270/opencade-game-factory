@@ -1,0 +1,946 @@
+{
+ "planche": "arbre-vivant-detouree.png",
+ "planche_sha256": "1569dfa5f6e925cbe3635d7de4f28b02624252b8033d4f60a33157e308cbdcc4",
+ "marge": 0,
+ "source": "arbre_vivant.png",
+ "source_sha256": "851a776f6acc84edc110059053ac6e3ec117087bc777870ae943bf1b52cd96b3",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "arbre-vivant-droite-idle-a",
+   "boite": [
+    66,
+    82,
+    169,
+    230
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-droite-idle-b",
+   "boite": [
+    65,
+    81,
+    238,
+    231
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-droite-idle-c",
+   "boite": [
+    65,
+    82,
+    305,
+    230
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-droite-idle-d",
+   "boite": [
+    64,
+    80,
+    372,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-droite-marche-a",
+   "boite": [
+    64,
+    81,
+    454,
+    231
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-marche-b",
+   "boite": [
+    63,
+    79,
+    518,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-marche-c",
+   "boite": [
+    64,
+    80,
+    581,
+    232
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-marche-d",
+   "boite": [
+    61,
+    78,
+    645,
+    233
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-marche-e",
+   "boite": [
+    59,
+    78,
+    706,
+    233
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-marche-f",
+   "boite": [
+    64,
+    78,
+    765,
+    233
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-droite-attaque-bloc",
+   "boite": [
+    413,
+    106,
+    847,
+    207
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "arbre-vivant-droite-blesse-a",
+   "boite": [
+    72,
+    109,
+    1284,
+    204
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-droite-blesse-b",
+   "boite": [
+    73,
+    74,
+    1366,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-droite-blesse-c",
+   "boite": [
+    67,
+    102,
+    1451,
+    210
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-gauche-idle-a",
+   "boite": [
+    66,
+    82,
+    168,
+    420
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-gauche-idle-b",
+   "boite": [
+    66,
+    83,
+    237,
+    419
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-gauche-idle-c",
+   "boite": [
+    65,
+    81,
+    305,
+    420
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-gauche-idle-d",
+   "boite": [
+    66,
+    81,
+    370,
+    421
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-a",
+   "boite": [
+    63,
+    79,
+    454,
+    422
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-b",
+   "boite": [
+    62,
+    79,
+    517,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-c",
+   "boite": [
+    62,
+    79,
+    579,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-d",
+   "boite": [
+    62,
+    78,
+    641,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-e",
+   "boite": [
+    63,
+    79,
+    703,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-marche-f",
+   "boite": [
+    61,
+    79,
+    766,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-attaque-bloc",
+   "boite": [
+    412,
+    105,
+    847,
+    398
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "arbre-vivant-gauche-blesse-a",
+   "boite": [
+    68,
+    99,
+    1284,
+    403
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-gauche-blesse-b",
+   "boite": [
+    71,
+    78,
+    1366,
+    424
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-gauche-blesse-c",
+   "boite": [
+    69,
+    105,
+    1448,
+    397
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-bas-idle-a",
+   "boite": [
+    68,
+    89,
+    169,
+    607
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-bas-idle-b",
+   "boite": [
+    67,
+    89,
+    237,
+    606
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-bas-idle-c",
+   "boite": [
+    66,
+    88,
+    304,
+    607
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-bas-idle-d",
+   "boite": [
+    68,
+    87,
+    370,
+    608
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-bas-marche-a",
+   "boite": [
+    62,
+    84,
+    455,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-marche-b",
+   "boite": [
+    63,
+    85,
+    517,
+    610
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-marche-c",
+   "boite": [
+    63,
+    85,
+    580,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-marche-d",
+   "boite": [
+    61,
+    84,
+    643,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-marche-e",
+   "boite": [
+    62,
+    85,
+    704,
+    610
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-marche-f",
+   "boite": [
+    63,
+    85,
+    766,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-bas-attaque-bloc",
+   "boite": [
+    415,
+    101,
+    846,
+    597
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "arbre-vivant-bas-blesse-a",
+   "boite": [
+    76,
+    112,
+    1282,
+    584
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-bas-blesse-b",
+   "boite": [
+    76,
+    86,
+    1365,
+    611
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-bas-blesse-c",
+   "boite": [
+    72,
+    108,
+    1447,
+    589
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-haut-idle-a",
+   "boite": [
+    67,
+    92,
+    168,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-haut-idle-b",
+   "boite": [
+    68,
+    91,
+    235,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-haut-idle-c",
+   "boite": [
+    66,
+    91,
+    303,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-haut-idle-d",
+   "boite": [
+    67,
+    91,
+    369,
+    811
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "arbre-vivant-haut-marche-a",
+   "boite": [
+    63,
+    89,
+    454,
+    809
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-marche-b",
+   "boite": [
+    61,
+    88,
+    519,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-marche-c",
+   "boite": [
+    62,
+    88,
+    580,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-marche-d",
+   "boite": [
+    63,
+    89,
+    642,
+    810
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-marche-e",
+   "boite": [
+    61,
+    88,
+    705,
+    811
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-marche-f",
+   "boite": [
+    63,
+    87,
+    766,
+    811
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "arbre-vivant-haut-attaque-bloc",
+   "boite": [
+    416,
+    129,
+    845,
+    771
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "arbre-vivant-haut-blesse-a",
+   "boite": [
+    74,
+    121,
+    1280,
+    779
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-haut-blesse-b",
+   "boite": [
+    80,
+    93,
+    1359,
+    808
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "arbre-vivant-haut-blesse-c",
+   "boite": [
+    71,
+    117,
+    1445,
+    783
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

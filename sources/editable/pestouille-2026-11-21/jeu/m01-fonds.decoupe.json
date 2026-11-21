@@ -1,0 +1,655 @@
+{
+ "webp_near_lossless": 20,
+ "status": "provisoire",
+ "planche": "Pestouille_RPG_Maquette_01_Exploration_Combat.png",
+ "marge": 0,
+ "taille": "541x234",
+ "detoure": false,
+ "elements": [
+  {
+   "id": "fond-village",
+   "boite": [
+    541,
+    234,
+    17,
+    320
+   ],
+   "ancre": "centre",
+   "derive": "les villageois peints sont effacés (le jeu dessine ses PNJ par-dessus) ; aucune autre planche ne montre ce village sans personnage",
+   "effacements": [
+    {
+     "zone": [
+      26,
+      40,
+      224,
+      331
+     ],
+     "source": [
+      224,
+      373
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "villageoise en violet, en haut du chemin (pavés au-dessous)"
+    },
+    {
+     "zone": [
+      30,
+      46,
+      163,
+      385
+     ],
+     "source": [
+      163,
+      339
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "villageois en vert près de la maison (buisson au-dessus)"
+    },
+    {
+     "zone": [
+      26,
+      40,
+      197,
+      427
+     ],
+     "source": [
+      197,
+      385
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "villageois en violet devant la fontaine (pavés au-dessus)"
+    },
+    {
+     "zone": [
+      26,
+      42,
+      429,
+      469
+     ],
+     "source": [
+      455,
+      469
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "villageois en vert sur la place (pavés à droite)"
+    },
+    {
+     "zone": [
+      26,
+      36,
+      294,
+      518
+     ],
+     "source": [
+      321,
+      518
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "villageois en bas à gauche (pavés à droite)"
+    },
+    {
+     "zone": [
+      16,
+      26,
+      512,
+      430
+     ],
+     "source": [
+      530,
+      430
+     ],
+     "methode": "clonage",
+     "plume": 3,
+     "motif": "petite silhouette rose devant la maison (massif à droite)"
+    }
+   ]
+  },
+  {
+   "id": "fond-foret",
+   "boite": [
+    530,
+    234,
+    588,
+    320
+   ],
+   "ancre": "centre",
+   "taille": "530x234",
+   "derive": "le petit dragon peint est effacé (le jeu dessine Pestouille par-dessus)",
+   "effacements": [
+    {
+     "zone": [
+      44,
+      34,
+      793,
+      452
+     ],
+     "source": [
+      793,
+      418
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "motif": "tête du petit dragon (herbe au-dessus)"
+    },
+    {
+     "zone": [
+      52,
+      34,
+      778,
+      478
+     ],
+     "source": [
+      778,
+      512
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "motif": "corps du petit dragon (chemin de pierres au-dessous)"
+    },
+    {
+     "zone": [
+      14,
+      36,
+      826,
+      476
+     ],
+     "source": [
+      852,
+      476
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "motif": "ombre du petit dragon (chemin à droite)"
+    }
+   ]
+  },
+  {
+   "id": "fond-temple",
+   "boite": [
+    510,
+    234,
+    1144,
+    320
+   ],
+   "ancre": "centre",
+   "taille": "510x234"
+  },
+  {
+   "id": "fond-combat-foret",
+   "boite": [
+    424,
+    222,
+    16,
+    586
+   ],
+   "ancre": "centre",
+   "taille": "424x222",
+   "derive": "plante carnivore, deux souches et trois héros peints effacés par clonage du décor de la même planche",
+   "effacements": [
+    {
+     "zone": [
+      130,
+      48,
+      26,
+      622
+     ],
+     "source": [
+      156,
+      606
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (sous-bois de la même scène)"
+    },
+    {
+     "zone": [
+      84,
+      26,
+      26,
+      670
+     ],
+     "source": [
+      215,
+      774
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      46,
+      26,
+      110,
+      670
+     ],
+     "source": [
+      204,
+      757
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      130,
+      26,
+      26,
+      696
+     ],
+     "source": [
+      196,
+      757
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      62,
+      26,
+      26,
+      722
+     ],
+     "source": [
+      174,
+      751
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      68,
+      26,
+      88,
+      722
+     ],
+     "source": [
+      244,
+      748
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      94,
+      18,
+      26,
+      748
+     ],
+     "source": [
+      213,
+      787
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      36,
+      18,
+      120,
+      748
+     ],
+     "source": [
+      196,
+      785
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "plante carnivore (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      115,
+      18,
+      159,
+      652
+     ],
+     "source": [
+      156,
+      621
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "deux souches (sous-bois de la même scène)"
+    },
+    {
+     "zone": [
+      56,
+      26,
+      159,
+      670
+     ],
+     "source": [
+      164,
+      749
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      59,
+      26,
+      215,
+      670
+     ],
+     "source": [
+      186,
+      747
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      115,
+      26,
+      159,
+      696
+     ],
+     "source": [
+      212,
+      758
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      89,
+      26,
+      159,
+      722
+     ],
+     "source": [
+      193,
+      777
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      26,
+      26,
+      248,
+      722
+     ],
+     "source": [
+      273,
+      763
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      82,
+      2,
+      159,
+      748
+     ],
+     "source": [
+      166,
+      791
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      33,
+      2,
+      241,
+      748
+     ],
+     "source": [
+      214,
+      778
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "deux souches (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      122,
+      46,
+      318,
+      624
+     ],
+     "source": [
+      166,
+      607
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (sous-bois de la même scène)"
+    },
+    {
+     "zone": [
+      74,
+      26,
+      318,
+      670
+     ],
+     "source": [
+      228,
+      752
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      48,
+      26,
+      392,
+      670
+     ],
+     "source": [
+      230,
+      770
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      60,
+      26,
+      318,
+      696
+     ],
+     "source": [
+      264,
+      746
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      62,
+      26,
+      378,
+      696
+     ],
+     "source": [
+      272,
+      749
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      86,
+      26,
+      318,
+      722
+     ],
+     "source": [
+      246,
+      771
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      36,
+      26,
+      404,
+      722
+     ],
+     "source": [
+      206,
+      763
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      77,
+      26,
+      318,
+      748
+     ],
+     "source": [
+      198,
+      746
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": true,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      45,
+      26,
+      395,
+      748
+     ],
+     "source": [
+      186,
+      754
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      71,
+      18,
+      318,
+      774
+     ],
+     "source": [
+      157,
+      749
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    },
+    {
+     "zone": [
+      51,
+      18,
+      389,
+      774
+     ],
+     "source": [
+      201,
+      781
+     ],
+     "methode": "clonage",
+     "plume": 4,
+     "miroir": false,
+     "motif": "dragon, mage et nain (herbe et chemin de la même scène)"
+    }
+   ],
+   "masque_max": 0.65,
+   "raison": "décision de David, commentaire 7-3150 : effacer les personnages des zones exactes, ce qui impose cette surface retouchée (mesure : union des zones 59 % du cadre)"
+  },
+  {
+   "id": "carte-monde",
+   "boite": [
+    390,
+    320,
+    1251,
+    584
+   ],
+   "ancre": "centre",
+   "taille": "390x320"
+  },
+  {
+   "id": "panneau-dialogue",
+   "boite": [
+    218,
+    91,
+    697,
+    797
+   ],
+   "ancre": "centre",
+   "taille": "218x91"
+  }
+ ],
+ "licence": "CC-BY-4.0",
+ "planche_sha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479"
+}

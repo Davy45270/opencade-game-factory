@@ -1,0 +1,946 @@
+{
+ "planche": "pieuvre-detouree.png",
+ "planche_sha256": "7bc4afa5ac6efce9c9014a6a785b50b3b46c3f5e064b71de0648c1d85e554339",
+ "marge": 0,
+ "source": "pieuvre.png",
+ "source_sha256": "9701cf5b5f7fc699de6fec8e72bd29b9df5f53e6dce2af1be35d01a4b1f82fd2",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pieuvre-droite-idle-a",
+   "boite": [
+    65,
+    65,
+    165,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-droite-idle-b",
+   "boite": [
+    67,
+    65,
+    230,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-droite-idle-c",
+   "boite": [
+    62,
+    65,
+    300,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-droite-idle-d",
+   "boite": [
+    63,
+    65,
+    366,
+    249
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-droite-marche-a",
+   "boite": [
+    74,
+    68,
+    445,
+    244
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-marche-b",
+   "boite": [
+    64,
+    67,
+    519,
+    247
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-marche-c",
+   "boite": [
+    66,
+    67,
+    583,
+    244
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-marche-d",
+   "boite": [
+    60,
+    70,
+    649,
+    245
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-marche-e",
+   "boite": [
+    71,
+    64,
+    709,
+    250
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-marche-f",
+   "boite": [
+    53,
+    64,
+    780,
+    248
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-droite-attaque-bloc",
+   "boite": [
+    416,
+    107,
+    847,
+    207
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pieuvre-droite-blesse-a",
+   "boite": [
+    81,
+    108,
+    1276,
+    206
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-droite-blesse-b",
+   "boite": [
+    76,
+    66,
+    1364,
+    248
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-droite-blesse-c",
+   "boite": [
+    78,
+    109,
+    1446,
+    205
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-gauche-idle-a",
+   "boite": [
+    66,
+    62,
+    162,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-gauche-idle-b",
+   "boite": [
+    67,
+    62,
+    228,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-gauche-idle-c",
+   "boite": [
+    66,
+    63,
+    295,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-gauche-idle-d",
+   "boite": [
+    69,
+    63,
+    361,
+    437
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-gauche-marche-a",
+   "boite": [
+    61,
+    65,
+    446,
+    441
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-marche-b",
+   "boite": [
+    63,
+    69,
+    507,
+    433
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-marche-c",
+   "boite": [
+    65,
+    69,
+    570,
+    433
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-marche-d",
+   "boite": [
+    61,
+    70,
+    635,
+    435
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-marche-e",
+   "boite": [
+    63,
+    70,
+    696,
+    433
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-marche-f",
+   "boite": [
+    75,
+    68,
+    759,
+    434
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-gauche-attaque-bloc",
+   "boite": [
+    417,
+    106,
+    845,
+    398
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pieuvre-gauche-blesse-a",
+   "boite": [
+    80,
+    111,
+    1276,
+    395
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-gauche-blesse-b",
+   "boite": [
+    77,
+    70,
+    1360,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-gauche-blesse-c",
+   "boite": [
+    81,
+    112,
+    1443,
+    396
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-bas-idle-a",
+   "boite": [
+    64,
+    74,
+    165,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-bas-idle-b",
+   "boite": [
+    63,
+    74,
+    232,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-bas-idle-c",
+   "boite": [
+    61,
+    74,
+    300,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-bas-idle-d",
+   "boite": [
+    63,
+    74,
+    365,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-bas-marche-a",
+   "boite": [
+    63,
+    81,
+    446,
+    627
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-marche-b",
+   "boite": [
+    58,
+    84,
+    516,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-marche-c",
+   "boite": [
+    59,
+    86,
+    580,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-marche-d",
+   "boite": [
+    55,
+    73,
+    646,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-marche-e",
+   "boite": [
+    58,
+    85,
+    708,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-marche-f",
+   "boite": [
+    58,
+    81,
+    772,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-bas-attaque-bloc",
+   "boite": [
+    407,
+    145,
+    848,
+    580
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pieuvre-bas-blesse-a",
+   "boite": [
+    87,
+    116,
+    1276,
+    586
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-bas-blesse-b",
+   "boite": [
+    75,
+    78,
+    1365,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-bas-blesse-c",
+   "boite": [
+    77,
+    117,
+    1447,
+    584
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-haut-idle-a",
+   "boite": [
+    61,
+    73,
+    167,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-haut-idle-b",
+   "boite": [
+    58,
+    71,
+    234,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-haut-idle-c",
+   "boite": [
+    57,
+    72,
+    299,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-haut-idle-d",
+   "boite": [
+    59,
+    72,
+    364,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pieuvre-haut-marche-a",
+   "boite": [
+    65,
+    87,
+    445,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-marche-b",
+   "boite": [
+    60,
+    86,
+    515,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-marche-c",
+   "boite": [
+    60,
+    90,
+    579,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-marche-d",
+   "boite": [
+    58,
+    85,
+    643,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-marche-e",
+   "boite": [
+    60,
+    91,
+    706,
+    816
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-marche-f",
+   "boite": [
+    60,
+    78,
+    769,
+    817
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pieuvre-haut-attaque-bloc",
+   "boite": [
+    414,
+    157,
+    846,
+    768
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "pieuvre-haut-blesse-a",
+   "boite": [
+    87,
+    115,
+    1276,
+    782
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-haut-blesse-b",
+   "boite": [
+    73,
+    81,
+    1365,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pieuvre-haut-blesse-c",
+   "boite": [
+    76,
+    118,
+    1445,
+    779
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

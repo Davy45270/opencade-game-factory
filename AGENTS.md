@@ -76,6 +76,31 @@ publication, un test désactivé, un seuil abaissé.
 Aucun secret dans un prompt, un journal, un test ou un commit. L'adresse e-mail personnelle du propriétaire n'est jamais
 envoyée à un tiers ni écrite dans un dépôt public. Les commits de jeux utilisent l'adresse `noreply`.
 
+## 8. Règles ARCH-001 et REG-003/BB-001, avec leur garde
+
+Texte des spécifications, mot pour mot. Le brief d'un agent se tire de `agents/brief.py rendre --tache <titre>` et se
+contrôle par `agents/brief.py verifier <brief.md>` avant le lancement. Le mécanisme de chaque règle est dans
+`agents/regles.json` ; `tests/agents/test_regles_agents.py` vérifie qu'il existe toujours.
+
+| Règle | Texte | Mécanisme |
+| --- | --- | --- |
+| ADD-1 | Auditer l'existant avant toute conception ou modification. | `AGENTS.md` |
+| ADD-2 | Ne jamais assimiler « inaccessible » à « absent ». | `docs/ARCHITECTURE.md`, `blocks/bbctl/discover.py` |
+| ADD-3 | Préférer configuration, extension et intégration à la création. | `blocks/bbctl/adoption.py`, `ci/gabarit/checks.yml` |
+| ADD-4 | Justifier chaque nouveau building block par une gap analysis et une ADR. | `blocks/bbctl/adoption.py` |
+| ADD-5 | Interroger REG-003 et BB-001 avant toute tâche ; vérifier les licences et versions. | `ci/gabarit/checks.yml`, `blocks/bbctl/opensource.py` |
+| ADD-6 | Référencer toute nouvelle spec dans REG-003, toute solution dans BB-001, toute preuve d'exécution dans OPS-001. | `specs/specctl/commandes.py`, `blocks/bbctl/evenements.py` |
+| ADD-7 | Respecter les workflows existants, les accès et les validations humaines nécessaires. | `AGENTS.md` |
+| ADD-8 | Exécuter les tests et produire SBOM, provenance et rapport de livraison. | `ci/gabarit/checks.yml` |
+| ADD-9 | Préserver les dépôts et workflows existants ; aucune modification destructive sans approbation. | `blocks/bbctl/adoption.py`, `AGENTS.md` |
+| ADD-10 | Documenter les limites de visibilité et demander un arbitrage plutôt que deviner. | `AGENTS.md` |
+| AG-1 | Avant toute modification : `specctl resolve` puis `bbctl search` interne et externe si pertinent. | `ci/gabarit/checks.yml`, `ci/gabarit/checks.yml` |
+| AG-2 | Ne jamais inventer une licence, un commit, un résultat de test ou un lien de provenance. | `blocks/bbctl/discover.py`, `docs/AGENTS.md` |
+| AG-3 | Ne pas modifier les dépôts durant l'inventaire initial. | `docs/AGENTS.md` |
+| AG-4 | Les changements de contrats partagés, de sécurité et de publication exigent une approbation humaine. | `AGENTS.md` |
+| AG-5 | Toute PR doit fournir exigences, building blocks évalués, justification, tests, SBOM, liens de provenance et événements de suivi OPS-001. | `.forgejo/pull_request_template.md` |
+| AG-6 | Tout le pipeline doit être exécutable headless et reproductible. | `ci/gabarit/checks.yml`, `docs/AGENTS.md` |
+
 ## Modules
 
 | Module | Outil | Où |

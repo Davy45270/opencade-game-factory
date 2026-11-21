@@ -18,7 +18,7 @@ COMMANDS = {
     "register": True, "derive": True, "validate": False, "usage": False,
     "publish": True, "duplicates": True, "scan-repos": True, "sync": True,
     "index": True, "materialize": True, "check-lock": False, "export-atlas": True,
-    "validate-atlas": False, "sbom": True,
+    "validate-atlas": False, "sbom": True, "external": False,
 }
 
 
@@ -76,6 +76,10 @@ def _parser():
             mode.add_argument("--candidates", action="store_true")
             sub.add_argument("--out", type=caller_path)
             sub.add_argument("--cache", type=caller_path)
+        elif command == "external":
+            from tools.external.commands import configure as external
+
+            external(sub, caller_path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         else:
@@ -136,6 +140,10 @@ def _run(args, root, selected=None):
         from tools.extract.commands import run
 
         return run(root, args)
+    if args.command == "external":
+        from tools.external.commands import run
+
+        return run(root, args)
     from tools.cli.registry import run
 
     return run(root, args)
@@ -155,6 +163,8 @@ def main(argv=None, *, root=ROOT):
     argv = sys.argv[1:] if argv is None else argv
     try:
         args = _parser().parse_args(argv)
+        if getattr(args, "format", None) == "json":
+            args.json = True
     except UsageError as exc:
         result = {"ok": False, "error": "usage", "message": str(exc)}
         journal.event("usage-error", message=str(exc), code=int(ExitCode.USAGE))

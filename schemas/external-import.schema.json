@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencade.invalid/schemas/external-import.schema.json",
+  "title": "Contrat d'import d'une bibliothèque externe (EXT-001 § 5)",
+  "description": "Identité d'import : (provider, externalPackId, sourceVersion, archiveSha256). La sécurité est un invariant : publishOnlyVerified ne peut pas valoir false.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "jobType", "provider", "externalPackId", "sourceUrl", "license", "policy"],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "jobType": {"const": "external-library-import"},
+    "provider": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "externalPackId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"},
+    "sourceUrl": {"type": "string", "pattern": "\\S"},
+    "downloadUrl": {"type": ["string", "null"]},
+    "sourceVersion": {"type": ["string", "null"]},
+    "archiveSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "observedAt": {"type": "string", "format": "date-time"},
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spdxId", "verification", "evidenceUrl"],
+      "properties": {
+        "spdxId": {"type": "string", "pattern": "\\S"},
+        "verification": {"enum": ["required", "verified", "unknown"]},
+        "evidenceUrl": {"type": ["string", "null"]},
+        "evidence": {"type": "string"}
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowDownload", "publishOnlyVerified", "preserveOriginalArchive", "detectDuplicates", "dryRun"],
+      "properties": {
+        "allowDownload": {"type": "boolean"},
+        "publishOnlyVerified": {"const": true},
+        "preserveOriginalArchive": {"type": "boolean"},
+        "detectDuplicates": {"type": "boolean"},
+        "dryRun": {"type": "boolean"}
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "format"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "format": {"type": "string"}
+        }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "required": ["action", "rationale", "licenseStatus", "consulted", "rejected"],
+      "properties": {
+        "action": {"enum": ["reuse", "import", "derive", "create", "block"]},
+        "candidateId": {"type": "string"},
+        "rationale": {"type": "string", "pattern": "\\S"},
+        "licenseStatus": {"enum": ["verified", "unknown", "incompatible"]},
+        "consulted": {"type": "array"},
+        "rejected": {"type": "array"},
+        "externalSearchStatus": {"type": "string"}
+      }
+    }
+  }
+}

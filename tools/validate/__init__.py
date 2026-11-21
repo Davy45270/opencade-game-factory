@@ -17,7 +17,7 @@ INFERABLE = (
 )
 COORDINATES = ("x", "y", "w", "h")
 RECORDS = {"assets": "asset", "sheets": "sheet"}
-IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated"}
+IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated", "external"}
 PUBLISHED = PurePosixPath("published", "sha256")
 PUBLISHED_NAME = re.compile(r"([a-f0-9]{64})\.[A-Za-z0-9][A-Za-z0-9_-]{0,31}")
 MUTABLE_VERSION_FIELDS = {"nextVersion", "causalPrevious", "causalNext", "causalOrder", "atlasFrames"}
@@ -133,6 +133,14 @@ class CatalogueValidation:
                     if loaded and self.document("import-job", contract, f"catalog/import-jobs/{job}.json"):
                         if "inputs" not in contract or job_id(contract["inputs"]) != job:
                             self.issue(path, "invalid-import-job", f"Entrées incompatibles avec le job {job}.")
+            provenance = asset["provenance"]
+            if (provenance["type"] == "external") != ("external" in provenance):
+                self.issue(path, "external-provenance", "Une ressource externe porte provenance.external, et elle seule.")
+            elif "external" in provenance:
+                declared = provenance["external"]["license"]
+                if asset["license"] != "unknown" and (declared["status"] != "verified"
+                                                      or declared["spdxId"] != asset["license"]):
+                    self.issue(path, "external-license", "Licence externe non vérifiée dans le texte du pack : unknown exigé.")
             sheet_id = asset["sourceSheetId"]
             region = asset["sourceRegion"]
             sheet = sheets.get(sheet_id)

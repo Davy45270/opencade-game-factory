@@ -27,3 +27,21 @@
 5. Exécuter `assetctl validate --base <ref-git> --json` avant la PR. Une fiche se
    consulte avec `assetctl inspect <id> --json` ; `assetctl search <texte> --receipt
    recu.json` produit le reçu exigé par `register`.
+
+## Bibliothèques externes (EXT-001)
+
+**OBLIGATOIRE :** Search internal → Search external → Reuse → Import → Derive → Create.
+
+1. `assetctl search` d'abord ; puis `assetctl external search --query … --format json`. Une recherche
+   externe `unavailable` ne prouve pas qu'aucun asset n'existe : ne pas créer sur cette seule base.
+2. `assetctl external decide --query …` compare et rend `reuse`, `derive`, `import`, `create` ou `block`,
+   avec la justification, les candidats consultés et la raison de chaque rejet. Recopier cette décision
+   dans le rapport de tâche et dans la PR.
+3. Ne jamais présumer la licence d'un pack : « gratuit » n'est pas CC0. Seul le texte de licence lu dans
+   l'archive vérifie la licence annoncée ; sinon `unknown`, et la publication est bloquée.
+4. Importer par `external plan-import` puis `external import --plan` : archive inspectée (chemins
+   traversants, liens, exécutables, bombes ZIP refusés et mis en quarantaine), empreintes contrôlées,
+   import transactionnel et idempotent.
+5. Le module reste indépendant, désactivable (`ASSETCTL_EXTERNAL=off`) et entièrement headless.
+6. Un asset externe peut remplacer un élément de planche si le style colle (arbitrage de David, HL-538
+   7-2949) ; la preuve est un côte à côte avec la planche, joint au ticket du jeu.

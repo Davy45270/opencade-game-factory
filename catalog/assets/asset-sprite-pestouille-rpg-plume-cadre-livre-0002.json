@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:01:54.918210+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-plume-cadre-livre-0001",
+        "reason": "pixels différents du cadre livré sprite-plume (empreinte 34e4cec7a286)"
+      },
+      {
+        "assetId": "asset-sprite-plume-0001",
+        "reason": "découpe brute de l'élément plume : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ecd98930caf627c3da2e562f9d1e4b72797e3bc79ed4f4b83fefe2f3e94213ef",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "plume",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-plume-cadre-livre-0001",
+          "reason": "pixels différents du cadre livré sprite-plume (empreinte 34e4cec7a286)"
+        },
+        {
+          "assetId": "asset-sprite-plume-0001",
+          "reason": "découpe brute de l'élément plume : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-plume-cadre-livre-0001",
+        "asset-sprite-plume-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:01:54.552900+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-plume » (public/assets/p02-objets.webp), forme normalisée par le jeu de l'élément plume",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-plume-cadre-livre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-plume-cadre-livre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-plume"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plume-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-438.png, SHA-256 bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-plume"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg plume (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "469c7448d0a9a63d",
+    "phash": "c5953c69636ece18"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-plume-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plume livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/p02-objets.webp",
+      "recette {\"atlas\": \"public/assets/p02-objets.webp (webp)\", \"boite\": [49, 47, 22, 392], \"cadre\": \"sprite-plume\", \"element\": \"plume\", \"empreintePixels\": \"34e4cec7a2860c07641829c2f8b9f1d8c03bf5e0ac8fbc1e3da96b44a4a0b6f7\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 47, \"w\": 49, \"x\": 22, \"y\": 392}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-objets.decoupe.json\", \"tableSha256\": \"8da505fd794f1c83b370cff0060a2d0b69883c160c8d7f475ecf9620ce2112d7\"}"
+    ],
+    "parentId": "asset-sprite-plume-0001",
+    "parentSha256": "e7330c5f92f7ce2d794538894a7eefe2b5e9dd19532a35d3b8a4cfed70669d21",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:01:54.918210+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "public/assets/p02-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-plume de public/assets/p02-objets.webp (empreinte de pixels 34e4cec7a2860c07)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-plume",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "bfcf3bb274d82a8012c36705d376b1aa796ddadfc7b1c11503610272fe4564e5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

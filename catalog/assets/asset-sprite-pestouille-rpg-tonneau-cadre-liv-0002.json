@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:45:21.902360+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-tonneau-cadre-liv-0001",
+        "reason": "pixels différents du cadre livré sprite-tonneau (empreinte 33a9b13c1f58)"
+      },
+      {
+        "assetId": "asset-sprite-tonneau-0001",
+        "reason": "découpe brute de l'élément tonneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2cb3c9e5fadd97d29d53b4d407c60535244531570ea3434427bf32cb9a976638",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "tonneau",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-tonneau-cadre-liv-0001",
+          "reason": "pixels différents du cadre livré sprite-tonneau (empreinte 33a9b13c1f58)"
+        },
+        {
+          "assetId": "asset-sprite-tonneau-0001",
+          "reason": "découpe brute de l'élément tonneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-tonneau-cadre-liv-0001",
+        "asset-sprite-tonneau-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:45:21.517270+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-tonneau » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément tonneau",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-tonneau-cadre-liv-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-tonneau-cadre-liv-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-tonneau"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tonneau-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-tonneau"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg tonneau (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "3369616161616327",
+    "phash": "cf93357b702c342c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-tonneau-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tonneau livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [36, 41, 689, 830], \"cadre\": \"sprite-tonneau\", \"element\": \"tonneau\", \"empreintePixels\": \"33a9b13c1f58a241cf11d035f9baae2ac40eb94404770d54e7b61fd8c3525e68\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 41, \"w\": 36, \"x\": 689, \"y\": 830}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-tonneau-0001",
+    "parentSha256": "fc2810cef0a75a039d5a2d7e10f0c02cbb1440636c1fd5c4f878a9713852443c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:45:21.902360+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 218,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-tonneau de public/assets/e03-objets.webp (empreinte de pixels 33a9b13c1f58a241)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-tonneau",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "df56824877a31af166a45808377bbb07ee78dd0114f4f91f5efa3066ee76a4f2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

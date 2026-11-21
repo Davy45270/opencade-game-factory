@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:56:08.575402+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-borin-cote-a-cadr-0001",
+        "reason": "pixels différents du cadre livré sprite-borin-cote-a (empreinte e1b1b6754117)"
+      },
+      {
+        "assetId": "asset-sprite-borin-cote-a-0001",
+        "reason": "découpe brute de l'élément borin-cote-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "6c2554eac1b9e877a9d4aa6e9c12163f949ccebf5e7d2a1bf7302d1c5a8312f7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "borin cote a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-borin-cote-a-cadr-0001",
+          "reason": "pixels différents du cadre livré sprite-borin-cote-a (empreinte e1b1b6754117)"
+        },
+        {
+          "assetId": "asset-sprite-borin-cote-a-0001",
+          "reason": "découpe brute de l'élément borin-cote-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-borin-cote-a-cadr-0001",
+        "asset-sprite-borin-cote-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:56:08.223885+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-borin-cote-a » (public/assets/m01-heros.webp), forme normalisée par le jeu de l'élément borin-cote-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-borin-cote-a-cadr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-borin-cote-a-cadr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-heros.json · cadre sprite-borin-cote-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-borin-cote-a-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-387.png, SHA-256 c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-heros.json · cadre sprite-borin-cote-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg borin-cote-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "923b6add99d96927",
+    "phash": "9bcc6e31702f2566"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-borin-cote-a-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-borin-cote-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-heros.webp",
+      "recette {\"atlas\": \"public/assets/m01-heros.webp (webp)\", \"boite\": [52, 50, 1238, 133], \"cadre\": \"sprite-borin-cote-a\", \"element\": \"borin-cote-a\", \"empreintePixels\": \"e1b1b6754117548a03c7f878cd8aee37f1564a09135306fefd5d2c34778196aa\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 50, \"w\": 52, \"x\": 1238, \"y\": 133}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-heros.decoupe.json\", \"tableSha256\": \"8a3f917bda3be02f4dfc1d1bdcd107f05465c537aabe4249ccfa5c4ac74dbe72\"}"
+    ],
+    "parentId": "asset-sprite-borin-cote-a-0001",
+    "parentSha256": "69b67900f5271d2cdd66735dc93b21ceab41cfb64692589fee344b2d94136e83",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:56:08.575402+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-heros.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/m01-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-borin-cote-a de public/assets/m01-heros.webp (empreinte de pixels e1b1b6754117548a)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-borin-cote-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c1202bf01523b850cd39bebab8d37436046bcb6f181b4781acb89169f7265e60",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

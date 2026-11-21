@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:23:56.332315+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bouton-competence-0001",
+        "reason": "découpe brute de l'élément bouton-competence : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "14dc31cfe43135c9ac29aac23909c6d21b43e1e965272b051036a8dc4d558617",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouton competence",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bouton-competence-0001",
+          "reason": "découpe brute de l'élément bouton-competence : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bouton-competence-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:23:55.989427+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouton-competence » (assets/export/m01-boutons.png), forme normalisée par le jeu de l'élément bouton-competence",
+  "dimensions": {
+    "height": 76,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouton-competence-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouton-competence-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-boutons.json · cadre sprite-bouton-competence"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouton-competence-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-110.png, SHA-256 fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-boutons.json · cadre sprite-bouton-competence"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouton-competence (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "ac31717171713192",
+    "phash": "daf6a1ce85219137"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouton-competence-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouton-competence livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-boutons.png",
+      "recette {\"atlas\": \"assets/export/m01-boutons.png (png)\", \"boite\": [87, 68, 140, 827], \"cadre\": \"sprite-bouton-competence\", \"element\": \"bouton-competence\", \"empreintePixels\": \"6066afff856483fd37844866ce2ff08b078b04e06e14e26054067c9ecaa54c32\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:45:plein\", \"taille\": \"96x76\", \"unique\": true}, \"regionDuBrut\": {\"h\": 68, \"w\": 87, \"x\": 140, \"y\": 827}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-boutons.decoupe.json\", \"tableSha256\": \"799dfb0fd6cde478ba99dc24b628a97e2b190cdb4e2502e8690973ecc97b5815\"}"
+    ],
+    "parentId": "asset-sprite-bouton-competence-0001",
+    "parentSha256": "eb172d6409d086ed8fc86472e99683e5be6febc6f27f7dbef62b9146760a7108",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-boutons.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:23:56.332315+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/m01-boutons.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-competence de assets/export/m01-boutons.png (empreinte de pixels 6066afff856483fd)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-competence",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-boutons.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-boutons.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fe019050e95e18846a46a8dd768f25e89ca9b797c8e8823dc562e7b015986741",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

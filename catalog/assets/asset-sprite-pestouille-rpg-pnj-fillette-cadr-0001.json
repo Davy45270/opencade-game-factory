@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:16:28.327668+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pnj-fillette-0001",
+        "reason": "découpe brute de l'élément pnj-fillette : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5e028597c8c3a28861c6d8c658dc0850e5a260a411bfaf10ce93a220571224fb",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj fillette",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pnj-fillette-0001",
+          "reason": "découpe brute de l'élément pnj-fillette : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pnj-fillette-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:16:27.985306+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-fillette » (assets/export/e03-personnages.png), forme normalisée par le jeu de l'élément pnj-fillette",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-fillette-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-fillette-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-fillette-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-41.png, SHA-256 7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-fillette (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "92b232b2b232b28e",
+    "phash": "ed49639263cc36c6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-fillette-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-fillette livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-personnages.png",
+      "recette {\"atlas\": \"assets/export/e03-personnages.png (png)\", \"boite\": [40, 75, 240, 838], \"cadre\": \"sprite-pnj-fillette\", \"element\": \"pnj-fillette\", \"empreintePixels\": \"fbe812b5a8caada7d78e648ac8d54e41c0359db0bb4c3175cd862058fa749672\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 75, \"w\": 40, \"x\": 240, \"y\": 838}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-fillette-0001",
+    "parentSha256": "be75b266a94c8e3c46d529e273a3a5f35ade2638eb9518ccafa750bf312c1d04",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:16:28.327668+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 50,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-fillette de assets/export/e03-personnages.png (empreinte de pixels fbe812b5a8caada7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-fillette",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

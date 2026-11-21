@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:44:40.708267+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-panneau-cadre-liv-0001",
+        "reason": "pixels différents du cadre livré sprite-panneau (empreinte 4876655081a2)"
+      },
+      {
+        "assetId": "asset-sprite-panneau-0001",
+        "reason": "découpe brute de l'élément panneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-panneau-dialogue-0001",
+        "reason": "pixels différents du cadre livré sprite-panneau (empreinte 4876655081a2)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9b6fa5edea4de834d620429bc2d9529a9d173538b0f5c72b147a6b9dd44eaf35",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "panneau",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-panneau-cadre-liv-0001",
+          "reason": "pixels différents du cadre livré sprite-panneau (empreinte 4876655081a2)"
+        },
+        {
+          "assetId": "asset-sprite-panneau-0001",
+          "reason": "découpe brute de l'élément panneau : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-panneau-dialogue-0001",
+          "reason": "pixels différents du cadre livré sprite-panneau (empreinte 4876655081a2)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-panneau-cadre-liv-0001",
+        "asset-sprite-panneau-0001",
+        "asset-sprite-panneau-dialogue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:44:40.302356+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-panneau » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément panneau",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-panneau-cadre-liv-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-panneau-cadre-liv-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-panneau"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panneau-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-287.png, SHA-256 214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-panneau"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg panneau (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "8c17e1cce9179495",
+    "phash": "a0c33c3fd3d423ca"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-panneau-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panneau livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [40, 40, 599, 831], \"cadre\": \"sprite-panneau\", \"element\": \"panneau\", \"empreintePixels\": \"4876655081a2b6c3ca20e6dd11d806b5c0af6cf25fe8121ab19715452a308b6c\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 40, \"x\": 599, \"y\": 831}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-panneau-0001",
+    "parentSha256": "50c65a3b964ea68ae4294382dfb27649d7ab209457302100801567a497547f84",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:44:40.708267+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 170,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-panneau de public/assets/e03-objets.webp (empreinte de pixels 4876655081a2b6c3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-panneau",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "214d634f34c7ce47ea9262aca6a32526c9b3d03e0fb28ba35e8e2a2f9e1aa629",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

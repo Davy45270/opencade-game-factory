@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/55/55a5c782d5617e71ed1bd77fed444d20f312254aa534e7824890f930b0f03ab6.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-interface.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-minicarte de assets/export/e03-interface.png (empreinte de pixels e11001b91fc2a8bc)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-minicarte",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-minicarte-cadre-l-0001"
+  ],
   "version": 1,
   "versions": [
     {

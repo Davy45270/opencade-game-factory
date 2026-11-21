@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:46:23.676139+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pnj-renard-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-pnj-renard (empreinte f7f7a2617c4e)"
+      },
+      {
+        "assetId": "asset-sprite-pnj-renard-0001",
+        "reason": "découpe brute de l'élément pnj-renard : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e42111d793ae38c2e8af9b5ae098b8ebd6da1689e532ac2fcc9726f6900d1939",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj renard",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pnj-renard-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-pnj-renard (empreinte f7f7a2617c4e)"
+        },
+        {
+          "assetId": "asset-sprite-pnj-renard-0001",
+          "reason": "découpe brute de l'élément pnj-renard : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pnj-renard-cadre-0001",
+        "asset-sprite-pnj-renard-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:46:23.329060+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-renard » (public/assets/e03-personnages.webp), forme normalisée par le jeu de l'élément pnj-renard",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-renard-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-renard-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-renard"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-renard-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-renard"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-renard (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0a2b33339627868e",
+    "phash": "ecdb323031d9ce64"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-renard-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-renard livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-personnages.webp",
+      "recette {\"atlas\": \"public/assets/e03-personnages.webp (webp)\", \"boite\": [43, 74, 330, 839], \"cadre\": \"sprite-pnj-renard\", \"element\": \"pnj-renard\", \"empreintePixels\": \"f7f7a2617c4ee723622b59fe544d498329d68bd342eb300024b61ccb489bdf2f\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 74, \"w\": 43, \"x\": 330, \"y\": 839}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-renard-0001",
+    "parentSha256": "2b2acd970f9977f5b4a3de71c59d10782e241a39e52b55698b940dad4df21d0a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:46:23.676139+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-renard de public/assets/e03-personnages.webp (empreinte de pixels f7f7a2617c4ee723)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-renard",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b21920af6cd620e12414ea20bf0878b4b1ed51caf7091efde116c7935560d152",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

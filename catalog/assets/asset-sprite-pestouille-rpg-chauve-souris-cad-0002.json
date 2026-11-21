@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:53:00.677044+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-chauve-souris-cad-0001",
+        "reason": "pixels différents du cadre livré sprite-chauve-souris (empreinte 55eef67a5109)"
+      },
+      {
+        "assetId": "asset-sprite-chauve-souris-0001",
+        "reason": "découpe brute de l'élément chauve-souris : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f2ff90b8df4fef0fea5917feb89ac3af08006fb1b3b9ffc72844a69e70e4ca61",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "chauve souris",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-chauve-souris-cad-0001",
+          "reason": "pixels différents du cadre livré sprite-chauve-souris (empreinte 55eef67a5109)"
+        },
+        {
+          "assetId": "asset-sprite-chauve-souris-0001",
+          "reason": "découpe brute de l'élément chauve-souris : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-chauve-souris-cad-0001",
+        "asset-sprite-chauve-souris-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:53:00.322720+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-chauve-souris » (public/assets/e04-monstres.webp), forme normalisée par le jeu de l'élément chauve-souris",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-chauve-souris-cad-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-chauve-souris-cad-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-chauve-souris"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-chauve-souris-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-chauve-souris"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg chauve-souris (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0a141933374e5924",
+    "phash": "fa1a83e54c1b33ac"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-chauve-souris-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-chauve-souris livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-monstres.webp",
+      "recette {\"atlas\": \"public/assets/e04-monstres.webp (webp)\", \"boite\": [56, 32, 1024, 646], \"cadre\": \"sprite-chauve-souris\", \"element\": \"chauve-souris\", \"empreintePixels\": \"55eef67a510986b380f1cdcf8a18087176b84202957f17614be6408d8135173e\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 32, \"w\": 56, \"x\": 1024, \"y\": 646}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-chauve-souris-0001",
+    "parentSha256": "04d550cff0758c4c98d1789ec7564cccfa9a46927e0560382f03b6bae84dad62",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:53:00.677044+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-monstres.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-chauve-souris de public/assets/e04-monstres.webp (empreinte de pixels 55eef67a510986b3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-chauve-souris",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2016ddfb693f5edcdcc1d9f6839f1393329fd20851f0a8a640e7e5957de61086",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

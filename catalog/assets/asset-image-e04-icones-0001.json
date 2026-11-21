@@ -135,7 +135,37 @@
   ],
   "thumbnail": "thumbnails/de/dedc1417633c9b11d795ee28fa606ce0a3c15371a50675e7197f8edb16278998.webp",
   "updatedAt": "2026-11-19T15:22:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/e04-icones.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-icones.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e04-icones.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-image-e04-icones-0002"
   ],

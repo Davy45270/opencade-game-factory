@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:59:32.634481+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-feuille-doree-cad-0001",
+        "reason": "pixels différents du cadre livré sprite-feuille-doree (empreinte e5ce33c5e1e5)"
+      },
+      {
+        "assetId": "asset-sprite-feuille-doree-0001",
+        "reason": "découpe brute de l'élément feuille-doree : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2d67790ab23f225d3978c11779b578a8e0f2f9d1cab2f11f04abdfbb3a7d891d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "feuille doree",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-feuille-doree-cad-0001",
+          "reason": "pixels différents du cadre livré sprite-feuille-doree (empreinte e5ce33c5e1e5)"
+        },
+        {
+          "assetId": "asset-sprite-feuille-doree-0001",
+          "reason": "découpe brute de l'élément feuille-doree : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-feuille-doree-cad-0001",
+        "asset-sprite-feuille-doree-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:59:32.290143+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-feuille-doree » (public/assets/m01-icones.webp), forme normalisée par le jeu de l'élément feuille-doree",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-feuille-doree-cad-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-feuille-doree-cad-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-feuille-doree-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-417.png, SHA-256 9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-feuille-doree"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg feuille-doree (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0a3870cca9db962d",
+    "phash": "92d33d696665c30e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-feuille-doree-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-feuille-doree livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-icones.webp",
+      "recette {\"atlas\": \"public/assets/m01-icones.webp (webp)\", \"boite\": [37, 38, 1073, 806], \"cadre\": \"sprite-feuille-doree\", \"element\": \"feuille-doree\", \"empreintePixels\": \"e5ce33c5e1e51aeabd5cefc3abe9f3bddc6bba0b3eb71a1a8e38390f5e0335d4\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 38, \"w\": 37, \"x\": 1073, \"y\": 806}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-feuille-doree-0001",
+    "parentSha256": "36ff2055ec4ce299c0ed775e79cdc220da64b3621428845ead0a4b1c1aae94f3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:59:32.634481+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "public/assets/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-feuille-doree de public/assets/m01-icones.webp (empreinte de pixels e5ce33c5e1e51aea)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-feuille-doree",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9cc5deef0b7adcf73ca71c32eba244f577f31a491983349e2009843c0bf95e8a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:54:52.696986+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-bouton-defense-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-bouton-defense (empreinte ff2820124276)"
+      },
+      {
+        "assetId": "asset-sprite-bouton-defense-0001",
+        "reason": "découpe brute de l'élément bouton-defense : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "49fadfe32278470d096f2ef87d6fd4ce75c098fa9e92569d703154e2fa7815ff",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouton defense",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-bouton-defense-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-bouton-defense (empreinte ff2820124276)"
+        },
+        {
+          "assetId": "asset-sprite-bouton-defense-0001",
+          "reason": "découpe brute de l'élément bouton-defense : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-bouton-defense-ca-0001",
+        "asset-sprite-bouton-defense-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:54:52.334762+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouton-defense » (public/assets/m01-boutons.webp), forme normalisée par le jeu de l'élément bouton-defense",
+  "dimensions": {
+    "height": 76,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouton-defense-ca-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouton-defense-ca-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-boutons.json · cadre sprite-bouton-defense"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouton-defense-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-376.png, SHA-256 53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-boutons.json · cadre sprite-bouton-defense"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouton-defense (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "86316171613113cc",
+    "phash": "ceceb139c48996a6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouton-defense-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouton-defense livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-boutons.webp",
+      "recette {\"atlas\": \"public/assets/m01-boutons.webp (webp)\", \"boite\": [88, 68, 237, 827], \"cadre\": \"sprite-bouton-defense\", \"element\": \"bouton-defense\", \"empreintePixels\": \"ff28201242764a9822bd83b98ef06d34200b6c2aaabd59d0e60728b0e9ccb583\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:45:plein\", \"taille\": \"96x76\", \"unique\": true}, \"regionDuBrut\": {\"h\": 68, \"w\": 88, \"x\": 237, \"y\": 827}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-boutons.decoupe.json\", \"tableSha256\": \"799dfb0fd6cde478ba99dc24b628a97e2b190cdb4e2502e8690973ecc97b5815\"}"
+    ],
+    "parentId": "asset-sprite-bouton-defense-0001",
+    "parentSha256": "52e27be475b6d5b527ac2c8afe3f6a5a7f1e60344161194bfaa387c5d1f0c58f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-boutons.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:54:52.696986+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-boutons.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/m01-boutons.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-defense de public/assets/m01-boutons.webp (empreinte de pixels ff28201242764a98)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-defense",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-boutons.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-boutons.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "53b1f35283ee22c09b9b42002e1e5dfb570013cdb0ae6192e707a722306d8bb9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

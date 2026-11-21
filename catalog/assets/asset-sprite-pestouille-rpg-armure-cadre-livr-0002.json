@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:58:52.033775+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-armure-cadre-livr-0001",
+        "reason": "pixels différents du cadre livré sprite-armure (empreinte dd97b1c55316)"
+      },
+      {
+        "assetId": "asset-sprite-armure-0001",
+        "reason": "découpe brute de l'élément armure : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "46f818fcfb025f113df9e72d83ee5cb332bd25acf2ec6b4f3772469faeaf091c",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "armure",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-armure-cadre-livr-0001",
+          "reason": "pixels différents du cadre livré sprite-armure (empreinte dd97b1c55316)"
+        },
+        {
+          "assetId": "asset-sprite-armure-0001",
+          "reason": "découpe brute de l'élément armure : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-armure-cadre-livr-0001",
+        "asset-sprite-armure-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:58:51.659524+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-armure » (public/assets/m01-icones.webp), forme normalisée par le jeu de l'élément armure",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-armure-cadre-livr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-armure-cadre-livr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-armure"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-armure-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-411.png, SHA-256 e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-icones.json · cadre sprite-armure"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg armure (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "578da46263631b26",
+    "phash": "cff630298ecdc4b0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-armure-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-armure livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-icones.webp",
+      "recette {\"atlas\": \"public/assets/m01-icones.webp (webp)\", \"boite\": [51, 43, 1080, 672], \"cadre\": \"sprite-armure\", \"element\": \"armure\", \"empreintePixels\": \"dd97b1c553165f2a5e8cbe29d1c4f39e6a12f9376ffe97084261d38245c85346\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 43, \"w\": 51, \"x\": 1080, \"y\": 672}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-armure-0001",
+    "parentSha256": "316b1acf1e119af7250529c0f6e7ed136e6c88ae3220cfd89e42a0bdb5f6366f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:58:52.033775+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-icones.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-armure de public/assets/m01-icones.webp (empreinte de pixels dd97b1c553165f2a)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-armure",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e903fcadb8d6c55458d247614a13d19d79057bdb92d54432c8f9f653566a274c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

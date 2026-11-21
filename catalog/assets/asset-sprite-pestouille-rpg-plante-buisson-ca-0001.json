@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:23:37.047013+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-plante-buisson-0001",
+        "reason": "découpe brute de l'élément plante-buisson : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c974ef40b1578cbb69928337db324158754597b767a457fc3963de841805be70",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "plante buisson",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-plante-buisson-0001",
+          "reason": "découpe brute de l'élément plante-buisson : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-plante-buisson-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:23:36.694633+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-plante-buisson » (assets/export/e04-monstres.png), forme normalisée par le jeu de l'élément plante-buisson",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-plante-buisson-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-plante-buisson-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-plante-buisson"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plante-buisson-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-107.png, SHA-256 5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-plante-buisson"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg plante-buisson (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "123175f861072f27",
+    "phash": "9ed9347393b1610e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-plante-buisson-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plante-buisson livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-monstres.png",
+      "recette {\"atlas\": \"assets/export/e04-monstres.png (png)\", \"boite\": [46, 52, 1204, 637], \"cadre\": \"sprite-plante-buisson\", \"element\": \"plante-buisson\", \"empreintePixels\": \"3aa34fbdd9bf87a9fa56acb949ad949827d143be5ed144bfa168b2e9ce984f8d\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 52, \"w\": 46, \"x\": 1204, \"y\": 637}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-plante-buisson-0001",
+    "parentSha256": "adaf9629bb9e877e3fd023f9342a0a74a3806c922e71e6f4755d4ee02a01ec3e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:23:37.047013+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-monstres.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "assets/export/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-plante-buisson de assets/export/e04-monstres.png (empreinte de pixels 3aa34fbdd9bf87a9)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-plante-buisson",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5157e9316558a4225c9508a91c7908108c2573619712b78066b306fa2f6a986c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

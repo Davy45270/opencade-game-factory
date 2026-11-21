@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:12:21.044196+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-menu-metiers-0001",
+        "reason": "découpe brute de l'élément menu-metiers : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "32606d8d554323af417525b33f037efdc79e57a655f4869fa71eb8d5b396a598",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "menu metiers",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-menu-metiers-0001",
+          "reason": "découpe brute de l'élément menu-metiers : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-menu-metiers-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:12:20.685386+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-menu-metiers » (assets/export/e03-menu.png), forme normalisée par le jeu de l'élément menu-metiers",
+  "dimensions": {
+    "height": 32,
+    "width": 32
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-menu-metiers-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-menu-metiers-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-metiers"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-menu-metiers-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-menu.json · cadre sprite-menu-metiers"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg menu-metiers (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "9613647a7a603136",
+    "phash": "dfc7b069c1368692"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-menu-metiers-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-menu-metiers livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-menu.png",
+      "recette {\"atlas\": \"assets/export/e03-menu.png (png)\", \"boite\": [25, 20, 1524, 845], \"cadre\": \"sprite-menu-metiers\", \"element\": \"menu-metiers\", \"empreintePixels\": \"1b8508d144f7f15f5552e2fa3d75ea535bd5347da30304522345c34a81059987\", \"parametres\": {\"detoure\": true, \"marge\": 1, \"modele\": \"fond:30\", \"taille\": 32, \"unique\": true}, \"regionDuBrut\": {\"h\": 20, \"w\": 25, \"x\": 1524, \"y\": 845}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-menu.decoupe.json\", \"tableSha256\": \"a270542ca9f05223750829f6928f7c45911ebf11ca3df7b349cdf585bfa48aac\"}"
+    ],
+    "parentId": "asset-sprite-menu-metiers-0001",
+    "parentSha256": "dbe381a93752c1ba40dc85c5f8007f2a6c46602e59a722bf6f8947a757bb771c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-menu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:12:21.044196+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "assets/export/e03-menu.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-menu-metiers de assets/export/e03-menu.png (empreinte de pixels 1b8508d144f7f15f)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-menu-metiers",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-menu.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-menu.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d11d3c84d86f1af69251115bcc1b03b37ea94841a232b93a4ff3cb2bf0e0e8ef",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

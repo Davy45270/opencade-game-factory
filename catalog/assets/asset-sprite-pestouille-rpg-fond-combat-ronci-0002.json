@@ -1,0 +1,213 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:01:27.544138+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-fond-combat-ronci-0001",
+        "reason": "pixels différents du cadre livré sprite-fond-combat-roncier (empreinte 997dc16444b3)"
+      },
+      {
+        "assetId": "asset-sprite-fond-combat-roncier-0001",
+        "reason": "découpe brute de l'élément fond-combat-roncier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cd1f033bb807b19c455c9c92eaa629868d619c2d68f9f0a7167eaa4f1233f37f",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fond combat roncier",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-fond-combat-ronci-0001",
+          "reason": "pixels différents du cadre livré sprite-fond-combat-roncier (empreinte 997dc16444b3)"
+        },
+        {
+          "assetId": "asset-sprite-fond-combat-roncier-0001",
+          "reason": "découpe brute de l'élément fond-combat-roncier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-fond-combat-ronci-0001",
+        "asset-sprite-fond-combat-roncier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:01:27.184176+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fond-combat-roncier » (public/assets/m02-fonds.webp), forme normalisée par le jeu de l'élément fond-combat-roncier",
+  "dimensions": {
+    "height": 168,
+    "width": 532
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fond-combat-ronci-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fond-combat-ronci-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-fonds.json · cadre sprite-fond-combat-roncier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fond-combat-roncier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-434.png, SHA-256 39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-fonds.json · cadre sprite-fond-combat-roncier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg fond-combat-roncier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "656565639a95aaa4",
+    "phash": "ce4e4ea1510ff692"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fond-combat-roncier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fond-combat-roncier livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m02-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m02-fonds.webp (webp)\", \"boite\": [532, 168, 148, 680], \"cadre\": \"sprite-fond-combat-roncier\", \"element\": \"fond-combat-roncier\", \"empreintePixels\": \"997dc16444b3ff24a4dbe69b7ffc9134f5bb293188e1b696af8e27015b5de2dd\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"295x132\"}, \"regionDuBrut\": {\"h\": 168, \"w\": 532, \"x\": 148, \"y\": 680}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-fonds.decoupe.json\", \"tableSha256\": \"fa230edea42c3ca16709fe27932a7ead1d6b029d85f7e00eb31507d2d0f770cd\"}"
+    ],
+    "parentId": "asset-sprite-fond-combat-roncier-0001",
+    "parentSha256": "a98d61833f8a2b6829292cd5309c93b4956a3149b904142b2ef595af5ac6aeff",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:01:27.544138+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/m02-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-combat-roncier de public/assets/m02-fonds.webp (empreinte de pixels 997dc16444b3ff24)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-combat-roncier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m02-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m02-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "39fc44cd01aa9b03515c9042c38de9283716620c10af7c1fa99da8935839839b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

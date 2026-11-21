@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:45:35.981528+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-givreloup-cadre-l-0001",
+        "reason": "pixels différents du cadre livré sprite-givreloup (empreinte bce50d9c9912)"
+      },
+      {
+        "assetId": "asset-sprite-givreloup-0001",
+        "reason": "découpe brute de l'élément givreloup : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3a34926cdd8cc4a791022f9508a060dc787280e52eb5427fb545ee062562c98c",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "givreloup",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-givreloup-cadre-l-0001",
+          "reason": "pixels différents du cadre livré sprite-givreloup (empreinte bce50d9c9912)"
+        },
+        {
+          "assetId": "asset-sprite-givreloup-0001",
+          "reason": "découpe brute de l'élément givreloup : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-givreloup-cadre-l-0001",
+        "asset-sprite-givreloup-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:45:35.593186+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-givreloup » (public/assets/e03-personnages.webp), forme normalisée par le jeu de l'élément givreloup",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-givreloup-cadre-l-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-givreloup-cadre-l-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-givreloup"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-givreloup-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-295.png, SHA-256 8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-givreloup"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg givreloup (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "9c62c5d4b4743717",
+    "phash": "c4c36b14b06f17ce"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-givreloup-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-givreloup livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-personnages.webp",
+      "recette {\"atlas\": \"public/assets/e03-personnages.webp (webp)\", \"boite\": [72, 64, 1378, 31], \"cadre\": \"sprite-givreloup\", \"element\": \"givreloup\", \"empreintePixels\": \"bce50d9c9912bffde6a2df9ef8e14e17469419694606b3ef5af307678f40ef49\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 64, \"w\": 72, \"x\": 1378, \"y\": 31}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-givreloup-0001",
+    "parentSha256": "271dedc901ea7b4e8b5707e1494c9c00393283d6849aa95a30c5566c21992cd4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:45:35.981528+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-givreloup de public/assets/e03-personnages.webp (empreinte de pixels bce50d9c9912bffd)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-givreloup",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8527e003a9b49b593a2597d50c89a82320d5d5a2eaf00baef2bd86dbd98cf003",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

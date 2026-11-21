@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:20:40.619044+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-sommeil-0001",
+        "reason": "découpe brute de l'élément pestouille-sommeil : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-expression-sommeil-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-sommeil (empreinte c8f029320a4b)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a0c2aab72b1d6081f172af8d11e974779c9c729cd2020d182173302ee2e7cdcc",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille sommeil",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-sommeil-0001",
+          "reason": "découpe brute de l'élément pestouille-sommeil : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-expression-sommeil-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-sommeil (empreinte c8f029320a4b)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-sommeil-0001",
+        "asset-sprite-pestouille-expression-sommeil-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:20:40.263340+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-sommeil » (assets/export/e04-heros.png), forme normalisée par le jeu de l'élément pestouille-sommeil",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-sommei-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-sommei-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-pestouille-sommeil"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-sommeil-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-80.png, SHA-256 afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-pestouille-sommeil"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-sommeil (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "000026993c56da3a",
+    "phash": "b5c22db55a896e92"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-sommeil-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-sommeil livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-heros.png",
+      "recette {\"atlas\": \"assets/export/e04-heros.png (png)\", \"boite\": [55, 29, 208, 358], \"cadre\": \"sprite-pestouille-sommeil\", \"element\": \"pestouille-sommeil\", \"empreintePixels\": \"c8f029320a4bdab85777ad41d1858689a1e9b90e45258f4f85e3de14e3b70e6a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 29, \"w\": 55, \"x\": 208, \"y\": 358}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-heros.decoupe.json\", \"tableSha256\": \"687055e22edef5a2df9f8d1aa4cdcd635b5251a5aa715ba53c64a5e0c72b4195\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-sommeil-0001",
+    "parentSha256": "8a0addd0ca6e597be28ed3a4cb13c95b49891b03177aca315613102ebb35c5aa",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:20:40.619044+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-heros.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 186,
+        "path": "assets/export/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-sommeil de assets/export/e04-heros.png (empreinte de pixels c8f029320a4bdab8)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "afa6d5b0273262f3a7609e37550f6df1669316b921d0c6f2ea3bf99215896802",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:01:20.733020+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fond-campement-0001",
+        "reason": "découpe brute de l'élément fond-campement : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f86073cdae786fd128c8826f3a05159e7d3269aac3a0e3eecf80ded75ad245ee",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fond campement",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fond-campement-0001",
+          "reason": "découpe brute de l'élément fond-campement : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fond-campement-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:01:20.384347+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fond-campement » (public/assets/m02-fonds.webp), forme normalisée par le jeu de l'élément fond-campement",
+  "dimensions": {
+    "height": 132,
+    "width": 295
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fond-campement-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fond-campement-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-fonds.json · cadre sprite-fond-campement"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fond-campement-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-433.png, SHA-256 0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m02-fonds.json · cadre sprite-fond-campement"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg fond-campement (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "3cbcbc949417dbd8",
+    "phash": "90340faf5c6b5ec1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fond-campement-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fond-campement livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m02-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m02-fonds.webp (webp)\", \"boite\": [295, 132, 1363, 659], \"cadre\": \"sprite-fond-campement\", \"element\": \"fond-campement\", \"empreintePixels\": \"4463065ce44acaa28a92192d519d53f1635385ae43c322f6735fefacb9d36cb4\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"295x132\"}, \"regionDuBrut\": {\"h\": 132, \"w\": 295, \"x\": 1363, \"y\": 659}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m02-fonds.decoupe.json\", \"tableSha256\": \"fa230edea42c3ca16709fe27932a7ead1d6b029d85f7e00eb31507d2d0f770cd\"}"
+    ],
+    "parentId": "asset-sprite-fond-campement-0001",
+    "parentSha256": "0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m02-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:01:20.733020+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/m02-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-campement de public/assets/m02-fonds.webp (empreinte de pixels 4463065ce44acaa2)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-campement",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m02-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m02-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0890c1310e49d2df8831457b4efb20a40466d489499bd6d85a92949c5b44ebb5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

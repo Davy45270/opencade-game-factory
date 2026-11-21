@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:16:09.046591+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-plumir-0001",
+        "reason": "découpe brute de l'élément plumir : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cb6865f08e79093fce23e66648a5e4214bbc3aac2bd61e6d317e892dcc9338e0",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "plumir",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-plumir-0001",
+          "reason": "découpe brute de l'élément plumir : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-plumir-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:16:08.702737+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-plumir » (assets/export/e03-personnages.png), forme normalisée par le jeu de l'élément plumir",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-plumir-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-plumir-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-plumir"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plumir-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-38.png, SHA-256 9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-personnages.json · cadre sprite-plumir"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg plumir (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b911d8ad6962258e",
+    "phash": "ca983d8f32f0c533"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-plumir-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plumir livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-personnages.png",
+      "recette {\"atlas\": \"assets/export/e03-personnages.png (png)\", \"boite\": [71, 64, 1471, 31], \"cadre\": \"sprite-plumir\", \"element\": \"plumir\", \"empreintePixels\": \"2d50ea142cf25e8ed990026379831c976b716317153d5a14f76226fb05f4d219\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 64, \"w\": 71, \"x\": 1471, \"y\": 31}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-plumir-0001",
+    "parentSha256": "bec02083b75ad051ea5b845d6a821707a6f90ddfce9b22f669d8d46bc29d8b4f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:16:09.046591+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-personnages.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-plumir de assets/export/e03-personnages.png (empreinte de pixels 2d50ea142cf25e8e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-plumir",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9b4d1bae7b1ff675b6c44f33a4a61bf2bf4fcd804c202689e7e52366a015333a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

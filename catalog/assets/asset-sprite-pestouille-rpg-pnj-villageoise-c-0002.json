@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:46:43.568937+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pnj-villageoise-c-0001",
+        "reason": "pixels différents du cadre livré sprite-pnj-villageoise (empreinte cf906ff52773)"
+      },
+      {
+        "assetId": "asset-sprite-pnj-villageoise-0001",
+        "reason": "découpe brute de l'élément pnj-villageoise : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "fd6a7b81af656cb758328242c3ae303677e37fdb7f8146933f539fc174f83bb7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pnj villageoise",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pnj-villageoise-c-0001",
+          "reason": "pixels différents du cadre livré sprite-pnj-villageoise (empreinte cf906ff52773)"
+        },
+        {
+          "assetId": "asset-sprite-pnj-villageoise-0001",
+          "reason": "découpe brute de l'élément pnj-villageoise : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pnj-villageoise-c-0001",
+        "asset-sprite-pnj-villageoise-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:46:43.215600+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pnj-villageoise » (public/assets/e03-personnages.webp), forme normalisée par le jeu de l'élément pnj-villageoise",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pnj-villageoise-c-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pnj-villageoise-c-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-villageoise"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pnj-villageoise-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-305.png, SHA-256 619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-personnages.json · cadre sprite-pnj-villageoise"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pnj-villageoise (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "96b23332b233b396",
+    "phash": "99ce66c2619937c3"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pnj-villageoise-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pnj-villageoise livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-personnages.webp",
+      "recette {\"atlas\": \"public/assets/e03-personnages.webp (webp)\", \"boite\": [42, 74, 83, 839], \"cadre\": \"sprite-pnj-villageoise\", \"element\": \"pnj-villageoise\", \"empreintePixels\": \"cf906ff527737910ceaed3196d85b3cf7e937e4c85849f49c24b389be306f7d1\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 74, \"w\": 42, \"x\": 83, \"y\": 839}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-personnages.decoupe.json\", \"tableSha256\": \"4a6fc114ebc4b2602e5a54ed63c62cb7ca7517dfc85ad13319371e7f4d3e2689\"}"
+    ],
+    "parentId": "asset-sprite-pnj-villageoise-0001",
+    "parentSha256": "832419ec78d23bc2f6c3c02215df25d6941efad9079b28933b686fa822fea0c9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-personnages.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:46:43.568937+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 90,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pnj-villageoise de public/assets/e03-personnages.webp (empreinte de pixels cf906ff527737910)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pnj-villageoise",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "619eb4efd3831b8d835fe720d20627e4f631789f897400aeb4b3042f70529531",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

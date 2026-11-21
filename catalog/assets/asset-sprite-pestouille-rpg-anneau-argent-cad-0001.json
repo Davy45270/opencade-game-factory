@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:29:54.317494+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-anneau-argent-0001",
+        "reason": "découpe brute de l'élément anneau-argent : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "58808fadf0d5a1bc01f2df5ac2b8ef7ae7673412e63be82d879d9d31c504d6a5",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "anneau argent",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-anneau-argent-0001",
+          "reason": "découpe brute de l'élément anneau-argent : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-anneau-argent-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:29:53.942114+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-anneau-argent » (assets/export/p02-objets.png), forme normalisée par le jeu de l'élément anneau-argent",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-anneau-argent-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-anneau-argent-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-objets.json · cadre sprite-anneau-argent"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-anneau-argent-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-165.png, SHA-256 37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-objets.json · cadre sprite-anneau-argent"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg anneau-argent (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "46f1c49a964c7186",
+    "phash": "c1c70f1e7179364c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-anneau-argent-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-anneau-argent livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-objets.png",
+      "recette {\"atlas\": \"assets/export/p02-objets.png (png)\", \"boite\": [36, 40, 247, 449], \"cadre\": \"sprite-anneau-argent\", \"element\": \"anneau-argent\", \"empreintePixels\": \"2a46bacbdc87d694242f14603b25b487ef84b11c515d24c69d21748c14b5b52a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 36, \"x\": 247, \"y\": 449}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-objets.decoupe.json\", \"tableSha256\": \"8da505fd794f1c83b370cff0060a2d0b69883c160c8d7f475ecf9620ce2112d7\"}"
+    ],
+    "parentId": "asset-sprite-anneau-argent-0001",
+    "parentSha256": "b9ef17e142f74a2a34ddde3eaebe689be29f350b66b7c42c1a7275caa09cee05",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:29:54.317494+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/p02-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-anneau-argent de assets/export/p02-objets.png (empreinte de pixels 2a46bacbdc87d694)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-anneau-argent",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "37f5986de954959e8803358da30bbddd4e049acab83d0ce4dbcaa862c6d5958f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

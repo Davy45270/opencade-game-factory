@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:33:06.119578+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pestouille-vol-a-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-vol-a (empreinte dbe30e21dc61)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-vol-a-0002",
+        "reason": "découpe brute de l'élément pestouille-vol-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-vol-a-0001",
+        "reason": "pixels différents du cadre livré sprite-pestouille-vol-a (empreinte dbe30e21dc61)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "dd577fe31db658d22aa3cae58752e35fe623a1c45d0b30eda534567c32e0ccc7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille vol a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pestouille-vol-a-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-vol-a (empreinte dbe30e21dc61)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-vol-a-0002",
+          "reason": "découpe brute de l'élément pestouille-vol-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-vol-a-0001",
+          "reason": "pixels différents du cadre livré sprite-pestouille-vol-a (empreinte dbe30e21dc61)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pestouille-vol-a-0001",
+        "asset-sprite-pestouille-vol-a-0002",
+        "asset-sprite-pestouille-vol-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:33:05.773417+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-vol-a » (assets/export/p02-pestouille.png), forme normalisée par le jeu de l'élément pestouille-vol-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-vol-a-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-vol-a-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-vol-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-vol-a-0002"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/p02-pestouille.json · cadre sprite-pestouille-vol-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-vol-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0aa711d29c776c3a",
+    "phash": "9df0ee8631794c32"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-vol-a-0002",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-vol-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/p02-pestouille.png",
+      "recette {\"atlas\": \"assets/export/p02-pestouille.png (png)\", \"boite\": [47, 43, 942, 38], \"cadre\": \"sprite-pestouille-vol-a\", \"element\": \"pestouille-vol-a\", \"empreintePixels\": \"dbe30e21dc61a2effaa216678dfb459d525b3a0dd67c0e9681ae46d5c1b5b6b3\", \"parametres\": {\"detoure\": false, \"marge\": 2, \"taille\": 64}, \"regionDuBrut\": {\"h\": 43, \"w\": 47, \"x\": 942, \"y\": 38}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-pestouille.decoupe.json\", \"tableSha256\": \"a707dff9682f33f73a7d88481c28d264804a4d552523f0f70579babf2744bce3\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-vol-a-0002",
+    "parentSha256": "d04d57ac15a854ec62b3169a8870e4e581252149682f6aae2d0418ef48accadb",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-pestouille.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:33:06.119578+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 202,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-vol-a de assets/export/p02-pestouille.png (empreinte de pixels dbe30e21dc61a2ef)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-vol-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9b266e4b678e1ecc23e507055446a60ed3ee8f72c7e175f4c0e1773ab76d4167",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

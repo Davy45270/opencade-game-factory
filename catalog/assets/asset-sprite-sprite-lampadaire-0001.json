@@ -91,12 +91,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Licence SPDX déclarée.",
-    "method": "provenance-file",
-    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
-  },
+  "license": "unknown",
   "name": "sprite-lampadaire",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -108,22 +103,14 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+      "content/assets/planches/source/p02-meubles.decoupe.json@d0adc4b9b4b56e1629a9940c436ecd49ea8f010c"
     ],
-    "sourceSheetSha256": "2768f96d65ffc1ae25d78ac19763d358eb847bbbbed10ca8f1702618d575bbfc",
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "406d981989e7b31b452fc36f79bc785b78b55b5e7a3da6d3df87254764097263",
-  "sourceRegion": {
-    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
-    "h": 593,
-    "verified": false,
-    "w": 202,
-    "x": 30,
-    "y": 52
-  },
-  "sourceSheetId": "sheet-cozy-room-sort-planche-02-webp-0001",
+  "sourceRegion": null,
+  "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -176,7 +163,7 @@
         "line": 405,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p02-meubles.json",
         "module-path: content/assets/inventaire.json"
@@ -204,6 +191,20 @@
   "version": 1,
   "versions": [
     {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p02-meubles-0001",
+          "h": 192,
+          "sourceSheetSha256": "31e4426b9852e357962fa54c8da5d5f8d47f74c4fc049b45a5ac96821d8fc945",
+          "w": 192,
+          "x": 198,
+          "y": 198
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "date": "2026-11-19T15:44:43+01:00",
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "406d981989e7b31b452fc36f79bc785b78b55b5e7a3da6d3df87254764097263",

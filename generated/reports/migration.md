@@ -24,7 +24,7 @@ Copies divergentes.
 | --- | --- | --- | --- | --- |
 | forgejo | main | ad8fe025c8010d992040e0002dc0000319a2b869 | 2026-11-19T14:38:14+01:00 | — |
 | github | main | ba3b46f853e1ef55c29c33b779d82a59c1e279e6 | 2026-11-18T23:43:02+01:00 | — |
-| local | main | ad8fe025c8010d992040e0002dc0000319a2b869 | 2026-11-19T14:38:14+01:00 | — |
+| local | main | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | 2026-11-19T15:44:43+01:00 | — |
 
 ## echecs-kid
 
@@ -161,15 +161,15 @@ Copies divergentes.
 | capsule-panic | 5f2553ba76a19a1b5f2a3ecf2a11f60032112204 | packages/input/package.json |
 | capsule-panic | 5f2553ba76a19a1b5f2a3ecf2a11f60032112204 | packages/renderer/package.json |
 | capsule-panic | 5f2553ba76a19a1b5f2a3ecf2a11f60032112204 | tsconfig.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | apps/web/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | apps/web/vite.config.ts |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | packages/engine/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | packages/generator/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | packages/level-tools/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | packages/schemas/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | packages/solver/package.json |
-| cozy-room-sort | ad8fe025c8010d992040e0002dc0000319a2b869 | tsconfig.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | apps/web/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | apps/web/vite.config.ts |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | packages/engine/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | packages/generator/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | packages/level-tools/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | packages/schemas/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | packages/solver/package.json |
+| cozy-room-sort | d0adc4b9b4b56e1629a9940c436ecd49ea8f010c | tsconfig.json |
 | echecs-kid | 9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c | package.json |
 | echecs-kid | 9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c | tsconfig.json |
 | echecs-kid | 9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c | vite.config.ts |
@@ -337,3 +337,8 @@ Copies divergentes.
 | tictac | f3cc726e59a0eb84e9507b3eb448be600c4ca775 | package.json |
 | tictac | f3cc726e59a0eb84e9507b3eb448be600c4ca775 | tsconfig.json |
 | tictac | f3cc726e59a0eb84e9507b3eb448be600c4ca775 | vite.config.ts |
+
+## Tags divergents
+
+| Dépôt | Tag | Fournisseur | Commit | Importé |
+| --- | --- | --- | --- | --- |

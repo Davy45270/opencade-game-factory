@@ -91,12 +91,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Licence SPDX déclarée.",
-    "method": "provenance-file",
-    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
-  },
+  "license": "unknown",
   "name": "sprite-sol-carreaux",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -108,22 +103,14 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+      "content/assets/planches/source/p01-panneaux.decoupe.json@d0adc4b9b4b56e1629a9940c436ecd49ea8f010c"
     ],
-    "sourceSheetSha256": "295a8fca9186e91b40e7d2f5e2878e57ac9d52627a72f38f7ea6600e28cb28f3",
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892",
-  "sourceRegion": {
-    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
-    "h": 98,
-    "verified": false,
-    "w": 143,
-    "x": 864,
-    "y": 905
-  },
-  "sourceSheetId": "sheet-cozy-room-sort-planche-01-webp-0001",
+  "sourceRegion": null,
+  "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -176,7 +163,7 @@
         "line": 235,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p01-panneaux.json",
         "module-path: content/assets/inventaire.json"
@@ -204,6 +191,20 @@
   "version": 1,
   "versions": [
     {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p01-panneaux-0001",
+          "h": 256,
+          "sourceSheetSha256": "8abf38905b8051cd81eaf9f9617a37d4ef9e41b55718c2275170aab8e71cbdf9",
+          "w": 256,
+          "x": 262,
+          "y": 262
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "date": "2026-11-19T15:44:43+01:00",
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892",

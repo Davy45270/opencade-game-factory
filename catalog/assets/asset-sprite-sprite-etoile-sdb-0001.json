@@ -91,12 +91,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Licence SPDX déclarée.",
-    "method": "provenance-file",
-    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
-  },
+  "license": "unknown",
   "name": "sprite-etoile-sdb",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -108,22 +103,14 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+      "content/assets/planches/source/p04-ui.decoupe.json@d0adc4b9b4b56e1629a9940c436ecd49ea8f010c"
     ],
-    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "068c3877f1c3f555bab58e70a8c345c293de4130dc5bea7f797e10f8e4cdb82e",
-  "sourceRegion": {
-    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
-    "h": 50,
-    "verified": false,
-    "w": 55,
-    "x": 51,
-    "y": 685
-  },
-  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
+  "sourceRegion": null,
+  "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -244,7 +231,7 @@
         "line": 10,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -278,7 +265,7 @@
         "line": 14,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -312,7 +299,7 @@
         "line": 963,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: content/assets/inventaire.json"
@@ -342,6 +329,20 @@
   "version": 1,
   "versions": [
     {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p04-ui-0001",
+          "h": 256,
+          "sourceSheetSha256": "c2dcfbdd6a02dae556fb47c3ec0650e1c897c84f4a1b7f7ff6c032153d46884d",
+          "w": 256,
+          "x": 522,
+          "y": 262
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "date": "2026-11-19T15:44:43+01:00",
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "068c3877f1c3f555bab58e70a8c345c293de4130dc5bea7f797e10f8e4cdb82e",

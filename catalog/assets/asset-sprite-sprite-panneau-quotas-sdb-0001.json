@@ -91,12 +91,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Licence SPDX déclarée.",
-    "method": "provenance-file",
-    "ref": "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
-  },
+  "license": "unknown",
   "name": "sprite-panneau-quotas-sdb",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -108,22 +103,14 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869"
+      "content/assets/planches/source/p04-quotas.decoupe.json@d0adc4b9b4b56e1629a9940c436ecd49ea8f010c"
     ],
-    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "b83fa1d90572f1f054d136b9e3a86c73df8742aa98b0c30f499d86670f255f98",
-  "sourceRegion": {
-    "evidence": "Comparaison indisponible · content/assets/provenance.json@ad8fe025c8010d992040e0002dc0000319a2b869",
-    "h": 209,
-    "verified": false,
-    "w": 246,
-    "x": 22,
-    "y": 799
-  },
-  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
+  "sourceRegion": null,
+  "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -176,7 +163,7 @@
         "line": 871,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "ad8fe025c8010d992040e0002dc0000319a2b869",
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-quotas.json",
         "module-path: content/assets/inventaire.json"
@@ -207,6 +194,20 @@
   "version": 1,
   "versions": [
     {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p04-quotas-0001",
+          "h": 256,
+          "sourceSheetSha256": "e8136d8e2112710c5943d02cd0e709064c1fa913cefbe1b1f4ff2d0572c5c2c1",
+          "w": 256,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d0adc4b9b4b56e1629a9940c436ecd49ea8f010c",
+      "date": "2026-11-19T15:44:43+01:00",
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "b83fa1d90572f1f054d136b9e3a86c73df8742aa98b0c30f499d86670f255f98",

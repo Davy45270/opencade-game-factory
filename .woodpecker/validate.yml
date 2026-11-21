@@ -28,6 +28,10 @@ clone:
       # un `git fetch` dans une étape Python, sans identifiants, sortait en 128 (pipeline 18, HL-538).
       fetch_target_branch: true
 
+# Étapes en graphe (HL-542 7-3229) : après `dependances`, toutes tournent en parallèle ; une étape sans
+# depends_on démarrerait d'emblée, d'où un depends_on explicite partout. Les tests passent en 4 processus
+# (pytest-xdist) : chaque test construit ses fixtures dans un dossier temporaire à lui, et directory_lock()
+# ne porte que sur le catalogue de CE dossier.
 steps:
   - name: dependances
     image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
@@ -35,11 +39,12 @@ steps:
     commands:
       - python3 --version
       - python3 -m venv .venv
-      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt -r requirements-ci.txt
       - .venv/bin/pip freeze
 
   - name: tests-unitaires
     image: *py
+    depends_on: [dependances]
     commands:
       # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
       # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
@@ -47,11 +52,12 @@ steps:
       - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
-      - python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
+      - python3 -m pytest -n 4 -q -p no:cacheprovider tests/unit
 
   # E085 : AT-01…AT-15 en boîte noire (fixtures git construites par les tests, aucun dépôt réel).
   - name: tests-acceptation
     image: *py
+    depends_on: [dependances]
     commands:
       # ImageMagick : le registre rejoue la normalisation déclarée par la recette d'un jeu (outils.magick, L7) ;
       # en CI (variable CI présente) un oracle qui n'a pas magick échoue au lieu de sauter.
@@ -59,11 +65,12 @@ steps:
       - magick -version | head -1
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
-      - python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'
+      - python3 -m pytest -n 4 -q -p no:cacheprovider tests/acceptance
 
   # E075-E080 : schémas, unicité des IDs, références, empreintes, dimensions/alpha, licences.
   - name: validate
     image: *py
+    depends_on: [dependances]
     commands:
       - . .venv/bin/activate
       - ./assetctl validate --json
@@ -72,6 +79,7 @@ steps:
   # Sans base lisible, le contrôle ne prouve rien : échec voulu plutôt qu'un vert muet.
   - name: controle-de-pr
     image: *py
+    depends_on: [dependances]
     when:
       - event: pull_request
     commands:
@@ -87,6 +95,7 @@ steps:
   # E083 : chaque atlas exporté du dépôt (transparence, dimensions, références).
   - name: atlas
     image: *py
+    depends_on: [dependances]
     commands:
       - . .venv/bin/activate
       - N=0
@@ -97,6 +106,7 @@ steps:
   # Ses tests d'acceptation EXT-T01…T12 tournent hors ligne dans tests-unitaires (tests/unit/test_ext001.py).
   - name: licences-externes
     image: *py
+    depends_on: [dependances]
     commands:
       - . .venv/bin/activate
       - ./assetctl external audit-licenses --json
@@ -104,6 +114,7 @@ steps:
   # E082 : doublons exacts et similaires proposés, jamais fusionnés.
   - name: doublons
     image: *py
+    depends_on: [dependances]
     commands:
       - . .venv/bin/activate
       - ./assetctl duplicates --json
@@ -111,5 +122,6 @@ steps:
   # E081 : secrets.
   - name: secrets
     image: harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1
+    depends_on: []
     commands:
       - gitleaks detect --source . --no-banner --redact

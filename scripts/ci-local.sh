@@ -34,8 +34,8 @@ activer() {
 dependances() {
   etape dependances
   activer
-  python3 -c 'import PIL, numpy, jsonschema' || {
-    echo "dépendances absentes : python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"
+  python3 -c 'import PIL, numpy, jsonschema, pytest, xdist' || {
+    echo "dépendances absentes : python3 -m venv .venv && .venv/bin/pip install -r requirements.txt -r requirements-ci.txt"
     exit 4
   }
 }
@@ -96,9 +96,9 @@ case "$PIPELINE" in
   validate)
     dependances
     etape tests-unitaires
-    python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
+    python3 -m pytest -n 4 -q -p no:cacheprovider tests/unit
     etape tests-acceptation
-    python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'
+    python3 -m pytest -n 4 -q -p no:cacheprovider tests/acceptance
     etape validate
     ./assetctl validate --json
     if [ -n "${CI_LOCAL_BASE:-}" ]; then

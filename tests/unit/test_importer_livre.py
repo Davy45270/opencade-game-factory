@@ -146,6 +146,58 @@ class ModulesDeDessin(TestCase):
             self.assertEqual(il.modules_de_dessin(racine, list(fichiers), dans_b), ["src/games/b/scene.ts"])
 
 
+class RegleExigences(TestCase):
+    """Une règle déclarée n'accorde rien sans les preuves qu'elle exige ; un SHA-256 déclaré doit être celui livré."""
+    preuve = {"method": "m", "ref": "r", "decision": "d"}
+    profil = {"provenance_images": "prov.json",
+              "images": [{"prefixe": "red/", "declaree": True, "origines": ["redessiné (marque)"],
+                          "exige": ["planche", "planche_sha256"], "licence": "X", "auteur": "A",
+                          "licence_preuve": preuve},
+                         {"prefixe": "icons/", "declaree": True, "origines": ["dessiné dans le dépôt"],
+                          "exige": ["sha256"], "licence": "X", "auteur": None, "licence_preuve": preuve}]}
+
+    def test_redessin_sans_sha_de_planche_reste_inconnu(self):
+        e = {"id": "r1", "origine": "redessiné (marque)", "planche": "P.png"}
+        self.assertIsNone(il.regle_image(self.profil, "red/r1.svg", {"red/r1.svg": e}))
+        r = il.regle_image(self.profil, "red/r1.svg", {"red/r1.svg": {**e, "planche_sha256": "ab"}})
+        self.assertEqual((r["licence"], r["auteur"]), ("X", "A"))
+        self.assertIn("SHA-256 ab", r["licence_preuve"]["ref"])
+
+    def test_sha256_declare_doit_etre_celui_des_octets(self):
+        octets = b"icone"
+        e = {"fichier": "icons/i.png", "origine": "dessiné dans le dépôt", "auteur": "agent",
+             "sha256": il.sha256(octets)}
+        self.assertIsNone(il.regle_image(self.profil, "icons/i.png", {"icons/i.png": e}, b"autre"))
+        self.assertIsNone(il.regle_image(self.profil, "icons/i.png", {"icons/i.png": e}))
+        r = il.regle_image(self.profil, "icons/i.png", {"icons/i.png": e}, octets)
+        self.assertEqual(r["auteur"], "agent")
+
+
+class AppliquerRegle(TestCase):
+    """Une licence prouvée n'est établie que sur la fiche repo-file de CE fichier de CE dépôt."""
+    regle = {"licence": "X", "licence_preuve": {"method": "m", "ref": "r", "decision": "d"}, "auteur": "A"}
+
+    def fiche(self, racine, aid, evidence, type_="repo-file"):
+        (racine / "catalog/assets").mkdir(parents=True, exist_ok=True)
+        (racine / "catalog/assets" / f"{aid}.json").write_text(il.json.dumps(
+            {"id": aid, "license": "unknown", "provenance": {"type": type_, "author": "unknown", "evidence": evidence}}))
+
+    def test_fiche_du_scan_de_ce_fichier_seulement(self):
+        import tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            r = il.Path(d)
+            self.fiche(r, "a", ["jeu@abc:public/i.png"])
+            self.fiche(r, "b", ["autre@abc:public/i.png"])
+            self.fiche(r, "c", ["jeu@abc:public/j.png"])
+            self.fiche(r, "d", ["jeu@abc:public/i.png"], "external")
+            fiches = {}
+            self.assertTrue(il.appliquer_regle("a", self.regle, fiches, "jeu", "public/i.png"))
+            self.assertEqual((fiches["a"]["license"], fiches["a"]["provenance"]["author"]), ("X", "A"))
+            for aid in "bcd":
+                self.assertFalse(il.appliquer_regle(aid, self.regle, fiches, "jeu", "public/i.png"))
+
+
 class RegleDeclaree(TestCase):
     """Une règle « declaree » ne vaut que pour une image déclarée par le jeu avec une origine admise."""
     preuve = {"method": "m", "ref": "r", "decision": "d"}

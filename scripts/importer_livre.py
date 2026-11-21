@@ -55,19 +55,44 @@ PROFILS = {
                            "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; "
                                        "publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21)."},
         "auteur": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
-        # Découpes isolées déclarées « planche » par assets/provenance.json du jeu (dessin de David découpé tel quel).
-        # Les redessins (« redessiné (marque) », auteur autre que David) et les images absentes de ce fichier restent
-        # inconnus : listés dans sans_origine, à arbitrer (HL-537).
+        # Images isolées DÉCLARÉES par assets/provenance.json du jeu (`assets` par source/élément, `hors_atlas` par
+        # fichier avec son SHA-256), chaque famille avec ses origines admises et les preuves exigées dans l'entrée.
+        # Absente du fichier, origine non admise ou preuve manquante : inconnue, listée dans sans_origine.
         "provenance_images": "assets/provenance.json",
-        "images": [{"prefixe": prefixe, "declaree": True, "origines": ["planche"],
-                    "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
-                    "auteur": "David (dessin fourni par David ; découpé par le jeu, assets/provenance.json)",
-                    "licence_preuve": {"method": "décision du propriétaire",
-                                       "ref": "HL-538 7-3162",
-                                       "decision": "Dessins de Pestouille fournis par David (héros, créatures, "
-                                                   "variantes) : privé, tous droits réservés ; publiables à travers "
-                                                   "tout jeu de David qui les emploie."}}
-                   for prefixe in ("assets/cutouts/",)],
+        "images": [
+            *({"prefixe": prefixe, "declaree": True, "origines": ["planche"],
+               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+               "auteur": "David (dessin fourni par David ; découpé par le jeu, assets/provenance.json)",
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
+                                  "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : "
+                                              "privé, tous droits réservés ; publiables à travers tout jeu de David "
+                                              "qui les emploie."}}
+              for prefixe in ("assets/cutouts/",)),
+            # Redessins : dérivés d'une planche de David dans un jeu de David, ils gardent sa licence privée ; la
+            # planche source et son SHA-256 doivent être cités (décision du coordinateur, HL-537, 2026-11-21).
+            *({"prefixe": prefixe, "declaree": True, "origines": ["redessiné (marque)"],
+               "exige": ["planche", "planche_sha256"],
+               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+               "auteur": "redessin dans le style des planches de Davy45270 (assets/provenance.json)",
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162 ; HL-537",
+                                  "decision": "Dessins de David = licence privée ; une dérivation dans un jeu de "
+                                              "David garde cette licence (redessin citant sa planche source et son "
+                                              "SHA-256, 2026-11-21)."}}
+              for prefixe in ("assets/redessine/", "public/assets/redessine/")),
+            # Hors atlas : tuiles découpées de la planche 02, icônes dessinées dans le dépôt ; le SHA-256 déclaré du
+            # fichier doit être celui des octets livrés.
+            *({"prefixe": prefixe, "declaree": True, "origines": origines, "exige": ["sha256"],
+               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+               "auteur": auteur,
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162 ; HL-537",
+                                  "decision": "Images hors atlas déclarées avec leur origine et leur SHA-256 dans "
+                                              "assets/provenance.json (hors_atlas) : licence privée de David "
+                                              "(2026-11-21)."}}
+              for prefixe, origines, auteur in (
+                  ("assets/cartes/", ["planche"], "David (planche découpée par le jeu, assets/provenance.json)"),
+                  ("public/assets/cartes/", ["planche"], "David (planche découpée par le jeu, assets/provenance.json)"),
+                  ("public/icons/", ["dessiné dans le dépôt"], None))),
+        ],
     },
     "cozy-room-sort": {
         "parents": "provenance",
@@ -425,27 +450,53 @@ def fournisseur(depot):
     return "forgejo" if any(c.get("provider") == "forgejo" for c in entree.get("copies") or []) else "github"
 
 
-def regle_image(profil, chemin, declarees=None):
+def regle_image(profil, chemin, declarees=None, octets=None):
     """Provenance PROUVÉE d'une image isolée par le profil, sinon None (inconnue — jamais inventée). Une règle à
-    `declaree` ne vaut que si le fichier de provenance du jeu déclare l'image (même id que son nom), avec une origine
-    admise : la règle porte alors la référence de cette entrée."""
+    `declaree` ne vaut que si le fichier de provenance du jeu déclare l'image (même id que son nom, ou son chemin),
+    avec une origine admise et les champs que la règle `exige`. Un SHA-256 déclaré doit être celui des octets livrés.
+    La règle porte alors la référence de cette entrée, et l'auteur qu'elle déclare."""
     for r in profil.get("images") or ():
         if not chemin.startswith(r["prefixe"]):
             continue
         if not r.get("declaree"):
             return r
         e = (declarees or {}).get(chemin) or (declarees or {}).get(PurePosixPath(chemin).stem)
-        if e and e.get("origine") in r["origines"]:
-            ref = f"{profil['provenance_images']} · {e['id']} (origine « {e['origine']} »"
-            ref += f", planche {e['planche']} SHA-256 {e.get('planche_sha256')})" if e.get("planche") else ")"
-            return {**r, "licence_preuve": {**r["licence_preuve"], "ref": r["licence_preuve"]["ref"] + " ; " + ref}}
+        if not e or e.get("origine") not in r["origines"] or not all(e.get(c) for c in r.get("exige", ())):
+            return None
+        if e.get("sha256") and (octets is None or e["sha256"] != sha256(octets)):
+            return None
+        ref = f"{profil['provenance_images']} · {e.get('id') or e.get('fichier')} (origine « {e['origine']} »"
+        ref += f", planche {e['planche']} SHA-256 {e.get('planche_sha256')}" if e.get("planche") else ""
+        ref += f", fichier SHA-256 {e['sha256']}" if e.get("sha256") else ""
+        ref += ")"
+        auteur = e.get("auteur") or r.get("auteur") or "unknown"
+        return {**r, "auteur": auteur,
+                "licence_preuve": {**r["licence_preuve"], "ref": r["licence_preuve"]["ref"] + " ; " + ref}}
     return None
+
+
+def appliquer_regle(aid, regle, fiches, depot, chemin):
+    """Image déjà au registre en licence inconnue, dont la provenance est désormais prouvée : la licence, sa preuve et
+    l'auteur sont établis. Seulement pour une fiche `repo-file` de CE fichier de CE dépôt (marque de l'importeur, ou
+    preuve du scan `<dépôt>@<commit>:<chemin>`) : une fiche d'une autre origine n'est pas touchée. Le scan remet la
+    licence à unknown si les octets changent (nouvelle version), ce qui est voulu : la preuve vaut pour ces octets."""
+    p = REG / "catalog/assets" / f"{aid}.json"
+    a = lire(p)
+    prov = a.get("provenance") or {}
+    if prov.get("type") != "repo-file" or not any(
+            MARQUE in ev or (ev.startswith(f"{depot}@") and ev.endswith(f":{chemin}")) for ev in prov.get("evidence") or ()):
+        return False
+    a["license"], a["licenseEvidence"] = regle["licence"], regle["licence_preuve"]
+    a["provenance"]["author"] = regle["auteur"]
+    write_json(p, a)
+    fiches[aid] = a
+    return True
 
 
 def enregistrer_brut_du_jeu(args, sha, profil, chemin, octets, categorie, travail, n, fiches, par_octets, compte,
                             declarees=None):
     """Image livrée (ou cadre sans table de découpe) inconnue du registre : register, provenance repo-file."""
-    regle = regle_image(profil, chemin, declarees) if categorie != "sprite" else None
+    regle = regle_image(profil, chemin, declarees, octets) if categorie != "sprite" else None
     regle = regle or ({"licence": profil["licence"], "licence_preuve": profil["licence_preuve"], "auteur": profil["auteur"]}
                       if categorie == "sprite" and profil.get("licence") else None)
     fichier = travail / f"image-{n}{PurePosixPath(chemin).suffix if categorie != 'sprite' else '.png'}"
@@ -508,7 +559,7 @@ def main(argv):
     compte = {"atlas": len(atlas), "cadres": sum(len(a["cadres"]) for a in atlas), "cadres_distincts": 0,
               "reemployes": 0, "enregistres": 0, "bruts_importes": 0, "atlas_enregistres": 0,
               "images": len(isolees), "images_enregistrees": 0, "modules_dessin": len(modules),
-              "modules_hors_registre": [], "usages": 0, "fiches_ecrites": 0, "sans_origine": []}
+              "modules_hors_registre": [], "usages": 0, "fiches_ecrites": 0, "sans_origine": [], "licences_etablies": 0}
     if args.verifier:
         index = lire(REG / "generated/usage-index.json").get("byAsset") or {}
         employe = lambda ids: any(u.get("game") == args.jeu and u.get("commit") == sha and u.get("status") == "active"
@@ -670,8 +721,9 @@ def main(argv):
     declarees = {}
     if profil.get("provenance_images") and (clone / profil["provenance_images"]).is_file():
         doc = lire(clone / profil["provenance_images"])
-        for e in (doc.get("assets") if isinstance(doc, dict) else doc) or []:
-            for cle in (e.get("id"), e.get("source"), e.get("element")):
+        entrees = ((doc.get("assets") or []) + (doc.get("hors_atlas") or [])) if isinstance(doc, dict) else doc
+        for e in entrees or []:
+            for cle in (e.get("id"), e.get("source"), e.get("element"), e.get("fichier")):
                 if isinstance(cle, str) and cle:
                     declarees.setdefault(cle, e)
     image_ids = {}
@@ -680,8 +732,12 @@ def main(argv):
         d = sha256(octets)
         if par_octets.get(d):
             image_ids[f] = min(par_octets[d], key=lambda i: (fiches[i].get("category") == "atlas", i))
-            if fiches[image_ids[f]].get("license") in (None, "", "unknown") and not regle_image(profil, f, declarees):
-                compte["sans_origine"].append(f)
+            if fiches[image_ids[f]].get("license") in (None, "", "unknown"):
+                regle = regle_image(profil, f, declarees, octets)
+                if regle and appliquer_regle(image_ids[f], regle, fiches, args.jeu.split("/")[0], f):
+                    compte["licences_etablies"] += 1
+                elif fiches[image_ids[f]].get("license") in (None, "", "unknown"):
+                    compte["sans_origine"].append(f)
             continue
         n += 1
         categorie = "icon" if "icons/" in f or "icon" in PurePosixPath(f).stem else "image"

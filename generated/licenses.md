@@ -1666,7 +1666,7 @@
 - `asset-image-credits-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-galaxie-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cristal-luciole-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cristal-luciole-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-cristal-volcan-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristaux-galaxie-g-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cycles-marche-enfants-planche-0001` — unknown · forbidden · Planche entière réservée.
@@ -1754,8 +1754,8 @@
 - `asset-image-effets-origine-2x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-effets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-effets-origine-3x-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-image-eglantine-portrait-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-eglantine-terrain-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-eglantine-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-eglantine-terrain-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-elimination-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-elimination-jeu-2x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-elimination-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -1883,8 +1883,8 @@
 - `asset-image-fioles-logo-2x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-fioles-logo-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-fioles-logo-3x-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-image-flammeche-pleine-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-flammeche-vide-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-fleche-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-fleche-plateau-apercu-2x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-fleche-plateau-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -1920,7 +1920,7 @@
 - `asset-image-freinage-04-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-image-freinage-04-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-image-freinage-04-0005` — unknown · forbidden · Autorisation non établie.
-- `asset-image-fronde-lianes-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-fumee-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-fumee-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-fumee-volcan-0001` — unknown · forbidden · Autorisation non établie.
@@ -1993,7 +1993,7 @@
 - `asset-image-gouter-final-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-miam-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-premier-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-graine-petard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-gravats-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-gravats-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-hangar-port-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2131,8 +2131,8 @@
 - `asset-image-nature-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-nature-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-nature-0003` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-nenuphine-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-nenuphine-lotus-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-nenuphine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-nenuphine-lotus-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-noe-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-noon-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-notion-0001` — unknown · forbidden · Autorisation non établie.
@@ -2287,8 +2287,8 @@
 - `asset-image-personnages-origine-2x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-personnages-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-personnages-origine-3x-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-image-pestouille-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-pestouille-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-pestouille-192-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-pestouille-512-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-pestouille-arriere-3-4-gauche-sa-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-pestouille-arriere-sans-ombre-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-pestouille-avant-0001` — unknown · forbidden · Planche entière réservée.
@@ -2326,7 +2326,7 @@
 - `asset-image-pestouille-rpg-sprite-pestouille-0026` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-pestouille-rpg-sprite-pestouille-0027` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-pestouille-rpg-sprite-trainee-so-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-tuiles-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-pestouille-rpg-tuiles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-petit-astronome-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-astronome-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-petit-astronome-0003` — unknown · forbidden · Autorisation non établie.
@@ -6125,7 +6125,7 @@
 - `asset-svg-cristal-brise-cyan-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristal-brise-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristal-cyan-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cristal-luciole-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-svg-cristal-luciole-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-cristal-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristaux-compteur-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristaux-compteur-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -6134,13 +6134,13 @@
 - `asset-svg-cristaux-hud-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-deplacement-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-deplacement-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-eglantine-portrait-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-eglantine-terrain-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-flammeche-pleine-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-flammeche-vide-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-fronde-lianes-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-svg-eglantine-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-eglantine-terrain-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-glyphs-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-graine-petard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-svg-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-hublot-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-lanterne-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-logo-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -6149,8 +6149,8 @@
 - `asset-svg-logo-jeu-lettres-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-medaillon-cellule-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-mode-classique-jeu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-nenuphine-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-nenuphine-lotus-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-svg-nenuphine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-nenuphine-lotus-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-nuage-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-paire-horizontale-cyan-ambre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-paire-horizontale-cyan-magenta-0001` — unknown · forbidden · Autorisation non établie.

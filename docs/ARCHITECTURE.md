@@ -399,6 +399,23 @@ le lock du jeu avec une ligne par image d’atlas livrée : `path` est son chemi
 `registryCommit` est le HEAD du registre, qui doit être publié (contenu dans `origin/main`). Le profil d’un jeu
 (`PROFILS`) donne ses manifestes, le préfixe de ses cadres et la décision de licence de ses dessins bruts.
 
+Tous les jeux (HL-538, consigne de David du 2026-11-21) : le profil est celui du DÉPÔT. Il désigne aussi, pour un
+monorepo, le dossier des jeux (`monorepo: src/games`). Le jeu `<dépôt>/<sous-dossier>` est alors ce sous-dossier,
+et `<dépôt>` seul est la coquille : tout ce qui n’est dans aucun dossier de jeu. L’usage cite le jeu ET le sha du
+dépôt. Trois familles sont reliées :
+- les cadres d’atlas, comme ci-dessus. Leur parent vient des manifestes (`manifestes`), d’un fichier de provenance
+  par dessin (`provenance` : planche, boîte, marge) ou de l’inventaire du jeu (`inventaire` : atlas → table). Un
+  cadre sans élément de découpe (redessin, dérivé) est enregistré tel que livré, en `repo-file` ;
+- les images livrées hors atlas (icônes, photos, découpes isolées), hors `docs/`, `tests/` et dossiers `source(s)/` ;
+- les modules qui dessinent par le code (même détection `DRAW` que le scan), ceux du jeu et ceux qu’il importe par
+  chemin relatif, hors modules d’un autre jeu du monorepo. Ils sont rattachés à l’asset `code-generated` du scan aux
+  mêmes octets. `register` refuse le code : un module absent se règle d’abord par `scan-repos` du dépôt.
+Les découpes brutes manquantes sont importées par lot, un `import-sheet` par table. Rien n’est inventé : sans règle
+de profil prouvée, l’image est `repo-file`, auteur et licence `unknown`, et elle est listée dans `sans_origine`. Une
+règle `declaree` ne vaut que pour une image que le fichier de provenance du jeu déclare, avec une origine admise.
+`--verifier` mesure sans rien écrire si le jeu est relié. Il l’est quand chaque cadre, image et module livré au sha a
+un asset dont l’index d’usage cite ce jeu à ce sha.
+
 `materialize <id> --version <n> --to <dossier>` livre le nom formé de l’ID
 et de l’extension de cette révision. Il accepte aussi un chemin de fichier
 explicite. Les révisions publiées sont lisibles après purge des miroirs.

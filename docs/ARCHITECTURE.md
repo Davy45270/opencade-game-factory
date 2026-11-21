@@ -162,7 +162,13 @@ avec la valeur. Les valeurs inconnues sont explicites (`unknown` ou `null`
 selon le champ). Un tableau de tags vide ne contient aucune assertion.
 
 Une licence connue utilise un identifiant de la liste SPDX v3.27.0 et
-`licenseEvidence`. Un export public exigera une licence vérifiée et une
+`licenseEvidence`. La seule référence hors liste admise est
+`LicenseRef-David-Prive-Tous-Droits-Reserves` (texte dans `LICENSES/`, décision HL-538 7-3162) :
+licence privée de David, non dérivable. Elle passe vers un jeu dont toutes les copies sont privées.
+Vers une destination publique, elle n’est admise que si la source du jeu porte l’autorisation explicite
+`publicationGrants` (licence, référence YouTrack, décision) dans `catalog/sources.json`, et seulement à
+travers ce jeu (`usage add`, `materialize`, `check-lock --public`). `publish --target public` n’a pas de
+jeu et la refuse toujours ; une planche source reste refusée. Test : `test_l10_licence_privee`. Un export public exigera une licence vérifiée et une
 autorisation. Un identifiant SPDX dans une déclaration de découpe ne peut
 attribuer de licence qu’après vérification de la découpe. Une région reliée
 à un asset doit correspondre à sa planche, à ses

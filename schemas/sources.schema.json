@@ -125,6 +125,33 @@
             "game",
             "shared-library"
           ]
+        },
+        "publicationGrants": {
+          "description": "Autorisations explicites de publication, par jeu, des assets sous licence privée qu'il emploie : décision du propriétaire et référence YouTrack (HL-538).",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "decision": {
+                "pattern": "\\S",
+                "type": "string"
+              },
+              "license": {
+                "const": "LicenseRef-David-Prive-Tous-Droits-Reserves"
+              },
+              "ref": {
+                "pattern": "\\S",
+                "type": "string"
+              }
+            },
+            "required": [
+              "license",
+              "ref",
+              "decision"
+            ],
+            "type": "object"
+          },
+          "type": "array",
+          "uniqueItems": true
         }
       },
       "required": [

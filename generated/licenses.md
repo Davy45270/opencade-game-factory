@@ -1,1 +1,38 @@
 # Licences des ressources
+
+- `asset-sprite-cuisine-couverts-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-couverts-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-couverts-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-couverts-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-cuisiniere-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-cuisiniere-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-cuisiniere-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-cuisiniere-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-fourchette-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-fourchette-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-fourchette-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-fourchette-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-jambon-support-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-jambon-support-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-jambon-support-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-jambon-support-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-moules-patisserie-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-moules-patisserie-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-moules-patisserie-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-moules-patisserie-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-robot-patissier-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-robot-patissier-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-robot-patissier-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-robot-patissier-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-saucisson-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-saucisson-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-saucisson-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-saucisson-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-torchon-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-torchon-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-torchon-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cuisine-torchon-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
+- `sheet-cuisine-culinaires-detouree-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-cuisine-patisserie-detouree-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-cuisine-sprites-culinaires-rotat-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-cuisine-sprites-patisserie-charc-0001` — unknown · forbidden · Planche entière réservée.

@@ -29,4 +29,6 @@ steps:
       - python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/ci -t . -p 'test_*.py' 2>&1 | tee /tmp/ci.txt
       - grep -q '^OK' /tmp/ci.txt
-      - SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2); test "$${SAUTES:-0}" -le 1 || { echo "tests sautés : $$SAUTES"; exit 1; }
+      - >-
+        SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2);
+        test "$${SAUTES:-0}" -le 1 || { echo "tests sautés - $$SAUTES"; exit 1; }

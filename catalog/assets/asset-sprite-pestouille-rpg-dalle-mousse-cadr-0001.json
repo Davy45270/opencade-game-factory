@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:13:33.015212+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-dalle-mousse-0001",
+        "reason": "découpe brute de l'élément dalle-mousse : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9c58584fa70d45c960f7a816f721e5390b1c02d21c73c83c65364e69825e4667",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "dalle mousse",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-dalle-mousse-0001",
+          "reason": "découpe brute de l'élément dalle-mousse : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-dalle-mousse-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:13:32.668660+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-dalle-mousse » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément dalle-mousse",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-dalle-mousse-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-dalle-mousse-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-dalle-mousse"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-dalle-mousse-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-14.png, SHA-256 f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-dalle-mousse"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg dalle-mousse (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "d8b6b4b4948cac71",
+    "phash": "90c13bb36a6a3b2e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-dalle-mousse-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-dalle-mousse livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [46, 46, 800, 873], \"cadre\": \"sprite-dalle-mousse\", \"element\": \"dalle-mousse\", \"empreintePixels\": \"1313ea5aafb0582e363e8e195c419112a70d76647696110d39970174cbc969c0\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 46, \"x\": 800, \"y\": 873}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-dalle-mousse-0001",
+    "parentSha256": "48edc00ca6e7b333d8e6da131c31c6c390d0139cf2e6be7cc9209f607bc55408",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:13:33.015212+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-dalle-mousse de assets/export/e03-objets.png (empreinte de pixels 1313ea5aafb0582e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-dalle-mousse",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f7a4196f3d81717122bd3b4a323674748655f472dcc3b6106723220b905f8810",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:21:26.479781+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-commande-objet-0001",
+        "reason": "découpe brute de l'élément commande-objet : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d4bc09419985f84df574b50ddbb7f40c30e8bf6f12fbcb5096ed68ec2902d4e1",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "commande objet",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-commande-objet-0001",
+          "reason": "découpe brute de l'élément commande-objet : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-commande-objet-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:21:26.112452+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-commande-objet » (assets/export/e04-icones.png), forme normalisée par le jeu de l'élément commande-objet",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-commande-objet-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-commande-objet-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-commande-objet"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-commande-objet-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-87.png, SHA-256 a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-commande-objet"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg commande-objet (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "16b637eda685438e",
+    "phash": "ec9c3961c7c3383c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-commande-objet-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-commande-objet livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-icones.png",
+      "recette {\"atlas\": \"assets/export/e04-icones.png (png)\", \"boite\": [24, 20, 347, 520], \"cadre\": \"sprite-commande-objet\", \"element\": \"commande-objet\", \"empreintePixels\": \"6705018c1832a19b1d5c2047239168ff0e170e70e525fc46e3f866b3fd9bcda9\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 20, \"w\": 24, \"x\": 347, \"y\": 520}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-commande-objet-0001",
+    "parentSha256": "73f140b19612b338c5202e5f5d1b53e7709d5f2a85c172d096ea5a4fa0faa368",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:21:26.479781+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "assets/export/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-commande-objet de assets/export/e04-icones.png (empreinte de pixels 6705018c1832a19b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-commande-objet",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a02cb92fa75c7572a5c3bbcd35030a4af8d66976f5b8833d4a9831b36657ea32",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

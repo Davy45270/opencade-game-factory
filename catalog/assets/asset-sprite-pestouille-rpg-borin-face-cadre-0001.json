@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:18:18.108774+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-borin-face-0001",
+        "reason": "découpe brute de l'élément borin-face : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2f29b634c68cfbc61dd1b3b9794d217a95d4ace7a7eb18278d30071a7f002d08",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "borin face",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-borin-face-0001",
+          "reason": "découpe brute de l'élément borin-face : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-borin-face-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:18:17.768113+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-borin-face » (assets/export/e04-heros.png), forme normalisée par le jeu de l'élément borin-face",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-borin-face-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-borin-face-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-borin-face"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-borin-face-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-heros.json · cadre sprite-borin-face"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg borin-face (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b2b27b7112572b0f",
+    "phash": "bd99e46191d66332"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-borin-face-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-borin-face livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-heros.png",
+      "recette {\"atlas\": \"assets/export/e04-heros.png (png)\", \"boite\": [54, 64, 146, 447], \"cadre\": \"sprite-borin-face\", \"element\": \"borin-face\", \"empreintePixels\": \"d80fcd9e4a0bca1fa7f2f52a94cfc20ca2a1a3244c7ac6b4c8afac217ad218b4\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 64, \"w\": 54, \"x\": 146, \"y\": 447}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-heros.decoupe.json\", \"tableSha256\": \"687055e22edef5a2df9f8d1aa4cdcd635b5251a5aa715ba53c64a5e0c72b4195\"}"
+    ],
+    "parentId": "asset-sprite-borin-face-0001",
+    "parentSha256": "cdc88ada35466d9c545ac02cbe29c16d121d6587c178b2bdbc6fedab93ff6e9e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:18:18.108774+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-heros.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/e04-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-borin-face de assets/export/e04-heros.png (empreinte de pixels d80fcd9e4a0bca1f)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-borin-face",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b709d3259b347583147fb58ee3279da206584802dfce246d8a283fb5090b62e2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

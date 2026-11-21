@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:43:31.794443+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-interrupteur-mura-0001",
+        "reason": "pixels différents du cadre livré sprite-interrupteur-mural (empreinte 34edbcca3975)"
+      },
+      {
+        "assetId": "asset-sprite-interrupteur-mural-0001",
+        "reason": "découpe brute de l'élément interrupteur-mural : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d7931f1404c79721c7709b8996081d4d98796cb1b66c9c590637b32142a20ea2",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "interrupteur mural",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-interrupteur-mura-0001",
+          "reason": "pixels différents du cadre livré sprite-interrupteur-mural (empreinte 34edbcca3975)"
+        },
+        {
+          "assetId": "asset-sprite-interrupteur-mural-0001",
+          "reason": "découpe brute de l'élément interrupteur-mural : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-interrupteur-mura-0001",
+        "asset-sprite-interrupteur-mural-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:43:31.389549+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-interrupteur-mural » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément interrupteur-mural",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-interrupteur-mura-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-interrupteur-mura-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-interrupteur-mural"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-interrupteur-mural-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-interrupteur-mural"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg interrupteur-mural (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "49c9c9c9c9d1cd1f",
+    "phash": "cac23d893d336d2c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-interrupteur-mural-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-interrupteur-mural livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [33, 39, 730, 831], \"cadre\": \"sprite-interrupteur-mural\", \"element\": \"interrupteur-mural\", \"empreintePixels\": \"34edbcca397532c113edca80b8f6574b13b880ac68cbe6a6d3435aa830fde08a\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 39, \"w\": 33, \"x\": 730, \"y\": 831}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-interrupteur-mural-0001",
+    "parentSha256": "bc57ea8cc8700e623545d811fd7b78bcd733234b25bf0c8499e2f345f0ffa9d3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:43:31.794443+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 90,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-interrupteur-mural de public/assets/e03-objets.webp (empreinte de pixels 34edbcca397532c1)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-interrupteur-mural",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "efaade4dbb8777db964d14abfe4cbbf4e6ddd8d201d291d7d21a0e74308f4f6e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

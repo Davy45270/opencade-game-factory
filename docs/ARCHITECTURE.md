@@ -175,7 +175,9 @@ selon le champ). Un tableau de tags vide ne contient aucune assertion.
 Une licence connue utilise un identifiant de la liste SPDX v3.27.0 et
 `licenseEvidence`. La seule référence hors liste admise est
 `LicenseRef-David-Prive-Tous-Droits-Reserves` (texte dans `LICENSES/`, décision HL-538 7-3162) :
-licence privée de David, non dérivable. Elle passe vers un jeu dont toutes les copies sont privées.
+licence privée de David. Une dérivation n'est admise que sous la même licence (point 4 du texte), et
+seulement vers une destination qui accorde cette licence (jeu de David) : c'est le cas des cadres livrés
+d'atlas, redimensionnés d'une découpe brute. Elle passe vers un jeu dont toutes les copies sont privées.
 Vers une destination publique, une règle centrale unique (`GAME_GRANT`, décision de David du 2026-11-21,
 HL-538 : « autorise pour tous mes jeux sans exceptions ») l’admet à travers tout dépôt de rôle `game` de
 `catalog/sources.json` — le registre n’inventorie que les dépôts de David — pour ce que ce jeu emploie
@@ -378,6 +380,24 @@ La preuve `P14-assets-lock` s’obtient avec `check-lock`. Son option
 `registryCommit`. Pour une version historique à ce commit, la garde utilise
 la preuve de publication archivée. Un écart de commit,
 de version ou de fichier renvoie le code 1. Un refus de licence renvoie le code 3.
+
+Cadres livrés en atlas (HL-538, P17 de l’usine) : `scripts/importer_livre.py <jeu> <sha>` enregistre chaque
+cadre que le jeu livre à ce commit, reconnu par l’empreinte de ses pixels (même définition que la barrière P17).
+Un cadre déjà connu est réemployé. Sinon il passe par `register`, avec un reçu de recherche dont chaque candidat est
+rejeté avec un motif mesuré. Il devient `derived` de l’asset brut du même élément (table de découpe du jeu, désignée
+par ses manifestes), avec sa recette dans la provenance : table au commit et son empreinte, élément, boîte, paramètres,
+atlas, empreinte de pixels. Un élément sans découpe brute est d’abord importé par `import-sheet`, sur une table
+réduite à cet élément. Les images d’atlas livrées sont aussi enregistrées. Les usages `<jeu>@<sha>` sont écrits dans
+les fiches, puis `index rebuild` est lancé. Rien n’est copié dans le jeu. Ces usages portent la marque
+`importer_livre` : le scan des dépôts les conserve, et l’importeur les remplace à chaque passage. Une seconde passe au
+même sha ne change donc rien, et une passe à un autre sha les déplace.
+
+Écart à `usage add`, tranché par la spec : la spec v1.0 demande que « chaque jeu publie un `assets.lock.json`
+versionné, avec `assetId`, `assetVersion`, `sha256`, `scene`, `role` et `registryCommit` ». Elle ne demande ni
+`usage add` ni de copier l’asset dans le jeu. Un cadre d’atlas n’a pas de fichier à lui. `--lock FICHIER` écrit donc
+le lock du jeu avec une ligne par image d’atlas livrée : `path` est son chemin dans le jeu, `sha256` ses octets. Son
+`registryCommit` est le HEAD du registre, qui doit être publié (contenu dans `origin/main`). Le profil d’un jeu
+(`PROFILS`) donne ses manifestes, le préfixe de ses cadres et la décision de licence de ses dessins bruts.
 
 `materialize <id> --version <n> --to <dossier>` livre le nom formé de l’ID
 et de l’extension de cette révision. Il accepte aussi un chemin de fichier

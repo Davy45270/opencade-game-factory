@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:47:16.814131+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-nox-portrait-cadr-0001",
+        "reason": "pixels différents du cadre livré sprite-nox-portrait (empreinte 76049506811c)"
+      },
+      {
+        "assetId": "asset-sprite-nox-portrait-0001",
+        "reason": "découpe brute de l'élément nox-portrait : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "bf4fbc4558c99561b2a82def976701081c571c764e3e91e16b1d24f114f0d533",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "nox portrait",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-nox-portrait-cadr-0001",
+          "reason": "pixels différents du cadre livré sprite-nox-portrait (empreinte 76049506811c)"
+        },
+        {
+          "assetId": "asset-sprite-nox-portrait-0001",
+          "reason": "découpe brute de l'élément nox-portrait : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-nox-portrait-cadr-0001",
+        "asset-sprite-nox-portrait-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:47:16.447437+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-nox-portrait » (public/assets/e03-portraits.webp), forme normalisée par le jeu de l'élément nox-portrait",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-nox-portrait-cadr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-nox-portrait-cadr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-portraits.json · cadre sprite-nox-portrait"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-nox-portrait-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-310.png, SHA-256 7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-portraits.json · cadre sprite-nox-portrait"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg nox-portrait (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "649a4560238b2e37",
+    "phash": "efc0343b0cc74b3c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-nox-portrait-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-nox-portrait livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-portraits.webp",
+      "recette {\"atlas\": \"public/assets/e03-portraits.webp (webp)\", \"boite\": [138, 178, 912, 15], \"cadre\": \"sprite-nox-portrait\", \"element\": \"nox-portrait\", \"empreintePixels\": \"76049506811c937ceeafb6dee523ef1f93c07c58d87b7eaf953439dc7131f6b0\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 178, \"w\": 138, \"x\": 912, \"y\": 15}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"3a8bcd7711359f9dd441fb8f47ea6d98ca34eacd687bf53e2ee07fc7abf0ee1c\"}"
+    ],
+    "parentId": "asset-sprite-nox-portrait-0001",
+    "parentSha256": "d4af69077b5707ef42cf4f3a00e4374d6051f4b5de6d13a4a6d580234b8beb4a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:47:16.814131+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-portraits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "public/assets/e03-portraits.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-nox-portrait de public/assets/e03-portraits.webp (empreinte de pixels 76049506811c937c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-nox-portrait",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7c6c55895a17a3fdc9fd5d4941968b53fe5f94b92d2d81b166e359bab8e4db62",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

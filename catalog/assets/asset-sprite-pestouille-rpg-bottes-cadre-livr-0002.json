@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T18:01:41.225532+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-bottes-cadre-livr-0001",
+        "reason": "pixels différents du cadre livré sprite-bottes (empreinte 1959beef2825)"
+      },
+      {
+        "assetId": "asset-sprite-bottes-0001",
+        "reason": "découpe brute de l'élément bottes : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2573f5932e8b2ef321b45974623f9771912e9e7037dd4d7b8179db463d93824d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bottes",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-bottes-cadre-livr-0001",
+          "reason": "pixels différents du cadre livré sprite-bottes (empreinte 1959beef2825)"
+        },
+        {
+          "assetId": "asset-sprite-bottes-0001",
+          "reason": "découpe brute de l'élément bottes : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-bottes-cadre-livr-0001",
+        "asset-sprite-bottes-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T18:01:40.868371+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bottes » (public/assets/p02-objets.webp), forme normalisée par le jeu de l'élément bottes",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bottes-cadre-livr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bottes-cadre-livr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-bottes"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bottes-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-436.png, SHA-256 c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/p02-objets.json · cadre sprite-bottes"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bottes (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4b4a2c4d89b13347",
+    "phash": "f2f7ad08a33e90e0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bottes-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bottes livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/p02-objets.webp",
+      "recette {\"atlas\": \"public/assets/p02-objets.webp (webp)\", \"boite\": [45, 42, 80, 396], \"cadre\": \"sprite-bottes\", \"element\": \"bottes\", \"empreintePixels\": \"1959beef28252a0833a6a5a75436d40b14873102a2ddbaaf52336fb7b0620ec5\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 42, \"w\": 45, \"x\": 80, \"y\": 396}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/p02-objets.decoupe.json\", \"tableSha256\": \"8da505fd794f1c83b370cff0060a2d0b69883c160c8d7f475ecf9620ce2112d7\"}"
+    ],
+    "parentId": "asset-sprite-bottes-0001",
+    "parentSha256": "31b1cb4937fa6890b1bbf05332c579a1bd3a9fb96e4657b910c78097e25d708b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "p02-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T18:01:41.225532+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/p02-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bottes de public/assets/p02-objets.webp (empreinte de pixels 1959beef28252a08)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bottes",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c942aed6c00791b23121bf6f79f474698ee1e03d275e08efcbdeaec15b6462b9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

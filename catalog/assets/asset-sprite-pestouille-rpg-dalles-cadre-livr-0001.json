@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:13:39.619003+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-dalles-0001",
+        "reason": "découpe brute de l'élément dalles : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ad0e4858b5f9859210265209e87dbcf5b4ef60f5f9cec88dd3a7147ef6cd8026",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "dalles",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-dalles-0001",
+          "reason": "découpe brute de l'élément dalles : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-dalles-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:13:39.255904+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-dalles » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément dalles",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-dalles-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-dalles-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-dalles"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-dalles-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-15.png, SHA-256 2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-dalles"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg dalles (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "00a251caaaa8aa2a",
+    "phash": "d5ab3f8451c16e94"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-dalles-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-dalles livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [69, 40, 457, 880], \"cadre\": \"sprite-dalles\", \"element\": \"dalles\", \"empreintePixels\": \"42708fc5bc27cd12ea5ac85850c1001b8449f0619513d851b6b1fa994430c7ae\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 69, \"x\": 457, \"y\": 880}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-dalles-0001",
+    "parentSha256": "1c3b93d573058b1027527ac7cb55c1608d9cc928d2b71160e8b4881f144e48e1",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:13:39.619003+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-dalles de assets/export/e03-objets.png (empreinte de pixels 42708fc5bc27cd12)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-dalles",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2291de9cf75523c96c7e4675821a70b8b5d022dbe33802ce267b902b2fdc02a5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/fe/fe94cf3415d1d446c1cb5effc846ab556e7d4a471333056a778a3544bd650083.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-carte-monde de assets/export/m01-fonds.png (empreinte de pixels a49177b0f6d23756)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-carte-monde",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-carte-monde-cadre-0001"
+  ],
   "version": 1,
   "versions": [
     {

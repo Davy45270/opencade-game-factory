@@ -1,0 +1,204 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:56:01.716967+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-panneau-dialogue-0001",
+        "reason": "découpe brute de l'élément panneau-dialogue : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4573effd07e47cf2fd3d9875bc8f5d26489f3d75b248cc3b41a668af7e5e9597",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "panneau dialogue",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-panneau-dialogue-0001",
+          "reason": "découpe brute de l'élément panneau-dialogue : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-panneau-dialogue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:56:01.364621+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-panneau-dialogue » (public/assets/m01-fonds.webp), forme normalisée par le jeu de l'élément panneau-dialogue",
+  "dimensions": {
+    "height": 91,
+    "width": 218
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-panneau-dialogue-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-panneau-dialogue-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-panneau-dialogue"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panneau-dialogue-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-386.png, SHA-256 2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-panneau-dialogue"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg panneau-dialogue (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b0280282a0434424",
+    "phash": "d4a9542f2556ad56"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-panneau-dialogue-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panneau-dialogue livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m01-fonds.webp (webp)\", \"boite\": [218, 91, 697, 797], \"cadre\": \"sprite-panneau-dialogue\", \"element\": \"panneau-dialogue\", \"empreintePixels\": \"464a7674ee9de26e3d0f76db4cf00397f55f8c1e04e74f9478103f47f68d3c8c\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"541x234\"}, \"regionDuBrut\": {\"h\": 91, \"w\": 218, \"x\": 697, \"y\": 797}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-fonds.decoupe.json\", \"tableSha256\": \"263fefc0df2de507a53df33350cc44802501066400054f83cbfa6f3401319fda\"}"
+    ],
+    "parentId": "asset-sprite-panneau-dialogue-0001",
+    "parentSha256": "46cdc7d1632b413b30d7b9e2d69f6e051d906baf5a394bd711241e2ea84baace",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:56:01.716967+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "public/assets/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-panneau-dialogue de public/assets/m01-fonds.webp (empreinte de pixels 464a7674ee9de26e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-panneau-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2f3b62a36d5a8919bac6ecd01e49edf25e461248bceb4e5e9341e1d63ff767dc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

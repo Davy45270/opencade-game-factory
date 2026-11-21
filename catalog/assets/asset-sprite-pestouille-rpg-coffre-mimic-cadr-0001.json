@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:23:04.548810+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-coffre-mimic-0001",
+        "reason": "découpe brute de l'élément coffre-mimic : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3ce1ca50d1d804c575bff3bd95af131ffa3464d39758239e7b3e676e78d26e84",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "coffre mimic",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-coffre-mimic-0001",
+          "reason": "découpe brute de l'élément coffre-mimic : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-coffre-mimic-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:23:04.173588+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-coffre-mimic » (assets/export/e04-monstres.png), forme normalisée par le jeu de l'élément coffre-mimic",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-coffre-mimic-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-coffre-mimic-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-coffre-mimic"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-coffre-mimic-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-102.png, SHA-256 d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-coffre-mimic"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg coffre-mimic (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "54b5e91d154bd93b",
+    "phash": "fad489a13c798f48"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-coffre-mimic-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-coffre-mimic livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-monstres.png",
+      "recette {\"atlas\": \"assets/export/e04-monstres.png (png)\", \"boite\": [53, 54, 1259, 637], \"cadre\": \"sprite-coffre-mimic\", \"element\": \"coffre-mimic\", \"empreintePixels\": \"15491c8d434579dd68fe009b57476bbd3e3e0fa8e7936b1f2c77b0aa4d2dcfd9\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 54, \"w\": 53, \"x\": 1259, \"y\": 637}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-coffre-mimic-0001",
+    "parentSha256": "1d4d975ea295cbde01484adefab97325014b9f5f0318ebf40b8551d10bd7f886",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:23:04.548810+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-monstres.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "assets/export/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-coffre-mimic de assets/export/e04-monstres.png (empreinte de pixels 15491c8d434579dd)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-coffre-mimic",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d3a059cf7efd515a662aedb9866d8f329de71ae7e504bb1b15803129459876d0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

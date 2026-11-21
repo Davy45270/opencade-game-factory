@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:15:17.124811+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-plaque-pression-0001",
+        "reason": "découpe brute de l'élément plaque-pression : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "6f646afb51086d71dd0a8006b9cae7a8017b9469ac9e022919661b69f06d7249",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "plaque pression",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-plaque-pression-0001",
+          "reason": "découpe brute de l'élément plaque-pression : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-plaque-pression-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:15:16.770239+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-plaque-pression » (assets/export/e03-objets.png), forme normalisée par le jeu de l'élément plaque-pression",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-plaque-pression-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-plaque-pression-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-plaque-pression"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plaque-pression-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-30.png, SHA-256 d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e03-objets.json · cadre sprite-plaque-pression"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg plaque-pression (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "75aab2b282aaea4d",
+    "phash": "959d3e326f5dc022"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-plaque-pression-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plaque-pression livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e03-objets.png",
+      "recette {\"atlas\": \"assets/export/e03-objets.png (png)\", \"boite\": [49, 39, 918, 880], \"cadre\": \"sprite-plaque-pression\", \"element\": \"plaque-pression\", \"empreintePixels\": \"e9cf0fd15a5277b7e4baf53a2e3387f8c3c28319935ef1e7cc8756bec3a57d6f\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 39, \"w\": 49, \"x\": 918, \"y\": 880}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-plaque-pression-0001",
+    "parentSha256": "86c357c47b537ee24a32b139763c2e001982ad19c99e97e3f67a300d9a262c35",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:15:17.124811+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-objets.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 186,
+        "path": "assets/export/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-plaque-pression de assets/export/e03-objets.png (empreinte de pixels e9cf0fd15a5277b7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-plaque-pression",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d0bd0efbcb59135b8cc7b4af606da16d09a799b5a1d19c8b2b15fb6d0cbf17be",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

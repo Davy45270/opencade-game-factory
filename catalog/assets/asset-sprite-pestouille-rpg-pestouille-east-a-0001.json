@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:34:36.861248+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-east-attack-a-0001",
+        "reason": "découpe brute de l'élément pestouille-east-attack-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "6e28a3c5232216fc06ff7671ee40605d41b69bf393f4b30b353962a737f2f659",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pestouille east attack a",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-east-attack-a-0001",
+          "reason": "découpe brute de l'élément pestouille-east-attack-a : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-east-attack-a-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:34:36.496220+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pestouille-east-attack-a » (assets/export/pestouille-east.png), forme normalisée par le jeu de l'élément pestouille-east-attack-a",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pestouille-east-a-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pestouille-east-a-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-east.json · cadre sprite-pestouille-east-attack-a"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pestouille-east-attack-a-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-198.png, SHA-256 c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/pestouille-east.json · cadre sprite-pestouille-east-attack-a"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg pestouille-east-attack-a (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0058aeb71319320c",
+    "phash": "b9c6961b648db2cc"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pestouille-east-attack-a-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pestouille-east-attack-a livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/pestouille-east.png",
+      "recette {\"atlas\": \"assets/export/pestouille-east.png (png)\", \"boite\": [203, 186, 57, 462], \"cadre\": \"sprite-pestouille-east-attack-a\", \"element\": \"pestouille-east-attack-a\", \"empreintePixels\": \"dc34789d4f64ab886c731993748ce0ba3bb4844ef04b7f8fc61bb190fd58384f\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"noir-jpeg\", \"taille\": 64}, \"regionDuBrut\": {\"h\": 135, \"w\": 146, \"x\": 41, \"y\": 333}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/pestouille-east.decoupe.json\", \"tableSha256\": \"5ef6050879185a379fbf9398a2607a882afddd76e12da474974df52ce957c299\"}"
+    ],
+    "parentId": "asset-sprite-pestouille-east-attack-a-0001",
+    "parentSha256": "e1a03df70740cb80ea220e7cb76aa91815372ae35904e63d4120c2c4ed798654",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "pestouille-east.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:34:36.861248+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/pestouille-east.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/pestouille-east.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-east-attack-a de assets/export/pestouille-east.png (empreinte de pixels dc34789d4f64ab88)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-east-attack-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/pestouille-east.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/pestouille-east.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c658f15b094fc193acf55579a2b0a7c7ad26c64a8ff49183613c3b8fbb1adf3f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

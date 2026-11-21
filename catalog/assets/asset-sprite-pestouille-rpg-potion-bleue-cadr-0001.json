@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:28:35.434327+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-potion-bleue-0001",
+        "reason": "découpe brute de l'élément potion-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9f351da828cded2b6591b57530694074fc4035fe456c3edca0daf9a7c5694228",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "potion bleue",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-potion-bleue-0001",
+          "reason": "découpe brute de l'élément potion-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-potion-bleue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:28:35.075304+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-potion-bleue » (assets/export/m01-icones.png), forme normalisée par le jeu de l'élément potion-bleue",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-potion-bleue-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-potion-bleue-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-potion-bleue"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-potion-bleue-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-153.png, SHA-256 13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-potion-bleue"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg potion-bleue (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b6a026e4c2a68c79",
+    "phash": "c49c3a61c3366d73"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-potion-bleue-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-potion-bleue livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-icones.png",
+      "recette {\"atlas\": \"assets/export/m01-icones.png (png)\", \"boite\": [35, 40, 1022, 752], \"cadre\": \"sprite-potion-bleue\", \"element\": \"potion-bleue\", \"empreintePixels\": \"14d95841ec27e8e0b0004afadd47a412ae22a482726a584a2d270b88c43c8104\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 40, \"w\": 35, \"x\": 1022, \"y\": 752}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-potion-bleue-0001",
+    "parentSha256": "234b1d36c0d88baaa1dd6f63ef3d6c62d48cd5569a7b3ec183dfa64d90baf62d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:28:35.434327+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-potion-bleue de assets/export/m01-icones.png (empreinte de pixels 14d95841ec27e8e0)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-potion-bleue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "13a864b6fcbadf83a876ac85c8dfd9796e226444b517d103e0a03ae32b2b9c8e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

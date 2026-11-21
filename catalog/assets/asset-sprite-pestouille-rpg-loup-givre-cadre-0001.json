@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:23:17.598022+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-loup-givre-0001",
+        "reason": "découpe brute de l'élément loup-givre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cd85cbcea86684f331d60f6b2edceb132013189dc2305940b17236095b9571b9",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "loup givre",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-loup-givre-0001",
+          "reason": "découpe brute de l'élément loup-givre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-loup-givre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:23:17.251660+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-loup-givre » (assets/export/e04-monstres.png), forme normalisée par le jeu de l'élément loup-givre",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-loup-givre-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-loup-givre-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-loup-givre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-loup-givre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-104.png, SHA-256 d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-monstres.json · cadre sprite-loup-givre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg loup-givre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "1a63c98db9295b1b",
+    "phash": "d3c66d1cb0619c73"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-loup-givre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-loup-givre livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-monstres.png",
+      "recette {\"atlas\": \"assets/export/e04-monstres.png (png)\", \"boite\": [59, 63, 1183, 699], \"cadre\": \"sprite-loup-givre\", \"element\": \"loup-givre\", \"empreintePixels\": \"c2af70e5f9d9c497167a7aa87c55a48179dbe131747864fb2d664f79b0ef73dc\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 63, \"w\": 59, \"x\": 1183, \"y\": 699}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-loup-givre-0001",
+    "parentSha256": "6269d895c23b9e7bd9e6af31c8df079ca49c79d0d6900e7858a327909f537a77",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:23:17.598022+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-monstres.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "assets/export/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-loup-givre de assets/export/e04-monstres.png (empreinte de pixels c2af70e5f9d9c497)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-loup-givre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d67fd0fba3f7c375b0ead2b6ed306c696e8e049106a94b9acc8bffefc804150b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

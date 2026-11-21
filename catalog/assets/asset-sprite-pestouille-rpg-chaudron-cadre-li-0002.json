@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:42:30.559394+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-chaudron-cadre-li-0001",
+        "reason": "pixels différents du cadre livré sprite-chaudron (empreinte e70dbaae44c5)"
+      },
+      {
+        "assetId": "asset-sprite-chaudron-0001",
+        "reason": "découpe brute de l'élément chaudron : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0de120b3574e65be1e5353a5cf5c3da1f4c77cab2c3f1390e6abab5d0904a70f",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "chaudron",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-chaudron-cadre-li-0001",
+          "reason": "pixels différents du cadre livré sprite-chaudron (empreinte e70dbaae44c5)"
+        },
+        {
+          "assetId": "asset-sprite-chaudron-0001",
+          "reason": "découpe brute de l'élément chaudron : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-chaudron-cadre-li-0001",
+        "asset-sprite-chaudron-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:42:30.183107+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-chaudron » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément chaudron",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-chaudron-cadre-li-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-chaudron-cadre-li-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-chaudron"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-chaudron-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-chaudron"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg chaudron (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "86715f96f0f0d013",
+    "phash": "c0b58fce742531da"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-chaudron-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-chaudron livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [44, 37, 545, 884], \"cadre\": \"sprite-chaudron\", \"element\": \"chaudron\", \"empreintePixels\": \"e70dbaae44c5a19e8d4706c297a06bf3109b10a7d44ae6b2fc6cad9c907225f1\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 37, \"w\": 44, \"x\": 545, \"y\": 884}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-chaudron-0001",
+    "parentSha256": "b3951e7e751da56951b363b948574ef478d0b27a7e6524cacc581c0dcd3c228b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:42:30.559394+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-chaudron de public/assets/e03-objets.webp (empreinte de pixels e70dbaae44c5a19e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-chaudron",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "364cba4f4f2fdff461ff245ce8176e4a626a74f4ce34fabd94b02c617511a776",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

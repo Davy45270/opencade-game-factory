@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:54:25.089592+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bouton-non-0001",
+        "reason": "découpe brute de l'élément bouton-non : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "56bdd8f69f50d18ad0da83c77a255e214d8e4b533ad110553ff47ad23b02249f",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "bouton non",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bouton-non-0001",
+          "reason": "découpe brute de l'élément bouton-non : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bouton-non-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:54:24.702499+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-bouton-non » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément bouton-non",
+  "dimensions": {
+    "height": 26,
+    "width": 95
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-bouton-non-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-bouton-non-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-recrutement.json · cadre sprite-bouton-non"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bouton-non-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-recrutement.json · cadre sprite-bouton-non"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg bouton-non (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "a211253331556532",
+    "phash": "ccd0b1d99cc6c599"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-bouton-non-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bouton-non livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [93, 26, 1223, 353], \"cadre\": \"sprite-bouton-non\", \"element\": \"bouton-non\", \"empreintePixels\": \"747e7db3bdec73ee948842452e634a7e8a3c6ba534234d9b98f1dcc3c823aabe\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 26, \"w\": 93, \"x\": 1223, \"y\": 353}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"81054397f8b990a264503af6b8b8abcc725a8e73ff74de5e383c346605dabedb\"}"
+    ],
+    "parentId": "asset-sprite-bouton-non-0001",
+    "parentSha256": "0f7cf68db462f9e47204954d198309cc6b0df51de691159fdf7710494b95c243",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:54:25.089592+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-bouton-non de public/assets/e04-recrutement.webp (empreinte de pixels 747e7db3bdec73ee)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-bouton-non",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "282e43211d4aa1ac9eda743c81c79d5a64c81985a738a72bd7b241f7eeec227d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

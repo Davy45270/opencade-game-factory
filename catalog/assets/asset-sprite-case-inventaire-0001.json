@@ -153,8 +153,40 @@
   ],
   "thumbnail": "thumbnails/66/6602e1317d69f4a2e8cf6e32f4bce935c867531743a88f2dd7183b7da5ef14a2.webp",
   "updatedAt": null,
-  "usages": [],
-  "variants": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-interface.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "assets/export/e03-interface.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-case-inventaire de assets/export/e03-interface.png (empreinte de pixels c460f9693b8fd830)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-case-inventaire",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-interface.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-interface.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-sprite-pestouille-rpg-case-inventaire-c-0001"
+  ],
   "version": 1,
   "versions": [
     {

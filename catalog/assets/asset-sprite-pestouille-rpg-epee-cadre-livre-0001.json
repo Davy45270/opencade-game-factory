@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:27:56.377425+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-epee-0001",
+        "reason": "découpe brute de l'élément epee : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ebde1683d171f695d2b9d462f573fbbb96c600b6e97d0ef537946642d41ba2b0",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "epee",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-epee-0001",
+          "reason": "découpe brute de l'élément epee : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-epee-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:27:56.028187+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-epee » (assets/export/m01-icones.png), forme normalisée par le jeu de l'élément epee",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-epee-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-epee-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-epee"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-epee-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-147.png, SHA-256 593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-icones.json · cadre sprite-epee"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg epee (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "122cd831e24dbd2c",
+    "phash": "96913767c959c370"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-epee-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-epee livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-icones.png",
+      "recette {\"atlas\": \"assets/export/m01-icones.png (png)\", \"boite\": [44, 42, 1083, 607], \"cadre\": \"sprite-epee\", \"element\": \"epee\", \"empreintePixels\": \"3de58f038240cc8808dbbd33bf96885e822593c3fd5e40246f921e247d8f3ae4\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 42, \"w\": 44, \"x\": 1083, \"y\": 607}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-icones.decoupe.json\", \"tableSha256\": \"0f6438d66d0d98293a67d9b53e6980b93160d391ae547706acfa8acfedb9b2d3\"}"
+    ],
+    "parentId": "asset-sprite-epee-0001",
+    "parentSha256": "d574c3a0ddbf6bf25b2a3f0eecd11a91a03300cf68d183000c86dadab23deed4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:27:56.377425+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 50,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-epee de assets/export/m01-icones.png (empreinte de pixels 3de58f038240cc88)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-epee",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "593af78aa07b401cf617a8c0415d25c380b0f0ca5a7a61b8eb9e68b703f2cb4c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

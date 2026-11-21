@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:43:59.718135+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-metier-barde-cadr-0001",
+        "reason": "pixels différents du cadre livré sprite-metier-barde (empreinte cdeeaf9435fa)"
+      },
+      {
+        "assetId": "asset-sprite-metier-barde-0001",
+        "reason": "découpe brute de l'élément metier-barde : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "08c8a8ac9db1af09d761bdc8bcfbae54983969c664e1d53ecef918d8f326ee97",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "metier barde",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-metier-barde-cadr-0001",
+          "reason": "pixels différents du cadre livré sprite-metier-barde (empreinte cdeeaf9435fa)"
+        },
+        {
+          "assetId": "asset-sprite-metier-barde-0001",
+          "reason": "découpe brute de l'élément metier-barde : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-metier-barde-cadr-0001",
+        "asset-sprite-metier-barde-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:43:59.355967+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-metier-barde » (public/assets/e03-objets.webp), forme normalisée par le jeu de l'élément metier-barde",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-metier-barde-cadr-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-metier-barde-cadr-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-metier-barde"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-metier-barde-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-281.png, SHA-256 92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e03-objets.json · cadre sprite-metier-barde"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg metier-barde (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "061939a76d4b1892",
+    "phash": "c29839e7643cc79a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-metier-barde-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-metier-barde livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e03-objets.webp",
+      "recette {\"atlas\": \"public/assets/e03-objets.webp (webp)\", \"boite\": [42, 33, 1531, 198], \"cadre\": \"sprite-metier-barde\", \"element\": \"metier-barde\", \"empreintePixels\": \"cdeeaf9435faea2e675560ca2e2b7691a5d21a435b33b2f07dd68dd437407d21\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 33, \"w\": 42, \"x\": 1531, \"y\": 198}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e03-objets.decoupe.json\", \"tableSha256\": \"84b33bc705b80936ce5485e9b8bc91930e9b17a949f640419c78d1ebb65f55cc\"}"
+    ],
+    "parentId": "asset-sprite-metier-barde-0001",
+    "parentSha256": "99fa2e1e17af132ba9d2628bdc298fe451f6db6c560e1f8fa68936341ff9912a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-objets.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:43:59.718135+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 122,
+        "path": "public/assets/e03-objets.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-metier-barde de public/assets/e03-objets.webp (empreinte de pixels cdeeaf9435faea2e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-metier-barde",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "92889b1d793e24d838ef3da5dcbbf6a06d1cf03c369a1c5e1b293ad72f0ba46c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

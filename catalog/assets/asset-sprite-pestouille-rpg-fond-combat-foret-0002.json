@@ -1,0 +1,222 @@
+{
+  "alpha": false,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:55:34.439527+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-fond-combat-foret-0001",
+        "reason": "pixels différents du cadre livré sprite-fond-combat-foret (empreinte 0e64f047b3e8)"
+      },
+      {
+        "assetId": "asset-sprite-fond-combat-foret-0001",
+        "reason": "découpe brute de l'élément fond-combat-foret : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-fond-foret-0001",
+        "reason": "pixels différents du cadre livré sprite-fond-combat-foret (empreinte 0e64f047b3e8)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "71cd5e086fbbba31328dcef27c7d38403c1feb47b8bf48d35802cfc0c3681f5b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fond combat foret",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-fond-combat-foret-0001",
+          "reason": "pixels différents du cadre livré sprite-fond-combat-foret (empreinte 0e64f047b3e8)"
+        },
+        {
+          "assetId": "asset-sprite-fond-combat-foret-0001",
+          "reason": "découpe brute de l'élément fond-combat-foret : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-fond-foret-0001",
+          "reason": "pixels différents du cadre livré sprite-fond-combat-foret (empreinte 0e64f047b3e8)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-fond-combat-foret-0001",
+        "asset-sprite-fond-combat-foret-0001",
+        "asset-sprite-fond-foret-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:55:34.074907+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fond-combat-foret » (public/assets/m01-fonds.webp), forme normalisée par le jeu de l'élément fond-combat-foret",
+  "dimensions": {
+    "height": 222,
+    "width": 424
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fond-combat-foret-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fond-combat-foret-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-combat-foret"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fond-combat-foret-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-382.png, SHA-256 836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/m01-fonds.json · cadre sprite-fond-combat-foret"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg fond-combat-foret (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "68d8d6b2c6ea9cfa",
+    "phash": "805f17c60eee4f64"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fond-combat-foret-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fond-combat-foret livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/m01-fonds.webp",
+      "recette {\"atlas\": \"public/assets/m01-fonds.webp (webp)\", \"boite\": [424, 222, 16, 586], \"cadre\": \"sprite-fond-combat-foret\", \"element\": \"fond-combat-foret\", \"empreintePixels\": \"0e64f047b3e8ce0e4297d644a56211839c75871bfe022820c14aedb466435bce\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"541x234\"}, \"regionDuBrut\": {\"h\": 222, \"w\": 424, \"x\": 16, \"y\": 586}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-fonds.decoupe.json\", \"tableSha256\": \"263fefc0df2de507a53df33350cc44802501066400054f83cbfa6f3401319fda\"}"
+    ],
+    "parentId": "asset-sprite-fond-combat-foret-0001",
+    "parentSha256": "8c480602d092b5004fb92ca45c1f5d5059104c2c6b807553b0a0ed3eb569a2bb",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-fonds.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:55:34.439527+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/m01-fonds.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/m01-fonds.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-fond-combat-foret de public/assets/m01-fonds.webp (empreinte de pixels 0e64f047b3e8ce0e)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fond-combat-foret",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m01-fonds.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/m01-fonds.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "836132deb81ece444c1c4afd0393cd2624b41f8e2be7b61429f84d1293b1eaac",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

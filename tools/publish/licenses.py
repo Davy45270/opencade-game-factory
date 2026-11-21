@@ -12,7 +12,7 @@ from tools.discovery.enrich import trace
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
 # Licence privée de David (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
 # Règle centrale unique, sans liste de jeux à tenir : tout dépôt de rôle « game » de catalog/sources.json (le registre
-# n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Non dérivable.
+# n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Dérivable sous la même licence, vers un tel jeu.
 PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"})
 GAME_GRANT = {"ref": "HL-538 (David, 2026-11-21)",
               "decision": "« autorise pour tous mes jeux sans exceptions !!! » : remplace l'autorisation réservée à "
@@ -101,7 +101,10 @@ def public_allowed(record, sheet_digests, find_parent, granted=frozenset()):
         parent_id = provenance["parentId"]
         number = provenance.get("parentVersion")
         digest = provenance.get("parentSha256")
-        if not (license_id in DERIVABLE and isinstance(parent_id, str) and parse_id(parent_id)
+        # Dérivable : licence libre, ou licence privée accordée à la destination (jeu de David). Le texte de la licence
+        # privée (LICENSES/, point 4) n'exclut que la dérivation sous une AUTRE licence ; la chaîne entière reste
+        # sous la même licence (contrôle ci-dessus). Cas : cadre livré d'atlas, redimensionné d'une découpe brute.
+        if not ((license_id in DERIVABLE or license_id in granted) and isinstance(parent_id, str) and parse_id(parent_id)
                 and parent_id == provenance.get("derivedFrom")
                 and type(number) is int and isinstance(digest, str)):
             return False

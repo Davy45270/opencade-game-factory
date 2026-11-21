@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:25:33.654513+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lila-cote-c-0001",
+        "reason": "découpe brute de l'élément lila-cote-c : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b9213f06d6777a44bef88b88f02b4d3bd6347ebaf4e1f27c1dc0e5fe3a00d096",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lila cote c",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lila-cote-c-0001",
+          "reason": "découpe brute de l'élément lila-cote-c : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lila-cote-c-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:25:33.311202+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lila-cote-c » (assets/export/m01-heros.png), forme normalisée par le jeu de l'élément lila-cote-c",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lila-cote-c-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lila-cote-c-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-heros.json · cadre sprite-lila-cote-c"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lila-cote-c-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/m01-heros.json · cadre sprite-lila-cote-c"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg lila-cote-c (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "18732aba53333326",
+    "phash": "bdc3e62ae1d12626"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lila-cote-c-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lila-cote-c livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/m01-heros.png",
+      "recette {\"atlas\": \"assets/export/m01-heros.png (png)\", \"boite\": [54, 54, 1365, 73], \"cadre\": \"sprite-lila-cote-c\", \"element\": \"lila-cote-c\", \"empreintePixels\": \"06fbb5d3e75fdbbb0ccda8a796a80094c255612f6099262c281840d53cc9e3e8\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 64, \"unique\": true}, \"regionDuBrut\": {\"h\": 54, \"w\": 54, \"x\": 1365, \"y\": 73}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/m01-heros.decoupe.json\", \"tableSha256\": \"8a3f917bda3be02f4dfc1d1bdcd107f05465c537aabe4249ccfa5c4ac74dbe72\"}"
+    ],
+    "parentId": "asset-sprite-lila-cote-c-0001",
+    "parentSha256": "2794cb5e57397ad2844d50cb457957d150bc4221aa29d49462234c56e1557334",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "m01-heros.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:25:33.654513+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/m01-heros.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "assets/export/m01-heros.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-lila-cote-c de assets/export/m01-heros.png (empreinte de pixels 06fbb5d3e75fdbbb)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lila-cote-c",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/m01-heros.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/m01-heros.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5a41119d72180fd75ab44a2f6832374e62d9aa6b5f7f7f2556e3f94cd863f9af",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

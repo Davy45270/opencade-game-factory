@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:21:59.287052+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-flamme-bleue-0001",
+        "reason": "découpe brute de l'élément flamme-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3bd93830676ea5918a03fff36f388df212cf8a351947dd5ce3a34b3627ba0304",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "flamme bleue",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-flamme-bleue-0001",
+          "reason": "découpe brute de l'élément flamme-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-flamme-bleue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:21:58.911154+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-flamme-bleue » (assets/export/e04-icones.png), forme normalisée par le jeu de l'élément flamme-bleue",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-flamme-bleue-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-flamme-bleue-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-flamme-bleue"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-flamme-bleue-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:assets/export/e04-icones.json · cadre sprite-flamme-bleue"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg flamme-bleue (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4c1c3673f1f17336",
+    "phash": "cc3233cb32cd7c8c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-flamme-bleue-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-flamme-bleue livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans assets/export/e04-icones.png",
+      "recette {\"atlas\": \"assets/export/e04-icones.png (png)\", \"boite\": [36, 46, 1377, 63], \"cadre\": \"sprite-flamme-bleue\", \"element\": \"flamme-bleue\", \"empreintePixels\": \"abeb0d233370fdde40b4410a7e857e1bd56e699666ab6d0e4fa7e33407efc244\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 48, \"unique\": true}, \"regionDuBrut\": {\"h\": 46, \"w\": 36, \"x\": 1377, \"y\": 63}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-icones.decoupe.json\", \"tableSha256\": \"0bc247f2ba2646edcb39f754a8d11d12f150a41a2e5dd661668cf1bb2a722c6c\"}"
+    ],
+    "parentId": "asset-sprite-flamme-bleue-0001",
+    "parentSha256": "9926cf884796edf00dda480ff069f7b67bf10101a0bd5da1474c3976803fef35",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-icones.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:21:59.287052+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "assets/export/e04-icones.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-flamme-bleue de assets/export/e04-icones.png (empreinte de pixels abeb0d233370fdde)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-flamme-bleue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-icones.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d0eb189bbeca911a6c34b4b63f6d0d3fe03c5becb6c34f215191f0d061c2cc01",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

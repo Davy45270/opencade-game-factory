@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T17:53:28.803452+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-mage-sombre-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-mage-sombre (empreinte c27a2230459f)"
+      },
+      {
+        "assetId": "asset-sprite-mage-sombre-0001",
+        "reason": "découpe brute de l'élément mage-sombre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7852dac283b28d41f8bed0ae1e8362c7f5c178a8f0168bbaa29129ec1879817e",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "mage sombre",
+      "registryCommit": "90bf94254ae25dd3d0c7d4caa2ee4a089a148f0d",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-mage-sombre-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-mage-sombre (empreinte c27a2230459f)"
+        },
+        {
+          "assetId": "asset-sprite-mage-sombre-0001",
+          "reason": "découpe brute de l'élément mage-sombre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-mage-sombre-cadre-0001",
+        "asset-sprite-mage-sombre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T17:53:28.432410+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-mage-sombre » (public/assets/e04-monstres.webp), forme normalisée par le jeu de l'élément mage-sombre",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-mage-sombre-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-mage-sombre-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-mage-sombre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-mage-sombre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-364.png, SHA-256 54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@1738493dab26:public/assets/e04-monstres.json · cadre sprite-mage-sombre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21).",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "pestouille-rpg mage-sombre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b69e1f1537335947",
+    "phash": "bef0c78cc612a54b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-mage-sombre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-mage-sombre livré par pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2 dans public/assets/e04-monstres.webp",
+      "recette {\"atlas\": \"public/assets/e04-monstres.webp (webp)\", \"boite\": [55, 65, 1043, 698], \"cadre\": \"sprite-mage-sombre\", \"element\": \"mage-sombre\", \"empreintePixels\": \"c27a2230459f2a06cbc4dac8b445fdccc71b06f096c43d87508936858c0f0b85\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:30\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 65, \"w\": 55, \"x\": 1043, \"y\": 698}, \"table\": \"pestouille-rpg@1738493dab261e568402c254f5b6c767b3e030a2:assets/source/e04-monstres.decoupe.json\", \"tableSha256\": \"8b471cb485205f13b95a554c516b6c67d1cca19c90f7b9c0edd0b10b67df8072\"}"
+    ],
+    "parentId": "asset-sprite-mage-sombre-0001",
+    "parentSha256": "3f0329e8a62a23fa11f7ae7e643272a3fbbcd1865c35aac50e60caf02e6fe692",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-monstres.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T17:53:28.803452+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-monstres.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 50,
+        "path": "public/assets/e04-monstres.json"
+      },
+      "commit": "1738493dab261e568402c254f5b6c767b3e030a2",
+      "evidence": [
+        "importer_livre : cadre sprite-mage-sombre de public/assets/e04-monstres.webp (empreinte de pixels c27a2230459f2a06)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-mage-sombre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-monstres.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "54ec0fd7e6110df6f0e0234fbc525ccbfa2f5ff32c25c7b27c6ff6cc1b39db61",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

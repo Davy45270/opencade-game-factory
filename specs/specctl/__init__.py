@@ -14,7 +14,7 @@ from tools.core import journal
 from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
-from .registry import RegistryStore, check_record
+from .registry import BaseInconnue, RegistryStore, check_against_base, check_ids, check_record
 from . import commandes, fiche, generes, tour
 from .source import Source, VersionConflict, document_entries, set_documents, sha256
 
@@ -70,6 +70,8 @@ def parser():
             command.add_argument("--report", action="store_true", help="rapport de migration (§ 5)")
         if name in {"resolve", "coverage", "lock"}:
             command.add_argument("--project", required=True)
+        if name == "validate":
+            command.add_argument("--base", metavar="REF", help="refuser une clé d'identifiant retirée ou réattribuée")
         if name == "verify":
             command.add_argument("--project")
             command.add_argument("--commit")
@@ -137,7 +139,7 @@ def import_records(store, source, dry_run, report=False):
                 changes[spec_id] = record
             records[spec_id] = record
         if not dry_run and changes:
-            store.publish(changes)
+            store.publish(changes, "import")
     payload = {"status": "ok", "specs": [records[key] for key in incoming],
                "created": created, "updated": updated, "warnings": warnings,
                "sourceCommit": source.head, "dryRun": dry_run}
@@ -263,7 +265,7 @@ def arbitrate(store, records, args):
     arbitration = {"version": args.version, "ref": args.ref}
     if record.get("arbitration") != arbitration:
         record["arbitration"] = arbitration
-        store.publish({args.spec: record})
+        store.publish({args.spec: record}, "arbitrer")
     return ExitCode.OK, {"status": "ok", "specId": args.spec, "arbitration": arbitration}
 
 
@@ -289,7 +291,16 @@ def run(args, root):
     with store.lock(write=command in {"arbitrer", "statuer", "relier"}):
         records = store.read()
         if command == "validate":
-            return ExitCode.OK, {"status": "ok", "count": len(records)}
+            ids = store.ids()
+            errors = check_ids(records, ids)
+            if args.base is not None:
+                try:
+                    errors += check_against_base(root, args.base, ids)
+                except BaseInconnue as exc:
+                    return ExitCode.USAGE, {"status": "usage", "message": str(exc)}
+            if errors:
+                return ExitCode.CHECK_FAILED, {"status": "ids-invalid", "errors": errors}
+            return ExitCode.OK, {"status": "ok", "count": len(records), "ids": len(ids)}
         if command == "resolve":
             code, payload = resolve(records, args.project)
             tour.emettre_resolution(args.project, code, payload)     # opt-in, n'échoue jamais

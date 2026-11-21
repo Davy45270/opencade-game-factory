@@ -2,14 +2,18 @@
 
 import ctypes
 import fcntl
+import hashlib
+import json
 import os
 import shutil
+import subprocess
+from datetime import datetime, timezone
 from contextlib import contextmanager
 from functools import cache
 from pathlib import Path, PurePosixPath
 from tempfile import TemporaryDirectory
 
-from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, read_json, write_json
+from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text, parse_json, read_json, write_json
 
 from . import fiche
 from .source import SOURCES, document_entries, relative_path
@@ -87,6 +91,50 @@ def check_directory(path):
         raise OSError(f"Ce chemin doit être un dossier : {path.name}")
 
 
+IDS, JOURNAL = "ids.json", "journal.jsonl"
+
+
+class BaseInconnue(ValueError):
+    pass
+
+
+def owned_ids(record):
+    """Identifiants qu'une fiche fait naître : la spec et chacune de ses exigences, tous rattachés à la spec."""
+    return {record["id"]: record["id"], **{row["id"]: record["id"] for row in record["requirements"]}}
+
+
+def check_ids(records, ids):
+    """§ 2 : un identifiant publié n'est jamais recyclé. Chaque identifiant porté par une fiche est au registre
+    d'IDs (ajout seul), rattaché à la bonne spec."""
+    errors = []
+    for record in records.values():
+        for key, owner in sorted(owned_ids(record).items()):
+            if ids.get(key) != owner:
+                errors.append(f"{key} : absent du registre d'IDs ou rattaché à {ids.get(key)} (attendu {owner}).")
+    return errors
+
+
+def check_against_base(root, ref, ids):
+    """Ajout seul par rapport à la base de la PR : aucune clé retirée, aucune clé réattribuée."""
+    git = ["git", "-C", str(root)]
+    if subprocess.run([*git, "rev-parse", "--verify", "--quiet", "--end-of-options", f"{ref}^{{commit}}"],
+                      capture_output=True).returncode:
+        raise BaseInconnue(f"Révision Git introuvable : {ref}")
+    shown = subprocess.run([*git, "show", f"{ref}:specs/registry/{IDS}"], capture_output=True)
+    base = parse_json(shown.stdout) if shown.returncode == 0 else {}
+    errors = []
+    for key, owner in sorted(base.items()):
+        if key not in ids:
+            errors.append(f"{key} : identifiant retiré du registre d'IDs (jamais recyclé).")
+        elif ids[key] != owner:
+            errors.append(f"{key} : identifiant réattribué ({owner} → {ids[key]}).")
+    return errors
+
+
+def sha256_text(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
 class RegistryStore:
     def __init__(self, root):
         self.root = root
@@ -116,8 +164,13 @@ class RegistryStore:
             records[record["id"]] = record
         return records
 
-    def publish(self, changes):
-        """Prépare le lot avant de rendre visible le nouveau dossier en une opération."""
+    def ids(self):
+        path = self.path / IDS
+        return read_json(path) if path.is_file() else {}
+
+    def publish(self, changes, command):
+        """Prépare le lot avant de rendre visible le nouveau dossier en une opération. Le registre d'IDs (ajout seul)
+        et le journal d'audit (une ligne par fiche dont le contenu change) font partie du même lot atomique."""
         self.path.parent.mkdir(exist_ok=True)
         with TemporaryDirectory(prefix=".registry-", dir=self.path.parent) as workspace:
             stage = Path(workspace) / "registry"
@@ -125,10 +178,28 @@ class RegistryStore:
                 shutil.copytree(self.path, stage, symlinks=True)
             else:
                 stage.mkdir()
+            ids = read_json(stage / IDS) if (stage / IDS).is_file() else {}
+            at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+            lines = []
             for spec_id, record in changes.items():
                 fiche.refresh(record)
                 check_record(spec_id, record)
-                write_json(stage / f"{spec_id}.json", record)
+                for key, owner in owned_ids(record).items():
+                    if ids.setdefault(key, owner) != owner:
+                        raise InvalidJSON(f"{key} : identifiant déjà attribué à {ids[key]}, jamais recyclé.")
+                target = stage / f"{spec_id}.json"
+                before = sha256_text(target.read_text(encoding="utf-8")) if target.is_file() else None
+                after = sha256_text(json_text(record))
+                if before == after:
+                    continue
+                write_json(target, record)
+                lines.append({"at": at, "command": command, "specId": spec_id,
+                              "sha256Before": before, "sha256After": after})
+            if not (stage / IDS).is_file() or read_json(stage / IDS) != ids:
+                write_json(stage / IDS, dict(sorted(ids.items())))
+            if lines:
+                with open(stage / JOURNAL, "a", encoding="utf-8") as journal:
+                    journal.writelines(json.dumps(line, sort_keys=True, ensure_ascii=False) + "\n" for line in lines)
             if self.path.exists():
                 exchange_directories(stage, self.path)
             else:

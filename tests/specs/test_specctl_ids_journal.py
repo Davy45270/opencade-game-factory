@@ -12,6 +12,8 @@ from __future__ import annotations
 import json
 import unittest
 
+from specs.specctl.fiche import refresh
+
 from ._outil import Docs, git
 
 REF = "HL-525 7-2955"
@@ -57,6 +59,7 @@ class IdentifiantsJamaisRecycles(Base):
         self.assertEqual(self.d.specctl("validate", "--base", "HEAD", "--json").rc, 0)
         fiche = json.loads((self.reg / "SPEC-JEU-A.json").read_text())
         fiche["requirements"] = fiche["requirements"][:1]                      # exigence retirée de la fiche : permis
+        refresh(fiche)                                                          # statuts déduits recalculés
         (self.reg / "SPEC-JEU-A.json").write_text(json.dumps(fiche))
         ids = self.ids()
         del ids["REQ-JEU-A-E002"]                                               # mais son identifiant ne disparaît pas

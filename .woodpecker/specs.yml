@@ -28,6 +28,12 @@ steps:
       - git config --global --add safe.directory '*'
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
+      # § 2 : sur une PR, aucun identifiant du registre d'IDs n'est retiré ni réattribué par rapport à la cible.
+      - |
+        if [ "$CI_PIPELINE_EVENT" = pull_request ]; then
+          git fetch -q --depth=1 origin "$CI_COMMIT_TARGET_BRANCH"
+          ./specctl --json validate --base FETCH_HEAD
+        fi
 
   # Le registre réel du dépôt : schémas, identifiants, relations typées, liens cassés et cycles.
   - name: registre

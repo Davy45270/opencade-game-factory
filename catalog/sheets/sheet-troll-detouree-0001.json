@@ -1,0 +1,537 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-troll-detouree-0001.png"
+  },
+  "id": "sheet-troll-detouree-0001",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. Utilisables dans les jeux de David, jamais exposés publiquement sans son accord.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "Troll des cavernes (taille M) — détourée",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Détourage de sheet-troll-0001 (troll.png, SHA-256 96cd33cd357c8d62110753e16f581cbb17ce1423dca47dc8610c990aae90ed96) par sources/editable/pestouille-2026-11-21/decoupe.py (SHA-256 92b98a4bd05d07667f02c8777ee0c2bdc5cdf4542a74953b6b566ba284375ec7), gabarit gabarit4, options aucune : fond noir relié au bord des cases -> alpha 0, hors cases (titres, cartouches, cadres jaunes, portraits) -> alpha 0 ; RGB inchangé.",
+      "Table de découpe : sources/editable/pestouille-2026-11-21/troll.decoupe.json (SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f).",
+      "La « grille 64x64 » annoncée par le cartouche n'est pas utilisée : pas réel 65 à 72 px (INVENTAIRE du 21/11)."
+    ],
+    "tool": "decoupe.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-troll-droite-idle-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 86,
+      "status": "verified",
+      "w": 65,
+      "x": 165,
+      "y": 231
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-idle-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 63,
+      "x": 234,
+      "y": 233
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-idle-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 61,
+      "x": 304,
+      "y": 233
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-idle-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 62,
+      "x": 370,
+      "y": 233
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 83,
+      "status": "verified",
+      "w": 67,
+      "x": 451,
+      "y": 234
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 83,
+      "status": "verified",
+      "w": 65,
+      "x": 518,
+      "y": 234
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 64,
+      "x": 583,
+      "y": 235
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 57,
+      "x": 649,
+      "y": 236
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-e-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 62,
+      "x": 706,
+      "y": 236
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-marche-f-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 56,
+      "x": 770,
+      "y": 236
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-attaque-bloc-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 122,
+      "status": "verified",
+      "w": 416,
+      "x": 846,
+      "y": 196
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-blesse-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 116,
+      "status": "verified",
+      "w": 70,
+      "x": 1283,
+      "y": 202
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-blesse-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 74,
+      "x": 1364,
+      "y": 237
+    },
+    {
+      "assetId": "asset-sprite-troll-droite-blesse-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 112,
+      "status": "verified",
+      "w": 70,
+      "x": 1450,
+      "y": 206
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-idle-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 67,
+      "x": 168,
+      "y": 427
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-idle-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 80,
+      "status": "verified",
+      "w": 63,
+      "x": 239,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-idle-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 66,
+      "x": 305,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-idle-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 65,
+      "x": 371,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 63,
+      "x": 452,
+      "y": 429
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 64,
+      "x": 515,
+      "y": 429
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 60,
+      "x": 579,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 79,
+      "status": "verified",
+      "w": 62,
+      "x": 639,
+      "y": 429
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-e-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 80,
+      "status": "verified",
+      "w": 61,
+      "x": 703,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-marche-f-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 80,
+      "status": "verified",
+      "w": 64,
+      "x": 764,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-attaque-bloc-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 115,
+      "status": "verified",
+      "w": 414,
+      "x": 847,
+      "y": 393
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-blesse-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 111,
+      "status": "verified",
+      "w": 70,
+      "x": 1286,
+      "y": 398
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-blesse-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 81,
+      "status": "verified",
+      "w": 72,
+      "x": 1365,
+      "y": 428
+    },
+    {
+      "assetId": "asset-sprite-troll-gauche-blesse-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 116,
+      "status": "verified",
+      "w": 73,
+      "x": 1449,
+      "y": 393
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-idle-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 68,
+      "x": 164,
+      "y": 614
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-idle-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 65,
+      "x": 235,
+      "y": 614
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-idle-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 67,
+      "x": 303,
+      "y": 614
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-idle-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 87,
+      "status": "verified",
+      "w": 66,
+      "x": 370,
+      "y": 615
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 87,
+      "status": "verified",
+      "w": 64,
+      "x": 452,
+      "y": 616
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 60,
+      "x": 519,
+      "y": 614
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 89,
+      "status": "verified",
+      "w": 61,
+      "x": 581,
+      "y": 615
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 60,
+      "x": 644,
+      "y": 615
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-e-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 88,
+      "status": "verified",
+      "w": 61,
+      "x": 704,
+      "y": 616
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-marche-f-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 87,
+      "status": "verified",
+      "w": 62,
+      "x": 767,
+      "y": 617
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-attaque-bloc-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 136,
+      "status": "verified",
+      "w": 417,
+      "x": 845,
+      "y": 581
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-blesse-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 118,
+      "status": "verified",
+      "w": 75,
+      "x": 1280,
+      "y": 585
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-blesse-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 87,
+      "status": "verified",
+      "w": 75,
+      "x": 1364,
+      "y": 616
+    },
+    {
+      "assetId": "asset-sprite-troll-bas-blesse-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 116,
+      "status": "verified",
+      "w": 76,
+      "x": 1447,
+      "y": 587
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-idle-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 71,
+      "x": 163,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-idle-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 66,
+      "x": 234,
+      "y": 811
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-idle-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 85,
+      "status": "verified",
+      "w": 65,
+      "x": 303,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-idle-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 84,
+      "status": "verified",
+      "w": 66,
+      "x": 370,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 83,
+      "status": "verified",
+      "w": 64,
+      "x": 452,
+      "y": 812
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 85,
+      "status": "verified",
+      "w": 63,
+      "x": 516,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 85,
+      "status": "verified",
+      "w": 63,
+      "x": 579,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-d-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 86,
+      "status": "verified",
+      "w": 62,
+      "x": 642,
+      "y": 810
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-e-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 86,
+      "status": "verified",
+      "w": 62,
+      "x": 704,
+      "y": 811
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-marche-f-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 82,
+      "status": "verified",
+      "w": 63,
+      "x": 766,
+      "y": 815
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-attaque-bloc-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 127,
+      "status": "verified",
+      "w": 417,
+      "x": 844,
+      "y": 774
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-blesse-a-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 114,
+      "status": "verified",
+      "w": 78,
+      "x": 1281,
+      "y": 782
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-blesse-b-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 82,
+      "status": "verified",
+      "w": 73,
+      "x": 1364,
+      "y": 814
+    },
+    {
+      "assetId": "asset-sprite-troll-haut-blesse-c-0001",
+      "evidence": "troll.decoupe.json · SHA-256 0b0e6bd7dd97287e3e294b5e2d640c9a79dc5cf186b97da961750b2038c5683f · planche b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+      "h": 109,
+      "status": "verified",
+      "w": 71,
+      "x": 1448,
+      "y": 786
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "b12260dee3adc3c1f823d819de8cf888fddf573b9d3eb76fb0f79e67d5204f67",
+  "status": "active"
+}

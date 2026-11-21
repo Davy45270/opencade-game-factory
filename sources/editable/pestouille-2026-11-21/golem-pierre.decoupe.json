@@ -1,0 +1,1222 @@
+{
+ "planche": "golem-pierre-detouree.png",
+ "planche_sha256": "e8036e01cdb7c691ad81a49b7a7bc8089503de340167ef6e4fa2f4f1f100c27a",
+ "marge": 0,
+ "source": "golem_pierre.png",
+ "source_sha256": "05fc7cb75be4464cd6ee832b444781f0321c591828bd17a309c5b625f3b30c59",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "golem-pierre-droite-idle-a",
+   "boite": [
+    58,
+    81,
+    168,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-droite-idle-b",
+   "boite": [
+    59,
+    81,
+    237,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-droite-idle-c",
+   "boite": [
+    61,
+    79,
+    306,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-droite-idle-d",
+   "boite": [
+    59,
+    81,
+    374,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-droite-marche-a",
+   "boite": [
+    63,
+    80,
+    455,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-marche-b",
+   "boite": [
+    61,
+    80,
+    522,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-marche-c",
+   "boite": [
+    58,
+    78,
+    588,
+    237
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-marche-d",
+   "boite": [
+    54,
+    77,
+    652,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-marche-e",
+   "boite": [
+    57,
+    77,
+    708,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-marche-f",
+   "boite": [
+    53,
+    77,
+    772,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-a",
+   "boite": [
+    63,
+    80,
+    847,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-b",
+   "boite": [
+    58,
+    81,
+    917,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-c",
+   "boite": [
+    58,
+    83,
+    984,
+    234
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-d",
+   "boite": [
+    81,
+    99,
+    1047,
+    218
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-e",
+   "boite": [
+    56,
+    81,
+    1133,
+    235
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-attaque-f",
+   "boite": [
+    58,
+    81,
+    1200,
+    236
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-droite-blesse-a",
+   "boite": [
+    65,
+    107,
+    1286,
+    209
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-droite-blesse-b",
+   "boite": [
+    68,
+    79,
+    1368,
+    238
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-droite-blesse-c",
+   "boite": [
+    64,
+    108,
+    1451,
+    208
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-gauche-idle-a",
+   "boite": [
+    59,
+    80,
+    168,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-gauche-idle-b",
+   "boite": [
+    59,
+    79,
+    238,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-gauche-idle-c",
+   "boite": [
+    59,
+    80,
+    307,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-gauche-idle-d",
+   "boite": [
+    62,
+    80,
+    374,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-gauche-marche-a",
+   "boite": [
+    57,
+    79,
+    455,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-marche-b",
+   "boite": [
+    55,
+    79,
+    519,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-marche-c",
+   "boite": [
+    57,
+    79,
+    578,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-marche-d",
+   "boite": [
+    58,
+    79,
+    640,
+    428
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-marche-e",
+   "boite": [
+    59,
+    79,
+    703,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-marche-f",
+   "boite": [
+    60,
+    80,
+    765,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-a",
+   "boite": [
+    58,
+    81,
+    847,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-b",
+   "boite": [
+    59,
+    80,
+    915,
+    427
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-c",
+   "boite": [
+    55,
+    81,
+    982,
+    426
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-d",
+   "boite": [
+    82,
+    101,
+    1040,
+    407
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-e",
+   "boite": [
+    58,
+    84,
+    1128,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-attaque-f",
+   "boite": [
+    62,
+    84,
+    1196,
+    423
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-gauche-blesse-a",
+   "boite": [
+    65,
+    106,
+    1288,
+    401
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-gauche-blesse-b",
+   "boite": [
+    70,
+    77,
+    1368,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-gauche-blesse-c",
+   "boite": [
+    63,
+    106,
+    1454,
+    402
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-bas-idle-a",
+   "boite": [
+    66,
+    84,
+    165,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-bas-idle-b",
+   "boite": [
+    65,
+    85,
+    235,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-bas-idle-c",
+   "boite": [
+    66,
+    85,
+    303,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-bas-idle-d",
+   "boite": [
+    64,
+    85,
+    372,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-bas-marche-a",
+   "boite": [
+    63,
+    83,
+    454,
+    617
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-marche-b",
+   "boite": [
+    61,
+    83,
+    520,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-marche-c",
+   "boite": [
+    59,
+    84,
+    584,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-marche-d",
+   "boite": [
+    59,
+    83,
+    646,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-marche-e",
+   "boite": [
+    59,
+    83,
+    707,
+    617
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-marche-f",
+   "boite": [
+    61,
+    82,
+    768,
+    617
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-a",
+   "boite": [
+    66,
+    85,
+    845,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-b",
+   "boite": [
+    63,
+    85,
+    914,
+    614
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-c",
+   "boite": [
+    65,
+    86,
+    977,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-d",
+   "boite": [
+    90,
+    111,
+    1042,
+    590
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-e",
+   "boite": [
+    62,
+    88,
+    1132,
+    612
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-attaque-f",
+   "boite": [
+    64,
+    87,
+    1197,
+    613
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-bas-blesse-a",
+   "boite": [
+    75,
+    109,
+    1283,
+    591
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-bas-blesse-b",
+   "boite": [
+    72,
+    85,
+    1367,
+    615
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-bas-blesse-c",
+   "boite": [
+    72,
+    113,
+    1447,
+    587
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-haut-idle-a",
+   "boite": [
+    65,
+    79,
+    165,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-haut-idle-b",
+   "boite": [
+    65,
+    80,
+    235,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-haut-idle-c",
+   "boite": [
+    68,
+    80,
+    300,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-haut-idle-d",
+   "boite": [
+    64,
+    80,
+    372,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "golem-pierre-haut-marche-a",
+   "boite": [
+    63,
+    77,
+    454,
+    817
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-marche-b",
+   "boite": [
+    62,
+    79,
+    520,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-marche-c",
+   "boite": [
+    60,
+    79,
+    584,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-marche-d",
+   "boite": [
+    58,
+    79,
+    647,
+    815
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-marche-e",
+   "boite": [
+    58,
+    77,
+    707,
+    817
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-marche-f",
+   "boite": [
+    61,
+    77,
+    768,
+    817
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-a",
+   "boite": [
+    66,
+    80,
+    844,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-b",
+   "boite": [
+    63,
+    80,
+    913,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-c",
+   "boite": [
+    62,
+    81,
+    979,
+    813
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-d",
+   "boite": [
+    84,
+    94,
+    1041,
+    801
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-e",
+   "boite": [
+    64,
+    81,
+    1125,
+    813
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-attaque-f",
+   "boite": [
+    65,
+    81,
+    1193,
+    813
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "golem-pierre-haut-blesse-a",
+   "boite": [
+    79,
+    107,
+    1284,
+    787
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-haut-blesse-b",
+   "boite": [
+    70,
+    80,
+    1367,
+    814
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "golem-pierre-haut-blesse-c",
+   "boite": [
+    71,
+    109,
+    1447,
+    785
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

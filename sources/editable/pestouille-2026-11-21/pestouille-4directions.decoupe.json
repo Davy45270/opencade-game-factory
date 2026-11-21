@@ -1,0 +1,1222 @@
+{
+ "planche": "pestouille-4directions-detouree.png",
+ "planche_sha256": "261ce96e623a051550e1131b10a624af5c4b6f79a90c4d88bdb05401fa5cf312",
+ "marge": 0,
+ "source": "pestouille_4directions.png",
+ "source_sha256": "72141098d036571c5779e397afa859361a8ef74a95bc549980588352a8dbfae5",
+ "gabarit": "gabarit4",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "droite",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "droite",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "gauche",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "bas",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "haut",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "pestouille-4directions-droite-idle-a",
+   "boite": [
+    66,
+    78,
+    165,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-droite-idle-b",
+   "boite": [
+    65,
+    78,
+    234,
+    239
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-droite-idle-c",
+   "boite": [
+    64,
+    77,
+    302,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-droite-idle-d",
+   "boite": [
+    64,
+    77,
+    370,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-a",
+   "boite": [
+    63,
+    77,
+    454,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-b",
+   "boite": [
+    62,
+    76,
+    520,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-c",
+   "boite": [
+    63,
+    78,
+    584,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-d",
+   "boite": [
+    63,
+    78,
+    647,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-e",
+   "boite": [
+    62,
+    78,
+    710,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-marche-f",
+   "boite": [
+    62,
+    77,
+    772,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-a",
+   "boite": [
+    63,
+    77,
+    852,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-b",
+   "boite": [
+    63,
+    78,
+    918,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-c",
+   "boite": [
+    63,
+    78,
+    981,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-d",
+   "boite": [
+    94,
+    115,
+    1044,
+    203
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-e",
+   "boite": [
+    64,
+    77,
+    1138,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-attaque-f",
+   "boite": [
+    64,
+    77,
+    1202,
+    240
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "droite",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-droite-blesse-a",
+   "boite": [
+    74,
+    122,
+    1286,
+    200
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-droite-blesse-b",
+   "boite": [
+    75,
+    75,
+    1367,
+    248
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-droite-blesse-c",
+   "boite": [
+    74,
+    124,
+    1448,
+    198
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "droite",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-gauche-idle-a",
+   "boite": [
+    67,
+    77,
+    162,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-gauche-idle-b",
+   "boite": [
+    66,
+    76,
+    229,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-gauche-idle-c",
+   "boite": [
+    66,
+    77,
+    295,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-gauche-idle-d",
+   "boite": [
+    68,
+    77,
+    363,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-a",
+   "boite": [
+    60,
+    77,
+    449,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-b",
+   "boite": [
+    61,
+    78,
+    512,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-c",
+   "boite": [
+    61,
+    76,
+    575,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-d",
+   "boite": [
+    62,
+    78,
+    638,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-e",
+   "boite": [
+    61,
+    76,
+    702,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-marche-f",
+   "boite": [
+    62,
+    76,
+    766,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-a",
+   "boite": [
+    64,
+    77,
+    848,
+    431
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-b",
+   "boite": [
+    56,
+    74,
+    915,
+    434
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-c",
+   "boite": [
+    102,
+    112,
+    971,
+    397
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-d",
+   "boite": [
+    60,
+    77,
+    1073,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-e",
+   "boite": [
+    63,
+    77,
+    1135,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-attaque-f",
+   "boite": [
+    66,
+    77,
+    1198,
+    432
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "gauche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-gauche-blesse-a",
+   "boite": [
+    74,
+    123,
+    1287,
+    392
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-gauche-blesse-b",
+   "boite": [
+    76,
+    77,
+    1366,
+    438
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-gauche-blesse-c",
+   "boite": [
+    74,
+    121,
+    1447,
+    395
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "gauche",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-bas-idle-a",
+   "boite": [
+    62,
+    78,
+    166,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-bas-idle-b",
+   "boite": [
+    62,
+    78,
+    235,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-bas-idle-c",
+   "boite": [
+    62,
+    78,
+    302,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-bas-idle-d",
+   "boite": [
+    62,
+    78,
+    370,
+    626
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-a",
+   "boite": [
+    60,
+    83,
+    454,
+    622
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-b",
+   "boite": [
+    60,
+    85,
+    519,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-c",
+   "boite": [
+    59,
+    83,
+    582,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-d",
+   "boite": [
+    60,
+    84,
+    645,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-e",
+   "boite": [
+    60,
+    85,
+    708,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-marche-f",
+   "boite": [
+    59,
+    84,
+    772,
+    621
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-a",
+   "boite": [
+    61,
+    81,
+    853,
+    624
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-b",
+   "boite": [
+    60,
+    82,
+    920,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-c",
+   "boite": [
+    64,
+    79,
+    985,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-d",
+   "boite": [
+    77,
+    162,
+    1049,
+    578
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-e",
+   "boite": [
+    65,
+    81,
+    1126,
+    623
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-attaque-f",
+   "boite": [
+    60,
+    79,
+    1199,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "bas",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-bas-blesse-a",
+   "boite": [
+    74,
+    123,
+    1288,
+    588
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-bas-blesse-b",
+   "boite": [
+    72,
+    82,
+    1369,
+    630
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-bas-blesse-c",
+   "boite": [
+    70,
+    129,
+    1449,
+    583
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "bas",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-haut-idle-a",
+   "boite": [
+    65,
+    80,
+    163,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-haut-idle-b",
+   "boite": [
+    66,
+    80,
+    232,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-haut-idle-c",
+   "boite": [
+    64,
+    80,
+    300,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-haut-idle-d",
+   "boite": [
+    65,
+    80,
+    367,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-a",
+   "boite": [
+    62,
+    86,
+    452,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-b",
+   "boite": [
+    59,
+    82,
+    519,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-c",
+   "boite": [
+    58,
+    81,
+    582,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-d",
+   "boite": [
+    59,
+    82,
+    644,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-e",
+   "boite": [
+    59,
+    85,
+    707,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-marche-f",
+   "boite": [
+    60,
+    81,
+    771,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-a",
+   "boite": [
+    64,
+    82,
+    851,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-b",
+   "boite": [
+    62,
+    80,
+    919,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-c",
+   "boite": [
+    63,
+    81,
+    983,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-d",
+   "boite": [
+    73,
+    135,
+    1046,
+    773
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-e",
+   "boite": [
+    65,
+    80,
+    1128,
+    821
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-attaque-f",
+   "boite": [
+    63,
+    81,
+    1199,
+    822
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "haut",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "pestouille-4directions-haut-blesse-a",
+   "boite": [
+    74,
+    127,
+    1290,
+    783
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-haut-blesse-b",
+   "boite": [
+    71,
+    84,
+    1370,
+    826
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "pestouille-4directions-haut-blesse-c",
+   "boite": [
+    71,
+    132,
+    1449,
+    778
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "haut",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

@@ -1,0 +1,1412 @@
+{
+ "planche": "plantes-variantes-detouree.png",
+ "planche_sha256": "ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+ "marge": 0,
+ "source": "plantes_variantes.png",
+ "source_sha256": "f71628d0ce450955a10ae4d1f931a4173d22a3b7151e60e5b94221907230c017",
+ "gabarit": "variantes",
+ "seuil_fond": 28,
+ "seuil_alpha": null,
+ "constats": [
+  {
+   "ligne": "verte",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "electrique",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "epines",
+   "animation": "idle",
+   "annonce": 4,
+   "attendu": 4,
+   "trouve": 4,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "verte",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "electrique",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "epines",
+   "animation": "marche",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": true
+  },
+  {
+   "ligne": "verte",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "feu",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "glace",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "poison",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "electrique",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "epines",
+   "animation": "attaque",
+   "annonce": 6,
+   "attendu": 6,
+   "trouve": 6,
+   "coupe_forcee": true,
+   "accepte": false
+  },
+  {
+   "ligne": "verte",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "feu",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "glace",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "poison",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "electrique",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  },
+  {
+   "ligne": "epines",
+   "animation": "blesse",
+   "annonce": 3,
+   "attendu": 3,
+   "trouve": 3,
+   "coupe_forcee": false,
+   "accepte": true
+  }
+ ],
+ "elements": [
+  {
+   "id": "plantes-variantes-verte-idle-a",
+   "boite": [
+    72,
+    110,
+    124,
+    138
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "verte",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-verte-idle-b",
+   "boite": [
+    67,
+    99,
+    196,
+    147
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "verte",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-verte-idle-c",
+   "boite": [
+    61,
+    92,
+    263,
+    154
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "verte",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-verte-idle-d",
+   "boite": [
+    57,
+    95,
+    327,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "verte",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-feu-idle-a",
+   "boite": [
+    71,
+    120,
+    406,
+    127
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-feu-idle-b",
+   "boite": [
+    64,
+    108,
+    477,
+    137
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-feu-idle-c",
+   "boite": [
+    60,
+    99,
+    543,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-feu-idle-d",
+   "boite": [
+    58,
+    105,
+    605,
+    143
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "feu",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-glace-idle-a",
+   "boite": [
+    70,
+    120,
+    685,
+    125
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-glace-idle-b",
+   "boite": [
+    65,
+    116,
+    755,
+    133
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-glace-idle-c",
+   "boite": [
+    58,
+    100,
+    822,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-glace-idle-d",
+   "boite": [
+    54,
+    105,
+    885,
+    144
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "glace",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-poison-idle-a",
+   "boite": [
+    73,
+    117,
+    959,
+    130
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-poison-idle-b",
+   "boite": [
+    65,
+    109,
+    1032,
+    140
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-poison-idle-c",
+   "boite": [
+    61,
+    96,
+    1097,
+    151
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-poison-idle-d",
+   "boite": [
+    60,
+    96,
+    1158,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "poison",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-electrique-idle-a",
+   "boite": [
+    72,
+    123,
+    1236,
+    126
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "electrique",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-electrique-idle-b",
+   "boite": [
+    66,
+    115,
+    1308,
+    133
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "electrique",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-electrique-idle-c",
+   "boite": [
+    56,
+    102,
+    1376,
+    146
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "electrique",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-electrique-idle-d",
+   "boite": [
+    57,
+    105,
+    1436,
+    144
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "electrique",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-epines-idle-a",
+   "boite": [
+    69,
+    116,
+    1512,
+    131
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "epines",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-epines-idle-b",
+   "boite": [
+    66,
+    103,
+    1581,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "epines",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-epines-idle-c",
+   "boite": [
+    59,
+    94,
+    1647,
+    153
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "epines",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-epines-idle-d",
+   "boite": [
+    57,
+    100,
+    1706,
+    148
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "ligne": "epines",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "plantes-variantes-verte-marche-a",
+   "boite": [
+    47,
+    84,
+    122,
+    337
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-marche-b",
+   "boite": [
+    46,
+    80,
+    169,
+    340
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-marche-c",
+   "boite": [
+    49,
+    73,
+    215,
+    347
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-marche-d",
+   "boite": [
+    41,
+    71,
+    264,
+    349
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-marche-e",
+   "boite": [
+    40,
+    70,
+    305,
+    349
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-marche-f",
+   "boite": [
+    42,
+    72,
+    345,
+    350
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "verte",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-a",
+   "boite": [
+    55,
+    95,
+    401,
+    326
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-b",
+   "boite": [
+    39,
+    88,
+    456,
+    336
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-c",
+   "boite": [
+    48,
+    78,
+    495,
+    344
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-d",
+   "boite": [
+    42,
+    74,
+    543,
+    347
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-e",
+   "boite": [
+    40,
+    76,
+    585,
+    346
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-feu-marche-f",
+   "boite": [
+    41,
+    75,
+    625,
+    348
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "feu",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-a",
+   "boite": [
+    47,
+    98,
+    684,
+    327
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-b",
+   "boite": [
+    47,
+    93,
+    731,
+    332
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-c",
+   "boite": [
+    34,
+    79,
+    778,
+    345
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-d",
+   "boite": [
+    50,
+    75,
+    812,
+    345
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-e",
+   "boite": [
+    42,
+    75,
+    862,
+    347
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-glace-marche-f",
+   "boite": [
+    38,
+    74,
+    904,
+    349
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "glace",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-a",
+   "boite": [
+    48,
+    95,
+    957,
+    329
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-b",
+   "boite": [
+    42,
+    87,
+    1005,
+    337
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-c",
+   "boite": [
+    49,
+    75,
+    1047,
+    345
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-d",
+   "boite": [
+    42,
+    72,
+    1096,
+    350
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-e",
+   "boite": [
+    43,
+    72,
+    1138,
+    349
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-poison-marche-f",
+   "boite": [
+    39,
+    72,
+    1181,
+    350
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "poison",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-a",
+   "boite": [
+    48,
+    99,
+    1233,
+    325
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-b",
+   "boite": [
+    47,
+    91,
+    1281,
+    330
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-c",
+   "boite": [
+    41,
+    87,
+    1328,
+    337
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-d",
+   "boite": [
+    49,
+    81,
+    1369,
+    342
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-e",
+   "boite": [
+    41,
+    76,
+    1418,
+    344
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-marche-f",
+   "boite": [
+    38,
+    75,
+    1459,
+    347
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "electrique",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-a",
+   "boite": [
+    50,
+    90,
+    1509,
+    331
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-b",
+   "boite": [
+    46,
+    84,
+    1559,
+    340
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-c",
+   "boite": [
+    36,
+    73,
+    1605,
+    348
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-d",
+   "boite": [
+    46,
+    70,
+    1641,
+    351
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-e",
+   "boite": [
+    44,
+    72,
+    1687,
+    348
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-epines-marche-f",
+   "boite": [
+    37,
+    71,
+    1731,
+    351
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "ligne": "epines",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "plantes-variantes-verte-attaque-bloc",
+   "boite": [
+    264,
+    99,
+    122,
+    516
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "verte",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-feu-attaque-bloc",
+   "boite": [
+    262,
+    107,
+    403,
+    508
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "feu",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-glace-attaque-bloc",
+   "boite": [
+    259,
+    108,
+    684,
+    509
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "glace",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-poison-attaque-bloc",
+   "boite": [
+    262,
+    103,
+    958,
+    512
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "poison",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-electrique-attaque-bloc",
+   "boite": [
+    261,
+    108,
+    1235,
+    508
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "electrique",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-epines-attaque-bloc",
+   "boite": [
+    258,
+    102,
+    1510,
+    513
+   ],
+   "ancre": "bas",
+   "animation": "attaque",
+   "ligne": "epines",
+   "etat": "a-decouper",
+   "trouves": 6,
+   "attendus": 6
+  },
+  {
+   "id": "plantes-variantes-verte-blesse-a",
+   "boite": [
+    82,
+    117,
+    126,
+    697
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "verte",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-verte-blesse-b",
+   "boite": [
+    74,
+    89,
+    212,
+    725
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "verte",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-verte-blesse-c",
+   "boite": [
+    73,
+    110,
+    295,
+    704
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "verte",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-feu-blesse-a",
+   "boite": [
+    81,
+    121,
+    407,
+    696
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-feu-blesse-b",
+   "boite": [
+    76,
+    96,
+    493,
+    721
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-feu-blesse-c",
+   "boite": [
+    74,
+    115,
+    577,
+    702
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "feu",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-glace-blesse-a",
+   "boite": [
+    79,
+    117,
+    690,
+    697
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-glace-blesse-b",
+   "boite": [
+    75,
+    90,
+    773,
+    724
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-glace-blesse-c",
+   "boite": [
+    69,
+    113,
+    863,
+    701
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "glace",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-poison-blesse-a",
+   "boite": [
+    81,
+    118,
+    962,
+    696
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-poison-blesse-b",
+   "boite": [
+    76,
+    93,
+    1047,
+    724
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-poison-blesse-c",
+   "boite": [
+    76,
+    111,
+    1130,
+    703
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "poison",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-electrique-blesse-a",
+   "boite": [
+    81,
+    121,
+    1239,
+    696
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "electrique",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-electrique-blesse-b",
+   "boite": [
+    76,
+    97,
+    1325,
+    719
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "electrique",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-electrique-blesse-c",
+   "boite": [
+    76,
+    115,
+    1408,
+    702
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "electrique",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-epines-blesse-a",
+   "boite": [
+    81,
+    115,
+    1515,
+    701
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "epines",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-epines-blesse-b",
+   "boite": [
+    77,
+    93,
+    1601,
+    723
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "epines",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "plantes-variantes-epines-blesse-c",
+   "boite": [
+    77,
+    112,
+    1683,
+    702
+   ],
+   "ancre": "bas",
+   "animation": "blesse",
+   "ligne": "epines",
+   "cadre": 3,
+   "cadres": 3
+  }
+ ]
+}

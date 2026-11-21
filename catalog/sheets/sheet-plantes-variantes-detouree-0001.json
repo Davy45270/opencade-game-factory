@@ -1,0 +1,789 @@
+{
+  "dimensions": {
+    "height": 887,
+    "width": 1774
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-plantes-variantes-detouree-0001.png"
+  },
+  "id": "sheet-plantes-variantes-detouree-0001",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. Utilisables dans les jeux de David, jamais exposés publiquement sans son accord.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3162"
+  },
+  "name": "Six plantes carnivores (verte, feu, glace, poison, électrique, épines), profil droit — détourée",
+  "provenance": {
+    "author": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Détourage de sheet-plantes-variantes-0001 (plantes_variantes.png, SHA-256 f71628d0ce450955a10ae4d1f931a4173d22a3b7151e60e5b94221907230c017) par sources/editable/pestouille-2026-11-21/decoupe.py (SHA-256 92b98a4bd05d07667f02c8777ee0c2bdc5cdf4542a74953b6b566ba284375ec7), gabarit variantes, options --variantes verte,feu,glace,poison,electrique,epines : fond noir relié au bord des cases -> alpha 0, hors cases (titres, cartouches, cadres jaunes, portraits) -> alpha 0 ; RGB inchangé.",
+      "Table de découpe : sources/editable/pestouille-2026-11-21/plantes-variantes.decoupe.json (SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5).",
+      "La « grille 64x64 » annoncée par le cartouche n'est pas utilisée : pas réel 65 à 72 px (INVENTAIRE du 21/11)."
+    ],
+    "tool": "decoupe.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-idle-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 110,
+      "status": "verified",
+      "w": 72,
+      "x": 124,
+      "y": 138
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-idle-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 99,
+      "status": "verified",
+      "w": 67,
+      "x": 196,
+      "y": 147
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-idle-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 92,
+      "status": "verified",
+      "w": 61,
+      "x": 263,
+      "y": 154
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-idle-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 95,
+      "status": "verified",
+      "w": 57,
+      "x": 327,
+      "y": 150
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-idle-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 120,
+      "status": "verified",
+      "w": 71,
+      "x": 406,
+      "y": 127
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-idle-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 108,
+      "status": "verified",
+      "w": 64,
+      "x": 477,
+      "y": 137
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-idle-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 99,
+      "status": "verified",
+      "w": 60,
+      "x": 543,
+      "y": 149
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-idle-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 105,
+      "status": "verified",
+      "w": 58,
+      "x": 605,
+      "y": 143
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-idle-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 120,
+      "status": "verified",
+      "w": 70,
+      "x": 685,
+      "y": 125
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-idle-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 116,
+      "status": "verified",
+      "w": 65,
+      "x": 755,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-idle-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 100,
+      "status": "verified",
+      "w": 58,
+      "x": 822,
+      "y": 149
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-idle-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 105,
+      "status": "verified",
+      "w": 54,
+      "x": 885,
+      "y": 144
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-idle-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 117,
+      "status": "verified",
+      "w": 73,
+      "x": 959,
+      "y": 130
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-idle-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 109,
+      "status": "verified",
+      "w": 65,
+      "x": 1032,
+      "y": 140
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-idle-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 96,
+      "status": "verified",
+      "w": 61,
+      "x": 1097,
+      "y": 151
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-idle-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 96,
+      "status": "verified",
+      "w": 60,
+      "x": 1158,
+      "y": 149
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-idl-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 123,
+      "status": "verified",
+      "w": 72,
+      "x": 1236,
+      "y": 126
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-idl-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 115,
+      "status": "verified",
+      "w": 66,
+      "x": 1308,
+      "y": 133
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-idl-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 102,
+      "status": "verified",
+      "w": 56,
+      "x": 1376,
+      "y": 146
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-idl-0004",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 105,
+      "status": "verified",
+      "w": 57,
+      "x": 1436,
+      "y": 144
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-idle-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 116,
+      "status": "verified",
+      "w": 69,
+      "x": 1512,
+      "y": 131
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-idle-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 103,
+      "status": "verified",
+      "w": 66,
+      "x": 1581,
+      "y": 142
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-idle-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 94,
+      "status": "verified",
+      "w": 59,
+      "x": 1647,
+      "y": 153
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-idle-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 100,
+      "status": "verified",
+      "w": 57,
+      "x": 1706,
+      "y": 148
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 84,
+      "status": "verified",
+      "w": 47,
+      "x": 122,
+      "y": 337
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 80,
+      "status": "verified",
+      "w": 46,
+      "x": 169,
+      "y": 340
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 73,
+      "status": "verified",
+      "w": 49,
+      "x": 215,
+      "y": 347
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 71,
+      "status": "verified",
+      "w": 41,
+      "x": 264,
+      "y": 349
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-e-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 70,
+      "status": "verified",
+      "w": 40,
+      "x": 305,
+      "y": 349
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-marche-f-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 72,
+      "status": "verified",
+      "w": 42,
+      "x": 345,
+      "y": 350
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 95,
+      "status": "verified",
+      "w": 55,
+      "x": 401,
+      "y": 326
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 88,
+      "status": "verified",
+      "w": 39,
+      "x": 456,
+      "y": 336
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 78,
+      "status": "verified",
+      "w": 48,
+      "x": 495,
+      "y": 344
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 74,
+      "status": "verified",
+      "w": 42,
+      "x": 543,
+      "y": 347
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-e-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 76,
+      "status": "verified",
+      "w": 40,
+      "x": 585,
+      "y": 346
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-marche-f-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 75,
+      "status": "verified",
+      "w": 41,
+      "x": 625,
+      "y": 348
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 98,
+      "status": "verified",
+      "w": 47,
+      "x": 684,
+      "y": 327
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 93,
+      "status": "verified",
+      "w": 47,
+      "x": 731,
+      "y": 332
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 79,
+      "status": "verified",
+      "w": 34,
+      "x": 778,
+      "y": 345
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-d-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 75,
+      "status": "verified",
+      "w": 50,
+      "x": 812,
+      "y": 345
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-e-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 75,
+      "status": "verified",
+      "w": 42,
+      "x": 862,
+      "y": 347
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-marche-f-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 74,
+      "status": "verified",
+      "w": 38,
+      "x": 904,
+      "y": 349
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 95,
+      "status": "verified",
+      "w": 48,
+      "x": 957,
+      "y": 329
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 87,
+      "status": "verified",
+      "w": 42,
+      "x": 1005,
+      "y": 337
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 75,
+      "status": "verified",
+      "w": 49,
+      "x": 1047,
+      "y": 345
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0004",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 72,
+      "status": "verified",
+      "w": 42,
+      "x": 1096,
+      "y": 350
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0005",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 72,
+      "status": "verified",
+      "w": 43,
+      "x": 1138,
+      "y": 349
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-marche-0006",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 72,
+      "status": "verified",
+      "w": 39,
+      "x": 1181,
+      "y": 350
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 99,
+      "status": "verified",
+      "w": 48,
+      "x": 1233,
+      "y": 325
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 91,
+      "status": "verified",
+      "w": 47,
+      "x": 1281,
+      "y": 330
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 87,
+      "status": "verified",
+      "w": 41,
+      "x": 1328,
+      "y": 337
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0004",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 81,
+      "status": "verified",
+      "w": 49,
+      "x": 1369,
+      "y": 342
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0005",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 76,
+      "status": "verified",
+      "w": 41,
+      "x": 1418,
+      "y": 344
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-mar-0006",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 75,
+      "status": "verified",
+      "w": 38,
+      "x": 1459,
+      "y": 347
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 90,
+      "status": "verified",
+      "w": 50,
+      "x": 1509,
+      "y": 331
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 84,
+      "status": "verified",
+      "w": 46,
+      "x": 1559,
+      "y": 340
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 73,
+      "status": "verified",
+      "w": 36,
+      "x": 1605,
+      "y": 348
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0004",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 70,
+      "status": "verified",
+      "w": 46,
+      "x": 1641,
+      "y": 351
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0005",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 72,
+      "status": "verified",
+      "w": 44,
+      "x": 1687,
+      "y": 348
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-marche-0006",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 71,
+      "status": "verified",
+      "w": 37,
+      "x": 1731,
+      "y": 351
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-attaque-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 99,
+      "status": "verified",
+      "w": 264,
+      "x": 122,
+      "y": 516
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-attaque-bl-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 107,
+      "status": "verified",
+      "w": 262,
+      "x": 403,
+      "y": 508
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-attaque-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 108,
+      "status": "verified",
+      "w": 259,
+      "x": 684,
+      "y": 509
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-attaque-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 103,
+      "status": "verified",
+      "w": 262,
+      "x": 958,
+      "y": 512
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-att-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 108,
+      "status": "verified",
+      "w": 261,
+      "x": 1235,
+      "y": 508
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-attaque-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 102,
+      "status": "verified",
+      "w": 258,
+      "x": 1510,
+      "y": 513
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-blesse-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 117,
+      "status": "verified",
+      "w": 82,
+      "x": 126,
+      "y": 697
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-blesse-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 89,
+      "status": "verified",
+      "w": 74,
+      "x": 212,
+      "y": 725
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-verte-blesse-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 110,
+      "status": "verified",
+      "w": 73,
+      "x": 295,
+      "y": 704
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-blesse-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 121,
+      "status": "verified",
+      "w": 81,
+      "x": 407,
+      "y": 696
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-blesse-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 96,
+      "status": "verified",
+      "w": 76,
+      "x": 493,
+      "y": 721
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-feu-blesse-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 115,
+      "status": "verified",
+      "w": 74,
+      "x": 577,
+      "y": 702
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-blesse-a-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 117,
+      "status": "verified",
+      "w": 79,
+      "x": 690,
+      "y": 697
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-blesse-b-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 90,
+      "status": "verified",
+      "w": 75,
+      "x": 773,
+      "y": 724
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-glace-blesse-c-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 113,
+      "status": "verified",
+      "w": 69,
+      "x": 863,
+      "y": 701
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-blesse-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 118,
+      "status": "verified",
+      "w": 81,
+      "x": 962,
+      "y": 696
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-blesse-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 93,
+      "status": "verified",
+      "w": 76,
+      "x": 1047,
+      "y": 724
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-poison-blesse-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 111,
+      "status": "verified",
+      "w": 76,
+      "x": 1130,
+      "y": 703
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-ble-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 121,
+      "status": "verified",
+      "w": 81,
+      "x": 1239,
+      "y": 696
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-ble-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 97,
+      "status": "verified",
+      "w": 76,
+      "x": 1325,
+      "y": 719
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-electrique-ble-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 115,
+      "status": "verified",
+      "w": 76,
+      "x": 1408,
+      "y": 702
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-blesse-0001",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 115,
+      "status": "verified",
+      "w": 81,
+      "x": 1515,
+      "y": 701
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-blesse-0002",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 93,
+      "status": "verified",
+      "w": 77,
+      "x": 1601,
+      "y": 723
+    },
+    {
+      "assetId": "asset-sprite-plantes-variantes-epines-blesse-0003",
+      "evidence": "plantes-variantes.decoupe.json · SHA-256 ec7a09f05ee4b98b4c2a4f7bfafd935b5dff9825e32f6a847eba3be13193cce5 · planche ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+      "h": 112,
+      "status": "verified",
+      "w": 77,
+      "x": 1683,
+      "y": 702
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "ed31dbdf06d7a49f46f5ef30d57937c2e4c7061269fcf45d60c5139602515c5b",
+  "status": "active"
+}

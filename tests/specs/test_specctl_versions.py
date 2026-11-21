@@ -77,7 +77,7 @@ class VersionsDesSpecs(unittest.TestCase):
         self.commentaire("jeu-h", "# Drive : dossier v2 du 18/11, identifiants relevés à la main")
         self.d.commit("jeu H")
         r = self.resoudre("jeu-h")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertEqual(r.json.get("status"), "version-missing", r)
 
     def test_nom_de_dossier_hors_sources_ne_compte_pas(self) -> None:
@@ -85,7 +85,7 @@ class VersionsDesSpecs(unittest.TestCase):
         self.d.archive("jeu-v2", {"README.md.txt": SPEC_A})
         self.d.commit("jeu v2")
         r = self.resoudre("jeu-v2")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertEqual(r.json.get("status"), "version-missing", r)
 
 
@@ -187,7 +187,7 @@ class SourcesFigeesVersionnees(unittest.TestCase):
         self.figer("jeu-n-sources-1.1.0", {"README.md.txt": SPEC_A})
         self.d.commit("jeu N")
         r = self.resoudre("jeu-n")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertEqual(r.json.get("status"), "version-missing", r)
 
     def test_deux_dossiers_versionnes_arbitrage_requis(self) -> None:

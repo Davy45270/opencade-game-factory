@@ -60,7 +60,7 @@ class REG01SchemasEtIds(Base):
         reg = self.d.usine / "specs" / "registry"
         (reg / "SPEC-JEU-A-COPIE.json").write_text((reg / "SPEC-JEU-A.json").read_text())   # même `id` dans deux fiches
         r = self.d.specctl("validate", "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertIn("SPEC-JEU-A", r.stdout)
 
     def test_id_invalide_refuse(self) -> None:
@@ -68,7 +68,7 @@ class REG01SchemasEtIds(Base):
         f = self.d.usine / "specs" / "registry" / "SPEC-JEU-B.json"
         v = json.loads(f.read_text()); v["id"] = "spec-jeu-b"
         f.write_text(json.dumps(v))
-        self.assertEqual(self.d.specctl("validate", "--json").rc, 1)
+        self.assertEqual(self.d.specctl("validate", "--json").rc, 2)
 
 
 # ---------------------------------------------------------------------------------------------------------------- REG-02
@@ -176,7 +176,7 @@ class REG03Resolution(Base):
     def test_projet_inconnu(self) -> None:
         self.importer()
         r = self.d.specctl("resolve", "--project", "inexistant", "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
 
 
 # ---------------------------------------------------------------------------------------------------------------- REG-04
@@ -191,7 +191,7 @@ class REG04Graphe(Base):
         self.importer()
         self.relation("SPEC-JEU-A", "SPEC-ABSENTE")
         r = self.d.specctl("verify", "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertIn("SPEC-ABSENTE", json.dumps(r.json["brokenLinks"]))
 
     def test_cycle_detecte(self) -> None:
@@ -199,13 +199,13 @@ class REG04Graphe(Base):
         self.relation("SPEC-JEU-A", "SPEC-JEU-B")
         self.relation("SPEC-JEU-B", "SPEC-JEU-A")
         r = self.d.specctl("verify", "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertTrue(r.json["cycles"])
 
     def test_relation_non_typee_refusee(self) -> None:
         self.importer()
         self.relation("SPEC-JEU-A", "SPEC-JEU-B", "ressemble-a")
-        self.assertEqual(self.d.specctl("validate", "--json").rc, 1)
+        self.assertEqual(self.d.specctl("validate", "--json").rc, 2)
 
     def test_relation_typee_valide(self) -> None:
         self.importer()
@@ -237,14 +237,14 @@ class AT11UneSeuleSourceEditable(Base):
         v = json.loads(f.read_text()); v["content"] = SPEC_A
         f.write_text(json.dumps(v, ensure_ascii=False))
         r = self.d.specctl("verify", "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
 
     def test_archive_modifiee_apres_import_spec_perimee(self) -> None:
         self.importer()
         (self.d.docs / "specs/jeu-a-sources/Jeu_A_v1.0.md.txt").write_text(SPEC_A + "édition sauvage\n")
         self.d.commit("archive éditée (ce que la garde de pre-commit refuse)")
         r = self.d.specctl("verify", "--from", str(self.d.docs), "--json")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertIn("SPEC-JEU-A", json.dumps(r.json["outdated"]))
 
     def test_verify_source_indisponible(self) -> None:
@@ -258,14 +258,14 @@ class REG05Cli(Base):
     def test_aide_documente_les_codes(self) -> None:
         r = self.d.specctl("--help")
         self.assertEqual(r.rc, 0, r)
-        for code in ("0", "1", "2", "3", "4", "5"):
+        for code in ("0", "2", "3", "4", "5"):
             self.assertRegex(r.stdout, rf"(?m)^\s*{code}\b", f"code {code} non documenté")
         for cmd in ("import", "resolve", "verify", "validate", "arbitrer"):
             self.assertIn(cmd, r.stdout)
 
     def test_usage(self) -> None:
-        self.assertEqual(self.d.specctl("inventer").rc, 2)
-        self.assertEqual(self.d.specctl("import", "--json").rc, 2)          # --from obligatoire
+        self.assertEqual(self.d.specctl("inventer").rc, 3)
+        self.assertEqual(self.d.specctl("import", "--json").rc, 3)          # --from obligatoire
 
     def test_toutes_les_commandes_rendent_du_json(self) -> None:
         self.importer()

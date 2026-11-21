@@ -72,6 +72,31 @@ def private_destination(root, checkout):
     return bool(copies) and all(copy.visibility == "private" for copy in copies)
 
 
+def granted_licenses(root, checkout):
+    """Private licenses that EVERY source matching this game checkout explicitly allows to publish."""
+    if checkout is None:
+        return frozenset()
+    catalogue = Catalogue(root)
+    value = read_json(catalogue._regular_path(catalogue.path / "sources.json"))
+    if not isinstance(value, dict):
+        return frozenset()
+    names = set()
+    for copy in copies_for(root).values():
+        if copy.provider == "local" and Path(copy.address) == checkout:
+            names.add(copy.name)
+    if not names:
+        try:
+            origin = Git(checkout).run("config", "--local", "--no-includes", "--get",
+                                       "remote.origin.url").decode().strip()
+        except (GitError, UnicodeError):
+            return frozenset()
+        names = {copy.name for copy in copies_for(root).values() if copy.provider != "local"
+                 and origin.removesuffix(".git") == copy.url.removesuffix(".git")}
+    grants = [frozenset(grant["license"] for grant in source.get("publicationGrants", ()))
+              for source in value.get("sources", ()) if source.get("name") in names]
+    return frozenset.intersection(*grants) if grants else frozenset()
+
+
 def sha(raw):
     return hashlib.sha256(raw).hexdigest()
 
@@ -123,12 +148,12 @@ class Delivery:
     def sheet_hashes(self):
         return {record["sha256"].lower() for record in self.sheets.values()}
 
-    def asset(self, asset_id, *, public=False):
+    def asset(self, asset_id, *, public=False, granted=frozenset()):
         if asset_id not in self.assets:
             raise InvalidJSON(f"Asset introuvable : {asset_id}")
         asset = self.assets[asset_id]
         if public and isinstance(asset, dict) and isinstance(asset.get("sha256"), str):
-            self.require_public({**asset, "id": asset_id})
+            self.require_public({**asset, "id": asset_id}, granted=granted)
         if (not schemas().validator("asset").is_valid(asset) or asset["id"] != asset_id
                 or next(asset_versions.problems(asset), None)):
             raise InvalidJSON(f"Fiche d’asset invalide : {asset_id}")
@@ -154,7 +179,7 @@ class Delivery:
                 "license": rights.get("license"), "licenseEvidence": rights.get("licenseEvidence"),
                 "publicExport": rights.get("publicExport"), "provenance": rights.get("provenance", {})}
 
-    def require_public(self, asset, *, commit=None, sheet_hashes=None):
+    def require_public(self, asset, *, commit=None, sheet_hashes=None, granted=frozenset()):
         def find_parent(parent_id):
             try:
                 if commit is not None:
@@ -164,7 +189,7 @@ class Delivery:
                 return None
 
         hashes = self.sheet_hashes if sheet_hashes is None else sheet_hashes
-        if not public_allowed(asset, hashes, find_parent):
+        if not public_allowed(asset, hashes, find_parent, granted):
             raise CatalogueScopeError(f"Export public interdit pour {asset['id']}.")
 
     def registry_file(self, record):
@@ -255,8 +280,9 @@ def materialize(root, args):
     delivery = Delivery(root, args)
     destination = output_path(root, args.to, kind="materialize")
     public = not (args.private_target or private_destination(root, worktree(destination)))
+    granted = granted_licenses(root, worktree(destination)) if public else frozenset()
     requested = getattr(args, "version", None)
-    asset = delivery.asset(args.id, public=public and requested is None)
+    asset = delivery.asset(args.id, public=public and requested is None, granted=granted)
     if requested is not None:
         if requested < 1:
             raise UsageError("--version doit être un entier positif.")
@@ -269,7 +295,7 @@ def materialize(root, args):
         asset = delivery.revision(asset, asset_versions.version_number(asset))
     raw = delivery.bytes(asset)
     if public and requested is not None:
-        delivery.require_public(asset)
+        delivery.require_public(asset, granted=granted)
     check_destination(destination, raw)
     if not args.dry_run:
         put(destination, raw)
@@ -438,8 +464,9 @@ def check_lock(root, args):
         errors.append({"id": asset_id, "path": row["path"], "error": error})
     if args.public and not errors and locked:
         hashes = sheet_hashes_at(delivery.git, commit)
+        granted = granted_licenses(root, worktree(path.parent))
         for revision in locked:
-            delivery.require_public(revision, commit=commit, sheet_hashes=hashes)
+            delivery.require_public(revision, commit=commit, sheet_hashes=hashes, granted=granted)
     return (ExitCode.CHECK_FAILED if errors else ExitCode.OK), {"ok": not errors, "errors": errors, "warnings": warnings}
 
 
@@ -517,9 +544,10 @@ def usage(root, args):
             raise InvalidJSON("Un fichier de jeu diffère de la version verrouillée ou est indisponible.")
         if public:
             hashes = sheet_hashes_at(delivery.git, head)
+            granted = granted_licenses(root, checkout)
             for row in lock["assets"]:
                 revision = delivery.revision(committed[row["assetId"]], int(row["assetVersion"]))
-                delivery.require_public(revision, commit=head, sheet_hashes=hashes)
+                delivery.require_public(revision, commit=head, sheet_hashes=hashes, granted=granted)
         raw = delivery.bytes(asset)
         previous = None
         if matching and matching[0]["sha256"].lower() != entry["sha256"].lower() and destination.is_file():

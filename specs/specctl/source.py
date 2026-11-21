@@ -218,6 +218,8 @@ class Source:
                                                if original in evidence}
                 if "arbitrage" in row:
                     requirement["arbitrage"] = row["arbitrage"]
+                if isinstance(row.get("ancien_id"), str):
+                    requirement["_previousMatrixId"] = row["ancien_id"]      # suivi des renommages (sync), jamais écrit
                 requirements.append(requirement)
         except (KeyError, TypeError, AttributeError) as exc:
             raise InvalidJSON(f"Matrice invalide : {matrix}") from exc

@@ -1,6 +1,37 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-COZY-ROOM-SORT.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-COZY-ROOM-SORT",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "12Dj5VrCgD-sdRYyJXEK44Kn034UaY4Bx",
+      "1QcNf1uDi8to793k8sFR4LnHmsB0PtAGv",
+      "1lIuh-r0IyH0igvgubV9UKwAT2Vcv0ZV4Whc34RV-18A",
+      "1rBMNYtjEOmNEK9BNFuY5ik3pwpODDC8C"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "cozy-room-sort",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
   "requirements": [
     {
       "acceptance": "e2e : une partie se gagne en rangeant les objets",
@@ -5634,6 +5665,7 @@
       "statement": "contrat de niveau : champ label d'une catégorie"
     }
   ],
+  "title": "cozy-room-sort",
   "unversionedDocuments": [
     {
       "provenances": [
@@ -5832,5 +5864,6 @@
       ],
       "version": "0.1.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

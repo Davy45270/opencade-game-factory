@@ -6,9 +6,9 @@ Contrat d'appel (fixé par ces oracles, à respecter par l'implémentation) :
     Les tests pointent toujours un dossier temporaire : aucun test n'écrit dans le dépôt ;
   - `--from <homelab-docs>` : le dépôt git de la doc, LU SEULEMENT ;
   - `--json` : un seul objet JSON sur stdout ; le journal va sur stderr ;
-  - codes communs de l'usine (docs/ARCHITECTURE.md) : 0 succès, 1 contrôle en échec, 2 usage, 3 refus de sécurité,
-    4 source indisponible, 5 conflit de versions (arbitrage requis). REG-003 § 6 numérote autrement (2 = non-conformité,
-    3 = entrée invalide) : la table commune de l'usine l'emporte (HL-525 7-2957 § 6.1).
+  - codes de REG-003 § 6, rendus tels quels (comme `assetctl level` pour EXT-002) : 0 succès, 2 non-conformité,
+    3 entrée invalide (usage, ou refus de sécurité), 4 source indisponible, 5 conflit de versions (arbitrage requis).
+    Correspondance vers la table commune de l’usine : docs/ARCHITECTURE.md § Codes de retour.
 """
 from __future__ import annotations
 

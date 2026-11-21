@@ -128,7 +128,7 @@ class EvenementsSpec(unittest.TestCase):
         (self.d.docs / "specs/jeu-a-sources/Jeu_A_v1.0.md.txt").write_text(SPEC_A + "édition sauvage\n")
         self.d.commit("archive éditée")
         r = self.d.specctl("verify", "--from", str(self.d.docs), "--json", env_tour={"TOWER_DIR": str(self.tour)})
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         (e,) = self.evenements()
         self.assertEqual((e["eventType"], e["status"], e["projectId"]), ("spec.outdated", "failure", "jeu-a"))
         self.assertEqual(e["specRefs"], ["SPEC-JEU-A"])

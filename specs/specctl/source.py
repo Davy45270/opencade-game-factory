@@ -7,6 +7,8 @@ from pathlib import PurePosixPath
 
 from tools.core.catalog import InvalidJSON, parse_json
 
+from . import fiche
+
 PROJECT = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 # `<projet>-sources/` ou `<projet>-sources-<x.y.z>/` : sources figées d'un projet, le suffixe donne leur version
 SOURCES = re.compile(r"(.+)-sources(?:-((?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)))?")
@@ -70,6 +72,7 @@ class Source:
         if self._git("rev-parse", "--show-toplevel").decode().strip() != str(self.root):
             raise OSError("Le dossier source doit être la racine du dépôt de documentation.")
         self.head = self._git("rev-parse", "--verify", "HEAD^{commit}").decode().strip()
+        self.drive = {}
         self.files = {}
         for item in self._git("ls-tree", "-r", "-z", self.head, "--", "specs/").split(b"\0"):
             if item:
@@ -118,6 +121,8 @@ class Source:
             record = {"id": spec_id, "project": project, "requirements": []}
             set_documents(record, entries)
             record["requirements"] = self.requirements(project, spec_id, warnings)
+            fiche.defaults(record, title=fiche.title_of(self, record), source_commit=self.head,
+                           drive=self.drive.get(project, ()))
             records[spec_id] = record
         return records, warnings
 
@@ -140,6 +145,8 @@ class Source:
         manifest = f"specs/{folder}/empreintes-drive.sha256"
         if manifest in self.files:
             lines = self.read(manifest).decode("utf-8-sig").splitlines()
+            if project:
+                self.drive.setdefault(project, set()).update(fiche.drive_ids(lines))
         else:
             lines = self.matrix_fingerprints(folder, project) if project else None
             if lines is None:

@@ -1,6 +1,38 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-GAME-FACTORY.json"
+  },
+  "evidence": "verified",
   "id": "SPEC-GAME-FACTORY",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "16RTBkjYoGWdF1L6UNfqrBo54dybFRAHM",
+      "1AbFFlTLOLOFyl0W4SGuIKQppQV1Xocql",
+      "1Mb1gGYz8Yli5Mno8lsBPn0WgLC0ZPSaC",
+      "1UhUySPtM6ImF_bhm6ozlNnEuhHChd2Se",
+      "1mrhKVK77YtGEL0_JFYzy-2wIsug0GfS6"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "game-factory",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "requires"
+    },
+    {
+      "target": "SPEC-CONTROL-TOWER",
+      "type": "requires"
+    }
+  ],
   "requirements": [
     {
       "acceptance": "ARCH-01 à 03 publiés avant toute conception ; contrôle « reuse » en CI après la découverte",
@@ -2467,6 +2499,7 @@
       "statement": "définition de terminé BB-001 : inventaire complet, recherche interne et externe, reuse-before-build actif en CI, liens vérifiés, aucune mutation pendant la découverte"
     }
   ],
+  "title": "ARCH-001 — OpenCade Game Factory : architecture et intégration à l'existant",
   "unversionedDocuments": [
     {
       "provenances": [
@@ -2555,5 +2588,6 @@
       ],
       "version": "1.0.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

@@ -1,5 +1,26 @@
 {
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-ASSET-REGISTRY.json"
+  },
+  "evidence": "missing",
   "id": "SPEC-ASSET-REGISTRY",
+  "implementation": "not-started",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "16IKHpaiAJlMJ0QEb8d8owjzxA5yOTdzr",
+      "1H2VTVe-wPRPF68IxE-uU_XH2qIxsMHGo",
+      "1XBmLe484sHIsiZcUT88S0CKtO6T9laWa",
+      "1y66kiW_NMee4I-aNMuJc3y4fMGvLJNzj"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
   "project": "asset-registry",
   "requirements": [
     {
@@ -2583,6 +2604,7 @@
       "statement": "workflows .github discover/validate/release → Woodpecker"
     }
   ],
+  "title": "OpenCade Asset Registry — Spécifications fonctionnelles et techniques v1.0",
   "unversionedDocuments": [
     {
       "provenances": [
@@ -2731,5 +2753,6 @@
       ],
       "version": "1.0.0"
     }
-  ]
+  ],
+  "visibility": "private"
 }

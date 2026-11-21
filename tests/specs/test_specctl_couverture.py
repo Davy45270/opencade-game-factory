@@ -80,7 +80,7 @@ class REG07Couverture(unittest.TestCase):
         self.d.commit("E004 sans preuve")
         self.importer()
         r = self.couverture()
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertEqual(r.json["inconsistent"], ["REQ-JEU-C-E004"])
         self.assertEqual(r.json["covered"], 1)
         self.assertIn("REQ-JEU-C-E004", r.json["uncovered"])
@@ -89,12 +89,12 @@ class REG07Couverture(unittest.TestCase):
         # revue Codex 12 : jeu-b est importé SANS matrice — zéro exigence, zéro preuve : jamais « 100 % »
         self.importer()
         r = self.couverture("jeu-b")
-        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.rc, 2, r)
         self.assertEqual((r.json["status"], r.json["total"], r.json["ratio"]), ("no-applicable-requirements", 0, None))
 
     def test_projet_inconnu(self) -> None:
         self.importer()
-        self.assertEqual(self.couverture("inexistant").rc, 1)
+        self.assertEqual(self.couverture("inexistant").rc, 2)
 
     def test_lecture_seule(self) -> None:
         self.importer()

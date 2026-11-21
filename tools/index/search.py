@@ -147,7 +147,7 @@ def index(root, args):
         write_json(generated / "search-index.json", {"assets": rows})
         emit_usages(root, assets)
         emit_licenses(root, assets, sheets)
-        write_json(generated / "duplicates.json", dedup.duplicates(assets))
+        write_json(generated / "duplicates.json", dedup.duplicates(assets, root))
         rebuild_database(root, rows, fingerprint)
         result["fingerprint"] = digest_files([generated / name for name in OUTPUTS], generated)
         return ExitCode.OK, result
@@ -250,7 +250,7 @@ def search(root, args):
 
 def duplicates(root, args):
     with directory_lock(root / "catalog"):
-        report = dedup.duplicates(read_assets(root).values())
+        report = dedup.duplicates(read_assets(root).values(), root)
         if not args.dry_run:
             directory = Catalogue._regular_path(root / "generated")
             directory.mkdir(exist_ok=True)

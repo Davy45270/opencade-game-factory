@@ -1,0 +1,55 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:pestouille-rpg:packages/engine"
+  },
+  "id": "BB-PESTOUILLE-RPG-ENGINE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "engine",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/engine",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "licenseSpdx": "MIT",
+    "path": "packages/engine",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "pestouille-rpg/apps/web",
+    "pestouille-rpg/packages/content",
+    "pestouille-rpg/packages/renderer-phaser",
+    "pestouille-rpg/tests/e2e",
+    "pestouille-rpg/tests/integration",
+    "pestouille-rpg/tests/unit",
+    "pestouille-rpg/tools/cartes"
+  ]
+}

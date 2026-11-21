@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "candidate": "`inkjs` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "moteur narratif complet (branches, variables) ; contenu dans un langage à compiler, état propre au moteur à sérialiser à part",
+      "version": "2.4.0"
+    },
+    {
+      "candidate": "`yarn-bound` (npm)",
+      "licenseRaw": "ISC",
+      "licenseSpdx": "ISC",
+      "need": null,
+      "verdict": "dialogues à nœuds et commandes ; peu maintenu, état interne mutable",
+      "version": "0.5.5"
+    },
+    {
+      "candidate": "Événements de scène du dépôt (`NodeEvent` « talk », `content/dialogues/`)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "locuteur et lignes déjà là ; les choix réutilisent `achieve` et les drapeaux de la partie",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-DIALOGUES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/dialogues.md",
+    "repo": "pestouille-rpg",
+    "sha256": "8486a6ff3ae536b4d1070d3312d263fc4ae3953b01ca7b07c6ae269627bbd4cb"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "candidates": [
+    {
+      "candidate": "`dexie` (npm)",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": null,
+      "verdict": "enrobage complet d'IndexedDB (schémas, requêtes) ; démesuré pour une seule clé",
+      "version": "4.4.7"
+    },
+    {
+      "candidate": "`idb` (npm)",
+      "licenseRaw": "ISC",
+      "licenseSpdx": "ISC",
+      "need": null,
+      "verdict": "promesses autour d'IndexedDB, fin et fidèle à l'API ; dépendance d'exécution",
+      "version": "8.0.4"
+    },
+    {
+      "candidate": "`idb-keyval` (npm)",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": null,
+      "verdict": "magasin clé-valeur en trente lignes ; ne laisse pas attendre la fin de transaction",
+      "version": "6.3.0"
+    },
+    {
+      "candidate": "IndexedDB natif, adaptateur `apps/web/store.ts`",
+      "licenseRaw": "—",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "rien à distribuer ; la fin de transaction (`oncomplete`) est sous notre contrôle",
+      "version": "API standard"
+    },
+    {
+      "candidate": "`fake-indexeddb` (npm, tests seulement)",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": null,
+      "verdict": "IndexedDB en mémoire sous Node, transactions et abandons compris",
+      "version": "6.2.8"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-PERSISTANCE",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/persistance.md",
+    "repo": "pestouille-rpg",
+    "sha256": "6f51318a1bdb16399def9fb6c2712123112518a905fff0049aa7efa4b01af370"
+  }
+}

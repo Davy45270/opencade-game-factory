@@ -1,0 +1,99 @@
+{
+  "candidates": [
+    {
+      "candidate": "Vitest",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "unitaires",
+      "verdict": "TypeScript natif, même configuration que Vite, rapports « blob » fusionnables",
+      "version": "5.1.0"
+    },
+    {
+      "candidate": "Jest",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "unitaires",
+      "verdict": "demande une transformation TypeScript et une configuration ESM à part",
+      "version": "30"
+    },
+    {
+      "candidate": "fast-check",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "propriétés",
+      "verdict": "réducteurs, graine rejouable, intégré à Vitest",
+      "version": "4.10.3"
+    },
+    {
+      "candidate": "jsverify",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "propriétés",
+      "verdict": "plus maintenu",
+      "version": "0.8"
+    },
+    {
+      "candidate": "Playwright",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "e2e",
+      "verdict": "image de CI officielle avec navigateurs, clavier et tactile",
+      "version": "1.65.1"
+    },
+    {
+      "candidate": "@playwright/test",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "e2e",
+      "verdict": "paquet de test de Playwright : lanceur, assertions, appareils simulés",
+      "version": "1.65.1"
+    },
+    {
+      "candidate": "@axe-core/playwright",
+      "licenseRaw": "MPL-2.0",
+      "licenseSpdx": "MPL-2.0",
+      "need": "accessibilité",
+      "verdict": "audit axe-core dans les e2e, règles WCAG 2.1 AA",
+      "version": "4.14.0"
+    },
+    {
+      "candidate": "pa11y",
+      "licenseRaw": "LGPL-3.0",
+      "licenseSpdx": "LGPL-3.0",
+      "need": "accessibilité",
+      "verdict": "navigateur séparé, pas intégré au lanceur e2e",
+      "version": "9"
+    },
+    {
+      "candidate": "Cypress",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "e2e",
+      "verdict": "binaire lourd, tactile limité, pas d'image alignée sur le parc",
+      "version": "15"
+    },
+    {
+      "candidate": "@vitest/coverage-v8",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "couverture",
+      "verdict": "couverture native du moteur V8, seuils par configuration",
+      "version": "5.1.0"
+    },
+    {
+      "candidate": "@vitest/coverage-istanbul",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "couverture",
+      "verdict": "instrumentation plus lente, même résultat pour ce code",
+      "version": "5.1.0"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-OUTILLAGE-QUALITE",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/outillage-qualite.md",
+    "repo": "pestouille-rpg",
+    "sha256": "688f3a98abd185fdb3aa91728c0e11b034d1695a304b5c149d8d4a7d85ee5233"
+  }
+}

@@ -11,6 +11,7 @@ from tools.core.catalog import CatalogueScopeError, InvalidJSON, ROOT, json_text
 from tools.core.exit_codes import ExitCode
 
 from .decisions import VersionConflict, import_decisions
+from .discover import discover, impact, inspect, usages
 from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
@@ -48,6 +49,10 @@ def parser():
         "duplicates": "Signaler les doublons entre dépôts.",
         "evaluate": "Appliquer les gates et calculer la note pondérée.",
         "decide": "Enregistrer une décision motivée.",
+        "discover": "Découvrir les briques des dépôts autorisés (lecture seule des dépôts).",
+        "inspect": "Afficher une fiche.",
+        "usages": "Dépôts et jeux qui utilisent une brique.",
+        "impact": "Projets touchés par un changement de version.",
     }
     sub = {}
     for name, description in descriptions.items():
@@ -71,6 +76,14 @@ def parser():
     detector.add_argument("--graph", type=Path, required=True)
     detector.add_argument("--root", action="append", default=[], metavar="DÉPÔT=CHEMIN")
     detector.add_argument("--min-similarity", type=float, default=0.85)
+    finder = sub["discover"]
+    finder.add_argument("--repos", choices=("authorized",), required=True)
+    finder.add_argument("--sources", type=Path, help="Défaut : catalog/sources.json de l'usine.")
+    finder.add_argument("--clones", type=Path, default=Path("~/Projets/jeux"))
+    finder.add_argument("--dry-run", action="store_true")
+    for name in ("inspect", "usages", "impact"):
+        sub[name].add_argument("block")
+    sub["impact"].add_argument("--to-version", required=True)
     sub["evaluate"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
@@ -105,7 +118,7 @@ def run(args, root):
     if command == "duplicates":
         return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
-    write = command == "decide" or (command == "import-decisions" and not args.dry_run)
+    write = command == "decide" or (command in {"import-decisions", "discover"} and not args.dry_run)
     with lock(root, write=write):
         if command == "import-decisions":
             return import_decisions(blocks, args.source, args.repo, args.commit, args.dry_run)
@@ -113,7 +126,16 @@ def run(args, root):
             graph_path = args.graph or Path(os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json")
             return search(blocks, args, graph_path.expanduser())
 
+        if command == "discover":
+            return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
+
         records = read_catalogue(blocks / "catalog")
+        if command == "inspect":
+            return inspect(records, args.block)
+        if command == "usages":
+            return usages(records, args.block)
+        if command == "impact":
+            return impact(records, args.block, args.to_version)
         if command == "validate":
             return {"count": len(records)}
         if args.candidate not in records:

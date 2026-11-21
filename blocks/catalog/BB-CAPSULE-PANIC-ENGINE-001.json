@@ -1,0 +1,50 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:capsule-panic:packages/engine"
+  },
+  "id": "BB-CAPSULE-PANIC-ENGINE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "engine",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "packages/engine",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+    "licenseSpdx": "MIT",
+    "path": "packages/engine",
+    "repo": "capsule-panic",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic/apps/web",
+    "capsule-panic/packages/renderer"
+  ]
+}

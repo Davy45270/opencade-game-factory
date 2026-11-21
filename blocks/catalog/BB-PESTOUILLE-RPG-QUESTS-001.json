@@ -1,0 +1,50 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:pestouille-rpg:packages/quests"
+  },
+  "id": "BB-PESTOUILLE-RPG-QUESTS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "quests",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/quests",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "licenseSpdx": "MIT",
+    "path": "packages/quests",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "pestouille-rpg/packages/engine",
+    "pestouille-rpg/packages/world"
+  ]
+}

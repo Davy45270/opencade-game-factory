@@ -1,0 +1,59 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:ajv@unresolved"
+  },
+  "id": "BB-NPM-AJV-002",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "external-library",
+  "name": "ajv",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "packages/contracts/package.json",
+      "repo": "capsule-panic"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/content/package.json",
+      "repo": "pestouille-rpg"
+    },
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "packages/contracts/package.json",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "UNKNOWN",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "capsule-panic",
+    "pestouille-rpg",
+    "six-de-chaque"
+  ]
+}

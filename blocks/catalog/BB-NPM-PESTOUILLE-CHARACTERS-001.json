@@ -1,0 +1,47 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@pestouille/characters@unresolved"
+  },
+  "id": "BB-NPM-PESTOUILLE-CHARACTERS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "external-library",
+  "name": "@pestouille/characters",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/combat/package.json",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "UNKNOWN",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

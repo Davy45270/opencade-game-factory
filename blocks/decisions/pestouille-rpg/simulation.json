@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "`simple-statistics` (npm)",
+      "licenseRaw": "ISC",
+      "licenseSpdx": "ISC",
+      "need": null,
+      "verdict": "moyennes, écarts et intervalles ; un taux de victoire n'est qu'un ratio",
+      "version": "8.0.0"
+    },
+    {
+      "candidate": "`fast-check` (npm, déjà employé)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "génère des graines et des groupes ; sert aux propriétés, pas à compter des taux",
+      "version": "4.10.3"
+    },
+    {
+      "candidate": "`boardgame.io` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "contient un simulateur d'IA (MCTS) ; suppose son propre modèle de jeu",
+      "version": "0.50.2"
+    },
+    {
+      "candidate": "Réducteur et politique ennemie du dépôt (`simulation.ts`, `ai.ts`)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "rejoue des commandes pour une graine ; il suffit d'injecter une politique de groupe",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-SIMULATION",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/simulation.md",
+    "repo": "pestouille-rpg",
+    "sha256": "7670399f897939c462511a5dec385c50a5ff9644334e453f409cfd4857413997"
+  }
+}

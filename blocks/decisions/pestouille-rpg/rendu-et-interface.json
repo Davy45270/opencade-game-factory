@@ -1,0 +1,107 @@
+{
+  "candidates": [
+    {
+      "candidate": "Phaser 4.2.1",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "déjà employé et épinglé dans Opencade ; atlas, animations, mise à l'échelle, rendu pixel",
+      "version": null
+    },
+    {
+      "candidate": "PixiJS",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "rendu seul : scènes, entrées et chargement à écrire",
+      "version": null
+    },
+    {
+      "candidate": "Canvas 2D à la main",
+      "licenseRaw": "—",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "aucune dépendance, mais atlas, animations et redimensionnement à réécrire",
+      "version": null
+    },
+    {
+      "candidate": "vite-plugin-pwa 2.0.0 (Workbox)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "déjà employé dans echecs-kid et Opencade pour le précache hors ligne",
+      "version": null
+    },
+    {
+      "candidate": "IndexedDB natif",
+      "licenseRaw": "—",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "aucune dépendance ; `idb-keyval` (Apache-2.0) n'apporte que 30 lignes d'enrobage",
+      "version": null
+    },
+    {
+      "candidate": "Caméra et redimensionnement Phaser, panneaux HTML/CSS avec les atlas livrés",
+      "licenseRaw": "MIT pour Phaser, `LicenseRef-David-Prive-Tous-Droits-Reserves` pour les découpes",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Le fond et les sprites partagent la même projection. Les commandes conservent leurs libellés et le focus natif.",
+      "version": null
+    },
+    {
+      "candidate": "Interface peinte dans Phaser",
+      "licenseRaw": "MIT pour Phaser, `LicenseRef-David-Prive-Tous-Droits-Reserves` pour les découpes",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Le focus, les cibles tactiles et les libellés nécessiteraient une interface HTML parallèle.",
+      "version": null
+    },
+    {
+      "candidate": "Boutons, liste et boîte de dialogue HTML native",
+      "licenseRaw": "Standard du navigateur",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Réemploie le focus et les commandes de la manette.",
+      "version": null
+    },
+    {
+      "candidate": "Scène modale et widgets Phaser",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Nécessite des commandes DOM en parallèle pour l’accessibilité.",
+      "version": null
+    },
+    {
+      "candidate": "ESM standard du paquet Phaser",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Vite minifie ce fichier, qui contient encore le code de la distribution générale.",
+      "version": null
+    },
+    {
+      "candidate": "ESM minifié fourni par le même paquet",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "L’essai économise 2 237 octets de scripts.",
+      "version": null
+    },
+    {
+      "candidate": "Distribution minifiée sans moteur Matter",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Le paquet épinglé fournit une distribution Arcade avec la scène, la caméra, les entrées et les textures qu’utilise le jeu.",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-RENDU-ET-INTERFACE",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/rendu-et-interface.md",
+    "repo": "pestouille-rpg",
+    "sha256": "0a214c64816175d59bece4f6333774dbb1146aadd0a119652dc31163d36b72a7"
+  }
+}

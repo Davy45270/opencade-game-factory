@@ -1,0 +1,115 @@
+{
+  "candidates": [
+    {
+      "candidate": "Phaser, chargeur JSON hash",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Rendu des atlas",
+      "verdict": "Réutiliser le moteur de rendu déjà chargé, les pivots et les tags livrés",
+      "version": null
+    },
+    {
+      "candidate": "PixiJS, spritesheets",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Rendu des atlas",
+      "verdict": "Ajouterait un second moteur de rendu",
+      "version": null
+    },
+    {
+      "candidate": "Journal et vérification d'empreinte du moteur",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Rejeu",
+      "verdict": "Exporter les commandes du bot du slice et les appliquer par le rejeu du moteur",
+      "version": null
+    },
+    {
+      "candidate": "Sauvegarde de fixture sérialisée",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Rejeu",
+      "verdict": "Ne restitue pas le parcours qui mène à l'écran",
+      "version": null
+    },
+    {
+      "candidate": "ImageMagick",
+      "licenseRaw": "Licence ImageMagick",
+      "licenseSpdx": "UNKNOWN",
+      "need": "Alpha en CI",
+      "verdict": "Utilisé pour la production, absent de l'image Node des contrôles",
+      "version": null
+    },
+    {
+      "candidate": "Node zlib et lecture de l'export PNG RGBA",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Alpha en CI",
+      "verdict": "Vérifie les pixels de référence sans dépendance supplémentaire ; le WebP livré n'est verrouillé que par empreinte",
+      "version": null
+    },
+    {
+      "candidate": "`@jsquash/webp` 1.5.0 (npm, développement seulement)",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "Alpha en CI",
+      "verdict": "Décode le WebP livré lui-même (WebAssembly, sans binaire natif) pour la porte G3",
+      "version": null
+    },
+    {
+      "candidate": "localStorage natif",
+      "licenseRaw": "API navigateur",
+      "licenseSpdx": "UNKNOWN",
+      "need": "Réglages",
+      "verdict": "Adapté à quelques valeurs, séparé de la sauvegarde IndexedDB",
+      "version": null
+    },
+    {
+      "candidate": "IndexedDB natif",
+      "licenseRaw": "API navigateur",
+      "licenseSpdx": "UNKNOWN",
+      "need": "Réglages",
+      "verdict": "Transaction et ouverture de base inutiles pour un seul enregistrement",
+      "version": null
+    },
+    {
+      "candidate": "Gamepad API",
+      "licenseRaw": "API navigateur",
+      "licenseSpdx": "UNKNOWN",
+      "need": "Manette",
+      "verdict": "Pilote le focus des commandes HTML, même avant une partie",
+      "version": null
+    },
+    {
+      "candidate": "Entrée Gamepad de Phaser",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "Manette",
+      "verdict": "Fournit les boutons de la scène, avec un pont supplémentaire vers les commandes HTML",
+      "version": null
+    },
+    {
+      "candidate": "Tables de découpe et validateur Node existants",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Relient le nom de la planche, le pivot, les cadres et la décision de livraison.",
+      "version": null
+    },
+    {
+      "candidate": "Palette indexée et manifestes reconstruits par l’éditeur Aseprite",
+      "licenseRaw": "Licence de l’éditeur",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "La quantification modifierait les couleurs et les exports livrés.",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-ATLAS-DES-PLANCHES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/atlas-des-planches.md",
+    "repo": "pestouille-rpg",
+    "sha256": "8bc0142a670c0fc6dfb482f48056a7571fb4a507ec66b5ea2fe1e3a642725dd0"
+  }
+}

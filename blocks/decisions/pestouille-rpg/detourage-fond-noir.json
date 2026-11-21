@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "candidate": "Pillow et canal alpha de la planche",
+      "licenseRaw": "HPND",
+      "licenseSpdx": "HPND",
+      "need": null,
+      "verdict": "Préserve les valeurs de transparence de la face et permet de masquer le voile du dos avant le rééchantillonnage.",
+      "version": null
+    },
+    {
+      "candidate": "Mode `noir-jpeg` de la chaîne et Pillow",
+      "licenseRaw": "MIT et HPND",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Le seuil de luminosité, avec conservation de l’encre enfermée, convient à la planche de profil sur fond noir.",
+      "version": null
+    },
+    {
+      "candidate": "rembg, déjà utilisé par la chaîne",
+      "licenseRaw": "MIT pour le logiciel",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Un masque estimé peut perdre de petits effets et ferait double emploi avec l’alpha de la face.",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-DETOURAGE-FOND-NOIR",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/detourage-fond-noir.md",
+    "repo": "pestouille-rpg",
+    "sha256": "d8588eb45a67a6542736d5918159c835e17e0bde76af6fb7711eeddacadb1481"
+  }
+}

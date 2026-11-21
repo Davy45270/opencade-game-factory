@@ -317,6 +317,8 @@ def parse(path, raw, read=None):
             return parse_ascii_grid(data, stem)
         if isinstance(data, dict) and isinstance(data.get("regions"), dict) and "transitions" in data:
             return parse_world_graph(data, read, stem)
+        if isinstance(data, dict) and {"rules", "objects", "scoring"} <= set(data):
+            return parse_game_puzzle(data, stem)
         raise Unsupported("JSON qui n'est ni une carte Tiled, ni un projet LDtk, ni un plan en grille, ni un graphe de monde")
     raise Unsupported(f"format {suffix or '—'} non pris en charge")
 
@@ -401,6 +403,16 @@ def parse_world_graph(data, read, name):
     level = _canonical("world-graph", str(data.get("id", name)), len(nodes), 1, 1, 1, "graph",
                        [{"name": "kind", "type": "string", "value": "rpg"}], [], [], losses, diagnostics)
     level["graph"] = graph
+    return [level]
+
+
+def parse_game_puzzle(data, name):
+    """Niveau de puzzle propre à un jeu (Cozy Room Sort : `rules`, `objects`, `scoring`, `meta.solution`) : gardé tel
+    quel dans `puzzle`, car ses règles appartiennent au jeu (EXT-002) ; seul le moteur du jeu le valide."""
+    objects = data.get("objects") or []
+    level = _canonical("game-puzzle", str(data.get("id", name)), max(1, len(objects)), 1, 1, 1, "puzzle",
+                       [{"name": "kind", "type": "string", "value": "puzzle"}], [], [], [], [])
+    level["puzzle"] = data
     return [level]
 
 

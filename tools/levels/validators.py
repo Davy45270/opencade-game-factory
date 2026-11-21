@@ -1,4 +1,4 @@
-"""Validateurs de niveaux (EXT-002 § 5) : gates communes, donjon, RPG, plateforme, circuit.
+"""Validateurs de niveaux (EXT-002 § 5) : gates communes, donjon, RPG, plateforme, circuit, puzzle (moteur du jeu).
 
 Chaque validateur rend {status: pass|fail|inconclusive, diagnostics, metrics}. Un budget de calcul dépassé rend
 `inconclusive`, jamais `pass`. Les règles de jeu restent au jeu : ces validateurs lisent les conventions déclarées
@@ -7,6 +7,7 @@ réimplémentent pas un moteur.
 """
 
 from collections import deque
+from pathlib import Path
 
 from tools.levels.formats import semantics
 
@@ -505,7 +506,43 @@ def _distance(sources, targets, passable, width, height, budget):
     return None
 
 
-VALIDATORS = {"dungeon": dungeon, "rpg": rpg, "platformer": platformer, "circuit": circuit}
+
+
+
+
+# --- Puzzle : le moteur du jeu, sans écran ------------------------------------------------------------------------
+
+def puzzle(level, profile=None, budget=None):
+    """Les règles d'un puzzle appartiennent au jeu (arbitrage 7-2949) : on n'en réimplémente rien. Le profil du jeu
+    déclare sa commande de validation sans écran (`engine.command`, lancée dans `engine.cwd`), qui importe le moteur
+    et le solveur du jeu ; elle reçoit le niveau en fichier et répond par ligne `OK <id> …` ou `ÉCHEC <id> : motif`."""
+    import json
+    import subprocess
+    import tempfile
+
+    engine = (profile or {}).get("engine")
+    if not engine or "puzzle" not in level:
+        return {"status": "inconclusive", "diagnostics": [_diag(
+            "no-validator", "puzzle : le profil du jeu doit déclarer engine.command (moteur du jeu sans écran)",
+            severity="warning")], "metrics": {}}
+    name = str(level["puzzle"].get("id") or level["name"])
+    with tempfile.TemporaryDirectory(prefix="level-puzzle-") as folder:
+        path = Path(folder) / f"{name}.json"
+        path.write_text(json.dumps(level["puzzle"], ensure_ascii=False))
+        try:
+            run = subprocess.run([*engine["command"], str(path)], cwd=engine.get("cwd"), capture_output=True,
+                                 text=True, timeout=engine.get("timeout", 120))
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            return {"status": "inconclusive", "diagnostics": [_diag("engine-unavailable", f"moteur du jeu : {exc}")],
+                    "metrics": {}}
+    lines = [line for line in run.stdout.splitlines() if line.startswith(("OK ", "ÉCHEC "))]
+    metrics = {"engine": " ".join(engine["command"]), "exitCode": run.returncode, "verdict": lines[-1] if lines else None}
+    if run.returncode == 0 and lines and lines[-1].startswith("OK "):
+        return _result([], metrics)
+    if lines and lines[-1].startswith("ÉCHEC "):
+        return _result([_diag("puzzle-rejected-by-engine", lines[-1].split(" : ", 1)[-1])], metrics)
+    return _result([_diag("engine-unreadable", f"réponse du moteur illisible (code {run.returncode})",
+                          severity="warning")], metrics, inconclusive=True)
 
 
 def validate(record, profile=None, known_assets=None, others=None):
@@ -526,3 +563,6 @@ def validate(record, profile=None, known_assets=None, others=None):
     status = "fail" if "fail" in statuses else "inconclusive" if "inconclusive" in statuses else "pass"
     return {"status": status, "checks": report,
             "diagnostics": [d for part in report.values() for d in part["diagnostics"]]}
+
+
+VALIDATORS = {"dungeon": dungeon, "rpg": rpg, "platformer": platformer, "circuit": circuit, "puzzle": puzzle}

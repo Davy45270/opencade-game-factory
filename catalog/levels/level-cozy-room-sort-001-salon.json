@@ -1,0 +1,256 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "001-salon",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 3,
+          "category": "plantes",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 3,
+          "category": "cadres",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 3,
+          "category": "lumieres",
+          "id": "carton-3"
+        }
+      ],
+      "categories": [
+        {
+          "id": "plantes",
+          "label": "Plantes et fleurs"
+        },
+        {
+          "id": "cadres",
+          "label": "Cadres"
+        },
+        {
+          "id": "lumieres",
+          "label": "Lumières"
+        }
+      ],
+      "difficulty": "easy",
+      "id": "001-salon",
+      "meta": {
+        "blockingMoveShare": 0,
+        "blockingMoves": 0,
+        "engineVersion": "0.1.0",
+        "legalMoves": 315,
+        "nonTrivialDecisions": 96,
+        "solution": [
+          "pile-1",
+          "pile-4",
+          "pile-7",
+          "pile-2",
+          "pile-5",
+          "pile-8",
+          "pile-3",
+          "pile-6",
+          "pile-9"
+        ],
+        "statesExplored": 10
+      },
+      "name": "Le salon en désordre",
+      "objects": [
+        {
+          "asset": "tournesols",
+          "blockedBy": [],
+          "category": "plantes",
+          "id": "pile-1",
+          "layer": 3,
+          "position": {
+            "x": 0.205,
+            "y": 0.869
+          }
+        },
+        {
+          "asset": "bouquet-blanc",
+          "blockedBy": [
+            "pile-1"
+          ],
+          "category": "plantes",
+          "id": "pile-4",
+          "layer": 2,
+          "position": {
+            "x": 0.22,
+            "y": 0.813
+          }
+        },
+        {
+          "asset": "plante-pot",
+          "blockedBy": [
+            "pile-1",
+            "pile-4"
+          ],
+          "category": "plantes",
+          "id": "pile-7",
+          "layer": 1,
+          "position": {
+            "x": 0.235,
+            "y": 0.756
+          }
+        },
+        {
+          "asset": "cadre-feuille",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-2",
+          "layer": 3,
+          "position": {
+            "x": 0.795,
+            "y": 0.94
+          }
+        },
+        {
+          "asset": "cadre-collines",
+          "blockedBy": [
+            "pile-2"
+          ],
+          "category": "cadres",
+          "id": "pile-5",
+          "layer": 2,
+          "position": {
+            "x": 0.78,
+            "y": 0.883
+          }
+        },
+        {
+          "asset": "cadre-tulipe",
+          "blockedBy": [
+            "pile-2",
+            "pile-5"
+          ],
+          "category": "cadres",
+          "id": "pile-8",
+          "layer": 1,
+          "position": {
+            "x": 0.765,
+            "y": 0.827
+          }
+        },
+        {
+          "asset": "cloche-lumineuse",
+          "blockedBy": [],
+          "category": "lumieres",
+          "id": "pile-3",
+          "layer": 3,
+          "position": {
+            "x": 0.486,
+            "y": 0.896
+          }
+        },
+        {
+          "asset": "lampe-chevet",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "lumieres",
+          "id": "pile-6",
+          "layer": 2,
+          "position": {
+            "x": 0.501,
+            "y": 0.84
+          }
+        },
+        {
+          "asset": "lampe-chevet",
+          "blockedBy": [
+            "pile-3",
+            "pile-6"
+          ],
+          "category": "lumieres",
+          "id": "pile-9",
+          "layer": 1,
+          "position": {
+            "x": 0.516,
+            "y": 0.783
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 5,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 0,
+        "twoStarsMaxBuffered": 2
+      },
+      "seed": 43004,
+      "theme": "salon"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 9
+  },
+  "contentSha256": "2a464bdab79dc84d2ee0da066e3a414cdcd5a1658a09984cf8e2cb8710728807",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 9
+  },
+  "id": "level-cozy-room-sort-001-salon",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "001-salon",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "2a464bdab79dc84d2ee0da066e3a414cdcd5a1658a09984cf8e2cb8710728807",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/001-salon.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "001-salon — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/001-salon.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

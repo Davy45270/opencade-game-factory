@@ -111,3 +111,57 @@ class EXT002Jeux(NiveauxFixture, TestCase):
         self.assertEqual(depot["commit"], self.head(source))
         self.assertEqual(len(depot["levels"]), 1)
         self.assertGreaterEqual(rapport["coverage"]["detected"], 1)
+
+
+MOTEUR = '''import json, sys
+niveau = json.load(open(sys.argv[1]))
+# Règle du « jeu » de la fixture : un objet ne peut pas se bloquer lui-même.
+fautif = [o["id"] for o in niveau["objects"] if o["id"] in o.get("blockedBy", [])]
+print(f"ÉCHEC {niveau['id']} : cycle de blocage : {fautif[0]}" if fautif else f"OK {niveau['id']} 2 objets, 3 états")
+sys.exit(1 if fautif else 0)
+'''
+
+
+def casse_tete(cycle=False):
+    """Même structure qu'un niveau de cozy-room-sort (rules, objects, scoring, meta.solution)."""
+    return {"schemaVersion": "1.2", "id": "001-salon", "name": "Le salon", "theme": "salon", "rules": {},
+            "categories": [{"id": "plantes"}], "boxes": [],
+            "objects": [{"id": "pile-1", "blockedBy": ["pile-1"] if cycle else []}, {"id": "pile-2", "blockedBy": []}],
+            "scoring": {"threeStarsMaxBuffered": 0}, "meta": {"solution": ["pile-1", "pile-2"]}}
+
+
+class EXT002Puzzle(NiveauxFixture, TestCase):
+    """E192/E207 : les règles du puzzle restent au jeu ; le validateur appelle son moteur sans écran."""
+
+    def profil(self, sans_moteur=False):
+        jeu = self.repos / "moteur"
+        jeu.mkdir(exist_ok=True)
+        (jeu / "valider.py").write_text(MOTEUR)
+        path = self.root / "profil-puzzle.json"
+        import sys
+        path.write_text(json.dumps({} if sans_moteur else {"engine": {"cwd": str(jeu),
+                                                                       "command": [sys.executable, "valider.py"]}}))
+        return str(path)
+
+    def importer_puzzle(self, name, cycle=False):
+        repo = self.depot(name, {"content/levels/001-salon.json": casse_tete(cycle), "LICENSE": MIT})
+        result = self.lv("import", "--source", "local", "--repo", str(repo), "--game", name, "--license", "MIT",
+                         "--license-evidence", "LICENSE")
+        return result["created"][0]
+
+    def test_moteur_du_jeu_juge_le_niveau(self):
+        bon = self.importer_puzzle("cozy")
+        fiche = self.lv("inspect", bon)["level"]
+        self.assertEqual((fiche["kind"], fiche["format"]), ("puzzle", "game-puzzle"))
+        self.assertEqual(fiche["content"]["puzzle"]["meta"]["solution"], ["pile-1", "pile-2"])
+        rapport = self.lv("validate", bon, "--profile", self.profil())
+        self.assertEqual(rapport["checks"]["puzzle"]["metrics"]["verdict"], "OK 001-salon 2 objets, 3 états")
+        mauvais = self.importer_puzzle("cozy-cycle", cycle=True)
+        echec = self.lv("validate", mauvais, "--profile", self.profil(), code=4)
+        self.assertIn("puzzle-rejected-by-engine", self.codes(echec))
+        self.assertIn("cycle de blocage", " ".join(d["message"] for d in echec["diagnostics"]))
+
+    def test_sans_moteur_declare_jamais_pass(self):
+        niveau = self.importer_puzzle("cozy-seul")
+        self.assertEqual(self.lv("validate", niveau, "--profile", self.profil(sans_moteur=True), code=6)["status"],
+                         "inconclusive")

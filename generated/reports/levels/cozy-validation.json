@@ -1,0 +1,246 @@
+{
+  "engine": "node tools/validate-levels.ts (moteur + solveur du jeu, sans écran)",
+  "engineCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+  "game": "cozy-room-sort",
+  "gameFixtures": [
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/bad-quota.json",
+      "verdict": "ÉCHEC bad-quota : objects : entre 9 et 15 entrées pour la difficulté easy ; categories : entre 3 et 3 entrées pour la difficulté easy ; objects : entre 0 et 10 % d’objets masqués pour la difficulté easy ; categories[0] : 4 objets « books » pour une capacité 3 de cartons ; rules.bufferCapacity : 5 places pour la difficulté easy"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/benchmark.json",
+      "verdict": "ÉCHEC benchmark : format 1.0 migré ; contrôle géométrique appliqué : b5 doit être devant a1"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/cycle.json",
+      "verdict": "ÉCHEC cycle : objects : entre 9 et 15 entrées pour la difficulté easy ; categories : entre 3 et 3 entrées pour la difficulté easy ; objects : entre 0 et 10 % d’objets masqués pour la difficulté easy ; objects : cycle de blocage : o1 → o2 → o1 ; rules.bufferCapacity : 5 places pour la difficulté easy"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/hors-seuils.json",
+      "verdict": "ÉCHEC hors-seuils : objects : entre 9 et 15 entrées pour la difficulté easy ; categories : entre 3 et 3 entrées pour la difficulté easy ; objects : entre 0 et 10 % d’objets masqués pour la difficulté easy ; rules.bufferCapacity : 5 places pour la difficulté easy"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/impossible-publication.json",
+      "verdict": "ÉCHEC impossible-publication : insoluble (6 états)"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/impossible.json",
+      "verdict": "ÉCHEC impossible : objects : entre 9 et 15 entrées pour la difficulté easy ; categories : entre 3 et 3 entrées pour la difficulté easy ; rules.bufferCapacity : 5 places pour la difficulté easy"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/malformed.json",
+      "verdict": "ÉCHEC malformed : $ : JSON illisible : Unexpected end of JSON input"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/salon-format-1.1.json",
+      "verdict": "ÉCHEC salon-format-1.1 : format 1.1 migré ; contrôle géométrique appliqué : recouvrement de objet-43004-1 et objet-43004-7 : 0.00 % (25 % minimum pour des objets liés)"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/spec-exemple.json",
+      "verdict": "ÉCHEC spec-exemple : objects : entre 9 et 15 entrées pour la difficulté easy ; categories[0] : 1 objets « books » pour une capacité 3 de cartons ; categories[1] : 0 objets « toys » pour une capacité 3 de cartons ; categories[2] : 0 objets « decor » pour une capacité 3 de cartons ; rules.bufferCapacity : 5 places pour la difficulté easy"
+    },
+    {
+      "exitCode": 1,
+      "fixture": "tests/fixtures/levels/too-strict.json",
+      "verdict": "ÉCHEC too-strict : trois étoiles à 0 passage(s) par le tampon, mais la meilleure solution en demande 5"
+    },
+    {
+      "exitCode": 0,
+      "fixture": "tests/fixtures/levels/valid-mini.json",
+      "verdict": "OK valid-mini 9 objets, 0 passage(s) au tampon au mieux, 10 états"
+    }
+  ],
+  "levels": 20,
+  "pass": 20,
+  "results": [
+    {
+      "engineVerdict": "OK 001-salon 9 objets, 0 passage(s) au tampon au mieux, 10 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-001-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/001-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 002-salon 10 objets, 1 passage(s) au tampon au mieux, 13 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-002-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/002-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 003-salon 10 objets, 2 passage(s) au tampon au mieux, 34 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-003-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/003-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 004-salon 16 objets, 4 passage(s) au tampon au mieux, 77 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-004-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/004-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 005-salon 17 objets, 4 passage(s) au tampon au mieux, 90 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-005-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/005-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 006-salon 20 objets, 6 passage(s) au tampon au mieux, 1037 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-006-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/006-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 007-salon 53 objets, 1 passage(s) au tampon au mieux, 54 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-007-salon",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/007-salon.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 008-chambre 14 objets, 0 passage(s) au tampon au mieux, 79 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-008-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/008-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 009-chambre 14 objets, 0 passage(s) au tampon au mieux, 36 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-009-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/009-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 010-chambre 9 objets, 0 passage(s) au tampon au mieux, 10 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-010-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/010-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 011-chambre 24 objets, 0 passage(s) au tampon au mieux, 25 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-011-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/011-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 012-chambre 24 objets, 1 passage(s) au tampon au mieux, 25 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-012-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/012-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 013-chambre 18 objets, 5 passage(s) au tampon au mieux, 502 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-013-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/013-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 014-chambre 37 objets, 5 passage(s) au tampon au mieux, 453 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-014-chambre",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/014-chambre.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 015-salle-de-bain 12 objets, 2 passage(s) au tampon au mieux, 36 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-015-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/015-salle-de-bain.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 016-salle-de-bain 9 objets, 2 passage(s) au tampon au mieux, 29 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-016-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/016-salle-de-bain.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 017-salle-de-bain 22 objets, 2 passage(s) au tampon au mieux, 59 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-017-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/017-salle-de-bain.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 018-salle-de-bain 22 objets, 3 passage(s) au tampon au mieux, 27 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-018-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/018-salle-de-bain.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 019-salle-de-bain 27 objets, 2 passage(s) au tampon au mieux, 28 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-019-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/019-salle-de-bain.json",
+      "status": "pass"
+    },
+    {
+      "engineVerdict": "OK 020-salle-de-bain 48 objets, 4 passage(s) au tampon au mieux, 1461 états",
+      "exitCode": 0,
+      "id": "level-cozy-room-sort-020-salle-de-bain",
+      "licenseStatus": "verified",
+      "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "sourcePath": "content/levels/020-salle-de-bain.json",
+      "status": "pass"
+    }
+  ]
+}

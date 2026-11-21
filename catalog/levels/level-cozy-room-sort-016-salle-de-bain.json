@@ -1,0 +1,257 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "016-salle-de-bain",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 3,
+          "category": "accessoires",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 3,
+          "category": "serviettes",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 3,
+          "category": "soins",
+          "id": "carton-3"
+        }
+      ],
+      "categories": [
+        {
+          "id": "accessoires",
+          "label": "Accessoires"
+        },
+        {
+          "id": "serviettes",
+          "label": "Serviettes et linge"
+        },
+        {
+          "id": "soins",
+          "label": "Pots et soins"
+        }
+      ],
+      "difficulty": "easy",
+      "id": "016-salle-de-bain",
+      "meta": {
+        "blockingMoveShare": 0.017241379310344827,
+        "blockingMoves": 10,
+        "engineVersion": "0.1.0",
+        "legalMoves": 580,
+        "nonTrivialDecisions": 157,
+        "solution": [
+          "pile-8",
+          "pile-1",
+          "pile-4",
+          "pile-7",
+          "pile-9",
+          "pile-2",
+          "pile-5",
+          "pile-3",
+          "pile-6"
+        ],
+        "statesExplored": 29
+      },
+      "name": "La pile de serviettes",
+      "objects": [
+        {
+          "asset": "serviette-barre",
+          "blockedBy": [],
+          "category": "serviettes",
+          "id": "pile-8",
+          "layer": 4,
+          "position": {
+            "x": 0.485,
+            "y": 0.333
+          }
+        },
+        {
+          "asset": "canard",
+          "blockedBy": [
+            "pile-8"
+          ],
+          "category": "accessoires",
+          "id": "pile-1",
+          "layer": 3,
+          "position": {
+            "x": 0.496,
+            "y": 0.294
+          }
+        },
+        {
+          "asset": "seche-cheveux",
+          "blockedBy": [
+            "pile-8",
+            "pile-1"
+          ],
+          "category": "accessoires",
+          "id": "pile-4",
+          "layer": 2,
+          "position": {
+            "x": 0.506,
+            "y": 0.256
+          }
+        },
+        {
+          "asset": "seche-cheveux",
+          "blockedBy": [
+            "pile-8",
+            "pile-1",
+            "pile-4"
+          ],
+          "category": "accessoires",
+          "id": "pile-7",
+          "layer": 1,
+          "position": {
+            "x": 0.516,
+            "y": 0.219
+          }
+        },
+        {
+          "asset": "pot-bleu",
+          "blockedBy": [],
+          "category": "soins",
+          "id": "pile-9",
+          "layer": 3,
+          "position": {
+            "x": 0.765,
+            "y": 0.487
+          }
+        },
+        {
+          "asset": "serviette-barre",
+          "blockedBy": [
+            "pile-9"
+          ],
+          "category": "serviettes",
+          "id": "pile-2",
+          "layer": 2,
+          "position": {
+            "x": 0.78,
+            "y": 0.437
+          }
+        },
+        {
+          "asset": "serviette-anneau",
+          "blockedBy": [
+            "pile-9",
+            "pile-2"
+          ],
+          "category": "serviettes",
+          "id": "pile-5",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.379
+          }
+        },
+        {
+          "asset": "sels-roses",
+          "blockedBy": [],
+          "category": "soins",
+          "id": "pile-3",
+          "layer": 2,
+          "position": {
+            "x": 0.206,
+            "y": 0.396
+          }
+        },
+        {
+          "asset": "sels-peche",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "soins",
+          "id": "pile-6",
+          "layer": 1,
+          "position": {
+            "x": 0.236,
+            "y": 0.283
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 1,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 5,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 2,
+        "twoStarsMaxBuffered": 4
+      },
+      "seed": 58000,
+      "theme": "salle-de-bain"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 9
+  },
+  "contentSha256": "3edd8baba71c3014c0134dca0a926288fcc1a0a282bd4315ab3886291edb179d",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 9
+  },
+  "id": "level-cozy-room-sort-016-salle-de-bain",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "016-salle-de-bain",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "3edd8baba71c3014c0134dca0a926288fcc1a0a282bd4315ab3886291edb179d",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/016-salle-de-bain.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "016-salle-de-bain — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/016-salle-de-bain.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

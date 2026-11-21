@@ -1,0 +1,514 @@
+{
+  "content": {
+    "format": "game-puzzle",
+    "height": 1,
+    "layers": [],
+    "name": "011-chambre",
+    "orientation": "puzzle",
+    "properties": [
+      {
+        "name": "kind",
+        "type": "string",
+        "value": "puzzle"
+      }
+    ],
+    "puzzle": {
+      "boxes": [
+        {
+          "capacity": 4,
+          "category": "peluches",
+          "id": "carton-1"
+        },
+        {
+          "capacity": 5,
+          "category": "veilleuses",
+          "id": "carton-2"
+        },
+        {
+          "capacity": 4,
+          "category": "cadres",
+          "id": "carton-3"
+        },
+        {
+          "capacity": 7,
+          "category": "coussins",
+          "id": "carton-4"
+        },
+        {
+          "capacity": 4,
+          "category": "livres",
+          "id": "carton-5"
+        }
+      ],
+      "categories": [
+        {
+          "id": "peluches",
+          "label": "Peluches"
+        },
+        {
+          "id": "veilleuses",
+          "label": "Veilleuses et bougies"
+        },
+        {
+          "id": "cadres",
+          "label": "Cadres"
+        },
+        {
+          "id": "coussins",
+          "label": "Coussins"
+        },
+        {
+          "id": "livres",
+          "label": "Livres"
+        }
+      ],
+      "difficulty": "medium",
+      "id": "011-chambre",
+      "meta": {
+        "blockingMoveShare": 0,
+        "blockingMoves": 0,
+        "engineVersion": "0.1.0",
+        "legalMoves": 13661,
+        "nonTrivialDecisions": 1765,
+        "solution": [
+          "pile-2",
+          "pile-7",
+          "pile-11",
+          "pile-12",
+          "pile-17",
+          "pile-23",
+          "pile-1",
+          "pile-6",
+          "pile-16",
+          "pile-21",
+          "pile-3",
+          "pile-8",
+          "pile-22",
+          "pile-4",
+          "pile-9",
+          "pile-13",
+          "pile-14",
+          "pile-18",
+          "pile-19",
+          "pile-24",
+          "pile-5",
+          "pile-10",
+          "pile-15",
+          "pile-20"
+        ],
+        "statesExplored": 25
+      },
+      "name": "Bibliothèque de chambre",
+      "objects": [
+        {
+          "asset": "cadre-suspendu",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-23",
+          "layer": 5,
+          "position": {
+            "x": 0.235,
+            "y": 0.463
+          }
+        },
+        {
+          "asset": "lapin",
+          "blockedBy": [
+            "pile-23"
+          ],
+          "category": "peluches",
+          "id": "pile-1",
+          "layer": 4,
+          "position": {
+            "x": 0.228,
+            "y": 0.434
+          }
+        },
+        {
+          "asset": "ours",
+          "blockedBy": [
+            "pile-23",
+            "pile-1"
+          ],
+          "category": "peluches",
+          "id": "pile-6",
+          "layer": 3,
+          "position": {
+            "x": 0.22,
+            "y": 0.406
+          }
+        },
+        {
+          "asset": "ours-panier",
+          "blockedBy": [
+            "pile-23",
+            "pile-1",
+            "pile-6"
+          ],
+          "category": "peluches",
+          "id": "pile-16",
+          "layer": 2,
+          "position": {
+            "x": 0.212,
+            "y": 0.378
+          }
+        },
+        {
+          "asset": "ours",
+          "blockedBy": [
+            "pile-23",
+            "pile-1",
+            "pile-6",
+            "pile-16"
+          ],
+          "category": "peluches",
+          "hidden": true,
+          "id": "pile-21",
+          "layer": 1,
+          "position": {
+            "x": 0.205,
+            "y": 0.35
+          }
+        },
+        {
+          "asset": "bougie-rose",
+          "blockedBy": [],
+          "category": "veilleuses",
+          "id": "pile-2",
+          "layer": 5,
+          "position": {
+            "x": 0.206,
+            "y": 0.917
+          }
+        },
+        {
+          "asset": "diffuseur",
+          "blockedBy": [
+            "pile-2"
+          ],
+          "category": "veilleuses",
+          "id": "pile-7",
+          "layer": 4,
+          "position": {
+            "x": 0.213,
+            "y": 0.889
+          }
+        },
+        {
+          "asset": "bougie-rose",
+          "blockedBy": [
+            "pile-2",
+            "pile-7"
+          ],
+          "category": "veilleuses",
+          "hidden": true,
+          "id": "pile-11",
+          "layer": 3,
+          "position": {
+            "x": 0.221,
+            "y": 0.86
+          }
+        },
+        {
+          "asset": "bougie-ruban",
+          "blockedBy": [
+            "pile-2",
+            "pile-7",
+            "pile-11"
+          ],
+          "category": "veilleuses",
+          "hidden": true,
+          "id": "pile-12",
+          "layer": 2,
+          "position": {
+            "x": 0.228,
+            "y": 0.832
+          }
+        },
+        {
+          "asset": "bougie-rose",
+          "blockedBy": [
+            "pile-2",
+            "pile-7",
+            "pile-11",
+            "pile-12"
+          ],
+          "category": "veilleuses",
+          "hidden": true,
+          "id": "pile-17",
+          "layer": 1,
+          "position": {
+            "x": 0.236,
+            "y": 0.804
+          }
+        },
+        {
+          "asset": "cadre-suspendu",
+          "blockedBy": [],
+          "category": "cadres",
+          "id": "pile-3",
+          "layer": 3,
+          "position": {
+            "x": 0.485,
+            "y": 0.213
+          }
+        },
+        {
+          "asset": "cadre-montagne",
+          "blockedBy": [
+            "pile-3"
+          ],
+          "category": "cadres",
+          "id": "pile-8",
+          "layer": 2,
+          "position": {
+            "x": 0.501,
+            "y": 0.156
+          }
+        },
+        {
+          "asset": "miroir-rond",
+          "blockedBy": [
+            "pile-3",
+            "pile-8"
+          ],
+          "category": "cadres",
+          "id": "pile-22",
+          "layer": 1,
+          "position": {
+            "x": 0.515,
+            "y": 0.1
+          }
+        },
+        {
+          "asset": "coussins-duo",
+          "blockedBy": [],
+          "category": "coussins",
+          "id": "pile-4",
+          "layer": 7,
+          "position": {
+            "x": 0.485,
+            "y": 0.85
+          }
+        },
+        {
+          "asset": "coussin-patte",
+          "blockedBy": [
+            "pile-4"
+          ],
+          "category": "coussins",
+          "id": "pile-9",
+          "layer": 6,
+          "position": {
+            "x": 0.49,
+            "y": 0.823
+          }
+        },
+        {
+          "asset": "coussins-duo",
+          "blockedBy": [
+            "pile-4",
+            "pile-9"
+          ],
+          "category": "coussins",
+          "id": "pile-13",
+          "layer": 5,
+          "position": {
+            "x": 0.495,
+            "y": 0.812
+          }
+        },
+        {
+          "asset": "coussins-duo",
+          "blockedBy": [
+            "pile-4",
+            "pile-9",
+            "pile-13"
+          ],
+          "category": "coussins",
+          "id": "pile-14",
+          "layer": 4,
+          "position": {
+            "x": 0.5,
+            "y": 0.794
+          }
+        },
+        {
+          "asset": "coussin-creme",
+          "blockedBy": [
+            "pile-4",
+            "pile-9",
+            "pile-13",
+            "pile-14"
+          ],
+          "category": "coussins",
+          "id": "pile-18",
+          "layer": 3,
+          "position": {
+            "x": 0.505,
+            "y": 0.771
+          }
+        },
+        {
+          "asset": "coussin-patte",
+          "blockedBy": [
+            "pile-4",
+            "pile-9",
+            "pile-13",
+            "pile-14",
+            "pile-18"
+          ],
+          "category": "coussins",
+          "id": "pile-19",
+          "layer": 2,
+          "position": {
+            "x": 0.51,
+            "y": 0.748
+          }
+        },
+        {
+          "asset": "coussin-patte",
+          "blockedBy": [
+            "pile-4",
+            "pile-9",
+            "pile-13",
+            "pile-14",
+            "pile-18",
+            "pile-19"
+          ],
+          "category": "coussins",
+          "id": "pile-24",
+          "layer": 1,
+          "position": {
+            "x": 0.515,
+            "y": 0.729
+          }
+        },
+        {
+          "asset": "livres-pile",
+          "blockedBy": [],
+          "category": "livres",
+          "id": "pile-5",
+          "layer": 4,
+          "position": {
+            "x": 0.765,
+            "y": 0.92
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-5"
+          ],
+          "category": "livres",
+          "id": "pile-10",
+          "layer": 3,
+          "position": {
+            "x": 0.775,
+            "y": 0.908
+          }
+        },
+        {
+          "asset": "livres-trio",
+          "blockedBy": [
+            "pile-5",
+            "pile-10"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-15",
+          "layer": 2,
+          "position": {
+            "x": 0.785,
+            "y": 0.871
+          }
+        },
+        {
+          "asset": "livres-plante",
+          "blockedBy": [
+            "pile-5",
+            "pile-10",
+            "pile-15"
+          ],
+          "category": "livres",
+          "hidden": true,
+          "id": "pile-20",
+          "layer": 1,
+          "position": {
+            "x": 0.795,
+            "y": 0.83
+          }
+        }
+      ],
+      "rules": {
+        "activeBoxCount": 2,
+        "allowHints": true,
+        "allowUndo": true,
+        "bufferCapacity": 4,
+        "timeLimitSeconds": null
+      },
+      "rulesVersion": "2",
+      "schemaVersion": "1.2",
+      "scoring": {
+        "threeStarsMaxBuffered": 0,
+        "twoStarsMaxBuffered": 2
+      },
+      "seed": 53000,
+      "theme": "chambre"
+    },
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "tilesets": [],
+    "width": 24
+  },
+  "contentSha256": "17c3d681d58bfd685139bb5487164ed648f1fd3184354c01aac28c04b7c36727",
+  "dependencies": {
+    "assets": [],
+    "tilesets": []
+  },
+  "format": "game-puzzle",
+  "geometry": {
+    "height": 1,
+    "tileHeight": 1,
+    "tileWidth": 1,
+    "width": 24
+  },
+  "id": "level-cozy-room-sort-011-chambre",
+  "kind": "puzzle",
+  "losses": [],
+  "mechanics": [],
+  "name": "011-chambre",
+  "observations": [
+    {
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "contentSha256": "17c3d681d58bfd685139bb5487164ed648f1fd3184354c01aac28c04b7c36727",
+      "observedAt": "2026-11-21T15:25:31Z",
+      "path": "content/levels/011-chambre.json",
+      "provider": "local",
+      "repo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git"
+    }
+  ],
+  "origin": {
+    "attribution": "011-chambre — Davy45270 (MIT)",
+    "author": "Davy45270",
+    "game": "cozy-room-sort",
+    "license": "MIT",
+    "licenseEvidence": "LICENSE",
+    "licenseStatus": "verified",
+    "provider": "local",
+    "sourceCommit": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "sourcePath": "content/levels/011-chambre.json",
+    "sourceRepo": "https://forgejo.pingfr.duckdns.org/david/cozy-room-sort.git",
+    "sourceUrl": null,
+    "universe": "unknown"
+  },
+  "schemaVersion": "1.0.0",
+  "transformations": [],
+  "usage": [],
+  "validation": {
+    "simulation": "pending",
+    "solvability": "pending",
+    "structure": "pending"
+  },
+  "versions": []
+}

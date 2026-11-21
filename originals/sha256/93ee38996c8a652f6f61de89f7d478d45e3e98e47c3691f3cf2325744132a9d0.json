@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.2",
+  "rulesVersion": "2",
+  "id": "008-chambre",
+  "name": "La chambre sens dessus dessous",
+  "theme": "chambre",
+  "difficulty": "easy",
+  "seed": 50000,
+  "rules": {
+    "bufferCapacity": 5,
+    "activeBoxCount": 2,
+    "allowUndo": true,
+    "allowHints": true,
+    "timeLimitSeconds": null
+  },
+  "categories": [
+    {
+      "id": "veilleuses",
+      "label": "Veilleuses et bougies"
+    },
+    {
+      "id": "cadres",
+      "label": "Cadres"
+    },
+    {
+      "id": "livres",
+      "label": "Livres"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "carton-1",
+      "category": "veilleuses",
+      "capacity": 4
+    },
+    {
+      "id": "carton-2",
+      "category": "cadres",
+      "capacity": 4
+    },
+    {
+      "id": "carton-3",
+      "category": "livres",
+      "capacity": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": "pile-1",
+      "category": "veilleuses",
+      "asset": "diffuseur",
+      "blockedBy": [],
+      "position": {
+        "x": 0.486,
+        "y": 0.213
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-4",
+      "category": "veilleuses",
+      "asset": "diffuseur",
+      "blockedBy": [
+        "pile-1"
+      ],
+      "position": {
+        "x": 0.496,
+        "y": 0.175
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-7",
+      "category": "veilleuses",
+      "asset": "diffuseur",
+      "blockedBy": [
+        "pile-1",
+        "pile-4"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.138
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-10",
+      "category": "veilleuses",
+      "asset": "bougie-verre",
+      "blockedBy": [
+        "pile-1",
+        "pile-4",
+        "pile-7"
+      ],
+      "position": {
+        "x": 0.516,
+        "y": 0.1
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-2",
+      "category": "cadres",
+      "asset": "cadre-suspendu",
+      "blockedBy": [],
+      "position": {
+        "x": 0.515,
+        "y": 0.86
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-5",
+      "category": "cadres",
+      "asset": "cadre-montagne",
+      "blockedBy": [
+        "pile-2"
+      ],
+      "position": {
+        "x": 0.506,
+        "y": 0.823
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-8",
+      "category": "cadres",
+      "asset": "cadre-suspendu",
+      "blockedBy": [
+        "pile-2",
+        "pile-5"
+      ],
+      "position": {
+        "x": 0.495,
+        "y": 0.785
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-11",
+      "category": "cadres",
+      "asset": "cadre-montagne",
+      "blockedBy": [
+        "pile-2",
+        "pile-5",
+        "pile-8"
+      ],
+      "position": {
+        "x": 0.486,
+        "y": 0.748
+      },
+      "layer": 1
+    },
+    {
+      "id": "pile-3",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [],
+      "position": {
+        "x": 0.205,
+        "y": 0.427
+      },
+      "layer": 6
+    },
+    {
+      "id": "pile-6",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-3"
+      ],
+      "position": {
+        "x": 0.211,
+        "y": 0.429
+      },
+      "layer": 5
+    },
+    {
+      "id": "pile-9",
+      "category": "livres",
+      "asset": "livres-plante",
+      "blockedBy": [
+        "pile-3",
+        "pile-6"
+      ],
+      "position": {
+        "x": 0.217,
+        "y": 0.407
+      },
+      "layer": 4
+    },
+    {
+      "id": "pile-12",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [
+        "pile-3",
+        "pile-6",
+        "pile-9"
+      ],
+      "position": {
+        "x": 0.223,
+        "y": 0.36
+      },
+      "layer": 3
+    },
+    {
+      "id": "pile-13",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [
+        "pile-3",
+        "pile-6",
+        "pile-9",
+        "pile-12"
+      ],
+      "position": {
+        "x": 0.229,
+        "y": 0.337
+      },
+      "layer": 2
+    },
+    {
+      "id": "pile-14",
+      "category": "livres",
+      "asset": "livres-pile",
+      "blockedBy": [
+        "pile-3",
+        "pile-6",
+        "pile-9",
+        "pile-12",
+        "pile-13"
+      ],
+      "position": {
+        "x": 0.235,
+        "y": 0.315
+      },
+      "layer": 1
+    }
+  ],
+  "scoring": {
+    "threeStarsMaxBuffered": 0,
+    "twoStarsMaxBuffered": 2
+  },
+  "meta": {
+    "solution": [
+      "pile-1",
+      "pile-4",
+      "pile-7",
+      "pile-10",
+      "pile-2",
+      "pile-5",
+      "pile-8",
+      "pile-11",
+      "pile-3",
+      "pile-6",
+      "pile-9",
+      "pile-12",
+      "pile-13",
+      "pile-14"
+    ],
+    "engineVersion": "0.1.0",
+    "statesExplored": 79,
+    "nonTrivialDecisions": 80,
+    "legalMoves": 382,
+    "blockingMoves": 0,
+    "blockingMoveShare": 0
+  }
+}

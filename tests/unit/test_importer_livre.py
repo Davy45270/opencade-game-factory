@@ -198,6 +198,52 @@ class AppliquerRegle(TestCase):
                 self.assertFalse(il.appliquer_regle(aid, self.regle, fiches, "jeu", "public/i.png"))
 
 
+class BrutParBoite(TestCase):
+    """Deux atlas reprennent le même dessin : la découpe brute de l'un sert à l'autre (même planche, même boîte)."""
+    def brut(self, element, boite, ev):
+        w, h, x, y = boite
+        return {"family": {"sprite": {"frameName": element}}, "provenance": {"type": "original-sheet-cut"},
+                "sourceRegion": {"evidence": ev, "w": w, "h": h, "x": x, "y": y}}
+
+    def test_repli_par_boite_et_planche(self):
+        fiches = {"b": self.brut("p", [2, 3, 4, 5], "q.provenance.lot-aaaaaaaaaaaa.decoupe.json · SHA-256 x · planche P1")}
+        self.assertIsNone(il.brut_de(fiches, "u.provenance.json", "p"))
+        self.assertEqual(il.brut_de(fiches, "u.provenance.json", "p", [2, 3, 4, 5], "P1"), "b")
+        self.assertIsNone(il.brut_de(fiches, "u.provenance.json", "p", [2, 3, 4, 6], "P1"))
+        self.assertIsNone(il.brut_de(fiches, "u.provenance.json", "p", [2, 3, 4, 5], "P2"))
+
+
+class PlancheSansDimensions(TestCase):
+    """Une planche connue sans dimensions reçoit celles mesurées sur les mêmes octets ; jamais écrasées sinon."""
+    def test_dimensions_completees_pas_ecrasees(self):
+        from tools.extract.sheets import sheet_record
+        cible = types.SimpleNamespace(sheet_ids={"d": "s"}, sheets={"s": {"id": "s", "dimensions": None}}, ids=None)
+        self.assertEqual(sheet_record(cible, "d", "n", {"width": 4, "height": 3}, "e")["dimensions"],
+                         {"width": 4, "height": 3})
+        self.assertEqual(sheet_record(cible, "d", "n", {"width": 9, "height": 9}, "e")["dimensions"],
+                         {"width": 4, "height": 3})
+
+
+class DerivesDePlanche(TestCase):
+    """Un dérivé déclaré prend la licence de sa planche seulement si la planche citée a les octets cités."""
+    def test_derive_declare_et_planche_verifiee(self):
+        import tempfile
+        e = {"id": "carton", "origine": {"planche": "P.webp", "sha256": il.sha256(b"planche")},
+             "derives": [{"fichier": "icons/i.png"}]}
+        d = il.declarations_derivees(e)
+        self.assertEqual(d[0]["fichier"], "icons/i.png")
+        self.assertEqual(il.declarations_derivees({"id": "x", "origine": "planche"}), [])
+        with tempfile.TemporaryDirectory() as rep:
+            (il.Path(rep) / "P.webp").write_bytes(b"planche")
+            profil = {"provenance_images": "p.json", "planches": rep,
+                      "images": [{"prefixe": "icons/", "declaree": True, "origines": ["dérivé"],
+                                  "exige": ["planche", "planche_sha256"], "planche_verifiee": True, "licence": "CC",
+                                  "auteur": "A", "licence_preuve": {"method": "m", "ref": "r", "decision": "d"}}]}
+            self.assertEqual(il.regle_image(profil, "icons/i.png", {"icons/i.png": d[0]})["licence"], "CC")
+            (il.Path(rep) / "P.webp").write_bytes(b"autre")
+            self.assertIsNone(il.regle_image(profil, "icons/i.png", {"icons/i.png": d[0]}))
+
+
 class RegleDeclaree(TestCase):
     """Une règle « declaree » ne vaut que pour une image déclarée par le jeu avec une origine admise."""
     preuve = {"method": "m", "ref": "r", "decision": "d"}

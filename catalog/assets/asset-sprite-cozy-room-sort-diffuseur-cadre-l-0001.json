@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:56:43.643416+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-diffuseur-0001",
+        "reason": "découpe brute de l'élément diffuseur : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-diffuseur-bambou-0001",
+        "reason": "pixels différents du cadre livré sprite-diffuseur (empreinte 4905ca4cb44a)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e8c0b0b2f59a3b0b9af74f4cbc2925a233aba473ac750a88ba611a35b51902d6",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "diffuseur",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-diffuseur-0001",
+          "reason": "découpe brute de l'élément diffuseur : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-diffuseur-bambou-0001",
+          "reason": "pixels différents du cadre livré sprite-diffuseur (empreinte 4905ca4cb44a)"
+        }
+      ],
+      "results": [
+        "asset-sprite-diffuseur-0001",
+        "asset-sprite-diffuseur-bambou-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:56:43.250160+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-diffuseur » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément diffuseur",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-diffuseur-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-diffuseur-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-diffuseur"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-diffuseur-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-280.png, SHA-256 6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-diffuseur"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort diffuseur (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "22460e06b2696161",
+    "phash": "ce31c68e39c633cc"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-diffuseur-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-diffuseur livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [58, 115, 907, 728], \"cadre\": \"sprite-diffuseur\", \"element\": \"diffuseur\", \"empreintePixels\": \"4905ca4cb44aba987bd711d154068c0b2f7df21a1b224c659f8373c986099184\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 115, \"w\": 58, \"x\": 907, \"y\": 728}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-diffuseur-0001",
+    "parentSha256": "b52d13056ffca0d5206ac9bd6a69d227ed9f4a7c2769b8863f9bdd03b8525d2a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:56:43.643416+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 234,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-diffuseur de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 4905ca4cb44aba98)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-diffuseur",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

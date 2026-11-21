@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:51:31.626749+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-tapis-nuage-0001",
+        "reason": "découpe brute de l'élément tapis-nuage : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "989b2a53d077ba1f827a29489a0cff8c9b16588fdc872cf080e29ca071999797",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "tapis nuage",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-tapis-nuage-0001",
+          "reason": "découpe brute de l'élément tapis-nuage : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-tapis-nuage-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:51:31.208969+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-tapis-nuage » (content/assets/planches/atlas/p02-meubles.webp), forme normalisée par le jeu de l'élément tapis-nuage",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-tapis-nuage-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-tapis-nuage-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-tapis-nuage"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tapis-nuage-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-235.png, SHA-256 41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-tapis-nuage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort tapis-nuage (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9668e8f0f0cccc12",
+    "phash": "849e7b60f921951f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-tapis-nuage-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tapis-nuage livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-meubles.webp (webp)\", \"boite\": [480, 281, 428, 441], \"cadre\": \"sprite-tapis-nuage\", \"element\": \"tapis-nuage\", \"empreintePixels\": \"b0582973eb51c67d32b20ca38bdc665ea152460327c3fca3eb552617335a07e8\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 281, \"w\": 480, \"x\": 428, \"y\": 441}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-tapis-nuage-0001",
+    "parentSha256": "3762d6d69aff556d63349b4f63c77b4c662cc78ea307fefb7cec59cb0bb7c6cf",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:51:31.626749+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "content/assets/planches/atlas/p02-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-tapis-nuage de content/assets/planches/atlas/p02-meubles.webp (empreinte de pixels b0582973eb51c67d)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-tapis-nuage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "41bcfb9008c3dab1c905009a166a8c45d167818c63034c02982b2c0d6146dca0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

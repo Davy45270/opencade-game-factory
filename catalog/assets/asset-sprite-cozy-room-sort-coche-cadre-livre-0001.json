@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:49:54.077821+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-coche-0001",
+        "reason": "découpe brute de l'élément coche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "76fd3376de8b30e44f0c75889cd2a2bdb22b281f57c45737a57a4a0d27ac5d6d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "coche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-coche-0001",
+          "reason": "découpe brute de l'élément coche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-coche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:49:53.688811+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-coche » (content/assets/planches/atlas/p01-ui.webp), forme normalisée par le jeu de l'élément coche",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-coche-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-coche-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-coche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-coche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort coche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "07172d5963651b8e",
+    "phash": "eb93b44cc133966c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-coche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-coche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-ui.webp (webp)\", \"boite\": [50, 50, 176, 819], \"cadre\": \"sprite-coche\", \"element\": \"coche\", \"empreintePixels\": \"9a0d2ad2297070a239803610acb2eaa69e7ec6d063b49265a8ecbb3b99783190\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 50, \"w\": 50, \"x\": 176, \"y\": 819}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-coche-0001",
+    "parentSha256": "11df594730d1197de6b3d3ae7a7c4a4c22d785b03a75fff500789cb579ca6e7e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:49:54.077821+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 150,
+        "path": "content/assets/planches/atlas/p01-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-coche de content/assets/planches/atlas/p01-ui.webp (empreinte de pixels 9a0d2ad2297070a2)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-coche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d2c77f95bbfa6ae5213c2b72ae1e807ad11bfb2156670efc2252534d0479d989",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -104,7 +104,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Image dérivée d'une illustration de Davy45270 (CC-BY-4.0) sans trait nouveau : elle garde la licence de sa planche source (2026-11-21).",
+    "method": "déclaration du titulaire, dérivation d'une planche vérifiée",
+    "ref": "cozy-room-sort README.md ; HL-538 ; content/assets/provenance.json · choix-salle-de-bain-normal (origine « dérivé », planche Cozy_Room_Sort_Planche_04_Salle_de_bain.webp SHA-256 f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59)"
+  },
   "name": "choix-salle-de-bain-normal",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -114,7 +119,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (dessin de la planche, dérivé par le jeu ; content/assets/provenance.json)",
     "evidence": [
       "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:content/assets/planches/derives/choix-salle-de-bain-normal.webp"
     ],
@@ -393,6 +398,35 @@
       "repo": "cozy-room-sort",
       "role": "sprite",
       "scene": "tests/integration/inventaire-assets.test.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "content/assets/planches/derives/choix-salle-de-bain-normal.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "content/assets/planches/derives/choix-salle-de-bain-normal.webp"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : image content/assets/planches/derives/choix-salle-de-bain-normal.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "choix-salle-de-bain-normal",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/derives/choix-salle-de-bain-normal.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "image",
+      "scene": "content/assets/planches/derives/choix-salle-de-bain-normal.webp",
       "status": "active"
     }
   ],

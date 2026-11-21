@@ -118,7 +118,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Image dérivée d'une illustration de Davy45270 (CC-BY-4.0) sans trait nouveau : elle garde la licence de sa planche source (2026-11-21).",
+    "method": "déclaration du titulaire, dérivation d'une planche vérifiée",
+    "ref": "cozy-room-sort README.md ; HL-538 ; content/assets/provenance.json · carton-ouvert → apps/web/public/icons/cozy-room-sort-maskable-512.png (origine « dérivé », planche Cozy_Room_Sort_Planche_01.webp SHA-256 295a8fca9186e91b40e7d2f5e2878e57ac9d52627a72f38f7ea6600e28cb28f3)"
+  },
   "name": "cozy-room-sort-maskable-512",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -128,7 +133,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (dessin de la planche, dérivé par le jeu ; content/assets/provenance.json)",
     "evidence": [
       "cozy-room-sort@ad8fe025c8010d992040e0002dc0000319a2b869:apps/web/public/icons/cozy-room-sort-maskable-512.png"
     ],
@@ -343,6 +348,35 @@
       "repo": "cozy-room-sort",
       "role": "icon",
       "scene": "content/assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "apps/web/public/icons/cozy-room-sort-maskable-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "apps/web/public/icons/cozy-room-sort-maskable-512.png"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : image apps/web/public/icons/cozy-room-sort-maskable-512.png livrée (fichier suivi au commit)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "cozy-room-sort-maskable-512",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "apps/web/public/icons/cozy-room-sort-maskable-512.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "image",
+      "scene": "apps/web/public/icons/cozy-room-sort-maskable-512.png",
       "status": "active"
     }
   ],

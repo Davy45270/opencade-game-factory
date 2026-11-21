@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:50:01.476533+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-etoile-droite-0001",
+        "reason": "découpe brute de l'élément etoile-droite : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-etoile-sdb-droite-0001",
+        "reason": "pixels différents du cadre livré sprite-etoile-droite (empreinte 709d6e594b16)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3f680d6c23a719bb4d17c8fbee8acb991343de6ca2f78360440ad0a1538f75f8",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "etoile droite",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-etoile-droite-0001",
+          "reason": "découpe brute de l'élément etoile-droite : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-etoile-sdb-droite-0001",
+          "reason": "pixels différents du cadre livré sprite-etoile-droite (empreinte 709d6e594b16)"
+        }
+      ],
+      "results": [
+        "asset-sprite-etoile-droite-0001",
+        "asset-sprite-etoile-sdb-droite-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:50:01.104938+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-etoile-droite » (content/assets/planches/atlas/p01-ui.webp), forme normalisée par le jeu de l'élément etoile-droite",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-etoile-droite-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-etoile-droite-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-etoile-droite"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etoile-droite-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-223.png, SHA-256 3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-etoile-droite"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort etoile-droite (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9433e886c8f1cc45",
+    "phash": "c48c2e4375f33b13"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-etoile-droite-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etoile-droite livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-ui.webp (webp)\", \"boite\": [68, 65, 213, 412], \"cadre\": \"sprite-etoile-droite\", \"element\": \"etoile-droite\", \"empreintePixels\": \"709d6e594b16f177221c2c07e3ae092a607f82a37daf03d18b705bc4c4f65ff6\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 65, \"w\": 68, \"x\": 213, \"y\": 412}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-etoile-droite-0001",
+    "parentSha256": "f5a4423ac045f927a8748d8d67ae66406857afb0c5c397b0238131e6d6cbc4c3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:50:01.476533+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 171,
+        "path": "content/assets/planches/atlas/p01-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-etoile-droite de content/assets/planches/atlas/p01-ui.webp (empreinte de pixels 709d6e594b16f177)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-etoile-droite",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3dbfdb653e50072ab3c6e478f80807add7e0ad068fa129a9c34f5f655e318a93",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

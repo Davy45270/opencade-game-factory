@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:01:12.380296+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-flacon-bleu-0001",
+        "reason": "découpe brute de l'élément flacon-bleu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2415fa7f6de54fa82c136d9b0ebaf67fc28827d8c9eee42d897ad0d137cb7046",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "flacon bleu",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-flacon-bleu-0001",
+          "reason": "découpe brute de l'élément flacon-bleu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-flacon-bleu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:01:12.040564+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-flacon-bleu » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément flacon-bleu",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-flacon-bleu-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-flacon-bleu-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-flacon-bleu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-flacon-bleu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-319.png, SHA-256 8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-flacon-bleu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort flacon-bleu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "34b42262626262b6",
+    "phash": "cc3030cf33cf336c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-flacon-bleu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-flacon-bleu livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [49, 100, 301, 610], \"cadre\": \"sprite-flacon-bleu\", \"element\": \"flacon-bleu\", \"empreintePixels\": \"6329fcbdaea76f62a401fa1c61757c811dac32a737aadde37b6702f54025b3a3\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 100, \"w\": 49, \"x\": 301, \"y\": 610}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-flacon-bleu-0001",
+    "parentSha256": "be3b879a3837ef21f1065d060c69e7531314640c9b09704a3aa7206ed5ffca07",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:01:12.380296+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-flacon-bleu de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 6329fcbdaea76f62)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-flacon-bleu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8cb9bcddf3a54b2bdbb8a086613b27cdfef654be72c75c341ee024456208b9e2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

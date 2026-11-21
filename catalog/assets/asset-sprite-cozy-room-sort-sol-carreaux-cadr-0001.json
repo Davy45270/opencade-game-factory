@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:48:15.859396+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-sol-carreaux-0001",
+        "reason": "découpe brute de l'élément sol-carreaux : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5fab2419d82e77dcc5af9f0cf5a117f38e2d50eed8db1947c78c88f2ee370ecd",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "sol carreaux",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-sol-carreaux-0001",
+          "reason": "découpe brute de l'élément sol-carreaux : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-sol-carreaux-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:48:15.460271+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-sol-carreaux » (content/assets/planches/atlas/p01-panneaux.webp), forme normalisée par le jeu de l'élément sol-carreaux",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-sol-carreaux-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-sol-carreaux-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-sol-carreaux"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-sol-carreaux-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-209.png, SHA-256 8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-sol-carreaux"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort sol-carreaux (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "00aab2b2b2b28201",
+    "phash": "80d357056f6de8d2"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-sol-carreaux-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-sol-carreaux livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-panneaux.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-panneaux.webp (webp)\", \"boite\": [143, 98, 864, 905], \"cadre\": \"sprite-sol-carreaux\", \"element\": \"sol-carreaux\", \"empreintePixels\": \"f6702f6b33ad6c057e3acb05d1989b89f03576a884e9a62b3942b1ac8919e409\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 98, \"w\": 143, \"x\": 864, \"y\": 905}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-sol-carreaux-0001",
+    "parentSha256": "fed35e36c186634721381cab841f638f995a988287c5ea525a68a7ad33413e5a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-panneaux.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:48:15.859396+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-panneaux.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p01-panneaux.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-sol-carreaux de content/assets/planches/atlas/p01-panneaux.webp (empreinte de pixels f6702f6b33ad6c05)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-sol-carreaux",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-panneaux.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-panneaux.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8a94784b8011d9cc7a258bba52ecf61a79e08e48ab3687872e4c901834916892",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

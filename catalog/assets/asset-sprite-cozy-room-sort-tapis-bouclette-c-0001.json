@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:59:44.173048+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-tapis-bouclette-0001",
+        "reason": "découpe brute de l'élément tapis-bouclette : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "29e5387943a30a0cd5a8429b692831597f4492348edc678a737dd2a723ecf900",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "tapis bouclette",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-tapis-bouclette-0001",
+          "reason": "découpe brute de l'élément tapis-bouclette : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-tapis-bouclette-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:59:43.852968+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-tapis-bouclette » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément tapis-bouclette",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-tapis-bouclette-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-tapis-bouclette-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-tapis-bouclette"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tapis-bouclette-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-tapis-bouclette"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort tapis-bouclette (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "61e084a2b2a0f013",
+    "phash": "d0862b7a2f29f435"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-tapis-bouclette-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tapis-bouclette livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [158, 122, 809, 866], \"cadre\": \"sprite-tapis-bouclette\", \"element\": \"tapis-bouclette\", \"empreintePixels\": \"e4fbbb4986a1d6810659c259d84054f2003e74dfe967d93b1cb1b5094b3e075f\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 122, \"w\": 158, \"x\": 809, \"y\": 866}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-tapis-bouclette-0001",
+    "parentSha256": "df9d40414b6529ba9c9646adaabb8e4001212ed9182ac2f59138333260f6b29e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:59:44.173048+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 318,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-tapis-bouclette de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels e4fbbb4986a1d681)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-tapis-bouclette",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2841801e854be668663bee3cc1aa605c7c6026de6d891ff80b74eabd2028dd3a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

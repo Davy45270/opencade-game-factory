@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:51:09.114560+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-gueridon-tasse-0001",
+        "reason": "découpe brute de l'élément gueridon-tasse : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3a27af9c549447e2659beb5c06975b2e6c34b8712702bcda081f9c62e31e586d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "gueridon tasse",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-gueridon-tasse-0001",
+          "reason": "découpe brute de l'élément gueridon-tasse : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-gueridon-tasse-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:51:08.730717+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-gueridon-tasse » (content/assets/planches/atlas/p02-meubles.webp), forme normalisée par le jeu de l'élément gueridon-tasse",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-gueridon-tasse"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-gueridon-tasse-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-gueridon-tasse"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort gueridon-tasse (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "3239c9c8ec238a3a",
+    "phash": "9399393c87e56d24"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-gueridon-tasse-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-gueridon-tasse livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-meubles.webp (webp)\", \"boite\": [232, 316, 41, 676], \"cadre\": \"sprite-gueridon-tasse\", \"element\": \"gueridon-tasse\", \"empreintePixels\": \"eb74988c8020dfeefc1e8002fda8802f13a4376ec8eb1eea11ed54e63d2427a7\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 316, \"w\": 232, \"x\": 41, \"y\": 676}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-gueridon-tasse-0001",
+    "parentSha256": "0462625f36b1617cc045548314e05390ccf79b138577c6701c40c1f834f8804a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:51:09.114560+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p02-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-gueridon-tasse de content/assets/planches/atlas/p02-meubles.webp (empreinte de pixels eb74988c8020dfee)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-gueridon-tasse",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "83d93dfe5de6bd2ba9625989b03e7d16d53806e3b02fbf5336ef32113e232311",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

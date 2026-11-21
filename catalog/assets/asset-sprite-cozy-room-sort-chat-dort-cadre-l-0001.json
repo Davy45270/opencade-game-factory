@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:46:48.727676+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-chat-dort-0001",
+        "reason": "découpe brute de l'élément chat-dort : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-chat-dort-rose-0001",
+        "reason": "pixels différents du cadre livré sprite-chat-dort (empreinte 76dd9045bf0d)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4afabb449002b320e3ac0fe5d38ca1e1ff464b911852e322e3abee03cce70724",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "chat dort",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-chat-dort-0001",
+          "reason": "découpe brute de l'élément chat-dort : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-chat-dort-rose-0001",
+          "reason": "pixels différents du cadre livré sprite-chat-dort (empreinte 76dd9045bf0d)"
+        }
+      ],
+      "results": [
+        "asset-sprite-chat-dort-0001",
+        "asset-sprite-chat-dort-rose-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:46:48.343582+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-chat-dort » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément chat-dort",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-chat-dort-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-chat-dort-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-chat-dort"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-chat-dort-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-197.png, SHA-256 aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-chat-dort"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort chat-dort (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "002c036cdcdca4c1",
+    "phash": "d43f69953ec829c8"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-chat-dort-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-chat-dort livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [173, 101, 1332, 773], \"cadre\": \"sprite-chat-dort\", \"element\": \"chat-dort\", \"empreintePixels\": \"76dd9045bf0d796f68e7b5a5470a6ca7aa64d714bb850788bd1f377b2b31d0e2\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 101, \"w\": 173, \"x\": 1332, \"y\": 773}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-chat-dort-0001",
+    "parentSha256": "3d11dd28af1bc22ca852c6c2016464dfe90f39121bf660a8747317f9e5babdc2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:46:48.727676+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 234,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-chat-dort de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 76dd9045bf0d796f)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-chat-dort",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "aab81ffef30560e38878c8b8998b07691a090fbe06c4b59cc8efc9c254d52005",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

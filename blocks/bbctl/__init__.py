@@ -196,7 +196,8 @@ def run(args, root):
             changed = write_block(blocks, path, block, "decide", args.expect)
         if changed:
             evenements.emettre("bb.decided", "success", (block["usedBy"] or ["inconnu"])[0], [block["id"]],
-                               {"choice": args.choice, "score": result["score"]}, args.choice + args.reason)
+                               {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
+                               specs=block.get("specIds") or ())
         return {"candidate": block["id"], "decision": decision, "changed": changed}
 
 

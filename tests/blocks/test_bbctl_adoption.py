@@ -132,6 +132,15 @@ class Adoption(Base):
             self.assertLessEqual(set(e), CHAMPS, e)
             self.assertEqual((e["traceId"], e["buildingBlockRefs"], e["source"]), ("bb001-T14", [BB], "bbctl"))
 
+    def test_BB10_evenement_relie_aux_specifications(self) -> None:
+        f = self.lire()
+        f["specIds"] = ["SPEC-SIX-DE-CHAQUE"]                                   # lien REG-003 porté par la fiche
+        self.chemin().write_text(json.dumps(f, ensure_ascii=False, indent=1))
+        os.environ["TOWER_DIR"] = str(self.tour)
+        self.adopter("--sbom", "s")
+        (e,) = [json.loads(l) for l in (self.tour / "inbox.jsonl").read_text().splitlines()]
+        self.assertEqual((e["specRefs"], e["buildingBlockRefs"]), (["SPEC-SIX-DE-CHAQUE"], [BB]))
+
 
 def git(d: pathlib.Path, *a: str) -> str:
     return subprocess.run(["git", "-C", str(d), "-c", "user.name=t", "-c", "user.email=t@t", *a],

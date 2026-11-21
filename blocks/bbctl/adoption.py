@@ -85,7 +85,8 @@ def adopt(blocks, records, args):
     changed = write_block(blocks, path, updated, "adopt", args.expect)
     if changed:
         evenements.emettre("bb.adopted", "success", args.used_by, [block["id"]],
-                           {"choice": decision["choice"], "version": args.version, "sbom": args.sbom}, args.pr)
+                           {"choice": decision["choice"], "version": args.version, "sbom": args.sbom}, args.pr,
+                           specs=block.get("specIds") or ())
     return {"candidate": block["id"], "adopted": entry, "changed": changed}
 
 

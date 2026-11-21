@@ -11,7 +11,7 @@ import os
 from specs.specctl import tour
 
 
-def fabriquer(typ, etat, project, blocks, meta, fait, commit=None):
+def fabriquer(typ, etat, project, blocks, meta, fait, commit=None, specs=()):
     tr = tour.trace()
     brut = ":".join(["bbctl", typ, project, json.dumps(blocks), fait or "", tr or ""])
     event_id = "bbctl:" + hashlib.sha256(brut.encode("utf-8")).hexdigest()[:32]
@@ -21,6 +21,8 @@ def fabriquer(typ, etat, project, blocks, meta, fait, commit=None):
           "evidence": [], "metadata": meta, "agentId": (os.environ.get("TOWER_AGENT_ID") or "bbctl")[:128]}
     if blocks:
         ev["buildingBlockRefs"] = list(blocks)[:64]
+    if specs:
+        ev["specRefs"] = sorted(set(specs))[:64]                 # lien REG-003 (BB-10)
     if commit:
         ev["commitSha"] = commit
     if tr:
@@ -28,8 +30,8 @@ def fabriquer(typ, etat, project, blocks, meta, fait, commit=None):
     return ev
 
 
-def emettre(typ, etat, project, blocks, meta, fait, commit=None):
+def emettre(typ, etat, project, blocks, meta, fait, commit=None, specs=()):
     try:
-        return tour.deposer([fabriquer(typ, etat, project, blocks, meta, fait, commit)])
+        return tour.deposer([fabriquer(typ, etat, project, blocks, meta, fait, commit, specs)])
     except Exception:
         return False

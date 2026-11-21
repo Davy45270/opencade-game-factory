@@ -1,0 +1,179 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite particules effets jeu — image 96×70",
+  "dimensions": {
+    "height": 70,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "webp",
+  "id": "asset-image-sprite-particules-effets-jeu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/runtime/sprite-particules-effets-jeu.webp · sprite-particules-effets-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/runtime/sprite-particules-effets-jeu.webp · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-particules-effets-jeu",
+  "orientation": "unknown",
+  "originUniverse": "assets",
+  "perceptual": {
+    "dhash": "d2d232868eb232d2",
+    "phash": "d9b31be0e4ec260e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-particules-effets-jeu.webp"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "aa60bb907ed3e71b9581757e17846144410fad8fa7d46e23bf4d73f71fe33568",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/aa/aa60bb907ed3e71b9581757e17846144410fad8fa7d46e23bf4d73f71fe33568.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-particules-effets-jeu.webp": "8721f12817edad9094a603872c1dcf2fe7f70d1b"
+      },
+      "assetPath": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-particules-effets-jeu.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "particulesEffetsJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "aa60bb907ed3e71b9581757e17846144410fad8fa7d46e23bf4d73f71fe33568",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

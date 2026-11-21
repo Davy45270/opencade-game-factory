@@ -1,0 +1,223 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite menu objets — sprite 32×32",
+  "dimensions": {
+    "height": 32,
+    "width": 32
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-menu-objets"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e03-menu-0001",
+        "h": 32,
+        "w": 32,
+        "x": 0,
+        "y": 32
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-menu-objets-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e03-menu.json · sprite-menu-objets"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-menu.json#sprite-menu-objets"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-menu-objets",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "96ab6371aba32317",
+    "phash": "cb95306897cf8734"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "cac50a5418f808b7bedddb5c261fd19b2372397acf4d684f93a81b5d938108d8",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 24,
+    "verified": false,
+    "w": 26,
+    "x": 1524,
+    "y": 796
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-03-monde-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/ca/cac50a5418f808b7bedddb5c261fd19b2372397acf4d684f93a81b5d938108d8.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e03-menu.png": "998aa6830a58910b172b56a68dd0aacbb3b07455",
+        "public/assets/e03-menu.json": "3c799b1a906ac9e4f3f428c01b069cd802139e26"
+      },
+      "assetPath": "public/assets/e03-menu.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 59,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-menu.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-menu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-menu.png": "998aa6830a58910b172b56a68dd0aacbb3b07455",
+        "public/assets/e03-menu.json": "3c799b1a906ac9e4f3f428c01b069cd802139e26"
+      },
+      "assetPath": "public/assets/e03-menu.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e03-menu.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e03-menu.json",
+        "module-path: assets/manifests/e03-menu.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-menu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e03-menu.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e03-menu-0001",
+          "h": 32,
+          "sourceSheetSha256": "1db6581d25ff2a4b4cbf69cf1d86a1d4ede80b9cfc5dbad4c25b429cc02414ad",
+          "w": 32,
+          "x": 0,
+          "y": 32
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "cac50a5418f808b7bedddb5c261fd19b2372397acf4d684f93a81b5d938108d8",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

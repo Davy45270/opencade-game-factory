@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-16T11:07:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Fr boire — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-boire.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-boire.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-fr-boire-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/dictee/audio/fr-boire.ogg · audio"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/dictee/audio/fr-boire.ogg · fr-boire"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-boire.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-boire.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-boire.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "fr-boire",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-boire.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b7d058596c2f87226f410a7d72e0a2fe2d49837cc66fe8101d61d064fdce1f30",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-boire.ogg": "a2a6a4f9d8127ce8e19f749bf90a77a089df96e8"
+      },
+      "assetPath": "public/dictee/audio/fr-boire.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13426,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-boire.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-boire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-boire.ogg": "a2a6a4f9d8127ce8e19f749bf90a77a089df96e8"
+      },
+      "assetPath": "public/dictee/audio/fr-boire.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-boire.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-boire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-boire.ogg": "a2a6a4f9d8127ce8e19f749bf90a77a089df96e8"
+      },
+      "assetPath": "public/dictee/audio/fr-boire.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13426,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-boire.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-boire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-boire.ogg": "a2a6a4f9d8127ce8e19f749bf90a77a089df96e8"
+      },
+      "assetPath": "public/dictee/audio/fr-boire.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-boire.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-boire",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "date": "2026-11-18T20:05:47+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b7d058596c2f87226f410a7d72e0a2fe2d49837cc66fe8101d61d064fdce1f30",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

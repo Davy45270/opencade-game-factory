@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-16T11:07:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Fr donner — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-donner.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "shared-library",
+        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "game": null,
+        "path": "public/dictee/audio/fr-donner.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-fr-donner-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/dictee/audio/fr-donner.ogg · audio"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/dictee/audio/fr-donner.ogg · fr-donner"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-donner.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-donner.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-donner.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "fr-donner",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-donner.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "830746d67a44183caca78b850636e4b06fbd7d1069282527ffbc1b0d3b634a1b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-donner.ogg": "22a0d4f5396fc8b8c2b86d1e788c693440557157"
+      },
+      "assetPath": "public/dictee/audio/fr-donner.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5177,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-donner.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-donner",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-donner.ogg": "22a0d4f5396fc8b8c2b86d1e788c693440557157"
+      },
+      "assetPath": "public/dictee/audio/fr-donner.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 239,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-donner.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-donner",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-donner.ogg": "22a0d4f5396fc8b8c2b86d1e788c693440557157"
+      },
+      "assetPath": "public/dictee/audio/fr-donner.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5177,
+        "path": "public/dictee/catalogue.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-donner.ogg",
+        "module-path: public/dictee/catalogue.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-donner",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "public/dictee/catalogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-donner.ogg": "22a0d4f5396fc8b8c2b86d1e788c693440557157"
+      },
+      "assetPath": "public/dictee/audio/fr-donner.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 239,
+        "path": "scripts/dictee/audio-empreintes.json"
+      },
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "evidence": [
+        "literal: public/dictee/audio/fr-donner.ogg",
+        "module-path: scripts/dictee/audio-empreintes.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-donner",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "date": "2026-11-18T20:05:47+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "830746d67a44183caca78b850636e4b06fbd7d1069282527ffbc1b0d3b634a1b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

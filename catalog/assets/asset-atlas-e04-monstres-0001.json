@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "E04 monstres — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 96,
+        "name": "sprite-bete-ecarlate",
+        "w": 96,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-champignon",
+        "w": 96,
+        "x": 96,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-chauve-souris",
+        "w": 96,
+        "x": 192,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-coffre-mimic",
+        "w": 96,
+        "x": 288,
+        "y": 0
+      },
+      {
+        "h": 96,
+        "name": "sprite-golem-pierre",
+        "w": 96,
+        "x": 0,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-loup-givre",
+        "w": 96,
+        "x": 96,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-mage-sombre",
+        "w": 96,
+        "x": 192,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-oiseau-dore",
+        "w": 96,
+        "x": 288,
+        "y": 96
+      },
+      {
+        "h": 96,
+        "name": "sprite-plante-buisson",
+        "w": 96,
+        "x": 0,
+        "y": 192
+      },
+      {
+        "h": 96,
+        "name": "sprite-sanglier-epineux",
+        "w": 96,
+        "x": 96,
+        "y": 192
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e04-monstres.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "e04-monstres.png"
+  },
+  "id": "asset-atlas-e04-monstres-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e04-monstres.json · e04-monstres"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "e04-monstres",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ebd1622cc70cf6496f67f61791585db1978e13f57ae037a934c12aa1ac6c4c04",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/e04-monstres.json": "61c969d461cde46675f7900658003784d42fe950"
+      },
+      "assetPath": "public/assets/e04-monstres.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 449,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-monstres.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-monstres.json": "61c969d461cde46675f7900658003784d42fe950"
+      },
+      "assetPath": "public/assets/e04-monstres.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-monstres.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-monstres.json",
+        "module-path: assets/manifests/e04-monstres.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ebd1622cc70cf6496f67f61791585db1978e13f57ae037a934c12aa1ac6c4c04",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

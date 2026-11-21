@@ -1,0 +1,199 @@
+{
+  "alpha": null,
+  "category": "svg",
+  "createdAt": "2026-11-19T06:17:37+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Pont droite — svg",
+  "dimensions": null,
+  "facing": "right",
+  "family": {
+    "svg": {
+      "height": null,
+      "viewBox": "0 0 96 96",
+      "width": null
+    },
+    "type": "svg"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/pont-droite.svg",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "svg",
+  "id": "asset-svg-pont-droite-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-droite.svg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/source/svg/pont-droite.svg · pont-droite"
+      ],
+      "method": "heuristic"
+    },
+    "facing": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-droite.svg · right"
+      ],
+      "method": "path-tokens"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-droite.svg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-droite.svg"
+      ],
+      "method": "proven"
+    },
+    "orientation": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-droite.svg · droite"
+      ],
+      "method": "path-tokens"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/source/svg/pont-droite.svg · assets"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-droite.svg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "pont-droite",
+  "orientation": "right",
+  "originUniverse": "assets",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/pont-droite.svg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "61268cb73d0548aed2d3be6504d84a1c995c23a9dd511e521beae4c6950155f9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/pont-droite.svg": "51ab101b56c3ce7c9379f6f85103a5ae27224654"
+      },
+      "assetPath": "packages/assets/source/svg/pont-droite.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7388,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/pont-droite.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pont-droite",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/pont-droite.svg": "51ab101b56c3ce7c9379f6f85103a5ae27224654"
+      },
+      "assetPath": "packages/assets/source/svg/pont-droite.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3092,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/source/svg/pont-droite.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "pont-droite",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "61268cb73d0548aed2d3be6504d84a1c995c23a9dd511e521beae4c6950155f9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

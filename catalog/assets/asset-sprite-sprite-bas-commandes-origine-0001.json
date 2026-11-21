@@ -1,0 +1,227 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite bas commandes origine — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-bas-commandes-origine"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-commandes-origine-2x-0001",
+        "h": 64,
+        "w": 64,
+        "x": 134,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-bas-commandes-origine-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/commandes-origine@2x.json · sprite-bas-commandes-origine"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/commandes-origine@2x.json#sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-bas-commandes-origine",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "4d90b2f0f1b2562b",
+    "phash": "d9c066869e2d399e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 85,
+    "verified": false,
+    "w": 88,
+    "x": 205,
+    "y": 718
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-planche-01-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/69/6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-origine@2x.json": "63fea9d7d1c6885b04c4bebb646884a611ad5452",
+        "packages/assets/atlas/commandes-origine@2x.png": "63a8397f8de399347195239d4ee8591b737b2227"
+      },
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 912,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-origine@2x.json": "63fea9d7d1c6885b04c4bebb646884a611ad5452",
+        "packages/assets/atlas/commandes-origine@2x.png": "63a8397f8de399347195239d4ee8591b737b2227"
+      },
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 663,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-bas-commandes-origine-0001",
+    "asset-image-sprite-bas-commandes-origine-0002",
+    "asset-sprite-sprite-bas-commandes-origine-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-commandes-origine-2x-0001",
+          "h": 64,
+          "sourceSheetSha256": "50f21fb52f731b6074cc130cfba834e202db029710e40cd3edd2ecf6d760aadf",
+          "w": 64,
+          "x": 134,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

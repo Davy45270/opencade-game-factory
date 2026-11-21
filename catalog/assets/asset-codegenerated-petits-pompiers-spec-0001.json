@@ -1,0 +1,196 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-05T23:11:23+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Petits pompiers spec — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "tests/e2e/petits-pompiers.spec.ts",
+      "repo": "opencade",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "94987543a220c2481b65cc7b7b58a41bf210bb1ff3854b8d1f95b9edde2029f5",
+        "classification": "shared-library",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": null,
+        "path": "tests/e2e/petits-pompiers.spec.ts",
+        "provider": "forgejo",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "94987543a220c2481b65cc7b7b58a41bf210bb1ff3854b8d1f95b9edde2029f5",
+        "classification": "shared-library",
+        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "game": null,
+        "path": "tests/e2e/petits-pompiers.spec.ts",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-petits-pompiers-spec-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:tests/e2e/petits-pompiers.spec.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "tests/e2e/petits-pompiers.spec.ts · petits-pompiers.spec"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:tests/e2e/petits-pompiers.spec.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:tests/e2e/petits-pompiers.spec.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "opencade@172156af3849e6061e3706166a991c77cf95528a:tests/e2e/petits-pompiers.spec.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+  },
+  "name": "petits-pompiers.spec",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "opencade@172156af3849e6061e3706166a991c77cf95528a:tests/e2e/petits-pompiers.spec.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "94987543a220c2481b65cc7b7b58a41bf210bb1ff3854b8d1f95b9edde2029f5",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "tests/e2e/petits-pompiers.spec.ts": "396c3f37b25a7a355dead15ca366835783da335c"
+      },
+      "assetPath": "tests/e2e/petits-pompiers.spec.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "scripts/test-e2e-impact.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: tests/e2e/petits-pompiers.spec.ts",
+        "module-path: scripts/test-e2e-impact.js"
+      ],
+      "game": "opencade",
+      "importName": "petits-pompiers.spec",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/test-e2e-impact.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "tests/e2e/petits-pompiers.spec.ts": "396c3f37b25a7a355dead15ca366835783da335c"
+      },
+      "assetPath": "tests/e2e/petits-pompiers.spec.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "scripts/test-e2e-impact.js"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "literal: tests/e2e/petits-pompiers.spec.ts",
+        "module-path: scripts/test-e2e-impact.js"
+      ],
+      "game": "opencade",
+      "importName": "petits-pompiers.spec",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/test-e2e-impact.js",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "date": "2026-11-18T20:05:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "94987543a220c2481b65cc7b7b58a41bf210bb1ff3854b8d1f95b9edde2029f5",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

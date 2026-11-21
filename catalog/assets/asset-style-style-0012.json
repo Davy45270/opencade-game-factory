@@ -1,0 +1,357 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-11-04T05:46:34+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+        "game": "petit-astronome",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+        "game": "petit-astronome",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "classification": "game",
+        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "game": "petit-astronome",
+        "path": "src/ui/style.css",
+        "provider": "github",
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0012",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/ui/style.css · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/ui/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2bca18e9ae456b9e1b81e53c465e684cd81806565941dcc43afee641939b15f1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-04T16:49:26+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "04b726a8c246d969fd1fe1dafe0bd54aa2008a0d"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.1.0"
+      ],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "4de321522d27ccff2e11fc136096b20975de000f"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.2.0"
+      ],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/main.ts"
+      },
+      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "evidence": [
+        "import: src/ui/style.css",
+        "module-path: src/main.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "src/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "04b726a8c246d969fd1fe1dafe0bd54aa2008a0d"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "evidence": [
+        "literal: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.1.0"
+      ],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "4de321522d27ccff2e11fc136096b20975de000f"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 4,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "evidence": [
+        "literal: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.2.0"
+      ],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+      },
+      "assetPath": "src/ui/style.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 4,
+        "path": "tests/contrast.test.ts"
+      },
+      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "evidence": [
+        "literal: src/ui/style.css",
+        "module-path: tests/contrast.test.ts"
+      ],
+      "game": "petit-astronome",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "style",
+      "scene": "tests/contrast.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 3,
+  "versions": [
+    {
+      "causalNext": 2,
+      "causalPrevious": null,
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "date": "2026-11-04T07:32:21+01:00",
+      "nextVersion": 2,
+      "previousVersion": null,
+      "sha256": "46f138f61ceca38a9ef05ac6de10f1b3cab8a69e8d939a1e279d6a1c317be125",
+      "version": 1
+    },
+    {
+      "causalNext": 3,
+      "causalPrevious": 1,
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "date": "2026-11-04T07:54:23+01:00",
+      "nextVersion": 3,
+      "previousVersion": 1,
+      "sha256": "48becdca7e5e558ff470db43f9baf14ea4ec19d81c4f174fd4cff526a1474a4a",
+      "version": 2
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 2,
+      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "date": "2026-11-04T16:49:26+01:00",
+      "nextVersion": null,
+      "previousVersion": 2,
+      "sha256": "2bca18e9ae456b9e1b81e53c465e684cd81806565941dcc43afee641939b15f1",
+      "version": 3
+    }
+  ],
+  "visualStyle": null
+}

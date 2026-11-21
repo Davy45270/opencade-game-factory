@@ -1,0 +1,226 @@
+{
+  "alpha": true,
+  "category": "environments",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite reacteur fonds apercu — sprite 144×144",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-reacteur-fonds-apercu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-fonds-apercu-2x-0001",
+        "h": 144,
+        "w": 144,
+        "x": 148,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-reacteur-fonds-apercu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/assets/atlas/fonds-apercu@2x.json · fonds"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/fonds-apercu@2x.json · sprite-reacteur-fonds-apercu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/fonds-apercu@2x.json#sprite-reacteur-fonds-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-reacteur-fonds-apercu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "719ccc6ccc8c8965",
+    "phash": "9233e9d0adcb92c6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "48bcf18e600817f06f8e9e9bc1d166fbff1771b97914f0a44ec8105faa95fc0d",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 126,
+    "verified": false,
+    "w": 157,
+    "x": 216,
+    "y": 796
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-03-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/48/48bcf18e600817f06f8e9e9bc1d166fbff1771b97914f0a44ec8105faa95fc0d.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fonds-apercu@2x.json": "4dde94c29fc4d206776d59fec8815e4763d2cd3d",
+        "packages/assets/atlas/fonds-apercu@2x.png": "51029280f2d5e9434803a4c351bf6e046d5748c2"
+      },
+      "assetPath": "packages/assets/atlas/fonds-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2736,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fonds-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fonds-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fonds-apercu@2x.json": "4dde94c29fc4d206776d59fec8815e4763d2cd3d",
+        "packages/assets/atlas/fonds-apercu@2x.png": "51029280f2d5e9434803a4c351bf6e046d5748c2"
+      },
+      "assetPath": "packages/assets/atlas/fonds-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 485,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/fonds-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fonds-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-reacteur-fonds-apercu-0001",
+    "asset-sprite-sprite-reacteur-fonds-apercu-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-fonds-apercu-2x-0001",
+          "h": 144,
+          "sourceSheetSha256": "1b36ae7b642e82bfd607cfd16ddd373dd434f79dcfa0dc2f0968eb77cd285374",
+          "w": 144,
+          "x": 148,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "48bcf18e600817f06f8e9e9bc1d166fbff1771b97914f0a44ec8105faa95fc0d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

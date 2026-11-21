@@ -1,0 +1,232 @@
+{
+  "alpha": false,
+  "category": "ui",
+  "createdAt": "2026-11-18T11:29:54+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Echecs maskable 512 — image 512×512",
+  "dimensions": {
+    "height": 512,
+    "width": 512
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGB"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/icons/echecs-maskable-512.png",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/icons/echecs-maskable-512.png",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "png",
+  "id": "asset-image-echecs-maskable-512-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/echecs-maskable-512.png · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/icons/echecs-maskable-512.png · echecs-maskable-512"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/echecs-maskable-512.png · icons"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/icons/echecs-maskable-512.png · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "echecs-maskable-512",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "200c60b2b2326116",
+    "phash": "cc3333cc98c7ce31"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/icons/echecs-maskable-512.png"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d73e4dc5c6542be167011cb785889018c3499050a7c40feed5d5d1ff87d03ab6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "thumbnail": "thumbnails/d7/d73e4dc5c6542be167011cb785889018c3499050a7c40feed5d5d1ff87d03ab6.webp",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/icons/echecs-maskable-512.png": "eada6f525f8884acae9b4fe0a5309dd46fc7c15e"
+      },
+      "assetPath": "public/icons/echecs-maskable-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "pwa-manifest.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/icons/echecs-maskable-512.png",
+        "module-path: pwa-manifest.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "echecs-maskable-512",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "icon",
+      "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/icons/echecs-maskable-512.png": "eada6f525f8884acae9b4fe0a5309dd46fc7c15e"
+      },
+      "assetPath": "public/icons/echecs-maskable-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "pwa-manifest.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/icons/echecs-maskable-512.png",
+        "module-path: pwa-manifest.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "echecs-maskable-512",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "icon",
+      "scene": "pwa-manifest.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d73e4dc5c6542be167011cb785889018c3499050a7c40feed5d5d1ff87d03ab6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,239 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite pestouille course a — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-course-a"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-p02-pestouille-0001",
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-course-a-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/p02-pestouille.json · sprite-pestouille-course-a"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-course-a"
+      ],
+      "method": "proven"
+    },
+    "state": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/p02-pestouille.json · course"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/p02-pestouille.json · run"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-course-a",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "4e2715521873664c",
+    "phash": "9df0e68d33cc3832"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 43,
+    "verified": false,
+    "w": 45,
+    "x": 735,
+    "y": 40
+  },
+  "sourceSheetId": "sheet-pestouille-planche-02-sprites-ti-0001",
+  "state": "run",
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "run"
+  ],
+  "thumbnail": "thumbnails/58/589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "81084ca0f3d60da2910839206fda96ead637b5d9",
+        "public/assets/p02-pestouille.json": "84d92d5ae58e8f00878fb9f40e8ffc19b14234d0"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1004,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "81084ca0f3d60da2910839206fda96ead637b5d9",
+        "public/assets/p02-pestouille.json": "84d92d5ae58e8f00878fb9f40e8ffc19b14234d0"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/p02-pestouille.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/manifests/p02-pestouille.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/p02-pestouille.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p02-pestouille-0001",
+          "h": 64,
+          "sourceSheetSha256": "e8e2e31dd70f37998fd1cb661e7bd49043e70802b8287f51b45b3905e811ae08",
+          "w": 64,
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "589acb739e9cf17214a2a63e5b392e4cbbbb814d3596c7deb524060fcea3dbbf",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

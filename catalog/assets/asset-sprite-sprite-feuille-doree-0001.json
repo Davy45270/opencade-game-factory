@@ -1,0 +1,239 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite feuille doree — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-feuille-doree"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m01-icones-0001",
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 64
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-feuille-doree-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/m01-icones.json · sprite-feuille-doree"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m01-icones.json#sprite-feuille-doree"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/m01-icones.json · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-feuille-doree",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "0a3870cca9db962d",
+    "phash": "92d33d696665c30e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "10a926d61039da9340d703056f58aac14147bcf1f56e8c39cd1c6177bdcb2c45",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 38,
+    "verified": false,
+    "w": 37,
+    "x": 1073,
+    "y": 806
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "thumbnail": "thumbnails/10/10a926d61039da9340d703056f58aac14147bcf1f56e8c39cd1c6177bdcb2c45.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2",
+        "public/assets/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066"
+      },
+      "assetPath": "public/assets/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 776,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2",
+        "public/assets/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066"
+      },
+      "assetPath": "public/assets/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m01-icones.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/m01-icones.json",
+        "module-path: assets/manifests/m01-icones.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m01-icones.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m01-icones-0001",
+          "h": 64,
+          "sourceSheetSha256": "e910f0c0d4fc8530c99630fc3247584b3127e5b02100ec0fa4fdad695e19a0f2",
+          "w": 64,
+          "x": 192,
+          "y": 64
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "10a926d61039da9340d703056f58aac14147bcf1f56e8c39cd1c6177bdcb2c45",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

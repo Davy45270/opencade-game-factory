@@ -1,0 +1,223 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite mini nox — sprite 48×48",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-mini-nox"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e04-portraits-0001",
+        "h": 48,
+        "w": 48,
+        "x": 0,
+        "y": 48
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-mini-nox-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e04-portraits.json · sprite-mini-nox"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-portraits.json#sprite-mini-nox"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-mini-nox",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "a64daa69c8cc31b3",
+    "phash": "d72738d7029885f9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0fff72e5a92b7b135dc15ff557f41eb4f545325c9a566ba7ae89af5572b01121",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 48,
+    "verified": false,
+    "w": 48,
+    "x": 307,
+    "y": 389
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-04-comba-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/0f/0fff72e5a92b7b135dc15ff557f41eb4f545325c9a566ba7ae89af5572b01121.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 503,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-portraits.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/manifests/e04-portraits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e04-portraits-0001",
+          "h": 48,
+          "sourceSheetSha256": "cb416cf8d5ebb26747fc8033b13726ead6f4e8ddfd665a9a84707b375cd47887",
+          "w": 48,
+          "x": 0,
+          "y": 48
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0fff72e5a92b7b135dc15ff557f41eb4f545325c9a566ba7ae89af5572b01121",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

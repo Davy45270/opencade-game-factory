@@ -1,0 +1,203 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-19T08:38:42+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Art — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "packages/renderer-pixi/src/art.ts",
+      "repo": "six-de-chaque",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "4e1f76ac0f099e7200567a28e8c7bd7f74996b0d1bb564ecf568367bfea78e4d",
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque/renderer-pixi",
+        "path": "packages/renderer-pixi/src/art.ts",
+        "provider": "forgejo",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "4e1f76ac0f099e7200567a28e8c7bd7f74996b0d1bb564ecf568367bfea78e4d",
+        "classification": "game",
+        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "game": "six-de-chaque/renderer-pixi",
+        "path": "packages/renderer-pixi/src/art.ts",
+        "provider": "local",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-art-0020",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:packages/renderer-pixi/src/art.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/renderer-pixi/src/art.ts · art"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:packages/renderer-pixi/src/art.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:packages/renderer-pixi/src/art.ts"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/renderer-pixi/src/art.ts · renderer-pixi"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:packages/renderer-pixi/src/art.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@05c83c760d733ac016713c5bd8a0505b3fc19f43"
+  },
+  "name": "art",
+  "orientation": "unknown",
+  "originUniverse": "renderer-pixi",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:packages/renderer-pixi/src/art.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4e1f76ac0f099e7200567a28e8c7bd7f74996b0d1bb564ecf568367bfea78e4d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T15:38:02+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/renderer-pixi/src/art.ts": "4c0630e1dd6abebdd80355f22d4f3b4c1344c078"
+      },
+      "assetPath": "packages/renderer-pixi/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: packages/renderer-pixi/src/art.ts",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/renderer-pixi/src/art.ts": "4c0630e1dd6abebdd80355f22d4f3b4c1344c078"
+      },
+      "assetPath": "packages/renderer-pixi/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "evidence": [
+        "literal: packages/renderer-pixi/src/art.ts",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "date": "2026-11-19T15:38:02+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4e1f76ac0f099e7200567a28e8c7bd7f74996b0d1bb564ecf568367bfea78e4d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

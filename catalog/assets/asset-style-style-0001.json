@@ -1,0 +1,173 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-19T09:23:35+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Style — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "game": "capsule-panic",
+        "path": "apps/web/src/style.css",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-style-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:apps/web/src/style.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/src/style.css · style"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:apps/web/src/style.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:apps/web/src/style.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:apps/web/src/style.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "style",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:apps/web/src/style.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "46d32ea158182c9ef3bdeffcebe90d235685e767465652b6cacd96b3ce98a799",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/src/style.css": "f14eecc79e5e2f95bc7c93ab0353736a929affee"
+      },
+      "assetPath": "apps/web/src/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "apps/web/src/main.tsx"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "import: apps/web/src/style.css",
+        "module-path: apps/web/src/main.tsx"
+      ],
+      "game": "capsule-panic",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "style",
+      "scene": "apps/web/src/main.tsx",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/style.css": "f14eecc79e5e2f95bc7c93ab0353736a929affee"
+      },
+      "assetPath": "apps/web/src/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 195,
+        "path": "apps/web/test/ecrans.test.ts"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: apps/web/src/style.css",
+        "module-path: apps/web/test/ecrans.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "style",
+      "scene": "apps/web/test/ecrans.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "46d32ea158182c9ef3bdeffcebe90d235685e767465652b6cacd96b3ce98a799",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

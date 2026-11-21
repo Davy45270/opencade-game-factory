@@ -1,0 +1,223 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T15:22:46+01:00",
+  "creation": {
+    "importJob": "5f9dbf88df5188bd"
+  },
+  "description": "Sprite bete ecarlate — sprite 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-bete-ecarlate"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e04-monstres-0001",
+        "h": 96,
+        "w": 96,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-bete-ecarlate-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e04-monstres.json · sprite-bete-ecarlate"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e04-monstres.json#sprite-bete-ecarlate"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-bete-ecarlate",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "c613694da41a1b0b",
+    "phash": "fbc42935847396d2"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+    ],
+    "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "h": 63,
+    "verified": false,
+    "w": 68,
+    "x": 1107,
+    "y": 699
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-04-comba-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/3f/3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64.webp",
+  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-monstres.png": "fd621d7a86482fc395eeda001c60e7330111ec01",
+        "public/assets/e04-monstres.json": "61c969d461cde46675f7900658003784d42fe950"
+      },
+      "assetPath": "public/assets/e04-monstres.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 449,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-monstres.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-monstres.png": "fd621d7a86482fc395eeda001c60e7330111ec01",
+        "public/assets/e04-monstres.json": "61c969d461cde46675f7900658003784d42fe950"
+      },
+      "assetPath": "public/assets/e04-monstres.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-monstres.json"
+      },
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "evidence": [
+        "literal: public/assets/e04-monstres.json",
+        "module-path: assets/manifests/e04-monstres.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-monstres.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e04-monstres-0001",
+          "h": 96,
+          "sourceSheetSha256": "e482aa3def8daf73f2d05d694ee9c5ab3ddad675dc13762b50f2c2ad3d10d209",
+          "w": 96,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "date": "2026-11-19T15:22:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3f39bae71da1da7d63c54929fbc8b9867cc2f837f98fc06bbe4075e721b41e64",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

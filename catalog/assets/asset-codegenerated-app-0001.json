@@ -1,0 +1,163 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-11-04T06:24:25+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "App — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "src/ui/app.ts",
+      "repo": "petit-astronome",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "3d90d4e42eceadf1b755e307a4cddcc18e68d31004cffd9f57f6982509a5483d",
+        "classification": "game",
+        "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+        "game": "petit-astronome",
+        "path": "src/ui/app.ts",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 2,
+        "blobSha256": "1e063fbbbcd7ed3f29096875aaff38c37f0cbc354270bde3c851b79220f9b1b9",
+        "classification": "game",
+        "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+        "game": "petit-astronome",
+        "path": "src/ui/app.ts",
+        "provider": "github",
+        "releaseOnly": true,
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "blobSha256": "8cc815c88ee32956589f422e8f440c5a9129a1b280f60c118d4c28bd7c568d41",
+        "classification": "game",
+        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "game": "petit-astronome",
+        "path": "src/ui/app.ts",
+        "provider": "github",
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-app-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/ui/app.ts · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/ui/app.ts · app"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@be70ea5d481545ac258ff9eae4bdfde19611c98d"
+  },
+  "name": "app",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8cc815c88ee32956589f422e8f440c5a9129a1b280f60c118d4c28bd7c568d41",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-04T16:49:26+01:00",
+  "usages": [],
+  "variants": [],
+  "version": 3,
+  "versions": [
+    {
+      "causalNext": 2,
+      "causalPrevious": null,
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "date": "2026-11-04T07:32:21+01:00",
+      "nextVersion": 2,
+      "previousVersion": null,
+      "sha256": "3d90d4e42eceadf1b755e307a4cddcc18e68d31004cffd9f57f6982509a5483d",
+      "version": 1
+    },
+    {
+      "causalNext": 3,
+      "causalPrevious": 1,
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "date": "2026-11-04T07:54:23+01:00",
+      "nextVersion": 3,
+      "previousVersion": 1,
+      "sha256": "1e063fbbbcd7ed3f29096875aaff38c37f0cbc354270bde3c851b79220f9b1b9",
+      "version": 2
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 2,
+      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "date": "2026-11-04T16:49:26+01:00",
+      "nextVersion": null,
+      "previousVersion": 2,
+      "sha256": "8cc815c88ee32956589f422e8f440c5a9129a1b280f60c118d4c28bd7c568d41",
+      "version": 3
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,255 @@
+{
+  "alpha": null,
+  "category": "audio",
+  "createdAt": "2026-11-18T12:08:29+00:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Train consigne — audio",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "audio": {
+      "channels": 1,
+      "durationSec": null,
+      "sampleRate": 48000
+    },
+    "type": "audio"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/voix/train.consigne.ogg",
+        "provider": "forgejo",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "game": "echecs-kid",
+        "path": "public/voix/train.consigne.ogg",
+        "provider": "github",
+        "repo": "echecs-kid",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ogg",
+  "id": "asset-audio-train-consigne-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/train.consigne.ogg"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/voix/train.consigne.ogg · train.consigne"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/train.consigne.ogg"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/train.consigne.ogg"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/train.consigne.ogg"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "train.consigne",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "echecs-kid@9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c:public/voix/train.consigne.ogg"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8a65d5ad3e5de0ea5ff5229f3215fc3ef92e6b3a9c9f1b7f3c02b771c5ff7366",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-18T14:02:36+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/voix/train.consigne.ogg": "fc3b499c3faa4b6a9553ee3cdec5a40a83f0f96f"
+      },
+      "assetPath": "public/voix/train.consigne.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "tests/e2e/hors-ligne.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/train.consigne.ogg",
+        "module-path: tests/e2e/hors-ligne.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "train.consigne",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/e2e/hors-ligne.spec.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/voix/train.consigne.ogg": "fc3b499c3faa4b6a9553ee3cdec5a40a83f0f96f"
+      },
+      "assetPath": "public/voix/train.consigne.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 75,
+        "path": "tests/voix.test.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/train.consigne.ogg",
+        "module-path: tests/voix.test.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "train.consigne",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/voix.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/voix/train.consigne.ogg": "fc3b499c3faa4b6a9553ee3cdec5a40a83f0f96f"
+      },
+      "assetPath": "public/voix/train.consigne.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "tests/e2e/hors-ligne.spec.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/train.consigne.ogg",
+        "module-path: tests/e2e/hors-ligne.spec.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "train.consigne",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/e2e/hors-ligne.spec.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/voix/train.consigne.ogg": "fc3b499c3faa4b6a9553ee3cdec5a40a83f0f96f"
+      },
+      "assetPath": "public/voix/train.consigne.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 75,
+        "path": "tests/voix.test.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "literal: public/voix/train.consigne.ogg",
+        "module-path: tests/voix.test.ts"
+      ],
+      "game": "echecs-kid",
+      "importName": "train.consigne",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "sfx",
+      "scene": "tests/voix.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "date": "2026-11-18T14:02:36+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8a65d5ad3e5de0ea5ff5229f3215fc3ef92e6b3a9c9f1b7f3c02b771c5ff7366",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

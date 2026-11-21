@@ -1,0 +1,191 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite barre partie — sprite 126×126",
+  "dimensions": {
+    "height": 126,
+    "width": 126
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-barre-partie"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-composants-maquettes-3x-0001",
+        "h": 126,
+        "w": 126,
+        "x": 2,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-barre-partie-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/composants-maquettes@3x.json · sprite-barre-partie"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/composants-maquettes@3x.json#sprite-barre-partie"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-barre-partie",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "0001000b0b000300",
+    "phash": "ab2bd4d02b2bd4d4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    ],
+    "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c708a20c3cbe67534dcdc6c02dc2932f7a0e3063d18767d30481c7ba9de760e2",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "h": 44,
+    "verified": false,
+    "w": 270,
+    "x": 297,
+    "y": 305
+  },
+  "sourceSheetId": "sheet-capsule-panic-assets-gameplay-02-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/c7/c708a20c3cbe67534dcdc6c02dc2932f7a0e3063d18767d30481c7ba9de760e2.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/composants-maquettes@3x.json": "c59e4ea8ba20ea03710e50ca2fecb287d7f17ef4",
+        "packages/assets/atlas/composants-maquettes@3x.png": "8c5ee573efe50260e4fe468d1b7969ffdabf57d8"
+      },
+      "assetPath": "packages/assets/atlas/composants-maquettes@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1146,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/composants-maquettes@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "composants-maquettes@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-barre-partie-0002"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-composants-maquettes-3x-0001",
+          "h": 126,
+          "sourceSheetSha256": "f1778bec4729a402b243b923bc0bd5fcf264133207b766f15a3afb88cc493b39",
+          "w": 126,
+          "x": 2,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c708a20c3cbe67534dcdc6c02dc2932f7a0e3063d18767d30481c7ba9de760e2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

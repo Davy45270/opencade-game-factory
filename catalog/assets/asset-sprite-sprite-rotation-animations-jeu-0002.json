@@ -1,0 +1,186 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-19T11:33:32+01:00",
+  "creation": {
+    "importJob": "0655d27cd869723f"
+  },
+  "description": "Sprite rotation animations jeu — sprite 216×216",
+  "dimensions": {
+    "height": 216,
+    "width": 216
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-rotation-animations-jeu"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-animations-jeu-3x-0001",
+        "h": 216,
+        "w": 216,
+        "x": 220,
+        "y": 2
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-rotation-animations-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/assets/atlas/animations-jeu@3x.json · sprite-rotation-animations-jeu"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/animations-jeu@3x.json#sprite-rotation-animations-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-rotation-animations-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "2a956a6125357a65",
+    "phash": "9ee1b1604e1fb14e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "98x124+1422+438"
+    ],
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "506ce8d2b1255b4249bba129f9f5353ee5670ade6203c4ed2acbae3775d0d5ea",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/50/506ce8d2b1255b4249bba129f9f5353ee5670ade6203c4ed2acbae3775d0d5ea.webp",
+  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/animations-jeu@3x.json": "0a3cf88c71c5fb460bc763368a619c44d8721e5b",
+        "packages/assets/atlas/animations-jeu@3x.png": "8d5b8dea57e59cd40cab8cff3a30f3c62c51b604"
+      },
+      "assetPath": "packages/assets/atlas/animations-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 204,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "evidence": [
+        "literal: packages/assets/atlas/animations-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "animations-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    }
+  ],
+  "variants": [
+    "asset-image-sprite-rotation-animations-aperc-0001",
+    "asset-sprite-sprite-rotation-animations-aperc-0001",
+    "asset-sprite-sprite-rotation-animations-aperc-0002",
+    "asset-sprite-sprite-rotation-animations-jeu-0001"
+  ],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-animations-jeu-3x-0001",
+          "h": 216,
+          "sourceSheetSha256": "00129fd33e78672dbd2522462292b11676c7494e4ffcb706efb15174d366b078",
+          "w": 216,
+          "x": 220,
+          "y": 2
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "date": "2026-11-19T11:33:32+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "506ce8d2b1255b4249bba129f9f5353ee5670ade6203c4ed2acbae3775d0d5ea",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

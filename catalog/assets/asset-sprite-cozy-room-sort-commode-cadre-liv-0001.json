@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:44:37.558888+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-commode-0001",
+        "reason": "découpe brute de l'élément commode : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-commode-miel-0001",
+        "reason": "pixels différents du cadre livré sprite-commode (empreinte 26a5f6fc4f42)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "95b37b17365262a6959f1aea01d9120d2a78486c7caba5816212f1b5b940a660",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "commode",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-commode-0001",
+          "reason": "découpe brute de l'élément commode : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-commode-miel-0001",
+          "reason": "pixels différents du cadre livré sprite-commode (empreinte 26a5f6fc4f42)"
+        }
+      ],
+      "results": [
+        "asset-sprite-commode-0001",
+        "asset-sprite-commode-miel-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:44:37.166524+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-commode » (content/assets/planches/atlas/p01-meubles.webp), forme normalisée par le jeu de l'élément commode",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-commode-cadre-liv-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-commode-cadre-liv-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-commode"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-commode-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-179.png, SHA-256 1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-commode"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort commode (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f86034343434319f",
+    "phash": "9cc76398b03c346f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-commode-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-commode livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-meubles.webp (webp)\", \"boite\": [120, 148, 698, 446], \"cadre\": \"sprite-commode\", \"element\": \"commode\", \"empreintePixels\": \"26a5f6fc4f428abd109b3d4129549e52a8434606bc0aa1bd6473e8a28d22c702\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 148, \"w\": 120, \"x\": 698, \"y\": 446}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-commode-0001",
+    "parentSha256": "b6917e86ac8669909128c9832901cd7325faa405397589a65ad97fe1f8c7c965",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:44:37.558888+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/assets/planches/atlas/p01-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-commode de content/assets/planches/atlas/p01-meubles.webp (empreinte de pixels 26a5f6fc4f428abd)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-commode",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1e03e86f94bf567bb23a432797b407eac5d9e11138fc6447b98b4bf71e5ceaf6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

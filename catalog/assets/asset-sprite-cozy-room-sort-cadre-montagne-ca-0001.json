@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:56:23.000087+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cadre-montagne-0001",
+        "reason": "découpe brute de l'élément cadre-montagne : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "da704dfc7bb331c6f177f23e304cc10cb78fe232d1e597326a6053118dac212a",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cadre montagne",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cadre-montagne-0001",
+          "reason": "découpe brute de l'élément cadre-montagne : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cadre-montagne-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:56:22.666099+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cadre-montagne » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément cadre-montagne",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cadre-montagne-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cadre-montagne-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-cadre-montagne"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cadre-montagne-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-277.png, SHA-256 55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-cadre-montagne"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cadre-montagne (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "d0ccc4c48494ccd0",
+    "phash": "d0cb1b342dc73d92"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cadre-montagne-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cadre-montagne livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [80, 92, 453, 583], \"cadre\": \"sprite-cadre-montagne\", \"element\": \"cadre-montagne\", \"empreintePixels\": \"ed2eed87e7a78cea1eaa961a88b73e29f6cf7854a042d2ba8cadf8205346a7ec\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 92, \"w\": 80, \"x\": 453, \"y\": 583}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cadre-montagne-0001",
+    "parentSha256": "6f52d97768f1bf2ddc6f6fd7346981f64dcaddece99cb9f8d304b04a81b6bd8d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:56:23.000087+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 171,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-montagne de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels ed2eed87e7a78cea)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cadre-montagne",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "55d4c2728c718c9d99bdc2de9c0875020e9c7bc7d481fc0102459a8ed3a79eee",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

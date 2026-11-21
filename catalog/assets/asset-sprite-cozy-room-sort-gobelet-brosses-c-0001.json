@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:01:45.424502+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-gobelet-brosses-0001",
+        "reason": "découpe brute de l'élément gobelet-brosses : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "33e53108d56114fdbff5c2b00f3f3529fe682d7e290a4c4d6d447d3ac6cf2ad7",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "gobelet brosses",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-gobelet-brosses-0001",
+          "reason": "découpe brute de l'élément gobelet-brosses : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-gobelet-brosses-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:01:45.100547+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-gobelet-brosses » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément gobelet-brosses",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-gobelet-brosses-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-gobelet-brosses-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-gobelet-brosses"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-gobelet-brosses-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-324.png, SHA-256 7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-gobelet-brosses"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort gobelet-brosses (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "c54d6969616161b2",
+    "phash": "ce7331ce309c399c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-gobelet-brosses-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-gobelet-brosses livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [58, 97, 582, 607], \"cadre\": \"sprite-gobelet-brosses\", \"element\": \"gobelet-brosses\", \"empreintePixels\": \"bdb8d381659b0a0317949f47cbde3230ccd16953880036b8bc6e692a4943ed73\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 97, \"w\": 58, \"x\": 582, \"y\": 607}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-gobelet-brosses-0001",
+    "parentSha256": "88858be9151be255ec94381ee1df055bcee0a74c1f665108d2f03426f8a60475",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:01:45.424502+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 318,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-gobelet-brosses de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels bdb8d381659b0a03)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-gobelet-brosses",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7741a8014d56f659fcab76963e59fc6c9b2676e2edf45089b39efc23b65f0e08",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

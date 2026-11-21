@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:46:41.497545+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-carton-ouvert-0001",
+        "reason": "découpe brute de l'élément carton-ouvert : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3d11fc5945fbf7d28c7ab4d9181876aa8977ef9671a03b907efc7d3fea0a96d1",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "carton ouvert",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-carton-ouvert-0001",
+          "reason": "découpe brute de l'élément carton-ouvert : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-carton-ouvert-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:46:41.131308+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-carton-ouvert » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément carton-ouvert",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-carton-ouvert-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-carton-ouvert-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-carton-ouvert"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-carton-ouvert-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-196.png, SHA-256 3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-carton-ouvert"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort carton-ouvert (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9629ec8eece0c073",
+    "phash": "c4373b4a34a11fce"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-carton-ouvert-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-carton-ouvert livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [162, 122, 319, 764], \"cadre\": \"sprite-carton-ouvert\", \"element\": \"carton-ouvert\", \"empreintePixels\": \"7f7a49339c50e87fe998b10b9bd6b56fb75cae162d82f18e24ed73edc75a0f1e\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 122, \"w\": 162, \"x\": 319, \"y\": 764}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-carton-ouvert-0001",
+    "parentSha256": "ae95bb5a344521087fe5ba96065557e662fe56a0f914f6efbfec1dfb68e50d63",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:46:41.497545+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-carton-ouvert de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 7f7a49339c50e87f)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-carton-ouvert",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3a76574eb731f820a3600d796e5909905728f87a21c45b9326aa6275aa86d9a3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

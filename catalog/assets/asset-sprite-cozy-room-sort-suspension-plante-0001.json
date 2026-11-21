@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:54:47.156697+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-suspension-plante-0001",
+        "reason": "découpe brute de l'élément suspension-plante : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a79a6645cb7ab6a57f5bc753bd2522f91f3d2462c585f47a8fb4bffefea0f249",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "suspension plante",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-suspension-plante-0001",
+          "reason": "découpe brute de l'élément suspension-plante : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-suspension-plante-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:54:46.772495+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-suspension-plante » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément suspension-plante",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-suspension-plante-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-suspension-plante-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-suspension-plante"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-suspension-plante-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-263.png, SHA-256 e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-suspension-plante"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort suspension-plante (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "1432296b3333334d",
+    "phash": "cc3334cd339cce32"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-suspension-plante-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-suspension-plante livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [116, 146, 1063, 560], \"cadre\": \"sprite-suspension-plante\", \"element\": \"suspension-plante\", \"empreintePixels\": \"43625411039e3b9498f8272bb043abf60cf5427f81c2894c96aaa925acb47e5d\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 146, \"w\": 116, \"x\": 1063, \"y\": 560}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-suspension-plante-0001",
+    "parentSha256": "ad107d7f01aa21e14ce10819faaf73e50624b927c16940dd684e51ffc7e1e025",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:54:47.156697+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 423,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-suspension-plante de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels 43625411039e3b94)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-suspension-plante",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e2a6ba5b2e70fa29bcb64516aa77e6ec29f2c88fb4f7a3f03f51fc7a9a1054fc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:44:30.087510+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-chaise-bois-0001",
+        "reason": "découpe brute de l'élément chaise-bois : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0d8edafffa2e01115deeed214f2962d74029b6f4ec181bc9ee7a1fb1a0a21cd3",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "chaise bois",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-chaise-bois-0001",
+          "reason": "découpe brute de l'élément chaise-bois : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-chaise-bois-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:44:29.674634+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-chaise-bois » (content/assets/planches/atlas/p01-meubles.webp), forme normalisée par le jeu de l'élément chaise-bois",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-chaise-bois-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-chaise-bois-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-chaise-bois"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-chaise-bois-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-meubles.json · cadre sprite-chaise-bois"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort chaise-bois (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "311933e1f32b692c",
+    "phash": "cb903439cdcf342d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-chaise-bois-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-chaise-bois livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-meubles.webp (webp)\", \"boite\": [105, 155, 970, 440], \"cadre\": \"sprite-chaise-bois\", \"element\": \"chaise-bois\", \"empreintePixels\": \"81ac764a9fabe0b57a1322106c277a3a1e229caae229d0d95a008a89f47ba491\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 155, \"w\": 105, \"x\": 970, \"y\": 440}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-chaise-bois-0001",
+    "parentSha256": "8de047a0febf30246047679638ad0459f3e02df3873fde2dd09cf1b4bc64f093",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:44:30.087510+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "content/assets/planches/atlas/p01-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-chaise-bois de content/assets/planches/atlas/p01-meubles.webp (empreinte de pixels 81ac764a9fabe0b5)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-chaise-bois",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "673190a7dc220c28ef3d981c45a7d4d4aa05843c8b742377182e5667ee9ee012",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

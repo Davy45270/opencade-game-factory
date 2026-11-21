@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:48:01.065763+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-mur-fenetre-0001",
+        "reason": "découpe brute de l'élément mur-fenetre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b4eec0d75f49f0f50d3116b673f75f3e9756323a748e569d15b0209181de5feb",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "mur fenetre",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-mur-fenetre-0001",
+          "reason": "découpe brute de l'élément mur-fenetre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-mur-fenetre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:48:00.688160+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-mur-fenetre » (content/assets/planches/atlas/p01-panneaux.webp), forme normalisée par le jeu de l'élément mur-fenetre",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-mur-fenetre-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-mur-fenetre-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-mur-fenetre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-mur-fenetre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-207.png, SHA-256 a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-mur-fenetre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort mur-fenetre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "3086707131b04300",
+    "phash": "9e8f61709e0fe1b0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-mur-fenetre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-mur-fenetre livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-panneaux.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-panneaux.webp (webp)\", \"boite\": [278, 105, 272, 899], \"cadre\": \"sprite-mur-fenetre\", \"element\": \"mur-fenetre\", \"empreintePixels\": \"447268d31fd4d7417fe2f1fd58c1aec79c25b3cc1c4d876a3336bb94838bbd52\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 105, \"w\": 278, \"x\": 272, \"y\": 899}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-mur-fenetre-0001",
+    "parentSha256": "ab20f78dbc9d6fb41cb24ecc14741e0491d7771d15444e3ead2f18550a0e4f3a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-panneaux.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:48:01.065763+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-panneaux.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p01-panneaux.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-mur-fenetre de content/assets/planches/atlas/p01-panneaux.webp (empreinte de pixels 447268d31fd4d741)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-mur-fenetre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-panneaux.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-panneaux.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a92395f55f2d5ce08641bda6205f7a45645f4b4abcfbb9e9bc15d81c1aae1bab",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:04:43.338566+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-boutons-bas-0001",
+        "reason": "découpe brute de l'élément boutons-bas : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "6c620c077d04372531f8bad12740b5ccd18105e6a9fc10add1479503b01e1abc",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "boutons bas",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-boutons-bas-0001",
+          "reason": "découpe brute de l'élément boutons-bas : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-boutons-bas-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:04:42.990699+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-boutons-bas » (content/assets/planches/atlas/p04-ui.webp), forme normalisée par le jeu de l'élément boutons-bas",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-boutons-bas-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-boutons-bas-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-ui.json · cadre sprite-boutons-bas"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-boutons-bas-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-349.png, SHA-256 5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-ui.json · cadre sprite-boutons-bas"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort boutons-bas (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "104d32b2aa710c00",
+    "phash": "cca5335acca57a4a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-boutons-bas-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-boutons-bas livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-ui.webp (webp)\", \"boite\": [250, 67, 18, 606], \"cadre\": \"sprite-boutons-bas\", \"element\": \"boutons-bas\", \"empreintePixels\": \"f6ee7ccb85dbd4fef66f65998e7f72b2cf441092bc789ac54f4db3cf2521ee80\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 67, \"w\": 250, \"x\": 18, \"y\": 606}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-boutons-bas-0001",
+    "parentSha256": "66d9a9a921dbf5de9f4dbcc7c272eebf9c3bdddaed576ab90a9814a18a5ed9b6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:04:43.338566+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/assets/planches/atlas/p04-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-boutons-bas de content/assets/planches/atlas/p04-ui.webp (empreinte de pixels f6ee7ccb85dbd4fe)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-boutons-bas",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

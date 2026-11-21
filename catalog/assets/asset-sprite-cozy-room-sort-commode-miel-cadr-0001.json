@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:53:05.339272+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-commode-miel-0001",
+        "reason": "découpe brute de l'élément commode-miel : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "42cfcdfc024b3e7873119db4f39c12af886eaf447e5f43741e9dbbd3d1621b8e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "commode miel",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-commode-miel-0001",
+          "reason": "découpe brute de l'élément commode-miel : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-commode-miel-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:53:04.998800+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-commode-miel » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément commode-miel",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-commode-miel-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-commode-miel-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-commode-miel"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-commode-miel-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-248.png, SHA-256 211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-commode-miel"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort commode-miel (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "47c288c888c88c51",
+    "phash": "d0852f702b7a6a7c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-commode-miel-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-commode-miel livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [180, 160, 579, 377], \"cadre\": \"sprite-commode-miel\", \"element\": \"commode-miel\", \"empreintePixels\": \"0fe605efbbbe3f3564f74645a8326440743643b715317d176b7993253a2d3598\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 160, \"w\": 180, \"x\": 579, \"y\": 377}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-commode-miel-0001",
+    "parentSha256": "93a7ac85717d9214bffefb3cf08afc4a58d21461c520d7449cbe8f44332ce37f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:53:05.339272+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-commode-miel de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels 0fe605efbbbe3f35)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-commode-miel",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "211bfe6790f65d8aa6c8bb6613544c25e51dc1ad7d41e05bde13f933f7507dc1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

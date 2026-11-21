@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:53:18.741580+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-etagere-bougies-0001",
+        "reason": "découpe brute de l'élément etagere-bougies : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3d5b16b78f511c92f8ed33f96f9aaae67658c39437a46250b3e8d75a5eabe64a",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "etagere bougies",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-etagere-bougies-0001",
+          "reason": "découpe brute de l'élément etagere-bougies : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-etagere-bougies-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:53:18.388517+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-etagere-bougies » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément etagere-bougies",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-etagere-bougies-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-etagere-bougies-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-etagere-bougies"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etagere-bougies-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-250.png, SHA-256 8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-etagere-bougies"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort etagere-bougies (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "304bc484a2488401",
+    "phash": "c0c33f3fccc40733"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-etagere-bougies-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etagere-bougies livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [214, 133, 223, 581], \"cadre\": \"sprite-etagere-bougies\", \"element\": \"etagere-bougies\", \"empreintePixels\": \"d7d178cb35ac5e6c1357385c208831e7229790da41021590ee0c8058f59c5d9f\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 133, \"w\": 214, \"x\": 223, \"y\": 581}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-etagere-bougies-0001",
+    "parentSha256": "9783ef8cfaf935a4aab02559e3f80e30acf1017187dbe4a3d940a241a9fa8eb0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:53:18.741580+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 150,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-etagere-bougies de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels d7d178cb35ac5e6c)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-etagere-bougies",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8ee3a5bebd8b0e3ed6f5b885d4f755a65d3f0df2777d602002265873be4a4f64",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

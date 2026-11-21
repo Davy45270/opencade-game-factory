@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:03:01.550652+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-seche-cheveux-0001",
+        "reason": "découpe brute de l'élément seche-cheveux : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8d63cad0d80fbd936efc40a98a641ff16461dcf9ad2b0c75f5ef06c01462b4bd",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "seche cheveux",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-seche-cheveux-0001",
+          "reason": "découpe brute de l'élément seche-cheveux : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-seche-cheveux-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:03:01.221709+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-seche-cheveux » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément seche-cheveux",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-seche-cheveux-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-seche-cheveux-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-seche-cheveux-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-335.png, SHA-256 db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-seche-cheveux"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort seche-cheveux (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f9e9711972b20c4a",
+    "phash": "d9cb662c39322c3d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-seche-cheveux-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-seche-cheveux livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [91, 109, 1017, 603], \"cadre\": \"sprite-seche-cheveux\", \"element\": \"seche-cheveux\", \"empreintePixels\": \"e85678384ff565277f9145da360662e1d40ff77a0eb6bbf228e1507beb9f22e7\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 109, \"w\": 91, \"x\": 1017, \"y\": 603}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-seche-cheveux-0001",
+    "parentSha256": "b9ebc3ea8f2cbf96ae9eae5eae228d8d8677552b3b795448140f02e7bb4657d2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:03:01.550652+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 549,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-seche-cheveux de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels e85678384ff56527)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-seche-cheveux",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "db81e460304115d0ee8c1647ccc8e810d92cfbd476edbd51712534e826e8fa84",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

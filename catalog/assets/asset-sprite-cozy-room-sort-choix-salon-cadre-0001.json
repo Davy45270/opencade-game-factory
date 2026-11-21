@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:04:21.756950+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-choix-salon-0001",
+        "reason": "découpe brute de l'élément choix-salon : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ba452e5c984d387aaf65fdec2941f947852864962d66f55d04c5f4bced037c2e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "choix salon",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-choix-salon-0001",
+          "reason": "découpe brute de l'élément choix-salon : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-choix-salon-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:04:21.395295+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-choix-salon » (content/assets/planches/atlas/p04-selecteur.webp), forme normalisée par le jeu de l'élément choix-salon",
+  "dimensions": {
+    "height": 200,
+    "width": 200
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-choix-salon-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-choix-salon-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-salon"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-choix-salon-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-salon"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort choix-salon (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "71c486266236dccc",
+    "phash": "c46cd21f0fd13c8d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-choix-salon-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-choix-salon livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-selecteur.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-selecteur.webp (webp)\", \"boite\": [168, 178, 821, 9], \"cadre\": \"sprite-choix-salon\", \"element\": \"choix-salon\", \"empreintePixels\": \"249cfa413285144bcf52ed5e8b773e65b469a4fbbdb81ed9c0bfa7ec40436b46\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 178, \"w\": 168, \"x\": 821, \"y\": 9}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-choix-salon-0001",
+    "parentSha256": "4545564016db5881e92582a7041a4c7b45d88f4736fb714bf024ebf1c0dcd7fd",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-selecteur.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:04:21.756950+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-selecteur.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p04-selecteur.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-choix-salon de content/assets/planches/atlas/p04-selecteur.webp (empreinte de pixels 249cfa413285144b)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-choix-salon",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-selecteur.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-selecteur.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "16fc8829ec7612e57ee7a32b7b4edee20ba982ad57c7eae56b093d62f8e0f2e2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

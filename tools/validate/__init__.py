@@ -220,8 +220,6 @@ class CatalogueValidation:
         """§ 8 « empreintes, dimensions/alpha » : un binaire gardé par le registre (files.registry) a l'empreinte,
         les dimensions et l'alpha que déclare sa fiche. Un binaire absent ou illisible est un échec, jamais un saut."""
         from tools.discovery.formats import Unreadable, inspect
-        from tools.extract.regions import canonical_png
-
         for collection, items in records.items():
             for record_id, record in items.items():
                 local = record["files"].get("registry") if isinstance(record.get("files"), dict) else None
@@ -239,11 +237,9 @@ class CatalogueValidation:
                 except Unreadable as exc:
                     self.issue(path, "registry-unreadable", f"{local} : {exc}")
                     continue
-                if record["files"].get("sha256Method") == "canonical-crop-png" and measured is not None \
-                        and measured.image is not None:
-                    digest = hashlib.sha256(canonical_png(measured.image)).hexdigest()
-                else:
-                    digest = hashlib.sha256(data).hexdigest()
+                # Empreinte des OCTETS servis, comme la livraison (Delivery.verified) : réencoder le PNG dépendrait
+                # de la version de zlib et de Pillow (pipeline 24 et 26 : 32 faux écarts sous python:3.13-slim).
+                digest = hashlib.sha256(data).hexdigest()
                 if str(record.get("sha256") or "").lower() != digest:
                     self.issue(path, "registry-digest", f"Empreinte de {local} différente de la fiche.")
                 if measured is None:

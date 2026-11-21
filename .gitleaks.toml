@@ -11,3 +11,10 @@ des fiches et des rapports générés : nom de fichier → identifiant d'objet g
 paths = ['''^(catalog/assets|generated)/.*\.json$''']
 regexTarget = "line"
 regexes = ['''^\s*"[^"]+\.(png|webp|jpg|jpeg|gif|svg|ogg|wav|mp3|ttf|otf|woff2?)"\s*:\s*"[0-9a-f]{40}",?\s*$''']
+
+[[allowlists]]
+description = """Journaux d'audit des registres (specctl, bbctl) : empreintes SHA-256 des fiches avant et après chaque
+écriture, aucune valeur secrète. 10 faux positifs generic-api-key relevés dans 98808beb (pipeline 71, HL-525)."""
+paths = ['''^(specs/registry|blocks)/journal\.jsonl$''']
+regexTarget = "line"
+regexes = ['''^\{"at": "[0-9TZ:-]+", "(blockId|command)": .*"sha256After": "[0-9a-f]{64}", "sha256Before": (null|"[0-9a-f]{64}")(, "specId": "SPEC-[A-Z0-9-]+")?\}$''']

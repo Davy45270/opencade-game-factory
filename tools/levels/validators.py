@@ -6,6 +6,7 @@ dans la carte (entités typées, couches de collision et de piste) et le profil 
 réimplémentent pas un moteur.
 """
 
+import re
 from collections import deque
 from pathlib import Path
 
@@ -437,6 +438,8 @@ def platformer(level, profile=None, budget=None):
 def circuit(level, profile=None, budget=None):
     """Boucle fermée, points de contrôle dans l'ordre (`order`), largeur minimale du profil de kart, sans sortie de
     piste ; la longueur du tour est mesurée sur le chemin trouvé, jamais inventée."""
+    if "circuit" in level:
+        return game_engine(level, profile, "circuit")
     sem = semantics(level)
     params = (profile or {}).get("circuit") or {}
     radius = max(0, (int(params.get("minWidth", 1)) - 1) // 2)
@@ -513,22 +516,28 @@ def _distance(sources, targets, passable, width, height, budget):
 # --- Puzzle : le moteur du jeu, sans écran ------------------------------------------------------------------------
 
 def puzzle(level, profile=None, budget=None):
-    """Les règles d'un puzzle appartiennent au jeu (arbitrage 7-2949) : on n'en réimplémente rien. Le profil du jeu
-    déclare sa commande de validation sans écran (`engine.command`, lancée dans `engine.cwd`), qui importe le moteur
-    et le solveur du jeu ; elle reçoit le niveau en fichier et répond par ligne `OK <id> …` ou `ÉCHEC <id> : motif`."""
+    """Les règles d'un puzzle appartiennent au jeu (arbitrage 7-2949) : on n'en réimplémente rien."""
+    return game_engine(level, profile, "puzzle")
+
+
+def game_engine(level, profile, key):
+    """Niveau natif d'un jeu (`level[key]`, gardé tel quel) : le profil du jeu déclare sa commande de validation sans
+    écran (`engine.command`, lancée dans `engine.cwd`), qui importe le moteur du jeu ; elle reçoit le niveau en
+    fichier et répond par ligne `OK <id> …` ou `ÉCHEC <id> : motif`. Sans elle : `inconclusive`, jamais `pass`."""
     import json
     import subprocess
     import tempfile
 
     engine = (profile or {}).get("engine")
-    if not engine or "puzzle" not in level:
+    if not engine or key not in level:
         return {"status": "inconclusive", "diagnostics": [_diag(
-            "no-validator", "puzzle : le profil du jeu doit déclarer engine.command (moteur du jeu sans écran)",
+            "no-validator", f"{key} : le profil du jeu doit déclarer engine.command (moteur du jeu sans écran)",
             severity="warning")], "metrics": {}}
-    name = str(level["puzzle"].get("id") or level["name"])
-    with tempfile.TemporaryDirectory(prefix="level-puzzle-") as folder:
+    native = level[key]
+    name = re.sub(r"[^\w.-]+", "-", str(native.get("id") or native.get("name") or level["name"]))[:80]
+    with tempfile.TemporaryDirectory(prefix="level-engine-") as folder:
         path = Path(folder) / f"{name}.json"
-        path.write_text(json.dumps(level["puzzle"], ensure_ascii=False))
+        path.write_text(json.dumps(native, ensure_ascii=False))
         try:
             run = subprocess.run([*engine["command"], str(path)], cwd=engine.get("cwd"), capture_output=True,
                                  text=True, timeout=engine.get("timeout", 120))
@@ -540,7 +549,7 @@ def puzzle(level, profile=None, budget=None):
     if run.returncode == 0 and lines and lines[-1].startswith("OK "):
         return _result([], metrics)
     if lines and lines[-1].startswith("ÉCHEC "):
-        return _result([_diag("puzzle-rejected-by-engine", lines[-1].split(" : ", 1)[-1])], metrics)
+        return _result([_diag(f"{key}-rejected-by-engine", lines[-1].split(" : ", 1)[-1])], metrics)
     return _result([_diag("engine-unreadable", f"réponse du moteur illisible (code {run.returncode})",
                           severity="warning")], metrics, inconclusive=True)
 

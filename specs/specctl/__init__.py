@@ -153,7 +153,7 @@ def import_records(store, source, dry_run, report=False):
                "created": created, "updated": updated, "warnings": warnings,
                "sourceCommit": source.head, "dryRun": dry_run}
     if report:
-        payload["report"] = commandes.report(records, source, warnings, incoming)
+        payload["report"] = commandes.report(records, source, warnings, incoming, store.root)
     return ExitCode.OK, payload
 
 

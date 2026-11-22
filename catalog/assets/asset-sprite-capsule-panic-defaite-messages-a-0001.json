@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:08:53.958998+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-defaite-messages-apercu-0001",
+        "reason": "découpe brute de l'élément defaite-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5b65f3adeca3d9305dd6c5d66d6ce051d901ef02d7a959258c4cfc41b530869d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "defaite messages apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-defaite-messages-apercu-0001",
+          "reason": "découpe brute de l'élément defaite-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-defaite-messages-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:08:53.548914+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-defaite-messages-apercu » (packages/assets/atlas/messages-apercu@2x.png), forme normalisée par le jeu de l'élément defaite-messages-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-defaite-messages-a-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-defaite-messages-a-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@2x.json · cadre sprite-defaite-messages-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-defaite-messages-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-260.png, SHA-256 942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@2x.json · cadre sprite-defaite-messages-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic defaite-messages-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "008027d1d10e0000",
+    "phash": "c2c0bd3d42c0bd3f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-defaite-messages-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-defaite-messages-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/messages-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/messages-apercu@2x.png (png)\", \"boite\": [182, 30, 1476, 661], \"cadre\": \"sprite-defaite-messages-apercu\", \"element\": \"defaite-messages-apercu\", \"empreintePixels\": \"5f34e60e3eadd4a5411cb0124fa884e81e5cff523bfdc05415220c13f7d1b22f\", \"parametres\": {\"marge\": 4, \"taille\": 144}, \"regionDuBrut\": {\"h\": 30, \"w\": 182, \"x\": 1476, \"y\": 661}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe.json\", \"tableSha256\": \"a901c1b37f7bbcbb2f2b4e9cedf7779f937f9d8aea6487666acbd7aebe766fd2\"}"
+    ],
+    "parentId": "asset-sprite-defaite-messages-apercu-0001",
+    "parentSha256": "7177f15c0fabf1ed7461c0e34528d36ee0cc969b7bccb077476049eb288b86c2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:08:53.958998+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/messages-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/messages-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-defaite-messages-apercu de packages/assets/atlas/messages-apercu@2x.png (empreinte de pixels 5f34e60e3eadd4a5)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-defaite-messages-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/messages-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/messages-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

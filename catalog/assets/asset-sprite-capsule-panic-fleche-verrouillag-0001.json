@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:01:42.307268+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fleche-verrouillage-apercu-0001",
+        "reason": "découpe brute de l'élément fleche-verrouillage-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "76d530bd58baed76eba6adcfa524820e855d9fcb1da580e392f6f27e88d7381c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fleche verrouillage apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fleche-verrouillage-apercu-0001",
+          "reason": "découpe brute de l'élément fleche-verrouillage-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fleche-verrouillage-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:01:41.921976+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fleche-verrouillage-apercu » (packages/assets/atlas/effets-maquettes@2x.png), forme normalisée par le jeu de l'élément fleche-verrouillage-apercu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fleche-verrouillag-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fleche-verrouillag-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-fleche-verrouillage-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-verrouillage-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-195.png, SHA-256 543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-fleche-verrouillage-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fleche-verrouillage-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "48b249c8cc4fb248",
+    "phash": "9252eda9d2d02b57"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fleche-verrouillage-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-verrouillage-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@2x.png (png)\", \"boite\": [56, 25, 1345, 462], \"cadre\": \"sprite-fleche-verrouillage-apercu\", \"element\": \"fleche-verrouillage-apercu\", \"empreintePixels\": \"cb91849f4cb456ece72ab4a106df998d6aadbf40d4740ec25fc363e182c840ff\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 25, \"w\": 56, \"x\": 1345, \"y\": 462}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-fleche-verrouillage-apercu-0001",
+    "parentSha256": "0b78e425343910c3346b2b80f1b2731b9dd4d9726b36a374a3d3f5eedf8d860e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:01:42.307268+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "packages/assets/atlas/effets-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-verrouillage-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels cb91849f4cb456ec)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-verrouillage-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "543e2cb1fadb145581b05348f905c0e5cac66ba125ab1e72dbaf24e98ca40178",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

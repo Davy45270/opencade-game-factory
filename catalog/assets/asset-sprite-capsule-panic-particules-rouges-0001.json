@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:01:11.893659+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-particules-rouges-apercu-0001",
+        "reason": "découpe brute de l'élément particules-rouges-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1bf9285adf6b520908d7cf4461eb93fcad2adc309327722132e3013a8b3de830",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "particules rouges apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-particules-rouges-apercu-0001",
+          "reason": "découpe brute de l'élément particules-rouges-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-particules-rouges-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:01:11.453194+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-particules-rouges-apercu » (packages/assets/atlas/effets-maquettes@2x.png), forme normalisée par le jeu de l'élément particules-rouges-apercu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-particules-rouges-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-particules-rouges-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-particules-rouges-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-particules-rouges-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-particules-rouges-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic particules-rouges-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0cb2f4cca4d9ec22",
+    "phash": "d24da930a6b3b36c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-particules-rouges-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-particules-rouges-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@2x.png (png)\", \"boite\": [61, 57, 1129, 351], \"cadre\": \"sprite-particules-rouges-apercu\", \"element\": \"particules-rouges-apercu\", \"empreintePixels\": \"12a73db7412e3f1a522970d7254e7c17c1ed0e466b0ef28bb4aec486c89ca80a\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 57, \"w\": 61, \"x\": 1129, \"y\": 351}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-particules-rouges-apercu-0001",
+    "parentSha256": "23c7291e88a291d59d82ca50ffdfc9547310dc59c78c5f87d3193ff0c6345b5c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:01:11.893659+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/effets-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-particules-rouges-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels 12a73db7412e3f1a)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-particules-rouges-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b4638e022716088704869cd285a9383aa00ef8a58fd93e96278590b6955a6939",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:02:43.436234+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+        "reason": "pixels différents du cadre livré sprite-fleche-rotation-apercu (empreinte 6a2b2e8c2723)"
+      },
+      {
+        "assetId": "asset-sprite-fleche-rotation-apercu-0001",
+        "reason": "découpe brute de l'élément fleche-rotation-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "370be8cff6c99dae93cc6aaa09338afa3f707a5f1804a473f968ea2a8951f328",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fleche rotation apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+          "reason": "pixels différents du cadre livré sprite-fleche-rotation-apercu (empreinte 6a2b2e8c2723)"
+        },
+        {
+          "assetId": "asset-sprite-fleche-rotation-apercu-0001",
+          "reason": "découpe brute de l'élément fleche-rotation-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+        "asset-sprite-fleche-rotation-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:02:42.934814+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fleche-rotation-apercu » (packages/assets/atlas/effets-maquettes@3x.png), forme normalisée par le jeu de l'élément fleche-rotation-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fleche-rotation-ap-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fleche-rotation-ap-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-fleche-rotation-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-rotation-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-204.png, SHA-256 31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-fleche-rotation-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fleche-rotation-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "600774dc8c799600",
+    "phash": "94c4eb3b90c54e3e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fleche-rotation-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-rotation-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@3x.png (png)\", \"boite\": [42, 26, 1328, 351], \"cadre\": \"sprite-fleche-rotation-apercu\", \"element\": \"fleche-rotation-apercu\", \"empreintePixels\": \"6a2b2e8c27230d5270a69081c89e304623ae07d3138bcbed2699770325deb67c\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 26, \"w\": 42, \"x\": 1328, \"y\": 351}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-fleche-rotation-apercu-0001",
+    "parentSha256": "c93819410f5ac01dafac3e103145fd7f748093a64c6cd0ef9ed7be1b7689978c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:02:43.436234+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

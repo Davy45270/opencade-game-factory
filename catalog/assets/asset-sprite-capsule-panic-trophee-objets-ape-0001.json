@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:09:55.046562+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-trophee-objets-apercu-0001",
+        "reason": "découpe brute de l'élément trophee-objets-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d8ca2c962a16795fa1bf400f22f91501304a3fd02a165de953a44e46a555291b",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trophee objets apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-trophee-objets-apercu-0001",
+          "reason": "découpe brute de l'élément trophee-objets-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-trophee-objets-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:09:54.610570+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trophee-objets-apercu » (packages/assets/atlas/objets-apercu@2x.png), forme normalisée par le jeu de l'élément trophee-objets-apercu",
+  "dimensions": {
+    "height": 112,
+    "width": 112
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trophee-objets-ape-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trophee-objets-ape-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-apercu@2x.json · cadre sprite-trophee-objets-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trophee-objets-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-268.png, SHA-256 63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-apercu@2x.json · cadre sprite-trophee-objets-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trophee-objets-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "8e3369703317b2b2",
+    "phash": "cd9331309ecc73ca"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trophee-objets-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trophee-objets-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-apercu@2x.png (png)\", \"boite\": [58, 53, 1069, 644], \"cadre\": \"sprite-trophee-objets-apercu\", \"element\": \"trophee-objets-apercu\", \"empreintePixels\": \"4a4e7ad2de14754b48ee781c1bbf71e31d0cc3c772990f711f0cbe39a626388c\", \"parametres\": {\"marge\": 4, \"taille\": 112}, \"regionDuBrut\": {\"h\": 53, \"w\": 58, \"x\": 1069, \"y\": 644}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.objets-apercu.decoupe.json\", \"tableSha256\": \"5b0589069f8162afb6a1bc9b2982f2944943a1e488a8a80baeb2a8c3687e5b20\"}"
+    ],
+    "parentId": "asset-sprite-trophee-objets-apercu-0001",
+    "parentSha256": "be0ba35567fb90fc040f5b36d11917e265bda722094a5de307f4b6a4ce957742",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.objets-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:09:55.046562+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/objets-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/objets-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-trophee-objets-apercu de packages/assets/atlas/objets-apercu@2x.png (empreinte de pixels 4a4e7ad2de14754b)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-trophee-objets-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/objets-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/objets-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "63048bb3b17f2fb74bb1e002411239f674aa7c407265f818859b500d594f1a5b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

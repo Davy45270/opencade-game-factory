@@ -3,7 +3,41 @@
   "category": "characters",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-chercheuse-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/personnages-origine@2x.png#sprite-chercheuse-origine"
+      },
+      {
+        "assetId": "asset-sprite-sprite-chercheuse-origine-0003",
+        "reason": "source du cadre sprite-chercheuse-origine : dérivé : boîte [375, 361, 2, 11] de Capsule_Panic_Assets_Planche_01.png (provenance.json) (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e827a17a2a7028a09ae5d35c90add5f7ff51556d9b7780a212ecca8cfadffd5c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite chercheuse origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-chercheuse-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/personnages-origine@2x.png#sprite-chercheuse-origine"
+        },
+        {
+          "assetId": "asset-sprite-sprite-chercheuse-origine-0003",
+          "reason": "source du cadre sprite-chercheuse-origine : dérivé : boîte [375, 361, 2, 11] de Capsule_Panic_Assets_Planche_01.png (provenance.json) (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-chercheuse-0001",
+        "asset-sprite-sprite-chercheuse-origine-0003"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:11:23.669746+00:00"
+    }
   },
   "description": "Sprite chercheuse origine — sprite 136×136",
   "dimensions": {
@@ -28,7 +62,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-chercheuse-origine-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +125,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-chercheuse-origine (origine « licences.json »)"
+  },
   "name": "sprite-chercheuse-origine",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,17 +140,22 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-sprite-sprite-chercheuse-origine-0003",
     "evidence": [
-      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+      "importer_livre : cadre packages/assets/atlas/personnages-origine@2x.png#sprite-chercheuse-origine de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [375, 361, 2, 11] de Capsule_Panic_Assets_Planche_01.png (provenance.json)"
     ],
+    "parentId": "asset-sprite-sprite-chercheuse-origine-0003",
+    "parentSha256": "b0d0ac0e55c3172968ce698b9a4dca603950b9628ffa0347fc276c639f9e11f4",
+    "parentVersion": 1,
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "6a588df8bfd07482125c4b6b943df4a32f1af936915229efc0e3eecc796aa58d",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
     "h": 361,
     "verified": false,
     "w": 375,
@@ -137,7 +181,7 @@
         "line": 4632,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/personnages-origine@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -168,10 +212,10 @@
       "assetPath": "packages/assets/atlas/personnages-origine@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 779,
+        "line": 774,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/personnages-origine@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -192,6 +236,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/personnages-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/personnages-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-chercheuse-origine de packages/assets/atlas/personnages-origine@2x.png (empreinte de pixels 328d9d8abfe8cfe9)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-chercheuse-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/personnages-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/personnages-origine@2x.json",
       "status": "active"
     }
   ],

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:59:42.936061+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-particules-effets-jeu-0001",
+        "reason": "découpe brute de l'élément particules-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "01c9af11db231a82f206a3e188f68f4aacd292572b4e09adcf44bcb7ab721c7c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "particules effets jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-particules-effets-jeu-0001",
+          "reason": "découpe brute de l'élément particules-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-particules-effets-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:59:42.522476+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-particules-effets-jeu » (packages/assets/atlas/effets-jeu@2x.png), forme normalisée par le jeu de l'élément particules-effets-jeu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-particules-effets-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-particules-effets-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@2x.json · cadre sprite-particules-effets-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-particules-effets-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-178.png, SHA-256 4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@2x.json · cadre sprite-particules-effets-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic particules-effets-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4cd2718e8671f20c",
+    "phash": "d9f3074c66641e1b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-particules-effets-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-particules-effets-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-jeu@2x.png (png)\", \"boite\": [82, 48, 1576, 353], \"cadre\": \"sprite-particules-effets-jeu\", \"element\": \"particules-effets-jeu\", \"empreintePixels\": \"c575aa515a11f96cf2ffdb031225598cc84e6c6fa4a44c9ead4949813a9ff671\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 48, \"w\": 82, \"x\": 1576, \"y\": 353}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe.json\", \"tableSha256\": \"2f18ba71d84ddaaa504994fcc2d18e087e73551ef318894f37937c5bcaf3de7e\"}"
+    ],
+    "parentId": "asset-sprite-particules-effets-jeu-0001",
+    "parentSha256": "5a112773a1ba3b3e31d4c6a4bc20aece26264554f6b65bc1782d79ebb042872a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:59:42.936061+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/effets-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/effets-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-particules-effets-jeu de packages/assets/atlas/effets-jeu@2x.png (empreinte de pixels c575aa515a11f96c)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-particules-effets-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4a6cc8f67b7f64d9f7966c8a8eaf7ffbde70e17915e303f0a09bc1fea3b5cdea",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:11:35.501115+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-etoile-objets-origine-0001",
+        "reason": "découpe brute de l'élément etoile-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b1e6bb9b371fe171e7d06206926cb08900d7d73c7be24d76d570fdf87029fba4",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "etoile objets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-etoile-objets-origine-0001",
+          "reason": "découpe brute de l'élément etoile-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-etoile-objets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:11:35.084520+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-etoile-objets-origine » (packages/assets/atlas/objets-origine@2x.png), forme normalisée par le jeu de l'élément etoile-objets-origine",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-etoile-objets-orig-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-etoile-objets-orig-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@2x.json · cadre sprite-etoile-objets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etoile-objets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@2x.json · cadre sprite-etoile-objets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic etoile-objets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4cb672ccc0694d55",
+    "phash": "c6ac3b9371c30f0e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-etoile-objets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etoile-objets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-origine@2x.png (png)\", \"boite\": [107, 103, 1206, 825], \"cadre\": \"sprite-etoile-objets-origine\", \"element\": \"etoile-objets-origine\", \"empreintePixels\": \"a8e586da2a18dddcf48663485ef16af9e2bcd74e0c417e8495f74e7405b9b101\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 103, \"w\": 107, \"x\": 1206, \"y\": 825}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.objets-origine.decoupe.json\", \"tableSha256\": \"98320fb77c6f67cbb407742bfec97389c120cb6db0d874e4aa522625885e569c\"}"
+    ],
+    "parentId": "asset-sprite-etoile-objets-origine-0001",
+    "parentSha256": "0b38c9c20f3c051465b3b488bc5a888d943537b9bbf14bcf6f66a540538096a3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.objets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:11:35.501115+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/objets-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/objets-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-etoile-objets-origine de packages/assets/atlas/objets-origine@2x.png (empreinte de pixels a8e586da2a18dddc)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-etoile-objets-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/objets-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/objets-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1077f56634ca6ff5c7d29b2939b2c3f7f6eef004867a5e99cf293b19a007aed9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

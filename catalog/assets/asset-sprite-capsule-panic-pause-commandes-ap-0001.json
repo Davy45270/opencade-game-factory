@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:55:44.023036+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pause-commandes-apercu-0001",
+        "reason": "découpe brute de l'élément pause-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "69af63177550a18433170fc29ec631d0c56dba0c1adc95505c3ea1ab80b2d877",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "pause commandes apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pause-commandes-apercu-0001",
+          "reason": "découpe brute de l'élément pause-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pause-commandes-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:55:43.592149+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-pause-commandes-apercu » (packages/assets/atlas/commandes-apercu@2x.png), forme normalisée par le jeu de l'élément pause-commandes-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-pause-commandes-ap-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-pause-commandes-ap-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@2x.json · cadre sprite-pause-commandes-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pause-commandes-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-111.png, SHA-256 f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@2x.json · cadre sprite-pause-commandes-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic pause-commandes-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "03976969696b172b",
+    "phash": "8bc03428df2f970f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-pause-commandes-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pause-commandes-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-apercu@2x.png (png)\", \"boite\": [51, 48, 416, 677], \"cadre\": \"sprite-pause-commandes-apercu\", \"element\": \"pause-commandes-apercu\", \"empreintePixels\": \"bae3c05dc89c81cae9249752b5311ecfb06870a11c1b28d51ca67ff82e357012\", \"parametres\": {\"marge\": 4, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 51, \"x\": 416, \"y\": 677}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe.json\", \"tableSha256\": \"20395dd01460dd2fa5da61a40bac44e8df62483777b3cad4dc937c8eee3fb746\"}"
+    ],
+    "parentId": "asset-sprite-pause-commandes-apercu-0001",
+    "parentSha256": "fe24cce4aa31488d044fa70ba873fcfcea7002c1b24512dbb40dcd7a087c932d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:55:44.023036+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/commandes-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-pause-commandes-apercu de packages/assets/atlas/commandes-apercu@2x.png (empreinte de pixels bae3c05dc89c81ca)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-pause-commandes-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f295d11ab0b39609369694189c8fa11244c777df6ac133473a47d13e470c516b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

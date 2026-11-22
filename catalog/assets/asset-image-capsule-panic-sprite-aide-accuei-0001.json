@@ -1,0 +1,220 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-21T03:29:48+00:00",
+  "creation": {
+    "rejectedCandidates": [],
+    "searchReceipt": {
+      "catalogFingerprint": "0756c6ed18915f3fbee4c8e0d475c06eeaf1f17b7bd196d61727b20850923a90",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite aide accueil",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [],
+      "results": [],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:29:01.443287+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/runtime/sprite-aide-accueil.webp livré par le jeu",
+  "dimensions": {
+    "height": 28,
+    "width": 126
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-aide-accueil.webp",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": "sprites/asset-image-capsule-panic-sprite-aide-accuei-0001.webp"
+  },
+  "format": "webp",
+  "id": "asset-image-capsule-panic-sprite-aide-accuei-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/runtime/sprite-aide-accueil.webp"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-443.webp, SHA-256 5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/runtime/sprite-aide-accueil.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "capsule-panic sprite-aide-accueil",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "c81a056941172643",
+    "phash": "ffd1ab804a027a6e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "importer_livre : packages/assets/runtime/sprite-aide-accueil.webp livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:29:01.937420+00:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-aide-accueil.webp": "a5357a066deadcf74b18ed71e727fc775751942f"
+      },
+      "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 37,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-aide-accueil.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "aideAccueil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-aide-accueil.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-aide-accueil.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-aide-accueil",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-aide-accueil.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5237cb7f45dfe52b18756e87a09ac84fd28bf23739a101c5a9e69e195c067d89",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

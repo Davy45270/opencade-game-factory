@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:10:40.765952+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-erlenmeyer-objets-jeu-0001",
+        "reason": "découpe brute de l'élément erlenmeyer-objets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "961fb4329cf9cb4782ddbed6996c8e98cba9341e674567d7b79d1cdb1efbd143",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "erlenmeyer objets jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-erlenmeyer-objets-jeu-0001",
+          "reason": "découpe brute de l'élément erlenmeyer-objets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-erlenmeyer-objets-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:10:40.333623+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-erlenmeyer-objets-jeu » (packages/assets/atlas/objets-jeu@2x.png), forme normalisée par le jeu de l'élément erlenmeyer-objets-jeu",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-erlenmeyer-objets-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-erlenmeyer-objets-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-jeu@2x.json · cadre sprite-erlenmeyer-objets-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-erlenmeyer-objets-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-274.png, SHA-256 ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-jeu@2x.json · cadre sprite-erlenmeyer-objets-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic erlenmeyer-objets-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "ae8eaeae0e0f070f",
+    "phash": "e68699699c799958"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-erlenmeyer-objets-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-erlenmeyer-objets-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-jeu@2x.png (png)\", \"boite\": [66, 114, 1589, 613], \"cadre\": \"sprite-erlenmeyer-objets-jeu\", \"element\": \"erlenmeyer-objets-jeu\", \"empreintePixels\": \"8125ffa38ca6bd82d522164b13b55862a8463eaf3c9083a848de361bd1db9921\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 114, \"w\": 66, \"x\": 1589, \"y\": 613}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.objets-jeu.decoupe.json\", \"tableSha256\": \"6cefc8511229c4494aea721f17b8c4cb37862f441eea2f70a0ff6e824a4e2408\"}"
+    ],
+    "parentId": "asset-sprite-erlenmeyer-objets-jeu-0001",
+    "parentSha256": "6af2ef35d4a153d5c26d6243623159779a993b54b4d9355e71ec31829ffc5d14",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.objets-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:10:40.765952+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/objets-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/objets-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-erlenmeyer-objets-jeu de packages/assets/atlas/objets-jeu@2x.png (empreinte de pixels 8125ffa38ca6bd82)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-erlenmeyer-objets-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/objets-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/objets-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ec3b432b759ef95fcc37c9364ab56ad9baa52f7e31c9c85cb29a3d117f0e8419",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

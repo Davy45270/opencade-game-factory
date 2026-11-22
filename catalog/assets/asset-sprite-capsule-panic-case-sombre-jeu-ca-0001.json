@@ -1,0 +1,221 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:18:38.096033+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+        "reason": "pixels différents du cadre livré sprite-case-sombre-jeu (empreinte 763052956542)"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0002",
+        "reason": "pixels différents du cadre livré sprite-case-sombre-jeu (empreinte 763052956542)"
+      },
+      {
+        "assetId": "asset-sprite-case-sombre-jeu-0001",
+        "reason": "découpe brute de l'élément case-sombre-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "04d5a3ddee6d5e86c2bc32a0b6e507fbb98dc49d07dc7c687b902313668d85f2",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "case sombre jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+          "reason": "pixels différents du cadre livré sprite-case-sombre-jeu (empreinte 763052956542)"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0002",
+          "reason": "pixels différents du cadre livré sprite-case-sombre-jeu (empreinte 763052956542)"
+        },
+        {
+          "assetId": "asset-sprite-case-sombre-jeu-0001",
+          "reason": "découpe brute de l'élément case-sombre-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+        "asset-sprite-capsule-panic-case-sombre-apercu-0002",
+        "asset-sprite-case-sombre-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:18:37.701730+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-case-sombre-jeu » (packages/assets/atlas/plateau-jeu@2x.png), forme normalisée par le jeu de l'élément case-sombre-jeu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-case-sombre-jeu-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-case-sombre-jeu-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-jeu@2x.json · cadre sprite-case-sombre-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-case-sombre-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-360.png, SHA-256 e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-jeu@2x.json · cadre sprite-case-sombre-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic case-sombre-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0f2363232323131f",
+    "phash": "fffcaa80aa81ab81"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-case-sombre-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-case-sombre-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/plateau-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/plateau-jeu@2x.png (png)\", \"boite\": [83, 83, 1252, 53], \"cadre\": \"sprite-case-sombre-jeu\", \"element\": \"case-sombre-jeu\", \"empreintePixels\": \"763052956542df47e192d1f9533ee1856f7e6cb663c85ab3f114bfd9f973e04c\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 83, \"w\": 83, \"x\": 1252, \"y\": 53}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.plateau-jeu.decoupe.json\", \"tableSha256\": \"cced49a025b4b19e209afdef08f6e8b223b1a827e470b1011555fccf2a1643fd\"}"
+    ],
+    "parentId": "asset-sprite-case-sombre-jeu-0001",
+    "parentSha256": "d2ad7eccf755e7469f977a157563cbdd7bc3888e5e8b8877f396d5eda5522359",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.plateau-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:18:38.096033+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/plateau-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/plateau-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-case-sombre-jeu de packages/assets/atlas/plateau-jeu@2x.png (empreinte de pixels 763052956542df47)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-case-sombre-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/plateau-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/plateau-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e9ec28c51e6f6f86abe29f270856ee8f2f8445df7b437c88d57dda417245416f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

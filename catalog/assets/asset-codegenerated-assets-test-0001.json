@@ -26,6 +26,19 @@
         "game": "capsule-panic",
         "path": "tests/assets.test.ts",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "blobSha256": "bf6183331e09bf4ad6357657c1ef62a7108f19ac5fadbdf54f14b36a2bbd8348",
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic",
+        "path": "tests/assets.test.ts",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -53,21 +66,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:tests/assets.test.ts"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:tests/assets.test.ts"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:tests/assets.test.ts"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:tests/assets.test.ts"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:tests/assets.test.ts"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:tests/assets.test.ts"
       ],
       "method": "proven"
     }
@@ -76,7 +89,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    "ref": "LICENSE@ea68eeb3829e17c49b13114107c2f38480c62341"
   },
   "name": "assets.test",
   "orientation": "unknown",
@@ -90,27 +103,39 @@
     "type": "code-generated"
   },
   "schemaVersion": "1.0",
-  "sha256": "d1031c91927015e2df7d00fa3c3e55fe9385333fdf09efde153b6fa470079602",
+  "sha256": "bf6183331e09bf4ad6357657c1ef62a7108f19ac5fadbdf54f14b36a2bbd8348",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "ts",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "d1031c91927015e2df7d00fa3c3e55fe9385333fdf09efde153b6fa470079602",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "ts",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "bf6183331e09bf4ad6357657c1ef62a7108f19ac5fadbdf54f14b36a2bbd8348",
+      "version": 2
     }
   ],
   "visualStyle": null

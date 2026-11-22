@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/fond-jeu@2x.png",
         "provider": "local",
@@ -141,7 +141,7 @@
     "backgrounds"
   ],
   "thumbnail": "thumbnails/65/65a04f1443ef1a008041a8b105f34b7652e647f4f77cc18644e7950c39192c60.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -153,7 +153,7 @@
         "line": 2641,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/fond-jeu@2x.png",
         "module-path: packages/assets/assets.inventaire.json"
@@ -186,7 +186,7 @@
         "line": 28,
         "path": "packages/assets/atlas/fond-jeu@2x.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/fond-jeu@2x.png",
         "module-path: packages/assets/atlas/fond-jeu@2x.json"
@@ -216,10 +216,10 @@
       "assetPath": "packages/assets/atlas/fond-jeu@2x.png",
       "assetVersion": 1,
       "codeRef": {
-        "line": 231,
+        "line": 232,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/fond-jeu@2x.png",
         "module-path: packages/assets/chaine.json"
@@ -240,6 +240,35 @@
       "repo": "capsule-panic",
       "role": "background",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/fond-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/fond-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/fond-jeu@2x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "fond-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fond-jeu@2x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/atlas/fond-jeu@2x.json",
       "status": "active"
     }
   ],

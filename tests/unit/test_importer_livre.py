@@ -261,3 +261,114 @@ class RegleDeclaree(TestCase):
         self.assertIsNone(il.regle_image(self.profil, "assets/cutouts/t/sprite-b.png", {}))
         self.assertIsNone(il.regle_image(self.profil, "assets/cutouts/t/sprite-c.png",
                                          {"sprite-c": {"id": "sprite-c", "origine": "redessiné (marque)"}}))
+
+
+class LicencesDeclareesParLeJeu(TestCase):
+    """Capsule : inventaire (fichier, SHA-256, planche) et liste d'identifiants ; la licence déclarée doit être celle
+    de la règle, le titulaire aussi ; un fichier non déclaré reste inconnu."""
+    preuve = {"method": "m", "ref": "r", "decision": "d"}
+
+    def test_inventaire_et_liste(self):
+        import json, tempfile
+        with tempfile.TemporaryDirectory() as rep:
+            r = il.Path(rep)
+            (r / "inv.json").write_text(json.dumps({"fichiers": [
+                {"chemin": "a/s.png", "sha256": il.sha256(b"s"), "licence": "CC BY 4.0",
+                 "planche": {"fichier": "P.png", "sha256": il.sha256(b"P")}},
+                {"chemin": "a/t.png", "sha256": il.sha256(b"t"), "licence": "Autre",
+                 "planche": {"fichier": "P.png", "sha256": il.sha256(b"P")}}]}))
+            (r / "lic.json").write_text(json.dumps({"titulaire": "D", "licence": "CC BY 4.0", "assets": ["u"]}))
+            (r / "P.png").write_bytes(b"P")
+            profil = {"planches": rep, "declarations_licence": [{"fichier": "inv.json", "format": "inventaire"},
+                                                                 {"fichier": "lic.json", "format": "liste"}],
+                      "images": [{"prefixe": "a/run/", "declaree": True, "origines": ["licences.json"],
+                                  "licence_declaree": "CC BY 4.0", "titulaire": "D", "licence": "CC", "auteur": "A",
+                                  "licence_preuve": self.preuve},
+                                 {"prefixe": "a/", "declaree": True, "origines": ["inventaire"],
+                                  "licence_declaree": "CC BY 4.0", "exige": ["planche", "planche_sha256", "sha256"],
+                                  "planche_verifiee": True, "licence": "CC", "auteur": "A",
+                                  "licence_preuve": self.preuve}]}
+            d = il.declarations_licence(r, profil)
+            self.assertIn("inv.json", il.regle_image(profil, "a/s.png", d, b"s")["licence_preuve"]["ref"])
+            self.assertIsNone(il.regle_image(profil, "a/s.png", d, b"autre"))
+            self.assertIsNone(il.regle_image(profil, "a/t.png", d, b"t"))          # licence déclarée différente
+            self.assertEqual(il.regle_image(profil, "a/run/u.webp", d)["licence"], "CC")
+            self.assertIsNone(il.regle_image(profil, "a/run/v.webp", d))           # identifiant non déclaré
+            self.assertIsNone(il.regle_image({**profil, "images": [{**profil["images"][0], "titulaire": "X"}]},
+                                             "a/run/u.webp", d))
+            (r / "P.png").write_bytes(b"autre planche")
+            self.assertIsNone(il.regle_image(profil, "a/s.png", d, b"s"))
+
+
+class CadreDeclare(TestCase):
+    """Un cadre réemployé sans licence ne la reçoit que si sa fiche n'est employée que par ce dépôt."""
+    regle = {"licence": "X", "licence_preuve": {"method": "m", "ref": "r", "decision": "d"}, "auteur": "A"}
+
+    def test_fiche_partagee_refusee(self):
+        import json, tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            (il.Path(d) / "catalog/assets").mkdir(parents=True)
+            for aid, depots in (("a", ["jeu"]), ("b", ["jeu", "autre"]), ("c", [])):
+                (il.Path(d) / "catalog/assets" / f"{aid}.json").write_text(json.dumps(
+                    {"id": aid, "license": "unknown", "provenance": {"type": "derived"},
+                     "usages": [{"repo": r} for r in depots]}))
+            fiches = {}
+            self.assertTrue(il.appliquer_regle_cadre("a", self.regle, fiches, "jeu"))
+            self.assertEqual(fiches["a"]["license"], "X")
+            self.assertFalse(il.appliquer_regle_cadre("b", self.regle, fiches, "jeu"))
+            self.assertFalse(il.appliquer_regle_cadre("c", self.regle, fiches, "jeu"))
+
+
+class Materialiser(TestCase):
+    """Une fiche sans fichier reçoit ses octets au registre seulement s'ils ont son SHA-256."""
+    def test_octets_de_la_fiche_seulement(self):
+        import json, tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            r = il.Path(d)
+            (r / "catalog/assets").mkdir(parents=True)
+            (r / "sprites").mkdir()
+            fiches = {}
+            for aid, reg in (("a", None), ("b", "sprites/b.png")):
+                fiches[aid] = {"id": aid, "sha256": il.sha256(b"png"), "format": "png",
+                               "files": {"registry": reg, "locations": []}}
+                (r / "catalog/assets" / f"{aid}.json").write_text(json.dumps(fiches[aid]))
+            compte = {}
+            self.assertFalse(il.materialiser("a", b"autre", fiches, compte))
+            self.assertTrue(il.materialiser("a", b"png", fiches, compte))
+            self.assertEqual((r / "sprites/a.png").read_bytes(), b"png")
+            self.assertEqual(fiches["a"]["files"]["registry"], "sprites/a.png")
+            self.assertFalse(il.materialiser("b", b"png", fiches, compte))
+
+
+class TracerDerives(TestCase):
+    """Un dérivé du scan sans parent reçoit derivedFrom = la source déclarée (SVG aux mêmes octets), avec reçu."""
+    def test_redessin_vers_son_svg(self):
+        import json, tempfile, types
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            r = il.Path(d)
+            (r / "catalog/assets").mkdir(parents=True)
+            (r / "clone/src").mkdir(parents=True)
+            (r / "clone/src/x.svg").write_bytes(b"<svg/>")
+            (r / "clone/prov.json").write_text(json.dumps({"assets": [
+                {"id": "sprite-x", "origine": "redessiné (marque)", "svg": "src/x.svg"},
+                {"id": "sprite-y", "origine": "redessiné (marque)", "svg": "src/absent.svg"}]}))
+            fiches = {"svg": {"id": "svg", "sha256": il.sha256(b"<svg/>"), "variants": []},
+                      "dx": {"id": "dx", "provenance": {"type": "derived", "author": "A"}},
+                      "dy": {"id": "dy", "provenance": {"type": "derived", "author": "A"}}}
+            for aid, a in fiches.items():
+                (r / "catalog/assets" / f"{aid}.json").write_text(json.dumps(a))
+            (r / "recu.json").write_text(json.dumps({"results": ["svg", "autre"]}))
+            compte = {}
+            with mock.patch.object(il, "recu_motive", lambda *a, **k: (r / "recu.json", [])):
+                il.tracer_derives(types.SimpleNamespace(jeu="jeu"), "s" * 40, {"provenance_derives": "prov.json"},
+                                  r / "clone", r, fiches, {il.sha256(b"<svg/>"): ["svg"]},
+                                  [("a.png#sprite-x", "dx"), ("a.png#sprite-y", "dy")], compte)
+            self.assertEqual(fiches["dx"]["provenance"]["derivedFrom"], "svg")
+            self.assertEqual([c["assetId"] for c in fiches["dx"]["creation"]["searchReceipt"]["rejectedCandidates"]],
+                             ["svg", "autre"])
+            self.assertNotIn("derivedFrom", fiches["dy"]["provenance"])
+            self.assertEqual(fiches["svg"]["variants"], ["dx"])
+            self.assertEqual(compte, {"derives_traces": 1})

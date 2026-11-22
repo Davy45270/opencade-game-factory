@@ -109,6 +109,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "assets/redessine/cristal-luciole.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/redessine/cristal-luciole.svg"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image assets/redessine/cristal-luciole.svg livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "cristal-luciole",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/redessine/cristal-luciole.svg · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/redessine/cristal-luciole.svg",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "assets/redessine/cristal-luciole.svg": "2e029616567d3283df0bdf5d976f21a8858af51c"
       },
@@ -172,35 +201,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/provenance.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "assets/redessine/cristal-luciole.svg",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "assets/redessine/cristal-luciole.svg"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image assets/redessine/cristal-luciole.svg livrée (fichier suivi au commit)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "cristal-luciole",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/redessine/cristal-luciole.svg · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "image",
-      "scene": "assets/redessine/cristal-luciole.svg",
       "status": "active"
     }
   ],

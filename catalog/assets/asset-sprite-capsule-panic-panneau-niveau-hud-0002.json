@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:07:01.515196+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-panneau-niveau-hud-0001",
+        "reason": "pixels différents du cadre livré sprite-panneau-niveau-hud-origine (empreinte 09f4c5eada74)"
+      },
+      {
+        "assetId": "asset-sprite-panneau-niveau-hud-origine-0001",
+        "reason": "découpe brute de l'élément panneau-niveau-hud-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "92e045b5381d04df7403ef28ca16a3e9c397cfd4bae37ca63c78e17651b2ad8a",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "panneau niveau hud origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-panneau-niveau-hud-0001",
+          "reason": "pixels différents du cadre livré sprite-panneau-niveau-hud-origine (empreinte 09f4c5eada74)"
+        },
+        {
+          "assetId": "asset-sprite-panneau-niveau-hud-origine-0001",
+          "reason": "découpe brute de l'élément panneau-niveau-hud-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-panneau-niveau-hud-0001",
+        "asset-sprite-panneau-niveau-hud-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:07:01.084765+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-panneau-niveau-hud-origine » (packages/assets/atlas/hud-origine@3x.png), forme normalisée par le jeu de l'élément panneau-niveau-hud-origine",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-panneau-niveau-hud-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-panneau-niveau-hud-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/hud-origine@3x.json · cadre sprite-panneau-niveau-hud-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panneau-niveau-hud-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-243.png, SHA-256 7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/hud-origine@3x.json · cadre sprite-panneau-niveau-hud-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic panneau-niveau-hud-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "218e61695569a000",
+    "phash": "efce80307fce8e20"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-panneau-niveau-hud-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panneau-niveau-hud-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/hud-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/hud-origine@3x.png (png)\", \"boite\": [272, 117, 989, 692], \"cadre\": \"sprite-panneau-niveau-hud-origine\", \"element\": \"panneau-niveau-hud-origine\", \"empreintePixels\": \"09f4c5eada7445c65765b41bde5d43cb65a1da0e871f6d7a8014101252ab6d3f\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 117, \"w\": 272, \"x\": 989, \"y\": 692}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.hud-origine.decoupe.json\", \"tableSha256\": \"3118bc16fb8ddc75650fb08299028820b6ec4674753e1a1dee53cbd3b557f2fb\"}"
+    ],
+    "parentId": "asset-sprite-panneau-niveau-hud-origine-0001",
+    "parentSha256": "4640bc389cde89329afb456c2786797b5da43e67bf56d461ad08e272709bf118",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.hud-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:07:01.515196+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7255850a45d6d3c263a8ed2260762ceb06315b33ed203bfdc80df2d17e91bb54",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

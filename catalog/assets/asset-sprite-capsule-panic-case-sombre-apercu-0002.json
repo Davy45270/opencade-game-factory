@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:17:43.595622+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+        "reason": "pixels différents du cadre livré sprite-case-sombre-apercu (empreinte 79ebe8a0f970)"
+      },
+      {
+        "assetId": "asset-sprite-case-sombre-apercu-0001",
+        "reason": "découpe brute de l'élément case-sombre-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "051191b8be53d8a3d2c7c4dc73c0ce0350b3608d0ec581f4128edb9fbb21685f",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "case sombre apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+          "reason": "pixels différents du cadre livré sprite-case-sombre-apercu (empreinte 79ebe8a0f970)"
+        },
+        {
+          "assetId": "asset-sprite-case-sombre-apercu-0001",
+          "reason": "découpe brute de l'élément case-sombre-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+        "asset-sprite-case-sombre-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:17:43.155537+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-case-sombre-apercu » (packages/assets/atlas/plateau-apercu@3x.png), forme normalisée par le jeu de l'élément case-sombre-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-case-sombre-apercu-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-case-sombre-apercu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-apercu@3x.json · cadre sprite-case-sombre-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-case-sombre-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-353.png, SHA-256 7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-apercu@3x.json · cadre sprite-case-sombre-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic case-sombre-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "1d23630b4b232703",
+    "phash": "ff78ea70d003850f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-case-sombre-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-case-sombre-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/plateau-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/plateau-apercu@3x.png (png)\", \"boite\": [60, 62, 1182, 49], \"cadre\": \"sprite-case-sombre-apercu\", \"element\": \"case-sombre-apercu\", \"empreintePixels\": \"79ebe8a0f9701e8967dd2c29c55b2fd936c3e3a2cfa2b65311d705cb6ce83f78\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 62, \"w\": 60, \"x\": 1182, \"y\": 49}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.plateau-apercu.decoupe.json\", \"tableSha256\": \"711a3e1877999b78913b0fe9d4cb8d1a1671ba997fc87039132d87017d79e2f9\"}"
+    ],
+    "parentId": "asset-sprite-case-sombre-apercu-0001",
+    "parentSha256": "96c36b1802545a19711922cadeaa4c2f81a5449c9189613abd602137255d400a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.plateau-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:17:43.595622+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7d9ae423298b5de8bb2f18b96ccc320905d20dab069dc1c75e731f7828e2e37e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

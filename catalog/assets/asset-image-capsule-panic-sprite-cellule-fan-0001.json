@@ -1,0 +1,207 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-22T02:34:04.546235+00:00",
+  "creation": {
+    "rejectedCandidates": [],
+    "searchReceipt": {
+      "catalogFingerprint": "2d785168a0042aa89fb226057d44acf4b9572eb55ff1a850c60ecea9a31979ec",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite cellule fantome",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [],
+      "results": [],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:34:04.142082+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/sprites/sprite-cellule-fantome.png livré par le jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "P"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-image-capsule-panic-sprite-cellule-fan-0001.png"
+  },
+  "format": "png",
+  "id": "asset-image-capsule-panic-sprite-cellule-fan-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-cellule-fantome.png"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-482.png, SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-cellule-fantome.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuel de Capsule Panic par Davy45270, déclaré CC BY 4.0 fichier par fichier (SHA-256 identique aux octets livrés, planche source vérifiée).",
+    "method": "déclaration du titulaire, fichier et planche vérifiés",
+    "ref": "capsule-panic packages/assets/LICENCES.md ; HL-538 ; packages/assets/assets.inventaire.json · packages/assets/sprites/sprite-cellule-fantome.png (origine « inventaire », planche Capsule_Panic_Assets_Planche_01.png SHA-256 860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254, fichier SHA-256 55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6)"
+  },
+  "name": "capsule-panic sprite-cellule-fantome",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "c42b010303012bc4",
+    "phash": "ab2b812d852dd73c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (packages/assets/assets.inventaire.json et LICENCES.md du jeu)",
+    "evidence": [
+      "importer_livre : packages/assets/sprites/sprite-cellule-fantome.png livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:34:04.546235+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/pieces-origine@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "packages/assets/atlas/pieces-origine@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cellule-fantome de packages/assets/atlas/pieces-origine@3x.png (empreinte de pixels e4d5342397939c2b)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cellule-fantome",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/pieces-origine@3x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/pieces-origine@3x.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/sprites/sprite-cellule-fantome.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/sprites/sprite-cellule-fantome.png"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/sprites/sprite-cellule-fantome.png livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cellule-fantome",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/sprites/sprite-cellule-fantome.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/sprites/sprite-cellule-fantome.png",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "55b31833ff96b276bea051fd1ca5daa7dc504cf53df4b981d308f7bd484045a6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

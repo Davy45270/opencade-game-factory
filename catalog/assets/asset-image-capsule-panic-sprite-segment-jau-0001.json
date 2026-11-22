@@ -1,0 +1,228 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-22T02:47:55.162370+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-plateau-apercu-2x-0006",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-plateau-apercu-3x-0006",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "99e45a9dd0d9a8374cb2400de119d629c406713730baf741e7dfcfcc3ffb09f6",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite segment jaune plateau apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-plateau-apercu-2x-0006",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-plateau-apercu-3x-0006",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-plateau-apercu-2x-0006",
+        "asset-sprite-capsule-panic-plateau-apercu-3x-0006"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:47:54.760661+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png livré par le jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-image-capsule-panic-sprite-segment-jau-0001.png"
+  },
+  "format": "png",
+  "id": "asset-image-capsule-panic-sprite-segment-jau-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-591.png, SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuel de Capsule Panic par Davy45270, déclaré CC BY 4.0 fichier par fichier (SHA-256 identique aux octets livrés, planche source vérifiée).",
+    "method": "déclaration du titulaire, fichier et planche vérifiés",
+    "ref": "capsule-panic packages/assets/LICENCES.md ; HL-538 ; packages/assets/assets.inventaire.json · packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png (origine « inventaire », planche Capsule_Panic_Assets_Gameplay_03.png SHA-256 ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a, fichier SHA-256 d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392)"
+  },
+  "name": "capsule-panic sprite-segment-jaune-plateau-apercu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "61d482a0a280e061",
+    "phash": "c0c12b1f3e1e3c3e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (packages/assets/assets.inventaire.json et LICENCES.md du jeu)",
+    "evidence": [
+      "importer_livre : packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:47:55.162370+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/plateau-apercu@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "packages/assets/atlas/plateau-apercu@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-segment-jaune-plateau-apercu de packages/assets/atlas/plateau-apercu@3x.png (empreinte de pixels c1e3931090b423fb)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-segment-jaune-plateau-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/plateau-apercu@3x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/plateau-apercu@3x.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-segment-jaune-plateau-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d78db650c35cc7c8a59b54cf03c269e384de53bcbab665c5dfc4b0e8720cc392",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

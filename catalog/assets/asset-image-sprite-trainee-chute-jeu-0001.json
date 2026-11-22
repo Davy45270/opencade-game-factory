@@ -26,6 +26,18 @@
         "game": "capsule-panic/assets",
         "path": "packages/assets/sprites/sprite-trainee-chute-jeu.png",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-trainee-chute-jeu.png",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -39,7 +51,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     },
@@ -60,21 +72,21 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     },
@@ -88,14 +100,14 @@
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/sprites/sprite-trainee-chute-jeu.png"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/sprites/sprite-trainee-chute-jeu.png"
       ],
       "method": "proven"
     }
@@ -117,27 +129,27 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "6a831bdaf0ef3d857e9b0a8c8f0236d7dc264eb1f3cb707f80c3b2b6ee15ff79",
+  "sha256": "bbb262e0d896339879bcfc22a8d436a9833f50d0b97e275f579851fcbcf36c35",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/6a/6a831bdaf0ef3d857e9b0a8c8f0236d7dc264eb1f3cb707f80c3b2b6ee15ff79.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "thumbnail": "thumbnails/bb/bbb262e0d896339879bcfc22a8d436a9833f50d0b97e275f579851fcbcf36c35.webp",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "packages/assets/sprites/sprite-trainee-chute-jeu.png": "e16f356aa7efb6869ef3ca5f91e96b9a732788de"
+        "packages/assets/sprites/sprite-trainee-chute-jeu.png": "07a58a2508735c6ada6b3e8d7adf3d98a747bc70"
       },
       "assetPath": "packages/assets/sprites/sprite-trainee-chute-jeu.png",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 7797,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/sprites/sprite-trainee-chute-jeu.png",
         "module-path: packages/assets/assets.inventaire.json"
@@ -159,23 +171,68 @@
       "role": "sprite",
       "scene": "packages/assets/assets.inventaire.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-trainee-chute-jeu.png": "07a58a2508735c6ada6b3e8d7adf3d98a747bc70"
+      },
+      "assetPath": "packages/assets/sprites/sprite-trainee-chute-jeu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 2,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-trainee-chute-jeu.png",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "traineeChuteJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
     }
   ],
   "variants": [
     "asset-sprite-sprite-trainee-chute-jeu-0001",
     "asset-sprite-sprite-trainee-chute-jeu-0002"
   ],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "png",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "6a831bdaf0ef3d857e9b0a8c8f0236d7dc264eb1f3cb707f80c3b2b6ee15ff79",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "png",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "bbb262e0d896339879bcfc22a8d436a9833f50d0b97e275f579851fcbcf36c35",
+      "version": 2
     }
   ],
   "visualStyle": null

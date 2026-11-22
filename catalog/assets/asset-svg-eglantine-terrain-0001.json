@@ -109,6 +109,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "assets/redessine/eglantine-terrain.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/redessine/eglantine-terrain.svg"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image assets/redessine/eglantine-terrain.svg livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "eglantine-terrain",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/redessine/eglantine-terrain.svg · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/redessine/eglantine-terrain.svg",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "assets/redessine/eglantine-terrain.svg": "a988a6ad9d6aeb4eb2118210a8c23c5c6ce14c19"
       },
@@ -172,35 +201,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/provenance.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "assets/redessine/eglantine-terrain.svg",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "assets/redessine/eglantine-terrain.svg"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image assets/redessine/eglantine-terrain.svg livrée (fichier suivi au commit)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "eglantine-terrain",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/redessine/eglantine-terrain.svg · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "image",
-      "scene": "assets/redessine/eglantine-terrain.svg",
       "status": "active"
     }
   ],

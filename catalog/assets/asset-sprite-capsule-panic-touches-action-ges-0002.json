@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:06:16.306268+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-touches-action-ges-0001",
+        "reason": "pixels différents du cadre livré sprite-touches-action-gestes-jeu (empreinte ae6d5dfd82f1)"
+      },
+      {
+        "assetId": "asset-sprite-touches-action-gestes-jeu-0001",
+        "reason": "découpe brute de l'élément touches-action-gestes-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cdf2c84479525aa6846a3fb93515cec1920d7a8c9d5bc7a7fee59518fd6154a9",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "touches action gestes jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-touches-action-ges-0001",
+          "reason": "pixels différents du cadre livré sprite-touches-action-gestes-jeu (empreinte ae6d5dfd82f1)"
+        },
+        {
+          "assetId": "asset-sprite-touches-action-gestes-jeu-0001",
+          "reason": "découpe brute de l'élément touches-action-gestes-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-touches-action-ges-0001",
+        "asset-sprite-touches-action-gestes-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:06:15.909425+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-touches-action-gestes-jeu » (packages/assets/atlas/gestes-jeu@3x.png), forme normalisée par le jeu de l'élément touches-action-gestes-jeu",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-touches-action-ges-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-touches-action-ges-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/gestes-jeu@3x.json · cadre sprite-touches-action-gestes-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-touches-action-gestes-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-237.png, SHA-256 c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/gestes-jeu@3x.json · cadre sprite-touches-action-gestes-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic touches-action-gestes-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "8833c8aaaac8338c",
+    "phash": "d2c52f3ad8e1c31c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-touches-action-gestes-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-touches-action-gestes-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/gestes-jeu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/gestes-jeu@3x.png (png)\", \"boite\": [80, 42, 479, 800], \"cadre\": \"sprite-touches-action-gestes-jeu\", \"element\": \"touches-action-gestes-jeu\", \"empreintePixels\": \"ae6d5dfd82f1e4a1c9b0d7e7fdefe0bd7fe0b4a3e2b8030afc1702b41d4aa4e5\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 42, \"w\": 80, \"x\": 479, \"y\": 800}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.gestes-jeu.decoupe.json\", \"tableSha256\": \"dfece186b857ce60a7f8032ea7f99290a6a24cfcbf56363bda9a1daddf0e314b\"}"
+    ],
+    "parentId": "asset-sprite-touches-action-gestes-jeu-0001",
+    "parentSha256": "b71319f6e2e144c51c158f53ede3cdabe08d9606b4202a383cb3123ed5128ab6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.gestes-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:06:16.306268+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c322dc76a073f171fefa9dc9480afd8e7399b58adfbc3d2ea372f4e68fe68c1b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

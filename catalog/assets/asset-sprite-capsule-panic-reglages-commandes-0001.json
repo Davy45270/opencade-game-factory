@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:58:16.068606+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-reglages-commandes-origine-0001",
+        "reason": "découpe brute de l'élément reglages-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1cdc86666d588a76cdd2b4b0f4487d380091940482933977e1278a646de2593a",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "reglages commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-reglages-commandes-origine-0001",
+          "reason": "découpe brute de l'élément reglages-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-reglages-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:58:15.681711+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-reglages-commandes-origine » (packages/assets/atlas/commandes-origine@2x.png), forme normalisée par le jeu de l'élément reglages-commandes-origine",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-reglages-commandes-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-reglages-commandes-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-reglages-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-reglages-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-132.png, SHA-256 1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-reglages-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic reglages-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4d96f16c6871172f",
+    "phash": "dec0690ba62e993e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-reglages-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-reglages-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@2x.png (png)\", \"boite\": [89, 85, 615, 717], \"cadre\": \"sprite-reglages-commandes-origine\", \"element\": \"reglages-commandes-origine\", \"empreintePixels\": \"cd00b058e36d9706fe0b0e53afcf1ada1abc4945df087669273f215bac3f9cd3\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 85, \"w\": 89, \"x\": 615, \"y\": 717}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-reglages-commandes-origine-0001",
+    "parentSha256": "a03bc4f3837f9ba7185c743dac8056d8d7a03dd459ce0f78352993ac29a87f16",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:58:16.068606+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "packages/assets/atlas/commandes-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-reglages-commandes-origine de packages/assets/atlas/commandes-origine@2x.png (empreinte de pixels cd00b058e36d9706)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-reglages-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1e19cc76009785faecb84b6dbc7ef43eb5b3815b26cc80cb3ad6ac454678ad5a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:20:19.658083+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-trainee-longue-chu-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-longue-chute-jeu (empreinte 7e1c93562189)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-longue-chute-jeu-0001",
+        "reason": "découpe brute de l'élément trainee-longue-chute-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "89033b92e7e4bda9302e9a6a86812178b6a6d7c34e8c15f19c3479ffee12b950",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trainee longue chute jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-trainee-longue-chu-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-longue-chute-jeu (empreinte 7e1c93562189)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-longue-chute-jeu-0001",
+          "reason": "découpe brute de l'élément trainee-longue-chute-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-trainee-longue-chu-0001",
+        "asset-sprite-trainee-longue-chute-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:20:19.233483+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trainee-longue-chute-jeu » (packages/assets/atlas/traits-animations-jeu@3x.png), forme normalisée par le jeu de l'élément trainee-longue-chute-jeu",
+  "dimensions": {
+    "height": 72,
+    "width": 72
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trainee-longue-chu-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trainee-longue-chu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-jeu@3x.json · cadre sprite-trainee-longue-chute-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trainee-longue-chute-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-374.png, SHA-256 7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-jeu@3x.json · cadre sprite-trainee-longue-chute-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trainee-longue-chute-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4b2313131313332b",
+    "phash": "e9c096399639649f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trainee-longue-chute-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trainee-longue-chute-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/traits-animations-jeu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/traits-animations-jeu@3x.png (png)\", \"boite\": [31, 51, 1275, 431], \"cadre\": \"sprite-trainee-longue-chute-jeu\", \"element\": \"trainee-longue-chute-jeu\", \"empreintePixels\": \"7e1c935621895661f641d0d6d97c1c42ef4dbe9c943ad630b96dc054fd2718a9\", \"parametres\": {\"marge\": 0, \"taille\": 48}, \"regionDuBrut\": {\"h\": 51, \"w\": 31, \"x\": 1275, \"y\": 431}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.traits-animations-jeu.decoupe.json\", \"tableSha256\": \"e2e80372e2ed959ce31728b54361c382aac35f9fe7b56ebd062df0874b46e973\"}"
+    ],
+    "parentId": "asset-sprite-trainee-longue-chute-jeu-0001",
+    "parentSha256": "ba90217f003b368b382949ed91a3a4a68aa9c8094de6d77d2eb67c9873046c0e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.traits-animations-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:20:19.658083+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7917134f2a48acc1d19b4e75005480aa6c56da971769571715913ad00d5d4f0b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -8,6 +8,14 @@
 | asset-atlas-animations-jeu-3x-0001 | capsule-panic | packages/assets/atlas/animations-jeu@3x.json |
 | asset-atlas-bannieres-jeu-2x-0001 | capsule-panic | packages/assets/atlas/bannieres-jeu@2x.json |
 | asset-atlas-bannieres-jeu-3x-0001 | capsule-panic | packages/assets/atlas/bannieres-jeu@3x.json |
+| asset-atlas-capsule-panic-atlas-composants-m-0001 | — | — |
+| asset-atlas-capsule-panic-atlas-composants-m-0002 | — | — |
+| asset-atlas-capsule-panic-atlas-paires-horiz-0001 | — | — |
+| asset-atlas-capsule-panic-atlas-paires-horiz-0002 | — | — |
+| asset-atlas-capsule-panic-atlas-pieces-origi-0001 | — | — |
+| asset-atlas-capsule-panic-atlas-pieces-origi-0002 | — | — |
+| asset-atlas-capsule-panic-atlas-tutoriel-ape-0001 | — | — |
+| asset-atlas-capsule-panic-atlas-tutoriel-ape-0002 | — | — |
 | asset-atlas-cascade-apercu-2x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@2x.json |
 | asset-atlas-cascade-apercu-3x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@3x.json |
 | asset-atlas-chambre-apercu-2x-0001 | capsule-panic | packages/assets/atlas/chambre-apercu@2x.json |
@@ -2179,6 +2187,9 @@
 | asset-audio-victoire-0002 | cozy-room-sort | apps/web/public/sons/victoire.ogg |
 | asset-codegenerated-rendre-code-kid-0001 | jeux-assets | outils/rendre-code-kid.mjs |
 | asset-codegenerated-rendre-code-kid-formes-0001 | jeux-assets | outils/rendre-code-kid-formes.mjs |
+| asset-icon-capsule-panic-capsule-panic-192-0001 | — | — |
+| asset-icon-capsule-panic-capsule-panic-512-0001 | — | — |
+| asset-icon-capsule-panic-capsule-panic-mask-0001 | — | — |
 | asset-image-01-allee-pandas-0001 | jeux-assets | decors/univers-chapitres/beauval/01_allee_pandas.png |
 | asset-image-01-bords-seine-0001 | jeux-assets | decors/univers-chapitres/paris/01_bords_seine.png |
 | asset-image-01-feuillu-cote-0001 | jeux-assets | decors/arbres/sources/01_feuillu_cote.png |
@@ -2341,12 +2352,20 @@
 | asset-image-accueil-fr-0001 | opencadkid | docs/captures/accueil-fr.png |
 | asset-image-algues-0001 | jeux-assets | objets/univers-chapitres/aquarium/algues.png |
 | asset-image-animations-apercu-2x-0001 | capsule-panic | packages/assets/atlas/animations-apercu@2x.png |
+| asset-image-animations-apercu-2x-0001 | capsule-panic | packages/assets/atlas/animations-apercu@2x.png |
+| asset-image-animations-apercu-2x-0002 | capsule-panic | packages/assets/atlas/animations-apercu@2x.webp |
 | asset-image-animations-apercu-2x-0002 | capsule-panic | packages/assets/atlas/animations-apercu@2x.webp |
 | asset-image-animations-apercu-3x-0001 | capsule-panic | packages/assets/atlas/animations-apercu@3x.png |
+| asset-image-animations-apercu-3x-0001 | capsule-panic | packages/assets/atlas/animations-apercu@3x.png |
+| asset-image-animations-apercu-3x-0002 | capsule-panic | packages/assets/atlas/animations-apercu@3x.webp |
 | asset-image-animations-apercu-3x-0002 | capsule-panic | packages/assets/atlas/animations-apercu@3x.webp |
 | asset-image-animations-jeu-2x-0001 | capsule-panic | packages/assets/atlas/animations-jeu@2x.png |
+| asset-image-animations-jeu-2x-0001 | capsule-panic | packages/assets/atlas/animations-jeu@2x.png |
+| asset-image-animations-jeu-2x-0002 | capsule-panic | packages/assets/atlas/animations-jeu@2x.webp |
 | asset-image-animations-jeu-2x-0002 | capsule-panic | packages/assets/atlas/animations-jeu@2x.webp |
 | asset-image-animations-jeu-3x-0001 | capsule-panic | packages/assets/atlas/animations-jeu@3x.png |
+| asset-image-animations-jeu-3x-0001 | capsule-panic | packages/assets/atlas/animations-jeu@3x.png |
+| asset-image-animations-jeu-3x-0002 | capsule-panic | packages/assets/atlas/animations-jeu@3x.webp |
 | asset-image-animations-jeu-3x-0002 | capsule-panic | packages/assets/atlas/animations-jeu@3x.webp |
 | asset-image-apercu-code-boubou-0001 | jeux-assets | personnages/boubou/apercu-code-boubou.png |
 | asset-image-apercu-code-caliroux-0001 | jeux-assets | personnages/caliroux/apercu-code-caliroux.png |
@@ -2561,11 +2580,214 @@
 | asset-image-camion-0002 | opencade | src/games/petits-pompiers/iso/camion.webp |
 | asset-image-camion-0002 | opencade | src/games/petits-pompiers/iso/camion.webp |
 | asset-image-capsule-panic-192-0001 | capsule-panic | apps/web/public/icons/capsule-panic-192.png |
+| asset-image-capsule-panic-192-0001 | capsule-panic | apps/web/public/icons/capsule-panic-192.png |
 | asset-image-capsule-panic-512-0001 | capsule-panic | apps/web/public/icons/capsule-panic-512.png |
+| asset-image-capsule-panic-512-0001 | capsule-panic | apps/web/public/icons/capsule-panic-512.png |
+| asset-image-capsule-panic-animations-apercu-0001 | — | — |
+| asset-image-capsule-panic-animations-apercu-0002 | — | — |
+| asset-image-capsule-panic-animations-jeu-2x-0001 | — | — |
+| asset-image-capsule-panic-animations-jeu-3x-0001 | — | — |
+| asset-image-capsule-panic-cascade-apercu-2x-0001 | — | — |
+| asset-image-capsule-panic-cascade-apercu-3x-0001 | — | — |
+| asset-image-capsule-panic-composants-maquett-0001 | — | — |
+| asset-image-capsule-panic-composants-maquett-0002 | — | — |
+| asset-image-capsule-panic-credits-0001 | — | — |
+| asset-image-capsule-panic-logo-apercu-2x-0001 | — | — |
+| asset-image-capsule-panic-logo-apercu-3x-0001 | — | — |
+| asset-image-capsule-panic-logo-jeu-2x-0001 | — | — |
+| asset-image-capsule-panic-logo-jeu-3x-0001 | — | — |
 | asset-image-capsule-panic-maskable-512-0001 | capsule-panic | apps/web/public/icons/capsule-panic-maskable-512.png |
+| asset-image-capsule-panic-maskable-512-0001 | capsule-panic | apps/web/public/icons/capsule-panic-maskable-512.png |
+| asset-image-capsule-panic-mode-jeu-2x-0001 | — | — |
+| asset-image-capsule-panic-mode-jeu-3x-0001 | — | — |
+| asset-image-capsule-panic-paires-horizontale-0001 | — | — |
+| asset-image-capsule-panic-paires-horizontale-0002 | — | — |
+| asset-image-capsule-panic-paires-verticale-o-0001 | — | — |
+| asset-image-capsule-panic-paires-verticale-o-0002 | — | — |
+| asset-image-capsule-panic-pieces-origine-2x-0001 | — | — |
+| asset-image-capsule-panic-pieces-origine-3x-0001 | — | — |
+| asset-image-capsule-panic-planche-transparen-0001 | — | — |
+| asset-image-capsule-panic-plateau-apercu-2x-0001 | — | — |
+| asset-image-capsule-panic-plateau-apercu-3x-0001 | — | — |
+| asset-image-capsule-panic-plateau-jeu-2x-0001 | — | — |
+| asset-image-capsule-panic-plateau-jeu-3x-0001 | — | — |
+| asset-image-capsule-panic-sprite-accueil-com-0001 | — | — |
+| asset-image-capsule-panic-sprite-aide-accuei-0001 | capsule-panic | packages/assets/runtime/sprite-aide-accueil.webp |
+| asset-image-capsule-panic-sprite-aide-comman-0001 | — | — |
+| asset-image-capsule-panic-sprite-aide-menus-0001 | — | — |
+| asset-image-capsule-panic-sprite-anneau-aper-0001 | — | — |
+| asset-image-capsule-panic-sprite-anneau-etoi-0001 | — | — |
+| asset-image-capsule-panic-sprite-barre-parti-0001 | — | — |
+| asset-image-capsule-panic-sprite-barre-parti-0002 | — | — |
+| asset-image-capsule-panic-sprite-bas-command-0001 | — | — |
+| asset-image-capsule-panic-sprite-bloc-bleu-p-0001 | — | — |
+| asset-image-capsule-panic-sprite-bloc-bleu-p-0002 | — | — |
+| asset-image-capsule-panic-sprite-bloc-jaune-0001 | — | — |
+| asset-image-capsule-panic-sprite-bloc-jaune-0002 | — | — |
+| asset-image-capsule-panic-sprite-bloc-rouge-0001 | — | — |
+| asset-image-capsule-panic-sprite-bloc-rouge-0002 | — | — |
+| asset-image-capsule-panic-sprite-cadre-nivea-0001 | — | — |
+| asset-image-capsule-panic-sprite-cadre-nivea-0002 | — | — |
+| asset-image-capsule-panic-sprite-cadre-score-0001 | — | — |
+| asset-image-capsule-panic-sprite-cadre-score-0002 | — | — |
+| asset-image-capsule-panic-sprite-cadre-stati-0001 | — | — |
+| asset-image-capsule-panic-sprite-carte-class-0001 | — | — |
+| asset-image-capsule-panic-sprite-cascade-ape-0001 | — | — |
+| asset-image-capsule-panic-sprite-case-sombre-0001 | — | — |
+| asset-image-capsule-panic-sprite-case-sombre-0002 | — | — |
+| asset-image-capsule-panic-sprite-cellule-amb-0001 | — | — |
+| asset-image-capsule-panic-sprite-cellule-cya-0001 | — | — |
+| asset-image-capsule-panic-sprite-cellule-fan-0001 | — | — |
+| asset-image-capsule-panic-sprite-cellule-mag-0001 | — | — |
+| asset-image-capsule-panic-sprite-chercheuse-0001 | — | — |
+| asset-image-capsule-panic-sprite-chute-anima-0001 | — | — |
+| asset-image-capsule-panic-sprite-chute-anima-0002 | — | — |
+| asset-image-capsule-panic-sprite-credits-acc-0001 | — | — |
+| asset-image-capsule-panic-sprite-credits-acc-0002 | — | — |
+| asset-image-capsule-panic-sprite-cristal-amb-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristal-bri-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristal-bri-0002 | — | — |
+| asset-image-capsule-panic-sprite-cristal-bri-0003 | — | — |
+| asset-image-capsule-panic-sprite-cristal-cya-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristal-mag-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristaux-co-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristaux-co-0002 | — | — |
+| asset-image-capsule-panic-sprite-cristaux-co-0003 | — | — |
+| asset-image-capsule-panic-sprite-cristaux-el-0001 | — | — |
+| asset-image-capsule-panic-sprite-cristaux-hu-0001 | — | — |
+| asset-image-capsule-panic-sprite-defaite-ban-0001 | — | — |
+| asset-image-capsule-panic-sprite-defaite-mes-0001 | — | — |
+| asset-image-capsule-panic-sprite-deplacement-0001 | — | — |
+| asset-image-capsule-panic-sprite-deplacement-0002 | — | — |
+| asset-image-capsule-panic-sprite-dialogue-pa-0001 | — | — |
+| asset-image-capsule-panic-sprite-droite-comm-0001 | — | — |
+| asset-image-capsule-panic-sprite-eclat-effet-0001 | — | — |
+| asset-image-capsule-panic-sprite-erlenmeyer-0001 | — | — |
+| asset-image-capsule-panic-sprite-etincelles-0001 | — | — |
+| asset-image-capsule-panic-sprite-etoile-obje-0001 | — | — |
+| asset-image-capsule-panic-sprite-etoile-obje-0002 | — | — |
+| asset-image-capsule-panic-sprite-explosion-a-0001 | — | — |
+| asset-image-capsule-panic-sprite-explosion-e-0001 | — | — |
+| asset-image-capsule-panic-sprite-explosion-e-0002 | — | — |
+| asset-image-capsule-panic-sprite-fiole-bleue-0001 | — | — |
+| asset-image-capsule-panic-sprite-fiole-jaune-0001 | — | — |
+| asset-image-capsule-panic-sprite-fiole-rouge-0001 | — | — |
+| asset-image-capsule-panic-sprite-fioles-sous-0001 | — | — |
+| asset-image-capsule-panic-sprite-fioles-trio-0001 | — | — |
+| asset-image-capsule-panic-sprite-fleche-chut-0001 | — | — |
+| asset-image-capsule-panic-sprite-fleche-desc-0001 | — | — |
+| asset-image-capsule-panic-sprite-fleche-rota-0001 | — | — |
+| asset-image-capsule-panic-sprite-fleche-rota-0002 | — | — |
+| asset-image-capsule-panic-sprite-fleche-rota-0003 | — | — |
+| asset-image-capsule-panic-sprite-fleche-verr-0001 | — | — |
+| asset-image-capsule-panic-sprite-fumee-effet-0001 | — | — |
+| asset-image-capsule-panic-sprite-fumee-effet-0002 | — | — |
+| asset-image-capsule-panic-sprite-gauche-comm-0001 | — | — |
+| asset-image-capsule-panic-sprite-gestes-gest-0001 | — | — |
+| asset-image-capsule-panic-sprite-gestes-gest-0002 | — | — |
+| asset-image-capsule-panic-sprite-grille-fond-0001 | — | — |
+| asset-image-capsule-panic-sprite-impact-aper-0001 | — | — |
+| asset-image-capsule-panic-sprite-jouer-accue-0001 | — | — |
+| asset-image-capsule-panic-sprite-jouer-accue-0002 | — | — |
+| asset-image-capsule-panic-sprite-jouer-comma-0001 | — | — |
+| asset-image-capsule-panic-sprite-jouer-menus-0001 | — | — |
+| asset-image-capsule-panic-sprite-laboratoire-0001 | — | — |
+| asset-image-capsule-panic-sprite-lecture-com-0001 | — | — |
+| asset-image-capsule-panic-sprite-lecture-com-0002 | — | — |
+| asset-image-capsule-panic-sprite-legende-cla-0001 | — | — |
+| asset-image-capsule-panic-sprite-ligne-elimi-0001 | — | — |
+| asset-image-capsule-panic-sprite-logo-apercu-0001 | — | — |
+| asset-image-capsule-panic-sprite-logo-jeu-0001 | — | — |
+| asset-image-capsule-panic-sprite-logo-jeu-0002 | — | — |
+| asset-image-capsule-panic-sprite-medaillon-c-0001 | — | — |
+| asset-image-capsule-panic-sprite-menu-reussi-0001 | — | — |
+| asset-image-capsule-panic-sprite-menu-reussi-0002 | — | — |
+| asset-image-capsule-panic-sprite-mode-classi-0001 | — | — |
+| asset-image-capsule-panic-sprite-niveau-plus-0001 | — | — |
+| asset-image-capsule-panic-sprite-notation-do-0001 | — | — |
+| asset-image-capsule-panic-sprite-notation-si-0001 | — | — |
+| asset-image-capsule-panic-sprite-notation-tr-0001 | — | — |
+| asset-image-capsule-panic-sprite-nuage-aperc-0001 | — | — |
+| asset-image-capsule-panic-sprite-options-acc-0001 | — | — |
+| asset-image-capsule-panic-sprite-options-acc-0002 | — | — |
+| asset-image-capsule-panic-sprite-options-com-0001 | — | — |
+| asset-image-capsule-panic-sprite-options-men-0001 | — | — |
+| asset-image-capsule-panic-sprite-paillasse-f-0001 | — | — |
+| asset-image-capsule-panic-sprite-paire-horiz-0001 | — | — |
+| asset-image-capsule-panic-sprite-paire-horiz-0002 | — | — |
+| asset-image-capsule-panic-sprite-paire-horiz-0003 | — | — |
+| asset-image-capsule-panic-sprite-paire-verti-0001 | — | — |
+| asset-image-capsule-panic-sprite-paire-verti-0002 | — | — |
+| asset-image-capsule-panic-sprite-paire-verti-0003 | — | — |
+| asset-image-capsule-panic-sprite-panneau-niv-0001 | — | — |
+| asset-image-capsule-panic-sprite-panneau-sco-0001 | — | — |
+| asset-image-capsule-panic-sprite-panneau-sui-0001 | — | — |
+| asset-image-capsule-panic-sprite-panneaux-pa-0001 | — | — |
+| asset-image-capsule-panic-sprite-particules-0001 | — | — |
+| asset-image-capsule-panic-sprite-particules-0002 | — | — |
+| asset-image-capsule-panic-sprite-particules-0003 | — | — |
+| asset-image-capsule-panic-sprite-pause-banni-0001 | — | — |
+| asset-image-capsule-panic-sprite-pause-comma-0001 | — | — |
+| asset-image-capsule-panic-sprite-pause-comma-0002 | — | — |
+| asset-image-capsule-panic-sprite-pause-messa-0001 | — | — |
+| asset-image-capsule-panic-sprite-plein-ecran-0001 | — | — |
+| asset-image-capsule-panic-sprite-pont-bas-0001 | — | — |
+| asset-image-capsule-panic-sprite-pont-droite-0001 | — | — |
+| asset-image-capsule-panic-sprite-pont-gauche-0001 | — | — |
+| asset-image-capsule-panic-sprite-pont-haut-0001 | — | — |
+| asset-image-capsule-panic-sprite-porte-eprou-0001 | — | — |
+| asset-image-capsule-panic-sprite-porte-eprou-0002 | — | — |
+| asset-image-capsule-panic-sprite-quitter-com-0001 | — | — |
+| asset-image-capsule-panic-sprite-quitter-men-0001 | — | — |
+| asset-image-capsule-panic-sprite-reacteur-ch-0001 | — | — |
+| asset-image-capsule-panic-sprite-reacteur-ch-0002 | — | — |
+| asset-image-capsule-panic-sprite-reacteur-fo-0001 | — | — |
+| asset-image-capsule-panic-sprite-reacteur-vi-0001 | — | — |
+| asset-image-capsule-panic-sprite-recommencer-0001 | — | — |
+| asset-image-capsule-panic-sprite-reglages-co-0001 | — | — |
+| asset-image-capsule-panic-sprite-rejouer-reu-0001 | — | — |
+| asset-image-capsule-panic-sprite-rejouer-reu-0002 | — | — |
+| asset-image-capsule-panic-sprite-responsable-0001 | — | — |
+| asset-image-capsule-panic-sprite-rotation-an-0001 | — | — |
+| asset-image-capsule-panic-sprite-rotation-co-0001 | — | — |
+| asset-image-capsule-panic-sprite-ruban-reuss-0001 | — | — |
+| asset-image-capsule-panic-sprite-ruban-reuss-0002 | — | — |
+| asset-image-capsule-panic-sprite-satellite-e-0001 | — | — |
+| asset-image-capsule-panic-sprite-segment-ble-0001 | — | — |
+| asset-image-capsule-panic-sprite-segment-jau-0001 | — | — |
+| asset-image-capsule-panic-sprite-segment-rou-0001 | — | — |
+| asset-image-capsule-panic-sprite-suivant-reu-0001 | — | — |
+| asset-image-capsule-panic-sprite-suivant-reu-0002 | — | — |
+| asset-image-capsule-panic-sprite-touches-act-0001 | — | — |
+| asset-image-capsule-panic-sprite-touches-hor-0001 | — | — |
+| asset-image-capsule-panic-sprite-trainee-chu-0001 | — | — |
+| asset-image-capsule-panic-sprite-trainee-chu-0002 | — | — |
+| asset-image-capsule-panic-sprite-trainee-dep-0001 | — | — |
+| asset-image-capsule-panic-sprite-trainee-lon-0001 | — | — |
+| asset-image-capsule-panic-sprite-trainee-ver-0001 | — | — |
+| asset-image-capsule-panic-sprite-transformat-0001 | — | — |
+| asset-image-capsule-panic-sprite-trophee-obj-0001 | — | — |
+| asset-image-capsule-panic-sprite-trophee-obj-0002 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-al-0001 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-al-0002 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-de-0001 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-de-0002 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-el-0001 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-el-0002 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-pi-0001 | — | — |
+| asset-image-capsule-panic-sprite-tutoriel-pi-0002 | — | — |
+| asset-image-capsule-panic-sprite-verrouillag-0001 | — | — |
+| asset-image-capsule-panic-sprite-victoire-ba-0001 | — | — |
+| asset-image-capsule-panic-sprite-victoire-me-0001 | — | — |
+| asset-image-capsule-panic-tutoriel-apercu-2x-0001 | — | — |
+| asset-image-capsule-panic-tutoriel-apercu-3x-0001 | — | — |
+| asset-image-cascade-apercu-2x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@2x.png |
 | asset-image-cascade-apercu-2x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@2x.png |
 | asset-image-cascade-apercu-2x-0002 | capsule-panic | packages/assets/atlas/cascade-apercu@2x.webp |
+| asset-image-cascade-apercu-2x-0002 | capsule-panic | packages/assets/atlas/cascade-apercu@2x.webp |
 | asset-image-cascade-apercu-3x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@3x.png |
+| asset-image-cascade-apercu-3x-0001 | capsule-panic | packages/assets/atlas/cascade-apercu@3x.png |
+| asset-image-cascade-apercu-3x-0002 | capsule-panic | packages/assets/atlas/cascade-apercu@3x.webp |
 | asset-image-cascade-apercu-3x-0002 | capsule-panic | packages/assets/atlas/cascade-apercu@3x.webp |
 | asset-image-chambre-apercu-2x-0001 | capsule-panic | packages/assets/atlas/chambre-apercu@2x.png |
 | asset-image-chambre-apercu-2x-0002 | capsule-panic | packages/assets/atlas/chambre-apercu@2x.webp |
@@ -2989,8 +3211,6 @@
 | asset-image-choc-04-0003 | jeux-assets | references-non-validees/pistouille-etats-kart/pestouille/choc_04.png |
 | asset-image-choc-04-0004 | jeux-assets | references-non-validees/pistouille-etats-kart/pilote-rouge/choc_04.png |
 | asset-image-choc-04-0005 | jeux-assets | references-non-validees/pistouille-etats-kart/tutu/choc_04.png |
-| asset-image-choix-salle-de-bain-normal-0001 | cozy-room-sort | content/assets/planches/derives/choix-salle-de-bain-normal.webp |
-| asset-image-choix-salle-de-bain-normal-0001 | cozy-room-sort | content/assets/planches/derives/choix-salle-de-bain-normal.webp |
 | asset-image-cloture-0001 | jeux-assets | objets/univers-chapitres/beauval/cloture.png |
 | asset-image-coffre-0001 | jeux-assets | objets/univers-chapitres/aquarium/coffre.png |
 | asset-image-colonne-dessus-0001 | jeux-assets | decors/paris/colonne_dessus.webp |
@@ -3008,8 +3228,12 @@
 | asset-image-commandes-origine-3x-0001 | capsule-panic | packages/assets/atlas/commandes-origine@3x.png |
 | asset-image-commandes-origine-3x-0002 | capsule-panic | packages/assets/atlas/commandes-origine@3x.webp |
 | asset-image-composants-maquettes-2x-0001 | capsule-panic | packages/assets/atlas/composants-maquettes@2x.png |
+| asset-image-composants-maquettes-2x-0001 | capsule-panic | packages/assets/atlas/composants-maquettes@2x.png |
+| asset-image-composants-maquettes-2x-0002 | capsule-panic | packages/assets/atlas/composants-maquettes@2x.webp |
 | asset-image-composants-maquettes-2x-0002 | capsule-panic | packages/assets/atlas/composants-maquettes@2x.webp |
 | asset-image-composants-maquettes-3x-0001 | capsule-panic | packages/assets/atlas/composants-maquettes@3x.png |
+| asset-image-composants-maquettes-3x-0001 | capsule-panic | packages/assets/atlas/composants-maquettes@3x.png |
+| asset-image-composants-maquettes-3x-0002 | capsule-panic | packages/assets/atlas/composants-maquettes@3x.webp |
 | asset-image-composants-maquettes-3x-0002 | capsule-panic | packages/assets/atlas/composants-maquettes@3x.webp |
 | asset-image-compter-combien-0001 | opencadkid | docs/captures/compter-combien.png |
 | asset-image-compter-combien-0001 | opencadkid | docs/captures/compter-combien.png |
@@ -3119,16 +3343,10 @@
 | asset-image-compteurs-maquettes-jeu-3x-0001 | capsule-panic | packages/assets/atlas/compteurs-maquettes-jeu@3x.png |
 | asset-image-compteurs-maquettes-jeu-3x-0002 | capsule-panic | packages/assets/atlas/compteurs-maquettes-jeu@3x.webp |
 | asset-image-coquillage-0001 | jeux-assets | objets/univers-chapitres/aquarium/coquillage.png |
-| asset-image-cozy-room-sort-192-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-192.png |
-| asset-image-cozy-room-sort-192-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-192.png |
-| asset-image-cozy-room-sort-512-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-512.png |
-| asset-image-cozy-room-sort-512-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-512.png |
-| asset-image-cozy-room-sort-maskable-512-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-maskable-512.png |
-| asset-image-cozy-room-sort-maskable-512-0001 | cozy-room-sort | apps/web/public/icons/cozy-room-sort-maskable-512.png |
+| asset-image-credits-0001 | capsule-panic | packages/assets/runtime/credits.webp |
 | asset-image-credits-0001 | capsule-panic | packages/assets/runtime/credits.webp |
 | asset-image-cristal-0001 | jeux-assets | objets/univers-chapitres/poetique/cristal.png |
 | asset-image-cristal-galaxie-0001 | jeux-assets | decors/horizons/production-png/cristal_galaxie.png |
-| asset-image-cristal-luciole-0001 | pestouille-rpg | public/assets/redessine/cristal-luciole.png |
 | asset-image-cristal-volcan-0001 | jeux-assets | decors/horizons/production-png/cristal_volcan.png |
 | asset-image-cristaux-galaxie-g-0001 | jeux-assets | decors/horizons/production-png/cristaux_galaxie_g.png |
 | asset-image-cycles-marche-enfants-planche-0001 | jeux-assets | personnages/enfants-pompiers/sources/cycles_marche_enfants_PLANCHE.png |
@@ -3201,8 +3419,6 @@
 | asset-image-effets-origine-2x-0002 | capsule-panic | packages/assets/atlas/effets-origine@2x.webp |
 | asset-image-effets-origine-3x-0001 | capsule-panic | packages/assets/atlas/effets-origine@3x.png |
 | asset-image-effets-origine-3x-0002 | capsule-panic | packages/assets/atlas/effets-origine@3x.webp |
-| asset-image-eglantine-portrait-0001 | pestouille-rpg | public/assets/redessine/eglantine-portrait.png |
-| asset-image-eglantine-terrain-0001 | pestouille-rpg | public/assets/redessine/eglantine-terrain.png |
 | asset-image-elimination-jeu-2x-0001 | capsule-panic | packages/assets/atlas/elimination-jeu@2x.png |
 | asset-image-elimination-jeu-2x-0002 | capsule-panic | packages/assets/atlas/elimination-jeu@2x.webp |
 | asset-image-elimination-jeu-3x-0001 | capsule-panic | packages/assets/atlas/elimination-jeu@3x.png |
@@ -3216,8 +3432,6 @@
 | asset-image-fioles-logo-2x-0002 | capsule-panic | packages/assets/atlas/fioles-logo@2x.webp |
 | asset-image-fioles-logo-3x-0001 | capsule-panic | packages/assets/atlas/fioles-logo@3x.png |
 | asset-image-fioles-logo-3x-0002 | capsule-panic | packages/assets/atlas/fioles-logo@3x.webp |
-| asset-image-flammeche-pleine-0001 | pestouille-rpg | public/assets/redessine/flammeche-pleine.png |
-| asset-image-flammeche-vide-0001 | pestouille-rpg | public/assets/redessine/flammeche-vide.png |
 | asset-image-fleche-plateau-apercu-2x-0001 | capsule-panic | packages/assets/atlas/fleche-plateau-apercu@2x.png |
 | asset-image-fleche-plateau-apercu-2x-0002 | capsule-panic | packages/assets/atlas/fleche-plateau-apercu@2x.webp |
 | asset-image-fleche-plateau-apercu-3x-0001 | capsule-panic | packages/assets/atlas/fleche-plateau-apercu@3x.png |
@@ -3281,7 +3495,6 @@
 | asset-image-freinage-04-0003 | jeux-assets | references-non-validees/pistouille-etats-kart/pestouille/freinage_04.png |
 | asset-image-freinage-04-0004 | jeux-assets | references-non-validees/pistouille-etats-kart/pilote-rouge/freinage_04.png |
 | asset-image-freinage-04-0005 | jeux-assets | references-non-validees/pistouille-etats-kart/tutu/freinage_04.png |
-| asset-image-fronde-lianes-0001 | pestouille-rpg | public/assets/redessine/fronde-lianes.png |
 | asset-image-fumee-volcan-0001 | jeux-assets | decors/horizons/production-png/fumee_volcan.png |
 | asset-image-fumee-volcan-d-0001 | jeux-assets | decors/horizons/production-png/fumee_volcan_d.png |
 | asset-image-game-alunir-0001 | jeux-assets | code/opencade/apercus/game-alunir.webp |
@@ -3526,7 +3739,6 @@
 | asset-image-gouter-premier-0001 | opencadkid | docs/captures/gouter-premier.png |
 | asset-image-gouter-premier-0001 | opencadkid | docs/captures/gouter-premier.png |
 | asset-image-gouter-premier-0001 | opencadkid | docs/captures/gouter-premier.png |
-| asset-image-graine-petard-0001 | pestouille-rpg | public/assets/redessine/graine-petard.png |
 | asset-image-home-0001 | petit-astronome | docs/screenshots/home.png |
 | asset-image-home-0001 | petit-astronome | docs/screenshots/home.png |
 | asset-image-home-0001 | petit-astronome | docs/screenshots/home.png |
@@ -3580,12 +3792,20 @@
 | asset-image-lapin-face-0002 | opencade | src/games/petits-pompiers/iso/lapin_face.webp |
 | asset-image-lapin-gris-cycle-deplacement-var-0001 | jeux-assets | references-non-validees/pompiers-animaux-cycles/lapin_gris_cycle_deplacement_VARIANTE.png |
 | asset-image-logo-apercu-2x-0001 | capsule-panic | packages/assets/atlas/logo-apercu@2x.png |
+| asset-image-logo-apercu-2x-0001 | capsule-panic | packages/assets/atlas/logo-apercu@2x.png |
+| asset-image-logo-apercu-2x-0002 | capsule-panic | packages/assets/atlas/logo-apercu@2x.webp |
 | asset-image-logo-apercu-2x-0002 | capsule-panic | packages/assets/atlas/logo-apercu@2x.webp |
 | asset-image-logo-apercu-3x-0001 | capsule-panic | packages/assets/atlas/logo-apercu@3x.png |
+| asset-image-logo-apercu-3x-0001 | capsule-panic | packages/assets/atlas/logo-apercu@3x.png |
+| asset-image-logo-apercu-3x-0002 | capsule-panic | packages/assets/atlas/logo-apercu@3x.webp |
 | asset-image-logo-apercu-3x-0002 | capsule-panic | packages/assets/atlas/logo-apercu@3x.webp |
 | asset-image-logo-jeu-2x-0001 | capsule-panic | packages/assets/atlas/logo-jeu@2x.png |
+| asset-image-logo-jeu-2x-0001 | capsule-panic | packages/assets/atlas/logo-jeu@2x.png |
+| asset-image-logo-jeu-2x-0002 | capsule-panic | packages/assets/atlas/logo-jeu@2x.webp |
 | asset-image-logo-jeu-2x-0002 | capsule-panic | packages/assets/atlas/logo-jeu@2x.webp |
 | asset-image-logo-jeu-3x-0001 | capsule-panic | packages/assets/atlas/logo-jeu@3x.png |
+| asset-image-logo-jeu-3x-0001 | capsule-panic | packages/assets/atlas/logo-jeu@3x.png |
+| asset-image-logo-jeu-3x-0002 | capsule-panic | packages/assets/atlas/logo-jeu@3x.webp |
 | asset-image-logo-jeu-3x-0002 | capsule-panic | packages/assets/atlas/logo-jeu@3x.webp |
 | asset-image-lucas-marche-0001 | jeux-assets | personnages/enfants-pompiers/sources/lucas-marche.png |
 | asset-image-lumi-arriere-0001 | jeux-assets | personnages/lumi/kart/sources/Lumi_arriere.png |
@@ -3628,15 +3848,17 @@
 | asset-image-messages-apercu-3x-0001 | capsule-panic | packages/assets/atlas/messages-apercu@3x.png |
 | asset-image-messages-apercu-3x-0002 | capsule-panic | packages/assets/atlas/messages-apercu@3x.webp |
 | asset-image-mode-jeu-2x-0001 | capsule-panic | packages/assets/atlas/mode-jeu@2x.png |
+| asset-image-mode-jeu-2x-0001 | capsule-panic | packages/assets/atlas/mode-jeu@2x.png |
+| asset-image-mode-jeu-2x-0002 | capsule-panic | packages/assets/atlas/mode-jeu@2x.webp |
 | asset-image-mode-jeu-2x-0002 | capsule-panic | packages/assets/atlas/mode-jeu@2x.webp |
 | asset-image-mode-jeu-3x-0001 | capsule-panic | packages/assets/atlas/mode-jeu@3x.png |
+| asset-image-mode-jeu-3x-0001 | capsule-panic | packages/assets/atlas/mode-jeu@3x.png |
+| asset-image-mode-jeu-3x-0002 | capsule-panic | packages/assets/atlas/mode-jeu@3x.webp |
 | asset-image-mode-jeu-3x-0002 | capsule-panic | packages/assets/atlas/mode-jeu@3x.webp |
 | asset-image-moon-0001 | petit-astronome | docs/screenshots/moon.png |
 | asset-image-moon-0001 | petit-astronome | docs/screenshots/moon.png |
 | asset-image-moon-0001 | petit-astronome | docs/screenshots/moon.png |
 | asset-image-nature-0002 | jeux-assets | decors/horizons/production-png/nature.png |
-| asset-image-nenuphine-0001 | pestouille-rpg | public/assets/redessine/nenuphine.png |
-| asset-image-nenuphine-lotus-0001 | pestouille-rpg | public/assets/redessine/nenuphine-lotus.png |
 | asset-image-noe-cycle-marche-0001 | jeux-assets | personnages/enfants-pompiers/sources/Noe_cycle_marche.png |
 | asset-image-noon-0001 | tictac | docs/screenshots/noon.png |
 | asset-image-noon-0001 | tictac | docs/screenshots/noon.png |
@@ -3846,8 +4068,12 @@
 | asset-image-p04-vues-0001 | cozy-room-sort | content/assets/planches/atlas/p04-vues.webp |
 | asset-image-p04-vues-0001 | cozy-room-sort | content/assets/planches/atlas/p04-vues.webp |
 | asset-image-paires-horizontale-origine-2x-0001 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@2x.png |
+| asset-image-paires-horizontale-origine-2x-0001 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@2x.png |
+| asset-image-paires-horizontale-origine-2x-0002 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@2x.webp |
 | asset-image-paires-horizontale-origine-2x-0002 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@2x.webp |
 | asset-image-paires-horizontale-origine-3x-0001 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@3x.png |
+| asset-image-paires-horizontale-origine-3x-0001 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@3x.png |
+| asset-image-paires-horizontale-origine-3x-0002 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@3x.webp |
 | asset-image-paires-horizontale-origine-3x-0002 | capsule-panic | packages/assets/atlas/paires-horizontale-origine@3x.webp |
 | asset-image-paires-plateau-0001 | opencadkid | docs/captures/paires-plateau.png |
 | asset-image-paires-plateau-0001 | opencadkid | docs/captures/paires-plateau.png |
@@ -3879,8 +4105,12 @@
 | asset-image-paires-plateau-0001 | opencadkid | docs/captures/paires-plateau.png |
 | asset-image-paires-plateau-0001 | opencadkid | docs/captures/paires-plateau.png |
 | asset-image-paires-verticale-origine-2x-0001 | capsule-panic | packages/assets/atlas/paires-verticale-origine@2x.png |
+| asset-image-paires-verticale-origine-2x-0001 | capsule-panic | packages/assets/atlas/paires-verticale-origine@2x.png |
+| asset-image-paires-verticale-origine-2x-0002 | capsule-panic | packages/assets/atlas/paires-verticale-origine@2x.webp |
 | asset-image-paires-verticale-origine-2x-0002 | capsule-panic | packages/assets/atlas/paires-verticale-origine@2x.webp |
 | asset-image-paires-verticale-origine-3x-0001 | capsule-panic | packages/assets/atlas/paires-verticale-origine@3x.png |
+| asset-image-paires-verticale-origine-3x-0001 | capsule-panic | packages/assets/atlas/paires-verticale-origine@3x.png |
+| asset-image-paires-verticale-origine-3x-0002 | capsule-panic | packages/assets/atlas/paires-verticale-origine@3x.webp |
 | asset-image-paires-verticale-origine-3x-0002 | capsule-panic | packages/assets/atlas/paires-verticale-origine@3x.webp |
 | asset-image-panneau-3quart-0001 | jeux-assets | objets/bord-de-piste/sources/panneau_3quart.png |
 | asset-image-panneau-arriere-0002 | jeux-assets | objets/bord-de-piste/sources/panneau_arriere.png |
@@ -3904,8 +4134,6 @@
 | asset-image-personnages-origine-2x-0002 | capsule-panic | packages/assets/atlas/personnages-origine@2x.webp |
 | asset-image-personnages-origine-3x-0001 | capsule-panic | packages/assets/atlas/personnages-origine@3x.png |
 | asset-image-personnages-origine-3x-0002 | capsule-panic | packages/assets/atlas/personnages-origine@3x.webp |
-| asset-image-pestouille-192-0001 | pestouille-rpg | public/icons/pestouille-192.png |
-| asset-image-pestouille-512-0001 | pestouille-rpg | public/icons/pestouille-512.png |
 | asset-image-pestouille-arriere-3-4-gauche-sa-0001 | jeux-assets | personnages/pestouille/kart/sources/Pestouille_arriere_3-4_gauche_sans_ombre.png |
 | asset-image-pestouille-arriere-sans-ombre-0001 | jeux-assets | personnages/pestouille/kart/sources/Pestouille_arriere_sans_ombre.png |
 | asset-image-pestouille-avant-0001 | jeux-assets | personnages/pestouille/kart/sources/Pestouille_avant.png |
@@ -3968,8 +4196,12 @@
 | asset-image-pieces-mobile-0001 | echecs-kid | docs/captures/pieces-mobile.png |
 | asset-image-pieces-mobile-0001 | echecs-kid | docs/captures/pieces-mobile.png |
 | asset-image-pieces-origine-2x-0001 | capsule-panic | packages/assets/atlas/pieces-origine@2x.png |
+| asset-image-pieces-origine-2x-0001 | capsule-panic | packages/assets/atlas/pieces-origine@2x.png |
+| asset-image-pieces-origine-2x-0002 | capsule-panic | packages/assets/atlas/pieces-origine@2x.webp |
 | asset-image-pieces-origine-2x-0002 | capsule-panic | packages/assets/atlas/pieces-origine@2x.webp |
 | asset-image-pieces-origine-3x-0001 | capsule-panic | packages/assets/atlas/pieces-origine@3x.png |
+| asset-image-pieces-origine-3x-0001 | capsule-panic | packages/assets/atlas/pieces-origine@3x.png |
+| asset-image-pieces-origine-3x-0002 | capsule-panic | packages/assets/atlas/pieces-origine@3x.webp |
 | asset-image-pieces-origine-3x-0002 | capsule-panic | packages/assets/atlas/pieces-origine@3x.webp |
 | asset-image-piste-bande-acceleration-0001 | jeux-assets | decors/textures-piste/Piste_bande_acceleration.png |
 | asset-image-piste-bitume-standard-detail-0001 | jeux-assets | decors/textures-piste/Piste_bitume_standard_detail.png |
@@ -4067,16 +4299,25 @@
 | asset-image-planche-mascottes-code-0001 | jeux-assets | apercus/planche-mascottes-code.png |
 | asset-image-planche-top10-0001 | jeux-assets | apercus/planche-top10.png |
 | asset-image-planche-transparente-0001 | capsule-panic | packages/assets/planche-transparente.png |
+| asset-image-planche-transparente-0001 | capsule-panic | packages/assets/planche-transparente.png |
 | asset-image-planets-0001 | petit-astronome | docs/screenshots/planets.png |
 | asset-image-planets-0001 | petit-astronome | docs/screenshots/planets.png |
 | asset-image-planets-0001 | petit-astronome | docs/screenshots/planets.png |
 | asset-image-plateau-apercu-2x-0001 | capsule-panic | packages/assets/atlas/plateau-apercu@2x.png |
+| asset-image-plateau-apercu-2x-0001 | capsule-panic | packages/assets/atlas/plateau-apercu@2x.png |
+| asset-image-plateau-apercu-2x-0002 | capsule-panic | packages/assets/atlas/plateau-apercu@2x.webp |
 | asset-image-plateau-apercu-2x-0002 | capsule-panic | packages/assets/atlas/plateau-apercu@2x.webp |
 | asset-image-plateau-apercu-3x-0001 | capsule-panic | packages/assets/atlas/plateau-apercu@3x.png |
+| asset-image-plateau-apercu-3x-0001 | capsule-panic | packages/assets/atlas/plateau-apercu@3x.png |
+| asset-image-plateau-apercu-3x-0002 | capsule-panic | packages/assets/atlas/plateau-apercu@3x.webp |
 | asset-image-plateau-apercu-3x-0002 | capsule-panic | packages/assets/atlas/plateau-apercu@3x.webp |
 | asset-image-plateau-jeu-2x-0001 | capsule-panic | packages/assets/atlas/plateau-jeu@2x.png |
+| asset-image-plateau-jeu-2x-0001 | capsule-panic | packages/assets/atlas/plateau-jeu@2x.png |
+| asset-image-plateau-jeu-2x-0002 | capsule-panic | packages/assets/atlas/plateau-jeu@2x.webp |
 | asset-image-plateau-jeu-2x-0002 | capsule-panic | packages/assets/atlas/plateau-jeu@2x.webp |
 | asset-image-plateau-jeu-3x-0001 | capsule-panic | packages/assets/atlas/plateau-jeu@3x.png |
+| asset-image-plateau-jeu-3x-0001 | capsule-panic | packages/assets/atlas/plateau-jeu@3x.png |
+| asset-image-plateau-jeu-3x-0002 | capsule-panic | packages/assets/atlas/plateau-jeu@3x.webp |
 | asset-image-plateau-jeu-3x-0002 | capsule-panic | packages/assets/atlas/plateau-jeu@3x.webp |
 | asset-image-pompier-dragon-s-0001 | jeux-assets | personnages/pestouille/pompier/pompier_dragon_S.webp |
 | asset-image-pompier-dragon-s-0002 | opencade | src/games/petits-pompiers/iso/pompier_dragon_S.webp |
@@ -4237,203 +4478,372 @@
 | asset-image-souche-0002 | opencade | src/games/petits-pompiers/iso/souche.webp |
 | asset-image-sprite-accueil-commandes-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-accueil-commandes-apercu.webp |
 | asset-image-sprite-accueil-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-accueil-commandes-apercu.png |
+| asset-image-sprite-accueil-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-accueil-commandes-apercu.png |
 | asset-image-sprite-aide-commandes-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-aide-commandes-apercu.webp |
 | asset-image-sprite-aide-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-aide-commandes-apercu.png |
+| asset-image-sprite-aide-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-aide-commandes-apercu.png |
+| asset-image-sprite-aide-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-aide-menus-origine.png |
 | asset-image-sprite-aide-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-aide-menus-origine.png |
 | asset-image-sprite-anneau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-anneau-apercu.png |
+| asset-image-sprite-anneau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-anneau-apercu.png |
+| asset-image-sprite-anneau-etoiles-effets-ori-0001 | capsule-panic | packages/assets/sprites/sprite-anneau-etoiles-effets-origine.png |
 | asset-image-sprite-anneau-etoiles-effets-ori-0001 | capsule-panic | packages/assets/sprites/sprite-anneau-etoiles-effets-origine.png |
 | asset-image-sprite-barre-partie-0001 | capsule-panic | packages/assets/runtime/sprite-barre-partie.webp |
+| asset-image-sprite-barre-partie-0001 | capsule-panic | packages/assets/runtime/sprite-barre-partie.webp |
+| asset-image-sprite-barre-partie-0002 | capsule-panic | packages/assets/sprites/sprite-barre-partie.png |
 | asset-image-sprite-barre-partie-0002 | capsule-panic | packages/assets/sprites/sprite-barre-partie.png |
 | asset-image-sprite-bas-commandes-origine-0001 | capsule-panic | packages/assets/runtime/sprite-bas-commandes-origine.webp |
 | asset-image-sprite-bas-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-bas-commandes-origine.png |
+| asset-image-sprite-bas-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-bas-commandes-origine.png |
+| asset-image-sprite-bloc-bleu-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-bleu-plateau-apercu.png |
 | asset-image-sprite-bloc-bleu-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-bleu-plateau-apercu.png |
 | asset-image-sprite-bloc-bleu-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-bleu-plateau-jeu.png |
+| asset-image-sprite-bloc-bleu-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-bleu-plateau-jeu.png |
+| asset-image-sprite-bloc-jaune-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-jaune-plateau-apercu.png |
 | asset-image-sprite-bloc-jaune-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-jaune-plateau-apercu.png |
 | asset-image-sprite-bloc-jaune-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-jaune-plateau-jeu.png |
+| asset-image-sprite-bloc-jaune-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-jaune-plateau-jeu.png |
+| asset-image-sprite-bloc-rouge-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-rouge-plateau-apercu.png |
 | asset-image-sprite-bloc-rouge-plateau-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-rouge-plateau-apercu.png |
 | asset-image-sprite-bloc-rouge-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-rouge-plateau-jeu.png |
+| asset-image-sprite-bloc-rouge-plateau-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-bloc-rouge-plateau-jeu.png |
+| asset-image-sprite-cadre-niveau-compteurs-ma-0001 | capsule-panic | packages/assets/sprites/sprite-cadre-niveau-compteurs-maquettes-apercu.png |
 | asset-image-sprite-cadre-niveau-compteurs-ma-0001 | capsule-panic | packages/assets/sprites/sprite-cadre-niveau-compteurs-maquettes-apercu.png |
 | asset-image-sprite-cadre-niveau-compteurs-ma-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-niveau-compteurs-maquettes-jeu.png |
+| asset-image-sprite-cadre-niveau-compteurs-ma-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-niveau-compteurs-maquettes-jeu.png |
 | asset-image-sprite-cadre-score-compteurs-maq-0001 | capsule-panic | packages/assets/sprites/sprite-cadre-score-compteurs-maquettes-apercu.png |
+| asset-image-sprite-cadre-score-compteurs-maq-0001 | capsule-panic | packages/assets/sprites/sprite-cadre-score-compteurs-maquettes-apercu.png |
+| asset-image-sprite-cadre-score-compteurs-maq-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-score-compteurs-maquettes-jeu.png |
 | asset-image-sprite-cadre-score-compteurs-maq-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-score-compteurs-maquettes-jeu.png |
 | asset-image-sprite-cadre-statistiques-reussi-0001 | capsule-panic | packages/assets/runtime/sprite-cadre-statistiques-reussite.webp |
 | asset-image-sprite-cadre-statistiques-reussi-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-statistiques-reussite.png |
+| asset-image-sprite-cadre-statistiques-reussi-0002 | capsule-panic | packages/assets/sprites/sprite-cadre-statistiques-reussite.png |
 | asset-image-sprite-carte-classique-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-carte-classique-apercu.webp |
 | asset-image-sprite-carte-classique-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-carte-classique-apercu.png |
+| asset-image-sprite-carte-classique-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-carte-classique-apercu.png |
+| asset-image-sprite-cascade-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-cascade-apercu.png |
 | asset-image-sprite-cascade-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-cascade-apercu.png |
 | asset-image-sprite-case-sombre-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-case-sombre-apercu.png |
+| asset-image-sprite-case-sombre-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-case-sombre-apercu.png |
+| asset-image-sprite-case-sombre-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-case-sombre-jeu.png |
 | asset-image-sprite-case-sombre-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-case-sombre-jeu.png |
 | asset-image-sprite-cellule-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-ambre.png |
+| asset-image-sprite-cellule-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-ambre.png |
+| asset-image-sprite-cellule-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-cyan.png |
 | asset-image-sprite-cellule-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-cyan.png |
 | asset-image-sprite-cellule-fantome-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-fantome.png |
+| asset-image-sprite-cellule-fantome-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-fantome.png |
+| asset-image-sprite-cellule-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-magenta.png |
 | asset-image-sprite-cellule-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cellule-magenta.png |
 | asset-image-sprite-chercheuse-origine-0001 | capsule-panic | packages/assets/sprites/sprite-chercheuse-origine.png |
+| asset-image-sprite-chercheuse-origine-0001 | capsule-panic | packages/assets/sprites/sprite-chercheuse-origine.png |
+| asset-image-sprite-chute-animations-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-chute-animations-apercu.png |
 | asset-image-sprite-chute-animations-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-chute-animations-apercu.png |
 | asset-image-sprite-chute-animations-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-chute-animations-jeu.png |
+| asset-image-sprite-chute-animations-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-chute-animations-jeu.png |
+| asset-image-sprite-credits-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-credits-accueil.webp |
 | asset-image-sprite-credits-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-credits-accueil.webp |
 | asset-image-sprite-credits-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-credits-accueil.png |
+| asset-image-sprite-credits-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-credits-accueil.png |
+| asset-image-sprite-cristal-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-ambre.png |
 | asset-image-sprite-cristal-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-ambre.png |
 | asset-image-sprite-cristal-brise-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-ambre.png |
+| asset-image-sprite-cristal-brise-ambre-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-ambre.png |
+| asset-image-sprite-cristal-brise-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-cyan.png |
 | asset-image-sprite-cristal-brise-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-cyan.png |
 | asset-image-sprite-cristal-brise-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-magenta.png |
+| asset-image-sprite-cristal-brise-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-brise-magenta.png |
+| asset-image-sprite-cristal-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-cyan.png |
 | asset-image-sprite-cristal-cyan-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-cyan.png |
 | asset-image-sprite-cristal-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-magenta.png |
+| asset-image-sprite-cristal-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-cristal-magenta.png |
+| asset-image-sprite-cristaux-compteur-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-apercu.png |
 | asset-image-sprite-cristaux-compteur-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-apercu.png |
 | asset-image-sprite-cristaux-compteur-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-jeu.png |
+| asset-image-sprite-cristaux-compteur-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-jeu.png |
 | asset-image-sprite-cristaux-compteur-origine-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-origine.png |
+| asset-image-sprite-cristaux-compteur-origine-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-compteur-origine.png |
+| asset-image-sprite-cristaux-elimination-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-elimination.png |
 | asset-image-sprite-cristaux-elimination-0001 | capsule-panic | packages/assets/sprites/sprite-cristaux-elimination.png |
 | asset-image-sprite-cristaux-hud-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-cristaux-hud-jeu.webp |
 | asset-image-sprite-cristaux-hud-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-cristaux-hud-jeu.png |
+| asset-image-sprite-cristaux-hud-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-cristaux-hud-jeu.png |
 | asset-image-sprite-defaite-bannieres-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-defaite-bannieres-jeu.webp |
 | asset-image-sprite-defaite-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-defaite-bannieres-jeu.png |
+| asset-image-sprite-defaite-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-defaite-bannieres-jeu.png |
+| asset-image-sprite-defaite-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-defaite-messages-apercu.png |
 | asset-image-sprite-defaite-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-defaite-messages-apercu.png |
 | asset-image-sprite-deplacement-animations-ap-0001 | capsule-panic | packages/assets/sprites/sprite-deplacement-animations-apercu.png |
+| asset-image-sprite-deplacement-animations-ap-0001 | capsule-panic | packages/assets/sprites/sprite-deplacement-animations-apercu.png |
 | asset-image-sprite-deplacement-animations-je-0001 | capsule-panic | packages/assets/sprites/sprite-deplacement-animations-jeu.png |
+| asset-image-sprite-deplacement-animations-je-0001 | capsule-panic | packages/assets/sprites/sprite-deplacement-animations-jeu.png |
+| asset-image-sprite-dialogue-panneaux-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-dialogue-panneaux-apercu.png |
 | asset-image-sprite-dialogue-panneaux-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-dialogue-panneaux-apercu.png |
 | asset-image-sprite-droite-commandes-origine-0001 | capsule-panic | packages/assets/runtime/sprite-droite-commandes-origine.webp |
 | asset-image-sprite-droite-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-droite-commandes-origine.png |
+| asset-image-sprite-droite-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-droite-commandes-origine.png |
 | asset-image-sprite-eclat-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-eclat-effets-origine.png |
+| asset-image-sprite-eclat-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-eclat-effets-origine.png |
+| asset-image-sprite-erlenmeyer-objets-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-erlenmeyer-objets-jeu.png |
 | asset-image-sprite-erlenmeyer-objets-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-erlenmeyer-objets-jeu.png |
 | asset-image-sprite-etincelles-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-etincelles-apercu.webp |
 | asset-image-sprite-etincelles-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-etincelles-apercu.png |
+| asset-image-sprite-etincelles-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-etincelles-apercu.png |
+| asset-image-sprite-etoile-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-etoile-objets-apercu.png |
 | asset-image-sprite-etoile-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-etoile-objets-apercu.png |
 | asset-image-sprite-etoile-objets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-etoile-objets-origine.png |
+| asset-image-sprite-etoile-objets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-etoile-objets-origine.png |
+| asset-image-sprite-explosion-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-explosion-apercu.png |
 | asset-image-sprite-explosion-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-explosion-apercu.png |
 | asset-image-sprite-explosion-effets-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-explosion-effets-jeu.webp |
 | asset-image-sprite-explosion-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-explosion-effets-jeu.png |
+| asset-image-sprite-explosion-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-explosion-effets-jeu.png |
+| asset-image-sprite-explosion-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-explosion-effets-origine.png |
 | asset-image-sprite-explosion-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-explosion-effets-origine.png |
 | asset-image-sprite-fiole-bleue-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-bleue-objets-origine.png |
+| asset-image-sprite-fiole-bleue-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-bleue-objets-origine.png |
 | asset-image-sprite-fiole-jaune-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-jaune-objets-origine.png |
+| asset-image-sprite-fiole-jaune-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-jaune-objets-origine.png |
+| asset-image-sprite-fiole-rouge-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-rouge-objets-origine.png |
 | asset-image-sprite-fiole-rouge-objets-origin-0001 | capsule-panic | packages/assets/sprites/sprite-fiole-rouge-objets-origine.png |
 | asset-image-sprite-fioles-sous-logo-0001 | capsule-panic | packages/assets/runtime/sprite-fioles-sous-logo.webp |
 | asset-image-sprite-fioles-sous-logo-0002 | capsule-panic | packages/assets/sprites/sprite-fioles-sous-logo.png |
+| asset-image-sprite-fioles-sous-logo-0002 | capsule-panic | packages/assets/sprites/sprite-fioles-sous-logo.png |
+| asset-image-sprite-fioles-trio-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-fioles-trio-objets-apercu.png |
 | asset-image-sprite-fioles-trio-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-fioles-trio-objets-apercu.png |
 | asset-image-sprite-fleche-chute-fantome-aper-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-chute-fantome-apercu.png |
+| asset-image-sprite-fleche-chute-fantome-aper-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-chute-fantome-apercu.png |
+| asset-image-sprite-fleche-descente-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-descente-jeu.png |
 | asset-image-sprite-fleche-descente-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-descente-jeu.png |
 | asset-image-sprite-fleche-rotation-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-apercu.png |
+| asset-image-sprite-fleche-rotation-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-apercu.png |
+| asset-image-sprite-fleche-rotation-bas-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-bas-jeu.png |
 | asset-image-sprite-fleche-rotation-bas-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-bas-jeu.png |
 | asset-image-sprite-fleche-rotation-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-jeu.png |
+| asset-image-sprite-fleche-rotation-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-rotation-jeu.png |
+| asset-image-sprite-fleche-verrouillage-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-verrouillage-apercu.png |
 | asset-image-sprite-fleche-verrouillage-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-fleche-verrouillage-apercu.png |
 | asset-image-sprite-fumee-effets-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-fumee-effets-jeu.webp |
 | asset-image-sprite-fumee-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-fumee-effets-jeu.png |
+| asset-image-sprite-fumee-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-fumee-effets-jeu.png |
+| asset-image-sprite-fumee-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-fumee-effets-origine.png |
 | asset-image-sprite-fumee-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-fumee-effets-origine.png |
 | asset-image-sprite-gauche-commandes-origine-0001 | capsule-panic | packages/assets/runtime/sprite-gauche-commandes-origine.webp |
 | asset-image-sprite-gauche-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-gauche-commandes-origine.png |
+| asset-image-sprite-gauche-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-gauche-commandes-origine.png |
+| asset-image-sprite-gestes-gestes-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-gestes-gestes-jeu.webp |
 | asset-image-sprite-gestes-gestes-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-gestes-gestes-jeu.webp |
 | asset-image-sprite-gestes-gestes-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-gestes-gestes-jeu.png |
+| asset-image-sprite-gestes-gestes-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-gestes-gestes-jeu.png |
+| asset-image-sprite-grille-fonds-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-grille-fonds-apercu.png |
 | asset-image-sprite-grille-fonds-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-grille-fonds-apercu.png |
 | asset-image-sprite-impact-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-impact-apercu.png |
+| asset-image-sprite-impact-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-impact-apercu.png |
+| asset-image-sprite-jouer-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-jouer-accueil.webp |
 | asset-image-sprite-jouer-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-jouer-accueil.webp |
 | asset-image-sprite-jouer-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-jouer-accueil.png |
+| asset-image-sprite-jouer-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-jouer-accueil.png |
 | asset-image-sprite-jouer-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-jouer-commandes-apercu.png |
+| asset-image-sprite-jouer-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-jouer-commandes-apercu.png |
+| asset-image-sprite-jouer-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-jouer-menus-origine.png |
 | asset-image-sprite-jouer-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-jouer-menus-origine.png |
 | asset-image-sprite-laboratoire-fonds-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp |
 | asset-image-sprite-laboratoire-fonds-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-laboratoire-fonds-apercu.png |
+| asset-image-sprite-laboratoire-fonds-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-laboratoire-fonds-apercu.png |
+| asset-image-sprite-lecture-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-lecture-commandes-apercu.png |
 | asset-image-sprite-lecture-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-lecture-commandes-apercu.png |
 | asset-image-sprite-lecture-commandes-origine-0001 | capsule-panic | packages/assets/runtime/sprite-lecture-commandes-origine.webp |
 | asset-image-sprite-lecture-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-lecture-commandes-origine.png |
+| asset-image-sprite-lecture-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-lecture-commandes-origine.png |
 | asset-image-sprite-legende-clavier-gestes-je-0001 | capsule-panic | packages/assets/runtime/sprite-legende-clavier-gestes-jeu.webp |
 | asset-image-sprite-legende-clavier-gestes-je-0002 | capsule-panic | packages/assets/sprites/sprite-legende-clavier-gestes-jeu.png |
+| asset-image-sprite-legende-clavier-gestes-je-0002 | capsule-panic | packages/assets/sprites/sprite-legende-clavier-gestes-jeu.png |
+| asset-image-sprite-ligne-elimination-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-ligne-elimination-apercu.png |
 | asset-image-sprite-ligne-elimination-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-ligne-elimination-apercu.png |
 | asset-image-sprite-logo-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-logo-apercu.png |
+| asset-image-sprite-logo-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-logo-apercu.png |
+| asset-image-sprite-logo-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-logo-jeu.webp |
 | asset-image-sprite-logo-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-logo-jeu.webp |
 | asset-image-sprite-logo-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-logo-jeu.png |
+| asset-image-sprite-logo-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-logo-jeu.png |
+| asset-image-sprite-medaillon-cellule-0001 | capsule-panic | packages/assets/sprites/sprite-medaillon-cellule.png |
 | asset-image-sprite-medaillon-cellule-0001 | capsule-panic | packages/assets/sprites/sprite-medaillon-cellule.png |
 | asset-image-sprite-menu-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-menu-reussite.webp |
+| asset-image-sprite-menu-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-menu-reussite.webp |
 | asset-image-sprite-menu-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-menu-reussite.png |
+| asset-image-sprite-menu-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-menu-reussite.png |
+| asset-image-sprite-mode-classique-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-mode-classique-jeu.png |
 | asset-image-sprite-mode-classique-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-mode-classique-jeu.png |
 | asset-image-sprite-niveau-plus-commandes-ape-0001 | capsule-panic | packages/assets/runtime/sprite-niveau-plus-commandes-apercu.webp |
 | asset-image-sprite-niveau-plus-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-niveau-plus-commandes-apercu.png |
+| asset-image-sprite-niveau-plus-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-niveau-plus-commandes-apercu.png |
+| asset-image-sprite-notation-double-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-double-apercu.png |
 | asset-image-sprite-notation-double-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-double-apercu.png |
 | asset-image-sprite-notation-simple-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-simple-apercu.png |
+| asset-image-sprite-notation-simple-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-simple-apercu.png |
+| asset-image-sprite-notation-triple-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-triple-apercu.png |
 | asset-image-sprite-notation-triple-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-notation-triple-apercu.png |
 | asset-image-sprite-nuage-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-nuage-apercu.png |
+| asset-image-sprite-nuage-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-nuage-apercu.png |
+| asset-image-sprite-options-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-options-accueil.webp |
 | asset-image-sprite-options-accueil-0001 | capsule-panic | packages/assets/runtime/sprite-options-accueil.webp |
 | asset-image-sprite-options-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-options-accueil.png |
+| asset-image-sprite-options-accueil-0002 | capsule-panic | packages/assets/sprites/sprite-options-accueil.png |
 | asset-image-sprite-options-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-options-commandes-apercu.png |
+| asset-image-sprite-options-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-options-commandes-apercu.png |
+| asset-image-sprite-options-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-options-menus-origine.png |
 | asset-image-sprite-options-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-options-menus-origine.png |
 | asset-image-sprite-paillasse-fond-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-paillasse-fond-jeu.webp |
 | asset-image-sprite-paillasse-fond-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-paillasse-fond-jeu.png |
+| asset-image-sprite-paillasse-fond-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-paillasse-fond-jeu.png |
+| asset-image-sprite-paire-horizontale-cyan-am-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-cyan-ambre.png |
 | asset-image-sprite-paire-horizontale-cyan-am-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-cyan-ambre.png |
 | asset-image-sprite-paire-horizontale-cyan-ma-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-cyan-magenta.png |
+| asset-image-sprite-paire-horizontale-cyan-ma-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-cyan-magenta.png |
+| asset-image-sprite-paire-horizontale-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png |
 | asset-image-sprite-paire-horizontale-magenta-0001 | capsule-panic | packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png |
 | asset-image-sprite-paire-verticale-cyan-ambr-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png |
+| asset-image-sprite-paire-verticale-cyan-ambr-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png |
+| asset-image-sprite-paire-verticale-cyan-mage-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-cyan-magenta.png |
 | asset-image-sprite-paire-verticale-cyan-mage-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-cyan-magenta.png |
 | asset-image-sprite-paire-verticale-magenta-a-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png |
+| asset-image-sprite-paire-verticale-magenta-a-0001 | capsule-panic | packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png |
 | asset-image-sprite-panneau-niveau-hud-origin-0001 | capsule-panic | packages/assets/sprites/sprite-panneau-niveau-hud-origine.png |
+| asset-image-sprite-panneau-niveau-hud-origin-0001 | capsule-panic | packages/assets/sprites/sprite-panneau-niveau-hud-origine.png |
+| asset-image-sprite-panneau-score-hud-origine-0001 | capsule-panic | packages/assets/sprites/sprite-panneau-score-hud-origine.png |
 | asset-image-sprite-panneau-score-hud-origine-0001 | capsule-panic | packages/assets/sprites/sprite-panneau-score-hud-origine.png |
 | asset-image-sprite-panneau-suivant-partie-0001 | capsule-panic | packages/assets/runtime/sprite-panneau-suivant-partie.webp |
 | asset-image-sprite-panneau-suivant-partie-0002 | capsule-panic | packages/assets/sprites/sprite-panneau-suivant-partie.png |
+| asset-image-sprite-panneau-suivant-partie-0002 | capsule-panic | packages/assets/sprites/sprite-panneau-suivant-partie.png |
 | asset-image-sprite-panneaux-panneaux-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-panneaux-panneaux-apercu.webp |
 | asset-image-sprite-panneaux-panneaux-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-panneaux-panneaux-apercu.png |
+| asset-image-sprite-panneaux-panneaux-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-panneaux-panneaux-apercu.png |
+| asset-image-sprite-particules-dorees-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-particules-dorees-apercu.png |
 | asset-image-sprite-particules-dorees-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-particules-dorees-apercu.png |
 | asset-image-sprite-particules-effets-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-particules-effets-jeu.webp |
 | asset-image-sprite-particules-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-particules-effets-jeu.png |
+| asset-image-sprite-particules-effets-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-particules-effets-jeu.png |
+| asset-image-sprite-particules-rouges-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-particules-rouges-apercu.png |
 | asset-image-sprite-particules-rouges-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-particules-rouges-apercu.png |
 | asset-image-sprite-pause-bannieres-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-pause-bannieres-jeu.webp |
 | asset-image-sprite-pause-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-pause-bannieres-jeu.png |
+| asset-image-sprite-pause-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-pause-bannieres-jeu.png |
+| asset-image-sprite-pause-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-pause-commandes-apercu.png |
 | asset-image-sprite-pause-commandes-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-pause-commandes-apercu.png |
 | asset-image-sprite-pause-commandes-origine-0001 | capsule-panic | packages/assets/runtime/sprite-pause-commandes-origine.webp |
 | asset-image-sprite-pause-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-pause-commandes-origine.png |
+| asset-image-sprite-pause-commandes-origine-0002 | capsule-panic | packages/assets/sprites/sprite-pause-commandes-origine.png |
+| asset-image-sprite-pause-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-pause-messages-apercu.png |
 | asset-image-sprite-pause-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-pause-messages-apercu.png |
 | asset-image-sprite-plein-ecran-commandes-ape-0001 | capsule-panic | packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp |
 | asset-image-sprite-plein-ecran-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-plein-ecran-commandes-apercu.png |
+| asset-image-sprite-plein-ecran-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-plein-ecran-commandes-apercu.png |
+| asset-image-sprite-pont-bas-0001 | capsule-panic | packages/assets/sprites/sprite-pont-bas.png |
 | asset-image-sprite-pont-bas-0001 | capsule-panic | packages/assets/sprites/sprite-pont-bas.png |
 | asset-image-sprite-pont-droite-0001 | capsule-panic | packages/assets/sprites/sprite-pont-droite.png |
+| asset-image-sprite-pont-droite-0001 | capsule-panic | packages/assets/sprites/sprite-pont-droite.png |
+| asset-image-sprite-pont-gauche-0001 | capsule-panic | packages/assets/sprites/sprite-pont-gauche.png |
 | asset-image-sprite-pont-gauche-0001 | capsule-panic | packages/assets/sprites/sprite-pont-gauche.png |
 | asset-image-sprite-pont-haut-0001 | capsule-panic | packages/assets/sprites/sprite-pont-haut.png |
+| asset-image-sprite-pont-haut-0001 | capsule-panic | packages/assets/sprites/sprite-pont-haut.png |
 | asset-image-sprite-porte-eprouvettes-objets-0001 | capsule-panic | packages/assets/sprites/sprite-porte-eprouvettes-objets-apercu.png |
+| asset-image-sprite-porte-eprouvettes-objets-0001 | capsule-panic | packages/assets/sprites/sprite-porte-eprouvettes-objets-apercu.png |
+| asset-image-sprite-porte-eprouvettes-objets-0002 | capsule-panic | packages/assets/sprites/sprite-porte-eprouvettes-objets-origine.png |
 | asset-image-sprite-porte-eprouvettes-objets-0002 | capsule-panic | packages/assets/sprites/sprite-porte-eprouvettes-objets-origine.png |
 | asset-image-sprite-quitter-commandes-apercu-0001 | capsule-panic | packages/assets/runtime/sprite-quitter-commandes-apercu.webp |
 | asset-image-sprite-quitter-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-quitter-commandes-apercu.png |
+| asset-image-sprite-quitter-commandes-apercu-0002 | capsule-panic | packages/assets/sprites/sprite-quitter-commandes-apercu.png |
 | asset-image-sprite-quitter-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-quitter-menus-origine.png |
+| asset-image-sprite-quitter-menus-origine-0001 | capsule-panic | packages/assets/sprites/sprite-quitter-menus-origine.png |
+| asset-image-sprite-reacteur-chambre-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-chambre-apercu.png |
 | asset-image-sprite-reacteur-chambre-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-chambre-apercu.png |
 | asset-image-sprite-reacteur-chambre-origine-0001 | capsule-panic | packages/assets/runtime/sprite-reacteur-chambre-origine.webp |
 | asset-image-sprite-reacteur-chambre-origine-0002 | capsule-panic | packages/assets/sprites/sprite-reacteur-chambre-origine.png |
+| asset-image-sprite-reacteur-chambre-origine-0002 | capsule-panic | packages/assets/sprites/sprite-reacteur-chambre-origine.png |
 | asset-image-sprite-reacteur-fonds-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-fonds-apercu.png |
+| asset-image-sprite-reacteur-fonds-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-fonds-apercu.png |
+| asset-image-sprite-reacteur-vide-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-vide-jeu.png |
 | asset-image-sprite-reacteur-vide-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-reacteur-vide-jeu.png |
 | asset-image-sprite-recommencer-commandes-ape-0001 | capsule-panic | packages/assets/runtime/sprite-recommencer-commandes-apercu.webp |
 | asset-image-sprite-recommencer-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-recommencer-commandes-apercu.png |
+| asset-image-sprite-recommencer-commandes-ape-0002 | capsule-panic | packages/assets/sprites/sprite-recommencer-commandes-apercu.png |
+| asset-image-sprite-reglages-commandes-origin-0001 | capsule-panic | packages/assets/sprites/sprite-reglages-commandes-origine.png |
 | asset-image-sprite-reglages-commandes-origin-0001 | capsule-panic | packages/assets/sprites/sprite-reglages-commandes-origine.png |
 | asset-image-sprite-rejouer-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-rejouer-reussite.webp |
+| asset-image-sprite-rejouer-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-rejouer-reussite.webp |
+| asset-image-sprite-rejouer-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-rejouer-reussite.png |
 | asset-image-sprite-rejouer-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-rejouer-reussite.png |
 | asset-image-sprite-responsable-origine-0001 | capsule-panic | packages/assets/sprites/sprite-responsable-origine.png |
+| asset-image-sprite-responsable-origine-0001 | capsule-panic | packages/assets/sprites/sprite-responsable-origine.png |
 | asset-image-sprite-rotation-animations-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-rotation-animations-apercu.png |
+| asset-image-sprite-rotation-animations-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-rotation-animations-apercu.png |
+| asset-image-sprite-rotation-animations-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-rotation-animations-jeu.png |
 | asset-image-sprite-rotation-animations-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-rotation-animations-jeu.png |
 | asset-image-sprite-rotation-commandes-origin-0001 | capsule-panic | packages/assets/runtime/sprite-rotation-commandes-origine.webp |
 | asset-image-sprite-rotation-commandes-origin-0002 | capsule-panic | packages/assets/sprites/sprite-rotation-commandes-origine.png |
+| asset-image-sprite-rotation-commandes-origin-0002 | capsule-panic | packages/assets/sprites/sprite-rotation-commandes-origine.png |
+| asset-image-sprite-ruban-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-ruban-reussite.webp |
 | asset-image-sprite-ruban-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-ruban-reussite.webp |
 | asset-image-sprite-ruban-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-ruban-reussite.png |
+| asset-image-sprite-ruban-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-ruban-reussite.png |
+| asset-image-sprite-satellite-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-satellite-effets-origine.png |
 | asset-image-sprite-satellite-effets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-satellite-effets-origine.png |
 | asset-image-sprite-segment-bleu-plateau-aper-0001 | capsule-panic | packages/assets/sprites/sprite-segment-bleu-plateau-apercu.png |
+| asset-image-sprite-segment-bleu-plateau-aper-0001 | capsule-panic | packages/assets/sprites/sprite-segment-bleu-plateau-apercu.png |
+| asset-image-sprite-segment-jaune-plateau-ape-0001 | capsule-panic | packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png |
 | asset-image-sprite-segment-jaune-plateau-ape-0001 | capsule-panic | packages/assets/sprites/sprite-segment-jaune-plateau-apercu.png |
 | asset-image-sprite-segment-rouge-plateau-ape-0001 | capsule-panic | packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png |
+| asset-image-sprite-segment-rouge-plateau-ape-0001 | capsule-panic | packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png |
 | asset-image-sprite-suivant-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-suivant-reussite.webp |
+| asset-image-sprite-suivant-reussite-0001 | capsule-panic | packages/assets/runtime/sprite-suivant-reussite.webp |
+| asset-image-sprite-suivant-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-suivant-reussite.png |
 | asset-image-sprite-suivant-reussite-0002 | capsule-panic | packages/assets/sprites/sprite-suivant-reussite.png |
 | asset-image-sprite-touches-action-gestes-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-touches-action-gestes-jeu.webp |
 | asset-image-sprite-touches-action-gestes-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-touches-action-gestes-jeu.png |
+| asset-image-sprite-touches-action-gestes-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-touches-action-gestes-jeu.png |
 | asset-image-sprite-touches-horizontales-gest-0001 | capsule-panic | packages/assets/runtime/sprite-touches-horizontales-gestes-jeu.webp |
 | asset-image-sprite-touches-horizontales-gest-0002 | capsule-panic | packages/assets/sprites/sprite-touches-horizontales-gestes-jeu.png |
+| asset-image-sprite-touches-horizontales-gest-0002 | capsule-panic | packages/assets/sprites/sprite-touches-horizontales-gestes-jeu.png |
+| asset-image-sprite-trainee-chute-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-chute-apercu.png |
 | asset-image-sprite-trainee-chute-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-chute-apercu.png |
 | asset-image-sprite-trainee-chute-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-chute-jeu.png |
+| asset-image-sprite-trainee-chute-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-chute-jeu.png |
+| asset-image-sprite-trainee-deplacement-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-deplacement-apercu.png |
 | asset-image-sprite-trainee-deplacement-aperc-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-deplacement-apercu.png |
 | asset-image-sprite-trainee-longue-chute-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-longue-chute-jeu.png |
+| asset-image-sprite-trainee-longue-chute-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-longue-chute-jeu.png |
+| asset-image-sprite-trainee-verrouillage-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-verrouillage-jeu.png |
 | asset-image-sprite-trainee-verrouillage-jeu-0001 | capsule-panic | packages/assets/sprites/sprite-trainee-verrouillage-jeu.png |
 | asset-image-sprite-transformation-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-transformation-apercu.png |
+| asset-image-sprite-transformation-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-transformation-apercu.png |
+| asset-image-sprite-trophee-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-trophee-objets-apercu.png |
 | asset-image-sprite-trophee-objets-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-trophee-objets-apercu.png |
 | asset-image-sprite-trophee-objets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-trophee-objets-origine.png |
+| asset-image-sprite-trophee-objets-origine-0001 | capsule-panic | packages/assets/sprites/sprite-trophee-objets-origine.png |
+| asset-image-sprite-tutoriel-aligner-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-aligner.webp |
 | asset-image-sprite-tutoriel-aligner-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-aligner.webp |
 | asset-image-sprite-tutoriel-aligner-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-aligner.png |
+| asset-image-sprite-tutoriel-aligner-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-aligner.png |
+| asset-image-sprite-tutoriel-deplacer-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-deplacer.webp |
 | asset-image-sprite-tutoriel-deplacer-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-deplacer.webp |
 | asset-image-sprite-tutoriel-deplacer-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-deplacer.png |
+| asset-image-sprite-tutoriel-deplacer-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-deplacer.png |
+| asset-image-sprite-tutoriel-eliminer-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-eliminer.webp |
 | asset-image-sprite-tutoriel-eliminer-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-eliminer.webp |
 | asset-image-sprite-tutoriel-eliminer-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-eliminer.png |
+| asset-image-sprite-tutoriel-eliminer-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-eliminer.png |
+| asset-image-sprite-tutoriel-pivoter-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-pivoter.webp |
 | asset-image-sprite-tutoriel-pivoter-0001 | capsule-panic | packages/assets/runtime/sprite-tutoriel-pivoter.webp |
 | asset-image-sprite-tutoriel-pivoter-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-pivoter.png |
+| asset-image-sprite-tutoriel-pivoter-0002 | capsule-panic | packages/assets/sprites/sprite-tutoriel-pivoter.png |
 | asset-image-sprite-verrouillage-animations-a-0001 | capsule-panic | packages/assets/sprites/sprite-verrouillage-animations-apercu.png |
+| asset-image-sprite-verrouillage-animations-a-0001 | capsule-panic | packages/assets/sprites/sprite-verrouillage-animations-apercu.png |
+| asset-image-sprite-verrouillage-animations-j-0001 | capsule-panic | packages/assets/sprites/sprite-verrouillage-animations-jeu.png |
 | asset-image-sprite-verrouillage-animations-j-0001 | capsule-panic | packages/assets/sprites/sprite-verrouillage-animations-jeu.png |
 | asset-image-sprite-victoire-bannieres-jeu-0001 | capsule-panic | packages/assets/runtime/sprite-victoire-bannieres-jeu.webp |
 | asset-image-sprite-victoire-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-victoire-bannieres-jeu.png |
+| asset-image-sprite-victoire-bannieres-jeu-0002 | capsule-panic | packages/assets/sprites/sprite-victoire-bannieres-jeu.png |
+| asset-image-sprite-victoire-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-victoire-messages-apercu.png |
 | asset-image-sprite-victoire-messages-apercu-0001 | capsule-panic | packages/assets/sprites/sprite-victoire-messages-apercu.png |
 | asset-image-stars-0001 | tictac | docs/screenshots/stars.png |
 | asset-image-stars-0001 | tictac | docs/screenshots/stars.png |
@@ -4525,8 +4935,12 @@
 | asset-image-traits-animations-jeu-3x-0001 | capsule-panic | packages/assets/atlas/traits-animations-jeu@3x.png |
 | asset-image-traits-animations-jeu-3x-0002 | capsule-panic | packages/assets/atlas/traits-animations-jeu@3x.webp |
 | asset-image-tutoriel-apercu-2x-0001 | capsule-panic | packages/assets/atlas/tutoriel-apercu@2x.png |
+| asset-image-tutoriel-apercu-2x-0001 | capsule-panic | packages/assets/atlas/tutoriel-apercu@2x.png |
+| asset-image-tutoriel-apercu-2x-0002 | capsule-panic | packages/assets/atlas/tutoriel-apercu@2x.webp |
 | asset-image-tutoriel-apercu-2x-0002 | capsule-panic | packages/assets/atlas/tutoriel-apercu@2x.webp |
 | asset-image-tutoriel-apercu-3x-0001 | capsule-panic | packages/assets/atlas/tutoriel-apercu@3x.png |
+| asset-image-tutoriel-apercu-3x-0001 | capsule-panic | packages/assets/atlas/tutoriel-apercu@3x.png |
+| asset-image-tutoriel-apercu-3x-0002 | capsule-panic | packages/assets/atlas/tutoriel-apercu@3x.webp |
 | asset-image-tutoriel-apercu-3x-0002 | capsule-panic | packages/assets/atlas/tutoriel-apercu@3x.webp |
 | asset-image-tutu-arriere-0001 | jeux-assets | personnages/tutu/kart/sources/Tutu_arriere.png |
 | asset-image-tutu-arriere-3-4-droit-0001 | jeux-assets | personnages/tutu/kart/sources/Tutu_arriere_3-4_droit.png |
@@ -5271,6 +5685,7 @@
 | asset-sprite-sprite-vue-salle-de-bain-0001 | — | — |
 | asset-sprite-sprite-vue-salon-0001 | — | — |
 | asset-style-style-0001 | capsule-panic | apps/web/src/style.css |
+| asset-style-style-0001 | capsule-panic | apps/web/src/style.css |
 | asset-style-style-0002 | echecs-kid | src/ui/style.css |
 | asset-style-style-0002 | echecs-kid | src/ui/style.css |
 | asset-style-style-0003 | opencade | src/games/artificiers/style.css |
@@ -5377,15 +5792,20 @@
 | asset-svg-bouee-0001 | jeux-assets | objets/univers-chapitres/aquarium/bouee.svg |
 | asset-svg-carte-classique-apercu-0001 | capsule-panic | packages/assets/source/svg/carte-classique-apercu.svg |
 | asset-svg-cascade-apercu-0001 | capsule-panic | packages/assets/source/svg/cascade-apercu.svg |
+| asset-svg-cascade-apercu-0001 | capsule-panic | packages/assets/source/svg/cascade-apercu.svg |
 | asset-svg-cellule-ambre-0001 | capsule-panic | packages/assets/source/svg/cellule-ambre.svg |
 | asset-svg-cellule-ambre-unie-0001 | capsule-panic | packages/assets/source/svg/cellule-ambre-unie.svg |
 | asset-svg-cellule-cyan-0001 | capsule-panic | packages/assets/source/svg/cellule-cyan.svg |
 | asset-svg-cellule-cyan-unie-0001 | capsule-panic | packages/assets/source/svg/cellule-cyan-unie.svg |
 | asset-svg-cellule-fantome-0001 | capsule-panic | packages/assets/source/svg/cellule-fantome.svg |
 | asset-svg-cellule-magenta-0001 | capsule-panic | packages/assets/source/svg/cellule-magenta.svg |
+| asset-svg-cellule-magenta-0001 | capsule-panic | packages/assets/source/svg/cellule-magenta.svg |
+| asset-svg-cellule-magenta-unie-0001 | capsule-panic | packages/assets/source/svg/cellule-magenta-unie.svg |
 | asset-svg-cellule-magenta-unie-0001 | capsule-panic | packages/assets/source/svg/cellule-magenta-unie.svg |
 | asset-svg-chariot-fleurs-0001 | jeux-assets | objets/univers-chapitres/paris/chariot_fleurs.svg |
 | asset-svg-chute-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/chute-animations-apercu.svg |
+| asset-svg-chute-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/chute-animations-apercu.svg |
+| asset-svg-chute-animations-jeu-0001 | capsule-panic | packages/assets/source/svg/chute-animations-jeu.svg |
 | asset-svg-chute-animations-jeu-0001 | capsule-panic | packages/assets/source/svg/chute-animations-jeu.svg |
 | asset-svg-cloture-0001 | jeux-assets | objets/univers-chapitres/beauval/cloture.svg |
 | asset-svg-coffre-0001 | jeux-assets | objets/univers-chapitres/aquarium/coffre.svg |
@@ -5395,8 +5815,9 @@
 | asset-svg-cristal-brise-ambre-0001 | capsule-panic | packages/assets/source/svg/cristal-brise-ambre.svg |
 | asset-svg-cristal-brise-cyan-0001 | capsule-panic | packages/assets/source/svg/cristal-brise-cyan.svg |
 | asset-svg-cristal-brise-magenta-0001 | capsule-panic | packages/assets/source/svg/cristal-brise-magenta.svg |
+| asset-svg-cristal-brise-magenta-0001 | capsule-panic | packages/assets/source/svg/cristal-brise-magenta.svg |
 | asset-svg-cristal-cyan-0001 | capsule-panic | packages/assets/source/svg/cristal-cyan.svg |
-| asset-svg-cristal-luciole-0001 | pestouille-rpg | assets/redessine/cristal-luciole.svg |
+| asset-svg-cristal-magenta-0001 | capsule-panic | packages/assets/source/svg/cristal-magenta.svg |
 | asset-svg-cristal-magenta-0001 | capsule-panic | packages/assets/source/svg/cristal-magenta.svg |
 | asset-svg-cristaux-compteur-apercu-0001 | capsule-panic | packages/assets/source/svg/cristaux-compteur-apercu.svg |
 | asset-svg-cristaux-compteur-jeu-0001 | capsule-panic | packages/assets/source/svg/cristaux-compteur-jeu.svg |
@@ -5404,15 +5825,10 @@
 | asset-svg-cristaux-elimination-0001 | capsule-panic | packages/assets/source/svg/cristaux-elimination.svg |
 | asset-svg-cristaux-hud-jeu-0001 | capsule-panic | packages/assets/source/svg/cristaux-hud-jeu.svg |
 | asset-svg-deplacement-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/deplacement-animations-apercu.svg |
+| asset-svg-deplacement-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/deplacement-animations-apercu.svg |
 | asset-svg-deplacement-animations-jeu-0001 | capsule-panic | packages/assets/source/svg/deplacement-animations-jeu.svg |
-| asset-svg-eglantine-portrait-0001 | pestouille-rpg | assets/redessine/eglantine-portrait.svg |
-| asset-svg-eglantine-terrain-0001 | pestouille-rpg | assets/redessine/eglantine-terrain.svg |
-| asset-svg-flammeche-pleine-0001 | pestouille-rpg | assets/redessine/flammeche-pleine.svg |
-| asset-svg-flammeche-vide-0001 | pestouille-rpg | assets/redessine/flammeche-vide.svg |
-| asset-svg-fronde-lianes-0001 | pestouille-rpg | assets/redessine/fronde-lianes.svg |
 | asset-svg-glyphs-0001 | six-de-chaque | apps/web/public/art/glyphs.svg |
 | asset-svg-glyphs-0001 | six-de-chaque | apps/web/public/art/glyphs.svg |
-| asset-svg-graine-petard-0001 | pestouille-rpg | assets/redessine/graine-petard.svg |
 | asset-svg-hublot-0001 | jeux-assets | objets/univers-chapitres/aquarium/hublot.svg |
 | asset-svg-lanterne-0001 | jeux-assets | objets/univers-chapitres/aquarium/lanterne.svg |
 | asset-svg-logo-apercu-0001 | capsule-panic | packages/assets/source/svg/logo-apercu.svg |
@@ -5421,14 +5837,16 @@
 | asset-svg-logo-jeu-lettres-0001 | capsule-panic | packages/assets/source/svg/logo-jeu-lettres.svg |
 | asset-svg-medaillon-cellule-0001 | capsule-panic | packages/assets/source/svg/medaillon-cellule.svg |
 | asset-svg-mode-classique-jeu-0001 | capsule-panic | packages/assets/source/svg/mode-classique-jeu.svg |
-| asset-svg-nenuphine-0001 | pestouille-rpg | assets/redessine/nenuphine.svg |
-| asset-svg-nenuphine-lotus-0001 | pestouille-rpg | assets/redessine/nenuphine-lotus.svg |
 | asset-svg-nuage-0001 | jeux-assets | objets/univers-chapitres/poetique/nuage.svg |
 | asset-svg-paire-horizontale-cyan-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-horizontale-cyan-ambre.svg |
 | asset-svg-paire-horizontale-cyan-magenta-0001 | capsule-panic | packages/assets/source/svg/paire-horizontale-cyan-magenta.svg |
+| asset-svg-paire-horizontale-cyan-magenta-0001 | capsule-panic | packages/assets/source/svg/paire-horizontale-cyan-magenta.svg |
+| asset-svg-paire-horizontale-magenta-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-horizontale-magenta-ambre.svg |
 | asset-svg-paire-horizontale-magenta-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-horizontale-magenta-ambre.svg |
 | asset-svg-paire-verticale-cyan-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-verticale-cyan-ambre.svg |
 | asset-svg-paire-verticale-cyan-magenta-0001 | capsule-panic | packages/assets/source/svg/paire-verticale-cyan-magenta.svg |
+| asset-svg-paire-verticale-cyan-magenta-0001 | capsule-panic | packages/assets/source/svg/paire-verticale-cyan-magenta.svg |
+| asset-svg-paire-verticale-magenta-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-verticale-magenta-ambre.svg |
 | asset-svg-paire-verticale-magenta-ambre-0001 | capsule-panic | packages/assets/source/svg/paire-verticale-magenta-ambre.svg |
 | asset-svg-paves-0001 | jeux-assets | objets/univers-chapitres/paris/paves.svg |
 | asset-svg-pont-0001 | jeux-assets | objets/univers-chapitres/paris/pont.svg |
@@ -5442,12 +5860,20 @@
 | asset-svg-reacteur-vide-jeu-0001 | capsule-panic | packages/assets/source/svg/reacteur-vide-jeu.svg |
 | asset-svg-rocher-0001 | jeux-assets | objets/univers-chapitres/beauval/rocher.svg |
 | asset-svg-rotation-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/rotation-animations-apercu.svg |
+| asset-svg-rotation-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/rotation-animations-apercu.svg |
+| asset-svg-rotation-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/rotation-animations-jeu.svg |
 | asset-svg-rotation-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/rotation-animations-jeu.svg |
 | asset-svg-transformation-apercu-0001 | capsule-panic | packages/assets/source/svg/transformation-apercu.svg |
+| asset-svg-transformation-apercu-0001 | capsule-panic | packages/assets/source/svg/transformation-apercu.svg |
+| asset-svg-tutoriel-deplacer-0001 | capsule-panic | packages/assets/source/svg/tutoriel-deplacer.svg |
 | asset-svg-tutoriel-deplacer-0001 | capsule-panic | packages/assets/source/svg/tutoriel-deplacer.svg |
 | asset-svg-tutoriel-eliminer-0001 | capsule-panic | packages/assets/source/svg/tutoriel-eliminer.svg |
+| asset-svg-tutoriel-eliminer-0001 | capsule-panic | packages/assets/source/svg/tutoriel-eliminer.svg |
+| asset-svg-tutoriel-pivoter-0001 | capsule-panic | packages/assets/source/svg/tutoriel-pivoter.svg |
 | asset-svg-tutoriel-pivoter-0001 | capsule-panic | packages/assets/source/svg/tutoriel-pivoter.svg |
 | asset-svg-verrouillage-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/verrouillage-animations-apercu.svg |
+| asset-svg-verrouillage-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/verrouillage-animations-apercu.svg |
+| asset-svg-verrouillage-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/verrouillage-animations-jeu.svg |
 | asset-svg-verrouillage-animations-apercu-0001 | capsule-panic | packages/assets/source/svg/verrouillage-animations-jeu.svg |
 
 ## Planches
@@ -5468,9 +5894,13 @@
 | sheet-06-palmier-dessus-0001 |
 | sheet-2026-11-06-j-bande-0001 |
 | sheet-animations-apercu-2x-0001 |
+| sheet-animations-apercu-2x-0002 |
 | sheet-animations-apercu-3x-0001 |
+| sheet-animations-apercu-3x-0002 |
 | sheet-animations-jeu-2x-0001 |
+| sheet-animations-jeu-2x-0002 |
 | sheet-animations-jeu-3x-0001 |
+| sheet-animations-jeu-3x-0002 |
 | sheet-arbre-02-cerisier-planche-0001 |
 | sheet-arbre-03-erable-planche-0001 |
 | sheet-arbre-04-pommier-planche-0001 |
@@ -5506,7 +5936,9 @@
 | sheet-capsule-panic-assets-gameplay-03-0001 |
 | sheet-capsule-panic-assets-planche-01-0001 |
 | sheet-cascade-apercu-2x-0001 |
+| sheet-cascade-apercu-2x-0002 |
 | sheet-cascade-apercu-3x-0001 |
+| sheet-cascade-apercu-3x-0002 |
 | sheet-chambre-apercu-2x-0001 |
 | sheet-chambre-apercu-3x-0001 |
 | sheet-chambre-origine-2x-0001 |
@@ -5518,7 +5950,9 @@
 | sheet-commandes-origine-2x-0001 |
 | sheet-commandes-origine-3x-0001 |
 | sheet-composants-maquettes-2x-0001 |
+| sheet-composants-maquettes-2x-0002 |
 | sheet-composants-maquettes-3x-0001 |
+| sheet-composants-maquettes-3x-0002 |
 | sheet-compteur-apercu-2x-0001 |
 | sheet-compteur-apercu-3x-0001 |
 | sheet-compteur-jeu-2x-0001 |
@@ -5576,9 +6010,13 @@
 | sheet-hud-origine-3x-0001 |
 | sheet-ines-deplacement-v2-0001 |
 | sheet-logo-apercu-2x-0001 |
+| sheet-logo-apercu-2x-0002 |
 | sheet-logo-apercu-3x-0001 |
+| sheet-logo-apercu-3x-0002 |
 | sheet-logo-jeu-2x-0001 |
+| sheet-logo-jeu-2x-0002 |
 | sheet-logo-jeu-3x-0001 |
+| sheet-logo-jeu-3x-0002 |
 | sheet-lucas-marche-0001 |
 | sheet-lumi-arriere-0001 |
 | sheet-lumi-arriere-3-4-droit-0001 |
@@ -5604,7 +6042,9 @@
 | sheet-messages-apercu-2x-0001 |
 | sheet-messages-apercu-3x-0001 |
 | sheet-mode-jeu-2x-0001 |
+| sheet-mode-jeu-2x-0002 |
 | sheet-mode-jeu-3x-0001 |
+| sheet-mode-jeu-3x-0002 |
 | sheet-noe-cycle-marche-0001 |
 | sheet-objets-apercu-2x-0001 |
 | sheet-objets-apercu-3x-0001 |
@@ -5630,9 +6070,13 @@
 | sheet-p04-ui-0001 |
 | sheet-p04-vues-0001 |
 | sheet-paires-horizontale-origine-2x-0001 |
+| sheet-paires-horizontale-origine-2x-0002 |
 | sheet-paires-horizontale-origine-3x-0001 |
+| sheet-paires-horizontale-origine-3x-0002 |
 | sheet-paires-verticale-origine-2x-0001 |
+| sheet-paires-verticale-origine-2x-0002 |
 | sheet-paires-verticale-origine-3x-0001 |
+| sheet-paires-verticale-origine-3x-0002 |
 | sheet-panneau-3quart-0001 |
 | sheet-panneaux-apercu-2x-0001 |
 | sheet-panneaux-apercu-3x-0001 |
@@ -5659,7 +6103,9 @@
 | sheet-petit-pompiers-lapin-planche-ref-0001 |
 | sheet-petit-pompiers-maison-planche-re-0001 |
 | sheet-pieces-origine-2x-0001 |
+| sheet-pieces-origine-2x-0002 |
 | sheet-pieces-origine-3x-0001 |
+| sheet-pieces-origine-3x-0002 |
 | sheet-pistouille-arbre-cerisier-cote-1-0001 |
 | sheet-pistouille-arbre-cerisier-dessus-0001 |
 | sheet-pistouille-arbre-erable-cote-102-0001 |
@@ -5742,17 +6188,24 @@
 | sheet-planche-mascottes-code-0001 |
 | sheet-planche-top10-0001 |
 | sheet-planche-transparente-0001 |
+| sheet-planche-transparente-0002 |
 | sheet-plateau-apercu-2x-0001 |
+| sheet-plateau-apercu-2x-0002 |
 | sheet-plateau-apercu-3x-0001 |
+| sheet-plateau-apercu-3x-0002 |
 | sheet-plateau-jeu-2x-0001 |
+| sheet-plateau-jeu-2x-0002 |
 | sheet-plateau-jeu-3x-0001 |
+| sheet-plateau-jeu-3x-0002 |
 | sheet-roule-0001 |
 | sheet-traits-animations-apercu-2x-0001 |
 | sheet-traits-animations-apercu-3x-0001 |
 | sheet-traits-animations-jeu-2x-0001 |
 | sheet-traits-animations-jeu-3x-0001 |
 | sheet-tutoriel-apercu-2x-0001 |
+| sheet-tutoriel-apercu-2x-0002 |
 | sheet-tutoriel-apercu-3x-0001 |
+| sheet-tutoriel-apercu-3x-0002 |
 | sheet-tutu-arriere-0001 |
 | sheet-tutu-arriere-3-4-droit-0001 |
 | sheet-tutu-arriere-3-4-gauche-0001 |

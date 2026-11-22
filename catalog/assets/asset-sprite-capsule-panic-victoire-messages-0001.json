@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:08:46.433251+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-victoire-messages-apercu-0001",
+        "reason": "découpe brute de l'élément victoire-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "eaea5aad2bb5df1b3242cfd8ce387291da767788b5ccff3193e0c7a70d1323b1",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "victoire messages apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-victoire-messages-apercu-0001",
+          "reason": "découpe brute de l'élément victoire-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-victoire-messages-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:08:46.017919+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-victoire-messages-apercu » (packages/assets/atlas/messages-apercu@2x.png), forme normalisée par le jeu de l'élément victoire-messages-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-victoire-messages-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-victoire-messages-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@2x.json · cadre sprite-victoire-messages-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-victoire-messages-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-259.png, SHA-256 2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@2x.json · cadre sprite-victoire-messages-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic victoire-messages-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "00c823d8d8228100",
+    "phash": "d2c0ad3f52c0ad2f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-victoire-messages-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-victoire-messages-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/messages-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/messages-apercu@2x.png (png)\", \"boite\": [182, 36, 1476, 615], \"cadre\": \"sprite-victoire-messages-apercu\", \"element\": \"victoire-messages-apercu\", \"empreintePixels\": \"03444f3bf1de3ef4f92cc8dd1d9ac1141a9a6f7c841ebc343982676f26640595\", \"parametres\": {\"marge\": 4, \"taille\": 144}, \"regionDuBrut\": {\"h\": 36, \"w\": 182, \"x\": 1476, \"y\": 615}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe.json\", \"tableSha256\": \"a901c1b37f7bbcbb2f2b4e9cedf7779f937f9d8aea6487666acbd7aebe766fd2\"}"
+    ],
+    "parentId": "asset-sprite-victoire-messages-apercu-0001",
+    "parentSha256": "550b7dcd6f160278e36c0c5c2492801a27e2f570ede99a18830879fd00887f7f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:08:46.433251+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/messages-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "packages/assets/atlas/messages-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-victoire-messages-apercu de packages/assets/atlas/messages-apercu@2x.png (empreinte de pixels 03444f3bf1de3ef4)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-victoire-messages-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/messages-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/messages-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "2aaab75e85031cceb092f5892a55ef6ee0be0de7565143ad4b81f911db1626dd",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

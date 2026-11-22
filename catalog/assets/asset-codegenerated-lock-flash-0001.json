@@ -1,0 +1,154 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-20T14:58:42+00:00",
+  "creation": {
+    "importJob": "c3c07e95a08fd5f6"
+  },
+  "description": "Lock flash — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "packages/renderer/src/lock-flash.ts",
+      "repo": "capsule-panic",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "c628070ec8fad9ddd4e23b5934d81335805bbba2119d462f24ecac36d87b5075",
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/renderer",
+        "path": "packages/renderer/src/lock-flash.ts",
+        "provider": "local",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-lock-flash-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/renderer/src/lock-flash.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "packages/renderer/src/lock-flash.ts · lock-flash"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/renderer/src/lock-flash.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/renderer/src/lock-flash.ts"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 0.75,
+      "evidence": [
+        "packages/renderer/src/lock-flash.ts · renderer"
+      ],
+      "method": "path-tokens"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/renderer/src/lock-flash.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@ea68eeb3829e17c49b13114107c2f38480c62341"
+  },
+  "name": "lock-flash",
+  "orientation": "unknown",
+  "originUniverse": "renderer",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/renderer/src/lock-flash.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c628070ec8fad9ddd4e23b5934d81335805bbba2119d462f24ecac36d87b5075",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "usages": [
+    {
+      "assetPath": "packages/renderer/src/lock-flash.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/renderer/src/lock-flash.ts"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : module packages/renderer/src/lock-flash.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "capsule-panic",
+      "importName": "lock-flash",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/renderer/src/lock-flash.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "dessin-code",
+      "scene": "packages/renderer/src/lock-flash.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c628070ec8fad9ddd4e23b5934d81335805bbba2119d462f24ecac36d87b5075",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

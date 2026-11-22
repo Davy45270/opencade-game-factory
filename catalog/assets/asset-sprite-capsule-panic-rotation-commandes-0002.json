@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:58:44.788480+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-rotation-commandes-0001",
+        "reason": "pixels différents du cadre livré sprite-rotation-commandes-origine (empreinte 2dd417d302c5)"
+      },
+      {
+        "assetId": "asset-sprite-rotation-commandes-origine-0001",
+        "reason": "découpe brute de l'élément rotation-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c9f5707a0247df87e4b142ba9837dd3114b2dae082f740519cda593240d96f86",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "rotation commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-rotation-commandes-0001",
+          "reason": "pixels différents du cadre livré sprite-rotation-commandes-origine (empreinte 2dd417d302c5)"
+        },
+        {
+          "assetId": "asset-sprite-rotation-commandes-origine-0001",
+          "reason": "découpe brute de l'élément rotation-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-rotation-commandes-0001",
+        "asset-sprite-rotation-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:58:44.404299+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-rotation-commandes-origine » (packages/assets/atlas/commandes-origine@3x.png), forme normalisée par le jeu de l'élément rotation-commandes-origine",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-rotation-commandes-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-rotation-commandes-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@3x.json · cadre sprite-rotation-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-rotation-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-136.png, SHA-256 c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@3x.json · cadre sprite-rotation-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic rotation-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "45b2e8ccccb9922f",
+    "phash": "96c6691967669a4e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-rotation-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-rotation-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@3x.png (png)\", \"boite\": [89, 87, 301, 717], \"cadre\": \"sprite-rotation-commandes-origine\", \"element\": \"rotation-commandes-origine\", \"empreintePixels\": \"2dd417d302c545a1819b0c9da462cb34baf78dcd6618f5a71c5d682b5802af39\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 87, \"w\": 89, \"x\": 301, \"y\": 717}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-rotation-commandes-origine-0001",
+    "parentSha256": "effe794b9b4d7b4ea09f2c77c842435bfc2d85251c2796a70da0480e4910654e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:58:44.788480+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c2aa52b422970146149df32e507ea703d90df48fa2060d80f9904e0945b53abc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

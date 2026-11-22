@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:04:21.579755+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fleche-chute-fantome-apercu-0001",
+        "reason": "découpe brute de l'élément fleche-chute-fantome-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2bb4b2b057c5e7b6bd12d5780605c113f26661cc9f39af140dac560cc4fb2c6d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fleche chute fantome apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fleche-chute-fantome-apercu-0001",
+          "reason": "découpe brute de l'élément fleche-chute-fantome-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fleche-chute-fantome-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:04:21.144238+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fleche-chute-fantome-apercu » (packages/assets/atlas/fleche-plateau-apercu@2x.png), forme normalisée par le jeu de l'élément fleche-chute-fantome-apercu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fleche-chute-fanto-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fleche-chute-fanto-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fleche-plateau-apercu@2x.json · cadre sprite-fleche-chute-fantome-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-chute-fantome-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-222.png, SHA-256 82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fleche-plateau-apercu@2x.json · cadre sprite-fleche-chute-fantome-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fleche-chute-fantome-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "3333333333333317",
+    "phash": "eccc66cc33393331"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fleche-chute-fantome-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-chute-fantome-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/fleche-plateau-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/fleche-plateau-apercu@2x.png (png)\", \"boite\": [27, 48, 99, 376], \"cadre\": \"sprite-fleche-chute-fantome-apercu\", \"element\": \"fleche-chute-fantome-apercu\", \"empreintePixels\": \"ecaadcbe76e81ce8cac759dcfdd889a48a834a5e3a89c73ed9eccd4f3fbbca43\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 48, \"w\": 27, \"x\": 99, \"y\": 376}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.fleche-plateau-apercu.decoupe.json\", \"tableSha256\": \"ce6a787dd401223dab2c0a2d9b4becb096a9608de8bd03be86daf21c9c4110a3\"}"
+    ],
+    "parentId": "asset-sprite-fleche-chute-fantome-apercu-0001",
+    "parentSha256": "27aff8b5f29ac2262289c9e23ce7e97f16158345620610a6aac526dbae4755c5",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.fleche-plateau-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:04:21.579755+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/fleche-plateau-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/fleche-plateau-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-chute-fantome-apercu de packages/assets/atlas/fleche-plateau-apercu@2x.png (empreinte de pixels ecaadcbe76e81ce8)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-chute-fantome-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fleche-plateau-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/fleche-plateau-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "82e180fd52374b7fd3c268bf8d3eb5cd376ac3318bab4b2c65f828d54ca4cb49",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
         "provider": "local",
@@ -100,7 +100,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Sprite de Capsule Panic (version encodée runtime) dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-panneau-suivant-partie (origine « licences.json »)"
+  },
   "name": "sprite-panneau-suivant-partie",
   "orientation": "unknown",
   "originUniverse": "assets",
@@ -110,7 +115,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
     "evidence": [
       "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-panneau-suivant-partie.webp"
     ],
@@ -125,7 +130,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/3c/3c1b9bfdf9b57327638d56835bbdc6a283818c71277159288edafa90f251e902.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -137,7 +142,7 @@
         "line": 6,
         "path": "apps/web/src/artwork.ts"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "import: packages/assets/runtime/sprite-panneau-suivant-partie.webp",
         "module-path: apps/web/src/artwork.ts"
@@ -167,10 +172,10 @@
       "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
       "assetVersion": 1,
       "codeRef": {
-        "line": 527,
+        "line": 591,
         "path": "apps/web/src/style.css"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "css-url: packages/assets/runtime/sprite-panneau-suivant-partie.webp",
         "module-path: apps/web/src/style.css"
@@ -191,6 +196,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/style.css",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-panneau-suivant-partie.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-panneau-suivant-partie",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-panneau-suivant-partie.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
       "status": "active"
     }
   ],

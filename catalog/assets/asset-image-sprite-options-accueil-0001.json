@@ -7,7 +7,7 @@
   },
   "description": "Sprite options accueil — image 126×31",
   "dimensions": {
-    "height": 31,
+    "height": 28,
     "width": 126
   },
   "facing": "unknown",
@@ -26,6 +26,18 @@
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-options-accueil.webp",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-options-accueil.webp",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -39,7 +51,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     },
@@ -60,21 +72,21 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     },
@@ -88,14 +100,14 @@
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-options-accueil.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/sprite-options-accueil.webp"
       ],
       "method": "proven"
     }
@@ -105,8 +117,8 @@
   "orientation": "unknown",
   "originUniverse": "assets",
   "perceptual": {
-    "dhash": "caaa92929292a2d2",
-    "phash": "c1d11f94631f6a6a"
+    "dhash": "c83a939191952243",
+    "phash": "e1d19e90631f626b"
   },
   "pivot": "unknown",
   "provenance": {
@@ -117,27 +129,27 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "65135cc22c42f0fc18b7b7d94e1267865dc04e6032c582df95ad0c42102494cf",
+  "sha256": "5d9b1898aaa42214ee6210d8450a8a9009b6770237bf4850aa3f9735686d9b9c",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/65/65135cc22c42f0fc18b7b7d94e1267865dc04e6032c582df95ad0c42102494cf.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "thumbnail": "thumbnails/5d/5d9b1898aaa42214ee6210d8450a8a9009b6770237bf4850aa3f9735686d9b9c.webp",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "packages/assets/runtime/sprite-options-accueil.webp": "1b1125f5b1efbb0b96682b4b337f7d570408634d"
+        "packages/assets/runtime/sprite-options-accueil.webp": "6a0addc0bb8a8eafd3ec204b0ea3f4ef4bcd18c7"
       },
       "assetPath": "packages/assets/runtime/sprite-options-accueil.webp",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 11,
+        "line": 10,
         "path": "apps/web/src/artwork.ts"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "import: packages/assets/runtime/sprite-options-accueil.webp",
         "module-path: apps/web/src/artwork.ts"
@@ -162,17 +174,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "webp",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "65135cc22c42f0fc18b7b7d94e1267865dc04e6032c582df95ad0c42102494cf",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "webp",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "5d9b1898aaa42214ee6210d8450a8a9009b6770237bf4850aa3f9735686d9b9c",
+      "version": 2
     }
   ],
   "visualStyle": null

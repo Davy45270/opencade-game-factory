@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:16:50.085518+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-case-sombre-apercu-0001",
+        "reason": "découpe brute de l'élément case-sombre-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "928bb60550dba413046dba4c0e8e2083f14ff997d470be4afb83814f50606ab0",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "case sombre apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-case-sombre-apercu-0001",
+          "reason": "découpe brute de l'élément case-sombre-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-case-sombre-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:16:49.653697+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-case-sombre-apercu » (packages/assets/atlas/plateau-apercu@2x.png), forme normalisée par le jeu de l'élément case-sombre-apercu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-case-sombre-apercu-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-case-sombre-apercu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-apercu@2x.json · cadre sprite-case-sombre-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-case-sombre-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-346.png, SHA-256 48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/plateau-apercu@2x.json · cadre sprite-case-sombre-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic case-sombre-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "1d23630b4b23270b",
+    "phash": "bf78fa70d003850f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-case-sombre-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-case-sombre-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/plateau-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/plateau-apercu@2x.png (png)\", \"boite\": [60, 62, 1182, 49], \"cadre\": \"sprite-case-sombre-apercu\", \"element\": \"case-sombre-apercu\", \"empreintePixels\": \"dd5494aca1426610e60b018cb640570087e6f03cb716571d186016153e9fb6fe\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 62, \"w\": 60, \"x\": 1182, \"y\": 49}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.plateau-apercu.decoupe.json\", \"tableSha256\": \"711a3e1877999b78913b0fe9d4cb8d1a1671ba997fc87039132d87017d79e2f9\"}"
+    ],
+    "parentId": "asset-sprite-case-sombre-apercu-0001",
+    "parentSha256": "96c36b1802545a19711922cadeaa4c2f81a5449c9189613abd602137255d400a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.plateau-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:16:50.085518+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/plateau-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/plateau-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-case-sombre-apercu de packages/assets/atlas/plateau-apercu@2x.png (empreinte de pixels dd5494aca1426610)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-case-sombre-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/plateau-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/plateau-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "48c7c3bb63f26ceaaf7cc2197fbf80d8f6173c9bd316015f843d5c9bed35c97a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

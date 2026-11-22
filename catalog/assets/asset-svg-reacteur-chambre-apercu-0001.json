@@ -21,7 +21,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/reacteur-chambre-apercu.svg",
         "provider": "local",
@@ -32,7 +32,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/reacteur-chambre-origine.svg",
         "provider": "local",
@@ -89,13 +89,18 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Source SVG d'un redessin de Capsule Panic par Davy45270 : CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« les sources graphiques sont distribuées sous CC BY 4.0 ») ; provenance.json (svg du redessin) ; HL-538"
+  },
   "name": "reacteur-chambre-apercu",
   "orientation": "unknown",
   "originUniverse": "assets",
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (LICENCES.md du jeu)",
     "evidence": [
       "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/reacteur-chambre-apercu.svg"
     ],
@@ -109,7 +114,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -121,7 +126,7 @@
         "line": 7496,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/reacteur-chambre-apercu.svg",
         "module-path: packages/assets/assets.inventaire.json"
@@ -154,7 +159,7 @@
         "line": 7512,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/reacteur-chambre-origine.svg",
         "module-path: packages/assets/assets.inventaire.json"
@@ -184,10 +189,10 @@
       "assetPath": "packages/assets/source/svg/reacteur-chambre-apercu.svg",
       "assetVersion": 1,
       "codeRef": {
-        "line": 1035,
+        "line": 1024,
         "path": "packages/assets/provenance.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/reacteur-chambre-apercu.svg",
         "module-path: packages/assets/provenance.json"
@@ -217,10 +222,10 @@
       "assetPath": "packages/assets/source/svg/reacteur-chambre-origine.svg",
       "assetVersion": 1,
       "codeRef": {
-        "line": 2227,
+        "line": 2207,
         "path": "packages/assets/provenance.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/reacteur-chambre-origine.svg",
         "module-path: packages/assets/provenance.json"
@@ -244,7 +249,10 @@
       "status": "active"
     }
   ],
-  "variants": [],
+  "variants": [
+    "asset-sprite-sprite-reacteur-chambre-apercu-0001",
+    "asset-sprite-sprite-reacteur-chambre-origine-0001"
+  ],
   "version": 1,
   "versions": [
     {

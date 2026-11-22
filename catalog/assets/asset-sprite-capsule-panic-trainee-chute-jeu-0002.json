@@ -1,0 +1,191 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:00:22.042530+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-trainee-chute-jeu-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-chute-jeu (empreinte 6691a550a8dc)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-chute-jeu-0001",
+        "reason": "découpe brute de l'élément trainee-chute-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-longue-chute-jeu-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-chute-jeu (empreinte 6691a550a8dc)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "664760c2bbf895c9cc402f42e4e85205afb5841b2401b73be2dee1cc756a35a8",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trainee chute jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-trainee-chute-jeu-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-chute-jeu (empreinte 6691a550a8dc)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-chute-jeu-0001",
+          "reason": "découpe brute de l'élément trainee-chute-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-longue-chute-jeu-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-chute-jeu (empreinte 6691a550a8dc)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-trainee-chute-jeu-0001",
+        "asset-sprite-trainee-chute-jeu-0001",
+        "asset-sprite-trainee-longue-chute-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:00:21.603265+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trainee-chute-jeu » (packages/assets/atlas/effets-jeu@3x.png), forme normalisée par le jeu de l'élément trainee-chute-jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trainee-chute-jeu-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trainee-chute-jeu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-trainee-chute-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trainee-chute-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-184.png, SHA-256 c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-trainee-chute-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trainee-chute-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "51a8acacaccccc03",
+    "phash": "d4aae951ae555722"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trainee-chute-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trainee-chute-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-jeu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-jeu@3x.png (png)\", \"boite\": [39, 22, 1199, 428], \"cadre\": \"sprite-trainee-chute-jeu\", \"element\": \"trainee-chute-jeu\", \"empreintePixels\": \"6691a550a8dc8106e52ddf945cc749d419d3e550af3a9fef99faa22c1d3534c6\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 22, \"w\": 39, \"x\": 1199, \"y\": 428}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe.json\", \"tableSha256\": \"2f18ba71d84ddaaa504994fcc2d18e087e73551ef318894f37937c5bcaf3de7e\"}"
+    ],
+    "parentId": "asset-sprite-trainee-chute-jeu-0001",
+    "parentSha256": "67505db5d0c4fb00ce9071848bf6930fad0c14f5e38881ca01c553f781a095a8",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:00:22.042530+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c16d2d49efe7eae87edf813b21f11674237a0973d787c8901c8858912c0c90ca",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

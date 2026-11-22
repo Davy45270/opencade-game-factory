@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:10:33.190435+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-etoile-objets-aper-0001",
+        "reason": "pixels différents du cadre livré sprite-etoile-objets-apercu (empreinte 902c1eb3a279)"
+      },
+      {
+        "assetId": "asset-sprite-etoile-objets-apercu-0001",
+        "reason": "découpe brute de l'élément etoile-objets-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c768647fa7ebedcd15357c6cd79f8484b9466cf9a13319127d32fc255b7c3d99",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "etoile objets apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-etoile-objets-aper-0001",
+          "reason": "pixels différents du cadre livré sprite-etoile-objets-apercu (empreinte 902c1eb3a279)"
+        },
+        {
+          "assetId": "asset-sprite-etoile-objets-apercu-0001",
+          "reason": "découpe brute de l'élément etoile-objets-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-etoile-objets-aper-0001",
+        "asset-sprite-etoile-objets-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:10:32.770197+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-etoile-objets-apercu » (packages/assets/atlas/objets-apercu@3x.png), forme normalisée par le jeu de l'élément etoile-objets-apercu",
+  "dimensions": {
+    "height": 168,
+    "width": 168
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-etoile-objets-aper-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-etoile-objets-aper-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-apercu@3x.json · cadre sprite-etoile-objets-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etoile-objets-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-apercu@3x.json · cadre sprite-etoile-objets-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic etoile-objets-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4d9633cc69694933",
+    "phash": "cea43dc3f3830c6a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-etoile-objets-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etoile-objets-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-apercu@3x.png (png)\", \"boite\": [50, 50, 1133, 644], \"cadre\": \"sprite-etoile-objets-apercu\", \"element\": \"etoile-objets-apercu\", \"empreintePixels\": \"902c1eb3a279fa72ab53eb68ab5a35027574cd1d4ecede3d50bb9eac01d54916\", \"parametres\": {\"marge\": 4, \"taille\": 112}, \"regionDuBrut\": {\"h\": 50, \"w\": 50, \"x\": 1133, \"y\": 644}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.objets-apercu.decoupe.json\", \"tableSha256\": \"5b0589069f8162afb6a1bc9b2982f2944943a1e488a8a80baeb2a8c3687e5b20\"}"
+    ],
+    "parentId": "asset-sprite-etoile-objets-apercu-0001",
+    "parentSha256": "6ebc75b5d8d6c095dc10928a788470fbede8b921e8a7e2bcb2f6cdc2b860f9fd",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.objets-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:10:33.190435+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

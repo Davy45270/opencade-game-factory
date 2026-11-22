@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:09:01.372109+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-pause-messages-ape-0001",
+        "reason": "pixels différents du cadre livré sprite-pause-messages-apercu (empreinte 3fda1ed11586)"
+      },
+      {
+        "assetId": "asset-sprite-pause-messages-apercu-0001",
+        "reason": "découpe brute de l'élément pause-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cf825491a613ede2f146bc452fbcd8105f8cdfad50d51f105c306c19393bc1e2",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "pause messages apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-pause-messages-ape-0001",
+          "reason": "pixels différents du cadre livré sprite-pause-messages-apercu (empreinte 3fda1ed11586)"
+        },
+        {
+          "assetId": "asset-sprite-pause-messages-apercu-0001",
+          "reason": "découpe brute de l'élément pause-messages-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-pause-messages-ape-0001",
+        "asset-sprite-pause-messages-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:09:00.967080+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-pause-messages-apercu » (packages/assets/atlas/messages-apercu@3x.png), forme normalisée par le jeu de l'élément pause-messages-apercu",
+  "dimensions": {
+    "height": 216,
+    "width": 216
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-pause-messages-ape-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-pause-messages-ape-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@3x.json · cadre sprite-pause-messages-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pause-messages-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-261.png, SHA-256 eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/messages-apercu@3x.json · cadre sprite-pause-messages-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic pause-messages-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "00d027d1d8a60900",
+    "phash": "d3cbac3453cbac24"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-pause-messages-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pause-messages-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/messages-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/messages-apercu@3x.png (png)\", \"boite\": [170, 32, 1483, 704], \"cadre\": \"sprite-pause-messages-apercu\", \"element\": \"pause-messages-apercu\", \"empreintePixels\": \"3fda1ed1158623912a759ea7e3bcdc5b4fb06eb82c8e5062f2fa4a0cc6408b64\", \"parametres\": {\"marge\": 4, \"taille\": 144}, \"regionDuBrut\": {\"h\": 32, \"w\": 170, \"x\": 1483, \"y\": 704}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe.json\", \"tableSha256\": \"a901c1b37f7bbcbb2f2b4e9cedf7779f937f9d8aea6487666acbd7aebe766fd2\"}"
+    ],
+    "parentId": "asset-sprite-pause-messages-apercu-0001",
+    "parentSha256": "a8c6e72713d19e522e5c3a2a10f2a0f1ecb18f792af713ed23b3ac4681707496",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.messages-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:09:01.372109+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "eccebf1e55484ccc71788759c2a94688afc18a51dc3c5c6c9c42cd478182ee50",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

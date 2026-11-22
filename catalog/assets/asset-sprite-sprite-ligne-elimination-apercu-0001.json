@@ -3,7 +3,41 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-ligne-elimi-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-maquettes@2x.png#sprite-ligne-elimination-apercu"
+      },
+      {
+        "assetId": "asset-sprite-sprite-ligne-elimination-apercu-0003",
+        "reason": "source du cadre sprite-ligne-elimination-apercu : dérivé : boîte [117, 32, 922, 442] de Capsule_Panic_Assets_Gameplay_03.png (provenance.json) (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d03a81c3a1cc95ba059230d9730c02af8cf7640acb84ae95e02732cc44110a61",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite ligne elimination apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-ligne-elimi-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-maquettes@2x.png#sprite-ligne-elimination-apercu"
+        },
+        {
+          "assetId": "asset-sprite-sprite-ligne-elimination-apercu-0003",
+          "reason": "source du cadre sprite-ligne-elimination-apercu : dérivé : boîte [117, 32, 922, 442] de Capsule_Panic_Assets_Gameplay_03.png (provenance.json) (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-ligne-elimi-0001",
+        "asset-sprite-sprite-ligne-elimination-apercu-0003"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:12:44.186288+00:00"
+    }
   },
   "description": "Sprite ligne elimination apercu — sprite 64×64",
   "dimensions": {
@@ -28,7 +62,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-ligne-elimination-apercu-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +125,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-ligne-elimination-apercu (origine « licences.json »)"
+  },
   "name": "sprite-ligne-elimination-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,17 +140,22 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-sprite-sprite-ligne-elimination-apercu-0003",
     "evidence": [
-      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+      "importer_livre : cadre packages/assets/atlas/effets-maquettes@2x.png#sprite-ligne-elimination-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [117, 32, 922, 442] de Capsule_Panic_Assets_Gameplay_03.png (provenance.json)"
     ],
+    "parentId": "asset-sprite-sprite-ligne-elimination-apercu-0003",
+    "parentSha256": "90120aa91f24bf7b67b6329bc8b1e55458d905f8c5d3cc95821065c09ec6481a",
+    "parentVersion": 1,
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "c6ee750ebb7de08b9f04bef415082491e90403f9768c1e44467de1b7d7a31c6d",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
     "h": 32,
     "verified": false,
     "w": 117,
@@ -137,7 +181,7 @@
         "line": 1962,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-maquettes@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -168,10 +212,10 @@
       "assetPath": "packages/assets/atlas/effets-maquettes@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 457,
+        "line": 456,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-maquettes@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -192,6 +236,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "packages/assets/atlas/effets-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-ligne-elimination-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels 70ed5852aa3e5fe1)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-ligne-elimination-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
       "status": "active"
     }
   ],

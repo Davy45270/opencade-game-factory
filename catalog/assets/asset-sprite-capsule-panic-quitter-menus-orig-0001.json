@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:08:01.272784+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-quitter-menus-origine-0001",
+        "reason": "découpe brute de l'élément quitter-menus-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "fbada9e663f5d65c291753452ee8ed99b466b642f626dc13f11e6cc60a0de843",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "quitter menus origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-quitter-menus-origine-0001",
+          "reason": "découpe brute de l'élément quitter-menus-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-quitter-menus-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:08:00.883211+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-quitter-menus-origine » (packages/assets/atlas/menus-origine@2x.png), forme normalisée par le jeu de l'élément quitter-menus-origine",
+  "dimensions": {
+    "height": 224,
+    "width": 224
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-quitter-menus-orig-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-quitter-menus-orig-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/menus-origine@2x.json · cadre sprite-quitter-menus-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-quitter-menus-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-253.png, SHA-256 9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/menus-origine@2x.json · cadre sprite-quitter-menus-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic quitter-menus-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "004033cc4d33c800",
+    "phash": "d690a96f5690296f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-quitter-menus-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-quitter-menus-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/menus-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/menus-origine@2x.png (png)\", \"boite\": [300, 74, 1129, 948], \"cadre\": \"sprite-quitter-menus-origine\", \"element\": \"quitter-menus-origine\", \"empreintePixels\": \"f91a4effe74ea582debda1dff5db7644a5f7211641b9492a468d80ab997f7b69\", \"parametres\": {\"marge\": 4, \"taille\": 224}, \"regionDuBrut\": {\"h\": 74, \"w\": 300, \"x\": 1129, \"y\": 948}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.menus-origine.decoupe.json\", \"tableSha256\": \"967c577a45e32c4c433164a18b0ee4d569f6c377ab7ac27ea9a25550578aacbc\"}"
+    ],
+    "parentId": "asset-sprite-quitter-menus-origine-0001",
+    "parentSha256": "8da87337e5bd8487cb55212a1d855275ae2228479ac2bd1e151e6a19ddc36d12",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.menus-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:08:01.272784+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/menus-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "packages/assets/atlas/menus-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-quitter-menus-origine de packages/assets/atlas/menus-origine@2x.png (empreinte de pixels f91a4effe74ea582)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-quitter-menus-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/menus-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/menus-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9c4bc1151b2af1956ff0ab93fde5770a2f1ee6957f69bfd9ff61a3bee9ac31e7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

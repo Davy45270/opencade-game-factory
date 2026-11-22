@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:59:57.692323+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-explosion-effets-j-0001",
+        "reason": "pixels différents du cadre livré sprite-explosion-effets-jeu (empreinte 86f1aae5da04)"
+      },
+      {
+        "assetId": "asset-sprite-explosion-effets-jeu-0001",
+        "reason": "découpe brute de l'élément explosion-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4a9f39a18db603f300e802b5d0ce163fa6dd078e25efcbdb49bcb54dc5bb4a97",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "explosion effets jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-explosion-effets-j-0001",
+          "reason": "pixels différents du cadre livré sprite-explosion-effets-jeu (empreinte 86f1aae5da04)"
+        },
+        {
+          "assetId": "asset-sprite-explosion-effets-jeu-0001",
+          "reason": "découpe brute de l'élément explosion-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-explosion-effets-j-0001",
+        "asset-sprite-explosion-effets-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:59:57.255715+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-explosion-effets-jeu » (packages/assets/atlas/effets-jeu@3x.png), forme normalisée par le jeu de l'élément explosion-effets-jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-explosion-effets-j-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-explosion-effets-j-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-explosion-effets-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-explosion-effets-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-181.png, SHA-256 d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-explosion-effets-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic explosion-effets-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "1470f0e8e8f0f054",
+    "phash": "961c78e1616ecb4b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-explosion-effets-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-explosion-effets-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-jeu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-jeu@3x.png (png)\", \"boite\": [77, 75, 1356, 337], \"cadre\": \"sprite-explosion-effets-jeu\", \"element\": \"explosion-effets-jeu\", \"empreintePixels\": \"86f1aae5da04c00fac31a4e9586ea70e94d6548e4a850ccde701cd21f40c39cc\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 75, \"w\": 77, \"x\": 1356, \"y\": 337}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe.json\", \"tableSha256\": \"2f18ba71d84ddaaa504994fcc2d18e087e73551ef318894f37937c5bcaf3de7e\"}"
+    ],
+    "parentId": "asset-sprite-explosion-effets-jeu-0001",
+    "parentSha256": "228d92df6ea2b1b2458a97176a084809157a43ece92d424a38572c015c0e8ba3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:59:57.692323+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d80865c0e967af1428f3d34a6f7f1eb85ccd9464543370b6aedcc21b7e1f3f7d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

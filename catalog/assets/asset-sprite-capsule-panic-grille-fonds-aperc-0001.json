@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:05:08.181193+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-grille-fonds-apercu-0001",
+        "reason": "découpe brute de l'élément grille-fonds-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "29adad122f962e63c26512d18cbda5d21b383db496100e53ece018203f4802ae",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "grille fonds apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-grille-fonds-apercu-0001",
+          "reason": "découpe brute de l'élément grille-fonds-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-grille-fonds-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:05:07.786087+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-grille-fonds-apercu » (packages/assets/atlas/fonds-apercu@2x.png), forme normalisée par le jeu de l'élément grille-fonds-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-grille-fonds-aperc-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-grille-fonds-aperc-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fonds-apercu@2x.json · cadre sprite-grille-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-grille-fonds-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fonds-apercu@2x.json · cadre sprite-grille-fonds-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic grille-fonds-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "655d595149554565",
+    "phash": "bf80c4cdc0d8c5d7"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-grille-fonds-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-grille-fonds-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/fonds-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/fonds-apercu@2x.png (png)\", \"boite\": [140, 126, 379, 796], \"cadre\": \"sprite-grille-fonds-apercu\", \"element\": \"grille-fonds-apercu\", \"empreintePixels\": \"897654ca98875e4ad620a022f14c3bc22de95296f9d589170368f0ed5a6d3e2b\", \"parametres\": {\"marge\": 4, \"taille\": 144}, \"regionDuBrut\": {\"h\": 126, \"w\": 140, \"x\": 379, \"y\": 796}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.fonds-apercu.decoupe.json\", \"tableSha256\": \"4cb21d7f287ad81d6bff8056837c0dfba06b2d6c92a1f2e6f12dd78817b99830\"}"
+    ],
+    "parentId": "asset-sprite-grille-fonds-apercu-0001",
+    "parentSha256": "ecf0e8702d59918875bd9144fc509a1a16d0bb30259591ba6b0f56a66c93bdb9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.fonds-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:05:08.181193+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/fonds-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/fonds-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-grille-fonds-apercu de packages/assets/atlas/fonds-apercu@2x.png (empreinte de pixels 897654ca98875e4a)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-grille-fonds-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fonds-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/fonds-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c9ae9c14fb8606fe9de0e9ea9384206ef5b6ad3b2ba1bb20509a3f9b8da145bb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -3,7 +3,32 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-cellule-fan-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/pieces-origine@2x.png#sprite-cellule-fantome"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "6eb28d740aaf4a4ee8f1c20faa5adfb7f1aca4d0b3470685dcce81f2c6630d60",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite cellule fantome",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-cellule-fan-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/pieces-origine@2x.png#sprite-cellule-fantome"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-cellule-fan-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:11:18.312781+00:00"
+    }
   },
   "description": "Sprite cellule fantome — sprite 64×64",
   "dimensions": {
@@ -25,10 +50,17 @@
         "w": 64,
         "x": 596,
         "y": 2
+      },
+      {
+        "atlasSheetId": "sheet-pieces-origine-2x-0002",
+        "h": 64,
+        "w": 64,
+        "x": 596,
+        "y": 2
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-cellule-fantome-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +123,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cellule-fantome (origine « licences.json »)"
+  },
   "name": "sprite-cellule-fantome",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,10 +138,15 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-svg-cellule-fantome-0001",
     "evidence": [
-      "83x144+1001+30"
+      "83x144+1001+30",
+      "importer_livre : cadre packages/assets/atlas/pieces-origine@2x.png#sprite-cellule-fantome de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/cellule-fantome.svg (provenance.json)"
     ],
+    "parentId": "asset-svg-cellule-fantome-0001",
+    "parentSha256": "ea4447ce1fc92d0bad09a02cf4987ebc6f93bb421a5072be10c5f2cb74eebbf0",
+    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -121,7 +163,7 @@
     {
       "assetBlobs": {
         "packages/assets/atlas/pieces-origine@2x.json": "1bffbcfc776485def737f02dda4b4820f91320db",
-        "packages/assets/atlas/pieces-origine@2x.png": "e03017305f108cd7cb189112e54437d7bab051c7"
+        "packages/assets/atlas/pieces-origine@2x.png": "f3e7de8b9c3b6bbd602f5769dfd1185f7d6b6dac"
       },
       "assetPath": "packages/assets/atlas/pieces-origine@2x.json",
       "assetVersion": 1,
@@ -129,7 +171,7 @@
         "line": 4752,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/pieces-origine@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -155,15 +197,15 @@
     {
       "assetBlobs": {
         "packages/assets/atlas/pieces-origine@2x.json": "1bffbcfc776485def737f02dda4b4820f91320db",
-        "packages/assets/atlas/pieces-origine@2x.png": "e03017305f108cd7cb189112e54437d7bab051c7"
+        "packages/assets/atlas/pieces-origine@2x.png": "f3e7de8b9c3b6bbd602f5769dfd1185f7d6b6dac"
       },
       "assetPath": "packages/assets/atlas/pieces-origine@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 817,
+        "line": 812,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/pieces-origine@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -185,6 +227,35 @@
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
       "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/pieces-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "packages/assets/atlas/pieces-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cellule-fantome de packages/assets/atlas/pieces-origine@2x.png (empreinte de pixels 98a20dc338a481ab)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cellule-fantome",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/pieces-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/pieces-origine@2x.json",
+      "status": "active"
     }
   ],
   "variants": [],
@@ -196,6 +267,14 @@
           "atlasSheetId": "sheet-pieces-origine-2x-0001",
           "h": 64,
           "sourceSheetSha256": "ab4c9b2d5acca5fb900682870ee703327fd83163813c164e47a213a72799d942",
+          "w": 64,
+          "x": 596,
+          "y": 2
+        },
+        {
+          "atlasSheetId": "sheet-pieces-origine-2x-0002",
+          "h": 64,
+          "sourceSheetSha256": "196386cb3821477e44c32f0d20fea8f4fe7e4eaf2012030b2b5c0200398ed2fd",
           "w": 64,
           "x": 596,
           "y": 2

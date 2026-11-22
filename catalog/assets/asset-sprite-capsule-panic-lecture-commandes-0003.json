@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:58:08.924676+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lecture-commandes-origine-0001",
+        "reason": "découpe brute de l'élément lecture-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4d836b71035eb139a8a5f08fb158d6164cf8b9f2c8bd1bd777fa9cd812523005",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "lecture commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lecture-commandes-origine-0001",
+          "reason": "découpe brute de l'élément lecture-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lecture-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:58:08.536825+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-lecture-commandes-origine » (packages/assets/atlas/commandes-origine@2x.png), forme normalisée par le jeu de l'élément lecture-commandes-origine",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-lecture-commandes-0003.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-lecture-commandes-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-lecture-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lecture-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-131.png, SHA-256 9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-lecture-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic lecture-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "41cca2b0b1a65d33",
+    "phash": "ccc0732f993b6c2c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-lecture-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lecture-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@2x.png (png)\", \"boite\": [94, 85, 511, 718], \"cadre\": \"sprite-lecture-commandes-origine\", \"element\": \"lecture-commandes-origine\", \"empreintePixels\": \"2109492123a2c1a99751619090ae21b69d0b50dc2b1f5d9edf54049ff5fee262\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 85, \"w\": 94, \"x\": 511, \"y\": 718}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-lecture-commandes-origine-0001",
+    "parentSha256": "e8cf4dc7a6352abf6e94c0775488d4ed6dddeac509646babf5145ba7a7722b71",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:58:08.924676+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/commandes-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-lecture-commandes-origine de packages/assets/atlas/commandes-origine@2x.png (empreinte de pixels 2109492123a2c1a9)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-lecture-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9fc958f307bd4895794227ab41ea7d2abc085d09540dd22ee62f1b33ea017bdd",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

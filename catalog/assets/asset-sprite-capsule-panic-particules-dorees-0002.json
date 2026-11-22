@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:02:19.592527+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-particules-dorees-0001",
+        "reason": "pixels différents du cadre livré sprite-particules-dorees-apercu (empreinte 76455ecaffb5)"
+      },
+      {
+        "assetId": "asset-sprite-particules-dorees-apercu-0001",
+        "reason": "découpe brute de l'élément particules-dorees-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1bf61934bb592cecf9309d1017e985a4fca76c6f766a2221cbb2289ade829955",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "particules dorees apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-particules-dorees-0001",
+          "reason": "pixels différents du cadre livré sprite-particules-dorees-apercu (empreinte 76455ecaffb5)"
+        },
+        {
+          "assetId": "asset-sprite-particules-dorees-apercu-0001",
+          "reason": "découpe brute de l'élément particules-dorees-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-particules-dorees-0001",
+        "asset-sprite-particules-dorees-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:02:19.175250+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-particules-dorees-apercu » (packages/assets/atlas/effets-maquettes@3x.png), forme normalisée par le jeu de l'élément particules-dorees-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-particules-dorees-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-particules-dorees-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-particules-dorees-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-particules-dorees-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-particules-dorees-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic particules-dorees-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "a15aa5e74665b902",
+    "phash": "a608d9f7a50a6a75"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-particules-dorees-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-particules-dorees-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@3x.png (png)\", \"boite\": [102, 53, 1019, 353], \"cadre\": \"sprite-particules-dorees-apercu\", \"element\": \"particules-dorees-apercu\", \"empreintePixels\": \"76455ecaffb5002450d8ee2872c6aec01d79262c90e301d8756b46544029a7bb\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 53, \"w\": 102, \"x\": 1019, \"y\": 353}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-particules-dorees-apercu-0001",
+    "parentSha256": "5d80e704f74a0200cede54310c541cf979b36e3c62f3a91e24294bd4790444b2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:02:19.592527+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "307ffd660d5295498892323244e2d2228dee21bf828beac041efc0ad7d32182d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

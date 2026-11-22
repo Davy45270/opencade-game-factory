@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/personnages-origine@2x.webp",
         "provider": "local",
@@ -100,7 +100,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuel de Capsule Panic par Davy45270, déclaré CC BY 4.0 fichier par fichier (SHA-256 identique aux octets livrés, planche source vérifiée).",
+    "method": "déclaration du titulaire, fichier et planche vérifiés",
+    "ref": "capsule-panic packages/assets/LICENCES.md ; HL-538 ; packages/assets/assets.inventaire.json · packages/assets/atlas/personnages-origine@2x.webp (origine « inventaire », planche Capsule_Panic_Assets_Planche_01.png SHA-256 860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254, fichier SHA-256 fb2df9f2b7e830e2e2da7c4883b2093bec833092c019db1c7fd5c9179f9165a1)"
+  },
   "name": "personnages-origine@2x",
   "orientation": "unknown",
   "originUniverse": "assets",
@@ -110,7 +115,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/assets.inventaire.json et LICENCES.md du jeu)",
     "evidence": [
       "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/atlas/personnages-origine@2x.webp"
     ],
@@ -125,7 +130,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/fb/fb2df9f2b7e830e2e2da7c4883b2093bec833092c019db1c7fd5c9179f9165a1.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -137,7 +142,7 @@
         "line": 4672,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/personnages-origine@2x.webp",
         "module-path: packages/assets/assets.inventaire.json"
@@ -158,6 +163,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/personnages-origine@2x.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/personnages-origine@2x.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/atlas/personnages-origine@2x.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "personnages-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/personnages-origine@2x.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/atlas/personnages-origine@2x.webp",
       "status": "active"
     }
   ],

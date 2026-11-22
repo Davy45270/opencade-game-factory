@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:54:01.192370+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-defaite-bannieres-jeu-0001",
+        "reason": "découpe brute de l'élément defaite-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "977556536c13bcb90a62118400f25a3afca7b672c7eb790f2452462a1bb59a5c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "defaite bannieres jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-defaite-bannieres-jeu-0001",
+          "reason": "découpe brute de l'élément defaite-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-defaite-bannieres-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:54:00.780994+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-defaite-bannieres-jeu » (packages/assets/atlas/bannieres-jeu@2x.png), forme normalisée par le jeu de l'élément defaite-bannieres-jeu",
+  "dimensions": {
+    "height": 160,
+    "width": 160
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-defaite-bannieres-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-defaite-bannieres-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-defaite-bannieres-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-defaite-bannieres-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-93.png, SHA-256 0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-defaite-bannieres-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic defaite-bannieres-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "00900691f0460000",
+    "phash": "c2e0bd1742e8b537"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-defaite-bannieres-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-defaite-bannieres-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/bannieres-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/bannieres-jeu@2x.png (png)\", \"boite\": [228, 40, 1423, 844], \"cadre\": \"sprite-defaite-bannieres-jeu\", \"element\": \"defaite-bannieres-jeu\", \"empreintePixels\": \"b936670d4a3286ec4ba04be6bcd0fb1cb87a1483d72267dca00dd6a8d77103eb\", \"parametres\": {\"marge\": 4, \"taille\": 160}, \"regionDuBrut\": {\"h\": 40, \"w\": 228, \"x\": 1423, \"y\": 844}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe.json\", \"tableSha256\": \"b682d68f7ad295e5a1d941b9f0356e44008fe893e44798ea1a79191d80412861\"}"
+    ],
+    "parentId": "asset-sprite-defaite-bannieres-jeu-0001",
+    "parentSha256": "15b2d1ce3eaa4b88684e8884f22cd742a3839ecd94de63ef37c150a2ce9f96ea",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:54:01.192370+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/bannieres-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "packages/assets/atlas/bannieres-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-defaite-bannieres-jeu de packages/assets/atlas/bannieres-jeu@2x.png (empreinte de pixels b936670d4a3286ec)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-defaite-bannieres-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/bannieres-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/bannieres-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0a47347edc3a0a7d8cd2122fee9eff17d18166b5479ccbd6d56a23cfa78b9571",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

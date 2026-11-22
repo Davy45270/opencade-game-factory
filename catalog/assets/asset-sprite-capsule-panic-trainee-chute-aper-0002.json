@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:19:47.344225+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-trainee-chute-aper-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-chute-apercu (empreinte bfa2334f0e4e)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-chute-apercu-0001",
+        "reason": "découpe brute de l'élément trainee-chute-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4ea5710a9d1e849d1a481c16a85846f488b949840ae6eba0051c8f1e600d30b3",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trainee chute apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-trainee-chute-aper-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-chute-apercu (empreinte bfa2334f0e4e)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-chute-apercu-0001",
+          "reason": "découpe brute de l'élément trainee-chute-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-trainee-chute-aper-0001",
+        "asset-sprite-trainee-chute-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:19:46.920948+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trainee-chute-apercu » (packages/assets/atlas/traits-animations-apercu@3x.png), forme normalisée par le jeu de l'élément trainee-chute-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trainee-chute-aper-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trainee-chute-aper-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-apercu@3x.json · cadre sprite-trainee-chute-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trainee-chute-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-369.png, SHA-256 f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-apercu@3x.json · cadre sprite-trainee-chute-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trainee-chute-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "5959591919199999",
+    "phash": "ba6fc02ff464906a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trainee-chute-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trainee-chute-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/traits-animations-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/traits-animations-apercu@3x.png (png)\", \"boite\": [14, 15, 1343, 281], \"cadre\": \"sprite-trainee-chute-apercu\", \"element\": \"trainee-chute-apercu\", \"empreintePixels\": \"bfa2334f0e4e1de606400fd99e01b9dad15ca38be40742f6426de4fe41875de0\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 15, \"w\": 14, \"x\": 1343, \"y\": 281}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.traits-animations-apercu.decoupe.json\", \"tableSha256\": \"64544eb7f731da6c714434f3524d1e5cb9c27e1bb3365d84e1bfd04ba8e05f3e\"}"
+    ],
+    "parentId": "asset-sprite-trainee-chute-apercu-0001",
+    "parentSha256": "efbf0550f41b54900c2b2d001d7987dd1c7d4d927ff689e0a8cbb8e464eb4d09",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.traits-animations-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:19:47.344225+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f00080715f8fb709fc11d2410bab9ec2321bf24f5971bdb91aede5e47dcf72d1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

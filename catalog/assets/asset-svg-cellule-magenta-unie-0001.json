@@ -28,6 +28,18 @@
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/cellule-magenta-unie.svg",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/cellule-magenta-unie.svg",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -55,21 +67,21 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cellule-magenta-unie.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cellule-magenta-unie.svg"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cellule-magenta-unie.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cellule-magenta-unie.svg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cellule-magenta-unie.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cellule-magenta-unie.svg"
       ],
       "method": "proven"
     },
@@ -83,7 +95,7 @@
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cellule-magenta-unie.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cellule-magenta-unie.svg"
       ],
       "method": "proven"
     }
@@ -101,14 +113,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "37fe1bdd130c87a9a989a977248ef34a5ed256264e3ff062aec1197cb5b5ed3f",
+  "sha256": "381670728f800326f55712c590769a8c3b90099a6585298724bdde22d96d5e19",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -138,24 +150,37 @@
       },
       "provider": "local",
       "releases": [],
+      "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/renderer/src/pieces.ts",
-      "status": "active"
+      "status": "removed"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "svg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "37fe1bdd130c87a9a989a977248ef34a5ed256264e3ff062aec1197cb5b5ed3f",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "svg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "381670728f800326f55712c590769a8c3b90099a6585298724bdde22d96d5e19",
+      "version": 2
     }
   ],
   "visualStyle": null

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:04:06.199510+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-eclat-effets-origi-0001",
+        "reason": "pixels différents du cadre livré sprite-eclat-effets-origine (empreinte 390c3f002793)"
+      },
+      {
+        "assetId": "asset-sprite-eclat-effets-origine-0001",
+        "reason": "découpe brute de l'élément eclat-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7660ded96d1191add8c2c06c6687f6238edbc5ab719ec00e70c68ff6618074e8",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "eclat effets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-eclat-effets-origi-0001",
+          "reason": "pixels différents du cadre livré sprite-eclat-effets-origine (empreinte 390c3f002793)"
+        },
+        {
+          "assetId": "asset-sprite-eclat-effets-origine-0001",
+          "reason": "découpe brute de l'élément eclat-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-eclat-effets-origi-0001",
+        "asset-sprite-eclat-effets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:04:05.787341+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-eclat-effets-origine » (packages/assets/atlas/effets-origine@3x.png), forme normalisée par le jeu de l'élément eclat-effets-origine",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-eclat-effets-origi-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-eclat-effets-origi-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-eclat-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-eclat-effets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-216.png, SHA-256 394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-eclat-effets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic eclat-effets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "ad52f2e1c2e24209",
+    "phash": "c51d36a5ca6a851f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-eclat-effets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-eclat-effets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-origine@3x.png (png)\", \"boite\": [265, 191, 991, 406], \"cadre\": \"sprite-eclat-effets-origine\", \"element\": \"eclat-effets-origine\", \"empreintePixels\": \"390c3f002793c9d5f3edff29e0bb6844de5fe87a917603a6263463fd480d985b\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 191, \"w\": 265, \"x\": 991, \"y\": 406}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.effets-origine.decoupe.json\", \"tableSha256\": \"5f6ceab4cae9377009a43fb4e142fd4e09111bec7a27f92a8945aefa831f45a0\"}"
+    ],
+    "parentId": "asset-sprite-eclat-effets-origine-0001",
+    "parentSha256": "38bfbd9051026500623d3bb26398332889abf49dc88852c72f4e1e9264afcb17",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.effets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:04:06.199510+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

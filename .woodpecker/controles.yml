@@ -8,16 +8,13 @@
 labels:
   host: contabo
 
-# Volume (HL-542) : une modification de documentation seule ne déclenche rien ; les fichiers de
-# données ou d'outils, si. Une PR ne lance que des pipelines `pull_request` (pas de `push` hors main).
+# Toujours, même pour une PR de documentation seule (HL-542) : ce workflow court (moins d'une minute)
+# donne à chaque PR au moins un statut `ci/woodpecker/pr/*`, que la protection de main exige.
+# Une PR ne lance que des pipelines `pull_request` (pas de `push` hors main).
 when:
   - event: push
     branch: main
-    path:
-      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
   - event: pull_request
-    path:
-      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
   - event: manual
 
 clone:

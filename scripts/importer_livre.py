@@ -205,6 +205,17 @@ PROFILS = {
                                        "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
                                                    "licence du code qui les dessine, MIT (2026-11-22)."}}],
     },
+    "six-de-chaque": {
+        # README (depuis le socle 20e10f5) : « Art original (galets, glyphes …, motifs et icônes) : CC BY 4.0, David
+        # Sevin. Dessiné pour ce jeu, aucun emprunt. » ; glyphes ajoutés par ef2edac, icônes par scripts/make-icons.js.
+        "images": [{"prefixe": prefixe, "licence": "CC-BY-4.0", "auteur": "Davy45270 (README du jeu)",
+                    "licence_preuve": {"method": "déclaration du titulaire",
+                                       "ref": "six-de-chaque README.md, section Licences (20e10f5) ; ef2edac (glyphes) ; "
+                                              "HL-538",
+                                       "decision": "Art original de Six de chaque (glyphes, motifs, icônes) dessiné "
+                                                   "pour le jeu par Davy45270 : CC BY 4.0."}}
+                   for prefixe in ("apps/web/public/art/", "apps/web/public/icons/six-de-chaque-")],
+    },
     "opencade": {"monorepo": "src/games"},
     "opencadkid": {"monorepo": "src/games"},
 }

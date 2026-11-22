@@ -1,6 +1,8 @@
 # ADR-0008 — Pipeline de niveaux : réutiliser des outils open source, ne rien réécrire
 
-- **Statut :** proposée — en attente de l'approbation de David (HL-538) ; déplacée dans `docs/integration-decisions/` une fois approuvée
+- **Statut :** approuvée
+- **Approuvée par :** David, HL-538 7-3320
+- **Extension :** David, HL-525 7-3321 (« Étendre maintenant »)
 - **Date :** 2026-11-22 (révision 2, après l'étude des alternatives demandée par David)
 - **Ticket :** HL-538 (matrice E205, LV-16 à LV-20) ; étude jointe : `etude-niveaux-alternatives.md` (HL-538, commentaire 7-3311)
 
@@ -28,9 +30,10 @@ Publics vérifiés dans les specs :
 
 **Arbitrage de David (HL-538, commentaire 7-3312, 22/11) : option C, un jeu pilote d'abord.** Ferraille sert de pilote,
 avec Sturgeon : 3 à 5 niveaux déterministes par graine, au chemin garanti, validés par le moteur du jeu et jouables
-dans le vrai jeu sur une préversion non publique. **L'extension aux autres genres du tableau ci-dessous est décidée
-après le jugement de David sur son téléphone.** D'ici là, le code maison (BSP de `generate.py`, `bot_kart`) reste en
-place, et le tableau décrit la cible, pas un engagement.
+dans le vrai jeu sur une préversion non publique. **Pilote jugé et validé par David sur son téléphone (HL-538 7-3320, 22/11 : « je valide le nouveau fonctionnement de
+Ferraille »).** Extension décidée le même jour (HL-525 7-3321, « Étendre maintenant ») : le tableau ci-dessous devient la cible
+engagée, genre par genre, en commençant par Pestouille. Chaque genre remplace son code maison (BSP de `generate.py`,
+`bot_kart`) quand son outil réutilisé est en place et vérifié.
 
 | Genre (jeux) | Outil réutilisé | Licence | Rôle | Remplace |
 | --- | --- | --- | --- | --- |
@@ -53,7 +56,7 @@ Règles :
 - Exécution en CPU sur Zalman, sans GPU.
 - Un LLM peut au plus traduire une demande en contraintes pour Sturgeon ou clingo. Il ne produit jamais le niveau.
 
-## Alternatives écartées
+## Alternatives
 
 | Outil | Pourquoi |
 | --- | --- |

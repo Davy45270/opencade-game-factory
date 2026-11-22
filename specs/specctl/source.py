@@ -193,12 +193,17 @@ class Source:
                 for path in sorted(self.files)
                 if path.startswith(prefix) and path not in listed and path[len(prefix):] not in NAVIGATION]
 
+    def declared_priority(self, path):
+        if path.endswith(".json"):
+            return None
+        return _declared(self.read(path).decode("utf-8", "replace"))
+
     def requirements(self, project, spec_id, warnings):
         matrix = f"specs/{project}-conformite.json"
         if matrix not in self.files:
             return []
         value = parse_json(self.read(matrix))
-        requirements = []
+        requirements, priorities = [], {}
         try:
             for row in value["exigences"]:
                 matrix_id = row["id"]
@@ -220,6 +225,14 @@ class Source:
                 }
                 if "ancre" in source:
                     requirement["source"]["anchor"] = source["ancre"]
+                # REG-003 § 4 (matrice E113) : criticité de la ligne (`priorite`), sinon celle que déclare le document
+                # source (« Priorité : P0 ») ; inconnue, jamais devinée.
+                criticality = row.get("priorite")
+                if criticality is None:
+                    if path not in priorities:
+                        priorities[path] = self.declared_priority(path) if path in self.files else None
+                    criticality = priorities[path]
+                requirement["criticality"] = criticality or "unknown"
                 if "preuve_attendue" in row:
                     requirement["acceptance"] = row["preuve_attendue"]
                 if "preuve" in row:
@@ -235,6 +248,14 @@ class Source:
         except (KeyError, TypeError, AttributeError) as exc:
             raise InvalidJSON(f"Matrice invalide : {matrix}") from exc
         return sorted(requirements, key=lambda row: (len(row["matrixId"]), row["matrixId"]))
+
+
+PRIORITY = re.compile(r"Priorit[ée]\s*\**\s*:\s*\**\s*(P[0-3])\b")
+
+
+def _declared(text):
+    match = PRIORITY.search(text[:4000])
+    return match.group(1) if match else None
 
 
 def document_entries(record):

@@ -13,6 +13,7 @@ from pathlib import Path
 from tools.core.catalog import InvalidJSON, json_text
 
 from .search import GraphUnavailable
+from .trace import aretes
 
 BASE = "blocks-fts.sqlite"
 GRAPHE = "dependency-graph.json"
@@ -47,7 +48,7 @@ def lignes(records):
     return out
 
 
-def graphe(records):
+def graphe(records, rels=None):
     edges = []
     for block_id, (_, block) in sorted(records.items()):
         edges += [{"from": block_id, "to": spec, "type": "specified-by"} for spec in sorted(block["specIds"])]
@@ -55,11 +56,12 @@ def graphe(records):
         edges += [{"from": block_id, "to": user, "type": "used-by"} for user in sorted(block["usedBy"])]
         edges += [{"from": block_id, "to": o["repo"], "type": "observed-in", "commitSha": o.get("commitSha")}
                   for o in block.get("observedIn") or [] if isinstance(o, dict) and o.get("repo")]
+    edges += aretes(records, rels or {})                               # E179 : tests, SBOM, releases
     nodes = [{"id": block_id, "kind": block["kind"], **statuts(block)} for block_id, (_, block) in sorted(records.items())]
     return {"nodes": nodes, "edges": edges}
 
 
-def ecrire(records, out):
+def ecrire(records, out, rels=None):
     out.mkdir(parents=True, exist_ok=True)
     base = out / BASE
     temp = out / (BASE + ".tmp")
@@ -69,7 +71,7 @@ def ecrire(records, out):
         c.executemany(f"insert into blocks values ({', '.join('?' * len(COLONNES))})", lignes(records))
     c.close()
     temp.replace(base)
-    (out / GRAPHE).write_text(json_text(graphe(records)), encoding="utf-8")
+    (out / GRAPHE).write_text(json_text(graphe(records, rels)), encoding="utf-8")
 
 
 def contenu(base):
@@ -82,9 +84,9 @@ def contenu(base):
     return [tuple(r) for r in rows]
 
 
-def index(records, out, check):
+def index(records, out, check, rels=None):
     out = Path(out)
-    attendu_graphe = json_text(graphe(records))
+    attendu_graphe = json_text(graphe(records, rels))
     if check:
         ecarts = []
         if not (out / BASE).is_file():
@@ -98,7 +100,7 @@ def index(records, out, check):
         if ecarts:
             raise IndexStale("Index du catalogue à reconstruire (bbctl index) : " + ", ".join(ecarts) + ".")
     else:
-        ecrire(records, out)
+        ecrire(records, out, rels)
     return {"blocks": len(records), "out": str(out), "check": check,
             "graphSha256": hashlib.sha256(attendu_graphe.encode()).hexdigest()}
 

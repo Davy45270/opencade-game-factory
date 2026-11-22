@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:57:11.209495+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-recommencer-comman-0001",
+        "reason": "pixels différents du cadre livré sprite-recommencer-commandes-apercu (empreinte 5213f85e52fa)"
+      },
+      {
+        "assetId": "asset-sprite-recommencer-commandes-apercu-0001",
+        "reason": "découpe brute de l'élément recommencer-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f58340d2b2cbc69e7b9c046218e80de900d9039e9476d6d233ca9100b3f3c7fb",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "recommencer commandes apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-recommencer-comman-0001",
+          "reason": "pixels différents du cadre livré sprite-recommencer-commandes-apercu (empreinte 5213f85e52fa)"
+        },
+        {
+          "assetId": "asset-sprite-recommencer-commandes-apercu-0001",
+          "reason": "découpe brute de l'élément recommencer-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-recommencer-comman-0001",
+        "asset-sprite-recommencer-commandes-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:57:10.836396+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-recommencer-commandes-apercu » (packages/assets/atlas/commandes-apercu@3x.png), forme normalisée par le jeu de l'élément recommencer-commandes-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-recommencer-comman-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-recommencer-comman-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-recommencer-commandes-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-recommencer-commandes-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-recommencer-commandes-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic recommencer-commandes-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0f13396d6d112713",
+    "phash": "dac66939a6669998"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-recommencer-commandes-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-recommencer-commandes-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-apercu@3x.png (png)\", \"boite\": [51, 48, 531, 677], \"cadre\": \"sprite-recommencer-commandes-apercu\", \"element\": \"recommencer-commandes-apercu\", \"empreintePixels\": \"5213f85e52faa42974a94ceb29f66495226c8c6aa0168c2257191e8e6e17b120\", \"parametres\": {\"marge\": 4, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 51, \"x\": 531, \"y\": 677}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe.json\", \"tableSha256\": \"20395dd01460dd2fa5da61a40bac44e8df62483777b3cad4dc937c8eee3fb746\"}"
+    ],
+    "parentId": "asset-sprite-recommencer-commandes-apercu-0001",
+    "parentSha256": "7aa05e189dbcc233561916f89f2abee0c8e164c5d41368d22a4a98f17460e1d6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:57:11.209495+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

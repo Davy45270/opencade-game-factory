@@ -3,7 +3,50 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-ruban-reuss-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/composants-maquettes@2x.png#sprite-ruban-reussite"
+      },
+      {
+        "assetId": "asset-image-capsule-panic-sprite-ruban-reuss-0002",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/composants-maquettes@2x.png#sprite-ruban-reussite"
+      },
+      {
+        "assetId": "asset-sprite-sprite-ruban-reussite-0003",
+        "reason": "source du cadre sprite-ruban-reussite : dérivé : boîte [244, 126, 898, 327] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "bb3395f46d723e928618db02861d203a3c2e10b4d3d1bdda9f5761dbcf0ff85b",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite ruban reussite",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-ruban-reuss-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/composants-maquettes@2x.png#sprite-ruban-reussite"
+        },
+        {
+          "assetId": "asset-image-capsule-panic-sprite-ruban-reuss-0002",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/composants-maquettes@2x.png#sprite-ruban-reussite"
+        },
+        {
+          "assetId": "asset-sprite-sprite-ruban-reussite-0003",
+          "reason": "source du cadre sprite-ruban-reussite : dérivé : boîte [244, 126, 898, 327] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-ruban-reuss-0001",
+        "asset-image-capsule-panic-sprite-ruban-reuss-0002",
+        "asset-sprite-sprite-ruban-reussite-0003"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:13:44.237870+00:00"
+    }
   },
   "description": "Sprite ruban reussite — sprite 84×84",
   "dimensions": {
@@ -25,10 +68,17 @@
         "w": 84,
         "x": 518,
         "y": 2
+      },
+      {
+        "atlasSheetId": "sheet-composants-maquettes-2x-0002",
+        "h": 84,
+        "w": 84,
+        "x": 518,
+        "y": 2
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-ruban-reussite-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +141,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-ruban-reussite (origine « licences.json »)"
+  },
   "name": "sprite-ruban-reussite",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,17 +156,22 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-sprite-sprite-ruban-reussite-0003",
     "evidence": [
-      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+      "importer_livre : cadre packages/assets/atlas/composants-maquettes@2x.png#sprite-ruban-reussite de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [244, 126, 898, 327] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
     ],
+    "parentId": "asset-sprite-sprite-ruban-reussite-0003",
+    "parentSha256": "a9234f2f04898f98a5cc64f5d5d34096aeb3579d68b708b8bcfef28998f2e1fc",
+    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "3be98fa06c64bba22bc62cb0374ab87412d05cc93a185f8fc3447379ac918624",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
     "h": 126,
     "verified": false,
     "w": 244,
@@ -129,7 +189,7 @@
     {
       "assetBlobs": {
         "packages/assets/atlas/composants-maquettes@2x.json": "73e4a846748737707a5285bf0d8ee40ba0844861",
-        "packages/assets/atlas/composants-maquettes@2x.png": "3e702a802b53d149ca8a895022c9229532c61e6d"
+        "packages/assets/atlas/composants-maquettes@2x.png": "6d757b7d9c787e8f61654e3ae19629e77990789d"
       },
       "assetPath": "packages/assets/atlas/composants-maquettes@2x.json",
       "assetVersion": 1,
@@ -137,7 +197,7 @@
         "line": 1062,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/composants-maquettes@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -163,7 +223,7 @@
     {
       "assetBlobs": {
         "packages/assets/atlas/composants-maquettes@2x.json": "73e4a846748737707a5285bf0d8ee40ba0844861",
-        "packages/assets/atlas/composants-maquettes@2x.png": "3e702a802b53d149ca8a895022c9229532c61e6d"
+        "packages/assets/atlas/composants-maquettes@2x.png": "6d757b7d9c787e8f61654e3ae19629e77990789d"
       },
       "assetPath": "packages/assets/atlas/composants-maquettes@2x.json",
       "assetVersion": 1,
@@ -171,7 +231,7 @@
         "line": 45,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/composants-maquettes@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -193,6 +253,35 @@
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
       "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/composants-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "packages/assets/atlas/composants-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-ruban-reussite de packages/assets/atlas/composants-maquettes@2x.png (empreinte de pixels 7ce0ec9cf5113ee6)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-ruban-reussite",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/composants-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/composants-maquettes@2x.json",
+      "status": "active"
     }
   ],
   "variants": [
@@ -207,6 +296,14 @@
           "atlasSheetId": "sheet-composants-maquettes-2x-0001",
           "h": 84,
           "sourceSheetSha256": "c81cded433937ddd5b0d946e1603b94b6e5ad1088d1553deb5e05e11b92b81f3",
+          "w": 84,
+          "x": 518,
+          "y": 2
+        },
+        {
+          "atlasSheetId": "sheet-composants-maquettes-2x-0002",
+          "h": 84,
+          "sourceSheetSha256": "54023cea50580141deed6f204971d9d1d6ac6cefc95e337ab43410985adccd27",
           "w": 84,
           "x": 518,
           "y": 2

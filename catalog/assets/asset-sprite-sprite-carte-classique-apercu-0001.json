@@ -3,7 +3,32 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-carte-class-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/panneaux-apercu@2x.png#sprite-carte-classique-apercu"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f9c9887728274dcbbb8ff4fefef39dc6457b72650a35fbe26750d1dc23f8e161",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite carte classique apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-carte-class-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/panneaux-apercu@2x.png#sprite-carte-classique-apercu"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-carte-class-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:11:02.636910+00:00"
+    }
   },
   "description": "Sprite carte classique apercu — sprite 128×128",
   "dimensions": {
@@ -28,7 +53,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-carte-classique-apercu-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +116,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-carte-classique-apercu (origine « licences.json »)"
+  },
   "name": "sprite-carte-classique-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,10 +131,15 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-svg-carte-classique-apercu-0001",
     "evidence": [
-      "93x120+17+608"
+      "93x120+17+608",
+      "importer_livre : cadre packages/assets/atlas/panneaux-apercu@2x.png#sprite-carte-classique-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/carte-classique-apercu.svg (provenance.json)"
     ],
+    "parentId": "asset-svg-carte-classique-apercu-0001",
+    "parentSha256": "b6d8375c5b426d7b41243d0781c9cf374c4895a81f1ff277642ceb94b8121911",
+    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -129,7 +164,7 @@
         "line": 4482,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/panneaux-apercu@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -160,10 +195,10 @@
       "assetPath": "packages/assets/atlas/panneaux-apercu@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 523,
+        "line": 522,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/panneaux-apercu@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -184,6 +219,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/panneaux-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-carte-classique-apercu de packages/assets/atlas/panneaux-apercu@2x.png (empreinte de pixels 59ea205406b030de)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-carte-classique-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/panneaux-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
       "status": "active"
     }
   ],

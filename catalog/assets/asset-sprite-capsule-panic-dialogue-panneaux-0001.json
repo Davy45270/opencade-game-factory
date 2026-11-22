@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:13:44.835071+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-dialogue-panneaux-apercu-0001",
+        "reason": "découpe brute de l'élément dialogue-panneaux-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "35b1d93d5ceee2d28850b55b895110bc03ecc0dfd4a00af904cbbe321870f885",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "dialogue panneaux apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-dialogue-panneaux-apercu-0001",
+          "reason": "découpe brute de l'élément dialogue-panneaux-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-dialogue-panneaux-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:13:44.434107+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-dialogue-panneaux-apercu » (packages/assets/atlas/panneaux-apercu@2x.png), forme normalisée par le jeu de l'élément dialogue-panneaux-apercu",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-dialogue-panneaux-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-dialogue-panneaux-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@2x.json · cadre sprite-dialogue-panneaux-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-dialogue-panneaux-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-302.png, SHA-256 e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@2x.json · cadre sprite-dialogue-panneaux-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic dialogue-panneaux-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "ba2b0b0b0b23ac55",
+    "phash": "bf6fd094c190c996"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-dialogue-panneaux-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-dialogue-panneaux-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/panneaux-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/panneaux-apercu@2x.png (png)\", \"boite\": [88, 87, 1197, 800], \"cadre\": \"sprite-dialogue-panneaux-apercu\", \"element\": \"dialogue-panneaux-apercu\", \"empreintePixels\": \"fd12cd3be664bcb0a409cfe37105899c06f1c6f6b568184876f3d7acbc7edd52\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 87, \"w\": 88, \"x\": 1197, \"y\": 800}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe.json\", \"tableSha256\": \"6be08327005e84fe057db1ad7a3c4d9961b227b4fd8f6df913ae1574974bd6a1\"}"
+    ],
+    "parentId": "asset-sprite-dialogue-panneaux-apercu-0001",
+    "parentSha256": "fc5d8412dbde237770d6e0d78f89223f096d536c8c01941daf2d7e2ebf9dae81",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:13:44.835071+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/panneaux-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-dialogue-panneaux-apercu de packages/assets/atlas/panneaux-apercu@2x.png (empreinte de pixels fd12cd3be664bcb0)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-dialogue-panneaux-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/panneaux-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e26852466851082bf4a65f33885c91e4009d2f0833ec9ea9b363142f986af4af",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

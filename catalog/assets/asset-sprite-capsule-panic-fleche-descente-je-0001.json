@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:20:11.792900+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fleche-descente-jeu-0001",
+        "reason": "découpe brute de l'élément fleche-descente-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4b83ac1fb5d84e53bd4dd574617cf92545467c204be5135eb909804b6020b080",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fleche descente jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fleche-descente-jeu-0001",
+          "reason": "découpe brute de l'élément fleche-descente-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fleche-descente-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:20:11.370182+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fleche-descente-jeu » (packages/assets/atlas/traits-animations-jeu@2x.png), forme normalisée par le jeu de l'élément fleche-descente-jeu",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fleche-descente-je-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fleche-descente-je-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-jeu@2x.json · cadre sprite-fleche-descente-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-descente-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-372.png, SHA-256 768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/traits-animations-jeu@2x.json · cadre sprite-fleche-descente-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fleche-descente-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4d4d4dcc0b178e4d",
+    "phash": "b393c46ccbb44cc3"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fleche-descente-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-descente-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/traits-animations-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/traits-animations-jeu@2x.png (png)\", \"boite\": [19, 28, 1587, 526], \"cadre\": \"sprite-fleche-descente-jeu\", \"element\": \"fleche-descente-jeu\", \"empreintePixels\": \"f6f33ed63353ac47ec1f5781bf779eff40b5003b8a19219d0f347cb430ee1ad7\", \"parametres\": {\"marge\": 0, \"taille\": 48}, \"regionDuBrut\": {\"h\": 28, \"w\": 19, \"x\": 1587, \"y\": 526}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.traits-animations-jeu.decoupe.json\", \"tableSha256\": \"e2e80372e2ed959ce31728b54361c382aac35f9fe7b56ebd062df0874b46e973\"}"
+    ],
+    "parentId": "asset-sprite-fleche-descente-jeu-0001",
+    "parentSha256": "1cab9b33278fbe4894f6b0bcba80ef124e10d1c6ea2d6f94ff016203770912a4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.traits-animations-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:20:11.792900+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/traits-animations-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-descente-jeu de packages/assets/atlas/traits-animations-jeu@2x.png (empreinte de pixels f6f33ed63353ac47)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-descente-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/traits-animations-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/traits-animations-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "768557c97455968861a4747e944c9f716eac37af67cb4d620fdb7bcdbeec5b7c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

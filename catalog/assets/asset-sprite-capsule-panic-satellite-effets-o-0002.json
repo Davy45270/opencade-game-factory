@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:04:13.884713+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-satellite-effets-o-0001",
+        "reason": "pixels différents du cadre livré sprite-satellite-effets-origine (empreinte 269f09b15c48)"
+      },
+      {
+        "assetId": "asset-sprite-satellite-effets-origine-0001",
+        "reason": "découpe brute de l'élément satellite-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b5e018c93e39016411142ffff7a0999f15ce1db21c4c918d14ef0af72307ca2c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "satellite effets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-satellite-effets-o-0001",
+          "reason": "pixels différents du cadre livré sprite-satellite-effets-origine (empreinte 269f09b15c48)"
+        },
+        {
+          "assetId": "asset-sprite-satellite-effets-origine-0001",
+          "reason": "découpe brute de l'élément satellite-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-satellite-effets-o-0001",
+        "asset-sprite-satellite-effets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:04:13.339785+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-satellite-effets-origine » (packages/assets/atlas/effets-origine@3x.png), forme normalisée par le jeu de l'élément satellite-effets-origine",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-satellite-effets-o-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-satellite-effets-o-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-satellite-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-satellite-effets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-217.png, SHA-256 41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-satellite-effets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic satellite-effets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "f0f0e0c4e0e0f070",
+    "phash": "87d2782963278ec7"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-satellite-effets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-satellite-effets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-origine@3x.png (png)\", \"boite\": [29, 29, 953, 432], \"cadre\": \"sprite-satellite-effets-origine\", \"element\": \"satellite-effets-origine\", \"empreintePixels\": \"269f09b15c482c2e404a8b14fd4d7e18cdf8554fa908519ff341e0b3d0833200\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 29, \"w\": 29, \"x\": 953, \"y\": 432}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.effets-origine.decoupe.json\", \"tableSha256\": \"5f6ceab4cae9377009a43fb4e142fd4e09111bec7a27f92a8945aefa831f45a0\"}"
+    ],
+    "parentId": "asset-sprite-satellite-effets-origine-0001",
+    "parentSha256": "9a8bbc51c63e8c1453726cf9395f67b4c0fdb9ffc200379011129cea20d60f88",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.effets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:04:13.884713+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "41fe3cf7140d2ef01cf4d67dc1b5c6936fdc9c9686871027cba66a9809395250",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

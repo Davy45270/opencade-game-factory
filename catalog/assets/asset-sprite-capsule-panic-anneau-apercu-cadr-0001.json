@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:00:55.057503+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-anneau-apercu-0001",
+        "reason": "découpe brute de l'élément anneau-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "edc9d842cc028e825fa2beef712d0915988185b0309a944368b6c4c992628616",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "anneau apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-anneau-apercu-0001",
+          "reason": "découpe brute de l'élément anneau-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-anneau-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:00:54.635935+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-anneau-apercu » (packages/assets/atlas/effets-maquettes@2x.png), forme normalisée par le jeu de l'élément anneau-apercu",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-anneau-apercu-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-anneau-apercu-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-anneau-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-anneau-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@2x.json · cadre sprite-anneau-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic anneau-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "cb39c896ac98c30c",
+    "phash": "d1174b7824e19f36"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-anneau-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-anneau-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@2x.png (png)\", \"boite\": [77, 74, 1116, 278], \"cadre\": \"sprite-anneau-apercu\", \"element\": \"anneau-apercu\", \"empreintePixels\": \"204b97f17e9da29647c9bfbd9b4f54d7808e616f40a4f75a6c02dc5acb7c0f20\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 74, \"w\": 77, \"x\": 1116, \"y\": 278}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-anneau-apercu-0001",
+    "parentSha256": "91a9c518dcfb312c7c75004f3390d8d19c38d30a0e18d458678008470ba37079",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:00:55.057503+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "packages/assets/atlas/effets-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-anneau-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels 204b97f17e9da296)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-anneau-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4143701e2570464395cd01dbff59cf592b20cc7af1583a97a268c8a36128b982",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -3,7 +3,32 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-medaillon-c-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/medaillon-origine@2x.png#sprite-medaillon-cellule"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "a009b1e651d220aeefa29009abe0dec5125192275acc7bd1996dd29104e98d5c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite medaillon cellule",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-medaillon-c-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/medaillon-origine@2x.png#sprite-medaillon-cellule"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-medaillon-c-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:12:49.537462+00:00"
+    }
   },
   "description": "Sprite medaillon cellule — sprite 80×80",
   "dimensions": {
@@ -28,7 +53,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-medaillon-cellule-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +116,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-medaillon-cellule (origine « licences.json »)"
+  },
   "name": "sprite-medaillon-cellule",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,10 +131,15 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-svg-medaillon-cellule-0001",
     "evidence": [
-      "109x106+1355+828"
+      "109x106+1355+828",
+      "importer_livre : cadre packages/assets/atlas/medaillon-origine@2x.png#sprite-medaillon-cellule de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/medaillon-cellule.svg (provenance.json)"
     ],
+    "parentId": "asset-svg-medaillon-cellule-0001",
+    "parentSha256": "812555ebfd668e20bafae03b5da4baf8d717f972850e77599217645fd2c30cac",
+    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -129,7 +164,7 @@
         "line": 3342,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/medaillon-origine@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -160,10 +195,10 @@
       "assetPath": "packages/assets/atlas/medaillon-origine@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 701,
+        "line": 696,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/medaillon-origine@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -184,6 +219,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/medaillon-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/medaillon-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-medaillon-cellule de packages/assets/atlas/medaillon-origine@2x.png (empreinte de pixels 10065c38ff4b5230)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-medaillon-cellule",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/medaillon-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/medaillon-origine@2x.json",
       "status": "active"
     }
   ],

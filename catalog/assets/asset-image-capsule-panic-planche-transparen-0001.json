@@ -1,0 +1,178 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-22T02:28:46.594291+00:00",
+  "creation": {
+    "rejectedCandidates": [],
+    "searchReceipt": {
+      "catalogFingerprint": "95ad4213fa2df03d1a78fdb905b9b8dfedd4389636f150e943b1a5901ed42f55",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "planche transparente",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [],
+      "results": [],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:28:46.160127+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/planche-transparente.png livré par le jeu",
+  "dimensions": {
+    "height": 524,
+    "width": 1024
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-image-capsule-panic-planche-transparen-0001.png"
+  },
+  "format": "png",
+  "id": "asset-image-capsule-panic-planche-transparen-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/planche-transparente.png"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-441.png, SHA-256 47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/planche-transparente.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Planche transparente de Capsule Panic, nommée par LICENCES.md : CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« les sprites, les atlas, la planche transparente et les sources graphiques sont distribués sous CC BY 4.0 ») ; HL-538"
+  },
+  "name": "capsule-panic planche-transparente",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "cbc647b16571b9d5",
+    "phash": "8b27a1df70385966"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "evidence": [
+      "importer_livre : packages/assets/planche-transparente.png livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:28:46.594291+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/planche-transparente.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/planche-transparente.png"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/planche-transparente.png livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "planche-transparente",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/planche-transparente.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/planche-transparente.png",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "47c6a53ec98752a87f31a0b3ea7a2051505d9a0cb189e7ecf1a4a25796db560f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

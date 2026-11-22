@@ -3,7 +3,41 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0002",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/traits-animations-jeu@2x.png#sprite-fleche-rotation-bas-jeu"
+      },
+      {
+        "assetId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+        "reason": "source du cadre sprite-fleche-rotation-bas-jeu : dérivé : boîte [49, 39, 1446, 507] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7933eda8afc63327c4b8ec4461c5442888140ac66cfd02d99655138d8237a2e3",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite fleche rotation bas jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0002",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/traits-animations-jeu@2x.png#sprite-fleche-rotation-bas-jeu"
+        },
+        {
+          "assetId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+          "reason": "source du cadre sprite-fleche-rotation-bas-jeu : dérivé : boîte [49, 39, 1446, 507] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-fleche-rota-0002",
+        "asset-sprite-sprite-fleche-rotation-bas-jeu-0003"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:12:27.526133+00:00"
+    }
   },
   "description": "Sprite fleche rotation bas jeu — sprite 48×48",
   "dimensions": {
@@ -28,7 +62,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-fleche-rotation-bas-jeu-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +125,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-fleche-rotation-bas-jeu (origine « licences.json »)"
+  },
   "name": "sprite-fleche-rotation-bas-jeu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,17 +140,22 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
     "evidence": [
-      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+      "importer_livre : cadre packages/assets/atlas/traits-animations-jeu@2x.png#sprite-fleche-rotation-bas-jeu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [49, 39, 1446, 507] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
     ],
+    "parentId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+    "parentSha256": "9a75c076df2c51d49cffa6d88340f3cdd241e7014b841ed294a951123de4ef16",
+    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "ebdc702d4ddf27eb9b0002fe6828fc2f0af66b93aa3f7e7f1e6597e87deed8ce",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
     "h": 39,
     "verified": false,
     "w": 49,
@@ -137,7 +181,7 @@
         "line": 5352,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/traits-animations-jeu@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -168,10 +212,10 @@
       "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 329,
+        "line": 328,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/traits-animations-jeu@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -192,6 +236,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "packages/assets/atlas/traits-animations-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-rotation-bas-jeu de packages/assets/atlas/traits-animations-jeu@2x.png (empreinte de pixels 5c9f565511287788)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-rotation-bas-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/traits-animations-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/traits-animations-jeu@2x.json",
       "status": "active"
     }
   ],

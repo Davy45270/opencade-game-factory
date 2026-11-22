@@ -1,0 +1,185 @@
+{
+  "alpha": true,
+  "category": "atlas",
+  "createdAt": "2026-11-22T02:22:28.358813+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-composants-maquett-0002",
+        "reason": "autre image : octets différents de l'atlas livré"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "763bf40af59199d595be0d722b6700fa2ad785de4a2c3ba5b056ed56878826df",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "composants maquettes 3x atlas",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-composants-maquett-0002",
+          "reason": "autre image : octets différents de l'atlas livré"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-composants-maquett-0002"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:22:27.955719+00:00"
+    }
+  },
+  "description": "capsule-panic — atlas livré packages/assets/atlas/composants-maquettes@3x.png (10 cadres)",
+  "dimensions": {
+    "height": 258,
+    "width": 1026
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-atlas-capsule-panic-atlas-composants-m-0002.png"
+  },
+  "format": "png",
+  "id": "asset-atlas-capsule-panic-atlas-composants-m-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/composants-maquettes@3x.png"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de composants-maquettes@3x.png, SHA-256 be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/composants-maquettes@3x.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "capsule-panic atlas composants-maquettes@3x",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "6933316946606080",
+    "phash": "9e1ee0c1e78f7260"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "evidence": [
+      "importer_livre : atlas packages/assets/atlas/composants-maquettes@3x.png livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341, cadres de packages/assets/atlas/composants-maquettes@3x.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "atlas-livre"
+  ],
+  "updatedAt": "2026-11-22T02:22:28.358813+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/composants-maquettes@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/composants-maquettes@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/composants-maquettes@3x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "composants-maquettes@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/composants-maquettes@3x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/atlas/composants-maquettes@3x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "be04c2daf87e7ab70c57db09a2f2bfd59917be956eb5f07b0869a0545a196311",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:05:15.568920+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-laboratoire-fonds-0001",
+        "reason": "pixels différents du cadre livré sprite-laboratoire-fonds-apercu (empreinte b531a84f962c)"
+      },
+      {
+        "assetId": "asset-sprite-laboratoire-fonds-apercu-0001",
+        "reason": "découpe brute de l'élément laboratoire-fonds-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "2065c4d12b89b4cab01789c2d5fe078c90f90851bbf543ef8186601989451d8c",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "laboratoire fonds apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-laboratoire-fonds-0001",
+          "reason": "pixels différents du cadre livré sprite-laboratoire-fonds-apercu (empreinte b531a84f962c)"
+        },
+        {
+          "assetId": "asset-sprite-laboratoire-fonds-apercu-0001",
+          "reason": "découpe brute de l'élément laboratoire-fonds-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-laboratoire-fonds-0001",
+        "asset-sprite-laboratoire-fonds-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:05:15.179194+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-laboratoire-fonds-apercu » (packages/assets/atlas/fonds-apercu@3x.png), forme normalisée par le jeu de l'élément laboratoire-fonds-apercu",
+  "dimensions": {
+    "height": 216,
+    "width": 216
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-laboratoire-fonds-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-laboratoire-fonds-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fonds-apercu@3x.json · cadre sprite-laboratoire-fonds-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-laboratoire-fonds-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fonds-apercu@3x.json · cadre sprite-laboratoire-fonds-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic laboratoire-fonds-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "1261f959c6f233c4",
+    "phash": "891afee5c11a18e7"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-laboratoire-fonds-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-laboratoire-fonds-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/fonds-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/fonds-apercu@3x.png (png)\", \"boite\": [201, 124, 10, 798], \"cadre\": \"sprite-laboratoire-fonds-apercu\", \"element\": \"laboratoire-fonds-apercu\", \"empreintePixels\": \"b531a84f962cf2c880b936582ce6ba865022b6ff5611502e4c760908a5f12428\", \"parametres\": {\"marge\": 4, \"taille\": 144}, \"regionDuBrut\": {\"h\": 124, \"w\": 201, \"x\": 10, \"y\": 798}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.fonds-apercu.decoupe.json\", \"tableSha256\": \"4cb21d7f287ad81d6bff8056837c0dfba06b2d6c92a1f2e6f12dd78817b99830\"}"
+    ],
+    "parentId": "asset-sprite-laboratoire-fonds-apercu-0001",
+    "parentSha256": "7a0147dc59a0a8773c275d1e0a7e9d9de0db6686c670946774530120b05dee85",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.fonds-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:05:15.568920+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

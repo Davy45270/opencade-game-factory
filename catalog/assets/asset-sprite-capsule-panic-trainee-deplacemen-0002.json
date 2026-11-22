@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:02:51.210931+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-trainee-deplacemen-0001",
+        "reason": "pixels différents du cadre livré sprite-trainee-deplacement-apercu (empreinte 179b69cb2883)"
+      },
+      {
+        "assetId": "asset-sprite-trainee-deplacement-apercu-0001",
+        "reason": "découpe brute de l'élément trainee-deplacement-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "cfe1b8772b81e36e2098f513309db5da9eb7ffbe2f2f11b4feef380594742c43",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trainee deplacement apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-trainee-deplacemen-0001",
+          "reason": "pixels différents du cadre livré sprite-trainee-deplacement-apercu (empreinte 179b69cb2883)"
+        },
+        {
+          "assetId": "asset-sprite-trainee-deplacement-apercu-0001",
+          "reason": "découpe brute de l'élément trainee-deplacement-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-trainee-deplacemen-0001",
+        "asset-sprite-trainee-deplacement-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:02:50.796274+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trainee-deplacement-apercu » (packages/assets/atlas/effets-maquettes@3x.png), forme normalisée par le jeu de l'élément trainee-deplacement-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trainee-deplacemen-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trainee-deplacemen-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-trainee-deplacement-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trainee-deplacement-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-maquettes@3x.json · cadre sprite-trainee-deplacement-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trainee-deplacement-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "007fffffffffff7d",
+    "phash": "aa7a7565c050d5ab"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trainee-deplacement-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trainee-deplacement-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-maquettes@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-maquettes@3x.png (png)\", \"boite\": [42, 38, 1298, 417], \"cadre\": \"sprite-trainee-deplacement-apercu\", \"element\": \"trainee-deplacement-apercu\", \"empreintePixels\": \"179b69cb2883a9ba13a44cbb27f6e9e341e57f05bd83a7d327e5116bde4ca763\", \"parametres\": {\"marge\": 0, \"taille\": 64}, \"regionDuBrut\": {\"h\": 38, \"w\": 42, \"x\": 1298, \"y\": 417}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe.json\", \"tableSha256\": \"c8bb35cc5982f91dda4ea28e85c77e95244d7933ea6667b87e349247955c4b8e\"}"
+    ],
+    "parentId": "asset-sprite-trainee-deplacement-apercu-0001",
+    "parentSha256": "7be6c2d7ddc9d92ea1a1ecf8a29da302230235feccdd05e217aff767bfd6b38f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.effets-maquettes.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:02:51.210931+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "cad55e6ab4cbfe198fc09dab9badc889098e7d1242987553553803e67a8a7078",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

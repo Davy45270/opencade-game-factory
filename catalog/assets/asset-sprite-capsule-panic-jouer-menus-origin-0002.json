@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:08:08.679255+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-jouer-menus-origin-0001",
+        "reason": "pixels différents du cadre livré sprite-jouer-menus-origine (empreinte 0e46141cfa7f)"
+      },
+      {
+        "assetId": "asset-sprite-jouer-menus-origine-0001",
+        "reason": "découpe brute de l'élément jouer-menus-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "df0c4cfd0605c969ce73ccca8c48b0addd4f13990637b3bc6f931d5927b953cc",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "jouer menus origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-jouer-menus-origin-0001",
+          "reason": "pixels différents du cadre livré sprite-jouer-menus-origine (empreinte 0e46141cfa7f)"
+        },
+        {
+          "assetId": "asset-sprite-jouer-menus-origine-0001",
+          "reason": "découpe brute de l'élément jouer-menus-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-jouer-menus-origin-0001",
+        "asset-sprite-jouer-menus-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:08:08.253019+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-jouer-menus-origine » (packages/assets/atlas/menus-origine@3x.png), forme normalisée par le jeu de l'élément jouer-menus-origine",
+  "dimensions": {
+    "height": 336,
+    "width": 336
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-jouer-menus-origin-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-jouer-menus-origin-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/menus-origine@3x.json · cadre sprite-jouer-menus-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-jouer-menus-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/menus-origine@3x.json · cadre sprite-jouer-menus-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic jouer-menus-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "002016686907c000",
+    "phash": "db94a46b5b90246f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-jouer-menus-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-jouer-menus-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/menus-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/menus-origine@3x.png (png)\", \"boite\": [332, 77, 86, 944], \"cadre\": \"sprite-jouer-menus-origine\", \"element\": \"jouer-menus-origine\", \"empreintePixels\": \"0e46141cfa7f94ef0f1e084b710474f3c6c8e5a92b1167117da8b5363187114d\", \"parametres\": {\"marge\": 4, \"taille\": 224}, \"regionDuBrut\": {\"h\": 77, \"w\": 332, \"x\": 86, \"y\": 944}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.menus-origine.decoupe.json\", \"tableSha256\": \"967c577a45e32c4c433164a18b0ee4d569f6c377ab7ac27ea9a25550578aacbc\"}"
+    ],
+    "parentId": "asset-sprite-jouer-menus-origine-0001",
+    "parentSha256": "932996dc9e2de92e7116bf8446836b622045aae166127fba8d2d62bada352866",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.menus-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:08:08.679255+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3a3422431f5300ce1907414d2ce79ef50e731c3b6c2d404f453aeeb8dc9cbfa4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

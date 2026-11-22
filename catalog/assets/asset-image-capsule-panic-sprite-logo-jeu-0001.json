@@ -1,0 +1,217 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-22T02:29:40.622590+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-logo-jeu-2x-0001",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-logo-jeu-3x-0001",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-logo-apercu-2x-0001",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-logo-apercu-3x-0001",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "079a6efdb38e504f7de9a1f112acf571df9f187a1c6460ec32f1c9b08aa980ec",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite logo jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-logo-jeu-2x-0001",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-logo-jeu-3x-0001",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-logo-apercu-2x-0001",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-logo-apercu-3x-0001",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-logo-jeu-2x-0001",
+        "asset-sprite-capsule-panic-logo-jeu-3x-0001",
+        "asset-sprite-capsule-panic-logo-apercu-2x-0001",
+        "asset-sprite-capsule-panic-logo-apercu-3x-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:29:40.175468+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/runtime/sprite-logo-jeu.webp livré par le jeu",
+  "dimensions": {
+    "height": 186,
+    "width": 319
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-image-capsule-panic-sprite-logo-jeu-0001.webp"
+  },
+  "format": "webp",
+  "id": "asset-image-capsule-panic-sprite-logo-jeu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/runtime/sprite-logo-jeu.webp"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-448.webp, SHA-256 43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/runtime/sprite-logo-jeu.webp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Sprite de Capsule Panic (version encodée runtime) dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-logo-jeu (origine « licences.json »)"
+  },
+  "name": "capsule-panic sprite-logo-jeu",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "11304a1a68843d69",
+    "phash": "d6c5ac408b70679f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "evidence": [
+      "importer_livre : packages/assets/runtime/sprite-logo-jeu.webp livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:29:40.622590+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/runtime/sprite-logo-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-logo-jeu.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-logo-jeu.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-logo-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-logo-jeu.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-logo-jeu.webp",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "43b8531212d9cb35424fdeff10116a0b13921b0e31cbb8daf01cad5f6e5ceac2",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

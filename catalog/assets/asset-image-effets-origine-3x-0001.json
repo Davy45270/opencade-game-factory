@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/effets-origine@3x.png",
         "provider": "local",
@@ -125,7 +125,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/46/46ebd752f62d7d2bce4c7e1e243a13684a05d77c517da3f2d648868da0491be4.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -137,7 +137,7 @@
         "line": 2234,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-origine@3x.png",
         "module-path: packages/assets/assets.inventaire.json"
@@ -170,7 +170,7 @@
         "line": 112,
         "path": "packages/assets/atlas/effets-origine@3x.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-origine@3x.png",
         "module-path: packages/assets/atlas/effets-origine@3x.json"
@@ -190,6 +190,35 @@
       "releases": [],
       "repo": "capsule-panic",
       "role": "sprite",
+      "scene": "packages/assets/atlas/effets-origine@3x.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/effets-origine@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/effets-origine@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/effets-origine@3x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "effets-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-origine@3x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
       "scene": "packages/assets/atlas/effets-origine@3x.json",
       "status": "active"
     }

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:05:38.457564+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-touches-horizontales-gestes-jeu-0001",
+        "reason": "découpe brute de l'élément touches-horizontales-gestes-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f666d237f22bb76f35bd063bc804013d17f60be1aaf9292020bce3d3d6b54e9e",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "touches horizontales gestes jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-touches-horizontales-gestes-jeu-0001",
+          "reason": "découpe brute de l'élément touches-horizontales-gestes-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-touches-horizontales-gestes-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:05:38.061525+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-touches-horizontales-gestes-jeu » (packages/assets/atlas/gestes-jeu@2x.png), forme normalisée par le jeu de l'élément touches-horizontales-gestes-jeu",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-touches-horizontal-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-touches-horizontal-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/gestes-jeu@2x.json · cadre sprite-touches-horizontales-gestes-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-touches-horizontales-gestes-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-232.png, SHA-256 36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/gestes-jeu@2x.json · cadre sprite-touches-horizontales-gestes-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic touches-horizontales-gestes-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "8833ccaaaacc338c",
+    "phash": "d3d12c2ed9f1e2c0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-touches-horizontales-gestes-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-touches-horizontales-gestes-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/gestes-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/gestes-jeu@2x.png (png)\", \"boite\": [79, 41, 393, 800], \"cadre\": \"sprite-touches-horizontales-gestes-jeu\", \"element\": \"touches-horizontales-gestes-jeu\", \"empreintePixels\": \"54e387e476c45a8ba529f32deb4316dcda9f99d9f72a9168543dd3ba1b4604b2\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 41, \"w\": 79, \"x\": 393, \"y\": 800}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.gestes-jeu.decoupe.json\", \"tableSha256\": \"dfece186b857ce60a7f8032ea7f99290a6a24cfcbf56363bda9a1daddf0e314b\"}"
+    ],
+    "parentId": "asset-sprite-touches-horizontales-gestes-jeu-0001",
+    "parentSha256": "4d0d107437b2f12e67b2066b2b91fb832384883332f20e88b1f8be3a2c3c2c9a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.gestes-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:05:38.457564+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/gestes-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/gestes-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-touches-horizontales-gestes-jeu de packages/assets/atlas/gestes-jeu@2x.png (empreinte de pixels 54e387e476c45a8b)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-touches-horizontales-gestes-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/gestes-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/gestes-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "36999d906398422b56e6fc64fe9aa0d0deb618fdc7116600337b2c8ab24d5b21",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -121,6 +121,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "assets/export/e03-menu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/export/e03-menu.json"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image d'atlas assets/export/e03-menu.png livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-menu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-menu.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e03-menu.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "assets/export/e03-menu.png": "998aa6830a58910b172b56a68dd0aacbb3b07455"
       },
@@ -151,35 +180,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "tests/unit/web-assets.test.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "assets/export/e03-menu.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "assets/export/e03-menu.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image d'atlas assets/export/e03-menu.png livrée"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "e03-menu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/export/e03-menu.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas",
-      "scene": "assets/export/e03-menu.json",
       "status": "active"
     }
   ],

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:57:25.668921+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-plein-ecran-comman-0001",
+        "reason": "pixels différents du cadre livré sprite-plein-ecran-commandes-apercu (empreinte 39831e9837d8)"
+      },
+      {
+        "assetId": "asset-sprite-plein-ecran-commandes-apercu-0001",
+        "reason": "découpe brute de l'élément plein-ecran-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "bf4fe40e98692c53dd8f91ce3517f1ee55bc86096c9b8086d977e69c51922d13",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "plein ecran commandes apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-plein-ecran-comman-0001",
+          "reason": "pixels différents du cadre livré sprite-plein-ecran-commandes-apercu (empreinte 39831e9837d8)"
+        },
+        {
+          "assetId": "asset-sprite-plein-ecran-commandes-apercu-0001",
+          "reason": "découpe brute de l'élément plein-ecran-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-plein-ecran-comman-0001",
+        "asset-sprite-plein-ecran-commandes-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:57:25.266874+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-plein-ecran-commandes-apercu » (packages/assets/atlas/commandes-apercu@3x.png), forme normalisée par le jeu de l'élément plein-ecran-commandes-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-plein-ecran-comman-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-plein-ecran-comman-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-plein-ecran-commandes-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plein-ecran-commandes-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-125.png, SHA-256 30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-plein-ecran-commandes-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic plein-ecran-commandes-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "118869696969130b",
+    "phash": "d2d0a812bd6d8797"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-plein-ecran-commandes-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plein-ecran-commandes-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-apercu@3x.png (png)\", \"boite\": [52, 48, 832, 677], \"cadre\": \"sprite-plein-ecran-commandes-apercu\", \"element\": \"plein-ecran-commandes-apercu\", \"empreintePixels\": \"39831e9837d8dde02cbce005c403a849aa5be8f8ecb6983f6ac73cf27930ce8e\", \"parametres\": {\"marge\": 4, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 52, \"x\": 832, \"y\": 677}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe.json\", \"tableSha256\": \"20395dd01460dd2fa5da61a40bac44e8df62483777b3cad4dc937c8eee3fb746\"}"
+    ],
+    "parentId": "asset-sprite-plein-ecran-commandes-apercu-0001",
+    "parentSha256": "d3ef78e1a743a438435ceb4c83eef646b7fc6a0c36563f834f0ceb1763a49526",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:57:25.668921+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "30747f0ae4949d1a308d689b58c7eaff850f7d7c56cf37c7787cda9437793536",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

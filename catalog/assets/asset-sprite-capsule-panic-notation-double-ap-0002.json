@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:14:48.159346+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-notation-double-ap-0001",
+        "reason": "pixels différents du cadre livré sprite-notation-double-apercu (empreinte 6cb8723b1872)"
+      },
+      {
+        "assetId": "asset-sprite-notation-double-apercu-0001",
+        "reason": "découpe brute de l'élément notation-double-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c2616d235ec8daa67eb3a782bd6ba0fdfdbd476b73bf4202b537bf5f3b93b23d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "notation double apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-notation-double-ap-0001",
+          "reason": "pixels différents du cadre livré sprite-notation-double-apercu (empreinte 6cb8723b1872)"
+        },
+        {
+          "assetId": "asset-sprite-notation-double-apercu-0001",
+          "reason": "découpe brute de l'élément notation-double-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-notation-double-ap-0001",
+        "asset-sprite-notation-double-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:14:47.750018+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-notation-double-apercu » (packages/assets/atlas/panneaux-apercu@3x.png), forme normalisée par le jeu de l'élément notation-double-apercu",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-notation-double-ap-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-notation-double-ap-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@3x.json · cadre sprite-notation-double-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-notation-double-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@3x.json · cadre sprite-notation-double-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic notation-double-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4c13f0c461690db3",
+    "phash": "cf8d383287e4ce1a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-notation-double-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-notation-double-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/panneaux-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/panneaux-apercu@3x.png (png)\", \"boite\": [49, 42, 1530, 796], \"cadre\": \"sprite-notation-double-apercu\", \"element\": \"notation-double-apercu\", \"empreintePixels\": \"6cb8723b187217a919c8abea24d31204e10424a7cd1657162cb96ba7dcca0eca\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 42, \"w\": 49, \"x\": 1530, \"y\": 796}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe.json\", \"tableSha256\": \"6be08327005e84fe057db1ad7a3c4d9961b227b4fd8f6df913ae1574974bd6a1\"}"
+    ],
+    "parentId": "asset-sprite-notation-double-apercu-0001",
+    "parentSha256": "51a87bfb492904ac6c43c7c0130669bbd0dbb035896342abe737c2ebbb8855f6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:14:48.159346+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ae5aae4329667bc504b2b79326c4646212e45f4035759d48b29bbe022f38ee9d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

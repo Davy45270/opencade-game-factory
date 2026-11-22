@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:55:22.123454+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-options-commandes-apercu-0001",
+        "reason": "découpe brute de l'élément options-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5c0272e7b06af436d08056e2a22edfb964f0a3a03ecfc2e240909e5b30821f40",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "options commandes apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-options-commandes-apercu-0001",
+          "reason": "découpe brute de l'élément options-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-options-commandes-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:55:21.694093+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-options-commandes-apercu » (packages/assets/atlas/commandes-apercu@2x.png), forme normalisée par le jeu de l'élément options-commandes-apercu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-options-commandes-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-options-commandes-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@2x.json · cadre sprite-options-commandes-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-options-commandes-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-108.png, SHA-256 35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@2x.json · cadre sprite-options-commandes-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic options-commandes-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0215a0c49a0155a0",
+    "phash": "d1c4ae3b91c66af0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-options-commandes-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-options-commandes-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-apercu@2x.png (png)\", \"boite\": [77, 48, 640, 616], \"cadre\": \"sprite-options-commandes-apercu\", \"element\": \"options-commandes-apercu\", \"empreintePixels\": \"f001770709a27e9a284d0d1202ea4e8cf6e9da8776c54bd28acadb3b133df43b\", \"parametres\": {\"marge\": 4, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 77, \"x\": 640, \"y\": 616}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe.json\", \"tableSha256\": \"20395dd01460dd2fa5da61a40bac44e8df62483777b3cad4dc937c8eee3fb746\"}"
+    ],
+    "parentId": "asset-sprite-options-commandes-apercu-0001",
+    "parentSha256": "96d25ba408bab2cf5bd0c6bb05e6f4ede48b6ea169f715aadb83f769911b1804",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:55:22.123454+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/commandes-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-options-commandes-apercu de packages/assets/atlas/commandes-apercu@2x.png (empreinte de pixels f001770709a27e9a)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-options-commandes-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "35e2698315110af6fd7aff8b09e3597e34ef05b3293522a955d03b7109793d7d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -2,19 +2,16 @@
 
 | Format | Trouvés | Importés | Exceptions | Exclus | Non couverts | Examinés sans asset | Motifs |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| css | 63 | 63 | 0 | 0 | 0 | 0 |  |
-| html | 52 | 0 | 0 | 0 | 0 | 52 |  |
-| jpg | 10 | 10 | 0 | 0 | 0 | 0 |  |
-| js | 865 | 19 | 0 | 0 | 0 | 846 |  |
-| json | 940 | 120 | 0 | 0 | 0 | 820 |  |
-| mjs | 10 | 2 | 0 | 0 | 0 | 8 |  |
-| mp3 | 4 | 4 | 0 | 0 | 0 | 0 |  |
-| ogg | 1016 | 1016 | 0 | 0 | 0 | 0 |  |
-| png | 1642 | 1642 | 0 | 0 | 0 | 0 |  |
-| svg | 104 | 104 | 0 | 0 | 0 | 0 |  |
-| ts | 9341 | 1180 | 0 | 1 | 0 | 8160 | build/ (1) |
-| tsx | 22 | 0 | 0 | 0 | 0 | 22 |  |
-| webp | 1409 | 1409 | 0 | 0 | 0 | 0 |  |
+| css | 1 | 1 | 0 | 0 | 0 | 0 |  |
+| html | 1 | 0 | 0 | 0 | 0 | 1 |  |
+| js | 4 | 1 | 0 | 0 | 0 | 3 |  |
+| json | 181 | 86 | 0 | 0 | 0 | 95 |  |
+| mjs | 3 | 0 | 0 | 0 | 0 | 3 |  |
+| png | 245 | 245 | 0 | 0 | 0 | 0 |  |
+| svg | 51 | 51 | 0 | 0 | 0 | 0 |  |
+| ts | 107 | 3 | 0 | 1 | 0 | 103 | build/ (1) |
+| tsx | 11 | 0 | 0 | 0 | 0 | 11 |  |
+| webp | 130 | 130 | 0 | 0 | 0 | 0 |  |
 
 ## Non couverts
 
@@ -25,4 +22,4 @@
 
 | Dépôt | Commit | Chemin | Motif |
 | --- | --- | --- | --- |
-| capsule-panic | 5f2553ba76a19a1b5f2a3ecf2a11f60032112204 | tests/build/static.test.ts | build/ |
+| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | tests/build/static.test.ts | build/ |

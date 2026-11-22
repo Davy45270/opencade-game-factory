@@ -22,7 +22,7 @@
         "assetVersion": 1,
         "blobSha256": "8fd9eba4771674f633619f2047bce9e6e8e11d3207a4044e3209a90db0a9bee5",
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/renderer",
         "path": "packages/renderer/src/art.ts",
         "provider": "local",
@@ -83,7 +83,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+    "ref": "LICENSE@ea68eeb3829e17c49b13114107c2f38480c62341"
   },
   "name": "art",
   "orientation": "unknown",
@@ -104,8 +104,71 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "packages/renderer/src/art.ts": "8b0ebe5014f61ed506d58749c03c157db70ab77b"
+      },
+      "assetPath": "packages/renderer/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "tests/assets-palette.test.ts"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "literal: packages/renderer/src/art.ts",
+        "module-path: tests/assets-palette.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "tests/assets-palette.test.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/renderer/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/renderer/src/art.ts"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : module packages/renderer/src/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "capsule-panic",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/renderer/src/art.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "dessin-code",
+      "scene": "packages/renderer/src/art.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

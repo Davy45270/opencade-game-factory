@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:00:05.884066+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-fumee-effets-jeu-c-0001",
+        "reason": "pixels différents du cadre livré sprite-fumee-effets-jeu (empreinte 89dcd131b794)"
+      },
+      {
+        "assetId": "asset-sprite-fumee-effets-jeu-0001",
+        "reason": "découpe brute de l'élément fumee-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "965907a62d1045c41d01da18a1b228020182b6cce194d3c8c2d6a3dd0d67f99b",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fumee effets jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-fumee-effets-jeu-c-0001",
+          "reason": "pixels différents du cadre livré sprite-fumee-effets-jeu (empreinte 89dcd131b794)"
+        },
+        {
+          "assetId": "asset-sprite-fumee-effets-jeu-0001",
+          "reason": "découpe brute de l'élément fumee-effets-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-fumee-effets-jeu-c-0001",
+        "asset-sprite-fumee-effets-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:00:05.377494+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fumee-effets-jeu » (packages/assets/atlas/effets-jeu@3x.png), forme normalisée par le jeu de l'élément fumee-effets-jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fumee-effets-jeu-c-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fumee-effets-jeu-c-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-fumee-effets-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fumee-effets-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-182.png, SHA-256 b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-jeu@3x.json · cadre sprite-fumee-effets-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fumee-effets-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "73b094ecd0a0f073",
+    "phash": "c09d3fca2f367061"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fumee-effets-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fumee-effets-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-jeu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-jeu@3x.png (png)\", \"boite\": [72, 74, 1470, 336], \"cadre\": \"sprite-fumee-effets-jeu\", \"element\": \"fumee-effets-jeu\", \"empreintePixels\": \"89dcd131b794355f8a38087c8d09645d6fcb80081f6c53266b67e2dcb7f87e87\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 74, \"w\": 72, \"x\": 1470, \"y\": 336}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe.json\", \"tableSha256\": \"2f18ba71d84ddaaa504994fcc2d18e087e73551ef318894f37937c5bcaf3de7e\"}"
+    ],
+    "parentId": "asset-sprite-fumee-effets-jeu-0001",
+    "parentSha256": "957bcd64a27fd5a73edff4a5cb55996044fc97eeb46e8d9a019ba02f48db17a3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.effets-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:00:05.884066+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b4b54b24cca47601d4c4abfd32e2287ef472d5bf2744bee3a68e567a326a5854",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:58:30.461460+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-droite-commandes-o-0001",
+        "reason": "pixels différents du cadre livré sprite-droite-commandes-origine (empreinte 8b8ae4419dc4)"
+      },
+      {
+        "assetId": "asset-sprite-droite-commandes-origine-0001",
+        "reason": "découpe brute de l'élément droite-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c2cac9f300d47f26ab38107734930597fa0f2dc79759f4d06f1943d3a115e5f6",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "droite commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-droite-commandes-o-0001",
+          "reason": "pixels différents du cadre livré sprite-droite-commandes-origine (empreinte 8b8ae4419dc4)"
+        },
+        {
+          "assetId": "asset-sprite-droite-commandes-origine-0001",
+          "reason": "découpe brute de l'élément droite-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-droite-commandes-o-0001",
+        "asset-sprite-droite-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:58:30.073042+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-droite-commandes-origine » (packages/assets/atlas/commandes-origine@3x.png), forme normalisée par le jeu de l'élément droite-commandes-origine",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-droite-commandes-o-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-droite-commandes-o-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@3x.json · cadre sprite-droite-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-droite-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-134.png, SHA-256 fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@3x.json · cadre sprite-droite-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic droite-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "418492787992272b",
+    "phash": "d9c0260bcf2f392e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-droite-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-droite-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@3x.png (png)\", \"boite\": [88, 85, 110, 718], \"cadre\": \"sprite-droite-commandes-origine\", \"element\": \"droite-commandes-origine\", \"empreintePixels\": \"8b8ae4419dc40eb6db51c2e1fa7781df323e8d75d92cc2eecee0d96982a9bc7f\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 85, \"w\": 88, \"x\": 110, \"y\": 718}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-droite-commandes-origine-0001",
+    "parentSha256": "6f79bbc4b5211b1454120f51dc76113d0b210840af4ea38e7342915b01a9604a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:58:30.461460+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fbb200f830ab4b0f8050261862c0d13c93c82c25ee55956b6f79cd1532409106",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

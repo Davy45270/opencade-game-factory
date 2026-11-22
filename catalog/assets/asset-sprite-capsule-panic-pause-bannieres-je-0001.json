@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:54:08.516314+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pause-bannieres-jeu-0001",
+        "reason": "découpe brute de l'élément pause-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "234776ead6af6429e23b9f4b7d3e4785ebd57c893310fa67adb943b4d7722a1b",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "pause bannieres jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pause-bannieres-jeu-0001",
+          "reason": "découpe brute de l'élément pause-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pause-bannieres-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:54:08.112332+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-pause-bannieres-jeu » (packages/assets/atlas/bannieres-jeu@2x.png), forme normalisée par le jeu de l'élément pause-bannieres-jeu",
+  "dimensions": {
+    "height": 160,
+    "width": 160
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-pause-bannieres-je-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-pause-bannieres-je-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-pause-bannieres-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pause-bannieres-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-94.png, SHA-256 90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-pause-bannieres-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic pause-bannieres-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0050265159a65100",
+    "phash": "dbe8a4065bf9a426"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-pause-bannieres-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pause-bannieres-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/bannieres-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/bannieres-jeu@2x.png (png)\", \"boite\": [215, 41, 1430, 892], \"cadre\": \"sprite-pause-bannieres-jeu\", \"element\": \"pause-bannieres-jeu\", \"empreintePixels\": \"aa70e6fb6d1e534d109580e0434b2438892586e18ea847dfc31c8a445e266c00\", \"parametres\": {\"marge\": 4, \"taille\": 160}, \"regionDuBrut\": {\"h\": 41, \"w\": 215, \"x\": 1430, \"y\": 892}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe.json\", \"tableSha256\": \"b682d68f7ad295e5a1d941b9f0356e44008fe893e44798ea1a79191d80412861\"}"
+    ],
+    "parentId": "asset-sprite-pause-bannieres-jeu-0001",
+    "parentSha256": "8de1098b01f8c04b64614dc0369614b412fdf9d4704fcf1f6de84c37759d1dd2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:54:08.516314+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/bannieres-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/bannieres-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-pause-bannieres-jeu de packages/assets/atlas/bannieres-jeu@2x.png (empreinte de pixels aa70e6fb6d1e534d)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-pause-bannieres-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/bannieres-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/bannieres-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "90e247017beb65683049a425bc224ce7777524496c0c764cfedb91440a754405",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp",
         "provider": "local",
@@ -100,7 +100,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Sprite de Capsule Panic (version encodée runtime) dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-plein-ecran-commandes-apercu (origine « licences.json »)"
+  },
   "name": "sprite-plein-ecran-commandes-apercu",
   "orientation": "unknown",
   "originUniverse": "assets",
@@ -110,7 +115,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
     "evidence": [
       "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp"
     ],
@@ -125,7 +130,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/7d/7d19c47c51d45c573f6033afdeb638b6b4a966bb36053a5b5343b52ef4fe2d00.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -134,10 +139,10 @@
       "assetPath": "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp",
       "assetVersion": 1,
       "codeRef": {
-        "line": 36,
+        "line": 34,
         "path": "apps/web/src/artwork.ts"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "import: packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp",
         "module-path: apps/web/src/artwork.ts"
@@ -158,6 +163,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-plein-ecran-commandes-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-plein-ecran-commandes-apercu.webp",
       "status": "active"
     }
   ],

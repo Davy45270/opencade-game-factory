@@ -121,6 +121,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/e03-personnages.json"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/e03-personnages.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-personnages.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/e03-personnages.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/assets/e03-personnages.webp": "cec82a13024bdae5b1489b495175ba16ca48e542"
       },
@@ -151,35 +180,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/assets/e03-personnages.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/assets/e03-personnages.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image d'atlas public/assets/e03-personnages.webp livrée"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "e03-personnages",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/assets/e03-personnages.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas",
-      "scene": "public/assets/e03-personnages.json",
       "status": "active"
     }
   ],

@@ -126,6 +126,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "public/assets/redessine/eglantine-terrain.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/redessine/eglantine-terrain.png"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image public/assets/redessine/eglantine-terrain.png livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "eglantine-terrain",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/redessine/eglantine-terrain.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "public/assets/redessine/eglantine-terrain.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/assets/redessine/eglantine-terrain.png": "7f35bcd686e9c2aa8a81983cf1b8a4218e2cb702"
       },
@@ -222,35 +251,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "tests/assets/empreintes-planches.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/assets/redessine/eglantine-terrain.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/assets/redessine/eglantine-terrain.png"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image public/assets/redessine/eglantine-terrain.png livrée (fichier suivi au commit)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "eglantine-terrain",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/assets/redessine/eglantine-terrain.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "image",
-      "scene": "public/assets/redessine/eglantine-terrain.png",
       "status": "active"
     }
   ],

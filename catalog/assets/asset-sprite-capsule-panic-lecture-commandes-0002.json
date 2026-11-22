@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:57:03.963584+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-lecture-commandes-0001",
+        "reason": "pixels différents du cadre livré sprite-lecture-commandes-apercu (empreinte 6710cb38b3a1)"
+      },
+      {
+        "assetId": "asset-sprite-lecture-commandes-apercu-0001",
+        "reason": "découpe brute de l'élément lecture-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8d871f04f8024fcf2270a65b2c85ab77cf2fd6efa51a68595118350c39cd7088",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "lecture commandes apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-lecture-commandes-0001",
+          "reason": "pixels différents du cadre livré sprite-lecture-commandes-apercu (empreinte 6710cb38b3a1)"
+        },
+        {
+          "assetId": "asset-sprite-lecture-commandes-apercu-0001",
+          "reason": "découpe brute de l'élément lecture-commandes-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-lecture-commandes-0001",
+        "asset-sprite-lecture-commandes-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:57:03.576551+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-lecture-commandes-apercu » (packages/assets/atlas/commandes-apercu@3x.png), forme normalisée par le jeu de l'élément lecture-commandes-apercu",
+  "dimensions": {
+    "height": 144,
+    "width": 144
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-lecture-commandes-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-lecture-commandes-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-lecture-commandes-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lecture-commandes-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-122.png, SHA-256 9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-apercu@3x.json · cadre sprite-lecture-commandes-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic lecture-commandes-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "1319273131251b27",
+    "phash": "cec03337991b666c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-lecture-commandes-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lecture-commandes-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-apercu@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-apercu@3x.png (png)\", \"boite\": [49, 48, 475, 677], \"cadre\": \"sprite-lecture-commandes-apercu\", \"element\": \"lecture-commandes-apercu\", \"empreintePixels\": \"6710cb38b3a136ed52467e75b54245d198c1d538a112984cee6dfae44dc084a4\", \"parametres\": {\"marge\": 4, \"taille\": 96}, \"regionDuBrut\": {\"h\": 48, \"w\": 49, \"x\": 475, \"y\": 677}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe.json\", \"tableSha256\": \"20395dd01460dd2fa5da61a40bac44e8df62483777b3cad4dc937c8eee3fb746\"}"
+    ],
+    "parentId": "asset-sprite-lecture-commandes-apercu-0001",
+    "parentSha256": "9f6cff15d5efd03dbccbdfc23a583a40c70e03efa7954e0b22efa9c196a8c9b3",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.commandes-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:57:03.963584+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9cfdba58306455e5274596ebf2cf1a6291e3d294240a9219a579f02a34468746",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

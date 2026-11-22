@@ -3,7 +3,86 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0003",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      },
+      {
+        "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0002",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      },
+      {
+        "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0002",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      },
+      {
+        "assetId": "asset-sprite-sprite-fleche-rotation-jeu-0003",
+        "reason": "source du cadre sprite-fleche-rotation-jeu : dérivé : boîte [50, 39, 1423, 434] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b63c5c82b2ff7dc8304bac9ac79bbfe3f44d4bc9dcfcb8c7d873cc5936fc46a3",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite fleche rotation jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0003",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        },
+        {
+          "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0002",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        },
+        {
+          "assetId": "asset-image-capsule-panic-sprite-fleche-rota-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-fleche-rotation-ap-0002",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        },
+        {
+          "assetId": "asset-sprite-sprite-fleche-rotation-jeu-0003",
+          "reason": "source du cadre sprite-fleche-rotation-jeu : dérivé : boîte [50, 39, 1423, 434] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json) (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-fleche-rota-0003",
+        "asset-image-capsule-panic-sprite-fleche-rota-0002",
+        "asset-image-capsule-panic-sprite-fleche-rota-0001",
+        "asset-sprite-capsule-panic-fleche-rotation-ap-0001",
+        "asset-sprite-capsule-panic-fleche-rotation-ap-0002",
+        "asset-sprite-sprite-fleche-rotation-jeu-0003",
+        "asset-sprite-sprite-fleche-rotation-bas-jeu-0003"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:12:33.274573+00:00"
+    }
   },
   "description": "Sprite fleche rotation jeu — sprite 64×64",
   "dimensions": {
@@ -28,7 +107,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-fleche-rotation-jeu-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +170,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-fleche-rotation-jeu (origine « licences.json »)"
+  },
   "name": "sprite-fleche-rotation-jeu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,17 +185,22 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-sprite-sprite-fleche-rotation-jeu-0003",
     "evidence": [
-      "packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204"
+      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+      "importer_livre : cadre packages/assets/atlas/effets-jeu@2x.png#sprite-fleche-rotation-jeu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [50, 39, 1423, 434] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
     ],
+    "parentId": "asset-sprite-sprite-fleche-rotation-jeu-0003",
+    "parentSha256": "28e3fec6653980f4b0d736228f09bcab8be878e99be26426ac62e36a2e4e7b54",
+    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "feaea62aa1b036600b02a3dbc3b7985f8bf60643b614b8c08b9dfbad40482f03",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
     "h": 39,
     "verified": false,
     "w": 50,
@@ -137,7 +226,7 @@
         "line": 1818,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-jeu@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -168,10 +257,10 @@
       "assetPath": "packages/assets/atlas/effets-jeu@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 182,
+        "line": 183,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/effets-jeu@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -192,6 +281,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/effets-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "packages/assets/atlas/effets-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-rotation-jeu de packages/assets/atlas/effets-jeu@2x.png (empreinte de pixels 45a51b54e9440271)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-rotation-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-jeu@2x.json",
       "status": "active"
     }
   ],

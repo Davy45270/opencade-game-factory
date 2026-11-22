@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
         "provider": "local",
@@ -100,7 +100,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Sprite de Capsule Panic (version encodée runtime) dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-bas-commandes-origine (origine « licences.json »)"
+  },
   "name": "sprite-bas-commandes-origine",
   "orientation": "unknown",
   "originUniverse": "assets",
@@ -110,7 +115,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
     "evidence": [
       "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/sprite-bas-commandes-origine.webp"
     ],
@@ -125,7 +130,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/c3/c3dd3e5f1b0ddbf4f516e04accfecd175fa204f2573a53b7d4b32c8029dabad6.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -134,10 +139,10 @@
       "assetPath": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
       "assetVersion": 1,
       "codeRef": {
-        "line": 29,
+        "line": 27,
         "path": "apps/web/src/artwork.ts"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "import: packages/assets/runtime/sprite-bas-commandes-origine.webp",
         "module-path: apps/web/src/artwork.ts"
@@ -158,6 +163,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-bas-commandes-origine.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-bas-commandes-origine.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-bas-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-bas-commandes-origine.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
       "status": "active"
     }
   ],

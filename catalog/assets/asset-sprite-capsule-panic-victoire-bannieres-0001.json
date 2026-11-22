@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:53:53.885887+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-victoire-bannieres-jeu-0001",
+        "reason": "découpe brute de l'élément victoire-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "652165a336fa38efc9eb7e5ff7bf58db51c855aca08fc1cdf3cb0488e3714dc2",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "victoire bannieres jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-victoire-bannieres-jeu-0001",
+          "reason": "découpe brute de l'élément victoire-bannieres-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-victoire-bannieres-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:53:53.485589+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-victoire-bannieres-jeu » (packages/assets/atlas/bannieres-jeu@2x.png), forme normalisée par le jeu de l'élément victoire-bannieres-jeu",
+  "dimensions": {
+    "height": 160,
+    "width": 160
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-victoire-bannieres-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-victoire-bannieres-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-victoire-bannieres-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-victoire-bannieres-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-92.png, SHA-256 358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/bannieres-jeu@2x.json · cadre sprite-victoire-bannieres-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic victoire-bannieres-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "0088538888428000",
+    "phash": "d0e0af1f50e0af0f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-victoire-bannieres-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-victoire-bannieres-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/bannieres-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/bannieres-jeu@2x.png (png)\", \"boite\": [235, 40, 1420, 796], \"cadre\": \"sprite-victoire-bannieres-jeu\", \"element\": \"victoire-bannieres-jeu\", \"empreintePixels\": \"f72177e868c9a5d0493d2f8fb08164ce0cce130f27dde0cc28ff55c3766908ef\", \"parametres\": {\"marge\": 4, \"taille\": 160}, \"regionDuBrut\": {\"h\": 40, \"w\": 235, \"x\": 1420, \"y\": 796}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe.json\", \"tableSha256\": \"b682d68f7ad295e5a1d941b9f0356e44008fe893e44798ea1a79191d80412861\"}"
+    ],
+    "parentId": "asset-sprite-victoire-bannieres-jeu-0001",
+    "parentSha256": "ddb5b50e01d9038bfe049ccd054a6adb4a466534e4d1c39f0411e687ee9e3020",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.bannieres-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:53:53.885887+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/bannieres-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/bannieres-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-victoire-bannieres-jeu de packages/assets/atlas/bannieres-jeu@2x.png (empreinte de pixels f72177e868c9a5d0)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-victoire-bannieres-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/bannieres-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/bannieres-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "358a10842af0526fa25563cde2089c65e1ac27b2449b0be750e79566e7ee6242",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

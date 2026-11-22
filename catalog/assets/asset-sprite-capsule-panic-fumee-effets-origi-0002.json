@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:03:58.836242+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-fumee-effets-origi-0001",
+        "reason": "pixels différents du cadre livré sprite-fumee-effets-origine (empreinte 0e8ed3dc71f4)"
+      },
+      {
+        "assetId": "asset-sprite-fumee-effets-origine-0001",
+        "reason": "découpe brute de l'élément fumee-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "455fe2704865b15fcca0de5b15d73fb2cf7134bea5d7a2b734b6fa4681dbb20d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fumee effets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-fumee-effets-origi-0001",
+          "reason": "pixels différents du cadre livré sprite-fumee-effets-origine (empreinte 0e8ed3dc71f4)"
+        },
+        {
+          "assetId": "asset-sprite-fumee-effets-origine-0001",
+          "reason": "découpe brute de l'élément fumee-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-fumee-effets-origi-0001",
+        "asset-sprite-fumee-effets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:03:58.415805+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fumee-effets-origine » (packages/assets/atlas/effets-origine@3x.png), forme normalisée par le jeu de l'élément fumee-effets-origine",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fumee-effets-origi-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fumee-effets-origi-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-fumee-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fumee-effets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-215.png, SHA-256 b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-fumee-effets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fumee-effets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "26e1d9d286c42413",
+    "phash": "c0893ef43d3652f1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fumee-effets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fumee-effets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-origine@3x.png (png)\", \"boite\": [181, 147, 785, 489], \"cadre\": \"sprite-fumee-effets-origine\", \"element\": \"fumee-effets-origine\", \"empreintePixels\": \"0e8ed3dc71f4ee85f97584ab91e0fd0ede7409482c23d68dac19e9a21454d6d5\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 147, \"w\": 181, \"x\": 785, \"y\": 489}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.effets-origine.decoupe.json\", \"tableSha256\": \"5f6ceab4cae9377009a43fb4e142fd4e09111bec7a27f92a8945aefa831f45a0\"}"
+    ],
+    "parentId": "asset-sprite-fumee-effets-origine-0001",
+    "parentSha256": "3713e1f8cce07bf2be1a80618a10352d9e00e67c8f73b00f815e4a8ccc2b0ee4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.effets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:03:58.836242+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b707131e12be628e47f9d696e0c525c9636c168af58eb76e8f320fab0b47e5f6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

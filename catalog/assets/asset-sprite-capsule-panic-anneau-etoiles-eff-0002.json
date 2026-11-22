@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:03:51.330835+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-anneau-etoiles-eff-0001",
+        "reason": "pixels différents du cadre livré sprite-anneau-etoiles-effets-origine (empreinte 2a1d5d5ff3d4)"
+      },
+      {
+        "assetId": "asset-sprite-anneau-etoiles-effets-origine-0001",
+        "reason": "découpe brute de l'élément anneau-etoiles-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b408e1877c6de12f4eb2dca8d8779980a88f4132efa1a7de5b6543a8fc6fdb12",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "anneau etoiles effets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-anneau-etoiles-eff-0001",
+          "reason": "pixels différents du cadre livré sprite-anneau-etoiles-effets-origine (empreinte 2a1d5d5ff3d4)"
+        },
+        {
+          "assetId": "asset-sprite-anneau-etoiles-effets-origine-0001",
+          "reason": "découpe brute de l'élément anneau-etoiles-effets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-anneau-etoiles-eff-0001",
+        "asset-sprite-anneau-etoiles-effets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:03:50.910984+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-anneau-etoiles-effets-origine » (packages/assets/atlas/effets-origine@3x.png), forme normalisée par le jeu de l'élément anneau-etoiles-effets-origine",
+  "dimensions": {
+    "height": 288,
+    "width": 288
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-anneau-etoiles-eff-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-anneau-etoiles-eff-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-anneau-etoiles-effets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/effets-origine@3x.json · cadre sprite-anneau-etoiles-effets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic anneau-etoiles-effets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "6166a6871e58f334",
+    "phash": "c4260f5332c8f3bd"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-anneau-etoiles-effets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-anneau-etoiles-effets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/effets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/effets-origine@3x.png (png)\", \"boite\": [193, 162, 581, 487], \"cadre\": \"sprite-anneau-etoiles-effets-origine\", \"element\": \"anneau-etoiles-effets-origine\", \"empreintePixels\": \"2a1d5d5ff3d4d57b02907cf028c03681dc21a082ba1d1cc81afd4ded032c51b0\", \"parametres\": {\"marge\": 4, \"taille\": 192}, \"regionDuBrut\": {\"h\": 162, \"w\": 193, \"x\": 581, \"y\": 487}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.effets-origine.decoupe.json\", \"tableSha256\": \"5f6ceab4cae9377009a43fb4e142fd4e09111bec7a27f92a8945aefa831f45a0\"}"
+    ],
+    "parentId": "asset-sprite-anneau-etoiles-effets-origine-0001",
+    "parentSha256": "f34441ccb53922c3ca82b9d934a1a7298b92bd03c7c1cd8922cb6c74abdac58f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.effets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:03:51.330835+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e85d4d44829ca2b60eba832d030b77f8416328db6eacf6826b0ed10897724fce",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

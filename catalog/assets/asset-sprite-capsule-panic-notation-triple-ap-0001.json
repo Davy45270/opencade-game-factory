@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:14:17.192815+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-notation-triple-apercu-0001",
+        "reason": "découpe brute de l'élément notation-triple-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8bce5fe9891910677b54657f8743fb82711c6d92b545ff92d6560f64b0b0abe2",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "notation triple apercu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-notation-triple-apercu-0001",
+          "reason": "découpe brute de l'élément notation-triple-apercu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-notation-triple-apercu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:14:16.740156+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-notation-triple-apercu » (packages/assets/atlas/panneaux-apercu@2x.png), forme normalisée par le jeu de l'élément notation-triple-apercu",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-notation-triple-ap-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-notation-triple-ap-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@2x.json · cadre sprite-notation-triple-apercu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-notation-triple-apercu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-306.png, SHA-256 e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/panneaux-apercu@2x.json · cadre sprite-notation-triple-apercu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic notation-triple-apercu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4836f5e2b2885582",
+    "phash": "c4cc3b33c5cb4e8c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-notation-triple-apercu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-notation-triple-apercu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/panneaux-apercu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/panneaux-apercu@2x.png (png)\", \"boite\": [69, 42, 1589, 796], \"cadre\": \"sprite-notation-triple-apercu\", \"element\": \"notation-triple-apercu\", \"empreintePixels\": \"f202ffbf15587d67ab098275a1d335be9571088ccc47ad99f443bc6f86cf14d3\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 42, \"w\": 69, \"x\": 1589, \"y\": 796}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe.json\", \"tableSha256\": \"6be08327005e84fe057db1ad7a3c4d9961b227b4fd8f6df913ae1574974bd6a1\"}"
+    ],
+    "parentId": "asset-sprite-notation-triple-apercu-0001",
+    "parentSha256": "bbba7187e5f9f4ff7a05be6417f3eb94001fcc9f1149bb6b1c825e8a65df4238",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_03.panneaux-apercu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:14:17.192815+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "packages/assets/atlas/panneaux-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-notation-triple-apercu de packages/assets/atlas/panneaux-apercu@2x.png (empreinte de pixels f202ffbf15587d67)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-notation-triple-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/panneaux-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e1890bcf3c0a5e3b4f6e6283ba8680dd5efac44b1ae58c76867c2cb572a884ea",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

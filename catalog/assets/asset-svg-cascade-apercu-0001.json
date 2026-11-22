@@ -25,6 +25,18 @@
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/cascade-apercu.svg",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/cascade-apercu.svg",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -52,14 +64,14 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cascade-apercu.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cascade-apercu.svg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cascade-apercu.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cascade-apercu.svg"
       ],
       "method": "proven"
     },
@@ -73,7 +85,7 @@
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/source/svg/cascade-apercu.svg"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/svg/cascade-apercu.svg"
       ],
       "method": "proven"
     }
@@ -91,26 +103,26 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "719ab76c0627fb0716d91f45796d37adc4cad9f784787b3ac707e92982afbf4d",
+  "sha256": "2b3e221036d58d42f2b2e0ab7717e56876393d14fd2d0e831c56b3d3db6fb71c",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "packages/assets/source/svg/cascade-apercu.svg": "66c13fdc4a0eefc3024865a32768a3925bb12d94"
+        "packages/assets/source/svg/cascade-apercu.svg": "ce124fed33e89362cf7d1b63fb44796a69f3432e"
       },
       "assetPath": "packages/assets/source/svg/cascade-apercu.svg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 5937,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/cascade-apercu.svg",
         "module-path: packages/assets/assets.inventaire.json"
@@ -135,15 +147,15 @@
     },
     {
       "assetBlobs": {
-        "packages/assets/source/svg/cascade-apercu.svg": "66c13fdc4a0eefc3024865a32768a3925bb12d94"
+        "packages/assets/source/svg/cascade-apercu.svg": "ce124fed33e89362cf7d1b63fb44796a69f3432e"
       },
       "assetPath": "packages/assets/source/svg/cascade-apercu.svg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 1007,
+        "line": 998,
         "path": "packages/assets/provenance.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/source/svg/cascade-apercu.svg",
         "module-path: packages/assets/provenance.json"
@@ -168,17 +180,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "svg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "719ab76c0627fb0716d91f45796d37adc4cad9f784787b3ac707e92982afbf4d",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "svg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "2b3e221036d58d42f2b2e0ab7717e56876393d14fd2d0e831c56b3d3db6fb71c",
+      "version": 2
     }
   ],
   "visualStyle": null

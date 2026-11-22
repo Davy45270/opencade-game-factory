@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:11:50.477039+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-fiole-rouge-objets-0001",
+        "reason": "pixels différents du cadre livré sprite-fiole-rouge-objets-origine (empreinte c80bc4882a5e)"
+      },
+      {
+        "assetId": "asset-sprite-fiole-rouge-objets-origine-0001",
+        "reason": "découpe brute de l'élément fiole-rouge-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "937e5dead577599df70818da1622b049b94e36f78b219a0372ad4f678690ef8d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "fiole rouge objets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-fiole-rouge-objets-0001",
+          "reason": "pixels différents du cadre livré sprite-fiole-rouge-objets-origine (empreinte c80bc4882a5e)"
+        },
+        {
+          "assetId": "asset-sprite-fiole-rouge-objets-origine-0001",
+          "reason": "découpe brute de l'élément fiole-rouge-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-fiole-rouge-objets-0001",
+        "asset-sprite-fiole-rouge-objets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:11:50.066546+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-fiole-rouge-objets-origine » (packages/assets/atlas/objets-origine@3x.png), forme normalisée par le jeu de l'élément fiole-rouge-objets-origine",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-fiole-rouge-objets-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-fiole-rouge-objets-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@3x.json · cadre sprite-fiole-rouge-objets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fiole-rouge-objets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-285.png, SHA-256 6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@3x.json · cadre sprite-fiole-rouge-objets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic fiole-rouge-objets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "b2b2b26144ca8265",
+    "phash": "cd9c316396b869b4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-fiole-rouge-objets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fiole-rouge-objets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-origine@3x.png (png)\", \"boite\": [108, 113, 188, 820], \"cadre\": \"sprite-fiole-rouge-objets-origine\", \"element\": \"fiole-rouge-objets-origine\", \"empreintePixels\": \"c80bc4882a5e5fc207f2b02b0ccbe2d801656f3726cc7b6c58aec3f00ee202d9\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 113, \"w\": 108, \"x\": 188, \"y\": 820}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.objets-origine.decoupe.json\", \"tableSha256\": \"98320fb77c6f67cbb407742bfec97389c120cb6db0d874e4aa522625885e569c\"}"
+    ],
+    "parentId": "asset-sprite-fiole-rouge-objets-origine-0001",
+    "parentSha256": "dd6a5b111f4bb5b1222513df3bf9342f7d63c69e3af654b0c4b3d73b87a5bd9c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.objets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:11:50.477039+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6691a35cd27cbb79b9d0653ffed87ed77151e1a2e0a60f94dba8bc81161a59cc",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

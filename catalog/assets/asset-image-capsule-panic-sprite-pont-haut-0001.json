@@ -1,0 +1,228 @@
+{
+  "alpha": true,
+  "category": "image",
+  "createdAt": "2026-11-22T02:45:37.858482+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-pieces-origine-2x-0004",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      },
+      {
+        "assetId": "asset-sprite-capsule-panic-pieces-origine-3x-0004",
+        "reason": "autre image : octets ou pixels différents de l'image livrée"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9be68c517707b504bbce6328bf6a1e87bfdce8fb387e0f42cc5bc88ff102968d",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite pont haut",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-pieces-origine-2x-0004",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        },
+        {
+          "assetId": "asset-sprite-capsule-panic-pieces-origine-3x-0004",
+          "reason": "autre image : octets ou pixels différents de l'image livrée"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-pieces-origine-2x-0004",
+        "asset-sprite-capsule-panic-pieces-origine-3x-0004"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:45:37.444520+00:00"
+    }
+  },
+  "description": "capsule-panic — packages/assets/sprites/sprite-pont-haut.png livré par le jeu",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "P"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-image-capsule-panic-sprite-pont-haut-0001.png"
+  },
+  "format": "png",
+  "id": "asset-image-capsule-panic-sprite-pont-haut-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-pont-haut.png"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de image-573.png, SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/sprites/sprite-pont-haut.png"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuel de Capsule Panic par Davy45270, déclaré CC BY 4.0 fichier par fichier (SHA-256 identique aux octets livrés, planche source vérifiée).",
+    "method": "déclaration du titulaire, fichier et planche vérifiés",
+    "ref": "capsule-panic packages/assets/LICENCES.md ; HL-538 ; packages/assets/assets.inventaire.json · packages/assets/sprites/sprite-pont-haut.png (origine « inventaire », planche Capsule_Panic_Assets_Planche_01.png SHA-256 860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254, fichier SHA-256 e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3)"
+  },
+  "name": "capsule-panic sprite-pont-haut",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "96144c3000000000",
+    "phash": "b939998cccccccc6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (packages/assets/assets.inventaire.json et LICENCES.md du jeu)",
+    "evidence": [
+      "importer_livre : packages/assets/sprites/sprite-pont-haut.png livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "livre"
+  ],
+  "updatedAt": "2026-11-22T02:45:37.858482+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/pieces-origine@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "packages/assets/atlas/pieces-origine@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-pont-haut de packages/assets/atlas/pieces-origine@3x.png (empreinte de pixels ff7dfd8139c115d5)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-pont-haut",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/pieces-origine@3x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/pieces-origine@3x.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/sprites/sprite-pont-haut.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/sprites/sprite-pont-haut.png"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/sprites/sprite-pont-haut.png livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-pont-haut",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/sprites/sprite-pont-haut.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/sprites/sprite-pont-haut.png",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e5c3a5e9c16e9aca5ff0613d6d424a5e802cd72c2d6b0774adc511746f6943f3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

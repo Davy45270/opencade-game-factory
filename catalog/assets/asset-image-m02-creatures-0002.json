@@ -121,6 +121,35 @@
   "updatedAt": "2026-11-19T15:22:46+01:00",
   "usages": [
     {
+      "assetPath": "public/assets/m02-creatures.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/m02-creatures.json"
+      },
+      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/m02-creatures.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/m02-creatures.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/m02-creatures.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/assets/m02-creatures.webp": "965e541eb6f45c43d71c3b2abbcde901b296f4d9"
       },
@@ -151,35 +180,6 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/assets/m02-creatures.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/assets/m02-creatures.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image d'atlas public/assets/m02-creatures.webp livrée"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "m02-creatures",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/assets/m02-creatures.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas",
-      "scene": "public/assets/m02-creatures.json",
       "status": "active"
     }
   ],

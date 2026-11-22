@@ -3,7 +3,32 @@
   "category": "sprite",
   "createdAt": "2026-11-19T11:33:32+01:00",
   "creation": {
-    "importJob": "0655d27cd869723f"
+    "importJob": "0655d27cd869723f",
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-image-capsule-panic-sprite-reacteur-ch-0002",
+        "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/chambre-origine@2x.png#sprite-reacteur-chambre-origine"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "30e8c07796b33dd0efbe101e7ba8d5fb2f32638f1a51232d48a9b00db7a51345",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "sprite reacteur chambre origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-image-capsule-panic-sprite-reacteur-ch-0002",
+          "reason": "autre asset : pixels différents du cadre livré packages/assets/atlas/chambre-origine@2x.png#sprite-reacteur-chambre-origine"
+        }
+      ],
+      "results": [
+        "asset-image-capsule-panic-sprite-reacteur-ch-0002"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T08:13:22.080550+00:00"
+    }
   },
   "description": "Sprite reacteur chambre origine — sprite 414×414",
   "dimensions": {
@@ -28,7 +53,7 @@
       }
     ],
     "locations": [],
-    "registry": null,
+    "registry": "sprites/asset-sprite-sprite-reacteur-chambre-origine-0001.png",
     "sha256Method": "canonical-crop-png"
   },
   "format": "png",
@@ -91,7 +116,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-reacteur-chambre-origine (origine « licences.json »)"
+  },
   "name": "sprite-reacteur-chambre-origine",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -101,10 +131,15 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (packages/assets/licences.json du jeu)",
+    "derivedFrom": "asset-svg-reacteur-chambre-apercu-0001",
     "evidence": [
-      "258x620+1266+24"
+      "258x620+1266+24",
+      "importer_livre : cadre packages/assets/atlas/chambre-origine@2x.png#sprite-reacteur-chambre-origine de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/reacteur-chambre-origine.svg (provenance.json)"
     ],
+    "parentId": "asset-svg-reacteur-chambre-apercu-0001",
+    "parentSha256": "58376a3c4021b430f6cb40629ef0aa1d36e877858d798cd684bc02339f6f29eb",
+    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -129,7 +164,7 @@
         "line": 630,
         "path": "packages/assets/assets.inventaire.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/chambre-origine@2x.json",
         "module-path: packages/assets/assets.inventaire.json"
@@ -160,10 +195,10 @@
       "assetPath": "packages/assets/atlas/chambre-origine@2x.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 649,
+        "line": 644,
         "path": "packages/assets/chaine.json"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "literal: packages/assets/atlas/chambre-origine@2x.json",
         "module-path: packages/assets/chaine.json"
@@ -184,6 +219,35 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "packages/assets/atlas/chambre-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/chambre-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-reacteur-chambre-origine de packages/assets/atlas/chambre-origine@2x.png (empreinte de pixels 7ab828c648f4116c)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-reacteur-chambre-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/chambre-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/chambre-origine@2x.json",
       "status": "active"
     }
   ],

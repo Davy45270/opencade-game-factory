@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:58:01.756990+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pause-commandes-origine-0001",
+        "reason": "découpe brute de l'élément pause-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b94d8d173ab3f064e0ac629bba155b23fdd4c1e5eeec20fb89af81806f73a7aa",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "pause commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pause-commandes-origine-0001",
+          "reason": "découpe brute de l'élément pause-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pause-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:58:01.352938+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-pause-commandes-origine » (packages/assets/atlas/commandes-origine@2x.png), forme normalisée par le jeu de l'élément pause-commandes-origine",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-pause-commandes-or-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-pause-commandes-or-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-pause-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pause-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-130.png, SHA-256 a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-pause-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic pause-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "5194a8e8e9e8572b",
+    "phash": "9ec0692b8e3f862e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-pause-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pause-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@2x.png (png)\", \"boite\": [94, 84, 408, 718], \"cadre\": \"sprite-pause-commandes-origine\", \"element\": \"pause-commandes-origine\", \"empreintePixels\": \"0f3b7fa689d1cb0a152dd9067b606f37cb0e5fd49556e6cacbdb2e365b2bb2cf\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 84, \"w\": 94, \"x\": 408, \"y\": 718}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-pause-commandes-origine-0001",
+    "parentSha256": "e65c05d81b6b5c3dd992403821097b4ebb666aa8cea587e8530e9fee23820fb6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:58:01.756990+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "packages/assets/atlas/commandes-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-pause-commandes-origine de packages/assets/atlas/commandes-origine@2x.png (empreinte de pixels 0f3b7fa689d1cb0a)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-pause-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a9854446ce7cee1c3c62f8f62dcc0d14233a8d654c99eb5a09b7be41a4df2295",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

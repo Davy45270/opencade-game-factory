@@ -26,6 +26,18 @@
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/credits.webp",
         "provider": "local",
+        "removedAtCommit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "repo": "capsule-panic",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/credits.webp",
+        "provider": "local",
         "repo": "capsule-panic",
         "status": "active",
         "visibility": "private"
@@ -39,7 +51,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     },
@@ -60,21 +72,21 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     },
@@ -88,14 +100,14 @@
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "capsule-panic@5f2553ba76a19a1b5f2a3ecf2a11f60032112204:packages/assets/runtime/credits.webp"
+        "capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/runtime/credits.webp"
       ],
       "method": "proven"
     }
@@ -106,7 +118,7 @@
   "originUniverse": "assets",
   "perceptual": {
     "dhash": "2a5bd1d8cdacf117",
-    "phash": "8b9f2d26f594b4a0"
+    "phash": "8b8b2d26f79cb4a0"
   },
   "pivot": "unknown",
   "provenance": {
@@ -117,27 +129,27 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "555333f718c2be69b30ae007e79eaef405fa7f149ecb0c0c3645890437a84664",
+  "sha256": "c79f2950391ec36a23a16ef34c13eb70686b5f6a68c6f3d1bbfb9aba3062edfb",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/55/555333f718c2be69b30ae007e79eaef405fa7f149ecb0c0c3645890437a84664.webp",
-  "updatedAt": "2026-11-19T11:33:32+01:00",
+  "thumbnail": "thumbnails/c7/c79f2950391ec36a23a16ef34c13eb70686b5f6a68c6f3d1bbfb9aba3062edfb.webp",
+  "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "packages/assets/runtime/credits.webp": "90a46c898452738ad0bad08afd1e71406a8ec97b"
+        "packages/assets/runtime/credits.webp": "08307512f4a6b72ba6c6ce13d0b4c0635274bd16"
       },
       "assetPath": "packages/assets/runtime/credits.webp",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 4,
         "path": "apps/web/src/screens/About.tsx"
       },
-      "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
       "evidence": [
         "import: packages/assets/runtime/credits.webp",
         "module-path: apps/web/src/screens/About.tsx"
@@ -162,17 +174,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
       "date": "2026-11-19T11:33:32+01:00",
-      "nextVersion": null,
+      "format": "webp",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "555333f718c2be69b30ae007e79eaef405fa7f149ecb0c0c3645890437a84664",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "date": "2026-11-21T06:04:44+01:00",
+      "format": "webp",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "c79f2950391ec36a23a16ef34c13eb70686b5f6a68c6f3d1bbfb9aba3062edfb",
+      "version": 2
     }
   ],
   "visualStyle": null

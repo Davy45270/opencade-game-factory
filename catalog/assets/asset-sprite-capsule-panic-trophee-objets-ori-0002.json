@@ -1,0 +1,182 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:12:14.084610+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-capsule-panic-trophee-objets-ori-0001",
+        "reason": "pixels différents du cadre livré sprite-trophee-objets-origine (empreinte 3d59e6b4af6e)"
+      },
+      {
+        "assetId": "asset-sprite-trophee-objets-origine-0001",
+        "reason": "découpe brute de l'élément trophee-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3ca7c7424a4ec99c64650afe913ae024d853c6a7151260018a9a882ec451e7d1",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "trophee objets origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-capsule-panic-trophee-objets-ori-0001",
+          "reason": "pixels différents du cadre livré sprite-trophee-objets-origine (empreinte 3d59e6b4af6e)"
+        },
+        {
+          "assetId": "asset-sprite-trophee-objets-origine-0001",
+          "reason": "découpe brute de l'élément trophee-objets-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-capsule-panic-trophee-objets-ori-0001",
+        "asset-sprite-trophee-objets-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:12:13.669118+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-trophee-objets-origine » (packages/assets/atlas/objets-origine@3x.png), forme normalisée par le jeu de l'élément trophee-objets-origine",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-trophee-objets-ori-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-trophee-objets-ori-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@3x.json · cadre sprite-trophee-objets-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-trophee-objets-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-288.png, SHA-256 4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/objets-origine@3x.json · cadre sprite-trophee-objets-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic trophee-objets-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4016616171b337b2",
+    "phash": "cdb33099cfe1328c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-trophee-objets-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-trophee-objets-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/objets-origine@3x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/objets-origine@3x.png (png)\", \"boite\": [165, 116, 1009, 822], \"cadre\": \"sprite-trophee-objets-origine\", \"element\": \"trophee-objets-origine\", \"empreintePixels\": \"3d59e6b4af6eebf51ee272d671041c8d3e4ae4f1c785c68275657d162b2df773\", \"parametres\": {\"marge\": 4, \"taille\": 128}, \"regionDuBrut\": {\"h\": 116, \"w\": 165, \"x\": 1009, \"y\": 822}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.objets-origine.decoupe.json\", \"tableSha256\": \"98320fb77c6f67cbb407742bfec97389c120cb6db0d874e4aa522625885e569c\"}"
+    ],
+    "parentId": "asset-sprite-trophee-objets-origine-0001",
+    "parentSha256": "1d8d54132f92c02856e2ee432f9e77eccf556209d64dfe821fd97654f3d8e456",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.objets-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:12:14.084610+00:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4bd260d13a77cdfa7956cc746440948dc773d3dbeabfc96af59af36a11876a22",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

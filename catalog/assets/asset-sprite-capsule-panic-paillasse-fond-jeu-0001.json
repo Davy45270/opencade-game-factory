@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T02:04:38.187195+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-paillasse-fond-jeu-0001",
+        "reason": "découpe brute de l'élément paillasse-fond-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "dece2de163acc53cf2d9d4d2cf62361631efe57d2b37474d171b77ce27b6ff32",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "paillasse fond jeu",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-paillasse-fond-jeu-0001",
+          "reason": "découpe brute de l'élément paillasse-fond-jeu : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-paillasse-fond-jeu-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T02:04:37.802039+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-paillasse-fond-jeu » (packages/assets/atlas/fond-jeu@2x.png), forme normalisée par le jeu de l'élément paillasse-fond-jeu",
+  "dimensions": {
+    "height": 224,
+    "width": 224
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-paillasse-fond-jeu-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-paillasse-fond-jeu-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fond-jeu@2x.json · cadre sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-paillasse-fond-jeu-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-224.png, SHA-256 f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/fond-jeu@2x.json · cadre sprite-paillasse-fond-jeu"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic paillasse-fond-jeu (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "08c419cae633c800",
+    "phash": "c13bbec4453b3ac4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-paillasse-fond-jeu-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-paillasse-fond-jeu livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/fond-jeu@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/fond-jeu@2x.png (png)\", \"boite\": [304, 113, 1169, 616], \"cadre\": \"sprite-paillasse-fond-jeu\", \"element\": \"paillasse-fond-jeu\", \"empreintePixels\": \"af5fab104355ec3aca93b80b2bca799bd95ffbe43e1677b1e760c29f2567f245\", \"parametres\": {\"marge\": 4, \"taille\": 224}, \"regionDuBrut\": {\"h\": 113, \"w\": 304, \"x\": 1169, \"y\": 616}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Gameplay_02.fond-jeu.decoupe.json\", \"tableSha256\": \"3c2b8197702321c330fc3e04c79be749c1b997c018118fe02c846151b594ae88\"}"
+    ],
+    "parentId": "asset-sprite-paillasse-fond-jeu-0001",
+    "parentSha256": "36f1a07396ecf31e785d4c2d1e43c326d63d4b3059b13029753c4df631249035",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Gameplay_02.fond-jeu.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T02:04:38.187195+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/fond-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/fond-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-paillasse-fond-jeu de packages/assets/atlas/fond-jeu@2x.png (empreinte de pixels af5fab104355ec3a)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-paillasse-fond-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fond-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/fond-jeu@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f2d1dca6d6bd94bc2b83f281cf60ead8381f969b78cd5e1a5a77ccf21d2c4157",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

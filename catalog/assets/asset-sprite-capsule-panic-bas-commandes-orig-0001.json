@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T01:57:47.143318+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bas-commandes-origine-0001",
+        "reason": "découpe brute de l'élément bas-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1589adba8e70dc3455ffb80dd3027f20765beebc721d8990813a9eadcb828961",
+      "filters": {
+        "tag": "capsule-panic"
+      },
+      "query": "bas commandes origine",
+      "registryCommit": "d9e94bc67e50b8fb875bb9a01921cee83d8bace1",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bas-commandes-origine-0001",
+          "reason": "découpe brute de l'élément bas-commandes-origine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bas-commandes-origine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-22T01:57:46.747768+00:00"
+    }
+  },
+  "description": "capsule-panic — cadre livré « sprite-bas-commandes-origine » (packages/assets/atlas/commandes-origine@2x.png), forme normalisée par le jeu de l'élément bas-commandes-origine",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-capsule-panic-bas-commandes-orig-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-capsule-panic-bas-commandes-orig-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bas-commandes-origine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-128.png, SHA-256 6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "capsule-panic@ea68eeb3829e:packages/assets/atlas/commandes-origine@2x.json · cadre sprite-bas-commandes-origine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Visuels de Capsule Panic par Davy45270 : CC-BY-4.0, déclarée par lui pour les sprites, atlas, planche transparente et sources graphiques.",
+    "method": "déclaration du titulaire",
+    "ref": "capsule-panic packages/assets/LICENCES.md (« Davy45270 est l'auteur des visuels de Capsule Panic […] distribués sous Creative Commons Attribution 4.0 ») ; packages/assets/assets.inventaire.json (licence par fichier) ; HL-538"
+  },
+  "name": "capsule-panic bas-commandes-origine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "capsule-panic",
+  "perceptual": {
+    "dhash": "4d90b2f0f1b2562b",
+    "phash": "d9c066869e2d399e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (LICENCES.md du jeu)",
+    "derivedFrom": "asset-sprite-bas-commandes-origine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bas-commandes-origine livré par capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 dans packages/assets/atlas/commandes-origine@2x.png",
+      "recette {\"atlas\": \"packages/assets/atlas/commandes-origine@2x.png (png)\", \"boite\": [88, 85, 205, 718], \"cadre\": \"sprite-bas-commandes-origine\", \"element\": \"bas-commandes-origine\", \"empreintePixels\": \"159c8c2be231961f1510130e7b5f12c7d2b6778f371dc55633b4ce378c2e21bf\", \"parametres\": {\"marge\": 4, \"taille\": 64}, \"regionDuBrut\": {\"h\": 85, \"w\": 88, \"x\": 205, \"y\": 718}, \"table\": \"capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341:packages/assets/source/Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe.json\", \"tableSha256\": \"902920dea9eec69cb13d0ea3bb692019260cbe1530d64290fa8881c865f9242f\"}"
+    ],
+    "parentId": "asset-sprite-bas-commandes-origine-0001",
+    "parentSha256": "9cf8343da307d9c65391b593ac3c22bf2dfcfdc3bee60765293d17c8017570d4",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "capsule-panic",
+    "Capsule_Panic_Assets_Planche_01.commandes-origine.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-22T01:57:47.143318+00:00",
+  "usages": [
+    {
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/atlas/commandes-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-bas-commandes-origine de packages/assets/atlas/commandes-origine@2x.png (empreinte de pixels 159c8c2be231961f)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-bas-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/commandes-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/commandes-origine@2x.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6975583292051525ca5b3f4d7df0dc922d9f4e7e5f655636963370720e6976e1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -57,12 +57,80 @@ def evaluate(directory, block):
         rejected["provenance"] = "unknown"
     if gates.get("technical") != "ok":
         rejected["technical"] = "blocked"
+    runtime = gates.get("runtime")
+    if runtime not in (None, "compatible", "incompatible", "unknown"):
+        raise InvalidJSON("Gate runtime invalide.")
+    if runtime in ("incompatible", "unknown"):
+        rejected["runtime"] = runtime                      # E181 : incompatibilité technique éliminatoire
 
+    tco = cout_complet(record, block)
     return {
         "candidate": candidate, "date": evaluated_at, "gates": rejected,
         "eliminated": bool(rejected),
         "score": None if rejected else weighted_score(record.get("scores")),
+        "verifications": verifications(block, record, gates, tco),
+        "tco": tco,
     }
+
+
+VERIFICATIONS = ("canonicalUrl", "license", "maintenance", "vulnerabilities", "runtime", "tests", "integrationCost")
+LOCAL_ECOSYSTEMS = ("local", "workflow", "script")
+
+
+def prouve_h(entry):
+    return isinstance(entry, dict) and nonblank(entry.get("hypothese"))
+
+
+def prouve(entry):
+    return isinstance(entry, dict) and nonblank(entry.get("preuve"))
+
+
+def verifications(block, record, gates, tco):
+    """E181 (BB-001 § 4) : les sept vérifications avant adoption, « verified » ou « missing » (jamais devinées)."""
+    origin = block["origin"]
+    scores = record.get("scores") if isinstance(record.get("scores"), dict) else {}
+    checks = record.get("checks") if isinstance(record.get("checks"), dict) else {}
+    faits = {
+        "canonicalUrl": nonblank(origin.get("repositoryUrl")) or bool(origin.get("repo") and origin.get("path")),
+        "license": origin.get("licenseSpdx") not in (None, "UNKNOWN"),
+        "maintenance": prouve(scores.get("maintenance")),
+        "vulnerabilities": isinstance(gates.get("security"), dict),
+        "runtime": gates.get("runtime") == "compatible",
+        "tests": prouve(checks.get("tests")),
+        "integrationCost": isinstance(record.get("tco"), dict) and prouve_h(record["tco"].get("integration")),
+    }
+    return {k: "verified" if faits[k] else "missing" for k in VERIFICATIONS}
+
+
+def externe(block):
+    return (block.get("discovery") or {}).get("ecosystem") not in LOCAL_ECOSYSTEMS and not block["origin"].get("repo")
+
+
+POSTES = ("integration", "adaptation", "maintenance", "misesAJour", "tests", "detteSecurite", "sortie")
+
+
+def cout_complet(record, block):
+    """E226 (BB-13, § 6) : hypothèses par poste (`tco`, format de `bbctl adopt`), puis MESURE après adoption
+    (`tcoMesure` : date et, par poste, mesure et preuve) comparée poste par poste ; None si aucun TCO."""
+    tco = record.get("tco")
+    if tco is None:
+        return None
+    tco = tco if isinstance(tco, dict) else {}
+    complet = all(isinstance(tco.get(k), dict) and nonblank(tco[k].get("hypothese")) for k in POSTES)
+    mesure = record.get("tcoMesure")
+    comparaison = None
+    if mesure is not None:
+        if not isinstance(mesure, dict) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(mesure.get("date", ""))):
+            raise InvalidJSON("TCO mesuré : date (AAAA-MM-JJ) requise.")
+        postes = mesure.get("postes") if isinstance(mesure.get("postes"), dict) else {}
+        manque = [k for k in POSTES if not (prouve(postes.get(k)) and nonblank(postes[k].get("mesure")))]
+        if manque:
+            raise InvalidJSON("TCO mesuré : mesure et preuve requises pour " + ", ".join(manque) + ".")
+        comparaison = [{"poste": k, "estimation": (tco.get(k) or {}).get("estimation"), "mesure": postes[k]["mesure"]}
+                       for k in POSTES]
+    return {"hypotheses": "complete" if complet else "incomplete",
+            "measuredAt": mesure["date"] if mesure is not None else None, "comparison": comparaison,
+            "measurementDue": block["quality"]["status"] == "adopted" and mesure is None}
 
 
 def weighted_score(scores):

@@ -1,0 +1,52 @@
+{
+  "discovery": {
+    "animations": true,
+    "audio": true,
+    "codeReferences": true,
+    "fonts": true,
+    "generatedAssets": true,
+    "images": true,
+    "tilemaps": true
+  },
+  "inputs": [
+    {
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "name": "petit-astronome",
+      "provider": "github"
+    },
+    {
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "name": "petit-astronome",
+      "provider": "github"
+    },
+    {
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "name": "petit-astronome",
+      "provider": "github"
+    }
+  ],
+  "jobType": "initial-discovery",
+  "output": {
+    "generateMigrationReport": true,
+    "generateSearchIndex": true
+  },
+  "processing": {
+    "buildUsageGraph": true,
+    "describeWithAI": true,
+    "detectDuplicates": true,
+    "extractSpritesheets": true,
+    "verifyLicenses": true
+  },
+  "safety": {
+    "deleteSourceFiles": false,
+    "modifySourceRepositories": false,
+    "publishUnknownLicenses": false
+  },
+  "schemaVersion": "1.0",
+  "sources": {
+    "includeMonorepos": true,
+    "includeReleases": true,
+    "provider": "github",
+    "scope": "authorized-game-repositories"
+  }
+}

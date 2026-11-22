@@ -48,7 +48,7 @@
         "assetVersion": 1,
         "blobSha256": "93c42b9ac288661050bc3e1faf378ddd95abdb32b5a6ab6c7fecc24fd23b7fd5",
         "classification": "game",
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "game": "petit-astronome",
         "path": "src/ui/mascot.ts",
         "provider": "github",
@@ -102,7 +102,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@be70ea5d481545ac258ff9eae4bdfde19611c98d"
+    "ref": "LICENSE@d7b66b968c30fd9f0b4cb2238e98eec45652ca89"
   },
   "name": "mascot",
   "orientation": "unknown",
@@ -123,8 +123,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T18:08:37+01:00",
+  "usages": [
+    {
+      "assetPath": "src/ui/mascot.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/mascot.ts"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : module src/ui/mascot.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "petit-astronome",
+      "importName": "mascot",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/mascot.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "dessin-code",
+      "scene": "src/ui/mascot.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

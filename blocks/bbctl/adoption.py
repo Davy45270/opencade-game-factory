@@ -115,6 +115,17 @@ def gate(blocks, records, repo_dir, base, head, name):
             used.append({"key": key, "ref": entry["ref"], "reason": entry["reason"]})
         else:
             uncovered.append(key)
+    # BB-001 T06 : une création bloquée qui a déjà son composant au catalogue (même écosystème, même nom, autre
+    # dépôt ou autre version) reçoit la brique existante en proposition de réutilisation. Proposer n'est pas décider :
+    # le gate reste bloqué tant que la décision n'est pas enregistrée.
+    proposals = {}
+    for key in uncovered:
+        row = after[key]
+        same = sorted(b["id"] for _, b in records.values() if b.get("name") == row.get("name")
+                      and b.get("discovery", {}).get("ecosystem") == row.get("ecosystem")
+                      and b.get("discovery", {}).get("key") != key)
+        if same:
+            proposals[key] = [{"block": block_id, "choice": "reuse"} for block_id in same]
     if used:
         journal(blocks, {"command": "gate", "repo": name, "base": commits[0], "head": commits[1],
                          "derogations": [u["key"] for u in used]})
@@ -122,4 +133,4 @@ def gate(blocks, records, repo_dir, base, head, name):
         evenements.emettre("bb.blocked", "blocked", name, [], {"uncovered": uncovered, "head": commits[1]}, commits[1],
                            commit=commits[1])
     return {"repo": name, "base": commits[0], "head": commits[1], "new": new, "decided": covered,
-            "derogations": used, "uncovered": uncovered}
+            "derogations": used, "uncovered": uncovered, "proposals": proposals}

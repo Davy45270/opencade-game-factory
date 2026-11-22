@@ -1,4 +1,4 @@
-# Modules blocks/ (BB-001, `bbctl`) et ci/ (gabarit CI des jeux) : leurs oracles ne tournaient dans aucun pipeline
+# Modules blocks/ (BB-001, `bbctl`), ci/ (gabarit CI des jeux) et documentation générée (DOC-001, scripts/docs_generees.py) : leurs oracles ne tournaient dans aucun pipeline
 # (anomalie relevée le 21/11, HL-525). Aucun secret. Rejeu local : scripts/ci-local.sh modules
 #
 # node et PyYAML sont installés pour que les tests du gabarit ne se sautent pas (skipUnless node / PyYAML) : seul
@@ -29,8 +29,19 @@ steps:
       - python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/agents -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/github -t . -p 'test_*.py'
+      - python3 -m unittest discover -s tests/docs -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/ci -t . -p 'test_*.py' 2>&1 | tee /tmp/ci.txt
       - grep -q '^OK' /tmp/ci.txt
       - >-
         SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2);
         test "$${SAUTES:-0}" -le 1 || { echo "tests sautés - $$SAUTES"; exit 1; }
+
+  # BB-001 § 9 (matrice E206, E224) : depuis les manifestes JSON du catalogue réel, l'index SQLite FTS5 et le graphe de
+  # dépendances se génèrent, puis --check les retrouve identiques (reconstruction déterministe). Rien n'est commité.
+  - name: index-briques
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./bbctl index --out /tmp/index-briques --json
+      - ./bbctl index --out /tmp/index-briques --check --json
+      - ./bbctl validate --all --json

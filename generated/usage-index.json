@@ -8277,6 +8277,7 @@
       }
     ],
     "asset-audio-accueil-0001": [],
+    "asset-audio-bien-vu-ce-sont-les-anneaux-de-s-0001": [],
     "asset-audio-bravo-1-0001": [
       {
         "assetBlobs": {
@@ -8615,6 +8616,8 @@
         "status": "active"
       }
     ],
+    "asset-audio-ce-cote-tourne-le-dos-au-soleil-0001": [],
+    "asset-audio-certaines-planetes-sont-bien-plu-0001": [],
     "asset-audio-fr-accepter-0001": [
       {
         "assetBlobs": {
@@ -145453,6 +145456,17 @@
         "status": "active"
       }
     ],
+    "asset-audio-jupiter-0001": [],
+    "asset-audio-la-partie-eclairee-que-tu-vois-c-0001": [],
+    "asset-audio-le-soleil-eclaire-ce-cote-0001": [],
+    "asset-audio-le-soleil-eclaire-un-cote-de-la-0001": [],
+    "asset-audio-le-son-est-indisponible-tu-peux-0001": [],
+    "asset-audio-mars-0001": [],
+    "asset-audio-mercure-0001": [],
+    "asset-audio-montre-la-planete-aux-grands-ann-0001": [],
+    "asset-audio-neptune-0001": [],
+    "asset-audio-on-voit-toute-la-face-eclairee-0001": [],
+    "asset-audio-on-voit-une-fine-partie-eclairee-0001": [],
     "asset-audio-pause-0001": [],
     "asset-audio-prise-consigne-0001": [],
     "asset-audio-prise-regle-0001": [],
@@ -145725,7 +145739,14 @@
       }
     ],
     "asset-audio-regarde-0001": [],
+    "asset-audio-regarde-bien-puis-essaie-encore-0001": [],
+    "asset-audio-regarde-le-modele-puis-essaie-0001": [],
+    "asset-audio-relie-les-etoiles-de-la-casserol-0001": [],
+    "asset-audio-relie-les-etoiles-de-la-ceinture-0001": [],
+    "asset-audio-relie-les-etoiles-du-triangle-0001": [],
     "asset-audio-rochers-consigne-0001": [],
+    "asset-audio-saturne-0001": [],
+    "asset-audio-saturne-a-de-grands-anneaux-0001": [],
     "asset-audio-selection-0001": [
       {
         "assetBlobs": {
@@ -145994,6 +146015,15 @@
         "status": "active"
       }
     ],
+    "asset-audio-terre-0001": [],
+    "asset-audio-touche-deux-etoiles-pour-tracer-0001": [],
+    "asset-audio-touche-la-lune-en-croissant-0001": [],
+    "asset-audio-touche-la-lune-toute-ronde-0001": [],
+    "asset-audio-touche-la-plus-grosse-planete-0001": [],
+    "asset-audio-touche-la-plus-petite-planete-0001": [],
+    "asset-audio-touche-la-terre-notre-planete-0001": [],
+    "asset-audio-touche-le-cote-ou-il-fait-jour-0001": [],
+    "asset-audio-touche-le-cote-ou-il-fait-nuit-0001": [],
     "asset-audio-tour-passe-pas-0001": [],
     "asset-audio-tour-regle-0001": [],
     "asset-audio-train-consigne-0001": [
@@ -146130,6 +146160,11 @@
         "status": "active"
       }
     ],
+    "asset-audio-tu-as-relie-les-etoiles-0001": [],
+    "asset-audio-tu-as-trouve-la-plus-grosse-0001": [],
+    "asset-audio-tu-as-trouve-la-plus-petite-0001": [],
+    "asset-audio-uranus-0001": [],
+    "asset-audio-venus-0001": [],
     "asset-audio-victoire-0001": [
       {
         "assetBlobs": {
@@ -146464,7 +146499,38 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-app-0001": [],
+    "asset-audio-voici-notre-planete-la-terre-0001": [],
+    "asset-codegenerated-app-0001": [
+      {
+        "assetPath": "src/ui/app.ts",
+        "assetVersion": 4,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/app.ts"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : module src/ui/app.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "petit-astronome",
+        "importName": "app",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/app.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "dessin-code",
+        "scene": "src/ui/app.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-app-0002": [
       {
         "assetBlobs": {
@@ -146602,6 +146668,35 @@
         "repo": "tictac",
         "role": "ui",
         "scene": "tests/contrast.test.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "src/ui/app.ts",
+        "assetVersion": 6,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/app.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/app.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "app",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/app.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/app.ts",
         "status": "active"
       }
     ],
@@ -146762,7 +146857,7 @@
         "evidence": [
           "importer_livre : module src/characters/arcade-phaser.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
         ],
-        "game": "opencade",
+        "game": "opencade/derapage",
         "importName": "arcade-phaser",
         "inference": {
           "role": {
@@ -146791,7 +146886,7 @@
         "evidence": [
           "importer_livre : module src/characters/arcade-phaser.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
         ],
-        "game": "opencade/derapage",
+        "game": "opencade",
         "importName": "arcade-phaser",
         "inference": {
           "role": {
@@ -147295,8 +147390,67 @@
     "asset-codegenerated-art-0016": [],
     "asset-codegenerated-art-0017": [],
     "asset-codegenerated-art-0018": [],
-    "asset-codegenerated-art-0019": [],
+    "asset-codegenerated-art-0019": [
+      {
+        "assetPath": "src/ui/art.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/art.ts"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : module src/ui/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "petit-astronome",
+        "importName": "art",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/art.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "dessin-code",
+        "scene": "src/ui/art.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-art-0020": [
+      {
+        "assetPath": "packages/renderer-pixi/src/art.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "packages/renderer-pixi/src/art.ts"
+        },
+        "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "evidence": [
+          "importer_livre : module packages/renderer-pixi/src/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "six-de-chaque",
+        "importName": "art",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "packages/renderer-pixi/src/art.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "six-de-chaque",
+        "role": "dessin-code",
+        "scene": "packages/renderer-pixi/src/art.ts",
+        "status": "active"
+      },
       {
         "assetBlobs": {
           "packages/renderer-pixi/src/art.ts": "4c0630e1dd6abebdd80355f22d4f3b4c1344c078"
@@ -147572,7 +147726,37 @@
     "asset-codegenerated-backdrops-0001": [],
     "asset-codegenerated-character-pixels-spec-0001": [],
     "asset-codegenerated-characters-test-0001": [],
-    "asset-codegenerated-clock-0001": [],
+    "asset-codegenerated-clock-0001": [
+      {
+        "assetPath": "src/ui/clock.ts",
+        "assetVersion": 3,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/clock.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/clock.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "clock",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/clock.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/clock.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-collier-graphics-meter-0001": [
       {
         "assetBlobs": {
@@ -147678,6 +147862,37 @@
       }
     ],
     "asset-codegenerated-demineur-spec-0001": [],
+    "asset-codegenerated-discovery-0001": [
+      {
+        "assetPath": "src/ui/discovery.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/discovery.ts"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : module src/ui/discovery.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "petit-astronome",
+        "importName": "discovery",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/discovery.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "dessin-code",
+        "scene": "src/ui/discovery.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-drawings-0001": [],
     "asset-codegenerated-export-0001": [],
     "asset-codegenerated-formes-test-0001": [],
@@ -148053,7 +148268,37 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-icones-0001": [],
+    "asset-codegenerated-icones-0001": [
+      {
+        "assetPath": "src/ui/icones.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/icones.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/ui/icones.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "icones",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/icones.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/ui/icones.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-illustration-0001": [
       {
         "assetBlobs": {
@@ -148539,8 +148784,68 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-mascot-0001": [],
-    "asset-codegenerated-mascotte-0001": [],
+    "asset-codegenerated-mascot-0001": [
+      {
+        "assetPath": "src/ui/mascot.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/mascot.ts"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : module src/ui/mascot.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "petit-astronome",
+        "importName": "mascot",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/mascot.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "dessin-code",
+        "scene": "src/ui/mascot.ts",
+        "status": "active"
+      }
+    ],
+    "asset-codegenerated-mascotte-0001": [
+      {
+        "assetPath": "src/art/mascotte.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/art/mascotte.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/art/mascotte.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "mascotte",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/art/mascotte.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/art/mascotte.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-motifs-0001": [],
     "asset-codegenerated-no-code-art-test-0001": [],
     "asset-codegenerated-paires-test-0001": [],
@@ -148783,6 +149088,35 @@
         "status": "active"
       },
       {
+        "assetPath": "src/art/pieces.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/art/pieces.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/art/pieces.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "pieces",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/art/pieces.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/art/pieces.ts",
+        "status": "active"
+      },
+      {
         "assetBlobs": {
           "src/art/pieces.ts": "2c668819f48e89110b24a678a5d1123b6dbd0ae1"
         },
@@ -148816,7 +149150,37 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-plateau-0001": [],
+    "asset-codegenerated-plateau-0001": [
+      {
+        "assetPath": "src/ui/plateau.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/plateau.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/ui/plateau.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "plateau",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/plateau.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/ui/plateau.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-puzzle-test-0001": [
       {
         "assetBlobs": {
@@ -166772,7 +167136,37 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-scene-0025": [],
+    "asset-codegenerated-scene-0025": [
+      {
+        "assetPath": "src/ui/scene.ts",
+        "assetVersion": 2,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/scene.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "scene",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/scene.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/scene.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-scene-spec-0001": [],
     "asset-codegenerated-scenes-0001": [
       {
@@ -166871,7 +167265,37 @@
     "asset-codegenerated-sons-test-0001": [],
     "asset-codegenerated-svg-0001": [],
     "asset-codegenerated-svg-0002": [],
-    "asset-codegenerated-svg-0003": [],
+    "asset-codegenerated-svg-0003": [
+      {
+        "assetPath": "src/characters/svg.ts",
+        "assetVersion": 2,
+        "codeRef": {
+          "line": 1,
+          "path": "src/characters/svg.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/characters/svg.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "svg",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/characters/svg.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/characters/svg.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-test-assets-0001": [
       {
         "assetBlobs": {
@@ -177917,7 +178341,7 @@
           "line": 6,
           "path": "pwa-manifest.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/icons/astro-192.png",
           "module-path: pwa-manifest.ts"
@@ -177942,6 +178366,35 @@
         "role": "icon",
         "scene": "pwa-manifest.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "public/icons/astro-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/astro-192.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/icons/astro-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "astro-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/astro-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/icons/astro-192.png",
+        "status": "active"
       }
     ],
     "asset-image-astro-512-0001": [
@@ -177955,7 +178408,7 @@
           "line": 7,
           "path": "pwa-manifest.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/icons/astro-512.png",
           "module-path: pwa-manifest.ts"
@@ -177980,6 +178433,35 @@
         "role": "icon",
         "scene": "pwa-manifest.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "public/icons/astro-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/astro-512.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/icons/astro-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "astro-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/astro-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/icons/astro-512.png",
+        "status": "active"
       }
     ],
     "asset-image-astro-maskable-512-0001": [
@@ -177993,7 +178475,7 @@
           "line": 8,
           "path": "pwa-manifest.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/icons/astro-maskable-512.png",
           "module-path: pwa-manifest.ts"
@@ -178017,6 +178499,35 @@
         "repo": "petit-astronome",
         "role": "icon",
         "scene": "pwa-manifest.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/astro-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/astro-maskable-512.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/icons/astro-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "astro-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/astro-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/icons/astro-maskable-512.png",
         "status": "active"
       }
     ],
@@ -218862,6 +219373,35 @@
         "status": "active"
       },
       {
+        "assetPath": "public/icons/echecs-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-192.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-192.png",
+        "status": "active"
+      },
+      {
         "assetBlobs": {
           "public/icons/echecs-192.png": "4480a55e6028af84f9fa691a58f03cd8433ac861"
         },
@@ -218963,6 +219503,35 @@
     ],
     "asset-image-echecs-512-0001": [
       {
+        "assetPath": "public/icons/echecs-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-512.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-512.png",
+        "status": "active"
+      },
+      {
         "assetBlobs": {
           "public/icons/echecs-512.png": "fc03033c3993eb8e7828c5cc885656fdfa44c533"
         },
@@ -219030,6 +219599,35 @@
       }
     ],
     "asset-image-echecs-maskable-512-0001": [
+      {
+        "assetPath": "public/icons/echecs-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-maskable-512.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-maskable-512.png",
+        "status": "active"
+      },
       {
         "assetBlobs": {
           "public/icons/echecs-maskable-512.png": "eada6f525f8884acae9b4fe0a5309dd46fc7c15e"
@@ -234620,6 +235218,37 @@
     "asset-image-jardiniere-0002": [],
     "asset-image-jeu-1280x800-0001": [],
     "asset-image-jeu-360x740-0001": [],
+    "asset-image-jupiter-0001": [
+      {
+        "assetPath": "public/discovery/photos/jupiter.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/jupiter.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/jupiter.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "jupiter",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/jupiter.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/jupiter.webp",
+        "status": "active"
+      }
+    ],
     "asset-image-lampadaire-0001": [
       {
         "assetBlobs": {
@@ -237381,6 +238010,37 @@
       }
     ],
     "asset-image-maison-0002": [],
+    "asset-image-mars-0001": [
+      {
+        "assetPath": "public/discovery/photos/mars.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/mars.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/mars.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "mars",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/mars.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/mars.webp",
+        "status": "active"
+      }
+    ],
     "asset-image-mascotte-0001": [
       {
         "assetBlobs": {
@@ -238156,6 +238816,37 @@
         "repo": "capsule-panic",
         "role": "sprite",
         "scene": "packages/assets/assets.inventaire.json",
+        "status": "active"
+      }
+    ],
+    "asset-image-mercure-0001": [
+      {
+        "assetPath": "public/discovery/photos/mercure.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/mercure.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/mercure.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "mercure",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/mercure.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/mercure.webp",
         "status": "active"
       }
     ],
@@ -239241,6 +239932,37 @@
         "repo": "pestouille-rpg",
         "role": "sprite",
         "scene": "tests/assets/empreintes-planches.json",
+        "status": "active"
+      }
+    ],
+    "asset-image-neptune-0001": [
+      {
+        "assetPath": "public/discovery/photos/neptune.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/neptune.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/neptune.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "neptune",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/neptune.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/neptune.webp",
         "status": "active"
       }
     ],
@@ -240446,6 +241168,64 @@
         "repo": "jeux-assets",
         "role": "sprite",
         "scene": "catalogue.json",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencade.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencade.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencade.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "opencade",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencade.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/autres-jeux/opencade.png",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencade.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencade.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencade.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "opencade",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencade.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/autres-jeux/opencade.png",
         "status": "active"
       }
     ],
@@ -241920,7 +242700,7 @@
           "line": 8,
           "path": "src/ui/other-games.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/autres-jeux/opencade.png",
           "module-path: src/ui/other-games.ts"
@@ -243472,6 +244252,64 @@
         "role": "sprite",
         "scene": "catalogue.json",
         "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencadkid.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencadkid.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencadkid.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "opencadkid",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencadkid.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/autres-jeux/opencadkid.png",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencadkid.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencadkid.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencadkid.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "opencadkid",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencadkid.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/autres-jeux/opencadkid.png",
+        "status": "active"
       }
     ],
     "asset-image-opencadkid-0002": [
@@ -243654,7 +244492,7 @@
           "line": 9,
           "path": "src/ui/other-games.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/autres-jeux/opencadkid.png",
           "module-path: src/ui/other-games.ts"
@@ -261615,6 +262453,35 @@
         "role": "sprite",
         "scene": "catalogue.json",
         "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/petit-astronome.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/petit-astronome.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/petit-astronome.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "petit-astronome",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/petit-astronome.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/autres-jeux/petit-astronome.png",
+        "status": "active"
       }
     ],
     "asset-image-petit-astronome-0002": [
@@ -275336,6 +276203,37 @@
       }
     ],
     "asset-image-sapin-top-0002": [],
+    "asset-image-saturne-0001": [
+      {
+        "assetPath": "public/discovery/photos/saturne.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/saturne.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/saturne.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "saturne",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/saturne.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/saturne.webp",
+        "status": "active"
+      }
+    ],
     "asset-image-scene-test-1280x800-clavier-linu-0001": [],
     "asset-image-scene-test-360x740-clavier-linux-0001": [],
     "asset-image-scene-test-390x844-clavier-linux-0001": [],
@@ -275960,6 +276858,35 @@
         "status": "active"
       },
       {
+        "assetPath": "apps/web/public/icons/six-de-chaque-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "apps/web/public/icons/six-de-chaque-192.png"
+        },
+        "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "evidence": [
+          "importer_livre : image apps/web/public/icons/six-de-chaque-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "six-de-chaque",
+        "importName": "six-de-chaque-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "apps/web/public/icons/six-de-chaque-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "six-de-chaque",
+        "role": "image",
+        "scene": "apps/web/public/icons/six-de-chaque-192.png",
+        "status": "active"
+      },
+      {
         "assetBlobs": {
           "apps/web/public/icons/six-de-chaque-192.png": "1dfeaea4f53f619657dd3c0ec4482504e5fe2005"
         },
@@ -276127,6 +277054,35 @@
     ],
     "asset-image-six-de-chaque-512-0001": [
       {
+        "assetPath": "apps/web/public/icons/six-de-chaque-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "apps/web/public/icons/six-de-chaque-512.png"
+        },
+        "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "evidence": [
+          "importer_livre : image apps/web/public/icons/six-de-chaque-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "six-de-chaque",
+        "importName": "six-de-chaque-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "apps/web/public/icons/six-de-chaque-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "six-de-chaque",
+        "role": "image",
+        "scene": "apps/web/public/icons/six-de-chaque-512.png",
+        "status": "active"
+      },
+      {
         "assetBlobs": {
           "apps/web/public/icons/six-de-chaque-512.png": "a2a54ee16e4b48b50d1b10b81d5fcb9f09f7d99e"
         },
@@ -276260,6 +277216,35 @@
       }
     ],
     "asset-image-six-de-chaque-maskable-512-0001": [
+      {
+        "assetPath": "apps/web/public/icons/six-de-chaque-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "apps/web/public/icons/six-de-chaque-maskable-512.png"
+        },
+        "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "evidence": [
+          "importer_livre : image apps/web/public/icons/six-de-chaque-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "six-de-chaque",
+        "importName": "six-de-chaque-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "apps/web/public/icons/six-de-chaque-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "six-de-chaque",
+        "role": "image",
+        "scene": "apps/web/public/icons/six-de-chaque-maskable-512.png",
+        "status": "active"
+      },
       {
         "assetBlobs": {
           "apps/web/public/icons/six-de-chaque-maskable-512.png": "a043e0cabd72afbacce7301cb8121d931dd3211c"
@@ -291781,6 +292766,37 @@
       }
     ],
     "asset-image-technique-0003": [],
+    "asset-image-terre-0001": [
+      {
+        "assetPath": "public/discovery/photos/terre.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/terre.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/terre.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "terre",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/terre.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/terre.webp",
+        "status": "active"
+      }
+    ],
     "asset-image-tictac-0001": [
       {
         "assetBlobs": {
@@ -291846,6 +292862,35 @@
         "repo": "jeux-assets",
         "role": "sprite",
         "scene": "catalogue.json",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/tictac.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/tictac.png"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/tictac.png livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "tictac",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/tictac.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/autres-jeux/tictac.png",
         "status": "active"
       },
       {
@@ -292053,7 +293098,7 @@
           "line": 10,
           "path": "src/ui/other-games.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: public/autres-jeux/tictac.png",
           "module-path: src/ui/other-games.ts"
@@ -292117,6 +293162,35 @@
         "repo": "tictac",
         "role": "icon",
         "scene": "pwa-manifest.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-192.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-192.png",
         "status": "active"
       }
     ],
@@ -292197,6 +293271,64 @@
         "repo": "tictac",
         "role": "icon",
         "scene": "pwa-manifest.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-512.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-512.png",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-maskable-512.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-maskable-512.png",
         "status": "active"
       }
     ],
@@ -293604,6 +294736,37 @@
         "status": "active"
       }
     ],
+    "asset-image-uranus-0001": [
+      {
+        "assetPath": "public/discovery/photos/uranus.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/uranus.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/uranus.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "uranus",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/uranus.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/uranus.webp",
+        "status": "active"
+      }
+    ],
     "asset-image-urbaine-0001": [
       {
         "assetBlobs": {
@@ -293953,6 +295116,37 @@
         "repo": "opencadkid",
         "role": "sprite",
         "scene": "src/games/puzzle/scenes.ts",
+        "status": "active"
+      }
+    ],
+    "asset-image-venus-0001": [
+      {
+        "assetPath": "public/discovery/photos/venus.webp",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/discovery/photos/venus.webp"
+        },
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "evidence": [
+          "importer_livre : image public/discovery/photos/venus.webp livrée (fichier suivi au commit)"
+        ],
+        "game": "petit-astronome",
+        "importName": "venus",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/discovery/photos/venus.webp · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/discovery/photos/venus.webp",
         "status": "active"
       }
     ],
@@ -380837,15 +382031,15 @@
       },
       {
         "assetBlobs": {
-          "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+          "src/ui/style.css": "f07488ee50ea4f631c3417262f7699bfbd81dacb"
         },
         "assetPath": "src/ui/style.css",
-        "assetVersion": 3,
+        "assetVersion": 4,
         "codeRef": {
           "line": 1,
           "path": "src/main.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "import: src/ui/style.css",
           "module-path: src/main.ts"
@@ -380940,15 +382134,15 @@
       },
       {
         "assetBlobs": {
-          "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+          "src/ui/style.css": "f07488ee50ea4f631c3417262f7699bfbd81dacb"
         },
         "assetPath": "src/ui/style.css",
-        "assetVersion": 3,
+        "assetVersion": 4,
         "codeRef": {
           "line": 4,
           "path": "tests/contrast.test.ts"
         },
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "evidence": [
           "literal: src/ui/style.css",
           "module-path: tests/contrast.test.ts"
@@ -385794,6 +386988,35 @@
       }
     ],
     "asset-svg-glyphs-0001": [
+      {
+        "assetPath": "apps/web/public/art/glyphs.svg",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "apps/web/public/art/glyphs.svg"
+        },
+        "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+        "evidence": [
+          "importer_livre : image apps/web/public/art/glyphs.svg livrée (fichier suivi au commit)"
+        ],
+        "game": "six-de-chaque",
+        "importName": "glyphs",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "apps/web/public/art/glyphs.svg · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "six-de-chaque",
+        "role": "image",
+        "scene": "apps/web/public/art/glyphs.svg",
+        "status": "active"
+      },
       {
         "assetBlobs": {
           "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
@@ -392211,6 +393434,15 @@
     "echecs-kid/echecs-kid/index.html": [
       "asset-image-echecs-192-0001"
     ],
+    "echecs-kid/echecs-kid/public/icons/echecs-192.png": [
+      "asset-image-echecs-192-0001"
+    ],
+    "echecs-kid/echecs-kid/public/icons/echecs-512.png": [
+      "asset-image-echecs-512-0001"
+    ],
+    "echecs-kid/echecs-kid/public/icons/echecs-maskable-512.png": [
+      "asset-image-echecs-maskable-512-0001"
+    ],
     "echecs-kid/echecs-kid/pwa-manifest.ts": [
       "asset-image-echecs-192-0001",
       "asset-image-echecs-512-0001",
@@ -392219,8 +393451,20 @@
     "echecs-kid/echecs-kid/scripts/make-icons.js": [
       "asset-codegenerated-pieces-0001"
     ],
+    "echecs-kid/echecs-kid/src/art/mascotte.ts": [
+      "asset-codegenerated-mascotte-0001"
+    ],
+    "echecs-kid/echecs-kid/src/art/pieces.ts": [
+      "asset-codegenerated-pieces-0001"
+    ],
     "echecs-kid/echecs-kid/src/main.ts": [
       "asset-style-style-0002"
+    ],
+    "echecs-kid/echecs-kid/src/ui/icones.ts": [
+      "asset-codegenerated-icones-0001"
+    ],
+    "echecs-kid/echecs-kid/src/ui/plateau.ts": [
+      "asset-codegenerated-plateau-0001"
     ],
     "echecs-kid/echecs-kid/tests/e2e/captures.spec.ts": [
       "asset-image-mascotte-0001",
@@ -397852,6 +399096,48 @@
       "asset-image-e03-interface-0002",
       "asset-image-e03-menu-0001"
     ],
+    "petit-astronome/petit-astronome/public/autres-jeux/opencade.png": [
+      "asset-image-opencade-0001"
+    ],
+    "petit-astronome/petit-astronome/public/autres-jeux/opencadkid.png": [
+      "asset-image-opencadkid-0001"
+    ],
+    "petit-astronome/petit-astronome/public/autres-jeux/tictac.png": [
+      "asset-image-tictac-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/jupiter.webp": [
+      "asset-image-jupiter-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/mars.webp": [
+      "asset-image-mars-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/mercure.webp": [
+      "asset-image-mercure-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/neptune.webp": [
+      "asset-image-neptune-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/saturne.webp": [
+      "asset-image-saturne-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/terre.webp": [
+      "asset-image-terre-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/uranus.webp": [
+      "asset-image-uranus-0001"
+    ],
+    "petit-astronome/petit-astronome/public/discovery/photos/venus.webp": [
+      "asset-image-venus-0001"
+    ],
+    "petit-astronome/petit-astronome/public/icons/astro-192.png": [
+      "asset-image-astro-192-0001"
+    ],
+    "petit-astronome/petit-astronome/public/icons/astro-512.png": [
+      "asset-image-astro-512-0001"
+    ],
+    "petit-astronome/petit-astronome/public/icons/astro-maskable-512.png": [
+      "asset-image-astro-maskable-512-0001"
+    ],
     "petit-astronome/petit-astronome/pwa-manifest.ts": [
       "asset-image-astro-192-0001",
       "asset-image-astro-512-0001",
@@ -397859,6 +399145,18 @@
     ],
     "petit-astronome/petit-astronome/src/main.ts": [
       "asset-style-style-0012"
+    ],
+    "petit-astronome/petit-astronome/src/ui/app.ts": [
+      "asset-codegenerated-app-0001"
+    ],
+    "petit-astronome/petit-astronome/src/ui/art.ts": [
+      "asset-codegenerated-art-0019"
+    ],
+    "petit-astronome/petit-astronome/src/ui/discovery.ts": [
+      "asset-codegenerated-discovery-0001"
+    ],
+    "petit-astronome/petit-astronome/src/ui/mascot.ts": [
+      "asset-codegenerated-mascot-0001"
     ],
     "petit-astronome/petit-astronome/src/ui/other-games.ts": [
       "asset-image-opencade-0003",
@@ -397871,6 +399169,18 @@
     "six-de-chaque/six-de-chaque/apps/web/index.html": [
       "asset-image-six-de-chaque-192-0001"
     ],
+    "six-de-chaque/six-de-chaque/apps/web/public/art/glyphs.svg": [
+      "asset-svg-glyphs-0001"
+    ],
+    "six-de-chaque/six-de-chaque/apps/web/public/icons/six-de-chaque-192.png": [
+      "asset-image-six-de-chaque-192-0001"
+    ],
+    "six-de-chaque/six-de-chaque/apps/web/public/icons/six-de-chaque-512.png": [
+      "asset-image-six-de-chaque-512-0001"
+    ],
+    "six-de-chaque/six-de-chaque/apps/web/public/icons/six-de-chaque-maskable-512.png": [
+      "asset-image-six-de-chaque-maskable-512-0001"
+    ],
     "six-de-chaque/six-de-chaque/apps/web/pwa-manifest.ts": [
       "asset-image-six-de-chaque-192-0001",
       "asset-image-six-de-chaque-512-0001",
@@ -397878,6 +399188,9 @@
     ],
     "six-de-chaque/six-de-chaque/apps/web/src/main.tsx": [
       "asset-style-styles-0002"
+    ],
+    "six-de-chaque/six-de-chaque/packages/renderer-pixi/src/art.ts": [
+      "asset-codegenerated-art-0020"
     ],
     "six-de-chaque/six-de-chaque/renderer-pixi/packages/renderer-pixi/test/palette.test.ts": [
       "asset-svg-glyphs-0001"
@@ -397891,17 +399204,47 @@
       "asset-style-styles-0002",
       "asset-svg-glyphs-0001"
     ],
+    "tictac/tictac/public/autres-jeux/opencade.png": [
+      "asset-image-opencade-0001"
+    ],
+    "tictac/tictac/public/autres-jeux/opencadkid.png": [
+      "asset-image-opencadkid-0001"
+    ],
+    "tictac/tictac/public/autres-jeux/petit-astronome.png": [
+      "asset-image-petit-astronome-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-192.png": [
+      "asset-image-tictac-192-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-512.png": [
+      "asset-image-tictac-512-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-maskable-512.png": [
+      "asset-image-tictac-512-0001"
+    ],
     "tictac/tictac/pwa-manifest.ts": [
       "asset-image-tictac-192-0001",
       "asset-image-tictac-512-0001"
     ],
+    "tictac/tictac/src/characters/svg.ts": [
+      "asset-codegenerated-svg-0003"
+    ],
     "tictac/tictac/src/main.ts": [
       "asset-style-style-0013"
+    ],
+    "tictac/tictac/src/ui/app.ts": [
+      "asset-codegenerated-app-0002"
+    ],
+    "tictac/tictac/src/ui/clock.ts": [
+      "asset-codegenerated-clock-0001"
     ],
     "tictac/tictac/src/ui/other-games.ts": [
       "asset-image-opencade-0004",
       "asset-image-opencadkid-0004",
       "asset-image-petit-astronome-0004"
+    ],
+    "tictac/tictac/src/ui/scene.ts": [
+      "asset-codegenerated-scene-0025"
     ],
     "tictac/tictac/tests/contrast.test.ts": [
       "asset-codegenerated-app-0002",

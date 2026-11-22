@@ -1,0 +1,147 @@
+{
+  "alpha": null,
+  "category": "ui",
+  "createdAt": "2026-11-20T17:08:37+00:00",
+  "creation": {
+    "importJob": "fda8741855bf7254"
+  },
+  "description": "Discovery — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "src/ui/discovery.ts",
+      "repo": "petit-astronome",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "76f9e19b82da6aaf3ecea12691c957504de23f4e6ca2ee70ef27e6acc5f70b1c",
+        "classification": "game",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "game": "petit-astronome",
+        "path": "src/ui/discovery.ts",
+        "provider": "github",
+        "repo": "petit-astronome",
+        "status": "active",
+        "visibility": "public"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-discovery-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "src/ui/discovery.ts · ui"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "src/ui/discovery.ts · discovery"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/discovery.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/discovery.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/discovery.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@d7b66b968c30fd9f0b4cb2238e98eec45652ca89"
+  },
+  "name": "discovery",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/discovery.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "76f9e19b82da6aaf3ecea12691c957504de23f4e6ca2ee70ef27e6acc5f70b1c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-20T18:08:37+01:00",
+  "usages": [
+    {
+      "assetPath": "src/ui/discovery.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/discovery.ts"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : module src/ui/discovery.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "petit-astronome",
+      "importName": "discovery",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/discovery.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "dessin-code",
+      "scene": "src/ui/discovery.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "date": "2026-11-20T18:08:37+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "76f9e19b82da6aaf3ecea12691c957504de23f4e6ca2ee70ef27e6acc5f70b1c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

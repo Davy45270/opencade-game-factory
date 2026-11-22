@@ -144,6 +144,7 @@ case "$PIPELINE" in
     dependances
     etape oracles-bbctl-et-gabarit
     python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
+    python3 -m unittest discover -s tests/docs -t . -p 'test_*.py'
     python3 -m unittest discover -s tests/ci -t . -p 'test_*.py'
     ;;
   build-index)

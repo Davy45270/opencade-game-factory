@@ -137,7 +137,37 @@
   "subcategory": null,
   "tags": "unknown",
   "updatedAt": "2026-11-04T16:47:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "src/ui/scene.ts",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/scene.ts"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "importer_livre : module src/ui/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "tictac",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "dessin-code",
+      "scene": "src/ui/scene.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 2,
   "versions": [

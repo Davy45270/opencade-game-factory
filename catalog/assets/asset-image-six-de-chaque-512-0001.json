@@ -118,7 +118,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Art original de Six de chaque (glyphes, motifs, icônes) dessiné pour le jeu par Davy45270 : CC BY 4.0.",
+    "method": "déclaration du titulaire",
+    "ref": "six-de-chaque README.md, section Licences (20e10f5) ; ef2edac (glyphes) ; HL-538"
+  },
   "name": "six-de-chaque-512",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -128,7 +133,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (README du jeu)",
     "evidence": [
       "six-de-chaque@05c83c760d733ac016713c5bd8a0505b3fc19f43:apps/web/public/icons/six-de-chaque-512.png"
     ],
@@ -147,6 +152,35 @@
   "thumbnail": "thumbnails/16/163310ecc171cd8c304b4c4894c395a70200cc27febb1bf32335d12f589a9b04.webp",
   "updatedAt": "2026-11-19T15:38:02+01:00",
   "usages": [
+    {
+      "assetPath": "apps/web/public/icons/six-de-chaque-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "apps/web/public/icons/six-de-chaque-512.png"
+      },
+      "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "evidence": [
+        "importer_livre : image apps/web/public/icons/six-de-chaque-512.png livrée (fichier suivi au commit)"
+      ],
+      "game": "six-de-chaque",
+      "importName": "six-de-chaque-512",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "apps/web/public/icons/six-de-chaque-512.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "image",
+      "scene": "apps/web/public/icons/six-de-chaque-512.png",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "apps/web/public/icons/six-de-chaque-512.png": "a2a54ee16e4b48b50d1b10b81d5fcb9f09f7d99e"

@@ -1,0 +1,25 @@
+{
+  "workflowId": "codex-file",
+  "workflowVersion": "hl525-1",
+  "description": "file d'exécution des agents Codex",
+  "steps": [
+    {
+      "id": "garde-ci",
+      "kind": "gate"
+    },
+    {
+      "id": "passe",
+      "kind": "agent",
+      "dependsOn": [
+        "garde-ci"
+      ]
+    },
+    {
+      "id": "unitaires",
+      "kind": "test",
+      "dependsOn": [
+        "passe"
+      ]
+    }
+  ]
+}

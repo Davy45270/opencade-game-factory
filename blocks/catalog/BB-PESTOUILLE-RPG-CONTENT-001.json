@@ -1,0 +1,53 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:pestouille-rpg:packages/content"
+  },
+  "id": "BB-PESTOUILLE-RPG-CONTENT-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "content",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/content",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "licenseSpdx": "MIT",
+    "path": "packages/content",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg/apps/web",
+    "pestouille-rpg/tests/unit",
+    "pestouille-rpg/tools/cartes"
+  ]
+}

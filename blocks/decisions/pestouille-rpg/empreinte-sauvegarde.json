@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "`@noble/hashes` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "implémentation auditée et synchrone ; dépendance d'exécution pour une seule fonction",
+      "version": "2.4.0"
+    },
+    {
+      "candidate": "`js-sha256` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "synchrone et petit ; dépendance d'exécution, maintenance espacée",
+      "version": "1.1.0"
+    },
+    {
+      "candidate": "Web Crypto `crypto.subtle.digest`",
+      "licenseRaw": "—",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "rien à distribuer, mais asynchrone : incompatible avec l'interface synchrone du moteur",
+      "version": "API standard"
+    },
+    {
+      "candidate": "Implémentation du dépôt `packages/core/src/sha256.ts`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "une cinquantaine de lignes, vérifiée contre `node:crypto`",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-EMPREINTE-SAUVEGARDE",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/empreinte-sauvegarde.md",
+    "repo": "pestouille-rpg",
+    "sha256": "87e89a7d2dbda2763bbcc17b4f3238ed8ad01deb74ddaddbd9740f7bbf99b52c"
+  }
+}

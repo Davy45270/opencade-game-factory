@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:opencade:src/engines/bombercade"
+  },
+  "id": "BB-OPENCADE-BOMBERCADE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "bombercade",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "src/engines/bombercade",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+    "licenseSpdx": "MIT",
+    "path": "src/engines/bombercade",
+    "repo": "opencade",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade/bombercade",
+    "opencade/src/games",
+    "opencade/tests/e2e"
+  ]
+}

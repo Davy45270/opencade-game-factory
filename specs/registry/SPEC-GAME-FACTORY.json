@@ -1,0 +1,3198 @@
+{
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-GAME-FACTORY.json"
+  },
+  "evidence": "verified",
+  "id": "SPEC-GAME-FACTORY",
+  "implementation": "partial",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "16RTBkjYoGWdF1L6UNfqrBo54dybFRAHM",
+      "1AbFFlTLOLOFyl0W4SGuIKQppQV1Xocql",
+      "1Mb1gGYz8Yli5Mno8lsBPn0WgLC0ZPSaC",
+      "1UhUySPtM6ImF_bhm6ozlNnEuhHChd2Se",
+      "1mrhKVK77YtGEL0_JFYzy-2wIsug0GfS6"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
+  "project": "game-factory",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "requires"
+    },
+    {
+      "target": "SPEC-CONTROL-TOWER",
+      "type": "requires"
+    }
+  ],
+  "requirements": [
+    {
+      "acceptance": "ARCH-01 à 03 publiés avant toute conception ; contrôle « reuse » en CI après la découverte",
+      "id": "REQ-GAME-FACTORY-E001",
+      "matrixId": "E001",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "principes : découvrir avant de concevoir, intégrer avant de remplacer, réutiliser avant de construire, enregistrer avant de publier"
+    },
+    {
+      "acceptance": "inventaire avec statut unknown visible ; aucune entrée « absent »",
+      "id": "REQ-GAME-FACTORY-E002",
+      "matrixId": "E002",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "aucun agent ne présume l'absence d'un outil ou d'un processus"
+    },
+    {
+      "acceptance": "gap-analysis : une ligne par création, avec justification",
+      "id": "REQ-GAME-FACTORY-E003",
+      "matrixId": "E003",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ne créer un composant, pipeline ou processus qu'après avoir démontré que la capacité n'existe pas ou que l'étendre ne suffit pas"
+    },
+    {
+      "acceptance": "existing-capabilities.json : statut unknown, jamais « absent »",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E004",
+      "matrixId": "E004",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "une absence de visibilité n'est jamais une preuve d'absence"
+    },
+    {
+      "acceptance": "module specs de l'usine : schéma spec/requirement/decision validé",
+      "id": "REQ-GAME-FACTORY-E005",
+      "matrixId": "E005",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "REG-003 tient specs, exigences, contrats, versions applicables, ADR, liens de traçabilité, statut d'approbation"
+    },
+    {
+      "acceptance": "specctl list : chaque spec reçue a une fiche",
+      "id": "REQ-GAME-FACTORY-E006",
+      "matrixId": "E006",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "toute spec ARCH/ORCH/QA/REL/GOV/ECO/DOC est enregistrée dans REG-003"
+    },
+    {
+      "acceptance": "module blocks : une fiche par brique, validée par schéma",
+      "id": "REQ-GAME-FACTORY-E007",
+      "matrixId": "E007",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "BB-001 tient les solutions : paquets internes, outils adoptés, interfaces, versions, licences, dépendances, SBOM, usages"
+    },
+    {
+      "acceptance": "bbctl validate --all : 0 solution sans fiche",
+      "id": "REQ-GAME-FACTORY-E008",
+      "matrixId": "E008",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "toute solution implémentée est enregistrée dans BB-001"
+    },
+    {
+      "acceptance": "aucune copie éditable : référence (dépôt, chemin, commit, sha256)",
+      "id": "REQ-GAME-FACTORY-E009",
+      "matrixId": "E009",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "la registry indexe et relie les sources de vérité sans dupliquer les documents"
+    },
+    {
+      "acceptance": "existing-capabilities.json couvrant chaque famille",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E010",
+      "matrixId": "E010",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "inventaire de l'existant avec les accès accordés : dépôts, CI, orchestrateurs, suivi, scripts, runners, tests, SBOM, secrets, registries, previews, docs, API, événements"
+    },
+    {
+      "acceptance": "fichier présent, champs complets",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E011",
+      "matrixId": "E011",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "livrable existing-capabilities.json (ID, capacité, système, preuve, version, propriétaire, statut, accès, dépendances, restrictions)"
+    },
+    {
+      "acceptance": "fichier présent",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E012",
+      "matrixId": "E012",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "livrable process-map.md"
+    },
+    {
+      "acceptance": "fichier présent",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E013",
+      "matrixId": "E013",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "livrable gap-analysis.md"
+    },
+    {
+      "acceptance": "une ADR par décision de 7-2955 et 7-2949",
+      "id": "REQ-GAME-FACTORY-E014",
+      "matrixId": "E014",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "livrables integration-decisions/ADR-*.md (décisions approuvées, alternatives, rollback)"
+    },
+    {
+      "acceptance": "3 capacités unknown dans existing-capabilities.json",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E015",
+      "matrixId": "E015",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "accès manquant : inscrire unknown, demander une preuve, ne pas développer un remplaçant par défaut"
+    },
+    {
+      "acceptance": "gap-analysis : chaque module rattaché à un existant",
+      "id": "REQ-GAME-FACTORY-E016",
+      "matrixId": "E016",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "les modules sont des capacités logiques, pas des services à construire"
+    },
+    {
+      "acceptance": "schémas JSON dans l'usine + tests de compatibilité",
+      "id": "REQ-GAME-FACTORY-E017",
+      "matrixId": "E017",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "contrats transverses versionnés (Project, Task, AgentExecution, WorkflowDefinition, WorkflowRun, Evidence, Artifact, Component, Specification, PolicyDecision, Release, FactoryEvent)"
+    },
+    {
+      "acceptance": "événement FactoryEvent validé portant ces champs",
+      "id": "REQ-GAME-FACTORY-E018",
+      "matrixId": "E018",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "chaque exécution porte portfolioId, projectId, taskId, runId, traceId, agentId, specRefs, buildingBlockRefs, commitSha, evidenceRefs, workflowVersion"
+    },
+    {
+      "acceptance": "test MP-08/MP-09 de la Tower",
+      "id": "REQ-GAME-FACTORY-E019",
+      "matrixId": "E019",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "événements idempotents (eventId, horodatage, version de schéma), corrélation multi-projets, événements tardifs"
+    },
+    {
+      "acceptance": "aucun ordonnanceur neuf ; file Codex + Tower étendues",
+      "id": "REQ-GAME-FACTORY-E020",
+      "matrixId": "E020",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ORCH : intégrer les orchestrateurs existants avant de développer un ordonnanceur"
+    },
+    {
+      "acceptance": "towerctl runs par projet ; priorité de file configurable",
+      "id": "REQ-GAME-FACTORY-E021",
+      "matrixId": "E021",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ORCH : plusieurs projets, dépendances interprojets, files, worktrees isolés, branches, ressources partagées, limites de concurrence"
+    },
+    {
+      "acceptance": "test de reprise après interruption ; compteur de tentatives",
+      "id": "REQ-GAME-FACTORY-E022",
+      "matrixId": "E022",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ORCH : verrouillage optimiste, reprise, retries bornés, annulation"
+    },
+    {
+      "acceptance": "champ projet obligatoire dans codex-file / FactoryEvent",
+      "id": "REQ-GAME-FACTORY-E023",
+      "matrixId": "E023",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "chaque exécution a un projet principal explicite"
+    },
+    {
+      "acceptance": "contention MP-06 sur un chemin de brique partagée → alerte + proposition",
+      "id": "REQ-GAME-FACTORY-E024",
+      "matrixId": "E024",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "modification concurrente d'un building block partagé : contrôle de conflit et proposition d'arbitrage"
+    },
+    {
+      "acceptance": "hooks + bouton de David",
+      "id": "REQ-GAME-FACTORY-E025",
+      "matrixId": "E025",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "actions destructives, secrets, changements de politiques : autorisation distincte"
+    },
+    {
+      "acceptance": "qualite-jeu.py reste le point d'entrée",
+      "id": "REQ-GAME-FACTORY-E026",
+      "matrixId": "E026",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "QA : réutiliser les suites et outils présents"
+    },
+    {
+      "acceptance": "checks.yml commun aux jeux",
+      "id": "REQ-GAME-FACTORY-E027",
+      "matrixId": "E027",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "QA : chaîne progressive schémas, lint, unitaires, intégration, E2E Playwright, solveurs, simulations, snapshots visuels, accessibilité, performance, sécurité, licences, SBOM"
+    },
+    {
+      "acceptance": "preuve P*.json par sha + ligne de matrice",
+      "id": "REQ-GAME-FACTORY-E028",
+      "matrixId": "E028",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "chaque test produit une preuve liée à la spec et au commit"
+    },
+    {
+      "acceptance": "grille côte à côte + tests",
+      "id": "REQ-GAME-FACTORY-E029",
+      "matrixId": "E029",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "le multimodal signale mais ne remplace pas les assertions déterministes"
+    },
+    {
+      "acceptance": "garde de témoins (temoins.py) étendue aux jeux",
+      "id": "REQ-GAME-FACTORY-E030",
+      "matrixId": "E030",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "tests instables identifiés, pas masqués ; aucune suppression de test pour faire passer la CI"
+    },
+    {
+      "acceptance": "publier-opencade.py + Woodpecker",
+      "id": "REQ-GAME-FACTORY-E031",
+      "matrixId": "E031",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "REL : réutiliser la CI/CD et les environnements existants"
+    },
+    {
+      "acceptance": "deux builds → même empreinte ; package-lock",
+      "id": "REQ-GAME-FACTORY-E032",
+      "matrixId": "E032",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "builds reproductibles, dépendances figées, artefacts et provenance"
+    },
+    {
+      "acceptance": "SBOM + npm audit/trivy dans chaque jeu ; preuve de barrière",
+      "id": "REQ-GAME-FACTORY-E033",
+      "matrixId": "E033",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "SBOM CycloneDX/SPDX et analyse de vulnérabilités"
+    },
+    {
+      "acceptance": "sans objet tant qu'aucune preview n'existe (unknown)",
+      "id": "REQ-GAME-FACTORY-E034",
+      "matrixId": "E034",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "previews par PR si disponibles"
+    },
+    {
+      "acceptance": "publier-opencade.py verifier + retour arrière documenté",
+      "id": "REQ-GAME-FACTORY-E035",
+      "matrixId": "E035",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "promotion contrôlée, publication GitHub et rollback"
+    },
+    {
+      "acceptance": "manifeste de release (specVersions, assets.lock, level.lock)",
+      "id": "REQ-GAME-FACTORY-E036",
+      "matrixId": "E036",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "la release référence les versions exactes de specs, composants, assets, niveaux et workflow"
+    },
+    {
+      "acceptance": "fichier de politique versionné lu par qualite_preuves",
+      "id": "REQ-GAME-FACTORY-E037",
+      "matrixId": "E037",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "GOV : règles déclaratives versionnées (recherche préalable, licence, SBOM, tests, privilèges, secrets, provenance, exceptions)"
+    },
+    {
+      "acceptance": "statut waived avec date d'échéance",
+      "evidence": {
+        "ref": "homelab-diag 7c74b9c, arcade-lab/test_qualite.py factory_cas (TQ_SEUL=factory_cas)",
+        "threshold": 29,
+        "type": "mesure",
+        "value": 29
+      },
+      "id": "REQ-GAME-FACTORY-E038",
+      "matrixId": "E038",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "distinguer pass, fail, unknown, waived, avec preuves et échéance de dérogation"
+    },
+    {
+      "acceptance": "towerctl status code 4 ≠ violation",
+      "id": "REQ-GAME-FACTORY-E039",
+      "matrixId": "E039",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ne pas confondre indisponibilité de collecte et non-conformité"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-GAME-FACTORY-E040",
+      "matrixId": "E040",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ECO (P1) : temps agents, tokens, coût estimé, attente, runners, stockage, reprises ; budgets"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-GAME-FACTORY-E041",
+      "matrixId": "E041",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "DOC (P1) : documentation générée depuis les sources, PR documentaires"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E042",
+      "matrixId": "E042",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 1"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E043",
+      "matrixId": "E043",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 2"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E044",
+      "matrixId": "E044",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 3"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E045",
+      "matrixId": "E045",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 4"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E046",
+      "matrixId": "E046",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 5"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E047",
+      "matrixId": "E047",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 6"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E048",
+      "matrixId": "E048",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 7"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E049",
+      "matrixId": "E049",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 8"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E050",
+      "matrixId": "E050",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 9"
+    },
+    {
+      "acceptance": "rejeu de la tranche verticale ARCH-12",
+      "id": "REQ-GAME-FACTORY-E051",
+      "matrixId": "E051",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "workflow de bout en bout, étape 10"
+    },
+    {
+      "acceptance": "schéma specification.schema.json validé",
+      "id": "REQ-GAME-FACTORY-E052",
+      "matrixId": "E052",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "contrat de spécification (specId, version, status, sourceRepo, sourcePath, commitSha, requirements, dependencies, implementationRefs, testRefs, decisionRefs)"
+    },
+    {
+      "acceptance": "schéma block.schema.json validé",
+      "id": "REQ-GAME-FACTORY-E053",
+      "matrixId": "E053",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "contrat de solution (componentId, type, sourceRepo, version, capabilities, interfaces, license, sbomRef, specRefs, consumers, validationEvidence, lifecycle)"
+    },
+    {
+      "acceptance": "manifeste de release produit par publier-opencade.py",
+      "id": "REQ-GAME-FACTORY-E054",
+      "matrixId": "E054",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "contrat de livraison (releaseId, commitSha, specVersions, componentVersions, assetLock, levelLock, sbomRef, testEvidence, policyDecisions, deploymentRef)"
+    },
+    {
+      "acceptance": "validate refuse un lien non résolu",
+      "id": "REQ-GAME-FACTORY-E055",
+      "matrixId": "E055",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "liens vérifiables ; ne pas inventer SHA, licence, statut ou URL"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E056",
+      "matrixId": "E056",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-01"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E057",
+      "matrixId": "E057",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-02"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "evidence": {
+        "ref": "specs/game-factory/ (ARCH-01 à 03, HL-525 7-2956)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 69
+      },
+      "id": "REQ-GAME-FACTORY-E058",
+      "matrixId": "E058",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-03"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E059",
+      "matrixId": "E059",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-04"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E060",
+      "matrixId": "E060",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-05"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E061",
+      "matrixId": "E061",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-06"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E062",
+      "matrixId": "E062",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-07"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E063",
+      "matrixId": "E063",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-08"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E064",
+      "matrixId": "E064",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-09"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E065",
+      "matrixId": "E065",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-10"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E066",
+      "matrixId": "E066",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-11"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E067",
+      "matrixId": "E067",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-12"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E068",
+      "matrixId": "E068",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-13"
+    },
+    {
+      "acceptance": "gate de la ligne",
+      "id": "REQ-GAME-FACTORY-E069",
+      "matrixId": "E069",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "backlog ARCH-14"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E070",
+      "matrixId": "E070",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-01"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E071",
+      "matrixId": "E071",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-02"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E072",
+      "matrixId": "E072",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-03"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E073",
+      "matrixId": "E073",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-04"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E074",
+      "matrixId": "E074",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-05"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E075",
+      "matrixId": "E075",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-06"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E076",
+      "matrixId": "E076",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-07"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E077",
+      "matrixId": "E077",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-08"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E078",
+      "matrixId": "E078",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-09"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E079",
+      "matrixId": "E079",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-10"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E080",
+      "matrixId": "E080",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-11"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E081",
+      "matrixId": "E081",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-12"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E082",
+      "matrixId": "E082",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-13"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E083",
+      "matrixId": "E083",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "ARCH-001 AT-14"
+    },
+    {
+      "acceptance": "tranche ARCH-12 visible dans towerctl et Grafana",
+      "id": "REQ-GAME-FACTORY-E084",
+      "matrixId": "E084",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt"
+      },
+      "statement": "critère de sortie P0 : inventaire et inconnues publiés, décisions documentées, contrats testés, registres specs et solutions, vertical slice observée dans OPS-001"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E085",
+      "matrixId": "E085",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 1"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E086",
+      "matrixId": "E086",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 2"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E087",
+      "matrixId": "E087",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 3"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E088",
+      "matrixId": "E088",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 4"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E089",
+      "matrixId": "E089",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 5"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E090",
+      "matrixId": "E090",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 6"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E091",
+      "matrixId": "E091",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 7"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E092",
+      "matrixId": "E092",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 8"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E093",
+      "matrixId": "E093",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 9"
+    },
+    {
+      "acceptance": "gabarit de brief d'agent + garde",
+      "id": "REQ-GAME-FACTORY-E094",
+      "matrixId": "E094",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt"
+      },
+      "statement": "addendum agents, règle 10"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-GAME-FACTORY-E095",
+      "matrixId": "E095",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "dépôt cible opencade-spec-registry séparé"
+    },
+    {
+      "acceptance": "REG-T03",
+      "id": "REQ-GAME-FACTORY-E096",
+      "matrixId": "E096",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 gère des agents simultanés sur plusieurs dépôts et empêche les travaux sur specs périmées"
+    },
+    {
+      "acceptance": "YouTrack reste le suivi",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_acceptation.py :: test_import_reference_par_commit_et_empreinte_sans_recopier_le_texte (référence par commit et empreinte, texte jamais recopié) ; le suivi reste YouTrack (aucune commande de ticket dans specctl)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E097",
+      "matrixId": "E097",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 ne remplace ni le suivi ni les dépôts sources"
+    },
+    {
+      "acceptance": "specctl + test",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: Decouverte ; inventaire réel specs/game-factory/reg003-inventaire.md",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E098",
+      "matrixId": "E098",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "objectif P0 n° 1"
+    },
+    {
+      "acceptance": "specctl + test",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_lock_semver_empreinte_horodatage, test_T03_pr_sur_spec_perimee_bloquee ; tests/specs/test_specctl_acceptation.py :: test_resolution_deterministe",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E099",
+      "matrixId": "E099",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "objectif P0 n° 2"
+    },
+    {
+      "acceptance": "specctl + test",
+      "id": "REQ-GAME-FACTORY-E100",
+      "matrixId": "E100",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "objectif P0 n° 3"
+    },
+    {
+      "acceptance": "specctl + test",
+      "id": "REQ-GAME-FACTORY-E101",
+      "matrixId": "E101",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "objectif P0 n° 4"
+    },
+    {
+      "acceptance": "specctl + test",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T12_six_types_correles_par_trace",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E102",
+      "matrixId": "E102",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "objectif P0 n° 5"
+    },
+    {
+      "acceptance": "specctl : origine canonique unique par spec",
+      "id": "REQ-GAME-FACTORY-E103",
+      "matrixId": "E103",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "source de vérité fédérée : specs transverses éditées dans le registre, specs locales dans le dépôt du jeu indexées par commit ; pas de duplication éditable"
+    },
+    {
+      "acceptance": "fiche de spec : origine Drive + id, autorité = usine",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_identifiant_drive_releve_du_manifeste, test_export_complet_prive (importOrigins.authority = usine)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E104",
+      "matrixId": "E104",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "Drive : source d'import et canal d'export ; après migration, Drive ne fait pas autorité"
+    },
+    {
+      "acceptance": "registre d'IDs en ajout seul (même mécanisme que ids.json)",
+      "id": "REQ-GAME-FACTORY-E105",
+      "matrixId": "E105",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "identifiants stables SPEC-, REQ-, ADR-, BB-, TEST-, jamais recyclés"
+    },
+    {
+      "acceptance": "schéma specification",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_statuts_orthogonaux_deduits_des_exigences, test_statut_deduit_falsifie_refuse",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E106",
+      "matrixId": "E106",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "statuts orthogonaux lifecycle / implementation / evidence"
+    },
+    {
+      "acceptance": "bouton de David cité 7-n",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: ApprobationHumaine (4 tests : approuver, déprécier, retirer, publier exigent HL-n 7-n)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E107",
+      "matrixId": "E107",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "approbation humaine pour contrats partagés, sécurité, publication, dépréciations"
+    },
+    {
+      "acceptance": "specs.lock.json par jeu, contrôlé en CI",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_lock_semver_empreinte_horodatage, test_T03_pr_sur_spec_perimee_bloquee (mécanisme ; son adoption par les jeux reste E147)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E108",
+      "matrixId": "E108",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "version : SemVer + commit SHA + horodatage ; une PR verrouille le jeu de specs appliqué"
+    },
+    {
+      "acceptance": "module specs/ dans le dépôt usine",
+      "id": "REQ-GAME-FACTORY-E109",
+      "matrixId": "E109",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "organisation du dépôt (registry, manifests, schemas, tools/specctl, migrations, generated, tests)"
+    },
+    {
+      "acceptance": "pipelines Woodpecker",
+      "id": "REQ-GAME-FACTORY-E110",
+      "matrixId": "E110",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "workflows .github validate/resolve/impact/export"
+    },
+    {
+      "acceptance": "test de reconstruction (comme AT-12 du registre)",
+      "evidence": {
+        "ref": "usine eed2cf8 (PR #17, CI Woodpecker pipeline 65 verte : specs avec index, sbom-specctl et ids-contre-la-cible, validate, build-index), oracles b4f271e et 6c22aa5 rouges avant le code 9512072 et 8af1a35, tests/specs/test_specctl_index_sbom.py :: test_T10_restauration_des_index_memes_resultats, test_check_detecte_un_index_perime_sans_ecrire ; CI specs : étape index (--check)",
+        "threshold": 103,
+        "type": "mesure",
+        "value": 103
+      },
+      "id": "REQ-GAME-FACTORY-E111",
+      "matrixId": "E111",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "index générés reconstructibles ; Git seul fait autorité"
+    },
+    {
+      "acceptance": "schéma specification",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_fiche_porte_titre_proprietaire_statuts_origine ; specs/schemas/specification.schema.json (title, owner, lifecycle, visibility, canonical, relations, decisions)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E112",
+      "matrixId": "E112",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "une spec référence ID, titre, version, statut, propriétaire, source canonique, exigences, dépendances, implémentations, tests, décisions, politique de publication"
+    },
+    {
+      "acceptance": "import des matrices conformite-jeu/1 en requirements",
+      "id": "REQ-GAME-FACTORY-E113",
+      "matrixId": "E113",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "une exigence porte ID, formulation testable, criticité, critères d'acceptation, preuves"
+    },
+    {
+      "acceptance": "schéma dependency + graphe",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T06_changement_partage_projets_consommateurs ; tests/specs/test_specctl_acceptation.py :: test_relation_non_typee_refusee, test_relation_typee_valide",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E114",
+      "matrixId": "E114",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "relations typées requires, implements, tested-by, supersedes, conflicts-with, reuses, consumes, produces, deployed-in"
+    },
+    {
+      "acceptance": "REG-T05",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_version_incompatible_detectee ; tests/specs/test_specctl_acceptation.py :: test_lien_casse_detecte, test_cycle_detecte, test_T05_exigence_sans_preuve_ecart_explicite",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E115",
+      "matrixId": "E115",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "le graphe détecte références cassées, cycles, versions incompatibles, exigences sans tests"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: Decouverte ; inventaire réel specs/game-factory/reg003-inventaire.md (Drive 33, docs 206, dépôts 10/11)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E116",
+      "matrixId": "E116",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 1"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_acceptation.py :: test_import_reference_par_commit_et_empreinte_sans_recopier_le_texte, test_import_lecture_seule ; tests/specs/test_specctl_reg003.py :: test_identifiant_drive_releve_du_manifeste",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E117",
+      "matrixId": "E117",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 2"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_acceptation.py :: test_T01_meme_spec_dans_deux_archives_une_identite_deux_provenances, test_T02_version_ambigue_arbitrage_requis ; tests/specs/test_specctl_reg003.py :: test_rapport_correspondance_doublons_conflits_inconnus",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E118",
+      "matrixId": "E118",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 3"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_rapport_correspondance_doublons_conflits_inconnus (report.mapping, decisionsRequired) ; arbitrage : specctl arbitrer",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E119",
+      "matrixId": "E119",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 4"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "id": "REQ-GAME-FACTORY-E120",
+      "matrixId": "E120",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 5"
+    },
+    {
+      "acceptance": "rapport de migration specctl import --dry-run",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_rapport_correspondance_doublons_conflits_inconnus ; rapport publié specs/game-factory/reg003-inventaire.md",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E121",
+      "matrixId": "E121",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "migration initiale, étape 6"
+    },
+    {
+      "acceptance": "test d'import + gitleaks",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_acceptation.py :: test_import_lecture_seule, test_dry_run_n_ecrit_rien ; tests/specs/test_specctl_reg003.py :: test_T09_spec_privee_jamais_dans_l_export_public, test_discover_docs_lecture_seule ; CI validate : gitleaks",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E122",
+      "matrixId": "E122",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "sécurité de l'import : read-only, dry-run initial, aucun secret ni licence privée dans les index publics"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: Decouverte (docs, github, drive)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E123",
+      "matrixId": "E123",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : discover"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_rapport_correspondance_doublons_conflits_inconnus ; tests/specs/test_specctl_acceptation.py :: REG02Import",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E124",
+      "matrixId": "E124",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : import"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_search_trouve_l_exigence, test_search_vide_entree_invalide",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E125",
+      "matrixId": "E125",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : search"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_resolution_deterministe, test_projet_inconnu, test_toutes_les_commandes_rendent_du_json",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E126",
+      "matrixId": "E126",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : resolve"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T06_changement_partage_projets_consommateurs",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E127",
+      "matrixId": "E127",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : impact"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T03_pr_sur_spec_perimee_bloquee, test_commit_introuvable_source_indisponible",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E128",
+      "matrixId": "E128",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : verify"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_compare_deux_etats_du_registre, test_compare_hors_git_source_indisponible",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E129",
+      "matrixId": "E129",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : compare"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T09_spec_privee_jamais_dans_l_export_public, test_export_complet_prive",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E130",
+      "matrixId": "E130",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "CLI : export"
+    },
+    {
+      "acceptance": "test des codes",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: CodesReg003 (4 tests) ; tests/specs/test_specctl_acceptation.py :: test_aide_documente_les_codes",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E131",
+      "matrixId": "E131",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "codes de retour specctl 0/2/3/4/5"
+    },
+    {
+      "acceptance": "test de relance",
+      "evidence": {
+        "ref": "usine eed2cf8 (PR #17, CI Woodpecker pipeline 65 verte : specs avec index, sbom-specctl et ids-contre-la-cible, validate, build-index), oracles b4f271e et 6c22aa5 rouges avant le code 9512072 et 8af1a35, tests/specs/test_specctl_ids_journal.py :: test_ecriture_qui_change_journalisee_une_fois, test_dry_run_et_lecture_ne_journalisent_rien, test_import_initial_journalise ; tests/specs/test_specctl_acceptation.py :: test_T08_relance_zero_doublon_octets_identiques ; publication atomique par échange de dossiers (renameat2)",
+        "threshold": 103,
+        "type": "mesure",
+        "value": 103
+      },
+      "id": "REQ-GAME-FACTORY-E132",
+      "matrixId": "E132",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "écritures idempotentes, transactionnelles, journalisées"
+    },
+    {
+      "acceptance": "reçu de recherche + décision",
+      "id": "REQ-GAME-FACTORY-E133",
+      "matrixId": "E133",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "avant toute implémentation : résoudre specs, chercher briques internes, évaluer OSS, consigner reuse|adapt|build"
+    },
+    {
+      "acceptance": "lien par ID",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T11_decision_et_licence_tracables (lien par identifiant, catalogue non recopié)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E134",
+      "matrixId": "E134",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "le registre référence les décisions BB-001 sans recopier son catalogue"
+    },
+    {
+      "acceptance": "FactoryEvent de ces types ingérés par towerctl",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T12_six_types_correles_par_trace ; tests/specs/test_specctl_evenements.py :: test_conflit_emet_spec_conflict_bloque, test_archive_modifiee_emet_spec_outdated",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E135",
+      "matrixId": "E135",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "événements spec.resolved, spec.outdated, spec.conflict, spec.approved, requirement.verified, spec.impact-detected"
+    },
+    {
+      "acceptance": "validate FactoryEvent",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T12_six_types_correles_par_trace (champs du schéma FactoryEvent v1.1 seulement, agentId, traceId, specRefs, evidence, aucune adresse)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E136",
+      "matrixId": "E136",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "champs des événements ; ni données personnelles ni prompts sensibles"
+    },
+    {
+      "acceptance": "dépôt GitHub privé + copie Forgejo privée",
+      "evidence": {
+        "ref": "usine eed2cf8 (PR #17, CI Woodpecker pipeline 65 verte : specs avec index, sbom-specctl et ids-contre-la-cible, validate, build-index), oracles b4f271e et 6c22aa5 rouges avant le code 9512072 et 8af1a35, mesure du 2026-11-21 : Forgejo david/opencade-asset-registry private=true (API) ; miroir GitHub lu sans authentification : refusé (git ls-remote rc=128), témoin public Davy45270/Opencade lu (rc=0)",
+        "threshold": 103,
+        "type": "mesure",
+        "value": 103
+      },
+      "id": "REQ-GAME-FACTORY-E137",
+      "matrixId": "E137",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "dépôt privé"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-GAME-FACTORY-E138",
+      "matrixId": "E138",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "protections de branches, CODEOWNERS, validation en PR"
+    },
+    {
+      "acceptance": "champ visibilité par spec",
+      "id": "REQ-GAME-FACTORY-E139",
+      "matrixId": "E139",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "journal d'audit, provenance des imports, classification public/privé par document"
+    },
+    {
+      "acceptance": "release Woodpecker",
+      "evidence": {
+        "ref": "usine eed2cf8 (PR #17, CI Woodpecker pipeline 65 verte : specs avec index, sbom-specctl et ids-contre-la-cible, validate, build-index), oracles b4f271e et 6c22aa5 rouges avant le code 9512072 et 8af1a35, tests/specs/test_specctl_index_sbom.py :: test_sbom_fermeture_et_licences, test_licence_hors_politique_non_conforme ; CI specs : étape sbom-specctl (5 composants, MIT)",
+        "threshold": 103,
+        "type": "mesure",
+        "value": 103
+      },
+      "id": "REQ-GAME-FACTORY-E140",
+      "matrixId": "E140",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "SBOM de specctl, licences des dépendances"
+    },
+    {
+      "acceptance": "REG-T09 + brand-guard",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T09_spec_privee_jamais_dans_l_export_public ; le gabarit CI ne pose dans un jeu que projet, specId, version, statut (tests/ci/test_gabarit_ci.py)",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E141",
+      "matrixId": "E141",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "une spec privée n'est jamais copiée dans un jeu public"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/specs/test_specctl_acceptation.py :: test_schemas_json_valides, test_fiches_importees_valides_et_ids_stables, test_id_en_double_refuse, test_id_invalide_refuse",
+        "threshold": 28,
+        "type": "mesure",
+        "value": 28
+      },
+      "id": "REQ-GAME-FACTORY-E142",
+      "matrixId": "E142",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-01"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/specs/test_specctl_acceptation.py :: test_import_reference_par_commit_et_empreinte_sans_recopier_le_texte, test_import_lecture_seule, test_dry_run_n_ecrit_rien, test_T08_relance_zero_doublon_octets_identiques",
+        "threshold": 28,
+        "type": "mesure",
+        "value": 28
+      },
+      "id": "REQ-GAME-FACTORY-E143",
+      "matrixId": "E143",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-02"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/specs/test_specctl_acceptation.py :: test_resolution_deterministe, test_T02_version_ambigue_arbitrage_requis, test_arbitrage_exige_le_commentaire_de_david",
+        "threshold": 28,
+        "type": "mesure",
+        "value": 28
+      },
+      "id": "REQ-GAME-FACTORY-E144",
+      "matrixId": "E144",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-03"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/specs/test_specctl_acceptation.py :: test_lien_casse_detecte, test_cycle_detecte, test_relation_non_typee_refusee",
+        "threshold": 28,
+        "type": "mesure",
+        "value": 28
+      },
+      "id": "REQ-GAME-FACTORY-E145",
+      "matrixId": "E145",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-04"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/specs/test_specctl_acceptation.py :: test_aide_documente_les_codes, test_toutes_les_commandes_rendent_du_json, test_dry_run_n_ecrit_rien",
+        "threshold": 28,
+        "type": "mesure",
+        "value": 28
+      },
+      "id": "REQ-GAME-FACTORY-E146",
+      "matrixId": "E146",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-05"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E147",
+      "matrixId": "E147",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-06"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_couverture.py :: test_couverture_calculee, test_chaque_exigence_couverte_porte_sa_preuve, test_faite_sans_preuve_incoherente, test_sans_exigence_jamais_100_pourcent",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E148",
+      "matrixId": "E148",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-07"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E149",
+      "matrixId": "E149",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-08"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E150",
+      "matrixId": "E150",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-09"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E151",
+      "matrixId": "E151",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-10"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E152",
+      "matrixId": "E152",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-11"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E153",
+      "matrixId": "E153",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "backlog REG-12"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T01_meme_spec_dans_deux_archives_une_identite_deux_provenances",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E154",
+      "matrixId": "E154",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T01"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T02_version_ambigue_arbitrage_requis",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E155",
+      "matrixId": "E155",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T02"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T03_pr_sur_spec_perimee_bloquee, test_commit_introuvable_source_indisponible",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E156",
+      "matrixId": "E156",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T03"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T04_source_indisponible_n_est_pas_une_non_conformite, test_verify_source_indisponible",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E157",
+      "matrixId": "E157",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T04"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T05_exigence_sans_preuve_ecart_explicite",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E158",
+      "matrixId": "E158",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T05"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T06_changement_partage_projets_consommateurs ; registre réel : impact SPEC-CONTROL-TOWER = 7 projets",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E159",
+      "matrixId": "E159",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T06"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T07_deux_imports_simultanes_resultat_coherent",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E160",
+      "matrixId": "E160",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T07"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 43d3f64 (PR #15 fusionnée dans usine), Woodpecker pipeline 60 workflow specs vert (58/58), tests/specs/test_specctl_acceptation.py :: test_T08_relance_zero_doublon_octets_identiques",
+        "threshold": 58,
+        "type": "mesure",
+        "value": 58
+      },
+      "id": "REQ-GAME-FACTORY-E161",
+      "matrixId": "E161",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T08"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T09_spec_privee_jamais_dans_l_export_public",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E162",
+      "matrixId": "E162",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T09"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine eed2cf8 (PR #17, CI Woodpecker pipeline 65 verte : specs avec index, sbom-specctl et ids-contre-la-cible, validate, build-index), oracles b4f271e et 6c22aa5 rouges avant le code 9512072 et 8af1a35, tests/specs/test_specctl_index_sbom.py :: test_T10_restauration_des_index_memes_resultats",
+        "threshold": 103,
+        "type": "mesure",
+        "value": 103
+      },
+      "id": "REQ-GAME-FACTORY-E163",
+      "matrixId": "E163",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T10"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T11_decision_et_licence_tracables, test_licence_inconnue_ou_decision_absente_non_conforme",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E164",
+      "matrixId": "E164",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T11"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 1b604f4 (PR #16, CI Woodpecker pipeline 62 verte : specs, validate, build-index), oracles 26578e1 rouges avant le code 814357f, tests/specs/test_specctl_reg003.py :: test_T12_six_types_correles_par_trace",
+        "threshold": 89,
+        "type": "mesure",
+        "value": 89
+      },
+      "id": "REQ-GAME-FACTORY-E165",
+      "matrixId": "E165",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "REG-003 T12"
+    },
+    {
+      "acceptance": "tous les REG-T verts",
+      "id": "REQ-GAME-FACTORY-E166",
+      "matrixId": "E166",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt"
+      },
+      "statement": "définition de terminé REG-003 : inventaire, specctl resolve, contrôle en PR, liens BB-001/OPS-001, aucune modification des sources pendant la découverte"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E167",
+      "matrixId": "E167",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 1"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E168",
+      "matrixId": "E168",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 2"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E169",
+      "matrixId": "E169",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 3"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E170",
+      "matrixId": "E170",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 4"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E171",
+      "matrixId": "E171",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 5"
+    },
+    {
+      "acceptance": "AGENTS.md de l'usine + gabarit de brief",
+      "id": "REQ-GAME-FACTORY-E172",
+      "matrixId": "E172",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt"
+      },
+      "statement": "instructions agents REG-003/BB-001, règle 6"
+    },
+    {
+      "acceptance": "bbctl discover",
+      "id": "REQ-GAME-FACTORY-E173",
+      "matrixId": "E173",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "inventorier, qualifier, rendre réutilisables les composants des jeux et les alternatives open source ; 100 % headless"
+    },
+    {
+      "acceptance": "énumération du schéma block",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/schemas/block.schema.json (kind : 12 valeurs) ; tests/blocks/test_bbctl_acceptation.py :: test_schema_valide_et_conforme_au_contrat, test_type_hors_enumeration_refuse",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E174",
+      "matrixId": "E174",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "types de building blocks (internal-package … renderer-adapter)"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "id": "REQ-GAME-FACTORY-E175",
+      "matrixId": "E175",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 1"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "id": "REQ-GAME-FACTORY-E176",
+      "matrixId": "E176",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 2"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "id": "REQ-GAME-FACTORY-E177",
+      "matrixId": "E177",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 3"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_doublons.py (9 tests : hash, nom normalisé, seuil, rapport sans fusion, dépôts lus seulement)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E178",
+      "matrixId": "E178",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 4"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "id": "REQ-GAME-FACTORY-E179",
+      "matrixId": "E179",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 5"
+    },
+    {
+      "acceptance": "rapport bbctl discover",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run, test_indexation_incrementale_par_commit, test_exceptions_et_source_indisponible ; réel : 11/11 dépôts, relance = 11 sautés",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E180",
+      "matrixId": "E180",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte initiale, point 6"
+    },
+    {
+      "acceptance": "bbctl evaluate",
+      "id": "REQ-GAME-FACTORY-E181",
+      "matrixId": "E181",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "découverte OSS depuis sources officielles : URL canonique, licence exacte, maintenance, vulnérabilités, compatibilité, tests, coût"
+    },
+    {
+      "acceptance": "test BB",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_transitive_n_est_pas_une_brique_licence_jamais_inventee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E182",
+      "matrixId": "E182",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "une dépendance transitive n'est pas un building block approuvé"
+    },
+    {
+      "acceptance": "schéma block",
+      "id": "REQ-GAME-FACTORY-E183",
+      "matrixId": "E183",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "statuts discovered … blocked ; validation séparée de consommation"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "id": "REQ-GAME-FACTORY-E184",
+      "matrixId": "E184",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 1"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus, test_recu_de_recherche_tracable",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E185",
+      "matrixId": "E185",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 2"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel ; réel : rot-js 2.2.1 BSD-3-Clause, 0 vulnérabilité OSV",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E186",
+      "matrixId": "E186",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 3"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere, test_evaluation_absente",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E187",
+      "matrixId": "E187",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 4"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_decision_justifiee, test_decision_sans_justification_ou_choix_inconnu (6 choix dont defer)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E188",
+      "matrixId": "E188",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 5"
+    },
+    {
+      "acceptance": "reçu de chaque étape",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_adoption_complete_et_tracee, test_T11_sans_sbom_adoption_refusee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E189",
+      "matrixId": "E189",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "politique reuse before build, étape 6"
+    },
+    {
+      "acceptance": "BB-T08/T09",
+      "id": "REQ-GAME-FACTORY-E190",
+      "matrixId": "E190",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "création sans recherche documentée : échec CI sauf dérogation"
+    },
+    {
+      "acceptance": "bbctl evaluate --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere, test_score_sans_preuve_refuse, test_score_hors_echelle_refuse",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E191",
+      "matrixId": "E191",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "matrice d'évaluation pondérée (25/20/15/15/15/10), score 0-5, preuves et date"
+    },
+    {
+      "acceptance": "BB-T04/T05",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T04_licence_inconnue_eliminee_avant_le_score, test_T05_vulnerabilite_critique_non_acceptee_eliminee, test_provenance_inconnue_eliminee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E192",
+      "matrixId": "E192",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "critères éliminatoires avant le score : licence, sécurité, provenance inconnue, incompatibilité"
+    },
+    {
+      "acceptance": "champ tco de la fiche",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_tco_incomplet_refuse (7 postes, hypothèse exigée)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E193",
+      "matrixId": "E193",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "TCO : intégration, adaptation, maintenance, mises à jour, tests, dette, sortie"
+    },
+    {
+      "acceptance": "block.schema.json + validate",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/schemas/block.schema.json ; tests/blocks/test_bbctl_acceptation.py :: test_schema_valide_et_conforme_au_contrat, test_catalogue_valide",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E194",
+      "matrixId": "E194",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "contrat de building block (schemaVersion, id, kind, origin, capabilities, interfaces, specIds, usedBy, quality, decision, provenance)"
+    },
+    {
+      "acceptance": "test",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_licence_inventee_refusee, test_candidats_lus_par_en_tete_sans_licence_inventee ; tests/blocks/test_bbctl_discover.py :: test_transitive_n_est_pas_une_brique_licence_jamais_inventee ; réel : 32 licences UNKNOWN laissées telles",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E195",
+      "matrixId": "E195",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "inconnues : null ou UNKNOWN, jamais inventées"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run (--dry-run --json)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E196",
+      "matrixId": "E196",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : discover --repos"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus (internal) ; tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel (opensource)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E197",
+      "matrixId": "E197",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : search --query"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus (internal) ; tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel (opensource)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E198",
+      "matrixId": "E198",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : search --query"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_inspect",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E199",
+      "matrixId": "E199",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : inspect BB-..."
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E200",
+      "matrixId": "E200",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : evaluate --candidate"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_decision_justifiee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E201",
+      "matrixId": "E201",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : decide --candidate"
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_usages",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E202",
+      "matrixId": "E202",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : usages BB-..."
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T10_changement_de_version_partagee_projets_impactes",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E203",
+      "matrixId": "E203",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : impact BB-..."
+    },
+    {
+      "acceptance": "test CLI --json",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_catalogue_valide ; réel : validate --all = 0",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E204",
+      "matrixId": "E204",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "CLI : validate --all"
+    },
+    {
+      "acceptance": "BB-T12",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_journal_d_audit, test_T13_fiche_modifiee_entre_temps_jamais_ecrasee ; tests/blocks/test_bbctl_oss.py :: test_T12_registre_injoignable_erreur_explicite ; tests/blocks/test_bbctl_discover.py :: test_lecture_seule_et_dry_run, test_T03_relance_octets_identiques",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E205",
+      "matrixId": "E205",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "codes stables, JSON, dry-run, idempotence, audit, erreur explicite si source externe inaccessible"
+    },
+    {
+      "acceptance": "module blocks/ de l'usine",
+      "id": "REQ-GAME-FACTORY-E206",
+      "matrixId": "E206",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "source de vérité : manifestes JSON/YAML dans GitHub privé ; index SQLite FTS5 et graphe générés"
+    },
+    {
+      "acceptance": "Woodpecker",
+      "id": "REQ-GAME-FACTORY-E207",
+      "matrixId": "E207",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "bbctl consommé par GitHub Actions"
+    },
+    {
+      "acceptance": "adaptateurs npm, Python",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), blocks/bbctl/discover.py : adaptateurs npm, python, local_modules ; tests/blocks/test_bbctl_discover.py :: test_T01_monorepo_modules_et_usages_par_jeu, test_T02_meme_bibliotheque_deux_versions_deux_instances",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E208",
+      "matrixId": "E208",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "un adaptateur par écosystème plutôt qu'un scraper monolithique"
+    },
+    {
+      "acceptance": "lien par ID vers le module assets",
+      "id": "REQ-GAME-FACTORY-E209",
+      "matrixId": "E209",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "réutiliser les catalogues Asset/EXT-001/EXT-002 sans dupliquer les métadonnées"
+    },
+    {
+      "acceptance": "SBOM + trivy dans la CI usine",
+      "id": "REQ-GAME-FACTORY-E210",
+      "matrixId": "E210",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "SPDX, attribution, redistribution, SBOM, scans, dépendances épinglées, vérification des sources"
+    },
+    {
+      "acceptance": "CI en conteneur sans secret",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_metadonnees_seulement_aucune_archive ; CI en conteneur sans secret (.woodpecker/modules.yml)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E211",
+      "matrixId": "E211",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "pas de téléchargement ni d'exécution de code externe non fiable en environnement privilégié"
+    },
+    {
+      "acceptance": "fiche + commit",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_adoption_complete_et_tracee (PR, verrou de version, tests, SBOM, usedBy ; décision versionnée par Git)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E212",
+      "matrixId": "E212",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "chaque adoption : décision versionnée, PR, verrou de version, rapport de tests, entrée SBOM, relation usedBy"
+    },
+    {
+      "acceptance": "décision BB",
+      "id": "REQ-GAME-FACTORY-E213",
+      "matrixId": "E213",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "extraire une brique partagée seulement si la mutualisation est justifiée"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/blocks/test_bbctl_acceptation.py :: test_schema_valide_et_conforme_au_contrat, test_id_en_double_refuse, test_id_invalide_refuse, test_licence_inventee_refusee",
+        "threshold": 29,
+        "type": "mesure",
+        "value": 29
+      },
+      "id": "REQ-GAME-FACTORY-E214",
+      "matrixId": "E214",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-01"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "graphe graphify ~/graphify/public/graph.json du 2026-11-20 08:19 (47 741 nœuds), attribut repo des nœuds ; inventaire usine catalog/sources.json (11 dépôts autorisés) ; HL-525 7-3036 (impact), 7-3040 (10/11), mesure 11/11",
+        "threshold": 11,
+        "type": "mesure",
+        "value": 11
+      },
+      "id": "REQ-GAME-FACTORY-E215",
+      "matrixId": "E215",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-02"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E216",
+      "matrixId": "E216",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-03"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_doublons.py :: test_rapport_sans_fusion_catalogue_intact, test_depots_lus_seulement",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E217",
+      "matrixId": "E217",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-04"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/blocks/test_bbctl_acceptation.py :: test_recherche_dans_graphify_tous_jeux_confondus, test_filtres, test_recu_de_recherche_tracable, test_T12_graphe_indisponible_erreur_explicite_aucun_resultat_invente",
+        "threshold": 29,
+        "type": "mesure",
+        "value": 29
+      },
+      "id": "REQ-GAME-FACTORY-E218",
+      "matrixId": "E218",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-05"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_oss.py :: test_candidats_verifies_aupres_du_registre_officiel, test_inconnues_jamais_inventees_et_vulnerabilite_critique_relevee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E219",
+      "matrixId": "E219",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-06"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 7ddccbb (Forgejo, branche usine), tests/blocks/test_bbctl_acceptation.py :: test_score_pondere, test_T04_licence_inconnue_eliminee_avant_le_score, test_T05_vulnerabilite_critique_non_acceptee_eliminee, test_reutiliser_un_candidat_elimine_refuse",
+        "threshold": 29,
+        "type": "mesure",
+        "value": 29
+      },
+      "id": "REQ-GAME-FACTORY-E220",
+      "matrixId": "E220",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-07"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E221",
+      "matrixId": "E221",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-08"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E222",
+      "matrixId": "E222",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-09"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_BB10_evenement_relie_aux_specifications, test_T14_decisions_correlables_dans_la_tour (specRefs + buildingBlockRefs + traceId)",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E223",
+      "matrixId": "E223",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-10"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E224",
+      "matrixId": "E224",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-11"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E225",
+      "matrixId": "E225",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-12"
+    },
+    {
+      "acceptance": "critère de la ligne",
+      "id": "REQ-GAME-FACTORY-E226",
+      "matrixId": "E226",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "backlog BB-13"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T01_monorepo_modules_et_usages_par_jeu",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E227",
+      "matrixId": "E227",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T01"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T02_meme_bibliotheque_deux_versions_deux_instances",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E228",
+      "matrixId": "E228",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T02"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T03_relance_octets_identiques ; tests/blocks/test_bbctl_acceptation.py :: test_T03_import_relance_aucune_duplication",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E229",
+      "matrixId": "E229",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T03"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T04_licence_inconnue_eliminee_avant_le_score",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E230",
+      "matrixId": "E230",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T04"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T05_vulnerabilite_critique_non_acceptee_eliminee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E231",
+      "matrixId": "E231",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T05"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E232",
+      "matrixId": "E232",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T06"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "id": "REQ-GAME-FACTORY-E233",
+      "matrixId": "E233",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T07"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T08_creation_sans_recherche_echoue ; réel : capsule-panic HEAD~30..HEAD, 18 briques nouvelles non documentées, code 1",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E234",
+      "matrixId": "E234",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T08"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T09_derogation_approuvee_passe_avec_audit",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E235",
+      "matrixId": "E235",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T09"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_discover.py :: test_T10_changement_de_version_partagee_projets_impactes",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E236",
+      "matrixId": "E236",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T10"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T11_sans_sbom_adoption_refusee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E237",
+      "matrixId": "E237",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T11"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 7c62f4a (PR #20 fusionnée ; CI Woodpecker pipeline 74 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_acceptation.py :: test_T12_graphe_indisponible_erreur_explicite_aucun_resultat_invente ; tests/blocks/test_bbctl_discover.py :: test_exceptions_et_source_indisponible",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E238",
+      "matrixId": "E238",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T12"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T13_fiche_modifiee_entre_temps_jamais_ecrasee",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E239",
+      "matrixId": "E239",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T13"
+    },
+    {
+      "acceptance": "test d'acceptation automatisé, rejoué en CI Woodpecker, avec témoin rouge",
+      "evidence": {
+        "ref": "usine 46559c2 (PR #21 fusionnée ; CI Woodpecker pipeline 76 verte : modules, specs, validate, build-index), tests/blocks/test_bbctl_adoption.py :: test_T14_decisions_correlables_dans_la_tour, test_T14_blocage_emis",
+        "threshold": 1,
+        "type": "mesure",
+        "value": 1
+      },
+      "id": "REQ-GAME-FACTORY-E240",
+      "matrixId": "E240",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "BB-001 T14"
+    },
+    {
+      "acceptance": "tous les BB-T verts",
+      "id": "REQ-GAME-FACTORY-E241",
+      "matrixId": "E241",
+      "matrixStatus": "a_faire",
+      "source": {
+        "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt"
+      },
+      "statement": "définition de terminé BB-001 : inventaire complet, recherche interne et externe, reuse-before-build actif en CI, liens vérifiés, aucune mutation pendant la découverte"
+    },
+    {
+      "acceptance": "un test rouge puis vert par défaut, ou une décision de David",
+      "arbitrage": {
+        "date": "2026-11-19",
+        "expire": "2026-12-19",
+        "note": "titres « A B » assemblés ; altération 4×4 calibrée ; PURL et graphe du SBOM ; échappements sha256sum ; YAML entre guillemets ; CSP dans un <template> ; lien sur index.html ; garde au-delà de 300 s ; cid en sous-chaîne ; bornes de capture ; schéma SBOM côté JS ; usine.json exempté ; workflows sans `verifier` ; octets à l'enregistrement initial ; revue 7 : rejeu vitest vert puis posttest en échec, saut à titre court sur deux groupes homonymes, verrou distant perdu si la session ssh tombe ; revue 8 : titre littéral « A B » contre describe A > B",
+        "ref": "coordinateur Game Factory 2026-11-19 (critère de convergence revue 6), relu par lui",
+        "valide_par_david": false
+      },
+      "id": "REQ-GAME-FACTORY-E242",
+      "matrixId": "E242",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/game-factory/revues/revue-codex-6.md.txt"
+      },
+      "statement": "revue Codex 6 : défauts non bloquants (contrefaçon délibérée ou cas construit à la main), à refermer avant l'échéance"
+    }
+  ],
+  "title": "ARCH-001 — OpenCade Game Factory : architecture et intégration à l'existant",
+  "unversionedDocuments": [
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/game-factory-sources/arch-001/AGENTS_ADDENDUM.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "aa0977a592ef9f509e3768bb6dc5c965161386c58c8569c3e06cdbb97b1bd76f"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/game-factory-sources/reg-003-bb-001/AGENTS.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "c9b3b55a435e4f4bb4c8893e84484c265026487cae8fa9487b5b4fd8a0d4cf1d"
+    },
+    {
+      "provenances": [
+        {
+          "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+          "path": "specs/game-factory-sources/reg-003-bb-001/README.md.txt",
+          "repo": "homelab-docs"
+        }
+      ],
+      "sha256": "e1080a389723c7c9b313f98ee702e98ba6200f45c885e4bdbb1fa83f4708acf4"
+    }
+  ],
+  "versions": [
+    {
+      "documents": [
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/game-factory-sources/arch-001/OpenCade_ARCH-001_Game_Factory_Integration_v1.0.zip",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "0b4e76ceb20fa0196f6401019d4327fae1d118d42e944984ccbce6fe1859bcbb"
+        },
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/game-factory-sources/REG-003_Specification_Registry_v1.0.md.txt",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "18056a2eab127b6ebfb595014c62aa7f79d51671c032cdb92b48a66ba9411d1b"
+        },
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/game-factory-sources/reg-003-bb-001/OpenCade_REG-003_BB-001_Specifications_v1.0.zip",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "501e4fe17413827658659039fc8ebf3a1726f48798e154667970fecf99c7975e"
+        },
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/game-factory-sources/ARCH-001_Game_Factory_Integration_v1.0.md.txt",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "567cb9f0b21f6999265c6b50dc1248e7fcb75bb1adbacfe4c4c7a365d399a15b"
+        },
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/game-factory-sources/BB-001_Building_Block_Discovery_Reuse_v1.0.md.txt",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "a476f064ec9207e073a4a878999e070a331250b3d724b7546c06540a450e9d47"
+        }
+      ],
+      "version": "1.0.0"
+    }
+  ],
+  "visibility": "private"
+}

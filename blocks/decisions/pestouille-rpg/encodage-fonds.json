@@ -1,0 +1,27 @@
+{
+  "candidates": [
+    {
+      "candidate": "cwebp, fidélité uniforme pour tout l’atlas",
+      "licenseRaw": "BSD-3-Clause",
+      "licenseSpdx": "BSD-3-Clause",
+      "need": null,
+      "verdict": "La chaîne le prend déjà en charge. Le premier réglage conforme de la maquette 01 ajoute 122 296 octets et dépasse à lui seul la marge du budget images.",
+      "version": null
+    },
+    {
+      "candidate": "cwebp et Pillow, niveaux distincts pour les cadres puis assemblage en VP8L sans perte",
+      "licenseRaw": "cwebp BSD-3-Clause, Pillow HPND",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Les outils sont déjà utilisés par la chaîne locale. Les coordonnées des atlas existants permettent de conserver leur géométrie et la compatibilité du chargeur.",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-ENCODAGE-FONDS",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/encodage-fonds.md",
+    "repo": "pestouille-rpg",
+    "sha256": "1bdf669b2148c179b8955b67ee400db93cda2d18c95cf4fb1c8c11cb765de4b5"
+  }
+}

@@ -1,0 +1,129 @@
+{
+ "version": 1,
+ "source": "ARCH-001 § contrats (spécification, solution)",
+ "specification": {
+  "schema": "specs/schemas/specification.schema.json",
+  "champs": {
+   "specId": {
+    "chemin": "id",
+    "obligatoire": true,
+    "note": "identifiant stable SPEC-…"
+   },
+   "version": {
+    "chemin": "versions[].version",
+    "obligatoire": false,
+    "note": "versions publiées ; une spec sans version reste résolue « sans-version »"
+   },
+   "status": {
+    "chemin": "lifecycle",
+    "obligatoire": true,
+    "note": "draft, approved, deprecated, retired"
+   },
+   "sourceRepo": {
+    "chemin": "canonical.importedFrom.repo",
+    "obligatoire": false,
+    "note": "null quand la spec est née dans l'usine (canonical.editableIn)"
+   },
+   "sourcePath": {
+    "chemin": "canonical.path",
+    "obligatoire": true,
+    "note": "chemin du document qui fait foi"
+   },
+   "commitSha": {
+    "chemin": "canonical.importedFrom.commitSha",
+    "obligatoire": false,
+    "note": "commit de l'import ; jamais inventé"
+   },
+   "requirements": {
+    "chemin": "requirements",
+    "obligatoire": true,
+    "note": "identifiants REQ- du registre"
+   },
+   "dependencies": {
+    "chemin": "relations",
+    "obligatoire": false,
+    "note": "relations type requires/reuses/consumes ; relations absentes = aucune relation déclarée (2 fiches au 21/11)"
+   },
+   "implementationRefs": {
+    "chemin": "relations",
+    "obligatoire": false,
+    "note": "relations type implements ; état global dans implementation ; relations absentes = aucune relation déclarée (2 fiches au 21/11)"
+   },
+   "testRefs": {
+    "chemin": "relations",
+    "obligatoire": false,
+    "note": "relations type tested-by ; état global dans evidence ; relations absentes = aucune relation déclarée (2 fiches au 21/11)"
+   },
+   "decisionRefs": {
+    "chemin": "decisions",
+    "obligatoire": false,
+    "note": "décisions et arbitrages (références HL-n 7-n)"
+   }
+  }
+ },
+ "solution": {
+  "schema": "blocks/schemas/block.schema.json",
+  "champs": {
+   "componentId": {
+    "chemin": "id",
+    "obligatoire": true,
+    "note": "BB-…"
+   },
+   "type": {
+    "chemin": "kind",
+    "obligatoire": true,
+    "note": "12 valeurs (BB-001 § 4)"
+   },
+   "sourceRepo": {
+    "chemin": "origin.repo",
+    "obligatoire": false,
+    "note": "absent pour une brique externe (npm, Docker…) : origin.repositoryUrl la situe"
+   },
+   "version": {
+    "chemin": "origin.version",
+    "obligatoire": true,
+    "note": "null si non résolue ; jamais inventée"
+   },
+   "capabilities": {
+    "chemin": "capabilities",
+    "obligatoire": true,
+    "note": "capacités déclarées"
+   },
+   "interfaces": {
+    "chemin": "interfaces",
+    "obligatoire": true,
+    "note": "langage et environnement d'exécution"
+   },
+   "license": {
+    "chemin": "origin.licenseSpdx",
+    "obligatoire": true,
+    "note": "SPDX ou UNKNOWN"
+   },
+   "sbomRef": {
+    "chemin": "quality.sbomRef",
+    "obligatoire": true,
+    "note": "null tant qu'aucun SBOM n'est relié"
+   },
+   "specRefs": {
+    "chemin": "specIds",
+    "obligatoire": true,
+    "note": "SPEC-… résolus par bbctl validate"
+   },
+   "consumers": {
+    "chemin": "usedBy",
+    "obligatoire": true,
+    "note": "jeux et unités consommatrices"
+   },
+   "validationEvidence": {
+    "chemin": "quality.securityReportRef",
+    "obligatoire": true,
+    "note": "rapport de sécurité ou null"
+   },
+   "lifecycle": {
+    "chemin": "quality.status",
+    "obligatoire": true,
+    "note": "discovered … adopted, deprecated, rejected, blocked"
+   }
+  }
+ }
+}

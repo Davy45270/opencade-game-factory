@@ -1,0 +1,69 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:happy-dom@21.0.4"
+  },
+  "id": "BB-NPM-HAPPY-DOM-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "happy-dom",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "package.json",
+      "repo": "capsule-panic"
+    },
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "package.json",
+      "repo": "cozy-room-sort"
+    },
+    {
+      "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "path": "package.json",
+      "repo": "echecs-kid"
+    },
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "package.json",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "21.0.4"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-CAPSULE-PANIC",
+    "SPEC-COZY-ROOM-SORT",
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "capsule-panic",
+    "cozy-room-sort",
+    "echecs-kid",
+    "six-de-chaque"
+  ]
+}

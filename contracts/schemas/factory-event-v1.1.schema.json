@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://homelab.dav123.fr/schemas/factory-event-v1.1.json",
+  "title": "FactoryEvent v1.1 (OPS-001 § 7 + ARCH-11 : traceId, specRefs, buildingBlockRefs)",
+  "description": "Compatible v1 : tout événement v1 valide l'est aussi ici. v1.1 ajoute specRefs et buildingBlockRefs (optionnels, réservés à schemaVersion 1.1) ; traceId existait déjà (optionnel). Horodatages UTC ISO-8601 terminés par Z.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "eventId",
+    "occurredAt",
+    "source",
+    "portfolioId",
+    "projectId",
+    "workflowId",
+    "workflowVersion",
+    "runId",
+    "eventType",
+    "status",
+    "evidence",
+    "metadata"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "enum": [
+        1,
+        1.1
+      ]
+    },
+    "eventId": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@+-]+$"
+    },
+    "occurredAt": {
+      "$ref": "#/$defs/utc"
+    },
+    "receivedAt": {
+      "$ref": "#/$defs/utc"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "portfolioId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "projectId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "workflowId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "workflowVersion": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "executionId": {
+      "type": "string",
+      "maxLength": 256
+    },
+    "parentExecutionId": {
+      "type": "string",
+      "maxLength": 256
+    },
+    "agentId": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "taskId": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "traceId": {
+      "type": "string",
+      "maxLength": 128
+    },
+    "commitSha": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{7,64}$"
+    },
+    "pullRequestId": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "eventType": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_.-]{2,63}$"
+    },
+    "status": {
+      "enum": [
+        "queued",
+        "running",
+        "blocked",
+        "success",
+        "failure",
+        "cancelled",
+        "unknown"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "uri",
+          "kind"
+        ],
+        "properties": {
+          "uri": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2048
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "specRefs": {
+      "type": "array",
+      "maxItems": 64,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "pattern": "^[A-Za-z0-9._:/@+-]+$"
+      }
+    },
+    "buildingBlockRefs": {
+      "type": "array",
+      "maxItems": 64,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "pattern": "^[A-Za-z0-9._:/@+-]+$"
+      }
+    }
+  },
+  "$defs": {
+    "utc": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,6})?Z$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schemaVersion": {
+            "const": 1
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "specRefs"
+              ]
+            },
+            {
+              "required": [
+                "buildingBlockRefs"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

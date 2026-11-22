@@ -1,0 +1,53 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@playwright/test@1.64.1"
+  },
+  "id": "BB-NPM-PLAYWRIGHT-TEST-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "test-harness",
+  "name": "@playwright/test",
+  "observedIn": [
+    {
+      "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": "package.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "path": "package.json",
+      "repo": "tictac"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "Apache-2.0",
+    "repositoryUrl": null,
+    "version": "1.64.1"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "petit-astronome",
+    "tictac"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "candidates": [
+    {
+      "candidate": "`xstate` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "machines à états pour les phases d'une quête ; l'idempotence par identifiant d'événement reste à écrire",
+      "version": "5.33.4"
+    },
+    {
+      "candidate": "`robot3` (npm)",
+      "licenseRaw": "BSD-2-Clause",
+      "licenseSpdx": "BSD-2-Clause",
+      "need": null,
+      "verdict": "machines à états légères ; même limite, et une dépendance d'exécution de plus",
+      "version": "1.4.0"
+    },
+    {
+      "candidate": "`ajv` (npm, déjà employé)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "valide le contenu contre les schémas JSON d'origine, avec erreurs localisées",
+      "version": "8.20.0"
+    },
+    {
+      "candidate": "Fonctions du dépôt `progression.ts`, `quests.ts`, `world-quests.ts`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "phases, événements vus et récompense unique déjà écrits et testés",
+      "version": "—"
+    },
+    {
+      "candidate": "Résolution de rencontre et inventaire existants",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Réutilise l’attribution unique du butin et les statistiques calculées au démarrage du combat.",
+      "version": null
+    },
+    {
+      "candidate": "Progression et inventaire distincts pour le butin de métier",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Duplique le suivi des victoires et la sauvegarde.",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-PROGRESSION-ET-QUETES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/progression-et-quetes.md",
+    "repo": "pestouille-rpg",
+    "sha256": "9ac8eef595162c5d2466d6ff0dd20671706cb945549895d8ee81d85a0ac481b9"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@stryker-mutator/core@10.1.1"
+  },
+  "id": "BB-NPM-STRYKER-MUTATOR-CORE-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "@stryker-mutator/core",
+  "observedIn": [
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "package.json",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "Apache-2.0",
+    "repositoryUrl": null,
+    "version": "10.1.1"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "six-de-chaque"
+  ]
+}

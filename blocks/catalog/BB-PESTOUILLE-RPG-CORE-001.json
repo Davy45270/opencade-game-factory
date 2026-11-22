@@ -1,0 +1,59 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "local",
+    "key": "local:pestouille-rpg:packages/core"
+  },
+  "id": "BB-PESTOUILLE-RPG-CORE-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "game-local-module",
+  "name": "core",
+  "observedIn": [
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/core",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "licenseSpdx": "MIT",
+    "path": "packages/core",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg/packages/characters",
+    "pestouille-rpg/packages/combat",
+    "pestouille-rpg/packages/creatures",
+    "pestouille-rpg/packages/engine",
+    "pestouille-rpg/packages/inventory",
+    "pestouille-rpg/packages/quests",
+    "pestouille-rpg/packages/solver",
+    "pestouille-rpg/packages/world",
+    "pestouille-rpg/tests/unit"
+  ]
+}

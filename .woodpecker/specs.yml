@@ -1,0 +1,84 @@
+# Module specs/ (REG-003, registre des spécifications) : oracles d'acceptation de `specctl`, fiches du registre
+# valides, graphe sans lien cassé ni cycle. Woodpecker et non GitHub Actions : écart validé par David (HL-525 7-2955,
+# HL-538 condition 2). Aucun secret. Rejeu local sans conteneur : scripts/ci-local.sh specs
+#
+# Les oracles construisent leur propre homelab-docs jetable (git) et pointent USINE_RACINE vers un dossier
+# temporaire : aucun test n'écrit dans le dépôt, ni ne lit la doc réelle.
+labels:
+  host: tank01
+
+when:
+  - event: push
+    branch: [main, usine]
+  - event: [pull_request, manual]
+
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      depth: 0
+      partial: false
+      # Branche cible récupérée par le plugin qui détient les identifiants (dépôt privé) : un `git fetch` dans une
+      # étape sort en 128 (pipeline 64, comme le pipeline 18 de HL-538).
+      fetch_target_branch: true
+
+steps:
+  - name: dependances
+    image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    commands:
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+
+  # REG-T01…T12 et REG-01…REG-08 : oracles écrits avant le code (tests/specs), chacun vu rouge avant son correctif.
+  - name: oracles-specctl
+    image: *py
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
+
+  # § 2 : sur une PR, aucun identifiant du registre d'IDs (specs/registry/ids.json) n'est retiré ni réattribué par
+  # rapport à la branche cible. Même mécanisme que controle-de-pr de validate.yml : la cible vient du clone.
+  - name: ids-contre-la-cible
+    image: *py
+    when:
+      - event: pull_request
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+      - git config --global --add safe.directory '*'
+      - . .venv/bin/activate
+      - CIBLE="$${CI_COMMIT_TARGET_BRANCH:?branche cible inconnue}"
+      - git rev-parse --verify -q "refs/remotes/origin/$$CIBLE^{commit}" >/dev/null || { echo "origin/$$CIBLE absente du clone"; exit 1; }
+      - ./specctl --json validate --base "origin/$$CIBLE"
+
+  # Le registre réel du dépôt : schémas, identifiants, relations typées, liens cassés et cycles.
+  - name: registre
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json validate
+      - ./specctl --json verify
+
+  # ARCH-001 E009 : le magasin d'assets (originaux de niveaux, planches) est référencé fichier par fichier, avec
+  # empreinte et origine ; le registre des specs ne tient que des références. Mesure sur le dépôt réel (code 1 = écart).
+  - name: sources-de-verite
+    image: *py
+    commands:
+      - python3 scripts/sources_de_verite.py
+
+  # § 3 et T10 : les index générés (generated/specs) se reconstruisent depuis les fiches seules, et ceux qui sont
+  # commités sont à jour (périmé = code 2).
+  - name: index
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json index --check
+
+  # § 9 : SBOM CycloneDX de specctl (fermeture des dépendances installées), licences dans la politique.
+  - name: sbom-specctl
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json sbom --out /tmp/specctl.cdx.json

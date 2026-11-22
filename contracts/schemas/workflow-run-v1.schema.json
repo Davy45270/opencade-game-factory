@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:opencade:contracts:workflow-run-v1.schema.json",
+  "title": "Exécution d'un workflow défini",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "runId",
+    "workflowId",
+    "workflowVersion",
+    "projectId",
+    "status",
+    "startedAt"
+  ],
+  "properties": {
+    "runId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "workflowId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "workflowVersion": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "projectId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "traceId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "status": {
+      "enum": [
+        "queued",
+        "running",
+        "blocked",
+        "success",
+        "failure",
+        "cancelled",
+        "unknown"
+      ]
+    },
+    "startedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,6})?Z$"
+    },
+    "finishedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,6})?Z$"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "running",
+              "success",
+              "failure",
+              "skipped"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@playwright/test@1.65.1"
+  },
+  "id": "BB-NPM-PLAYWRIGHT-TEST-003",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "test-harness",
+  "name": "@playwright/test",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "package.json",
+      "repo": "opencade"
+    },
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "package.json",
+      "repo": "opencadkid"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "package.json",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "Apache-2.0",
+    "repositoryUrl": null,
+    "version": "1.65.1"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-OPENCADKID",
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "opencade",
+    "opencadkid",
+    "pestouille-rpg"
+  ]
+}

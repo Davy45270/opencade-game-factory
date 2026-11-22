@@ -1,0 +1,140 @@
+{
+  "edges": [
+    {
+      "from": "SPEC-CAPSULE-PANIC",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-CAPSULE-PANIC",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-COZY-ROOM-SORT",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-COZY-ROOM-SORT",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-ECHECS",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-ECHECS",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-GAME-FACTORY",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "requires"
+    },
+    {
+      "from": "SPEC-GAME-FACTORY",
+      "target": "SPEC-CONTROL-TOWER",
+      "type": "requires"
+    },
+    {
+      "from": "SPEC-OPENCADKID",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-OPENCADKID",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-PESTOUILLE-RPG",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-PESTOUILLE-RPG",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-SIX-DE-CHAQUE",
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "from": "SPEC-SIX-DE-CHAQUE",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
+  "nodes": [
+    {
+      "decisions": [],
+      "id": "SPEC-ASSET-REGISTRY",
+      "lifecycle": "draft",
+      "project": "asset-registry",
+      "version": "1.0.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-CAPSULE-PANIC",
+      "lifecycle": "draft",
+      "project": "capsule-panic",
+      "version": "1.0.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-CONTROL-TOWER",
+      "lifecycle": "draft",
+      "project": "control-tower",
+      "version": "1.0.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-COZY-ROOM-SORT",
+      "lifecycle": "draft",
+      "project": "cozy-room-sort",
+      "version": "0.1.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-ECHECS",
+      "lifecycle": "draft",
+      "project": "echecs",
+      "version": null
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-GAME-FACTORY",
+      "lifecycle": "draft",
+      "project": "game-factory",
+      "version": "1.0.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-OPENCADKID",
+      "lifecycle": "draft",
+      "project": "opencadkid",
+      "version": "1.1.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-PESTOUILLE-RPG",
+      "lifecycle": "draft",
+      "project": "pestouille-rpg",
+      "version": "1.4.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-SIX-DE-CHAQUE",
+      "lifecycle": "draft",
+      "project": "six-de-chaque",
+      "version": "1.0.0"
+    }
+  ],
+  "schemaVersion": 1
+}

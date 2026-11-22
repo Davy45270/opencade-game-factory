@@ -276,11 +276,10 @@ Les révisions déjà publiées conservent leur preuve de publication.
 | 4 | Source indisponible : erreur d’entrée/sortie, réseau, dépendance ou miroir injoignable |
 | 5 | Conflit de versions : catalogue, registre d’identifiants ou base modifiés entre la lecture et l’écriture |
 
-Cette table est **commune à toutes les sous-commandes** et aux CLI à venir de l’usine (`specctl`, niveaux, briques),
-alignée sur celle de `specctl` (REG-003) : 0 succès, 1 contrôle, 2 usage, 3 refus, 4 source indisponible, 5 conflit
+Cette table est **commune à toutes les sous-commandes** et aux CLI à venir de l’usine (niveaux, briques) : 0 succès, 1 contrôle, 2 usage, 3 refus, 4 source indisponible, 5 conflit
 de versions. Un module ne crée pas son propre code ; un cas nouveau s’ajoute ici.
 
-**Seule exception : `assetctl level` (EXT-002, `levelctl`)**, dont la spec fixe ses propres codes (06_CLI_AGENTS) et
+**Exception : `assetctl level` (EXT-002, `levelctl`)**, dont la spec fixe ses propres codes (06_CLI_AGENTS) et
 qui les rend tels quels (`tools/levels.LevelExit`). Correspondance vers la table commune, pour un appelant qui
 enchaîne plusieurs modules :
 
@@ -293,6 +292,16 @@ enchaîne plusieurs modules :
 | `5` | Droits ou licence bloquants | 3 |
 | `6` | Simulation ou validation indéterminée (`inconclusive`, budget épuisé) : jamais un succès | 1 |
 | `7` | Erreur d’infrastructure : git, source illisible, module désactivé (`ASSETCTL_LEVELS=off`) | 4 |
+
+**Même règle pour `specctl` (REG-003 § 6)**, qui rend les codes de sa spec (`specs/specctl.CODES_REG003`) :
+
+| Code `specctl` (REG-003) | Signification | Code commun équivalent |
+| --- | --- | --- |
+| `0` | Succès | 0 |
+| `2` | Non-conformité : contrôle en échec, fiche ou projet introuvable, verrou de PR périmé | 1 |
+| `3` | Entrée invalide : usage, ou refus de sécurité (approbation de David absente) | 2 ou 3 |
+| `4` | Source indisponible (doc, dépôt, Drive, registre) : jamais une non-conformité | 4 |
+| `5` | Conflit de versions : arbitrage de David requis | 5 |
 
 Le journal JSON Lines est écrit sur stderr par défaut. `--log <fichier>`
 ajoute les événements à un fichier extérieur au catalogue. Le résultat

@@ -1,0 +1,63 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@vitest/coverage-v8@5.1.0"
+  },
+  "id": "BB-NPM-VITEST-COVERAGE-V8-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "test-harness",
+  "name": "@vitest/coverage-v8",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "package.json",
+      "repo": "capsule-panic"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "package.json",
+      "repo": "pestouille-rpg"
+    },
+    {
+      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "path": "package.json",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "5.1.0"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-CAPSULE-PANIC",
+    "SPEC-PESTOUILLE-RPG",
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "capsule-panic",
+    "pestouille-rpg",
+    "six-de-chaque"
+  ]
+}

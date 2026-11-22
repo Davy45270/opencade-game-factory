@@ -20,6 +20,8 @@ class LienSpecs(unittest.TestCase):
         reg.mkdir(parents=True)
         for projet in ("six-de-chaque", "capsule-panic"):
             (reg / f"SPEC-{projet.upper()}.json").write_text(json.dumps({"id": f"SPEC-{projet.upper()}", "project": projet}))
+        # lien posé à la main vers une spec qui existe (E055 : validate refuse un lien non résolu)
+        (reg / "SPEC-MANUEL.json").write_text(json.dumps({"id": "SPEC-MANUEL", "project": "manuel"}))
         self.u.poser(fiche(id="BB-A-001", usedBy=["six-de-chaque/apps/web", "capsule-panic", "tictac"], specIds=[]))
         self.u.poser(fiche(id="BB-B-001", usedBy=["tictac"], specIds=["SPEC-MANUEL"]))
 

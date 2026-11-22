@@ -28,6 +28,7 @@ steps:
       - . .venv/bin/activate
       - python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/agents -t . -p 'test_*.py'
+      - python3 -m unittest discover -s tests/github -t . -p 'test_*.py'
       - python3 -m unittest discover -s tests/ci -t . -p 'test_*.py' 2>&1 | tee /tmp/ci.txt
       - grep -q '^OK' /tmp/ci.txt
       - >-

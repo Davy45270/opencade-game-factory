@@ -372,3 +372,54 @@ class TracerDerives(TestCase):
             self.assertNotIn("derivedFrom", fiches["dy"]["provenance"])
             self.assertEqual(fiches["svg"]["variants"], ["dx"])
             self.assertEqual(compte, {"derives_traces": 1})
+
+
+class CatalogueDeDavid(TestCase):
+    """Catalogue d'assets de David : MIT par fichier (SHA-256 abrégé ou pixels de la copie) ; auteur inconnu refusé."""
+    def test_catalogue_assets(self):
+        import io, json, tempfile
+        from unittest import mock
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as d:
+            r = il.Path(d)
+            buf = io.BytesIO(); Image.new("RGBA", (3, 2), (9, 8, 7, 255)).save(buf, format="PNG"); png = buf.getvalue()
+            buf2 = io.BytesIO(); Image.new("RGBA", (3, 2), (9, 8, 7, 255)).save(buf2, format="PNG", optimize=True,
+                                                                               compress_level=0)
+            (r / "copie.png").write_bytes(png)
+            cat = {"entrees": [
+                {"id": "A", "droits": il.MIT_DAVID + " pour cet usage)", "auteur": "outil IA sur commande de David",
+                 "fichiers": [{"source": "~/Projets/jeux/J/a.png", "sha256": il.sha256(png)[:16], "copie": "copie.png"}]},
+                {"id": "B", "droits": il.MIT_DAVID + " pour cet usage)", "auteur": "inconnu — source non retrouvée",
+                 "fichiers": [{"source": "~/Projets/jeux/J/b.png", "sha256": il.sha256(png)[:16]}]}]}
+            (r / "catalogue.json").write_text(json.dumps(cat))
+            with mock.patch.object(il, "CATALOGUE_DAVID", str(r / "catalogue.json")):
+                profil = il.profil_monorepo("J", [])
+                profil["declarations_licence"][0]["racine"] = "~/Projets/jeux/J/"
+                dec = il.declarations_licence(r, profil)
+                regle = il.regle_image(profil, "a.png", dec, png)
+                self.assertEqual((regle["licence"], regle["auteur"]), ("MIT", "outil IA sur commande de David"))
+                self.assertEqual(regle["copies"], [("j", "a.png"), ("j", "b.png"), ("jeux-assets", "copie.png")])
+                if buf2.getvalue() != png:
+                    self.assertEqual(il.regle_image(profil, "a.png", dec, buf2.getvalue())["licence"], "MIT")
+                autre = io.BytesIO(); Image.new("RGBA", (3, 2), (1, 2, 3, 255)).save(autre, format="PNG")
+                self.assertIsNone(il.regle_image(profil, "a.png", dec, autre.getvalue()))
+                self.assertIsNone(il.regle_image(profil, "b.png", dec, png))
+                self.assertIsNone(il.regle_image(profil, "c.png", dec, png))
+
+
+class CopieDuCatalogue(TestCase):
+    """La fiche de la copie déclarée par le catalogue (dépôt jeux-assets) reçoit la licence ; une autre copie, non."""
+    regle = {"licence": "MIT", "licence_preuve": {"method": "m", "ref": "r", "decision": "d"}, "auteur": "A"}
+
+    def test_copie_jeux_assets(self):
+        import json, tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            (il.Path(d) / "catalog/assets").mkdir(parents=True)
+            for aid, ev in (("a", "jeux-assets@x:objets/b.webp"), ("b", "jeux-assets@x:objets/autre.webp")):
+                (il.Path(d) / "catalog/assets" / f"{aid}.json").write_text(json.dumps(
+                    {"id": aid, "license": "unknown", "provenance": {"type": "repo-file", "evidence": [ev]}}))
+            fiches = {}
+            autres = [("jeux-assets", "objets/b.webp")]
+            self.assertTrue(il.appliquer_regle("a", self.regle, fiches, "jeu", "src/b.webp", autres))
+            self.assertFalse(il.appliquer_regle("b", self.regle, fiches, "jeu", "src/b.webp", autres))

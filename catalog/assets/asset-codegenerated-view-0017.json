@@ -60,7 +60,7 @@
         "assetVersion": 1,
         "blobSha256": "3a542c3557f190a508ca61502f31be0f85a1feaeeb4b6f60db0a56a8645ef984",
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/essaim",
         "path": "src/games/essaim/view.ts",
         "provider": "github",
@@ -160,7 +160,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@69948ced3229fc1e850e9ea04b7b71ccb223a982"
+    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
   },
   "name": "view",
   "orientation": "unknown",
@@ -181,8 +181,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "usages": [
+    {
+      "assetPath": "src/games/essaim/view.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/essaim/view.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/games/essaim/view.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid/essaim",
+      "importName": "view",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/essaim/view.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/games/essaim/view.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

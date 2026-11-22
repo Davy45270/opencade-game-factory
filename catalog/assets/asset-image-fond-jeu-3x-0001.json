@@ -144,6 +144,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/fond-jeu@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/fond-jeu@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/fond-jeu@3x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "fond-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fond-jeu@3x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/atlas/fond-jeu@3x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/fond-jeu@3x.png": "7038118f0b2d93aa62cd119f98a0d45a290f712c"
       },
@@ -206,35 +235,6 @@
       "releases": [],
       "repo": "capsule-panic",
       "role": "background",
-      "scene": "packages/assets/atlas/fond-jeu@3x.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/fond-jeu@3x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/fond-jeu@3x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image d'atlas packages/assets/atlas/fond-jeu@3x.png livrée"
-      ],
-      "game": "capsule-panic",
-      "importName": "fond-jeu@3x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/fond-jeu@3x.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas",
       "scene": "packages/assets/atlas/fond-jeu@3x.json",
       "status": "active"
     }

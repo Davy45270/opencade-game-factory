@@ -2,16 +2,14 @@
 
 | Format | Trouvés | Importés | Exceptions | Exclus | Non couverts | Examinés sans asset | Motifs |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| css | 1 | 1 | 0 | 0 | 0 | 0 |  |
-| html | 1 | 0 | 0 | 0 | 0 | 1 |  |
-| js | 4 | 1 | 0 | 0 | 0 | 3 |  |
-| json | 181 | 86 | 0 | 0 | 0 | 95 |  |
-| mjs | 3 | 0 | 0 | 0 | 0 | 3 |  |
-| png | 245 | 245 | 0 | 0 | 0 | 0 |  |
-| svg | 51 | 51 | 0 | 0 | 0 | 0 |  |
-| ts | 107 | 3 | 0 | 1 | 0 | 103 | build/ (1) |
-| tsx | 11 | 0 | 0 | 0 | 0 | 11 |  |
-| webp | 130 | 130 | 0 | 0 | 0 | 0 |  |
+| css | 28 | 28 | 0 | 0 | 0 | 0 |  |
+| html | 29 | 0 | 0 | 0 | 0 | 29 |  |
+| js | 110 | 2 | 0 | 0 | 0 | 108 |  |
+| json | 146 | 0 | 0 | 0 | 0 | 146 |  |
+| ogg | 1000 | 1000 | 0 | 0 | 0 | 0 |  |
+| png | 756 | 756 | 0 | 0 | 0 | 0 |  |
+| ts | 5926 | 947 | 0 | 0 | 0 | 4979 |  |
+| webp | 587 | 587 | 0 | 0 | 0 | 0 |  |
 
 ## Non couverts
 
@@ -22,4 +20,3 @@
 
 | Dépôt | Commit | Chemin | Motif |
 | --- | --- | --- | --- |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | tests/build/static.test.ts | build/ |

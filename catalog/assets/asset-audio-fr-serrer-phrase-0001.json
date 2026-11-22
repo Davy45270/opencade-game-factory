@@ -30,14 +30,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+        "game": null,
+        "path": "public/dictee/audio/fr-serrer-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-serrer-phrase.ogg",
         "provider": "github",
+        "removedAtCommit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "public"
       }
     ],
@@ -63,21 +75,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-serrer-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-serrer-phrase.ogg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-serrer-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-serrer-phrase.ogg"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-serrer-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-serrer-phrase.ogg"
       ],
       "method": "proven"
     }
@@ -95,14 +107,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "a3fdfa519bb458bc5ce0df52a2117d4b31f20cfe52140398577bef4592f11ec8",
+  "sha256": "34ebd44273b44c51407d245d0d5ae3018cbdd32264532820d98caccad8a194bd",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -172,15 +184,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-serrer-phrase.ogg": "2aecec27db48d9698ee05478e00e79378a3d0e17"
+        "public/dictee/audio/fr-serrer-phrase.ogg": "f68e76084300c1af9ba011561d26af368cdafbaf"
       },
       "assetPath": "public/dictee/audio/fr-serrer-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 20881,
+        "line": 21876,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-serrer-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -205,15 +217,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-serrer-phrase.ogg": "2aecec27db48d9698ee05478e00e79378a3d0e17"
+        "public/dictee/audio/fr-serrer-phrase.ogg": "f68e76084300c1af9ba011561d26af368cdafbaf"
       },
       "assetPath": "public/dictee/audio/fr-serrer-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 836,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-serrer-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -235,20 +247,98 @@
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-serrer-phrase.ogg": "f68e76084300c1af9ba011561d26af368cdafbaf"
+      },
+      "assetPath": "public/dictee/audio/fr-serrer-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 836,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-serrer-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-serrer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-serrer-phrase.ogg": "f68e76084300c1af9ba011561d26af368cdafbaf"
+      },
+      "assetPath": "public/dictee/audio/fr-serrer-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 836,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-serrer-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-serrer-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
+      "status": "active"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
       "date": "2026-11-18T20:05:47+01:00",
-      "nextVersion": null,
+      "format": "ogg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "a3fdfa519bb458bc5ce0df52a2117d4b31f20cfe52140398577bef4592f11ec8",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "date": "2026-11-20T23:26:57+01:00",
+      "format": "ogg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "34ebd44273b44c51407d245d0d5ae3018cbdd32264532820d98caccad8a194bd",
+      "version": 2
     }
   ],
   "visualStyle": null

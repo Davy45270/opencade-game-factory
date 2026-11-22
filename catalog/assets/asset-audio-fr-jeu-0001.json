@@ -32,7 +32,7 @@
       {
         "assetVersion": 1,
         "classification": "shared-library",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": null,
         "path": "public/dictee/audio/fr-jeu.ogg",
         "provider": "github",
@@ -102,7 +102,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -210,10 +210,10 @@
       "assetPath": "public/dictee/audio/fr-jeu.ogg",
       "assetVersion": 1,
       "codeRef": {
-        "line": 1370,
+        "line": 1434,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-jeu.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -246,7 +246,7 @@
         "line": 429,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-jeu.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -279,7 +279,7 @@
         "line": 99,
         "path": "scripts/dictee/audio-non-regression.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-jeu.ogg",
         "module-path: scripts/dictee/audio-non-regression.json"
@@ -300,6 +300,72 @@
       "repo": "opencadkid",
       "role": "sfx",
       "scene": "scripts/dictee/audio-non-regression.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jeu.ogg": "7e77ea87430e2be73168b49500fc6c37a33574b6"
+      },
+      "assetPath": "public/dictee/audio/fr-jeu.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 429,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jeu.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-jeu.ogg": "7e77ea87430e2be73168b49500fc6c37a33574b6"
+      },
+      "assetPath": "public/dictee/audio/fr-jeu.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 429,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-jeu.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
       "status": "active"
     }
   ],

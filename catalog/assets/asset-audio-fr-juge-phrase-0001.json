@@ -30,14 +30,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+        "game": null,
+        "path": "public/dictee/audio/fr-juge-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-juge-phrase.ogg",
         "provider": "github",
+        "removedAtCommit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "public"
       }
     ],
@@ -63,21 +75,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-juge-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-juge-phrase.ogg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-juge-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-juge-phrase.ogg"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-juge-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-juge-phrase.ogg"
       ],
       "method": "proven"
     }
@@ -95,14 +107,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "3bbcf62a9e172c47b2420b7c2fc2cb3ccb7f12b3132abd3c5941643bbd0a14c9",
+  "sha256": "fcb670f60445fb8a9ac97157ff33824b25f5b438ca7e45fe193897612510706d",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -172,15 +184,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-juge-phrase.ogg": "35a0f6c4fd7ca25c29c48fafe1e26727f039e045"
+        "public/dictee/audio/fr-juge-phrase.ogg": "53a06249d158dc312ae648ebb1e6c2b82a27ddeb"
       },
       "assetPath": "public/dictee/audio/fr-juge-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 5996,
+        "line": 6287,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-juge-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -205,15 +217,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-juge-phrase.ogg": "35a0f6c4fd7ca25c29c48fafe1e26727f039e045"
+        "public/dictee/audio/fr-juge-phrase.ogg": "53a06249d158dc312ae648ebb1e6c2b82a27ddeb"
       },
       "assetPath": "public/dictee/audio/fr-juge-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 444,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-juge-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -235,20 +247,98 @@
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-juge-phrase.ogg": "53a06249d158dc312ae648ebb1e6c2b82a27ddeb"
+      },
+      "assetPath": "public/dictee/audio/fr-juge-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 444,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-juge-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-juge-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-juge-phrase.ogg": "53a06249d158dc312ae648ebb1e6c2b82a27ddeb"
+      },
+      "assetPath": "public/dictee/audio/fr-juge-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 444,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-juge-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-juge-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
+      "status": "active"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
       "date": "2026-11-18T20:05:47+01:00",
-      "nextVersion": null,
+      "format": "ogg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "3bbcf62a9e172c47b2420b7c2fc2cb3ccb7f12b3132abd3c5941643bbd0a14c9",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "date": "2026-11-20T23:26:57+01:00",
+      "format": "ogg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "fcb670f60445fb8a9ac97157ff33824b25f5b438ca7e45fe193897612510706d",
+      "version": 2
     }
   ],
   "visualStyle": null

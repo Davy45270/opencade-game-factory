@@ -151,7 +151,7 @@
         "assetVersion": 1,
         "blobSha256": "30d8e32a3659d7602b35362f5f88d23b9e4515138f96b293f2f5c1f46508ec05",
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/suites",
         "path": "src/games/suites/items.ts",
         "provider": "github",
@@ -433,7 +433,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@69948ced3229fc1e850e9ea04b7b71ccb223a982"
+    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
   },
   "name": "items",
   "orientation": "unknown",
@@ -454,8 +454,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "usages": [
+    {
+      "assetPath": "src/games/suites/items.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/suites/items.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/games/suites/items.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid/suites",
+      "importName": "items",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/suites/items.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/games/suites/items.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

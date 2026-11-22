@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/compteur-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/compteur-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cristaux-compteur-apercu de packages/assets/atlas/compteur-apercu@2x.png (empreinte de pixels 47b37848e22f63b0)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cristaux-compteur-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/compteur-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/compteur-apercu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/compteur-apercu@2x.json": "a00ef41c9cd0e50af9ce150bbe1df5ccfd798415",
         "packages/assets/atlas/compteur-apercu@2x.png": "d5aa3e4c842f8fdd432970d16e66ccdc0fa432d8"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/compteur-apercu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/compteur-apercu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-cristaux-compteur-apercu de packages/assets/atlas/compteur-apercu@2x.png (empreinte de pixels 47b37848e22f63b0)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cristaux-compteur-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/compteur-apercu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/compteur-apercu@2x.json",
       "status": "active"
     }
   ],

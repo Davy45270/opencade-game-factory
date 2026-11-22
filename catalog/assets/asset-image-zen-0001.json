@@ -201,6 +201,35 @@
       "role": "sprite",
       "scene": "catalogue.json",
       "status": "active"
+    },
+    {
+      "assetPath": "src/games/puzzle/painted/zen.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/puzzle/painted/zen.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/puzzle/painted/zen.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/puzzle",
+      "importName": "zen",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/puzzle/painted/zen.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/puzzle/painted/zen.webp",
+      "status": "active"
     }
   ],
   "variants": [],

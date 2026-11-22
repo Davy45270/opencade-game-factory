@@ -145,14 +145,26 @@
         "visibility": "public"
       },
       {
+        "assetVersion": 27,
+        "classification": "shared-library",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+        "game": null,
+        "path": "src/style.css",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
         "assetVersion": 26,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "src/style.css",
         "provider": "github",
+        "removedAtCommit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "public"
       },
       {
@@ -382,21 +394,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:src/style.css"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:src/style.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:src/style.css"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:src/style.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:src/style.css"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:src/style.css"
       ],
       "method": "proven"
     }
@@ -414,14 +426,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "4bcbe45ad92ec52b2aeab648c000dd83239efe002cbd904da4c96a88adc33c7d",
+  "sha256": "acfb328c0a931559716bca6e37b1ede612e808a4c4b73bb6f18bf88ab2e16576",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -1568,15 +1580,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 1,
         "path": "src/main.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "import: src/style.css",
         "module-path: src/main.ts"
@@ -2234,15 +2246,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 154,
         "path": "tests/arrosoir.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/arrosoir.test.ts"
@@ -2337,15 +2349,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 155,
         "path": "tests/autobus.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/autobus.test.ts"
@@ -2545,15 +2557,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 190,
         "path": "tests/bonbons.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/bonbons.test.ts"
@@ -3105,15 +3117,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 141,
         "path": "tests/briques.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/briques.test.ts"
@@ -3628,15 +3640,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 122,
         "path": "tests/bulles.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/bulles.test.ts"
@@ -4258,15 +4270,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 109,
         "path": "tests/caisses.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/caisses.test.ts"
@@ -4641,15 +4653,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 114,
         "path": "tests/cartons.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/cartons.test.ts"
@@ -4954,15 +4966,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 120,
         "path": "tests/chenille.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/chenille.test.ts"
@@ -5407,15 +5419,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 151,
         "path": "tests/collier.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/collier.test.ts"
@@ -5825,15 +5837,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 132,
         "path": "tests/dedale.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/dedale.test.ts"
@@ -6068,15 +6080,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 153,
         "path": "tests/derapage.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/derapage.test.ts"
@@ -6136,15 +6148,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 112,
         "path": "tests/eclosion.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/eclosion.test.ts"
@@ -6239,15 +6251,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 127,
         "path": "tests/empilo.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/empilo.test.ts"
@@ -6517,15 +6529,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 150,
         "path": "tests/essaim.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/essaim.test.ts"
@@ -6690,15 +6702,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 124,
         "path": "tests/ferraille.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/ferraille.test.ts"
@@ -6828,15 +6840,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 129,
         "path": "tests/fusee.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/fusee.test.ts"
@@ -7106,15 +7118,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 154,
         "path": "tests/grille.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/grille.test.ts"
@@ -7595,15 +7607,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 92,
         "path": "tests/illustration.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: src/style.css",
         "module-path: tests/illustration.test.ts"
@@ -8191,15 +8203,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 122,
         "path": "tests/orbite.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/orbite.test.ts"
@@ -8469,15 +8481,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 141,
         "path": "tests/pepites.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/pepites.test.ts"
@@ -8712,15 +8724,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 133,
         "path": "tests/taupes.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/taupes.test.ts"
@@ -8920,15 +8932,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 110,
         "path": "tests/traverse.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/traverse.test.ts"
@@ -9303,15 +9315,15 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "e30798c52d2223c74fbafd9b35b68955bae3687c"
+        "src/style.css": "c98dabb606b2a7f65a8a7ad7a529ab05cb540093"
       },
       "assetPath": "src/style.css",
-      "assetVersion": 26,
+      "assetVersion": 27,
       "codeRef": {
         "line": 117,
         "path": "tests/vis.test.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/style.css",
         "module-path: tests/vis.test.ts"
@@ -9336,7 +9348,7 @@
     }
   ],
   "variants": [],
-  "version": 26,
+  "version": 27,
   "versions": [
     {
       "causalNext": 2,
@@ -9589,14 +9601,26 @@
       "version": 25
     },
     {
-      "causalNext": null,
+      "causalNext": 27,
       "causalPrevious": 25,
       "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
       "date": "2026-11-18T20:05:47+01:00",
-      "nextVersion": null,
+      "format": "css",
+      "nextVersion": 27,
       "previousVersion": 25,
       "sha256": "4bcbe45ad92ec52b2aeab648c000dd83239efe002cbd904da4c96a88adc33c7d",
       "version": 26
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 26,
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "date": "2026-11-20T23:26:57+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 26,
+      "sha256": "acfb328c0a931559716bca6e37b1ede612e808a4c4b73bb6f18bf88ab2e16576",
+      "version": 27
     }
   ],
   "visualStyle": null

@@ -216,6 +216,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/effets-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "packages/assets/atlas/effets-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-rotation-jeu de packages/assets/atlas/effets-jeu@2x.png (empreinte de pixels 45a51b54e9440271)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-rotation-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-jeu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/effets-jeu@2x.json": "8d0e413cb8aa3d6cc183335d11510e6979e2b987",
         "packages/assets/atlas/effets-jeu@2x.png": "f178c41a83326124d0f9ebff28118a9ea7f800bb"
@@ -281,35 +310,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/effets-jeu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 87,
-        "path": "packages/assets/atlas/effets-jeu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-fleche-rotation-jeu de packages/assets/atlas/effets-jeu@2x.png (empreinte de pixels 45a51b54e9440271)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-fleche-rotation-jeu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/effets-jeu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/effets-jeu@2x.json",
       "status": "active"
     }
   ],

@@ -99,7 +99,7 @@
         "assetVersion": 1,
         "blobSha256": "5fcae0992d3daeac815ba326fb0cbf733e8f73dfc30952398b8a603e7f97b7a9",
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/caisses",
         "path": "src/games/caisses/view.ts",
         "provider": "github",
@@ -277,7 +277,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@69948ced3229fc1e850e9ea04b7b71ccb223a982"
+    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
   },
   "name": "view",
   "orientation": "unknown",
@@ -298,8 +298,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "usages": [
+    {
+      "assetPath": "src/games/caisses/view.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/caisses/view.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/games/caisses/view.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid/caisses",
+      "importName": "view",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/caisses/view.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/games/caisses/view.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

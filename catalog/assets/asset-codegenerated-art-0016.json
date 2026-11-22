@@ -73,7 +73,7 @@
         "assetVersion": 1,
         "blobSha256": "a08fcee5ec4c86fdc78f829eb64379eb1b8f0a11fbec1d2b7dad22404ed83127",
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/pepites",
         "path": "src/games/pepites/art.ts",
         "provider": "github",
@@ -212,7 +212,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@69948ced3229fc1e850e9ea04b7b71ccb223a982"
+    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
   },
   "name": "art",
   "orientation": "unknown",
@@ -233,8 +233,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "usages": [
+    {
+      "assetPath": "src/games/pepites/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/pepites/art.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/games/pepites/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid/pepites",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/pepites/art.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/games/pepites/art.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

@@ -171,6 +171,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "packages/assets/atlas/effets-maquettes@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-ligne-elimination-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels 70ed5852aa3e5fe1)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-ligne-elimination-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/effets-maquettes@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/effets-maquettes@2x.json": "5f457426b0d6115bad22e1e2d133e05b5e15de42",
         "packages/assets/atlas/effets-maquettes@2x.png": "a0677489a6024ca7e43655d7c78d2b10a48907ab"
@@ -236,35 +265,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/effets-maquettes@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 213,
-        "path": "packages/assets/atlas/effets-maquettes@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-ligne-elimination-apercu de packages/assets/atlas/effets-maquettes@2x.png (empreinte de pixels 70ed5852aa3e5fe1)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-ligne-elimination-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/effets-maquettes@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/effets-maquettes@2x.json",
       "status": "active"
     }
   ],

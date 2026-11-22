@@ -117,7 +117,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/cherche",
         "path": "src/games/cherche/props/cherche-banc.webp",
         "provider": "github",
@@ -418,7 +418,7 @@
     "pompiers"
   ],
   "thumbnail": "thumbnails/a8/a8ad5fc26be1ddb80f82929f1d8ef6aa2454ec9e53f42607fc903a401d6a50bd.webp",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -463,7 +463,7 @@
         "line": 9,
         "path": "src/games/cherche/items.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/games/cherche/props/cherche-banc.webp",
         "module-path: src/games/cherche/items.ts"
@@ -505,6 +505,35 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "src/games/cherche/props/cherche-banc.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/cherche/props/cherche-banc.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/cherche/props/cherche-banc.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/cherche",
+      "importName": "cherche-banc",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/cherche/props/cherche-banc.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/cherche/props/cherche-banc.webp",
       "status": "active"
     }
   ],

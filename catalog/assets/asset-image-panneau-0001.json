@@ -193,6 +193,35 @@
       "role": "sprite",
       "scene": "catalogue.json",
       "status": "active"
+    },
+    {
+      "assetPath": "src/games/chemin/painted/panneau.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/chemin/painted/panneau.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/chemin/painted/panneau.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/chemin",
+      "importName": "panneau",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/chemin/painted/panneau.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/chemin/painted/panneau.webp",
+      "status": "active"
     }
   ],
   "variants": [

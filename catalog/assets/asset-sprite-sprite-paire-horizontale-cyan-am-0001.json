@@ -161,6 +161,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/paires-horizontale-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "packages/assets/atlas/paires-horizontale-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-paire-horizontale-cyan-ambre de packages/assets/atlas/paires-horizontale-origine@2x.png (empreinte de pixels 430ea914250d59b6)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-paire-horizontale-cyan-ambre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/paires-horizontale-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/paires-horizontale-origine@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/paires-horizontale-origine@2x.json": "b10505bb642b0aa05b33304f15ce17c915029250",
         "packages/assets/atlas/paires-horizontale-origine@2x.png": "8c98abd920245025625d2736c27ffb1f54d428bb"
@@ -226,35 +255,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/paires-horizontale-origine@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 24,
-        "path": "packages/assets/atlas/paires-horizontale-origine@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-paire-horizontale-cyan-ambre de packages/assets/atlas/paires-horizontale-origine@2x.png (empreinte de pixels 430ea914250d59b6)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-paire-horizontale-cyan-ambre",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/paires-horizontale-origine@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/paires-horizontale-origine@2x.json",
       "status": "active"
     }
   ],

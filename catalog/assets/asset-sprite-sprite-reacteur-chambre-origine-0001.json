@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/chambre-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/chambre-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-reacteur-chambre-origine de packages/assets/atlas/chambre-origine@2x.png (empreinte de pixels 7ab828c648f4116c)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-reacteur-chambre-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/chambre-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/chambre-origine@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/chambre-origine@2x.json": "909a3dd08030590506c01a559159fc3e5706799f",
         "packages/assets/atlas/chambre-origine@2x.png": "10faa1cb32efae3c3ba2b49ac1059ff4f109c0e3"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/chambre-origine@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/chambre-origine@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-reacteur-chambre-origine de packages/assets/atlas/chambre-origine@2x.png (empreinte de pixels 7ab828c648f4116c)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-reacteur-chambre-origine",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/chambre-origine@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/chambre-origine@2x.json",
       "status": "active"
     }
   ],

@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/chambre-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/chambre-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-reacteur-chambre-apercu de packages/assets/atlas/chambre-apercu@2x.png (empreinte de pixels e0e49fd657028329)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-reacteur-chambre-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/chambre-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/chambre-apercu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/chambre-apercu@2x.json": "99e4e0b5b78123bd3f991b5f22186f3fed08fb86",
         "packages/assets/atlas/chambre-apercu@2x.png": "6b0df3d880005a987263b68c0d103ec85634935f"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/chambre-apercu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/chambre-apercu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-reacteur-chambre-apercu de packages/assets/atlas/chambre-apercu@2x.png (empreinte de pixels e0e49fd657028329)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-reacteur-chambre-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/chambre-apercu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/chambre-apercu@2x.json",
       "status": "active"
     }
   ],

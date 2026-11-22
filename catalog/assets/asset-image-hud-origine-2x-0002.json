@@ -133,6 +133,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/hud-origine@2x.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/hud-origine@2x.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/atlas/hud-origine@2x.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "hud-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/hud-origine@2x.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/atlas/hud-origine@2x.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/hud-origine@2x.webp": "9c34c5d070b1af54566b3a1354500899aab59727"
       },
@@ -163,35 +192,6 @@
       "repo": "capsule-panic",
       "role": "ui",
       "scene": "packages/assets/assets.inventaire.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/hud-origine@2x.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/hud-origine@2x.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/atlas/hud-origine@2x.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "hud-origine@2x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/hud-origine@2x.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/atlas/hud-origine@2x.webp",
       "status": "active"
     }
   ],

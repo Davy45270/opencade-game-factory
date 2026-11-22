@@ -3,6 +3,12 @@
 Registre privé des ressources de jeux autorisés. Le catalogue versionné
 conserve les identifiants, la provenance, les licences et l’historique des usages.
 
+La source est la forge (`david/opencade-asset-registry`) : les PR s’y ouvrent et
+s’y fusionnent. Une copie publique, [Davy45270/opencade-game-factory](https://github.com/Davy45270/opencade-game-factory),
+reçoit `main` et les tags de version par synchronisation en avance rapide ; elle
+porte le workflow GitHub Actions `usine` (jobs `registre` et `briques`). L’ancien
+dépôt GitHub privé `Davy45270/opencade-asset-registry` est archivé.
+
 Python 3.11 ou supérieur est requis. Installer les dépendances avec
 `python3 -m pip install -r requirements.txt`.
 

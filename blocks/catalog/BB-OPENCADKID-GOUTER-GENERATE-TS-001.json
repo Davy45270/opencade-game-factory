@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencadkid:scripts/gouter-generate.ts"
+  },
+  "id": "BB-OPENCADKID-GOUTER-GENERATE-TS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "gouter-generate.ts",
+  "observedIn": [
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "scripts/gouter-generate.ts",
+      "repo": "opencadkid"
+    }
+  ],
+  "origin": {
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/gouter-generate.ts",
+    "repo": "opencadkid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-OPENCADKID"
+  ],
+  "usedBy": [
+    "opencadkid"
+  ]
+}

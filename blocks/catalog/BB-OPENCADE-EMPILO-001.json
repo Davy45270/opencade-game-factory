@@ -1,5 +1,58 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Action",
+      "BOMB",
+      "Cell",
+      "Conveyor",
+      "Engine",
+      "LEVELS",
+      "Piece",
+      "SHAPES",
+      "STRATA",
+      "Settled",
+      "State",
+      "Stratum",
+      "TILE",
+      "createDemo",
+      "difficulty",
+      "emptyBoard",
+      "rotate",
+      "settle",
+      "slide",
+      "strataTip",
+      "stratum"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "action",
+    "bomb",
+    "cell",
+    "conveyor",
+    "create-demo",
+    "difficulty",
+    "empty-board",
+    "engine",
+    "levels",
+    "piece",
+    "rotate",
+    "settle",
+    "settled",
+    "shapes",
+    "slide",
+    "state",
+    "strata",
+    "strata-tip",
+    "stratum",
+    "tile"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +64,29 @@
   "id": "BB-OPENCADE-EMPILO-001",
   "interfaces": [
     {
+      "exports": [
+        "Action",
+        "BOMB",
+        "Cell",
+        "Conveyor",
+        "Engine",
+        "LEVELS",
+        "Piece",
+        "SHAPES",
+        "STRATA",
+        "Settled",
+        "State",
+        "Stratum",
+        "TILE",
+        "createDemo",
+        "difficulty",
+        "emptyBoard",
+        "rotate",
+        "settle",
+        "slide",
+        "strataTip",
+        "stratum"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

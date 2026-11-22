@@ -1,5 +1,47 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "ObjectiveKind",
+      "QuestCommand",
+      "QuestDef",
+      "QuestEvent",
+      "QuestObjective",
+      "QuestPhase",
+      "QuestPlan",
+      "QuestProgress",
+      "QuestRewards",
+      "QuestState",
+      "advanceQuest",
+      "applyQuestEvent",
+      "evaluateQuest",
+      "startQuest",
+      "validateQuestDependencies"
+    ],
+    "imports": [
+      "@pestouille/core"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance-quest",
+    "apply-quest-event",
+    "evaluate-quest",
+    "objective-kind",
+    "quest-command",
+    "quest-def",
+    "quest-event",
+    "quest-objective",
+    "quest-phase",
+    "quest-plan",
+    "quest-progress",
+    "quest-rewards",
+    "quest-state",
+    "start-quest",
+    "validate-quest-dependencies"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +53,23 @@
   "id": "BB-PESTOUILLE-RPG-QUESTS-001",
   "interfaces": [
     {
+      "exports": [
+        "ObjectiveKind",
+        "QuestCommand",
+        "QuestDef",
+        "QuestEvent",
+        "QuestObjective",
+        "QuestPhase",
+        "QuestPlan",
+        "QuestProgress",
+        "QuestRewards",
+        "QuestState",
+        "advanceQuest",
+        "applyQuestEvent",
+        "evaluateQuest",
+        "startQuest",
+        "validateQuestDependencies"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +78,13 @@
   "name": "quests",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/quests",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/quests",
     "repo": "pestouille-rpg",

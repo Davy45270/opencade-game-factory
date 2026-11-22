@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:six-de-chaque:.woodpecker/e2e.yml"
+  },
+  "id": "BB-SIX-DE-CHAQUE-E2E-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "e2e",
+  "observedIn": [
+    {
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+      "path": ".woodpecker/e2e.yml",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/e2e.yml",
+    "repo": "six-de-chaque",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "six-de-chaque"
+  ]
+}

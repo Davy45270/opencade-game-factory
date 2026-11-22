@@ -1,5 +1,23 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "EngineEvent",
+      "FixedStep",
+      "Random",
+      "demo"
+    ],
+    "imports": [],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "demo",
+    "engine-event",
+    "fixed-step",
+    "random"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +29,12 @@
   "id": "BB-OPENCADE-SHARED-001",
   "interfaces": [
     {
+      "exports": [
+        "EngineEvent",
+        "FixedStep",
+        "Random",
+        "demo"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -44,6 +68,28 @@
   "schemaVersion": "1.0",
   "specIds": [],
   "usedBy": [
+    "opencade/engines/alunir",
+    "opencade/engines/artificiers",
+    "opencade/engines/bombercade",
+    "opencade/engines/briqueterie",
+    "opencade/engines/bubble",
+    "opencade/engines/busfolie",
+    "opencade/engines/caisses",
+    "opencade/engines/collier",
+    "opencade/engines/dedale",
+    "opencade/engines/demineur",
+    "opencade/engines/derapage",
+    "opencade/engines/empilo",
+    "opencade/engines/essaim",
+    "opencade/engines/ferraille",
+    "opencade/engines/fusio",
+    "opencade/engines/gourmandises",
+    "opencade/engines/orbite",
+    "opencade/engines/pepites",
+    "opencade/engines/petits-pompiers",
+    "opencade/engines/serpentin",
+    "opencade/engines/sudoku",
+    "opencade/engines/traverse",
     "opencade/gourmandises",
     "opencade/tests/e2e"
   ]

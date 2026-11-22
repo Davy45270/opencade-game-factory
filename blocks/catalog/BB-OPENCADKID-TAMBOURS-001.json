@@ -1,5 +1,55 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "BASE_TEMPO",
+      "Level",
+      "MAX_TEMPO",
+      "MIXED_MODES",
+      "Mode",
+      "Question",
+      "QuestionMode",
+      "Session",
+      "advance",
+      "complete",
+      "generateRound",
+      "hit",
+      "isUnlocked",
+      "levels",
+      "notes",
+      "sequence",
+      "stars",
+      "start",
+      "timed"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "base-tempo",
+    "complete",
+    "generate-round",
+    "hit",
+    "is-unlocked",
+    "level",
+    "levels",
+    "max-tempo",
+    "mixed-modes",
+    "mode",
+    "notes",
+    "question",
+    "question-mode",
+    "sequence",
+    "session",
+    "stars",
+    "start",
+    "timed"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +61,27 @@
   "id": "BB-OPENCADKID-TAMBOURS-001",
   "interfaces": [
     {
+      "exports": [
+        "BASE_TEMPO",
+        "Level",
+        "MAX_TEMPO",
+        "MIXED_MODES",
+        "Mode",
+        "Question",
+        "QuestionMode",
+        "Session",
+        "advance",
+        "complete",
+        "generateRound",
+        "hit",
+        "isUnlocked",
+        "levels",
+        "notes",
+        "sequence",
+        "stars",
+        "start",
+        "timed"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

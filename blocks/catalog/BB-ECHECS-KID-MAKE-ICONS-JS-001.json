@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:echecs-kid:scripts/make-icons.js"
+  },
+  "id": "BB-ECHECS-KID-MAKE-ICONS-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "make-icons.js",
+  "observedIn": [
+    {
+      "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "path": "scripts/make-icons.js",
+      "repo": "echecs-kid"
+    }
+  ],
+  "origin": {
+    "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/make-icons.js",
+    "repo": "echecs-kid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "echecs-kid"
+  ]
+}

@@ -1,5 +1,59 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Direction",
+      "Level",
+      "Maze",
+      "Point",
+      "centre",
+      "complete",
+      "directions",
+      "extend",
+      "firstStep",
+      "fromPoint",
+      "hasHelp",
+      "hint",
+      "interpolate",
+      "isUnlocked",
+      "levels",
+      "medal",
+      "neighbour",
+      "newMaze",
+      "route",
+      "segmentCells",
+      "stars"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "centre",
+    "complete",
+    "direction",
+    "directions",
+    "extend",
+    "first-step",
+    "from-point",
+    "has-help",
+    "hint",
+    "interpolate",
+    "is-unlocked",
+    "level",
+    "levels",
+    "maze",
+    "medal",
+    "neighbour",
+    "new-maze",
+    "point",
+    "route",
+    "segment-cells",
+    "stars"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +65,29 @@
   "id": "BB-OPENCADKID-CHEMIN-001",
   "interfaces": [
     {
+      "exports": [
+        "Direction",
+        "Level",
+        "Maze",
+        "Point",
+        "centre",
+        "complete",
+        "directions",
+        "extend",
+        "firstStep",
+        "fromPoint",
+        "hasHelp",
+        "hint",
+        "interpolate",
+        "isUnlocked",
+        "levels",
+        "medal",
+        "neighbour",
+        "newMaze",
+        "route",
+        "segmentCells",
+        "stars"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

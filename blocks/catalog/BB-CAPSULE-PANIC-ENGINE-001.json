@@ -1,5 +1,76 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "GameConfig",
+      "GenerationError",
+      "Move",
+      "RestoreError",
+      "RngState",
+      "SPAWN",
+      "canPlace",
+      "capsuleCells",
+      "createGame",
+      "findMatches",
+      "generateBoard",
+      "getAvailableMoves",
+      "getLandingProjection",
+      "obstacleCount",
+      "resolve",
+      "restore",
+      "seedToState",
+      "serialize",
+      "step"
+    ],
+    "imports": [
+      "@capsule-panic/contracts"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/engine/test/api.test.ts",
+      "packages/engine/test/bounds.test.ts",
+      "packages/engine/test/create-game.test.ts",
+      "packages/engine/test/determinism.test.ts",
+      "packages/engine/test/drop.test.ts",
+      "packages/engine/test/evenements-copies.test.ts",
+      "packages/engine/test/generate.test.ts",
+      "packages/engine/test/gravity.test.ts",
+      "packages/engine/test/helpers.ts",
+      "packages/engine/test/match.test.ts",
+      "packages/engine/test/move.test.ts",
+      "packages/engine/test/performance.test.ts",
+      "packages/engine/test/properties.test.ts",
+      "packages/engine/test/property-runs.ts",
+      "packages/engine/test/resolve.test.ts",
+      "packages/engine/test/rng.test.ts",
+      "packages/engine/test/rotate.test.ts",
+      "packages/engine/test/rules.test.ts",
+      "packages/engine/test/serialize.test.ts",
+      "packages/engine/test/simulate.test.ts"
+    ]
+  },
+  "capabilities": [
+    "can-place",
+    "capsule-cells",
+    "create-game",
+    "find-matches",
+    "game-config",
+    "generate-board",
+    "generation-error",
+    "get-available-moves",
+    "get-landing-projection",
+    "move",
+    "obstacle-count",
+    "resolve",
+    "restore",
+    "restore-error",
+    "rng-state",
+    "seed-to-state",
+    "serialize",
+    "spawn",
+    "step"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +82,27 @@
   "id": "BB-CAPSULE-PANIC-ENGINE-001",
   "interfaces": [
     {
+      "exports": [
+        "GameConfig",
+        "GenerationError",
+        "Move",
+        "RestoreError",
+        "RngState",
+        "SPAWN",
+        "canPlace",
+        "capsuleCells",
+        "createGame",
+        "findMatches",
+        "generateBoard",
+        "getAvailableMoves",
+        "getLandingProjection",
+        "obstacleCount",
+        "resolve",
+        "restore",
+        "seedToState",
+        "serialize",
+        "step"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

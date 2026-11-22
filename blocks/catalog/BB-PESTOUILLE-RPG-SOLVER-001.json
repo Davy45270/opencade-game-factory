@@ -1,5 +1,24 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "SimulationOptions",
+      "SimulationOutcome",
+      "simulateEncounter"
+    ],
+    "imports": [
+      "@pestouille/combat",
+      "@pestouille/core"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "simulate-encounter",
+    "simulation-options",
+    "simulation-outcome"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +30,11 @@
   "id": "BB-PESTOUILLE-RPG-SOLVER-001",
   "interfaces": [
     {
+      "exports": [
+        "SimulationOptions",
+        "SimulationOutcome",
+        "simulateEncounter"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +43,13 @@
   "name": "solver",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/solver",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/solver",
     "repo": "pestouille-rpg",

@@ -1,5 +1,65 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "ActiveCapsule",
+      "BoardEvent",
+      "COLORS",
+      "Cell",
+      "Color",
+      "GameCommand",
+      "GameEvent",
+      "GameState",
+      "HEIGHT",
+      "ORIENTATION_OFFSETS",
+      "ObstacleCell",
+      "Orientation",
+      "Phase",
+      "Position",
+      "RULESET",
+      "SegmentCell",
+      "Speed",
+      "Transition",
+      "Validation",
+      "WIDTH",
+      "validateGameState",
+      "validatePuzzleShape"
+    ],
+    "imports": [
+      "ajv"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/contracts/test/fixtures.ts",
+      "packages/contracts/test/spec.test.ts",
+      "packages/contracts/test/validate.test.ts"
+    ]
+  },
+  "capabilities": [
+    "active-capsule",
+    "board-event",
+    "cell",
+    "color",
+    "colors",
+    "game-command",
+    "game-event",
+    "game-state",
+    "height",
+    "obstacle-cell",
+    "orientation",
+    "orientation-offsets",
+    "phase",
+    "position",
+    "ruleset",
+    "segment-cell",
+    "speed",
+    "transition",
+    "validate-game-state",
+    "validate-puzzle-shape",
+    "validation",
+    "width"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +71,30 @@
   "id": "BB-CAPSULE-PANIC-CONTRACTS-001",
   "interfaces": [
     {
+      "exports": [
+        "ActiveCapsule",
+        "BoardEvent",
+        "COLORS",
+        "Cell",
+        "Color",
+        "GameCommand",
+        "GameEvent",
+        "GameState",
+        "HEIGHT",
+        "ORIENTATION_OFFSETS",
+        "ObstacleCell",
+        "Orientation",
+        "Phase",
+        "Position",
+        "RULESET",
+        "SegmentCell",
+        "Speed",
+        "Transition",
+        "Validation",
+        "WIDTH",
+        "validateGameState",
+        "validatePuzzleShape"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

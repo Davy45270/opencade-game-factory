@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:petit-astronome:.github/workflows/ci.yml"
+  },
+  "id": "BB-PETIT-ASTRONOME-CI-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "github-actions"
+    }
+  ],
+  "kind": "workflow",
+  "name": "ci",
+  "observedIn": [
+    {
+      "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": ".github/workflows/ci.yml",
+      "repo": "petit-astronome"
+    }
+  ],
+  "origin": {
+    "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".github/workflows/ci.yml",
+    "repo": "petit-astronome",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "petit-astronome"
+  ]
+}

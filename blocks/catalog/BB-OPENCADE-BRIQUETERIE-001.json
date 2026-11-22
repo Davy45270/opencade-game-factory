@@ -1,5 +1,47 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Ball",
+      "Bonus",
+      "BonusKind",
+      "Brick",
+      "BrickKind",
+      "Engine",
+      "LEVELS",
+      "RADIUS",
+      "STEP",
+      "State",
+      "bricksFor",
+      "contact",
+      "createDemo",
+      "designs",
+      "difficulty"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "ball",
+    "bonus",
+    "bonus-kind",
+    "brick",
+    "brick-kind",
+    "bricks-for",
+    "contact",
+    "create-demo",
+    "designs",
+    "difficulty",
+    "engine",
+    "levels",
+    "radius",
+    "state",
+    "step"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +53,23 @@
   "id": "BB-OPENCADE-BRIQUETERIE-001",
   "interfaces": [
     {
+      "exports": [
+        "Ball",
+        "Bonus",
+        "BonusKind",
+        "Brick",
+        "BrickKind",
+        "Engine",
+        "LEVELS",
+        "RADIUS",
+        "STEP",
+        "State",
+        "bricksFor",
+        "contact",
+        "createDemo",
+        "designs",
+        "difficulty"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

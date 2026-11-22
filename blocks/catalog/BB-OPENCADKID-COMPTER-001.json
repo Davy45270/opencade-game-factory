@@ -1,5 +1,55 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "DECOY_SCENE",
+      "Level",
+      "Mode",
+      "OBJECT_DIAMETER",
+      "ObjectKind",
+      "Position",
+      "Question",
+      "Records",
+      "Session",
+      "advance",
+      "answer",
+      "complete",
+      "generateRound",
+      "isUnlocked",
+      "layoutObjects",
+      "levels",
+      "moveObject",
+      "objects",
+      "stars",
+      "start"
+    ],
+    "imports": [],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "answer",
+    "complete",
+    "decoy-scene",
+    "generate-round",
+    "is-unlocked",
+    "layout-objects",
+    "level",
+    "levels",
+    "mode",
+    "move-object",
+    "object-diameter",
+    "object-kind",
+    "objects",
+    "position",
+    "question",
+    "records",
+    "session",
+    "stars",
+    "start"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +61,28 @@
   "id": "BB-OPENCADKID-COMPTER-001",
   "interfaces": [
     {
+      "exports": [
+        "DECOY_SCENE",
+        "Level",
+        "Mode",
+        "OBJECT_DIAMETER",
+        "ObjectKind",
+        "Position",
+        "Question",
+        "Records",
+        "Session",
+        "advance",
+        "answer",
+        "complete",
+        "generateRound",
+        "isUnlocked",
+        "layoutObjects",
+        "levels",
+        "moveObject",
+        "objects",
+        "stars",
+        "start"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -47,6 +119,13 @@
   ],
   "usedBy": [
     "opencadkid/compter",
+    "opencadkid/engines/chemin",
+    "opencadkid/engines/formes",
+    "opencadkid/engines/puzzle",
+    "opencadkid/engines/ranger",
+    "opencadkid/engines/sons",
+    "opencadkid/engines/suites",
+    "opencadkid/engines/tambours",
     "opencadkid/src/shell",
     "opencadkid/src/ui",
     "opencadkid/tests/e2e"

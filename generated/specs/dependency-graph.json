@@ -69,6 +69,11 @@
       "from": "SPEC-SIX-DE-CHAQUE",
       "target": "SPEC-GAME-FACTORY",
       "type": "consumes"
+    },
+    {
+      "from": "SPEC-TICTAC",
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
     }
   ],
   "nodes": [
@@ -142,6 +147,13 @@
       "lifecycle": "draft",
       "project": "six-de-chaque",
       "version": "1.0.0"
+    },
+    {
+      "decisions": [],
+      "id": "SPEC-TICTAC",
+      "lifecycle": "draft",
+      "project": "tictac",
+      "version": "0.5.0"
     }
   ],
   "schemaVersion": 1

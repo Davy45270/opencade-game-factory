@@ -1,5 +1,63 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Bead",
+      "Bonus",
+      "Burst",
+      "Chain",
+      "DIAMETER",
+      "Engine",
+      "FIXED_MS",
+      "Flight",
+      "GAME_NAME",
+      "LEVELS",
+      "Path",
+      "Point",
+      "RUSH_BELOW",
+      "RUSH_HEAD_LIMIT",
+      "RUSH_RAMP_S",
+      "RUSH_REFILL",
+      "RUSH_SPEED",
+      "createDemo",
+      "difficulty",
+      "levelAt",
+      "policy",
+      "shapes",
+      "target"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "bead",
+    "bonus",
+    "burst",
+    "chain",
+    "create-demo",
+    "diameter",
+    "difficulty",
+    "engine",
+    "fixed-ms",
+    "flight",
+    "game-name",
+    "level-at",
+    "levels",
+    "path",
+    "point",
+    "policy",
+    "rush-below",
+    "rush-head-limit",
+    "rush-ramp-s",
+    "rush-refill",
+    "rush-speed",
+    "shapes",
+    "target"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +69,31 @@
   "id": "BB-OPENCADE-COLLIER-001",
   "interfaces": [
     {
+      "exports": [
+        "Bead",
+        "Bonus",
+        "Burst",
+        "Chain",
+        "DIAMETER",
+        "Engine",
+        "FIXED_MS",
+        "Flight",
+        "GAME_NAME",
+        "LEVELS",
+        "Path",
+        "Point",
+        "RUSH_BELOW",
+        "RUSH_HEAD_LIMIT",
+        "RUSH_RAMP_S",
+        "RUSH_REFILL",
+        "RUSH_SPEED",
+        "createDemo",
+        "difficulty",
+        "levelAt",
+        "policy",
+        "shapes",
+        "target"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

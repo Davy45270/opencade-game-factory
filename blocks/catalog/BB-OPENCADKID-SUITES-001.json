@@ -1,5 +1,51 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Item",
+      "Level",
+      "Mode",
+      "Question",
+      "Session",
+      "advance",
+      "answer",
+      "colors",
+      "compatibleChoices",
+      "complete",
+      "generateRound",
+      "isUnlocked",
+      "key",
+      "levels",
+      "shapes",
+      "stars",
+      "start"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "answer",
+    "colors",
+    "compatible-choices",
+    "complete",
+    "generate-round",
+    "is-unlocked",
+    "item",
+    "key",
+    "level",
+    "levels",
+    "mode",
+    "question",
+    "session",
+    "shapes",
+    "stars",
+    "start"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +57,25 @@
   "id": "BB-OPENCADKID-SUITES-001",
   "interfaces": [
     {
+      "exports": [
+        "Item",
+        "Level",
+        "Mode",
+        "Question",
+        "Session",
+        "advance",
+        "answer",
+        "colors",
+        "compatibleChoices",
+        "complete",
+        "generateRound",
+        "isUnlocked",
+        "key",
+        "levels",
+        "shapes",
+        "stars",
+        "start"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

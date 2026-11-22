@@ -1,5 +1,48 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Checked",
+      "DrawPolicy",
+      "GameSnapshotV1",
+      "Puzzle",
+      "PuzzlePosition",
+      "PuzzleSolution",
+      "actionsSchema",
+      "gameSchema",
+      "gameV2Schema",
+      "puzzleSchema",
+      "validateGameAction",
+      "validateGameSnapshot",
+      "validateGameSnapshotV1",
+      "validatePuzzle"
+    ],
+    "imports": [
+      "@six-de-chaque/engine",
+      "ajv"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/contracts/test/schemas.test.ts"
+    ]
+  },
+  "capabilities": [
+    "actions-schema",
+    "checked",
+    "draw-policy",
+    "game-schema",
+    "game-snapshot-v1",
+    "game-v2-schema",
+    "puzzle",
+    "puzzle-position",
+    "puzzle-schema",
+    "puzzle-solution",
+    "validate-game-action",
+    "validate-game-snapshot",
+    "validate-game-snapshot-v1",
+    "validate-puzzle"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +54,22 @@
   "id": "BB-SIX-DE-CHAQUE-CONTRACTS-001",
   "interfaces": [
     {
+      "exports": [
+        "Checked",
+        "DrawPolicy",
+        "GameSnapshotV1",
+        "Puzzle",
+        "PuzzlePosition",
+        "PuzzleSolution",
+        "actionsSchema",
+        "gameSchema",
+        "gameV2Schema",
+        "puzzleSchema",
+        "validateGameAction",
+        "validateGameSnapshot",
+        "validateGameSnapshotV1",
+        "validatePuzzle"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +78,13 @@
   "name": "contracts",
   "observedIn": [
     {
-      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
       "path": "packages/contracts",
       "repo": "six-de-chaque"
     }
   ],
   "origin": {
-    "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
     "licenseSpdx": "MIT",
     "path": "packages/contracts",
     "repo": "six-de-chaque",

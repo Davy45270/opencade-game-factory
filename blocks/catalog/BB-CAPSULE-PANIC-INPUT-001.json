@@ -1,5 +1,25 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "CommandType",
+      "gestureCommands",
+      "mapKey"
+    ],
+    "imports": [
+      "@capsule-panic/contracts"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/input/test/input.test.ts"
+    ]
+  },
+  "capabilities": [
+    "command-type",
+    "gesture-commands",
+    "map-key"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +31,11 @@
   "id": "BB-CAPSULE-PANIC-INPUT-001",
   "interfaces": [
     {
+      "exports": [
+        "CommandType",
+        "gestureCommands",
+        "mapKey"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

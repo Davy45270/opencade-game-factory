@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:pestouille-rpg:scripts/validate-content.ts"
+  },
+  "id": "BB-PESTOUILLE-RPG-VALIDATE-CONTENT-TS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "validate-content.ts",
+  "observedIn": [
+    {
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "path": "scripts/validate-content.ts",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/validate-content.ts",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

@@ -1,5 +1,54 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Cell",
+      "Direction",
+      "Enemy",
+      "Engine",
+      "GAME_NAME",
+      "LEVELS",
+      "MINES",
+      "Mine",
+      "Move",
+      "Reason",
+      "State",
+      "Tile",
+      "W",
+      "createDemo",
+      "index",
+      "mine",
+      "mineTip",
+      "parseMine",
+      "search"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "cell",
+    "create-demo",
+    "direction",
+    "enemy",
+    "engine",
+    "game-name",
+    "index",
+    "levels",
+    "mine",
+    "mine-tip",
+    "mines",
+    "move",
+    "parse-mine",
+    "reason",
+    "search",
+    "state",
+    "tile",
+    "w"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +60,27 @@
   "id": "BB-OPENCADE-PEPITES-001",
   "interfaces": [
     {
+      "exports": [
+        "Cell",
+        "Direction",
+        "Enemy",
+        "Engine",
+        "GAME_NAME",
+        "LEVELS",
+        "MINES",
+        "Mine",
+        "Move",
+        "Reason",
+        "State",
+        "Tile",
+        "W",
+        "createDemo",
+        "index",
+        "mine",
+        "mineTip",
+        "parseMine",
+        "search"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

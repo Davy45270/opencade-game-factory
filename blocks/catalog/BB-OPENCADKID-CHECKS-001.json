@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:opencadkid:.woodpecker/checks.yml"
+  },
+  "id": "BB-OPENCADKID-CHECKS-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "checks",
+  "observedIn": [
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": ".woodpecker/checks.yml",
+      "repo": "opencadkid"
+    }
+  ],
+  "origin": {
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/checks.yml",
+    "repo": "opencadkid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-OPENCADKID"
+  ],
+  "usedBy": [
+    "opencadkid"
+  ]
+}

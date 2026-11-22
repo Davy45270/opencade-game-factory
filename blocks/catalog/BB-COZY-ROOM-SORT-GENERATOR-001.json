@@ -1,5 +1,25 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "GenerationRequest",
+      "findTheme",
+      "generateLevel"
+    ],
+    "imports": [
+      "@cozy-room-sort/schemas",
+      "@cozy-room-sort/solver",
+      "local:cozy-room-sort:packages/engine"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "find-theme",
+    "generate-level",
+    "generation-request"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +31,11 @@
   "id": "BB-COZY-ROOM-SORT-GENERATOR-001",
   "interfaces": [
     {
+      "exports": [
+        "GenerationRequest",
+        "findTheme",
+        "generateLevel"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

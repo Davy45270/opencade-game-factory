@@ -1,5 +1,54 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "DEFAULT_BUDGET_NODES",
+      "DrawPolicy",
+      "GenerateOptions",
+      "MAX_SOLUTIONS",
+      "Puzzle",
+      "PuzzlePosition",
+      "PuzzleSolution",
+      "SolveResult",
+      "certifyCandidate",
+      "findBestScore",
+      "generate",
+      "initialPuzzleState",
+      "playPuzzleTurn",
+      "playSource",
+      "solutionHash",
+      "solve"
+    ],
+    "imports": [
+      "@six-de-chaque/ai",
+      "@six-de-chaque/contracts",
+      "@six-de-chaque/engine"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/puzzles/test/puzzles.test.ts",
+      "packages/puzzles/test/reference-playable.test.ts"
+    ]
+  },
+  "capabilities": [
+    "certify-candidate",
+    "default-budget-nodes",
+    "draw-policy",
+    "find-best-score",
+    "generate",
+    "generate-options",
+    "initial-puzzle-state",
+    "max-solutions",
+    "play-puzzle-turn",
+    "play-source",
+    "puzzle",
+    "puzzle-position",
+    "puzzle-solution",
+    "solution-hash",
+    "solve",
+    "solve-result"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +60,24 @@
   "id": "BB-SIX-DE-CHAQUE-PUZZLES-001",
   "interfaces": [
     {
+      "exports": [
+        "DEFAULT_BUDGET_NODES",
+        "DrawPolicy",
+        "GenerateOptions",
+        "MAX_SOLUTIONS",
+        "Puzzle",
+        "PuzzlePosition",
+        "PuzzleSolution",
+        "SolveResult",
+        "certifyCandidate",
+        "findBestScore",
+        "generate",
+        "initialPuzzleState",
+        "playPuzzleTurn",
+        "playSource",
+        "solutionHash",
+        "solve"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +86,13 @@
   "name": "puzzles",
   "observedIn": [
     {
-      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
       "path": "packages/puzzles",
       "repo": "six-de-chaque"
     }
   ],
   "origin": {
-    "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
     "licenseSpdx": "MIT",
     "path": "packages/puzzles",
     "repo": "six-de-chaque",

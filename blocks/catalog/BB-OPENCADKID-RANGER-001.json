@@ -1,5 +1,55 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Category",
+      "Color",
+      "Level",
+      "ObjectItem",
+      "Question",
+      "Rule",
+      "Session",
+      "Shape",
+      "Size",
+      "advance",
+      "belongs",
+      "catalog",
+      "complete",
+      "generateRound",
+      "isUnlocked",
+      "levels",
+      "place",
+      "stars",
+      "start"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "belongs",
+    "catalog",
+    "category",
+    "color",
+    "complete",
+    "generate-round",
+    "is-unlocked",
+    "level",
+    "levels",
+    "object-item",
+    "place",
+    "question",
+    "rule",
+    "session",
+    "shape",
+    "size",
+    "stars",
+    "start"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +61,27 @@
   "id": "BB-OPENCADKID-RANGER-001",
   "interfaces": [
     {
+      "exports": [
+        "Category",
+        "Color",
+        "Level",
+        "ObjectItem",
+        "Question",
+        "Rule",
+        "Session",
+        "Shape",
+        "Size",
+        "advance",
+        "belongs",
+        "catalog",
+        "complete",
+        "generateRound",
+        "isUnlocked",
+        "levels",
+        "place",
+        "stars",
+        "start"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

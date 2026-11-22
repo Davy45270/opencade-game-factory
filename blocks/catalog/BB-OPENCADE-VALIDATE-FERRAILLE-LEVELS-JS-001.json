@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencade:scripts/validate-ferraille-levels.js"
+  },
+  "id": "BB-OPENCADE-VALIDATE-FERRAILLE-LEVELS-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "validate-ferraille-levels.js",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "scripts/validate-ferraille-levels.js",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/validate-ferraille-levels.js",
+    "repo": "opencade",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade"
+  ]
+}

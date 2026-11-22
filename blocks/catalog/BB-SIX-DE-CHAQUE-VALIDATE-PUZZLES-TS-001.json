@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:six-de-chaque:scripts/validate-puzzles.ts"
+  },
+  "id": "BB-SIX-DE-CHAQUE-VALIDATE-PUZZLES-TS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "validate-puzzles.ts",
+  "observedIn": [
+    {
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+      "path": "scripts/validate-puzzles.ts",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/validate-puzzles.ts",
+    "repo": "six-de-chaque",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "six-de-chaque"
+  ]
+}

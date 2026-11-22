@@ -174,5 +174,34 @@ class CopiesDUneMemeSource(unittest.TestCase):
         notice = result.json["divergentSources"][0]
         self.assertEqual((notice["importedProvider"], notice["reason"]), ("github", "forked"))
 
+    def test_forge_et_github_divergent_la_forge_fait_foi(self):
+        # Histoire de la forge réécrite, GitHub (sortie de publication) resté sur l'ancienne : la forge est la source de
+        # vérité ; elle est importée et le rapport le dit (consigne HL-538 du 22/11, six-de-chaque).
+        _avec_copies_distantes(self.world)
+        depot = self.world.depot("jeu-a")
+        self.world.git(depot, "checkout", "-q", "-b", "publication")
+        (depot / M.FOUET).write_bytes(M.png(M.uni(16, 16, (10, 200, 10, 255))))
+        self.world.git(depot, "add", "--", M.FOUET)
+        self.world.git(depot, "commit", "-q", "-m", "Publication GitHub", date="2026-03-02T09:00:00+00:00")
+        publication = self.world.git(depot, "rev-parse", "HEAD")
+        self.world.git(self.world.cache / "github" / "jeu-a.git", "fetch", "-q", str(depot),
+                       "+refs/heads/publication:refs/heads/main")
+        self.world.git(depot, "checkout", "-q", "main")
+        (depot / M.FOUET).write_bytes(M.png(M.uni(16, 16, ROUGE)))
+        self.world.git(depot, "add", "--", M.FOUET)
+        self.world.git(depot, "commit", "-q", "-m", "Forge réécrite", date="2026-03-02T10:00:00+00:00")
+        forge = self.world.git(depot, "rev-parse", "HEAD")
+        self.world.git(self.world.cache / "forgejo" / "jeu-a.git", "fetch", "-q", str(depot),
+                       "+refs/heads/main:refs/heads/main")
+        _miroir_local(self.world)
+        result = self.world.scan("--no-fetch", "--only", "jeu-a")
+        self.assertEqual(result.code, C.OK, str(result))
+        _, asset = C.asset_par_chemin(self.world.registre, "jeu-a", M.FOUET)
+        self.assertEqual({loc["commit"] for loc in asset["files"]["locations"] if not loc.get("releaseOnly")}, {forge})
+        notice = result.json["divergentSources"][0]
+        self.assertEqual((notice["importedProvider"], notice["reason"]), ("forgejo", "forked"))
+        self.assertIn("la forge fait foi", notice["message"])
+        self.assertIn({"provider": "github", "commit": publication}, notice["ignored"])
+
 if __name__ == "__main__":
     unittest.main()

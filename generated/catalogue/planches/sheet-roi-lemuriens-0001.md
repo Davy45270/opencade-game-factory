@@ -4,7 +4,7 @@
 
 # Planche Roi des Lémuriens
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `6b300eb9ffba`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `6b300eb9ffba`
 
 Fiche : [`sheet-roi-lemuriens-0001`](../../../catalog/sheets/sheet-roi-lemuriens-0001.json)
 

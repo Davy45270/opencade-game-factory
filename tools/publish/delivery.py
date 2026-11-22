@@ -318,6 +318,18 @@ def third_party(assets):
             lines.append(f"- **{asset['name']}** (`{asset['id']}`) — {external['provider']} / {external['externalPackId']} "
                          f"{external['sourceVersion']}, auteur {row['author']}, licence {asset['license']}, "
                          f"source {external['sourceUrl']}")
+            # EXT-09/EXT-13 : obligations de la source conservées jusqu'au crédit (chaque auteur, chaque URL d'origine).
+            credits = external.get("credits") or {}
+            if credits.get("authors"):
+                row["authors"] = credits["authors"]
+                lines.append(f"  - auteurs à créditer : {', '.join(credits['authors'])}")
+            if credits.get("urls"):
+                row["originUrls"] = credits["urls"]
+                lines.append(f"  - œuvres d'origine : {', '.join(credits['urls'])}")
+            if external.get("licenseOptions"):
+                row["licenseOptions"] = external["licenseOptions"]
+                lines.append(f"  - licences offertes au choix : {', '.join(external['licenseOptions'])} "
+                             f"(retenue : {asset['license']})")
         elif asset["license"].startswith("CC-BY"):
             lines.append(f"- **{asset['name']}** (`{asset['id']}`) — auteur {row['author']}, licence {asset['license']}")
         rows.append(row)

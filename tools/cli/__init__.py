@@ -18,7 +18,8 @@ COMMANDS = {
     "register": True, "derive": True, "validate": False, "usage": False,
     "publish": True, "duplicates": True, "scan-repos": True, "sync": True,
     "index": True, "materialize": True, "check-lock": False, "export-atlas": True,
-    "validate-atlas": False, "sbom": True, "external": False, "level": False,
+    "validate-atlas": False, "sbom": True, "external": False, "level": False, "pack": False,
+    "visual": False,
 }
 
 
@@ -84,6 +85,14 @@ def _parser():
             from tools.levels.commands import configure as level
 
             level(sub, caller_path)
+        elif command == "visual":
+            from tools.index.visual import configure as visual
+
+            visual(sub, caller_path)
+        elif command == "pack":
+            from tools.publish.packs import configure as pack
+
+            pack(sub, caller_path)
         elif command == "index":
             sub.add_argument("operation", choices=["rebuild"], nargs="?", default="rebuild")
         else:
@@ -150,6 +159,14 @@ def _run(args, root, selected=None):
         return run(root, args)
     if args.command == "level":
         from tools.levels.commands import run
+
+        return run(root, args)
+    if args.command == "visual":
+        from tools.index.visual import run
+
+        return run(root, args)
+    if args.command == "pack":
+        from tools.publish.packs import run
 
         return run(root, args)
     from tools.cli.registry import run

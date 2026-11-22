@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Autres sources (EXT-001 § 2, P2) : seules celles-ci sont consultées par l'adaptateur `whitelist`. Ajout par PR, avec revue de licence et de sécurité écrite ici ; dépôt GitHub à un commit figé, licence prouvée par son fichier au même commit.",
+  "sources": [
+    {
+      "id": "game-icons-lorc",
+      "kind": "github-repo",
+      "repo": "game-icons/icons",
+      "ref": "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+      "paths": "^lorc/[^/]+\\.svg$",
+      "license": "CC-BY-3.0",
+      "licenseFile": "license.txt",
+      "author": "Lorc (game-icons.net)",
+      "review": {
+        "licence": "license.txt au commit figé : « Icons provided under the Creative Commons 3.0 BY or CC0 if mentioned below » ; le dossier lorc/ n'est pas marqué CC0, donc CC BY 3.0, attribution à Lorc.",
+        "securite": "SVG seuls (motif de chemin), lus en brut par l'API GitHub sans authentification ; l'archive reconstituée passe par l'inspection d'EXT-001 § 8 (traversée, liens, exécutables).",
+        "par": "agent du registre, HL-538",
+        "date": "2026-11-22",
+        "pr": "HL-538, lot « catalogues externes »"
+      }
+    }
+  ]
+}

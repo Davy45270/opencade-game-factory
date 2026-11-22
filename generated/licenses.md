@@ -142,24 +142,24 @@
 - `asset-atlas-personnages-origine-3x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pestouille-east-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pestouille-north-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-m01-fonds-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-m01-fonds-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-m02-bois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-m02-bois-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-m02-fonds-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-m02-fonds-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-p02-pestoui-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-p02-pestoui-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-pestouille-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-m01-fonds-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-m01-fonds-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-m02-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-m02-bois-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-m02-fonds-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-m02-fonds-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-p02-pestoui-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-p02-pestoui-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0003` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-pestouille-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-south-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pieces-origine-2x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pieces-origine-3x-0001` — unknown · forbidden · Autorisation non établie.
@@ -1940,7 +1940,7 @@
 - `asset-image-credits-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cristal-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-galaxie-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cristal-luciole-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-cristal-luciole-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cristal-volcan-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristaux-galaxie-g-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cycles-marche-enfants-planche-0001` — unknown · forbidden · Planche entière réservée.
@@ -2028,8 +2028,8 @@
 - `asset-image-effets-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-effets-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-eglantine-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-eglantine-terrain-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-eglantine-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-eglantine-terrain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-elimination-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-elimination-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-elimination-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -2157,8 +2157,8 @@
 - `asset-image-fioles-logo-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fioles-logo-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-fioles-logo-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-flammeche-pleine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-flammeche-vide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fleche-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-fleche-plateau-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fleche-plateau-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -2196,7 +2196,7 @@
 - `asset-image-freinage-04-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-image-freinage-04-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-image-freinage-04-0005` — unknown · forbidden · Autorisation non établie.
-- `asset-image-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-fronde-lianes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fumee-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-fumee-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-fumee-volcan-0001` — unknown · forbidden · Autorisation non établie.
@@ -2269,7 +2269,7 @@
 - `asset-image-gouter-final-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-miam-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-premier-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-graine-petard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-gravats-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-gravats-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-hangar-port-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2410,8 +2410,8 @@
 - `asset-image-nature-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-nature-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-nature-0003` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-nenuphine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-nenuphine-lotus-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-nenuphine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-nenuphine-lotus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-neptune-0001` — LicenseRef-JPL-Image-Use-Policy · forbidden · Autorisation non établie.
 - `asset-image-noe-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-noon-0001` — unknown · forbidden · Autorisation non établie.
@@ -2567,8 +2567,8 @@
 - `asset-image-personnages-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-personnages-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-personnages-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-pestouille-192-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-512-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-pestouille-192-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pestouille-arriere-3-4-gauche-sa-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-pestouille-arriere-sans-ombre-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-pestouille-avant-0001` — unknown · forbidden · Planche entière réservée.
@@ -2577,36 +2577,36 @@
 - `asset-image-pestouille-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-pestouille-fiche-design-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-pestouille-profil-droit-sans-omb-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-pestouille-rpg-sprite-boule-de-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0019` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0020` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0021` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0022` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0023` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0024` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0025` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0026` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-pestouille-0027` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-sprite-trainee-so-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-image-pestouille-rpg-tuiles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-pestouille-rpg-sprite-boule-de-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0019` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0020` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0021` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0022` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0023` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0024` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0025` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0026` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-pestouille-0027` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-sprite-trainee-so-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pestouille-rpg-tuiles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-astronome-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-astronome-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-astronome-0003` — unknown · forbidden · Autorisation non établie.
@@ -2890,6 +2890,7 @@
 - `asset-image-scene-test-390x844-clavier-linux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-scene-test-390x844-tactile-linux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-set-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-shield-crusader-bg-slash-png-sla-0001` — LicenseRef-OGA-BY-3.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-back-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-back-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-backleft-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -3221,347 +3222,347 @@
 - `asset-sprite-accueil-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-aide-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-aide-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-amanite-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-amanite-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-anneau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-amanite-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-amanite-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-anneau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-anneau-argent-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-anneau-argent-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-anneau-etoiles-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-araignee-grotte-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-araignee-grotte-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-arbre-vivant-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-araignee-grotte-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-araignee-grotte-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-arbre-vivant-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-armoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-armure-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-aubepin-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-armure-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-aubepin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bac-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bac-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bac-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-baignoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-balayette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-barre-pm-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-barre-pm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-barre-pv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-barre-pv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bas-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bete-ecarlate-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bete-ecarlate-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bibliotheque-arche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-attaqu-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-bas-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-att-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-ble-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-ble-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-ble-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-idl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-idl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-idl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-idl-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-droite-mar-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-att-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-ble-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-ble-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-ble-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-idl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-idl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-idl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-idl-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-gauche-mar-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-attaq-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-bless-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-bless-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-bless-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-idle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-idle-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-idle-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-idle-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blob-vert-4directions-haut-march-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-bleu-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-feu-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-attaque-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-glace-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-or-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-poison-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-blobs-variantes-vert-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bloc-pierre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bloc-pousser-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-attaqu-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-bas-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-att-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-ble-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-ble-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-ble-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-idl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-idl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-idl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-idl-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-droite-mar-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-att-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-ble-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-ble-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-ble-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-idl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-idl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-idl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-idl-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-gauche-mar-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-attaq-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-bless-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-bless-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-bless-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-idle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-idle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-idle-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-idle-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blob-vert-4directions-haut-march-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-bleu-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-feu-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-attaque-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-glace-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-or-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-poison-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-blobs-variantes-vert-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bloc-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bloc-pousser-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boite-carton-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boite-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boite-fleurie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -3572,31 +3573,31 @@
 - `asset-sprite-boite-sdb-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boite-sdb-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-borin-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-cote-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-cote-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-borin-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bottes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouclier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-borin-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-borin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bottes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouclier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bougie-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bougie-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bougie-ruban-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bougie-verre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boule-de-feu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-boule-de-feu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-boule-de-feu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boule-de-feu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouquet-blanc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bourse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-competence-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-defense-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-fuite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-non-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-objet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-bouton-oui-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bourse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-fuite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-non-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouton-oui-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boutons-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boutons-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-brosse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -3609,7 +3610,7 @@
 - `asset-sprite-btn-reglages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bureau-chaise-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cactus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-bois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cadre-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cadre-chat-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cadre-collines-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cadre-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -3850,161 +3851,161 @@
 - `asset-sprite-capsule-panic-victoire-bannieres-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-capsule-panic-victoire-messages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-capsule-panic-victoire-messages-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-carte-monde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-carte-monde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-carton-ferme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-carton-ouvert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-case-inventaire-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-case-inventaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-sombre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-sombre-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-tampon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cepe-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cepe-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cepe-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cepe-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chaise-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-champignon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-champignon-mignon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-champignon-mignon-evolue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-champignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-champignon-mignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-champignon-mignon-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chat-dort-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chat-dort-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-chaudron-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-chauve-souris-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-chaudron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chauve-souris-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cheminee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-choix-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-choix-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-choix-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-choix-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-coffre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-coffre-dore-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-coffre-mimic-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-commande-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-commande-competence-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-commande-defense-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-commande-fuite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-commande-objet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-coffre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coffre-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coffre-mimic-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commande-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commande-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commande-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commande-fuite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commande-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-commode-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-commode-miel-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-competence-etincelle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-competence-griffe-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-competence-protection-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-competence-souffle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-competence-etincelle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-competence-griffe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-competence-protection-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-competence-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cotons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coussin-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coussin-patte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -4187,8 +4188,8 @@
 - `asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cozy-room-sort-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cristal-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-cristal-socle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cristal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cristal-socle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-couverts-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-couverts-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-couverts-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
@@ -4221,76 +4222,76 @@
 - `asset-sprite-cuisine-torchon-vue-2-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-torchon-vue-3-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-torchon-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-dalle-mousse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-dalles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-dalle-mousse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-dalles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-defaite-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-defaite-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-desserte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-diable-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-diable-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-diable-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diable-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dialogue-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diffuseur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-dragon-violet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-dragon-violet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-droite-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-eclat-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-eclat-givre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-epee-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-eclat-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-epee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-eponge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-erlenmeyer-objets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-etagere-bougies-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -4315,8 +4316,8 @@
 - `asset-sprite-fauteuil-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fauteuil-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fauteuil-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-feuille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-feuille-doree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-feuille-doree-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fiole-bleue-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fiole-jaune-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fiole-rouge-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -4325,439 +4326,439 @@
 - `asset-sprite-flacon-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flacon-pompe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flacon-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-flamme-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-cyan-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-orange-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-rose-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-rouge-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-verte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-flamme-violette-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-flamme-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-orange-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-verte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flamme-violette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleche-chute-fantome-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleche-descente-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleche-rotation-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleche-verrouillage-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleur-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-fleur-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleur-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-florifeu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-campement-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-combat-foret-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-combat-roncier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-foret-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-temple-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-fond-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-florifeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-campement-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-combat-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-combat-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-temple-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fond-village-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-frigo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fumee-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fumee-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-gauche-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-gestes-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-givreloup-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-givreloup-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-gobelet-brosses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-golem-glace-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golem-pierre-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-golemice-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-grille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-golem-glace-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golem-pierre-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-golemice-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-grille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-grille-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-grimoire-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-guepe-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-grimoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guepe-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-gueridon-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-gueridon-tasse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-guirlande-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-hortensias-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-impact-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-interrupteur-mural-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-interrupteur-mural-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-jouer-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-jouer-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-koala-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-koala-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-koala-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-koala-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-laboratoire-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lampadaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lampe-chevet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lampe-table-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lanterne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lanterne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lanterne-maison-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lapin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lapin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lapin-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lapin-aile-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lapin-aile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lavabo-miroir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lave-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lecture-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lecture-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-legende-clavier-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-levier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-cote-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-lila-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-levier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lila-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-liseuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lit-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lit-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-livres-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-livres-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-livres-trio-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-logo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-loup-givre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-logo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-loup-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-macrame-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-mage-sombre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-meduse-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-carte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-competences-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-metiers-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-objets-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-options-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-menu-quetes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-alchimiste-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-artisan-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-barde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-eclaireur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-guerrier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-mage-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-pretre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-metier-sage-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-mage-sombre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meduse-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-carte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-competences-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-metiers-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-options-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-menu-quetes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-alchimiste-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-artisan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-barde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-eclaireur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-guerrier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-mage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-pretre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-metier-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-meuble-tele-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-mini-borin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-mini-lila-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-mini-nox-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-mini-pestouille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-minicarte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-mini-borin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mini-lila-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mini-nox-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mini-pestouille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-minicarte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-miroir-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-monstera-coeur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-monstera-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-mossling-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-mossling-fleuri-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-mossling-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mossling-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mouchoirs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-moustique-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-moustique-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-moustique-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-moustique-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mur-fenetre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-niveau-plus-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-notation-double-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-notation-simple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-notation-triple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-nox-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-cote-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-cote-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-cote-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-nox-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-nox-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nox-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nuage-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-oiseau-dore-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-oiseau-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-options-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-options-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-ours-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -4768,16 +4769,16 @@
 - `asset-sprite-panier-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panier-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-panneau-dialogue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-panneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-dialogue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-niveau-hud-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-quotas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-quotas-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-score-hud-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneaux-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-papier-rouleaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-parchemin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-parchemin-quete-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-parchemin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-parchemin-quete-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-particules-dorees-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-particules-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-particules-rouges-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -4788,1177 +4789,1177 @@
 - `asset-sprite-peigne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-peignoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pese-personne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pestouille-4directions-bas-attaq-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-attaq-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-attaq-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-attaq-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-attaq-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-attaq-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-bless-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-bless-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-bless-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-idle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-idle-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-idle-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-idle-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-bas-march-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-at-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-bl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-bl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-id-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-id-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-id-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-id-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-droite-ma-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-at-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-bl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-bl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-id-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-id-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-id-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-id-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-gauche-ma-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-atta-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-bles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-bles-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-bles-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-idle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-idle-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-idle-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-idle-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-4directions-haut-marc-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-attaque-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-droite-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-gauche-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-armure-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-attaque-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-cote-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-d-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-course-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-degats-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-degats-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-dos-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-attack-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-hurt-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-hurt-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-hurt-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-east-walk-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-bouderie-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-colere-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-joie-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-mefiance-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-sommeil-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-expression-surprise-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-face-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-d-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-attaque-blo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-noel-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-attack-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-hurt-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-hurt-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-hurt-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-north-walk-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-pose-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-pose-cote-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-attaque-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-profil-droit-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-repos-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-repos-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-anneau-argent-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-anneau-argent-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-anneau-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-anneau-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-armure-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-armure-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-aubepin-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-barre-pm-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-barre-pv-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bete-ecarlate-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bete-ecarlate-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bloc-pierre-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bloc-pierre-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bloc-pousser-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bloc-pousser-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-a-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-a-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-b-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-b-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-c-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-c-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-d-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-d-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-e-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-cote-e-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-dos-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-dos-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-face-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-face-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-portrait-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-borin-portrait-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bottes-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bottes-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouclier-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouclier-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bourse-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bourse-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-attaque-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-attaque-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-competence-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-competence-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-defense-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-defense-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-fuite-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-fuite-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-non-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-objet-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-objet-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-bouton-oui-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cadre-bois-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cadre-bois-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-carte-monde-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-case-inventaire-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-mignon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-mignon-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-mignon-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-champignon-mignon-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-chaudron-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-chaudron-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-chauve-souris-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-chauve-souris-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cle-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cle-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-dore-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-dore-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-mimic-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-coffre-mimic-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-attaque-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-competen-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-competen-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-defense-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-defense-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-fuite-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-fuite-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-objet-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-commande-objet-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-etince-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-etince-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-griffe-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-griffe-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-protec-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-protec-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-souffl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-competence-souffl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cristal-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cristal-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cristal-socle-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-cristal-socle-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dalle-mousse-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dalle-mousse-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dalles-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dalles-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dragon-violet-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-dragon-violet-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-eclat-givre-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-eclat-givre-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-epee-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-epee-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-feuille-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-feuille-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-feuille-doree-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-feuille-doree-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-bleue-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-bleue-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-cyan-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-cyan-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-orange-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-orange-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-rose-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-rose-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-rouge-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-rouge-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-verte-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-verte-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-violette-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-flamme-violette-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fleur-bleue-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fleur-bleue-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-florifeu-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-florifeu-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-campement-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-combat-foret-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-combat-foret-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-combat-ronci-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-combat-ronci-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-foret-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-foret-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-temple-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-village-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-fond-village-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-givreloup-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-givreloup-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golem-glace-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golem-glace-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golem-pierre-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golem-pierre-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golemice-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-golemice-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-grille-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-grille-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-grimoire-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-grimoire-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-interrupteur-mura-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-interrupteur-mura-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lanterne-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lanterne-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lapin-aile-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lapin-aile-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lapin-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lapin-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-levier-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-levier-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-a-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-a-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-b-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-b-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-c-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-c-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-d-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-d-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-e-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-e-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-f-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-cote-f-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-dos-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-dos-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-face-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-face-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-portrait-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-lila-portrait-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-livre-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-livre-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-logo-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-logo-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-loup-givre-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-loup-givre-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mage-sombre-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mage-sombre-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-carte-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-carte-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-competences-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-competences-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-metiers-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-metiers-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-objets-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-objets-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-options-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-options-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-quetes-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-menu-quetes-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-alchimiste-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-alchimiste-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-artisan-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-artisan-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-barde-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-barde-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-eclaireur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-eclaireur-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-guerrier-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-guerrier-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-mage-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-mage-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-pretre-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-pretre-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-sage-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-metier-sage-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mini-borin-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mini-lila-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mini-nox-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mini-pestouille-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-minicarte-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mossling-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mossling-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mossling-fleuri-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-mossling-fleuri-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-a-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-a-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-b-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-b-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-c-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-c-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-d-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-d-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-e-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-e-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-f-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-cote-f-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-dos-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-dos-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-face-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-face-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-portrait-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-nox-portrait-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-oiseau-dore-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-oiseau-dore-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-panneau-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-panneau-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-panneau-dialogue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-parchemin-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-parchemin-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-parchemin-quete-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-parchemin-quete-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-attaqu-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-d-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-e-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-cote-f-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-course-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-degats-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-degats-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-dos-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-dos-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-a-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-h-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-i-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-east-w-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-expres-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-face-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-face-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-marche-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0019` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0020` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0021` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0022` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0023` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0024` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0025` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0026` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0027` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0028` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0029` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0030` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0031` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0032` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0033` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0034` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0035` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0036` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0037` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-north-0038` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-portra-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-portra-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-pose-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-pose-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-pose-c-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-pose-c-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-repos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-repos-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-repos-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-repos-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-sommei-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-sommei-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-souffl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-souffl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0019` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0020` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0021` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0022` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0023` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0024` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0025` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0026` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0027` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0028` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0029` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0030` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0031` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0032` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0033` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0034` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0035` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0036` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0037` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-south-0038` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-victoi-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-victoi-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-victoi-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-victoi-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-a-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-a-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-b-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-b-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pestouille-vol-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plante-buisson-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plante-buisson-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plaque-pression-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plaque-pression-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plume-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plume-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plumir-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-plumir-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-boulanger-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-boulanger-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-encapuchonne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-encapuchonne-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-fillette-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-fillette-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-renard-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-renard-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-villageois-ca-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-villageois-ca-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-villageoise-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pnj-villageoise-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pont-bois-cadre-l-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pont-bois-cadre-l-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-portrait-hud-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pot-cadre-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-pot-cadre-livre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-potion-bleue-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-potion-bleue-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-potion-rouge-cadr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-potion-rouge-cadr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-roncier-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-roncier-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-brun-cad-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-brun-cad-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-brun-evo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-brun-evo-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-epineux-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglier-epineux-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglieron-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-sanglieron-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-souche-cadre-livr-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-souche-cadre-livr-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-teleporteur-cadre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-teleporteur-cadre-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-tonneau-cadre-liv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-tonneau-cadre-liv-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-trainee-souffle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-rpg-trainee-souffle-c-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-sommeil-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-souffle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-attack-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-hurt-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-hurt-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-hurt-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-south-walk-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-victoire-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-victoire-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-vol-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-vol-a-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-vol-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-vol-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pestouille-vol-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-pestouille-4directions-bas-attaq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-attaq-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-attaq-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-attaq-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-attaq-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-attaq-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-bless-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-bless-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-bless-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-idle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-idle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-idle-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-idle-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-bas-march-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-at-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-bl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-bl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-id-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-id-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-id-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-id-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-droite-ma-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-at-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-bl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-bl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-id-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-id-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-id-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-id-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-gauche-ma-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-atta-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-bles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-bles-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-bles-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-idle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-idle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-idle-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-idle-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-4directions-haut-marc-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-attaque-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-droite-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-gauche-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-armure-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-attaque-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-course-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-degats-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-degats-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-dos-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-attack-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-hurt-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-hurt-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-hurt-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-east-walk-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-bouderie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-colere-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-joie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-mefiance-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-sommeil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-expression-surprise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-face-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-attaque-blo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-noel-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-attack-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-hurt-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-hurt-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-hurt-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-north-walk-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-pose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-pose-cote-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-attaque-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-profil-droit-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-repos-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-repos-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-anneau-argent-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-anneau-argent-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-anneau-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-anneau-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-armure-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-armure-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-aubepin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-barre-pm-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-barre-pv-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bete-ecarlate-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bete-ecarlate-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bloc-pierre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bloc-pierre-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bloc-pousser-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bloc-pousser-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-a-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-a-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-b-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-b-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-c-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-c-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-d-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-d-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-e-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-cote-e-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-dos-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-dos-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-face-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-face-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-portrait-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-borin-portrait-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bottes-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bottes-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouclier-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouclier-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-boule-de-feu-cadr-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bourse-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bourse-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-attaque-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-attaque-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-competence-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-defense-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-defense-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-fuite-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-fuite-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-non-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-objet-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-objet-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-bouton-oui-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cadre-bois-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cadre-bois-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-carte-monde-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-case-inventaire-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-mignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-mignon-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-mignon-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-champignon-mignon-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-chaudron-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-chaudron-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-chauve-souris-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-chauve-souris-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cle-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cle-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-dore-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-dore-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-mimic-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-coffre-mimic-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-attaque-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-competen-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-competen-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-defense-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-fuite-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-fuite-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-objet-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-commande-objet-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-etince-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-etince-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-griffe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-griffe-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-protec-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-protec-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-souffl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-competence-souffl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cristal-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cristal-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cristal-socle-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-cristal-socle-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dalle-mousse-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dalle-mousse-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dalles-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dalles-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dragon-violet-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-dragon-violet-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-eclat-givre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-eclat-givre-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-epee-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-epee-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-feuille-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-feuille-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-feuille-doree-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-feuille-doree-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-bleue-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-bleue-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-cyan-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-cyan-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-orange-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-orange-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-rose-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-rose-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-rouge-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-rouge-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-verte-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-verte-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-violette-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-flamme-violette-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fleur-bleue-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fleur-bleue-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-florifeu-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-florifeu-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-campement-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-combat-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-combat-foret-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-combat-ronci-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-combat-ronci-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-foret-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-foret-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-temple-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-village-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-fond-village-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-givreloup-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-givreloup-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golem-glace-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golem-glace-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golem-pierre-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golem-pierre-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golemice-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-golemice-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-grille-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-grille-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-grimoire-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-grimoire-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-interrupteur-mura-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-interrupteur-mura-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lanterne-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lanterne-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lapin-aile-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lapin-aile-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lapin-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lapin-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-levier-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-levier-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-a-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-a-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-b-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-b-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-c-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-c-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-d-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-d-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-e-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-e-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-f-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-cote-f-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-dos-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-dos-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-face-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-face-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-portrait-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-lila-portrait-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-livre-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-livre-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-logo-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-logo-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-loup-givre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-loup-givre-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mage-sombre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mage-sombre-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-carte-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-carte-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-competences-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-competences-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-metiers-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-metiers-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-objets-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-objets-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-options-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-options-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-quetes-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-menu-quetes-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-alchimiste-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-alchimiste-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-artisan-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-artisan-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-barde-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-barde-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-eclaireur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-eclaireur-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-guerrier-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-guerrier-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-mage-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-mage-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-pretre-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-pretre-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-sage-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-metier-sage-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mini-borin-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mini-lila-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mini-nox-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mini-pestouille-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-minicarte-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mossling-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mossling-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mossling-fleuri-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-mossling-fleuri-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-a-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-a-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-b-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-b-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-c-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-c-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-d-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-d-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-e-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-e-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-f-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-cote-f-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-dos-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-dos-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-face-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-face-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-portrait-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-nox-portrait-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-oiseau-dore-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-oiseau-dore-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-panneau-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-panneau-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-panneau-dialogue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-parchemin-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-parchemin-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-parchemin-quete-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-parchemin-quete-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-attaqu-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-cote-f-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-course-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-degats-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-degats-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-dos-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-dos-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-a-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-h-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-i-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-east-w-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-expres-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-face-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-face-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-marche-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0019` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0020` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0021` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0022` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0023` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0024` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0025` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0026` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0027` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0028` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0029` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0030` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0031` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0032` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0033` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0034` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0035` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0036` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0037` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-north-0038` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-portra-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-portra-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-pose-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-pose-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-pose-c-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-pose-c-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-repos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-repos-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-repos-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-repos-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-sommei-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-sommei-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-souffl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-souffl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0019` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0020` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0021` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0022` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0023` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0024` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0025` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0026` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0027` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0028` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0029` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0030` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0031` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0032` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0033` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0034` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0035` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0036` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0037` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-south-0038` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-victoi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-victoi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-victoi-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-victoi-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-b-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pestouille-vol-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plante-buisson-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plante-buisson-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plaque-pression-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plaque-pression-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plume-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plume-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plumir-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-plumir-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-boulanger-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-boulanger-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-encapuchonne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-encapuchonne-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-fillette-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-fillette-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-garde-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-renard-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-renard-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-sage-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-villageois-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-villageois-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-villageoise-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pnj-villageoise-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pont-bois-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pont-bois-cadre-l-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-portrait-hud-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pot-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-pot-cadre-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-potion-bleue-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-potion-bleue-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-potion-rouge-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-potion-rouge-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-roncier-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-roncier-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-brun-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-brun-cad-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-brun-evo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-brun-evo-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-epineux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglier-epineux-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglieron-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-sanglieron-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-souche-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-souche-cadre-livr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-teleporteur-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-teleporteur-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-tonneau-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-tonneau-cadre-liv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-trainee-souffle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-trainee-souffle-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-sommeil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-attack-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-hurt-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-hurt-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-hurt-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-south-walk-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-victoire-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-victoire-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-vol-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-vol-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-vol-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-vol-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-vol-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-petit-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pieuvre-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pieuvre-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-pieuvre-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pieuvre-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plaid-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-blanche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plante-buisson-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-plante-buisson-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plante-verte-4directions-bas-att-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-att-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-att-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-att-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-att-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-att-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-ble-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-ble-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-ble-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-idl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-idl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-idl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-idl-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-bas-mar-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-droite-0019` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0007` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0008` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0009` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0010` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0011` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0012` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0013` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0014` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0015` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0016` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0017` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0018` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-gauche-0019` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-at-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-bl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-bl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-id-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-id-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-id-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-id-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plante-verte-4directions-haut-ma-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-att-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-ble-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-ble-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-ble-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-idl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-idl-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-idl-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-idl-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-electrique-mar-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-epines-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-attaque-bl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-feu-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-glace-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-poison-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plantes-variantes-verte-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plaque-pression-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-plante-verte-4directions-bas-att-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-att-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-att-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-att-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-att-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-att-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-ble-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-ble-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-ble-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-idl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-idl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-idl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-idl-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-bas-mar-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-droite-0019` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0009` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0010` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0011` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0012` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0013` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0014` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0015` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0016` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0017` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0018` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-gauche-0019` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-at-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-bl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-bl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-id-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-id-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-id-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-id-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-verte-4directions-haut-ma-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-att-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-ble-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-ble-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-ble-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-idl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-idl-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-idl-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-idl-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-electrique-mar-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-epines-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-attaque-bl-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-feu-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-glace-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-poison-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plantes-variantes-verte-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plaque-pression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plein-ecran-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plume-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-plumir-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-boulanger-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-encapuchonne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-fillette-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-garde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-sage-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-villageois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pnj-villageoise-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pont-bois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-plume-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plumir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-boulanger-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-encapuchonne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-fillette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-garde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-renard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-villageois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pnj-villageoise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pont-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-porte-eprouvettes-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-porte-eprouvettes-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-portrait-hud-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-pot-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-portrait-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pot-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pot-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-potion-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-potion-rouge-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-poubelle-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-potion-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-potion-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-poubelle-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pouf-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-quitter-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-quitter-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -5966,135 +5967,135 @@
 - `asset-sprite-reacteur-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-recommencer-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-reglages-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-requin-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-requin-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-requin-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-requin-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-rideau-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-robot-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-attaque-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-attaque-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-attaque-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-robot-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-roncier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-robot-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-attaque-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-attaque-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-attaque-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-robot-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-rotation-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sanglier-brun-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-sanglier-brun-evolue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-sanglier-epineux-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-sanglieron-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-sanglier-brun-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sanglier-brun-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sanglier-epineux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sanglieron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-satellite-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-seche-cheveux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sels-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -6111,7 +6112,7 @@
 - `asset-sprite-sol-moquette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sol-parquet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sol-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-souche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-souche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-accueil-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-accueil-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-aide-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7169,66 +7170,66 @@
 - `asset-sprite-tapis-pieds-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tapis-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tapis-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-telephone-malicieux-bas-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-attaq-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-bless-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-bless-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-bless-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-idle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-idle-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-idle-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-idle-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-droite-march-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-attaq-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-bless-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-bless-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-bless-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-idle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-idle-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-idle-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-idle-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-gauche-march-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-blesse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-blesse-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-blesse-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0004` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-telephone-malicieux-haut-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-teleporteur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-telephone-malicieux-bas-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-attaq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-bless-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-bless-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-bless-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-idle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-idle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-idle-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-idle-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-droite-march-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-attaq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-bless-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-bless-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-bless-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-idle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-idle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-idle-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-idle-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-gauche-march-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-blesse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-blesse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-blesse-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-telephone-malicieux-haut-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-teleporteur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-titre-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-toilettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tonneau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-tonneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-touches-action-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-touches-horizontales-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tournesols-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -7236,124 +7237,124 @@
 - `asset-sprite-trainee-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trainee-deplacement-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trainee-longue-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-souffle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-trainee-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trainee-verrouillage-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-troll-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-troll-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-troll-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-troll-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trophee-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trophee-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tube-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vaisselier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vampire-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-bas-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-droite-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-gauche-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-blesse-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-idle-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-idle-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-idle-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-idle-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-sprite-vampire-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-vampire-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-bas-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-droite-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-gauche-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-blesse-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-idle-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-idle-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-idle-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-idle-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vampire-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-victoire-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-victoire-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vue-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -7427,7 +7428,7 @@
 - `asset-svg-cristal-brise-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristal-brise-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristal-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristal-luciole-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-cristal-luciole-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristal-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristaux-compteur-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristaux-compteur-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -7436,13 +7437,14 @@
 - `asset-svg-cristaux-hud-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-deplacement-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-deplacement-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-eglantine-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-eglantine-terrain-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-eglantine-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-eglantine-terrain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-flammeche-pleine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-flammeche-vide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-fronde-lianes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-game-icons-lorc-lorc-bloody-swor-0001` — CC-BY-3.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-glyphs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-graine-petard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-hublot-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-lanterne-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-logo-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7451,8 +7453,8 @@
 - `asset-svg-logo-jeu-lettres-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-medaillon-cellule-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-mode-classique-jeu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-nenuphine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-nenuphine-lotus-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-nenuphine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-nenuphine-lotus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-nuage-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-paire-horizontale-cyan-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-paire-horizontale-cyan-magenta-0001` — unknown · forbidden · Autorisation non établie.
@@ -7492,9 +7494,9 @@
 - `sheet-06-palmier-cote-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-06-palmier-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-2026-11-06-j-bande-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-amanite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-amanite-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-ange-guerrier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-amanite-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-amanite-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-ange-guerrier-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-animations-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-animations-apercu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-animations-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7503,8 +7505,8 @@
 - `sheet-animations-jeu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-animations-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-animations-jeu-3x-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-araignee-grotte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-araignee-grotte-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-araignee-grotte-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-araignee-grotte-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-arbre-02-cerisier-planche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-arbre-03-erable-planche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-arbre-04-pommier-planche-0001` — unknown · forbidden · Planche entière réservée.
@@ -7515,20 +7517,20 @@
 - `sheet-arbre-06-palmier-planche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-arbre-06-palmier-planche-composa-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-arbre-06-palmier-profil-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-arbre-village-sacre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-arbre-village-social-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-arbre-vivant-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-arbre-vivant-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-auberge-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-arbre-village-sacre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-arbre-village-social-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-arbre-vivant-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-arbre-vivant-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-auberge-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-bande-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-bannieres-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-bannieres-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-bibliothecaire-renards-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-bibliotheque-renards-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-blob-vert-4directions-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-blob-vert-4directions-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-blobs-variantes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-blobs-variantes-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-bibliothecaire-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-bibliotheque-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-blob-vert-4directions-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-blob-vert-4directions-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-blobs-variantes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-blobs-variantes-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-boubou-arriere-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-boubou-arriere-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-boubou-arriere-3-4-gauche-0001` — unknown · forbidden · Planche entière réservée.
@@ -7537,9 +7539,9 @@
 - `sheet-boubou-avant-corrige-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-boubou-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-boubou-profil-droit-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-boutique-boulanger-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-boutique-poissonnier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-bureau-poste-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-boutique-boulanger-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-boutique-poissonnier-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-bureau-poste-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-caisse-3quart-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-caliroux-arriere-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-caliroux-arriere-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
@@ -7557,18 +7559,18 @@
 - `sheet-cascade-apercu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-cascade-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-cascade-apercu-3x-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-cepe-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-cepe-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-cepe-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-cepe-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-chambre-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-chambre-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-chambre-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-chambre-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-champignon-cochon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-champignon-cochon-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-chaton-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-chauve-souris-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-chauve-souris-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-chauve-souris-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-chauve-souris-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-chloe-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-cochon-moine-soigneur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-cochon-moine-soigneur-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-commandes-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-commandes-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-commandes-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7587,7 +7589,7 @@
 - `sheet-compteurs-maquettes-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-compteurs-maquettes-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-compteurs-maquettes-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-corbeau-saltimbanque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-corbeau-saltimbanque-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-cozy-room-sort-planche-01-webp-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-cozy-room-sort-planche-02-webp-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-cozy-room-sort-planche-03-webp-0001` — unknown · forbidden · Planche entière réservée.
@@ -7600,14 +7602,14 @@
 - `sheet-decors-arbre-01-cote-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-decors-arbre-01-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-decors-arbres-planche-reference-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-demon-diamant-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-demon-eau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-demon-feu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-demon-feuillu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-demon-mineral-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-diable-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-diable-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-dionee-attrape-mouche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-demon-diamant-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-demon-eau-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-demon-feu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-demon-feuillu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-demon-mineral-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-diable-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-diable-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-dionee-attrape-mouche-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-e03-interface-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e03-menu-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e03-objets-0001` — unknown · forbidden · Planche entière réservée.
@@ -7619,8 +7621,8 @@
 - `sheet-e04-monstres-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-portraits-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-recrutement-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-ecole-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-ecuries-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-ecole-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-ecuries-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-effets-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-effets-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-effets-maquettes-2x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7630,11 +7632,11 @@
 - `sheet-elimination-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-elimination-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-emma-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-enfant-fourmi-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-enfant-lemurien-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-enfant-lemurienne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-enfant-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-enfant-zebre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-enfant-fourmi-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-enfant-lemurien-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-enfant-lemurienne-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-enfant-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-enfant-zebre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-fioles-logo-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-fioles-logo-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-fleche-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7643,28 +7645,28 @@
 - `sheet-fond-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-fonds-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-fonds-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-fontaine-maudite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-fontaine-miraculeuse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-fontaine-traditionnelle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-fontaine-maudite-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-fontaine-miraculeuse-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-fontaine-traditionnelle-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-foret-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-foret-2048x256-sud-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-garde-fourmi-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-garde-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-garde-zebre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-gardes-lemuriens-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-garde-fourmi-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-garde-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-garde-zebre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-gardes-lemuriens-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-gestes-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-gestes-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-girafe-barde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-golem-pierre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-golem-pierre-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-guepe-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-guepe-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-girafe-barde-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-golem-pierre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-golem-pierre-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-guepe-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-guepe-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-hud-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-hud-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-ines-deplacement-v2-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-koala-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-koala-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-lavoir-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-koala-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-koala-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-lavoir-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-logo-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-logo-apercu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-logo-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7694,19 +7696,19 @@
 - `sheet-m02-creatures-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-m02-fonds-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-m02-fonds-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-maison-fabricant-armes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-fabricant-armures-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-gardes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-herboriste-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-paysan-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-villageois-2-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-maison-ville-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-marchand-ambulant-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-maison-fabricant-armes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-fabricant-armures-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-gardes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-herboriste-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-paysan-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-villageois-2-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-maison-ville-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-marchand-ambulant-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-medaillon-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-medaillon-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-medecin-zebre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-meduse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-meduse-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-medecin-zebre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-meduse-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-meduse-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-menus-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-menus-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-messages-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7715,8 +7717,8 @@
 - `sheet-mode-jeu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-mode-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-mode-jeu-3x-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-moustique-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-moustique-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-moustique-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-moustique-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-noe-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-objets-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-objets-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7753,40 +7755,40 @@
 - `sheet-panneau-3quart-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-panneaux-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-panneaux-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-paysan-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-paysan-zebre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-paysanne-enfant-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-paysanne-renard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-paysan-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-paysan-zebre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-paysanne-enfant-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-paysanne-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-personnages-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-personnages-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-pestouille-4directions-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-4directions-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-armure-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-armure-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pestouille-4directions-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-4directions-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-armure-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-armure-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pestouille-arriere-3-4-gauche-sa-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pestouille-arriere-sans-ombre-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pestouille-avant-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pestouille-avant-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pestouille-avant-3-4-gauche-sans-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pestouille-dessus-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-pestouille-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-dos-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pestouille-dos-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-dos-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pestouille-east-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-pestouille-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-noel-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-noel-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pestouille-face-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-noel-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-noel-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pestouille-north-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-pestouille-planche-01-univers-ga-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-planche-02-sprites-ti-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-profil-droit-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pestouille-planche-01-univers-ga-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-planche-02-sprites-ti-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-profil-droit-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pestouille-profil-droit-sans-omb-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-animations-dos-hl-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-animations-face-h-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-animations-profil-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-elements-03-monde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-elements-04-comba-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-maquette-01-explo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pestouille-rpg-maquette-02-metie-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-animations-dos-hl-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-animations-face-h-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-animations-profil-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-elements-03-monde-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-elements-04-comba-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-maquette-01-explo-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pestouille-rpg-maquette-02-metie-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pestouille-south-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-petit-pompiers-ambulance-planche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-petit-pompiers-animaux-a-secouri-0001` — unknown · forbidden · Planche entière réservée.
@@ -7805,8 +7807,8 @@
 - `sheet-pieces-origine-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-pieces-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pieces-origine-3x-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-pieuvre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pieuvre-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-pieuvre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pieuvre-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pistouille-arbre-cerisier-cote-1-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pistouille-arbre-cerisier-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pistouille-arbre-erable-cote-102-0001` — unknown · forbidden · Planche entière réservée.
@@ -7885,18 +7887,18 @@
 - `sheet-pistouille-tornade-dessus-1024-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pistouille-vues-dessus-3-objets-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pistouille-vues-dessus-4-objets-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-place-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-place-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-planche-inutilises-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-planche-mascottes-code-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-planche-top10-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-planche-transparente-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-planche-transparente-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-plante-carnivore-domestique-v1-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-plante-verte-4directions-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-plante-verte-4directions-detoure-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-plantes-tailles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-plantes-variantes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-plantes-variantes-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-plante-carnivore-domestique-v1-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-plante-verte-4directions-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-plante-verte-4directions-detoure-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-plantes-tailles-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-plantes-variantes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-plantes-variantes-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-plateau-apercu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-plateau-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7905,35 +7907,35 @@
 - `sheet-plateau-jeu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-plateau-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-plateau-jeu-3x-0002` — unknown · forbidden · Planche entière réservée.
-- `sheet-poubelle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-poubelle-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-pretre-fourmis-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-princesse-renards-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-princesse-zebres-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-puits-entree-donjon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-puits-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-reine-fourmis-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-reine-lemuriens-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-reine-renards-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-reine-zebres-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-requin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-requin-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-robot-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-robot-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-roi-lemuriens-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-roi-renards-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-roi-zebres-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-poubelle-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-poubelle-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-pretre-fourmis-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-princesse-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-princesse-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-puits-entree-donjon-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-puits-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-reine-fourmis-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-reine-lemuriens-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-reine-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-reine-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-requin-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-requin-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-robot-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-robot-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-roi-lemuriens-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-roi-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-roi-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-roule-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-telephone-malicieux-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-telephone-malicieux-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-temple-soigneur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-tour-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-telephone-malicieux-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-telephone-malicieux-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-temple-soigneur-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-tour-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-traits-animations-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-traits-animations-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-traits-animations-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-traits-animations-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-troll-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-troll-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-troll-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-troll-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-tutoriel-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-tutoriel-apercu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-tutoriel-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -7949,10 +7951,10 @@
 - `sheet-tutu-profil-droit-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-tutu-profil-gauche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-v6-0001` — unknown · forbidden · Planche entière réservée.
-- `sheet-vache-champignon-6-pattes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-vache-girolle-6-pattes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-vampire-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-vampire-detouree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-villageois-lemurien-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-villageoise-lemurienne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
-- `sheet-zebre-cuisinier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Planche entière réservée.
+- `sheet-vache-champignon-6-pattes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-vache-girolle-6-pattes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-vampire-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-vampire-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-villageois-lemurien-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-villageoise-lemurienne-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-zebre-cuisinier-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.

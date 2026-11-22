@@ -27,3 +27,16 @@ steps:
       - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
       - . .venv/bin/activate
       - ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json
+
+  # EXT-002 « discover » (E258) : inventaire des niveaux sur les mêmes copies publiques, sources jamais écrites.
+  - name: niveaux-discover
+    image: harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    # Indépendante de la réconciliation : une dérive du catalogue n'empêche pas l'inventaire des niveaux.
+    depends_on: []
+    commands:
+      - apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - git config --global --add safe.directory '*'
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - .venv/bin/python3 scripts/niveaux-decouverte-publique.py

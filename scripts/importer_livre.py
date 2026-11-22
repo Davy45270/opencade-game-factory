@@ -108,46 +108,43 @@ PROFILS = {
         "prefixe_cadre": "sprite-",                          # cadre « sprite-<élément> » → élément de la table
         "planches": "~/Projets/homelab-docs/specs/pestouille-rpg-sources/planches",
         "univers": "pestouille",
-        "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
-        "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
-                           "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; "
-                                       "publiables à travers tout jeu de David qui les emploie (HL-538, 2026-11-21)."},
-        "auteur": "David (dessin fourni par David ; auteur ou outil de création non déclaré)",
+        "licence": "CC-BY-SA-4.0",
+        "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
+                           "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."},
+        "auteur": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
         # Images isolées DÉCLARÉES par assets/provenance.json du jeu (`assets` par source/élément, `hors_atlas` par
         # fichier avec son SHA-256), chaque famille avec ses origines admises et les preuves exigées dans l'entrée.
         # Absente du fichier, origine non admise ou preuve manquante : inconnue, listée dans sans_origine.
         "provenance_images": "assets/provenance.json",
         "images": [
             *({"prefixe": prefixe, "declaree": True, "origines": ["planche"],
-               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
-               "auteur": "David (dessin fourni par David ; découpé par le jeu, assets/provenance.json)",
-               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
-                                  "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : "
-                                              "privé, tous droits réservés ; publiables à travers tout jeu de David "
-                                              "qui les emploie."}}
+               "licence": "CC-BY-SA-4.0",
+               "auteur": "Davy45270 (dessin fourni par David ; découpé par le jeu, assets/provenance.json)",
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
+                                  "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."}}
               for prefixe in ("assets/cutouts/",)),
             # Redessins : dérivés d'une planche de David dans un jeu de David, ils gardent sa licence privée ; la
             # planche source et son SHA-256 doivent être cités (décision du coordinateur, HL-537, 2026-11-21).
             *({"prefixe": prefixe, "declaree": True, "origines": ["redessiné (marque)"],
                "exige": ["planche", "planche_sha256"],
-               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+               "licence": "CC-BY-SA-4.0",
                "auteur": "redessin dans le style des planches de Davy45270 (assets/provenance.json)",
-               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162 ; HL-537",
-                                  "decision": "Dessins de David = licence privée ; une dérivation dans un jeu de "
-                                              "David garde cette licence (redessin citant sa planche source et son "
-                                              "SHA-256, 2026-11-21)."}}
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; HL-537",
+                                  "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."}}
               for prefixe in ("assets/redessine/", "public/assets/redessine/")),
             # Hors atlas : tuiles découpées de la planche 02, icônes dessinées dans le dépôt ; le SHA-256 déclaré du
             # fichier doit être celui des octets livrés.
             *({"prefixe": prefixe, "declaree": True, "origines": origines, "exige": ["sha256"],
-               "licence": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+               "licence": "CC-BY-SA-4.0",
                "auteur": auteur,
-               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3162 ; HL-537",
-                                  "decision": "Images hors atlas déclarées avec leur origine et leur SHA-256 dans "
-                                              "assets/provenance.json (hors_atlas) : licence privée de David "
-                                              "(2026-11-21)."}}
+               "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; HL-537",
+                                  "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."}}
               for prefixe, origines, auteur in (
-                  ("assets/cartes/", ["planche"], "David (planche découpée par le jeu, assets/provenance.json)"),
+                  ("assets/cartes/", ["planche"], "Davy45270 (planche découpée par le jeu, assets/provenance.json)"),
                   ("public/assets/cartes/", ["planche"], "David (planche découpée par le jeu, assets/provenance.json)"),
                   ("public/icons/", ["dessiné dans le dépôt"], None))),
         ],

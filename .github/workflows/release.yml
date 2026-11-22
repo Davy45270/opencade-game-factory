@@ -1,0 +1,54 @@
+# Release du registre (spec v1.0 § 9 ; EXT-002 § 2 « release ») sur GitHub Actions : index reconstruit, SBOM
+# CycloneDX de l'outillage, manifeste de licences d'assets distinct du SBOM, et publication des niveaux à
+# blanc (`level publish --dry-run` : version immuable, licence vérifiée, gates passées).
+# Sur main : contrôle seul (rien n'est publié). Sur tag v* : la release GitHub reçoit le SBOM et le manifeste.
+# Woodpecker (.woodpecker/release.yml) tourne EN PLUS sur la forge. Seul GITHUB_TOKEN, en écriture pour le job
+# `publier` uniquement.
+name: release
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sbom-et-licences:
+    runs-on: ubuntu-24.04
+    container: python:3.13-slim
+    steps:
+      - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: git config --global --add safe.directory '*'
+      - run: pip install --quiet --disable-pip-version-check -r requirements.txt
+      - run: ./assetctl index --json > /dev/null
+      - run: ./assetctl sbom --out generated/sbom.cdx.json
+      - run: bash scripts/ci-local.sh controle-release
+      - name: niveaux publiables (level publish --dry-run)
+        run: |
+          N=0; for f in catalog/levels/*.json; do
+            id=$(basename "$f" .json)
+            v=$(python3 -c 'import json,sys; v=json.load(open(sys.argv[1])).get("versions") or []; print(v[-1]["version"] if v else "")' "$f")
+            [ -n "$v" ] || continue
+            ./assetctl level publish "$id" --version "$v" --dry-run --json > /dev/null || { echo "publication refusée : $id@$v"; exit 1; }
+            N=$((N + 1))
+          done; echo "niveaux publiés rejoués : $N"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: release-registre
+          path: |
+            generated/sbom.cdx.json
+            generated/licenses.json
+  publier:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: sbom-et-licences
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: release-registre
+      - run: gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" --notes "SBOM et manifeste de licences du registre" sbom.cdx.json licenses.json
+        env:
+          GH_TOKEN: ${{ github.token }}

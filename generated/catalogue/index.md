@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-7479 assets · 477 planches · 75 jeux employant des assets · 11 sources · 8 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+7481 assets · 477 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -102,12 +102,14 @@
 
 | Licence | Assets |
 |---|---|
+| [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
 | [CC-BY-4.0](licences/CC-BY-4.0.md) | 1208 |
+| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 2468 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
-| [LicenseRef-David-Prive-Tous-Droits-Reserves](licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) | 2468 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
+| [LicenseRef-OGA-BY-3.0](licences/LicenseRef-OGA-BY-3.0.md) | 1 |
 | [MIT](licences/MIT.md) | 703 |
 | [unknown](licences/unknown.md) | 3060 |
 
@@ -128,9 +130,9 @@
 | [06_palmier_cote](planches/sheet-06-palmier-cote-0001.md) | unknown | 0 |
 | [06_palmier_dessus](planches/sheet-06-palmier-dessus-0001.md) | unknown | 0 |
 | [2026-11-06-j__bande](planches/sheet-2026-11-06-j-bande-0001.md) | unknown | 0 |
-| [Champignon malicieux, amanite (type Végétal, taille M)](planches/sheet-amanite-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Champignon malicieux, amanite (type Végétal, taille M) — détourée](planches/sheet-amanite-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Ange guerrier](planches/sheet-ange-guerrier-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Champignon malicieux, amanite (type Végétal, taille M)](planches/sheet-amanite-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Champignon malicieux, amanite (type Végétal, taille M) — détourée](planches/sheet-amanite-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Ange guerrier](planches/sheet-ange-guerrier-0001.md) | CC-BY-SA-4.0 | 0 |
 | [animations-apercu@2x](planches/sheet-animations-apercu-2x-0001.md) | unknown | 0 |
 | [animations-apercu@2x](planches/sheet-animations-apercu-2x-0002.md) | unknown | 0 |
 | [animations-apercu@3x](planches/sheet-animations-apercu-3x-0001.md) | unknown | 0 |
@@ -139,8 +141,8 @@
 | [animations-jeu@2x](planches/sheet-animations-jeu-2x-0002.md) | unknown | 0 |
 | [animations-jeu@3x](planches/sheet-animations-jeu-3x-0001.md) | unknown | 0 |
 | [animations-jeu@3x](planches/sheet-animations-jeu-3x-0002.md) | unknown | 0 |
-| [Araignée de grotte (taille M)](planches/sheet-araignee-grotte-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Araignée de grotte (taille M) — détourée](planches/sheet-araignee-grotte-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Araignée de grotte (taille M)](planches/sheet-araignee-grotte-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Araignée de grotte (taille M) — détourée](planches/sheet-araignee-grotte-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Arbre_02_cerisier_planche](planches/sheet-arbre-02-cerisier-planche-0001.md) | unknown | 0 |
 | [Arbre_03_erable_planche](planches/sheet-arbre-03-erable-planche-0001.md) | unknown | 0 |
 | [Arbre_04_pommier_planche](planches/sheet-arbre-04-pommier-planche-0001.md) | unknown | 0 |
@@ -151,20 +153,20 @@
 | [Arbre_06_palmier_planche](planches/sheet-arbre-06-palmier-planche-0001.md) | unknown | 0 |
 | [Arbre_06_palmier_planche_composants](planches/sheet-arbre-06-palmier-planche-composa-0001.md) | unknown | 0 |
 | [Arbre_06_palmier_profil](planches/sheet-arbre-06-palmier-profil-0001.md) | unknown | 0 |
-| [Arbre du village — sacré](planches/sheet-arbre-village-sacre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Arbre du village — social](planches/sheet-arbre-village-social-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Arbre vivant (type Plante, taille M)](planches/sheet-arbre-vivant-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Arbre vivant (type Plante, taille M) — détourée](planches/sheet-arbre-vivant-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Auberge](planches/sheet-auberge-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Arbre du village — sacré](planches/sheet-arbre-village-sacre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Arbre du village — social](planches/sheet-arbre-village-social-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Arbre vivant (type Plante, taille M)](planches/sheet-arbre-vivant-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Arbre vivant (type Plante, taille M) — détourée](planches/sheet-arbre-vivant-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Auberge](planches/sheet-auberge-0001.md) | CC-BY-SA-4.0 | 0 |
 | [bande](planches/sheet-bande-0001.md) | unknown | 0 |
 | [bannieres-jeu@2x](planches/sheet-bannieres-jeu-2x-0001.md) | unknown | 0 |
 | [bannieres-jeu@3x](planches/sheet-bannieres-jeu-3x-0001.md) | unknown | 0 |
-| [Bibliothécaire des Renards](planches/sheet-bibliothecaire-renards-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Bibliothèque des Renards](planches/sheet-bibliotheque-renards-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Blob vert, 4 directions (type Blob, taille M)](planches/sheet-blob-vert-4directions-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Blob vert, 4 directions (type Blob, taille M) — détourée](planches/sheet-blob-vert-4directions-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 68 |
-| [Six blobs (vert, bleu, feu, glace, poison, or), profil droit](planches/sheet-blobs-variantes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Six blobs (vert, bleu, feu, glace, poison, or), profil droit — détourée](planches/sheet-blobs-variantes-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 84 |
+| [Bibliothécaire des Renards](planches/sheet-bibliothecaire-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Bibliothèque des Renards](planches/sheet-bibliotheque-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob vert, 4 directions (type Blob, taille M)](planches/sheet-blob-vert-4directions-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob vert, 4 directions (type Blob, taille M) — détourée](planches/sheet-blob-vert-4directions-detouree-0001.md) | CC-BY-SA-4.0 | 68 |
+| [Six blobs (vert, bleu, feu, glace, poison, or), profil droit](planches/sheet-blobs-variantes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Six blobs (vert, bleu, feu, glace, poison, or), profil droit — détourée](planches/sheet-blobs-variantes-detouree-0001.md) | CC-BY-SA-4.0 | 84 |
 | [Boubou_arriere](planches/sheet-boubou-arriere-0001.md) | unknown | 0 |
 | [Boubou_arriere_3-4_droit](planches/sheet-boubou-arriere-3-4-droit-0001.md) | unknown | 0 |
 | [Boubou_arriere_3-4_gauche](planches/sheet-boubou-arriere-3-4-gauche-0001.md) | unknown | 0 |
@@ -173,9 +175,9 @@
 | [Boubou_avant_corrige](planches/sheet-boubou-avant-corrige-0001.md) | unknown | 0 |
 | [Boubou_dessus](planches/sheet-boubou-dessus-0001.md) | unknown | 0 |
 | [Boubou_profil_droit](planches/sheet-boubou-profil-droit-0001.md) | unknown | 0 |
-| [Boutique du boulanger](planches/sheet-boutique-boulanger-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Boutique du poissonnier](planches/sheet-boutique-poissonnier-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Bureau de poste](planches/sheet-bureau-poste-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Boutique du boulanger](planches/sheet-boutique-boulanger-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Boutique du poissonnier](planches/sheet-boutique-poissonnier-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Bureau de poste](planches/sheet-bureau-poste-0001.md) | CC-BY-SA-4.0 | 0 |
 | [caisse_3quart](planches/sheet-caisse-3quart-0001.md) | unknown | 0 |
 | [CaliRoux_arriere](planches/sheet-caliroux-arriere-0001.md) | unknown | 0 |
 | [CaliRoux_arriere_3-4_droit](planches/sheet-caliroux-arriere-3-4-droit-0001.md) | unknown | 0 |
@@ -193,18 +195,18 @@
 | [cascade-apercu@2x](planches/sheet-cascade-apercu-2x-0002.md) | unknown | 0 |
 | [cascade-apercu@3x](planches/sheet-cascade-apercu-3x-0001.md) | unknown | 0 |
 | [cascade-apercu@3x](planches/sheet-cascade-apercu-3x-0002.md) | unknown | 0 |
-| [Cep malicieux, bolet (type Végétal, taille M)](planches/sheet-cepe-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Cep malicieux, bolet (type Végétal, taille M) — détourée](planches/sheet-cepe-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Cep malicieux, bolet (type Végétal, taille M)](planches/sheet-cepe-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Cep malicieux, bolet (type Végétal, taille M) — détourée](planches/sheet-cepe-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [chambre-apercu@2x](planches/sheet-chambre-apercu-2x-0001.md) | unknown | 0 |
 | [chambre-apercu@3x](planches/sheet-chambre-apercu-3x-0001.md) | unknown | 0 |
 | [chambre-origine@2x](planches/sheet-chambre-origine-2x-0001.md) | unknown | 0 |
 | [chambre-origine@3x](planches/sheet-chambre-origine-3x-0001.md) | unknown | 0 |
-| [Champignon-cochon domestique](planches/sheet-champignon-cochon-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Champignon-cochon domestique](planches/sheet-champignon-cochon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [chaton](planches/sheet-chaton-0001.md) | unknown | 0 |
-| [Chauve-souris de grotte (type Volant, taille M)](planches/sheet-chauve-souris-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Chauve-souris de grotte (type Volant, taille M) — détourée](planches/sheet-chauve-souris-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 61 |
+| [Chauve-souris de grotte (type Volant, taille M)](planches/sheet-chauve-souris-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Chauve-souris de grotte (type Volant, taille M) — détourée](planches/sheet-chauve-souris-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
 | [Chloe_cycle_marche](planches/sheet-chloe-cycle-marche-0001.md) | unknown | 0 |
-| [Cochon moine soigneur](planches/sheet-cochon-moine-soigneur-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Cochon moine soigneur](planches/sheet-cochon-moine-soigneur-0001.md) | CC-BY-SA-4.0 | 0 |
 | [commandes-apercu@2x](planches/sheet-commandes-apercu-2x-0001.md) | unknown | 0 |
 | [commandes-apercu@3x](planches/sheet-commandes-apercu-3x-0001.md) | unknown | 0 |
 | [commandes-origine@2x](planches/sheet-commandes-origine-2x-0001.md) | unknown | 0 |
@@ -223,7 +225,7 @@
 | [compteurs-maquettes-apercu@3x](planches/sheet-compteurs-maquettes-apercu-3x-0001.md) | unknown | 0 |
 | [compteurs-maquettes-jeu@2x](planches/sheet-compteurs-maquettes-jeu-2x-0001.md) | unknown | 0 |
 | [compteurs-maquettes-jeu@3x](planches/sheet-compteurs-maquettes-jeu-3x-0001.md) | unknown | 0 |
-| [Corbeau saltimbanque](planches/sheet-corbeau-saltimbanque-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Corbeau saltimbanque](planches/sheet-corbeau-saltimbanque-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Cozy_Room_Sort_Planche_01.webp](planches/sheet-cozy-room-sort-planche-01-webp-0001.md) | unknown | 51 |
 | [Cozy_Room_Sort_Planche_02.webp](planches/sheet-cozy-room-sort-planche-02-webp-0001.md) | unknown | 14 |
 | [Cozy_Room_Sort_Planche_03.webp](planches/sheet-cozy-room-sort-planche-03-webp-0001.md) | unknown | 48 |
@@ -236,14 +238,14 @@
 | [Decors_arbre_01_cote](planches/sheet-decors-arbre-01-cote-0001.md) | unknown | 0 |
 | [Decors_arbre_01_dessus](planches/sheet-decors-arbre-01-dessus-0001.md) | unknown | 0 |
 | [Decors_arbres_planche_reference](planches/sheet-decors-arbres-planche-reference-0001.md) | unknown | 0 |
-| [Démon diamant](planches/sheet-demon-diamant-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Démon de l'eau](planches/sheet-demon-eau-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Démon du feu](planches/sheet-demon-feu-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Démon feuillu](planches/sheet-demon-feuillu-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Démon minéral](planches/sheet-demon-mineral-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Diable malicieux (type Démon, taille M)](planches/sheet-diable-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Diable malicieux (type Démon, taille M) — détourée](planches/sheet-diable-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Dionée attrape-mouche domestique](planches/sheet-dionee-attrape-mouche-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Démon diamant](planches/sheet-demon-diamant-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Démon de l'eau](planches/sheet-demon-eau-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Démon du feu](planches/sheet-demon-feu-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Démon feuillu](planches/sheet-demon-feuillu-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Démon minéral](planches/sheet-demon-mineral-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Diable malicieux (type Démon, taille M)](planches/sheet-diable-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Diable malicieux (type Démon, taille M) — détourée](planches/sheet-diable-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Dionée attrape-mouche domestique](planches/sheet-dionee-attrape-mouche-0001.md) | CC-BY-SA-4.0 | 0 |
 | [e03-interface](planches/sheet-e03-interface-0001.md) | unknown | 0 |
 | [e03-menu](planches/sheet-e03-menu-0001.md) | unknown | 0 |
 | [e03-objets](planches/sheet-e03-objets-0001.md) | unknown | 0 |
@@ -255,8 +257,8 @@
 | [e04-monstres](planches/sheet-e04-monstres-0001.md) | unknown | 0 |
 | [e04-portraits](planches/sheet-e04-portraits-0001.md) | unknown | 0 |
 | [e04-recrutement](planches/sheet-e04-recrutement-0001.md) | unknown | 0 |
-| [École du village](planches/sheet-ecole-village-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Écuries](planches/sheet-ecuries-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [École du village](planches/sheet-ecole-village-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Écuries](planches/sheet-ecuries-0001.md) | CC-BY-SA-4.0 | 0 |
 | [effets-jeu@2x](planches/sheet-effets-jeu-2x-0001.md) | unknown | 0 |
 | [effets-jeu@3x](planches/sheet-effets-jeu-3x-0001.md) | unknown | 0 |
 | [effets-maquettes@2x](planches/sheet-effets-maquettes-2x-0001.md) | unknown | 0 |
@@ -266,11 +268,11 @@
 | [elimination-jeu@2x](planches/sheet-elimination-jeu-2x-0001.md) | unknown | 0 |
 | [elimination-jeu@3x](planches/sheet-elimination-jeu-3x-0001.md) | unknown | 0 |
 | [Emma_cycle_marche](planches/sheet-emma-cycle-marche-0001.md) | unknown | 0 |
-| [Enfant fourmi](planches/sheet-enfant-fourmi-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Enfant lémurien](planches/sheet-enfant-lemurien-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Enfant lémurienne](planches/sheet-enfant-lemurienne-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Enfant renard](planches/sheet-enfant-renard-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Enfant zèbre](planches/sheet-enfant-zebre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Enfant fourmi](planches/sheet-enfant-fourmi-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Enfant lémurien](planches/sheet-enfant-lemurien-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Enfant lémurienne](planches/sheet-enfant-lemurienne-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Enfant renard](planches/sheet-enfant-renard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Enfant zèbre](planches/sheet-enfant-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
 | [fioles-logo@2x](planches/sheet-fioles-logo-2x-0001.md) | unknown | 0 |
 | [fioles-logo@3x](planches/sheet-fioles-logo-3x-0001.md) | unknown | 0 |
 | [fleche-plateau-apercu@2x](planches/sheet-fleche-plateau-apercu-2x-0001.md) | unknown | 0 |
@@ -279,28 +281,28 @@
 | [fond-jeu@3x](planches/sheet-fond-jeu-3x-0001.md) | unknown | 0 |
 | [fonds-apercu@2x](planches/sheet-fonds-apercu-2x-0001.md) | unknown | 0 |
 | [fonds-apercu@3x](planches/sheet-fonds-apercu-3x-0001.md) | unknown | 0 |
-| [Fontaine maudite](planches/sheet-fontaine-maudite-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Fontaine miraculeuse](planches/sheet-fontaine-miraculeuse-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Fontaine traditionnelle](planches/sheet-fontaine-traditionnelle-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Fontaine maudite](planches/sheet-fontaine-maudite-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fontaine miraculeuse](planches/sheet-fontaine-miraculeuse-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fontaine traditionnelle](planches/sheet-fontaine-traditionnelle-0001.md) | CC-BY-SA-4.0 | 0 |
 | [foret](planches/sheet-foret-0001.md) | unknown | 0 |
 | [foret-2048x256-sud](planches/sheet-foret-2048x256-sud-0001.md) | unknown | 0 |
-| [Garde fourmi en armure](planches/sheet-garde-fourmi-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Garde renard en armure](planches/sheet-garde-renard-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Garde zèbre en armure](planches/sheet-garde-zebre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Gardes lémuriens](planches/sheet-gardes-lemuriens-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Garde fourmi en armure](planches/sheet-garde-fourmi-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Garde renard en armure](planches/sheet-garde-renard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Garde zèbre en armure](planches/sheet-garde-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Gardes lémuriens](planches/sheet-gardes-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
 | [gestes-jeu@2x](planches/sheet-gestes-jeu-2x-0001.md) | unknown | 0 |
 | [gestes-jeu@3x](planches/sheet-gestes-jeu-3x-0001.md) | unknown | 0 |
-| [Girafe barde](planches/sheet-girafe-barde-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Golem de pierre (type Golem, taille M)](planches/sheet-golem-pierre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Golem de pierre (type Golem, taille M) — détourée](planches/sheet-golem-pierre-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 76 |
-| [Guêpe guerrière (type Aérien, taille S)](planches/sheet-guepe-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Guêpe guerrière (type Aérien, taille S) — détourée](planches/sheet-guepe-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 61 |
+| [Girafe barde](planches/sheet-girafe-barde-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Golem de pierre (type Golem, taille M)](planches/sheet-golem-pierre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Golem de pierre (type Golem, taille M) — détourée](planches/sheet-golem-pierre-detouree-0001.md) | CC-BY-SA-4.0 | 76 |
+| [Guêpe guerrière (type Aérien, taille S)](planches/sheet-guepe-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Guêpe guerrière (type Aérien, taille S) — détourée](planches/sheet-guepe-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
 | [hud-origine@2x](planches/sheet-hud-origine-2x-0001.md) | unknown | 0 |
 | [hud-origine@3x](planches/sheet-hud-origine-3x-0001.md) | unknown | 0 |
 | [Ines_deplacement_V2](planches/sheet-ines-deplacement-v2-0001.md) | unknown | 0 |
-| [Koala malicieux (type Animal, taille M)](planches/sheet-koala-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Koala malicieux (type Animal, taille M) — détourée](planches/sheet-koala-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Lavoir](planches/sheet-lavoir-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Koala malicieux (type Animal, taille M)](planches/sheet-koala-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Koala malicieux (type Animal, taille M) — détourée](planches/sheet-koala-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Lavoir](planches/sheet-lavoir-0001.md) | CC-BY-SA-4.0 | 0 |
 | [logo-apercu@2x](planches/sheet-logo-apercu-2x-0001.md) | unknown | 0 |
 | [logo-apercu@2x](planches/sheet-logo-apercu-2x-0002.md) | unknown | 0 |
 | [logo-apercu@3x](planches/sheet-logo-apercu-3x-0001.md) | unknown | 0 |
@@ -330,19 +332,19 @@
 | [m02-creatures](planches/sheet-m02-creatures-0001.md) | unknown | 0 |
 | [m02-fonds](planches/sheet-m02-fonds-0001.md) | unknown | 0 |
 | [m02-fonds](planches/sheet-m02-fonds-0002.md) | unknown | 0 |
-| [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Maison des gardes](planches/sheet-maison-gardes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Maison de l’herboriste](planches/sheet-maison-herboriste-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Maison de paysan](planches/sheet-maison-paysan-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Autre maison de villageois](planches/sheet-maison-villageois-2-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Maison de ville](planches/sheet-maison-ville-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Marchand ambulant](planches/sheet-marchand-ambulant-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison des gardes](planches/sheet-maison-gardes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison de l’herboriste](planches/sheet-maison-herboriste-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison de paysan](planches/sheet-maison-paysan-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Autre maison de villageois](planches/sheet-maison-villageois-2-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison de ville](planches/sheet-maison-ville-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Marchand ambulant](planches/sheet-marchand-ambulant-0001.md) | CC-BY-SA-4.0 | 0 |
 | [medaillon-origine@2x](planches/sheet-medaillon-origine-2x-0001.md) | unknown | 0 |
 | [medaillon-origine@3x](planches/sheet-medaillon-origine-3x-0001.md) | unknown | 0 |
-| [Médecin zèbre](planches/sheet-medecin-zebre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Méduse luminescente (type Aquatique, taille M)](planches/sheet-meduse-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Méduse luminescente (type Aquatique, taille M) — détourée](planches/sheet-meduse-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 66 |
+| [Médecin zèbre](planches/sheet-medecin-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Méduse luminescente (type Aquatique, taille M)](planches/sheet-meduse-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Méduse luminescente (type Aquatique, taille M) — détourée](planches/sheet-meduse-detouree-0001.md) | CC-BY-SA-4.0 | 66 |
 | [menus-origine@2x](planches/sheet-menus-origine-2x-0001.md) | unknown | 0 |
 | [menus-origine@3x](planches/sheet-menus-origine-3x-0001.md) | unknown | 0 |
 | [messages-apercu@2x](planches/sheet-messages-apercu-2x-0001.md) | unknown | 0 |
@@ -351,8 +353,8 @@
 | [mode-jeu@2x](planches/sheet-mode-jeu-2x-0002.md) | unknown | 0 |
 | [mode-jeu@3x](planches/sheet-mode-jeu-3x-0001.md) | unknown | 0 |
 | [mode-jeu@3x](planches/sheet-mode-jeu-3x-0002.md) | unknown | 0 |
-| [Moustique piqueur (type Aérien, taille S)](planches/sheet-moustique-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Moustique piqueur (type Aérien, taille S) — détourée](planches/sheet-moustique-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Moustique piqueur (type Aérien, taille S)](planches/sheet-moustique-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Moustique piqueur (type Aérien, taille S) — détourée](planches/sheet-moustique-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Noe_cycle_marche](planches/sheet-noe-cycle-marche-0001.md) | unknown | 0 |
 | [objets-apercu@2x](planches/sheet-objets-apercu-2x-0001.md) | unknown | 0 |
 | [objets-apercu@3x](planches/sheet-objets-apercu-3x-0001.md) | unknown | 0 |
@@ -389,40 +391,40 @@
 | [panneau_3quart](planches/sheet-panneau-3quart-0001.md) | unknown | 0 |
 | [panneaux-apercu@2x](planches/sheet-panneaux-apercu-2x-0001.md) | unknown | 0 |
 | [panneaux-apercu@3x](planches/sheet-panneaux-apercu-3x-0001.md) | unknown | 0 |
-| [Paysan renard](planches/sheet-paysan-renard-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Paysan zèbre](planches/sheet-paysan-zebre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Paysanne enfant renard](planches/sheet-paysanne-enfant-renard-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Paysanne renard](planches/sheet-paysanne-renard-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Paysan renard](planches/sheet-paysan-renard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Paysan zèbre](planches/sheet-paysan-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Paysanne enfant renard](planches/sheet-paysanne-enfant-renard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Paysanne renard](planches/sheet-paysanne-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [personnages-origine@2x](planches/sheet-personnages-origine-2x-0001.md) | unknown | 0 |
 | [personnages-origine@3x](planches/sheet-personnages-origine-3x-0001.md) | unknown | 0 |
-| [Pestouille, planche 4 directions](planches/sheet-pestouille-4directions-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Pestouille, planche 4 directions — détourée](planches/sheet-pestouille-4directions-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 76 |
-| [Pestouille en armure (chevalier)](planches/sheet-pestouille-armure-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Pestouille en armure (chevalier) — détourée](planches/sheet-pestouille-armure-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Pestouille, planche 4 directions](planches/sheet-pestouille-4directions-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Pestouille, planche 4 directions — détourée](planches/sheet-pestouille-4directions-detouree-0001.md) | CC-BY-SA-4.0 | 76 |
+| [Pestouille en armure (chevalier)](planches/sheet-pestouille-armure-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Pestouille en armure (chevalier) — détourée](planches/sheet-pestouille-armure-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Pestouille_arriere_3-4_gauche_sans_ombre](planches/sheet-pestouille-arriere-3-4-gauche-sa-0001.md) | unknown | 0 |
 | [Pestouille_arriere_sans_ombre](planches/sheet-pestouille-arriere-sans-ombre-0001.md) | unknown | 0 |
 | [Pestouille_avant](planches/sheet-pestouille-avant-0001.md) | unknown | 0 |
 | [Pestouille_avant_3-4_droit](planches/sheet-pestouille-avant-3-4-droit-0001.md) | unknown | 0 |
 | [Pestouille_avant_3-4_gauche_sans_ombre](planches/sheet-pestouille-avant-3-4-gauche-sans-0001.md) | unknown | 0 |
 | [Pestouille_dessus](planches/sheet-pestouille-dessus-0001.md) | unknown | 0 |
-| [Pestouille de dos](planches/sheet-pestouille-dos-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 38 |
-| [Pestouille de dos — détourée](planches/sheet-pestouille-dos-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
+| [Pestouille de dos](planches/sheet-pestouille-dos-0001.md) | CC-BY-SA-4.0 | 38 |
+| [Pestouille de dos — détourée](planches/sheet-pestouille-dos-detouree-0001.md) | CC-BY-SA-4.0 | 19 |
 | [pestouille-east](planches/sheet-pestouille-east-0001.md) | unknown | 0 |
-| [Pestouille de face](planches/sheet-pestouille-face-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 57 |
-| [Pestouille en Père Noël](planches/sheet-pestouille-noel-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Pestouille en Père Noël — détourée](planches/sheet-pestouille-noel-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Pestouille de face](planches/sheet-pestouille-face-0001.md) | CC-BY-SA-4.0 | 57 |
+| [Pestouille en Père Noël](planches/sheet-pestouille-noel-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Pestouille en Père Noël — détourée](planches/sheet-pestouille-noel-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [pestouille-north](planches/sheet-pestouille-north-0001.md) | unknown | 0 |
-| [Planche 01 : univers et gameplay](planches/sheet-pestouille-planche-01-univers-ga-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Planche 02 : sprites, tilesets, énigmes](planches/sheet-pestouille-planche-02-sprites-ti-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 99 |
-| [Pestouille de profil droit](planches/sheet-pestouille-profil-droit-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 57 |
+| [Planche 01 : univers et gameplay](planches/sheet-pestouille-planche-01-univers-ga-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Planche 02 : sprites, tilesets, énigmes](planches/sheet-pestouille-planche-02-sprites-ti-0001.md) | CC-BY-SA-4.0 | 99 |
+| [Pestouille de profil droit](planches/sheet-pestouille-profil-droit-0001.md) | CC-BY-SA-4.0 | 57 |
 | [Pestouille_profil_droit_sans_ombre](planches/sheet-pestouille-profil-droit-sans-omb-0001.md) | unknown | 0 |
-| [Pestouille de dos (JPEG)](planches/sheet-pestouille-rpg-animations-dos-hl-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
-| [Pestouille de face (JPEG)](planches/sheet-pestouille-rpg-animations-face-h-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
-| [Pestouille de profil droit (JPEG)](planches/sheet-pestouille-rpg-animations-profil-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
-| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 174 |
-| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 183 |
-| [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 150 |
-| [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 31 |
+| [Pestouille de dos (JPEG)](planches/sheet-pestouille-rpg-animations-dos-hl-0001.md) | CC-BY-SA-4.0 | 19 |
+| [Pestouille de face (JPEG)](planches/sheet-pestouille-rpg-animations-face-h-0001.md) | CC-BY-SA-4.0 | 19 |
+| [Pestouille de profil droit (JPEG)](planches/sheet-pestouille-rpg-animations-profil-0001.md) | CC-BY-SA-4.0 | 19 |
+| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | CC-BY-SA-4.0 | 174 |
+| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | CC-BY-SA-4.0 | 183 |
+| [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | CC-BY-SA-4.0 | 150 |
+| [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | CC-BY-SA-4.0 | 31 |
 | [pestouille-south](planches/sheet-pestouille-south-0001.md) | unknown | 0 |
 | [Petit_Pompiers_ambulance_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-ambulance-planche-0001.md) | unknown | 0 |
 | [Petit_Pompiers_animaux_a_secourir_catalogue_REFERENCE](planches/sheet-petit-pompiers-animaux-a-secouri-0001.md) | unknown | 0 |
@@ -441,8 +443,8 @@
 | [pieces-origine@2x](planches/sheet-pieces-origine-2x-0002.md) | unknown | 0 |
 | [pieces-origine@3x](planches/sheet-pieces-origine-3x-0001.md) | unknown | 0 |
 | [pieces-origine@3x](planches/sheet-pieces-origine-3x-0002.md) | unknown | 0 |
-| [Pieuvre des profondeurs (type Aquatique, taille L)](planches/sheet-pieuvre-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Pieuvre des profondeurs (type Aquatique, taille L) — détourée](planches/sheet-pieuvre-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Pieuvre des profondeurs (type Aquatique, taille L)](planches/sheet-pieuvre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Pieuvre des profondeurs (type Aquatique, taille L) — détourée](planches/sheet-pieuvre-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Pistouille_arbre_cerisier_cote_1024](planches/sheet-pistouille-arbre-cerisier-cote-1-0001.md) | unknown | 0 |
 | [Pistouille_arbre_cerisier_dessus_1024](planches/sheet-pistouille-arbre-cerisier-dessus-0001.md) | unknown | 0 |
 | [Pistouille_arbre_erable_cote_1024](planches/sheet-pistouille-arbre-erable-cote-102-0001.md) | unknown | 0 |
@@ -521,18 +523,18 @@
 | [Pistouille_tornade_dessus_1024](planches/sheet-pistouille-tornade-dessus-1024-0001.md) | unknown | 0 |
 | [Pistouille_vues_dessus_3_objets_PLANCHE_REFERENCE_NON_VALIDEE](planches/sheet-pistouille-vues-dessus-3-objets-0001.md) | unknown | 0 |
 | [Pistouille_vues_dessus_4_objets_PLANCHE_REFERENCE_NON_VALIDEE](planches/sheet-pistouille-vues-dessus-4-objets-0001.md) | unknown | 0 |
-| [Place du village](planches/sheet-place-village-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Place du village](planches/sheet-place-village-0001.md) | CC-BY-SA-4.0 | 0 |
 | [planche-inutilises](planches/sheet-planche-inutilises-0001.md) | unknown | 0 |
 | [planche-mascottes-code](planches/sheet-planche-mascottes-code-0001.md) | unknown | 0 |
 | [planche-top10](planches/sheet-planche-top10-0001.md) | unknown | 0 |
 | [planche-transparente](planches/sheet-planche-transparente-0001.md) | unknown | 0 |
 | [planche-transparente](planches/sheet-planche-transparente-0002.md) | unknown | 0 |
-| [Plante carnivore domestique V1](planches/sheet-plante-carnivore-domestique-v1-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Plante carnivore verte, 4 directions (type Plante, taille M)](planches/sheet-plante-verte-4directions-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Plante carnivore verte, 4 directions (type Plante, taille M) — détourée](planches/sheet-plante-verte-4directions-detoure-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 76 |
-| [Bestiaire plantes carnivores et tailles S/M/L](planches/sheet-plantes-tailles-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Six plantes carnivores (verte, feu, glace, poison, électrique, épines), profil droit](planches/sheet-plantes-variantes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Six plantes carnivores (verte, feu, glace, poison, électrique, épines), profil droit — détourée](planches/sheet-plantes-variantes-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 84 |
+| [Plante carnivore domestique V1](planches/sheet-plante-carnivore-domestique-v1-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Plante carnivore verte, 4 directions (type Plante, taille M)](planches/sheet-plante-verte-4directions-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Plante carnivore verte, 4 directions (type Plante, taille M) — détourée](planches/sheet-plante-verte-4directions-detoure-0001.md) | CC-BY-SA-4.0 | 76 |
+| [Bestiaire plantes carnivores et tailles S/M/L](planches/sheet-plantes-tailles-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Six plantes carnivores (verte, feu, glace, poison, électrique, épines), profil droit](planches/sheet-plantes-variantes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Six plantes carnivores (verte, feu, glace, poison, électrique, épines), profil droit — détourée](planches/sheet-plantes-variantes-detouree-0001.md) | CC-BY-SA-4.0 | 84 |
 | [plateau-apercu@2x](planches/sheet-plateau-apercu-2x-0001.md) | unknown | 0 |
 | [plateau-apercu@2x](planches/sheet-plateau-apercu-2x-0002.md) | unknown | 0 |
 | [plateau-apercu@3x](planches/sheet-plateau-apercu-3x-0001.md) | unknown | 0 |
@@ -541,35 +543,35 @@
 | [plateau-jeu@2x](planches/sheet-plateau-jeu-2x-0002.md) | unknown | 0 |
 | [plateau-jeu@3x](planches/sheet-plateau-jeu-3x-0001.md) | unknown | 0 |
 | [plateau-jeu@3x](planches/sheet-plateau-jeu-3x-0002.md) | unknown | 0 |
-| [Poubelle malicieuse (type Objet vivant, taille M)](planches/sheet-poubelle-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Poubelle malicieuse (type Objet vivant, taille M) — détourée](planches/sheet-poubelle-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Prêtre des Fourmis](planches/sheet-pretre-fourmis-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Princesse des Renards](planches/sheet-princesse-renards-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Princesse des Zèbres](planches/sheet-princesse-zebres-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Puits — entrée de donjon](planches/sheet-puits-entree-donjon-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Puits du village](planches/sheet-puits-village-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Reine des Fourmis](planches/sheet-reine-fourmis-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Reine des Lémuriens](planches/sheet-reine-lemuriens-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Reine des Renards](planches/sheet-reine-renards-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Reine des Zèbres](planches/sheet-reine-zebres-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Requin des récifs (type Aquatique, taille M)](planches/sheet-requin-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Requin des récifs (type Aquatique, taille M) — détourée](planches/sheet-requin-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 61 |
-| [Robot « Netoyer X1 » (type Mécanique, taille M)](planches/sheet-robot-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Robot « Netoyer X1 » (type Mécanique, taille M) — détourée](planches/sheet-robot-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 61 |
-| [Roi des Lémuriens](planches/sheet-roi-lemuriens-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Roi des Renards](planches/sheet-roi-renards-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Roi des Zèbres](planches/sheet-roi-zebres-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Poubelle malicieuse (type Objet vivant, taille M)](planches/sheet-poubelle-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Poubelle malicieuse (type Objet vivant, taille M) — détourée](planches/sheet-poubelle-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Prêtre des Fourmis](planches/sheet-pretre-fourmis-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Princesse des Renards](planches/sheet-princesse-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Princesse des Zèbres](planches/sheet-princesse-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Puits — entrée de donjon](planches/sheet-puits-entree-donjon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Puits du village](planches/sheet-puits-village-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Reine des Fourmis](planches/sheet-reine-fourmis-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Reine des Lémuriens](planches/sheet-reine-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Reine des Renards](planches/sheet-reine-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Reine des Zèbres](planches/sheet-reine-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Requin des récifs (type Aquatique, taille M)](planches/sheet-requin-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Requin des récifs (type Aquatique, taille M) — détourée](planches/sheet-requin-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
+| [Robot « Netoyer X1 » (type Mécanique, taille M)](planches/sheet-robot-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Robot « Netoyer X1 » (type Mécanique, taille M) — détourée](planches/sheet-robot-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
+| [Roi des Lémuriens](planches/sheet-roi-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Roi des Renards](planches/sheet-roi-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Roi des Zèbres](planches/sheet-roi-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [roule](planches/sheet-roule-0001.md) | unknown | 0 |
-| [Téléphone malicieux (type Objet animé, taille M)](planches/sheet-telephone-malicieux-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Téléphone malicieux (type Objet animé, taille M) — détourée](planches/sheet-telephone-malicieux-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Temple du soigneur](planches/sheet-temple-soigneur-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Tour du village](planches/sheet-tour-village-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Téléphone malicieux (type Objet animé, taille M)](planches/sheet-telephone-malicieux-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Téléphone malicieux (type Objet animé, taille M) — détourée](planches/sheet-telephone-malicieux-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Temple du soigneur](planches/sheet-temple-soigneur-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Tour du village](planches/sheet-tour-village-0001.md) | CC-BY-SA-4.0 | 0 |
 | [traits-animations-apercu@2x](planches/sheet-traits-animations-apercu-2x-0001.md) | unknown | 0 |
 | [traits-animations-apercu@3x](planches/sheet-traits-animations-apercu-3x-0001.md) | unknown | 0 |
 | [traits-animations-jeu@2x](planches/sheet-traits-animations-jeu-2x-0001.md) | unknown | 0 |
 | [traits-animations-jeu@3x](planches/sheet-traits-animations-jeu-3x-0001.md) | unknown | 0 |
-| [Troll des cavernes (taille M)](planches/sheet-troll-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Troll des cavernes (taille M) — détourée](planches/sheet-troll-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [Troll des cavernes (taille M)](planches/sheet-troll-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Troll des cavernes (taille M) — détourée](planches/sheet-troll-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [tutoriel-apercu@2x](planches/sheet-tutoriel-apercu-2x-0001.md) | unknown | 0 |
 | [tutoriel-apercu@2x](planches/sheet-tutoriel-apercu-2x-0002.md) | unknown | 0 |
 | [tutoriel-apercu@3x](planches/sheet-tutoriel-apercu-3x-0001.md) | unknown | 0 |
@@ -585,13 +587,13 @@
 | [Tutu_profil_droit](planches/sheet-tutu-profil-droit-0001.md) | unknown | 0 |
 | [Tutu_profil_gauche](planches/sheet-tutu-profil-gauche-0001.md) | unknown | 0 |
 | [v6](planches/sheet-v6-0001.md) | unknown | 0 |
-| [Vache champignon à six pattes](planches/sheet-vache-champignon-6-pattes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Vache girolle à six pattes](planches/sheet-vache-girolle-6-pattes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Vampire malicieux (type Mort-vivant, taille M)](planches/sheet-vampire-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Vampire malicieux (type Mort-vivant, taille M) — détourée](planches/sheet-vampire-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
-| [Villageois lémurien](planches/sheet-villageois-lemurien-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Villageoise lémurienne](planches/sheet-villageoise-lemurienne-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Zèbre cuisinier](planches/sheet-zebre-cuisinier-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Vache champignon à six pattes](planches/sheet-vache-champignon-6-pattes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Vache girolle à six pattes](planches/sheet-vache-girolle-6-pattes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Vampire malicieux (type Mort-vivant, taille M)](planches/sheet-vampire-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Vampire malicieux (type Mort-vivant, taille M) — détourée](planches/sheet-vampire-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Villageois lémurien](planches/sheet-villageois-lemurien-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Villageoise lémurienne](planches/sheet-villageoise-lemurienne-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Zèbre cuisinier](planches/sheet-zebre-cuisinier-0001.md) | CC-BY-SA-4.0 | 0 |
 
 ## Rapports existants
 

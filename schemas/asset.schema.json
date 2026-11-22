@@ -33,6 +33,8 @@
         "pathInArchive": {"type": "string", "pattern": "\\S"},
         "restrictions": {"type": "array", "items": {"type": "string", "pattern": "\\S"}},
         "sourceStatus": {"enum": ["available", "removed"]},
+        "licenseOptions": {"description": "Licences offertes au choix par la source (EXT-08/09) ; la retenue est license.spdxId.", "type": "array", "items": {"type": "string", "pattern": "\\S"}},
+        "credits": {"description": "Crédits exigés par la source, par fichier (EXT-09) : auteurs, URL d'origine, notes.", "type": "object", "additionalProperties": false, "properties": {"authors": {"type": "array", "items": {"type": "string"}}, "urls": {"type": "array", "items": {"type": "string"}}, "notes": {"type": "string"}}},
         "licenseHistory": {
           "type": "array",
           "items": {
@@ -270,7 +272,7 @@
       "type": "object"
     },
     "license": {
-      "description": "Identifiants SPDX License List v3.27.0, plus LicenseRef-David-Prive-Tous-Droits-Reserves (licence privée de David, texte dans LICENSES/, HL-538 7-3162), les conditions de source NASA, JPL et MESSENGER (LicenseRef-NASA-Media-Usage-Guidelines, LicenseRef-JPL-Image-Use-Policy, LicenseRef-MESSENGER-Usage-Statement, textes dans LICENSES/, HL-538 2026-11-22) et unknown.",
+      "description": "Identifiants SPDX License List v3.27.0, plus LicenseRef-David-Prive-Tous-Droits-Reserves (ancienne licence privée de David, texte dans LICENSES/, HL-538 7-3162 ; remplacée par CC-BY-SA-4.0 le 2026-11-22, HL-538 7-3316), les conditions de source NASA, JPL et MESSENGER (LicenseRef-NASA-Media-Usage-Guidelines, LicenseRef-JPL-Image-Use-Policy, LicenseRef-MESSENGER-Usage-Statement, textes dans LICENSES/, HL-538 2026-11-22) et unknown.",
       "enum": [
         "0BSD",
         "3D-Slicer-1.0",
@@ -975,6 +977,7 @@
         "LicenseRef-JPL-Image-Use-Policy",
         "LicenseRef-MESSENGER-Usage-Statement",
         "LicenseRef-NASA-Media-Usage-Guidelines",
+        "LicenseRef-OGA-BY-3.0",
         "unknown"
       ]
     },

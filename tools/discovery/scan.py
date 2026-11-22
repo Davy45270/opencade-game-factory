@@ -143,6 +143,15 @@ def _divergences(copies, prepared, git=None, *, eligible=None):
         reason = ("la plus avancée" if ahead and len(contender_commits) > 1 else
                   "continuité avec la dernière tête importée" if len(candidates) < len(ordered) else
                   "histoires divergentes, priorité GitHub > Forgejo > locale")
+        forge = next((copy for copy in members if copy.provider == "forgejo"), None)
+        github = next((copy for copy in members if copy.provider == "github"), None)
+        if not ahead and forge and github and not _descends_from_all(
+                git, prepared[github.key][0], prepared[github.key][1]["commit"],
+                {prepared[forge.key][1]["commit"]}) if git is not None else False:
+            # La forge est la source de vérité (HL-538, 22/11) : GitHub est une sortie de publication (un commit
+            # écrasé par version) ; quand leurs histoires divergent, c'est la forge qui est importée.
+            canonical = forge
+            reason = "histoires divergentes entre la forge et GitHub : la forge fait foi"
         kept = prepared[canonical.key][1]["commit"]
         ignored = [copy for copy in members if prepared[copy.key][1]["commit"] != kept]
         skipped.update(copy.key for copy in ignored)

@@ -491,7 +491,9 @@ def semantics(level):
             kind = (obj.get("type") or obj.get("class") or obj.get("name") or "").lower()
             kind = TYPE_ALIASES.get(kind, kind)
             x = int((obj.get("x", 0) + layer["offset"][0]) // tw)
-            y = int((obj.get("y", 0) + layer["offset"][1]) // th)
+            # Objet tuile (gid) : Tiled l'ancre par son coin BAS gauche (orientation orthogonale).
+            top = obj.get("y", 0) - ((obj.get("height") or th) if obj.get("gid") else 0)
+            y = int((top + layer["offset"][1]) // th)
             entities.append({"id": str(obj.get("id")), "name": obj.get("name", ""), "type": kind, "x": x, "y": y,
                              "w": max(1, math.ceil((obj.get("width") or tw) / tw)),
                              "h": max(1, math.ceil((obj.get("height") or th) / th)),

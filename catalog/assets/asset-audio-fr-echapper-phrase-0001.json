@@ -30,14 +30,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+        "game": null,
+        "path": "public/dictee/audio/fr-echapper-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-echapper-phrase.ogg",
         "provider": "github",
+        "removedAtCommit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "public"
       }
     ],
@@ -63,21 +75,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-echapper-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-echapper-phrase.ogg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-echapper-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-echapper-phrase.ogg"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-echapper-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-echapper-phrase.ogg"
       ],
       "method": "proven"
     }
@@ -95,14 +107,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "7240e3cdf66ea6306ba6f9661f74d5f4bc565d8171fb1493e662d81893b67164",
+  "sha256": "00bbcf32657ed36684e1234362c3a77974ad7332194bc55cf95fa27167d2a7e3",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -172,15 +184,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-echapper-phrase.ogg": "4eb472e78b8bd08c373f5f399991fd053d41b8bc"
+        "public/dictee/audio/fr-echapper-phrase.ogg": "aeeb47b362a837c463819b32dba2c21bc96f0167"
       },
       "assetPath": "public/dictee/audio/fr-echapper-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 21699,
+        "line": 22736,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-echapper-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -205,15 +217,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-echapper-phrase.ogg": "4eb472e78b8bd08c373f5f399991fd053d41b8bc"
+        "public/dictee/audio/fr-echapper-phrase.ogg": "aeeb47b362a837c463819b32dba2c21bc96f0167"
       },
       "assetPath": "public/dictee/audio/fr-echapper-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 252,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-echapper-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -235,20 +247,98 @@
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-echapper-phrase.ogg": "aeeb47b362a837c463819b32dba2c21bc96f0167"
+      },
+      "assetPath": "public/dictee/audio/fr-echapper-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 252,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-echapper-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-echapper-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-echapper-phrase.ogg": "aeeb47b362a837c463819b32dba2c21bc96f0167"
+      },
+      "assetPath": "public/dictee/audio/fr-echapper-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 252,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-echapper-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-echapper-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
+      "status": "active"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
       "date": "2026-11-18T20:05:47+01:00",
-      "nextVersion": null,
+      "format": "ogg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "7240e3cdf66ea6306ba6f9661f74d5f4bc565d8171fb1493e662d81893b67164",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "date": "2026-11-20T23:26:57+01:00",
+      "format": "ogg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "00bbcf32657ed36684e1234362c3a77974ad7332194bc55cf95fa27167d2a7e3",
+      "version": 2
     }
   ],
   "visualStyle": null

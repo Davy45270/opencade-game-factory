@@ -164,7 +164,7 @@
         "assetVersion": 3,
         "blobSha256": "f15f43d78904f292ab31924a9c5a354564653a20cc1eac4d7320a1ebdba25f05",
         "classification": "shared-library",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": null,
         "path": "src/ui/backdrops.ts",
         "provider": "github",
@@ -439,7 +439,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@69948ced3229fc1e850e9ea04b7b71ccb223a982"
+    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
   },
   "name": "backdrops",
   "orientation": "unknown",
@@ -460,8 +460,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "usages": [
+    {
+      "assetPath": "src/ui/backdrops.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/backdrops.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/ui/backdrops.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid",
+      "importName": "backdrops",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/backdrops.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/ui/backdrops.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 3,
   "versions": [

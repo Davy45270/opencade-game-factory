@@ -30,14 +30,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+        "game": null,
+        "path": "public/dictee/audio/fr-mauvais-phrase.ogg",
+        "provider": "github",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-mauvais-phrase.ogg",
         "provider": "github",
+        "removedAtCommit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "public"
       }
     ],
@@ -63,21 +75,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-mauvais-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-mauvais-phrase.ogg"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-mauvais-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-mauvais-phrase.ogg"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/dictee/audio/fr-mauvais-phrase.ogg"
+        "opencadkid@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def:public/dictee/audio/fr-mauvais-phrase.ogg"
       ],
       "method": "proven"
     }
@@ -95,14 +107,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "fc2146f5f5230155a3d922d69bad1067f96410e5fdf96fc79762345dfe6a0725",
+  "sha256": "de297bf026b437a35c949d19d81353c2d502510742ef66d4a82e5e7295ea3082",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -172,15 +184,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-mauvais-phrase.ogg": "a115c43f75be06261363482160cf7ff97c73c177"
+        "public/dictee/audio/fr-mauvais-phrase.ogg": "fca39b9c14c195243bf55062ad81c3bcdac1aeca"
       },
       "assetPath": "public/dictee/audio/fr-mauvais-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 19746,
+        "line": 20686,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-mauvais-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -205,15 +217,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-mauvais-phrase.ogg": "a115c43f75be06261363482160cf7ff97c73c177"
+        "public/dictee/audio/fr-mauvais-phrase.ogg": "fca39b9c14c195243bf55062ad81c3bcdac1aeca"
       },
       "assetPath": "public/dictee/audio/fr-mauvais-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 516,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-mauvais-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -235,20 +247,98 @@
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-mauvais-phrase.ogg": "fca39b9c14c195243bf55062ad81c3bcdac1aeca"
+      },
+      "assetPath": "public/dictee/audio/fr-mauvais-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 516,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-mauvais-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-mauvais-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-mauvais-phrase.ogg": "fca39b9c14c195243bf55062ad81c3bcdac1aeca"
+      },
+      "assetPath": "public/dictee/audio/fr-mauvais-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 516,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-mauvais-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-mauvais-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
+      "status": "active"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
       "date": "2026-11-18T20:05:47+01:00",
-      "nextVersion": null,
+      "format": "ogg",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "fc2146f5f5230155a3d922d69bad1067f96410e5fdf96fc79762345dfe6a0725",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "date": "2026-11-20T23:26:57+01:00",
+      "format": "ogg",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "de297bf026b437a35c949d19d81353c2d502510742ef66d4a82e5e7295ea3082",
+      "version": 2
     }
   ],
   "visualStyle": null

@@ -32,7 +32,7 @@
       {
         "assetVersion": 1,
         "classification": "shared-library",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": null,
         "path": "public/dictee/audio/fr-fond.ogg",
         "provider": "github",
@@ -118,7 +118,7 @@
   "tags": [
     "backgrounds"
   ],
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -226,10 +226,10 @@
       "assetPath": "public/dictee/audio/fr-fond.ogg",
       "assetVersion": 1,
       "codeRef": {
-        "line": 10346,
+        "line": 10845,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-fond.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -262,7 +262,7 @@
         "line": 341,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-fond.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -295,7 +295,7 @@
         "line": 243,
         "path": "scripts/dictee/audio-non-regression.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/dictee/audio/fr-fond.ogg",
         "module-path: scripts/dictee/audio-non-regression.json"
@@ -316,6 +316,72 @@
       "repo": "opencadkid",
       "role": "sfx",
       "scene": "scripts/dictee/audio-non-regression.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-fond.ogg": "cd1fb88e87599900f3f21081ba2b19825099ed45"
+      },
+      "assetPath": "public/dictee/audio/fr-fond.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 341,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-fond.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-fond",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-fond.ogg": "cd1fb88e87599900f3f21081ba2b19825099ed45"
+      },
+      "assetPath": "public/dictee/audio/fr-fond.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 341,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "literal: public/dictee/audio/fr-fond.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-fond",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
       "status": "active"
     }
   ],

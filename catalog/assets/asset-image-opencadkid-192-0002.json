@@ -153,7 +153,7 @@
       {
         "assetVersion": 2,
         "classification": "shared-library",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": null,
         "path": "public/icons/opencadkid-192.png",
         "provider": "github",
@@ -442,7 +442,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Icônes PWA produites par le code du dépôt : licence du code, MIT.",
+    "method": "historique git : licence de la source",
+    "ref": "opencadkid b3d21b7 (icônes PWA dessinées par code) ; LICENSE (MIT, Davy45270) ; HL-538"
+  },
   "name": "opencadkid-192",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -452,7 +457,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (icônes dessinées par le code de opencadkid)",
     "evidence": [
       "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:public/icons/opencadkid-192.png"
     ],
@@ -469,7 +474,7 @@
     "icons"
   ],
   "thumbnail": "thumbnails/af/af7a11d7b11483fc7208006f41292e51496de80554986b14532d5bfc2857c8a9.webp",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -1157,7 +1162,7 @@
         "line": 2,
         "path": "index.html"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "html-attribute: public/icons/opencadkid-192.png",
         "module-path: index.html"
@@ -2837,7 +2842,7 @@
         "line": 4,
         "path": "pwa-manifest.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "literal: public/icons/opencadkid-192.png",
         "module-path: pwa-manifest.ts"
@@ -3895,6 +3900,35 @@
       "repo": "opencadkid",
       "role": "icon",
       "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/icons/opencadkid-192.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/opencadkid-192.png"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image public/icons/opencadkid-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid",
+      "importName": "opencadkid-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/opencadkid-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "public/icons/opencadkid-192.png",
       "status": "active"
     }
   ],

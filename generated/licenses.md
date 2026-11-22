@@ -1257,6 +1257,7 @@
 - `asset-codegenerated-contraste-spec-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-decor-cache-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-demineur-spec-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-codegenerated-dictee-spec-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-discovery-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-drawings-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-export-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2417,7 +2418,7 @@
 - `asset-image-objets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-objets-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencade-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencade-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-192-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2429,9 +2430,9 @@
 - `asset-image-opencadkid-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-192-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencadkid-192-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencadkid-192-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencadkid-512-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencadkid-512-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-order-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-outil-extincteur-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-outil-extincteur-0002` — unknown · forbidden · Autorisation non établie.

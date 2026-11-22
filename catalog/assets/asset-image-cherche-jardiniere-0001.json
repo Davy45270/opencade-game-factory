@@ -117,7 +117,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
         "game": "opencadkid/cherche",
         "path": "src/games/cherche/props/cherche-jardiniere.webp",
         "provider": "github",
@@ -418,7 +418,7 @@
     "pompiers"
   ],
   "thumbnail": "thumbnails/61/611a03cd9f16380aca6703af9f1165cb07dbff48a1d5f29b0da9d81e5f21963a.webp",
-  "updatedAt": "2026-11-18T20:05:47+01:00",
+  "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -463,7 +463,7 @@
         "line": 20,
         "path": "src/games/cherche/items.ts"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
       "evidence": [
         "new URL: src/games/cherche/props/cherche-jardiniere.webp",
         "module-path: src/games/cherche/items.ts"
@@ -505,6 +505,35 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "src/games/cherche/props/cherche-jardiniere.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/cherche/props/cherche-jardiniere.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/cherche/props/cherche-jardiniere.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/cherche",
+      "importName": "cherche-jardiniere",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/cherche/props/cherche-jardiniere.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/cherche/props/cherche-jardiniere.webp",
       "status": "active"
     }
   ],

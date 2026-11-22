@@ -17,10 +17,11 @@ from . import evenements
 from .adoption import Conflict, adopt, gate, write_block
 from .liens import link_specs
 from .duplicates import duplicates
-from .evaluation import evaluate, nonblank
+from .evaluation import evaluate, externe, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
 from . import index as generes, recu
+from .sbom import sbom as sbom_catalogue
 from .mutualisation import justifiee, mutualiser
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
@@ -78,6 +79,7 @@ def parser():
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
+        "sbom": "SBOM CycloneDX des briques (versions, licences, dépendances des dépôts consommateurs).",
         "mutualiser": "Recommandations de mutualisation : gains et risques par module présent dans plusieurs dépôts.",
         "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
@@ -127,6 +129,7 @@ def parser():
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
     sub["link-specs"].add_argument("--dry-run", action="store_true")
     sub["index"].add_argument("--out", type=Path, required=True)
+    sub["sbom"].add_argument("--out", type=Path, required=True)
     sub["index"].add_argument("--check", action="store_true")
     for name in ("evaluate", "decide"):
         sub[name].add_argument("--receipt", type=Path, help="Reçu commun reuse before build : l'étape y est ajoutée.")
@@ -198,6 +201,8 @@ def run(args, root):
         records = read_catalogue(blocks / "catalog")
         if command == "index":
             return generes.index(records, args.out, args.check)
+        if command == "sbom":
+            return sbom_catalogue(records, args.out)
         if command == "mutualiser":
             return mutualiser(records)
         if command == "inspect":
@@ -241,6 +246,10 @@ def run(args, root):
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
+        manquantes = [k for k, v in result["verifications"].items() if v != "verified"]
+        if externe(block) and manquantes and args.choice in {"reuse", "adapt", "wrap", "fork"}:
+            # E181 : un composant open source ne se réutilise qu'après les sept vérifications de BB-001 § 4.
+            raise CatalogueScopeError("Vérifications manquantes avant adoption : " + ", ".join(manquantes) + ".")
         if block["kind"] == "shared-library" and args.choice in {"build", "adapt"} and not justifiee(records, block):
             # E213 : extraire une brique partagée seulement si la mutualisation est justifiée (bbctl mutualiser).
             raise CatalogueScopeError(f"Extraction de {block['name']} refusée : mutualisation non justifiée "

@@ -138,6 +138,61 @@ PROFILS = {
         # Cadres redessinés ou dérivés (recettes .redessines/.retouches.json) : aucun élément de découpe ; enregistrés
         # tels que livrés (repo-file), sous la licence que le titulaire déclare pour les sprites et atlas.
         "sans_element": True,
+        # Images livrées hors atlas : licence DÉCLARÉE par le titulaire dans le jeu. assets.inventaire.json déclare
+        # chaque fichier (chemin, SHA-256 des octets, licence, planche source et son SHA-256 : planche vérifiée) ;
+        # licences.json déclare la licence de chaque sprite par son identifiant (version encodée runtime/<id>.webp).
+        "declarations_licence": [{"fichier": "packages/assets/assets.inventaire.json", "format": "inventaire"},
+                                 {"fichier": "packages/assets/licences.json", "format": "liste"}],
+        "images": [
+            {"prefixe": "apps/web/public/icons/capsule-panic-", "licence": "MIT",
+             "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
+             "licence_preuve": {"method": "historique git : licence de la source",
+                                "ref": "capsule-panic 1bf4f05 (scripts/make-icons.js dessine les icônes en SVG) ; "
+                                       "91d3a18 (oxipng sans perte) ; LICENSE (MIT, Davy45270) ; HL-538",
+                                "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du "
+                                            "code qui les dessine, MIT (2026-11-22)."}},
+            {"prefixe": "packages/assets/planche-transparente.png", "licence": "CC-BY-4.0",
+             "auteur": "Davy45270 (LICENCES.md du jeu)",
+             "licence_preuve": {"method": "déclaration du titulaire",
+                                "ref": "capsule-panic packages/assets/LICENCES.md (« les sprites, les atlas, la planche "
+                                       "transparente et les sources graphiques sont distribués sous CC BY 4.0 ») ; HL-538",
+                                "decision": "Planche transparente de Capsule Panic, nommée par LICENCES.md : CC BY 4.0."}},
+            {"prefixe": "packages/assets/runtime/", "declaree": True, "origines": ["licences.json"],
+             "licence_declaree": "CC BY 4.0", "titulaire": "Davy45270", "licence": "CC-BY-4.0",
+             "auteur": "Davy45270 (packages/assets/licences.json du jeu)",
+             "licence_preuve": {"method": "déclaration du titulaire",
+                                "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538",
+                                "decision": "Sprite de Capsule Panic (version encodée runtime) dont licences.json "
+                                            "déclare l'identifiant : titulaire Davy45270, CC BY 4.0."}},
+            {"prefixe": "packages/assets/", "declaree": True, "origines": ["inventaire"], "licence_declaree": "CC BY 4.0",
+             "exige": ["planche", "planche_sha256", "sha256"], "planche_verifiee": True, "licence": "CC-BY-4.0",
+             "auteur": "Davy45270 (packages/assets/assets.inventaire.json et LICENCES.md du jeu)",
+             "licence_preuve": {"method": "déclaration du titulaire, fichier et planche vérifiés",
+                                "ref": "capsule-panic packages/assets/LICENCES.md ; HL-538",
+                                "decision": "Visuel de Capsule Panic par Davy45270, déclaré CC BY 4.0 fichier par "
+                                            "fichier (SHA-256 identique aux octets livrés, planche source vérifiée)."}},
+        ],
+        # Fiches `derived` du scan sans parent (cadres redessinés ou dérivés réemployés) : provenance.json du jeu donne
+        # la source de chaque cadre — le SVG d'un redessin (asset aux mêmes octets), la boîte de planche d'un dérivé
+        # (découpe brute importée si absente). Le parent devient `derivedFrom`, avec un reçu de recherche.
+        "provenance_derives": "packages/assets/provenance.json",
+        # SVG source d'un redessin (parent d'un cadre livré) : « sources graphiques » nommées par LICENCES.md.
+        "regle_sources": {"licence": "CC-BY-4.0", "auteur": "Davy45270 (LICENCES.md du jeu)",
+                          "licence_preuve": {"method": "déclaration du titulaire",
+                                             "ref": "capsule-panic packages/assets/LICENCES.md (« les sources graphiques "
+                                                    "sont distribuées sous CC BY 4.0 ») ; provenance.json (svg du "
+                                                    "redessin) ; HL-538",
+                                             "decision": "Source SVG d'un redessin de Capsule Panic par Davy45270 : "
+                                                         "CC BY 4.0."}},
+        # Cadres d'atlas réemployés (fiche du scan sans licence, redessin ou dérivé) : licence établie si licences.json
+        # déclare l'identifiant du cadre et que la fiche n'est employée que par ce dépôt.
+        "cadres_declares": {"prefixe": "", "declaree": True, "origines": ["licences.json"],
+                            "licence_declaree": "CC BY 4.0", "titulaire": "Davy45270", "licence": "CC-BY-4.0",
+                            "auteur": "Davy45270 (packages/assets/licences.json du jeu)",
+                            "licence_preuve": {"method": "déclaration du titulaire",
+                                               "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538",
+                                               "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare "
+                                                           "l'identifiant : titulaire Davy45270, CC BY 4.0."}},
     },
     "opencade": {"monorepo": "src/games"},
     "opencadkid": {"monorepo": "src/games"},
@@ -488,13 +543,17 @@ def regle_image(profil, chemin, declarees=None, octets=None):
         e = (declarees or {}).get(chemin) or (declarees or {}).get(PurePosixPath(chemin).stem)
         if not e or e.get("origine") not in r["origines"] or not all(e.get(c) for c in r.get("exige", ())):
             return None
+        if r.get("licence_declaree") and e.get("licence") != r["licence_declaree"]:
+            return None
+        if r.get("titulaire") and e.get("titulaire") != r["titulaire"]:
+            return None
         if e.get("sha256") and (octets is None or e["sha256"] != sha256(octets)):
             return None
         if r.get("planche_verifiee"):
             f = Path(profil.get("planches") or "/nonexistent").expanduser() / str(e.get("planche"))
             if not f.is_file() or sha256(f.read_bytes()) != e.get("planche_sha256"):
                 return None
-        ref = f"{profil['provenance_images']} · {e.get('id') or e.get('fichier')} (origine « {e['origine']} »"
+        ref = f"{e.get('declare_par') or profil['provenance_images']} · {e.get('id') or e.get('fichier')} (origine « {e['origine']} »"
         ref += f", planche {e['planche']} SHA-256 {e.get('planche_sha256')}" if e.get("planche") else ""
         ref += f", fichier SHA-256 {e['sha256']}" if e.get("sha256") else ""
         ref += ")"
@@ -515,6 +574,144 @@ def declarations_derivees(e):
     out += [{**base, "id": f"{e.get('id')} → {d['fichier']}", "fichier": d["fichier"]}
             for d in e.get("derives") or () if isinstance(d, dict) and isinstance(d.get("fichier"), str)]
     return out
+
+
+def declarations_licence(clone, profil):
+    """Licences déclarées par le jeu, hors provenance_images : `inventaire` (fichiers[] : chemin, sha256, licence,
+    planche {fichier, sha256}) indexé par chemin ; `liste` ({titulaire, licence, assets: [id]}) indexé par id.
+    Origine = format de la déclaration (« inventaire », « licences.json »)."""
+    out = {}
+    for d in profil.get("declarations_licence") or ():
+        f = clone / d["fichier"]
+        if not f.is_file():
+            continue
+        doc = lire(f)
+        if d["format"] == "inventaire":
+            for e in doc.get("fichiers") or ():
+                if isinstance(e, dict) and isinstance(e.get("chemin"), str):
+                    pl = e.get("planche") if isinstance(e.get("planche"), dict) else {}
+                    out.setdefault(e["chemin"], {"origine": "inventaire", "fichier": e["chemin"], "declare_par": d["fichier"],
+                                                 "sha256": e.get("sha256"), "licence": e.get("licence"),
+                                                 "planche": pl.get("fichier"), "planche_sha256": pl.get("sha256")})
+        elif d["format"] == "liste":
+            for i in doc.get("assets") or ():
+                if isinstance(i, str):
+                    out.setdefault(i, {"origine": "licences.json", "id": i, "declare_par": d["fichier"],
+                                       "licence": doc.get("licence"), "titulaire": doc.get("titulaire")})
+    return out
+
+
+def tracer_derives(args, sha, profil, clone, travail, fiches, par_octets, cadres_reemployes, compte):
+    """Fiche `derived` du scan sans `derivedFrom` réemployée pour un cadre livré : son parent est la source que
+    provenance.json du jeu déclare au commit. Redessin (« redessiné (marque) », `svg`) : l'asset aux octets du SVG.
+    Dérivé (« dérivé », `planche`, `planche_sha256`, `boite`) : la découpe brute de cette boîte de cette planche
+    (planche vérifiée par SHA-256), importée si absente. Sans source prouvée : la fiche reste telle quelle."""
+    if not profil.get("provenance_derives") or not (clone / profil["provenance_derives"]).is_file():
+        return
+    doc = lire(clone / profil["provenance_derives"])
+    prov = {e["id"]: e for e in (doc.get("assets") if isinstance(doc, dict) else doc) or [] if isinstance(e, dict) and e.get("id")}
+    a_tracer, bruts = {}, {}
+    for cadre, aid in cadres_reemployes:
+        p = fiches[aid].get("provenance") or {}
+        if p.get("type") != "derived" or aid in a_tracer:
+            continue
+        if p.get("derivedFrom"):
+            # Déjà tracé : seule la licence d'un SVG parent encore inconnue est (r)établie.
+            par = fiches.get(p["derivedFrom"]) or {}
+            src = (prov.get(cadre.rsplit("#", 1)[1]) or {}).get("svg")
+            if src and par.get("license") in (None, "", "unknown") and profil.get("regle_sources") and \
+                    appliquer_regle(p["derivedFrom"], profil["regle_sources"], fiches, args.jeu.split("/")[0], src):
+                compte["licences_etablies"] += 1
+            continue
+        nom = cadre.rsplit("#", 1)[1]
+        e = prov.get(nom) or {}
+        if e.get("origine") == "redessiné (marque)" and e.get("svg") and (clone / e["svg"]).is_file():
+            ids = par_octets.get(sha256((clone / e["svg"]).read_bytes())) or []
+            if ids:
+                parent = sorted(ids)[0]
+                if fiches[parent].get("license") in (None, "", "unknown") and profil.get("regle_sources") and \
+                        appliquer_regle(parent, profil["regle_sources"], fiches, args.jeu.split("/")[0], e["svg"]):
+                    compte["licences_etablies"] += 1
+                a_tracer[aid] = (cadre, nom, parent, f"redessin : rendu de {e['svg']} (provenance.json)")
+        elif e.get("origine") == "dérivé" and e.get("planche") and e.get("planche_sha256") and e.get("boite"):
+            planche = Path(profil["planches"]).expanduser() / e["planche"]
+            if not planche.is_file() or sha256(planche.read_bytes()) != e["planche_sha256"]:
+                continue
+            tnom = f"{PurePosixPath(e['planche']).stem}.provenance-derives.json"
+            parent = brut_de(fiches, tnom, nom, e["boite"], e["planche_sha256"])
+            if parent:
+                a_tracer[aid] = (cadre, nom, parent, f"dérivé : boîte {e['boite']} de {e['planche']} (provenance.json)")
+            else:
+                bruts.setdefault(e["planche"], {})[nom] = (aid, cadre, e)
+    for planche, elements in sorted(bruts.items()):
+        tnom = f"{PurePosixPath(planche).stem}.provenance-derives.json"
+        table = {"planche": planche, "elements": [{"id": nom, "boite": e["boite"], "marge": 0}
+                                                  for nom, (_, _, e) in sorted(elements.items())]}
+        recus = {}
+        for nom in sorted(elements):
+            compte["n"] = compte.get("n", 0) + 1
+            recu, _ = recu_motive(mots(nom), args.jeu, lambda c: "", travail, f"brut-derive-{compte['n']}")
+            recus[nom] = lire(recu)
+        for nom, parent in importer_bruts(args.jeu, sha, profil, profil["provenance_derives"], tnom, table,
+                                          set(elements), recus, compte).items():
+            fiches[parent] = lire(REG / "catalog/assets" / f"{parent}.json")
+            aid, cadre, e = elements[nom]
+            a_tracer[aid] = (cadre, nom, parent, f"dérivé : boîte {e['boite']} de {planche} (provenance.json)")
+    for aid, (cadre, nom, parent, raison) in sorted(a_tracer.items()):
+        compte["n"] = compte.get("n", 0) + 1
+
+        def motif(c, parent=parent):
+            return f"source du cadre {nom} : {raison} (parent derivedFrom)" if c == parent \
+                else f"autre asset : pixels différents du cadre livré {cadre}"
+        recu, _ = recu_motive(mots(nom), args.jeu, motif, travail, f"derive-{compte['n']}")
+        r = lire(recu)
+        rejets = [{"assetId": c, "reason": motif(c)} for c in r["results"]]
+        a, pa = lire(REG / "catalog/assets" / f"{aid}.json"), fiches[parent]
+        a["provenance"].update(derivedFrom=parent, parentId=parent, parentVersion=pa.get("version", 1),
+                               parentSha256=pa["sha256"])
+        a["provenance"]["evidence"] = list(dict.fromkeys([*(a["provenance"].get("evidence") or []),
+                                                          f"{MARQUE} : cadre {cadre} de {args.jeu}@{sha} ; {raison}"]))
+        a.setdefault("creation", {})["searchReceipt"] = {**r, "rejectedCandidates": rejets}
+        a["creation"]["rejectedCandidates"] = rejets
+        write_json(REG / "catalog/assets" / f"{aid}.json", a)
+        fiches[aid] = a
+        if aid not in (pa.get("variants") or []):
+            pa["variants"] = sorted({*(pa.get("variants") or []), aid})
+            write_json(REG / "catalog/assets" / f"{parent}.json", pa)
+        compte["derives_traces"] = compte.get("derives_traces", 0) + 1
+    compte.pop("n", None)
+
+
+def materialiser(aid, octets, fiches, compte):
+    """Fiche réemployée par octets sans fichier au registre (le scan ne copie pas les images) : ses octets y sont
+    déposés à l'emplacement que `register` emploierait (sprites/<id>.<format>), pour que ses PIXELS soient connus
+    (critère (a) de P17). Seulement si le SHA-256 est bien celui de la fiche ; jamais une fiche qui a déjà un fichier."""
+    a = fiches[aid]
+    if (a.get("files") or {}).get("registry") or a.get("sha256") != sha256(octets) or a.get("format") != "png":
+        return False
+    relatif = f"sprites/{aid}.png"
+    (REG / relatif).write_bytes(octets)
+    doc = lire(REG / "catalog/assets" / f"{aid}.json")
+    doc.setdefault("files", {"locations": []})["registry"] = relatif
+    write_json(REG / "catalog/assets" / f"{aid}.json", doc)
+    fiches[aid] = doc
+    compte["materialises"] = compte.get("materialises", 0) + 1
+    return True
+
+
+def appliquer_regle_cadre(aid, regle, fiches, depot):
+    """Cadre réemployé dont la fiche (du scan) est sans licence : la licence déclarée pour l'identifiant du cadre
+    n'est établie que si la fiche n'est employée que par ce dépôt (aucune fiche partagée avec un autre jeu)."""
+    p = REG / "catalog/assets" / f"{aid}.json"
+    a = lire(p)
+    if a.get("license") not in (None, "", "unknown") or not a.get("usages") or any(
+            u.get("repo") != depot for u in a["usages"]):
+        return False
+    a["license"], a["licenseEvidence"] = regle["licence"], regle["licence_preuve"]
+    a.setdefault("provenance", {})["author"] = regle["auteur"]
+    write_json(p, a)
+    fiches[aid] = a
+    return True
 
 
 def appliquer_regle(aid, regle, fiches, depot, chemin):
@@ -661,6 +858,7 @@ def main(argv):
 
     # 1. un asset par cadre distinct
     cible = {}
+    cadres_reemployes = []      # (cadre, asset) réemployés par octets : leur licence se juge après 2 bis
     for at in atlas:
         stem = PurePosixPath(at["json"]).stem
         for nom, image, emp in at["cadres"]:
@@ -670,6 +868,7 @@ def main(argv):
                 # Un atlas d'un seul cadre a les pixels de ce cadre : l'asset du cadre passe avant celui de l'atlas,
                 # sinon le second passage déplacerait l'usage (non idempotent).
                 cible[emp] = min(par_empreinte[emp], key=lambda i: (fiches[i].get("category") == "atlas", i))
+                cadres_reemployes.append((f"{at['image']}#{nom}", cible[emp]))
                 compte["reemployes"] += 1
                 continue
             n += 1
@@ -680,6 +879,16 @@ def main(argv):
                 # Aucune découpe connue pour ce cadre : il est enregistré tel que livré (repo-file).
                 buf = io.BytesIO()
                 image.save(buf, format="PNG")
+                deja = par_octets.get(sha256(buf.getvalue()))
+                if deja:
+                    # Mêmes octets qu'une fiche sans fichier au registre (le scan n'a pas matérialisé l'image : pas
+                    # d'empreinte de pixels) : réemploi, comme en 2 bis ; register la refuserait (« déjà enregistré »).
+                    cible[emp] = min(deja, key=lambda i: (fiches[i].get("category") == "atlas", i))
+                    materialiser(cible[emp], buf.getvalue(), fiches, compte)
+                    par_empreinte.setdefault(emp, []).append(cible[emp])
+                    cadres_reemployes.append((f"{at['image']}#{nom}", cible[emp]))
+                    compte["reemployes"] += 1
+                    continue
                 aid = enregistrer_brut_du_jeu(args, sha, profil, f"{at['image']}#{nom}", buf.getvalue(), "sprite",
                                               travail, n, fiches, par_octets, compte)
                 cible[emp] = aid
@@ -784,6 +993,8 @@ def main(argv):
                     declarees.setdefault(cle, e)
             for derive in declarations_derivees(e):
                 declarees.setdefault(derive["fichier"], derive)
+    for cle, e in declarations_licence(clone, profil).items():
+        declarees.setdefault(cle, e)
     image_ids = {}
     for f in isolees:
         octets = (clone / f).read_bytes()
@@ -803,6 +1014,18 @@ def main(argv):
                                                par_octets, compte, declarees)
         par_octets.setdefault(d, []).append(image_ids[f])
         compte["images_enregistrees"] += 1
+
+    tracer_derives(args, sha, profil, clone, travail, fiches, par_octets, cadres_reemployes, compte)
+    regle_cadres = profil.get("cadres_declares")
+    for c, aid in cadres_reemployes:
+        if fiches[aid].get("license") not in (None, "", "unknown"):
+            continue
+        nom = c.rsplit("#", 1)[1]
+        regle = regle_image({**profil, "images": [regle_cadres]}, nom, declarees) if regle_cadres else None
+        if regle and appliquer_regle_cadre(aid, regle, fiches, depot_nom):
+            compte["licences_etablies"] += 1
+        else:
+            compte["sans_origine"].append(c)
 
     # 2 ter. les modules qui dessinent par le code : l'asset code-generated du scan (mêmes octets au sha). register
     # refuse le code ; un module absent du registre se règle par `assetctl scan-repos` du dépôt à ce sha, d'abord.

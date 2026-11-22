@@ -235,6 +235,40 @@ class DiscoveryL2b(unittest.TestCase):
         self.assertEqual(world.ctl(command).json, extraction.json)
         self.assertEqual(world.ctl(["validate", "--json"]).code, 0)
 
+    def test_lien_non_verifie_ne_bloque_pas_la_decoupe(self):
+        world = M.creer_monde()
+        self.addCleanup(world.nettoyer)
+        source = world.racine / "image.png"
+        source.write_bytes(M.png(M.planche()))
+
+        def table(taille):
+            chemin = world.racine / f"regions-{taille}.json"
+            chemin.write_text(json.dumps({"elements": [{"id": "etoile", "boite": M.BOITE_ETOILE, "taille": taille}]}))
+            return str(chemin)
+
+        premiere = world.ctl(["import-sheet", str(source), "--decoupe", table("40x24"), "--json"])
+        self.assertEqual(premiere.code, 0, str(premiere))
+        autre = ["import-sheet", str(source), "--decoupe", table("48x32"), "--json"]
+        self.assertNotEqual(world.ctl(autre).code, 0, "un lien vérifié différent doit bloquer")
+        fiche = world.registre / "catalog/sheets" / f"{premiere.json['sheetId']}.json"
+        planche = C.lire_json(fiche)
+        for region in planche["regions"]:
+            region["status"] = "needs-review"
+        planche["status"] = "needs-review"
+        fiche.write_text(json.dumps(planche, ensure_ascii=False, indent=2) + "\n")
+        # Comme un lien posé par le scan : l'identité de l'asset vient du fichier du jeu, pas de la région.
+        ids = world.registre / "catalog/ids.json"
+        table_ids = C.lire_json(ids)
+        asset_id = premiere.json["assets"][0]["assetId"]
+        cles = [cle for cle, valeur in table_ids.items() if valeur == asset_id]
+        self.assertEqual(len(cles), 1, cles)
+        table_ids["file:sha256:" + "0" * 64] = table_ids.pop(cles[0])
+        ids.write_text(json.dumps(table_ids, ensure_ascii=False, indent=2) + "\n")
+        seconde = world.ctl(autre)
+        self.assertEqual(seconde.code, 0, str(seconde))
+        self.assertNotEqual(seconde.json["assets"][0]["assetId"], premiere.json["assets"][0]["assetId"])
+        self.assertEqual(world.ctl(autre).json, seconde.json)
+
     @unittest.skipUnless(executable(), "Aseprite et LibreSprite absents")
     def test_aseprite_batch(self):
         from tools.extract.aseprite import export

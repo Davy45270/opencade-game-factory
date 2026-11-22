@@ -98,7 +98,9 @@ def _extract(target, sheet, image, entries, evidence, output=None, exact=False):
     region_assets = {}
     for item in sheet["regions"]:
         asset_id = item["assetId"]
-        if asset_id in target.assets:
+        # Only a verified link is an existing cut. An unverified one (scan without comparison) is a claim:
+        # it must not block the cut that verifies the region.
+        if asset_id in target.assets and item["status"] == "verified":
             identity = _region_key(sheet["id"], item)
             region_assets.setdefault(identity, []).append(asset_id)
     for entry in entries:

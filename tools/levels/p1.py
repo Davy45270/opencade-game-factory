@@ -4,7 +4,7 @@ pipeline request → … → PR (E205) et adoption d'une version publiée par br
 
 Aucun algorithme nouveau n'est inventé : génération = générateurs existants (tools/levels/generate.py, BSP standard),
 validation = validateurs existants, pilotage = poursuite pure (pure pursuit) sur un modèle cinématique de bicyclette,
-recherche de trajectoire = Dijkstra sur la ligne médiane de la piste (ADR-0008).
+recherche de trajectoire = Dijkstra sur la ligne médiane de la piste (docs/adr-proposees/ADR-0008).
 """
 
 import heapq
@@ -541,7 +541,7 @@ def pipeline(root, args, ctx):
             return envelope(LevelExit.INVALID_INPUT, "failed", diagnostics=[{
                 "code": "no-generator", "severity": "error",
                 "message": f"aucun candidat ≥ {SEUIL_REUTILISATION} et aucun générateur pour {demande['genre']} : "
-                           "importer un niveau existant (ADR-0008)"}], etapes=trace)
+                           "importer un niveau existant (docs/adr-proposees/ADR-0008)"}], etapes=trace)
         decision = {"action": "generate", "id": record["id"], "algorithm": record["generation"]["algorithm"],
                     "algorithmVersion": record["generation"]["algorithmVersion"], "seed": args.seed}
     etape("reuse/derive/generate", **decision)

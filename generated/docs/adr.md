@@ -10,7 +10,6 @@ Sources :
 - `docs/integration-decisions/ADR-0005-ext001-assets-externes-si-le-style-colle.md` (c24d0271d870)
 - `docs/integration-decisions/ADR-0006-ext002-fait-foi-dans-le-registre.md` (b71dd848dfe3)
 - `docs/integration-decisions/ADR-0007-priorites-jeux-registre-puis-tower.md` (835f65dc181c)
-- `docs/integration-decisions/ADR-0008-niveaux-algorithmes-existants.md` (d424d8ed957a)
 
 | ADR | Titre | Statut | Date | Approbation |
 |---|---|---|---|---|
@@ -21,4 +20,3 @@ Sources :
 | ADR-0005 | EXT-001 : un asset externe partout si le style colle | approuvée | 2026-11-19 | David, HL-538 7-2949 |
 | ADR-0006 | EXT-002 fait foi, dans le registre ; un validateur par premier jeu | approuvée | 2026-11-19 | David, HL-538 7-2949 |
 | ADR-0007 | Priorités : jeux et registre, puis Tower ; 2e Codex si l'onduleur le permet | approuvée | 2026-11-19 | David, HL-538 7-2949 |
-| ADR-0008 | Pipeline de niveaux : des algorithmes existants, aucun inventé | proposée (relecture par la PR HL-538, lot « 29 lignes ») | 2026-11-22 | — |

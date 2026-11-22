@@ -1,6 +1,6 @@
 # ADR-0008 — Pipeline de niveaux : des algorithmes existants, aucun inventé
 
-- **Statut :** proposée (relecture par la PR HL-538, lot « 29 lignes »)
+- **Statut :** proposée — en attente de l'approbation de David (HL-538) ; déplacée dans `docs/integration-decisions/` une fois approuvée
 - **Date :** 2026-11-22
 - **Ticket :** HL-538 (matrice E205, LV-16 à LV-20)
 

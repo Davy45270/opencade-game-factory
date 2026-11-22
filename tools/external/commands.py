@@ -14,9 +14,10 @@ from tools.core.exit_codes import ExitCode
 from tools.discovery.importer import read_assets
 from tools.discovery.scan import directory_lock
 from tools.external import enabled
-from tools.external.adapters import ProviderUnavailable, providers, search_all
+from tools.external.adapters import NotHarvested, ProviderUnavailable, providers, search_all
 
-SUBCOMMANDS = ("providers", "search", "inspect", "plan-import", "import", "sync", "audit-licenses", "decide")
+SUBCOMMANDS = ("providers", "search", "inspect", "plan-import", "import", "sync", "audit-licenses", "decide", "refresh",
+               "souhait")
 
 
 def configure(parser, caller_path):
@@ -44,8 +45,25 @@ def configure(parser, caller_path):
             command.add_argument("--plan", type=caller_path, required=True)
         if name == "sync":
             command.add_argument("--provider", required=True)
-            command.add_argument("--from", dest="source", required=True, help="nouvel index du fournisseur (chemin ou URL)")
+            command.add_argument("--from", dest="source", help="nouvel index du fournisseur (chemin ou URL) ; sans lui, "
+                                 "l'index est recollecté sur le site (requêtes conditionnelles)")
             command.add_argument("--incremental", action="store_true")
+            command.add_argument("--query", default="")
+        if name == "souhait":
+            # Liste de souhaits (décision de David, HL-538) : kenney.nl et opengameart.org refusent les agents ;
+            # l'agent AJOUTE un souhait (aucun accès réseau), David récupère avec `./regctl souhaits recuperer`.
+            command.add_argument("action", choices=("ajouter", "lister"))
+            command.add_argument("--provider", choices=("kenney", "opengameart"))
+            command.add_argument("--page")
+            command.add_argument("--license", default="inconnue")
+            command.add_argument("--raison")
+            command.add_argument("--jeu")
+            command.add_argument("--telechargement", help="lien direct https, s'il est connu (sinon David fournit l'archive)")
+        if name == "refresh":
+            command.add_argument("--provider", required=True)
+            command.add_argument("--query", default="")
+            command.add_argument("--page", action="append", default=[], help="page publique à lire (OpenGameArt)")
+            command.add_argument("--feed", action="append", default=[], help="flux public à lire (itch.io)")
 
 
 def run(root, args):
@@ -58,7 +76,9 @@ def run(root, args):
         for adapter in providers(root).values():
             try:
                 status, count = "available", len(adapter.packs())
-            except ProviderUnavailable as exc:
+            except NotHarvested:
+                status, count = "not-harvested", None
+            except ProviderUnavailable:
                 status, count = "unavailable", None
             rows.append({"id": adapter.id, "priority": adapter.priority, "policy": adapter.policy,
                          "status": status, "packs": count})
@@ -90,7 +110,54 @@ def run(root, args):
         return execute(root, args)
     if name == "sync":
         return sync(root, args)
+    if name == "refresh":
+        return refresh(root, args)
+    if name == "souhait":
+        from tools.external import souhaits
+
+        if args.action == "lister":
+            return ExitCode.OK, {"ok": True, **souhaits.lire(root)}
+        return souhaits.ajouter(root, args.provider, args.page, args.license, args.raison, args.jeu,
+                                args.telechargement, args.dry_run)
     return audit(root)
+
+
+def _harvest(root, args):
+    """Collecte l'index d'un fournisseur sur son site public (client poli, robots.txt respecté)."""
+    from tools.external.client import Client
+    from tools.external.sources import HarvestingProvider
+
+    adapter = providers(root).get(args.provider)
+    if adapter is None:
+        return None, (ExitCode.USAGE, {"ok": False, "error": "unknown-provider"})
+    if not isinstance(adapter, HarvestingProvider):
+        return None, (ExitCode.USAGE, {"ok": False, "error": "not-harvestable", "message":
+                                       f"{adapter.id} : index constitué à la main (aucune collecte automatique)"})
+    path = Path(adapter.index_location())
+    previous = read_json(path) if path.is_file() else None
+    extra = {}
+    if getattr(args, "page", None):
+        extra["pages"] = args.page
+    if getattr(args, "feed", None):
+        extra["feeds"] = args.feed
+    try:
+        return (adapter, path, adapter.harvest(Client(), args.query, previous, **extra)), None
+    except ProviderUnavailable as exc:
+        return None, (ExitCode.IO, {"ok": False, "error": "provider-unavailable",
+                                    "externalSearchStatus": "unavailable", "message": str(exc)})
+
+
+def refresh(root, args):
+    done, failure = _harvest(root, args)
+    if failure:
+        return failure
+    adapter, path, index = done
+    if not args.dry_run:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        write_json(path, index)
+    return ExitCode.OK, {"ok": True, "provider": adapter.id, "packs": len(index["packs"]),
+                         "index": path.relative_to(root).as_posix() if path.is_relative_to(root) else str(path),
+                         "dryRun": bool(args.dry_run)}
 
 
 def decide_command(root, args):
@@ -132,6 +199,15 @@ def sync(root, args):
         previous = {c.externalId: c for c in adapter.packs()}
     except ProviderUnavailable:
         previous = {}
+    if not args.source:
+        import tempfile
+
+        done, failure = _harvest(root, args)
+        if failure:
+            return failure
+        fresh = Path(tempfile.mkdtemp(prefix="assetctl-sync-")) / "index.json"
+        write_json(fresh, done[2])
+        args.source = fresh
     import os
     key = f"ASSETCTL_EXTERNAL_INDEX_{adapter.id.upper().replace('-', '_')}"
     saved = os.environ.get(key)

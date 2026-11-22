@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-7130 assets · 469 planches · 74 jeux employant des assets · 11 sources · 8 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+7132 assets · 469 planches · 74 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -101,12 +101,14 @@
 
 | Licence | Assets |
 |---|---|
+| [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
 | [CC-BY-4.0](licences/CC-BY-4.0.md) | 1246 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
 | [LicenseRef-David-Prive-Tous-Droits-Reserves](licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) | 2468 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
+| [LicenseRef-OGA-BY-3.0](licences/LicenseRef-OGA-BY-3.0.md) | 1 |
 | [MIT](licences/MIT.md) | 702 |
 | [unknown](licences/unknown.md) | 2674 |
 

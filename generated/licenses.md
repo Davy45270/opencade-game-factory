@@ -2875,6 +2875,7 @@
 - `asset-image-scene-test-360x740-clavier-linux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-scene-test-390x844-clavier-linux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-set-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-shield-crusader-bg-slash-png-sla-0001` — LicenseRef-OGA-BY-3.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-back-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-back-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-backleft-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -7095,6 +7096,7 @@
 - `asset-svg-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-svg-game-icons-lorc-lorc-bloody-swor-0001` — CC-BY-3.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-glyphs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-hublot-0001` — unknown · forbidden · Autorisation non établie.

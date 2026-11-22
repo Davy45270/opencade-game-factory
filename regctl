@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+"""regctl — commandes que DAVID lance lui-même depuis Zalman (décision HL-538 du 22/11).
+
+    ./regctl souhaits lister
+    ./regctl souhaits recuperer ID [ID…] | --tous  [--oui] [--sans-pr]
+
+`souhaits recuperer` refuse de tourner hors d'un terminal interactif : ni agent, ni tâche planifiée. Elle affiche ce
+qu'elle va faire, demande confirmation (`--oui` pour s'en passer), importe les packs dont la licence est prouvée dans
+l'archive, reconstruit l'index et les pages, commite sur une branche `souhaits/…` et ouvre la PR (jeton de la forge :
+ASSETCTL_FORGEJO_TOKEN, sinon FORGEJO_TOKEN de /run/openbao/graphify.env ; jamais affiché).
+"""
+import argparse
+import os
+import subprocess
+import sys
+from datetime import datetime
+from pathlib import Path
+
+RACINE = Path(__file__).resolve().parent
+sys.path.insert(0, str(RACINE))
+
+from tools.external import souhaits  # noqa: E402
+
+
+def jeton():
+    if os.environ.get("ASSETCTL_FORGEJO_TOKEN"):
+        return os.environ["ASSETCTL_FORGEJO_TOKEN"]
+    fichier = Path("/run/openbao/graphify.env")
+    if fichier.is_file():
+        for ligne in fichier.read_text().splitlines():
+            if ligne.startswith("FORGEJO_TOKEN="):
+                return ligne.split("=", 1)[1].strip().strip('"')
+    return None
+
+
+def ouvrir_pr(bilan):
+    def git(*a):
+        return subprocess.run(["git", "-C", str(RACINE), *a], check=True, capture_output=True, text=True).stdout
+
+    for commande in (["./assetctl", "index", "--json"], [sys.executable, "scripts/catalogue_pages.py"],
+                     [sys.executable, "scripts/docs_generees.py"]):
+        subprocess.run(commande, cwd=RACINE, check=True, capture_output=True)
+    branche = f"souhaits/{datetime.now():%Y-%m-%d-%H%M}"
+    git("switch", "-c", branche)
+    git("add", "--", "external/souhaits.json", "catalog/assets", "catalog/ids.json", "sources/external", "generated")
+    ids = [i for _, r in bilan for i in r.get("ids", [])]
+    corps = "Souhaits récupérés par David (regctl, HL-538) :\n" + "\n".join(
+        f"- {sid} : {r['statut']} ({r.get('licence') or r.get('motif')})" for sid, r in bilan)
+    git("commit", "-q", "-m", f"Souhaits récupérés : {len(ids)} ressource(s) importée(s) (HL-538)\n\n{corps}")
+    t = jeton()
+    if not t:
+        print(f"branche {branche} commitée ; jeton de la forge absent : pousse-la et ouvre la PR à la main.")
+        return
+    from tools.publish.forge import open_pull_request
+
+    git("push", "--no-verify", "origin", f"{branche}:{branche}")
+    pr = open_pull_request("david/opencade-asset-registry", branche, "main", "Souhaits récupérés (HL-538)", corps,
+                           environ={**os.environ, "ASSETCTL_FORGEJO_TOKEN": t})
+    print(f"PR ouverte : {pr.get('url') or pr}")
+
+
+def main(argv=None):
+    p = argparse.ArgumentParser(prog="regctl")
+    sub = p.add_subparsers(dest="groupe", required=True)
+    s = sub.add_parser("souhaits").add_subparsers(dest="action", required=True)
+    s.add_parser("lister")
+    r = s.add_parser("recuperer")
+    r.add_argument("ids", nargs="*")
+    r.add_argument("--tous", action="store_true")
+    r.add_argument("--oui", action="store_true")
+    r.add_argument("--sans-pr", action="store_true")
+    a = p.parse_args(argv)
+    if a.action == "lister":
+        for x in souhaits.lire(RACINE)["souhaits"]:
+            print(f"{x['id']}\t{x['statut']}\t{x['licenceAnnoncee']}\t{', '.join(x['jeux'])}\t{x['page']}")
+        return 0
+    if not a.ids and not a.tous:
+        p.error("ID… ou --tous")
+    return souhaits.recuperer(RACINE, set(a.ids), a.tous, a.oui, ouvrir_pr=None if a.sans_pr else ouvrir_pr)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -41,6 +41,11 @@ def _download(root, adapter, candidate, folder):
     return archive, meta
 
 
+def _declared(candidate):
+    """Licence(s) annoncée(s) par la source : une liste quand elle en offre plusieurs au choix (EXT-08/09)."""
+    return list(candidate.licenseOptions) if len(candidate.licenseOptions) > 1 else candidate.licenseSpdx
+
+
 def _internal(root, query):
     from tools.index.search import search
 
@@ -76,7 +81,7 @@ def plan(root, args):
                 result["quarantine"] = quarantine(root, archive, meta["sha256"], result)
             return ExitCode.SAFETY, result
     evaluator = LicenseEvaluator()
-    verdict = evaluator.verify(candidate.licenseSpdx, report["texts"])
+    verdict = evaluator.verify(_declared(candidate), report["texts"])
     target = getattr(args, "target", None) or "private"
     decision = decide(_internal(root, candidate.title), [candidate], "available", target,
                       lambda _c: evaluator.for_target(verdict, target))
@@ -137,7 +142,7 @@ def execute(root, args):
         report = inspect_archive(archive)
         if not report["ok"]:
             return ExitCode.SAFETY, {"ok": False, "error": "unsafe-archive", "problems": report["problems"]}
-        verdict = LicenseEvaluator().verify(candidate.licenseSpdx, report["texts"])
+        verdict = LicenseEvaluator().verify(_declared(candidate), report["texts"])
         if verdict["status"] != contract["license"]["verification"]:
             return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "license-changed"}
         raw_archive = archive.read_bytes()
@@ -206,7 +211,9 @@ def _write(root, contract, candidate, verdict, report, raw_archive, payloads, dr
                                 "attribution": bool(rules.get("attribution"))},
                     "observedAt": contract.get("observedAt") or time, "importedAt": time,
                     "archiveSha256": contract["archiveSha256"], "archivePath": archive_path.as_posix(),
-                    "pathInArchive": row["path"], "restrictions": restrictions, "sourceStatus": "available"}},
+                    "pathInArchive": row["path"], "restrictions": restrictions, "sourceStatus": "available",
+                    **({"licenseOptions": list(candidate.licenseOptions)} if candidate.licenseOptions else {}),
+                    **({"credits": candidate.credits} if candidate.credits else {})}},
             "license": verdict["spdx"] if verified else "unknown",
             "status": "active" if verified else "needs-review", "usages": [], "variants": [],
             "createdAt": time, "updatedAt": time, "family": family,

@@ -26,7 +26,6 @@ RACINE = pathlib.Path(__file__).resolve().parents[1]
 SORTIE = pathlib.Path("generated/catalogue")
 MARQUE = "<!-- généré par scripts/catalogue_pages.py — ne pas éditer à la main -->"
 LOT = 250          # lignes par page de liste
-VIGNETTE = 48      # px
 
 
 def lire(p: pathlib.Path):
@@ -103,7 +102,9 @@ def ligne_asset(c: Catalogue, aid: str, avec_vignette=True, commits=None):
         a = c.assets[aid]
         r = vers_racine(page)
         fiche = f"[`{aid}`]({r}catalog/assets/{aid}.json)"
-        vign = f'<img src="{r}{a["thumbnail"]}" width="{VIGNETTE}" alt="">' if a.get("thumbnail") else "—"
+        # Image Markdown (et non <img>) : la forge résout son chemin relatif vers le fichier du dépôt ; les vignettes
+        # du registre font moins de 100 px, aucune largeur à imposer.
+        vign = f"![]({r}{a['thumbnail']})" if a.get("thumbnail") else "—"
         lic = a.get("license") or "unknown"
         jeux = ", ".join(f"[{j}]({lien_page(page, 'jeux/' + slug(j) + '.md')})" for j in sorted(c.jeux_de.get(aid, ())))
         planche = a.get("sourceSheetId")

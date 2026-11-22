@@ -39,7 +39,7 @@ class PagesDuCatalogue(TestCase):
                                      "licences/MIT.md"})
             jeu = (r / cp.SORTIE / "jeux/jeu--sous.md").read_text()
             self.assertIn("](../index.md)", jeu)
-            self.assertIn('src="../../../thumbnails/aa/a.webp"', jeu)
+            self.assertIn("![](../../../thumbnails/aa/a.webp)", jeu)
             self.assertIn("](../licences/MIT.md)", jeu)
             self.assertIn("](../planches/sheet-p-0001.md)", jeu)
             self.assertIn("](../../../catalog/assets/asset-image-a-0001.json)", jeu)

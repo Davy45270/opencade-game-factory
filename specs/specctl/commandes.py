@@ -240,6 +240,22 @@ def blocks(records, root, spec_id):
     declared = set(records[spec_id].get("decisions", []))
     linked = sorted(declared | {block_id for block_id, block in catalogue.items() if spec_id in block["specIds"]})
     rows, missing, untraceable = [], [], []
+    for adr_id in [d for d in linked if d.startswith("ADR-")]:
+        # ARCH-001 § 3.2 et E005 : une ADR d'intégration est un fichier versionné de l'usine, lu par son identifiant
+        # (docs/integration-decisions/ADR-<n>-*.md), jamais recopié ; approuvée seulement si son en-tête le dit.
+        found = sorted((root / "docs" / "integration-decisions").glob(f"{adr_id}-*.md"))
+        if len(found) != 1:
+            missing.append(adr_id)
+            continue
+        text = found[0].read_text(encoding="utf-8")
+        approved = re.search(r"^- \*\*Statut :\*\* approuvée$", text, re.M) is not None
+        ref = re.search(r"^- \*\*Approuvée par :\*\* David, (HL-\d+ 7-\d+)$", text, re.M)
+        row = {"adrId": adr_id, "path": found[0].relative_to(root).as_posix(), "decided": approved,
+               "ref": ref.group(1) if ref else None}
+        if not approved or not ref:
+            untraceable.append(adr_id)
+        rows.append(row)
+    linked = [d for d in linked if not d.startswith("ADR-")]
     for block_id in linked:
         block = catalogue.get(block_id)
         if block is None:

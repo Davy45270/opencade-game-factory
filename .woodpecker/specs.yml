@@ -30,6 +30,14 @@ steps:
       - python3 -m venv .venv
       - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
 
+  # REG-06 sur la CI de l'usine elle-même (matrice E147, E101) : chaque PR commence par consulter la spec applicable
+  # de l'usine (SPEC-GAME-FACTORY) ; non résolue ou conflit de versions = PR refusée avant tout autre contrôle.
+  - name: spec-resolue
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./specctl --json resolve --project game-factory
+
   # REG-T01…T12 et REG-01…REG-08 : oracles écrits avant le code (tests/specs), chacun vu rouge avant son correctif.
   - name: oracles-specctl
     image: *py

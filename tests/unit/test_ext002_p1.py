@@ -153,6 +153,10 @@ class CatalogueWeb(NiveauxFixture, TestCase):
         self.assertIn('data-genre="dungeon"', index)
         self.assertTrue((dossier / f"{a}.html").is_file() and (dossier / f"{a}.png").is_file())
         self.assertEqual(self.lv("site", "--out", str(dossier), "--check")["status"], "a-jour")
+        # Même image, octets compressés différents (autre zlib) : toujours à jour.
+        from PIL import Image
+        Image.open(dossier / f"{a}.png").save(dossier / f"{a}.png", compress_level=1)
+        self.assertEqual(self.lv("site", "--out", str(dossier), "--check")["status"], "a-jour")
         (dossier / f"{a}.html").write_text("périmé")
         self.lv("site", "--out", str(dossier), "--check", code=4)
 

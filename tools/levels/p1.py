@@ -386,13 +386,32 @@ def pages(records):
     return sorties
 
 
+def _identique(chemin, octets):
+    """Même fichier attendu. Une capture PNG se compare par ses PIXELS : les octets compressés varient avec la zlib
+    (zlib-ng sur Zalman, zlib dans l'image de CI) pour une image identique."""
+    if not chemin.is_file():
+        return False
+    present = chemin.read_bytes()
+    if present == octets:
+        return True
+    if chemin.suffix != ".png":
+        return False
+    from PIL import Image
+
+    try:
+        a, b = Image.open(io.BytesIO(present)), Image.open(io.BytesIO(octets))
+        return (a.mode, a.size, a.tobytes()) == (b.mode, b.size, b.tobytes())
+    except OSError:
+        return False
+
+
 def site(root, args, records, envelope):
     attendu = pages(list(records.values()))
     dossier = Path(args.out)
     nb_pages = sum(1 for n in attendu if n.endswith(".html"))
     if args.check:
         present = {p.name for p in dossier.glob("*")} if dossier.is_dir() else set()
-        perimes = sorted(n for n, b in attendu.items() if not (dossier / n).is_file() or (dossier / n).read_bytes() != b)
+        perimes = sorted(n for n, b in attendu.items() if not _identique(dossier / n, b))
         en_trop = sorted(present - set(attendu))
         if perimes or en_trop:
             return envelope(LevelExit.VALIDATION_FAILED, "perime", diagnostics=[{
@@ -409,7 +428,7 @@ def site(root, args, records, envelope):
                 p.unlink()
         for nom, octets in attendu.items():
             cible = dossier / nom
-            if not cible.is_file() or cible.read_bytes() != octets:
+            if not _identique(cible, octets):
                 cible.write_bytes(octets)
                 ecrits.append(nom)
     return envelope(LevelExit.OK, "ecrit", [str(dossier / n) for n in ecrits[:50]], pages=nb_pages,

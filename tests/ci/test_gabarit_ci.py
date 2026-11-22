@@ -173,6 +173,19 @@ class JeuTemoin(unittest.TestCase):
         doc = yaml.safe_load((self.jeu / ".woodpecker/e2e.yml").read_text())
         self.assertEqual(doc["steps"][0]["commands"][-1], "npx playwright test --grep 'a: b'")
 
+    def test_chaine_progressive_arch001_dans_l_ordre(self) -> None:
+        """ARCH-001 E027 (l.47) : schémas/contrats, lint, unitaires, intégration, [E2E : e2e.yml], solveurs, simulations,
+        [snapshots : e2e.yml], accessibilité, performance, sécurité, licences, SBOM — l'ordre de la politique barriere-jeux
+        (homelab-diag). Solveurs, simulations, accessibilité, performance : script npm du jeu (« progressif »)."""
+        import yaml
+        etapes = [e["name"] for e in yaml.safe_load((TEMOIN / ".woodpecker" / "checks.yml").read_text())["steps"]]
+        chaine = ["spec résolue", "lint", "typecheck", "test", "solveurs", "simulations", "accessibilité", "performance",
+                  "build", "sbom", "audit et licences", "secrets"]
+        self.assertEqual([e for e in etapes if e in chaine], chaine)
+        texte = (TEMOIN / ".woodpecker" / "checks.yml").read_text()
+        for script in ("solve", "simulate", "test:a11y", "test:perf"):
+            self.assertIn(f"npm run --if-present {script}", texte)
+
     def test_etapes_du_jeu_apres_les_controles_communs(self) -> None:
         checks = (TEMOIN / ".woodpecker/checks.yml").read_text()
         self.assertGreater(checks.index("name: assets du jeu"), checks.index("name: journaux d'agents hors dépôt"))

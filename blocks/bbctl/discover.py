@@ -338,6 +338,9 @@ def discover(blocks, sources_file, clones, dry_run):
             continue
         records[block_id] = {**record, "usedBy": [], "observedIn": []}
     unknown = sorted(record["id"] for record in records.values() if record["origin"]["licenseSpdx"] == "UNKNOWN")
+    # ARCH-001 AT-04 : composant implémenté (observé dans un dépôt autorisé) sans fiche au catalogue AVANT ce passage.
+    # Avec --dry-run, c'est la liste de ce qu'il reste à enregistrer ; sans, ce que ce passage vient d'enregistrer.
+    unregistered = sorted(block_id for block_id in records if block_id not in existing)
     if not dry_run:
         catalog.mkdir(parents=True, exist_ok=True)
         for block_id, record in records.items():
@@ -348,7 +351,7 @@ def discover(blocks, sources_file, clones, dry_run):
             if not path.is_file() or path.read_text(encoding="utf-8") != json_text(value):
                 write_json(path, value)
     return {"dryRun": dry_run, "repos": authorized, "scanned": scanned, "skipped": skipped,
-            "exceptions": exceptions, "blocks": len(records), "licenseUnknown": unknown}
+            "exceptions": exceptions, "blocks": len(records), "licenseUnknown": unknown, "unregistered": unregistered}
 
 
 def inspect(records, block_id):

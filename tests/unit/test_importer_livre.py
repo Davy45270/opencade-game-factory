@@ -29,7 +29,7 @@ class UsagesLivres(TestCase):
         self.assertEqual(self.reconcilier(usage("literal: public/assets/a.webp")), [])
 
 
-PRIVEE = next(iter(PRIVATE_LICENSES))
+PRIVEE = "LicenseRef-David-Prive-Tous-Droits-Reserves"
 PREUVE = {"method": "decision", "ref": "HL-538 7-3162", "decision": "test"}
 
 
@@ -423,3 +423,60 @@ class CopieDuCatalogue(TestCase):
             autres = [("jeux-assets", "objets/b.webp")]
             self.assertTrue(il.appliquer_regle("a", self.regle, fiches, "jeu", "src/b.webp", autres))
             self.assertFalse(il.appliquer_regle("b", self.regle, fiches, "jeu", "src/b.webp", autres))
+
+
+class FicheDuCatalogueDeDavid(TestCase):
+    """HL-538 (22/11, décors de Paris) : une fiche importée du catalogue de David (type generated, preuve
+    catalogue.json@) ne reçoit une licence que d'une règle dont l'origine admise est ce catalogue."""
+    du_catalogue = {"licence": "MIT", "origines": ["catalogue"], "auteur": "A",
+                    "licence_preuve": {"method": "m", "ref": "r", "decision": "d"}}
+
+    def test_regle_du_catalogue_seulement(self):
+        import json, tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(il, "REG", il.Path(d)):
+            (il.Path(d) / "catalog/assets").mkdir(parents=True)
+            for aid, ev in (("a", "catalogue.json@da58e8e"), ("b", "catalogue.json@da58e8e"), ("c", "autre@x:y.webp")):
+                (il.Path(d) / "catalog/assets" / f"{aid}.json").write_text(json.dumps(
+                    {"id": aid, "license": "unknown", "provenance": {"type": "generated", "evidence": [ev]}}))
+            fiches = {}
+            self.assertFalse(il.appliquer_regle("b", {**self.du_catalogue, "origines": ["planche"]}, fiches, "jeu",
+                                                "src/p.webp"))
+            self.assertFalse(il.appliquer_regle("c", self.du_catalogue, fiches, "jeu", "src/p.webp"))
+            self.assertTrue(il.appliquer_regle("a", self.du_catalogue, fiches, "jeu", "src/p.webp"))
+            self.assertEqual(fiches["a"]["license"], "MIT")
+
+
+class ConditionsDeSourceTierces(TestCase):
+    """HL-538 (22/11, photos NASA/JPL/MESSENGER) : publiables à travers un jeu de David seulement, jamais dérivées
+    sous une autre licence ; chaque photo de petit-astronome a sa licence de source et son crédit exact."""
+    def test_garde(self):
+        from tools.publish.licenses import THIRD_PARTY_GAME_ONLY
+        from tools.core.schemas import schemas
+        enum = schemas().validator("asset").schema["$defs"]["license"]["enum"]
+        for lic in THIRD_PARTY_GAME_ONLY:
+            self.assertIn(lic, enum)
+            self.assertTrue((_P(__file__).resolve().parents[2] / "LICENSES" / f"{lic}.txt").is_file())
+            photo = fiche("asset-image-photo-0001", "3" * 64, licence=lic)
+            self.assertTrue(public_allowed(photo, set(), {}.get, PRIVATE_LICENSES))
+            self.assertFalse(public_allowed(photo, set(), {}.get, frozenset()))
+
+    def test_huit_photos(self):
+        regles = {r["prefixe"]: r for r in il.PROFILS["petit-astronome"]["images"]}
+        for nom in ("mercure", "venus", "terre", "mars", "jupiter", "saturne", "uranus", "neptune"):
+            r = il.regle_image(il.PROFILS["petit-astronome"], f"public/discovery/photos/{nom}.webp")
+            self.assertIs(r, regles[f"public/discovery/photos/{nom}.webp"])
+            self.assertTrue(r["licence"].startswith("LicenseRef-"))
+            self.assertIn(r["auteur"], r["licence_preuve"]["ref"])
+        self.assertEqual(il.regle_image(il.PROFILS["petit-astronome"], "public/discovery/photos/mercure.webp")["licence"],
+                         "LicenseRef-MESSENGER-Usage-Statement")
+
+
+class ImagesRuntimeDeCapsule(TestCase):
+    """HL-538 (22/11) : credits.webp et sprite-aide-accueil.webp, rejoués à l'identique par scripts/assets-runtime.py,
+    passent AVANT la règle runtime/ qui exige une déclaration ; un autre fichier runtime non déclaré reste inconnu."""
+    def test_regles(self):
+        p = il.PROFILS["capsule-panic"]
+        for f in ("packages/assets/runtime/credits.webp", "packages/assets/runtime/sprite-aide-accueil.webp"):
+            self.assertEqual(il.regle_image(p, f)["licence"], "CC-BY-4.0")
+        self.assertIsNone(il.regle_image(p, "packages/assets/runtime/sprite-inconnu.webp", {}))

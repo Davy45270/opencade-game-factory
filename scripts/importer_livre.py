@@ -71,6 +71,36 @@ def icones_par_le_code(prefixe, commit, depot):
                                "decision": "Icônes PWA produites par le code du dépôt : licence du code, MIT."}}
 
 
+NASA = "LicenseRef-NASA-Media-Usage-Guidelines"
+JPL = "LicenseRef-JPL-Image-Use-Policy"
+MESSENGER = "LicenseRef-MESSENGER-Usage-Statement"
+_R_JPL = "image JPL (Caltech), utilisable à toute fin sans autorisation préalable selon la politique d'images du JPL."
+_R_PARTENAIRE = ("image JPL coproduite par {p}, sous la politique d'images du JPL (aucun droit de tiers indiqué sur la "
+                 "page).")
+# (fichier, identifiant, crédit exact, page source, licence, règle) — vérifiés sur chaque page le 2026-11-22.
+PHOTOS_ASTRO = (
+    ("mercure", "PIA15160 (MESSENGER)",
+     "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+     "https://science.nasa.gov/photojournal/mercury-globe-0n-0e/", MESSENGER,
+     "image MESSENGER, libre pour un usage éducatif et d'information NON COMMERCIAL selon la déclaration d'usage "
+     "MESSENGER (JHUAPL)."),
+    ("venus", "PIA23791 (Mariner 10)", "NASA/JPL-Caltech",
+     "https://science.nasa.gov/image-detail/venus-mariner-10-pia23791-fig2-2/", JPL, _R_JPL),
+    ("terre", "AS17-148-22727 (Apollo 17)", "NASA Johnson Space Center", "https://science.nasa.gov/resource/the-blue-marble/",
+     NASA, "photographie d'astronaute de la NASA, non soumise au droit d'auteur aux États-Unis (directives NASA)."),
+    ("mars", "PIA00407 (Viking)", "NASA/JPL-Caltech/USGS",
+     "https://science.nasa.gov/resource/global-color-views-of-mars/?site=msl", JPL, _R_PARTENAIRE.format(p="l'USGS")),
+    ("jupiter", "PIA01509 (Voyager 1)", "NASA/JPL",
+     "https://www.jpl.nasa.gov/images/pia01509-jupiter-full-disk-with-great-red-spot/", JPL, _R_JPL),
+    ("saturne", "PIA11141 (Cassini)", "NASA/JPL/Space Science Institute",
+     "https://science.nasa.gov/photojournal/saturn-four-years-on/", JPL,
+     _R_PARTENAIRE.format(p="le Space Science Institute")),
+    ("uranus", "PIA00032 (Voyager 2)", "NASA/JPL", "https://science.nasa.gov/photojournal/uranus-in-true-and-false-color/",
+     JPL, _R_JPL),
+    ("neptune", "PIA01492 (Voyager 2)", "NASA/JPL", "https://science.nasa.gov/photojournal/neptune-full-disk-view/",
+     JPL, _R_JPL),
+)
+
 PROFILS = {
     "pestouille-rpg": {
         "parents": "manifestes",
@@ -172,6 +202,24 @@ PROFILS = {
         "declarations_licence": [{"fichier": "packages/assets/assets.inventaire.json", "format": "inventaire"},
                                  {"fichier": "packages/assets/licences.json", "format": "liste"}],
         "images": [
+            # Images runtime FABRIQUÉES par scripts/assets-runtime.py depuis les sprites CC BY 4.0 de David : la planche
+            # des crédits (montage de chaque sprite de licences.json) et la pilule « Aide » (sprite-options-accueil.png
+            # rognée, raccordée, détourée). Preuve : le script rejoué à ea68eeb rend ces deux fichiers aux mêmes
+            # octets (HL-538, 2026-11-22). Placées AVANT la règle de runtime/, qui exige une déclaration.
+            *({"prefixe": chemin, "licence": "CC-BY-4.0", "auteur": auteur,
+               "licence_preuve": {"method": "rejeu du générateur du dépôt, octets identiques",
+                                  "ref": "capsule-panic ea68eeb scripts/assets-runtime.py (" + source + ") ; "
+                                         "rejeu du 2026-11-22 à ea68eeb : octets identiques ; packages/assets/LICENCES.md "
+                                         "(sprites CC BY 4.0, Davy45270) ; HL-538",
+                                  "decision": "Image produite par le script du jeu à partir de sprites CC BY 4.0 de David "
+                                              "Sevin, sans trait nouveau : elle garde leur licence, CC BY 4.0."}}
+              for chemin, auteur, source in (
+                  ("packages/assets/runtime/credits.webp",
+                   "Davy45270 (montage de ses sprites par scripts/assets-runtime.py du jeu)",
+                   "montage des sprites listés par packages/assets/licences.json"),
+                  ("packages/assets/runtime/sprite-aide-accueil.webp",
+                   "Davy45270 (sprite-options-accueil.png retouché par scripts/assets-runtime.py du jeu)",
+                   "pilule dérivée de packages/assets/sprites/sprite-options-accueil.png"))),
             {"prefixe": "apps/web/public/icons/capsule-panic-", "licence": "MIT",
              "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
              "licence_preuve": {"method": "historique git : licence de la source",
@@ -246,8 +294,17 @@ PROFILS = {
     },
     "petit-astronome": {
         # Icônes : « Draws the app icons » — scripts/make-icons.js les dessine pixel par pixel (commit 325d085).
-        # Les photos de planètes (NASA/JPL, conditions de leurs sources) n'ont pas de licence SPDX : sans_origine.
-        "images": [{"prefixe": "public/icons/astro-", "licence": "MIT",
+        # Photos de planètes : aucune licence SPDX ; chacune prend la référence des conditions de SA source, vérifiées
+        # sur la page de l'image le 2026-11-22 (crédit et page dans src/ui/planet-gallery.json du jeu).
+        "images": [
+            *({"prefixe": f"public/discovery/photos/{nom}.webp", "licence": licence, "auteur": credit,
+               "licence_preuve": {"method": "conditions de la source vérifiées",
+                                  "ref": f"{page} (crédit « {credit} ») ; petit-astronome src/ui/planet-gallery.json et "
+                                         f"public/discovery/credits.txt ; LICENSES/{licence}.txt ; HL-538",
+                                  "decision": f"Photo {ident} : {regle} Crédit obligatoire, aucune caution de la NASA "
+                                              "suggérée ; la licence MIT du code ne la couvre pas. Publiable seulement "
+                                              "à travers un jeu de David qui l'emploie et affiche son crédit."}}
+              for nom, ident, credit, page, licence, regle in PHOTOS_ASTRO),{"prefixe": "public/icons/astro-", "licence": "MIT",
                     "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
                     "licence_preuve": {"method": "historique git : licence de la source",
                                        "ref": "petit-astronome 325d085 (scripts/make-icons.js dessine les icônes) ; "
@@ -838,9 +895,13 @@ def appliquer_regle(aid, regle, fiches, depot, chemin, autres=()):
     a = lire(p)
     prov = a.get("provenance") or {}
     sources = [(depot, chemin), *autres]
-    if prov.get("type") != "repo-file" or not any(
+    # Fiche importée du catalogue d'assets de David (type generated, preuve « catalogue.json@<commit> ») : touchée
+    # seulement par une règle dont l'origine admise est ce catalogue (même fichier, SHA-256 abrégé ou pixels vérifiés).
+    du_catalogue = "catalogue" in (regle.get("origines") or ()) and prov.get("type") == "generated" and any(
+        str(ev).startswith("catalogue.json@") for ev in prov.get("evidence") or ())
+    if not du_catalogue and (prov.get("type") != "repo-file" or not any(
             MARQUE in ev or any(ev.startswith(f"{d}@") and ev.endswith(f":{c}") for d, c in sources)
-            for ev in prov.get("evidence") or ()):
+            for ev in prov.get("evidence") or ())):
         return False
     a["license"], a["licenseEvidence"] = regle["licence"], regle["licence_preuve"]
     a["provenance"]["author"] = regle["auteur"]
@@ -1118,14 +1179,17 @@ def main(argv):
         d = sha256(octets)
         if par_octets.get(d):
             image_ids[f] = min(par_octets[d], key=lambda i: (fiches[i].get("category") == "atlas", i))
-            if fiches[image_ids[f]].get("license") in (None, "", "unknown"):
+            inconnues = [i for i in sorted(par_octets[d]) if fiches[i].get("license") in (None, "", "unknown")]
+            if inconnues:
                 regle = regle_image(profil, f, declarees, octets)
                 # Les copies que le catalogue d'assets de David déclare (même SHA-256 abrégé : dépôt jeux-assets, autre
-                # jeu) sont le même fichier.
+                # jeu) sont le même fichier. Chaque fiche aux mêmes octets reçoit la règle (doublon du scan compris :
+                # l'index d'usage peut citer l'une ou l'autre).
                 autres = [tuple(c) for c in (regle or {}).get("copies") or []]
-                if regle and appliquer_regle(image_ids[f], regle, fiches, args.jeu.split("/")[0], f, autres):
-                    compte["licences_etablies"] += 1
-                elif fiches[image_ids[f]].get("license") in (None, "", "unknown"):
+                for i in inconnues:
+                    if regle and appliquer_regle(i, regle, fiches, args.jeu.split("/")[0], f, autres):
+                        compte["licences_etablies"] += 1
+                if fiches[image_ids[f]].get("license") in (None, "", "unknown"):
                     compte["sans_origine"].append(f)
             continue
         n += 1

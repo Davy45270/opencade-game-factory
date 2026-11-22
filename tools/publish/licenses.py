@@ -13,7 +13,13 @@ DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
 # Licence privée de David (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
 # Règle centrale unique, sans liste de jeux à tenir : tout dépôt de rôle « game » de catalog/sources.json (le registre
 # n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Dérivable sous la même licence, vers un tel jeu.
-PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"})
+# Conditions de source de photos tierces (NASA, JPL, MESSENGER ; HL-538 2026-11-22) : ce ne sont pas des licences libres
+# et elles exigent un crédit que le registre ne garantit pas ailleurs. Même régime que la licence privée : publiables
+# seulement à travers un jeu de David qui les emploie (et affiche leur crédit), jamais dérivables sous une autre licence.
+# Le nom PRIVATE_LICENSES est gardé : la barrière P17 (homelab-diag, GARDE_REGISTRE) l'importe.
+THIRD_PARTY_GAME_ONLY = frozenset({"LicenseRef-NASA-Media-Usage-Guidelines", "LicenseRef-JPL-Image-Use-Policy",
+                                   "LicenseRef-MESSENGER-Usage-Statement"})
+PRIVATE_LICENSES = frozenset({"LicenseRef-David-Prive-Tous-Droits-Reserves"}) | THIRD_PARTY_GAME_ONLY
 GAME_GRANT = {"ref": "HL-538 (David, 2026-11-21)",
               "decision": "« autorise pour tous mes jeux sans exceptions !!! » : remplace l'autorisation réservée à "
                           "pestouille-rpg (HL-537 7-3167). Restent bloqués : un dépôt public qui n'est pas un jeu de David, "

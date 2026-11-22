@@ -20,6 +20,7 @@ from pathlib import Path, PurePosixPath
 from tools.core.catalog import InvalidJSON, json_text, parse_json, read_json, write_json
 
 from .registry import spdx_ids
+from .trace import releases
 
 DISCOVERED_BY = "bbctl discover"
 TEST_HARNESSES = {"vitest", "jest", "mocha", "playwright", "@playwright/test", "cypress", "ava", "uvu",
@@ -508,9 +509,11 @@ def discover(blocks, sources_file, clones, dry_run):
         commit = head.stdout.strip()
         if state.get(name, {}).get("commitSha") == commit:
             skipped.append(name)
-            observations[name] = state[name]
+            # Commit inchangé : briques non relues, mais les releases (tags) peuvent avoir bougé — relevées à chaque passage.
+            observations[name] = {**state[name], "releases": releases(directory, commit)}
             continue
-        observations[name] = {"commitSha": commit, "blocks": observe(Repo(name, directory, commit), inventory=True)}
+        observations[name] = {"commitSha": commit, "blocks": observe(Repo(name, directory, commit), inventory=True),
+                              "releases": releases(directory, commit)}          # E179 : tags atteignables
         scanned.append(name)
     existing = {}
     if catalog.is_dir():

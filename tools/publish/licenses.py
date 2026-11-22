@@ -10,7 +10,10 @@ from tools.core.schemas import schemas
 from tools.discovery.enrich import trace
 
 DAVID_DECISION = "HL-538 condition 3 (David, 2026-11-19)"
-# Licence privée de David (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
+# Les dessins de David sont sous CC BY-SA 4.0 depuis le 2026-11-22 (HL-538 7-3316) : licence libre, publiables partout.
+# Seule une licence NON LIBRE (PRIVATE_LICENSES) bloque une publication publique. La licence privée ci-dessous n'est plus
+# portée par aucune fiche ; elle reste connue (schéma, test L10) comme exemple de licence non libre.
+# Ancien régime (HL-538 7-3162) : jamais publique, sauf à travers un JEU de David qui emploie l'asset.
 # Règle centrale unique, sans liste de jeux à tenir : tout dépôt de rôle « game » de catalog/sources.json (le registre
 # n'inventorie que les dépôts de David) peut publier ce qu'il emploie. Dérivable sous la même licence, vers un tel jeu.
 # Conditions de source de photos tierces (NASA, JPL, MESSENGER ; HL-538 2026-11-22) : ce ne sont pas des licences libres

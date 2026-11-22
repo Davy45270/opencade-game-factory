@@ -9,11 +9,11 @@ REG, JEU, DOCS, RECU, TRAV = map(Path, sys.argv[1:6])
 sys.path.insert(0, str(REG))
 from tools.core.catalog import write_json  # noqa: E402
 
-LIC = "LicenseRef-David-Prive-Tous-Droits-Reserves"
-LIC_PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
-              "decision": "Dessins de Pestouille fournis par David : privé, tous droits réservés ; publiables à travers "
-                          "tout jeu de David qui les emploie (HL-538, 2026-11-21)."}
-AUTEUR = "David (dessin fourni par David ; auteur ou outil de création non déclaré)"
+LIC = "CC-BY-SA-4.0"
+LIC_PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
+              "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."}
+AUTEUR = "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)"
 EDIT = "sources/editable/pestouille-2026-11-21/jeu"
 sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
 commit = subprocess.run(["git", "-C", str(JEU), "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()

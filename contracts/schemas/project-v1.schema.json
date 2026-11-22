@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:opencade:contracts:project-v1.schema.json",
+  "title": "Projet du portefeuille (ARCH-001 contrats transverses)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "projectId",
+    "portfolioId",
+    "name",
+    "repo",
+    "status"
+  ],
+  "properties": {
+    "projectId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "portfolioId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repo": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "paused",
+        "archived"
+      ]
+    },
+    "specRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+      }
+    }
+  }
+}

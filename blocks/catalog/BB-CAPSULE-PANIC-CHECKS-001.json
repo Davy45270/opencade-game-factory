@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:capsule-panic:.woodpecker/checks.yml"
+  },
+  "id": "BB-CAPSULE-PANIC-CHECKS-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "checks",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": ".woodpecker/checks.yml",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/checks.yml",
+    "repo": "capsule-panic",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-CAPSULE-PANIC"
+  ],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

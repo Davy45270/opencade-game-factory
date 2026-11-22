@@ -1,5 +1,45 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "DifficultyId",
+      "JobChange",
+      "JobProgress",
+      "JobSkill",
+      "MAX_LEVEL",
+      "changeJob",
+      "computeStats",
+      "difficultyProfiles",
+      "enemyStatsForDifficulty",
+      "gainXp",
+      "learnJobSkill",
+      "selectDragonPath",
+      "statsAt",
+      "xpForLevel"
+    ],
+    "imports": [
+      "@pestouille/core"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "change-job",
+    "compute-stats",
+    "difficulty-id",
+    "difficulty-profiles",
+    "enemy-stats-for-difficulty",
+    "gain-xp",
+    "job-change",
+    "job-progress",
+    "job-skill",
+    "learn-job-skill",
+    "max-level",
+    "select-dragon-path",
+    "stats-at",
+    "xp-for-level"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +51,22 @@
   "id": "BB-PESTOUILLE-RPG-CHARACTERS-001",
   "interfaces": [
     {
+      "exports": [
+        "DifficultyId",
+        "JobChange",
+        "JobProgress",
+        "JobSkill",
+        "MAX_LEVEL",
+        "changeJob",
+        "computeStats",
+        "difficultyProfiles",
+        "enemyStatsForDifficulty",
+        "gainXp",
+        "learnJobSkill",
+        "selectDragonPath",
+        "statsAt",
+        "xpForLevel"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +75,13 @@
   "name": "characters",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/characters",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/characters",
     "repo": "pestouille-rpg",

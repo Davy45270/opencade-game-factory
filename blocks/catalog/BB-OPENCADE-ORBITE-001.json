@@ -1,5 +1,57 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Boss",
+      "CANNON_Y",
+      "Comet",
+      "Engine",
+      "Formation",
+      "LEVELS",
+      "Mechanic",
+      "Point",
+      "Probe",
+      "SHIELD_Y",
+      "Shot",
+      "Stage",
+      "State",
+      "TICK",
+      "createDemo",
+      "difficulty",
+      "fleet",
+      "formation",
+      "pilot",
+      "shields",
+      "stage"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "boss",
+    "cannon-y",
+    "comet",
+    "create-demo",
+    "difficulty",
+    "engine",
+    "fleet",
+    "formation",
+    "levels",
+    "mechanic",
+    "pilot",
+    "point",
+    "probe",
+    "shield-y",
+    "shields",
+    "shot",
+    "stage",
+    "state",
+    "tick"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +63,29 @@
   "id": "BB-OPENCADE-ORBITE-001",
   "interfaces": [
     {
+      "exports": [
+        "Boss",
+        "CANNON_Y",
+        "Comet",
+        "Engine",
+        "Formation",
+        "LEVELS",
+        "Mechanic",
+        "Point",
+        "Probe",
+        "SHIELD_Y",
+        "Shot",
+        "Stage",
+        "State",
+        "TICK",
+        "createDemo",
+        "difficulty",
+        "fleet",
+        "formation",
+        "pilot",
+        "shields",
+        "stage"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

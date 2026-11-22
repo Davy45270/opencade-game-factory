@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:tictac:.github/workflows/pages.yml"
+  },
+  "id": "BB-TICTAC-PAGES-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "github-actions"
+    }
+  ],
+  "kind": "workflow",
+  "name": "pages",
+  "observedIn": [
+    {
+      "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "path": ".github/workflows/pages.yml",
+      "repo": "tictac"
+    }
+  ],
+  "origin": {
+    "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".github/workflows/pages.yml",
+    "repo": "tictac",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-TICTAC"
+  ],
+  "usedBy": [
+    "tictac"
+  ]
+}

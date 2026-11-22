@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:capsule-panic:scripts/assets-build.py"
+  },
+  "id": "BB-CAPSULE-PANIC-ASSETS-BUILD-PY-001",
+  "interfaces": [
+    {
+      "language": "python",
+      "runtime": "cpython"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "assets-build.py",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "scripts/assets-build.py",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/assets-build.py",
+    "repo": "capsule-panic",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-CAPSULE-PANIC"
+  ],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

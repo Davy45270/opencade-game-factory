@@ -1,5 +1,51 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "BUILD_STEPS",
+      "COLS",
+      "Engine",
+      "FALL_MAX",
+      "GAME_NAME",
+      "Kid",
+      "LEVELS",
+      "LevelDef",
+      "ROLES",
+      "ROWS",
+      "Role",
+      "RoleCounts",
+      "Snapshot",
+      "State",
+      "Status",
+      "TICK_MS",
+      "Tile",
+      "createDemo"
+    ],
+    "imports": [],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "build-steps",
+    "cols",
+    "create-demo",
+    "engine",
+    "fall-max",
+    "game-name",
+    "kid",
+    "level-def",
+    "levels",
+    "role",
+    "role-counts",
+    "roles",
+    "rows",
+    "snapshot",
+    "state",
+    "status",
+    "tick-ms",
+    "tile"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +57,26 @@
   "id": "BB-OPENCADE-MARMAILLE-001",
   "interfaces": [
     {
+      "exports": [
+        "BUILD_STEPS",
+        "COLS",
+        "Engine",
+        "FALL_MAX",
+        "GAME_NAME",
+        "Kid",
+        "LEVELS",
+        "LevelDef",
+        "ROLES",
+        "ROWS",
+        "Role",
+        "RoleCounts",
+        "Snapshot",
+        "State",
+        "Status",
+        "TICK_MS",
+        "Tile",
+        "createDemo"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

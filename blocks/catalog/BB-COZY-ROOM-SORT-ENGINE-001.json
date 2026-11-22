@@ -1,5 +1,61 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "GameAction",
+      "GameEvent",
+      "GameState",
+      "GameTransition",
+      "HISTORY_CAP",
+      "Mode",
+      "RejectReason",
+      "SavedGame",
+      "Snapshot",
+      "Status",
+      "applyAction",
+      "createInitialState",
+      "isAccessible",
+      "legalMoves",
+      "recordAction",
+      "replayActions",
+      "restore",
+      "snapshotOf",
+      "starsFor",
+      "statusOf",
+      "step",
+      "withMode"
+    ],
+    "imports": [
+      "@cozy-room-sort/schemas"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "apply-action",
+    "create-initial-state",
+    "game-action",
+    "game-event",
+    "game-state",
+    "game-transition",
+    "history-cap",
+    "is-accessible",
+    "legal-moves",
+    "mode",
+    "record-action",
+    "reject-reason",
+    "replay-actions",
+    "restore",
+    "saved-game",
+    "snapshot",
+    "snapshot-of",
+    "stars-for",
+    "status",
+    "status-of",
+    "step",
+    "with-mode"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +67,30 @@
   "id": "BB-COZY-ROOM-SORT-ENGINE-001",
   "interfaces": [
     {
+      "exports": [
+        "GameAction",
+        "GameEvent",
+        "GameState",
+        "GameTransition",
+        "HISTORY_CAP",
+        "Mode",
+        "RejectReason",
+        "SavedGame",
+        "Snapshot",
+        "Status",
+        "applyAction",
+        "createInitialState",
+        "isAccessible",
+        "legalMoves",
+        "recordAction",
+        "replayActions",
+        "restore",
+        "snapshotOf",
+        "starsFor",
+        "statusOf",
+        "step",
+        "withMode"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -47,6 +127,7 @@
   ],
   "usedBy": [
     "cozy-room-sort/apps/web",
+    "cozy-room-sort/packages/generator",
     "cozy-room-sort/packages/level-tools",
     "cozy-room-sort/packages/solver",
     "cozy-room-sort/tests/e2e",

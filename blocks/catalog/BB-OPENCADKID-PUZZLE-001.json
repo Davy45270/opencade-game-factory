@@ -1,5 +1,59 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Edge",
+      "Level",
+      "PaintedScene",
+      "Piece",
+      "Point",
+      "Puzzle",
+      "Scene",
+      "complete",
+      "drop",
+      "edgePoints",
+      "hasEye",
+      "hint",
+      "isUnlocked",
+      "levels",
+      "newPuzzle",
+      "paintedSceneIds",
+      "pieceFrame",
+      "piecePath",
+      "sceneIds",
+      "stars",
+      "vectorSceneIds"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "complete",
+    "drop",
+    "edge",
+    "edge-points",
+    "has-eye",
+    "hint",
+    "is-unlocked",
+    "level",
+    "levels",
+    "new-puzzle",
+    "painted-scene",
+    "painted-scene-ids",
+    "piece",
+    "piece-frame",
+    "piece-path",
+    "point",
+    "puzzle",
+    "scene",
+    "scene-ids",
+    "stars",
+    "vector-scene-ids"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +65,29 @@
   "id": "BB-OPENCADKID-PUZZLE-001",
   "interfaces": [
     {
+      "exports": [
+        "Edge",
+        "Level",
+        "PaintedScene",
+        "Piece",
+        "Point",
+        "Puzzle",
+        "Scene",
+        "complete",
+        "drop",
+        "edgePoints",
+        "hasEye",
+        "hint",
+        "isUnlocked",
+        "levels",
+        "newPuzzle",
+        "paintedSceneIds",
+        "pieceFrame",
+        "piecePath",
+        "sceneIds",
+        "stars",
+        "vectorSceneIds"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:pestouille-rpg:.woodpecker/checks.yml"
+  },
+  "id": "BB-PESTOUILLE-RPG-CHECKS-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "checks",
+  "observedIn": [
+    {
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "path": ".woodpecker/checks.yml",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/checks.yml",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

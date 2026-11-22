@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:petit-astronome:scripts/check-size.js"
+  },
+  "id": "BB-PETIT-ASTRONOME-CHECK-SIZE-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "check-size.js",
+  "observedIn": [
+    {
+      "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": "scripts/check-size.js",
+      "repo": "petit-astronome"
+    }
+  ],
+  "origin": {
+    "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/check-size.js",
+    "repo": "petit-astronome",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "petit-astronome"
+  ]
+}

@@ -112,12 +112,71 @@ class Reutilisation(unittest.TestCase):
                            capture_output=True, text=True, env=env, timeout=120)
         self.assertEqual(rap["uncovered"], json.loads(r.stdout)["uncovered"], r.stderr[-300:])
 
+    # E190/E221 (HL-525, lot usine3) : un jeu peut passer la barrière en BLOQUANT (`"reutilisation": "bloquant"` dans
+    # .woodpecker/usine.json). Une brique nouvelle sans recherche documentée ni dérogation fait alors échouer la CI ; une
+    # base ou un catalogue illisible aussi (rien n'est prouvé : pas de vert muet).
+    def test_bloquant_echoue_sur_brique_non_couverte(self) -> None:
+        self.briques(decided=["npm:howler@2.2.4"])
+        rc, rap = self.lancer("--bloquant")
+        self.assertEqual(rc, 1, rap)
+        self.assertEqual((rap["mode"], rap["status"]), ("bloquant", "non-couvert"))
+        self.assertIn("npm:vitest@3.2.0", rap["uncovered"])
+
+    def test_bloquant_passe_quand_tout_est_decide_ou_deroge(self) -> None:
+        self.briques(decided=["npm:howler@2.2.4", "docker:node@22", "docker:nginx@1.27-alpine", "npm:vitest@3.2.0"],
+                     derogations={"local:jeu:src/engines/physique": "HL-525 7-3000"})
+        rc, rap = self.lancer("--bloquant")
+        self.assertEqual(rc, 0, rap)
+        self.assertEqual((rap["mode"], rap["status"], rap["uncovered"]), ("bloquant", "ok", []))
+
+    def test_bloquant_base_introuvable_echoue(self) -> None:
+        self.briques()
+        r = subprocess.run([NODE, str(SCRIPT), "--bloquant", "--base", "inexistante"], cwd=self.jeu, capture_output=True,
+                           text=True)
+        self.assertEqual(r.returncode, 1)
+        self.assertEqual(json.loads((self.jeu / "reutilisation-rapport.json").read_text())["status"], "base-indisponible")
+
+    def test_bloquant_sans_catalogue_echoue(self) -> None:
+        rc, rap = self.lancer("--bloquant")
+        self.assertEqual(rc, 1)
+        self.assertEqual(rap["status"], "catalogue-indisponible")
+
 
 class Gabarit(unittest.TestCase):
-    def test_etape_d_avertissement_dans_le_gabarit(self) -> None:
-        checks = (RACINE / "ci" / "gabarit" / "checks.yml").read_text()
-        self.assertIn("node .woodpecker/usine/reutilisation.mjs", checks)
+    def rendre_checks(self, params: dict | None) -> str:
+        sys.path.insert(0, str(RACINE / "ci"))
+        import woodpecker  # noqa: E402
+        tmp = pathlib.Path(tempfile.mkdtemp(prefix="gabarit-reut-"))
+        try:
+            shutil.copytree(RACINE / "tests" / "fixtures" / "jeu-temoin", tmp / "jeu")
+            f = tmp / "jeu" / ".woodpecker" / "usine.json"
+            p = json.loads(f.read_text()) if f.is_file() else {}
+            p.pop("reutilisation", None)
+            if params:
+                p.update(params)
+            f.write_text(json.dumps(p))
+            return woodpecker.rendre(tmp / "jeu")[".woodpecker/checks.yml"]
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+
+    def test_etape_d_avertissement_par_defaut(self) -> None:
+        checks = self.rendre_checks(None)
+        self.assertIn("node .woodpecker/usine/reutilisation.mjs\n", checks)
         self.assertIn("name: réutilisation (avertissement)", checks)
+        self.assertNotIn("--bloquant", checks)
+
+    def test_etape_bloquante_sur_demande_du_jeu_en_historique_complet(self) -> None:
+        checks = self.rendre_checks({"reutilisation": "bloquant"})
+        self.assertIn("node .woodpecker/usine/reutilisation.mjs --bloquant", checks)
+        self.assertIn("name: réutilisation (bloquant)", checks)
+        self.assertIn("depth: 0", checks)                       # la base d'une PR est son merge-base avec la cible
+        self.assertIn("fetch_target_branch: true", checks)
+
+    def test_mode_de_reutilisation_inconnu_refuse(self) -> None:
+        sys.path.insert(0, str(RACINE / "ci"))
+        import woodpecker  # noqa: E402
+        with self.assertRaises(woodpecker.Indisponible):
+            self.rendre_checks({"reutilisation": "souple"})
 
     def test_briques_json_ne_porte_que_des_cles(self) -> None:
         sys.path.insert(0, str(RACINE / "ci"))

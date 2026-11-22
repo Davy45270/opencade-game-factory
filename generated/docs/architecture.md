@@ -16,8 +16,8 @@ Sources :
 
 | Registre | Nombre |
 |---|---|
-| fiches de specs | 9 |
-| briques | 165 |
+| fiches de specs | 10 |
+| briques | 450 |
 | contrats | 12 |
 | ADR | 7 |
 | pipelines | 7 |

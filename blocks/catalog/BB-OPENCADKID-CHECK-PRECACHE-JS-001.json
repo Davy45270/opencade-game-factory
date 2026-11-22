@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencadkid:scripts/check-precache.js"
+  },
+  "id": "BB-OPENCADKID-CHECK-PRECACHE-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "check-precache.js",
+  "observedIn": [
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "scripts/check-precache.js",
+      "repo": "opencadkid"
+    }
+  ],
+  "origin": {
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/check-precache.js",
+    "repo": "opencadkid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-OPENCADKID"
+  ],
+  "usedBy": [
+    "opencadkid"
+  ]
+}

@@ -1,5 +1,36 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "EvolutionBranch",
+      "EvolutionSpecies",
+      "EvolutionState",
+      "SootheCheck",
+      "canSoothe",
+      "evolveCreature",
+      "recruitChance",
+      "resolveRecruit",
+      "sootheChance"
+    ],
+    "imports": [
+      "@pestouille/characters",
+      "@pestouille/core"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "can-soothe",
+    "evolution-branch",
+    "evolution-species",
+    "evolution-state",
+    "evolve-creature",
+    "recruit-chance",
+    "resolve-recruit",
+    "soothe-chance",
+    "soothe-check"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +42,17 @@
   "id": "BB-PESTOUILLE-RPG-CREATURES-001",
   "interfaces": [
     {
+      "exports": [
+        "EvolutionBranch",
+        "EvolutionSpecies",
+        "EvolutionState",
+        "SootheCheck",
+        "canSoothe",
+        "evolveCreature",
+        "recruitChance",
+        "resolveRecruit",
+        "sootheChance"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +61,13 @@
   "name": "creatures",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/creatures",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/creatures",
     "repo": "pestouille-rpg",

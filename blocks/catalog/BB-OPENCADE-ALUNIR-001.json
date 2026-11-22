@@ -1,5 +1,61 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Controls",
+      "Engine",
+      "LEVELS",
+      "LEVELS_107",
+      "LIMITS",
+      "Level",
+      "Mechanic",
+      "Pad",
+      "Point",
+      "STEP",
+      "createDemo",
+      "difficulty",
+      "fieldAt",
+      "generate",
+      "landingScore",
+      "meteorAt",
+      "movingOffset",
+      "pilot",
+      "polygon",
+      "required",
+      "sweep",
+      "windAt"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "controls",
+    "create-demo",
+    "difficulty",
+    "engine",
+    "field-at",
+    "generate",
+    "landing-score",
+    "level",
+    "levels",
+    "levels-107",
+    "limits",
+    "mechanic",
+    "meteor-at",
+    "moving-offset",
+    "pad",
+    "pilot",
+    "point",
+    "polygon",
+    "required",
+    "step",
+    "sweep",
+    "wind-at"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +67,30 @@
   "id": "BB-OPENCADE-ALUNIR-001",
   "interfaces": [
     {
+      "exports": [
+        "Controls",
+        "Engine",
+        "LEVELS",
+        "LEVELS_107",
+        "LIMITS",
+        "Level",
+        "Mechanic",
+        "Pad",
+        "Point",
+        "STEP",
+        "createDemo",
+        "difficulty",
+        "fieldAt",
+        "generate",
+        "landingScore",
+        "meteorAt",
+        "movingOffset",
+        "pilot",
+        "polygon",
+        "required",
+        "sweep",
+        "windAt"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

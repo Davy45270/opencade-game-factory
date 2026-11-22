@@ -1,5 +1,62 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "ContentBundle",
+      "Scene",
+      "SourceContent",
+      "SourceContentKind",
+      "TiledMap",
+      "TiledObject",
+      "WorldFile",
+      "buildGameData",
+      "compileSourceQuest",
+      "contentErrors",
+      "mapPreview",
+      "parseSourceMap",
+      "playableTiledMaps",
+      "readTiledMap",
+      "resolveBossId",
+      "sceneContentErrors",
+      "sourceContentErrors",
+      "sourceSchemaErrors",
+      "tiledPoint",
+      "toWorld",
+      "validateContent",
+      "withTiledGeometry"
+    ],
+    "imports": [
+      "@pestouille/engine",
+      "ajv"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "build-game-data",
+    "compile-source-quest",
+    "content-bundle",
+    "content-errors",
+    "map-preview",
+    "parse-source-map",
+    "playable-tiled-maps",
+    "read-tiled-map",
+    "resolve-boss-id",
+    "scene",
+    "scene-content-errors",
+    "source-content",
+    "source-content-errors",
+    "source-content-kind",
+    "source-schema-errors",
+    "tiled-map",
+    "tiled-object",
+    "tiled-point",
+    "to-world",
+    "validate-content",
+    "with-tiled-geometry",
+    "world-file"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +68,30 @@
   "id": "BB-PESTOUILLE-RPG-CONTENT-001",
   "interfaces": [
     {
+      "exports": [
+        "ContentBundle",
+        "Scene",
+        "SourceContent",
+        "SourceContentKind",
+        "TiledMap",
+        "TiledObject",
+        "WorldFile",
+        "buildGameData",
+        "compileSourceQuest",
+        "contentErrors",
+        "mapPreview",
+        "parseSourceMap",
+        "playableTiledMaps",
+        "readTiledMap",
+        "resolveBossId",
+        "sceneContentErrors",
+        "sourceContentErrors",
+        "sourceSchemaErrors",
+        "tiledPoint",
+        "toWorld",
+        "validateContent",
+        "withTiledGeometry"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +100,13 @@
   "name": "content",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/content",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/content",
     "repo": "pestouille-rpg",

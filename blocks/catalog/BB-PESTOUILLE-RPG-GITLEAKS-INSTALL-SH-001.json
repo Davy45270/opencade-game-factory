@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:pestouille-rpg:scripts/gitleaks-install.sh"
+  },
+  "id": "BB-PESTOUILLE-RPG-GITLEAKS-INSTALL-SH-001",
+  "interfaces": [
+    {
+      "language": "shell",
+      "runtime": "posix-sh"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "gitleaks-install.sh",
+  "observedIn": [
+    {
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "path": "scripts/gitleaks-install.sh",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/gitleaks-install.sh",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

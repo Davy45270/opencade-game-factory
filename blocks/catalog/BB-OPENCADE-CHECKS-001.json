@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:opencade:.woodpecker/checks.yml"
+  },
+  "id": "BB-OPENCADE-CHECKS-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "checks",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": ".woodpecker/checks.yml",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/checks.yml",
+    "repo": "opencade",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade"
+  ]
+}

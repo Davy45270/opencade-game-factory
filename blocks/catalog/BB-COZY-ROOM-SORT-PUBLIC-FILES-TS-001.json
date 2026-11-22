@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:cozy-room-sort:scripts/public-files.ts"
+  },
+  "id": "BB-COZY-ROOM-SORT-PUBLIC-FILES-TS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "public-files.ts",
+  "observedIn": [
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "scripts/public-files.ts",
+      "repo": "cozy-room-sort"
+    }
+  ],
+  "origin": {
+    "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/public-files.ts",
+    "repo": "cozy-room-sort",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-COZY-ROOM-SORT"
+  ],
+  "usedBy": [
+    "cozy-room-sort"
+  ]
+}

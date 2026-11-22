@@ -61,6 +61,13 @@ steps:
       - ./specctl --json validate
       - ./specctl --json verify
 
+  # ARCH-001 E009 : le magasin d'assets (originaux de niveaux, planches) est référencé fichier par fichier, avec
+  # empreinte et origine ; le registre des specs ne tient que des références. Mesure sur le dépôt réel (code 1 = écart).
+  - name: sources-de-verite
+    image: *py
+    commands:
+      - python3 scripts/sources_de_verite.py
+
   # § 3 et T10 : les index générés (generated/specs) se reconstruisent depuis les fiches seules, et ceux qui sont
   # commités sont à jour (périmé = code 2).
   - name: index

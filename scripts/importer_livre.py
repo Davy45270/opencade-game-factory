@@ -216,6 +216,17 @@ PROFILS = {
                                                    "pour le jeu par Davy45270 : CC BY 4.0."}}
                    for prefixe in ("apps/web/public/art/", "apps/web/public/icons/six-de-chaque-")],
     },
+    "petit-astronome": {
+        # Icônes : « Draws the app icons » — scripts/make-icons.js les dessine pixel par pixel (commit 325d085).
+        # Les photos de planètes (NASA/JPL, conditions de leurs sources) n'ont pas de licence SPDX : sans_origine.
+        "images": [{"prefixe": "public/icons/astro-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "petit-astronome 325d085 (scripts/make-icons.js dessine les icônes) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
     "opencade": {"monorepo": "src/games"},
     "opencadkid": {"monorepo": "src/games"},
 }

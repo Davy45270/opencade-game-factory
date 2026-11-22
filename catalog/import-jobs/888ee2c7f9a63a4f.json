@@ -1,0 +1,82 @@
+{
+  "discovery": {
+    "animations": true,
+    "audio": true,
+    "codeReferences": true,
+    "fonts": true,
+    "generatedAssets": true,
+    "images": true,
+    "tilemaps": true
+  },
+  "inputs": [
+    {
+      "commit": "04fb2c47dff3ec68eb7ee71c2ce0ab55cfbee89e",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "053ba95739da4a71e343a4b75022bd90b9694a5b",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "0e652a57e4cac687d270a16eb62b43e5df35e220",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "487b0cabc8a7f3997a083a8f796ae042c56f0f47",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "aaadcb40df12e0a3c5c163aba3e5e900192d8942",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "b1c99422e0b6462768ec53acbdaaa03ccb4d8dbf",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "de568999e156d7d5c20fc4957abe6aa76ff892f8",
+      "name": "opencade",
+      "provider": "github"
+    }
+  ],
+  "jobType": "initial-discovery",
+  "output": {
+    "generateMigrationReport": true,
+    "generateSearchIndex": true
+  },
+  "processing": {
+    "buildUsageGraph": true,
+    "describeWithAI": true,
+    "detectDuplicates": true,
+    "extractSpritesheets": true,
+    "verifyLicenses": true
+  },
+  "safety": {
+    "deleteSourceFiles": false,
+    "modifySourceRepositories": false,
+    "publishUnknownLicenses": false
+  },
+  "schemaVersion": "1.0",
+  "sources": {
+    "includeMonorepos": true,
+    "includeReleases": true,
+    "provider": "github",
+    "scope": "authorized-game-repositories"
+  }
+}

@@ -133,6 +133,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-cristaux-hud-jeu.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cristaux-hud-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-cristaux-hud-jeu.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/runtime/sprite-cristaux-hud-jeu.webp": "1f2486168befbb8378ba9f859f1cea5ef6b21665"
       },
@@ -196,35 +225,6 @@
       "repo": "capsule-panic",
       "role": "ui",
       "scene": "apps/web/src/style.css",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/runtime/sprite-cristaux-hud-jeu.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cristaux-hud-jeu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/runtime/sprite-cristaux-hud-jeu.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/runtime/sprite-cristaux-hud-jeu.webp",
       "status": "active"
     }
   ],

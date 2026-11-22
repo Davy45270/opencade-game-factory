@@ -156,7 +156,37 @@
   "subcategory": null,
   "tags": "unknown",
   "updatedAt": "2026-11-18T20:05:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "src/games/pepites/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/pepites/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/pepites/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/pepites",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/pepites/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/pepites/scene.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 3,
   "versions": [

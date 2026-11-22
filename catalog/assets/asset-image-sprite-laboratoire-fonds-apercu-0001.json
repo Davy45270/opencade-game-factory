@@ -133,6 +133,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-laboratoire-fonds-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp": "6a3bbc582bdb4f38874bf404cb17eee72ff79109"
       },
@@ -229,35 +258,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/style.css",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-laboratoire-fonds-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/runtime/sprite-laboratoire-fonds-apercu.webp",
       "status": "active"
     }
   ],

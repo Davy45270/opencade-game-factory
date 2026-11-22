@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/elimination-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/elimination-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cristaux-elimination de packages/assets/atlas/elimination-jeu@2x.png (empreinte de pixels 4482f9108b1dbc2e)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cristaux-elimination",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/elimination-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/elimination-jeu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/elimination-jeu@2x.json": "2b650e4d72f906502203ebdee55e93d3c87e1846",
         "packages/assets/atlas/elimination-jeu@2x.png": "f9c18123843ea4e5d79f5fd01d8fde29d396b45e"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/elimination-jeu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/elimination-jeu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-cristaux-elimination de packages/assets/atlas/elimination-jeu@2x.png (empreinte de pixels 4482f9108b1dbc2e)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cristaux-elimination",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/elimination-jeu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/elimination-jeu@2x.json",
       "status": "active"
     }
   ],

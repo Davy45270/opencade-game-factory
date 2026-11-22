@@ -358,7 +358,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Fichier publié par David sous MIT dans ce dépôt public, déclaré par son catalogue d'assets ; octets ou pixels identiques à la copie du catalogue.",
+    "method": "décision du propriétaire, fichier vérifié",
+    "ref": "~/Projets/jeux/assets/catalogue.json (droits « publié dans un dépôt public sous MIT (accord de David pour cet usage) ») ; HL-538 ; ~/Projets/jeux/assets/catalogue.json · P-animaux-iso (origine « catalogue »)"
+  },
   "name": "cherche-lapin_face",
   "orientation": "front",
   "originUniverse": "cherche",
@@ -368,7 +373,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "outil IA (ChatGPT) sur commande de David, découpé par l'agent",
     "evidence": [
       "opencadkid@69948ced3229fc1e850e9ea04b7b71ccb223a982:src/games/cherche/props/cherche-lapin_face.webp"
     ],
@@ -470,6 +475,35 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "src/games/petits-pompiers/iso/lapin_face.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/petits-pompiers/iso/lapin_face.webp"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image src/games/petits-pompiers/iso/lapin_face.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade/petits-pompiers",
+      "importName": "lapin_face",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/petits-pompiers/iso/lapin_face.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "src/games/petits-pompiers/iso/lapin_face.webp",
       "status": "active"
     }
   ],

@@ -71,7 +71,7 @@ class Usine:
 
     def bbctl(self, *args: str) -> "Resultat":
         env = {**os.environ, "USINE_RACINE": str(self.usine)}
-        env.pop("BBCTL_GRAPH", None)
+        env["BBCTL_GRAPH"] = str(self.graphe)          # jamais le graphe réel de la machine (AT-02 : build le lit)
         r = subprocess.run([str(BBCTL), *args], capture_output=True, text=True, env=env, timeout=120, cwd=str(self.tmp))
         return Resultat(r.returncode, r.stdout, r.stderr)
 

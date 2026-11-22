@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 7360c9385b58) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit cd8c294196da) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -26,8 +26,8 @@ steps:
   - name: réutilisation (avertissement)
     image: *node
     commands:
-      # BB-001 § 5 : brique nouvelle sans recherche documentée = avertissement (non bloquant pour l'instant).
-      # Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
+      # BB-001 § 5 : brique nouvelle sans recherche documentée ni dérogation = avertissement, ou échec si le jeu a choisi
+      # « bloquant » (usine.json). Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
       - node .woodpecker/usine/reutilisation.mjs
   - name: lint
     image: *node

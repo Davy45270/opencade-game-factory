@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-// « Reuse before build » (BB-001 § 5, BB-08) dans la CI d'un jeu, en AVERTISSEMENT : jamais bloquant pour l'instant.
+// « Reuse before build » (BB-001 § 5, BB-08) dans la CI d'un jeu : en AVERTISSEMENT par défaut ; avec --bloquant (jeu qui
+// déclare `"reutilisation": "bloquant"` dans .woodpecker/usine.json, E190), tout écart fait échouer la CI : brique
+// nouvelle ni décidée ni dérogée, base ou catalogue illisibles (rien de prouvé = pas de vert muet).
 // Briques NOUVELLES entre la base et HEAD, avec les clés de `bbctl gate` (npm : version du package-lock ; Docker : image
 // des FROM ; module local : src/engines/<x> ou packages/<x>). Couvertes si décidées au catalogue de l'usine ou si une
 // dérogation `HL-n 7-n` existe (.woodpecker/usine/briques.json, écrit par l'usine). Rapport : reutilisation-rapport.json.
-// usage : node .woodpecker/usine/reutilisation.mjs [--base <réf>]   (défaut : merge-base avec origin/<cible> sur une PR,
+// usage : node .woodpecker/usine/reutilisation.mjs [--bloquant] [--base <réf>]   (défaut : merge-base avec origin/<cible> sur une PR,
 // puis CI_PREV_COMMIT_SHA, puis HEAD~1 ; base absente du clone = statut « base-indisponible », jamais d’échec)
 import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
@@ -16,11 +18,20 @@ function git(...args) {
   return execFileSync("git", args, { encoding: "utf8", maxBuffer: 1 << 28, stdio: ["ignore", "pipe", "ignore"] });
 }
 
+const BLOQUANT = process.argv.slice(2).includes("--bloquant");
+const MODE = BLOQUANT ? "bloquant" : "avertissement";
+
 function ecrire(rapport) {
+  rapport = { ...rapport, mode: MODE };
   writeFileSync(RAPPORT, JSON.stringify(rapport, null, 1) + "\n");
-  console.log(`réutilisation (avertissement) : ${rapport.status}`);
+  console.log(`réutilisation (${MODE}) : ${rapport.status}`);
   for (const k of rapport.uncovered || []) console.log(`  ⚠ brique nouvelle sans recherche documentée : ${k}`);
   console.log(`--- ${RAPPORT} ---\n${JSON.stringify(rapport)}`);
+  if (BLOQUANT && rapport.status !== "ok") {
+    console.log("ÉCHEC : création sans recherche documentée ni dérogation (BB-001 § 5) — décider la brique au catalogue de "
+                + "l'usine (bbctl decide) ou enregistrer une dérogation HL-n 7-n, puis régénérer la CI du jeu.");
+    process.exit(1);
+  }
   process.exit(0);
 }
 
@@ -93,7 +104,9 @@ const i = args.indexOf("--base");
 // Base : --base ; sur une PR, le point de divergence avec la branche cible ; sur un push, le commit précédent.
 function baseParDefaut() {
   const cible = process.env.CI_COMMIT_TARGET_BRANCH;
-  if (cible) {
+  if (cible && process.env.CI_PIPELINE_EVENT !== "push" && /^[A-Za-z0-9._/-]+$/.test(cible) && !cible.startsWith("-") && !cible.includes("..")) {
+    // Branche cible absente du clone d'une PR : on la récupère (même geste que base-e2e.mjs).
+    try { git("fetch", "-q", "origin", `+refs/heads/${cible}:refs/remotes/origin/${cible}`); } catch { /* vu au merge-base */ }
     try {
       return git("merge-base", "HEAD", `origin/${cible}`).trim();
     } catch { /* branche cible absente du clone : on tente la suite */ }
@@ -105,11 +118,11 @@ let briques;
 try {
   briques = JSON.parse(readFileSync(".woodpecker/usine/briques.json", "utf8"));
 } catch {
-  ecrire({ mode: "avertissement", status: "catalogue-indisponible", uncovered: [] });
+  ecrire({ status: "catalogue-indisponible", uncovered: [] });
 }
 const base = revision(demandee);
 const head = revision("HEAD");
-if (!base || !head) ecrire({ mode: "avertissement", status: "base-indisponible", base: demandee, uncovered: [] });
+if (!base || !head) ecrire({ status: "base-indisponible", base: demandee, uncovered: [] });
 const repo = briques.repo;
 const avant = cles(base, repo);
 const nouvelles = [...cles(head, repo)].filter((k) => !avant.has(k)).sort();
@@ -121,5 +134,5 @@ for (const k of nouvelles) {
   else if (typeof ref === "string" && REF.test(ref)) derogations.push(k);
   else uncovered.push(k);
 }
-ecrire({ mode: "avertissement", status: uncovered.length ? "non-couvert" : "ok", repo, base, head, new: nouvelles,
+ecrire({ status: uncovered.length ? "non-couvert" : "ok", repo, base, head, new: nouvelles,
          decided, derogations, uncovered });

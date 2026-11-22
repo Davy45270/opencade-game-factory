@@ -41,6 +41,7 @@
       }
     },
     "specIds": {"$ref": "#/$defs/texts"},
+    "assetIds": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^(asset|level)-[a-z0-9][a-z0-9-]*$"}, "$comment": "E209 : identifiants des catalogues Asset et EXT-001 (niveaux) de l'usine, jamais leurs métadonnées."},
     "usedBy": {"$ref": "#/$defs/texts"},
     "quality": {
       "type": "object",
@@ -57,7 +58,8 @@
       "properties": {
         "status": {"enum": ["pending", "decided"]},
         "rationale": {"$ref": "#/$defs/nullableText"},
-        "choice": {"enum": ["reuse", "adapt", "wrap", "fork", "build", "defer"]}
+        "choice": {"enum": ["reuse", "adapt", "wrap", "fork", "build", "defer"]},
+        "score": {"type": ["number", "null"], "minimum": 0, "maximum": 5}
       },
       "if": {"properties": {"status": {"const": "decided"}}},
       "then": {"required": ["choice"], "properties": {"rationale": {"type": "string", "pattern": "\\S"}}}

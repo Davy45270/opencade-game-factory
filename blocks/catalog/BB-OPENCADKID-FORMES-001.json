@@ -1,5 +1,63 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Color",
+      "Level",
+      "Mode",
+      "Piece",
+      "Question",
+      "Session",
+      "Shape",
+      "Size",
+      "advance",
+      "answer",
+      "colors",
+      "compatible",
+      "complete",
+      "drop",
+      "forbiddenPairs",
+      "generateRound",
+      "isUnlocked",
+      "levels",
+      "lookalikes",
+      "matches",
+      "shapes",
+      "stars",
+      "start"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "answer",
+    "color",
+    "colors",
+    "compatible",
+    "complete",
+    "drop",
+    "forbidden-pairs",
+    "generate-round",
+    "is-unlocked",
+    "level",
+    "levels",
+    "lookalikes",
+    "matches",
+    "mode",
+    "piece",
+    "question",
+    "session",
+    "shape",
+    "shapes",
+    "size",
+    "stars",
+    "start"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +69,31 @@
   "id": "BB-OPENCADKID-FORMES-001",
   "interfaces": [
     {
+      "exports": [
+        "Color",
+        "Level",
+        "Mode",
+        "Piece",
+        "Question",
+        "Session",
+        "Shape",
+        "Size",
+        "advance",
+        "answer",
+        "colors",
+        "compatible",
+        "complete",
+        "drop",
+        "forbiddenPairs",
+        "generateRound",
+        "isUnlocked",
+        "levels",
+        "lookalikes",
+        "matches",
+        "shapes",
+        "stars",
+        "start"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

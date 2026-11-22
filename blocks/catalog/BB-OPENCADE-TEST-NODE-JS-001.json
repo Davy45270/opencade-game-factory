@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencade:scripts/test-node.js"
+  },
+  "id": "BB-OPENCADE-TEST-NODE-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "test-node.js",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "scripts/test-node.js",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/test-node.js",
+    "repo": "opencade",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade"
+  ]
+}

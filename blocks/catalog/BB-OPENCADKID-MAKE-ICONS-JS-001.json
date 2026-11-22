@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencadkid:scripts/make-icons.js"
+  },
+  "id": "BB-OPENCADKID-MAKE-ICONS-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "make-icons.js",
+  "observedIn": [
+    {
+      "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+      "path": "scripts/make-icons.js",
+      "repo": "opencadkid"
+    }
+  ],
+  "origin": {
+    "commitSha": "180384c6b7c6055458dd97fd13776cc44f3c56de",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/make-icons.js",
+    "repo": "opencadkid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-OPENCADKID"
+  ],
+  "usedBy": [
+    "opencadkid"
+  ]
+}

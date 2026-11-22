@@ -2,9 +2,8 @@
 
 import hashlib
 from collections import defaultdict
-from datetime import datetime, timezone
 
-from tools.core.catalog import CatalogueScopeError, InvalidJSON, parse_json, write_json
+from tools.core.catalog import InvalidJSON, parse_json
 
 from .registry import read_catalogue
 
@@ -13,25 +12,35 @@ class GraphUnavailable(ValueError):
     pass
 
 
-def read_graph(path):
+def _texte(node, key):
+    return isinstance(node.get(key), str) and node[key]
+
+
+def read_graph(path, skipped=None):
+    """Nœuds localisés (id, label, repo, source_file). Un nœud sans id ou sans label rend le graphe indisponible ;
+    un nœud sans source_file (ou sans repo) est une référence externe — un import, `FastMCP`, `Any` : 519 nœuds sur
+    57 732 dans le graphe réel du 22/11 —, pas une brique candidate : il est écarté et compté dans `skipped`."""
     try:
         raw = path.read_bytes()
         graph = parse_json(raw)
         if not isinstance(graph, dict) or not isinstance(graph.get("nodes"), list):
             raise InvalidJSON("Liste nodes absente.")
+        nodes = []
         for node in graph["nodes"]:
-            if not isinstance(node, dict) or not all(
-                isinstance(node.get(key), str) and node[key]
-                for key in ("id", "repo", "source_file", "label")
-            ):
+            if not isinstance(node, dict) or not (_texte(node, "id") and _texte(node, "label")):
                 raise InvalidJSON("Nœud graphify mal formé.")
-        return graph["nodes"], hashlib.sha256(raw).hexdigest()
+            if _texte(node, "repo") and _texte(node, "source_file"):
+                nodes.append(node)
+            elif skipped is not None:
+                skipped.append(node["id"])
+        return nodes, hashlib.sha256(raw).hexdigest()
     except (OSError, InvalidJSON) as exc:
         raise GraphUnavailable(f"Graphe graphify indisponible : {exc}") from exc
 
 
 def search(blocks, args, graph_path):
-    nodes, digest = read_graph(graph_path)
+    skipped = []
+    nodes, digest = read_graph(graph_path, skipped)
     by_origin = defaultdict(list)
     for _, block in read_catalogue(blocks / "catalog").values():
         origin = block["origin"]
@@ -62,19 +71,14 @@ def search(blocks, args, graph_path):
             })
 
     if args.receipt:
-        receipt = args.receipt
-        target = receipt.resolve()
-        if target == graph_path.resolve() or (
-            receipt.exists() and receipt.samefile(graph_path)
-        ):
-            raise CatalogueScopeError("Le reçu ne peut pas remplacer le graphe.")
-        data_directories = ("catalog", "decisions", "evaluations")
-        if any(target.is_relative_to((blocks / name).resolve()) for name in data_directories):
-            raise CatalogueScopeError("Le reçu doit être placé hors des dossiers de données du registre.")
-        write_json(receipt, {
+        from . import recu
+        steps = [recu.resoudre(blocks.parent, args.project)] if getattr(args, "project", None) else []
+        resultats = list(dict.fromkeys(result["graphNode"] for result in results))
+        at = recu.maintenant()
+        steps.append({"step": "bbctl search --scope internal", "query": args.query, "repo": args.repo, "kind": args.kind,
+                      "graphSha256": digest, "results": resultats, "at": at})
+        recu.ajouter(args.receipt, blocks, steps, {
             "query": args.query, "scope": args.scope, "repo": args.repo, "kind": args.kind,
-            "graphSha256": digest,
-            "results": list(dict.fromkeys(result["graphNode"] for result in results)),
-            "at": datetime.now(timezone.utc).isoformat(),
-        })
-    return {"results": results}
+            "graphSha256": digest, "results": resultats, "at": at,
+        }, protected=(graph_path,))
+    return {"results": results, "externalReferencesSkipped": len(skipped)}

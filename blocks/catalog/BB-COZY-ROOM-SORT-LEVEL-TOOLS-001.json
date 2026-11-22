@@ -1,5 +1,38 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "PREVIEW_HEIGHT",
+      "PREVIEW_WIDTH",
+      "levelFiles",
+      "previewHtml",
+      "readLevel",
+      "readLevelWithVersion",
+      "renderLevel"
+    ],
+    "imports": [
+      "@cozy-room-sort/engine",
+      "@cozy-room-sort/generator",
+      "@cozy-room-sort/schemas",
+      "@playwright/test",
+      "node:fs",
+      "node:os",
+      "node:path",
+      "node:url"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "level-files",
+    "preview-height",
+    "preview-html",
+    "preview-width",
+    "read-level",
+    "read-level-with-version",
+    "render-level"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +44,15 @@
   "id": "BB-COZY-ROOM-SORT-LEVEL-TOOLS-001",
   "interfaces": [
     {
+      "exports": [
+        "PREVIEW_HEIGHT",
+        "PREVIEW_WIDTH",
+        "levelFiles",
+        "previewHtml",
+        "readLevel",
+        "readLevelWithVersion",
+        "renderLevel"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

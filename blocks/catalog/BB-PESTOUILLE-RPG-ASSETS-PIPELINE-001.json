@@ -1,5 +1,28 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Budget",
+      "budgetProblems",
+      "checkAssets",
+      "checkDrawingLicenses"
+    ],
+    "imports": [
+      "node:crypto",
+      "node:fs",
+      "node:path",
+      "node:zlib"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "budget",
+    "budget-problems",
+    "check-assets",
+    "check-drawing-licenses"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +34,12 @@
   "id": "BB-PESTOUILLE-RPG-ASSETS-PIPELINE-001",
   "interfaces": [
     {
+      "exports": [
+        "Budget",
+        "budgetProblems",
+        "checkAssets",
+        "checkDrawingLicenses"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +48,13 @@
   "name": "assets-pipeline",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/assets-pipeline",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/assets-pipeline",
     "repo": "pestouille-rpg",

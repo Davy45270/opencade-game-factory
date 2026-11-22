@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:tictac:scripts/check-size.js"
+  },
+  "id": "BB-TICTAC-CHECK-SIZE-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "check-size.js",
+  "observedIn": [
+    {
+      "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "path": "scripts/check-size.js",
+      "repo": "tictac"
+    }
+  ],
+  "origin": {
+    "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/check-size.js",
+    "repo": "tictac",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-TICTAC"
+  ],
+  "usedBy": [
+    "tictac"
+  ]
+}

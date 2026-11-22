@@ -188,7 +188,37 @@
   "subcategory": null,
   "tags": "unknown",
   "updatedAt": "2026-11-18T20:05:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "src/shell/thumbnails.ts",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "src/shell/thumbnails.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/shell/thumbnails.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade",
+      "importName": "thumbnails",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/shell/thumbnails.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/shell/thumbnails.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 2,
   "versions": [

@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:capsule-panic:scripts/make-icons.js"
+  },
+  "id": "BB-CAPSULE-PANIC-MAKE-ICONS-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "make-icons.js",
+  "observedIn": [
+    {
+      "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "path": "scripts/make-icons.js",
+      "repo": "capsule-panic"
+    }
+  ],
+  "origin": {
+    "commitSha": "ea68eeb3829e17c49b13114107c2f38480c62341",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/make-icons.js",
+    "repo": "capsule-panic",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-CAPSULE-PANIC"
+  ],
+  "usedBy": [
+    "capsule-panic"
+  ]
+}

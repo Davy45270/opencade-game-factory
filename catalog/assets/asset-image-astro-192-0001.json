@@ -46,7 +46,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "game": "petit-astronome",
         "path": "public/icons/astro-192.png",
         "provider": "github",
@@ -131,7 +131,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+    "method": "historique git : licence de la source",
+    "ref": "petit-astronome 325d085 (scripts/make-icons.js dessine les icônes) ; LICENSE (MIT, Davy45270) ; HL-538"
+  },
   "name": "astro-192",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -141,7 +146,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
     "evidence": [
       "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:public/icons/astro-192.png"
     ],
@@ -158,7 +163,7 @@
     "icons"
   ],
   "thumbnail": "thumbnails/3c/3cba0540059875ab90260921f002fc677872895876c5f7a6618ce21e4f47de07.webp",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
+  "updatedAt": "2026-11-20T18:08:37+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -170,7 +175,7 @@
         "line": 6,
         "path": "pwa-manifest.ts"
       },
-      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "evidence": [
         "literal: public/icons/astro-192.png",
         "module-path: pwa-manifest.ts"
@@ -194,6 +199,35 @@
       "repo": "petit-astronome",
       "role": "icon",
       "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/icons/astro-192.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/astro-192.png"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : image public/icons/astro-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "petit-astronome",
+      "importName": "astro-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/astro-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "image",
+      "scene": "public/icons/astro-192.png",
       "status": "active"
     }
   ],

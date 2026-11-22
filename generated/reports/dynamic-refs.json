@@ -6952,7 +6952,7 @@
     "repo": "pestouille-rpg"
   },
   {
-    "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+    "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
     "excerpt": "`public/icons/astro-${name}.png`",
     "line": 31,
     "path": "scripts/make-icons.js",
@@ -6960,7 +6960,15 @@
     "repo": "petit-astronome"
   },
   {
-    "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+    "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+    "excerpt": "`clips/${text.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '')}.mp3`",
+    "line": 65,
+    "path": "src/ui/discovery.ts",
+    "provider": "github",
+    "repo": "petit-astronome"
+  },
+  {
+    "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
     "excerpt": "`docs/screenshots/${name}.png`",
     "line": 25,
     "path": "tests/e2e/screenshots.spec.ts",

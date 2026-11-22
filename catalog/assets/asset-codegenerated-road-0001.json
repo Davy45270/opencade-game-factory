@@ -329,6 +329,35 @@
       "role": "sprite",
       "scene": "scripts/check-level-catalogue-kart.js",
       "status": "active"
+    },
+    {
+      "assetPath": "src/games/derapage/road.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/derapage/road.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/derapage/road.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/derapage",
+      "importName": "road",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/derapage/road.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/derapage/road.ts",
+      "status": "active"
     }
   ],
   "variants": [],

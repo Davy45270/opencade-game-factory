@@ -1,5 +1,51 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "BossDef",
+      "CombatSnapshot",
+      "EncounterBalance",
+      "NewBattle",
+      "applyCombatAction",
+      "battleEvents",
+      "bossPhaseFor",
+      "createBattle",
+      "enemyCommands",
+      "phaseMultiplier",
+      "physicalDamage",
+      "projectBattle",
+      "reduceCombat",
+      "resolveRound",
+      "restoreBattle",
+      "tryRecruit"
+    ],
+    "imports": [
+      "@pestouille/characters",
+      "@pestouille/core",
+      "@pestouille/creatures"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "apply-combat-action",
+    "battle-events",
+    "boss-def",
+    "boss-phase-for",
+    "combat-snapshot",
+    "create-battle",
+    "encounter-balance",
+    "enemy-commands",
+    "new-battle",
+    "phase-multiplier",
+    "physical-damage",
+    "project-battle",
+    "reduce-combat",
+    "resolve-round",
+    "restore-battle",
+    "try-recruit"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +57,24 @@
   "id": "BB-PESTOUILLE-RPG-COMBAT-001",
   "interfaces": [
     {
+      "exports": [
+        "BossDef",
+        "CombatSnapshot",
+        "EncounterBalance",
+        "NewBattle",
+        "applyCombatAction",
+        "battleEvents",
+        "bossPhaseFor",
+        "createBattle",
+        "enemyCommands",
+        "phaseMultiplier",
+        "physicalDamage",
+        "projectBattle",
+        "reduceCombat",
+        "resolveRound",
+        "restoreBattle",
+        "tryRecruit"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +83,13 @@
   "name": "combat",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/combat",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/combat",
     "repo": "pestouille-rpg",

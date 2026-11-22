@@ -1,5 +1,60 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "ADVANCED_DIVERSITY_WEIGHT",
+      "ADVANCED_MOBILITY_WEIGHT",
+      "AiClient",
+      "AiDecision",
+      "AiRequest",
+      "AiResponse",
+      "EXCHANGE_DIVERSITY_THRESHOLD",
+      "EXCHANGE_SCORE_THRESHOLD",
+      "FromWorker",
+      "Move",
+      "OPEN_FIVE_PENALTY",
+      "ToWorker",
+      "createAiHost",
+      "decide",
+      "decideNow",
+      "getLegalMoves",
+      "openFives"
+    ],
+    "imports": [
+      "@six-de-chaque/engine"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/ai/test/advanced.test.ts",
+      "packages/ai/test/beginner-budget.test.ts",
+      "packages/ai/test/bench.test.ts",
+      "packages/ai/test/expert.test.ts",
+      "packages/ai/test/host.test.ts",
+      "packages/ai/test/policies.test.ts",
+      "packages/ai/test/positions.ts",
+      "packages/ai/test/termination.test.ts"
+    ]
+  },
+  "capabilities": [
+    "advanced-diversity-weight",
+    "advanced-mobility-weight",
+    "ai-client",
+    "ai-decision",
+    "ai-request",
+    "ai-response",
+    "create-ai-host",
+    "decide",
+    "decide-now",
+    "exchange-diversity-threshold",
+    "exchange-score-threshold",
+    "from-worker",
+    "get-legal-moves",
+    "move",
+    "open-five-penalty",
+    "open-fives",
+    "to-worker"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +66,25 @@
   "id": "BB-SIX-DE-CHAQUE-AI-001",
   "interfaces": [
     {
+      "exports": [
+        "ADVANCED_DIVERSITY_WEIGHT",
+        "ADVANCED_MOBILITY_WEIGHT",
+        "AiClient",
+        "AiDecision",
+        "AiRequest",
+        "AiResponse",
+        "EXCHANGE_DIVERSITY_THRESHOLD",
+        "EXCHANGE_SCORE_THRESHOLD",
+        "FromWorker",
+        "Move",
+        "OPEN_FIVE_PENALTY",
+        "ToWorker",
+        "createAiHost",
+        "decide",
+        "decideNow",
+        "getLegalMoves",
+        "openFives"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +93,13 @@
   "name": "ai",
   "observedIn": [
     {
-      "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
       "path": "packages/ai",
       "repo": "six-de-chaque"
     }
   ],
   "origin": {
-    "commitSha": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
     "licenseSpdx": "MIT",
     "path": "packages/ai",
     "repo": "six-de-chaque",

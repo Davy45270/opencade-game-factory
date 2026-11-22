@@ -14,6 +14,7 @@ Choix de conception :
 """
 
 import copy
+import html
 import hashlib
 import json
 import re
@@ -413,7 +414,42 @@ def export(records, fmt, public):
                 lines.append(f"- `{row['id']}` ({status}) {row['statement']}")
             lines.append("")
         payload["markdown"] = "\n".join(lines)
+    if fmt == "html":
+        payload["html"] = catalogue_html(specs, payload["classification"])
     return ExitCode.OK, payload
+
+
+def catalogue_html(specs, classification):
+    """REG-11 (matrice E152) : catalogue autonome, navigable par projet (sommaire) et par exigence (index des REQ) ;
+    tout texte est échappé ; aucune ressource externe."""
+    e = html.escape
+    projets = {}
+    for record in specs:
+        projets.setdefault(record["project"], []).append(record)
+    corps, index = [], []
+    for projet, records in sorted(projets.items()):
+        corps.append(f'<section id="projet-{e(projet)}"><h2>Projet {e(projet)}</h2>')
+        for record in records:
+            version = record.get("version") or spec_version(record["id"], {record["id"]: record}) or "?"
+            corps.append(f'<h3 id="{e(record["id"])}">{e(record["id"])} — {e(record["title"])}</h3>'
+                         f'<p>version {e(str(version))} · lifecycle {e(record["lifecycle"])} · implementation '
+                         f'{e(record["implementation"])} · evidence {e(record["evidence"])}</p><ul>')
+            for row in record["requirements"]:
+                status = row.get("status") or row.get("matrixStatus")
+                corps.append(f'<li id="{e(row["id"])}"><code>{e(row["id"])}</code> <b>{e(str(status))}</b> '
+                             f'{e(row["statement"])}</li>')
+                index.append((row["id"], projet))
+            corps.append("</ul>")
+        corps.append('<p><a href="#sommaire">↑ sommaire</a></p></section>')
+    sommaire = "".join(f'<li><a href="#projet-{e(p)}">{e(p)}</a> ({sum(len(r["requirements"]) for r in rs)} exigences)</li>'
+                       for p, rs in sorted(projets.items()))
+    reqs = "".join(f'<li><a href="#{e(i)}">{e(i)}</a> · {e(p)}</li>' for i, p in sorted(index))
+    return ("<!doctype html>\n<html lang=\"fr\"><head><meta charset=\"utf-8\">"
+            f"<title>Registre des spécifications ({e(classification)})</title></head><body>"
+            f'<h1>Registre des spécifications ({e(classification)})</h1>'
+            f'<nav id="sommaire"><h2>Projets</h2><ul>{sommaire}</ul></nav>'
+            + "".join(corps)
+            + f'<nav id="exigences"><h2>Exigences</h2><ul>{reqs}</ul></nav></body></html>\n')
 
 
 # --- écritures : statuer, relier -----------------------------------------------------------------------------------
@@ -467,10 +503,32 @@ def relier(store, records, spec_id, kind, target, rule):
 
 # --- rapport de migration (§ 5) ------------------------------------------------------------------------------------
 
-def report(records, source, warnings, incoming):
+def briques_par_spec(root):
+    """E120 : graphe initial spec → jeu → briques → code → tests, lu dans le catalogue BB-001 de l'usine (lecture seule,
+    fichiers JSON bruts : specctl ne dépend pas de bbctl). Catalogue absent = aucune brique, dit par `missing`."""
+    out = {}
+    catalogue = root / "blocks" / "catalog" if root is not None else None
+    if catalogue is None or not catalogue.is_dir():
+        return out
+    for path in sorted(catalogue.glob("*.json")):
+        try:
+            block = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        origin = block.get("origin") or {}
+        for spec in block.get("specIds") or []:
+            out.setdefault(spec, []).append({
+                "block": block.get("id"), "code": {"repo": origin.get("repo"), "path": origin.get("path"),
+                                                   "commitSha": origin.get("commitSha")},
+                "tests": list((block.get("analysis") or {}).get("tests") or [])})
+    return out
+
+
+def report(records, source, warnings, incoming, root=None):
     """Rapport de migration : correspondance chemin → SPEC-ID, doublons (une identité, plusieurs provenances),
     conflits de version à arbitrer, éléments inconnus, liens cassés, couverture et graphe spec → jeu → briques."""
     mapping, duplicates, conflicts, coverage, graph = [], [], [], [], []
+    briques = briques_par_spec(root)
     for spec_id, record in sorted(incoming.items()):
         for _, digest, provenance in document_entries(record):
             mapping.append({"path": provenance["path"], "specId": spec_id, "sha256": digest})
@@ -487,8 +545,11 @@ def report(records, source, warnings, incoming):
         done = [row for row in rows if row["matrixStatus"] == "faite" and "evidence" in row]
         coverage.append({"specId": spec_id, "applicable": len(rows), "proved": len(done),
                          "ratio": round(len(done) / len(rows), 4) if rows else None})
+        liees = briques.get(spec_id, [])
+        missing = ["blocks"] if not liees else [f"tests:{b['block']}" for b in liees if not b["tests"]]
         graph.append({"specId": spec_id, "project": record["project"],
-                      "relations": current.get("relations", []), "decisions": current.get("decisions", [])})
+                      "relations": current.get("relations", []), "decisions": current.get("decisions", []),
+                      "blocks": liees, "missing": missing})
     known = set(incoming) | set(records)
     broken = [{"specId": spec_id, **relation} for spec_id, record in sorted(records.items())
               for relation in record.get("relations", [])
@@ -496,12 +557,15 @@ def report(records, source, warnings, incoming):
     return {"sourceCommit": source.head, "mapping": sorted(mapping, key=lambda m: m["path"]),
             "duplicates": duplicates, "conflicts": conflicts, "unknown": warnings, "brokenLinks": broken,
             "coverage": coverage, "graph": graph,
+            "graphSummary": {"specs": len(graph), "withBlocks": sum(1 for g in graph if g["blocks"]),
+                             "blocks": sum(len(g["blocks"]) for g in graph),
+                             "tested": sum(1 for g in graph for b in g["blocks"] if b["tests"])},
             "decisionsRequired": [conflict["specId"] for conflict in conflicts]}
 
 
 # --- sync des matrices, documents Drive à importer ----------------------------------------------------------------
 
-SYNC_FIELDS = ("matrixStatus", "evidence", "acceptance")
+SYNC_FIELDS = ("matrixStatus", "evidence", "acceptance", "criticality")
 
 
 def sync(store, records, incoming, dry_run):

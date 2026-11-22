@@ -1,5 +1,49 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "BuyResult",
+      "EncounterReward",
+      "EquipmentItem",
+      "EquipmentSlot",
+      "EquipmentState",
+      "ItemChange",
+      "Purse",
+      "Recipe",
+      "SellResult",
+      "ShopItem",
+      "awardEncounter",
+      "buy",
+      "changeInventory",
+      "craft",
+      "equip",
+      "sell"
+    ],
+    "imports": [
+      "@pestouille/core"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "award-encounter",
+    "buy",
+    "buy-result",
+    "change-inventory",
+    "craft",
+    "encounter-reward",
+    "equip",
+    "equipment-item",
+    "equipment-slot",
+    "equipment-state",
+    "item-change",
+    "purse",
+    "recipe",
+    "sell",
+    "sell-result",
+    "shop-item"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +55,24 @@
   "id": "BB-PESTOUILLE-RPG-INVENTORY-001",
   "interfaces": [
     {
+      "exports": [
+        "BuyResult",
+        "EncounterReward",
+        "EquipmentItem",
+        "EquipmentSlot",
+        "EquipmentState",
+        "ItemChange",
+        "Purse",
+        "Recipe",
+        "SellResult",
+        "ShopItem",
+        "awardEncounter",
+        "buy",
+        "changeInventory",
+        "craft",
+        "equip",
+        "sell"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }
@@ -19,13 +81,13 @@
   "name": "inventory",
   "observedIn": [
     {
-      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "path": "packages/inventory",
       "repo": "pestouille-rpg"
     }
   ],
   "origin": {
-    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
     "licenseSpdx": "MIT",
     "path": "packages/inventory",
     "repo": "pestouille-rpg",

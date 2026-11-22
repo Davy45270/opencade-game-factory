@@ -1,5 +1,55 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "BoardView",
+      "COLOR_HEX",
+      "Match",
+      "SHAPE_OF",
+      "TOKENS",
+      "ViewOptions",
+      "animationDuration",
+      "boardLayout",
+      "capsuleSvg",
+      "cellSvg",
+      "createBoardView",
+      "crystalSvg",
+      "pieceArtwork",
+      "textureFor"
+    ],
+    "imports": [
+      "@capsule-panic/contracts",
+      "local:capsule-panic:packages/assets",
+      "pixi.js"
+    ],
+    "maintainers": null,
+    "maturity": "tested",
+    "tests": [
+      "packages/renderer/test/art.test.ts",
+      "packages/renderer/test/board-view.test.ts",
+      "packages/renderer/test/purete.test.ts"
+    ]
+  },
+  "assetIds": [
+    "asset-codegenerated-art-0001",
+    "asset-codegenerated-lock-flash-0001"
+  ],
+  "capabilities": [
+    "animation-duration",
+    "board-layout",
+    "board-view",
+    "capsule-svg",
+    "cell-svg",
+    "color-hex",
+    "create-board-view",
+    "crystal-svg",
+    "match",
+    "piece-artwork",
+    "shape-of",
+    "texture-for",
+    "tokens",
+    "view-options"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +61,22 @@
   "id": "BB-CAPSULE-PANIC-RENDERER-001",
   "interfaces": [
     {
+      "exports": [
+        "BoardView",
+        "COLOR_HEX",
+        "Match",
+        "SHAPE_OF",
+        "TOKENS",
+        "ViewOptions",
+        "animationDuration",
+        "boardLayout",
+        "capsuleSvg",
+        "cellSvg",
+        "createBoardView",
+        "crystalSvg",
+        "pieceArtwork",
+        "textureFor"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

@@ -1,5 +1,58 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Cell",
+      "Engine",
+      "Event",
+      "GAME_NAME",
+      "LEVELS",
+      "Level",
+      "Match",
+      "Mode",
+      "Objective",
+      "ObstacleKind",
+      "Piece",
+      "Special",
+      "State",
+      "Terrain",
+      "Tool",
+      "WORLDS",
+      "createDemo",
+      "difficulty",
+      "greedyMove",
+      "levelAt",
+      "terrain"
+    ],
+    "imports": [
+      "local:opencade:src/engines/shared"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "cell",
+    "create-demo",
+    "difficulty",
+    "engine",
+    "event",
+    "game-name",
+    "greedy-move",
+    "level",
+    "level-at",
+    "levels",
+    "match",
+    "mode",
+    "objective",
+    "obstacle-kind",
+    "piece",
+    "special",
+    "state",
+    "terrain",
+    "tool",
+    "worlds"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +64,29 @@
   "id": "BB-OPENCADE-GOURMANDISES-001",
   "interfaces": [
     {
+      "exports": [
+        "Cell",
+        "Engine",
+        "Event",
+        "GAME_NAME",
+        "LEVELS",
+        "Level",
+        "Match",
+        "Mode",
+        "Objective",
+        "ObstacleKind",
+        "Piece",
+        "Special",
+        "State",
+        "Terrain",
+        "Tool",
+        "WORLDS",
+        "createDemo",
+        "difficulty",
+        "greedyMove",
+        "levelAt",
+        "terrain"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

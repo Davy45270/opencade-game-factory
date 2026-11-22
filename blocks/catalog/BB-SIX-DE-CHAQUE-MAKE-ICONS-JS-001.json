@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:six-de-chaque:scripts/make-icons.js"
+  },
+  "id": "BB-SIX-DE-CHAQUE-MAKE-ICONS-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "make-icons.js",
+  "observedIn": [
+    {
+      "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+      "path": "scripts/make-icons.js",
+      "repo": "six-de-chaque"
+    }
+  ],
+  "origin": {
+    "commitSha": "89305853e96af4cfcfd5c4b0839d366e224cdf11",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/make-icons.js",
+    "repo": "six-de-chaque",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-SIX-DE-CHAQUE"
+  ],
+  "usedBy": [
+    "six-de-chaque"
+  ]
+}

@@ -195,6 +195,35 @@
       "role": "sprite",
       "scene": "catalogue.json",
       "status": "active"
+    },
+    {
+      "assetPath": "src/games/petits-pompiers/iso/chalet.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/petits-pompiers/iso/chalet.webp"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image src/games/petits-pompiers/iso/chalet.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade/petits-pompiers",
+      "importName": "chalet",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/petits-pompiers/iso/chalet.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "src/games/petits-pompiers/iso/chalet.webp",
+      "status": "active"
     }
   ],
   "variants": [],

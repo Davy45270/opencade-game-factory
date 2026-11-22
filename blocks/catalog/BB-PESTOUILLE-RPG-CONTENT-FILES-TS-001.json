@@ -1,0 +1,51 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:pestouille-rpg:scripts/content-files.ts"
+  },
+  "id": "BB-PESTOUILLE-RPG-CONTENT-FILES-TS-001",
+  "interfaces": [
+    {
+      "language": "typescript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "content-files.ts",
+  "observedIn": [
+    {
+      "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "path": "scripts/content-files.ts",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": "79ac5d735a2a0f39651719ad464593e857bfef06",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/content-files.ts",
+    "repo": "pestouille-rpg",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "pestouille-rpg"
+  ]
+}

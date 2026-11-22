@@ -1,5 +1,51 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Level",
+      "Mode",
+      "Question",
+      "Session",
+      "advance",
+      "answer",
+      "compatible",
+      "complete",
+      "drop",
+      "generateRound",
+      "isUnlocked",
+      "levels",
+      "lexicon",
+      "neighbours",
+      "phoneme",
+      "stars",
+      "start"
+    ],
+    "imports": [
+      "local:opencadkid:src/engines/compter"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "advance",
+    "answer",
+    "compatible",
+    "complete",
+    "drop",
+    "generate-round",
+    "is-unlocked",
+    "level",
+    "levels",
+    "lexicon",
+    "mode",
+    "neighbours",
+    "phoneme",
+    "question",
+    "session",
+    "stars",
+    "start"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +57,25 @@
   "id": "BB-OPENCADKID-SONS-001",
   "interfaces": [
     {
+      "exports": [
+        "Level",
+        "Mode",
+        "Question",
+        "Session",
+        "advance",
+        "answer",
+        "compatible",
+        "complete",
+        "drop",
+        "generateRound",
+        "isUnlocked",
+        "levels",
+        "lexicon",
+        "neighbours",
+        "phoneme",
+        "stars",
+        "start"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

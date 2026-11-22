@@ -15,13 +15,25 @@ from .discover import discover, impact, inspect, usages
 from .opensource import search_opensource
 from . import evenements
 from .adoption import Conflict, adopt, gate, write_block
-from .liens import link_specs
+from .liens import assets_of, check_asset_links, link_assets, link_specs
 from .duplicates import duplicates
-from .evaluation import evaluate, nonblank
+from .evaluation import evaluate, externe, nonblank
 from .registry import lock, read_catalogue
-from .search import GraphUnavailable, search
+from .search import GraphUnavailable, read_graph, search
+from . import index as generes, recu
+from .sbom import sbom as sbom_catalogue
+from .mutualisation import justifiee, mutualiser
+from .trace import etat_releases, trace
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
+
+
+class Unknown(GraphUnavailable):
+    """ARCH-001 AT-02 : l'existant n'a pas pu être lu ; il est inconnu, pas absent."""
+
+
+def graph_path_of(args):
+    return Path(args.graph or os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json").expanduser()
 CODE_HELP = """Codes de retour
   0 succès
   1 contrôle en échec
@@ -68,6 +80,12 @@ def parser():
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
+        "sbom": "SBOM CycloneDX des briques (versions, licences, dépendances des dépôts consommateurs).",
+        "mutualiser": "Recommandations de mutualisation : gains et risques par module présent dans plusieurs dépôts.",
+        "trace": "Chaîne d'une brique : exigences, specs, code, tests, SBOM, consommateurs et releases.",
+        "link-assets": "Relier chaque brique, par identifiant, aux assets et niveaux du catalogue situés sous son module.",
+        "assets": "Assets d'une brique, métadonnées relues dans le catalogue des assets.",
+        "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
     for name, description in descriptions.items():
@@ -82,7 +100,9 @@ def parser():
     importer.add_argument("--dry-run", action="store_true")
     searcher = sub["search"]
     searcher.add_argument("--query", required=True)
-    searcher.add_argument("--scope", choices=("internal", "opensource"), required=True)
+    searcher.add_argument("--scope", choices=("internal", "opensource", "catalog"), required=True)
+    searcher.add_argument("--index", type=Path, help="catalog : dossier écrit par bbctl index --out.")
+    searcher.add_argument("--project", help="internal avec --receipt : étape 1, specctl resolve du projet.")
     searcher.add_argument("--ecosystem", choices=("npm",), default="npm", help="opensource : registre interrogé.")
     searcher.add_argument("--size", type=int, default=10, help="opensource : nombre de candidats.")
     searcher.add_argument("--record", action="store_true", help="opensource : inscrire les candidats au catalogue.")
@@ -99,7 +119,7 @@ def parser():
     finder.add_argument("--sources", type=Path, help="Défaut : catalog/sources.json de l'usine.")
     finder.add_argument("--clones", type=Path, default=Path("~/Projets/jeux"))
     finder.add_argument("--dry-run", action="store_true")
-    for name in ("inspect", "usages", "impact"):
+    for name in ("inspect", "usages", "impact", "assets", "trace"):
         sub[name].add_argument("block")
     sub["impact"].add_argument("--to-version", required=True)
     adopter = sub["adopt"]
@@ -112,6 +132,12 @@ def parser():
     for name in ("adopt", "decide"):
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
     sub["link-specs"].add_argument("--dry-run", action="store_true")
+    sub["link-assets"].add_argument("--dry-run", action="store_true")
+    sub["index"].add_argument("--out", type=Path, required=True)
+    sub["sbom"].add_argument("--out", type=Path, required=True)
+    sub["index"].add_argument("--check", action="store_true")
+    for name in ("evaluate", "decide"):
+        sub[name].add_argument("--receipt", type=Path, help="Reçu commun reuse before build : l'étape y est ajoutée.")
     gater = sub["gate"]
     gater.add_argument("--repo", type=Path, required=True)
     gater.add_argument("--base", required=True)
@@ -121,6 +147,8 @@ def parser():
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
     sub["decide"].add_argument("--reason", required=True)
+    sub["decide"].add_argument("--graph", type=Path, help="build seulement : graphe graphify consulté (défaut : BBCTL_GRAPH "
+                               "ou ~/graphify/public/graph.json) ; illisible = existant inconnu, build refusé (AT-02).")
     return cli
 
 
@@ -151,29 +179,57 @@ def run(args, root):
     if command == "duplicates":
         return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
-    write = (command in {"decide", "adopt", "gate"} or (command == "link-specs" and not args.dry_run) or (command in {"import-decisions", "discover"} and not args.dry_run)
+    write = (command in {"decide", "adopt", "gate"} or (command in {"link-specs", "link-assets"} and not args.dry_run) or (command in {"import-decisions", "discover"} and not args.dry_run)
              or (command == "search" and args.scope == "opensource" and args.record))
     with lock(root, write=write):
         if command == "import-decisions":
             return import_decisions(blocks, args.source, args.repo, args.commit, args.dry_run)
+        if command == "search" and args.scope == "catalog":
+            if args.index is None:
+                raise UsageError("--scope catalog exige --index.")
+            return generes.chercher(args.index, args.query, args.size)
         if command == "search" and args.scope == "opensource":
             return search_opensource(blocks, args.query, args.ecosystem, args.size, args.record)
         if command == "search":
             graph_path = args.graph or Path(os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json")
-            return search(blocks, args, graph_path.expanduser())
+            result = search(blocks, args, graph_path.expanduser())
+            # ARCH-001 § 10 étape 2 : la recherche est un maillon observable de la tranche (opt-in, n'échoue jamais).
+            evenements.emettre("bb.searched", "success", args.repo or "inconnu",
+                               sorted({x["block"] for x in result["results"] if x["block"]}),
+                               {"query": args.query, "scope": "internal", "results": len(result["results"])},
+                               args.query + (args.repo or ""))
+            return result
 
         if command == "discover":
             return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
 
         records = read_catalogue(blocks / "catalog")
+        if command == "trace":
+            return trace(records, blocks, args.block)
+        if command == "index":
+            return generes.index(records, args.out, args.check, etat_releases(blocks))
+        if command == "sbom":
+            return sbom_catalogue(records, args.out)
+        if command == "mutualiser":
+            return mutualiser(records)
         if command == "inspect":
-            return inspect(records, args.block)
+            return {**inspect(records, args.block), "status": generes.statuts(records[args.block][1])}
         if command == "usages":
             return usages(records, args.block)
         if command == "impact":
-            return impact(records, args.block, args.to_version)
+            result = impact(records, args.block, args.to_version)
+            # ARCH-001 AT-12 : l'impact d'un changement de contrat partagé remonte à la Tour (opt-in, n'échoue jamais).
+            block = records[args.block][1]
+            evenements.emettre("bb.impact-detected", "success", projet_de(block), [args.block],
+                               {"toVersion": args.to_version, "projects": result["impacted"]},
+                               args.to_version + ",".join(result["impacted"]), specs=block.get("specIds") or ())
+            return result
         if command == "adopt":
             return adopt(blocks, records, args)
+        if command == "link-assets":
+            return link_assets(blocks, records, args.dry_run)
+        if command == "assets":
+            return assets_of(blocks, records, args.block)
         if command == "link-specs":
             return link_specs(blocks, records, args.dry_run)
         if command == "gate":
@@ -185,25 +241,62 @@ def run(args, root):
                 raise Uncovered(result)
             return result
         if command == "validate":
-            return {"count": len(records), "specLinks": check_spec_links(root, records)}
+            # E183 : `adopted` = approuvée ET consommée ; sans consommateur, les deux axes sont confondus.
+            orphelines = generes.incoherences(records)
+            if orphelines:
+                raise InvalidJSON("Brique adoptée sans consommateur (usedBy vide) : " + ", ".join(orphelines))
+            return {"count": len(records), "specLinks": check_spec_links(root, records),
+                    "assetLinks": check_asset_links(root, records)}
         if args.candidate not in records:
             raise InvalidJSON(f"Candidat absent du catalogue : {args.candidate}.")
         path, block = records[args.candidate]
         result = evaluate(blocks / "evaluations", block)
         if command == "evaluate":
+            if args.receipt:
+                recu.ajouter(args.receipt, blocks, [{"step": "bbctl evaluate", "candidate": block["id"],
+                                                     "eliminated": result["eliminated"], "score": result["score"]}])
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
-        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason}
+        manquantes = [k for k, v in result["verifications"].items() if v != "verified"]
+        if externe(block) and manquantes and args.choice in {"reuse", "adapt", "wrap", "fork"}:
+            # E181 : un composant open source ne se réutilise qu'après les sept vérifications de BB-001 § 4.
+            raise CatalogueScopeError("Vérifications manquantes avant adoption : " + ", ".join(manquantes) + ".")
+        if block["kind"] == "shared-library" and args.choice in {"build", "adapt"} and not justifiee(records, block):
+            # E213 : extraire une brique partagée seulement si la mutualisation est justifiée (bbctl mutualiser).
+            raise CatalogueScopeError(f"Extraction de {block['name']} refusée : mutualisation non justifiée "
+                                      "(bbctl mutualiser ne recommande pas « extract »).")
+        # BB-001 T07 : une décision argumentée porte la note pondérée qui l'a fondée (None si le candidat est éliminé).
+        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason,
+                    "score": result["score"]}
+        decision.pop("searchGraphSha256", None)
+        if args.choice == "build":
+            # AT-02 : construire = remplacer ce qui existe peut-être. Sans recherche interne lisible, l'existant est
+            # INCONNU (jamais « absent ») : la décision est bloquée, rien n'est écrit.
+            try:
+                _, digest = read_graph(graph_path_of(args))
+            except GraphUnavailable as exc:
+                raise Unknown(f"Existant inconnu, décision build bloquée : {exc}") from exc
+            decision["searchGraphSha256"] = digest
         changed = False
         if block["decision"] != decision or args.expect is not None:
             block["decision"] = decision
             changed = write_block(blocks, path, block, "decide", args.expect)
         if changed:
-            evenements.emettre("bb.decided", "success", (block["usedBy"] or ["inconnu"])[0], [block["id"]],
+            evenements.emettre("bb.decided", "success", projet_de(block), [block["id"]],
                                {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
                                specs=block.get("specIds") or ())
+        if args.receipt:
+            recu.ajouter(args.receipt, blocks, [{"step": "bbctl decide", "candidate": block["id"], "choice": args.choice,
+                                                 "rationale": args.reason, "score": result["score"]}])
         return {"candidate": block["id"], "decision": decision, "changed": changed}
+
+
+def projet_de(block):
+    """projectId d'un événement de brique : le dépôt d'origine, sinon le premier consommateur sans son sous-chemin
+    (« six-de-chaque/apps/web » → « six-de-chaque ») — un seul projet par trace (towerctl trace)."""
+    repo = (block.get("origin") or {}).get("repo")
+    return repo or ((block.get("usedBy") or ["inconnu"])[0]).split("/")[0]
 
 
 def check_spec_links(root, records):
@@ -236,6 +329,8 @@ def main(argv=None):
         code = ExitCode.OK
     except UsageError as exc:
         code, payload = ExitCode.USAGE, {"status": "usage", "error": str(exc)}
+    except Unknown as exc:
+        code, payload = ExitCode.IO, {"status": "unknown", "error": str(exc)}
     except (GraphUnavailable, OSError, ImportError) as exc:
         code, payload = ExitCode.IO, {"status": "source-unavailable", "error": str(exc)}
     except Uncovered as exc:

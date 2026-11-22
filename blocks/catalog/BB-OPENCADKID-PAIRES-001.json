@@ -1,5 +1,43 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "Board",
+      "Card",
+      "Level",
+      "Motif",
+      "Records",
+      "complete",
+      "endPreview",
+      "flip",
+      "isUnlocked",
+      "levels",
+      "motifs",
+      "newBoard",
+      "settle",
+      "stars"
+    ],
+    "imports": [],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "board",
+    "card",
+    "complete",
+    "end-preview",
+    "flip",
+    "is-unlocked",
+    "level",
+    "levels",
+    "motif",
+    "motifs",
+    "new-board",
+    "records",
+    "settle",
+    "stars"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +49,22 @@
   "id": "BB-OPENCADKID-PAIRES-001",
   "interfaces": [
     {
+      "exports": [
+        "Board",
+        "Card",
+        "Level",
+        "Motif",
+        "Records",
+        "complete",
+        "endPreview",
+        "flip",
+        "isUnlocked",
+        "levels",
+        "motifs",
+        "newBoard",
+        "settle",
+        "stars"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

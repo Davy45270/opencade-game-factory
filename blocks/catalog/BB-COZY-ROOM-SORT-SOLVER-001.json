@@ -1,5 +1,42 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "ASTAR_THRESHOLD",
+      "Budget",
+      "DEFAULT_BUDGET",
+      "DecisionMetrics",
+      "HINT_BUDGET",
+      "SolveOptions",
+      "SolveResult",
+      "hint",
+      "measureDecisions",
+      "replayTrace",
+      "solve",
+      "stateKey"
+    ],
+    "imports": [
+      "@cozy-room-sort/engine",
+      "@cozy-room-sort/schemas"
+    ],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "astar-threshold",
+    "budget",
+    "decision-metrics",
+    "default-budget",
+    "hint",
+    "hint-budget",
+    "measure-decisions",
+    "replay-trace",
+    "solve",
+    "solve-options",
+    "solve-result",
+    "state-key"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +48,20 @@
   "id": "BB-COZY-ROOM-SORT-SOLVER-001",
   "interfaces": [
     {
+      "exports": [
+        "ASTAR_THRESHOLD",
+        "Budget",
+        "DEFAULT_BUDGET",
+        "DecisionMetrics",
+        "HINT_BUDGET",
+        "SolveOptions",
+        "SolveResult",
+        "hint",
+        "measureDecisions",
+        "replayTrace",
+        "solve",
+        "stateKey"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

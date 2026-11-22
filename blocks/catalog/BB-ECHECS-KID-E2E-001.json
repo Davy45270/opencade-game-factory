@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "workflow",
+    "key": "workflow:echecs-kid:.woodpecker/e2e.yml"
+  },
+  "id": "BB-ECHECS-KID-E2E-001",
+  "interfaces": [
+    {
+      "language": "yaml",
+      "runtime": "woodpecker"
+    }
+  ],
+  "kind": "workflow",
+  "name": "e2e",
+  "observedIn": [
+    {
+      "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "path": ".woodpecker/e2e.yml",
+      "repo": "echecs-kid"
+    }
+  ],
+  "origin": {
+    "commitSha": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+    "licenseSpdx": "UNKNOWN",
+    "path": ".woodpecker/e2e.yml",
+    "repo": "echecs-kid",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "echecs-kid"
+  ]
+}

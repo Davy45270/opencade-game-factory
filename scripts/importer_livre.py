@@ -222,6 +222,49 @@ PROFILS = {
                                                "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare "
                                                            "l'identifiant : titulaire Davy45270, CC BY 4.0."}},
     },
+    "echecs-kid": {
+        # Icônes PWA : la tour blanche de src/art/pieces.ts rastérisée par scripts/make-icons.js (commit 419b6f6).
+        "images": [{"prefixe": "public/icons/echecs-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js depuis src/art/pieces.ts)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "echecs-kid 419b6f6 (« icônes PWA régénérées depuis la tour » : "
+                                              "scripts/make-icons.js rastérise pieceSvg de src/art/pieces.ts) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
+    "six-de-chaque": {
+        # README (depuis le socle 20e10f5) : « Art original (galets, glyphes …, motifs et icônes) : CC BY 4.0, David
+        # Sevin. Dessiné pour ce jeu, aucun emprunt. » ; glyphes ajoutés par ef2edac, icônes par scripts/make-icons.js.
+        "images": [{"prefixe": prefixe, "licence": "CC-BY-4.0", "auteur": "Davy45270 (README du jeu)",
+                    "licence_preuve": {"method": "déclaration du titulaire",
+                                       "ref": "six-de-chaque README.md, section Licences (20e10f5) ; ef2edac (glyphes) ; "
+                                              "HL-538",
+                                       "decision": "Art original de Six de chaque (glyphes, motifs, icônes) dessiné "
+                                                   "pour le jeu par Davy45270 : CC BY 4.0."}}
+                   for prefixe in ("apps/web/public/art/", "apps/web/public/icons/six-de-chaque-")],
+    },
+    "petit-astronome": {
+        # Icônes : « Draws the app icons » — scripts/make-icons.js les dessine pixel par pixel (commit 325d085).
+        # Les photos de planètes (NASA/JPL, conditions de leurs sources) n'ont pas de licence SPDX : sans_origine.
+        "images": [{"prefixe": "public/icons/astro-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "petit-astronome 325d085 (scripts/make-icons.js dessine les icônes) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
+    "tictac": {
+        # Icônes : scripts/make-icons.js les dessine pixel par pixel et écrit public/icons/tictac-*.png (91332d4).
+        "images": [{"prefixe": "public/icons/tictac-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "tictac 91332d4 (scripts/make-icons.js écrit public/icons/tictac-*.png) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
     "opencade": profil_monorepo("Opencade", [icones_par_le_code("public/icons/opencade-", "d9fb483", "Opencade")]),
     "opencadkid": profil_monorepo("opencadkid", [icones_par_le_code("public/icons/opencadkid-", "b3d21b7", "opencadkid")]),
 }

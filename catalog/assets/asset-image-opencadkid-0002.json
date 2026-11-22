@@ -128,7 +128,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Fichier publié par David sous MIT dans ce dépôt public, déclaré par son catalogue d'assets ; octets ou pixels identiques à la copie du catalogue.",
+    "method": "décision du propriétaire, fichier vérifié",
+    "ref": "~/Projets/jeux/assets/catalogue.json (droits « publié dans un dépôt public sous MIT (accord de David pour cet usage) ») ; HL-538 ; ~/Projets/jeux/assets/catalogue.json · I-autres-jeux (origine « catalogue »)"
+  },
   "name": "opencadkid",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -138,7 +143,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "code / agent",
     "evidence": [
       "opencade@172156af3849e6061e3706166a991c77cf95528a:public/autres-jeux/opencadkid.png"
     ],
@@ -291,6 +296,35 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "src/shell/other-games.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/autres-jeux/opencadkid.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/autres-jeux/opencadkid.png"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image public/autres-jeux/opencadkid.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade",
+      "importName": "opencadkid",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/autres-jeux/opencadkid.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "public/autres-jeux/opencadkid.png",
       "status": "active"
     }
   ],

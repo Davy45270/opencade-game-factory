@@ -1,0 +1,49 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "script",
+    "key": "script:opencade:scripts/check-essaim-art.js"
+  },
+  "id": "BB-OPENCADE-CHECK-ESSAIM-ART-JS-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "node"
+    }
+  ],
+  "kind": "cli-tool",
+  "name": "check-essaim-art.js",
+  "observedIn": [
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "scripts/check-essaim-art.js",
+      "repo": "opencade"
+    }
+  ],
+  "origin": {
+    "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+    "licenseSpdx": "UNKNOWN",
+    "path": "scripts/check-essaim-art.js",
+    "repo": "opencade",
+    "repositoryUrl": null,
+    "version": null
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "opencade"
+  ]
+}

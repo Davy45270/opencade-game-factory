@@ -1,5 +1,27 @@
 {
-  "capabilities": [],
+  "analysis": {
+    "coverage": null,
+    "exports": [
+      "DIFFICULTIES",
+      "SCHEMA_VERSION",
+      "isDifficulty",
+      "migrateLevel",
+      "parseLevel",
+      "validateLevel"
+    ],
+    "imports": [],
+    "maintainers": null,
+    "maturity": "untested",
+    "tests": []
+  },
+  "capabilities": [
+    "difficulties",
+    "is-difficulty",
+    "migrate-level",
+    "parse-level",
+    "schema-version",
+    "validate-level"
+  ],
   "decision": {
     "rationale": null,
     "status": "pending"
@@ -11,6 +33,14 @@
   "id": "BB-COZY-ROOM-SORT-SCHEMAS-001",
   "interfaces": [
     {
+      "exports": [
+        "DIFFICULTIES",
+        "SCHEMA_VERSION",
+        "isDifficulty",
+        "migrateLevel",
+        "parseLevel",
+        "validateLevel"
+      ],
       "language": "typescript",
       "runtime": "browser"
     }

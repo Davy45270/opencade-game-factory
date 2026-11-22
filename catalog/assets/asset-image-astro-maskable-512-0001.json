@@ -46,7 +46,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "game": "petit-astronome",
         "path": "public/icons/astro-maskable-512.png",
         "provider": "github",
@@ -131,7 +131,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+    "method": "historique git : licence de la source",
+    "ref": "petit-astronome 325d085 (scripts/make-icons.js dessine les icônes) ; LICENSE (MIT, Davy45270) ; HL-538"
+  },
   "name": "astro-maskable-512",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -141,7 +146,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
     "evidence": [
       "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:public/icons/astro-maskable-512.png"
     ],
@@ -158,7 +163,7 @@
     "icons"
   ],
   "thumbnail": "thumbnails/1e/1e35f00d598bb1a52020fa0f76dd046265bbc9f1cf48b481ea6e73c4621a6fb0.webp",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
+  "updatedAt": "2026-11-20T18:08:37+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -170,7 +175,7 @@
         "line": 8,
         "path": "pwa-manifest.ts"
       },
-      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "evidence": [
         "literal: public/icons/astro-maskable-512.png",
         "module-path: pwa-manifest.ts"
@@ -194,6 +199,35 @@
       "repo": "petit-astronome",
       "role": "icon",
       "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/icons/astro-maskable-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/astro-maskable-512.png"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : image public/icons/astro-maskable-512.png livrée (fichier suivi au commit)"
+      ],
+      "game": "petit-astronome",
+      "importName": "astro-maskable-512",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/astro-maskable-512.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "image",
+      "scene": "public/icons/astro-maskable-512.png",
       "status": "active"
     }
   ],

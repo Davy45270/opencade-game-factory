@@ -21,6 +21,7 @@ from .evaluation import evaluate, externe, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
 from . import index as generes, recu
+from .sbom import sbom as sbom_catalogue
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
 
@@ -77,6 +78,7 @@ def parser():
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
+        "sbom": "SBOM CycloneDX des briques (versions, licences, dépendances des dépôts consommateurs).",
         "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
@@ -125,6 +127,7 @@ def parser():
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
     sub["link-specs"].add_argument("--dry-run", action="store_true")
     sub["index"].add_argument("--out", type=Path, required=True)
+    sub["sbom"].add_argument("--out", type=Path, required=True)
     sub["index"].add_argument("--check", action="store_true")
     for name in ("evaluate", "decide"):
         sub[name].add_argument("--receipt", type=Path, help="Reçu commun reuse before build : l'étape y est ajoutée.")
@@ -196,6 +199,8 @@ def run(args, root):
         records = read_catalogue(blocks / "catalog")
         if command == "index":
             return generes.index(records, args.out, args.check)
+        if command == "sbom":
+            return sbom_catalogue(records, args.out)
         if command == "inspect":
             return {**inspect(records, args.block), "status": generes.statuts(records[args.block][1])}
         if command == "usages":

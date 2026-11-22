@@ -45,3 +45,17 @@ steps:
       - ./bbctl index --out /tmp/index-briques --json
       - ./bbctl index --out /tmp/index-briques --check --json
       - ./bbctl validate --all --json
+
+  # BB-09 (matrice E222, E210) : SBOM CycloneDX des briques (versions, purl, licences SPDX, dépendances de chaque
+  # dépôt consommateur), puis scan de vulnérabilités par trivy sur ce SBOM (base trivy-db par le proxy Harbor).
+  # Rapport seulement (--exit-code 0) : les versions non résolues sont listées par bbctl, jamais inventées.
+  - name: sbom-briques
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./bbctl sbom --out sbom-briques.cdx.json --json
+
+  - name: scan-briques
+    image: harbor.pingfr.duckdns.org/dockerhub/aquasec/trivy:0.59.0
+    commands:
+      - trivy sbom --db-repository harbor.pingfr.duckdns.org/ghcr/aquasecurity/trivy-db:2 --format table --exit-code 0 sbom-briques.cdx.json

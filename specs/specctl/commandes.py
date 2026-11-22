@@ -537,7 +537,7 @@ def report(records, source, warnings, incoming):
 
 # --- sync des matrices, documents Drive à importer ----------------------------------------------------------------
 
-SYNC_FIELDS = ("matrixStatus", "evidence", "acceptance")
+SYNC_FIELDS = ("matrixStatus", "evidence", "acceptance", "criticality")
 
 
 def sync(store, records, incoming, dry_run):

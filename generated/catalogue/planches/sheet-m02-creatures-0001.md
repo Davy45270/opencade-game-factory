@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 288×288 · S
 Fiche : [`sheet-m02-creatures-0001`](../../../catalog/sheets/sheet-m02-creatures-0001.json)
 
 - copie : pestouille-rpg `assets/export/m02-creatures.png`
+- copie : pestouille-rpg `assets/export/m02-creatures.png`
 
 0 asset(s) découpés de cette planche.
 

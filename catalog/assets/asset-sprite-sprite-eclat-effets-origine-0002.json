@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 191,
     "verified": false,
     "w": 265,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/39/394247f8f79937a68789e62920793fa39de93bbdc64552cee8b564a1d068da1a.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-origine@3x.json": "deb52388910d8b901e09c3d1b3f46f76b5b2411a",
+        "packages/assets/atlas/effets-origine@3x.png": "92ff001df6faa882db489238549504853b56cb32"
+      },
+      "assetPath": "packages/assets/atlas/effets-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2211,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/effets-origine@3x.json": "deb52388910d8b901e09c3d1b3f46f76b5b2411a",

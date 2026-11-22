@@ -166,6 +166,35 @@
   "updatedAt": "2026-11-20T18:08:37+01:00",
   "usages": [
     {
+      "assetPath": "public/icons/astro-512.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/astro-512.png"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : image public/icons/astro-512.png livrée (fichier suivi au commit)"
+      ],
+      "game": "petit-astronome",
+      "importName": "astro-512",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/astro-512.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "image",
+      "scene": "public/icons/astro-512.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/icons/astro-512.png": "4f62725fc62b50eae522c91a6c18a9bf411adefe"
       },
@@ -199,35 +228,6 @@
       "repo": "petit-astronome",
       "role": "icon",
       "scene": "pwa-manifest.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/icons/astro-512.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/icons/astro-512.png"
-      },
-      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
-      "evidence": [
-        "importer_livre : image public/icons/astro-512.png livrée (fichier suivi au commit)"
-      ],
-      "game": "petit-astronome",
-      "importName": "astro-512",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/icons/astro-512.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "petit-astronome",
-      "role": "image",
-      "scene": "public/icons/astro-512.png",
       "status": "active"
     }
   ],

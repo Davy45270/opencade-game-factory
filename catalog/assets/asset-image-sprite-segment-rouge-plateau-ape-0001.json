@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,107 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/3e/3e665ece960d5d93404ce9512e642eb91fbbeaba54fce62024d16ac8288ef05d.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png": "c76aabf544e197f8380a697778417422d82532d0"
+      },
+      "assetPath": "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7720,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-segment-rouge-plateau-apercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png": "c76aabf544e197f8380a697778417422d82532d0"
+      },
+      "assetPath": "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 578,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-segment-rouge-plateau-apercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png": "c76aabf544e197f8380a697778417422d82532d0"
+      },
+      "assetPath": "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 28,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "segmentMagenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-segment-rouge-plateau-apercu.png": "c76aabf544e197f8380a697778417422d82532d0"

@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 384×384 · S
 Fiche : [`sheet-e04-boss-0001`](../../../catalog/sheets/sheet-e04-boss-0001.json)
 
 - copie : pestouille-rpg `assets/export/e04-boss.png`
+- copie : pestouille-rpg `assets/export/e04-boss.png`
 
 0 asset(s) découpés de cette planche.
 

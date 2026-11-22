@@ -1,7 +1,7 @@
 {
   "alpha": false,
   "category": "image",
-  "createdAt": "2026-11-21T20:27:12.136736+00:00",
+  "createdAt": "2026-11-21T13:05:32+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,52 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cartes/tuiles.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/cartes/tuiles.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cartes/tuiles.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/cartes/tuiles.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-tuiles-0001.png"
   },
   "format": "png",
@@ -133,8 +178,140 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:27:12.136736+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 510,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 512,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cartes/tuiles.png",
       "assetVersion": 1,
@@ -165,6 +342,699 @@
       "status": "active"
     },
     {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3004,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3021,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7872,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7891,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7910,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7929,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7948,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7967,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7986,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8005,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8024,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8030,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8040,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/foret.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/foret.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/foret.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/temple.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/temple.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/temple.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/village.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/village.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/village.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11886,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11887,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13159,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13160,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 318,
+        "path": "packages/content/src/schemas/tiled-map.schema.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/schemas/tiled-map.schema.json"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/schemas/tiled-map.schema.json",
+      "status": "active"
+    },
+    {
       "assetPath": "public/assets/cartes/tuiles.png",
       "assetVersion": 1,
       "codeRef": {
@@ -192,12 +1062,1103 @@
       "role": "image",
       "scene": "public/assets/cartes/tuiles.png",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "tests/unit/cartes-tiled.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tests/unit/cartes-tiled.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/cartes-tiled.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 17,
+        "path": "tools/cartes/decouper.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/decouper.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/decouper.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "tools/cartes/decouper.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/decouper.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/decouper.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 164,
+        "path": "tools/cartes/valider.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/valider.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/valider.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 510,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 512,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3004,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3021,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7872,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7891,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7910,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7929,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7948,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7967,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7986,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8005,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8024,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8030,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 8040,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/foret.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/foret.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/foret.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/temple.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/temple.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/temple.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/tiled/village.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: content/tiled/village.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "content/tiled/village.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11886,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11887,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13159,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13160,
+        "path": "packages/content/src/generated/validators.mjs"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/generated/validators.mjs"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/generated/validators.mjs",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 318,
+        "path": "packages/content/src/schemas/tiled-map.schema.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cartes/tuiles.png",
+        "module-path: packages/content/src/schemas/tiled-map.schema.json"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "packages/content/src/schemas/tiled-map.schema.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "tests/unit/cartes-tiled.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tests/unit/cartes-tiled.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/cartes-tiled.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 17,
+        "path": "tools/cartes/decouper.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/decouper.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/decouper.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 20,
+        "path": "tools/cartes/decouper.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/decouper.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/decouper.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/cartes/tuiles.png": "5bf6a1e045a72365566c285aebc483135249196d"
+      },
+      "assetPath": "public/assets/cartes/tuiles.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 164,
+        "path": "tools/cartes/valider.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/cartes/tuiles.png",
+        "module-path: tools/cartes/valider.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "tuiles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tools/cartes/valider.ts",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "5c1e7de3012639fefdfe01af820191891910da000483eef34689f30f6f313718",

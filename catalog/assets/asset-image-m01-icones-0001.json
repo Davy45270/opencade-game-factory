@@ -22,7 +22,18 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-icones.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "assets/export/m01-icones.png",
         "provider": "local",
@@ -134,8 +145,41 @@
     "icons"
   ],
   "thumbnail": "thumbnails/e9/e910f0c0d4fc8530c99630fc3247584b3127e5b02100ec0fa4fdad695e19a0f2.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 374,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/m01-icones.png",
       "assetVersion": 1,
@@ -162,6 +206,105 @@
       "releases": [],
       "repo": "pestouille-rpg",
       "role": "atlas",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 118,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.png",
+        "module-path: assets/export/m01-icones.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-icones.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 374,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 118,
+        "path": "assets/export/m01-icones.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.png",
+        "module-path: assets/export/m01-icones.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
       "scene": "assets/export/m01-icones.json",
       "status": "active"
     }

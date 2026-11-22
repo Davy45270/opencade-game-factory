@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-notation-triple-apercu.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/12/1255018e70499886a05de287c60480b35ea5a61635521359e418e369e3edbf19.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-notation-triple-apercu.png": "df95a72210ff13d4d44944595623a6666a7d412b"
+      },
+      "assetPath": "packages/assets/sprites/sprite-notation-triple-apercu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6993,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-notation-triple-apercu.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-notation-triple-apercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-notation-triple-apercu.png": "df95a72210ff13d4d44944595623a6666a7d412b"

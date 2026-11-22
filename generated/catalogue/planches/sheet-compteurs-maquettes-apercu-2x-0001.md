@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×68 · S
 Fiche : [`sheet-compteurs-maquettes-apercu-2x-0001`](../../../catalog/sheets/sheet-compteurs-maquettes-apercu-2x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/compteurs-maquettes-apercu@2x.png`
+- copie : capsule-panic `packages/assets/atlas/compteurs-maquettes-apercu@2x.png`
 
 0 asset(s) découpés de cette planche.
 

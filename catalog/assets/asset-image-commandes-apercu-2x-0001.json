@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "generated",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/commandes-apercu@2x.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/commandes-apercu@2x.png",
@@ -125,8 +136,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/67/67c6564fd3e9b384cc8b52c554755fb74c530b84af7f308fc2a2b8164027ddc6.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-apercu@2x.png": "e3b9195caf577e3011d05b93e8e4f22b0ff56ca1"
+      },
+      "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 772,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-apercu@2x.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
       "assetVersion": 1,
@@ -154,6 +198,72 @@
       "repo": "capsule-panic",
       "role": "atlas",
       "scene": "packages/assets/atlas/commandes-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-apercu@2x.png": "e3b9195caf577e3011d05b93e8e4f22b0ff56ca1"
+      },
+      "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 217,
+        "path": "packages/assets/atlas/commandes-apercu@2x.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-apercu@2x.png",
+        "module-path: packages/assets/atlas/commandes-apercu@2x.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/atlas/commandes-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-apercu@2x.png": "e3b9195caf577e3011d05b93e8e4f22b0ff56ca1"
+      },
+      "assetPath": "packages/assets/atlas/commandes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 407,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-apercu@2x.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

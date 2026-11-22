@@ -22,7 +22,18 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e03-interface.webp",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/e03-interface.webp",
         "provider": "local",
@@ -118,8 +129,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/a7/a777717a7af13284d7d9dc40f22763f1e7f6e67814006bf7b99ab447b54362c8.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.webp": "a68e31948b3532d103b0b2a4320bc619f83b6194"
+      },
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 518,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-interface.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.webp": "a68e31948b3532d103b0b2a4320bc619f83b6194"
+      },
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 41,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-interface.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/e03-interface.webp",
       "assetVersion": 1,
@@ -156,10 +233,76 @@
       "assetPath": "public/assets/e03-interface.webp",
       "assetVersion": 1,
       "codeRef": {
+        "line": 117,
+        "path": "tests/unit/web-assets.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-interface.webp",
+        "module-path: tests/unit/web-assets.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/web-assets.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.webp": "a68e31948b3532d103b0b2a4320bc619f83b6194"
+      },
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 518,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-interface.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-interface",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-interface.webp": "a68e31948b3532d103b0b2a4320bc619f83b6194"
+      },
+      "assetPath": "public/assets/e03-interface.webp",
+      "assetVersion": 1,
+      "codeRef": {
         "line": 41,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e03-interface.webp",
         "module-path: assets/liste-assets.json"
@@ -189,10 +332,10 @@
       "assetPath": "public/assets/e03-interface.webp",
       "assetVersion": 1,
       "codeRef": {
-        "line": 43,
+        "line": 117,
         "path": "tests/unit/web-assets.test.ts"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e03-interface.webp",
         "module-path: tests/unit/web-assets.test.ts"

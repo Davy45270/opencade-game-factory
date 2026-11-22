@@ -1,0 +1,307 @@
+{
+  "alpha": true,
+  "category": "ui",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite livre — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-livre"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m01-icones-0001",
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 128
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-livre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "assets/export/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/m01-icones.json · sprite-livre"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-icones.json#sprite-livre"
+      ],
+      "method": "proven"
+    },
+    "subcategory": {
+      "confidence": 0.75,
+      "evidence": [
+        "assets/export/m01-icones.json · icones"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "assets/export/m01-icones.json · icons"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-livre",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "2d4474d0e1a9d971",
+    "phash": "d2d52baa6c39da06"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f2e78e21395cec069c81e7a7da6b4d4278b95cfa06825ecfaa612b34465a23ef",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 38,
+    "verified": false,
+    "w": 38,
+    "x": 967,
+    "y": 805
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": "icons",
+  "tags": [
+    "icons"
+  ],
+  "thumbnail": "thumbnails/f2/f2e78e21395cec069c81e7a7da6b4d4278b95cfa06825ecfaa612b34465a23ef.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066",
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 376,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066",
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1754,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066",
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 376,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-icones.json": "f2a36c36fe78fdc2663ba1b8b603251e471a5066",
+        "assets/export/m01-icones.png": "476d0f10a7aa12d2e4dfadb8b587a54beb09c0d2"
+      },
+      "assetPath": "assets/export/m01-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1754,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m01-icones-0001",
+          "h": 64,
+          "sourceSheetSha256": "e910f0c0d4fc8530c99630fc3247584b3127e5b02100ec0fa4fdad695e19a0f2",
+          "w": 64,
+          "x": 128,
+          "y": 128
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f2e78e21395cec069c81e7a7da6b4d4278b95cfa06825ecfaa612b34465a23ef",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×100 · 
 Fiche : [`sheet-traits-animations-apercu-3x-0001`](../../../catalog/sheets/sheet-traits-animations-apercu-3x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/traits-animations-apercu@3x.png`
+- copie : capsule-panic `packages/assets/atlas/traits-animations-apercu@3x.png`
 
 0 asset(s) découpés de cette planche.
 

@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-reacteur-vide-jeu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-reacteur-vide-jeu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-reacteur-vide-jeu-0001",
+    "author": "unknown",
     "evidence": [
-      "89x119+1488+611",
-      "importer_livre : cadre packages/assets/atlas/objets-jeu@2x.png#sprite-reacteur-vide-jeu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/reacteur-vide-jeu.svg (provenance.json)"
+      "89x119+1488+611"
     ],
-    "parentId": "asset-svg-reacteur-vide-jeu-0001",
-    "parentSha256": "d9efac457474805875da465bdd86414c86eb876217a00284890ff1e4c568d6e0",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/7c/7c55342e79696a0301c120916a7036bab0756de205bc7cc1581f428c78d81d47.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/objets-jeu@2x.json": "6ae49dcf85964ab9fa201eb087db2f3cfd41225e",
+        "packages/assets/atlas/objets-jeu@2x.png": "7ca887f99b2e940e0a277fb574d70dfcebb064da"
+      },
+      "assetPath": "packages/assets/atlas/objets-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3960,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/objets-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "objets-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/objets-jeu@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/objets-jeu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/objets-jeu@2x.json": "6ae49dcf85964ab9fa201eb087db2f3cfd41225e",
+        "packages/assets/atlas/objets-jeu@2x.png": "7ca887f99b2e940e0a277fb574d70dfcebb064da"
+      },
+      "assetPath": "packages/assets/atlas/objets-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 277,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/objets-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "objets-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

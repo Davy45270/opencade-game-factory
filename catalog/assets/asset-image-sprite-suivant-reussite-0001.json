@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-suivant-reussite.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/96/96f6c11536511ead6e99e0c26ae327b615def372eef958f0ec23ce4e8a9ce118.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-suivant-reussite.webp": "e0762cea2baf46fcac5fa27af8e014b91b018dff"
+      },
+      "assetPath": "packages/assets/runtime/sprite-suivant-reussite.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 12,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-suivant-reussite.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "suivantReussite",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/runtime/sprite-suivant-reussite.webp": "e0762cea2baf46fcac5fa27af8e014b91b018dff"

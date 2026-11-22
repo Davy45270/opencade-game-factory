@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-droite-commandes-origine.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -156,8 +167,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/74/749e2edf12f051c7af3c5dc9df40d2d863e0d01c003d7f90f7d681f102542a21.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-droite-commandes-origine.png": "d74a8b31ade049e4c25e569ee9e61091a9225214"
+      },
+      "assetPath": "packages/assets/sprites/sprite-droite-commandes-origine.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6353,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-droite-commandes-origine.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-droite-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-droite-commandes-origine.png": "d74a8b31ade049e4c25e569ee9e61091a9225214"

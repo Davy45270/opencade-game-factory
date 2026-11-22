@@ -1016,6 +1016,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/gourmandises/scene.ts",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/gourmandises/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/gourmandises/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/gourmandises",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/gourmandises/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/gourmandises/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/gourmandises/scene.ts": "3dfa404850f922f0c3ae2cf9be2c1d3fe7985a82"
       },
@@ -4202,35 +4231,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/gourmandises-validation.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/gourmandises/scene.ts",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/gourmandises/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/gourmandises/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/gourmandises",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/gourmandises/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/gourmandises/scene.ts",
       "status": "active"
     }
   ],

@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/f8/f8ae2eba83bfca4260309db359fa89682f5394eddda6344dc375e951dc8cbc07.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png": "6d76c3eafc62fe9a7d8935b2d22cdbb9ecc5d072"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7116,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-horizontale-magenta-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png": "6d76c3eafc62fe9a7d8935b2d22cdbb9ecc5d072"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 741,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-horizontale-magenta-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-paire-horizontale-magenta-ambre.png": "6d76c3eafc62fe9a7d8935b2d22cdbb9ecc5d072"

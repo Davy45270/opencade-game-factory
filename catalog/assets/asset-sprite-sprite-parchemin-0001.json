@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "970e0a72da1bd9295edd1ec17ce7693d5cbac61d72e05ca385bd8a8783a60049",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 41,
     "verified": false,
     "w": 41,
@@ -134,10 +134,248 @@
       "assetPath": "public/assets/e03-objets.json",
       "assetVersion": 1,
       "codeRef": {
+        "line": 536,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e03-objets.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets/export/e03-objets.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e03-objets.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
         "line": 113,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e03-objets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets/manifests/e03-objets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e03-objets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 388,
+        "path": "tests/unit/assets-chaine.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: tests/unit/assets-chaine.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/assets-chaine.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 536,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e03-objets.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e03-objets.json",
+        "module-path: assets/export/e03-objets.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-objets",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e03-objets.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-objets.png": "79d7afce615cb633810cff599cecedd8cc332e75",
+        "public/assets/e03-objets.json": "a7ad5807a4d679cf306924e88018badaea22f483"
+      },
+      "assetPath": "public/assets/e03-objets.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 113,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e03-objets.json",
         "module-path: assets/liste-assets.json"
@@ -171,7 +409,7 @@
         "line": 6,
         "path": "assets/manifests/e03-objets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e03-objets.json",
         "module-path: assets/manifests/e03-objets.json"
@@ -202,10 +440,10 @@
       "assetPath": "public/assets/e03-objets.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 261,
+        "line": 388,
         "path": "tests/unit/assets-chaine.test.ts"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e03-objets.json",
         "module-path: tests/unit/assets-chaine.test.ts"

@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "generated",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/personnages-origine@2x.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/personnages-origine@2x.png",
@@ -125,8 +136,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/df/df726b515f9329cc8c0878498e06a6ca12b2a6a058a1ed5ccc9217d622bc5a00.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/personnages-origine@2x.png": "80c1029f23e44a1db754a0302a295c5ebb929579"
+      },
+      "assetPath": "packages/assets/atlas/personnages-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4652,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/personnages-origine@2x.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "personnages-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/personnages-origine@2x.png",
       "assetVersion": 1,
@@ -154,6 +198,72 @@
       "repo": "capsule-panic",
       "role": "atlas",
       "scene": "packages/assets/atlas/personnages-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/personnages-origine@2x.png": "80c1029f23e44a1db754a0302a295c5ebb929579"
+      },
+      "assetPath": "packages/assets/atlas/personnages-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 49,
+        "path": "packages/assets/atlas/personnages-origine@2x.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/personnages-origine@2x.png",
+        "module-path: packages/assets/atlas/personnages-origine@2x.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "personnages-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/atlas/personnages-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/personnages-origine@2x.png": "80c1029f23e44a1db754a0302a295c5ebb929579"
+      },
+      "assetPath": "packages/assets/atlas/personnages-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 773,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/personnages-origine@2x.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "personnages-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

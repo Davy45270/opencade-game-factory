@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
@@ -130,8 +141,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/c3/c3dd3e5f1b0ddbf4f516e04accfecd175fa204f2573a53b7d4b32c8029dabad6.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-bas-commandes-origine.webp": "d2484488c5776c3b5e5d2c29b571af256dee5c63"
+      },
+      "assetPath": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 27,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-bas-commandes-origine.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "basCommandesOrigine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-bas-commandes-origine.webp",
       "assetVersion": 1,

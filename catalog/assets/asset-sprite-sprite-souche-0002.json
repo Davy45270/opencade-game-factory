@@ -1,0 +1,291 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite souche — sprite 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-souche"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-m01-ennemis-0001",
+        "h": 96,
+        "w": 96,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-souche-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/m01-ennemis.json · sprite-souche"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-ennemis.json#sprite-souche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-souche",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "34f1e91d9a333326",
+    "phash": "98c7ce1835346f65"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "27f3691bd253ac7f24661aaceedfd0eecff808bc96b9e1c733b026381cec9b01",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 71,
+    "verified": false,
+    "w": 53,
+    "x": 217,
+    "y": 654
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-maquette-01-explo-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/27/27f3691bd253ac7f24661aaceedfd0eecff808bc96b9e1c733b026381cec9b01.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4",
+        "assets/export/m01-ennemis.png": "f807208aaadf85c7dcff02e6e628636f796cb192"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 352,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4",
+        "assets/export/m01-ennemis.png": "f807208aaadf85c7dcff02e6e628636f796cb192"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1644,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4",
+        "assets/export/m01-ennemis.png": "f807208aaadf85c7dcff02e6e628636f796cb192"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 352,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4",
+        "assets/export/m01-ennemis.png": "f807208aaadf85c7dcff02e6e628636f796cb192"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1644,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-m01-ennemis-0001",
+          "h": 96,
+          "sourceSheetSha256": "d95eaafec08ce409526d635ade0822443927df3bd41b78d42889b60d76e7e4a2",
+          "w": 96,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "27f3691bd253ac7f24661aaceedfd0eecff808bc96b9e1c733b026381cec9b01",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

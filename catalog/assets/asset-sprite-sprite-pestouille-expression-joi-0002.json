@@ -1,0 +1,291 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite pestouille expression joie — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-expression-joie"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-p02-pestouille-0002",
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 128
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-expression-joi-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/p02-pestouille.json · sprite-pestouille-expression-joie"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/p02-pestouille.json#sprite-pestouille-expression-joie"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-expression-joie",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "cf4d79496a6471f2",
+    "phash": "cf73c8e4f1189499"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 65,
+    "verified": false,
+    "w": 65,
+    "x": 1320,
+    "y": 40
+  },
+  "sourceSheetId": "sheet-pestouille-planche-02-sprites-ti-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/14/146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.json": "9e08f991707bec777dd8e2d85bb4663757a00ca2",
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453"
+      },
+      "assetPath": "assets/export/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 408,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/p02-pestouille.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.json": "9e08f991707bec777dd8e2d85bb4663757a00ca2",
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453"
+      },
+      "assetPath": "assets/export/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1902,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/p02-pestouille.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.json": "9e08f991707bec777dd8e2d85bb4663757a00ca2",
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453"
+      },
+      "assetPath": "assets/export/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 408,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/p02-pestouille.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.json": "9e08f991707bec777dd8e2d85bb4663757a00ca2",
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453"
+      },
+      "assetPath": "assets/export/p02-pestouille.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1902,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/p02-pestouille.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p02-pestouille-0002",
+          "h": 64,
+          "sourceSheetSha256": "af08a1d16d2d0158311ef71dd3e3b556d9cb1a16c0dd3ba710fe1b9867576003",
+          "w": 64,
+          "x": 0,
+          "y": 128
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "146d5109e61b39a99471c72eb85777f390aa127f2bf651515a83afe005b21410",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

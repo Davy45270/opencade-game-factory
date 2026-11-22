@@ -110,7 +110,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "repo-file"
@@ -118,7 +118,7 @@
   "schemaVersion": "1.0",
   "sha256": "de661e9498644ebdc3daf8e491138f09fc3bc5901c154199c9eb887664063f93",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 83,
     "verified": false,
     "w": 83,
@@ -133,6 +133,40 @@
   "thumbnail": "thumbnails/de/de661e9498644ebdc3daf8e491138f09fc3bc5901c154199c9eb887664063f93.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/plateau-jeu@3x.json": "0a684097ebae3bcffab6fa8e300c7b180cb95499",
+        "packages/assets/atlas/plateau-jeu@3x.png": "e55a9a5c442e2f260c518fea0bf8eea4f6747567"
+      },
+      "assetPath": "packages/assets/atlas/plateau-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5169,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/plateau-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "plateau-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/plateau-jeu@3x.json": "0a684097ebae3bcffab6fa8e300c7b180cb95499",

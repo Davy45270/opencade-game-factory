@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "519bf38306f6903a87879735c9024407265a8a638db6cad8514ca3541cf83886",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 85,
     "verified": false,
     "w": 88,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/51/519bf38306f6903a87879735c9024407265a8a638db6cad8514ca3541cf83886.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-origine@3x.json": "e2b596c684d428afc1a24c9d360be1e57393ed81",
+        "packages/assets/atlas/commandes-origine@3x.png": "faffdc5dbb88951699f82d5641d43d99c52877b8"
+      },
+      "assetPath": "packages/assets/atlas/commandes-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 987,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/commandes-origine@3x.json": "e2b596c684d428afc1a24c9d360be1e57393ed81",

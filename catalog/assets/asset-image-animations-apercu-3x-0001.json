@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "generated",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/animations-apercu@3x.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "generated",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -137,8 +148,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/ab/abbc778052be5474bde523f59a71e048e5a06b972de581c60f1103aa08dfe1c7.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/animations-apercu@3x.png": "dd8f5d6f21caa41a8e28cb8c315fed7f17157401"
+      },
+      "assetPath": "packages/assets/atlas/animations-apercu@3x.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 94,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/animations-apercu@3x.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "animations-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/animations-apercu@3x.png": "dd8f5d6f21caa41a8e28cb8c315fed7f17157401"
+      },
+      "assetPath": "packages/assets/atlas/animations-apercu@3x.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 91,
+        "path": "packages/assets/atlas/animations-apercu@3x.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/animations-apercu@3x.png",
+        "module-path: packages/assets/atlas/animations-apercu@3x.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "animations-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/atlas/animations-apercu@3x.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/animations-apercu@3x.png": "dd8f5d6f21caa41a8e28cb8c315fed7f17157401"

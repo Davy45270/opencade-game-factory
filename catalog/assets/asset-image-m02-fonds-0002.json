@@ -7,8 +7,8 @@
   },
   "description": "M02 fonds — image 585×134",
   "dimensions": {
-    "height": 134,
-    "width": 585
+    "height": 168,
+    "width": 827
   },
   "facing": "unknown",
   "family": {
@@ -20,9 +20,32 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m02-fonds.webp",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m02-fonds.webp",
+        "provider": "local",
+        "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/m02-fonds.webp",
         "provider": "local",
@@ -39,7 +62,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     },
@@ -60,35 +83,35 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     },
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/m02-fonds.webp"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/m02-fonds.webp"
       ],
       "method": "proven"
     }
@@ -98,8 +121,8 @@
   "orientation": "unknown",
   "originUniverse": "unknown",
   "perceptual": {
-    "dhash": "ebe54c4c646ecccc",
-    "phash": "962a03899737b3d5"
+    "dhash": "d3dad8cda192d2b5",
+    "phash": "c12365c92a07ddde"
   },
   "pivot": "unknown",
   "provenance": {
@@ -110,27 +133,126 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "c57edc028475941df1145fdeb635e0b32af455caf54b092f82b2211cb33fe453",
+  "sha256": "77e619026b9dfba1a31b9db29b1230c08c97b4cb91f6bb7fd0dbefde6fbea1cc",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/c5/c57edc028475941df1145fdeb635e0b32af455caf54b092f82b2211cb33fe453.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "thumbnail": "thumbnails/77/77e619026b9dfba1a31b9db29b1230c08c97b4cb91f6bb7fd0dbefde6fbea1cc.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "public/assets/m02-fonds.webp": "04d5c8e70a855d3a7ae9af272922301f37529c2d"
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
       },
       "assetPath": "public/assets/m02-fonds.webp",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 926,
+        "line": 662,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-fonds.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
+      },
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 917,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-fonds.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
+      },
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 662,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-fonds.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
+      },
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 917,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m02-fonds.webp",
         "module-path: assets/liste-assets.json"
@@ -157,17 +279,29 @@
   "variants": [
     "asset-image-m02-fonds-0001"
   ],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "webp",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "c57edc028475941df1145fdeb635e0b32af455caf54b092f82b2211cb33fe453",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "format": "webp",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "77e619026b9dfba1a31b9db29b1230c08c97b4cb91f6bb7fd0dbefde6fbea1cc",
+      "version": 2
     }
   ],
   "visualStyle": null

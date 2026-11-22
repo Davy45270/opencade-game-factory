@@ -117,7 +117,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "repo-file"
@@ -125,7 +125,7 @@
   "schemaVersion": "1.0",
   "sha256": "50cb711373b72a79693ba4d3c64595c1de33bec024377c22dc7fe2c2b99b0e66",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 85,
     "verified": false,
     "w": 89,
@@ -140,6 +140,74 @@
   "thumbnail": "thumbnails/50/50cb711373b72a79693ba4d3c64595c1de33bec024377c22dc7fe2c2b99b0e66.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-origine@2x.json": "63fea9d7d1c6885b04c4bebb646884a611ad5452",
+        "packages/assets/atlas/commandes-origine@2x.png": "63a8397f8de399347195239d4ee8591b737b2227"
+      },
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 912,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-origine@2x.json": "63fea9d7d1c6885b04c4bebb646884a611ad5452",
+        "packages/assets/atlas/commandes-origine@2x.png": "63a8397f8de399347195239d4ee8591b737b2227"
+      },
+      "assetPath": "packages/assets/atlas/commandes-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 658,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/commandes-origine@2x.json": "63fea9d7d1c6885b04c4bebb646884a611ad5452",

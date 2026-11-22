@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "generated",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/effets-origine@2x.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/effets-origine@2x.webp",
@@ -130,8 +141,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/5a/5a39794e8e00d2c78281965cb980ce4c71b29b89334a03265a897b1f80a2e7c8.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-origine@2x.webp": "a2e70b5220b21ce239c447ef0ba3be973604a1d5"
+      },
+      "assetPath": "packages/assets/atlas/effets-origine@2x.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2188,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-origine@2x.webp",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/effets-origine@2x.webp",
       "assetVersion": 1,

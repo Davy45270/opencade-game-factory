@@ -2,14 +2,52 @@
 
 [Accueil](../index.md)
 
-# Licence unknown (page 7/11)
+# Licence unknown (page 7/13)
 
-2674 asset(s) sous `unknown`.
+3060 asset(s) sous `unknown`.
 
-Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown-4.md) · [5](unknown-5.md) · [6](unknown-6.md) · **7** · [8](unknown-8.md) · [9](unknown-9.md) · [10](unknown-10.md) · [11](unknown-11.md)
+Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown-4.md) · [5](unknown-5.md) · [6](unknown-6.md) · **7** · [8](unknown-8.md) · [9](unknown-9.md) · [10](unknown-10.md) · [11](unknown-11.md) · [12](unknown-12.md) · [13](unknown-13.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-audio-fr-croire-phrase-0001`](../../../catalog/assets/asset-audio-fr-croire-phrase-0001.json) | fr-croire-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dame-0001`](../../../catalog/assets/asset-audio-fr-dame-0001.json) | fr-dame | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dame-phrase-0001`](../../../catalog/assets/asset-audio-fr-dame-phrase-0001.json) | fr-dame-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-danger-0001`](../../../catalog/assets/asset-audio-fr-danger-0001.json) | fr-danger | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-danger-phrase-0001`](../../../catalog/assets/asset-audio-fr-danger-phrase-0001.json) | fr-danger-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-debout-0001`](../../../catalog/assets/asset-audio-fr-debout-0001.json) | fr-debout | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-debout-phrase-0001`](../../../catalog/assets/asset-audio-fr-debout-phrase-0001.json) | fr-debout-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-decider-0001`](../../../catalog/assets/asset-audio-fr-decider-0001.json) | fr-decider | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-decider-phrase-0001`](../../../catalog/assets/asset-audio-fr-decider-phrase-0001.json) | fr-decider-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-deja-0001`](../../../catalog/assets/asset-audio-fr-deja-0001.json) | fr-deja | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-deja-phrase-0001`](../../../catalog/assets/asset-audio-fr-deja-phrase-0001.json) | fr-deja-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-demander-0001`](../../../catalog/assets/asset-audio-fr-demander-0001.json) | fr-demander | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-demander-phrase-0001`](../../../catalog/assets/asset-audio-fr-demander-phrase-0001.json) | fr-demander-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-demeurer-0001`](../../../catalog/assets/asset-audio-fr-demeurer-0001.json) | fr-demeurer | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-demeurer-phrase-0001`](../../../catalog/assets/asset-audio-fr-demeurer-phrase-0001.json) | fr-demeurer-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dernier-0001`](../../../catalog/assets/asset-audio-fr-dernier-0001.json) | fr-dernier | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dernier-phrase-0001`](../../../catalog/assets/asset-audio-fr-dernier-phrase-0001.json) | fr-dernier-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-descendre-0001`](../../../catalog/assets/asset-audio-fr-descendre-0001.json) | fr-descendre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-descendre-phrase-0001`](../../../catalog/assets/asset-audio-fr-descendre-phrase-0001.json) | fr-descendre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dessus-0001`](../../../catalog/assets/asset-audio-fr-dessus-0001.json) | fr-dessus | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dessus-phrase-0001`](../../../catalog/assets/asset-audio-fr-dessus-phrase-0001.json) | fr-dessus-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-deux-0001`](../../../catalog/assets/asset-audio-fr-deux-0001.json) | fr-deux | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-deux-phrase-0001`](../../../catalog/assets/asset-audio-fr-deux-phrase-0001.json) | fr-deux-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-devenir-0001`](../../../catalog/assets/asset-audio-fr-devenir-0001.json) | fr-devenir | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-devenir-phrase-0001`](../../../catalog/assets/asset-audio-fr-devenir-phrase-0001.json) | fr-devenir-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-different-0001`](../../../catalog/assets/asset-audio-fr-different-0001.json) | fr-different | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-different-phrase-0001`](../../../catalog/assets/asset-audio-fr-different-phrase-0001.json) | fr-different-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-disparaitre-0001`](../../../catalog/assets/asset-audio-fr-disparaitre-0001.json) | fr-disparaitre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-disparaitre-phrase-0001`](../../../catalog/assets/asset-audio-fr-disparaitre-phrase-0001.json) | fr-disparaitre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-docteur-0001`](../../../catalog/assets/asset-audio-fr-docteur-0001.json) | fr-docteur | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-docteur-phrase-0001`](../../../catalog/assets/asset-audio-fr-docteur-phrase-0001.json) | fr-docteur-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-doigt-0001`](../../../catalog/assets/asset-audio-fr-doigt-0001.json) | fr-doigt | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-doigt-phrase-0001`](../../../catalog/assets/asset-audio-fr-doigt-phrase-0001.json) | fr-doigt-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-donner-0001`](../../../catalog/assets/asset-audio-fr-donner-0001.json) | fr-donner | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-donner-phrase-0001`](../../../catalog/assets/asset-audio-fr-donner-phrase-0001.json) | fr-donner-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dormir-0001`](../../../catalog/assets/asset-audio-fr-dormir-0001.json) | fr-dormir | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dormir-phrase-0001`](../../../catalog/assets/asset-audio-fr-dormir-phrase-0001.json) | fr-dormir-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
+| [`asset-audio-fr-dos-0001`](../../../catalog/assets/asset-audio-fr-dos-0001.json) | fr-dos | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
 | [`asset-audio-fr-dos-phrase-0001`](../../../catalog/assets/asset-audio-fr-dos-phrase-0001.json) | fr-dos-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
 | [`asset-audio-fr-doute-0001`](../../../catalog/assets/asset-audio-fr-doute-0001.json) | fr-doute | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
 | [`asset-audio-fr-doute-phrase-0001`](../../../catalog/assets/asset-audio-fr-doute-phrase-0001.json) | fr-doute-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
@@ -222,41 +260,3 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 | [`asset-audio-fr-leger-0001`](../../../catalog/assets/asset-audio-fr-leger-0001.json) | fr-leger | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
 | [`asset-audio-fr-leger-phrase-0001`](../../../catalog/assets/asset-audio-fr-leger-phrase-0001.json) | fr-leger-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
 | [`asset-audio-fr-lego-0001`](../../../catalog/assets/asset-audio-fr-lego-0001.json) | fr-lego | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lego-phrase-0001`](../../../catalog/assets/asset-audio-fr-lego-phrase-0001.json) | fr-lego-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lendemain-0001`](../../../catalog/assets/asset-audio-fr-lendemain-0001.json) | fr-lendemain | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lendemain-phrase-0001`](../../../catalog/assets/asset-audio-fr-lendemain-phrase-0001.json) | fr-lendemain-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lentement-0001`](../../../catalog/assets/asset-audio-fr-lentement-0001.json) | fr-lentement | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lentement-phrase-0001`](../../../catalog/assets/asset-audio-fr-lentement-phrase-0001.json) | fr-lentement-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lettre-0001`](../../../catalog/assets/asset-audio-fr-lettre-0001.json) | fr-lettre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lettre-phrase-0001`](../../../catalog/assets/asset-audio-fr-lettre-phrase-0001.json) | fr-lettre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lever-0001`](../../../catalog/assets/asset-audio-fr-lever-0001.json) | fr-lever | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lever-phrase-0001`](../../../catalog/assets/asset-audio-fr-lever-phrase-0001.json) | fr-lever-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-levre-0001`](../../../catalog/assets/asset-audio-fr-levre-0001.json) | fr-levre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-levre-phrase-0001`](../../../catalog/assets/asset-audio-fr-levre-phrase-0001.json) | fr-levre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-liberte-0001`](../../../catalog/assets/asset-audio-fr-liberte-0001.json) | fr-liberte | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-liberte-phrase-0001`](../../../catalog/assets/asset-audio-fr-liberte-phrase-0001.json) | fr-liberte-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-libre-0001`](../../../catalog/assets/asset-audio-fr-libre-0001.json) | fr-libre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-libre-phrase-0001`](../../../catalog/assets/asset-audio-fr-libre-phrase-0001.json) | fr-libre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lieu-0001`](../../../catalog/assets/asset-audio-fr-lieu-0001.json) | fr-lieu | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lieu-phrase-0001`](../../../catalog/assets/asset-audio-fr-lieu-phrase-0001.json) | fr-lieu-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-ligne-0001`](../../../catalog/assets/asset-audio-fr-ligne-0001.json) | fr-ligne | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-ligne-phrase-0001`](../../../catalog/assets/asset-audio-fr-ligne-phrase-0001.json) | fr-ligne-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lit-0001`](../../../catalog/assets/asset-audio-fr-lit-0001.json) | fr-lit | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lit-phrase-0001`](../../../catalog/assets/asset-audio-fr-lit-phrase-0001.json) | fr-lit-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-livre-0001`](../../../catalog/assets/asset-audio-fr-livre-0001.json) | fr-livre | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-livre-phrase-0001`](../../../catalog/assets/asset-audio-fr-livre-phrase-0001.json) | fr-livre-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-loin-0001`](../../../catalog/assets/asset-audio-fr-loin-0001.json) | fr-loin | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-loin-phrase-0001`](../../../catalog/assets/asset-audio-fr-loin-phrase-0001.json) | fr-loin-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-long-0001`](../../../catalog/assets/asset-audio-fr-long-0001.json) | fr-long | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-long-phrase-0001`](../../../catalog/assets/asset-audio-fr-long-phrase-0001.json) | fr-long-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-longtemps-0001`](../../../catalog/assets/asset-audio-fr-longtemps-0001.json) | fr-longtemps | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-longtemps-phrase-0001`](../../../catalog/assets/asset-audio-fr-longtemps-phrase-0001.json) | fr-longtemps-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lumiere-0001`](../../../catalog/assets/asset-audio-fr-lumiere-0001.json) | fr-lumiere | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lumiere-phrase-0001`](../../../catalog/assets/asset-audio-fr-lumiere-phrase-0001.json) | fr-lumiere-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lune-0001`](../../../catalog/assets/asset-audio-fr-lune-0001.json) | fr-lune | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-lune-phrase-0001`](../../../catalog/assets/asset-audio-fr-lune-phrase-0001.json) | fr-lune-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-main-0001`](../../../catalog/assets/asset-audio-fr-main-0001.json) | fr-main | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-main-phrase-0001`](../../../catalog/assets/asset-audio-fr-main-phrase-0001.json) | fr-main-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-maintenant-0001`](../../../catalog/assets/asset-audio-fr-maintenant-0001.json) | fr-maintenant | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-maintenant-phrase-0001`](../../../catalog/assets/asset-audio-fr-maintenant-phrase-0001.json) | fr-maintenant-phrase | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |
-| [`asset-audio-fr-maison-0001`](../../../catalog/assets/asset-audio-fr-maison-0001.json) | fr-maison | audio | [unknown](../licences/unknown.md) | unknown | [opencadkid](../jeux/opencadkid.md) | — |

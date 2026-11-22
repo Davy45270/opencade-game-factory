@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-7130 assets · 469 planches · 74 jeux employant des assets · 11 sources · 8 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+7479 assets · 477 planches · 75 jeux employant des assets · 11 sources · 8 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -77,7 +77,8 @@
 | [opencadkid/taupes](jeux/opencadkid--taupes.md) | 5 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/traverse](jeux/opencadkid--traverse.md) | 4 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/vis](jeux/opencadkid--vis.md) | 5 | [opencadkid](sources/opencadkid.md) |
-| [pestouille-rpg](jeux/pestouille-rpg.md) | 829 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg](jeux/pestouille-rpg.md) | 1162 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 4 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [petit-astronome](jeux/petit-astronome.md) | 22 | [petit-astronome](sources/petit-astronome.md) |
 | [six-de-chaque](jeux/six-de-chaque.md) | 7 | [six-de-chaque](sources/six-de-chaque.md) |
 | [six-de-chaque/renderer-pixi](jeux/six-de-chaque--renderer-pixi.md) | 1 | [six-de-chaque](sources/six-de-chaque.md) |
@@ -101,16 +102,16 @@
 
 | Licence | Assets |
 |---|---|
-| [CC-BY-4.0](licences/CC-BY-4.0.md) | 1246 |
+| [CC-BY-4.0](licences/CC-BY-4.0.md) | 1208 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
 | [LicenseRef-David-Prive-Tous-Droits-Reserves](licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) | 2468 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
-| [MIT](licences/MIT.md) | 702 |
-| [unknown](licences/unknown.md) | 2674 |
+| [MIT](licences/MIT.md) | 703 |
+| [unknown](licences/unknown.md) | 3060 |
 
-## Planches (469)
+## Planches (477)
 
 | Planche | Licence | Assets découpés |
 |---|---|---|
@@ -253,6 +254,7 @@
 | [e04-icones](planches/sheet-e04-icones-0001.md) | unknown | 0 |
 | [e04-monstres](planches/sheet-e04-monstres-0001.md) | unknown | 0 |
 | [e04-portraits](planches/sheet-e04-portraits-0001.md) | unknown | 0 |
+| [e04-recrutement](planches/sheet-e04-recrutement-0001.md) | unknown | 0 |
 | [École du village](planches/sheet-ecole-village-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
 | [Écuries](planches/sheet-ecuries-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
 | [effets-jeu@2x](planches/sheet-effets-jeu-2x-0001.md) | unknown | 0 |
@@ -319,12 +321,15 @@
 | [Lumi_profil_droit](planches/sheet-lumi-profil-droit-0001.md) | unknown | 0 |
 | [Lumi_profil_gauche](planches/sheet-lumi-profil-gauche-0001.md) | unknown | 0 |
 | [m01-boutons](planches/sheet-m01-boutons-0001.md) | unknown | 0 |
+| [m01-dialogue](planches/sheet-m01-dialogue-0001.md) | unknown | 0 |
 | [m01-ennemis](planches/sheet-m01-ennemis-0001.md) | unknown | 0 |
 | [m01-fonds](planches/sheet-m01-fonds-0001.md) | unknown | 0 |
+| [m01-fonds](planches/sheet-m01-fonds-0002.md) | unknown | 0 |
 | [m01-heros](planches/sheet-m01-heros-0001.md) | unknown | 0 |
 | [m01-icones](planches/sheet-m01-icones-0001.md) | unknown | 0 |
 | [m02-creatures](planches/sheet-m02-creatures-0001.md) | unknown | 0 |
 | [m02-fonds](planches/sheet-m02-fonds-0001.md) | unknown | 0 |
+| [m02-fonds](planches/sheet-m02-fonds-0002.md) | unknown | 0 |
 | [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
 | [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
 | [Maison des gardes](planches/sheet-maison-gardes-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
@@ -364,6 +369,7 @@
 | [p02-objets](planches/sheet-p02-objets-0001.md) | unknown | 0 |
 | [p02-objets](planches/sheet-p02-objets-0002.md) | unknown | 0 |
 | [p02-pestouille](planches/sheet-p02-pestouille-0001.md) | unknown | 0 |
+| [p02-pestouille](planches/sheet-p02-pestouille-0002.md) | unknown | 0 |
 | [p03-meubles](planches/sheet-p03-meubles-0001.md) | unknown | 0 |
 | [p03-objets](planches/sheet-p03-objets-0001.md) | unknown | 0 |
 | [p04-meubles](planches/sheet-p04-meubles-0001.md) | unknown | 0 |
@@ -399,22 +405,25 @@
 | [Pestouille_avant_3-4_droit](planches/sheet-pestouille-avant-3-4-droit-0001.md) | unknown | 0 |
 | [Pestouille_avant_3-4_gauche_sans_ombre](planches/sheet-pestouille-avant-3-4-gauche-sans-0001.md) | unknown | 0 |
 | [Pestouille_dessus](planches/sheet-pestouille-dessus-0001.md) | unknown | 0 |
-| [Pestouille de dos](planches/sheet-pestouille-dos-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
+| [Pestouille de dos](planches/sheet-pestouille-dos-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 38 |
 | [Pestouille de dos — détourée](planches/sheet-pestouille-dos-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
-| [Pestouille de face](planches/sheet-pestouille-face-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
+| [pestouille-east](planches/sheet-pestouille-east-0001.md) | unknown | 0 |
+| [Pestouille de face](planches/sheet-pestouille-face-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 57 |
 | [Pestouille en Père Noël](planches/sheet-pestouille-noel-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
 | [Pestouille en Père Noël — détourée](planches/sheet-pestouille-noel-detouree-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 56 |
+| [pestouille-north](planches/sheet-pestouille-north-0001.md) | unknown | 0 |
 | [Planche 01 : univers et gameplay](planches/sheet-pestouille-planche-01-univers-ga-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 0 |
-| [Planche 02 : sprites, tilesets, énigmes](planches/sheet-pestouille-planche-02-sprites-ti-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 65 |
-| [Pestouille de profil droit](planches/sheet-pestouille-profil-droit-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
+| [Planche 02 : sprites, tilesets, énigmes](planches/sheet-pestouille-planche-02-sprites-ti-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 99 |
+| [Pestouille de profil droit](planches/sheet-pestouille-profil-droit-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 57 |
 | [Pestouille_profil_droit_sans_ombre](planches/sheet-pestouille-profil-droit-sans-omb-0001.md) | unknown | 0 |
 | [Pestouille de dos (JPEG)](planches/sheet-pestouille-rpg-animations-dos-hl-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
 | [Pestouille de face (JPEG)](planches/sheet-pestouille-rpg-animations-face-h-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
 | [Pestouille de profil droit (JPEG)](planches/sheet-pestouille-rpg-animations-profil-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 19 |
-| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 116 |
-| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 120 |
-| [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 99 |
-| [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 21 |
+| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 174 |
+| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 183 |
+| [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 150 |
+| [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | LicenseRef-David-Prive-Tous-Droits-Reserves | 31 |
+| [pestouille-south](planches/sheet-pestouille-south-0001.md) | unknown | 0 |
 | [Petit_Pompiers_ambulance_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-ambulance-planche-0001.md) | unknown | 0 |
 | [Petit_Pompiers_animaux_a_secourir_catalogue_REFERENCE](planches/sheet-petit-pompiers-animaux-a-secouri-0001.md) | unknown | 0 |
 | [Petit_Pompiers_bouche_incendie_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-bouche-incendie-p-0001.md) | unknown | 0 |
@@ -593,6 +602,7 @@
 - [reports/orphans.md](../reports/orphans.md)
 - [reports/path-aliases.md](../reports/path-aliases.md)
 - [reports/scan-limits.md](../reports/scan-limits.md)
+- [reports/sync-pr.md](../reports/sync-pr.md)
 - [licenses.md](../licenses.md)
 - [docs/adr.md](../docs/adr.md)
 - [docs/architecture.md](../docs/architecture.md)

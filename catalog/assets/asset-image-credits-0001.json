@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/credits.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/c7/c79f2950391ec36a23a16ef34c13eb70686b5f6a68c6f3d1bbfb9aba3062edfb.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/credits.webp": "08307512f4a6b72ba6c6ce13d0b4c0635274bd16"
+      },
+      "assetPath": "packages/assets/runtime/credits.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 4,
+        "path": "apps/web/src/screens/About.tsx"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/credits.webp",
+        "module-path: apps/web/src/screens/About.tsx"
+      ],
+      "game": "capsule-panic",
+      "importName": "sheet",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/screens/About.tsx",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/runtime/credits.webp": "08307512f4a6b72ba6c6ce13d0b4c0635274bd16"

@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "153984a5e16894e822268cf83917ae62c9be697e2269bc96318fb4f8f6f0d384",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 91,
     "verified": false,
     "w": 138,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/15/153984a5e16894e822268cf83917ae62c9be697e2269bc96318fb4f8f6f0d384.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fioles-logo@3x.json": "3d241fe7c26ef12511f3752af302974df4ede9db",
+        "packages/assets/atlas/fioles-logo@3x.png": "d71d9e7e239abbe76247039d2d40470c38ded91d"
+      },
+      "assetPath": "packages/assets/atlas/fioles-logo@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2451,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/fioles-logo@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fioles-logo@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/fioles-logo@3x.json": "3d241fe7c26ef12511f3752af302974df4ede9db",

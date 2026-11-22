@@ -130,7 +130,40 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/e04-icones.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e04-icones.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/e04-icones.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/e04-icones.json",
         "provider": "local",
@@ -226,8 +259,41 @@
   "tags": [
     "icons"
   ],
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "assets/export/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 304,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e04-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
@@ -235,12 +301,309 @@
       "assetPath": "public/assets/e04-icones.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 395,
-        "path": "assets/liste-assets.json"
+        "line": 576,
+        "path": "assets.lock.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-icones.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets/export/e04-icones.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e04-icones.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 389,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "assets/export/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1500,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e04-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-icones.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets/manifests/e04-icones.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/e04-icones.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "assets/export/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 304,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e04-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 576,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-icones.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets/export/e04-icones.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/e04-icones.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "public/assets/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 389,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-icones.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-icones",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-icones.json": "ae050468a26c23cf3d8cf57eae1307732dd8e60d"
+      },
+      "assetPath": "assets/export/e04-icones.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1500,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e04-icones.json",
         "module-path: assets/liste-assets.json"
       ],
       "game": "pestouille-rpg",
@@ -271,7 +634,7 @@
         "line": 6,
         "path": "assets/manifests/e04-icones.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-icones.json",
         "module-path: assets/manifests/e04-icones.json"

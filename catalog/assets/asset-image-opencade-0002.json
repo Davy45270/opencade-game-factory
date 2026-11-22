@@ -425,6 +425,35 @@
   "updatedAt": "2026-11-20T23:26:57+01:00",
   "usages": [
     {
+      "assetPath": "public/autres-jeux/opencade.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/autres-jeux/opencade.png"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image public/autres-jeux/opencade.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid",
+      "importName": "opencade",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/autres-jeux/opencade.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "public/autres-jeux/opencade.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/autres-jeux/opencade.png": "6a06fe07bbb86684e5b5ebc4902d2da90c99aac5"
       },
@@ -1880,35 +1909,6 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/ui/other-games.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/autres-jeux/opencade.png",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 1,
-        "path": "public/autres-jeux/opencade.png"
-      },
-      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
-      "evidence": [
-        "importer_livre : image public/autres-jeux/opencade.png livrée (fichier suivi au commit)"
-      ],
-      "game": "opencadkid",
-      "importName": "opencade",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/autres-jeux/opencade.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencadkid",
-      "role": "image",
-      "scene": "public/autres-jeux/opencade.png",
       "status": "active"
     }
   ],

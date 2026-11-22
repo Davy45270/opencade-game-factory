@@ -14,9 +14,32 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "apps/web/style.css",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "apps/web/style.css",
+        "provider": "local",
+        "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "apps/web/style.css",
         "provider": "local",
@@ -47,21 +70,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:apps/web/style.css"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
       ],
       "method": "proven"
     }
@@ -79,26 +102,125 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "c8eedb1f16305d21aac3b2c29e977d5da5bc562851a1e0d4572f91a944bf824f",
+  "sha256": "1473898c7549f5b5ff136634e0de015c5c83c677d3bfe6b6ffe34aba1348a698",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "apps/web/style.css": "d9582c2bee41263e791a35dc552d266c7c07dcea"
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 15,
+        "line": 20,
         "path": "apps/web/main.ts"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "import: apps/web/style.css",
+        "module-path: apps/web/main.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "apps/web/main.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7,
+        "path": "tests/unit/habillage.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: apps/web/style.css",
+        "module-path: tests/unit/habillage.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "tests/unit/habillage.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 87,
+        "path": "tests/unit/lot13-preuves.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: apps/web/style.css",
+        "module-path: tests/unit/lot13-preuves.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "tests/unit/lot13-preuves.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 20,
+        "path": "apps/web/main.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "import: apps/web/style.css",
         "module-path: apps/web/main.ts"
@@ -120,20 +242,98 @@
       "role": "style",
       "scene": "apps/web/main.ts",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7,
+        "path": "tests/unit/habillage.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: apps/web/style.css",
+        "module-path: tests/unit/habillage.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "tests/unit/habillage.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+      },
+      "assetPath": "apps/web/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 87,
+        "path": "tests/unit/lot13-preuves.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: apps/web/style.css",
+        "module-path: tests/unit/lot13-preuves.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "tests/unit/lot13-preuves.test.ts",
+      "status": "active"
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "css",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "c8eedb1f16305d21aac3b2c29e977d5da5bc562851a1e0d4572f91a944bf824f",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "1473898c7549f5b5ff136634e0de015c5c83c677d3bfe6b6ffe34aba1348a698",
+      "version": 2
     }
   ],
   "visualStyle": null

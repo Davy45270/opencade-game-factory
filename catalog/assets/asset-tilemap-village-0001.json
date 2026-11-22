@@ -1,0 +1,199 @@
+{
+  "alpha": null,
+  "category": "tilemap",
+  "createdAt": "2026-11-21T13:05:32+00:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Village — tilemap",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "tilemap": {
+      "layerCount": 3,
+      "tileHeight": 16,
+      "tileWidth": 16
+    },
+    "type": "tilemap"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "content/tiled/village.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "content/tiled/village.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "tiledVersion": "1.11.2"
+  },
+  "id": "asset-tilemap-village-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/tiled/village.json · village"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "village",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/village.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "06ba736cc012486b9f9ed0bf93b8eb832035931b4ef6828b49e326ab97285648",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/tiled/village.json": "fe7c587c53ca40712bdeac6526aee65085545d12"
+      },
+      "assetPath": "content/tiled/village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 9,
+        "path": "packages/content/src/game-data.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "import: content/tiled/village.json",
+        "module-path: packages/content/src/game-data.ts"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "villageTiled",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "tilemap"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "tilemap",
+      "scene": "packages/content/src/game-data.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "content/tiled/village.json": "fe7c587c53ca40712bdeac6526aee65085545d12"
+      },
+      "assetPath": "content/tiled/village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 9,
+        "path": "packages/content/src/game-data.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "import: content/tiled/village.json",
+        "module-path: packages/content/src/game-data.ts"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "villageTiled",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "tilemap"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "tilemap",
+      "scene": "packages/content/src/game-data.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "06ba736cc012486b9f9ed0bf93b8eb832035931b4ef6828b49e326ab97285648",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

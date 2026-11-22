@@ -1,0 +1,291 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite pestouille north attack c — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-north-attack-c"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-pestouille-north-0001",
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-north-attack-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/pestouille-north.json · sprite-pestouille-north-attack-c"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/pestouille-north.json#sprite-pestouille-north-attack-c"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-north-attack-c",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "001268b297d5a6b4",
+    "phash": "b4cb9e2639cc9326"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "beb54a99de86d43e7bbdade501e16d7d4f23bab5301ee26417f400146680a29b",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "54a6720f97baeb1c68f5102e9d0ded3d0167fda9ee65d4283c7b16604130dbbe",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 164,
+    "verified": false,
+    "w": 172,
+    "x": 574,
+    "y": 467
+  },
+  "sourceSheetId": "sheet-pestouille-dos-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/54/54a6720f97baeb1c68f5102e9d0ded3d0167fda9ee65d4283c7b16604130dbbe.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.json": "fcf3fad12ef777afc833d7bfb53ba8a94f3f6738",
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 424,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.json": "fcf3fad12ef777afc833d7bfb53ba8a94f3f6738",
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2591,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.json": "fcf3fad12ef777afc833d7bfb53ba8a94f3f6738",
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 424,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.json": "fcf3fad12ef777afc833d7bfb53ba8a94f3f6738",
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2591,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-pestouille-north-0001",
+          "h": 64,
+          "sourceSheetSha256": "039dd8b41b5aed3e37a9e38e27dde17861d98ddaa0c5a8411781d448d9820353",
+          "w": 64,
+          "x": 128,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "54a6720f97baeb1c68f5102e9d0ded3d0167fda9ee65d4283c7b16604130dbbe",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

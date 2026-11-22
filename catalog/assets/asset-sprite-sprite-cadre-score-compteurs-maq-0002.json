@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "4dffd2b390206d7a30c8a2810c01d2f0ea4577fac0f893b1ae2ef3d188ad73e1",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 64,
     "verified": false,
     "w": 100,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/4d/4dffd2b390206d7a30c8a2810c01d2f0ea4577fac0f893b1ae2ef3d188ad73e1.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteurs-maquettes-apercu@3x.json": "49ee64eacb55a37e383a477367465de136d26a79",
+        "packages/assets/atlas/compteurs-maquettes-apercu@3x.png": "8cef9e6b3be98cae37637ec10015658e975c78d2"
+      },
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1638,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteurs-maquettes-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteurs-maquettes-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/compteurs-maquettes-apercu@3x.json": "49ee64eacb55a37e383a477367465de136d26a79",

@@ -25,7 +25,40 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-ennemis.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m01-ennemis.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-ennemis.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/m01-ennemis.json",
         "provider": "local",
@@ -105,8 +138,41 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 352,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
@@ -114,12 +180,309 @@
       "assetPath": "public/assets/m01-ennemis.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 611,
-        "path": "assets/liste-assets.json"
+        "line": 624,
+        "path": "assets.lock.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m01-ennemis.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets/export/m01-ennemis.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/m01-ennemis.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 605,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1644,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m01-ennemis.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets/manifests/m01-ennemis.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/m01-ennemis.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 352,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 624,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m01-ennemis.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets/export/m01-ennemis.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/m01-ennemis.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "public/assets/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 605,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-ennemis.json": "ebfb2177a9587ae65b8ba0a603bb4967392bc1b4"
+      },
+      "assetPath": "assets/export/m01-ennemis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1644,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-ennemis.json",
         "module-path: assets/liste-assets.json"
       ],
       "game": "pestouille-rpg",
@@ -150,7 +513,7 @@
         "line": 6,
         "path": "assets/manifests/m01-ennemis.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m01-ennemis.json",
         "module-path: assets/manifests/m01-ennemis.json"

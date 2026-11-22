@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 96×96 · SHA
 Fiche : [`sheet-e04-portraits-0001`](../../../catalog/sheets/sheet-e04-portraits-0001.json)
 
 - copie : pestouille-rpg `assets/export/e04-portraits.png`
+- copie : pestouille-rpg `assets/export/e04-portraits.png`
 
 0 asset(s) découpés de cette planche.
 

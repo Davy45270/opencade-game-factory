@@ -1,0 +1,291 @@
+{
+  "alpha": true,
+  "category": "characters",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite pnj fillette — sprite 96×96",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pnj-fillette"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e03-personnages-0001",
+        "h": 96,
+        "w": 96,
+        "x": 192,
+        "y": 96
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pnj-fillette-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "assets/export/e03-personnages.json · personnages"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/e03-personnages.json · sprite-pnj-fillette"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e03-personnages.json#sprite-pnj-fillette"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pnj-fillette",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "92b232b2b232b28e",
+    "phash": "ed49639263cc36c6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 75,
+    "verified": false,
+    "w": 40,
+    "x": 240,
+    "y": 838
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-03-monde-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/7a/7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e03-personnages.json": "a783d69761b07ea36afc582ae2e4906914c44ad6",
+        "assets/export/e03-personnages.png": "1021cd58477838d47ca1ee1381a88c11f6638c57"
+      },
+      "assetPath": "assets/export/e03-personnages.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 272,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e03-personnages.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-personnages.json": "a783d69761b07ea36afc582ae2e4906914c44ad6",
+        "assets/export/e03-personnages.png": "1021cd58477838d47ca1ee1381a88c11f6638c57"
+      },
+      "assetPath": "assets/export/e03-personnages.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1352,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e03-personnages.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-personnages.json": "a783d69761b07ea36afc582ae2e4906914c44ad6",
+        "assets/export/e03-personnages.png": "1021cd58477838d47ca1ee1381a88c11f6638c57"
+      },
+      "assetPath": "assets/export/e03-personnages.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 272,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e03-personnages.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-personnages.json": "a783d69761b07ea36afc582ae2e4906914c44ad6",
+        "assets/export/e03-personnages.png": "1021cd58477838d47ca1ee1381a88c11f6638c57"
+      },
+      "assetPath": "assets/export/e03-personnages.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1352,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/e03-personnages.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e03-personnages-0001",
+          "h": 96,
+          "sourceSheetSha256": "324503ccdaa50eb37ef8357035cdb0c782d93cad2764357a1d023ce352f78bbd",
+          "w": 96,
+          "x": 192,
+          "y": 96
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7a52eb22f422fe994a95a4b676b3cab76dd963c93c63957ef1ff834c4766cce7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

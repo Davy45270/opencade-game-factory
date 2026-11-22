@@ -7,7 +7,7 @@
   },
   "description": "Scene test 1280x800 clavier linux — image 1280×1127",
   "dimensions": {
-    "height": 1127,
+    "height": 800,
     "width": 1280
   },
   "facing": "unknown",
@@ -20,9 +20,32 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png",
+        "provider": "local",
+        "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png",
         "provider": "local",
@@ -37,8 +60,9 @@
         "game": "pestouille-rpg",
         "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png",
         "provider": "local",
+        "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       }
     ],
@@ -50,7 +74,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     },
@@ -71,35 +95,35 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     },
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png"
       ],
       "method": "proven"
     }
@@ -109,8 +133,8 @@
   "orientation": "unknown",
   "originUniverse": "unknown",
   "perceptual": {
-    "dhash": "8ed5a2a2e8f09184",
-    "phash": "c4e67b91c6e89187"
+    "dhash": "43c9ccc42c31c60d",
+    "phash": "c2c2695f6d659c94"
   },
   "pivot": "unknown",
   "provenance": {
@@ -121,28 +145,40 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "0fcd82b1d9e7800f77bb62904813e3765c3aae7692f3459b9dee24140f28353d",
+  "sha256": "04d1944427108ffb5b4788ab62b58b8da1a8c23d1778374e5c08967c4e7a62ef",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/0f/0fcd82b1d9e7800f77bb62904813e3765c3aae7692f3459b9dee24140f28353d.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "thumbnail": "thumbnails/04/04d1944427108ffb5b4788ab62b58b8da1a8c23d1778374e5c08967c4e7a62ef.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "png",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "0fcd82b1d9e7800f77bb62904813e3765c3aae7692f3459b9dee24140f28353d",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "format": "png",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "04d1944427108ffb5b4788ab62b58b8da1a8c23d1778374e5c08967c4e7a62ef",
+      "version": 2
     }
   ],
   "visualStyle": null

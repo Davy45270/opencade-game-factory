@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-eclat-effets-origine.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/ad/adaefcde22490a83430c5122155402337d97cf5951d70675455958e2ce7957ae.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-eclat-effets-origine.png": "213a73de7b8ee9ca27a1cc7d39c4bfed762bc0a5"
+      },
+      "assetPath": "packages/assets/sprites/sprite-eclat-effets-origine.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6368,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-eclat-effets-origine.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-eclat-effets-origine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-eclat-effets-origine.png": "213a73de7b8ee9ca27a1cc7d39c4bfed762bc0a5"

@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 48,
     "verified": false,
     "w": 51,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/3a/3a975ceeba055dd3e4d510bb40e6d7221ff866c209dd50a56ec05511f6d1d1e0.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/commandes-apercu@3x.json": "34d58e761210c29f8dac5e3f94462f57e6dcfeaf",
+        "packages/assets/atlas/commandes-apercu@3x.png": "37c14f3e1e036c79bca4c19dfbd0ed1ded8ed8e2"
+      },
+      "assetPath": "packages/assets/atlas/commandes-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 828,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/commandes-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "commandes-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/commandes-apercu@3x.json": "34d58e761210c29f8dac5e3f94462f57e6dcfeaf",

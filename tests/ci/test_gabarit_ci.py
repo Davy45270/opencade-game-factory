@@ -249,6 +249,9 @@ class BaseE2E(unittest.TestCase):
         y = yaml.safe_load((RACINE / "ci" / "gabarit" / "e2e.yml").read_text().replace("@ENTETE@", "")
                            .replace("@PLAYWRIGHT_IMAGE@", "img").replace("@E2E_COMMANDE@", "E2E"))
         self.assertEqual(y["clone"][0]["settings"]["depth"], 0)
+        # tictac PR #1, Woodpecker 19 #1 (22/11) : dépôt forge privé, le `git fetch` de base-e2e.mjs n'a pas d'identifiants
+        # dans l'étape ; sans la branche cible clonée par le plugin, « PR sans base » sur TOUTE PR.
+        self.assertIs(y["clone"][0]["settings"].get("fetch_target_branch"), True)
         cmds = y["steps"][0]["commands"]
         i = next(n for n, c in enumerate(cmds) if "base-e2e.mjs" in c)
         self.assertIn("export E2E_BASE", cmds[i + 1])

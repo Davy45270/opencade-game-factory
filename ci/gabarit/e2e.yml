@@ -10,13 +10,15 @@ when:
     branch: main
   - event: [pull_request, manual]
 
-# Historique complet : la base du diff e2e d'une PR est son merge-base avec la branche cible.
+# Historique complet ET branche cible clonée : la base du diff e2e d'une PR est son merge-base avec la branche cible
+# (dépôt privé : le `git fetch` de l'étape n'a pas d'identifiants, seul le plugin de clone en a).
 clone:
   - name: clone
     image: woodpeckerci/plugin-git:2.12.1
     settings:
       depth: 0
       partial: false
+      fetch_target_branch: true
 
 steps:
   - name: e2e

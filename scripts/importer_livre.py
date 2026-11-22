@@ -227,6 +227,16 @@ PROFILS = {
                                        "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
                                                    "licence du code qui les dessine, MIT (2026-11-22)."}}],
     },
+    "tictac": {
+        # Icônes : scripts/make-icons.js les dessine pixel par pixel et écrit public/icons/tictac-*.png (91332d4).
+        "images": [{"prefixe": "public/icons/tictac-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "tictac 91332d4 (scripts/make-icons.js écrit public/icons/tictac-*.png) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
     "opencade": {"monorepo": "src/games"},
     "opencadkid": {"monorepo": "src/games"},
 }

@@ -301,6 +301,35 @@
       "role": "ui",
       "scene": "tests/contrast.test.ts",
       "status": "active"
+    },
+    {
+      "assetPath": "src/ui/app.ts",
+      "assetVersion": 6,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/app.ts"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "importer_livre : module src/ui/app.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "tictac",
+      "importName": "app",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/app.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "dessin-code",
+      "scene": "src/ui/app.ts",
+      "status": "active"
     }
   ],
   "variants": [],

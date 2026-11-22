@@ -1,0 +1,27 @@
+# EXT-002 § 2 « discover » sur GitHub Actions : inventaire des niveaux des jeux autorisés, lus sur leurs copies
+# GitHub PUBLIQUES, sans jeton et sans écrire les sources (`level discover --dry-run`). Échoue si un fichier détecté
+# n'est ni inventorié, ni classé en exception, ni ignoré avec motif, ou si une source a bougé pendant le scan.
+# Woodpecker : même script dans .woodpecker/scan.yml (cron). Aucun secret.
+name: discover
+on:
+  schedule:
+    - cron: "41 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/discover.yml", "tools/levels/**", "scripts/niveaux-decouverte-publique.py"]
+  pull_request:
+    branches: [main]
+    paths: ["tools/levels/**", "scripts/niveaux-decouverte-publique.py"]
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    container: python:3.13-slim
+    steps:
+      - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: git config --global --add safe.directory '*'
+      - run: pip install --quiet --disable-pip-version-check -r requirements.txt
+      - run: python3 scripts/niveaux-decouverte-publique.py

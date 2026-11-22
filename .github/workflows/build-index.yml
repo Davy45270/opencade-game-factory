@@ -1,0 +1,24 @@
+# AT-12 (E122) sur GitHub Actions : l'index se reconstruit depuis catalog/ seul et generated/ commité est à jour.
+# Woodpecker (.woodpecker/build-index.yml) tourne EN PLUS sur la forge. Aucun secret.
+name: build-index
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  index:
+    runs-on: ubuntu-24.04
+    container: python:3.13-slim
+    steps:
+      - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: git config --global --add safe.directory '*'
+      - run: pip install --quiet --disable-pip-version-check -r requirements.txt
+      - run: ./assetctl index --json > /dev/null
+      - run: git diff --stat --exit-code -- generated/
+      - name: aucun fichier produit sans être commité
+        run: test -z "$(git status --porcelain --untracked-files=all -- generated/)" || { git status --short -- generated/; exit 1; }

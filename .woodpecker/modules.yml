@@ -44,6 +44,14 @@ steps:
       - . .venv/bin/activate
       - python3 scripts/docs_generees.py --check
 
+  # REG-08 (E108, HL-538) : pages Markdown du catalogue (generated/catalogue/), refaites depuis catalog/ et l'index
+  # d'usage ; une page périmée, absente ou en trop fait échouer la PR (code 2). Régénérer : python3 scripts/catalogue_pages.py
+  - name: catalogue-pages
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - python3 scripts/catalogue_pages.py --check
+
   # BB-001 § 9 (matrice E206, E224) : depuis les manifestes JSON du catalogue réel, l'index SQLite FTS5 et le graphe de
   # dépendances se génèrent, puis --check les retrouve identiques (reconstruction déterministe). Rien n'est commité.
   - name: index-briques

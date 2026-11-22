@@ -1268,6 +1268,8 @@ def main(argv):
         compte["usages"] += len(nouveaux.get(aid, []))
         ecrire_si_change(REG / "catalog/assets" / f"{aid}.json", doc, compte)
     assetctl("index", "rebuild")
+    # Pages du catalogue (REG-08) refaites avec le catalogue : sinon le contrôle --check de la CI les trouve périmées.
+    sh(sys.executable, str(REG / "scripts/catalogue_pages.py"), cwd=REG)
 
     # 4. assets.lock.json du jeu (facultatif) : les fichiers livrés (images d'atlas et images isolées)
     if args.lock:

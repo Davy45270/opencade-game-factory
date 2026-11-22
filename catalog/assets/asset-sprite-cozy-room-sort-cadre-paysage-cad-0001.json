@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:46:27.211900+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cadre-paysage-0001",
+        "reason": "découpe brute de l'élément cadre-paysage : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "be90403c96d8b0c8de25e10a8cb2b43a8028ce3ac73c730c964c49ad58641e4d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cadre paysage",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cadre-paysage-0001",
+          "reason": "découpe brute de l'élément cadre-paysage : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cadre-paysage-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:46:26.820027+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cadre-paysage » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément cadre-paysage",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cadre-paysage-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cadre-paysage-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-cadre-paysage"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cadre-paysage-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-194.png, SHA-256 aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-cadre-paysage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cadre-paysage (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "03dcc4929286cc03",
+    "phash": "c5853a396dc7943a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cadre-paysage-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cadre-paysage livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [115, 95, 938, 628], \"cadre\": \"sprite-cadre-paysage\", \"element\": \"cadre-paysage\", \"empreintePixels\": \"d75a3ceae58d3443016440df91bef2c95f7684e6909b98ed57e30a92ee8069ae\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 95, \"w\": 115, \"x\": 938, \"y\": 628}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cadre-paysage-0001",
+    "parentSha256": "ae6db493d7d21f93f3a3c220266e6bbcbe0d64d46e1606dff18d6decfc8ecbe2",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:46:27.211900+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 171,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-paysage de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels d75a3ceae58d3443)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cadre-paysage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "aa912330048d0da720278cfc6abffc0adb7d985d70ad1c0c8623457d9e54b47a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

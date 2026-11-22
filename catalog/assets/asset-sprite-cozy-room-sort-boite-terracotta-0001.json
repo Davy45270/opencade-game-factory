@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:46:05.371285+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-boite-terracotta-0001",
+        "reason": "découpe brute de l'élément boite-terracotta : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c8c7d35e38c3cdeac5d94c1f23ff6f9327b0ffcaa51ce9e790a191c3c5ccf8d1",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "boite terracotta",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-boite-terracotta-0001",
+          "reason": "découpe brute de l'élément boite-terracotta : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-boite-terracotta-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:46:04.979946+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-boite-terracotta » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément boite-terracotta",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-boite-terracotta-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-boite-terracotta-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-boite-terracotta"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-boite-terracotta-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-191.png, SHA-256 843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-boite-terracotta"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort boite-terracotta (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9e71f8f0b192f113",
+    "phash": "c1962f6838d3b599"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-boite-terracotta-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-boite-terracotta livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [140, 119, 1170, 764], \"cadre\": \"sprite-boite-terracotta\", \"element\": \"boite-terracotta\", \"empreintePixels\": \"9cbe021e612b63fd90ecc912d789279a29ff6c6e0441a82187cd3a48a9adeb8b\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 119, \"w\": 140, \"x\": 1170, \"y\": 764}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-boite-terracotta-0001",
+    "parentSha256": "86fdadd1c685a7938ba4e99a59e81a911e98a74698f0bd1fb35838f64ae4fb61",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:46:05.371285+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-boite-terracotta de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 9cbe021e612b63fd)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-boite-terracotta",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "843de44604840c13258430493e26586d444ab047aca5462265c7b78cf7d908e4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

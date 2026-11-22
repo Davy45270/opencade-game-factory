@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:04:28.867474+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-titre-salle-de-bain-0001",
+        "reason": "découpe brute de l'élément titre-salle-de-bain : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7fae36f3dfa888a04c16813ab012d6fe609f68e33dab124d071c8849757e7c9e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "titre salle de bain",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-titre-salle-de-bain-0001",
+          "reason": "découpe brute de l'élément titre-salle-de-bain : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-titre-salle-de-bain-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:04:28.515199+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-titre-salle-de-bain » (content/assets/planches/atlas/p04-selecteur.webp), forme normalisée par le jeu de l'élément titre-salle-de-bain",
+  "dimensions": {
+    "height": 200,
+    "width": 200
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-titre-salle-de-ba-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-titre-salle-de-ba-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-titre-salle-de-bain"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-titre-salle-de-bain-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-347.png, SHA-256 fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-titre-salle-de-bain"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort titre-salle-de-bain (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "00a251a2a2418000",
+    "phash": "d0872f78d08f2f70"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-titre-salle-de-bain-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-titre-salle-de-bain livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-selecteur.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-selecteur.webp (webp)\", \"boite\": [376, 78, 416, 33], \"cadre\": \"sprite-titre-salle-de-bain\", \"element\": \"titre-salle-de-bain\", \"empreintePixels\": \"3de884a8b134849ba427df4aea1ebec12f24c5a9adc148e0211b44bb8a101841\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 78, \"w\": 376, \"x\": 416, \"y\": 33}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-titre-salle-de-bain-0001",
+    "parentSha256": "b03866aac8bc62ec9df89812003c01c467c6b5ab64cc72906cdf2627b47ee536",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-selecteur.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:04:28.867474+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-selecteur.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p04-selecteur.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-titre-salle-de-bain de content/assets/planches/atlas/p04-selecteur.webp (empreinte de pixels 3de884a8b134849b)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-titre-salle-de-bain",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-selecteur.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-selecteur.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fc816eda21d2c12a3d2c63226ac69083af966f19176303b84c2b4a0c33fe2a8b",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1612,7 +1612,7 @@
 - `asset-image-choc-04-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-image-choc-04-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-image-choc-04-0005` — unknown · forbidden · Autorisation non établie.
-- `asset-image-choix-salle-de-bain-normal-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-choix-salle-de-bain-normal-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cloture-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cloud-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cloud-top-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -1659,9 +1659,9 @@
 - `asset-image-compteurs-maquettes-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-compteurs-maquettes-jeu-3x-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-coquillage-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cozy-room-sort-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cozy-room-sort-512-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cozy-room-sort-maskable-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cozy-room-sort-192-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cozy-room-sort-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cozy-room-sort-maskable-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-crate-caisse-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-credits-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-0001` — unknown · forbidden · Autorisation non établie.
@@ -3100,11 +3100,20 @@
 - `asset-sprite-arbre-vivant-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-arbre-vivant-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-arbre-vivant-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-armoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-armure-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-aubepin-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bac-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bac-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bac-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-baignoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-balayette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-pm-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-pv-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-barre-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bete-ecarlate-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bibliotheque-arche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3259,6 +3268,16 @@
 - `asset-sprite-blobs-variantes-vert-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bloc-pierre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bloc-pousser-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-boite-carton-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-fleurie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-poignee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-pois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-rayee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-borin-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-borin-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-borin-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3269,8 +3288,13 @@
 - `asset-sprite-borin-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bottes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bouclier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bougie-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-ruban-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-verre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boule-de-feu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-boule-de-feu-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-bouquet-blanc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bourse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bouton-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bouton-competence-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3279,9 +3303,35 @@
 - `asset-sprite-bouton-non-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bouton-objet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-bouton-oui-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-boutons-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boutons-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-brosse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-annuler-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-indice-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-jouer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-recommencer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-refaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-reglages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bureau-chaise-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cactus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cadre-bois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cadre-chat-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-collines-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-montagne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-paysage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-suspendu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-tulipe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canape-jaune-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canape-plaid-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canard-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-carte-monde-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-carton-ferme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-carton-ouvert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-inventaire-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-case-tampon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cepe-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cepe-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3338,9 +3388,12 @@
 - `asset-sprite-cepe-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cepe-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cepe-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-chaise-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-champignon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-champignon-mignon-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-champignon-mignon-evolue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-chat-dort-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chat-dort-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chaudron-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-chauve-souris-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-chauve-souris-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3404,7 +3457,14 @@
 - `asset-sprite-chauve-souris-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-chauve-souris-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-chauve-souris-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cheminee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coffre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-coffre-dore-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-coffre-mimic-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3413,10 +3473,194 @@
 - `asset-sprite-commande-defense-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-commande-fuite-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-commande-objet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-commode-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commode-miel-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-competence-etincelle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-competence-griffe-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-competence-protection-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-competence-souffle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-cotons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussin-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussin-patte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussins-duo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-armoire-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-osier-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-baignoire-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-balayette-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-barre-sdb-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bibliotheque-arch-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-carton-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-creme-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-fleurie-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-poignee-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-pois-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-rayee-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-bois-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-creme-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-peche-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-pot-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-rose-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-ruban-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-verre-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bouquet-blanc-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boutons-bas-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boutons-haut-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-brosse-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-accueil-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-annuler-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-indice-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-jouer-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-recommencer-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-refaire-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-reglages-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bureau-chaise-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cactus-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-chat-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-collines-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-feuille-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-montagne-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-paysage-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-suspendu-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-tulipe-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canape-jaune-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canape-plaid-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canard-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-carton-ferme-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-carton-ouvert-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-case-tampon-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chaise-bois-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chat-dort-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chat-dort-rose-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cheminee-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-chambre-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-cuisine-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-salle-de-ba-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-salon-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coche-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-commode-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-commode-miel-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cotons-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussin-creme-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussin-patte-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussins-duo-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-desserte-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-diffuseur-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-douche-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-eponge-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-bougies-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-livres-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-murale-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-plante-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-sdb-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-droite-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-milieu-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-evier-vert-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-fleur-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-rose-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-terracot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-vert-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-creme-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-pompe-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-rose-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fleur-douche-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-frigo-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gobelet-brosses-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gueridon-livre-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-guirlande-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-hortensias-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampadaire-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampe-chevet-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampe-table-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lanterne-maison-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lapin-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lavabo-miroir-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lave-linge-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-liseuse-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lit-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lit-vichy-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-pile-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-plante-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-trio-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-macrame-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-meuble-tele-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-miroir-rond-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-monstera-coeur-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-monstera-panier-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-mouchoirs-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-mur-fenetre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-ours-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-ours-panier-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-anse-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-anses-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-linge-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-osier-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-papier-rouleaux-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-peigne-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-peignoir-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pese-personne-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-petit-cadre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plaid-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-blanche-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-panier-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-pot-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pot-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pot-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pouf-rose-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-rasoir-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-rideau-douche-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-seche-cheveux-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sels-peche-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sels-roses-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviette-anneau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviette-barre-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviettes-pile-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-carreaux-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-chevrons-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-fleuri-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-lattes-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-moquette-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-parquet-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-vert-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-suspension-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-table-ronde-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-bouclette-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-feuille-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-fleur-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-nuage-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-ovale-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-pieds-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-rond-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-vichy-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-titre-salle-de-ba-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-toilettes-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tournesols-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tube-creme-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vaisselier-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-chambre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cristal-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cristal-socle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-cuisine-couverts-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
@@ -3453,6 +3697,7 @@
 - `asset-sprite-cuisine-torchon-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dalle-mousse-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-dalles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-desserte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-diable-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-diable-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3509,11 +3754,35 @@
 - `asset-sprite-diable-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-diable-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-diable-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-diffuseur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dragon-violet-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-eclat-givre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-epee-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-eponge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-bougies-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-livres-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-murale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-evier-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-feuille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-feuille-doree-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-flacon-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-pompe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-flamme-cyan-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-flamme-orange-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3522,6 +3791,7 @@
 - `asset-sprite-flamme-verte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-flamme-violette-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-fleur-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-fleur-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-florifeu-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-fond-campement-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-fond-combat-foret-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3529,7 +3799,9 @@
 - `asset-sprite-fond-foret-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-fond-temple-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-fond-village-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-frigo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-givreloup-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-gobelet-brosses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-golem-glace-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-golem-pierre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-golem-pierre-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3672,6 +3944,10 @@
 - `asset-sprite-guepe-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-guepe-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-guepe-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-gueridon-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gueridon-tasse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guirlande-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-hortensias-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-interrupteur-mural-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-koala-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-koala-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3729,9 +4005,16 @@
 - `asset-sprite-koala-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-koala-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-koala-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lampadaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lampe-chevet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lampe-table-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lanterne-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lanterne-maison-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lapin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lapin-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lapin-aile-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-lavabo-miroir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lave-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-levier-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-lila-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-lila-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3742,9 +4025,16 @@
 - `asset-sprite-lila-dos-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-lila-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-lila-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-liseuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lit-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lit-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-livre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-livres-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-livres-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-livres-trio-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-logo-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-loup-givre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-macrame-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mage-sombre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-meduse-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-meduse-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3826,13 +4116,18 @@
 - `asset-sprite-metier-mage-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-metier-pretre-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-metier-sage-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-meuble-tele-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mini-borin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-mini-lila-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-mini-nox-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-mini-pestouille-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-minicarte-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-miroir-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-monstera-coeur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-monstera-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mossling-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-mossling-fleuri-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-mouchoirs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-moustique-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-moustique-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-moustique-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3889,6 +4184,7 @@
 - `asset-sprite-moustique-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-moustique-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-moustique-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-mur-fenetre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-cote-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-nox-cote-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-nox-cote-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -3899,10 +4195,23 @@
 - `asset-sprite-nox-face-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-nox-portrait-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-oiseau-dore-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-ours-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-ours-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-anse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-anses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-panneau-dialogue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-panneau-quotas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-quotas-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-papier-rouleaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-parchemin-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-parchemin-quete-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-peigne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-peignoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pese-personne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-4directions-bas-attaq-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pestouille-4directions-bas-attaq-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pestouille-4directions-bas-attaq-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -4774,6 +5083,7 @@
 - `asset-sprite-pestouille-vol-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pestouille-vol-b-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pestouille-vol-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-petit-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pieuvre-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pieuvre-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -4830,7 +5140,11 @@
 - `asset-sprite-pieuvre-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pieuvre-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pieuvre-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-plaid-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-blanche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-buisson-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-plante-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-verte-4directions-bas-att-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-plante-verte-4directions-bas-att-0002` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-plante-verte-4directions-bas-att-0003` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -5003,8 +5317,11 @@
 - `asset-sprite-pnj-villageois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pnj-villageoise-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pont-bois-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-portrait-hud-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-pot-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-pot-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pot-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-potion-bleue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-potion-rouge-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-poubelle-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -5063,6 +5380,8 @@
 - `asset-sprite-poubelle-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-poubelle-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-poubelle-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-pouf-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-rasoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-requin-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-requin-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -5124,6 +5443,7 @@
 - `asset-sprite-requin-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-requin-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-requin-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-rideau-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-robot-bas-attaque-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-robot-bas-attaque-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-robot-bas-attaque-c-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -5190,6 +5510,21 @@
 - `asset-sprite-sanglier-brun-evolue-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-sanglier-epineux-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-sanglieron-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-seche-cheveux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sels-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sels-roses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviette-anneau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviette-barre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviettes-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-carreaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-chevrons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-fleuri-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-lattes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-moquette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-parquet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-souche-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-accueil-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-accueil-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
@@ -5887,6 +6222,17 @@
 - `asset-sprite-sprite-vue-cuisine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-vue-salle-de-bain-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-vue-salon-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-suspension-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-table-ronde-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-bouclette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-nuage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-ovale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-pieds-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-telephone-malicieux-bas-attaque-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-telephone-malicieux-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-telephone-malicieux-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -5944,7 +6290,10 @@
 - `asset-sprite-telephone-malicieux-haut-marche-0005` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-telephone-malicieux-haut-marche-0006` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-teleporteur-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-titre-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-toilettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tonneau-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-tournesols-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trainee-souffle-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-troll-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-troll-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -6002,6 +6351,8 @@
 - `asset-sprite-troll-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-troll-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-troll-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-tube-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vaisselier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-bas-attaque-bloc-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-vampire-bas-blesse-a-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-vampire-bas-blesse-b-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
@@ -6058,6 +6409,10 @@
 - `asset-sprite-vampire-haut-marche-d-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-vampire-haut-marche-e-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-sprite-vampire-haut-marche-f-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-sprite-vue-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-style-style-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-style-style-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-style-style-0003` — unknown · forbidden · Autorisation non établie.

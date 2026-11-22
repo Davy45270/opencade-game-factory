@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:56:16.431839+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cadre-collines-0001",
+        "reason": "découpe brute de l'élément cadre-collines : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4f5ae2705220727ba53b96f344fa57a7725a91aa4f1a9cde3d547cb2925d583c",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cadre collines",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cadre-collines-0001",
+          "reason": "découpe brute de l'élément cadre-collines : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cadre-collines-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:56:16.109087+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cadre-collines » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément cadre-collines",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cadre-collines-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cadre-collines-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-cadre-collines"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cadre-collines-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-276.png, SHA-256 c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-cadre-collines"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cadre-collines (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "01948ab2b2b2c423",
+    "phash": "c1923e6c6bc33d38"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cadre-collines-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cadre-collines livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [133, 107, 686, 577], \"cadre\": \"sprite-cadre-collines\", \"element\": \"cadre-collines\", \"empreintePixels\": \"3d599110a9d82cc8399423453a2bad693281388cec69ba0f2cd9156293e5e1cb\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 107, \"w\": 133, \"x\": 686, \"y\": 577}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cadre-collines-0001",
+    "parentSha256": "ef0ac84e6a28c6c812e3ff42ee65ea1ba221615e12617a94a754e6a1dc607699",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:56:16.431839+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 150,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-collines de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 3d599110a9d82cc8)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cadre-collines",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c4bf0d347e115de324924169f6ca744a44bc5c7cf274ac3646255b66738fd16f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

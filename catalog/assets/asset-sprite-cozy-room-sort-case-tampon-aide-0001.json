@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:47:46.476955+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-case-tampon-aide-0001",
+        "reason": "découpe brute de l'élément case-tampon-aide : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "67455f31b827ae8e5e4b1ea39fdb58ebd49364e4b7a782537ebdd4711347b5ca",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "case tampon aide",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-case-tampon-aide-0001",
+          "reason": "découpe brute de l'élément case-tampon-aide : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-case-tampon-aide-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:47:46.103597+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-case-tampon-aide » (content/assets/planches/atlas/p01-panneaux.webp), forme normalisée par le jeu de l'élément case-tampon-aide",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-case-tampon-aide-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-case-tampon-aide-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-case-tampon-aide"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-case-tampon-aide-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-205.png, SHA-256 8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-case-tampon-aide"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort case-tampon-aide (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "26c9c8a092ce0182",
+    "phash": "d5d22a2dd55a95c1"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-case-tampon-aide-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-case-tampon-aide livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-panneaux.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-panneaux.webp (webp)\", \"boite\": [272, 130, 17, 669], \"cadre\": \"sprite-case-tampon-aide\", \"element\": \"case-tampon-aide\", \"empreintePixels\": \"325ac44ebe69743b21091d63a65f97c1660fd79c8f98adc9a8acfb71b84c3e67\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 130, \"w\": 272, \"x\": 17, \"y\": 669}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-case-tampon-aide-0001",
+    "parentSha256": "f5bb6b4140c3f0f85ae67496182dd9506290311e9d210fc80e2ce00e1caecf9d",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-panneaux.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:47:46.476955+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-panneaux.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/assets/planches/atlas/p01-panneaux.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-case-tampon-aide de content/assets/planches/atlas/p01-panneaux.webp (empreinte de pixels 325ac44ebe69743b)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-case-tampon-aide",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-panneaux.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-panneaux.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8171f0ee7e6126b4f13459c38f4d381ac338b7ea306042a2e5b794603b3fb746",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

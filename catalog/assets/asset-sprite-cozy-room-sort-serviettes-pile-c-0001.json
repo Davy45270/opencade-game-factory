@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:03:38.145575+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-serviettes-pile-0001",
+        "reason": "découpe brute de l'élément serviettes-pile : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "65790e5119e0f6b3799711dbef30a92524d983bbdeb9770dd58be8f3eadf520e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "serviettes pile",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-serviettes-pile-0001",
+          "reason": "découpe brute de l'élément serviettes-pile : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-serviettes-pile-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:03:37.783263+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-serviettes-pile » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément serviettes-pile",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-serviettes-pile-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-serviettes-pile-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-serviettes-pile"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-serviettes-pile-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-340.png, SHA-256 b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-serviettes-pile"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort serviettes-pile (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "b170c8e8d0e8f97b",
+    "phash": "d2963e78696b6261"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-serviettes-pile-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-serviettes-pile livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [114, 114, 1408, 598], \"cadre\": \"sprite-serviettes-pile\", \"element\": \"serviettes-pile\", \"empreintePixels\": \"c0cabb85571de8cb47497fb27496930ced8da0725cc1f8464a7b7ccc62613927\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 114, \"w\": 114, \"x\": 1408, \"y\": 598}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-serviettes-pile-0001",
+    "parentSha256": "ca17dcc933516b0cacb2369e8b15ed91d21f074df2a92a9c5bbd9da3279d444f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:03:38.145575+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 654,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-serviettes-pile de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels c0cabb85571de8cb)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-serviettes-pile",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b2e08ee51541025775eb820e22dcc3e1166326f907d000e09883c0626e9e7917",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

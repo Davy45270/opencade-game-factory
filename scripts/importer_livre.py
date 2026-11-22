@@ -108,6 +108,18 @@ PROFILS = {
                                        "le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe "
                                        "refaite depuis la planche (empreinte identique à provenance.json)."},
         "auteur": "Davy45270 (illustrations ; README du jeu)",
+        # Images dérivées d'un dessin de David (icônes depuis un cadre, état normal recoloré), déclarées par
+        # provenance.json (`derives[].fichier` ou `fichiers`) avec la planche source et son SHA-256 : elles prennent la
+        # licence de la planche (consigne du 2026-11-21), si la planche citée est bien celle, aux mêmes octets.
+        "provenance_images": "content/assets/provenance.json",
+        "images": [{"prefixe": prefixe, "declaree": True, "origines": ["dérivé"], "exige": ["planche", "planche_sha256"],
+                    "planche_verifiee": True, "licence": "CC-BY-4.0",
+                    "auteur": "Davy45270 (dessin de la planche, dérivé par le jeu ; content/assets/provenance.json)",
+                    "licence_preuve": {"method": "déclaration du titulaire, dérivation d'une planche vérifiée",
+                                       "ref": "cozy-room-sort README.md ; HL-538",
+                                       "decision": "Image dérivée d'une illustration de Davy45270 (CC-BY-4.0) sans trait "
+                                                   "nouveau : elle garde la licence de sa planche source (2026-11-21)."}}
+                   for prefixe in ("apps/web/public/icons/", "content/assets/planches/derives/")],
     },
     "capsule-panic": {
         "parents": "inventaire",
@@ -365,15 +377,24 @@ def tables_des_atlas(clone, profil):
     return out
 
 
-def brut_de(fiches, table_nom, element):
-    """Asset brut (découpe de la planche) du même élément de la même table."""
+def brut_de(fiches, table_nom, element, boite=None, planche_sha=None):
+    """Asset brut (découpe de la planche) du même élément de la même table. À défaut, quand la boîte et la planche
+    sont données : la découpe brute du même élément, à la même boîte, de la même planche, importée par une autre
+    table du jeu (deux atlas qui reprennent le même dessin — l'import-sheet refuse un doublon d'octets)."""
+    def brute(a):
+        return ((a.get("family") or {}).get("sprite") or {}).get("frameName") == element \
+            and a["provenance"]["type"] == "original-sheet-cut"
     ids = [i for i, a in fiches.items()
-           if ((a.get("family") or {}).get("sprite") or {}).get("frameName") == element
+           if brute(a)
            and (str((a.get("sourceRegion") or {}).get("evidence", "")).startswith(
                (f"{table_nom} ·", f"{PurePosixPath(table_nom).stem}.{element}.decoupe.json ·"))
                 or re.match(re.escape(PurePosixPath(table_nom).stem) + r"\.lot-[0-9a-f]{12}\.decoupe\.json · ",
-                            str((a.get("sourceRegion") or {}).get("evidence", ""))))
-           and a["provenance"]["type"] == "original-sheet-cut"]
+                            str((a.get("sourceRegion") or {}).get("evidence", ""))))]
+    if not ids and isinstance(boite, (list, tuple)) and len(boite) == 4 and planche_sha:
+        w, h, x, y = boite
+        ids = [i for i, a in fiches.items()
+               if brute(a) and [(a.get("sourceRegion") or {}).get(k) for k in "whxy"] == [w, h, x, y]
+               and str((a.get("sourceRegion") or {}).get("evidence", "")).endswith(f"· planche {planche_sha}")]
     return sorted(ids)[0] if ids else None
 
 
@@ -389,11 +410,15 @@ def importer_bruts(jeu, sha, profil, table_rel, nom, table, elements, recus, com
     copie = REG / "sources/editable" / f"{jeu.replace('/', '-')}-livre" / f"{PurePosixPath(nom).stem}.lot-{lot}.decoupe.json"
     copie.parent.mkdir(parents=True, exist_ok=True)
     copie.write_text(texte)
+    avant = {f.name for f in (REG / "catalog/assets").glob("*.json")}
     d = assetctl("import-sheet", str(planche), "--decoupe", str(copie))
     out = {}
     for e, r in zip(garde, d["assets"]):
         element, aid = e["id"], r["assetId"]
         p = REG / "catalog/assets" / f"{aid}.json"
+        if p.name in avant:
+            raise SystemExit(f"import-sheet : {element} rendu sur la fiche existante {aid} (doublon d'octets) ; "
+                             "elle n'est pas réécrite. Chercher la découpe par boîte et planche (brut_de).")
         a = lire(p)
         if (a.get("family") or {}).get("sprite", {}).get("frameName") != element:
             raise SystemExit(f"import-sheet : {aid} n'est pas l'élément {element} (ordre des résultats inattendu).")
@@ -465,6 +490,10 @@ def regle_image(profil, chemin, declarees=None, octets=None):
             return None
         if e.get("sha256") and (octets is None or e["sha256"] != sha256(octets)):
             return None
+        if r.get("planche_verifiee"):
+            f = Path(profil.get("planches") or "/nonexistent").expanduser() / str(e.get("planche"))
+            if not f.is_file() or sha256(f.read_bytes()) != e.get("planche_sha256"):
+                return None
         ref = f"{profil['provenance_images']} · {e.get('id') or e.get('fichier')} (origine « {e['origine']} »"
         ref += f", planche {e['planche']} SHA-256 {e.get('planche_sha256')}" if e.get("planche") else ""
         ref += f", fichier SHA-256 {e['sha256']}" if e.get("sha256") else ""
@@ -473,6 +502,19 @@ def regle_image(profil, chemin, declarees=None, octets=None):
         return {**r, "auteur": auteur,
                 "licence_preuve": {**r["licence_preuve"], "ref": r["licence_preuve"]["ref"] + " ; " + ref}}
     return None
+
+
+def declarations_derivees(e):
+    """Fichiers dérivés qu'une entrée de provenance déclare (`fichiers` d'une entrée dérivée, `derives[].fichier` d'un
+    dessin), avec la planche source et son SHA-256 de l'entrée (`origine`). Origine « dérivé »."""
+    if not isinstance(e, dict) or not isinstance(e.get("origine"), dict):
+        return []
+    o = e["origine"]
+    base = {"origine": "dérivé", "planche": o.get("planche"), "planche_sha256": o.get("sha256")}
+    out = [{**base, "id": e.get("id"), "fichier": f} for f in e.get("fichiers") or () if isinstance(f, str)]
+    out += [{**base, "id": f"{e.get('id')} → {d['fichier']}", "fichier": d["fichier"]}
+            for d in e.get("derives") or () if isinstance(d, dict) and isinstance(d.get("fichier"), str)]
+    return out
 
 
 def appliquer_regle(aid, regle, fiches, depot, chemin):
@@ -580,7 +622,15 @@ def main(argv):
         return 0
 
     # 1 a. découpes brutes manquantes : un import-sheet par table (un import par élément coûte ~1 min chacun)
-    besoins, vus = {}, set()
+    besoins, vus, prevus = {}, set(), set()
+    planches_sha = {}
+
+    def sha_planche(table):
+        nom_p = table["planche"]
+        if nom_p not in planches_sha:
+            f = Path(profil.get("planches") or "/nonexistent").expanduser() / nom_p
+            planches_sha[nom_p] = sha256(f.read_bytes()) if f.is_file() else None
+        return planches_sha[nom_p]
     for at in atlas:
         stem = PurePosixPath(at["json"]).stem
         for nom, _, emp in at["cadres"]:
@@ -589,8 +639,14 @@ def main(argv):
             vus.add(emp)
             _, table_nom, table, _ = tables[stem]
             element = nom[len(profil["prefixe_cadre"]):] if nom.startswith(profil["prefixe_cadre"]) else nom
-            if any(e["id"] == element for e in table["elements"]) and brut_de(fiches, table_nom, element) is None:
-                besoins.setdefault(stem, set()).add(element)
+            entree = next((e for e in table["elements"] if e["id"] == element), None)
+            if entree is None:
+                continue
+            cle = (table["planche"], element, str(entree["boite"]))
+            if cle in prevus or brut_de(fiches, table_nom, element, entree["boite"], sha_planche(table)):
+                continue
+            prevus.add(cle)
+            besoins.setdefault(stem, set()).add(element)
     n = 0
     for stem, elements in sorted(besoins.items()):
         table_rel, table_nom, table, _ = tables[stem]
@@ -634,7 +690,7 @@ def main(argv):
                 raise SystemExit(f"{at['json']} : aucune table de découpe ; parent inconnu.")
             if entree is None:
                 raise SystemExit(f"{at['json']} : cadre {nom} absent de {table_rel}.")
-            parent = brut_de(fiches, table_nom, element)
+            parent = brut_de(fiches, table_nom, element, entree["boite"], sha_planche(table))
             if parent is None:
                 raise SystemExit(f"{at['json']} : découpe brute de {element} introuvable après import.")
             png = travail / f"cadre-{n}.png"
@@ -726,6 +782,8 @@ def main(argv):
             for cle in (e.get("id"), e.get("source"), e.get("element"), e.get("fichier")):
                 if isinstance(cle, str) and cle:
                     declarees.setdefault(cle, e)
+            for derive in declarations_derivees(e):
+                declarees.setdefault(derive["fichier"], derive)
     image_ids = {}
     for f in isolees:
         octets = (clone / f).read_bytes()

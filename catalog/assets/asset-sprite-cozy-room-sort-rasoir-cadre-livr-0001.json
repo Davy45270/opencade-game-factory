@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:02:54.708544+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-rasoir-0001",
+        "reason": "découpe brute de l'élément rasoir : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4cc1f698643d13614b52b049415b7cb81566653cf37458b0af02584a97ba265f",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "rasoir",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-rasoir-0001",
+          "reason": "découpe brute de l'élément rasoir : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-rasoir-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:02:54.381681+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-rasoir » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément rasoir",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-rasoir-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-rasoir-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-rasoir"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-rasoir-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-334.png, SHA-256 02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-rasoir"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort rasoir (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "2b73161414141444",
+    "phash": "cccb739c32343731"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-rasoir-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-rasoir livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [48, 96, 1184, 610], \"cadre\": \"sprite-rasoir\", \"element\": \"rasoir\", \"empreintePixels\": \"4585866e86e3c0cb8c2019023ac2d8b87e34ab904c167ef0f2ce285ca9cd6328\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 96, \"w\": 48, \"x\": 1184, \"y\": 610}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-rasoir-0001",
+    "parentSha256": "0b6d6e4c1f6214cbcfc9d284d3e89c5c77644c6cbb93ac601d0131b486df24bd",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:02:54.708544+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 528,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-rasoir de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 4585866e86e3c0cb)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-rasoir",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "02ee9799490b15200c3fc0eb38a526a9dd968782fbef8144246df2130fdc661d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

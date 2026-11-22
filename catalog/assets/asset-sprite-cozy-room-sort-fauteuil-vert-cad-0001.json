@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:53:45.964040+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fauteuil-vert-0001",
+        "reason": "découpe brute de l'élément fauteuil-vert : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e864cf40d94b8466e254fd58dde5a2193b92961522b218cef61ea072993f0d7d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "fauteuil vert",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fauteuil-vert-0001",
+          "reason": "découpe brute de l'élément fauteuil-vert : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fauteuil-vert-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:53:45.574794+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-fauteuil-vert » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément fauteuil-vert",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-fauteuil-vert-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-fauteuil-vert-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-fauteuil-vert"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fauteuil-vert-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-254.png, SHA-256 a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-fauteuil-vert"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort fauteuil-vert (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "78666896b2e0f563",
+    "phash": "95953bd078724b1b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-fauteuil-vert-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fauteuil-vert livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [167, 176, 498, 87], \"cadre\": \"sprite-fauteuil-vert\", \"element\": \"fauteuil-vert\", \"empreintePixels\": \"a1b5eb67a91cd54f35eb79bd7ee30b4265ebee6188b8e6617f5ac0d806523bb8\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 176, \"w\": 167, \"x\": 498, \"y\": 87}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-fauteuil-vert-0001",
+    "parentSha256": "ee599947da548a22fcef74847f46d06377fcc43e8e511241220fe4a52c566fd0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:53:45.964040+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 234,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-fauteuil-vert de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels a1b5eb67a91cd54f)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-fauteuil-vert",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a5e43073eef9710fb833d3a2c8c3e5e95a8422f5640b359a88c2d09c733d47f9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

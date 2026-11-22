@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:55:56.131760+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bougie-pot-0001",
+        "reason": "découpe brute de l'élément bougie-pot : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f12d71bfacc2845f1b712a477f8e348e4a7dda58694787116b4a071328c8e6b5",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "bougie pot",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bougie-pot-0001",
+          "reason": "découpe brute de l'élément bougie-pot : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bougie-pot-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:55:55.805479+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-bougie-pot » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément bougie-pot",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-bougie-pot-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-bougie-pot-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-bougie-pot"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bougie-pot-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-273.png, SHA-256 d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-bougie-pot"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort bougie-pot (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "3071f0e1e1616161",
+    "phash": "cb383ccb63e73484"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-bougie-pot-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bougie-pot livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [69, 95, 814, 744], \"cadre\": \"sprite-bougie-pot\", \"element\": \"bougie-pot\", \"empreintePixels\": \"49633e79ee3f9e95273d9618dcd8e8fa91a88df0e3a82a2f2747c7a958d9b37c\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 95, \"w\": 69, \"x\": 814, \"y\": 744}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-bougie-pot-0001",
+    "parentSha256": "107b8112b71fb1f87c8da5deb4ec11fb17aa9c4a39f0ef566dde3153a3818e2f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:55:56.131760+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-bougie-pot de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 49633e79ee3f9e95)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-bougie-pot",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d05a190ee3f7bfa2aec375c740dd0fa4dca388882e6521b53e6fc9fb41b2b33d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:02:13.981290+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-papier-rouleaux-0001",
+        "reason": "découpe brute de l'élément papier-rouleaux : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "44010fb0a3e3e7b47b7e37ac09340d110ac8dc3601210facd6df3eaf17546ed4",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "papier rouleaux",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-papier-rouleaux-0001",
+          "reason": "découpe brute de l'élément papier-rouleaux : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-papier-rouleaux-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:02:13.550788+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-papier-rouleaux » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément papier-rouleaux",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-papier-rouleaux-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-papier-rouleaux-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-papier-rouleaux"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-papier-rouleaux-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-328.png, SHA-256 68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-papier-rouleaux"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort papier-rouleaux (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "396961b28898c8c8",
+    "phash": "d00e3ef129e16e93"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-papier-rouleaux-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-papier-rouleaux livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [99, 99, 1417, 472], \"cadre\": \"sprite-papier-rouleaux\", \"element\": \"papier-rouleaux\", \"empreintePixels\": \"e4ac5991fc0988c66292068b2dffd5dd354a87666832bc1822fcb83a0ca2570e\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 99, \"w\": 99, \"x\": 1417, \"y\": 472}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-papier-rouleaux-0001",
+    "parentSha256": "f7103e0af6b4868fa1a64a3e4369362fa4aa2c64e5b048e5e4273b1bf40f3318",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:02:13.981290+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 402,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-papier-rouleaux de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels e4ac5991fc0988c6)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-papier-rouleaux",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "68c7156df6e4afa4a4c2fb1d54be74f61ac48d46cd43a899adc7a6d1c92833d6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

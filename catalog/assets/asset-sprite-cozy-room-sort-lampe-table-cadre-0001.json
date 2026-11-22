@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:56:57.971930+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lampe-table-0001",
+        "reason": "découpe brute de l'élément lampe-table : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-lampe-chevet-0001",
+        "reason": "pixels différents du cadre livré sprite-lampe-table (empreinte 4e346a28c7ca)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c2d3db1a176d4cd3ac3206071481b9b2495cba8b029d2e5ae3c8df0cfb051fe0",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "lampe table",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lampe-table-0001",
+          "reason": "découpe brute de l'élément lampe-table : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-lampe-chevet-0001",
+          "reason": "pixels différents du cadre livré sprite-lampe-table (empreinte 4e346a28c7ca)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lampe-table-0001",
+        "asset-sprite-lampe-chevet-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:56:57.617909+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-lampe-table » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément lampe-table",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-lampe-table-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-lampe-table-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-lampe-table"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lampe-table-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-282.png, SHA-256 df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-lampe-table"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort lampe-table (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "7260e9f132542232",
+    "phash": "cfcb4c3c3cc2f230"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-lampe-table-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lampe-table livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [97, 165, 1053, 100], \"cadre\": \"sprite-lampe-table\", \"element\": \"lampe-table\", \"empreintePixels\": \"4e346a28c7ca2e1e67ff84a6b304df95e7bb2a613858f999b4ccfb6abe5e7580\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 165, \"w\": 97, \"x\": 1053, \"y\": 100}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-lampe-table-0001",
+    "parentSha256": "f87c9f65b109216ab5eab754ad6ada3a6f1f6177234828077d6ee79fc6b69846",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:56:57.971930+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 276,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-lampe-table de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 4e346a28c7ca2e1e)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-lampe-table",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "df7fe297c3542c0b52d478312c96c2b2dc506feb2101de88e159d22a32f01363",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

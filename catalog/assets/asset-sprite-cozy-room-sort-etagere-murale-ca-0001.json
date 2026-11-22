@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:53:32.369373+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-etagere-murale-0001",
+        "reason": "découpe brute de l'élément etagere-murale : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ff6db5cf3587ffbddad59340504fc37a0d52518695f1a3af6493ba2f41aaf127",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "etagere murale",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-etagere-murale-0001",
+          "reason": "découpe brute de l'élément etagere-murale : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-etagere-murale-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:53:32.010043+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-etagere-murale » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément etagere-murale",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-etagere-murale-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-etagere-murale-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-etagere-murale"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etagere-murale-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-252.png, SHA-256 5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-etagere-murale"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort etagere-murale (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "841bad6c6a716102",
+    "phash": "96b2690d87d27a8d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-etagere-murale-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etagere-murale livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [188, 134, 20, 570], \"cadre\": \"sprite-etagere-murale\", \"element\": \"etagere-murale\", \"empreintePixels\": \"f2a92ae3bf013a61a537fc22a307e24f47f7232cef1d12b9a37345fd296bb4f8\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 134, \"w\": 188, \"x\": 20, \"y\": 570}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-etagere-murale-0001",
+    "parentSha256": "492189099398888a5dd333ba86fad2261da48ba65eb4012171c57cb54730835b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:53:32.369373+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-etagere-murale de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels f2a92ae3bf013a61)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-etagere-murale",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5a7d76e8a89feb463581c3c0b37b043ba4ef428a01226c2f57f5d1330a0adf7e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

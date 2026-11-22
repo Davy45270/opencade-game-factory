@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:49:24.339863+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-btn-jouer-0001",
+        "reason": "découpe brute de l'élément btn-jouer : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1bcd852aa8b241598f9ff66e34d5bbe4b0ff7d358a8bf027d309bc7bf2a48e42",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "btn jouer",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-btn-jouer-0001",
+          "reason": "découpe brute de l'élément btn-jouer : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-btn-jouer-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:49:23.917621+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-btn-jouer » (content/assets/planches/atlas/p01-ui.webp), forme normalisée par le jeu de l'élément btn-jouer",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-btn-jouer-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-btn-jouer-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-jouer"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-btn-jouer-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-218.png, SHA-256 c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-ui.json · cadre sprite-btn-jouer"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort btn-jouer (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "8009a4b2b20d1200",
+    "phash": "99d5666e99996644"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-btn-jouer-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-btn-jouer livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-ui.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-ui.webp (webp)\", \"boite\": [289, 115, 31, 43], \"cadre\": \"sprite-btn-jouer\", \"element\": \"btn-jouer\", \"empreintePixels\": \"837a59b5870f6d492661922aadb408a05f3c5c63c1406c5d01e2ea58e7b3ad8e\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 115, \"w\": 289, \"x\": 31, \"y\": 43}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-btn-jouer-0001",
+    "parentSha256": "e7f12c1f8fd6e85291a1c8be70d11542ea35e22cf362d861a8fab065acca0901",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-ui.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:49:24.339863+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-ui.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p01-ui.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-btn-jouer de content/assets/planches/atlas/p01-ui.webp (empreinte de pixels 837a59b5870f6d49)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-btn-jouer",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-ui.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-ui.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c94224f328f7bd4a1f87417f6c0497fd14fb5dbb24e4eb19cc1dc7b29465da33",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

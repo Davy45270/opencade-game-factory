@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:47:17.556770+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-panier-osier-0001",
+        "reason": "découpe brute de l'élément panier-osier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1de8e59b49c58c52d7c1fa792e019de546436920648bfac76b290717854458a3",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "panier osier",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-panier-osier-0001",
+          "reason": "découpe brute de l'élément panier-osier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-panier-osier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:47:17.190226+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-panier-osier » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément panier-osier",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-panier-osier-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-panier-osier-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-panier-osier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panier-osier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-201.png, SHA-256 8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-panier-osier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort panier-osier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "b2698ec8f0c0f133",
+    "phash": "c3343ccb98c5356d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-panier-osier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panier-osier livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [96, 110, 1279, 627], \"cadre\": \"sprite-panier-osier\", \"element\": \"panier-osier\", \"empreintePixels\": \"7477256cdae27fbdc40cc81ec4de0ffa900f09cffd7845a35b1bcd45e149c08a\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 110, \"w\": 96, \"x\": 1279, \"y\": 627}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-panier-osier-0001",
+    "parentSha256": "6d5876c0075b8c612db9c3f623ebf8d12e52f149486595d1558deb91ecc3f9bf",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:47:17.556770+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 318,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-panier-osier de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 7477256cdae27fbd)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-panier-osier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8ddb2fd6b3c7efce7345524fe31ba0bdd0fe25dc83c92c2fe1533b29b4f320a3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

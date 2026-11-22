@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:57:55.249030+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-tournesols-0001",
+        "reason": "découpe brute de l'élément tournesols : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5cdc0b2b33f9737ca5416e59ada853c731dade577d81265809c243a2c2c5f432",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "tournesols",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-tournesols-0001",
+          "reason": "découpe brute de l'élément tournesols : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-tournesols-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:57:54.889652+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-tournesols » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément tournesols",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-tournesols-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-tournesols-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-tournesols"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tournesols-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-290.png, SHA-256 d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-tournesols"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort tournesols (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "65d4d24c35b07172",
+    "phash": "8c71cc8e6647accd"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-tournesols-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tournesols livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [105, 139, 156, 710], \"cadre\": \"sprite-tournesols\", \"element\": \"tournesols\", \"empreintePixels\": \"62eecf66c482d64cd779a3a1853d1a20895ba260b77848d5bf56ec6eca9f00dc\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 139, \"w\": 105, \"x\": 156, \"y\": 710}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-tournesols-0001",
+    "parentSha256": "7526a0cc87d9a0a3d43a925e19d94a7ad3c332ec45d8ccb3713b1617ba2e990e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:57:55.249030+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 444,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-tournesols de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 62eecf66c482d64c)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-tournesols",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d27c3bd7afe3f357138d8324f3230b78ec0b9bd4ad989eb80735e11eb4aabd79",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

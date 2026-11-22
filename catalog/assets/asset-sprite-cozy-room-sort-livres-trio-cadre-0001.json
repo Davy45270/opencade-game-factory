@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:47:10.339682+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-livres-trio-0001",
+        "reason": "découpe brute de l'élément livres-trio : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "9a990e8c29e154c776e70063334da38c243389d911a9103fbcff4b2a1bfe2471",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "livres trio",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-livres-trio-0001",
+          "reason": "découpe brute de l'élément livres-trio : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-livres-trio-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:47:09.956413+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-livres-trio » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément livres-trio",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-livres-trio-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-livres-trio-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-livres-trio"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-livres-trio-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-200.png, SHA-256 fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-livres-trio"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort livres-trio (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9274e9eb69696963",
+    "phash": "ce903979296b6347"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-livres-trio-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-livres-trio livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [100, 97, 559, 635], \"cadre\": \"sprite-livres-trio\", \"element\": \"livres-trio\", \"empreintePixels\": \"01338ff20ba4f31d0678de28ea88e39678ac19f110dffefeb73743f701d55b80\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 97, \"w\": 100, \"x\": 559, \"y\": 635}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-livres-trio-0001",
+    "parentSha256": "13bb70256608b35080d1bd3f76f4e122af85fae5c7492837cfc83a74bc4f3cbe",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:47:10.339682+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 297,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-livres-trio de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 01338ff20ba4f31d)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-livres-trio",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fdfb29ea8b457b801867af7fea37074770b5e5340ffed104fb4b0ff5215db9ef",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

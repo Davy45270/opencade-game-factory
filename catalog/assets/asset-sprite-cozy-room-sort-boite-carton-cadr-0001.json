@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:55:29.871129+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-boite-carton-0001",
+        "reason": "découpe brute de l'élément boite-carton : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3caaa56e8190019e84bd5ea3f3bc638bae7ed75fa8cf12a827d576b7cc093d31",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "boite carton",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-boite-carton-0001",
+          "reason": "découpe brute de l'élément boite-carton : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-boite-carton-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:55:29.532636+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-boite-carton » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément boite-carton",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-boite-carton-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-boite-carton-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-boite-carton"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-boite-carton-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-269.png, SHA-256 3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-boite-carton"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort boite-carton (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "009661f696f0c1f3",
+    "phash": "c13e7bc0b51a7ec0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-boite-carton-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-boite-carton livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [166, 114, 1350, 882], \"cadre\": \"sprite-boite-carton\", \"element\": \"boite-carton\", \"empreintePixels\": \"963b2abc3f07b3451a1f8179cc523df699a5be5a36b19174c512474cb51feb45\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 114, \"w\": 166, \"x\": 1350, \"y\": 882}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-boite-carton-0001",
+    "parentSha256": "b4c3c1e9ea2dfc9be329dc36d486a2825d8f6da14b61579e769a246ee3b54d69",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:55:29.871129+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-boite-carton de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 963b2abc3f07b345)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-boite-carton",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3aaee750ae360e8e17582aaeba2c1e8816fc9ab7dbeb99574e017d631f8b812f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

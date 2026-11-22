@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:50:39.825133+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-vue-salon-0001",
+        "reason": "découpe brute de l'élément vue-salon : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c009f98b4a3ba97c3ebf84ad7cd73f37addff2bcd68a6e9c6e4ab888bba961fc",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "vue salon",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-vue-salon-0001",
+          "reason": "découpe brute de l'élément vue-salon : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-vue-salon-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:50:39.429908+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-vue-salon » (content/assets/planches/atlas/p01-vues.webp), forme normalisée par le jeu de l'élément vue-salon",
+  "dimensions": {
+    "height": 420,
+    "width": 420
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-vues.json · cadre sprite-vue-salon"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-vue-salon-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-228.png, SHA-256 5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-vues.json · cadre sprite-vue-salon"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort vue-salon (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "70cc8c8e6e2ce4f1",
+    "phash": "96f3481e0fd838ce"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-vue-salon-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-vue-salon livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-vues.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-vues.webp (webp)\", \"boite\": [380, 421, 343, 12], \"cadre\": \"sprite-vue-salon\", \"element\": \"vue-salon\", \"empreintePixels\": \"59d32c82ce7282e7d574cecfdf7ec5b70f0980c1bb5983866c6fa49281c0e731\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 421, \"w\": 380, \"x\": 343, \"y\": 12}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-vue-salon-0001",
+    "parentSha256": "19f78635b3d1d94bd6df17054b36c353eaa2fd16594304a189c67610af86df74",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-vues.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:50:39.825133+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-vues.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "content/assets/planches/atlas/p01-vues.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-vue-salon de content/assets/planches/atlas/p01-vues.webp (empreinte de pixels 59d32c82ce7282e7)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-vue-salon",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-vues.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-vues.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5cd22dcf6fec2272f7be472412e7faa6fa9f17d052e3776ec328d26c996e4a77",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

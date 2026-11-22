@@ -503,10 +503,32 @@ def relier(store, records, spec_id, kind, target, rule):
 
 # --- rapport de migration (§ 5) ------------------------------------------------------------------------------------
 
-def report(records, source, warnings, incoming):
+def briques_par_spec(root):
+    """E120 : graphe initial spec → jeu → briques → code → tests, lu dans le catalogue BB-001 de l'usine (lecture seule,
+    fichiers JSON bruts : specctl ne dépend pas de bbctl). Catalogue absent = aucune brique, dit par `missing`."""
+    out = {}
+    catalogue = root / "blocks" / "catalog" if root is not None else None
+    if catalogue is None or not catalogue.is_dir():
+        return out
+    for path in sorted(catalogue.glob("*.json")):
+        try:
+            block = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        origin = block.get("origin") or {}
+        for spec in block.get("specIds") or []:
+            out.setdefault(spec, []).append({
+                "block": block.get("id"), "code": {"repo": origin.get("repo"), "path": origin.get("path"),
+                                                   "commitSha": origin.get("commitSha")},
+                "tests": list((block.get("analysis") or {}).get("tests") or [])})
+    return out
+
+
+def report(records, source, warnings, incoming, root=None):
     """Rapport de migration : correspondance chemin → SPEC-ID, doublons (une identité, plusieurs provenances),
     conflits de version à arbitrer, éléments inconnus, liens cassés, couverture et graphe spec → jeu → briques."""
     mapping, duplicates, conflicts, coverage, graph = [], [], [], [], []
+    briques = briques_par_spec(root)
     for spec_id, record in sorted(incoming.items()):
         for _, digest, provenance in document_entries(record):
             mapping.append({"path": provenance["path"], "specId": spec_id, "sha256": digest})
@@ -523,8 +545,11 @@ def report(records, source, warnings, incoming):
         done = [row for row in rows if row["matrixStatus"] == "faite" and "evidence" in row]
         coverage.append({"specId": spec_id, "applicable": len(rows), "proved": len(done),
                          "ratio": round(len(done) / len(rows), 4) if rows else None})
+        liees = briques.get(spec_id, [])
+        missing = ["blocks"] if not liees else [f"tests:{b['block']}" for b in liees if not b["tests"]]
         graph.append({"specId": spec_id, "project": record["project"],
-                      "relations": current.get("relations", []), "decisions": current.get("decisions", [])})
+                      "relations": current.get("relations", []), "decisions": current.get("decisions", []),
+                      "blocks": liees, "missing": missing})
     known = set(incoming) | set(records)
     broken = [{"specId": spec_id, **relation} for spec_id, record in sorted(records.items())
               for relation in record.get("relations", [])
@@ -532,6 +557,9 @@ def report(records, source, warnings, incoming):
     return {"sourceCommit": source.head, "mapping": sorted(mapping, key=lambda m: m["path"]),
             "duplicates": duplicates, "conflicts": conflicts, "unknown": warnings, "brokenLinks": broken,
             "coverage": coverage, "graph": graph,
+            "graphSummary": {"specs": len(graph), "withBlocks": sum(1 for g in graph if g["blocks"]),
+                             "blocks": sum(len(g["blocks"]) for g in graph),
+                             "tested": sum(1 for g in graph for b in g["blocks"] if b["tests"])},
             "decisionsRequired": [conflict["specId"] for conflict in conflicts]}
 
 

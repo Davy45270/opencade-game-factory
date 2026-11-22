@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 /.cache/
 /build/
+# Dossiers temporaires que les tests créent dans le dépôt (tempfile.TemporaryDirectory(dir=ROOT)) :
+# ignorés, sinon copier_registre() des tests d'acceptation les copie pendant qu'un autre processus
+# les efface (pipeline 108, HL-542 : FileNotFoundError quand les deux suites tournent en même temps).
+/tmp*/
+/.venv/

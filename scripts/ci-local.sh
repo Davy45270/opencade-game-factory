@@ -2,7 +2,8 @@
 # Rejoue en local, SANS conteneur, les commandes d'un pipeline Woodpecker du registre, dans le même
 # ordre ; s'arrête au premier échec, comme Woodpecker.
 #
-#   scripts/ci-local.sh validate          .woodpecker/validate.yml
+#   scripts/ci-local.sh validate          .woodpecker/validate.yml (tank01) puis .woodpecker/controles.yml
+#                                         (Contabo), qui tournent en parallèle en CI
 #   scripts/ci-local.sh build-index       .woodpecker/build-index.yml
 #   scripts/ci-local.sh scan              .woodpecker/scan.yml (réseau : copies GitHub publiques)
 #   scripts/ci-local.sh release           .woodpecker/release.yml
@@ -36,8 +37,8 @@ activer() {
 dependances() {
   etape dependances
   activer
-  python3 -c 'import PIL, numpy, jsonschema' || {
-    echo "dépendances absentes : python3 -m venv .venv && .venv/bin/pip install -r requirements.txt"
+  python3 -c 'import PIL, numpy, jsonschema, pytest, xdist' || {
+    echo "dépendances absentes : python3 -m venv .venv && .venv/bin/pip install -r requirements.txt -r requirements-ci.txt"
     exit 4
   }
 }
@@ -98,9 +99,9 @@ case "$PIPELINE" in
   validate)
     dependances
     etape tests-unitaires
-    python3 -m unittest discover -s tests/unit -t . -p 'test_*.py'
+    python3 -m pytest -n 4 -q -p no:cacheprovider tests/unit
     etape tests-acceptation
-    python3 -m unittest discover -s tests/acceptance -t . -p 'test_*.py'
+    python3 -m pytest -n 4 -q -p no:cacheprovider tests/acceptance
     etape validate
     ./assetctl validate --json
     if [ -n "${CI_LOCAL_BASE:-}" ]; then

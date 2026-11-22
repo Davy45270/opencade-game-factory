@@ -1,0 +1,212 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:45:50.773011+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-boite-creme-0001",
+        "reason": "découpe brute de l'élément boite-creme : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-boite-sdb-creme-0001",
+        "reason": "pixels différents du cadre livré sprite-boite-creme (empreinte 509407e9d766)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8241fd32bc45bf39a44b0071cd1419fef70e1afcbdeae3d0d0fd21257a313ea8",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "boite creme",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-boite-creme-0001",
+          "reason": "découpe brute de l'élément boite-creme : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-boite-sdb-creme-0001",
+          "reason": "pixels différents du cadre livré sprite-boite-creme (empreinte 509407e9d766)"
+        }
+      ],
+      "results": [
+        "asset-sprite-boite-creme-0001",
+        "asset-sprite-boite-sdb-creme-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:45:50.392032+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-boite-creme » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément boite-creme",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-boite-creme-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-boite-creme-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-boite-creme"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-boite-creme-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-189.png, SHA-256 a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-boite-creme"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort boite-creme (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "8e71f0e0b096e071",
+    "phash": "c0372f6838c3b59e"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-boite-creme-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-boite-creme livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [122, 102, 1393, 635], \"cadre\": \"sprite-boite-creme\", \"element\": \"boite-creme\", \"empreintePixels\": \"509407e9d76657d28ced9747205d778bc18f2998b7ddd9ce84028d5e7ae4f2ab\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 102, \"w\": 122, \"x\": 1393, \"y\": 635}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-boite-creme-0001",
+    "parentSha256": "f27504bdf6571417a5d020f5bab20d6f5b5c1a8dae68a99004eed5525c29371f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:45:50.773011+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-boite-creme de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 509407e9d76657d2)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-boite-creme",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a1fcf745721d4d0d4b58a097997d209956cbb07e436744d4503a2c9433876890",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

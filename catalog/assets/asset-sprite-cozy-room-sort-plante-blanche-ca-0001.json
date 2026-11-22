@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:02:34.619034+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-plante-blanche-0001",
+        "reason": "découpe brute de l'élément plante-blanche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ea9f0e7ed7f1dbca342d6babd6d89309d5caee89f5a3ace6d620304a061e9d80",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "plante blanche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-plante-blanche-0001",
+          "reason": "découpe brute de l'élément plante-blanche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-plante-blanche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:02:34.265324+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-plante-blanche » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément plante-blanche",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-plante-blanche-ca-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-plante-blanche-ca-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-plante-blanche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-plante-blanche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-331.png, SHA-256 5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-plante-blanche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort plante-blanche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "994a4c8d4d4d72b2",
+    "phash": "ce33cc3330cc76cc"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-plante-blanche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-plante-blanche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [109, 147, 872, 429], \"cadre\": \"sprite-plante-blanche\", \"element\": \"plante-blanche\", \"empreintePixels\": \"4c3ae4538b9c8d9728fe37d59e014b83106ee358d3c2702dd84dc070efb457c3\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 147, \"w\": 109, \"x\": 872, \"y\": 429}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-plante-blanche-0001",
+    "parentSha256": "e2e10c1b9fc52c36e20e4bd90368247d17dad76ac242289b0e6fdcd5decba3d0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:02:34.619034+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 465,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-plante-blanche de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 4c3ae4538b9c8d97)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-plante-blanche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5a1ffbccc2ce831803e869e66b97c2a933a4a84bf1a01506484c0ce09b425274",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

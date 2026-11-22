@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:00:31.533504+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bougie-verre-0001",
+        "reason": "découpe brute de l'élément bougie-verre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "70ade77e84195e80521d359ffea4c6a1a7273dd36f34b38c3098dc21641b1632",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "bougie verre",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bougie-verre-0001",
+          "reason": "découpe brute de l'élément bougie-verre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bougie-verre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:00:31.159060+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-bougie-verre » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément bougie-verre",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-bougie-verre-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-bougie-verre-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-bougie-verre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bougie-verre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-313.png, SHA-256 84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-bougie-verre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort bougie-verre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "71f0ccc0c0c0e073",
+    "phash": "c0943f4b3943716f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-bougie-verre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bougie-verre livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [67, 73, 838, 749], \"cadre\": \"sprite-bougie-verre\", \"element\": \"bougie-verre\", \"empreintePixels\": \"3117b297f20c5834101b480091e8f0b8ab44cd702ca4fa8d47e9cbcc5210b79a\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 73, \"w\": 67, \"x\": 838, \"y\": 749}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-bougie-verre-0001",
+    "parentSha256": "2de565d757ec56ddb5b62173cd4dc7b2ed1e05bd043086c19df9322a9f706671",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:00:31.533504+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-bougie-verre de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 3117b297f20c5834)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-bougie-verre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "84c87cce21db9e2c11dc664877158eaec8561d79ba7a7622637f1cb86a25c54c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

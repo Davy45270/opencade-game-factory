@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:57:04.957548+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lapin-0002",
+        "reason": "découpe brute de l'élément lapin : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "098be8a6385d7029e5fc96371875022db7be1ec6393c1f0e30f9be053f5d76e6",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "lapin",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lapin-0002",
+          "reason": "découpe brute de l'élément lapin : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lapin-0002"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:57:04.458690+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-lapin » (content/assets/planches/atlas/p03-objets.webp), forme normalisée par le jeu de l'élément lapin",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-lapin-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-lapin-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-lapin"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lapin-0002"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-283.png, SHA-256 9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-objets.json · cadre sprite-lapin"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort lapin (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "6d6db1696960d8d3",
+    "phash": "9e3e648669c33d49"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-lapin-0002",
+    "evidence": [
+      "importer_livre : cadre sprite-lapin livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-objets.webp (webp)\", \"boite\": [91, 125, 1121, 725], \"cadre\": \"sprite-lapin\", \"element\": \"lapin\", \"empreintePixels\": \"03a362ff4b5900a55961f72b96d13db83a753ed62505e13f013c97a154e36601\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 125, \"w\": 91, \"x\": 1121, \"y\": 725}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-lapin-0002",
+    "parentSha256": "f1ba4a807aaf3fe710d52cfab8f56fd0e0d7abab68586e4edfb7cbf06b75b351",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:57:04.957548+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 297,
+        "path": "content/assets/planches/atlas/p03-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-lapin de content/assets/planches/atlas/p03-objets.webp (empreinte de pixels 03a362ff4b5900a5)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-lapin",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9d70b94b771ae3e367801f3dd4f4808f3e36849b838f13cb067a14eb4da9d3ad",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:46:19.974606+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cadre-feuille-0001",
+        "reason": "découpe brute de l'élément cadre-feuille : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3e8a74fdb6783679fd91bb3ff5dd865ad2a7759d764e50c15a671408f8cd25ab",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cadre feuille",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cadre-feuille-0001",
+          "reason": "découpe brute de l'élément cadre-feuille : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cadre-feuille-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:46:19.600198+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cadre-feuille » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément cadre-feuille",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cadre-feuille-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cadre-feuille-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-cadre-feuille"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cadre-feuille-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-193.png, SHA-256 ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-cadre-feuille"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cadre-feuille (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f0e8ccccc4cce841",
+    "phash": "c69679c0699b6536"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cadre-feuille-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cadre-feuille livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [78, 98, 1073, 627], \"cadre\": \"sprite-cadre-feuille\", \"element\": \"cadre-feuille\", \"empreintePixels\": \"1f66f35863a1f5a79ca65be1d523ae79dd22aa5dc0263247535e7dad518d1670\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 98, \"w\": 78, \"x\": 1073, \"y\": 627}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cadre-feuille-0001",
+    "parentSha256": "a631e7fba983039b59a37bc851fd1d411d3e7b338d5819853bb5f8ec64467de9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:46:19.974606+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 150,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-feuille de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 1f66f35863a1f5a7)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cadre-feuille",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ccdaef82e564540b1ba74a6ebf93f3d00130402aa48a077b7dbc7ced94dd4909",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

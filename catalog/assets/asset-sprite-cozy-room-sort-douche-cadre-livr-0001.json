@@ -1,0 +1,221 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:58:17.003810+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-douche-0001",
+        "reason": "découpe brute de l'élément douche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-fleur-douche-0001",
+        "reason": "pixels différents du cadre livré sprite-douche (empreinte 064ff5d4b10e)"
+      },
+      {
+        "assetId": "asset-sprite-rideau-douche-0001",
+        "reason": "pixels différents du cadre livré sprite-douche (empreinte 064ff5d4b10e)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b8c0b8ec17f3461d7da7828cf5482589ed6b2457801495d5e8ee9bec14f70c83",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "douche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-douche-0001",
+          "reason": "découpe brute de l'élément douche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-fleur-douche-0001",
+          "reason": "pixels différents du cadre livré sprite-douche (empreinte 064ff5d4b10e)"
+        },
+        {
+          "assetId": "asset-sprite-rideau-douche-0001",
+          "reason": "pixels différents du cadre livré sprite-douche (empreinte 064ff5d4b10e)"
+        }
+      ],
+      "results": [
+        "asset-sprite-douche-0001",
+        "asset-sprite-fleur-douche-0001",
+        "asset-sprite-rideau-douche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:58:16.654692+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-douche » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément douche",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-douche-cadre-livr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-douche-cadre-livr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-douche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-douche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-293.png, SHA-256 e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-douche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort douche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "35c4d0ccd8d0d0f1",
+    "phash": "c3263c386dc939d9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-douche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-douche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [174, 256, 441, 161], \"cadre\": \"sprite-douche\", \"element\": \"douche\", \"empreintePixels\": \"064ff5d4b10e4423c407bae335b8b98c2e4d5ac85385a890e650fe3736b7bb82\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 256, \"w\": 174, \"x\": 441, \"y\": 161}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-douche-0001",
+    "parentSha256": "3f4a97388f5e060b8eb41e671c7027cdee8564e6e06af8429a014a49282a5f0a",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:58:17.003810+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-douche de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels 064ff5d4b10e4423)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-douche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e15eb713612d7821a8780a42d4709747758397ba5768ef2b957da733ba1caff4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

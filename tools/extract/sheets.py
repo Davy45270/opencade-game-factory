@@ -23,12 +23,17 @@ def sheet_record(target, digest, name, dimensions, evidence):
     if sheet_id is None:
         sheet_id = target.ids.allouer(f"sheet:sha256:{digest}", "sheet", name)
         target.sheet_ids[digest] = sheet_id
-    return target.sheets.setdefault(sheet_id, {
+    sheet = target.sheets.setdefault(sheet_id, {
         "schemaVersion": "1.0", "id": sheet_id, "name": name, "sha256": digest,
         "dimensions": dimensions, "files": {"locations": [], "registry": None},
         "provenance": {"type": "repo-file", "author": "unknown", "evidence": [evidence]},
         "license": "unknown", "status": "needs-review", "regions": [],
     })
+    # Planche déjà connue sans dimensions (déclarée par un fichier de provenance, image alors indisponible) : les
+    # octets de même empreinte, mesurés ici, les donnent. Sans elles, une région vérifiée est invalide.
+    if sheet["dimensions"] is None and dimensions is not None:
+        sheet["dimensions"] = dimensions
+    return sheet
 
 
 def link_region(target, asset, sheet, box, verified, evidence):

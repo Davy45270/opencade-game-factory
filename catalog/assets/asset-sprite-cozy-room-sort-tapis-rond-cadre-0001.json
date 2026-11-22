@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:48:54.313002+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-tapis-rond-0001",
+        "reason": "découpe brute de l'élément tapis-rond : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e49a32a156776433a354d56c19d78e3df7bf77da2ebea67c435e2fe8757541e8",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "tapis rond",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-tapis-rond-0001",
+          "reason": "découpe brute de l'élément tapis-rond : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-tapis-rond-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:48:53.926109+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-tapis-rond » (content/assets/planches/atlas/p01-panneaux.webp), forme normalisée par le jeu de l'élément tapis-rond",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-tapis-rond-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-tapis-rond-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-tapis-rond"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tapis-rond-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-214.png, SHA-256 6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-panneaux.json · cadre sprite-tapis-rond"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort tapis-rond (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "0e71e08286f07186",
+    "phash": "d4d52a0ffd38c0d4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-tapis-rond-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tapis-rond livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-panneaux.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-panneaux.webp (webp)\", \"boite\": [180, 103, 1328, 903], \"cadre\": \"sprite-tapis-rond\", \"element\": \"tapis-rond\", \"empreintePixels\": \"0ae0fc65245998af091fbd5c17585abd8ac8b0424220580cf9ce9479e5d8b2be\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 103, \"w\": 180, \"x\": 1328, \"y\": 903}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-tapis-rond-0001",
+    "parentSha256": "04aff15d54948acdaeea91f1a100961b33c381f35806b215b4267cb91c733f87",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-panneaux.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:48:54.313002+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-panneaux.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 213,
+        "path": "content/assets/planches/atlas/p01-panneaux.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-tapis-rond de content/assets/planches/atlas/p01-panneaux.webp (empreinte de pixels 0ae0fc65245998af)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-tapis-rond",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-panneaux.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-panneaux.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "6718e589598c9ffbb026f1d02ef5a5b7c1a3fcbddede1643cd1bee639a80d084",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

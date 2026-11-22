@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:00:17.643597+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-boite-sdb-peche-0001",
+        "reason": "découpe brute de l'élément boite-sdb-peche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "e7fff648eeea5331904bd678bc2e329e6d12f7de6098b2e2d898fb0763743c93",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "boite sdb peche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-boite-sdb-peche-0001",
+          "reason": "découpe brute de l'élément boite-sdb-peche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-boite-sdb-peche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:00:17.287486+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-boite-sdb-peche » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément boite-sdb-peche",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-boite-sdb-peche-c-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-boite-sdb-peche-c-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-boite-sdb-peche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-boite-sdb-peche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-311.png, SHA-256 f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-boite-sdb-peche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort boite-sdb-peche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "9f60e4f89890f17b",
+    "phash": "c0362f6878c2b59f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-boite-sdb-peche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-boite-sdb-peche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [105, 92, 1301, 477], \"cadre\": \"sprite-boite-sdb-peche\", \"element\": \"boite-sdb-peche\", \"empreintePixels\": \"7f89dea20476dee811402cfbc6772e40e7a42ab4124a150516d406280d440f48\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 92, \"w\": 105, \"x\": 1301, \"y\": 477}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-boite-sdb-peche-0001",
+    "parentSha256": "16ec507891cf404dc92172ac56471f4e38066d5337d9f268599973e9d4229f3e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:00:17.643597+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-boite-sdb-peche de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 7f89dea20476dee8)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-boite-sdb-peche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "f468b5f02e7befa56cd56075ed04e1a613c4e75d4458a5990572ac5f2aed0aea",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

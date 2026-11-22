@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:45:43.412981+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bac-osier-0001",
+        "reason": "découpe brute de l'élément bac-osier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f6dcb4d1f9c2ebb72cbbac690b74a545d7fbcf36c9287f78099150cd1f1411bc",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "bac osier",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bac-osier-0001",
+          "reason": "découpe brute de l'élément bac-osier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bac-osier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:45:43.042834+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-bac-osier » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément bac-osier",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-bac-osier-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-bac-osier-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-bac-osier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bac-osier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-188.png, SHA-256 9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-bac-osier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort bac-osier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "92708e84b0c0f173",
+    "phash": "c0373fca78e43519"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-bac-osier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bac-osier livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [125, 111, 771, 769], \"cadre\": \"sprite-bac-osier\", \"element\": \"bac-osier\", \"empreintePixels\": \"817dd4d876b6ce6d306c658bb89effbf42712f886852ffc8be2d97bb26ed52d5\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 111, \"w\": 125, \"x\": 771, \"y\": 769}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-bac-osier-0001",
+    "parentSha256": "c126c58d4885d49246b74e2d10f04e10efb94cdc5e5683f7368d57f66f0d1a0c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:45:43.412981+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-bac-osier de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels 817dd4d876b6ce6d)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-bac-osier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "9b5b411001c89a5f8c8e4d5bbd358499daea40ab8c9eef2d8a087972f85a9cd0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

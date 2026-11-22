@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:47:03.131797+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-lampe-chevet-0001",
+        "reason": "découpe brute de l'élément lampe-chevet : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "3fd2bd816ca2f5a8143c7b4721641d0184f86f507908ca84d165cb76a6851b18",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "lampe chevet",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-lampe-chevet-0001",
+          "reason": "découpe brute de l'élément lampe-chevet : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-lampe-chevet-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:47:02.713312+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-lampe-chevet » (content/assets/planches/atlas/p01-objets.webp), forme normalisée par le jeu de l'élément lampe-chevet",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-lampe-chevet-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-lampe-chevet-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-lampe-chevet"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lampe-chevet-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-199.png, SHA-256 fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-objets.json · cadre sprite-lampe-chevet"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort lampe-chevet (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "7069f1f0f0373296",
+    "phash": "cbcb3d3cf0b0340d"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-lampe-chevet-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lampe-chevet livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-objets.webp (webp)\", \"boite\": [88, 119, 451, 622], \"cadre\": \"sprite-lampe-chevet\", \"element\": \"lampe-chevet\", \"empreintePixels\": \"ddf583dd683eeb402ba88bf4cb8589d790d321838d73bb951d4957321a42a44e\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 119, \"w\": 88, \"x\": 451, \"y\": 622}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-lampe-chevet-0001",
+    "parentSha256": "862db40cd109162909046fc7ce961f7e03d4478abe919255ad83bc975fa864d9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:47:03.131797+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 276,
+        "path": "content/assets/planches/atlas/p01-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-lampe-chevet de content/assets/planches/atlas/p01-objets.webp (empreinte de pixels ddf583dd683eeb40)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-lampe-chevet",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fe23221d79e628ce88caef0f7e1e244058fbdce4d11b7bbf1f01d0b0d05854ba",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

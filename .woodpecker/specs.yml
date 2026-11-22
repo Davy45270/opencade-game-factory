@@ -60,6 +60,8 @@ steps:
       - . .venv/bin/activate
       - ./specctl --json validate
       - ./specctl --json verify
+      # ARCH-001 E005 : les ADR d'intégration citées par la fiche de l'usine existent et sont approuvées par David.
+      - ./specctl --json blocks --spec SPEC-GAME-FACTORY
 
   # ARCH-001 E009 : le magasin d'assets (originaux de niveaux, planches) est référencé fichier par fichier, avec
   # empreinte et origine ; le registre des specs ne tient que des références. Mesure sur le dépôt réel (code 1 = écart).

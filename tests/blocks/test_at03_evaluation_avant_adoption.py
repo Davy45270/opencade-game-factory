@@ -48,7 +48,12 @@ class AT03EvaluationAvantAdoption(unittest.TestCase):
         (self.evals / f"{BB}.json").write_text(json.dumps(e))
         self.assertEqual(self.decider().rc, 1)
 
-        self.evaluer(tco=TCO)                                                   # complète : gates, 6 critères, coût total
+        self.evaluer(tco=TCO)                                                   # sans runtime ni qualité des tests
+        self.assertEqual(self.decider().rc, 3)                                  # BB-001 § 4 (E181) : refus
+        # complète : gates (runtime compris), 6 critères, qualité des tests, coût total
+        self.evaluer(tco=TCO, gates={"security": {"critical": 0, "accepted": False}, "provenance": "known",
+                                     "technical": "ok", "runtime": "compatible"},
+                     checks={"tests": {"score": 4, "preuve": "suite amont verte au tag 2.2.4"}})
         self.assertEqual(self.decider().rc, 0)
         self.assertEqual(self.adopter().rc, 0)
 

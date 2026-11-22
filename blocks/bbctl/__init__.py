@@ -17,7 +17,7 @@ from . import evenements
 from .adoption import Conflict, adopt, gate, write_block
 from .liens import link_specs
 from .duplicates import duplicates
-from .evaluation import evaluate, nonblank
+from .evaluation import evaluate, externe, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
 
@@ -216,6 +216,10 @@ def run(args, root):
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
+        manquantes = [k for k, v in result["verifications"].items() if v != "verified"]
+        if externe(block) and manquantes and args.choice in {"reuse", "adapt", "wrap", "fork"}:
+            # E181 : un composant open source ne se réutilise qu'après les sept vérifications de BB-001 § 4.
+            raise CatalogueScopeError("Vérifications manquantes avant adoption : " + ", ".join(manquantes) + ".")
         # BB-001 T07 : une décision argumentée porte la note pondérée qui l'a fondée (None si le candidat est éliminé).
         decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason,
                     "score": result["score"]}

@@ -203,6 +203,29 @@ class Gate(Base):
         r = self.gate()
         self.assertEqual((r.rc, r.json["uncovered"]), (0, []), r)
 
+    def test_T06_composant_interne_adapte_propose_en_reutilisation(self) -> None:
+        # BB-001 T06 : un jeu crée un module alors qu'un autre jeu a déjà ce composant au catalogue : le gate bloque ET
+        # propose la brique existante à réutiliser (même nom, même écosystème). Témoin : sans cette brique, aucune
+        # proposition n'est inventée.
+        r = self.gate()
+        self.assertEqual(r.rc, 1, r)
+        self.assertEqual(r.json["proposals"], {})                                    # témoin : rien à proposer
+        autre = self.u.tmp / "autre"
+        (autre / "src/engines/physique").mkdir(parents=True)
+        (autre / "src/engines/physique/index.ts").write_text("export const g = 9.8\n")
+        (autre / "package.json").write_text(json.dumps({"dependencies": {}}))
+        git(autre, "init", "-q", "-b", "main")
+        git(autre, "add", "-A")
+        git(autre, "commit", "-q", "-m", "c")
+        sources = self.u.tmp / "sources.json"
+        sources.write_text(json.dumps({"sources": [{"name": "autre", "copies": [{"provider": "local", "path": str(autre)}]}]}))
+        self.assertEqual(self.u.bbctl("discover", "--repos", "authorized", "--sources", str(sources), "--json").rc, 0)
+        existant = json.loads((self.u.usine / "blocks" / "ids.json").read_text())["local:autre:src/engines/physique"]
+        r = self.gate()
+        self.assertEqual(r.rc, 1, r)                                                  # proposer n'est pas décider
+        self.assertEqual(r.json["uncovered"], ["local:jeu:src/engines/physique", "npm:howler@unresolved"])
+        self.assertEqual(r.json["proposals"], {"local:jeu:src/engines/physique": [{"block": existant, "choice": "reuse"}]})
+
     def test_T09_derogation_approuvee_passe_avec_audit(self) -> None:
         d = self.u.usine / "blocks" / "derogations.json"
         d.write_text(json.dumps({"local:jeu:src/engines/physique": {"ref": "HL-525 7-3000", "reason": "prototype"},

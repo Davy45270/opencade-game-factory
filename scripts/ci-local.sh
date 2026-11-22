@@ -2,7 +2,8 @@
 # Rejoue en local, SANS conteneur, les commandes d'un pipeline Woodpecker du registre, dans le même
 # ordre ; s'arrête au premier échec, comme Woodpecker.
 #
-#   scripts/ci-local.sh validate          .woodpecker/validate.yml
+#   scripts/ci-local.sh validate          .woodpecker/validate.yml (tank01) puis .woodpecker/controles.yml
+#                                         (Contabo), qui tournent en parallèle en CI
 #   scripts/ci-local.sh build-index       .woodpecker/build-index.yml
 #   scripts/ci-local.sh scan              .woodpecker/scan.yml (réseau : copies GitHub publiques)
 #   scripts/ci-local.sh release           .woodpecker/release.yml

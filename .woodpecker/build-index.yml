@@ -18,8 +18,8 @@ when:
       exclude: ['docs/**', '**/*.md', 'LICENSES/**']
   - event: manual
 
-depends_on:
-  - validate
+# Sans depends_on (HL-542) : l'index se vérifie en même temps que les contrôles ; le workflow des tests
+# n'existe pas pour une PR de données seules, une dépendance vers lui bloquerait.
 
 steps:
   - name: index

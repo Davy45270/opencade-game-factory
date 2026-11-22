@@ -1,0 +1,91 @@
+# Contrôles courts du registre (spec §8 « CI du registre ») : atlas, licences externes, doublons, secrets.
+# Sur l'agent de Contabo (HL-542), EN MÊME TEMPS que tests, validate et contrôle de PR sur tank01
+# (.woodpecker/validate.yml) ; chaque étape ici dure moins de 10 s sur Zalman.
+# Aucun secret dans ce pipeline. Rejeu local sans conteneur : scripts/ci-local.sh validate
+#
+# Image Python officielle par le proxy Harbor. Le .venv vit dans l'espace de travail, partagé par
+# les étapes.
+labels:
+  host: contabo
+
+# Volume (HL-542) : une modification de documentation seule ne déclenche rien ; les fichiers de
+# données ou d'outils, si. Une PR ne lance que des pipelines `pull_request` (pas de `push` hors main).
+when:
+  - event: push
+    branch: main
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: pull_request
+    path:
+      exclude: ['docs/**', '**/*.md', 'LICENSES/**']
+  - event: manual
+
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      # Historique complet : l'étape `arbre` lit le second parent d'un commit de fusion ; gitleaks lit l'historique.
+      depth: 0
+      partial: false
+
+# Étapes en graphe (HL-542 7-3229) : après `dependances`, toutes tournent en parallèle ; une étape sans
+# depends_on démarrerait d'emblée, d'où un depends_on explicite partout.
+steps:
+  # Pas de deuxième passe complète sur main (HL-542) : si le commit fusionné a EXACTEMENT l'arbre de la
+  # tête de la PR (second parent), ce contenu a déjà été vérifié en PR, et la protection de main exige des
+  # statuts verts pour fusionner. Contrôle de l'arbre (git diff), jamais du message de commit. Squash,
+  # rebase ou main avancé entre-temps : arbres différents, passe complète.
+  - name: arbre
+    image: woodpeckerci/plugin-git:2.12.1
+    commands:
+      - git config --global --add safe.directory '*'
+      - if [ "$${CI_PIPELINE_EVENT}" = push ] && git rev-parse -q --verify "HEAD^2" >/dev/null && git diff --quiet "HEAD^2" HEAD; then echo "arbre de $(git rev-parse HEAD) = arbre de la tête de PR $(git rev-parse HEAD^2), déjà vérifiée en PR" | tee .ci-deja-verte; else echo "passe complète"; fi
+
+  - name: dependances
+    image: &py harbor.pingfr.duckdns.org/dockerhub/library/python:3.13-slim
+    pull: true
+    depends_on: [arbre]
+    commands:
+      - if [ -e .ci-deja-verte ]; then cat .ci-deja-verte; exit 0; fi
+      - python3 --version
+      - python3 -m venv .venv
+      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt -r requirements-ci.txt
+      - .venv/bin/pip freeze
+
+  # E083 : chaque atlas exporté du dépôt (transparence, dimensions, références).
+  - name: atlas
+    image: *py
+    depends_on: [dependances]
+    commands:
+      - if [ -e .ci-deja-verte ]; then cat .ci-deja-verte; exit 0; fi
+      - . .venv/bin/activate
+      - N=0
+      - for f in atlases/*.json; do [ -e "$$f" ] || continue; ./assetctl validate-atlas "$$f" --json || exit 1; N=$$((N + 1)); done
+      - echo "atlas validés $$N"
+
+  # EXT-001 (E164) : aucune fiche externe ne déclare une licence que son pack n'a pas prouvée.
+  # Ses tests d'acceptation EXT-T01…T12 tournent hors ligne dans tests-unitaires (tests/unit/test_ext001.py).
+  - name: licences-externes
+    image: *py
+    depends_on: [dependances]
+    commands:
+      - if [ -e .ci-deja-verte ]; then cat .ci-deja-verte; exit 0; fi
+      - . .venv/bin/activate
+      - ./assetctl external audit-licenses --json
+
+  # E082 : doublons exacts et similaires proposés, jamais fusionnés.
+  - name: doublons
+    image: *py
+    depends_on: [dependances]
+    commands:
+      - if [ -e .ci-deja-verte ]; then cat .ci-deja-verte; exit 0; fi
+      - . .venv/bin/activate
+      - ./assetctl duplicates --json
+
+  # E081 : secrets.
+  - name: secrets
+    image: harbor.pingfr.duckdns.org/dockerhub/zricethezav/gitleaks:v8.30.1
+    depends_on: [arbre]
+    commands:
+      - if [ -e .ci-deja-verte ]; then cat .ci-deja-verte; exit 0; fi
+      - gitleaks detect --source . --no-banner --redact

@@ -2850,9 +2850,9 @@
 - `asset-image-singe-right-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-top-0002` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-six-de-chaque-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-six-de-chaque-512-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-six-de-chaque-maskable-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-six-de-chaque-192-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-six-de-chaque-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-six-de-chaque-maskable-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-sizes-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-slalom-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-slalom-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -7049,7 +7049,7 @@
 - `asset-svg-flammeche-pleine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-flammeche-vide-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-fronde-lianes-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
-- `asset-svg-glyphs-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-svg-glyphs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-graine-petard-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-svg-hublot-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-lanterne-0001` — unknown · forbidden · Autorisation non établie.

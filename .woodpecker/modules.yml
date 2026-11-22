@@ -52,6 +52,14 @@ steps:
       - . .venv/bin/activate
       - python3 scripts/catalogue_pages.py --check
 
+  # LV-20 (E236, HL-538) : catalogue web statique des niveaux (generated/niveaux/ : index filtrable, une page et une
+  # capture PNG par niveau) ; périmé, absent ou en trop → code 4. Régénérer : ./assetctl level site --out generated/niveaux
+  - name: niveaux-site
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./assetctl level site --out generated/niveaux --check --json
+
   # BB-001 § 9 (matrice E206, E224) : depuis les manifestes JSON du catalogue réel, l'index SQLite FTS5 et le graphe de
   # dépendances se génèrent, puis --check les retrouve identiques (reconstruction déterministe). Rien n'est commité.
   - name: index-briques

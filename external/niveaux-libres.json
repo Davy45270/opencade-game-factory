@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "note": "LV-17 : niveaux de jeux et d'exemples libres. La licence des CARTES se prouve par source (fichier cité, même commit) ; celle du code du dépôt ne la donne jamais. Ajout par PR avec revue.",
+  "sources": [
+    {
+      "id": "tiled-sticker-knight",
+      "repo": "mapeditor/tiled",
+      "ref": "f87a88d04efa75750901978ae4ed6dfda5da1b10",
+      "paths": "^examples/sticker-knight/map/sandbox2?\\.tmx$",
+      "licence": "LicenseRef-Domaine-Public-Declare",
+      "licenceFile": "examples/sticker-knight/README.md",
+      "codeLicence": "GPL-2.0-or-later (éditeur Tiled, COPYING) — ne couvre pas examples/",
+      "kind": "platformer",
+      "game": "tiled-sticker-knight",
+      "author": "ponywolf",
+      "review": {
+        "licence": "README du dossier : « released to the public domain » (auteur ponywolf, aussi publié sur OpenGameArt) ; COPYING du dépôt ne liste pas examples/",
+        "securite": "fichiers TMX/TSX (XML) lus par l'analyseur du registre, aucun exécutable",
+        "par": "registre (agent HL-538)",
+        "date": "2026-11-22",
+        "pr": "forge opencade-asset-registry, lot HL-538 29 lignes"
+      }
+    }
+  ]
+}

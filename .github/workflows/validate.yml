@@ -53,6 +53,8 @@ jobs:
       - name: niveaux (EXT-002 level validate, catalogue entier)
         # Le nom de la commande de la spec : `level validate` ; un `fail` bloque, un `inconclusive` est compté.
         run: python3 scripts/niveaux-valider.py
+      - name: catalogue web des niveaux à jour (LV-20)
+        run: ./assetctl level site --out generated/niveaux --check --json > /dev/null
   secrets:
     runs-on: ubuntu-24.04
     steps:

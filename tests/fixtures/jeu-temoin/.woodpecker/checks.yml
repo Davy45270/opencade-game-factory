@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 6c6d054fc610) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 5ce493b750eb) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -37,6 +37,12 @@ steps:
     image: *node
     commands:
       - npm run --if-present typecheck
+  - name: tests conservés
+    image: *node
+    commands:
+      # ARCH-001 E030 : un test supprimé ou masqué (.skip, .only…) fait échouer la CI, sauf trailer
+      # « Tests-Retires: HL-n 7-n » (décision tracée). Rapport : tests-conserves-rapport.json.
+      - node .woodpecker/usine/tests-conserves.mjs
   - name: test
     image: *node
     commands:

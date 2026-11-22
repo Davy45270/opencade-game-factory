@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 384×288 · S
 Fiche : [`sheet-e04-monstres-0001`](../../../catalog/sheets/sheet-e04-monstres-0001.json)
 
 - copie : pestouille-rpg `assets/export/e04-monstres.png`
+- copie : pestouille-rpg `assets/export/e04-monstres.png`
 
 0 asset(s) découpés de cette planche.
 

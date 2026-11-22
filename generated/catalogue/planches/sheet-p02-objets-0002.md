@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 96×96 · SHA
 Fiche : [`sheet-p02-objets-0002`](../../../catalog/sheets/sheet-p02-objets-0002.json)
 
 - copie : pestouille-rpg `assets/export/p02-objets.png`
+- copie : pestouille-rpg `assets/export/p02-objets.png`
 
 0 asset(s) découpés de cette planche.
 

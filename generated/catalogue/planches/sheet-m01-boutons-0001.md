@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 288×152 · S
 Fiche : [`sheet-m01-boutons-0001`](../../../catalog/sheets/sheet-m01-boutons-0001.json)
 
 - copie : pestouille-rpg `assets/export/m01-boutons.png`
+- copie : pestouille-rpg `assets/export/m01-boutons.png`
 
 0 asset(s) découpés de cette planche.
 

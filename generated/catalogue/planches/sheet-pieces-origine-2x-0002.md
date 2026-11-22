@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×68 · S
 Fiche : [`sheet-pieces-origine-2x-0002`](../../../catalog/sheets/sheet-pieces-origine-2x-0002.json)
 
 - copie : capsule-panic `packages/assets/atlas/pieces-origine@2x.png`
+- copie : capsule-panic `packages/assets/atlas/pieces-origine@2x.png`
 
 0 asset(s) découpés de cette planche.
 

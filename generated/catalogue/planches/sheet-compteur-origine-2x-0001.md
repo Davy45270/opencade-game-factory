@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×164 · 
 Fiche : [`sheet-compteur-origine-2x-0001`](../../../catalog/sheets/sheet-compteur-origine-2x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/compteur-origine@2x.png`
+- copie : capsule-panic `packages/assets/atlas/compteur-origine@2x.png`
 
 0 asset(s) découpés de cette planche.
 

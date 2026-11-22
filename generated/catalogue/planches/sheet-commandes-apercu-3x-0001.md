@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×294 · 
 Fiche : [`sheet-commandes-apercu-3x-0001`](../../../catalog/sheets/sheet-commandes-apercu-3x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/commandes-apercu@3x.png`
+- copie : capsule-panic `packages/assets/atlas/commandes-apercu@3x.png`
 
 0 asset(s) découpés de cette planche.
 

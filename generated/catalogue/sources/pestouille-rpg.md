@@ -12,11 +12,12 @@ Rôle : game
 | https://forgejo.pingfr.duckdns.org/david/pestouille-rpg.git | private |
 | /home/david/Projets/jeux/pestouille-rpg | private |
 
-## Jeux (1)
+## Jeux (2)
 
-- [pestouille-rpg](../jeux/pestouille-rpg.md) — 829 asset(s)
+- [pestouille-rpg](../jeux/pestouille-rpg.md) — 1162 asset(s)
+- [pestouille-rpg/content](../jeux/pestouille-rpg--content.md) — 4 asset(s)
 
-## Licences des 829 asset(s) employés
+## Licences des 1165 asset(s) employés
 
 - [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) : 566
-- [unknown](../licences/unknown.md) : 263
+- [unknown](../licences/unknown.md) : 599

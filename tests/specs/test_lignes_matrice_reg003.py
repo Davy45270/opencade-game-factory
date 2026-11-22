@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import pathlib
+import re
 import subprocess
 import unittest
 
@@ -123,14 +124,20 @@ class E147E101ControleEnPr(unittest.TestCase):
     Deux portes : le gabarit CI des jeux (étape « spec résolue » AVANT lint, tests et build) et la CI de l'usine
     elle-même, dont chaque PR résout la spec de l'usine (SPEC-GAME-FACTORY) avant ses oracles."""
 
+    @staticmethod
+    def etapes(texte: str) -> list[tuple[str, str]]:
+        """(nom, corps) des étapes d'un workflow Woodpecker, dans l'ordre (sans PyYAML : absent du venv des specs)."""
+        blocs = re.split(r"(?m)^  - name: ", texte.split("\nsteps:\n", 1)[1])[1:]
+        return [(b.split("\n", 1)[0].strip(), b) for b in blocs]
+
     def test_ci_de_l_usine_resout_sa_spec_sur_chaque_pr(self) -> None:
-        import yaml  # noqa: PLC0415
-        y = yaml.safe_load((RACINE / ".woodpecker" / "specs.yml").read_text())
-        self.assertIn("pull_request", json.dumps(y["when"]))
-        noms = [s["name"] for s in y["steps"]]
+        texte = (RACINE / ".woodpecker" / "specs.yml").read_text()
+        self.assertRegex(texte.split("\nsteps:\n", 1)[0], r"event: \[pull_request")
+        etapes = dict(self.etapes(texte))
+        noms = list(etapes)
         self.assertIn("spec-resolue", noms)
-        etape = y["steps"][noms.index("spec-resolue")]
-        self.assertTrue(any("specctl --json resolve --project game-factory" in c for c in etape["commands"]), etape)
+        self.assertIn("./specctl --json resolve --project game-factory", etapes["spec-resolue"])
+        self.assertNotIn("when:", etapes["spec-resolue"])                      # jamais sautée, PR comprise
         self.assertLess(noms.index("spec-resolue"), noms.index("oracles-specctl"))
 
     def test_spec_de_l_usine_resolue_sur_le_registre_reel(self) -> None:
@@ -140,13 +147,9 @@ class E147E101ControleEnPr(unittest.TestCase):
         self.assertEqual([s["specId"] for s in json.loads(r.stdout)["specs"]], ["SPEC-GAME-FACTORY"])
 
     def test_gabarit_des_jeux_consulte_la_spec_avant_tout_build(self) -> None:
-        import yaml  # noqa: PLC0415
         texte = (RACINE / "ci" / "gabarit" / "checks.yml").read_text()
-        texte = texte.replace("@ENTETE@", "").replace("@NODE_IMAGE@", "node").replace("@GITLEAKS_IMAGE@", "g") \
-            .replace("@CHECKS_EXTRA@", "")
-        y = yaml.safe_load(texte)
-        self.assertIn("pull_request", json.dumps(y["when"]))
-        noms = [s["name"] for s in y["steps"]]
+        self.assertIn("pull_request", texte.split("\nsteps:\n", 1)[0])
+        noms = [n for n, _ in self.etapes(texte)]
         for apres in ("lint", "typecheck", "test", "build"):
             self.assertLess(noms.index("spec résolue"), noms.index(apres))
         script = (RACINE / "ci" / "scripts" / "spec-resolue.mjs").read_text()

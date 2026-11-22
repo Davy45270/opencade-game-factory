@@ -19,9 +19,17 @@ from .liens import link_specs
 from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
-from .search import GraphUnavailable, search
+from .search import GraphUnavailable, read_graph, search
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
+
+
+class Unknown(GraphUnavailable):
+    """ARCH-001 AT-02 : l'existant n'a pas pu être lu ; il est inconnu, pas absent."""
+
+
+def graph_path_of(args):
+    return Path(args.graph or os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json").expanduser()
 CODE_HELP = """Codes de retour
   0 succès
   1 contrôle en échec
@@ -121,6 +129,8 @@ def parser():
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
     sub["decide"].add_argument("--reason", required=True)
+    sub["decide"].add_argument("--graph", type=Path, help="build seulement : graphe graphify consulté (défaut : BBCTL_GRAPH "
+                               "ou ~/graphify/public/graph.json) ; illisible = existant inconnu, build refusé (AT-02).")
     return cli
 
 
@@ -160,7 +170,13 @@ def run(args, root):
             return search_opensource(blocks, args.query, args.ecosystem, args.size, args.record)
         if command == "search":
             graph_path = args.graph or Path(os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json")
-            return search(blocks, args, graph_path.expanduser())
+            result = search(blocks, args, graph_path.expanduser())
+            # ARCH-001 § 10 étape 2 : la recherche est un maillon observable de la tranche (opt-in, n'échoue jamais).
+            evenements.emettre("bb.searched", "success", args.repo or "inconnu",
+                               sorted({x["block"] for x in result["results"] if x["block"]}),
+                               {"query": args.query, "scope": "internal", "results": len(result["results"])},
+                               args.query + (args.repo or ""))
+            return result
 
         if command == "discover":
             return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
@@ -171,7 +187,13 @@ def run(args, root):
         if command == "usages":
             return usages(records, args.block)
         if command == "impact":
-            return impact(records, args.block, args.to_version)
+            result = impact(records, args.block, args.to_version)
+            # ARCH-001 AT-12 : l'impact d'un changement de contrat partagé remonte à la Tour (opt-in, n'échoue jamais).
+            block = records[args.block][1]
+            evenements.emettre("bb.impact-detected", "success", projet_de(block), [args.block],
+                               {"toVersion": args.to_version, "projects": result["impacted"]},
+                               args.to_version + ",".join(result["impacted"]), specs=block.get("specIds") or ())
+            return result
         if command == "adopt":
             return adopt(blocks, records, args)
         if command == "link-specs":
@@ -194,16 +216,34 @@ def run(args, root):
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
-        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason}
+        # BB-001 T07 : une décision argumentée porte la note pondérée qui l'a fondée (None si le candidat est éliminé).
+        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason,
+                    "score": result["score"]}
+        decision.pop("searchGraphSha256", None)
+        if args.choice == "build":
+            # AT-02 : construire = remplacer ce qui existe peut-être. Sans recherche interne lisible, l'existant est
+            # INCONNU (jamais « absent ») : la décision est bloquée, rien n'est écrit.
+            try:
+                _, digest = read_graph(graph_path_of(args))
+            except GraphUnavailable as exc:
+                raise Unknown(f"Existant inconnu, décision build bloquée : {exc}") from exc
+            decision["searchGraphSha256"] = digest
         changed = False
         if block["decision"] != decision or args.expect is not None:
             block["decision"] = decision
             changed = write_block(blocks, path, block, "decide", args.expect)
         if changed:
-            evenements.emettre("bb.decided", "success", (block["usedBy"] or ["inconnu"])[0], [block["id"]],
+            evenements.emettre("bb.decided", "success", projet_de(block), [block["id"]],
                                {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
                                specs=block.get("specIds") or ())
         return {"candidate": block["id"], "decision": decision, "changed": changed}
+
+
+def projet_de(block):
+    """projectId d'un événement de brique : le dépôt d'origine, sinon le premier consommateur sans son sous-chemin
+    (« six-de-chaque/apps/web » → « six-de-chaque ») — un seul projet par trace (towerctl trace)."""
+    repo = (block.get("origin") or {}).get("repo")
+    return repo or ((block.get("usedBy") or ["inconnu"])[0]).split("/")[0]
 
 
 def check_spec_links(root, records):
@@ -236,6 +276,8 @@ def main(argv=None):
         code = ExitCode.OK
     except UsageError as exc:
         code, payload = ExitCode.USAGE, {"status": "usage", "error": str(exc)}
+    except Unknown as exc:
+        code, payload = ExitCode.IO, {"status": "unknown", "error": str(exc)}
     except (GraphUnavailable, OSError, ImportError) as exc:
         code, payload = ExitCode.IO, {"status": "source-unavailable", "error": str(exc)}
     except Uncovered as exc:

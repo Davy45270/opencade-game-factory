@@ -1,0 +1,14 @@
+{
+ "candidate": "BB-SIX-DE-CHAQUE-ENGINE-001",
+ "date": "2026-11-22",
+ "contexte": "Tranche ARCH-12 (HL-525, HL-535), traceId arch12-six-20261122 : prouver l'immuabilité de l'état et le contrôle du tour au rejeu",
+ "gates": {"security": {"critical": 0, "accepted": false}, "provenance": "known", "technical": "ok"},
+ "scores": {
+  "adequation": {"score": 5, "preuve": "le moteur porte déjà checkInvariants, validateAction (WRONG_TURN) et replay ; bbctl search « invariants » --repo six-de-chaque : 2 nœuds dans packages/engine/src/invariants.ts"},
+  "integration": {"score": 5, "preuve": "consommé par 6 modules du jeu (usedBy de la fiche) ; aucun adaptateur à écrire"},
+  "maintenance": {"score": 4, "preuve": "dépôt six-de-chaque sous CI Woodpecker (checks, e2e, mutation) ; dernier commit du moteur le 20/11"},
+  "licence": {"score": 5, "preuve": "MIT (origin.licenseSpdx), code du jeu"},
+  "securite": {"score": 5, "preuve": "moteur pur sans dépendance d'exécution (AGENTS.md du jeu, tests/engine-purity.test.ts)"},
+  "cout": {"score": 5, "preuve": "réutilisation sans brique nouvelle : 0 dépendance ajoutée, tests seulement (commit 0d9d245)"}
+ }
+}

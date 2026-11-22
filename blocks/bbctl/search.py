@@ -2,9 +2,8 @@
 
 import hashlib
 from collections import defaultdict
-from datetime import datetime, timezone
 
-from tools.core.catalog import CatalogueScopeError, InvalidJSON, parse_json, write_json
+from tools.core.catalog import InvalidJSON, parse_json
 
 from .registry import read_catalogue
 
@@ -72,19 +71,14 @@ def search(blocks, args, graph_path):
             })
 
     if args.receipt:
-        receipt = args.receipt
-        target = receipt.resolve()
-        if target == graph_path.resolve() or (
-            receipt.exists() and receipt.samefile(graph_path)
-        ):
-            raise CatalogueScopeError("Le reçu ne peut pas remplacer le graphe.")
-        data_directories = ("catalog", "decisions", "evaluations")
-        if any(target.is_relative_to((blocks / name).resolve()) for name in data_directories):
-            raise CatalogueScopeError("Le reçu doit être placé hors des dossiers de données du registre.")
-        write_json(receipt, {
+        from . import recu
+        steps = [recu.resoudre(blocks.parent, args.project)] if getattr(args, "project", None) else []
+        resultats = list(dict.fromkeys(result["graphNode"] for result in results))
+        at = recu.maintenant()
+        steps.append({"step": "bbctl search --scope internal", "query": args.query, "repo": args.repo, "kind": args.kind,
+                      "graphSha256": digest, "results": resultats, "at": at})
+        recu.ajouter(args.receipt, blocks, steps, {
             "query": args.query, "scope": args.scope, "repo": args.repo, "kind": args.kind,
-            "graphSha256": digest,
-            "results": list(dict.fromkeys(result["graphNode"] for result in results)),
-            "at": datetime.now(timezone.utc).isoformat(),
-        })
+            "graphSha256": digest, "results": resultats, "at": at,
+        }, protected=(graph_path,))
     return {"results": results, "externalReferencesSkipped": len(skipped)}

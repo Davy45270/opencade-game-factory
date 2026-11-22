@@ -125,12 +125,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-fleche-rotation-bas-jeu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-fleche-rotation-bas-jeu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -140,22 +135,17 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
+    "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
-      "importer_livre : cadre packages/assets/atlas/traits-animations-jeu@2x.png#sprite-fleche-rotation-bas-jeu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [49, 39, 1446, 507] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
-    "parentId": "asset-sprite-sprite-fleche-rotation-bas-jeu-0003",
-    "parentSha256": "9a75c076df2c51d49cffa6d88340f3cdd241e7014b841ed294a951123de4ef16",
-    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "ebdc702d4ddf27eb9b0002fe6828fc2f0af66b93aa3f7e7f1e6597e87deed8ce",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 39,
     "verified": false,
     "w": 49,
@@ -170,6 +160,40 @@
   "thumbnail": "thumbnails/eb/ebdc702d4ddf27eb9b0002fe6828fc2f0af66b93aa3f7e7f1e6597e87deed8ce.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/traits-animations-jeu@2x.json": "c1188211ef59a8bb57a07b266919a2622e9a1159",
+        "packages/assets/atlas/traits-animations-jeu@2x.png": "dfeeb906345ec1d14071a7493513091ef1e90595"
+      },
+      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5352,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/traits-animations-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "traits-animations-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.png",
       "assetVersion": 1,
@@ -197,6 +221,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/traits-animations-jeu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/traits-animations-jeu@2x.json": "c1188211ef59a8bb57a07b266919a2622e9a1159",
+        "packages/assets/atlas/traits-animations-jeu@2x.png": "dfeeb906345ec1d14071a7493513091ef1e90595"
+      },
+      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 328,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/traits-animations-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "traits-animations-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

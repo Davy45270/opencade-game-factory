@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "0bb851e58a51c7a1d95d1366a24637a03f1d6ae3ec30558422f40ed8f36709b0",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 310,
     "verified": false,
     "w": 340,
@@ -126,6 +126,74 @@
   "thumbnail": "thumbnails/0b/0bb851e58a51c7a1d95d1366a24637a03f1d6ae3ec30558422f40ed8f36709b0.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/personnages-origine@3x.json": "92e20b486b3d8674758f330374a62def21183199",
+        "packages/assets/atlas/personnages-origine@3x.png": "9197ca9cc1ec466c3d9ba54c0002e70285d07609"
+      },
+      "assetPath": "packages/assets/atlas/personnages-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "apps/web/src/Artwork.tsx"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/atlas/personnages-origine@3x.json",
+        "module-path: apps/web/src/Artwork.tsx"
+      ],
+      "game": "capsule-panic",
+      "importName": "characters",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/Artwork.tsx",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/personnages-origine@3x.json": "92e20b486b3d8674758f330374a62def21183199",
+        "packages/assets/atlas/personnages-origine@3x.png": "9197ca9cc1ec466c3d9ba54c0002e70285d07609"
+      },
+      "assetPath": "packages/assets/atlas/personnages-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4692,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/personnages-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "personnages-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/personnages-origine@3x.json": "92e20b486b3d8674758f330374a62def21183199",

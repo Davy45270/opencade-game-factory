@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/fa/facd0182a0914313ed5665214df0aa7c08d19ac0b7d1be8f323e2fbe3563359b.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png": "04e0da14c6c6e8c2be7a70d578c83202ac56c610"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7132,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-verticale-cyan-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png": "04e0da14c6c6e8c2be7a70d578c83202ac56c610"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 760,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-verticale-cyan-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-paire-verticale-cyan-ambre.png": "04e0da14c6c6e8c2be7a70d578c83202ac56c610"

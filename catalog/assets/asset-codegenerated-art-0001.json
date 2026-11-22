@@ -22,6 +22,18 @@
         "assetVersion": 1,
         "blobSha256": "8fd9eba4771674f633619f2047bce9e6e8e11d3207a4044e3209a90db0a9bee5",
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/renderer",
+        "path": "packages/renderer/src/art.ts",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "blobSha256": "8fd9eba4771674f633619f2047bce9e6e8e11d3207a4044e3209a90db0a9bee5",
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/renderer",
         "path": "packages/renderer/src/art.ts",
@@ -83,7 +95,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@ea68eeb3829e17c49b13114107c2f38480c62341"
+    "ref": "LICENSE@b68ed791cd9effd97308d70680edc82bf6de957c"
   },
   "name": "art",
   "orientation": "unknown",
@@ -104,7 +116,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
     {
       "assetPath": "packages/renderer/src/art.ts",
@@ -133,6 +145,39 @@
       "repo": "capsule-panic",
       "role": "dessin-code",
       "scene": "packages/renderer/src/art.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/renderer/src/art.ts": "8b0ebe5014f61ed506d58749c03c157db70ab77b"
+      },
+      "assetPath": "packages/renderer/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "tests/assets-palette.test.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/renderer/src/art.ts",
+        "module-path: tests/assets-palette.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "tests/assets-palette.test.ts",
       "status": "active"
     },
     {

@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 26,
     "verified": false,
     "w": 42,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/31/31306e2aa0347c326ad50e30f210aff1762d2a0443a5edd9835ea7f8b84ad44a.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-maquettes@3x.json": "d6ff9c00c6fc3ca02cab7f94eee165d6edd67737",
+        "packages/assets/atlas/effets-maquettes@3x.png": "0a409b4a9cbf9beaac86633c11acb0e893f2ee3e"
+      },
+      "assetPath": "packages/assets/atlas/effets-maquettes@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2052,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-maquettes@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-maquettes@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/effets-maquettes@3x.json": "d6ff9c00c6fc3ca02cab7f94eee165d6edd67737",

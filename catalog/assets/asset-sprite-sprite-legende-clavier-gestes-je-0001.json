@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "0688745d2e98b9f98ebbfb6b8063dbca984c1cc691a1cd247c8eedabf48fc004",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 72,
     "verified": false,
     "w": 125,
@@ -126,6 +126,74 @@
   "thumbnail": "thumbnails/06/0688745d2e98b9f98ebbfb6b8063dbca984c1cc691a1cd247c8eedabf48fc004.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/gestes-jeu@2x.json": "29b998ea5f3f5b1352dd7ed673e583ecc793ccea",
+        "packages/assets/atlas/gestes-jeu@2x.png": "2a3aaaafaaea1f170beaed32a13bee1ff975d3dd"
+      },
+      "assetPath": "packages/assets/atlas/gestes-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2862,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/gestes-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "gestes-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/gestes-jeu@2x.json": "29b998ea5f3f5b1352dd7ed673e583ecc793ccea",
+        "packages/assets/atlas/gestes-jeu@2x.png": "2a3aaaafaaea1f170beaed32a13bee1ff975d3dd"
+      },
+      "assetPath": "packages/assets/atlas/gestes-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 241,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/gestes-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "gestes-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/gestes-jeu@2x.json": "29b998ea5f3f5b1352dd7ed673e583ecc793ccea",

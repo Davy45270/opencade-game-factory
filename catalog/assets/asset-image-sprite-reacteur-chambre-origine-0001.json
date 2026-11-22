@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
@@ -130,8 +141,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/b9/b934d323d40bf19480a47ec1bc6ef66a20089fab3fee9d40a4c484d3c6f54fb1.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-reacteur-chambre-origine.webp": "1b9011233f4a1937b0bddc77cfa67b5bcfa7817e"
+      },
+      "assetPath": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "reacteurChambreOrigine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
       "assetVersion": 1,
@@ -159,6 +203,39 @@
       "repo": "capsule-panic",
       "role": "image",
       "scene": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-reacteur-chambre-origine.webp": "1b9011233f4a1937b0bddc77cfa67b5bcfa7817e"
+      },
+      "assetPath": "packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-reacteur-chambre-origine.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "reacteurChambreOrigine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
       "status": "active"
     },
     {

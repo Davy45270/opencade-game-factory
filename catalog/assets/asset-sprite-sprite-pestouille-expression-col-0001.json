@@ -20,10 +20,10 @@
   "files": {
     "atlasFrames": [
       {
-        "atlasSheetId": "sheet-p02-pestouille-0001",
+        "atlasSheetId": "sheet-p02-pestouille-0002",
         "h": 64,
         "w": 64,
-        "x": 320,
+        "x": 64,
         "y": 64
       }
     ],
@@ -37,7 +37,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     },
@@ -58,35 +58,35 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     },
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/p02-pestouille.json#sprite-pestouille-expression-colere"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/p02-pestouille.json"
       ],
       "method": "proven"
     }
@@ -96,22 +96,22 @@
   "orientation": "unknown",
   "originUniverse": "unknown",
   "perceptual": {
-    "dhash": "9e4d69595e657122",
-    "phash": "cb7388a5b19c84cf"
+    "dhash": "4a2315121c73745c",
+    "phash": "9de0668c33cd7932"
   },
   "pivot": "unknown",
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2",
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "e70125bb67131a33cbc9f524441b906f12b56134d80a67e4bcc8862591c5537a",
+  "sha256": "243dfa2e25745f7fe52f1f5733f4e2e7352421d70a549037bcf75134068610ec",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 65,
     "verified": false,
     "w": 65,
@@ -123,21 +123,225 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/e7/e70125bb67131a33cbc9f524441b906f12b56134d80a67e4bcc8862591c5537a.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "thumbnail": "thumbnails/24/243dfa2e25745f7fe52f1f5733f4e2e7352421d70a549037bcf75134068610ec.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "assets/export/p02-pestouille.png": "81084ca0f3d60da2910839206fda96ead637b5d9",
-        "public/assets/p02-pestouille.json": "84d92d5ae58e8f00878fb9f40e8ffc19b14234d0"
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
       },
       "assetPath": "public/assets/p02-pestouille.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 1004,
+        "line": 680,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/p02-pestouille.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/export/p02-pestouille.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/p02-pestouille.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 992,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/p02-pestouille.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/manifests/p02-pestouille.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/p02-pestouille.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 680,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/p02-pestouille.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.json",
+        "module-path: assets/export/p02-pestouille.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/p02-pestouille.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
+      },
+      "assetPath": "public/assets/p02-pestouille.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 992,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets/liste-assets.json"
@@ -162,16 +366,16 @@
     },
     {
       "assetBlobs": {
-        "assets/export/p02-pestouille.png": "81084ca0f3d60da2910839206fda96ead637b5d9",
-        "public/assets/p02-pestouille.json": "84d92d5ae58e8f00878fb9f40e8ffc19b14234d0"
+        "assets/export/p02-pestouille.png": "dc4d22e043600342d9d34365ae4ee94a68b4f453",
+        "public/assets/p02-pestouille.json": "da3f0be54b83e167b1d6a85acbcf8a7596664458"
       },
       "assetPath": "public/assets/p02-pestouille.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 6,
         "path": "assets/manifests/p02-pestouille.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets/manifests/p02-pestouille.json"
@@ -196,7 +400,7 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
       "atlasFrames": [
@@ -209,14 +413,36 @@
           "y": 64
         }
       ],
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "png",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "e70125bb67131a33cbc9f524441b906f12b56134d80a67e4bcc8862591c5537a",
       "version": 1
+    },
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-p02-pestouille-0002",
+          "h": 64,
+          "sourceSheetSha256": "af08a1d16d2d0158311ef71dd3e3b556d9cb1a16c0dd3ba710fe1b9867576003",
+          "w": 64,
+          "x": 64,
+          "y": 64
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "format": "png",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "243dfa2e25745f7fe52f1f5733f4e2e7352421d70a549037bcf75134068610ec",
+      "version": 2
     }
   ],
   "visualStyle": null

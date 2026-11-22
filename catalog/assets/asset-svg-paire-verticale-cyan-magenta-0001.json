@@ -19,6 +19,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/paire-verticale-cyan-magenta.svg",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -110,8 +121,74 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/paire-verticale-cyan-magenta.svg": "f79fe150de0eb6835bbea7a91e2af2665e831a63"
+      },
+      "assetPath": "packages/assets/source/svg/paire-verticale-cyan-magenta.svg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7159,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/paire-verticale-cyan-magenta.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "paire-verticale-cyan-magenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/paire-verticale-cyan-magenta.svg": "f79fe150de0eb6835bbea7a91e2af2665e831a63"
+      },
+      "assetPath": "packages/assets/source/svg/paire-verticale-cyan-magenta.svg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 2815,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/paire-verticale-cyan-magenta.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "paire-verticale-cyan-magenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/source/svg/paire-verticale-cyan-magenta.svg": "f79fe150de0eb6835bbea7a91e2af2665e831a63"

@@ -14,6 +14,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic",
+        "path": "apps/web/src/style.css",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -98,8 +109,107 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/src/style.css": "32db1f188058b4682d20a5bcfb6c13c308920cd9"
+      },
+      "assetPath": "apps/web/src/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6,
+        "path": "apps/web/src/main.tsx"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: apps/web/src/style.css",
+        "module-path: apps/web/src/main.tsx"
+      ],
+      "game": "capsule-panic",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "style",
+      "scene": "apps/web/src/main.tsx",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/style.css": "32db1f188058b4682d20a5bcfb6c13c308920cd9"
+      },
+      "assetPath": "apps/web/src/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 280,
+        "path": "apps/web/test/ecrans.test.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: apps/web/src/style.css",
+        "module-path: apps/web/test/ecrans.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "style",
+      "scene": "apps/web/test/ecrans.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/style.css": "32db1f188058b4682d20a5bcfb6c13c308920cd9"
+      },
+      "assetPath": "apps/web/src/style.css",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 659,
+        "path": "apps/web/test/ecrans.test.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: apps/web/src/style.css",
+        "module-path: apps/web/test/ecrans.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "style",
+      "scene": "apps/web/test/ecrans.test.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "apps/web/src/style.css": "32db1f188058b4682d20a5bcfb6c13c308920cd9"

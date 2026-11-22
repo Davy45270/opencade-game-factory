@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "860766652804071789fd7822f939a40e940d911851a7fb44eb0211555b83a254",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "83efc24d32c5b889612a97235841b48c616bd6ce663bc2cb6132ece132ee4dad",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 117,
     "verified": false,
     "w": 247,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/83/83efc24d32c5b889612a97235841b48c616bd6ce663bc2cb6132ece132ee4dad.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/hud-origine@3x.json": "26cbeb529df392e0fc27d40bd4c0104f6dec5440",
+        "packages/assets/atlas/hud-origine@3x.png": "219106265493fc71674c5a4d1f5b5dac99399122"
+      },
+      "assetPath": "packages/assets/atlas/hud-origine@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3054,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/hud-origine@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "hud-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "hud"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "ui",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/hud-origine@3x.json": "26cbeb529df392e0fc27d40bd4c0104f6dec5440",

@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-cristal-magenta.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,107 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/4d/4d2a50b18b9f2b78ed494690debd4dea9f8972584fa8c32d2ae1c6e287c57629.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-cristal-magenta.png": "abf184807e170c440c09ef03c7b46b3ed221bfe5"
+      },
+      "assetPath": "packages/assets/sprites/sprite-cristal-magenta.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6180,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-cristal-magenta.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-cristal-magenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-cristal-magenta.png": "abf184807e170c440c09ef03c7b46b3ed221bfe5"
+      },
+      "assetPath": "packages/assets/sprites/sprite-cristal-magenta.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 847,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-cristal-magenta.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-cristal-magenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-cristal-magenta.png": "abf184807e170c440c09ef03c7b46b3ed221bfe5"
+      },
+      "assetPath": "packages/assets/sprites/sprite-cristal-magenta.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 26,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-cristal-magenta.png",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "cristalMagenta",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-cristal-magenta.png": "abf184807e170c440c09ef03c7b46b3ed221bfe5"

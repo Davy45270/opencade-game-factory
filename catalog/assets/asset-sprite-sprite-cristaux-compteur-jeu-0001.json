@@ -134,12 +134,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cristaux-compteur-jeu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-cristaux-compteur-jeu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -149,15 +144,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-cristaux-compteur-jeu-0001",
+    "author": "unknown",
     "evidence": [
-      "133x61+1252+793",
-      "importer_livre : cadre packages/assets/atlas/compteur-jeu@2x.png#sprite-cristaux-compteur-jeu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/cristaux-compteur-jeu.svg (provenance.json)"
+      "133x61+1252+793"
     ],
-    "parentId": "asset-svg-cristaux-compteur-jeu-0001",
-    "parentSha256": "670c127997eff219bb08028eaf304c646e95f7959827c8ee360b2404309aa3ac",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -171,6 +161,40 @@
   "thumbnail": "thumbnails/56/563ff9b81aaa677b4d10b5f60798a27f310983c371ee475c8fe6624c975c44ef.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-jeu@2x.json": "decdccead651fac8cd1f6f66975c7057d3c5669c",
+        "packages/assets/atlas/compteur-jeu@2x.png": "af5108c5e6c94568bb468f6a4e7fc7bbfb07dfe7"
+      },
+      "assetPath": "packages/assets/atlas/compteur-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1344,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/compteur-jeu@2x.png",
       "assetVersion": 1,
@@ -198,6 +222,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/compteur-jeu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-jeu@2x.json": "decdccead651fac8cd1f6f66975c7057d3c5669c",
+        "packages/assets/atlas/compteur-jeu@2x.png": "af5108c5e6c94568bb468f6a4e7fc7bbfb07dfe7"
+      },
+      "assetPath": "packages/assets/atlas/compteur-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 138,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

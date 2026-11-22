@@ -22,7 +22,18 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-boutons.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "assets/export/m01-boutons.png",
         "provider": "local",
@@ -134,8 +145,41 @@
     "buttons"
   ],
   "thumbnail": "thumbnails/f2/f2232ddca4f5a2502dd790d6eb11060c903bc2db77f8b8861ff947a0fb7d6fac.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd"
+      },
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 334,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-boutons.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/m01-boutons.png",
       "assetVersion": 1,
@@ -162,6 +206,105 @@
       "releases": [],
       "repo": "pestouille-rpg",
       "role": "atlas",
+      "scene": "assets/export/m01-boutons.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd"
+      },
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 46,
+        "path": "assets/export/m01-boutons.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-boutons.png",
+        "module-path: assets/export/m01-boutons.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-boutons.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd"
+      },
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 334,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-boutons.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-boutons.png": "bd9467125d3046239b289c1e9a34e45cd80fe3cd"
+      },
+      "assetPath": "assets/export/m01-boutons.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 46,
+        "path": "assets/export/m01-boutons.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-boutons.png",
+        "module-path: assets/export/m01-boutons.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-boutons",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
       "scene": "assets/export/m01-boutons.json",
       "status": "active"
     }

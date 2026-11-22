@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-options-accueil.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/5d/5d9b1898aaa42214ee6210d8450a8a9009b6770237bf4850aa3f9735686d9b9c.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-options-accueil.webp": "6a0addc0bb8a8eafd3ec204b0ea3f4ef4bcd18c7"
+      },
+      "assetPath": "packages/assets/runtime/sprite-options-accueil.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 10,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-options-accueil.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "optionsAccueil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/runtime/sprite-options-accueil.webp": "6a0addc0bb8a8eafd3ec204b0ea3f4ef4bcd18c7"

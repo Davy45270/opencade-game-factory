@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "46cf906da651e77a631f0df5f4970345cf549e885f9e23b5f0eae5c7e035f99b",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 160,
     "verified": false,
     "w": 108,
@@ -134,10 +134,248 @@
       "assetPath": "public/assets/e04-boss.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 281,
+        "line": 560,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-boss.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets/export/e04-boss.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-boss.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 278,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-boss.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets/manifests/e04-boss.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-boss.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 392,
+        "path": "tests/unit/assets-chaine.test.ts"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: tests/unit/assets-chaine.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/assets-chaine.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 560,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-boss.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-boss.json",
+        "module-path: assets/export/e04-boss.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-boss.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-boss.png": "e7a2bec77a57b169d6070615595c416012972035",
+        "public/assets/e04-boss.json": "13dcc9afef9da8529bd4d9af379a639218982b1f"
+      },
+      "assetPath": "public/assets/e04-boss.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 278,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-boss.json",
         "module-path: assets/liste-assets.json"
@@ -171,7 +409,7 @@
         "line": 6,
         "path": "assets/manifests/e04-boss.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-boss.json",
         "module-path: assets/manifests/e04-boss.json"
@@ -202,10 +440,10 @@
       "assetPath": "public/assets/e04-boss.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 265,
+        "line": 392,
         "path": "tests/unit/assets-chaine.test.ts"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-boss.json",
         "module-path: tests/unit/assets-chaine.test.ts"

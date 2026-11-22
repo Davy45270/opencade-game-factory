@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "aaef3cd87f41f854c107c57a3f1d5478a55b2502bab64325064f7b28d72c6d94",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 48,
     "verified": false,
     "w": 48,
@@ -134,10 +134,214 @@
       "assetPath": "public/assets/e04-portraits.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 503,
+        "line": 592,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-portraits.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/export/e04-portraits.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-portraits.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 497,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-portraits.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/manifests/e04-portraits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-portraits.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 592,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-portraits.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-portraits.json",
+        "module-path: assets/export/e04-portraits.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-portraits.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-portraits.png": "3da31ec92bffafbea5d419f3cce630dcf5e06f66",
+        "public/assets/e04-portraits.json": "1d0a64e36b4ec032ea88e4b216fe4310814415f3"
+      },
+      "assetPath": "public/assets/e04-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 497,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -171,7 +375,7 @@
         "line": 6,
         "path": "assets/manifests/e04-portraits.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets/manifests/e04-portraits.json"

@@ -110,7 +110,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
@@ -118,7 +118,7 @@
   "schemaVersion": "1.0",
   "sha256": "13fee7a329cae929c6590b8f4ebb8650d5a9552e72d50b2d2deed11af1b11042",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 122,
     "verified": false,
     "w": 160,
@@ -133,6 +133,40 @@
   "thumbnail": "thumbnails/13/13fee7a329cae929c6590b8f4ebb8650d5a9552e72d50b2d2deed11af1b11042.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@3x.json": "de639eda09f9d96c0760f13f0d7a0766f0c80687",
+        "packages/assets/atlas/tutoriel-apercu@3x.png": "c82c2dfa20175daa53b8651ae4d1f3a9ca24ad46"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5559,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/tutoriel-apercu@3x.json": "de639eda09f9d96c0760f13f0d7a0766f0c80687",

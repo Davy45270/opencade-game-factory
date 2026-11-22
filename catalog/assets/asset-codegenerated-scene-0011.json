@@ -725,6 +725,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/derapage/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/derapage/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/derapage/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/derapage",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/derapage/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/derapage/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/derapage/scene.ts": "7f74d2b11a8412595f92649e0a8705a63ec92a67"
       },
@@ -3026,35 +3055,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/measure-derapage-render.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/derapage/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/derapage/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/derapage/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/derapage",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/derapage/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/derapage/scene.ts",
       "status": "active"
     }
   ],

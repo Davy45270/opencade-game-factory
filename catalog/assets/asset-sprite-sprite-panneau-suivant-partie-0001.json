@@ -132,12 +132,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-panneau-suivant-partie (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-panneau-suivant-partie",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -147,22 +142,17 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-sprite-sprite-panneau-suivant-partie-0003",
+    "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
-      "importer_livre : cadre packages/assets/atlas/composants-maquettes@2x.png#sprite-panneau-suivant-partie de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [70, 100, 501, 419] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
-    "parentId": "asset-sprite-sprite-panneau-suivant-partie-0003",
-    "parentSha256": "9a26e8fd06c642e48a28e026fecfad9ccc7ab26768f88befe62b9f834ae1c1ca",
-    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "620d3702e94663d9c7dcb1963d703f4dd4f6b6a57a7a6816d0fb702cbfbe569d",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 100,
     "verified": false,
     "w": 70,
@@ -177,6 +167,40 @@
   "thumbnail": "thumbnails/62/620d3702e94663d9c7dcb1963d703f4dd4f6b6a57a7a6816d0fb702cbfbe569d.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/composants-maquettes@2x.json": "73e4a846748737707a5285bf0d8ee40ba0844861",
+        "packages/assets/atlas/composants-maquettes@2x.png": "6d757b7d9c787e8f61654e3ae19629e77990789d"
+      },
+      "assetPath": "packages/assets/atlas/composants-maquettes@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1062,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/composants-maquettes@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "composants-maquettes@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/composants-maquettes@2x.png",
       "assetVersion": 1,
@@ -204,6 +228,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/composants-maquettes@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/composants-maquettes@2x.json": "73e4a846748737707a5285bf0d8ee40ba0844861",
+        "packages/assets/atlas/composants-maquettes@2x.png": "6d757b7d9c787e8f61654e3ae19629e77990789d"
+      },
+      "assetPath": "packages/assets/atlas/composants-maquettes@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/composants-maquettes@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "composants-maquettes@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

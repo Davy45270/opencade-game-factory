@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "generated",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/atlas/hud-origine@2x.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/atlas/hud-origine@2x.png",
@@ -125,8 +136,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/7d/7d2d3f25aa6bec7b8cb4e4f398cf298cb0909b6c39973e5a5997d7dcb35fd449.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/hud-origine@2x.png": "fd2e021fcf4c077c3359b03ae0338344f84d4b82"
+      },
+      "assetPath": "packages/assets/atlas/hud-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3014,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/hud-origine@2x.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "hud-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "hud"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "ui",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/hud-origine@2x.png",
       "assetVersion": 1,
@@ -154,6 +198,72 @@
       "repo": "capsule-panic",
       "role": "atlas",
       "scene": "packages/assets/atlas/hud-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/hud-origine@2x.png": "fd2e021fcf4c077c3359b03ae0338344f84d4b82"
+      },
+      "assetPath": "packages/assets/atlas/hud-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 49,
+        "path": "packages/assets/atlas/hud-origine@2x.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/hud-origine@2x.png",
+        "module-path: packages/assets/atlas/hud-origine@2x.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "hud-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "hud"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "ui",
+      "scene": "packages/assets/atlas/hud-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/hud-origine@2x.png": "fd2e021fcf4c077c3359b03ae0338344f84d4b82"
+      },
+      "assetPath": "packages/assets/atlas/hud-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 687,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/hud-origine@2x.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "hud-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "hud"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "ui",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

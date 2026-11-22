@@ -223,6 +223,35 @@
   "updatedAt": "2026-11-18T20:05:46+01:00",
   "usages": [
     {
+      "assetPath": "src/games/empilo/scene.ts",
+      "assetVersion": 4,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/empilo/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/empilo/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/empilo",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/empilo/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/empilo/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/empilo/scene.ts": "5fe18944ee706d0af003d86978d6d4081a67f3bd"
       },
@@ -393,35 +422,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "tests/e2e/finger-stepped.node.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/empilo/scene.ts",
-      "assetVersion": 4,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/empilo/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/empilo/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/empilo",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/empilo/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/empilo/scene.ts",
       "status": "active"
     }
   ],

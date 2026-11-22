@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-21T18:13:23.970768+00:00",
+  "createdAt": "2026-11-21T12:45:24+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -42,7 +42,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m01-dialogue.webp",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m01-dialogue.webp",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-m01-dialogu-0002.webp"
   },
   "format": "webp",
@@ -145,8 +168,74 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-21T18:13:23.970768+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/m01-dialogue.webp": "3a9c71197a6fab40510d6a9d8492e411d141ecf1"
+      },
+      "assetPath": "public/assets/m01-dialogue.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 614,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-dialogue.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-dialogue.webp": "3a9c71197a6fab40510d6a9d8492e411d141ecf1"
+      },
+      "assetPath": "public/assets/m01-dialogue.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2843,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-dialogue.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/m01-dialogue.webp",
       "assetVersion": 1,
@@ -175,12 +264,80 @@
       "role": "atlas",
       "scene": "public/assets/m01-dialogue.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-dialogue.webp": "3a9c71197a6fab40510d6a9d8492e411d141ecf1"
+      },
+      "assetPath": "public/assets/m01-dialogue.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 614,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-dialogue.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-dialogue.webp": "3a9c71197a6fab40510d6a9d8492e411d141ecf1"
+      },
+      "assetPath": "public/assets/m01-dialogue.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2843,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-dialogue.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "9e870277dde2b3430c6433bf3a9f828da9f0b4a5c4827f4b4c706c8c6050c031",

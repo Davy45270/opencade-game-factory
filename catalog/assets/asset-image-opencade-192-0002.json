@@ -303,6 +303,35 @@
       "status": "active"
     },
     {
+      "assetPath": "public/icons/opencade-192.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/opencade-192.png"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image public/icons/opencade-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade",
+      "importName": "opencade-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/opencade-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "public/icons/opencade-192.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/icons/opencade-192.png": "eb59f4978133ef41bb41e70edc134150315fda99"
       },
@@ -908,35 +937,6 @@
       "repo": "opencade",
       "role": "icon",
       "scene": "pwa-manifest.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/icons/opencade-192.png",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 1,
-        "path": "public/icons/opencade-192.png"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : image public/icons/opencade-192.png livrée (fichier suivi au commit)"
-      ],
-      "game": "opencade",
-      "importName": "opencade-192",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/icons/opencade-192.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "image",
-      "scene": "public/icons/opencade-192.png",
       "status": "active"
     }
   ],

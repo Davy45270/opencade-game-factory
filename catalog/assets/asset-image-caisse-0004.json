@@ -214,6 +214,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/caisses/crate/caisse.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/caisses/crate/caisse.webp"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image src/games/caisses/crate/caisse.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade/caisses",
+      "importName": "caisse",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/caisses/crate/caisse.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "src/games/caisses/crate/caisse.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/caisses/crate/caisse.webp": "c40b3880aa321812ce883388d2316e7c0dbe5940"
       },
@@ -376,35 +405,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "tests/caisses-crate.test.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/caisses/crate/caisse.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/caisses/crate/caisse.webp"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : image src/games/caisses/crate/caisse.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "opencade/caisses",
-      "importName": "caisse",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/caisses/crate/caisse.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "image",
-      "scene": "src/games/caisses/crate/caisse.webp",
       "status": "active"
     }
   ],

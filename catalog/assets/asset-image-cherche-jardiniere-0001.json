@@ -454,6 +454,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/cherche/props/cherche-jardiniere.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/cherche/props/cherche-jardiniere.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/cherche/props/cherche-jardiniere.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/cherche",
+      "importName": "cherche-jardiniere",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/cherche/props/cherche-jardiniere.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/cherche/props/cherche-jardiniere.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/cherche/props/cherche-jardiniere.webp": "ade9c7dd9292c10e224898de4281b135d96f5b67"
       },
@@ -505,35 +534,6 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/cherche/props/cherche-jardiniere.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/cherche/props/cherche-jardiniere.webp"
-      },
-      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
-      "evidence": [
-        "importer_livre : image src/games/cherche/props/cherche-jardiniere.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "opencadkid/cherche",
-      "importName": "cherche-jardiniere",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/cherche/props/cherche-jardiniere.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencadkid",
-      "role": "image",
-      "scene": "src/games/cherche/props/cherche-jardiniere.webp",
       "status": "active"
     }
   ],

@@ -7,8 +7,8 @@
   },
   "description": "M01 fonds — image 1040×559",
   "dimensions": {
-    "height": 559,
-    "width": 1040
+    "height": 468,
+    "width": 1573
   },
   "facing": "unknown",
   "family": {
@@ -20,9 +20,32 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-fonds.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-fonds.png",
+        "provider": "local",
+        "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "assets/export/m01-fonds.png",
         "provider": "local",
@@ -39,7 +62,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     },
@@ -60,35 +83,35 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     },
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:assets/export/m01-fonds.png"
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.png"
       ],
       "method": "proven"
     }
@@ -98,8 +121,8 @@
   "orientation": "unknown",
   "originUniverse": "unknown",
   "perceptual": {
-    "dhash": "cc81c6cb9cc49e26",
-    "phash": "f083fc133a93c5b4"
+    "dhash": "b7a59495a3b78ca4",
+    "phash": "e848552e2ed1adad"
   },
   "pivot": "unknown",
   "provenance": {
@@ -110,30 +133,175 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "35a9e5c6bfea90417cef0f5e5e2c050ffc75496b7983bb24c8d7ef2849d05438",
+  "sha256": "9fadac03b17e035c5c11cfcc3ee6afa5951ffdaf30e14172084507e6f2838182",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/35/35a9e5c6bfea90417cef0f5e5e2c050ffc75496b7983bb24c8d7ef2849d05438.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
-  "usages": [],
+  "thumbnail": "thumbnails/9f/9fadac03b17e035c5c11cfcc3ee6afa5951ffdaf30e14172084507e6f2838182.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.png": "d16aee1e7b435eb219068edadd8e42314f37df13"
+      },
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 358,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.png": "d16aee1e7b435eb219068edadd8e42314f37df13"
+      },
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 54,
+        "path": "assets/export/m01-fonds.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.png",
+        "module-path: assets/export/m01-fonds.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-fonds.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.png": "d16aee1e7b435eb219068edadd8e42314f37df13"
+      },
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 358,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.png": "d16aee1e7b435eb219068edadd8e42314f37df13"
+      },
+      "assetPath": "assets/export/m01-fonds.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 54,
+        "path": "assets/export/m01-fonds.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.png",
+        "module-path: assets/export/m01-fonds.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-fonds.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-image-m01-fonds-0002"
   ],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "png",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "35a9e5c6bfea90417cef0f5e5e2c050ffc75496b7983bb24c8d7ef2849d05438",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "format": "png",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "9fadac03b17e035c5c11cfcc3ee6afa5951ffdaf30e14172084507e6f2838182",
+      "version": 2
     }
   ],
   "visualStyle": null

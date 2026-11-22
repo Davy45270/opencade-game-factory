@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "c63614cabbf0c401db70326a48ab8b5c35c350ff37835289db0bff2b3dbde3ee",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 90,
     "verified": false,
     "w": 163,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/c6/c63614cabbf0c401db70326a48ab8b5c35c350ff37835289db0bff2b3dbde3ee.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/panneaux-apercu@3x.json": "e1c038e798f98f1b784f4d9bb6634ba9cc951f6a",
+        "packages/assets/atlas/panneaux-apercu@3x.png": "4c3b26430ddd3ba2f6ed3f941f1cfb4690d39120"
+      },
+      "assetPath": "packages/assets/atlas/panneaux-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4557,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/panneaux-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "panneaux-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/panneaux-apercu@3x.json": "e1c038e798f98f1b784f4d9bb6634ba9cc951f6a",

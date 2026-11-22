@@ -1,0 +1,57 @@
+{
+  "discovery": {
+    "animations": true,
+    "audio": true,
+    "codeReferences": true,
+    "fonts": true,
+    "generatedAssets": true,
+    "images": true,
+    "tilemaps": true
+  },
+  "inputs": [
+    {
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "name": "capsule-panic",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "name": "cozy-room-sort",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "name": "pestouille-rpg",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "name": "pestouille-rpg",
+      "provider": "local"
+    }
+  ],
+  "jobType": "initial-discovery",
+  "output": {
+    "generateMigrationReport": true,
+    "generateSearchIndex": true
+  },
+  "processing": {
+    "buildUsageGraph": true,
+    "describeWithAI": true,
+    "detectDuplicates": true,
+    "extractSpritesheets": true,
+    "verifyLicenses": true
+  },
+  "safety": {
+    "deleteSourceFiles": false,
+    "modifySourceRepositories": false,
+    "publishUnknownLicenses": false
+  },
+  "schemaVersion": "1.0",
+  "sources": {
+    "includeMonorepos": true,
+    "includeReleases": true,
+    "provider": "github",
+    "scope": "authorized-game-repositories"
+  }
+}

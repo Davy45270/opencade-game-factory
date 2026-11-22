@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
@@ -144,8 +155,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/93/93f4ccce301ab614f28e3fd7496fcca0d56e50459208fbfa2f0ae55a826d4e18.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-droite-commandes-origine.webp": "193713c706991ed5a3a31a6a20763eafc8a5e42e"
+      },
+      "assetPath": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 26,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-droite-commandes-origine.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "droiteCommandesOrigine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
       "assetVersion": 1,

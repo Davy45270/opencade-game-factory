@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "f4a61bc2c1f2d328b84ea5bb8bb215933df9635cdde5ada3afa64574a1f16cb5",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 62,
     "verified": false,
     "w": 60,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/f4/f4a61bc2c1f2d328b84ea5bb8bb215933df9635cdde5ada3afa64574a1f16cb5.webp",
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/plateau-apercu@3x.json": "13b8c833a3e8731a33d96a51cb32decb12d18281",
+        "packages/assets/atlas/plateau-apercu@3x.png": "23c9d7dbabf0907c0f7a2c2ef51ccc2280d8d685"
+      },
+      "assetPath": "packages/assets/atlas/plateau-apercu@3x.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 5022,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/plateau-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "plateau-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/plateau-apercu@3x.json": "13b8c833a3e8731a33d96a51cb32decb12d18281",

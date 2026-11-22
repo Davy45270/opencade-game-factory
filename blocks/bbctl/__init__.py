@@ -187,7 +187,13 @@ def run(args, root):
         if command == "usages":
             return usages(records, args.block)
         if command == "impact":
-            return impact(records, args.block, args.to_version)
+            result = impact(records, args.block, args.to_version)
+            # ARCH-001 AT-12 : l'impact d'un changement de contrat partagé remonte à la Tour (opt-in, n'échoue jamais).
+            block = records[args.block][1]
+            evenements.emettre("bb.impact-detected", "success", projet_de(block), [args.block],
+                               {"toVersion": args.to_version, "projects": result["impacted"]},
+                               args.to_version + ",".join(result["impacted"]), specs=block.get("specIds") or ())
+            return result
         if command == "adopt":
             return adopt(blocks, records, args)
         if command == "link-specs":

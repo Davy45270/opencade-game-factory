@@ -14,3 +14,4 @@ Contrôle : `specs/tests/contracts/test_e014_adr_integration.py`.
 | [ADR-0005](ADR-0005-ext001-assets-externes-si-le-style-colle.md) | EXT-001 : un asset externe partout si le style colle | HL-538 7-2949 |
 | [ADR-0006](ADR-0006-ext002-fait-foi-dans-le-registre.md) | EXT-002 fait foi, dans le registre ; un validateur par premier jeu | HL-538 7-2949 |
 | [ADR-0007](ADR-0007-priorites-jeux-registre-puis-tower.md) | Priorités : jeux et registre, puis Tower ; 2e Codex si l'onduleur le permet | HL-538 7-2949 |
+| [ADR-0008](ADR-0008-niveaux-algorithmes-existants.md) | Niveaux : réutiliser Sturgeon, clingo, python-tcod, Tiled et l'IA des jeux ; pilote Ferraille validé, extension décidée | HL-538 7-3320, HL-525 7-3321 |

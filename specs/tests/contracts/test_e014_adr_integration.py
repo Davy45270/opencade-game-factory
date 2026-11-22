@@ -14,8 +14,8 @@ import unittest
 
 RACINE = pathlib.Path(__file__).resolve().parents[3]
 DOSSIER = RACINE / "docs" / "integration-decisions"
-# Arbitrages de David couverts : 3 dans HL-525 7-2955, 4 dans HL-538 7-2949.
-ATTENDU = {"HL-525 7-2955": 3, "HL-538 7-2949": 4}
+# Arbitrages de David couverts : 3 dans HL-525 7-2955, 4 dans HL-538 7-2949, 1 dans HL-538 7-3320 (ADR-0008).
+ATTENDU = {"HL-525 7-2955": 3, "HL-538 7-2949": 4, "HL-538 7-3320": 1}
 SECTIONS = ("Contexte", "Décision", "Alternatives", "Retour arrière")
 
 

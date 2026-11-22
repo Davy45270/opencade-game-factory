@@ -85,7 +85,7 @@ le journal.
 - `level simulate <id> --agent kart-bot --profile <kart.json>` : bot de pilotage (bicyclette, poursuite pure, rayon de
   braquage `circuit.kart.turningRadius`).
 - `level site --out generated/niveaux [--check]` : catalogue web statique, contrôlé en CI.
-- `level pipeline --request <demande.json> --seed N` : request → … → branche de PR (ADR-0008 proposée, docs/adr-proposees/).
+- `level pipeline --request <demande.json> --seed N` : request → … → branche de PR (ADR-0008, docs/integration-decisions/).
 - `level adopt <id> --version X.Y.Z --repo <jeu> --game <jeu>` : met à jour `level.lock.json` du jeu sur une branche.
 
 [Architecture](docs/ARCHITECTURE.md) · [Contribution](docs/CONTRIBUTING.md) ·

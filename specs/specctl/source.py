@@ -12,6 +12,7 @@ from . import fiche
 PROJECT = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 # `<projet>-sources/` ou `<projet>-sources-<x.y.z>/` : sources figées d'un projet, le suffixe donne leur version
 SOURCES = re.compile(r"(.+)-sources(?:-((?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)))?")
+NAVIGATION = frozenset({"index.md", "empreintes-drive.sha256"})   # fichiers d'un dossier de sources qui ne sont pas des specs
 FINGERPRINT = re.compile(r"([a-fA-F0-9]{64}) [ *](.+)")
 ZIP_NAME = re.compile(r"(?<![\w.+-])[\w.+-]+\.zip(?![\w+-]|\.[\w.])", re.IGNORECASE)
 VERSION = re.compile(
@@ -151,7 +152,7 @@ class Source:
             lines = self.matrix_fingerprints(folder, project) if project else None
             if lines is None:
                 warnings.append({"path": manifest, "issue": "manifest-missing"})
-                return []
+                return self.unlisted(folder, set())
             manifest = f"specs/{project}-conformite.json"
         archive_versions = {
             version
@@ -180,7 +181,17 @@ class Source:
                 raise InvalidJSON(f"Empreinte différente du manifeste : {path}")
             entries.append((document_version(relative, archive_version), digest.lower(),
                             {"repo": "homelab-docs", "path": path, "commitSha": self.head}))
-        return entries
+        return entries + self.unlisted(folder, {provenance["path"] for _, _, provenance in entries})
+
+    def unlisted(self, folder, listed):
+        """ARCH-001 E006/E009 : tout document d'un dossier de sources a sa fiche, même absent du manifeste
+        d'empreintes (pièces ajoutées après l'import Drive : planches, v2, relectures). Il est enregistré PAR
+        RÉFÉRENCE (dépôt, chemin, commit, sha256), sans version : seul un manifeste ou la matrice en déclare une.
+        Les fichiers de navigation du dossier (index.md, empreintes-drive.sha256) ne sont pas des specs."""
+        prefix = f"specs/{folder}/"
+        return [(None, sha256(self.read(path)), {"repo": "homelab-docs", "path": path, "commitSha": self.head})
+                for path in sorted(self.files)
+                if path.startswith(prefix) and path not in listed and path[len(prefix):] not in NAVIGATION]
 
     def requirements(self, project, spec_id, warnings):
         matrix = f"specs/{project}-conformite.json"

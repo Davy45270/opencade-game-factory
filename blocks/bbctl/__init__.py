@@ -160,7 +160,13 @@ def run(args, root):
             return search_opensource(blocks, args.query, args.ecosystem, args.size, args.record)
         if command == "search":
             graph_path = args.graph or Path(os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json")
-            return search(blocks, args, graph_path.expanduser())
+            result = search(blocks, args, graph_path.expanduser())
+            # ARCH-001 § 10 étape 2 : la recherche est un maillon observable de la tranche (opt-in, n'échoue jamais).
+            evenements.emettre("bb.searched", "success", args.repo or "inconnu",
+                               sorted({x["block"] for x in result["results"] if x["block"]}),
+                               {"query": args.query, "scope": "internal", "results": len(result["results"])},
+                               args.query + (args.repo or ""))
+            return result
 
         if command == "discover":
             return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
@@ -200,10 +206,17 @@ def run(args, root):
             block["decision"] = decision
             changed = write_block(blocks, path, block, "decide", args.expect)
         if changed:
-            evenements.emettre("bb.decided", "success", (block["usedBy"] or ["inconnu"])[0], [block["id"]],
+            evenements.emettre("bb.decided", "success", projet_de(block), [block["id"]],
                                {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
                                specs=block.get("specIds") or ())
         return {"candidate": block["id"], "decision": decision, "changed": changed}
+
+
+def projet_de(block):
+    """projectId d'un événement de brique : le dépôt d'origine, sinon le premier consommateur sans son sous-chemin
+    (« six-de-chaque/apps/web » → « six-de-chaque ») — un seul projet par trace (towerctl trace)."""
+    repo = (block.get("origin") or {}).get("repo")
+    return repo or ((block.get("usedBy") or ["inconnu"])[0]).split("/")[0]
 
 
 def check_spec_links(root, records):

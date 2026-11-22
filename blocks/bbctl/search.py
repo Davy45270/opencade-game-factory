@@ -13,25 +13,35 @@ class GraphUnavailable(ValueError):
     pass
 
 
-def read_graph(path):
+def _texte(node, key):
+    return isinstance(node.get(key), str) and node[key]
+
+
+def read_graph(path, skipped=None):
+    """Nœuds localisés (id, label, repo, source_file). Un nœud sans id ou sans label rend le graphe indisponible ;
+    un nœud sans source_file (ou sans repo) est une référence externe — un import, `FastMCP`, `Any` : 519 nœuds sur
+    57 732 dans le graphe réel du 22/11 —, pas une brique candidate : il est écarté et compté dans `skipped`."""
     try:
         raw = path.read_bytes()
         graph = parse_json(raw)
         if not isinstance(graph, dict) or not isinstance(graph.get("nodes"), list):
             raise InvalidJSON("Liste nodes absente.")
+        nodes = []
         for node in graph["nodes"]:
-            if not isinstance(node, dict) or not all(
-                isinstance(node.get(key), str) and node[key]
-                for key in ("id", "repo", "source_file", "label")
-            ):
+            if not isinstance(node, dict) or not (_texte(node, "id") and _texte(node, "label")):
                 raise InvalidJSON("Nœud graphify mal formé.")
-        return graph["nodes"], hashlib.sha256(raw).hexdigest()
+            if _texte(node, "repo") and _texte(node, "source_file"):
+                nodes.append(node)
+            elif skipped is not None:
+                skipped.append(node["id"])
+        return nodes, hashlib.sha256(raw).hexdigest()
     except (OSError, InvalidJSON) as exc:
         raise GraphUnavailable(f"Graphe graphify indisponible : {exc}") from exc
 
 
 def search(blocks, args, graph_path):
-    nodes, digest = read_graph(graph_path)
+    skipped = []
+    nodes, digest = read_graph(graph_path, skipped)
     by_origin = defaultdict(list)
     for _, block in read_catalogue(blocks / "catalog").values():
         origin = block["origin"]
@@ -77,4 +87,4 @@ def search(blocks, args, graph_path):
             "results": list(dict.fromkeys(result["graphNode"] for result in results)),
             "at": datetime.now(timezone.utc).isoformat(),
         })
-    return {"results": results}
+    return {"results": results, "externalReferencesSkipped": len(skipped)}

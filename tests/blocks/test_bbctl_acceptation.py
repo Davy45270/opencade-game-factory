@@ -8,6 +8,7 @@ d'abord en avertissement — HL-525 7-2953 point 7). Contrat d'appel : tests/blo
 from __future__ import annotations
 
 import json
+import os
 import re
 import unittest
 
@@ -172,6 +173,39 @@ class BB05RechercheInterne(Base):
         self.assertEqual(r.rc, 4, r)
         self.assertEqual(r.json["status"], "source-unavailable")
         self.assertNotIn("results", r.json)
+
+    def test_reference_externe_sans_fichier_ignoree_pas_tout_le_graphe(self) -> None:
+        # Graphe réel du 22/11 : 519 nœuds sur 57 732 sont des références externes (imports : `FastMCP`, `Any`) sans
+        # source_file, parfois sans repo. Ils ne sont pas des briques candidates ; un seul d'entre eux rendait tout le
+        # graphe « indisponible » (étape 2 de la tranche ARCH-12 bloquée).
+        g = json.loads(self.u.graphe.read_text())
+        g["nodes"] += [{"id": "homelab-diag::fastmcp", "label": "FastMCP", "repo": "homelab-diag", "source_file": ""},
+                       {"id": "anypath", "label": "path", "source_file": ""}]
+        self.u.graphe.write_text(json.dumps(g))
+        r = self.chercher()
+        self.assertEqual(r.rc, 0, r)
+        self.assertEqual(len(r.json["results"]), 2)
+        self.assertEqual(r.json["externalReferencesSkipped"], 2)
+
+    def test_recherche_tracee_dans_la_tour(self) -> None:
+        # Étape 2 d'ARCH-001 § 10 : la recherche de briques est un maillon observable de la tranche (traceId).
+        tour = self.u.tmp / "tour"
+        tour.mkdir()
+        try:
+            os.environ.update(TOWER_DIR=str(tour), TOWER_TRACE_ID="arch12-essai")
+            self.chercher("--repo", "six-de-chaque")
+        finally:
+            os.environ.pop("TOWER_DIR", None), os.environ.pop("TOWER_TRACE_ID", None)
+        (e,) = [json.loads(l) for l in (tour / "inbox.jsonl").read_text().splitlines()]
+        self.assertEqual((e["eventType"], e["projectId"], e["traceId"]), ("bb.searched", "six-de-chaque", "arch12-essai"))
+        self.assertEqual((e["metadata"]["results"], e["metadata"]["scope"]), (1, "internal"))
+
+    def test_noeud_sans_identifiant_reste_mal_forme(self) -> None:
+        g = json.loads(self.u.graphe.read_text())
+        g["nodes"].append({"label": "path", "repo": "six-de-chaque", "source_file": "a.ts"})
+        self.u.graphe.write_text(json.dumps(g))
+        r = self.chercher()
+        self.assertEqual((r.rc, r.json["status"]), (4, "source-unavailable"))
 
     def test_aucun_resultat_est_un_succes_vide(self) -> None:
         r = self.u.bbctl("search", "--query", "zzz-introuvable", "--scope", "internal", "--graph", str(self.u.graphe), "--json")

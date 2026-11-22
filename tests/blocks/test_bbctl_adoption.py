@@ -132,6 +132,17 @@ class Adoption(Base):
             self.assertLessEqual(set(e), CHAMPS, e)
             self.assertEqual((e["traceId"], e["buildingBlockRefs"], e["source"]), ("bb001-T14", [BB], "bbctl"))
 
+    def test_decision_rattachee_au_depot_de_la_brique(self) -> None:
+        # Tranche ARCH-12 : usedBy[0] valait « six-de-chaque/apps/web » sur les fiches découvertes ; la Tour lisait un
+        # second projet dans la trace et la déclarait incohérente. Le projet est le dépôt d'origine de la brique.
+        f = self.lire()
+        f["usedBy"] = ["six-de-chaque/apps/web", "six-de-chaque/tests/e2e"]
+        self.chemin().write_text(json.dumps(f, ensure_ascii=False, indent=1))
+        os.environ["TOWER_DIR"] = str(self.tour)
+        self.decider(choix="adapt")
+        (e,) = [json.loads(l) for l in (self.tour / "inbox.jsonl").read_text().splitlines()]
+        self.assertEqual((e["eventType"], e["projectId"]), ("bb.decided", "six-de-chaque"))
+
     def test_BB10_evenement_relie_aux_specifications(self) -> None:
         f = self.lire()
         f["specIds"] = ["SPEC-SIX-DE-CHAQUE"]                                   # lien REG-003 porté par la fiche

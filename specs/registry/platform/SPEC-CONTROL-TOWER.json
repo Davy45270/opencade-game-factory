@@ -1,0 +1,1585 @@
+{
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/platform/SPEC-CONTROL-TOWER.json"
+  },
+  "evidence": "verified",
+  "id": "SPEC-CONTROL-TOWER",
+  "implementation": "verified",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": [
+      "16nA7RrKFUoHJ5sEo1QBDRvH2RO01Ma6L"
+    ]
+  },
+  "lifecycle": "draft",
+  "owner": "david",
+  "project": "control-tower",
+  "requirements": [
+    {
+      "acceptance": "mesure sur la vraie file : plusieurs projets et agents distingués",
+      "evidence": {
+        "ref": "HL-539, commentaire de mesure finale : towerctl contentions sur la vraie file du 19/11",
+        "threshold": "écart ≤ 60 s",
+        "type": "mesure",
+        "value": "attente réelle de chaque chantier en file, recoupée par l'heure des tickets"
+      },
+      "id": "REQ-CONTROL-TOWER-E001",
+      "matrixId": "E001",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "superviser simultanément plusieurs projets et plusieurs agents Codex/Claude Code"
+    },
+    {
+      "acceptance": "connecteurs Forgejo, Woodpecker, YouTrack (lot 2)",
+      "id": "REQ-CONTROL-TOWER-E002",
+      "matrixId": "E002",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "consolider les données de GitHub (issues, PR, commits, Actions)"
+    },
+    {
+      "acceptance": "codex-file.sh garde son protocole : anciennes et nouvelles instances partagent la file",
+      "evidence": {
+        "ref": "tower/tests/test_codex_file.py::test_ancienne_et_nouvelle_version_partagent_la_meme_file",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E003",
+      "matrixId": "E003",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "ne pas remplacer les outils sources"
+    },
+    {
+      "acceptance": "towerctl runs : en file, servi, fin, durée, code de retour",
+      "evidence": {
+        "ref": "tower/tests/test_codex_file.py::test_file_instrumentee_ordre_codes_de_retour_et_evenements",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E004",
+      "matrixId": "E004",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "suivre les exécutions"
+    },
+    {
+      "acceptance": "évaluation complète des preuves contre une politique (OPS-08)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e005_e065_chaine_complete_en_ordre_conforme",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E005",
+      "matrixId": "E005",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "contrôler les preuves de conformité"
+    },
+    {
+      "acceptance": "towerctl contentions (MP-05, MP-06, verrous orphelins)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E006",
+      "matrixId": "E006",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "diagnostiquer les contentions"
+    },
+    {
+      "acceptance": "POST /v1/arbitrations et console d'arbitrage (OPS-14)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e007_e018_e105_mp15_arbitrage_strategique_propose_par_agent_validation_humaine",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E007",
+      "matrixId": "E007",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "enregistrer les arbitrages"
+    },
+    {
+      "acceptance": "modèle OPS-03 avec tâches et exécutions",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e008_hierarchie_portefeuille_projet_workflow_tache_execution",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E008",
+      "matrixId": "E008",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "hiérarchie portefeuille → projet → workflow → tâche → exécution"
+    },
+    {
+      "acceptance": "executionId = file:hôte:ticket:début de processus ; même fait → même identifiant",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_la_sonde_et_la_file_produisent_le_meme_eventid",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E009",
+      "matrixId": "E009",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "chaque exécution a un projectId et un executionId non ambigus"
+    },
+    {
+      "acceptance": "towerctl report --format json",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp17_rapport_json_complet_par_la_cli",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E010",
+      "matrixId": "E010",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "headless first : collecte, validation, alertes, exports et rapports par CLI"
+    },
+    {
+      "acceptance": "ADR de réutilisation (OPS-01), à partir de 7-2948 et 7-2949",
+      "evidence": {
+        "ref": "homelab-docs/architecture/control-tower-adr-reutilisation.md (ADR OPS-01, correspondance API → towerctl)",
+        "type": "document"
+      },
+      "id": "REQ-CONTROL-TOWER-E011",
+      "matrixId": "E011",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "documenter les décisions build/buy/reuse"
+    },
+    {
+      "acceptance": "preuve absente = unknown ; collecteur en panne = collector_unavailable",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp07_panne_du_collecteur_de_preuves_est_collecte_indisponible",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E012",
+      "matrixId": "E012",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "distinguer preuves manquantes, échec de collecte et violation avérée"
+    },
+    {
+      "acceptance": "fin vue par la sonde sans code de retour = résultat inconnu, pas un échec",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp11_preuve_manquante_est_inconnue_pas_violee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E013",
+      "matrixId": "E013",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "ne pas inférer une faute d'une absence d'événement"
+    },
+    {
+      "acceptance": "journal append-only, eventId unique",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_un_doublon_ne_donne_qu_un_evenement_et_un_effet",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E014",
+      "matrixId": "E014",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "événements immuables et idempotents"
+    },
+    {
+      "acceptance": "schéma : occurredAt UTC ; projections recalculées",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp09_un_evenement_en_retard_recalcule_timeline_et_agregats",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E015",
+      "matrixId": "E015",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "horodatages UTC, ingestion tardive"
+    },
+    {
+      "acceptance": "transcrits : chemins seulement, ni contenu ni texte de commande",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_sonde_transcrits_chemins_sans_contenu_et_kill_en_position_de_commande",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E016",
+      "matrixId": "E016",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "minimiser secrets, prompts et code privé"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E017",
+      "matrixId": "E017",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "RBAC par projet et portefeuille"
+    },
+    {
+      "acceptance": "aucune action automatique ; arbitrages enregistrés (lot 3)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e007_e018_e105_mp15_arbitrage_strategique_propose_par_agent_validation_humaine",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E018",
+      "matrixId": "E018",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "arbitrage humain pour priorités, sécurité, garde-fous, arrêt de projets"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E019",
+      "matrixId": "E019",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "six rôles utilisateurs"
+    },
+    {
+      "acceptance": "timeline d'un run et console d'arbitrage",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e029_e020_console_arbitrage_et_parcours_d_un_run",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E020",
+      "matrixId": "E020",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "parcours : ouvrir un run, voir preuves et anomalies, arbitrer, vérifier avant/après"
+    },
+    {
+      "acceptance": "panneau « Collecteurs : fraîcheur » ; towerctl status → collecteursDegrades, code 4",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp07_panne_d_une_sonde_rend_le_collecteur_indisponible_et_garde_son_dernier_succes",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E021",
+      "matrixId": "E021",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "le tableau de bord explicite la fraîcheur des données et les connecteurs dégradés"
+    },
+    {
+      "acceptance": "tableau Grafana portefeuille (YouTrack, Forgejo)",
+      "evidence": {
+        "ref": "HL-539 lot 2 (21/11) : tableau control-tower-portefeuille publié (/api/dashboards/db → success, version 1), relu depuis Grafana ; ses 21 requêtes rejouées sur Prometheus : 20 rendent des séries (13 projets), 1 absence voulue (lead time : aucune release tracée au relevé)",
+        "threshold": "chaque requête rend une série ou une absence voulue",
+        "type": "mesure",
+        "value": "publié, 13 projets"
+      },
+      "id": "REQ-CONTROL-TOWER-E022",
+      "matrixId": "E022",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "vue Portfolio"
+    },
+    {
+      "acceptance": "tableau Grafana Control Tower : file, attente par projet, passes en cours",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E023",
+      "matrixId": "E023",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "vue Agent Operations : exécutions simultanées, files, états, durées"
+    },
+    {
+      "acceptance": "coutConnu = null, aucune série de coût",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp18_cout_inconnu_reste_null_et_aucune_serie_inventee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E024",
+      "matrixId": "E024",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "coûts lorsque disponibles, aucun coût inventé"
+    },
+    {
+      "acceptance": "lot 1 : compliant, unknown, collector_unavailable ; violated avec les politiques (lot 3)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e086_e025_towerctl_compliance_code_3_sur_violation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E025",
+      "matrixId": "E025",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "vue Workflow Compliance avec statuts compliant/violated/unknown/collector_unavailable"
+    },
+    {
+      "acceptance": "attente en file par chantier et par projet",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E026",
+      "matrixId": "E026",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "Flow & Bottlenecks : temps en queue"
+    },
+    {
+      "acceptance": "KPI complets sur fenêtres",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e027_flux_lead_cycle_attente_p50_p95_sur_fenetre",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E027",
+      "matrixId": "E027",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "Flow & Bottlenecks : lead time, cycle time, p50/p95, conflits de merge"
+    },
+    {
+      "acceptance": "OPS-13 (P1)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e028_qualite_tests_sbom_licences_vulnerabilites_inconnues_provenance",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E028",
+      "matrixId": "E028",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "vue Quality & Supply Chain"
+    },
+    {
+      "acceptance": "interface sur mesure (7-2949 : ce que Grafana ne sait pas faire)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e029_e020_console_arbitrage_et_parcours_d_un_run",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E029",
+      "matrixId": "E029",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "vue Arbitrage"
+    },
+    {
+      "acceptance": "OPS-12",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e030_gantt_dependances_chemin_critique_et_echelles",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E030",
+      "matrixId": "E030",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "Gantt multiprojets"
+    },
+    {
+      "acceptance": "OPS-12",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e031_carte_ressources_agents_verrous_et_impacts_en_cascade",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E031",
+      "matrixId": "E031",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "carte des dépendances et ressources"
+    },
+    {
+      "acceptance": "mesure réelle : 5 projets en file le 19/11",
+      "evidence": {
+        "ref": "HL-539, commentaire de mesure finale : towerctl contentions sur la vraie file du 19/11",
+        "threshold": "écart ≤ 60 s",
+        "type": "mesure",
+        "value": "attente réelle de chaque chantier en file, recoupée par l'heure des tickets"
+      },
+      "id": "REQ-CONTROL-TOWER-E032",
+      "matrixId": "E032",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "au moins cinq projets simultanés"
+    },
+    {
+      "acceptance": "modèle OPS-03",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e033_aretes_explicites_typees_et_modele_valide",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E033",
+      "matrixId": "E033",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "dépendances interprojets par arêtes explicites"
+    },
+    {
+      "acceptance": "connecteur Woodpecker",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e034_runners_ci_satures_suspectes_par_forgejo_puis_observes_par_api",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E034",
+      "matrixId": "E034",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter les runners CI saturés"
+    },
+    {
+      "acceptance": "créneaux graphiques instrumentés",
+      "id": "REQ-CONTROL-TOWER-E035",
+      "matrixId": "E035",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter Aseprite/Blender/atlas en attente"
+    },
+    {
+      "acceptance": "MP-06 : même fichier (observé), même index git (suspecté)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp06_deux_agents_meme_fichier_conflit_potentiel_observe_jamais_violation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E036",
+      "matrixId": "E036",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter les fichiers modifiés concurremment"
+    },
+    {
+      "acceptance": "connecteur Forgejo (branches)",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e037_branches_modifiees_concurremment_sur_un_meme_fichier",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E037",
+      "matrixId": "E037",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter les branches modifiées concurremment"
+    },
+    {
+      "acceptance": "avec le registre (HL-538)",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e038_contrat_incompatible_et_asset_partage_non_publie",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E038",
+      "matrixId": "E038",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter versions de contrats incompatibles, asset partagé non publié"
+    },
+    {
+      "acceptance": "connecteurs Forgejo et Woodpecker",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e039_dependance_circulaire_pr_en_attente_relances_et_tests_instables",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E039",
+      "matrixId": "E039",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter dépendances circulaires, PR en attente, retries et tests instables"
+    },
+    {
+      "acceptance": "confiance par alerte ; collecte en retard → suspectée",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_collecte_en_retard_rend_la_contention_suspectee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E040",
+      "matrixId": "E040",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "distinguer contention observée et suspectée"
+    },
+    {
+      "acceptance": "champs présents et exacts sur fixture",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E041",
+      "matrixId": "E041",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "chaque alerte : resourceId, projets, intervalle, métriques, événements, confiance, alternatives, impact"
+    },
+    {
+      "acceptance": "lot 1 : seuils et fenêtre configurables ; règles déclaratives au lot 2",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e042_moteur_de_regles_declaratif_seuils_et_desactivation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E042",
+      "matrixId": "E042",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "moteur de règles configurable"
+    },
+    {
+      "acceptance": "la Tower observe ; la file reste codex-file.sh",
+      "evidence": {
+        "ref": "tower/tests/test_codex_file.py::test_ancienne_et_nouvelle_version_partagent_la_meme_file",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E043",
+      "matrixId": "E043",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "sans ordonnanceur central obligatoire"
+    },
+    {
+      "acceptance": "towerctl n'a aucune commande d'action (ingest, status, runs, contentions, report, validate)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp17_codes_de_retour_et_dry_run",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E044",
+      "matrixId": "E044",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "aucun réordonnancement appliqué sans politique ni approbation"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E045",
+      "matrixId": "E045",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "isoler les données des projets privés dans les vues agrégées"
+    },
+    {
+      "acceptance": "aucun prompt ni contenu dans le journal",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_sonde_transcrits_chemins_sans_contenu_et_kill_en_position_de_commande",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E046",
+      "matrixId": "E046",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "ne pas révéler de traces ou de prompts"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E047",
+      "matrixId": "E047",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "connecteurs GitHub et GitHub Actions"
+    },
+    {
+      "acceptance": "codex-file.sh instrumenté ; transcrits Claude",
+      "evidence": {
+        "ref": "tower/tests/test_codex_file.py::test_file_instrumentee_ordre_codes_de_retour_et_evenements",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E048",
+      "matrixId": "E048",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "wrappers Codex/Claude"
+    },
+    {
+      "acceptance": "lot 2 (rapports), lot 4 (SBOM)",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e049_e059_rapports_playwright_vitest_a_l_origine_avec_uri_et_empreinte",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E049",
+      "matrixId": "E049",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "connecteurs rapports Playwright/Vitest, SBOM, déploiements"
+    },
+    {
+      "acceptance": "POST /v1/events derrière Authelia",
+      "id": "REQ-CONTROL-TOWER-E050",
+      "matrixId": "E050",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "API d'ingestion authentifiée"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E051",
+      "matrixId": "E051",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "event store PostgreSQL"
+    },
+    {
+      "acceptance": "projections recalculées à chaque lecture (index reconstruit = mêmes projections)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp09_reconstruire_l_index_rend_les_memes_projections",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E052",
+      "matrixId": "E052",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "projecteurs runs, conformité, contentions, KPIs"
+    },
+    {
+      "acceptance": "GET /v1/... (lot 2)",
+      "id": "REQ-CONTROL-TOWER-E053",
+      "matrixId": "E053",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "API REST"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E054",
+      "matrixId": "E054",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "SSE/WebSocket"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E055",
+      "matrixId": "E055",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "React/Vite/TypeScript + ECharts + React Flow"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E056",
+      "matrixId": "E056",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "OpenTelemetry pour traces et métriques"
+    },
+    {
+      "acceptance": "tableau Control Tower publié (uid control-tower)",
+      "evidence": {
+        "ref": "HL-539 lot 3 (21/11 14:40) : REQUALIFIÉE — l'ancienne preuve (« /api/dashboards/db → success ») ne lisait que la publication. Requêtes du tableau control-tower rejouées : 10 rendent des séries sur Prometheus, 2 vides par construction (file Codex vide, tower_codex_file_longueur 0), le panneau VictoriaLogs rend ≥ 1000 FactoryEvent sur 24 h",
+        "threshold": "toute requête non vide hors file vide",
+        "type": "mesure",
+        "value": "10 séries + 1000 événements"
+      },
+      "id": "REQ-CONTROL-TOWER-E057",
+      "matrixId": "E057",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "Grafana réutilisé"
+    },
+    {
+      "acceptance": "lot 1 : minuteur utilisateur ; service API en compose au lot 2",
+      "id": "REQ-CONTROL-TOWER-E058",
+      "matrixId": "E058",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "démarrage Docker Compose"
+    },
+    {
+      "acceptance": "evidence[] avec uri et sha256 des preuves de barrière",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e049_e059_rapports_playwright_vitest_a_l_origine_avec_uri_et_empreinte",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E059",
+      "matrixId": "E059",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "rapports volumineux gardés à l'origine, avec URI et empreinte"
+    },
+    {
+      "acceptance": "JSON Schema factory-event-v1, validé par jsonschema et par repli",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_contrat_valide_et_invalide_par_jsonschema_et_par_repli",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E060",
+      "matrixId": "E060",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "contrat FactoryEvent"
+    },
+    {
+      "acceptance": "modèle OPS-03",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e061_contrat_agent_execution_champs_et_statuts",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E061",
+      "matrixId": "E061",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "contrat AgentExecution"
+    },
+    {
+      "acceptance": "schemaVersion et workflowVersion requis",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_contrat_valide_et_invalide_par_jsonschema_et_par_repli",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E062",
+      "matrixId": "E062",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "événement lié à une version de schéma et de workflow"
+    },
+    {
+      "acceptance": "v1.1 du contrat (lot 2)",
+      "evidence": {
+        "ref": "tower/tests/test_lot2.py::test_v11_compatible_v1",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E063",
+      "matrixId": "E063",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "migration et tests de compatibilité aux changements de contrat"
+    },
+    {
+      "acceptance": "OPS-08",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e064_e106_mp16_historique_evalue_avec_sa_version_d_origine",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E064",
+      "matrixId": "E064",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "politique de workflow versionnée"
+    },
+    {
+      "acceptance": "OPS-08",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e065_provenance_et_ordre_des_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E065",
+      "matrixId": "E065",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "conformité par présence, validité, ordre et provenance des preuves"
+    },
+    {
+      "acceptance": "connecteurs du lot 2",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e066_pagination_backoff_et_jeton_en_lecture",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E066",
+      "matrixId": "E066",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "webhooks signés, jetons minimaux, pagination, polling, backoff"
+    },
+    {
+      "acceptance": "MP-08",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_un_doublon_ne_donne_qu_un_evenement_et_un_effet",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E067",
+      "matrixId": "E067",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "déduplication par eventId"
+    },
+    {
+      "acceptance": "ingest FICHIER, --reconstruire, --maintenant, --dry-run",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp09_reconstruire_l_index_rend_les_memes_projections",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E068",
+      "matrixId": "E068",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "replay contrôlé"
+    },
+    {
+      "acceptance": "curseur de la boîte d'arrivée et des transcrits : rien n'est relu",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_sonde_transcrits_chemins_sans_contenu_et_kill_en_position_de_commande",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E069",
+      "matrixId": "E069",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "watermark de collecte"
+    },
+    {
+      "acceptance": "MP-09",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp09_un_evenement_en_retard_recalcule_timeline_et_agregats",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E070",
+      "matrixId": "E070",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "résilience aux événements désordonnés"
+    },
+    {
+      "acceptance": "dernierSucces (survit à l'échec) et derniereErreur ; latence et trous au lot 2",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp07_panne_d_une_sonde_rend_le_collecteur_indisponible_et_garde_son_dernier_succes",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E071",
+      "matrixId": "E071",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "lastSuccessfulSync et erreurs par connecteur"
+    },
+    {
+      "acceptance": "mesure de latence et détection de trous",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e072_latence_et_trous_de_collecte_par_connecteur",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E072",
+      "matrixId": "E072",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "latence et trous de collecte par connecteur"
+    },
+    {
+      "acceptance": "fixtures : source = « fixture »",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_un_doublon_ne_donne_qu_un_evenement_et_un_effet",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E073",
+      "matrixId": "E073",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "données d'exemple marquées fictives"
+    },
+    {
+      "acceptance": "attente, passes en cours, passes terminées (tower_codex_passes_total)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_un_doublon_ne_donne_qu_un_evenement_et_un_effet",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E074",
+      "matrixId": "E074",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "KPI queue time, WIP, throughput"
+    },
+    {
+      "acceptance": "connecteurs du lot 2",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e075_relances_flaky_age_des_pr_conflits_reutilisation_nulle",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E075",
+      "matrixId": "E075",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "KPI lead time, retry rate, flaky, PR age, merge conflicts, réutilisation"
+    },
+    {
+      "acceptance": "MP-18",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp18_cout_inconnu_reste_null_et_aucune_serie_inventee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E076",
+      "matrixId": "E076",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "valeurs inconnues à null"
+    },
+    {
+      "acceptance": "champs de l'alerte MP-05 et MP-06",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E077",
+      "matrixId": "E077",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "diagnostic relié à métrique, intervalle, seuil, preuves, projets, confiance"
+    },
+    {
+      "acceptance": "OPS-14",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e110_mp20_e078_contentions_resolues_historique_et_avant_apres",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E078",
+      "matrixId": "E078",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "effet des arbitrages par fenêtres comparables"
+    },
+    {
+      "acceptance": "accès par Authelia (existant) devant Grafana",
+      "id": "REQ-CONTROL-TOWER-E079",
+      "matrixId": "E079",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "OIDC"
+    },
+    {
+      "acceptance": "avec les arbitrages",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e080_consultations_sensibles_et_decisions_auditees",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E080",
+      "matrixId": "E080",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "audit des consultations sensibles et décisions"
+    },
+    {
+      "acceptance": "aucun secret dans le journal (transcrits : chemins seulement)",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_sonde_transcrits_chemins_sans_contenu_et_kill_en_position_de_commande",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E081",
+      "matrixId": "E081",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "secrets hors base métier"
+    },
+    {
+      "acceptance": "rotation du journal",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_e082_retention_configurable_archive_sans_rien_effacer",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E082",
+      "matrixId": "E082",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "politiques de rétention configurables"
+    },
+    {
+      "acceptance": "avec les politiques",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e083_derogation_ni_par_un_agent_ni_par_son_demandeur",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E083",
+      "matrixId": "E083",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "agents sans pouvoir sur les contrôles critiques ni sur leurs dérogations"
+    },
+    {
+      "acceptance": "lot 2",
+      "id": "REQ-CONTROL-TOWER-E084",
+      "matrixId": "E084",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "API REST v1 (events, overview, runs, timeline, compliance, contentions, arbitrations, metrics)"
+    },
+    {
+      "acceptance": "6 sous-commandes sur 7",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp17_codes_de_retour_et_dry_run",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E085",
+      "matrixId": "E085",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "CLI towerctl ingest|status|runs|contentions|report|validate en JSON"
+    },
+    {
+      "acceptance": "avec les politiques",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e086_e025_towerctl_compliance_code_3_sur_violation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E086",
+      "matrixId": "E086",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "towerctl compliance"
+    },
+    {
+      "acceptance": "0, 1, 2, 3, 4 et --dry-run sans écriture",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp17_codes_de_retour_et_dry_run",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E087",
+      "matrixId": "E087",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "codes retour et --dry-run"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E088",
+      "matrixId": "E088",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "OPS-06 stockage et projecteurs PostgreSQL"
+    },
+    {
+      "acceptance": "Grafana : portefeuille et liens vers runs",
+      "evidence": {
+        "ref": "HL-539 lot 2 (21/11) : drill-down — projet → filtre, ticket → YouTrack, dépôt → Forgejo, run → pipeline Woodpecker ; tableau control-tower-portefeuille publié (/api/dashboards/db → success, version 1), relu depuis Grafana ; ses 21 requêtes rejouées sur Prometheus : 20 rendent des séries (13 projets), 1 absence voulue (lead time : aucune release tracée au relevé)",
+        "threshold": "chaque requête rend une série ou une absence voulue",
+        "type": "mesure",
+        "value": "publié, 13 projets"
+      },
+      "id": "REQ-CONTROL-TOWER-E089",
+      "matrixId": "E089",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "OPS-07 dashboard multiprojets, drill-down"
+    },
+    {
+      "acceptance": "P1/P2",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e090_ops15_suggestions_ia_sur_constats_jamais_appliquees",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E090",
+      "matrixId": "E090",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "OPS-13 à OPS-16"
+    },
+    {
+      "acceptance": "vue portefeuille",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp01_cinq_projets_sans_melange_et_inconnus_a_part",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E091",
+      "matrixId": "E091",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-01 cinq projets sans mélange"
+    },
+    {
+      "acceptance": "modèle OPS-03",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp02_plusieurs_agents_par_projet_executions_et_taches_correlees",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E092",
+      "matrixId": "E092",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-02 plusieurs agents par projet"
+    },
+    {
+      "acceptance": "modèle OPS-03",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp03_un_agent_sur_deux_projets_donne_deux_executions_auditables",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E093",
+      "matrixId": "E093",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-03 un agent sur deux projets"
+    },
+    {
+      "acceptance": "arêtes depends_on",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp04_dependance_a_vers_b_blocage_et_impact_affiches",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E094",
+      "matrixId": "E094",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-04 dépendance A→B"
+    },
+    {
+      "acceptance": "file Codex",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp05_file_saturee_contention_observee_avec_metriques_et_preuves",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E095",
+      "matrixId": "E095",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-05 runner partagé saturé"
+    },
+    {
+      "acceptance": "fixtures MP-06",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp06_deux_agents_meme_fichier_conflit_potentiel_observe_jamais_violation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E096",
+      "matrixId": "E096",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-06 même fichier"
+    },
+    {
+      "acceptance": "fixtures MP-07",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp07_panne_du_collecteur_de_preuves_est_collecte_indisponible",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E097",
+      "matrixId": "E097",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-07 panne d'un connecteur"
+    },
+    {
+      "acceptance": "fixtures MP-08",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp08_un_doublon_ne_donne_qu_un_evenement_et_un_effet",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E098",
+      "matrixId": "E098",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-08 événement dupliqué"
+    },
+    {
+      "acceptance": "fixtures MP-09",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp09_un_evenement_en_retard_recalcule_timeline_et_agregats",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E099",
+      "matrixId": "E099",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-09 événement en retard"
+    },
+    {
+      "acceptance": "politiques OPS-08",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e100_mp10_etape_sautee_avec_preuves_disponibles_est_une_violation",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E100",
+      "matrixId": "E100",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-10 étape sautée"
+    },
+    {
+      "acceptance": "fixtures MP-11",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp11_preuve_manquante_est_inconnue_pas_violee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E101",
+      "matrixId": "E101",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-11 preuve manquante"
+    },
+    {
+      "acceptance": "connecteur Forgejo",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp12_pr_en_attente_prolongee_temps_bloque_visible_et_contextualise",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E102",
+      "matrixId": "E102",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-12 PR en attente prolongée"
+    },
+    {
+      "acceptance": "graphe des ressources",
+      "evidence": {
+        "ref": "tower/tests/test_lot2b.py::test_mp13_ressource_partagee_indisponible_tous_les_projets_impactes",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E103",
+      "matrixId": "E103",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-13 ressource partagée indisponible"
+    },
+    {
+      "acceptance": "—",
+      "id": "REQ-CONTROL-TOWER-E104",
+      "matrixId": "E104",
+      "matrixStatus": "ecartee",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-14 rôle lecteur projet A"
+    },
+    {
+      "acceptance": "arbitrages",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e007_e018_e105_mp15_arbitrage_strategique_propose_par_agent_validation_humaine",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E105",
+      "matrixId": "E105",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-15 arbitrage stratégique proposé par agent"
+    },
+    {
+      "acceptance": "politiques versionnées",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e064_e106_mp16_historique_evalue_avec_sa_version_d_origine",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E106",
+      "matrixId": "E106",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-16 workflow N puis N+1"
+    },
+    {
+      "acceptance": "towerctl report",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp17_rapport_json_complet_par_la_cli",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E107",
+      "matrixId": "E107",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-17 export JSON sans UI"
+    },
+    {
+      "acceptance": "coutConnu null",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp18_cout_inconnu_reste_null_et_aucune_serie_inventee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E108",
+      "matrixId": "E108",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-18 coûts non fournis"
+    },
+    {
+      "acceptance": "avec les politiques",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e109_mp19_politique_critique_approbation_humaine_auditee_et_scellee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E109",
+      "matrixId": "E109",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-19 modification de politique critique"
+    },
+    {
+      "acceptance": "OPS-14",
+      "evidence": {
+        "ref": "tower/tests/test_lot3.py::test_e110_mp20_e078_contentions_resolues_historique_et_avant_apres",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E110",
+      "matrixId": "E110",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "MP-20 contentions résolues"
+    },
+    {
+      "acceptance": "mesure sur la vraie file du 19/11",
+      "evidence": {
+        "ref": "HL-539, commentaire de mesure finale : towerctl contentions sur la vraie file du 19/11",
+        "threshold": "écart ≤ 60 s",
+        "type": "mesure",
+        "value": "attente réelle de chaque chantier en file, recoupée par l'heure des tickets"
+      },
+      "id": "REQ-CONTROL-TOWER-E111",
+      "matrixId": "E111",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "détecter une contention interprojets réelle"
+    },
+    {
+      "acceptance": "MP-18 ; valeur inconnue = série absente",
+      "evidence": {
+        "ref": "tower/tests/test_tower.py::test_mp18_cout_inconnu_reste_null_et_aucune_serie_inventee",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E112",
+      "matrixId": "E112",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "aucune métrique fictive présentée comme réelle"
+    },
+    {
+      "acceptance": "lot 1 : CLI documentée (aide), tests ciblés ; CI Woodpecker au lot 2",
+      "evidence": {
+        "ref": "HL-539 lot 2 (21/11) : workflow .woodpecker/tower.yml ; statut Forgejo ci/woodpecker/push/tower = success sur 59b6935 (pipeline 300/2, 112 tests) après failure sur fe09719 (299/2, tests qui lisaient le vrai Forgejo)",
+        "threshold": "statut success publié par Woodpecker sur le commit",
+        "type": "mesure",
+        "value": "success"
+      },
+      "id": "REQ-CONTROL-TOWER-E113",
+      "matrixId": "E113",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "CLI/API documentée et tests CI"
+    },
+    {
+      "acceptance": "émetteur en panne : file et barrière inchangées",
+      "evidence": {
+        "ref": "tower/tests/test_codex_file.py::test_emetteur_en_panne_ou_bloque_ne_change_rien_a_la_file",
+        "type": "test"
+      },
+      "id": "REQ-CONTROL-TOWER-E114",
+      "matrixId": "E114",
+      "matrixStatus": "faite",
+      "source": {
+        "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt"
+      },
+      "statement": "le module ne bloque pas les jeux en cas de panne"
+    }
+  ],
+  "title": "OPS-001 — OpenCade Control Tower",
+  "versions": [
+    {
+      "documents": [
+        {
+          "provenances": [
+            {
+              "commitSha": "b1578bbc678e5df0d8abd21be4f4171c8e21e8b4",
+              "path": "specs/control-tower-sources/OPS-001_Control_Tower_Specifications_v1.0.md.txt",
+              "repo": "homelab-docs"
+            }
+          ],
+          "sha256": "576cae0d98f46fee52c2f544419dbb550543d22a52a7ee2f4552bf99f4369f6e"
+        }
+      ],
+      "version": "1.0.0"
+    }
+  ],
+  "visibility": "private"
+}

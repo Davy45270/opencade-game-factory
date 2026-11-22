@@ -11,7 +11,7 @@ from .adoption import write_block
 
 def spec_projects(root):
     projects = {}
-    for path in sorted((root / "specs" / "registry").glob("SPEC-*.json")):
+    for path in sorted((root / "specs" / "registry").rglob("SPEC-*.json")):
         record = read_json(path)
         if isinstance(record, dict) and isinstance(record.get("project"), str):
             projects[record["project"]] = record["id"]

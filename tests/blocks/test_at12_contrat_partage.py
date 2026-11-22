@@ -5,7 +5,7 @@ Deux contrats partagés, deux chemins :
   `bbctl impact <brique> --to-version V` liste les jeux qui ne sont pas déjà en V, et REMONTE l'impact à la Tour
   (OPS-001) par un événement `bb.impact-detected` qui porte la brique, la version visée et les jeux touchés ;
 - une spec partagée (REG-003) : `specctl impact` liste les projets consommateurs, directs puis transitifs, et émet
-  `spec.impact-detected` (oracles T06 et T12 de tests/specs/test_specctl_reg003.py, rejoués par specs.yml).
+  `spec.impact-detected` (oracles T06 et T12 de specs/tests/integration/test_specctl_reg003.py, rejoués par specs.yml).
 """
 from __future__ import annotations
 

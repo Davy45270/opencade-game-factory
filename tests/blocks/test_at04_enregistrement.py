@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import unittest
 
-from tests.specs._outil import Docs, sha
+from specs.tests._outil import Docs, sha
 
 from .test_bbctl_discover import PKG_B, Base
 

@@ -6,7 +6,7 @@
 
 Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1162 asset(s) employés (usages actifs de l'index d'usage)
 
-Licences : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) 566 · [unknown](../licences/unknown.md) 596
+Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 566 · [unknown](../licences/unknown.md) 596
 
 Pages : [1](pestouille-rpg.md) · [2](pestouille-rpg-2.md) · [3](pestouille-rpg-3.md) · **4** · [5](pestouille-rpg-5.md)
 

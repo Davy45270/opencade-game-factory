@@ -173,6 +173,21 @@ class JeuTemoin(unittest.TestCase):
         doc = yaml.safe_load((self.jeu / ".woodpecker/e2e.yml").read_text())
         self.assertEqual(doc["steps"][0]["commands"][-1], "npx playwright test --grep 'a: b'")
 
+    def test_chaine_progressive_arch001_dans_l_ordre(self) -> None:
+        """ARCH-001 E027 (l.47) : schémas/contrats, lint, unitaires, intégration, [E2E : e2e.yml], solveurs, simulations,
+        [snapshots : e2e.yml], accessibilité, performance, sécurité, licences, SBOM — l'ordre de la politique barriere-jeux
+        (homelab-diag). Solveurs, simulations, accessibilité, performance : script npm du jeu (« progressif »)."""
+        import yaml
+        etapes = [e["name"] for e in yaml.safe_load((TEMOIN / ".woodpecker" / "checks.yml").read_text())["steps"]]
+        chaine = ["spec résolue", "lint", "typecheck", "test", "niveaux", "solveurs", "simulations", "accessibilité",
+                  "performance", "build", "sbom", "audit et licences", "secrets"]
+        self.assertEqual([e for e in etapes if e in chaine], chaine)
+        texte = (TEMOIN / ".woodpecker" / "checks.yml").read_text()
+        # « niveaux » : point d'extension (HL-525 7-3314) — l'outil d'édition et de validation des niveaux n'est pas
+        # choisi (HL-538 7-3311) ; l'étape joue le script du jeu, quel que soit l'outil retenu ensuite.
+        for script in ("test:levels", "solve", "simulate", "test:a11y", "test:perf"):
+            self.assertIn(f"npm run --if-present {script}", texte)
+
     def test_etapes_du_jeu_apres_les_controles_communs(self) -> None:
         checks = (TEMOIN / ".woodpecker/checks.yml").read_text()
         self.assertGreater(checks.index("name: assets du jeu"), checks.index("name: journaux d'agents hors dépôt"))
@@ -300,7 +315,7 @@ class SpecResolue(unittest.TestCase):
     @unittest.skipUnless(NODE, "node absent")
     def test_spec_resolue_passe(self) -> None:
         sys.path.insert(0, str(RACINE))
-        from tests.specs._outil import SPEC_A, Docs  # noqa: PLC0415
+        from specs.tests._outil import SPEC_A, Docs  # noqa: PLC0415
         d = Docs()
         try:
             d.archive("jeu-temoin", {"Jeu_Temoin_v1.0.md.txt": SPEC_A})

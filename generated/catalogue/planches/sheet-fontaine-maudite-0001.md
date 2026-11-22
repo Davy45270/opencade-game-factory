@@ -4,7 +4,7 @@
 
 # Planche Fontaine maudite
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `602a1e350305`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `602a1e350305`
 
 Fiche : [`sheet-fontaine-maudite-0001`](../../../catalog/sheets/sheet-fontaine-maudite-0001.json)
 

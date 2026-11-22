@@ -180,7 +180,11 @@ avec la valeur. Les valeurs inconnues sont explicites (`unknown` ou `null`
 selon le champ). Un tableau de tags vide ne contient aucune assertion.
 
 Une licence connue utilise un identifiant de la liste SPDX v3.27.0 et
-`licenseEvidence`. La seule référence hors liste admise est
+`licenseEvidence`. Les dessins de David sont sous **CC BY-SA 4.0** depuis le 2026-11-22 (HL-538 7-3316,
+qui remplace 7-3162 et 7-3165), attribués à « Davy45270 » (`ATTRIBUTION.md`, `LICENSES/CC-BY-SA-4.0.txt` ;
+migration `scripts/licence_cc_by_sa.py`, test `test_licence_cc_by_sa`) : ils passent la garde publique comme toute
+licence libre. Seule une licence non libre (`PRIVATE_LICENSES`) bloque encore une publication publique.
+Historique : la seule référence hors liste admise était
 `LicenseRef-David-Prive-Tous-Droits-Reserves` (texte dans `LICENSES/`, décision HL-538 7-3162) :
 licence privée de David. Une dérivation n'est admise que sous la même licence (point 4 du texte), et
 seulement vers une destination qui accorde cette licence (jeu de David) : c'est le cas des cadres livrés
@@ -293,7 +297,7 @@ enchaîne plusieurs modules :
 | `6` | Simulation ou validation indéterminée (`inconclusive`, budget épuisé) : jamais un succès | 1 |
 | `7` | Erreur d’infrastructure : git, source illisible, module désactivé (`ASSETCTL_LEVELS=off`) | 4 |
 
-**Même règle pour `specctl` (REG-003 § 6)**, qui rend les codes de sa spec (`specs/specctl.CODES_REG003`) :
+**Même règle pour `specctl` (REG-003 § 6)**, qui rend les codes de sa spec (`specs/tools/specctl.CODES_REG003`) :
 
 | Code `specctl` (REG-003) | Signification | Code commun équivalent |
 | --- | --- | --- |

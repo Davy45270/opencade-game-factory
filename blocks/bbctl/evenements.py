@@ -1,6 +1,6 @@
 """Événements FactoryEvent v1.1 de bbctl vers la Tour (OPS-001, BB-001 T14).
 
-Même dépôt opt-in que specctl (specs/specctl/tour.py) : rien sans TOWER_DIR ou TOWER_TRACE_ID, TOWER_DESACTIVE=1 coupe
+Même dépôt opt-in que specctl (specs/tools/specctl/tour.py) : rien sans TOWER_DIR ou TOWER_TRACE_ID, TOWER_DESACTIVE=1 coupe
 tout, une erreur n'interrompt jamais la commande. Corrélation par traceId et buildingBlockRefs.
 """
 
@@ -8,7 +8,7 @@ import hashlib
 import json
 import os
 
-from specs.specctl import tour
+from specs.tools.specctl import tour
 
 
 def fabriquer(typ, etat, project, blocks, meta, fait, commit=None, specs=()):

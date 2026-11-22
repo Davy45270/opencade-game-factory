@@ -1,4 +1,4 @@
-# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 5ce493b750eb) : ne pas éditer à la main.
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 2fe0e3d7e598) : ne pas éditer à la main.
 # Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
 # Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
 # VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
@@ -49,6 +49,32 @@ steps:
       # La suite unitaire COMPLÈTE, à chaque push : deux lots écrits en parallèle passent chacun leurs tests ciblés,
       # et c'est leur somme qui casse. En local, on garde les tests ciblés ; ici, jamais de filtre.
       - npm test
+  # ARCH-001 E027 (l.47) : chaîne progressive, après les tests et avant le build — solveurs, simulations de gameplay,
+  # accessibilité, performance. Étapes « progressives » : elles jouent le script
+  # npm du jeu dès qu'il le déclare (solve, simulate, test:a11y, test:perf), sans rien demander à un jeu qui ne l'a pas.
+  # Point d'extension « niveaux » : validation des niveaux du jeu par l'outil d'édition qui sera retenu (non choisi à ce
+  # jour). L'étape joue le script npm « test:levels » du jeu s'il le déclare ; l'outil, son format et ses contrôles se
+  # brancheront derrière ce script, sans changer le gabarit.
+  - name: niveaux
+    image: *node
+    commands:
+      - npm run --if-present test:levels
+  - name: solveurs
+    image: *node
+    commands:
+      - npm run --if-present solve
+  - name: simulations
+    image: *node
+    commands:
+      - npm run --if-present simulate
+  - name: accessibilité
+    image: *node
+    commands:
+      - npm run --if-present test:a11y
+  - name: performance
+    image: *node
+    commands:
+      - npm run --if-present test:perf
   - name: build
     image: *node
     commands:

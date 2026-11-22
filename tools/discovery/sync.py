@@ -1,5 +1,7 @@
 """Synchronisation incrémentale dans un clone temporaire et publication d'une ref locale."""
 
+import subprocess
+import sys
 import tempfile
 from argparse import Namespace
 from datetime import datetime, timezone
@@ -70,6 +72,10 @@ def sync(root, args):
         if result["scannedCopies"] or not (work / "generated" / "reports" / "sync-pr.md").exists():
             index(work, Namespace(dry_run=False))
             report(work, result)
+            # Pages du catalogue (REG-08) et documentation générée : contrôlées en CI (--check), donc refaites ici.
+            for script in ("scripts/catalogue_pages.py", "scripts/docs_generees.py"):
+                if (work / script).is_file():
+                    subprocess.run([sys.executable, script], cwd=work, check=True, capture_output=True)
         changes = local.run("ls-files", "-m", "-o", "--exclude-standard", "-z",
                             "--", "catalog", "generated", "thumbnails").split(b"\0")
         paths = sorted({path.decode() for path in changes if path})

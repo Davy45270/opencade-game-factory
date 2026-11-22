@@ -15,7 +15,7 @@ from .discover import discover, impact, inspect, usages
 from .opensource import search_opensource
 from . import evenements
 from .adoption import Conflict, adopt, gate, write_block
-from .liens import link_specs
+from .liens import assets_of, check_asset_links, link_assets, link_specs
 from .duplicates import duplicates
 from .evaluation import evaluate, externe, nonblank
 from .registry import lock, read_catalogue
@@ -79,6 +79,8 @@ def parser():
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
         "sbom": "SBOM CycloneDX des briques (versions, licences, dépendances des dépôts consommateurs).",
+        "link-assets": "Relier chaque brique, par identifiant, aux assets et niveaux du catalogue situés sous son module.",
+        "assets": "Assets d'une brique, métadonnées relues dans le catalogue des assets.",
         "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
@@ -113,7 +115,7 @@ def parser():
     finder.add_argument("--sources", type=Path, help="Défaut : catalog/sources.json de l'usine.")
     finder.add_argument("--clones", type=Path, default=Path("~/Projets/jeux"))
     finder.add_argument("--dry-run", action="store_true")
-    for name in ("inspect", "usages", "impact"):
+    for name in ("inspect", "usages", "impact", "assets"):
         sub[name].add_argument("block")
     sub["impact"].add_argument("--to-version", required=True)
     adopter = sub["adopt"]
@@ -126,6 +128,7 @@ def parser():
     for name in ("adopt", "decide"):
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
     sub["link-specs"].add_argument("--dry-run", action="store_true")
+    sub["link-assets"].add_argument("--dry-run", action="store_true")
     sub["index"].add_argument("--out", type=Path, required=True)
     sub["sbom"].add_argument("--out", type=Path, required=True)
     sub["index"].add_argument("--check", action="store_true")
@@ -172,7 +175,7 @@ def run(args, root):
     if command == "duplicates":
         return duplicates(args.graph.expanduser(), args.roots, args.min_similarity)
     blocks = root / "blocks"
-    write = (command in {"decide", "adopt", "gate"} or (command == "link-specs" and not args.dry_run) or (command in {"import-decisions", "discover"} and not args.dry_run)
+    write = (command in {"decide", "adopt", "gate"} or (command in {"link-specs", "link-assets"} and not args.dry_run) or (command in {"import-decisions", "discover"} and not args.dry_run)
              or (command == "search" and args.scope == "opensource" and args.record))
     with lock(root, write=write):
         if command == "import-decisions":
@@ -215,6 +218,10 @@ def run(args, root):
             return result
         if command == "adopt":
             return adopt(blocks, records, args)
+        if command == "link-assets":
+            return link_assets(blocks, records, args.dry_run)
+        if command == "assets":
+            return assets_of(blocks, records, args.block)
         if command == "link-specs":
             return link_specs(blocks, records, args.dry_run)
         if command == "gate":
@@ -230,7 +237,8 @@ def run(args, root):
             orphelines = generes.incoherences(records)
             if orphelines:
                 raise InvalidJSON("Brique adoptée sans consommateur (usedBy vide) : " + ", ".join(orphelines))
-            return {"count": len(records), "specLinks": check_spec_links(root, records)}
+            return {"count": len(records), "specLinks": check_spec_links(root, records),
+                    "assetLinks": check_asset_links(root, records)}
         if args.candidate not in records:
             raise InvalidJSON(f"Candidat absent du catalogue : {args.candidate}.")
         path, block = records[args.candidate]

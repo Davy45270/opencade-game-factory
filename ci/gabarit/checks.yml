@@ -9,6 +9,7 @@ when:
   - event: push
     branch: main
   - event: [pull_request, manual]
+@CLONE@
 
 steps:
   - name: npm ci
@@ -22,12 +23,12 @@ steps:
     commands:
       # REG-06 : une PR est refusée sans résolution des specs (fichier écrit par l'usine à la génération de cette CI).
       - node .woodpecker/usine/spec-resolue.mjs
-  - name: réutilisation (avertissement)
+  - name: réutilisation (@REUTILISATION@)
     image: *node
     commands:
-      # BB-001 § 5 : brique nouvelle sans recherche documentée = avertissement (non bloquant pour l'instant).
-      # Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
-      - node .woodpecker/usine/reutilisation.mjs
+      # BB-001 § 5 : brique nouvelle sans recherche documentée ni dérogation = avertissement, ou échec si le jeu a choisi
+      # « bloquant » (usine.json). Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
+      - node .woodpecker/usine/reutilisation.mjs@REUTILISATION_OPTION@
   - name: lint
     image: *node
     commands:

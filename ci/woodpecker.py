@@ -16,6 +16,8 @@ Paramètres du jeu, `.woodpecker/usine.json` (tous facultatifs) :
                  ni privileged, ni volumes, ni attribut glissé dans une étape commune)
   e2e_commande   commande des specs Playwright, une seule ligne (défaut : npx playwright test)
   e2e            false = pas d'e2e.yml (jeu sans Playwright)
+  reutilisation  "avertissement" (défaut) ou "bloquant" : brique nouvelle sans recherche documentée ni dérogation =
+                 échec de la CI (BB-001 § 5, E190) ; la CI clone alors tout l'historique et la branche cible
 Ce qui est COMMUN et non négociable : SBOM CycloneDX vérifié, image Playwright lue au package-lock, e2e de démarrage
 sous la CSP de production, audit, licences, secrets.
 """
@@ -42,7 +44,17 @@ PRIVE_RE = re.compile(r"homelab|tank01|zalman|contabo|harbor|pingfr|duckdns|dav1
                       r"|(?<![0-9.:])(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01])|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])|127\.\d{1,3})\.\d{1,3}\.\d{1,3}(?!\d|\.\d)", re.I)
 # revue Codex 10 : une adresse = 4 octets, jamais précédée de « : » (un tag `node:10.24.1` n'est pas une adresse) ;
 # revue Codex 11 : suivie d'un point et d'une lettre (10.24.1.2.sslip.io), c'est encore une adresse privée
-CLES = {"node_image", "checks_extra", "e2e_commande", "e2e", "projet"}
+CLES = {"node_image", "checks_extra", "e2e_commande", "e2e", "projet", "reutilisation"}
+REUTILISATION = ("avertissement", "bloquant")
+# Mode bloquant : base d'une PR = merge-base avec la cible, d'où l'historique complet et la branche cible clonés.
+CLONE_COMPLET = """
+clone:
+  - name: clone
+    image: woodpeckerci/plugin-git:2.12.1
+    settings:
+      depth: 0
+      partial: false
+      fetch_target_branch: true"""
 
 
 class Indisponible(Exception):
@@ -131,9 +143,14 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
     commande = _ligne_simple("e2e_commande", p["e2e_commande"]) if "e2e_commande" in p else E2E_COMMANDE
     if "e2e" in p and not isinstance(p["e2e"], bool):
         raise Indisponible("usine.json : e2e doit être true ou false")
+    reut = p.get("reutilisation", "avertissement")
+    if reut not in REUTILISATION:
+        raise Indisponible(f"usine.json : reutilisation doit valoir {' ou '.join(REUTILISATION)}")
     # json.dumps = scalaire YAML entre guillemets doubles : « a: b », « # », « & » restent du texte
     valeurs = {"@ENTETE@": entete, "@NODE_IMAGE@": image, "@GITLEAKS_IMAGE@": GITLEAKS_IMAGE,
-               "@CHECKS_EXTRA@": extra, "@E2E_COMMANDE@": json.dumps(commande, ensure_ascii=False)}
+               "@CHECKS_EXTRA@": extra, "@E2E_COMMANDE@": json.dumps(commande, ensure_ascii=False),
+               "@CLONE@": CLONE_COMPLET if reut == "bloquant" else "", "@REUTILISATION@": reut,
+               "@REUTILISATION_OPTION@": " --bloquant" if reut == "bloquant" else ""}
     fichiers = {"checks.yml": True, "e2e.yml": p.get("e2e", True) is not False}
     if fichiers["e2e.yml"]:
         try:
@@ -150,7 +167,8 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
             continue
         texte = (GABARIT / nom).read_text(encoding="utf-8")
         for cle, val in valeurs.items():
-            texte = texte.replace(cle + "\n", val + "\n" if val else "") if cle == "@CHECKS_EXTRA@" else texte.replace(cle, val)
+            texte = (texte.replace(cle + "\n", val + "\n" if val else "") if cle in ("@CHECKS_EXTRA@", "@CLONE@")
+                     else texte.replace(cle, val))
         reste = re.search(r"@[A-Z0-9_]+@", texte)
         if reste:
             raise Indisponible(f"gabarit {nom} : paramètre non remplacé {reste.group(0)}")

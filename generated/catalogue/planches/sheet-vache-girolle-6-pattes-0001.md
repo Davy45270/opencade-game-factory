@@ -4,7 +4,7 @@
 
 # Planche Vache girolle à six pattes
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `4fe8ee0f4b9b`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `4fe8ee0f4b9b`
 
 Fiche : [`sheet-vache-girolle-6-pattes-0001`](../../../catalog/sheets/sheet-vache-girolle-6-pattes-0001.json)
 

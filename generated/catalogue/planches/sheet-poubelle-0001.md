@@ -4,7 +4,7 @@
 
 # Planche Poubelle malicieuse (type Objet vivant, taille M)
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `9e0197028d79`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `9e0197028d79`
 
 Fiche : [`sheet-poubelle-0001`](../../../catalog/sheets/sheet-poubelle-0001.json)
 

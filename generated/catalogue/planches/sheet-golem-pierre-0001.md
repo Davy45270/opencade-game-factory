@@ -4,7 +4,7 @@
 
 # Planche Golem de pierre (type Golem, taille M)
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `05fc7cb75be4`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `05fc7cb75be4`
 
 Fiche : [`sheet-golem-pierre-0001`](../../../catalog/sheets/sheet-golem-pierre-0001.json)
 

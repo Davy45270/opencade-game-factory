@@ -12,11 +12,11 @@ REG, DRIVE, DOCS, RECUS, TRAV = map(Path, sys.argv[1:6])
 sys.path.insert(0, str(REG))
 from tools.core.catalog import write_json, json_text  # noqa: E402
 
-LIC = "LicenseRef-David-Prive-Tous-Droits-Reserves"
-LIC_PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3162",
-              "decision": "Dessins de Pestouille fournis par David (héros, créatures, variantes) : privé, tous droits réservés. "
-                          "Utilisables dans les jeux de David, jamais exposés publiquement sans son accord."}
-AUTEUR = "David (dessin fourni par David ; auteur ou outil de création non déclaré)"
+LIC = "CC-BY-SA-4.0"
+LIC_PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
+              "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+ "décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt."}
+AUTEUR = "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)"
 EDIT = "sources/editable/pestouille-2026-11-21"
 DIRS = {"droite": ("right", "east", "droite"), "gauche": ("left", "west", "gauche"),
         "bas": ("front", "south", "bas (face)"), "haut": ("back", "north", "haut (dos)")}
@@ -131,7 +131,7 @@ for a_path in sorted((cat / "assets").glob("*.json")):
     a["provenance"]["type"] = "original-sheet-cut"     # découpe d'une planche fournie par David (comme la cuisine)
     a["provenance"]["evidence"] = [a["provenance"]["evidence"][0],
                                    f"Planche {m['fichier']} (SHA-256 {m['sha']}) fournie par David ; canal : {M.DRIVE}.",
-                                   "Licence décidée par David le 2026-11-21 (HL-538 7-3162) : privé, tous droits réservés."]
+                                   "Licence décidée par David le 2026-11-22 (HL-538 7-3316) : CC BY-SA 4.0, attribution « Davy45270 »."]
     q = m["requete"]
     if q not in recus:
         recus[q] = json.loads((RECUS / f"{q}.json").read_text())

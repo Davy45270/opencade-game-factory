@@ -4,7 +4,7 @@
 
 # Planche Roi des Zèbres
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `13ff85cd0787`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `13ff85cd0787`
 
 Fiche : [`sheet-roi-zebres-0001`](../../../catalog/sheets/sheet-roi-zebres-0001.json)
 

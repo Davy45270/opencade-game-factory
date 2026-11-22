@@ -4,7 +4,7 @@
 
 # Planche Bestiaire plantes carnivores et tailles S/M/L
 
-Licence : [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) · auteur : David (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `dd6764ffecc2`
+Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) · 1536×1024 · SHA-256 `dd6764ffecc2`
 
 Fiche : [`sheet-plantes-tailles-0001`](../../../catalog/sheets/sheet-plantes-tailles-0001.json)
 

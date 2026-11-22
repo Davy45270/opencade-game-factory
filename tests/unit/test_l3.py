@@ -141,6 +141,10 @@ class LotL3(unittest.TestCase):
         source = C.empreinte_arbre(game)
         first = self.ctl(args)
         self.assertEqual(first["scannedCopies"], 1)
+        # La branche de sync porte aussi les pages du catalogue régénérées (sinon catalogue-pages --check échoue
+        # en CI : PR #78 du 22/11).
+        pages = self.world.git(self.root, "ls-tree", "-r", "--name-only", branch, "--", "generated/catalogue")
+        self.assertIn("generated/catalogue/index.md", pages.split())
         second = self.ctl(args)
         self.assertEqual(second["scannedCopies"], 0)
         self.assertEqual(first["commit"], second["commit"])

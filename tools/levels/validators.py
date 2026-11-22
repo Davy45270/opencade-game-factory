@@ -549,12 +549,44 @@ def game_engine(level, profile, key):
                     "metrics": {}}
     lines = [line for line in run.stdout.splitlines() if line.startswith(("OK ", "ÉCHEC "))]
     metrics = {"engine": " ".join(engine["command"]), "exitCode": run.returncode, "verdict": lines[-1] if lines else None}
+    if key == "puzzle":
+        metrics["contrat"] = _contrat_puzzle(native, profile, run.stdout)
+        unicite = metrics["contrat"]["unicite"]
+        if run.returncode == 0 and lines and lines[-1].startswith("OK ") and unicite.startswith(("plusieurs", "non mesur")):
+            if unicite.startswith("plusieurs"):
+                return _result([_diag("puzzle-not-unique", f"unicité exigée par le profil : {unicite}")], metrics)
+            return _result([_diag("puzzle-uniqueness-unmeasured", "unicité exigée mais le moteur ne rend pas "
+                                  "« SOLUTIONS n »", severity="warning")], metrics, inconclusive=True)
     if run.returncode == 0 and lines and lines[-1].startswith("OK "):
         return _result([], metrics)
     if lines and lines[-1].startswith("ÉCHEC "):
         return _result([_diag(f"{key}-rejected-by-engine", lines[-1].split(" : ", 1)[-1])], metrics)
     return _result([_diag("engine-unreadable", f"réponse du moteur illisible (code {run.returncode})",
                           severity="warning")], metrics, inconclusive=True)
+
+
+def _contrat_puzzle(native, profile, stdout):
+    """E207 : contrat de validation d'un puzzle en sept points. Les règles et le solveur restent au jeu (moteur sans
+    écran) ; l'unicité n'est exigée que si le profil le dit (`puzzle.requireUnique`) et se mesure par la ligne
+    `SOLUTIONS n` du moteur — jamais supposée."""
+    exige = bool(((profile or {}).get("puzzle") or {}).get("requireUnique"))
+    compte = [int(m) for m in re.findall(r"(?m)^SOLUTIONS (\d+)\s*$", stdout)]
+    if not exige:
+        unicite = "non exigée par le profil"
+    elif not compte:
+        unicite = "non mesurée : le moteur ne rend pas SOLUTIONS n"
+    elif compte[-1] == 1:
+        unicite = "unique (1 solution)"
+    else:
+        unicite = f"plusieurs solutions ({compte[-1]})"
+    meta = native.get("meta") or {}
+    return {"etatInitial": sorted(k for k in native if k not in ("meta", "scoring")),
+            "regles": "moteur du jeu (engine.command) — non réimplémentées dans le registre",
+            "objectifs": sorted((native.get("scoring") or {}).keys()) or "définis par le moteur du jeu",
+            "solveur": " ".join((profile or {}).get("engine", {}).get("command", [])) or None,
+            "solutionDeReference": "meta.solution" if meta.get("solution") else None,
+            "unicite": unicite,
+            "difficulte": meta.get("difficulty") or meta.get("difficulte") or (native.get("scoring") or {}) or None}
 
 
 def validate(record, profile=None, known_assets=None, others=None):

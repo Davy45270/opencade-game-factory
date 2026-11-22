@@ -8,3 +8,6 @@ __pycache__/
 # les efface (pipeline 108, HL-542 : FileNotFoundError quand les deux suites tournent en même temps).
 /tmp*/
 /.venv/
+
+# Index collectés des fournisseurs externes (EXT-001) : dérivés, reconstruits par `assetctl external refresh`.
+/external/*/index.json

@@ -1,0 +1,27 @@
+# Recherche visuelle CLIP (REG-07, E110) en mode CPU sur GitHub Actions : l'index commité (calculé sur l'A770 de
+# tank01) se retrouve sans GPU — vecteurs recalculés sur CPU (cosinus ≥ 0,99) et requêtes témoins.
+# Aucun secret (modèle public téléchargé depuis le hub Hugging Face).
+name: visual
+on:
+  push:
+    branches: [main]
+    paths: ["generated/visual/**", "tools/index/visual.py", "scripts/visuel-controle.py", "requirements-visual.txt",
+            ".github/workflows/visual.yml"]
+  pull_request:
+    branches: [main]
+    paths: ["generated/visual/**", "tools/index/visual.py", "scripts/visuel-controle.py", "requirements-visual.txt"]
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  clip-cpu:
+    runs-on: ubuntu-24.04
+    container: python:3.13-slim
+    steps:
+      - run: apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: pip install --quiet --disable-pip-version-check -r requirements.txt
+      - run: pip install --quiet --disable-pip-version-check -r requirements-visual.txt --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
+      - run: python3 scripts/visuel-controle.py

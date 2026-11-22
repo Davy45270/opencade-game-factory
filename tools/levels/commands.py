@@ -26,7 +26,7 @@ from tools.levels.generate import GENERATORS, TRANSFORMS
 from tools.levels.validators import VALIDATORS, Budget, validate as run_validators
 
 SUBCOMMANDS = ("discover", "import", "search", "inspect", "derive", "generate", "validate", "simulate", "usages",
-               "publish")
+               "publish", "libre", "review", "site", "pipeline", "adopt")
 SKIPPED_DIRS = {".git", "node_modules", ".venv", "dist", "build", "__pycache__"}
 KINDS = ("rpg", "dungeon", "platformer", "circuit", "puzzle")
 AGENTS = {"platform-bot": "platformer", "dungeon-bot": "dungeon", "kart-bot": "circuit", "rpg-bot": "rpg"}
@@ -45,7 +45,7 @@ def configure(parser, caller_path):
         command.add_argument("--json", action="store_true", default=argparse.SUPPRESS)
         command.add_argument("--format", choices=("json",), default=None)
         command.add_argument("--dry-run", action="store_true")
-        if name in {"inspect", "derive", "validate", "simulate", "usages", "publish"}:
+        if name in {"inspect", "derive", "validate", "simulate", "usages", "publish", "review", "adopt"}:
             command.add_argument("level_id")
         if name in {"discover", "usages"}:
             command.add_argument("--scope", type=caller_path, required=name == "discover")
@@ -65,6 +65,24 @@ def configure(parser, caller_path):
         if name == "search":
             command.add_argument("--query", default="")
             command.add_argument("--type", choices=KINDS)
+            command.add_argument("--similar-to", help="LV-16 : classer par similarité expliquée avec ce niveau")
+            command.add_argument("--limit", type=int, default=20)
+        if name == "libre":
+            command.add_argument("--id", help="source de external/niveaux-libres.json (toutes par défaut)")
+        if name in {"review", "site"}:
+            command.add_argument("--out", type=caller_path, required=True)
+        if name == "site":
+            command.add_argument("--check", action="store_true")
+        if name == "pipeline":
+            command.add_argument("--request", type=caller_path, required=True)
+            command.add_argument("--seed", type=int, required=True)
+            command.add_argument("--branch")
+        if name == "adopt":
+            command.add_argument("--version", required=True)
+            command.add_argument("--repo", type=caller_path, required=True)
+            command.add_argument("--game", required=True)
+            command.add_argument("--branch")
+            command.add_argument("--base")
         if name in {"derive", "generate"}:
             command.add_argument("--constraints", type=caller_path, required=True)
             command.add_argument("--seed", type=int, required=True)
@@ -515,6 +533,10 @@ class _null:
 
 def search(root, args):
     records = _load_all(root)
+    if getattr(args, "similar_to", None):
+        from tools.levels.p1 import similar
+
+        return similar(root, args, records, _envelope)
     rows = [r for r in records.values() if not args.type or r["kind"] == args.type]
     terms = [t for t in re.findall(r"\w+", args.query.lower()) if t]
     if not terms:
@@ -645,6 +667,15 @@ def simulate(root, args):
                                                                 "message": f"{args.agent} simule un {kind}"}])
     profile = _profile(args) or {}
     result = VALIDATORS[kind](record["content"], profile, Budget(profile.get("budget")))
+    kart = (profile.get("circuit") or {}).get("kart") or {}
+    if args.agent == "kart-bot" and kart.get("turningRadius") and result["status"] == "pass":
+        from tools.levels.p1 import bot_kart
+
+        bot = bot_kart(record["content"], kart)
+        result["metrics"]["bot"] = bot
+        if bot["status"] != "pass":
+            result = {**result, "status": "fail", "diagnostics": [*result["diagnostics"], {
+                "code": bot["code"], "severity": "error", "message": bot["message"]}]}
     code = status_code(result["status"], result["diagnostics"])
     return _envelope(code, result["status"], diagnostics=result["diagnostics"], metrics=result["metrics"],
                      agent=args.agent)
@@ -715,13 +746,92 @@ def publish(root, args):
     return _envelope(LevelExit.OK, "published" if not args.dry_run else "dry-run", artifacts, lock=lock)
 
 
+# --- P1/P2 (tools/levels/p1.py) ----------------------------------------------------------------------------------
+
+def _libre(root, args):
+    from tools.levels.p1 import libre
+
+    return libre(root, args, _store, _envelope)
+
+
+def _review(root, args):
+    from tools.levels.p1 import review
+
+    record = _get(root, args.level_id)
+    return _missing(args.level_id) if record is None else review(root, args, record, run_validators, _envelope)
+
+
+def _site(root, args):
+    from tools.levels.p1 import site
+
+    return site(root, args, _load_all(root), _envelope)
+
+
+def _adopt(root, args):
+    from tools.levels.p1 import adopt
+
+    return adopt(root, args, _envelope)
+
+
+def _generated_record(demande, seed):
+    constraints = demande.get("constraints") or {}
+    generator = GENERATORS[demande["genre"]]
+    level, generation = generator(constraints, seed)
+    content = _content(level)
+    sha = _sha(content)
+    generation["constraintsSha256"] = _sha(constraints)
+    game = demande.get("game", "generated")
+    return {"schemaVersion": "1.0.0", "id": f"level-{_slug(game)}-{demande['genre']}-{seed}-{sha[:8]}",
+            "kind": demande["genre"], "name": level["name"],
+            "origin": {"game": game, "universe": constraints.get("universe", "unknown"),
+                       "sourceRepo": "opencade-asset-registry", "sourceCommit": "generated",
+                       "sourcePath": f"generator:{generation['algorithm']}@{generation['algorithmVersion']}",
+                       "licenseStatus": "verified", "license": constraints.get("license", "CC0-1.0"),
+                       "licenseEvidence": "généré par le registre", "provider": "generator"},
+            "format": "generated", "geometry": {"width": level["width"], "height": level["height"],
+                                               "tileWidth": level["tileWidth"], "tileHeight": level["tileHeight"]},
+            "mechanics": _mechanics(level), "dependencies": {"assets": [], "tilesets": []},
+            "validation": {"structure": "pending", "solvability": "pending", "simulation": "pending"},
+            "usage": [], "generation": generation, "content": content, "contentSha256": sha, "losses": [],
+            "observations": [], "transformations": [], "versions": []}
+
+
+def _derived_record(parent, transforms, seed):
+    content = parent["content"]
+    for name in transforms:
+        content = _content(TRANSFORMS[name]({**content, "losses": [], "diagnostics": []}))
+    return {**json.loads(json_text(parent)), "id": f"{parent['id']}-{'-'.join(transforms)}", "content": content,
+            "contentSha256": _sha(content), "derivedFrom": {"id": parent["id"], "contentSha256": parent["contentSha256"]},
+            "transformations": [*parent.get("transformations", []), {"transforms": transforms, "seed": seed}],
+            "validation": {"structure": "pending", "solvability": "pending", "simulation": "pending"},
+            "versions": [], "usage": []}
+
+
+def _schema_error(record):
+    from tools.core.schemas import schemas
+
+    error = next(schemas().validator("level").iter_errors(record), None)
+    return None if error is None else error.message
+
+
+def _pipeline(root, args):
+    from tools.levels.p1 import pipeline
+
+    return pipeline(root, args, {"envelope": _envelope, "kinds": KINDS, "load_all": _load_all,
+                                 "generate_record": _generated_record, "derive_record": _derived_record,
+                                 "run_validators": lambda r, p: run_validators(r, p, _known_assets(root),
+                                                                               _load_all(root)),
+                                 "validators": VALIDATORS, "agents": AGENTS, "write_check": _schema_error})
+
+
 def run(root, args):
     if not enabled():
         return LevelExit.INFRASTRUCTURE, {"ok": False, "error": "levels-disabled",
                                 "message": "Module EXT-002 désactivé (ASSETCTL_LEVELS=off)."}
     handlers = {"discover": discover, "import": import_levels, "search": search, "derive": derive,
                 "generate": generate, "validate": validate, "simulate": simulate, "usages": usages,
-                "publish": publish}
+                "publish": publish, "libre": _libre, "review": _review, "site": _site, "pipeline": _pipeline,
+                "adopt": _adopt}
     if args.level_command == "inspect":
         record = _get(root, args.level_id)
         return _missing(args.level_id) if record is None else _envelope(LevelExit.OK, "ok", level=record)

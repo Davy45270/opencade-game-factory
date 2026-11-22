@@ -289,7 +289,10 @@ class EXT001Module(ExterneFixture, TestCase):
         self.pack("ui-pack", {"b.png": png((2, 2, 2, 255)), "License.txt": BYSA}, license_spdx="CC-BY-SA-4.0",
                   tags=("button",))
         providers_rows = self.ext("providers")["providers"]
-        self.assertEqual([(r["id"], r["status"], r["packs"]) for r in providers_rows], [("kenney", "available", 2)])
+        self.assertEqual([(r["id"], r["status"], r["packs"]) for r in providers_rows],
+                         [("kenney", "available", 2), ("opengameart", "not-harvested", None),
+                          ("lpc", "not-harvested", None), ("itchio", "not-harvested", None),
+                          ("whitelist", "not-harvested", None)])
         self.assertEqual([r["externalId"] for r in self.ext("search", "--query", "clean whisk")["results"]], ["kitchen-kit"])
         filtre = self.ext("search", "--query", "", "--license", "CC-BY-SA-4.0")["results"]
         self.assertEqual([r["externalId"] for r in filtre], ["ui-pack"])

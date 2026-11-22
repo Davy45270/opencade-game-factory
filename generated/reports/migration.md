@@ -1,32 +1,36 @@
 # Migration des dépôts
 
-## capsule-panic
+## petit-astronome
 
 | Fournisseur | Branche | Commit | Date | Erreur |
 | --- | --- | --- | --- | --- |
-| local | main | ea68eeb3829e17c49b13114107c2f38480c62341 | 2026-11-21T06:04:44+01:00 | — |
+| github | main | d7b66b968c30fd9f0b4cb2238e98eec45652ca89 | 2026-11-20T18:08:37+01:00 | — |
+
+| Fournisseur | Tag | Commit |
+| --- | --- | --- |
+| github | v0.1.0 | 381942d3696e7d2045ebe3e447ed2bf4e5a22bf9 |
+| github | v0.2.0 | 66baef487d4e35599c8e8467c8a4687c9525cc3e |
 
 | Famille | Fichiers importés |
 | --- | --- |
-| atlas | 86 |
-| code-generated | 4 |
-| image | 375 |
-| style | 1 |
-| svg | 51 |
+| audio | 36 |
+| code-generated | 13 |
+| image | 47 |
+| style | 3 |
 
 ## Manifests de build
 
 | Dépôt | Commit | Chemin |
 | --- | --- | --- |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | apps/web/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | apps/web/vite.config.ts |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | packages/assets/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | packages/contracts/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | packages/engine/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | packages/input/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | packages/renderer/package.json |
-| capsule-panic | ea68eeb3829e17c49b13114107c2f38480c62341 | tsconfig.json |
+| petit-astronome | d7b66b968c30fd9f0b4cb2238e98eec45652ca89 | package.json |
+| petit-astronome | d7b66b968c30fd9f0b4cb2238e98eec45652ca89 | tsconfig.json |
+| petit-astronome | d7b66b968c30fd9f0b4cb2238e98eec45652ca89 | vite.config.ts |
+| petit-astronome | 381942d3696e7d2045ebe3e447ed2bf4e5a22bf9 | package.json |
+| petit-astronome | 381942d3696e7d2045ebe3e447ed2bf4e5a22bf9 | tsconfig.json |
+| petit-astronome | 381942d3696e7d2045ebe3e447ed2bf4e5a22bf9 | vite.config.ts |
+| petit-astronome | 66baef487d4e35599c8e8467c8a4687c9525cc3e | package.json |
+| petit-astronome | 66baef487d4e35599c8e8467c8a4687c9525cc3e | tsconfig.json |
+| petit-astronome | 66baef487d4e35599c8e8467c8a4687c9525cc3e | vite.config.ts |
 
 ## Tags divergents
 

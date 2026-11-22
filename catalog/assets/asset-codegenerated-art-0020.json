@@ -119,6 +119,35 @@
   "updatedAt": "2026-11-19T15:38:02+01:00",
   "usages": [
     {
+      "assetPath": "packages/renderer-pixi/src/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/renderer-pixi/src/art.ts"
+      },
+      "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
+      "evidence": [
+        "importer_livre : module packages/renderer-pixi/src/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "six-de-chaque",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/renderer-pixi/src/art.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "dessin-code",
+      "scene": "packages/renderer-pixi/src/art.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/renderer-pixi/src/art.ts": "4c0630e1dd6abebdd80355f22d4f3b4c1344c078"
       },
@@ -182,35 +211,6 @@
       "repo": "six-de-chaque",
       "role": "sprite",
       "scene": "tests/assets-provenance.test.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/renderer-pixi/src/art.ts",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/renderer-pixi/src/art.ts"
-      },
-      "commit": "fa45022bf4c142402b765d03f44bb1e0a329d561",
-      "evidence": [
-        "importer_livre : module packages/renderer-pixi/src/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "six-de-chaque",
-      "importName": "art",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/renderer-pixi/src/art.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "six-de-chaque",
-      "role": "dessin-code",
-      "scene": "packages/renderer-pixi/src/art.ts",
       "status": "active"
     }
   ],

@@ -133,6 +133,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-panneau-suivant-partie.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-panneau-suivant-partie",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-panneau-suivant-partie.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/runtime/sprite-panneau-suivant-partie.webp": "3d5ce9c645cad11d2b874f04f39d92ad0c181057"
       },
@@ -196,35 +225,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/style.css",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/runtime/sprite-panneau-suivant-partie.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-panneau-suivant-partie",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/runtime/sprite-panneau-suivant-partie.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
       "status": "active"
     }
   ],

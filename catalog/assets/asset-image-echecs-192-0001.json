@@ -186,6 +186,35 @@
       "status": "active"
     },
     {
+      "assetPath": "public/icons/echecs-192.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/echecs-192.png"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "importer_livre : image public/icons/echecs-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "echecs-kid",
+      "importName": "echecs-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/echecs-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "image",
+      "scene": "public/icons/echecs-192.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/icons/echecs-192.png": "4480a55e6028af84f9fa691a58f03cd8433ac861"
       },
@@ -282,35 +311,6 @@
       "repo": "echecs-kid",
       "role": "icon",
       "scene": "pwa-manifest.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/icons/echecs-192.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/icons/echecs-192.png"
-      },
-      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
-      "evidence": [
-        "importer_livre : image public/icons/echecs-192.png livrée (fichier suivi au commit)"
-      ],
-      "game": "echecs-kid",
-      "importName": "echecs-192",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/icons/echecs-192.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "echecs-kid",
-      "role": "image",
-      "scene": "public/icons/echecs-192.png",
       "status": "active"
     }
   ],

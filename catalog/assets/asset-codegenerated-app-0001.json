@@ -52,6 +52,19 @@
         "game": "petit-astronome",
         "path": "src/ui/app.ts",
         "provider": "github",
+        "removedAtCommit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "repo": "petit-astronome",
+        "status": "removed",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 4,
+        "blobSha256": "cedee096330e508ee57e4d4d2c9b5045166d359db5ddb9eb3bde029b5201ab91",
+        "classification": "game",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "game": "petit-astronome",
+        "path": "src/ui/app.ts",
+        "provider": "github",
         "repo": "petit-astronome",
         "status": "active",
         "visibility": "public"
@@ -79,21 +92,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/app.ts"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/app.ts"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/app.ts"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/app.ts"
       ],
       "method": "proven"
     }
@@ -102,7 +115,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@be70ea5d481545ac258ff9eae4bdfde19611c98d"
+    "ref": "LICENSE@d7b66b968c30fd9f0b4cb2238e98eec45652ca89"
   },
   "name": "app",
   "orientation": "unknown",
@@ -116,17 +129,47 @@
     "type": "code-generated"
   },
   "schemaVersion": "1.0",
-  "sha256": "8cc815c88ee32956589f422e8f440c5a9129a1b280f60c118d4c28bd7c568d41",
+  "sha256": "cedee096330e508ee57e4d4d2c9b5045166d359db5ddb9eb3bde029b5201ab91",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T18:08:37+01:00",
+  "usages": [
+    {
+      "assetPath": "src/ui/app.ts",
+      "assetVersion": 4,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/app.ts"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : module src/ui/app.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "petit-astronome",
+      "importName": "app",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/app.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "dessin-code",
+      "scene": "src/ui/app.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
-  "version": 3,
+  "version": 4,
   "versions": [
     {
       "causalNext": 2,
@@ -149,14 +192,26 @@
       "version": 2
     },
     {
-      "causalNext": null,
+      "causalNext": 4,
       "causalPrevious": 2,
       "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
       "date": "2026-11-04T16:49:26+01:00",
-      "nextVersion": null,
+      "format": "ts",
+      "nextVersion": 4,
       "previousVersion": 2,
       "sha256": "8cc815c88ee32956589f422e8f440c5a9129a1b280f60c118d4c28bd7c568d41",
       "version": 3
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 3,
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "date": "2026-11-20T18:08:37+01:00",
+      "format": "ts",
+      "nextVersion": null,
+      "previousVersion": 3,
+      "sha256": "cedee096330e508ee57e4d4d2c9b5045166d359db5ddb9eb3bde029b5201ab91",
+      "version": 4
     }
   ],
   "visualStyle": null

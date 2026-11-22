@@ -44,6 +44,18 @@
         "game": "petit-astronome",
         "path": "src/ui/style.css",
         "provider": "github",
+        "removedAtCommit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "repo": "petit-astronome",
+        "status": "removed",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 4,
+        "classification": "game",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+        "game": "petit-astronome",
+        "path": "src/ui/style.css",
+        "provider": "github",
         "repo": "petit-astronome",
         "status": "active",
         "visibility": "public"
@@ -71,21 +83,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/style.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/style.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "petit-astronome@be70ea5d481545ac258ff9eae4bdfde19611c98d:src/ui/style.css"
+        "petit-astronome@d7b66b968c30fd9f0b4cb2238e98eec45652ca89:src/ui/style.css"
       ],
       "method": "proven"
     }
@@ -103,14 +115,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "2bca18e9ae456b9e1b81e53c465e684cd81806565941dcc43afee641939b15f1",
+  "sha256": "a60044529efdedb28161368bbafaa3271ff10f5cc18602af3b6eeed295d82044",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
+  "updatedAt": "2026-11-20T18:08:37+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -184,15 +196,15 @@
     },
     {
       "assetBlobs": {
-        "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+        "src/ui/style.css": "f07488ee50ea4f631c3417262f7699bfbd81dacb"
       },
       "assetPath": "src/ui/style.css",
-      "assetVersion": 3,
+      "assetVersion": 4,
       "codeRef": {
         "line": 1,
         "path": "src/main.ts"
       },
-      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "evidence": [
         "import: src/ui/style.css",
         "module-path: src/main.ts"
@@ -287,15 +299,15 @@
     },
     {
       "assetBlobs": {
-        "src/ui/style.css": "006f8f7f325c2fe76fe9009e7eefc9f849dec46f"
+        "src/ui/style.css": "f07488ee50ea4f631c3417262f7699bfbd81dacb"
       },
       "assetPath": "src/ui/style.css",
-      "assetVersion": 3,
+      "assetVersion": 4,
       "codeRef": {
         "line": 4,
         "path": "tests/contrast.test.ts"
       },
-      "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "evidence": [
         "literal: src/ui/style.css",
         "module-path: tests/contrast.test.ts"
@@ -320,7 +332,7 @@
     }
   ],
   "variants": [],
-  "version": 3,
+  "version": 4,
   "versions": [
     {
       "causalNext": 2,
@@ -343,14 +355,26 @@
       "version": 2
     },
     {
-      "causalNext": null,
+      "causalNext": 4,
       "causalPrevious": 2,
       "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
       "date": "2026-11-04T16:49:26+01:00",
-      "nextVersion": null,
+      "format": "css",
+      "nextVersion": 4,
       "previousVersion": 2,
       "sha256": "2bca18e9ae456b9e1b81e53c465e684cd81806565941dcc43afee641939b15f1",
       "version": 3
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 3,
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "date": "2026-11-20T18:08:37+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 3,
+      "sha256": "a60044529efdedb28161368bbafaa3271ff10f5cc18602af3b6eeed295d82044",
+      "version": 4
     }
   ],
   "visualStyle": null

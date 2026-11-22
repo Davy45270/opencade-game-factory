@@ -180,6 +180,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-score-compteurs-maquettes-jeu de packages/assets/atlas/compteurs-maquettes-jeu@2x.png (empreinte de pixels cbf4306da8791e45)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cadre-score-compteurs-maquettes-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/compteurs-maquettes-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/compteurs-maquettes-jeu@2x.json": "a46cd7aaa846885a1814d0183aa7404692d4709b",
         "packages/assets/atlas/compteurs-maquettes-jeu@2x.png": "adb5f2c9fb308d5c9194fab4ce6b97d09dff3dc9"
@@ -245,35 +274,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/compteurs-maquettes-jeu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-cadre-score-compteurs-maquettes-jeu de packages/assets/atlas/compteurs-maquettes-jeu@2x.png (empreinte de pixels cbf4306da8791e45)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cadre-score-compteurs-maquettes-jeu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/compteurs-maquettes-jeu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/compteurs-maquettes-jeu@2x.json",
       "status": "active"
     }
   ],

@@ -165,11 +165,14 @@
 - `asset-atlas-tutoriel-apercu-2x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-tutoriel-apercu-3x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-accueil-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-bien-vu-ce-sont-les-anneaux-de-s-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-bravo-1-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-bravo-2-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-bravo-3-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-carton-ferme-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-carton-ferme-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-ce-cote-tourne-le-dos-au-soleil-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-certaines-planetes-sont-bien-plu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-fr-accepter-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-fr-accepter-phrase-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-fr-action-0001` — unknown · forbidden · Autorisation non établie.
@@ -1170,20 +1173,53 @@
 - `asset-audio-fr-yeux-phrase-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-fr-zero-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-fr-zero-phrase-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-jupiter-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-la-partie-eclairee-que-tu-vois-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-le-soleil-eclaire-ce-cote-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-le-soleil-eclaire-un-cote-de-la-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-le-son-est-indisponible-tu-peux-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-mars-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-mercure-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-montre-la-planete-aux-grands-ann-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-neptune-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-on-voit-toute-la-face-eclairee-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-on-voit-une-fine-partie-eclairee-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-pause-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-prise-consigne-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-prise-regle-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-rangement-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-rangement-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-regarde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-regarde-bien-puis-essaie-encore-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-regarde-le-modele-puis-essaie-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-relie-les-etoiles-de-la-casserol-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-relie-les-etoiles-de-la-ceinture-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-relie-les-etoiles-du-triangle-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-rochers-consigne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-saturne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-saturne-a-de-grands-anneaux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-selection-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-selection-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-terre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-deux-etoiles-pour-tracer-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-la-lune-en-croissant-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-la-lune-toute-ronde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-la-plus-grosse-planete-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-la-plus-petite-planete-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-la-terre-notre-planete-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-le-cote-ou-il-fait-jour-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-touche-le-cote-ou-il-fait-nuit-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-tour-passe-pas-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-tour-regle-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-train-consigne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-tu-as-relie-les-etoiles-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-tu-as-trouve-la-plus-grosse-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-tu-as-trouve-la-plus-petite-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-uranus-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-venus-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-victoire-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-victoire-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-audio-voici-notre-planete-la-terre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-codegenerated-app-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-app-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-arcade-phaser-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -1221,6 +1257,7 @@
 - `asset-codegenerated-contraste-spec-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-decor-cache-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-demineur-spec-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-codegenerated-discovery-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-drawings-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-export-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-formes-test-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -1433,9 +1470,9 @@
 - `asset-image-arche-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-ardennes-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-ardennes-0002` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-astro-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-astro-512-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-astro-maskable-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-astro-192-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-astro-512-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-astro-maskable-512-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-atelier-anime-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-atelier-coloriage-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-atelier-dessin-0001` — unknown · forbidden · Autorisation non établie.
@@ -2264,6 +2301,7 @@
 - `asset-image-jardiniere-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-jeu-1280x800-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-jeu-360x740-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-jupiter-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-lampadaire-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-lampadaire-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-lampadaire-dessus-0001` — unknown · forbidden · Autorisation non établie.
@@ -2332,6 +2370,7 @@
 - `asset-image-m02-fonds-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-maison-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-maison-0002` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-mars-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-mascotte-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-medaillon-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-medaillon-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
@@ -2341,6 +2380,7 @@
 - `asset-image-menus-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-menus-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-menus-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-mercure-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-messages-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-messages-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-messages-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -2359,6 +2399,7 @@
 - `asset-image-nature-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-nenuphine-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-nenuphine-lotus-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
+- `asset-image-neptune-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-noe-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-noon-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-notion-0001` — unknown · forbidden · Autorisation non établie.
@@ -2828,6 +2869,7 @@
 - `asset-image-sapin-side-far-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-sapin-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-sapin-top-0002` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-saturne-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-scene-test-1280x800-clavier-linu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-scene-test-360x740-clavier-linux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-scene-test-390x844-clavier-linux-0001` — unknown · forbidden · Autorisation non établie.
@@ -3082,6 +3124,7 @@
 - `asset-image-technique-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-technique-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-technique-0003` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-terre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-tictac-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-tictac-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-tictac-0003` — MIT · allowed · Licence et preuve enregistrées.
@@ -3113,12 +3156,14 @@
 - `asset-image-tutu-profil-gauche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-ui-backdrops-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-ui-svg-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-uranus-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-urbaine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-urbaine-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-urbaine-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-v6-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-valley-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-valley-0002` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-venus-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-virage-droite-01-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-virage-droite-01-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-virage-droite-01-0003` — unknown · forbidden · Autorisation non établie.

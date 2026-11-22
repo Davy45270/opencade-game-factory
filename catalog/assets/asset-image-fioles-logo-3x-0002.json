@@ -133,6 +133,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/fioles-logo@3x.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/fioles-logo@3x.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/atlas/fioles-logo@3x.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "fioles-logo@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fioles-logo@3x.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/atlas/fioles-logo@3x.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/fioles-logo@3x.webp": "68591fadedc860cbde9d003ab448abd40722d483"
       },
@@ -163,35 +192,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/assets.inventaire.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/fioles-logo@3x.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/fioles-logo@3x.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/atlas/fioles-logo@3x.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "fioles-logo@3x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/fioles-logo@3x.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/atlas/fioles-logo@3x.webp",
       "status": "active"
     }
   ],

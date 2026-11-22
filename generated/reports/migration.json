@@ -1,57 +1,56 @@
 {
   "buildManifests": [
     {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "apps/web/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "apps/web/vite.config.ts",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "path": "package.json",
-      "repo": "capsule-panic"
+      "repo": "petit-astronome"
     },
     {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "packages/assets/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "packages/contracts/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "packages/engine/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "packages/input/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "path": "packages/renderer/package.json",
-      "repo": "capsule-panic"
-    },
-    {
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
       "path": "tsconfig.json",
-      "repo": "capsule-panic"
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": "vite.config.ts",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "path": "package.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "path": "tsconfig.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+      "path": "vite.config.ts",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "path": "package.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "path": "tsconfig.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+      "path": "vite.config.ts",
+      "repo": "petit-astronome"
     }
   ],
   "byFamily": {
-    "atlas": 86,
-    "code-generated": 4,
-    "image": 375,
-    "style": 1,
-    "svg": 51
+    "audio": 36,
+    "code-generated": 13,
+    "image": 47,
+    "style": 3
   },
   "divergentTags": [],
   "repositories": [
@@ -59,19 +58,28 @@
       "copies": [
         {
           "branch": "main",
-          "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-          "date": "2026-11-21T06:04:44+01:00",
-          "provider": "local",
-          "tags": [],
-          "visibility": "private"
+          "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+          "date": "2026-11-20T18:08:37+01:00",
+          "provider": "github",
+          "tags": [
+            {
+              "commit": "381942d3696e7d2045ebe3e447ed2bf4e5a22bf9",
+              "name": "v0.1.0"
+            },
+            {
+              "commit": "66baef487d4e35599c8e8467c8a4687c9525cc3e",
+              "name": "v0.2.0"
+            }
+          ],
+          "visibility": "public"
         }
       ],
       "divergent": false,
       "divergentCopies": [],
       "games": [
-        "capsule-panic"
+        "petit-astronome"
       ],
-      "name": "capsule-panic",
+      "name": "petit-astronome",
       "role": "game"
     }
   ]

@@ -133,12 +133,16 @@ class Contracts(CatalogueFixture, TestCase):
     def test_points_entree_et_journal(self):
         log = self.root / "commandes.jsonl"
         commands = ([str(ROOT / "assetctl")], [sys.executable, "-m", "tools.cli"])
+        # Les points d'entrée et le journal, pas le catalogue : une commande en lecture d'UNE fiche réelle.
+        # (validate du catalogue entier ici prenait 428 s sur 431 de la suite en 8 processus, HL-542 ; le
+        # catalogue est validé par l'étape `validate` de la CI.)
+        fiche = min(p.stem for p in (ROOT / "catalog/assets").glob("*.json"))
         for command in commands:
-            result = subprocess.run([*command, "validate", "--json"], cwd=ROOT,
+            result = subprocess.run([*command, "inspect", fiche, "--json"], cwd=ROOT,
                                     capture_output=True, text=True, check=True)
             self.assertTrue(json.loads(result.stdout)["ok"])
             self.assertEqual(json.loads(result.stderr)["event"], "command-finished")
-            result = subprocess.run([*command, "--log", str(log), "validate", "--json"],
+            result = subprocess.run([*command, "--log", str(log), "inspect", fiche, "--json"],
                                     cwd=ROOT, capture_output=True, text=True, check=True)
             self.assertEqual(result.stderr, "")
         self.assertEqual([json.loads(line)["code"] for line in log.read_text().splitlines()], [0, 0])

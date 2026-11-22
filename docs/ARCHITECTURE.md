@@ -48,9 +48,16 @@ schémas sont résolues depuis les ressources embarquées.
 `tools/discovery`, `tools/extract`, `tools/index` et `tools/publish` réservent
 les points d’extension.
 
-David a validé le 2026-11-19 l’usage de Woodpecker pour la CI. Les futurs
-pipelines `scan.yml`, `validate.yml`, `build-index.yml` et `release.yml`
-seront dans `.woodpecker/`.
+David a validé le 2026-11-19 l’usage de Woodpecker pour la CI. Les pipelines
+sont dans `.woodpecker/` : `scan.yml`, `validate.yml`, `controles.yml`,
+`build-index.yml` et `release.yml`. Depuis HL-542, une PR lance en même temps
+les étapes longues sur tank01 (`validate.yml` : tests, seulement si le code
+change, `validate` et contrôle de PR) et les contrôles courts sur Contabo
+(`controles.yml` : atlas, licences externes, doublons, secrets ;
+`build-index.yml`). Sur
+main, un commit de fusion dont l’arbre est exactement celui de la tête de PR
+n’est pas revérifié : la protection de main exige des statuts verts pour
+fusionner.
 
 ## Identifiants immuables
 

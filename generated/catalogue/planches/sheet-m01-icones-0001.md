@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 256×256 · S
 Fiche : [`sheet-m01-icones-0001`](../../../catalog/sheets/sheet-m01-icones-0001.json)
 
 - copie : pestouille-rpg `assets/export/m01-icones.png`
+- copie : pestouille-rpg `assets/export/m01-icones.png`
 
 0 asset(s) découpés de cette planche.
 

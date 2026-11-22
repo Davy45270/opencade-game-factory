@@ -256,6 +256,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/briqueterie/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/briqueterie/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/briqueterie/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/briqueterie",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/briqueterie/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/briqueterie/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/briqueterie/scene.ts": "599c60056c954cc1e0dbfad9435556439152ad54"
       },
@@ -393,35 +422,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "docs/characters-games-4-validation.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/briqueterie/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/briqueterie/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/briqueterie/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/briqueterie",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/briqueterie/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/briqueterie/scene.ts",
       "status": "active"
     }
   ],

@@ -22,7 +22,18 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m01-ennemis.webp",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/m01-ennemis.webp",
         "provider": "local",
@@ -118,8 +129,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/18/18b6ec975da1c8d63b41a4f44a952ee4190de57c114f9c7d7f845bea1ca58b1f.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.webp": "e66259107c7541c137032e63968a9331b9eda51a"
+      },
+      "assetPath": "public/assets/m01-ennemis.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 622,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.webp": "e66259107c7541c137032e63968a9331b9eda51a"
+      },
+      "assetPath": "public/assets/m01-ennemis.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 641,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/m01-ennemis.webp",
       "assetVersion": 1,
@@ -156,10 +233,43 @@
       "assetPath": "public/assets/m01-ennemis.webp",
       "assetVersion": 1,
       "codeRef": {
-        "line": 647,
+        "line": 622,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-ennemis.webp",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-ennemis",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m01-ennemis.webp": "e66259107c7541c137032e63968a9331b9eda51a"
+      },
+      "assetPath": "public/assets/m01-ennemis.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 641,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m01-ennemis.webp",
         "module-path: assets/liste-assets.json"

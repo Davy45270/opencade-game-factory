@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×148 · 
 Fiche : [`sheet-compteur-jeu-3x-0001`](../../../catalog/sheets/sheet-compteur-jeu-3x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/compteur-jeu@3x.png`
+- copie : capsule-panic `packages/assets/atlas/compteur-jeu@3x.png`
 
 0 asset(s) découpés de cette planche.
 

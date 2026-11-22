@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-reacteur-chambre-apercu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-reacteur-chambre-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-reacteur-chambre-apercu-0001",
+    "author": "unknown",
     "evidence": [
-      "183x354+1471+7",
-      "importer_livre : cadre packages/assets/atlas/chambre-apercu@2x.png#sprite-reacteur-chambre-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/reacteur-chambre-apercu.svg (provenance.json)"
+      "183x354+1471+7"
     ],
-    "parentId": "asset-svg-reacteur-chambre-apercu-0001",
-    "parentSha256": "58376a3c4021b430f6cb40629ef0aa1d36e877858d798cd684bc02339f6f29eb",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/d1/d1441d50f81a11eec4bc22cb33bc61f1872616e10015927aa2bcb037d2682eb1.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/chambre-apercu@2x.json": "99e4e0b5b78123bd3f991b5f22186f3fed08fb86",
+        "packages/assets/atlas/chambre-apercu@2x.png": "6b0df3d880005a987263b68c0d103ec85634935f"
+      },
+      "assetPath": "packages/assets/atlas/chambre-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 516,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/chambre-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "chambre-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/chambre-apercu@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/chambre-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/chambre-apercu@2x.json": "99e4e0b5b78123bd3f991b5f22186f3fed08fb86",
+        "packages/assets/atlas/chambre-apercu@2x.png": "6b0df3d880005a987263b68c0d103ec85634935f"
+      },
+      "assetPath": "packages/assets/atlas/chambre-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 394,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/chambre-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "chambre-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

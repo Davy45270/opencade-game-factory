@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 50,
     "verified": false,
     "w": 50,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/11/1143a50f8bad2f85c55cd7ab9ac835a0016cdfdc71adf6f1192186f6ef87bcf4.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/objets-apercu@3x.json": "97903b5e0e9d3fda8dd30ab6d7a06869371ac7d5",
+        "packages/assets/atlas/objets-apercu@3x.png": "a27cd235d08a4f2124dc8b16b90814a7bc072a84"
+      },
+      "assetPath": "packages/assets/atlas/objets-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3894,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/objets-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "objets-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/objets-apercu@3x.json": "97903b5e0e9d3fda8dd30ab6d7a06869371ac7d5",

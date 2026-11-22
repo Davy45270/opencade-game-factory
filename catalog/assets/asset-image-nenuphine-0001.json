@@ -22,7 +22,18 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/redessine/nenuphine.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "public/assets/redessine/nenuphine.png",
         "provider": "local",
@@ -123,8 +134,140 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/6c/6cb2abc77b115cab2df1371eab87d7540fdd896050659ec6d2002321bf2c611c.webp",
-  "updatedAt": "2026-11-19T15:22:46+01:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 774,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 776,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1222,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1403,
+        "path": "assets/provenance.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets/provenance.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/provenance.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/redessine/nenuphine.png",
       "assetVersion": 1,
@@ -161,10 +304,109 @@
       "assetPath": "public/assets/redessine/nenuphine.png",
       "assetVersion": 1,
       "codeRef": {
-        "line": 1226,
+        "line": 1,
+        "path": "tests/assets/empreintes-planches.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: tests/assets/empreintes-planches.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/assets/empreintes-planches.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 774,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 776,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/redessine/nenuphine.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "nenuphine",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/redessine/nenuphine.png": "6bd23cb2974df4d07c1559152af40a37affac769"
+      },
+      "assetPath": "public/assets/redessine/nenuphine.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1222,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/redessine/nenuphine.png",
         "module-path: assets/liste-assets.json"
@@ -194,10 +436,10 @@
       "assetPath": "public/assets/redessine/nenuphine.png",
       "assetVersion": 1,
       "codeRef": {
-        "line": 1401,
+        "line": 1403,
         "path": "assets/provenance.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/redessine/nenuphine.png",
         "module-path: assets/provenance.json"
@@ -230,7 +472,7 @@
         "line": 1,
         "path": "tests/assets/empreintes-planches.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/redessine/nenuphine.png",
         "module-path: tests/assets/empreintes-planches.json"

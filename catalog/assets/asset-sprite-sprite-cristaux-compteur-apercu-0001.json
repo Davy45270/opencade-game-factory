@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cristaux-compteur-apercu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-cristaux-compteur-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-cristaux-compteur-apercu-0001",
+    "author": "unknown",
     "evidence": [
-      "78x64+1379+616",
-      "importer_livre : cadre packages/assets/atlas/compteur-apercu@2x.png#sprite-cristaux-compteur-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/cristaux-compteur-apercu.svg (provenance.json)"
+      "78x64+1379+616"
     ],
-    "parentId": "asset-svg-cristaux-compteur-apercu-0001",
-    "parentSha256": "e8323e187fd8f3d9ccbd3aa15a31d06a417fca854a06b9bb8463c5ee5fa7a4ee",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/2e/2eb28ef7e19cee703c27f3aa119a94e7cd028888fa7da38e1a19c07333cfcbdc.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-apercu@2x.json": "a00ef41c9cd0e50af9ce150bbe1df5ccfd798415",
+        "packages/assets/atlas/compteur-apercu@2x.png": "d5aa3e4c842f8fdd432970d16e66ccdc0fa432d8"
+      },
+      "assetPath": "packages/assets/atlas/compteur-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1230,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/compteur-apercu@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/compteur-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-apercu@2x.json": "a00ef41c9cd0e50af9ce150bbe1df5ccfd798415",
+        "packages/assets/atlas/compteur-apercu@2x.png": "d5aa3e4c842f8fdd432970d16e66ccdc0fa432d8"
+      },
+      "assetPath": "packages/assets/atlas/compteur-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 416,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

@@ -391,6 +391,35 @@
   "updatedAt": "2026-11-18T20:05:47+01:00",
   "usages": [
     {
+      "assetPath": "src/games/petits-pompiers/iso/chien_face.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/petits-pompiers/iso/chien_face.webp"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image src/games/petits-pompiers/iso/chien_face.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade/petits-pompiers",
+      "importName": "chien_face",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/petits-pompiers/iso/chien_face.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "src/games/petits-pompiers/iso/chien_face.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/cherche/props/cherche-chien_face.webp": "d3c929160310bd919e87bc962e5406cea9bea1c0"
       },
@@ -421,6 +450,35 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "src/games/cherche/props/cherche-chien_face.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/cherche/props/cherche-chien_face.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/cherche/props/cherche-chien_face.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/cherche",
+      "importName": "cherche-chien_face",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/cherche/props/cherche-chien_face.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/cherche/props/cherche-chien_face.webp",
       "status": "active"
     },
     {
@@ -475,64 +533,6 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/petits-pompiers/iso/chien_face.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/petits-pompiers/iso/chien_face.webp"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : image src/games/petits-pompiers/iso/chien_face.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "opencade/petits-pompiers",
-      "importName": "chien_face",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/petits-pompiers/iso/chien_face.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "image",
-      "scene": "src/games/petits-pompiers/iso/chien_face.webp",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/cherche/props/cherche-chien_face.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/cherche/props/cherche-chien_face.webp"
-      },
-      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
-      "evidence": [
-        "importer_livre : image src/games/cherche/props/cherche-chien_face.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "opencadkid/cherche",
-      "importName": "cherche-chien_face",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/cherche/props/cherche-chien_face.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencadkid",
-      "role": "image",
-      "scene": "src/games/cherche/props/cherche-chien_face.webp",
       "status": "active"
     }
   ],

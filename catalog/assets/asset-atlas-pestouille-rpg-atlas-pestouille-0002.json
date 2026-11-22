@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-21T18:13:01.998412+00:00",
+  "createdAt": "2026-11-21T15:02:02+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/pestouille-north.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/pestouille-north.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-pestouille-0002.png"
   },
   "format": "png",
@@ -133,8 +156,41 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-21T18:13:01.998412+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 422,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/pestouille-north.png",
       "assetVersion": 1,
@@ -163,12 +219,113 @@
       "role": "atlas",
       "scene": "assets/export/pestouille-north.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 158,
+        "path": "assets/export/pestouille-north.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.png",
+        "module-path: assets/export/pestouille-north.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/pestouille-north.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 422,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-north.png": "863e0a49a15ec06ebd22a3ba1347dbd28c2cf30b"
+      },
+      "assetPath": "assets/export/pestouille-north.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 158,
+        "path": "assets/export/pestouille-north.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/pestouille-north.png",
+        "module-path: assets/export/pestouille-north.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-north",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/pestouille-north.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "039dd8b41b5aed3e37a9e38e27dde17861d98ddaa0c5a8411781d448d9820353",

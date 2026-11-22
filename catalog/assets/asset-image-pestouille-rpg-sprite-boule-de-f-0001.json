@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "image",
-  "createdAt": "2026-11-21T20:27:18.976617+00:00",
+  "createdAt": "2026-11-21T10:04:07+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -87,7 +87,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-sprite-boule-de-f-0001.png"
   },
   "format": "png",
@@ -190,8 +213,74 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:27:18.976617+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
       "assetVersion": 1,
@@ -249,12 +338,146 @@
       "role": "atlas-frame",
       "scene": "assets/export/p02-pestouille.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1958,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 16,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png": "3d23e0a0b49c98c33727a86d6cabe44b0a7cb4dc"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1958,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-boule-de-feu.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-boule-de-feu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "c2e2c0c41779aa854695bf6e605804e6f180718dad56c34e3c63c753a59e7db5",

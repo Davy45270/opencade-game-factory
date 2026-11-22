@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic",
+        "path": "apps/web/public/icons/capsule-panic-192.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -151,8 +162,74 @@
     "icons"
   ],
   "thumbnail": "thumbnails/f0/f0cba6a7cc84cc329b6f12009cc34474bc15569fda6c3070a84fd84716c8f0af.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/icons/capsule-panic-192.png": "c091789c326b13c07e902d6dd7f7c86602e19c62"
+      },
+      "assetPath": "apps/web/public/icons/capsule-panic-192.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 2,
+        "path": "apps/web/index.html"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "html-attribute: apps/web/public/icons/capsule-panic-192.png",
+        "module-path: apps/web/index.html"
+      ],
+      "game": "capsule-panic",
+      "importName": "capsule-panic-192",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "icon",
+      "scene": "apps/web/index.html",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/icons/capsule-panic-192.png": "c091789c326b13c07e902d6dd7f7c86602e19c62"
+      },
+      "assetPath": "apps/web/public/icons/capsule-panic-192.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 15,
+        "path": "apps/web/pwa-manifest.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: apps/web/public/icons/capsule-panic-192.png",
+        "module-path: apps/web/pwa-manifest.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "capsule-panic-192",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "icon",
+      "scene": "apps/web/pwa-manifest.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "apps/web/public/icons/capsule-panic-192.png": "c091789c326b13c07e902d6dd7f7c86602e19c62"

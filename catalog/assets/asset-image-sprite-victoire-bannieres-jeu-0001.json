@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-victoire-bannieres-jeu.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-victoire-bannieres-jeu.webp",
@@ -130,8 +141,41 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/9b/9bc924e00f55b9670cb6109fb43babfa3be5947bbe3085ef7ad722cfe3a5642c.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-victoire-bannieres-jeu.webp": "eefe0f7090135be1de19b8b55eedd0e19d2a5086"
+      },
+      "assetPath": "packages/assets/runtime/sprite-victoire-bannieres-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 17,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-victoire-bannieres-jeu.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "victoireBannieresJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-victoire-bannieres-jeu.webp",
       "assetVersion": 1,

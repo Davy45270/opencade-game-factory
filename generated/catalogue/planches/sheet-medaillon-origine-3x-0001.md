@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×124 · 
 Fiche : [`sheet-medaillon-origine-3x-0001`](../../../catalog/sheets/sheet-medaillon-origine-3x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/medaillon-origine@3x.png`
+- copie : capsule-panic `packages/assets/atlas/medaillon-origine@3x.png`
 
 0 asset(s) découpés de cette planche.
 

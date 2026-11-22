@@ -141,12 +141,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-tutoriel-aligner (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-tutoriel-aligner",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -156,22 +151,17 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-sprite-sprite-tutoriel-aligner-0003",
+    "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
-      "importer_livre : cadre packages/assets/atlas/tutoriel-apercu@2x.png#sprite-tutoriel-aligner de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [160, 122, 843, 798] de Capsule_Panic_Assets_Gameplay_03.png (provenance.json)"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
-    "parentId": "asset-sprite-sprite-tutoriel-aligner-0003",
-    "parentSha256": "d40eebd1e2530dd27856007b564f6a712eb04b47f8007c73377043bb29ee9905",
-    "parentVersion": 1,
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "20630b992548486c196ae6b79e4d00ceaed4b4c38f44aebfa9202d3a46ae3d41",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 122,
     "verified": false,
     "w": 160,
@@ -186,6 +176,40 @@
   "thumbnail": "thumbnails/20/20630b992548486c196ae6b79e4d00ceaed4b4c38f44aebfa9202d3a46ae3d41.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@2x.json": "7971a1943852ef6c5e50b568e7e3fd5b3e1297bf",
+        "packages/assets/atlas/tutoriel-apercu@2x.png": "d8ca4147f274e7dd3ed8c8a36e32a97a68f46468"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5490,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.png",
       "assetVersion": 1,
@@ -213,6 +237,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/tutoriel-apercu@2x.json": "7971a1943852ef6c5e50b568e7e3fd5b3e1297bf",
+        "packages/assets/atlas/tutoriel-apercu@2x.png": "d8ca4147f274e7dd3ed8c8a36e32a97a68f46468"
+      },
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 608,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/tutoriel-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "tutoriel-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

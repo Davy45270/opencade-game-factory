@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 124,
     "verified": false,
     "w": 201,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/e3/e33d76f253cb3cfb2b6cd702ce1c33e409ff18322d10587ab34f547793baf0a4.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fonds-apercu@3x.json": "da206b7a98266c60732cefb227e461929041dfed",
+        "packages/assets/atlas/fonds-apercu@3x.png": "cd147358582284c1931ac419536f58b3a6e5cbe2"
+      },
+      "assetPath": "packages/assets/atlas/fonds-apercu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2799,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/fonds-apercu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fonds-apercu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/fonds-apercu@3x.json": "da206b7a98266c60732cefb227e461929041dfed",

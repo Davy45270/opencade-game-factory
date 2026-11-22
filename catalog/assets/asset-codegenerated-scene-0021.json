@@ -185,6 +185,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/petits-pompiers/scene.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/petits-pompiers/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/petits-pompiers/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/petits-pompiers",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/petits-pompiers/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/petits-pompiers/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/petits-pompiers/scene.ts": "7135242a2bf306dace365bb94843a4203e6eb1be"
       },
@@ -248,35 +277,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/test-e2e-impact.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/petits-pompiers/scene.ts",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/petits-pompiers/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/petits-pompiers/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/petits-pompiers",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/petits-pompiers/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/petits-pompiers/scene.ts",
       "status": "active"
     }
   ],

@@ -161,6 +161,35 @@
   "updatedAt": "2026-11-18T20:05:46+01:00",
   "usages": [
     {
+      "assetPath": "public/autres-jeux/petit-astronome.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/autres-jeux/petit-astronome.png"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image public/autres-jeux/petit-astronome.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade",
+      "importName": "petit-astronome",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/autres-jeux/petit-astronome.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "public/autres-jeux/petit-astronome.png",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "public/autres-jeux/petit-astronome.png": "799f527b2c529059f0dadab98c70786a66225bd7"
       },
@@ -296,35 +325,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "src/shell/other-games.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "public/autres-jeux/petit-astronome.png",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 1,
-        "path": "public/autres-jeux/petit-astronome.png"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : image public/autres-jeux/petit-astronome.png livrée (fichier suivi au commit)"
-      ],
-      "game": "opencade",
-      "importName": "petit-astronome",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/autres-jeux/petit-astronome.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "image",
-      "scene": "public/autres-jeux/petit-astronome.png",
       "status": "active"
     },
     {

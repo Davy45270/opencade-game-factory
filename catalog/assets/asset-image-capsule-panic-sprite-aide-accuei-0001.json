@@ -34,6 +34,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-aide-accueil.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-aide-accueil.webp",
@@ -146,6 +157,39 @@
   ],
   "updatedAt": "2026-11-22T02:29:01.937420+00:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-aide-accueil.webp": "a5357a066deadcf74b18ed71e727fc775751942f"
+      },
+      "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 37,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-aide-accueil.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "aideAccueil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
       "assetVersion": 1,

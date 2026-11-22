@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1024×52 · S
 Fiche : [`sheet-traits-animations-jeu-2x-0001`](../../../catalog/sheets/sheet-traits-animations-jeu-2x-0001.json)
 
 - copie : capsule-panic `packages/assets/atlas/traits-animations-jeu@2x.png`
+- copie : capsule-panic `packages/assets/atlas/traits-animations-jeu@2x.png`
 
 0 asset(s) découpés de cette planche.
 

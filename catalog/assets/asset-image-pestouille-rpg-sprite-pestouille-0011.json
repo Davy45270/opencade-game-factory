@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "image",
-  "createdAt": "2026-11-21T20:28:35.745822+00:00",
+  "createdAt": "2026-11-21T10:04:07+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -60,7 +60,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-sprite-pestouille-0011.png"
   },
   "format": "png",
@@ -163,8 +186,74 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:28:35.745822+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 102,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 104,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
       "assetVersion": 1,
@@ -222,12 +311,146 @@
       "role": "atlas-frame",
       "scene": "assets/export/p02-pestouille.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2178,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 102,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 104,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png": "fdf9826f3d9ec7997709885c39d2e2c62bc395ea"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2178,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-colere.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-colere",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "2b34c176da46e89166a093a8af0b3e8f02ece9b4482a351b019ddc546897be40",

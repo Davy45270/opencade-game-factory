@@ -125,12 +125,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cadre-score-compteurs-maquettes-apercu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-cadre-score-compteurs-maquettes-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -140,22 +135,17 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-sprite-sprite-cadre-score-compteurs-maq-0006",
+    "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
-      "importer_livre : cadre packages/assets/atlas/compteurs-maquettes-apercu@2x.png#sprite-cadre-score-compteurs-maquettes-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [100, 64, 1196, 616] de Capsule_Panic_Assets_Gameplay_03.png (provenance.json)"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
-    "parentId": "asset-sprite-sprite-cadre-score-compteurs-maq-0006",
-    "parentSha256": "6c6d37490fc49cef4ce7e3a51fd68fa806a0bcadbbc5ac03b94fefbee850d85a",
-    "parentVersion": 1,
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "cebf1f1534d5b6109efd8959fd5822cdc0fba84268611821bc8a585b01fc092b",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 64,
     "verified": false,
     "w": 100,
@@ -170,6 +160,40 @@
   "thumbnail": "thumbnails/ce/cebf1f1534d5b6109efd8959fd5822cdc0fba84268611821bc8a585b01fc092b.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteurs-maquettes-apercu@2x.json": "b3ff75a48b904684a205cae44395e71741124b0f",
+        "packages/assets/atlas/compteurs-maquettes-apercu@2x.png": "b4ea210084b65bcf0a2a18e2fab08e2fcdfd6a47"
+      },
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1578,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteurs-maquettes-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@2x.png",
       "assetVersion": 1,
@@ -197,6 +221,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteurs-maquettes-apercu@2x.json": "b3ff75a48b904684a205cae44395e71741124b0f",
+        "packages/assets/atlas/compteurs-maquettes-apercu@2x.png": "b4ea210084b65bcf0a2a18e2fab08e2fcdfd6a47"
+      },
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 430,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteurs-maquettes-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

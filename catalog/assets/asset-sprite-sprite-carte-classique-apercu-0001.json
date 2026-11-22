@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-carte-classique-apercu (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-carte-classique-apercu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-carte-classique-apercu-0001",
+    "author": "unknown",
     "evidence": [
-      "93x120+17+608",
-      "importer_livre : cadre packages/assets/atlas/panneaux-apercu@2x.png#sprite-carte-classique-apercu de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/carte-classique-apercu.svg (provenance.json)"
+      "93x120+17+608"
     ],
-    "parentId": "asset-svg-carte-classique-apercu-0001",
-    "parentSha256": "b6d8375c5b426d7b41243d0781c9cf374c4895a81f1ff277642ceb94b8121911",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/bf/bf33b5d11d26ce84ed94624eb1f9040e6a797e0dd482814d84c73ad66b7f727b.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/panneaux-apercu@2x.json": "bb9219513c1841f9898d51cf114cd698d8110e0c",
+        "packages/assets/atlas/panneaux-apercu@2x.png": "1c7513b73ea2d8e0522c1cffa1f5fb1b0106ec37"
+      },
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4482,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/panneaux-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "panneaux-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/panneaux-apercu@2x.json": "bb9219513c1841f9898d51cf114cd698d8110e0c",
+        "packages/assets/atlas/panneaux-apercu@2x.png": "1c7513b73ea2d8e0522c1cffa1f5fb1b0106ec37"
+      },
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 522,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/panneaux-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "panneaux-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

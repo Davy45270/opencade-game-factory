@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "bf9dee29f2ae2cb45f28d99257b69c933f3f60dbc8f9cb1ecf7da8a7c85ce3fa",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 15,
     "verified": false,
     "w": 14,
@@ -126,6 +126,74 @@
   "thumbnail": "thumbnails/bf/bf9dee29f2ae2cb45f28d99257b69c933f3f60dbc8f9cb1ecf7da8a7c85ce3fa.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/traits-animations-apercu@2x.json": "5d0332267a3695fdaa83f0d9035da9d56bd413d9",
+        "packages/assets/atlas/traits-animations-apercu@2x.png": "b80f33abf2d101fa752c2631e4ead34461a8f2d9"
+      },
+      "assetPath": "packages/assets/atlas/traits-animations-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5238,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/traits-animations-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "traits-animations-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/traits-animations-apercu@2x.json": "5d0332267a3695fdaa83f0d9035da9d56bd413d9",
+        "packages/assets/atlas/traits-animations-apercu@2x.png": "b80f33abf2d101fa752c2631e4ead34461a8f2d9"
+      },
+      "assetPath": "packages/assets/atlas/traits-animations-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 600,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/traits-animations-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "traits-animations-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/traits-animations-apercu@2x.json": "5d0332267a3695fdaa83f0d9035da9d56bd413d9",

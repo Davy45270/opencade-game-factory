@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 96×64 · SHA
 Fiche : [`sheet-e03-menu-0001`](../../../catalog/sheets/sheet-e03-menu-0001.json)
 
 - copie : pestouille-rpg `assets/export/e03-menu.png`
+- copie : pestouille-rpg `assets/export/e03-menu.png`
 
 0 asset(s) découpés de cette planche.
 

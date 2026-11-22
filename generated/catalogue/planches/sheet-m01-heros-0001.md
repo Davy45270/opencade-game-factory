@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 320×320 · S
 Fiche : [`sheet-m01-heros-0001`](../../../catalog/sheets/sheet-m01-heros-0001.json)
 
 - copie : pestouille-rpg `assets/export/m01-heros.png`
+- copie : pestouille-rpg `assets/export/m01-heros.png`
 
 0 asset(s) découpés de cette planche.
 

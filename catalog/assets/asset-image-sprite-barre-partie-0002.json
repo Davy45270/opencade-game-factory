@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-barre-partie.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,107 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/d6/d6dd62b2bea87a345a8f63ffaef25a125b9393fa060a1922452542d5a07665fc.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-barre-partie.png": "ba25b25b8cda65afb08af5a99e1586222e39d39c"
+      },
+      "assetPath": "packages/assets/sprites/sprite-barre-partie.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 5703,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-barre-partie.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-barre-partie",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-barre-partie.png": "ba25b25b8cda65afb08af5a99e1586222e39d39c"
+      },
+      "assetPath": "packages/assets/sprites/sprite-barre-partie.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 51,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-barre-partie.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-barre-partie",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-barre-partie.png": "ba25b25b8cda65afb08af5a99e1586222e39d39c"
+      },
+      "assetPath": "packages/assets/sprites/sprite-barre-partie.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 61,
+        "path": "tests/barre-partie.test.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-barre-partie.png",
+        "module-path: tests/barre-partie.test.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-barre-partie",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "tests/barre-partie.test.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-barre-partie.png": "ba25b25b8cda65afb08af5a99e1586222e39d39c"

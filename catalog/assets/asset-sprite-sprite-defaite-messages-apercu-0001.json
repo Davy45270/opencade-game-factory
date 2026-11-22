@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 30,
     "verified": false,
     "w": 182,
@@ -126,6 +126,74 @@
   "thumbnail": "thumbnails/94/942ecec22618b6a266ac671dabe1d77b2fa6b7121e27d23268f70607f30c8b9f.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/messages-apercu@2x.json": "6ee8fc2a2a27b5f59da04d16076e4b02b8092d49",
+        "packages/assets/atlas/messages-apercu@2x.png": "3c209cc75438030bb352d491edcac12bb2be2115"
+      },
+      "assetPath": "packages/assets/atlas/messages-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3588,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/messages-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "messages-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/messages-apercu@2x.json": "6ee8fc2a2a27b5f59da04d16076e4b02b8092d49",
+        "packages/assets/atlas/messages-apercu@2x.png": "3c209cc75438030bb352d491edcac12bb2be2115"
+      },
+      "assetPath": "packages/assets/atlas/messages-apercu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 506,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/messages-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "messages-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/messages-apercu@2x.json": "6ee8fc2a2a27b5f59da04d16076e4b02b8092d49",

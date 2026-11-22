@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "4170a3672ad5c3e802b51a4eddf6a7c9c0c194c275ba41799444a82bf9d3c477",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "d28e8a4807f2836ea72f7b06d03ff080886422d27e6da508a6b6cb0e7d053cc3",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 60,
     "verified": false,
     "w": 75,
@@ -134,10 +134,214 @@
       "assetPath": "public/assets/m02-creatures.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 830,
+        "line": 656,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m02-creatures.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/export/m02-creatures.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m02-creatures.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 824,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m02-creatures.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/manifests/m02-creatures.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m02-creatures.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 656,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m02-creatures.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m02-creatures.json",
+        "module-path: assets/export/m02-creatures.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-creatures",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m02-creatures.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m02-creatures.png": "2d1d0b6586593c5197cf044b22a4d6229522f347",
+        "public/assets/m02-creatures.json": "6c2dce8fa8c6146f574083ee446e828ccbcad324"
+      },
+      "assetPath": "public/assets/m02-creatures.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 824,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m02-creatures.json",
         "module-path: assets/liste-assets.json"
@@ -171,7 +375,7 @@
         "line": 6,
         "path": "assets/manifests/m02-creatures.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m02-creatures.json",
         "module-path: assets/manifests/m02-creatures.json"

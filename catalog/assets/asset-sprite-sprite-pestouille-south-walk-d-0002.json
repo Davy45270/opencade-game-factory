@@ -1,0 +1,443 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-22T00:04:42+01:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "Sprite pestouille south walk d — sprite 64×64",
+  "dimensions": {
+    "height": 64,
+    "width": 64
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-south-walk-d"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-pestouille-south-0001",
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 192
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-south-walk-d-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/pestouille-south.json · sprite-pestouille-south-walk-d"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:public/assets/pestouille-south.json#sprite-pestouille-south-walk-d"
+      ],
+      "method": "proven"
+    },
+    "state": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/pestouille-south.json · walk"
+      ],
+      "method": "path-tokens"
+    },
+    "tags": {
+      "confidence": 0.75,
+      "evidence": [
+        "public/assets/pestouille-south.json · walk"
+      ],
+      "method": "path-tokens"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-south-walk-d",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "001225a6af179696",
+    "phash": "ecc691386699b699"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+    ],
+    "sourceSheetSha256": "139937dd0f0dd17791cf71120c8185ff5f650ecdc4635ba20e632db4a323623d",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "h": 190,
+    "verified": false,
+    "w": 162,
+    "x": 951,
+    "y": 233
+  },
+  "sourceSheetId": "sheet-pestouille-face-0001",
+  "state": "walk",
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "walk"
+  ],
+  "thumbnail": "thumbnails/50/5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402.webp",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 704,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/pestouille-south.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/export/pestouille-south.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/pestouille-south.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2627,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/pestouille-south.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/manifests/pestouille-south.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/pestouille-south.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 704,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/pestouille-south.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/export/pestouille-south.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/pestouille-south.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2627,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/pestouille-south.png": "0ca77457a578a45fa5fdbcea2ae82b948c01f1e2",
+        "public/assets/pestouille-south.json": "ee366bd4ff82500fecb0fd475dba270a48da1c2b"
+      },
+      "assetPath": "public/assets/pestouille-south.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/pestouille-south.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/pestouille-south.json",
+        "module-path: assets/manifests/pestouille-south.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pestouille-south",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/pestouille-south.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-pestouille-south-0001",
+          "h": 64,
+          "sourceSheetSha256": "92223c52d59ecb4496112b8e544d9abd888098ac7c9f2bb047256736258c3c77",
+          "w": 64,
+          "x": 64,
+          "y": 192
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5044f8874e0ab73e829661d83f790dfc774586166b4adb9126fd781bba14d402",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

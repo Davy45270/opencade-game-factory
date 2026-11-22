@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
@@ -130,8 +141,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/3c/3c1b9bfdf9b57327638d56835bbdc6a283818c71277159288edafa90f251e902.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-panneau-suivant-partie.webp": "3d5ce9c645cad11d2b874f04f39d92ad0c181057"
+      },
+      "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "panneauSuivantPartie",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-panneau-suivant-partie.webp": "3d5ce9c645cad11d2b874f04f39d92ad0c181057"
+      },
+      "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 591,
+        "path": "apps/web/src/style.css"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "css-url: packages/assets/runtime/sprite-panneau-suivant-partie.webp",
+        "module-path: apps/web/src/style.css"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-panneau-suivant-partie",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "apps/web/src/style.css",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-panneau-suivant-partie.webp",
       "assetVersion": 1,

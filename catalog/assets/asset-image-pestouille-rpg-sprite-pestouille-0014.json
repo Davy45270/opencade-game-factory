@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "image",
-  "createdAt": "2026-11-21T20:28:56.253902+00:00",
+  "createdAt": "2026-11-21T10:04:07+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -60,7 +60,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-sprite-pestouille-0014.png"
   },
   "format": "png",
@@ -163,8 +186,74 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:28:56.253902+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 126,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 128,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
       "assetVersion": 1,
@@ -222,12 +311,146 @@
       "role": "atlas-frame",
       "scene": "assets/export/p02-pestouille.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2238,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 126,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 128,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png": "7e6ff5d4e6daeee5f3ace41a54a92d3314f24078"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2238,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-expression-sommeil.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-sommeil",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "6bf7a5717bd4f2476e197d5ddac414dbda3e614a7f43c80907e0b05a23bfe810",

@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "be6cd4448b8f5078ad9b4951bd6fc125ecb782c9ccf9cb3f70dccedd1a5a0061",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 72,
     "verified": false,
     "w": 125,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/be/be6cd4448b8f5078ad9b4951bd6fc125ecb782c9ccf9cb3f70dccedd1a5a0061.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/gestes-jeu@3x.json": "3163b62140f213c798a883bee979aa3dd941c276",
+        "packages/assets/atlas/gestes-jeu@3x.png": "223f710d462a199796f0cf0f695a7fc4aba1bdfa"
+      },
+      "assetPath": "packages/assets/atlas/gestes-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2928,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/gestes-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "gestes-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/gestes-jeu@3x.json": "3163b62140f213c798a883bee979aa3dd941c276",

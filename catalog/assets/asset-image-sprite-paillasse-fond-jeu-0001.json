@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
@@ -146,8 +157,74 @@
     "backgrounds"
   ],
   "thumbnail": "thumbnails/66/6635022abe4fd16fb332fe71189ca9670ccaef2fce51a6f659f7b0977592f474.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-paillasse-fond-jeu.webp": "65674e286b9a31f716141e2dd7d1e76da6020afa"
+      },
+      "assetPath": "packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "apps/web/src/artwork.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
+        "module-path: apps/web/src/artwork.ts"
+      ],
+      "game": "capsule-panic",
+      "importName": "paillasseFondJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "apps/web/src/artwork.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-paillasse-fond-jeu.webp": "65674e286b9a31f716141e2dd7d1e76da6020afa"
+      },
+      "assetPath": "packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 276,
+        "path": "apps/web/src/style.css"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "css-url: packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
+        "module-path: apps/web/src/style.css"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-paillasse-fond-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "apps/web/src/style.css",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/runtime/sprite-paillasse-fond-jeu.webp",
       "assetVersion": 1,

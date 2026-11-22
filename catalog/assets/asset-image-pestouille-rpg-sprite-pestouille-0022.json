@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "image",
-  "createdAt": "2026-11-21T20:29:50.677576+00:00",
+  "createdAt": "2026-11-21T10:04:07+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -114,7 +114,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-sprite-pestouille-0022.png"
   },
   "format": "png",
@@ -217,8 +240,74 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:29:50.677576+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 190,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
       "assetVersion": 1,
@@ -276,12 +365,146 @@
       "role": "atlas-frame",
       "scene": "assets/export/p02-pestouille.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2398,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 190,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 192,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png": "1c5daaa769a95f90db37515d373dbda45ffc5431"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2398,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-souffle.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-souffle",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "1cffa0b3f8f244884433150a74592e0bf9a75d195a9ee7ec0c653fac0dbf0f1c",

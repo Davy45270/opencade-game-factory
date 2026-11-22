@@ -454,6 +454,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/cherche/props/cherche-poubelle.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/cherche/props/cherche-poubelle.webp"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : image src/games/cherche/props/cherche-poubelle.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "opencadkid/cherche",
+      "importName": "cherche-poubelle",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/cherche/props/cherche-poubelle.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "image",
+      "scene": "src/games/cherche/props/cherche-poubelle.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/cherche/props/cherche-poubelle.webp": "5b7d8a6495745196256aca59c009da5ecfdb7f50"
       },
@@ -505,35 +534,6 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "src/games/cherche/items.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/cherche/props/cherche-poubelle.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/cherche/props/cherche-poubelle.webp"
-      },
-      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
-      "evidence": [
-        "importer_livre : image src/games/cherche/props/cherche-poubelle.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "opencadkid/cherche",
-      "importName": "cherche-poubelle",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/cherche/props/cherche-poubelle.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencadkid",
-      "role": "image",
-      "scene": "src/games/cherche/props/cherche-poubelle.webp",
       "status": "active"
     }
   ],

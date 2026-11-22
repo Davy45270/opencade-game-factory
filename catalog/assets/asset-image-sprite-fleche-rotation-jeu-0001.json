@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,140 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/73/7306bd5ec1f87641ed8dafb390b58d7bf64799a9f7e249fc71d83831afd70f21.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-fleche-rotation-jeu.png": "ed52c9ce1d7351e1984c752199fd8b88e5224819"
+      },
+      "assetPath": "packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 6625,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-fleche-rotation-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-fleche-rotation-jeu.png": "ed52c9ce1d7351e1984c752199fd8b88e5224819"
+      },
+      "assetPath": "packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 189,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-fleche-rotation-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-fleche-rotation-jeu.png": "ed52c9ce1d7351e1984c752199fd8b88e5224819"
+      },
+      "assetPath": "packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "flecheRotationJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-fleche-rotation-jeu.png": "ed52c9ce1d7351e1984c752199fd8b88e5224819"
+      },
+      "assetPath": "packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 8,
+        "path": "packages/renderer/test/board-view.test.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/sprites/sprite-fleche-rotation-jeu.png",
+        "module-path: packages/renderer/test/board-view.test.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "expectRotation",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/test/board-view.test.ts",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-fleche-rotation-jeu.png": "ed52c9ce1d7351e1984c752199fd8b88e5224819"

@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-21T18:12:18.654213+00:00",
+  "createdAt": "2026-11-21T12:45:24+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-dialogue.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-dialogue.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-m01-dialogu-0001.png"
   },
   "format": "png",
@@ -133,8 +156,41 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-21T18:12:18.654213+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-dialogue.png": "211369a7fa6182147d578fa14391f284fb959689"
+      },
+      "assetPath": "assets/export/m01-dialogue.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 342,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-dialogue.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/m01-dialogue.png",
       "assetVersion": 1,
@@ -163,12 +219,113 @@
       "role": "atlas",
       "scene": "assets/export/m01-dialogue.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-dialogue.png": "211369a7fa6182147d578fa14391f284fb959689"
+      },
+      "assetPath": "assets/export/m01-dialogue.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets/export/m01-dialogue.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-dialogue.png",
+        "module-path: assets/export/m01-dialogue.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-dialogue.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-dialogue.png": "211369a7fa6182147d578fa14391f284fb959689"
+      },
+      "assetPath": "assets/export/m01-dialogue.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 342,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-dialogue.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-dialogue.png": "211369a7fa6182147d578fa14391f284fb959689"
+      },
+      "assetPath": "assets/export/m01-dialogue.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets/export/m01-dialogue.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-dialogue.png",
+        "module-path: assets/export/m01-dialogue.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-dialogue",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-dialogue.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "b8664a3b633fc2888b9690d8d237fc3aed41fad6a8b5ce147ba36c03cbdaf3e0",

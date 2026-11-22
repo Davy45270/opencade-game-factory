@@ -21,6 +21,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/cristal-brise-ambre.svg",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/cristal-brise-ambre.svg",
@@ -103,8 +114,74 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/cristal-brise-ambre.svg": "31f82b1114a3788e04d38092cbc43df34c09a948"
+      },
+      "assetPath": "packages/assets/source/svg/cristal-brise-ambre.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6127,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/cristal-brise-ambre.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "cristal-brise-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/cristal-brise-ambre.svg": "31f82b1114a3788e04d38092cbc43df34c09a948"
+      },
+      "assetPath": "packages/assets/source/svg/cristal-brise-ambre.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2976,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/cristal-brise-ambre.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "cristal-brise-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/source/svg/cristal-brise-ambre.svg": "31f82b1114a3788e04d38092cbc43df34c09a948"

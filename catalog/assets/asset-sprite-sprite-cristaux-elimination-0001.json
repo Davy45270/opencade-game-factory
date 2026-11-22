@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cristaux-elimination (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-cristaux-elimination",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-cristaux-elimination-0001",
+    "author": "unknown",
     "evidence": [
-      "137x47+1181+352",
-      "importer_livre : cadre packages/assets/atlas/elimination-jeu@2x.png#sprite-cristaux-elimination de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/cristaux-elimination.svg (provenance.json)"
+      "137x47+1181+352"
     ],
-    "parentId": "asset-svg-cristaux-elimination-0001",
-    "parentSha256": "ee8f2020646b71543775647b97ee0851dcedea693d970cb7f9fd542b5b876214",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/87/877cc37506c9a0b6ae807728cd531a04dd37bd3385cc62f9744c11ff04d05ead.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/elimination-jeu@2x.json": "2b650e4d72f906502203ebdee55e93d3c87e1846",
+        "packages/assets/atlas/elimination-jeu@2x.png": "f9c18123843ea4e5d79f5fd01d8fde29d396b45e"
+      },
+      "assetPath": "packages/assets/atlas/elimination-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2280,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/elimination-jeu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "elimination-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/elimination-jeu@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/elimination-jeu@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/elimination-jeu@2x.json": "2b650e4d72f906502203ebdee55e93d3c87e1846",
+        "packages/assets/atlas/elimination-jeu@2x.png": "f9c18123843ea4e5d79f5fd01d8fde29d396b45e"
+      },
+      "assetPath": "packages/assets/atlas/elimination-jeu@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 201,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/elimination-jeu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "elimination-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

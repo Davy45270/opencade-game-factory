@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-etincelles-apercu.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-etincelles-apercu.webp",
@@ -130,7 +141,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/5f/5ffea22631a6b5598e8cc1470b10bb2fe761bedecb5e339f5553cbda2686e32f.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
     {
       "assetPath": "packages/assets/runtime/sprite-etincelles-apercu.webp",
@@ -159,6 +170,39 @@
       "repo": "capsule-panic",
       "role": "image",
       "scene": "packages/assets/runtime/sprite-etincelles-apercu.webp",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-etincelles-apercu.webp": "3e80601d93b87224cf0d402edc965ade30a20767"
+      },
+      "assetPath": "packages/assets/runtime/sprite-etincelles-apercu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-etincelles-apercu.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "etincellesApercu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
       "status": "active"
     },
     {

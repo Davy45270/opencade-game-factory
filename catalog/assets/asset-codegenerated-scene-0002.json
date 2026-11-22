@@ -224,6 +224,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/artificiers/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/artificiers/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/artificiers/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/artificiers",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/artificiers/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/artificiers/scene.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/artificiers/scene.ts": "250d6351cc4d96d320abd94db2cbb2f18b946e98"
       },
@@ -501,35 +530,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/audit-artificiers-mutations.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/artificiers/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/artificiers/scene.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/artificiers/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/artificiers",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/artificiers/scene.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/artificiers/scene.ts",
       "status": "active"
     }
   ],

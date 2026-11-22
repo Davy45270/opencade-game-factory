@@ -1,6 +1,25 @@
 {
-  "excluded": [],
+  "excluded": [
+    {
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "format": "ts",
+      "path": "tests/build/static.test.ts",
+      "reason": "build/",
+      "repo": "capsule-panic",
+      "status": "excluded"
+    }
+  ],
   "formats": [
+    {
+      "examined": 0,
+      "exception": 0,
+      "excluded": 0,
+      "exclusionReasons": {},
+      "format": "aseprite",
+      "found": 1,
+      "imported": 1,
+      "unsupported": 0
+    },
     {
       "examined": 0,
       "exception": 0,
@@ -22,22 +41,32 @@
       "unsupported": 0
     },
     {
-      "examined": 9,
+      "examined": 4,
       "exception": 0,
       "excluded": 0,
       "exclusionReasons": {},
       "format": "js",
-      "found": 9,
-      "imported": 0,
+      "found": 5,
+      "imported": 1,
       "unsupported": 0
     },
     {
-      "examined": 10,
+      "examined": 418,
       "exception": 0,
       "excluded": 0,
       "exclusionReasons": {},
       "format": "json",
-      "found": 10,
+      "found": 570,
+      "imported": 152,
+      "unsupported": 0
+    },
+    {
+      "examined": 8,
+      "exception": 0,
+      "excluded": 0,
+      "exclusionReasons": {},
+      "format": "mjs",
+      "found": 8,
       "imported": 0,
       "unsupported": 0
     },
@@ -47,8 +76,18 @@
       "excluded": 0,
       "exclusionReasons": {},
       "format": "mp3",
-      "found": 36,
-      "imported": 36,
+      "found": 4,
+      "imported": 4,
+      "unsupported": 0
+    },
+    {
+      "examined": 0,
+      "exception": 0,
+      "excluded": 0,
+      "exclusionReasons": {},
+      "format": "ogg",
+      "found": 4,
+      "imported": 4,
       "unsupported": 0
     },
     {
@@ -57,18 +96,40 @@
       "excluded": 0,
       "exclusionReasons": {},
       "format": "png",
-      "found": 39,
-      "imported": 39,
+      "found": 323,
+      "imported": 323,
       "unsupported": 0
     },
     {
-      "examined": 100,
+      "examined": 0,
       "exception": 0,
       "excluded": 0,
       "exclusionReasons": {},
+      "format": "svg",
+      "found": 60,
+      "imported": 60,
+      "unsupported": 0
+    },
+    {
+      "examined": 425,
+      "exception": 0,
+      "excluded": 1,
+      "exclusionReasons": {
+        "build/": 1
+      },
       "format": "ts",
-      "found": 113,
-      "imported": 13,
+      "found": 432,
+      "imported": 6,
+      "unsupported": 0
+    },
+    {
+      "examined": 11,
+      "exception": 0,
+      "excluded": 0,
+      "exclusionReasons": {},
+      "format": "tsx",
+      "found": 11,
+      "imported": 0,
       "unsupported": 0
     },
     {
@@ -77,8 +138,8 @@
       "excluded": 0,
       "exclusionReasons": {},
       "format": "webp",
-      "found": 8,
-      "imported": 8,
+      "found": 170,
+      "imported": 170,
       "unsupported": 0
     }
   ],

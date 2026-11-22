@@ -204,6 +204,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/essaim/art.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/essaim/art.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/essaim/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/essaim",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/essaim/art.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/essaim/art.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/essaim/art.ts": "682fbe4564b5aff30db0e11fa06d402f09be4282"
       },
@@ -308,35 +337,6 @@
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/check-essaim-signature-art.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/essaim/art.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/essaim/art.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "importer_livre : module src/games/essaim/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencade/essaim",
-      "importName": "art",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/essaim/art.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencade",
-      "role": "dessin-code",
-      "scene": "src/games/essaim/art.ts",
       "status": "active"
     }
   ],

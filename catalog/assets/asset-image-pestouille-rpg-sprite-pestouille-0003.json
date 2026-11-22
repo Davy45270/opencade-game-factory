@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "image",
-  "createdAt": "2026-11-21T20:27:39.464845+00:00",
+  "createdAt": "2026-11-21T10:04:07+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -78,7 +78,30 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-image-pestouille-rpg-sprite-pestouille-0003.png"
   },
   "format": "png",
@@ -181,8 +204,74 @@
     "pestouille-rpg",
     "livre"
   ],
-  "updatedAt": "2026-11-21T20:27:39.464845+00:00",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 38,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 40,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
       "assetVersion": 1,
@@ -240,12 +329,146 @@
       "role": "atlas-frame",
       "scene": "assets/export/p02-pestouille.json",
       "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2018,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 38,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 40,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png": "0e2bc35a7f9e0440e87789b028eb0ba755b4491a"
+      },
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2018,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/cutouts/p02-pestouille/sprite-pestouille-attaque-c.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-c",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
     }
   ],
   "variants": [],
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "0fbfb7675e61b1af8cbbd836eaa05f78a6a63bbd6836b4fe52fa953a9c0fd91e",

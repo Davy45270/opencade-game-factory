@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "ec2dc7cb11cc5d98f84725663d8f7827b2db1932854e063053b34969bcd1483a",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "0803f294af41c8b844188c5f342acb7d7ffc65541441f03db13d3c9120b05eb5",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 62,
     "verified": false,
     "w": 61,
@@ -126,6 +126,74 @@
   "thumbnail": "thumbnails/08/0803f294af41c8b844188c5f342acb7d7ffc65541441f03db13d3c9120b05eb5.webp",
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/plateau-apercu@2x.json": "eb115ba49c4c3a1c5ee05287c994c4bdfb16c9db",
+        "packages/assets/atlas/plateau-apercu@2x.png": "59cd4bd633e947c93c0aafa5241982366ca68ebf"
+      },
+      "assetPath": "packages/assets/atlas/plateau-apercu@2x.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 4944,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/plateau-apercu@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "plateau-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/plateau-apercu@2x.json": "eb115ba49c4c3a1c5ee05287c994c4bdfb16c9db",
+        "packages/assets/atlas/plateau-apercu@2x.png": "59cd4bd633e947c93c0aafa5241982366ca68ebf"
+      },
+      "assetPath": "packages/assets/atlas/plateau-apercu@2x.json",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 536,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/plateau-apercu@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "plateau-apercu@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/plateau-apercu@2x.json": "eb115ba49c4c3a1c5ee05287c994c4bdfb16c9db",

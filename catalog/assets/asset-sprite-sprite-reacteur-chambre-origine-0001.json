@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-reacteur-chambre-origine (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-reacteur-chambre-origine",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-reacteur-chambre-apercu-0001",
+    "author": "unknown",
     "evidence": [
-      "258x620+1266+24",
-      "importer_livre : cadre packages/assets/atlas/chambre-origine@2x.png#sprite-reacteur-chambre-origine de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/reacteur-chambre-origine.svg (provenance.json)"
+      "258x620+1266+24"
     ],
-    "parentId": "asset-svg-reacteur-chambre-apercu-0001",
-    "parentSha256": "58376a3c4021b430f6cb40629ef0aa1d36e877858d798cd684bc02339f6f29eb",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/ef/ef4c4ac95d553dd2fda154869f5ec2038a94c238a9d847cf4c2342f0b17a652d.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/chambre-origine@2x.json": "909a3dd08030590506c01a559159fc3e5706799f",
+        "packages/assets/atlas/chambre-origine@2x.png": "10faa1cb32efae3c3ba2b49ac1059ff4f109c0e3"
+      },
+      "assetPath": "packages/assets/atlas/chambre-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 630,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/chambre-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "chambre-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/chambre-origine@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/chambre-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/chambre-origine@2x.json": "909a3dd08030590506c01a559159fc3e5706799f",
+        "packages/assets/atlas/chambre-origine@2x.png": "10faa1cb32efae3c3ba2b49ac1059ff4f109c0e3"
+      },
+      "assetPath": "packages/assets/atlas/chambre-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 644,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/chambre-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "chambre-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

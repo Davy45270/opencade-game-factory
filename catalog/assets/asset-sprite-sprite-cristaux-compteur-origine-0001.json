@@ -116,12 +116,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-cristaux-compteur-origine (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-cristaux-compteur-origine",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -131,15 +126,10 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-svg-cristaux-compteur-origine-0001",
+    "author": "unknown",
     "evidence": [
-      "240x117+1283+692",
-      "importer_livre : cadre packages/assets/atlas/compteur-origine@2x.png#sprite-cristaux-compteur-origine de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; redessin : rendu de packages/assets/source/svg/cristaux-compteur-origine.svg (provenance.json)"
+      "240x117+1283+692"
     ],
-    "parentId": "asset-svg-cristaux-compteur-origine-0001",
-    "parentSha256": "47dfc37d35a3b0f09020f31cb55a5a935716e11d08c8323783377b2ce04a3847",
-    "parentVersion": 1,
     "type": "derived"
   },
   "schemaVersion": "1.0",
@@ -153,6 +143,40 @@
   "thumbnail": "thumbnails/7a/7a8d7cbb33da3d5357439baccdb45c9f4fc0e3e3bbd371873b6f0aef711ded48.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-origine@2x.json": "8bdd222b019188245525ac32dd48e4abe54f8e05",
+        "packages/assets/atlas/compteur-origine@2x.png": "9297bb02a30184322db0d0a6b2e82f5cd3069a9b"
+      },
+      "assetPath": "packages/assets/atlas/compteur-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1464,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-origine@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/compteur-origine@2x.png",
       "assetVersion": 1,
@@ -180,6 +204,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/compteur-origine@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/compteur-origine@2x.json": "8bdd222b019188245525ac32dd48e4abe54f8e05",
+        "packages/assets/atlas/compteur-origine@2x.png": "9297bb02a30184322db0d0a6b2e82f5cd3069a9b"
+      },
+      "assetPath": "packages/assets/atlas/compteur-origine@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 666,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/compteur-origine@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "compteur-origine@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

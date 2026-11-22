@@ -20,6 +20,17 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "5f2553ba76a19a1b5f2a3ecf2a11f60032112204",
@@ -142,8 +153,74 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/85/854ccf250d60f1b728aae373ff6e5e241a2b6fd9993af7ada185ecd5150a7d0d.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png": "60fb6e01ab84b71fccfe366d8b5edd1ad9642c70"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 7164,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-verticale-magenta-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png": "60fb6e01ab84b71fccfe366d8b5edd1ad9642c70"
+      },
+      "assetPath": "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 765,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "sprite-paire-verticale-magenta-ambre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/sprites/sprite-paire-verticale-magenta-ambre.png": "60fb6e01ab84b71fccfe366d8b5edd1ad9642c70"

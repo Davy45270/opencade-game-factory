@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 96×96 · SHA
 Fiche : [`sheet-m01-ennemis-0001`](../../../catalog/sheets/sheet-m01-ennemis-0001.json)
 
 - copie : pestouille-rpg `assets/export/m01-ennemis.png`
+- copie : pestouille-rpg `assets/export/m01-ennemis.png`
 
 0 asset(s) découpés de cette planche.
 

@@ -37,6 +37,12 @@ steps:
     image: *node
     commands:
       - npm run --if-present typecheck
+  - name: tests conservés
+    image: *node
+    commands:
+      # ARCH-001 E030 : un test supprimé ou masqué (.skip, .only…) fait échouer la CI, sauf trailer
+      # « Tests-Retires: HL-n 7-n » (décision tracée). Rapport : tests-conserves-rapport.json.
+      - node .woodpecker/usine/tests-conserves.mjs
   - name: test
     image: *node
     commands:

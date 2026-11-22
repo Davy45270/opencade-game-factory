@@ -125,12 +125,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-4.0",
-  "licenseEvidence": {
-    "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare l'identifiant : titulaire Davy45270, CC BY 4.0.",
-    "method": "déclaration du titulaire",
-    "ref": "capsule-panic packages/assets/licences.json ; LICENCES.md ; HL-538 ; packages/assets/licences.json · sprite-fioles-sous-logo (origine « licences.json »)"
-  },
+  "license": "unknown",
   "name": "sprite-fioles-sous-logo",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -140,22 +135,17 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (packages/assets/licences.json du jeu)",
-    "derivedFrom": "asset-sprite-sprite-fioles-sous-logo-0003",
+    "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
-      "importer_livre : cadre packages/assets/atlas/fioles-logo@2x.png#sprite-fioles-sous-logo de capsule-panic@ea68eeb3829e17c49b13114107c2f38480c62341 ; dérivé : boîte [138, 91, 136, 180] de Capsule_Panic_Assets_Gameplay_02.png (provenance.json)"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
-    "parentId": "asset-sprite-sprite-fioles-sous-logo-0003",
-    "parentSha256": "4c210dd1d8d096b6c720294008245519afe6f96d68143dd4c61ae1445241429e",
-    "parentVersion": 1,
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
   },
   "schemaVersion": "1.0",
   "sha256": "f9f69ecd0b6ab8a68612a08d808ee2540ff6812d094e3bb03bb2c475db7bc469",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 91,
     "verified": false,
     "w": 138,
@@ -170,6 +160,40 @@
   "thumbnail": "thumbnails/f9/f9f69ecd0b6ab8a68612a08d808ee2540ff6812d094e3bb03bb2c475db7bc469.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fioles-logo@2x.json": "749e118de860ab939807f3916fec2776a419463d",
+        "packages/assets/atlas/fioles-logo@2x.png": "6c055938e2f1e193c1c5c0bf12705f25d183d007"
+      },
+      "assetPath": "packages/assets/atlas/fioles-logo@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2394,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/fioles-logo@2x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fioles-logo@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetPath": "packages/assets/atlas/fioles-logo@2x.png",
       "assetVersion": 1,
@@ -197,6 +221,40 @@
       "repo": "capsule-panic",
       "role": "atlas-frame",
       "scene": "packages/assets/atlas/fioles-logo@2x.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fioles-logo@2x.json": "749e118de860ab939807f3916fec2776a419463d",
+        "packages/assets/atlas/fioles-logo@2x.png": "6c055938e2f1e193c1c5c0bf12705f25d183d007"
+      },
+      "assetPath": "packages/assets/atlas/fioles-logo@2x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 215,
+        "path": "packages/assets/chaine.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/fioles-logo@2x.json",
+        "module-path: packages/assets/chaine.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fioles-logo@2x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/chaine.json",
       "status": "active"
     },
     {

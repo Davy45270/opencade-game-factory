@@ -117,7 +117,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
     "type": "repo-file"
@@ -125,7 +125,7 @@
   "schemaVersion": "1.0",
   "sha256": "1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 36,
     "verified": false,
     "w": 39,
@@ -150,10 +150,214 @@
       "assetPath": "public/assets/e04-heros.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 341,
+        "line": 568,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-heros.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/export/e04-heros.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-heros.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 335,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-heros.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/manifests/e04-heros.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-heros.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 568,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-heros.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/e04-heros.json",
+        "module-path: assets/export/e04-heros.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-heros.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-heros.png": "5d2614239510ded3392b7893725570c3389ee640",
+        "public/assets/e04-heros.json": "3ec6ecf7d71c32e0fb755be2f511d58cc00f1ef0"
+      },
+      "assetPath": "public/assets/e04-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 335,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-heros.json",
         "module-path: assets/liste-assets.json"
@@ -187,7 +391,7 @@
         "line": 6,
         "path": "assets/manifests/e04-heros.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/e04-heros.json",
         "module-path: assets/manifests/e04-heros.json"

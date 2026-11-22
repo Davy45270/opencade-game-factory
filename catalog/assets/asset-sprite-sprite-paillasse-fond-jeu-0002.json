@@ -117,7 +117,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "repo-file"
@@ -125,7 +125,7 @@
   "schemaVersion": "1.0",
   "sha256": "63806e5570bb10ba8eca479096131b8aeae803d357d073206f895acbdf80f736",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 113,
     "verified": false,
     "w": 304,
@@ -142,6 +142,40 @@
   "thumbnail": "thumbnails/63/63806e5570bb10ba8eca479096131b8aeae803d357d073206f895acbdf80f736.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/fond-jeu@3x.json": "83cbca5930afa5e0876da6b8b4c4b64dfb43db2b",
+        "packages/assets/atlas/fond-jeu@3x.png": "7038118f0b2d93aa62cd119f98a0d45a290f712c"
+      },
+      "assetPath": "packages/assets/atlas/fond-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2679,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/fond-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "fond-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "fond"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "background",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/fond-jeu@3x.json": "83cbca5930afa5e0876da6b8b4c4b64dfb43db2b",

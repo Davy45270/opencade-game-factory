@@ -4,7 +4,7 @@
 
 # Licence MIT (page 2/3)
 
-702 asset(s) sous `MIT`.
+703 asset(s) sous `MIT`.
 
 Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 
@@ -207,6 +207,7 @@ Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 | [`asset-codegenerated-demineur-spec-0001`](../../../catalog/assets/asset-codegenerated-demineur-spec-0001.json) | demineur.spec | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-dictee-spec-0001`](../../../catalog/assets/asset-codegenerated-dictee-spec-0001.json) | dictee.spec | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-formes-test-0001`](../../../catalog/assets/asset-codegenerated-formes-test-0001.json) | formes.test | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
+| [`asset-codegenerated-jauge-vide-spec-0001`](../../../catalog/assets/asset-codegenerated-jauge-vide-spec-0001.json) | jauge-vide.spec | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-make-icons-0001`](../../../catalog/assets/asset-codegenerated-make-icons-0001.json) | make-icons | ui | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-make-icons-0002`](../../../catalog/assets/asset-codegenerated-make-icons-0002.json) | make-icons | ui | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-no-code-art-test-0001`](../../../catalog/assets/asset-codegenerated-no-code-art-test-0001.json) | no-code-art.test | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
@@ -259,4 +260,3 @@ Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 | [`asset-image-dragon-backleft-0002`](../../../catalog/assets/asset-image-dragon-backleft-0002.json) | dragon_backLeft | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-backright-0002`](../../../catalog/assets/asset-image-dragon-backright-0002.json) | dragon_backRight | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-front-0002`](../../../catalog/assets/asset-image-dragon-front-0002.json) | dragon_front | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
-| [`asset-image-dragon-frontleft-0002`](../../../catalog/assets/asset-image-dragon-frontleft-0002.json) | dragon_frontLeft | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |

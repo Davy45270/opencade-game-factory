@@ -21,6 +21,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/source/svg/reacteur-vide-jeu.svg",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/source/svg/reacteur-vide-jeu.svg",
@@ -103,8 +114,74 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/reacteur-vide-jeu.svg": "19c46db6c9f4ab778683485fa0e2d373bde6c3ca"
+      },
+      "assetPath": "packages/assets/source/svg/reacteur-vide-jeu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7543,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/reacteur-vide-jeu.svg",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "reacteur-vide-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/source/svg/reacteur-vide-jeu.svg": "19c46db6c9f4ab778683485fa0e2d373bde6c3ca"
+      },
+      "assetPath": "packages/assets/source/svg/reacteur-vide-jeu.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 750,
+        "path": "packages/assets/provenance.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/source/svg/reacteur-vide-jeu.svg",
+        "module-path: packages/assets/provenance.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "reacteur-vide-jeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/provenance.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/source/svg/reacteur-vide-jeu.svg": "19c46db6c9f4ab778683485fa0e2d373bde6c3ca"

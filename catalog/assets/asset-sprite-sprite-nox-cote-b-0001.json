@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae"
+      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
     ],
     "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "dd7a361913b45826931862efc11ce3b8f1f0f4dcb1678d0ca4c3465116ae19e7",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@183f999d5c685c361f503bc559bf18b84f9e91ae",
+    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
     "h": 47,
     "verified": false,
     "w": 48,
@@ -134,10 +134,214 @@
       "assetPath": "public/assets/m01-heros.json",
       "assetVersion": 1,
       "codeRef": {
-        "line": 722,
+        "line": 640,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m01-heros.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets/export/m01-heros.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-heros.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 716,
         "path": "assets/liste-assets.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/m01-heros.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets/manifests/m01-heros.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m01-heros.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 640,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/m01-heros.manifest.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: public/assets/m01-heros.json",
+        "module-path: assets/export/m01-heros.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-heros",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m01-heros.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-heros.png": "f3e58b7d1d1e4e5c598210edfe14fb5ed5a2a498",
+        "public/assets/m01-heros.json": "600c7c84d63fb27d848ad3eeed83ac66f31ee6b8"
+      },
+      "assetPath": "public/assets/m01-heros.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 716,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m01-heros.json",
         "module-path: assets/liste-assets.json"
@@ -171,7 +375,7 @@
         "line": 6,
         "path": "assets/manifests/m01-heros.json"
       },
-      "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "evidence": [
         "literal: public/assets/m01-heros.json",
         "module-path: assets/manifests/m01-heros.json"

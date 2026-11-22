@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 384×384 · S
 Fiche : [`sheet-e03-personnages-0001`](../../../catalog/sheets/sheet-e03-personnages-0001.json)
 
 - copie : pestouille-rpg `assets/export/e03-personnages.png`
+- copie : pestouille-rpg `assets/export/e03-personnages.png`
 
 0 asset(s) découpés de cette planche.
 

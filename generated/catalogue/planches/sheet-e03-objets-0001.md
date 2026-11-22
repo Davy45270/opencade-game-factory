@@ -9,6 +9,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 384×320 · S
 Fiche : [`sheet-e03-objets-0001`](../../../catalog/sheets/sheet-e03-objets-0001.json)
 
 - copie : pestouille-rpg `assets/export/e03-objets.png`
+- copie : pestouille-rpg `assets/export/e03-objets.png`
 
 0 asset(s) découpés de cette planche.
 

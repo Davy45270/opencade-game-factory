@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "derived"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "3c7a5715e83d0b703a4c5d829a2f898757ceceee515bf6cf0bd94c827ecee480",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 39,
     "verified": false,
     "w": 50,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/3c/3c7a5715e83d0b703a4c5d829a2f898757ceceee515bf6cf0bd94c827ecee480.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/effets-jeu@3x.json": "1e500cec31ecde4053bc1bdd723a49b9e345f201",
+        "packages/assets/atlas/effets-jeu@3x.png": "66bce18a879051981d73a54e786320b2c5a459f3"
+      },
+      "assetPath": "packages/assets/atlas/effets-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1890,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/effets-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "effets-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/effets-jeu@3x.json": "1e500cec31ecde4053bc1bdd723a49b9e345f201",

@@ -22,6 +22,17 @@
       {
         "assetVersion": 1,
         "classification": "game",
+        "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+        "game": "capsule-panic/assets",
+        "path": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
+        "provider": "forgejo",
+        "repo": "capsule-panic",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
         "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
         "game": "capsule-panic/assets",
         "path": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
@@ -130,7 +141,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/aa/aa60bb907ed3e71b9581757e17846144410fad8fa7d46e23bf4d73f71fe33568.webp",
-  "updatedAt": "2026-11-21T06:04:44+01:00",
+  "updatedAt": "2026-11-22T00:43:48+01:00",
   "usages": [
     {
       "assetPath": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
@@ -159,6 +170,39 @@
       "repo": "capsule-panic",
       "role": "image",
       "scene": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "packages/assets/runtime/sprite-particules-effets-jeu.webp": "8721f12817edad9094a603872c1dcf2fe7f70d1b"
+      },
+      "assetPath": "packages/assets/runtime/sprite-particules-effets-jeu.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 19,
+        "path": "packages/renderer/src/pieces.ts"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "import: packages/assets/runtime/sprite-particules-effets-jeu.webp",
+        "module-path: packages/renderer/src/pieces.ts"
+      ],
+      "game": "capsule-panic/renderer",
+      "importName": "particulesEffetsJeu",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/renderer/src/pieces.ts",
       "status": "active"
     },
     {

@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341"
+      "packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c"
     ],
     "sourceSheetSha256": "a50747b0c9b0c8ec89f79898f699e08b5f4af58d3cc61180c1225ac9d534f544",
     "type": "repo-file"
@@ -111,7 +111,7 @@
   "schemaVersion": "1.0",
   "sha256": "f8ba4bbf3d67a0a5c7377b1dd9c79932af6e5faf7bf99d8fbdef60821a2122d8",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · packages/assets/provenance.json@ea68eeb3829e17c49b13114107c2f38480c62341",
+    "evidence": "Comparaison indisponible · packages/assets/provenance.json@b68ed791cd9effd97308d70680edc82bf6de957c",
     "h": 114,
     "verified": false,
     "w": 66,
@@ -126,6 +126,40 @@
   "thumbnail": "thumbnails/f8/f8ba4bbf3d67a0a5c7377b1dd9c79932af6e5faf7bf99d8fbdef60821a2122d8.webp",
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "packages/assets/atlas/objets-jeu@3x.json": "ec83b117dbbc75dae53a0a9e6c66c974d62bbc4a",
+        "packages/assets/atlas/objets-jeu@3x.png": "f3cec5a160aaa95323805547bfa43720a2cc11ce"
+      },
+      "assetPath": "packages/assets/atlas/objets-jeu@3x.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4023,
+        "path": "packages/assets/assets.inventaire.json"
+      },
+      "commit": "b68ed791cd9effd97308d70680edc82bf6de957c",
+      "evidence": [
+        "literal: packages/assets/atlas/objets-jeu@3x.json",
+        "module-path: packages/assets/assets.inventaire.json"
+      ],
+      "game": "capsule-panic/assets",
+      "importName": "objets-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "sprite",
+      "scene": "packages/assets/assets.inventaire.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "packages/assets/atlas/objets-jeu@3x.json": "ec83b117dbbc75dae53a0a9e6c66c974d62bbc4a",

@@ -516,6 +516,35 @@
       "status": "active"
     },
     {
+      "assetPath": "src/games/puzzle/scenes.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/puzzle/scenes.ts"
+      },
+      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
+      "evidence": [
+        "importer_livre : module src/games/puzzle/scenes.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencadkid/puzzle",
+      "importName": "scenes",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/puzzle/scenes.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "dessin-code",
+      "scene": "src/games/puzzle/scenes.ts",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "src/games/puzzle/scenes.ts": "2a25b7b872942392970fca72d77aa082be67822d"
       },
@@ -1914,35 +1943,6 @@
       "repo": "opencadkid",
       "role": "sprite",
       "scene": "scripts/test-e2e-impact.js",
-      "status": "active"
-    },
-    {
-      "assetPath": "src/games/puzzle/scenes.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 1,
-        "path": "src/games/puzzle/scenes.ts"
-      },
-      "commit": "5d57bd876ff6cfd7a7163ab3e88ceffd266c4def",
-      "evidence": [
-        "importer_livre : module src/games/puzzle/scenes.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
-      ],
-      "game": "opencadkid/puzzle",
-      "importName": "scenes",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "src/games/puzzle/scenes.ts · motif de dessin du scan"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "opencadkid",
-      "role": "dessin-code",
-      "scene": "src/games/puzzle/scenes.ts",
       "status": "active"
     }
   ],

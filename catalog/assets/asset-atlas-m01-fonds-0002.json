@@ -1,0 +1,304 @@
+{
+  "alpha": null,
+  "category": "environments",
+  "createdAt": "2026-11-19T10:28:03+00:00",
+  "creation": {
+    "importJob": "feec8ee3087260d8"
+  },
+  "description": "M01 fonds — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 320,
+        "name": "sprite-carte-monde",
+        "w": 390,
+        "x": 541,
+        "y": 0
+      },
+      {
+        "h": 222,
+        "name": "sprite-fond-combat-foret",
+        "w": 424,
+        "x": 931,
+        "y": 234
+      },
+      {
+        "h": 234,
+        "name": "sprite-fond-foret",
+        "w": 530,
+        "x": 931,
+        "y": 0
+      },
+      {
+        "h": 234,
+        "name": "sprite-fond-temple",
+        "w": 510,
+        "x": 0,
+        "y": 234
+      },
+      {
+        "h": 234,
+        "name": "sprite-fond-village",
+        "w": 541,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 91,
+        "name": "sprite-panneau-dialogue",
+        "w": 218,
+        "x": 1355,
+        "y": 234
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-fonds.json",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "assets/export/m01-fonds.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "m01-fonds.png"
+  },
+  "id": "asset-atlas-m01-fonds-0002",
+  "inference": {
+    "category": {
+      "confidence": 0.75,
+      "evidence": [
+        "assets/export/m01-fonds.json · fonds"
+      ],
+      "method": "path-tokens"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/m01-fonds.json · m01-fonds"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "m01-fonds",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/m01-fonds.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b273b9455ce4e8081a15fe6a0ca42e9579a5ca4cbd5ebb9660fe198be74219dd",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 360,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1680,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 360,
+        "path": "assets.lock.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1680,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "date": "2026-11-22T00:04:42+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b273b9455ce4e8081a15fe6a0ca42e9579a5ca4cbd5ebb9660fe198be74219dd",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,6 @@
+# Recherche visuelle CLIP (REG-07, E110) : seulement pour `assetctl visual`. Le registre n'en dépend pas.
+# GPU : tank01 (Intel Arc, roues +xpu de https://download.pytorch.org/whl/xpu). CI : roues CPU
+# (https://download.pytorch.org/whl/cpu). Jamais de GPU sur Zalman (refus dans tools/index/visual.py).
+torch==2.14.0
+torchvision==0.29.2
+open_clip_torch==4.2.2

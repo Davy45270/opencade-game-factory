@@ -149,6 +149,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/fond-jeu@2x.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/fond-jeu@2x.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/atlas/fond-jeu@2x.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "fond-jeu@2x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fond-jeu@2x.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/atlas/fond-jeu@2x.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/fond-jeu@2x.webp": "dd43f7719b6a970045181cb10f30b96a5dea9261"
       },
@@ -179,35 +208,6 @@
       "repo": "capsule-panic",
       "role": "background",
       "scene": "packages/assets/assets.inventaire.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/fond-jeu@2x.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/fond-jeu@2x.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/atlas/fond-jeu@2x.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "fond-jeu@2x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/fond-jeu@2x.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/atlas/fond-jeu@2x.webp",
       "status": "active"
     }
   ],

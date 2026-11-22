@@ -171,6 +171,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "packages/assets/atlas/traits-animations-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-rotation-bas-jeu de packages/assets/atlas/traits-animations-jeu@2x.png (empreinte de pixels 5c9f565511287788)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fleche-rotation-bas-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/traits-animations-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/traits-animations-jeu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/traits-animations-jeu@2x.json": "c1188211ef59a8bb57a07b266919a2622e9a1159",
         "packages/assets/atlas/traits-animations-jeu@2x.png": "dfeeb906345ec1d14071a7493513091ef1e90595"
@@ -236,35 +265,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/traits-animations-jeu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 66,
-        "path": "packages/assets/atlas/traits-animations-jeu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-fleche-rotation-bas-jeu de packages/assets/atlas/traits-animations-jeu@2x.png (empreinte de pixels 5c9f565511287788)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-fleche-rotation-bas-jeu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/traits-animations-jeu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/traits-animations-jeu@2x.json",
       "status": "active"
     }
   ],

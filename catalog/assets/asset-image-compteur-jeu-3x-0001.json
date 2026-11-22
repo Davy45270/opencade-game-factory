@@ -128,6 +128,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/compteur-jeu@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/compteur-jeu@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/compteur-jeu@3x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "compteur-jeu@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/compteur-jeu@3x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/atlas/compteur-jeu@3x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/compteur-jeu@3x.png": "bdec6c671553b38e7ff2dd6b8c3b40ac03ea3c05"
       },
@@ -190,35 +219,6 @@
       "releases": [],
       "repo": "capsule-panic",
       "role": "sprite",
-      "scene": "packages/assets/atlas/compteur-jeu@3x.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/compteur-jeu@3x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/compteur-jeu@3x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image d'atlas packages/assets/atlas/compteur-jeu@3x.png livrée"
-      ],
-      "game": "capsule-panic",
-      "importName": "compteur-jeu@3x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/compteur-jeu@3x.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas",
       "scene": "packages/assets/atlas/compteur-jeu@3x.json",
       "status": "active"
     }

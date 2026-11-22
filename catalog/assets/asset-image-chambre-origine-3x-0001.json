@@ -128,6 +128,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/chambre-origine@3x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/atlas/chambre-origine@3x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image d'atlas packages/assets/atlas/chambre-origine@3x.png livrée"
+      ],
+      "game": "capsule-panic",
+      "importName": "chambre-origine@3x",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/chambre-origine@3x.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas",
+      "scene": "packages/assets/atlas/chambre-origine@3x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/chambre-origine@3x.png": "4a0c4db7dc5df65da182aed4545e4a1ff52c401d"
       },
@@ -190,35 +219,6 @@
       "releases": [],
       "repo": "capsule-panic",
       "role": "sprite",
-      "scene": "packages/assets/atlas/chambre-origine@3x.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/chambre-origine@3x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/atlas/chambre-origine@3x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image d'atlas packages/assets/atlas/chambre-origine@3x.png livrée"
-      ],
-      "game": "capsule-panic",
-      "importName": "chambre-origine@3x",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/chambre-origine@3x.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas",
       "scene": "packages/assets/atlas/chambre-origine@3x.json",
       "status": "active"
     }

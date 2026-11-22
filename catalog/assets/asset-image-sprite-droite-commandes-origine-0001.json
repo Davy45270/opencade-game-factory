@@ -147,6 +147,35 @@
   "updatedAt": "2026-11-21T06:04:44+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-droite-commandes-origine.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-droite-commandes-origine.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-droite-commandes-origine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-droite-commandes-origine.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/runtime/sprite-droite-commandes-origine.webp": "193713c706991ed5a3a31a6a20763eafc8a5e42e"
       },
@@ -177,35 +206,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/artwork.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/runtime/sprite-droite-commandes-origine.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/runtime/sprite-droite-commandes-origine.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-droite-commandes-origine",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/runtime/sprite-droite-commandes-origine.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/runtime/sprite-droite-commandes-origine.webp",
       "status": "active"
     }
   ],

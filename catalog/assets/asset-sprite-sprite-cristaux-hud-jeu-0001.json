@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/compteur-jeu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "packages/assets/atlas/compteur-jeu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cristaux-hud-jeu de packages/assets/atlas/compteur-jeu@2x.png (empreinte de pixels 5a155f3e96fb5178)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cristaux-hud-jeu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/compteur-jeu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/compteur-jeu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/compteur-jeu@2x.json": "decdccead651fac8cd1f6f66975c7057d3c5669c",
         "packages/assets/atlas/compteur-jeu@2x.png": "af5108c5e6c94568bb468f6a4e7fc7bbfb07dfe7"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/compteur-jeu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 24,
-        "path": "packages/assets/atlas/compteur-jeu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-cristaux-hud-jeu de packages/assets/atlas/compteur-jeu@2x.png (empreinte de pixels 5a155f3e96fb5178)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cristaux-hud-jeu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/compteur-jeu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/compteur-jeu@2x.json",
       "status": "active"
     }
   ],

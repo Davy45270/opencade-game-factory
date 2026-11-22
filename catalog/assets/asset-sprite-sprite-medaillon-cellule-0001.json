@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/medaillon-origine@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/medaillon-origine@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-medaillon-cellule de packages/assets/atlas/medaillon-origine@2x.png (empreinte de pixels 10065c38ff4b5230)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-medaillon-cellule",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/medaillon-origine@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/medaillon-origine@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/medaillon-origine@2x.json": "66ba62bcb1fee7b5df4cd6c536ca128ee07fb79b",
         "packages/assets/atlas/medaillon-origine@2x.png": "c5485c15169955b1b0f197351919fe09c008e82d"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/medaillon-origine@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/medaillon-origine@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-medaillon-cellule de packages/assets/atlas/medaillon-origine@2x.png (empreinte de pixels 10065c38ff4b5230)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-medaillon-cellule",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/medaillon-origine@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/medaillon-origine@2x.json",
       "status": "active"
     }
   ],

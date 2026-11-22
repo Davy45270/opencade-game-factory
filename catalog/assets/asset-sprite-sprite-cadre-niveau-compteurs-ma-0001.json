@@ -171,6 +171,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-cadre-niveau-compteurs-maquettes-apercu de packages/assets/atlas/compteurs-maquettes-apercu@2x.png (empreinte de pixels 16fee86dd06134ff)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-cadre-niveau-compteurs-maquettes-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/compteurs-maquettes-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/compteurs-maquettes-apercu@2x.json": "b3ff75a48b904684a205cae44395e71741124b0f",
         "packages/assets/atlas/compteurs-maquettes-apercu@2x.png": "b4ea210084b65bcf0a2a18e2fab08e2fcdfd6a47"
@@ -236,35 +265,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/compteurs-maquettes-apercu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 24,
-        "path": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-cadre-niveau-compteurs-maquettes-apercu de packages/assets/atlas/compteurs-maquettes-apercu@2x.png (empreinte de pixels 16fee86dd06134ff)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-cadre-niveau-compteurs-maquettes-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/compteurs-maquettes-apercu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/compteurs-maquettes-apercu@2x.json",
       "status": "active"
     }
   ],

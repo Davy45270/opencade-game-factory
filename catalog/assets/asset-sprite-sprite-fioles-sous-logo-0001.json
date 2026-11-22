@@ -171,6 +171,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/fioles-logo@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/fioles-logo@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-fioles-sous-logo de packages/assets/atlas/fioles-logo@2x.png (empreinte de pixels 3f0c15efcc61fde4)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-fioles-sous-logo",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/fioles-logo@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/fioles-logo@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/fioles-logo@2x.json": "749e118de860ab939807f3916fec2776a419463d",
         "packages/assets/atlas/fioles-logo@2x.png": "6c055938e2f1e193c1c5c0bf12705f25d183d007"
@@ -236,35 +265,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/fioles-logo@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/fioles-logo@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-fioles-sous-logo de packages/assets/atlas/fioles-logo@2x.png (empreinte de pixels 3f0c15efcc61fde4)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-fioles-sous-logo",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/fioles-logo@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/fioles-logo@2x.json",
       "status": "active"
     }
   ],

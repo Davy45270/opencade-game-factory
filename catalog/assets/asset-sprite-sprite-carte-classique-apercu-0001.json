@@ -154,6 +154,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 108,
+        "path": "packages/assets/atlas/panneaux-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-carte-classique-apercu de packages/assets/atlas/panneaux-apercu@2x.png (empreinte de pixels 59ea205406b030de)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-carte-classique-apercu",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/panneaux-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/panneaux-apercu@2x.json": "bb9219513c1841f9898d51cf114cd698d8110e0c",
         "packages/assets/atlas/panneaux-apercu@2x.png": "1c7513b73ea2d8e0522c1cffa1f5fb1b0106ec37"
@@ -219,35 +248,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/panneaux-apercu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 108,
-        "path": "packages/assets/atlas/panneaux-apercu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-carte-classique-apercu de packages/assets/atlas/panneaux-apercu@2x.png (empreinte de pixels 59ea205406b030de)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-carte-classique-apercu",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/panneaux-apercu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/panneaux-apercu@2x.json",
       "status": "active"
     }
   ],

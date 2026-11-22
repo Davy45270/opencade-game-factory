@@ -48,7 +48,7 @@
         "assetVersion": 1,
         "blobSha256": "c1881fd75866cbe8006c96e916851f74cc09529f3936fadb588f095443e20714",
         "classification": "game",
-        "commit": "be70ea5d481545ac258ff9eae4bdfde19611c98d",
+        "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
         "game": "petit-astronome",
         "path": "src/ui/art.ts",
         "provider": "github",
@@ -102,7 +102,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@be70ea5d481545ac258ff9eae4bdfde19611c98d"
+    "ref": "LICENSE@d7b66b968c30fd9f0b4cb2238e98eec45652ca89"
   },
   "name": "art",
   "orientation": "unknown",
@@ -123,8 +123,38 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-04T16:49:26+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-20T18:08:37+01:00",
+  "usages": [
+    {
+      "assetPath": "src/ui/art.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/ui/art.ts"
+      },
+      "commit": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "evidence": [
+        "importer_livre : module src/ui/art.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "petit-astronome",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/ui/art.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "petit-astronome",
+      "role": "dessin-code",
+      "scene": "src/ui/art.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 1,
   "versions": [

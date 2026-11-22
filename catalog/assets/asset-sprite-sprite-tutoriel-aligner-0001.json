@@ -187,6 +187,35 @@
   "updatedAt": "2026-11-19T11:33:32+01:00",
   "usages": [
     {
+      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "packages/assets/atlas/tutoriel-apercu@2x.json"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : cadre sprite-tutoriel-aligner de packages/assets/atlas/tutoriel-apercu@2x.png (empreinte de pixels eb0b8c581b86c46f)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-tutoriel-aligner",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/atlas/tutoriel-apercu@2x.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "atlas-frame",
+      "scene": "packages/assets/atlas/tutoriel-apercu@2x.json",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/atlas/tutoriel-apercu@2x.json": "7971a1943852ef6c5e50b568e7e3fd5b3e1297bf",
         "packages/assets/atlas/tutoriel-apercu@2x.png": "d8ca4147f274e7dd3ed8c8a36e32a97a68f46468"
@@ -252,35 +281,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "packages/assets/chaine.json",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/atlas/tutoriel-apercu@2x.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 3,
-        "path": "packages/assets/atlas/tutoriel-apercu@2x.json"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : cadre sprite-tutoriel-aligner de packages/assets/atlas/tutoriel-apercu@2x.png (empreinte de pixels eb0b8c581b86c46f)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-tutoriel-aligner",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/atlas/tutoriel-apercu@2x.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "atlas-frame",
-      "scene": "packages/assets/atlas/tutoriel-apercu@2x.json",
       "status": "active"
     }
   ],

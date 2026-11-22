@@ -142,6 +142,35 @@
   "updatedAt": "2026-11-22T02:29:01.937420+00:00",
   "usages": [
     {
+      "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "packages/assets/runtime/sprite-aide-accueil.webp"
+      },
+      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
+      "evidence": [
+        "importer_livre : image packages/assets/runtime/sprite-aide-accueil.webp livrée (fichier suivi au commit)"
+      ],
+      "game": "capsule-panic",
+      "importName": "sprite-aide-accueil",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "packages/assets/runtime/sprite-aide-accueil.webp · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "capsule-panic",
+      "role": "image",
+      "scene": "packages/assets/runtime/sprite-aide-accueil.webp",
+      "status": "active"
+    },
+    {
       "assetBlobs": {
         "packages/assets/runtime/sprite-aide-accueil.webp": "a5357a066deadcf74b18ed71e727fc775751942f"
       },
@@ -172,35 +201,6 @@
       "repo": "capsule-panic",
       "role": "sprite",
       "scene": "apps/web/src/artwork.ts",
-      "status": "active"
-    },
-    {
-      "assetPath": "packages/assets/runtime/sprite-aide-accueil.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "packages/assets/runtime/sprite-aide-accueil.webp"
-      },
-      "commit": "ea68eeb3829e17c49b13114107c2f38480c62341",
-      "evidence": [
-        "importer_livre : image packages/assets/runtime/sprite-aide-accueil.webp livrée (fichier suivi au commit)"
-      ],
-      "game": "capsule-panic",
-      "importName": "sprite-aide-accueil",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "packages/assets/runtime/sprite-aide-accueil.webp · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "capsule-panic",
-      "role": "image",
-      "scene": "packages/assets/runtime/sprite-aide-accueil.webp",
       "status": "active"
     }
   ],

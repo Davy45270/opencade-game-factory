@@ -43,6 +43,34 @@ ASSETCTL = str(REG / "assetctl")
 
 # Profil d'un DÉPÔT : où trouver la table de découpe d'un atlas (`parents`), la décision de licence de ses dessins
 # bruts, et, pour un monorepo, le dossier des jeux. Un dépôt sans profil : tout en repo-file, auteur et licence inconnus.
+CATALOGUE_DAVID = "~/Projets/jeux/assets/catalogue.json"
+MIT_DAVID = "publié dans un dépôt public sous MIT (accord de David"
+
+
+def profil_monorepo(dossier, icones):
+    """Monorepo de David : licences déclarées fichier par fichier par le catalogue d'assets de David
+    (~/Projets/jeux/assets/catalogue.json : source, SHA-256 abrégé, copie, auteur, droits). Les icônes PWA dessinées
+    par le code passent d'abord (historique git), le reste par le catalogue."""
+    preuve_cat = {"method": "décision du propriétaire, fichier vérifié",
+                  "ref": f"{CATALOGUE_DAVID} (droits « {MIT_DAVID} pour cet usage) ») ; HL-538",
+                  "decision": "Fichier publié par David sous MIT dans ce dépôt public, déclaré par son catalogue "
+                              "d'assets ; octets ou pixels identiques à la copie du catalogue."}
+    return {"monorepo": "src/games",
+            "declarations_licence": [{"fichier": CATALOGUE_DAVID, "format": "catalogue_assets",
+                                      "racine": f"~/Projets/jeux/{dossier}/"}],
+            "images": [*icones,
+                       {"prefixe": "", "declaree": True, "origines": ["catalogue"], "licence_declaree": "MIT",
+                        "exige": ["sha256_prefixe"], "licence": "MIT", "auteur": None, "licence_preuve": preuve_cat}]}
+
+
+def icones_par_le_code(prefixe, commit, depot):
+    return {"prefixe": prefixe, "licence": "MIT", "auteur": f"Davy45270 (icônes dessinées par le code de {depot})",
+            "licence_preuve": {"method": "historique git : licence de la source",
+                               "ref": f"{depot} {commit} (icônes PWA dessinées par code) ; LICENSE (MIT, Davy45270) ; "
+                                      "HL-538",
+                               "decision": "Icônes PWA produites par le code du dépôt : licence du code, MIT."}}
+
+
 PROFILS = {
     "pestouille-rpg": {
         "parents": "manifestes",
@@ -194,8 +222,8 @@ PROFILS = {
                                                "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare "
                                                            "l'identifiant : titulaire Davy45270, CC BY 4.0."}},
     },
-    "opencade": {"monorepo": "src/games"},
-    "opencadkid": {"monorepo": "src/games"},
+    "opencade": profil_monorepo("Opencade", [icones_par_le_code("public/icons/opencade-", "d9fb483", "Opencade")]),
+    "opencadkid": profil_monorepo("opencadkid", [icones_par_le_code("public/icons/opencadkid-", "b3d21b7", "opencadkid")]),
 }
 SOURCES_BRUTES = {"source", "sources"}      # dossiers de planches brutes : ni livrés, ni employés
 IMAGES = (".png", ".webp", ".jpg", ".jpeg", ".gif", ".svg", ".avif")
@@ -549,6 +577,8 @@ def regle_image(profil, chemin, declarees=None, octets=None):
             return None
         if e.get("sha256") and (octets is None or e["sha256"] != sha256(octets)):
             return None
+        if e.get("sha256_prefixe") and not meme_fichier(e, octets):
+            return None
         if r.get("planche_verifiee"):
             f = Path(profil.get("planches") or "/nonexistent").expanduser() / str(e.get("planche"))
             if not f.is_file() or sha256(f.read_bytes()) != e.get("planche_sha256"):
@@ -558,9 +588,27 @@ def regle_image(profil, chemin, declarees=None, octets=None):
         ref += f", fichier SHA-256 {e['sha256']}" if e.get("sha256") else ""
         ref += ")"
         auteur = e.get("auteur") or r.get("auteur") or "unknown"
-        return {**r, "auteur": auteur,
+        return {**r, "auteur": auteur, "copies": e.get("copies") or [],
                 "licence_preuve": {**r["licence_preuve"], "ref": r["licence_preuve"]["ref"] + " ; " + ref}}
     return None
+
+
+def meme_fichier(e, octets):
+    """Fichier déclaré par un SHA-256 abrégé : mêmes octets, ou mêmes PIXELS que la copie déclarée (optimisation PNG
+    sans perte, octets changés)."""
+    if octets is None:
+        return False
+    if sha256(octets).startswith(e["sha256_prefixe"]):
+        return True
+    copie = e.get("copie")
+    if not copie or not Path(copie).is_file():
+        return False
+    from PIL import Image
+    try:
+        with Image.open(io.BytesIO(octets)) as a, Image.open(copie) as b:
+            return empreinte_pixels(a) == empreinte_pixels(b)
+    except OSError:
+        return False
 
 
 def declarations_derivees(e):
@@ -582,11 +630,35 @@ def declarations_licence(clone, profil):
     Origine = format de la déclaration (« inventaire », « licences.json »)."""
     out = {}
     for d in profil.get("declarations_licence") or ():
-        f = clone / d["fichier"]
+        f = Path(d["fichier"]).expanduser() if d["fichier"].startswith("~") else clone / d["fichier"]
         if not f.is_file():
             continue
         doc = lire(f)
-        if d["format"] == "inventaire":
+        if d["format"] == "catalogue_assets":
+            racine = d["racine"]
+            # Copies du même fichier déclarées ailleurs par le catalogue (même SHA-256 abrégé) : (dépôt, chemin).
+            copies = {}
+            for x in (doc.get("entrees") or []) if isinstance(doc, dict) else []:
+                for fi in x.get("fichiers") or ():
+                    m = re.match(r"~/Projets/jeux/([^/]+)/(.+)$", str(fi.get("source", "")))
+                    if m and fi.get("sha256"):
+                        copies.setdefault(fi["sha256"], set()).add((m.group(1).lower(), m.group(2)))
+                    if fi.get("copie") and fi.get("sha256"):
+                        copies.setdefault(fi["sha256"], set()).add(("jeux-assets", fi["copie"]))
+            for x in (doc.get("entrees") or []) if isinstance(doc, dict) else []:
+                licence = "MIT" if str(x.get("droits", "")).startswith(MIT_DAVID) \
+                    and not str(x.get("auteur", "")).startswith("inconnu") else None
+                for fi in x.get("fichiers") or ():
+                    src = str(fi.get("source", ""))
+                    if not src.startswith(racine) or not fi.get("sha256"):
+                        continue
+                    copie = Path(CATALOGUE_DAVID).expanduser().parent / fi["copie"] if fi.get("copie") else None
+                    out.setdefault(src[len(racine):], {"origine": "catalogue", "fichier": src[len(racine):],
+                                                       "id": x.get("id"), "declare_par": CATALOGUE_DAVID,
+                                                       "sha256_prefixe": fi["sha256"], "copie": copie,
+                                                       "copies": sorted(copies.get(fi["sha256"], ())),
+                                                       "licence": licence, "auteur": x.get("auteur")})
+        elif d["format"] == "inventaire":
             for e in doc.get("fichiers") or ():
                 if isinstance(e, dict) and isinstance(e.get("chemin"), str):
                     pl = e.get("planche") if isinstance(e.get("planche"), dict) else {}
@@ -714,7 +786,7 @@ def appliquer_regle_cadre(aid, regle, fiches, depot):
     return True
 
 
-def appliquer_regle(aid, regle, fiches, depot, chemin):
+def appliquer_regle(aid, regle, fiches, depot, chemin, autres=()):
     """Image déjà au registre en licence inconnue, dont la provenance est désormais prouvée : la licence, sa preuve et
     l'auteur sont établis. Seulement pour une fiche `repo-file` de CE fichier de CE dépôt (marque de l'importeur, ou
     preuve du scan `<dépôt>@<commit>:<chemin>`) : une fiche d'une autre origine n'est pas touchée. Le scan remet la
@@ -722,8 +794,10 @@ def appliquer_regle(aid, regle, fiches, depot, chemin):
     p = REG / "catalog/assets" / f"{aid}.json"
     a = lire(p)
     prov = a.get("provenance") or {}
+    sources = [(depot, chemin), *autres]
     if prov.get("type") != "repo-file" or not any(
-            MARQUE in ev or (ev.startswith(f"{depot}@") and ev.endswith(f":{chemin}")) for ev in prov.get("evidence") or ()):
+            MARQUE in ev or any(ev.startswith(f"{d}@") and ev.endswith(f":{c}") for d, c in sources)
+            for ev in prov.get("evidence") or ()):
         return False
     a["license"], a["licenseEvidence"] = regle["licence"], regle["licence_preuve"]
     a["provenance"]["author"] = regle["auteur"]
@@ -1003,7 +1077,10 @@ def main(argv):
             image_ids[f] = min(par_octets[d], key=lambda i: (fiches[i].get("category") == "atlas", i))
             if fiches[image_ids[f]].get("license") in (None, "", "unknown"):
                 regle = regle_image(profil, f, declarees, octets)
-                if regle and appliquer_regle(image_ids[f], regle, fiches, args.jeu.split("/")[0], f):
+                # Les copies que le catalogue d'assets de David déclare (même SHA-256 abrégé : dépôt jeux-assets, autre
+                # jeu) sont le même fichier.
+                autres = [tuple(c) for c in (regle or {}).get("copies") or []]
+                if regle and appliquer_regle(image_ids[f], regle, fiches, args.jeu.split("/")[0], f, autres):
                     compte["licences_etablies"] += 1
                 elif fiches[image_ids[f]].get("license") in (None, "", "unknown"):
                     compte["sans_origine"].append(f)

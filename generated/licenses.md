@@ -8394,6 +8394,7 @@
 - `sheet-mode-jeu-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-mode-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-mode-jeu-3x-0002` — unknown · forbidden · Planche entière réservée.
+- `sheet-moule-champignon-domestique-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-moustique-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-moustique-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-ms-alligator-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
@@ -8430,6 +8431,7 @@
 - `sheet-objets-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-objets-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-objets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-ormeau-champignon-domestique-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-p01-meubles-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-p01-objets-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-p01-panneaux-0001` — unknown · forbidden · Planche entière réservée.
@@ -8459,9 +8461,12 @@
 - `sheet-panneau-3quart-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-panneaux-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-panneaux-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-paysan-homard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-paysan-panda-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-paysan-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-paysan-zebre-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-paysanne-enfant-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-paysanne-panda-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-paysanne-renard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-personnages-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-personnages-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -8507,6 +8512,8 @@
 - `sheet-petit-pompiers-immeuble-planche-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-petit-pompiers-lapin-planche-ref-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-petit-pompiers-maison-planche-re-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-petit-prince-pandas-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-phoenix-champignon-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pieces-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-pieces-origine-2x-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-pieces-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
@@ -8614,12 +8621,17 @@
 - `sheet-poubelle-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-poubelle-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-pretre-fourmis-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-princesse-pandas-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-princesse-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-princesse-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-puits-entree-donjon-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-puits-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-puzzle-photo-gorille-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-puzzle-photo-papillons-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-puzzle-photo-rhinoceros-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-reine-fourmis-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-reine-lemuriens-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-reine-pandas-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-reine-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-reine-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-requin-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
@@ -8627,6 +8639,7 @@
 - `sheet-robot-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-robot-detouree-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-roi-lemuriens-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `sheet-roi-pandas-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-roi-renards-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-roi-zebres-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-roule-0001` — unknown · forbidden · Planche entière réservée.

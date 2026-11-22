@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-8105 assets · 557 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8105 assets · 570 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -113,7 +113,7 @@
 | [MIT](licences/MIT.md) | 703 |
 | [unknown](licences/unknown.md) | 3060 |
 
-## Planches (557)
+## Planches (570)
 
 | Planche | Licence | Assets découpés |
 |---|---|---|
@@ -406,6 +406,7 @@
 | [mode-jeu@2x](planches/sheet-mode-jeu-2x-0002.md) | unknown | 0 |
 | [mode-jeu@3x](planches/sheet-mode-jeu-3x-0001.md) | unknown | 0 |
 | [mode-jeu@3x](planches/sheet-mode-jeu-3x-0002.md) | unknown | 0 |
+| [Moule champignon domestique](planches/sheet-moule-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Moustique piqueur (type Aérien, taille S)](planches/sheet-moustique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Moustique piqueur (type Aérien, taille S) — détourée](planches/sheet-moustique-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Alligator champignon (ennemi) — cadres détourés](planches/sheet-ms-alligator-detouree-0001.md) | CC-BY-SA-4.0 | 44 |
@@ -442,6 +443,7 @@
 | [objets-jeu@3x](planches/sheet-objets-jeu-3x-0001.md) | unknown | 0 |
 | [objets-origine@2x](planches/sheet-objets-origine-2x-0001.md) | unknown | 0 |
 | [objets-origine@3x](planches/sheet-objets-origine-3x-0001.md) | unknown | 0 |
+| [Ormeau champignon domestique](planches/sheet-ormeau-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [p01-meubles](planches/sheet-p01-meubles-0001.md) | unknown | 0 |
 | [p01-objets](planches/sheet-p01-objets-0001.md) | unknown | 0 |
 | [p01-panneaux](planches/sheet-p01-panneaux-0001.md) | unknown | 0 |
@@ -471,9 +473,12 @@
 | [panneau_3quart](planches/sheet-panneau-3quart-0001.md) | unknown | 0 |
 | [panneaux-apercu@2x](planches/sheet-panneaux-apercu-2x-0001.md) | unknown | 0 |
 | [panneaux-apercu@3x](planches/sheet-panneaux-apercu-3x-0001.md) | unknown | 0 |
+| [Paysan homard](planches/sheet-paysan-homard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Paysan panda](planches/sheet-paysan-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysan renard](planches/sheet-paysan-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysan zèbre](planches/sheet-paysan-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysanne enfant renard](planches/sheet-paysanne-enfant-renard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Paysanne panda](planches/sheet-paysanne-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysanne renard](planches/sheet-paysanne-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [personnages-origine@2x](planches/sheet-personnages-origine-2x-0001.md) | unknown | 0 |
 | [personnages-origine@3x](planches/sheet-personnages-origine-3x-0001.md) | unknown | 0 |
@@ -519,6 +524,8 @@
 | [Petit_Pompiers_immeuble_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-immeuble-planche-0001.md) | unknown | 0 |
 | [Petit_Pompiers_lapin_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-lapin-planche-ref-0001.md) | unknown | 0 |
 | [Petit_Pompiers_maison_PLANCHE_REFERENCE](planches/sheet-petit-pompiers-maison-planche-re-0001.md) | unknown | 0 |
+| [Petit prince pandas](planches/sheet-petit-prince-pandas-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Phoenix champignon](planches/sheet-phoenix-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [pieces-origine@2x](planches/sheet-pieces-origine-2x-0001.md) | unknown | 0 |
 | [pieces-origine@2x](planches/sheet-pieces-origine-2x-0002.md) | unknown | 0 |
 | [pieces-origine@3x](planches/sheet-pieces-origine-3x-0001.md) | unknown | 0 |
@@ -626,12 +633,17 @@
 | [Poubelle malicieuse (type Objet vivant, taille M)](planches/sheet-poubelle-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Poubelle malicieuse (type Objet vivant, taille M) — détourée](planches/sheet-poubelle-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Prêtre des Fourmis](planches/sheet-pretre-fourmis-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Princesse pandas](planches/sheet-princesse-pandas-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Princesse des Renards](planches/sheet-princesse-renards-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Princesse des Zèbres](planches/sheet-princesse-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Puits — entrée de donjon](planches/sheet-puits-entree-donjon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Puits du village](planches/sheet-puits-village-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Puzzle — photo gorille](planches/sheet-puzzle-photo-gorille-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Puzzle — photo papillons](planches/sheet-puzzle-photo-papillons-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Puzzle — photo rhinoceros](planches/sheet-puzzle-photo-rhinoceros-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Reine des Fourmis](planches/sheet-reine-fourmis-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Reine des Lémuriens](planches/sheet-reine-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Reine pandas](planches/sheet-reine-pandas-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Reine des Renards](planches/sheet-reine-renards-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Reine des Zèbres](planches/sheet-reine-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Requin des récifs (type Aquatique, taille M)](planches/sheet-requin-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -639,6 +651,7 @@
 | [Robot « Netoyer X1 » (type Mécanique, taille M)](planches/sheet-robot-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Robot « Netoyer X1 » (type Mécanique, taille M) — détourée](planches/sheet-robot-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
 | [Roi des Lémuriens](planches/sheet-roi-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Roi pandas](planches/sheet-roi-pandas-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Roi des Renards](planches/sheet-roi-renards-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Roi des Zèbres](planches/sheet-roi-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [roule](planches/sheet-roule-0001.md) | unknown | 0 |

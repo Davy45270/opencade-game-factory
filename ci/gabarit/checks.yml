@@ -52,6 +52,13 @@ steps:
   # ARCH-001 E027 (l.47) : chaîne progressive, après les tests et avant le build — solveurs, simulations de gameplay,
   # accessibilité, performance. Étapes « progressives » : elles jouent le script
   # npm du jeu dès qu'il le déclare (solve, simulate, test:a11y, test:perf), sans rien demander à un jeu qui ne l'a pas.
+  # Point d'extension « niveaux » : validation des niveaux du jeu par l'outil d'édition qui sera retenu (non choisi à ce
+  # jour). L'étape joue le script npm « test:levels » du jeu s'il le déclare ; l'outil, son format et ses contrôles se
+  # brancheront derrière ce script, sans changer le gabarit.
+  - name: niveaux
+    image: *node
+    commands:
+      - npm run --if-present test:levels
   - name: solveurs
     image: *node
     commands:

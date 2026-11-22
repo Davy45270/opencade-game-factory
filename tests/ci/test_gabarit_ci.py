@@ -179,11 +179,13 @@ class JeuTemoin(unittest.TestCase):
         (homelab-diag). Solveurs, simulations, accessibilité, performance : script npm du jeu (« progressif »)."""
         import yaml
         etapes = [e["name"] for e in yaml.safe_load((TEMOIN / ".woodpecker" / "checks.yml").read_text())["steps"]]
-        chaine = ["spec résolue", "lint", "typecheck", "test", "solveurs", "simulations", "accessibilité", "performance",
-                  "build", "sbom", "audit et licences", "secrets"]
+        chaine = ["spec résolue", "lint", "typecheck", "test", "niveaux", "solveurs", "simulations", "accessibilité",
+                  "performance", "build", "sbom", "audit et licences", "secrets"]
         self.assertEqual([e for e in etapes if e in chaine], chaine)
         texte = (TEMOIN / ".woodpecker" / "checks.yml").read_text()
-        for script in ("solve", "simulate", "test:a11y", "test:perf"):
+        # « niveaux » : point d'extension (HL-525 7-3314) — l'outil d'édition et de validation des niveaux n'est pas
+        # choisi (HL-538 7-3311) ; l'étape joue le script du jeu, quel que soit l'outil retenu ensuite.
+        for script in ("test:levels", "solve", "simulate", "test:a11y", "test:perf"):
             self.assertIn(f"npm run --if-present {script}", texte)
 
     def test_etapes_du_jeu_apres_les_controles_communs(self) -> None:

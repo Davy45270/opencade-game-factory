@@ -1510,7 +1510,7 @@
 - `asset-image-beauval-moodboard-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-beauval-pack-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-bibliotheque-complementaire-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-borne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-borne-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-borne-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-boubou-arriere-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-boubou-arriere-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
@@ -1547,7 +1547,7 @@
 - `asset-image-bubble-rouge-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-bubble-verte-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-bubble-violette-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-buisson-fleuri-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-buisson-fleuri-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-buisson-fleuri-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-c0-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-c0-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -1564,7 +1564,7 @@
 - `asset-image-cabane-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cabane-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-caisse-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-caisse-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-caisse-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-caisse-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-caisse-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-caisse-0005` — unknown · forbidden · Autorisation non établie.
@@ -1587,7 +1587,7 @@
 - `asset-image-caliroux-panda-roux-fiche-design-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-caliroux-planche-artistique-a-ve-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-caliroux-profil-droit-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-camion-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-camion-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-camion-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-capsule-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -1821,7 +1821,7 @@
 - `asset-image-chaton-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-chaton-appel-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chaton-appel-0002` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-chaton-heureux-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-chaton-heureux-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chaton-heureux-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-chaton-roux-marche-v1-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-chaton-soulage-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -1833,20 +1833,20 @@
 - `asset-image-cherche-caisse-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cherche-camion-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cherche-chaton-heureux-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-chien-face-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cherche-chien-face-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cherche-jardiniere-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-cherche-lampadaire-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-lapin-face-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-outil-extincteur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cherche-lampadaire-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-lapin-face-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-outil-extincteur-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cherche-outil-megaphone-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-cherche-outil-trousse-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-pompier-dragon-s-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-pompier-licorne-s-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-pompier-panda-s-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-pompier-pandaroux-s-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cherche-outil-trousse-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-pompier-dragon-s-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-pompier-licorne-s-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-pompier-panda-s-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-pompier-pandaroux-s-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cherche-poubelle-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-cherche-sapin-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cherche-souche-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-cherche-sapin-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-cherche-souche-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chien-dos-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chien-dos-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chien-face-0001` — unknown · forbidden · Autorisation non établie.
@@ -2421,11 +2421,11 @@
 - `asset-image-opencade-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-192-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencade-192-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencade-192-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencade-512-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencade-512-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-opencadkid-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-opencadkid-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencadkid-192-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2595,7 +2595,7 @@
 - `asset-image-pestouille-rpg-sprite-trainee-so-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-pestouille-rpg-tuiles-0001` — LicenseRef-David-Prive-Tous-Droits-Reserves · forbidden · Autorisation non établie.
 - `asset-image-petit-astronome-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-petit-astronome-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-petit-astronome-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-astronome-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-image-petit-astronome-0004` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-petit-pompiers-ambulance-planche-0001` — unknown · forbidden · Planche entière réservée.
@@ -2800,9 +2800,9 @@
 - `asset-image-pompiers-192-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pompiers-192-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pompiers-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-pompiers-512-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-pompiers-512-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pompiers-maskable-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-pompiers-maskable-512-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-image-pompiers-maskable-512-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pompiers-personnages-face-artist-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-pompiers-personnages-multivues-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-pont-0001` — unknown · forbidden · Autorisation non établie.

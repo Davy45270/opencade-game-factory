@@ -202,7 +202,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Icônes PWA produites par le code du dépôt : licence du code, MIT.",
+    "method": "historique git : licence de la source",
+    "ref": "Opencade d9fb483 (icônes PWA dessinées par code) ; LICENSE (MIT, Davy45270) ; HL-538"
+  },
   "name": "opencade-192",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -212,7 +217,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (icônes dessinées par le code de Opencade)",
     "evidence": [
       "opencade@172156af3849e6061e3706166a991c77cf95528a:public/icons/opencade-192.png"
     ],
@@ -903,6 +908,35 @@
       "repo": "opencade",
       "role": "icon",
       "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/icons/opencade-192.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/opencade-192.png"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : image public/icons/opencade-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "opencade",
+      "importName": "opencade-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/opencade-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "image",
+      "scene": "public/icons/opencade-192.png",
       "status": "active"
     }
   ],

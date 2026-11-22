@@ -221,7 +221,37 @@
   "subcategory": null,
   "tags": "unknown",
   "updatedAt": "2026-11-18T20:05:46+01:00",
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "src/games/dedale/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/dedale/scene.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/dedale/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/dedale",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/dedale/scene.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/dedale/scene.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 5,
   "versions": [

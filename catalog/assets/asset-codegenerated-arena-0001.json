@@ -329,6 +329,35 @@
       "role": "sprite",
       "scene": "scripts/bombercade-scene-oracle.js",
       "status": "active"
+    },
+    {
+      "assetPath": "src/games/bombercade/arena.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1,
+        "path": "src/games/bombercade/arena.ts"
+      },
+      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "evidence": [
+        "importer_livre : module src/games/bombercade/arena.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "opencade/bombercade",
+      "importName": "arena",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/games/bombercade/arena.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencade",
+      "role": "dessin-code",
+      "scene": "src/games/bombercade/arena.ts",
+      "status": "active"
     }
   ],
   "variants": [],

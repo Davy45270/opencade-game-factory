@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "source": "ARCH-001 § contrats transverses (E017) et § livraison (E054)",
+  "regle": "une version mineure ajoute sans retirer : chaque exemple de chaque version publiée reste valide",
+  "contrats": {
+    "Project": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/project-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/project-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/project-sans-projectId.json"
+      ]
+    },
+    "Task": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/task-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/task-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/task-sans-taskId.json"
+      ]
+    },
+    "AgentExecution": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/agent-execution-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/agent-execution-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/agent-execution-sans-portfolioId.json"
+      ]
+    },
+    "WorkflowDefinition": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/workflow-definition-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/workflow-definition-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/workflow-definition-sans-workflowId.json"
+      ]
+    },
+    "WorkflowRun": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/workflow-run-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/workflow-run-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/workflow-run-sans-runId.json"
+      ]
+    },
+    "Evidence": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/evidence-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/evidence-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/evidence-sans-evidenceId.json"
+      ]
+    },
+    "PolicyDecision": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/policy-decision-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/policy-decision-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/policy-decision-sans-decisionId.json"
+      ]
+    },
+    "Release": {
+      "version": "1.0.0",
+      "schema": "contracts/schemas/release-v1.schema.json",
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "contracts/exemples/release-v1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/release-sans-releaseId.json"
+      ]
+    },
+    "Specification": {
+      "version": "1.0.0",
+      "schema": "specs/schemas/specification.schema.json",
+      "reutilise": true,
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "specs/registry/SPEC-GAME-FACTORY.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/specification-sans-id.json"
+      ]
+    },
+    "Component": {
+      "version": "1.0.0",
+      "schema": "blocks/schemas/block.schema.json",
+      "reutilise": true,
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "blocks/catalog/BB-CAPSULE-PANIC-ENGINE-001.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/component-sans-specIds.json"
+      ]
+    },
+    "Artifact": {
+      "version": "1.0.0",
+      "schema": "schemas/asset.schema.json",
+      "reutilise": true,
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-22",
+          "exemples": [
+            "catalog/assets/asset-atlas-animations-apercu-2x-0001.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/artifact-sans-id.json"
+      ]
+    },
+    "FactoryEvent": {
+      "version": "1.1.0",
+      "schema": "contracts/schemas/factory-event-v1.1.schema.json",
+      "origine": {
+        "depot": "homelab-diag",
+        "chemin": "tower/schema/factory-event-v1.1.schema.json",
+        "sha256": "3277c27a59a60ca89a98611682cc2f3db830a03b8bfef84ef6ae26e8710594fb",
+        "note": "la Tower fait foi ; la copie est refusée par les tests si elle diverge de l'empreinte"
+      },
+      "historique": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-19",
+          "exemples": [
+            "contracts/exemples/factory-event-v1.json"
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-11-20",
+          "exemples": [
+            "contracts/exemples/factory-event-v1.1.json"
+          ]
+        }
+      ],
+      "contreExemples": [
+        "contracts/contre-exemples/factory-event-sans-runId.json"
+      ]
+    }
+  }
+}

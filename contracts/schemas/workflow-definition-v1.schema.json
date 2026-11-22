@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:opencade:contracts:workflow-definition-v1.schema.json",
+  "title": "Définition versionnée d'un workflow",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "workflowId",
+    "workflowVersion",
+    "steps"
+  ],
+  "properties": {
+    "workflowId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "workflowVersion": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+          },
+          "dependsOn": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^[A-Za-z0-9._:/@#+-]+$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

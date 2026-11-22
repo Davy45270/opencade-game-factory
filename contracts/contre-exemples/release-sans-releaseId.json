@@ -1,0 +1,43 @@
+{
+  "schema": "release-manifest/2",
+  "commitSha": "4b54dd8000000000000000000000000000000000",
+  "specVersions": [
+    {
+      "role": "source",
+      "fichier": "specs/six-de-chaque-sources/README.md.txt",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "componentVersions": {
+    "BB-SIX-DE-CHAQUE-ENGINE-001": "1"
+  },
+  "assetLock": {
+    "path": "assets.lock.json",
+    "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "registryCommit": "547e29c70f159f96a291f8816b2de52295ac6366",
+    "assets": 12
+  },
+  "levelLock": {
+    "aucun": "jeu sans niveaux"
+  },
+  "sbomRef": {
+    "path": "preuves:P15-sbom.cdx.json",
+    "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "specVersion": "1.5",
+    "components": 300
+  },
+  "testEvidence": [
+    {
+      "uri": "preuves:P12-grille.json",
+      "kind": "P12",
+      "sha256": "3333333333333333333333333333333333333333333333333333333333333333"
+    }
+  ],
+  "policyDecisions": [
+    "barriere-qualite:six-de-chaque:4b54dd8"
+  ],
+  "deploymentRef": [
+    "github.io",
+    "contabo"
+  ]
+}

@@ -35,3 +35,13 @@ steps:
       - >-
         SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2);
         test "$${SAUTES:-0}" -le 1 || { echo "tests sautés - $$SAUTES"; exit 1; }
+
+  # BB-001 § 9 (matrice E206, E224) : depuis les manifestes JSON du catalogue réel, l'index SQLite FTS5 et le graphe de
+  # dépendances se génèrent, puis --check les retrouve identiques (reconstruction déterministe). Rien n'est commité.
+  - name: index-briques
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - ./bbctl index --out /tmp/index-briques --json
+      - ./bbctl index --out /tmp/index-briques --check --json
+      - ./bbctl validate --all --json

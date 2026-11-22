@@ -3129,8 +3129,8 @@
 - `asset-image-tictac-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-tictac-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-tictac-0004` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-tictac-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-tictac-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-tictac-192-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-tictac-512-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-traits-animations-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.

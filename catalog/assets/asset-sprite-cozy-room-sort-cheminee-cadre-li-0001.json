@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:52:58.548112+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cheminee-0001",
+        "reason": "découpe brute de l'élément cheminee : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "5709c369e29077ff7aca6bd800d0da8ef65f25c91faf4616940137c8b446ba2d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cheminee",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cheminee-0001",
+          "reason": "découpe brute de l'élément cheminee : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cheminee-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:52:58.216339+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cheminee » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément cheminee",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cheminee-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cheminee-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-cheminee"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cheminee-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-247.png, SHA-256 169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-cheminee"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cheminee (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "3349c0b08c94b69e",
+    "phash": "d04b3d30d3cc3e33"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cheminee-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cheminee livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [225, 206, 1281, 67], \"cadre\": \"sprite-cheminee\", \"element\": \"cheminee\", \"empreintePixels\": \"107d2893d1f285bd6fc0bdb07929f002e3fef6634b5321a9e7a282df54519d0c\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 206, \"w\": 225, \"x\": 1281, \"y\": 67}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cheminee-0001",
+    "parentSha256": "91afaaef5cf3ba8cf513df53c16be708cdba5f65ab312a0e8422e46854231053",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:52:58.548112+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 87,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cheminee de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels 107d2893d1f285bd)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cheminee",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "169fa7fef7727334c6fb1e7d7d409a8897d3956508270c8616335156bbeed7ea",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

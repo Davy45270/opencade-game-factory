@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:58:56.529387+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-porte-serviettes-0001",
+        "reason": "découpe brute de l'élément porte-serviettes : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7d2ff473ea84925c695725e0964aa5defb8e43f4b418dd328f4b871e83b7cd25",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "porte serviettes",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-porte-serviettes-0001",
+          "reason": "découpe brute de l'élément porte-serviettes : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-porte-serviettes-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:58:56.203676+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-porte-serviettes » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément porte-serviettes",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-porte-serviettes-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-porte-serviettes-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-porte-serviettes"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-porte-serviettes-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-299.png, SHA-256 88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-porte-serviettes"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort porte-serviettes (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "4d7173717171f10b",
+    "phash": "cc9c33c63333cd83"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-porte-serviettes-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-porte-serviettes livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [115, 165, 405, 433], \"cadre\": \"sprite-porte-serviettes\", \"element\": \"porte-serviettes\", \"empreintePixels\": \"a4a8b6a93093232e43628a5bccf889a1935a6cf4e23cd008c7cb8fb522c7cbb3\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 165, \"w\": 115, \"x\": 405, \"y\": 433}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-porte-serviettes-0001",
+    "parentSha256": "dda4729bc7c5e4691f5327c64216ce2a6317b3f0cad726176cae02a823d7c9cf",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:58:56.529387+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 171,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-porte-serviettes de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels a4a8b6a93093232e)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-porte-serviettes",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "88fcaafd9a1021379e46a8f3110db7d1668ed5a7ca5bfb7e619b495e28082b7c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

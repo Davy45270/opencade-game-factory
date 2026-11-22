@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:04:00.161224+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-choix-chambre-0001",
+        "reason": "découpe brute de l'élément choix-chambre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "dc80550f7c4e6c156a98d334d567b5178664e763da211e1040ce19dbcdcd3a68",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "choix chambre",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-choix-chambre-0001",
+          "reason": "découpe brute de l'élément choix-chambre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-choix-chambre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:03:59.785694+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-choix-chambre » (content/assets/planches/atlas/p04-selecteur.webp), forme normalisée par le jeu de l'élément choix-chambre",
+  "dimensions": {
+    "height": 200,
+    "width": 200
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-choix-chambre-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-choix-chambre-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-chambre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-choix-chambre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-343.png, SHA-256 ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-selecteur.json · cadre sprite-choix-chambre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort choix-chambre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "70cc8d247953c4d4",
+    "phash": "947ec1191f647993"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-choix-chambre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-choix-chambre livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-selecteur.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-selecteur.webp (webp)\", \"boite\": [166, 179, 1001, 9], \"cadre\": \"sprite-choix-chambre\", \"element\": \"choix-chambre\", \"empreintePixels\": \"77bef643e56313a14d86434fde9d9d3ea833d447a4cde679a37a9ce254ca1b94\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 179, \"w\": 166, \"x\": 1001, \"y\": 9}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-choix-chambre-0001",
+    "parentSha256": "a74b85ba8fa8b8978c619012d000e7bddacd6ad537972361921b2ede6e8e6159",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-selecteur.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:04:00.161224+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-selecteur.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "content/assets/planches/atlas/p04-selecteur.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-choix-chambre de content/assets/planches/atlas/p04-selecteur.webp (empreinte de pixels 77bef643e56313a1)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-choix-chambre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-selecteur.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-selecteur.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ffdb76b88ac0082ef01f14f0e9aa20c2f9aa29c4d6aa13496ef9c668467c3f9f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

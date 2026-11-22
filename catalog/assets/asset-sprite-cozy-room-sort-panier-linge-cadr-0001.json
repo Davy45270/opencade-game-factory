@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:58:43.612549+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-panier-linge-0001",
+        "reason": "découpe brute de l'élément panier-linge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f82d30ef8b6bda46dfb26c0575e95509f55237e4a1d8c5cda8c04717c0c815a8",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "panier linge",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-panier-linge-0001",
+          "reason": "découpe brute de l'élément panier-linge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-panier-linge-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:58:43.289083+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-panier-linge » (content/assets/planches/atlas/p04-meubles.webp), forme normalisée par le jeu de l'élément panier-linge",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-panier-linge-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-panier-linge-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-panier-linge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panier-linge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-297.png, SHA-256 8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-meubles.json · cadre sprite-panier-linge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort panier-linge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "71e8d1d1d1d1f172",
+    "phash": "cb943c8f3c6b7061"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-panier-linge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panier-linge livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-meubles.webp (webp)\", \"boite\": [105, 124, 295, 464], \"cadre\": \"sprite-panier-linge\", \"element\": \"panier-linge\", \"empreintePixels\": \"ee8294171d35519b04f6e02f255cbd1b40cad5041de5df010c06167c491af009\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 124, \"w\": 105, \"x\": 295, \"y\": 464}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-panier-linge-0001",
+    "parentSha256": "5b302db753ad7406d8d752f5743a5dc0c374f1122d87b69a284bc2189910bbfc",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:58:43.612549+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "content/assets/planches/atlas/p04-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-panier-linge de content/assets/planches/atlas/p04-meubles.webp (empreinte de pixels ee8294171d35519b)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-panier-linge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "8b3c96a847317bd3f22a44316cb7919cc57fb21a0480e9721de810bde7059f20",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:51:54.115586+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-cloche-lumineuse-0001",
+        "reason": "découpe brute de l'élément cloche-lumineuse : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b183d01b8bed2f50ed9fbf8e967609e15d82d18b767bfd3d44d299357ddd6298",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "cloche lumineuse",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-cloche-lumineuse-0001",
+          "reason": "découpe brute de l'élément cloche-lumineuse : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-cloche-lumineuse-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:51:53.690068+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-cloche-lumineuse » (content/assets/planches/atlas/p02-objets.webp), forme normalisée par le jeu de l'élément cloche-lumineuse",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-cloche-lumineuse-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-cloche-lumineuse-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-cloche-lumineuse"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-cloche-lumineuse-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-238.png, SHA-256 b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-cloche-lumineuse"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort cloche-lumineuse (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "b261e8e4d4dc9c71",
+    "phash": "92cc6d306c7593c7"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-cloche-lumineuse-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-cloche-lumineuse livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-objets.webp (webp)\", \"boite\": [162, 215, 548, 762], \"cadre\": \"sprite-cloche-lumineuse\", \"element\": \"cloche-lumineuse\", \"empreintePixels\": \"fc15c0994925af2b0fe30b2c2286da0c291127f3f992d01855cd3cdeafe5ad9a\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 215, \"w\": 162, \"x\": 548, \"y\": 762}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-cloche-lumineuse-0001",
+    "parentSha256": "ac7093ed0b3b507ba17df2d2aa0c5cf604af3d312938d41b0921eca7fa7a9970",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:51:54.115586+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 45,
+        "path": "content/assets/planches/atlas/p02-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-cloche-lumineuse de content/assets/planches/atlas/p02-objets.webp (empreinte de pixels fc15c0994925af2b)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-cloche-lumineuse",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b230574450cff67df3f225f044d87cecac2dd605f3efbe128eb7bbe9fceb83ad",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

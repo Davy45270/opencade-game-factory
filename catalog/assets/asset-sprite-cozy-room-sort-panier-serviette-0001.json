@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T23:02:06.900528+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-panier-serviette-0001",
+        "reason": "découpe brute de l'élément panier-serviette : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c45d5e78f2903cd6543b208aebae73b7693081d4c466c6fa6ed5be080f7f324d",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "panier serviette",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-panier-serviette-0001",
+          "reason": "découpe brute de l'élément panier-serviette : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-panier-serviette-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T23:02:06.476849+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-panier-serviette » (content/assets/planches/atlas/p04-objets.webp), forme normalisée par le jeu de l'élément panier-serviette",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-panier-serviette-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-panier-serviette-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-panier-serviette"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panier-serviette-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-327.png, SHA-256 d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p04-objets.json · cadre sprite-panier-serviette"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort panier-serviette (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f0a2e8e9e9d1c179",
+    "phash": "cb9434203b4b7bcb"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-panier-serviette-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panier-serviette livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p04-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p04-objets.webp (webp)\", \"boite\": [119, 131, 1404, 283], \"cadre\": \"sprite-panier-serviette\", \"element\": \"panier-serviette\", \"empreintePixels\": \"175dd8f8305ead6a23fb70d500f0e64ecf420f736776792e7c02f49675a9cc99\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 131, \"w\": 119, \"x\": 1404, \"y\": 283}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-panier-serviette-0001",
+    "parentSha256": "21553de8a5c6989152cb3f259970c1f582de8a7c55be458d1b6f129985b6950e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p04-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T23:02:06.900528+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p04-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 381,
+        "path": "content/assets/planches/atlas/p04-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-panier-serviette de content/assets/planches/atlas/p04-objets.webp (empreinte de pixels 175dd8f8305ead6a)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-panier-serviette",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p04-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p04-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

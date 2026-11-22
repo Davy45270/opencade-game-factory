@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:50:32.306536+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-vue-cuisine-0001",
+        "reason": "découpe brute de l'élément vue-cuisine : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "851e357616ea5591e68f16217de904888da9f00d05b2bc1de61db5c50f79cee5",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "vue cuisine",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-vue-cuisine-0001",
+          "reason": "découpe brute de l'élément vue-cuisine : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-vue-cuisine-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:50:31.921001+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-vue-cuisine » (content/assets/planches/atlas/p01-vues.webp), forme normalisée par le jeu de l'élément vue-cuisine",
+  "dimensions": {
+    "height": 420,
+    "width": 420
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-vues.json · cadre sprite-vue-cuisine"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-vue-cuisine-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-227.png, SHA-256 c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p01-vues.json · cadre sprite-vue-cuisine"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort vue-cuisine (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f0cc87d4d676cc70",
+    "phash": "d5d35b1f4c4a0c71"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-vue-cuisine-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-vue-cuisine livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p01-vues.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p01-vues.webp (webp)\", \"boite\": [389, 421, 1116, 13], \"cadre\": \"sprite-vue-cuisine\", \"element\": \"vue-cuisine\", \"empreintePixels\": \"119596dbf8ace0151c788a44c531165c4ac62041b93a350d88f58d5effb4d7ed\", \"parametres\": {\"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 421, \"w\": 389, \"x\": 1116, \"y\": 13}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-vue-cuisine-0001",
+    "parentSha256": "00367c2bce38e4f71a8564639f8179b104af01fa00676cb953835b7cf4801686",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p01-vues.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:50:32.306536+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p01-vues.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 24,
+        "path": "content/assets/planches/atlas/p01-vues.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-vue-cuisine de content/assets/planches/atlas/p01-vues.webp (empreinte de pixels 119596dbf8ace015)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-vue-cuisine",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p01-vues.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p01-vues.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c543af42e7f4ab4a45a2b4c587693c70356ed035122e54b1669584f794ce1b06",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

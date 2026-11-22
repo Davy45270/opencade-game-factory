@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:52:25.162462+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-ours-panier-0001",
+        "reason": "découpe brute de l'élément ours-panier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ad3bc458598cf0bb17d2bb6828569bb1b04196ae57b255180861bc9324ad98ca",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "ours panier",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-ours-panier-0001",
+          "reason": "découpe brute de l'élément ours-panier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-ours-panier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:52:24.843402+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-ours-panier » (content/assets/planches/atlas/p02-objets.webp), forme normalisée par le jeu de l'élément ours-panier",
+  "dimensions": {
+    "height": 128,
+    "width": 128
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-ours-panier-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-ours-panier-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-ours-panier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-ours-panier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-242.png, SHA-256 ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-objets.json · cadre sprite-ours-panier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort ours-panier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "f9e07ef898ccc4e1",
+    "phash": "919f6a333a94b531"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-ours-panier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-ours-panier livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-objets.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-objets.webp (webp)\", \"boite\": [235, 246, 294, 740], \"cadre\": \"sprite-ours-panier\", \"element\": \"ours-panier\", \"empreintePixels\": \"eba9f565bcaefc3608cf32587a45ec74dc6474f5b46191541017a0d10fd89b60\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 246, \"w\": 235, \"x\": 294, \"y\": 740}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-ours-panier-0001",
+    "parentSha256": "fb014465a72bc65f748bc82994afb93013b0eed52cc5ebf8ef681ab5eb0e061b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-objets.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:52:25.162462+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-objets.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 129,
+        "path": "content/assets/planches/atlas/p02-objets.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-ours-panier de content/assets/planches/atlas/p02-objets.webp (empreinte de pixels eba9f565bcaefc36)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-ours-panier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-objets.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-objets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "ad987b7579481027eebbcd1645996ef014a4402452b221b12fadf120de622154",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

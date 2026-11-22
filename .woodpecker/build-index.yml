@@ -1,8 +1,10 @@
 # AT-12 (E122) en CI : l'index se reconstruit depuis catalog/ seul, et generated/ commité est à jour.
 # Un generated/ qui diffère après `assetctl index` est un index périmé ou non déterministe : échec.
 # Aucun secret. Rejeu local sans conteneur : scripts/ci-local.sh build-index
+# Agent de Contabo (HL-542) : workflow léger, sans construction d'image ni e2e ; tank01 garde
+# ses 2 places pour les jeux. Images par le proxy Harbor (IP tailnet de Contabo en liste blanche CrowdSec).
 labels:
-  host: tank01
+  host: contabo
 
 when:
   - event: push

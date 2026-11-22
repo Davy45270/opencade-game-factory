@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:50:47.264199+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-bibliotheque-arche-0001",
+        "reason": "découpe brute de l'élément bibliotheque-arche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "34a415321b9c74bb849858da54051b0717823d3e3f6e9ad692703b10526bf10e",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "bibliotheque arche",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-bibliotheque-arche-0001",
+          "reason": "découpe brute de l'élément bibliotheque-arche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-bibliotheque-arche-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:50:46.840100+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-bibliotheque-arche » (content/assets/planches/atlas/p02-meubles.webp), forme normalisée par le jeu de l'élément bibliotheque-arche",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-bibliotheque-arch-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-bibliotheque-arch-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-bibliotheque-arche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-bibliotheque-arche-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-229.png, SHA-256 83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p02-meubles.json · cadre sprite-bibliotheque-arche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort bibliotheque-arche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "4d8dba792969f1d1",
+    "phash": "9a36613666c96dc9"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-bibliotheque-arche-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-bibliotheque-arche livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p02-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p02-meubles.webp (webp)\", \"boite\": [387, 678, 1130, 14], \"cadre\": \"sprite-bibliotheque-arche\", \"element\": \"bibliotheque-arche\", \"empreintePixels\": \"f13ec9b2fca26284bde5a362a6a91807b4dd6141e98fecccd24a0991e98964ce\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 678, \"w\": 387, \"x\": 1130, \"y\": 14}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-bibliotheque-arche-0001",
+    "parentSha256": "cf1378d8a534085132d893de3265a1342dc3bb187adf9cbf90a29ae3fc709e2b",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p02-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:50:47.264199+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p02-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3,
+        "path": "content/assets/planches/atlas/p02-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-bibliotheque-arche de content/assets/planches/atlas/p02-meubles.webp (empreinte de pixels f13ec9b2fca26284)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-bibliotheque-arche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p02-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p02-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "83444722d0e6b7879c63822d616d6a45c1237e5ac3b73a9491a7f3467c115683",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,203 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-21T22:54:40.251674+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pouf-rose-0001",
+        "reason": "découpe brute de l'élément pouf-rose : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d3de639cf4712582d6495120812114c6af9de7e37e1f9f6b3d188da9794ed43a",
+      "filters": {
+        "tag": "cozy-room-sort"
+      },
+      "query": "pouf rose",
+      "registryCommit": "0a6aaa14ec11194f57fd3288bfc5d9bf59d12232",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pouf-rose-0001",
+          "reason": "découpe brute de l'élément pouf-rose : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pouf-rose-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-21T22:54:39.871652+00:00"
+    }
+  },
+  "description": "cozy-room-sort — cadre livré « sprite-pouf-rose » (content/assets/planches/atlas/p03-meubles.webp), forme normalisée par le jeu de l'élément pouf-rose",
+  "dimensions": {
+    "height": 192,
+    "width": 192
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-cozy-room-sort-pouf-rose-cadre-l-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-cozy-room-sort-pouf-rose-cadre-l-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-pouf-rose"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pouf-rose-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-262.png, SHA-256 c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@b42e93403815:content/assets/planches/atlas/p03-meubles.json · cadre sprite-pouf-rose"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "Illustrations de Cozy Room Sort par Davy45270 : CC-BY-4.0, déclarée par lui dans le dépôt et rétablie sur sa consigne (HL-538, 2026-11-21), après découpe refaite depuis la planche (empreinte identique à provenance.json).",
+    "method": "déclaration du titulaire, découpe vérifiée",
+    "ref": "cozy-room-sort README.md (« Illustrations de Davy45270 sous licence CC BY 4.0 ») ; content/assets/provenance.json (licence par dessin) ; HL-538"
+  },
+  "name": "cozy-room-sort pouf-rose (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "cozy-room-sort",
+  "perceptual": {
+    "dhash": "8033f0ccb0c8e8e8",
+    "phash": "c13e2ae1b4851fda"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (illustrations ; README du jeu)",
+    "derivedFrom": "asset-sprite-pouf-rose-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pouf-rose livré par cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa dans content/assets/planches/atlas/p03-meubles.webp",
+      "recette {\"atlas\": \"content/assets/planches/atlas/p03-meubles.webp (webp)\", \"boite\": [146, 109, 676, 149], \"cadre\": \"sprite-pouf-rose\", \"element\": \"pouf-rose\", \"empreintePixels\": \"aa19a3b465a3cdafc35240bb6e86ab0f60d963a606d6fcb160499b8330811f5c\", \"parametres\": {\"marge\": 6, \"transformations\": [\"Découpe avec marge\", \"Mise à l’échelle dans un cadre carré transparent\", \"Assemblage en atlas WebP\"]}, \"regionDuBrut\": {\"h\": 109, \"w\": 146, \"x\": 676, \"y\": 149}, \"table\": \"cozy-room-sort@b42e934038154858a52afe8d6639e989f16a7caa:content/assets/provenance.json\", \"tableSha256\": \"3e9b11935d608a829a55932fe43884ce6e2224c3fec79925ae11fbecf61d4a37\"}"
+    ],
+    "parentId": "asset-sprite-pouf-rose-0001",
+    "parentSha256": "f2aa4857ca72971d5cf45476ee9fc6a1dc391db981c9bae7ae36a2c04dc207e5",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "cozy-room-sort",
+    "p03-meubles.provenance",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-21T22:54:40.251674+00:00",
+  "usages": [
+    {
+      "assetPath": "content/assets/planches/atlas/p03-meubles.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 402,
+        "path": "content/assets/planches/atlas/p03-meubles.json"
+      },
+      "commit": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "evidence": [
+        "importer_livre : cadre sprite-pouf-rose de content/assets/planches/atlas/p03-meubles.webp (empreinte de pixels aa19a3b465a3cdaf)"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "sprite-pouf-rose",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "content/assets/planches/atlas/p03-meubles.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "atlas-frame",
+      "scene": "content/assets/planches/atlas/p03-meubles.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "c25007f50ae7dea32cadadc1c0c8d06ef2989b187476811791f022220eaf22eb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

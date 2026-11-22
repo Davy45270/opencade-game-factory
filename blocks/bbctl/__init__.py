@@ -19,9 +19,17 @@ from .liens import link_specs
 from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
-from .search import GraphUnavailable, search
+from .search import GraphUnavailable, read_graph, search
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
+
+
+class Unknown(GraphUnavailable):
+    """ARCH-001 AT-02 : l'existant n'a pas pu être lu ; il est inconnu, pas absent."""
+
+
+def graph_path_of(args):
+    return Path(args.graph or os.environ.get("BBCTL_GRAPH") or "~/graphify/public/graph.json").expanduser()
 CODE_HELP = """Codes de retour
   0 succès
   1 contrôle en échec
@@ -121,6 +129,8 @@ def parser():
     sub["decide"].add_argument("--candidate", required=True)
     sub["decide"].add_argument("--choice", choices=CHOICES, required=True)
     sub["decide"].add_argument("--reason", required=True)
+    sub["decide"].add_argument("--graph", type=Path, help="build seulement : graphe graphify consulté (défaut : BBCTL_GRAPH "
+                               "ou ~/graphify/public/graph.json) ; illisible = existant inconnu, build refusé (AT-02).")
     return cli
 
 
@@ -201,6 +211,15 @@ def run(args, root):
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
         decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason}
+        decision.pop("searchGraphSha256", None)
+        if args.choice == "build":
+            # AT-02 : construire = remplacer ce qui existe peut-être. Sans recherche interne lisible, l'existant est
+            # INCONNU (jamais « absent ») : la décision est bloquée, rien n'est écrit.
+            try:
+                _, digest = read_graph(graph_path_of(args))
+            except GraphUnavailable as exc:
+                raise Unknown(f"Existant inconnu, décision build bloquée : {exc}") from exc
+            decision["searchGraphSha256"] = digest
         changed = False
         if block["decision"] != decision or args.expect is not None:
             block["decision"] = decision
@@ -249,6 +268,8 @@ def main(argv=None):
         code = ExitCode.OK
     except UsageError as exc:
         code, payload = ExitCode.USAGE, {"status": "usage", "error": str(exc)}
+    except Unknown as exc:
+        code, payload = ExitCode.IO, {"status": "unknown", "error": str(exc)}
     except (GraphUnavailable, OSError, ImportError) as exc:
         code, payload = ExitCode.IO, {"status": "source-unavailable", "error": str(exc)}
     except Uncovered as exc:

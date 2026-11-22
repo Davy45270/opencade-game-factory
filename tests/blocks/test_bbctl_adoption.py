@@ -228,12 +228,13 @@ class Gate(Base):
 
     def test_T09_derogation_approuvee_passe_avec_audit(self) -> None:
         d = self.u.usine / "blocks" / "derogations.json"
-        d.write_text(json.dumps({"local:jeu:src/engines/physique": {"ref": "HL-525 7-3000", "reason": "prototype"},
-                                 "npm:howler@unresolved": {"ref": "pas une référence", "reason": "x"}}))
+        d.write_text(json.dumps({"local:jeu:src/engines/physique": {"ref": "HL-525 7-3000", "reason": "prototype",
+                                                                      "expire": "2099-12-31"},
+                                 "npm:howler@unresolved": {"ref": "pas une référence", "reason": "x", "expire": "2099-12-31"}}))
         r = self.gate()
         self.assertEqual(r.rc, 1, r)                                             # référence invalide : pas de dérogation
         self.assertEqual(r.json["uncovered"], ["npm:howler@unresolved"])
-        d.write_text(json.dumps({k: {"ref": "HL-525 7-3000", "reason": "prototype"}
+        d.write_text(json.dumps({k: {"ref": "HL-525 7-3000", "reason": "prototype", "expire": "2099-12-31"}
                                  for k in ("local:jeu:src/engines/physique", "npm:howler@unresolved")}))
         r = self.gate()
         self.assertEqual(r.rc, 0, r)

@@ -5,7 +5,7 @@
 - --expect : une fiche modifiée depuis sa lecture n'est jamais écrasée (T13) ;
 - journal `blocks/journal.jsonl` : une ligne par écriture, empreintes avant/après ;
 - gate : toute brique NOUVELLE entre deux commits d'un dépôt de jeu doit être décidée au catalogue ou couverte par une
-  dérogation approuvée (référence HL-n 7-n) ; la dérogation utilisée est journalisée (T09).
+  dérogation approuvée (référence HL-n 7-n) À ÉCHÉANCE (expire AAAA-MM-JJ, ARCH-10 E065) ; la dérogation utilisée ou refusée est journalisée (T09).
 """
 
 import hashlib
@@ -23,6 +23,23 @@ from .discover import Repo, observe
 REUSE = {"reuse", "adapt", "wrap", "fork"}
 TCO = ("integration", "adaptation", "maintenance", "misesAJour", "tests", "detteSecurite", "sortie")
 REF = re.compile(r"HL-[0-9]+ 7-[0-9]+")
+ECHEANCE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
+
+
+def motif_echeance(expire, aujourdhui=None):
+    """ARCH-10 (E065) : None si la dérogation est en cours ; sinon « sans-echeance », « echeance-illisible » ou « echue »
+    (le jour de l'échéance compris : échue le lendemain). Date du jour en UTC, comme la CI des jeux."""
+    if expire is None or not str(expire).strip():
+        return "sans-echeance"
+    texte = str(expire).strip()
+    try:
+        if not ECHEANCE.fullmatch(texte):
+            raise ValueError(texte)
+        fin = datetime.strptime(texte, "%Y-%m-%d").date()
+    except ValueError:
+        return "echeance-illisible"
+    jour = aujourdhui or datetime.now(timezone.utc).date()
+    return "echue" if jour > fin else None
 
 
 class Conflict(ValueError):
@@ -106,15 +123,20 @@ def gate(blocks, records, repo_dir, base, head, name):
     decided = {b.get("discovery", {}).get("key") for _, b in records.values() if b["decision"].get("status") == "decided"}
     derogation_file = blocks / "derogations.json"
     derogations = read_json(derogation_file) if derogation_file.is_file() else {}
-    covered, used, uncovered = [], [], []
+    covered, used, uncovered, refused = [], [], [], []
     for key in new:
         entry = derogations.get(key) if isinstance(derogations, dict) else None
         if key in decided:
             covered.append(key)
-        elif isinstance(entry, dict) and REF.fullmatch(str(entry.get("ref", ""))) and str(entry.get("reason", "")).strip():
-            used.append({"key": key, "ref": entry["ref"], "reason": entry["reason"]})
-        else:
-            uncovered.append(key)
+            continue
+        if isinstance(entry, dict) and REF.fullmatch(str(entry.get("ref", ""))) and str(entry.get("reason", "")).strip():
+            motif = motif_echeance(entry.get("expire"))
+            if motif is None:
+                used.append({"key": key, "ref": entry["ref"], "reason": entry["reason"], "expire": entry["expire"]})
+                continue
+            # ARCH-10 (E065) : une exception sans échéance, échue ou illisible ne couvre rien, et le refus est DIT.
+            refused.append({"key": key, "ref": entry["ref"], "expire": entry.get("expire"), "motif": motif})
+        uncovered.append(key)
     # BB-001 T06 : une création bloquée qui a déjà son composant au catalogue (même écosystème, même nom, autre
     # dépôt ou autre version) reçoit la brique existante en proposition de réutilisation. Proposer n'est pas décider :
     # le gate reste bloqué tant que la décision n'est pas enregistrée.
@@ -126,11 +148,11 @@ def gate(blocks, records, repo_dir, base, head, name):
                       and b.get("discovery", {}).get("key") != key)
         if same:
             proposals[key] = [{"block": block_id, "choice": "reuse"} for block_id in same]
-    if used:
+    if used or refused:
         journal(blocks, {"command": "gate", "repo": name, "base": commits[0], "head": commits[1],
-                         "derogations": [u["key"] for u in used]})
+                         "derogations": [u["key"] for u in used], "refusedDerogations": [r["key"] for r in refused]})
     if uncovered:
         evenements.emettre("bb.blocked", "blocked", name, [], {"uncovered": uncovered, "head": commits[1]}, commits[1],
                            commit=commits[1])
     return {"repo": name, "base": commits[0], "head": commits[1], "new": new, "decided": covered,
-            "derogations": used, "uncovered": uncovered, "proposals": proposals}
+            "derogations": used, "refusedDerogations": refused, "uncovered": uncovered, "proposals": proposals}

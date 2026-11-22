@@ -30,6 +30,7 @@ import pathlib
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 
 ICI = pathlib.Path(__file__).resolve().parent
 GABARIT = ICI / "gabarit"
@@ -183,6 +184,7 @@ def rendre(depot: pathlib.Path) -> dict[str, str]:
 
 
 REF_HL = re.compile(r"HL-[0-9]+ 7-[0-9]+")
+ECHEANCE = re.compile(r"[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])")
 
 
 def briques_du_jeu(usine: pathlib.Path, projet) -> dict:
@@ -204,9 +206,15 @@ def briques_du_jeu(usine: pathlib.Path, projet) -> dict:
         brut = json.loads((usine / "blocks" / "derogations.json").read_text(encoding="utf-8"))
     except (OSError, ValueError):
         brut = {}
+    aujourdhui = datetime.now(timezone.utc).date().isoformat()
     for key, entry in sorted((brut if isinstance(brut, dict) else {}).items()):
-        if isinstance(entry, dict) and REF_HL.fullmatch(str(entry.get("ref", ""))):
-            derogations[key] = entry["ref"]
+        # ARCH-10 (E065) : seule une dérogation à échéance lisible et non passée part vers le jeu ; la CI du jeu relit
+        # l'échéance le jour où elle tourne (reutilisation.mjs).
+        if not isinstance(entry, dict) or not REF_HL.fullmatch(str(entry.get("ref", ""))):
+            continue
+        expire = str(entry.get("expire", "")).strip()
+        if ECHEANCE.fullmatch(expire) and expire >= aujourdhui:
+            derogations[key] = {"ref": entry["ref"], "expire": expire}
     return {"repo": projet, "decided": sorted(decided), "derogations": derogations}
 
 

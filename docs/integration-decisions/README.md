@@ -3,7 +3,7 @@
 Une ADR par arbitrage de David sur l'intégration de l'usine : HL-525 7-2955 (relecture ARCH-001, REG-003, BB-001)
 et HL-538 7-2949 (relecture OPS-001, EXT-001, EXT-002). Le texte de l'arbitrage est cité ; la décision fait foi dans
 le commentaire YouTrack, l'ADR en garde la trace versionnée avec ses alternatives et son retour arrière.
-Contrôle : `tests/specs/test_e014_adr_integration.py`.
+Contrôle : `specs/tests/contracts/test_e014_adr_integration.py`.
 
 | ADR | Décision | Source |
 |---|---|---|

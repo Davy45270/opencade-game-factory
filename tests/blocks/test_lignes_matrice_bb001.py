@@ -14,7 +14,7 @@ import shutil
 import sqlite3
 import unittest
 
-from tests.specs._outil import Docs
+from specs.tests._outil import Docs
 
 from ._outil import Usine, fiche, sha
 

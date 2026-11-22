@@ -58,53 +58,11 @@
       "type": "array",
       "uniqueItems": true,
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "type",
-          "target"
-        ],
-        "properties": {
-          "type": {
-            "enum": [
-              "requires",
-              "implements",
-              "tested-by",
-              "supersedes",
-              "conflicts-with",
-              "reuses",
-              "consumes",
-              "produces",
-              "deployed-in"
-            ]
-          },
-          "target": {
-            "type": "string",
-            "pattern": "^[A-Z][A-Z0-9]*-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
-          },
-          "range": {
-            "type": "string",
-            "pattern": "^(?:\\^|~|>=|=)?(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
-          }
-        }
+        "$ref": "urn:opencade:specs:dependency"
       }
     },
     "arbitration": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "version",
-        "ref"
-      ],
-      "properties": {
-        "version": {
-          "$ref": "#/$defs/version"
-        },
-        "ref": {
-          "type": "string",
-          "pattern": "^HL-[0-9]+ 7-[0-9]+$"
-        }
-      }
+      "$ref": "urn:opencade:specs:decision#/$defs/arbitrage"
     },
     "title": {
       "type": "string",
@@ -128,12 +86,7 @@
       "pattern": "^HL-[0-9]+ 7-[0-9]+$"
     },
     "implementation": {
-      "enum": [
-        "not-started",
-        "partial",
-        "implemented",
-        "verified"
-      ]
+      "$ref": "urn:opencade:specs:implementation"
     },
     "evidence": {
       "enum": [
@@ -166,7 +119,7 @@
         },
         "path": {
           "type": "string",
-          "pattern": "^specs/registry/SPEC-[A-Z0-9-]+\\.json$"
+          "pattern": "^specs/registry/(?:games|platform|shared|decisions)/SPEC-[A-Z0-9-]+\\.json$"
         },
         "importedFrom": {
           "type": "object",
@@ -212,8 +165,7 @@
       "type": "array",
       "uniqueItems": true,
       "items": {
-        "type": "string",
-        "pattern": "^(?:BB|ADR)-[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+        "$ref": "urn:opencade:specs:decision#/$defs/reference"
       }
     }
   },

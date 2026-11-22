@@ -3,7 +3,7 @@
 # Contrats transverses
 
 Sources :
-- `contracts/index.json` (5ecc3f931383)
+- `contracts/index.json` (4e2b440a14ad)
 
 Règle : une version mineure ajoute sans retirer : chaque exemple de chaque version publiée reste valide
 

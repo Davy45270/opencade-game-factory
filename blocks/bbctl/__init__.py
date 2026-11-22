@@ -322,7 +322,7 @@ def check_spec_links(root, records):
     if not registry.is_dir():
         return "registre-absent"
     known = set()
-    for path in registry.glob("SPEC-*.json"):
+    for path in registry.rglob("SPEC-*.json"):
         record = read_json(path)
         if isinstance(record, dict) and isinstance(record.get("id"), str):
             known.add(record["id"])

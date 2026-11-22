@@ -3,10 +3,10 @@
 # Architecture de l'usine (carte des modules)
 
 Sources :
-- `specctl` (65f84bfa4576)
+- `specctl` (bcb82a1c5c01)
 - `bbctl` (f415b91cf8bb)
 - `assetctl` (723ece642291)
-- `contracts/index.json` (5ecc3f931383)
+- `contracts/index.json` (4e2b440a14ad)
 
 | Module | Rôle |
 |---|---|

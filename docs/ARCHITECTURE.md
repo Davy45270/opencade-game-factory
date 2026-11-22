@@ -297,7 +297,7 @@ enchaîne plusieurs modules :
 | `6` | Simulation ou validation indéterminée (`inconclusive`, budget épuisé) : jamais un succès | 1 |
 | `7` | Erreur d’infrastructure : git, source illisible, module désactivé (`ASSETCTL_LEVELS=off`) | 4 |
 
-**Même règle pour `specctl` (REG-003 § 6)**, qui rend les codes de sa spec (`specs/specctl.CODES_REG003`) :
+**Même règle pour `specctl` (REG-003 § 6)**, qui rend les codes de sa spec (`specs/tools/specctl.CODES_REG003`) :
 
 | Code `specctl` (REG-003) | Signification | Code commun équivalent |
 | --- | --- | --- |

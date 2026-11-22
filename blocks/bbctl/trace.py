@@ -50,8 +50,8 @@ def trace(records, blocks, block_id):
     specs = sorted(block.get("specIds") or [])
     requirements = []
     for spec in specs:
-        path = blocks.parent / "specs" / "registry" / f"{spec}.json"
-        if path.is_file():
+        path = next((blocks.parent / "specs" / "registry").rglob(f"{spec}.json"), None)
+        if path and path.is_file():
             requirements += [r["id"] for r in read_json(path).get("requirements") or []]
     repo = origin.get("repo")
     tests = [f"{repo}/{t}" for t in (block.get("analysis") or {}).get("tests") or []]

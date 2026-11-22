@@ -315,7 +315,7 @@ class SpecResolue(unittest.TestCase):
     @unittest.skipUnless(NODE, "node absent")
     def test_spec_resolue_passe(self) -> None:
         sys.path.insert(0, str(RACINE))
-        from tests.specs._outil import SPEC_A, Docs  # noqa: PLC0415
+        from specs.tests._outil import SPEC_A, Docs  # noqa: PLC0415
         d = Docs()
         try:
             d.archive("jeu-temoin", {"Jeu_Temoin_v1.0.md.txt": SPEC_A})

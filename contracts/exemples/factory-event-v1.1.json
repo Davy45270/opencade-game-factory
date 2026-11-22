@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1.1,
+  "eventId": "exemple:fin:0001",
+  "occurredAt": "2026-11-22T02:23:24.000Z",
+  "source": "codex-file.sh",
+  "portfolioId": "homelab",
+  "projectId": "six-de-chaque",
+  "workflowId": "codex-file",
+  "workflowVersion": "hl525-1",
+  "runId": "codex-file:zalman:000000000232.375207:1763778203",
+  "eventType": "codex.run.finished",
+  "status": "success",
+  "evidence": [
+    {
+      "uri": "file:///run/codex/e018.status",
+      "kind": "codex-status"
+    }
+  ],
+  "metadata": {
+    "rc": 0
+  },
+  "agentId": "codex",
+  "taskId": "HL-525",
+  "traceId": "arch001-e018-mesure",
+  "specRefs": [
+    "SPEC-ARCH-001"
+  ],
+  "buildingBlockRefs": [
+    "local:opencade-asset-registry:blocks/bbctl"
+  ],
+  "commitSha": "547e29c70f159f96a291f8816b2de52295ac6366"
+}

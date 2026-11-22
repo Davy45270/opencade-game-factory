@@ -7,6 +7,8 @@
 #   scripts/ci-local.sh build-index       .woodpecker/build-index.yml
 #   scripts/ci-local.sh scan              .woodpecker/scan.yml (réseau : copies GitHub publiques)
 #   scripts/ci-local.sh release           .woodpecker/release.yml
+#   scripts/ci-local.sh specs             .woodpecker/specs.yml (module specs/, REG-003)
+#   scripts/ci-local.sh modules           .woodpecker/modules.yml (modules blocks/ et ci/, BB-001 et gabarit)
 #   scripts/ci-local.sh controle-release  contrôle du SBOM et du manifeste de licences (appelé par release.yml)
 #
 # Variables :
@@ -125,6 +127,24 @@ case "$PIPELINE" in
       echo "gitleaks absent : installer gitleaks v8.30.1, ou CI_LOCAL_SANS_GITLEAKS=1 pour sauter l'étape en le disant"
       exit 4
     fi
+    ;;
+  specs)
+    dependances
+    etape oracles-specctl
+    python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
+    etape registre
+    ./specctl --json validate
+    ./specctl --json verify
+    etape index
+    ./specctl --json index --check
+    etape sbom-specctl
+    ./specctl --json sbom --out "${TMPDIR:-/tmp}/specctl.cdx.json"
+    ;;
+  modules)
+    dependances
+    etape oracles-bbctl-et-gabarit
+    python3 -m unittest discover -s tests/blocks -t . -p 'test_*.py'
+    python3 -m unittest discover -s tests/ci -t . -p 'test_*.py'
     ;;
   build-index)
     dependances

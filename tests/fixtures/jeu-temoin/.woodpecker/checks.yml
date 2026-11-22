@@ -1,0 +1,75 @@
+# GÉNÉRÉ par l'usine (ci/woodpecker.py, gabarit 7360c9385b58) : ne pas éditer à la main.
+# Paramètres propres au jeu : .woodpecker/usine.json ; puis régénérer.
+# Contrôles communs : dépendances, lint, types, tests, build (empreinte de dist/ pour la publication), SBOM CycloneDX
+# VÉRIFIÉ (pas un simple grep), audit, licences, secrets. L'ancre `&node` est lue par l'outil de publication.
+# Étiquette de CAPACITÉ, neutre : seul l'agent qui porte capacite=e2e prend ce travail (jamais un poste sans elle).
+labels:
+  capacite: e2e
+
+when:
+  - event: push
+    branch: main
+  - event: [pull_request, manual]
+
+steps:
+  - name: npm ci
+    image: &node docker.io/library/node:26
+    pull: true
+    commands:
+      - node --version
+      - npm ci
+  - name: spec résolue
+    image: *node
+    commands:
+      # REG-06 : une PR est refusée sans résolution des specs (fichier écrit par l'usine à la génération de cette CI).
+      - node .woodpecker/usine/spec-resolue.mjs
+  - name: réutilisation (avertissement)
+    image: *node
+    commands:
+      # BB-001 § 5 : brique nouvelle sans recherche documentée = avertissement (non bloquant pour l'instant).
+      # Rapport : reutilisation-rapport.json, recopié en fin de journal de l'étape.
+      - node .woodpecker/usine/reutilisation.mjs
+  - name: lint
+    image: *node
+    commands:
+      - npm run --if-present lint
+  - name: typecheck
+    image: *node
+    commands:
+      - npm run --if-present typecheck
+  - name: test
+    image: *node
+    commands:
+      # La suite unitaire COMPLÈTE, à chaque push : deux lots écrits en parallèle passent chacun leurs tests ciblés,
+      # et c'est leur somme qui casse. En local, on garde les tests ciblés ; ici, jamais de filtre.
+      - npm test
+  - name: build
+    image: *node
+    commands:
+      - npm run build
+      - sha256sum dist/index.html
+      - echo "empreinte dist $(cd dist && find . -type f -print0 | LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -c1-64)"
+  - name: sbom
+    image: *node
+    commands:
+      - npm sbom --sbom-format cyclonedx --sbom-type application --package-lock-only > sbom.json
+      - node .woodpecker/usine/verifier-sbom.mjs sbom.json
+      - sha256sum sbom.json
+  - name: audit et licences
+    image: *node
+    commands:
+      - npm audit --audit-level=high
+      - npm run --if-present check:licenses
+  - name: secrets
+    image: docker.io/zricethezav/gitleaks:v8.30.1
+    commands:
+      - gitleaks detect --source . --no-banner --redact
+  - name: journaux d'agents hors dépôt
+    image: *node
+    commands:
+      # Les journaux et prompts d'agents (.codex-logs) ne se versionnent jamais dans un dépôt de jeu public.
+      - test -z "$(git ls-files .codex-logs .claude 2>/dev/null)" || { git ls-files .codex-logs .claude; exit 1; }
+  - name: assets du jeu
+    image: *node
+    commands:
+      - npm run --if-present assets:check

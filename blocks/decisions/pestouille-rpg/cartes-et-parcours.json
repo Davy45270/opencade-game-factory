@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "Schéma de carte d’origine, graphe et transitions du moteur",
+      "licenseRaw": "MIT dans le dépôt",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Réutilisés pour valider les plans et arbitrer les transitions du slice.",
+      "version": null
+    },
+    {
+      "candidate": "Chargeur Tilemap de Phaser, déjà présent côté rendu",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Lit le JSON Tiled exporté. La scène garde les fonds des planches. Le moteur calcule les collisions et l’atteignabilité sans navigateur. [API Tilemap](https://docs.phaser.io/api-documentation/class/tilemaps-tilemap)",
+      "version": null
+    },
+    {
+      "candidate": "Tiled et export JSON",
+      "licenseRaw": "GPL pour l’éditeur autonome",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "Les couches et propriétés conviennent à un outil de création de cartes. Les plans du MVP sont déjà versionnés dans le format JSON source et utilisent une couche de décor déclarative. [Format JSON et export CLI](https://doc.mapeditor.org/en/stable/reference/json-map-format/)",
+      "version": null
+    },
+    {
+      "candidate": "PathFinding.js",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "Fournit plusieurs algorithmes de recherche sur grille. Le chemin de campagne doit aussi tenir compte des objectifs, des transitions entre cartes et des portes à drapeaux. La bibliothèque demanderait cet adaptateur. [Sources et licence](https://github.com/qiao/PathFinding.js)",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-CARTES-ET-PARCOURS",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/cartes-et-parcours.md",
+    "repo": "pestouille-rpg",
+    "sha256": "371f01b10f6abc654e322e0cf27a96de81d3dbfc185b7c98891c387d93004add"
+  }
+}

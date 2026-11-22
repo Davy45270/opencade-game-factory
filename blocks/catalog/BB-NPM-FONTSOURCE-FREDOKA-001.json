@@ -1,0 +1,53 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:@fontsource/fredoka@5.2.8"
+  },
+  "id": "BB-NPM-FONTSOURCE-FREDOKA-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "external-library",
+  "name": "@fontsource/fredoka",
+  "observedIn": [
+    {
+      "commitSha": "d7b66b968c30fd9f0b4cb2238e98eec45652ca89",
+      "path": "package.json",
+      "repo": "petit-astronome"
+    },
+    {
+      "commitSha": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "path": "package.json",
+      "repo": "tictac"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "OFL-1.1",
+    "repositoryUrl": null,
+    "version": "5.2.8"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [],
+  "usedBy": [
+    "petit-astronome",
+    "tictac"
+  ]
+}

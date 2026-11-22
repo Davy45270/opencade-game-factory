@@ -127,4 +127,7 @@ steps:
       # origin/<cible> vient de l'étape clone (fetch_target_branch) ; absente, le contrôle échoue (pas de vert muet).
       - git rev-parse --verify -q "refs/remotes/origin/$$CIBLE^{commit}" >/dev/null || { echo "origin/$$CIBLE absente du clone"; exit 1; }
       - echo "base origin/$$CIBLE = $(git rev-parse "origin/$$CIBLE")"
-      - ./assetctl validate --base "origin/$$CIBLE" --json
+      # Base = point de divergence avec la cible : ce que la PR change, pas ce que la cible a reçu depuis (le 22/11,
+      # usine → main voyait 68 fiches « supprimées » parce que main avait avancé pendant la CI).
+      - BASE="$(git merge-base "origin/$$CIBLE" HEAD)" && echo "point de divergence $$BASE"
+      - ./assetctl validate --base "$$BASE" --json

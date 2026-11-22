@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "`boardgame.io` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "moteur de jeux au tour par tour complet (phases, tours, rejeu) ; impose son client, son serveur et son état ; aucune règle de combat fournie",
+      "version": "0.50.2"
+    },
+    {
+      "candidate": "`xstate` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "machines à états typées ; décrit bien les phases, pas les calculs de dégâts ni le PRNG ; ajoute une dépendance d'exécution",
+      "version": "5.33.4"
+    },
+    {
+      "candidate": "`immer` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "copies immuables commodes ; `structuredClone` du langage suffit pour un état de cette taille",
+      "version": "11.2.10"
+    },
+    {
+      "candidate": "Réducteur du dépôt `packages/combat/src/combat.ts`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "`resolveRound(combat, commandes, règles)` déjà écrit pour le slice, branché sur le PRNG du moteur",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-COMBAT-VERSIONNE",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/combat-versionne.md",
+    "repo": "pestouille-rpg",
+    "sha256": "6a71004a913cf145e79594c4c1b72d5e54a1548ad92e35ef1d0903452a1702f8"
+  }
+}

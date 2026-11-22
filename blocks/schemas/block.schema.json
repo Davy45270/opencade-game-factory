@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Building block BB-001",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "kind", "origin", "capabilities", "interfaces", "specIds", "usedBy", "quality", "decision", "provenance"],
+  "if": {"properties": {"kind": {"enum": ["internal-package", "game-local-module"]}}},
+  "then": {"properties": {"origin": {"required": ["repo", "path"]}}},
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "nullableText": {"type": ["string", "null"], "minLength": 1},
+    "texts": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+  },
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^BB-[A-Z0-9]+(?:-[A-Z0-9]+)*-[0-9]{3}(?![\\s\\S])"},
+    "name": {"$ref": "#/$defs/text"},
+    "kind": {"enum": ["internal-package", "shared-library", "game-local-module", "external-library", "cli-tool", "service", "template", "algorithm", "test-harness", "workflow", "generator", "renderer-adapter"]},
+    "origin": {
+      "type": "object",
+      "required": ["repositoryUrl", "licenseSpdx", "commitSha"],
+      "dependentRequired": {"repo": ["path"], "path": ["repo"]},
+      "properties": {
+        "repositoryUrl": {"$ref": "#/$defs/nullableText", "format": "uri"},
+        "licenseSpdx": {"$ref": "#/$defs/text"},
+        "commitSha": {"type": ["string", "null"], "pattern": "^(?:[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$"},
+        "repo": {"$ref": "#/$defs/text"},
+        "path": {"$ref": "#/$defs/text"},
+        "version": {"$ref": "#/$defs/nullableText"}
+      }
+    },
+    "capabilities": {"$ref": "#/$defs/texts"},
+    "interfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["language", "runtime"],
+        "properties": {
+          "language": {"$ref": "#/$defs/text"},
+          "runtime": {"$ref": "#/$defs/text"}
+        }
+      }
+    },
+    "specIds": {"$ref": "#/$defs/texts"},
+    "usedBy": {"$ref": "#/$defs/texts"},
+    "quality": {
+      "type": "object",
+      "required": ["status", "sbomRef", "securityReportRef"],
+      "properties": {
+        "status": {"enum": ["discovered", "candidate", "evaluated", "approved", "adopted", "deprecated", "rejected", "blocked"]},
+        "sbomRef": {"$ref": "#/$defs/nullableText"},
+        "securityReportRef": {"$ref": "#/$defs/nullableText"}
+      }
+    },
+    "decision": {
+      "type": "object",
+      "required": ["status", "rationale"],
+      "properties": {
+        "status": {"enum": ["pending", "decided"]},
+        "rationale": {"$ref": "#/$defs/nullableText"},
+        "choice": {"enum": ["reuse", "adapt", "wrap", "fork", "build", "defer"]}
+      },
+      "if": {"properties": {"status": {"const": "decided"}}},
+      "then": {"required": ["choice"], "properties": {"rationale": {"type": "string", "pattern": "\\S"}}}
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["discoveredBy", "verifiedAt"],
+      "properties": {
+        "discoveredBy": {"$ref": "#/$defs/text"},
+        "verifiedAt": {"$ref": "#/$defs/nullableText", "format": "date-time"}
+      }
+    }
+  }
+}

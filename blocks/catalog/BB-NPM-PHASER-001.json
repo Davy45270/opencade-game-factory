@@ -1,0 +1,62 @@
+{
+  "capabilities": [],
+  "decision": {
+    "rationale": null,
+    "status": "pending"
+  },
+  "discovery": {
+    "ecosystem": "npm",
+    "key": "npm:phaser@4.2.1"
+  },
+  "id": "BB-NPM-PHASER-001",
+  "interfaces": [
+    {
+      "language": "javascript",
+      "runtime": "browser"
+    }
+  ],
+  "kind": "external-library",
+  "name": "phaser",
+  "observedIn": [
+    {
+      "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+      "path": "apps/web/package.json",
+      "repo": "cozy-room-sort"
+    },
+    {
+      "commitSha": "172156af3849e6061e3706166a991c77cf95528a",
+      "path": "package.json",
+      "repo": "opencade"
+    },
+    {
+      "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+      "path": "packages/renderer-phaser/package.json",
+      "repo": "pestouille-rpg"
+    }
+  ],
+  "origin": {
+    "commitSha": null,
+    "licenseSpdx": "MIT",
+    "repositoryUrl": null,
+    "version": "4.2.1"
+  },
+  "provenance": {
+    "discoveredBy": "bbctl discover",
+    "verifiedAt": null
+  },
+  "quality": {
+    "sbomRef": null,
+    "securityReportRef": null,
+    "status": "discovered"
+  },
+  "schemaVersion": "1.0",
+  "specIds": [
+    "SPEC-COZY-ROOM-SORT",
+    "SPEC-PESTOUILLE-RPG"
+  ],
+  "usedBy": [
+    "cozy-room-sort",
+    "opencade",
+    "pestouille-rpg"
+  ]
+}

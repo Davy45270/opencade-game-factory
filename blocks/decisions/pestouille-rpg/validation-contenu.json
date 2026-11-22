@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "candidate": "`ajv` 8",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "référence JSON Schema 2020-12, mode strict, messages par chemin ; déjà employé par Sextuor",
+      "version": null
+    },
+    {
+      "candidate": "`zod`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "schémas en TypeScript, pas en JSON Schema : contrat non réutilisable hors TypeScript",
+      "version": null
+    },
+    {
+      "candidate": "`@cfworker/json-schema`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "léger, sans compilation ; mode strict et messages moins complets",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-VALIDATION-CONTENU",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/validation-contenu.md",
+    "repo": "pestouille-rpg",
+    "sha256": "ae18b7050b5f26238717b593668d8bcf74c52860ea8cdbd2196aab13d02f0502"
+  }
+}

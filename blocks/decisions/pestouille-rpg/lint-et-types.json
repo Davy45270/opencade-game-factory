@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "candidate": "typescript",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "typage",
+      "verdict": "compilateur de référence, `tsc --noEmit` en mode strict",
+      "version": "6.0.3"
+    },
+    {
+      "candidate": "@types/node",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "typage",
+      "verdict": "types de Node pour les scripts et la configuration (Vite, Playwright, outils)",
+      "version": "26.6.6"
+    },
+    {
+      "candidate": "oxlint",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "lint rapide",
+      "verdict": "lint natif très rapide, règles « moteur pur » sans configuration lourde",
+      "version": "1.92.0"
+    },
+    {
+      "candidate": "oxlint-tsgolint",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "lint rapide",
+      "verdict": "règles d'oxlint qui demandent l'information de type",
+      "version": "7.0.2006"
+    },
+    {
+      "candidate": "eslint",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "lint complet",
+      "verdict": "demandé par la spec ; configuration plate `eslint.config.mjs`",
+      "version": "9.39.5"
+    },
+    {
+      "candidate": "typescript-eslint",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "lint complet",
+      "verdict": "analyse TypeScript pour ESLint, règles typées",
+      "version": "8.73.0"
+    },
+    {
+      "candidate": "Biome",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "lint complet",
+      "verdict": "lint et formatage en un outil, mais ne remplace pas ESLint que la spec nomme",
+      "version": "2"
+    },
+    {
+      "candidate": "TSLint",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "lint complet",
+      "verdict": "abandonné par ses auteurs",
+      "version": "6"
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-LINT-ET-TYPES",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/lint-et-types.md",
+    "repo": "pestouille-rpg",
+    "sha256": "d3e8d3f07bd641b897bb1a8ad1017a7293740d8ddcfc8190f6a30b3d70fd3d3f"
+  }
+}

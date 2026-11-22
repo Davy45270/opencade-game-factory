@@ -1,0 +1,34 @@
+{
+  "canonical": {
+    "editableIn": "usine",
+    "importedFrom": {
+      "commitSha": "f75c1a1dfd766f355957d56fca97b545c1abd18e",
+      "repo": "homelab-docs"
+    },
+    "path": "specs/registry/SPEC-ECHECS.json"
+  },
+  "evidence": "missing",
+  "id": "SPEC-ECHECS",
+  "implementation": "not-started",
+  "importOrigins": {
+    "authority": "usine",
+    "drive": []
+  },
+  "lifecycle": "draft",
+  "owner": "david",
+  "project": "echecs",
+  "relations": [
+    {
+      "target": "SPEC-ASSET-REGISTRY",
+      "type": "consumes"
+    },
+    {
+      "target": "SPEC-GAME-FACTORY",
+      "type": "consumes"
+    }
+  ],
+  "requirements": [],
+  "title": "echecs",
+  "versions": [],
+  "visibility": "private"
+}

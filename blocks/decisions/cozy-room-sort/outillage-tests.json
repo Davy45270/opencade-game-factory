@@ -1,0 +1,59 @@
+{
+  "candidates": [
+    {
+      "candidate": "`@playwright/test`",
+      "licenseRaw": "Apache-2.0",
+      "licenseSpdx": "Apache-2.0",
+      "need": "bout en bout",
+      "verdict": "trois moteurs, image de CI officielle avec navigateurs, émulation tactile, captures",
+      "version": "1.65.0"
+    },
+    {
+      "candidate": "Cypress",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "bout en bout",
+      "verdict": "Firefox et WebKit partiels, tactile limité, binaire lourd",
+      "version": "15"
+    },
+    {
+      "candidate": "WebdriverIO",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "bout en bout",
+      "verdict": "demande des pilotes par navigateur sur l'hôte de CI",
+      "version": "9"
+    },
+    {
+      "candidate": "`ajv`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "schémas JSON",
+      "verdict": "JSON Schema 2020-12 (`ajv/dist/2020`), messages d'erreur complets, sans dépendance native",
+      "version": "8.20.0"
+    },
+    {
+      "candidate": "`@cfworker/json-schema`",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": "schémas JSON",
+      "verdict": "moins de mots-clés couverts, peu d'usage",
+      "version": "4"
+    },
+    {
+      "candidate": "validation écrite à la main",
+      "licenseRaw": "—",
+      "licenseSpdx": "UNKNOWN",
+      "need": "schémas JSON",
+      "verdict": "dupliquerait les schémas, sans preuve qu'ils restent justes",
+      "version": "—"
+    }
+  ],
+  "id": "DEC-COZY-ROOM-SORT-OUTILLAGE-TESTS",
+  "source": {
+    "commitSha": "b42e934038154858a52afe8d6639e989f16a7caa",
+    "path": "docs/reuse-decisions/outillage-tests.md",
+    "repo": "cozy-room-sort",
+    "sha256": "668a46d548827f4db1ab1672e3f4f8a1b578772e27b347ff703e180230c7116d"
+  }
+}

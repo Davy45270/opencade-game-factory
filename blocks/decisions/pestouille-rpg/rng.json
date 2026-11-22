@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "candidate": "`pure-rand` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "complet (xoroshiro, mersenne), état sérialisable ; une dépendance d'exécution et son arbre dans le SBOM",
+      "version": null
+    },
+    {
+      "candidate": "`seedrandom` (npm)",
+      "licenseRaw": "MIT",
+      "licenseSpdx": "MIT",
+      "need": null,
+      "verdict": "état sérialisable seulement pour certains algorithmes ; API mutable",
+      "version": null
+    },
+    {
+      "candidate": "xoshiro128** + cyrb128 (algorithmes publiés, domaine public)",
+      "licenseRaw": "domaine public",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "une vingtaine de lignes, état = 4 entiers 32 bits, sans dépendance",
+      "version": null
+    },
+    {
+      "candidate": "FNV-1a 64 bits (algorithme publié)",
+      "licenseRaw": "domaine public",
+      "licenseSpdx": "UNKNOWN",
+      "need": null,
+      "verdict": "empreinte synchrone ; `crypto.subtle` est asynchrone et inutilisable dans un moteur synchrone",
+      "version": null
+    }
+  ],
+  "id": "DEC-PESTOUILLE-RPG-RNG",
+  "source": {
+    "commitSha": "367f9fea18547092eb07933273d0a6112bdcac57",
+    "path": "docs/reuse-decisions/rng.md",
+    "repo": "pestouille-rpg",
+    "sha256": "c1877c65e6090d93096a1591c4478d7bc19d355456e62278990344f1ee01de5b"
+  }
+}

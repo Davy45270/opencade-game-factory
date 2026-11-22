@@ -10,6 +10,7 @@
     "statement": {"type": "string", "minLength": 1},
     "matrixStatus": {"enum": ["a_faire", "faite", "ecartee"]},
     "acceptance": {"type": "string"},
+    "criticality": {"enum": ["P0", "P1", "P2", "P3", "unknown"]},
     "source": {
       "type": "object",
       "additionalProperties": false,

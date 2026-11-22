@@ -52,7 +52,7 @@ def parser():
         "verify": "contrôler relations, preuves, archives ; ou le verrou d’une PR (--project --commit)",
         "impact": "projets consommateurs d’une spec",
         "compare": "comparer deux états du registre (références git de l’usine)",
-        "export": "exporter le registre (markdown ou json ; --public : specs publiques seulement)",
+        "export": "exporter le registre (markdown, json ou html navigable ; --public : specs publiques seulement)",
         "blocks": "décisions BB-001 liées à une spec, par identifiant",
         "arbitrer": "consigner une version choisie par David",
         "statuer": "changer lifecycle ou visibilité (approbation de David pour approuver, déprécier, publier)",
@@ -117,7 +117,7 @@ def parser():
             command.add_argument("--out", type=Path, required=True)
             command.add_argument("--allow", nargs="+", metavar="SPDX", help="politique de licences (défaut intégré)")
         if name == "export":
-            command.add_argument("--format", dest="fmt", choices=("markdown", "json"), default="json")
+            command.add_argument("--format", dest="fmt", choices=("markdown", "json", "html"), default="json")
             command.add_argument("--public", action="store_true")
     cli.add_argument("--json", action="store_true", help="écrire le résultat en JSON sur stdout")
     return cli

@@ -176574,7 +176574,37 @@
       "tags": [
         "icons"
       ],
-      "usages": [],
+      "usages": [
+        {
+          "assetPath": "src/ui/icones.ts",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "src/ui/icones.ts"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : module src/ui/icones.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+          ],
+          "game": "echecs-kid",
+          "importName": "icones",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "src/ui/icones.ts · motif de dessin du scan"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "dessin-code",
+          "scene": "src/ui/icones.ts",
+          "status": "active"
+        }
+      ],
       "version": 1,
       "visualStyle": null
     },
@@ -177337,7 +177367,37 @@
       "status": "needs-review",
       "subcategory": null,
       "tags": "unknown",
-      "usages": [],
+      "usages": [
+        {
+          "assetPath": "src/art/mascotte.ts",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "src/art/mascotte.ts"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : module src/art/mascotte.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+          ],
+          "game": "echecs-kid",
+          "importName": "mascotte",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "src/art/mascotte.ts · motif de dessin du scan"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "dessin-code",
+          "scene": "src/art/mascotte.ts",
+          "status": "active"
+        }
+      ],
       "version": 1,
       "visualStyle": null
     },
@@ -177744,6 +177804,35 @@
           "role": "sprite",
           "scene": "scripts/make-icons.js",
           "status": "active"
+        },
+        {
+          "assetPath": "src/art/pieces.ts",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "src/art/pieces.ts"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : module src/art/pieces.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+          ],
+          "game": "echecs-kid",
+          "importName": "pieces",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "src/art/pieces.ts · motif de dessin du scan"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "dessin-code",
+          "scene": "src/art/pieces.ts",
+          "status": "active"
         }
       ],
       "version": 1,
@@ -177773,7 +177862,37 @@
       "status": "needs-review",
       "subcategory": null,
       "tags": "unknown",
-      "usages": [],
+      "usages": [
+        {
+          "assetPath": "src/ui/plateau.ts",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "src/ui/plateau.ts"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : module src/ui/plateau.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+          ],
+          "game": "echecs-kid",
+          "importName": "plateau",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "src/ui/plateau.ts · motif de dessin du scan"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "dessin-code",
+          "scene": "src/ui/plateau.ts",
+          "status": "active"
+        }
+      ],
       "version": 1,
       "visualStyle": null
     },
@@ -267340,8 +267459,12 @@
       "family": "image",
       "format": "png",
       "id": "asset-image-echecs-192-0001",
-      "license": "unknown",
-      "licenseEvidence": null,
+      "license": "MIT",
+      "licenseEvidence": {
+        "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+        "method": "historique git : licence de la source",
+        "ref": "echecs-kid 419b6f6 (« icônes PWA régénérées depuis la tour » : scripts/make-icons.js rastérise pieceSvg de src/art/pieces.ts) ; LICENSE (MIT, Davy45270) ; HL-538"
+      },
       "name": "echecs-192",
       "orientation": "unknown",
       "originUniverse": "unknown",
@@ -267486,6 +267609,35 @@
           "role": "icon",
           "scene": "pwa-manifest.ts",
           "status": "active"
+        },
+        {
+          "assetPath": "public/icons/echecs-192.png",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "public/icons/echecs-192.png"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : image public/icons/echecs-192.png livrée (fichier suivi au commit)"
+          ],
+          "game": "echecs-kid",
+          "importName": "echecs-192",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "public/icons/echecs-192.png · fichier livré"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "image",
+          "scene": "public/icons/echecs-192.png",
+          "status": "active"
         }
       ],
       "version": 1,
@@ -267502,8 +267654,12 @@
       "family": "image",
       "format": "png",
       "id": "asset-image-echecs-512-0001",
-      "license": "unknown",
-      "licenseEvidence": null,
+      "license": "MIT",
+      "licenseEvidence": {
+        "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+        "method": "historique git : licence de la source",
+        "ref": "echecs-kid 419b6f6 (« icônes PWA régénérées depuis la tour » : scripts/make-icons.js rastérise pieceSvg de src/art/pieces.ts) ; LICENSE (MIT, Davy45270) ; HL-538"
+      },
       "name": "echecs-512",
       "orientation": "unknown",
       "originUniverse": "unknown",
@@ -267582,6 +267738,35 @@
           "role": "icon",
           "scene": "pwa-manifest.ts",
           "status": "active"
+        },
+        {
+          "assetPath": "public/icons/echecs-512.png",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "public/icons/echecs-512.png"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : image public/icons/echecs-512.png livrée (fichier suivi au commit)"
+          ],
+          "game": "echecs-kid",
+          "importName": "echecs-512",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "public/icons/echecs-512.png · fichier livré"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "image",
+          "scene": "public/icons/echecs-512.png",
+          "status": "active"
         }
       ],
       "version": 1,
@@ -267598,8 +267783,12 @@
       "family": "image",
       "format": "png",
       "id": "asset-image-echecs-maskable-512-0001",
-      "license": "unknown",
-      "licenseEvidence": null,
+      "license": "MIT",
+      "licenseEvidence": {
+        "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+        "method": "historique git : licence de la source",
+        "ref": "echecs-kid 419b6f6 (« icônes PWA régénérées depuis la tour » : scripts/make-icons.js rastérise pieceSvg de src/art/pieces.ts) ; LICENSE (MIT, Davy45270) ; HL-538"
+      },
       "name": "echecs-maskable-512",
       "orientation": "unknown",
       "originUniverse": "unknown",
@@ -267677,6 +267866,35 @@
           "repo": "echecs-kid",
           "role": "icon",
           "scene": "pwa-manifest.ts",
+          "status": "active"
+        },
+        {
+          "assetPath": "public/icons/echecs-maskable-512.png",
+          "assetVersion": 1,
+          "codeRef": {
+            "line": 1,
+            "path": "public/icons/echecs-maskable-512.png"
+          },
+          "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+          "evidence": [
+            "importer_livre : image public/icons/echecs-maskable-512.png livrée (fichier suivi au commit)"
+          ],
+          "game": "echecs-kid",
+          "importName": "echecs-maskable-512",
+          "inference": {
+            "role": {
+              "confidence": 1,
+              "evidence": [
+                "public/icons/echecs-maskable-512.png · fichier livré"
+              ],
+              "method": "proven"
+            }
+          },
+          "provider": "forgejo",
+          "releases": [],
+          "repo": "echecs-kid",
+          "role": "image",
+          "scene": "public/icons/echecs-maskable-512.png",
           "status": "active"
         }
       ],

@@ -1963,9 +1963,9 @@
 - `asset-image-e04-monstres-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-e04-portraits-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-e04-portraits-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-image-echecs-192-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-echecs-512-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-echecs-maskable-512-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-image-echecs-192-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-echecs-512-0001` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-image-echecs-maskable-512-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-ecole-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-ecole-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.

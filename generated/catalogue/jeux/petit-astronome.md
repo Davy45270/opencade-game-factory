@@ -1,0 +1,34 @@
+<!-- généré par scripts/catalogue_pages.py — ne pas éditer à la main -->
+
+[Accueil](../index.md)
+
+# Jeu petit-astronome
+
+Dépôt : [petit-astronome](../sources/petit-astronome.md) · 22 asset(s) employés (usages actifs de l'index d'usage)
+
+Licences : [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) 6 · [LicenseRef-MESSENGER-Usage-Statement](../licences/LicenseRef-MESSENGER-Usage-Statement.md) 1 · [LicenseRef-NASA-Media-Usage-Guidelines](../licences/LicenseRef-NASA-Media-Usage-Guidelines.md) 1 · [MIT](../licences/MIT.md) 13 · [unknown](../licences/unknown.md) 1
+
+| Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Commits | Planche |
+|---|---|---|---|---|---|---|---|
+| ![](../../../thumbnails/5c/5cf4046f6a5b1130f0a1b9526fb32aa9f6f229ee00949be4a1778698087c8ce3.webp) | [`asset-image-jupiter-0001`](../../../catalog/assets/asset-image-jupiter-0001.json) | jupiter | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL | `d7b66b9` | — |
+| ![](../../../thumbnails/f8/f8b476dcafca3094bb01a2706b370fd89c419a18b925bdbf452bc331967f73cb.webp) | [`asset-image-mars-0001`](../../../catalog/assets/asset-image-mars-0001.json) | mars | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL-Caltech/USGS | `d7b66b9` | — |
+| ![](../../../thumbnails/f5/f5ed50d4f39d8ba7d0b3eb83e6eb9a56cf049d27ee8a87fe44eaec5908494973.webp) | [`asset-image-mercure-0001`](../../../catalog/assets/asset-image-mercure-0001.json) | mercure | image | [LicenseRef-MESSENGER-Usage-Statement](../licences/LicenseRef-MESSENGER-Usage-Statement.md) | NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington | `d7b66b9` | — |
+| ![](../../../thumbnails/f7/f73225bfd97befecc195d1d1bf1ef1f5ed11f5c8c0382c055d9e442061f619b9.webp) | [`asset-image-neptune-0001`](../../../catalog/assets/asset-image-neptune-0001.json) | neptune | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL | `d7b66b9` | — |
+| ![](../../../thumbnails/35/35a25d1c32e9de43eddfc61877b1bc159f5162c8b0b72c55580e4a8a98c038b9.webp) | [`asset-image-opencade-0003`](../../../catalog/assets/asset-image-opencade-0003.json) | opencade | image | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| ![](../../../thumbnails/df/df66e93512a8dcb6198cfc39762cddd25675b1971bfef7a810621ffe4df007c3.webp) | [`asset-image-opencadkid-0003`](../../../catalog/assets/asset-image-opencadkid-0003.json) | opencadkid | image | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| ![](../../../thumbnails/4a/4a2c6c30cc3bc75503ca2a5265eb4e03893924ada22e63f05c3eff0a59fea564.webp) | [`asset-image-saturne-0001`](../../../catalog/assets/asset-image-saturne-0001.json) | saturne | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL/Space Science Institute | `d7b66b9` | — |
+| ![](../../../thumbnails/d7/d7656d12e8a13ba929457333dee6240b32ab282df451637a1232425aa8dc8dcb.webp) | [`asset-image-terre-0001`](../../../catalog/assets/asset-image-terre-0001.json) | terre | image | [LicenseRef-NASA-Media-Usage-Guidelines](../licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | NASA Johnson Space Center | `d7b66b9` | — |
+| ![](../../../thumbnails/1c/1c1e391372420a309a9bf1cc8c697a51a1519fee2179083b5bd593a39397a552.webp) | [`asset-image-tictac-0004`](../../../catalog/assets/asset-image-tictac-0004.json) | tictac | image | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| ![](../../../thumbnails/a9/a916fce423883283e3254d2e022987e08620a404f3d993e78781e59f816c4205.webp) | [`asset-image-uranus-0001`](../../../catalog/assets/asset-image-uranus-0001.json) | uranus | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL | `d7b66b9` | — |
+| ![](../../../thumbnails/73/73ae6a083d69b141222ae478d61eb24f1b02150d0aae33df7ad7d85f1657b537.webp) | [`asset-image-venus-0001`](../../../catalog/assets/asset-image-venus-0001.json) | venus | image | [LicenseRef-JPL-Image-Use-Policy](../licences/LicenseRef-JPL-Image-Use-Policy.md) | NASA/JPL-Caltech | `d7b66b9` | — |
+| — | [`asset-codegenerated-app-0001`](../../../catalog/assets/asset-codegenerated-app-0001.json) | app | ui | [MIT](../licences/MIT.md) | unknown | `d7b66b9` | — |
+| — | [`asset-codegenerated-art-0019`](../../../catalog/assets/asset-codegenerated-art-0019.json) | art | ui | [MIT](../licences/MIT.md) | unknown | `d7b66b9` | — |
+| — | [`asset-codegenerated-discovery-0001`](../../../catalog/assets/asset-codegenerated-discovery-0001.json) | discovery | ui | [MIT](../licences/MIT.md) | unknown | `d7b66b9` | — |
+| — | [`asset-codegenerated-mascot-0001`](../../../catalog/assets/asset-codegenerated-mascot-0001.json) | mascot | ui | [MIT](../licences/MIT.md) | unknown | `d7b66b9` | — |
+| ![](../../../thumbnails/3c/3cba0540059875ab90260921f002fc677872895876c5f7a6618ce21e4f47de07.webp) | [`asset-image-astro-192-0001`](../../../catalog/assets/asset-image-astro-192-0001.json) | astro-192 | ui | [MIT](../licences/MIT.md) | Davy45270 (icônes dessinées par scripts/make-icons.js du jeu) | `d7b66b9` | — |
+| ![](../../../thumbnails/2f/2f9dd4034821230599f222aa2572949cea8859502f93070b930a55c52fc81caa.webp) | [`asset-image-astro-512-0001`](../../../catalog/assets/asset-image-astro-512-0001.json) | astro-512 | ui | [MIT](../licences/MIT.md) | Davy45270 (icônes dessinées par scripts/make-icons.js du jeu) | `d7b66b9` | — |
+| ![](../../../thumbnails/1e/1e35f00d598bb1a52020fa0f76dd046265bbc9f1cf48b481ea6e73c4621a6fb0.webp) | [`asset-image-astro-maskable-512-0001`](../../../catalog/assets/asset-image-astro-maskable-512-0001.json) | astro-maskable-512 | ui | [MIT](../licences/MIT.md) | Davy45270 (icônes dessinées par scripts/make-icons.js du jeu) | `d7b66b9` | — |
+| ![](../../../thumbnails/35/35a25d1c32e9de43eddfc61877b1bc159f5162c8b0b72c55580e4a8a98c038b9.webp) | [`asset-image-opencade-0001`](../../../catalog/assets/asset-image-opencade-0001.json) | opencade | ui | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| ![](../../../thumbnails/df/df66e93512a8dcb6198cfc39762cddd25675b1971bfef7a810621ffe4df007c3.webp) | [`asset-image-opencadkid-0001`](../../../catalog/assets/asset-image-opencadkid-0001.json) | opencadkid | ui | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| ![](../../../thumbnails/1c/1c1e391372420a309a9bf1cc8c697a51a1519fee2179083b5bd593a39397a552.webp) | [`asset-image-tictac-0001`](../../../catalog/assets/asset-image-tictac-0001.json) | tictac | ui | [MIT](../licences/MIT.md) | code / agent | `d7b66b9` | — |
+| — | [`asset-style-style-0012`](../../../catalog/assets/asset-style-style-0012.json) | style | ui | [unknown](../licences/unknown.md) | unknown | `381942d`, `66baef4`, `d7b66b9` | — |

@@ -3,6 +3,9 @@
 Registre privé des ressources de jeux autorisés. Le catalogue versionné
 conserve les identifiants, la provenance, les licences et l’historique des usages.
 
+**Naviguer dans le catalogue** : [generated/catalogue/index.md](generated/catalogue/index.md) — une page par jeu,
+source, planche et licence, avec vignettes et usages (générée par `scripts/catalogue_pages.py`, contrôlée en CI).
+
 La source est la forge (`david/opencade-asset-registry`) : les PR s’y ouvrent et
 s’y fusionnent. Une copie publique, [Davy45270/opencade-game-factory](https://github.com/Davy45270/opencade-game-factory),
 reçoit `main` et les tags de version par synchronisation en avance rapide ; elle

@@ -36,6 +36,14 @@ steps:
         SAUTES=$(grep -o 'skipped=[0-9]*' /tmp/ci.txt | cut -d= -f2);
         test "$${SAUTES:-0}" -le 1 || { echo "tests sautés - $$SAUTES"; exit 1; }
 
+  # DOC-001 (anomalie HL-525, lot usine3) : les pages de generated/docs/ sont refaites depuis leurs sources ; une page
+  # périmée ou absente fait échouer la PR (code 2). Régénérer : python3 scripts/docs_generees.py
+  - name: docs-generees
+    image: *py
+    commands:
+      - . .venv/bin/activate
+      - python3 scripts/docs_generees.py --check
+
   # BB-001 § 9 (matrice E206, E224) : depuis les manifestes JSON du catalogue réel, l'index SQLite FTS5 et le graphe de
   # dépendances se génèrent, puis --check les retrouve identiques (reconstruction déterministe). Rien n'est commité.
   - name: index-briques

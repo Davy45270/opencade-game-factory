@@ -14,6 +14,7 @@ Choix de conception :
 """
 
 import copy
+import html
 import hashlib
 import json
 import re
@@ -413,7 +414,42 @@ def export(records, fmt, public):
                 lines.append(f"- `{row['id']}` ({status}) {row['statement']}")
             lines.append("")
         payload["markdown"] = "\n".join(lines)
+    if fmt == "html":
+        payload["html"] = catalogue_html(specs, payload["classification"])
     return ExitCode.OK, payload
+
+
+def catalogue_html(specs, classification):
+    """REG-11 (matrice E152) : catalogue autonome, navigable par projet (sommaire) et par exigence (index des REQ) ;
+    tout texte est échappé ; aucune ressource externe."""
+    e = html.escape
+    projets = {}
+    for record in specs:
+        projets.setdefault(record["project"], []).append(record)
+    corps, index = [], []
+    for projet, records in sorted(projets.items()):
+        corps.append(f'<section id="projet-{e(projet)}"><h2>Projet {e(projet)}</h2>')
+        for record in records:
+            version = record.get("version") or spec_version(record["id"], {record["id"]: record}) or "?"
+            corps.append(f'<h3 id="{e(record["id"])}">{e(record["id"])} — {e(record["title"])}</h3>'
+                         f'<p>version {e(str(version))} · lifecycle {e(record["lifecycle"])} · implementation '
+                         f'{e(record["implementation"])} · evidence {e(record["evidence"])}</p><ul>')
+            for row in record["requirements"]:
+                status = row.get("status") or row.get("matrixStatus")
+                corps.append(f'<li id="{e(row["id"])}"><code>{e(row["id"])}</code> <b>{e(str(status))}</b> '
+                             f'{e(row["statement"])}</li>')
+                index.append((row["id"], projet))
+            corps.append("</ul>")
+        corps.append('<p><a href="#sommaire">↑ sommaire</a></p></section>')
+    sommaire = "".join(f'<li><a href="#projet-{e(p)}">{e(p)}</a> ({sum(len(r["requirements"]) for r in rs)} exigences)</li>'
+                       for p, rs in sorted(projets.items()))
+    reqs = "".join(f'<li><a href="#{e(i)}">{e(i)}</a> · {e(p)}</li>' for i, p in sorted(index))
+    return ("<!doctype html>\n<html lang=\"fr\"><head><meta charset=\"utf-8\">"
+            f"<title>Registre des spécifications ({e(classification)})</title></head><body>"
+            f'<h1>Registre des spécifications ({e(classification)})</h1>'
+            f'<nav id="sommaire"><h2>Projets</h2><ul>{sommaire}</ul></nav>'
+            + "".join(corps)
+            + f'<nav id="exigences"><h2>Exigences</h2><ul>{reqs}</ul></nav></body></html>\n')
 
 
 # --- écritures : statuer, relier -----------------------------------------------------------------------------------

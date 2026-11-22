@@ -147701,7 +147701,37 @@
         "status": "active"
       }
     ],
-    "asset-codegenerated-icones-0001": [],
+    "asset-codegenerated-icones-0001": [
+      {
+        "assetPath": "src/ui/icones.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/icones.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/ui/icones.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "icones",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/icones.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/ui/icones.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-illustration-0001": [
       {
         "assetBlobs": {
@@ -148188,7 +148218,37 @@
       }
     ],
     "asset-codegenerated-mascot-0001": [],
-    "asset-codegenerated-mascotte-0001": [],
+    "asset-codegenerated-mascotte-0001": [
+      {
+        "assetPath": "src/art/mascotte.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/art/mascotte.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/art/mascotte.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "mascotte",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/art/mascotte.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/art/mascotte.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-motifs-0001": [],
     "asset-codegenerated-no-code-art-test-0001": [],
     "asset-codegenerated-paires-test-0001": [],
@@ -148433,9 +148493,68 @@
         "role": "sprite",
         "scene": "scripts/make-icons.js",
         "status": "active"
+      },
+      {
+        "assetPath": "src/art/pieces.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/art/pieces.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/art/pieces.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "pieces",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/art/pieces.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/art/pieces.ts",
+        "status": "active"
       }
     ],
-    "asset-codegenerated-plateau-0001": [],
+    "asset-codegenerated-plateau-0001": [
+      {
+        "assetPath": "src/ui/plateau.ts",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/plateau.ts"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : module src/ui/plateau.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "echecs-kid",
+        "importName": "plateau",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/plateau.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "dessin-code",
+        "scene": "src/ui/plateau.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-puzzle-test-0001": [
       {
         "assetBlobs": {
@@ -215926,6 +216045,35 @@
         "role": "icon",
         "scene": "pwa-manifest.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "public/icons/echecs-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-192.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-192.png",
+        "status": "active"
       }
     ],
     "asset-image-echecs-512-0001": [
@@ -215994,6 +216142,35 @@
         "role": "icon",
         "scene": "pwa-manifest.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "public/icons/echecs-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-512.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-512.png",
+        "status": "active"
       }
     ],
     "asset-image-echecs-maskable-512-0001": [
@@ -216061,6 +216238,35 @@
         "repo": "echecs-kid",
         "role": "icon",
         "scene": "pwa-manifest.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/echecs-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/echecs-maskable-512.png"
+        },
+        "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+        "evidence": [
+          "importer_livre : image public/icons/echecs-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "echecs-kid",
+        "importName": "echecs-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/echecs-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "forgejo",
+        "releases": [],
+        "repo": "echecs-kid",
+        "role": "image",
+        "scene": "public/icons/echecs-maskable-512.png",
         "status": "active"
       }
     ],
@@ -383202,6 +383408,15 @@
     "echecs-kid/echecs-kid/index.html": [
       "asset-image-echecs-192-0001"
     ],
+    "echecs-kid/echecs-kid/public/icons/echecs-192.png": [
+      "asset-image-echecs-192-0001"
+    ],
+    "echecs-kid/echecs-kid/public/icons/echecs-512.png": [
+      "asset-image-echecs-512-0001"
+    ],
+    "echecs-kid/echecs-kid/public/icons/echecs-maskable-512.png": [
+      "asset-image-echecs-maskable-512-0001"
+    ],
     "echecs-kid/echecs-kid/pwa-manifest.ts": [
       "asset-image-echecs-192-0001",
       "asset-image-echecs-512-0001",
@@ -383210,8 +383425,20 @@
     "echecs-kid/echecs-kid/scripts/make-icons.js": [
       "asset-codegenerated-pieces-0001"
     ],
+    "echecs-kid/echecs-kid/src/art/mascotte.ts": [
+      "asset-codegenerated-mascotte-0001"
+    ],
+    "echecs-kid/echecs-kid/src/art/pieces.ts": [
+      "asset-codegenerated-pieces-0001"
+    ],
     "echecs-kid/echecs-kid/src/main.ts": [
       "asset-style-style-0002"
+    ],
+    "echecs-kid/echecs-kid/src/ui/icones.ts": [
+      "asset-codegenerated-icones-0001"
+    ],
+    "echecs-kid/echecs-kid/src/ui/plateau.ts": [
+      "asset-codegenerated-plateau-0001"
     ],
     "echecs-kid/echecs-kid/tests/e2e/captures.spec.ts": [
       "asset-image-mascotte-0001",

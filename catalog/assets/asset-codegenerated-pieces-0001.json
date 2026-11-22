@@ -176,6 +176,35 @@
       "role": "sprite",
       "scene": "scripts/make-icons.js",
       "status": "active"
+    },
+    {
+      "assetPath": "src/art/pieces.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "src/art/pieces.ts"
+      },
+      "commit": "9a0a7f8ed4e3ef7567db62fc01107bc9c398e28c",
+      "evidence": [
+        "importer_livre : module src/art/pieces.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "echecs-kid",
+      "importName": "pieces",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "src/art/pieces.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "echecs-kid",
+      "role": "dessin-code",
+      "scene": "src/art/pieces.ts",
+      "status": "active"
     }
   ],
   "variants": [],

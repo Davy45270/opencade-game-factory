@@ -52,6 +52,7 @@ def graphe(records, rels=None):
     edges = []
     for block_id, (_, block) in sorted(records.items()):
         edges += [{"from": block_id, "to": spec, "type": "specified-by"} for spec in sorted(block["specIds"])]
+        edges += [{"from": block_id, "to": a, "type": "uses-asset"} for a in block.get("assetIds") or []]   # E209
         edges += [{"from": block_id, "to": user, "type": "used-by"} for user in sorted(block["usedBy"])]
         edges += [{"from": block_id, "to": o["repo"], "type": "observed-in", "commitSha": o.get("commitSha")}
                   for o in block.get("observedIn") or [] if isinstance(o, dict) and o.get("repo")]

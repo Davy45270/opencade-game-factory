@@ -22,6 +22,7 @@ from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
 from . import index as generes, recu
 from .sbom import sbom as sbom_catalogue
+from .trace import etat_releases, trace
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
 
@@ -79,6 +80,7 @@ def parser():
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
         "sbom": "SBOM CycloneDX des briques (versions, licences, dépendances des dépôts consommateurs).",
+        "trace": "Chaîne d'une brique : exigences, specs, code, tests, SBOM, consommateurs et releases.",
         "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
@@ -113,7 +115,7 @@ def parser():
     finder.add_argument("--sources", type=Path, help="Défaut : catalog/sources.json de l'usine.")
     finder.add_argument("--clones", type=Path, default=Path("~/Projets/jeux"))
     finder.add_argument("--dry-run", action="store_true")
-    for name in ("inspect", "usages", "impact"):
+    for name in ("inspect", "usages", "impact", "trace"):
         sub[name].add_argument("block")
     sub["impact"].add_argument("--to-version", required=True)
     adopter = sub["adopt"]
@@ -197,8 +199,10 @@ def run(args, root):
             return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
 
         records = read_catalogue(blocks / "catalog")
+        if command == "trace":
+            return trace(records, blocks, args.block)
         if command == "index":
-            return generes.index(records, args.out, args.check)
+            return generes.index(records, args.out, args.check, etat_releases(blocks))
         if command == "sbom":
             return sbom_catalogue(records, args.out)
         if command == "inspect":

@@ -26,6 +26,12 @@ Publics vérifiés dans les specs :
 
 ## Décision
 
+**Arbitrage de David (HL-538, commentaire 7-3312, 22/11) : option C, un jeu pilote d'abord.** Ferraille sert de pilote,
+avec Sturgeon : 3 à 5 niveaux déterministes par graine, au chemin garanti, validés par le moteur du jeu et jouables
+dans le vrai jeu sur une préversion non publique. **L'extension aux autres genres du tableau ci-dessous est décidée
+après le jugement de David sur son téléphone.** D'ici là, le code maison (BSP de `generate.py`, `bot_kart`) reste en
+place, et le tableau décrit la cible, pas un engagement.
+
 | Genre (jeux) | Outil réutilisé | Licence | Rôle | Remplace |
 | --- | --- | --- | --- | --- |
 | Donjon et exploration (Pestouille) | [Sturgeon](https://github.com/crowdgames/sturgeon-pub), appris des cartes Tiled du jeu | MIT | génère des variantes au chemin départ→but prouvé (SAT) | — (aucun générateur de carte) |

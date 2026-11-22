@@ -22,6 +22,8 @@ def monde(r: Path):
     (r / "catalog/assets/asset-image-a-0001.json").write_text(json.dumps(
         {"id": "asset-image-a-0001", "name": "a", "category": "image", "license": "MIT", "thumbnail": "thumbnails/aa/a.webp",
          "sourceSheetId": "sheet-p-0001", "provenance": {"author": "David"}}))
+    (r / "thumbnails/aa").mkdir(parents=True)
+    (r / "thumbnails/aa/a.webp").write_bytes(b"RIFF")
     (r / "generated/usage-index.json").write_text(json.dumps({"byAsset": {"asset-image-a-0001": [
         {"game": "jeu/sous", "commit": "c" * 40, "status": "active"}]}}))
 
@@ -64,3 +66,32 @@ class PagesDuCatalogue(TestCase):
         with tempfile.TemporaryDirectory() as d:
             monde(Path(d))
             self.assertEqual(cp.construire(Path(d)), cp.construire(Path(d)))
+
+
+class VignettesCitees(TestCase):
+    """Vignette citée par une fiche mais absente : --check rouge ; la génération la produit depuis le fichier du
+    registre (octets de l'asset), puis --check vert et la page l'affiche."""
+    def test_vignette_produite(self):
+        import hashlib
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as d:
+            r = Path(d)
+            monde(r)
+            (r / "sprites").mkdir()
+            Image.new("RGBA", (200, 100), (255, 0, 0, 255)).save(r / "sprites/b.png")
+            sha = hashlib.sha256((r / "sprites/b.png").read_bytes()).hexdigest()
+            (r / "catalog/assets/asset-sprite-b-0001.json").write_text(json.dumps(
+                {"id": "asset-sprite-b-0001", "name": "b", "category": "sprite", "license": "MIT", "sha256": sha,
+                 "thumbnail": f"thumbnails/{sha[:2]}/{sha}.webp", "files": {"registry": "sprites/b.png"}}))
+            u = json.loads((r / "generated/usage-index.json").read_text())
+            u["byAsset"]["asset-sprite-b-0001"] = [{"game": "jeu", "commit": "d" * 40, "status": "active"}]
+            (r / "generated/usage-index.json").write_text(json.dumps(u))
+            self.assertEqual(cp.main(["--racine", d]), 0)
+            v = r / f"thumbnails/{sha[:2]}/{sha}.webp"
+            self.assertTrue(v.is_file())
+            with Image.open(v) as im:
+                self.assertEqual(im.size, (96, 48))
+            self.assertIn(f"![](../../../thumbnails/{sha[:2]}/{sha}.webp)", (r / cp.SORTIE / "jeux/jeu.md").read_text())
+            self.assertEqual(cp.main(["--racine", d, "--check"]), 0)
+            v.unlink()
+            self.assertEqual(cp.main(["--racine", d, "--check"]), 2)

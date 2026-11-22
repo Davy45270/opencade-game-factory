@@ -10,8 +10,13 @@ donne les mêmes octets) :
   - licences/<licence>.md  : les assets d'une licence, par jeu.
 Chaque page renvoie à l'accueil et aux autres pages ; une liste longue est découpée en pages de LOT lignes.
 
-Usage : scripts/catalogue_pages.py [--racine DIR]   écrit les pages (code 0), retire les pages devenues orphelines
-        scripts/catalogue_pages.py --check          code 2 si une page est périmée, absente ou en trop (CI)
+Une vignette citée par une fiche mais absente du dépôt est produite depuis le fichier du registre de la fiche (mêmes
+octets que l'asset), comme le fait le scan ; --check la compte comme un écart.
+
+Usage : scripts/catalogue_pages.py [--racine DIR]   écrit les pages et les vignettes manquantes (code 0), retire les
+                                                     pages devenues orphelines
+        scripts/catalogue_pages.py --check          code 2 si une page est périmée, absente ou en trop, ou si une
+                                                     vignette citée manque (CI)
 """
 from __future__ import annotations
 
@@ -104,7 +109,7 @@ def ligne_asset(c: Catalogue, aid: str, avec_vignette=True, commits=None):
         fiche = f"[`{aid}`]({r}catalog/assets/{aid}.json)"
         # Image Markdown (et non <img>) : la forge résout son chemin relatif vers le fichier du dépôt ; les vignettes
         # du registre font moins de 100 px, aucune largeur à imposer.
-        vign = f"![]({r}{a['thumbnail']})" if a.get("thumbnail") else "—"
+        vign = f"![]({r}{a['thumbnail']})" if a.get("thumbnail") and (c.r / a["thumbnail"]).is_file() else "—"
         lic = a.get("license") or "unknown"
         jeux = ", ".join(f"[{j}]({lien_page(page, 'jeux/' + slug(j) + '.md')})" for j in sorted(c.jeux_de.get(aid, ())))
         planche = a.get("sourceSheetId")
@@ -213,12 +218,41 @@ def construire(r: pathlib.Path) -> dict[pathlib.PurePosixPath, str]:
     return {k: "\n".join(v).rstrip() + "\n" for k, v in pages.items()}
 
 
+def vignettes_a_produire(r: pathlib.Path) -> list[tuple[pathlib.Path, pathlib.Path]]:
+    """Vignettes CITÉES par une fiche mais absentes du dépôt (HL-538, 22/11 : 2 180 fiches de cadres extraits, vignettes
+    jamais commitées), productibles depuis le fichier du registre de la fiche quand ses octets ont le SHA-256 de
+    l'asset (le nom de la vignette). Même fabrication que le scan : tools/discovery/importer._thumbnail."""
+    import hashlib
+    out = []
+    for p in sorted((r / "catalog/assets").glob("*.json")):
+        a = lire(p)
+        v, src = a.get("thumbnail"), (a.get("files") or {}).get("registry")
+        if v and src and not (r / v).is_file() and (r / src).is_file() \
+                and hashlib.sha256((r / src).read_bytes()).hexdigest() == a.get("sha256", "").lower() \
+                and pathlib.PurePosixPath(v).stem == a.get("sha256", "").lower():
+            out.append((r / v, r / src))
+    return out
+
+
+def produire_vignettes(r: pathlib.Path, manquantes) -> None:
+    from PIL import Image
+    sys.path.insert(0, str(r))
+    from tools.discovery.importer import _thumbnail
+    for v, src in manquantes:
+        with Image.open(src) as im:
+            im.load()
+            _thumbnail(v, im)
+
+
 def main(argv=None) -> int:
     a = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     a.add_argument("--racine", type=pathlib.Path, default=RACINE)
     a.add_argument("--check", action="store_true")
     o = a.parse_args(argv)
     r = o.racine.resolve()
+    manquantes = vignettes_a_produire(r)
+    if manquantes and not o.check:
+        produire_vignettes(r, manquantes)
     voulu = construire(r)
     dossier = r / SORTIE
     present = {pathlib.PurePosixPath(p.relative_to(dossier).as_posix()) for p in dossier.rglob("*.md")} \
@@ -233,7 +267,9 @@ def main(argv=None) -> int:
             print(f"en trop : {SORTIE / k}", file=sys.stderr)
         if len(perimees) + len(en_trop) > 40:
             print(f"… {len(perimees)} périmée(s) ou absente(s), {len(en_trop)} en trop", file=sys.stderr)
-        if perimees or en_trop:
+        for v, _ in manquantes[:20]:
+            print(f"vignette citée absente : {v.relative_to(r)}", file=sys.stderr)
+        if perimees or en_trop or manquantes:
             print("régénérer : python3 scripts/catalogue_pages.py", file=sys.stderr)
             return 2
         print(f"catalogue à jour : {len(voulu)} pages")
@@ -244,7 +280,8 @@ def main(argv=None) -> int:
     for k in en_trop:
         if (dossier / k).read_text(encoding="utf-8").startswith(MARQUE):
             (dossier / k).unlink()
-    print(json.dumps({"pages": len(voulu), "ecrites": len(perimees), "retirees": len(en_trop)}))
+    print(json.dumps({"pages": len(voulu), "ecrites": len(perimees), "retirees": len(en_trop),
+                      "vignettes_produites": len(manquantes)}))
     return 0
 
 

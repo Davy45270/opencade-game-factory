@@ -146669,6 +146669,35 @@
         "role": "ui",
         "scene": "tests/contrast.test.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "src/ui/app.ts",
+        "assetVersion": 6,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/app.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/app.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "app",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/app.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/app.ts",
+        "status": "active"
       }
     ],
     "asset-codegenerated-arcade-phaser-0001": [],
@@ -147405,7 +147434,37 @@
     "asset-codegenerated-backdrops-0001": [],
     "asset-codegenerated-character-pixels-spec-0001": [],
     "asset-codegenerated-characters-test-0001": [],
-    "asset-codegenerated-clock-0001": [],
+    "asset-codegenerated-clock-0001": [
+      {
+        "assetPath": "src/ui/clock.ts",
+        "assetVersion": 3,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/clock.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/clock.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "clock",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/clock.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/clock.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-collier-graphics-meter-0001": [
       {
         "assetBlobs": {
@@ -165959,7 +166018,37 @@
     "asset-codegenerated-scene-0022": [],
     "asset-codegenerated-scene-0023": [],
     "asset-codegenerated-scene-0024": [],
-    "asset-codegenerated-scene-0025": [],
+    "asset-codegenerated-scene-0025": [
+      {
+        "assetPath": "src/ui/scene.ts",
+        "assetVersion": 2,
+        "codeRef": {
+          "line": 1,
+          "path": "src/ui/scene.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/ui/scene.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "scene",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/ui/scene.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/ui/scene.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-scene-spec-0001": [],
     "asset-codegenerated-scenes-0001": [
       {
@@ -166058,7 +166147,37 @@
     "asset-codegenerated-sons-test-0001": [],
     "asset-codegenerated-svg-0001": [],
     "asset-codegenerated-svg-0002": [],
-    "asset-codegenerated-svg-0003": [],
+    "asset-codegenerated-svg-0003": [
+      {
+        "assetPath": "src/characters/svg.ts",
+        "assetVersion": 2,
+        "codeRef": {
+          "line": 1,
+          "path": "src/characters/svg.ts"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : module src/characters/svg.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+        ],
+        "game": "tictac",
+        "importName": "svg",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "src/characters/svg.ts · motif de dessin du scan"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "dessin-code",
+        "scene": "src/characters/svg.ts",
+        "status": "active"
+      }
+    ],
     "asset-codegenerated-test-assets-0001": [
       {
         "assetBlobs": {
@@ -235407,6 +235526,35 @@
         "role": "image",
         "scene": "public/autres-jeux/opencade.png",
         "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencade.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencade.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencade.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "opencade",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencade.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/autres-jeux/opencade.png",
+        "status": "active"
       }
     ],
     "asset-image-opencade-0002": [
@@ -238371,6 +238519,35 @@
         "provider": "github",
         "releases": [],
         "repo": "petit-astronome",
+        "role": "image",
+        "scene": "public/autres-jeux/opencadkid.png",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/opencadkid.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/opencadkid.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/opencadkid.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "opencadkid",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/opencadkid.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
         "role": "image",
         "scene": "public/autres-jeux/opencadkid.png",
         "status": "active"
@@ -255501,6 +255678,35 @@
         "repo": "jeux-assets",
         "role": "sprite",
         "scene": "catalogue.json",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/autres-jeux/petit-astronome.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/autres-jeux/petit-astronome.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/autres-jeux/petit-astronome.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "petit-astronome",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/autres-jeux/petit-astronome.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/autres-jeux/petit-astronome.png",
         "status": "active"
       }
     ],
@@ -284006,6 +284212,35 @@
         "role": "icon",
         "scene": "pwa-manifest.ts",
         "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-192.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-192.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-192.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-192",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-192.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-192.png",
+        "status": "active"
       }
     ],
     "asset-image-tictac-512-0001": [
@@ -284085,6 +284320,64 @@
         "repo": "tictac",
         "role": "icon",
         "scene": "pwa-manifest.ts",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-512.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-512.png",
+        "status": "active"
+      },
+      {
+        "assetPath": "public/icons/tictac-maskable-512.png",
+        "assetVersion": 1,
+        "codeRef": {
+          "line": 1,
+          "path": "public/icons/tictac-maskable-512.png"
+        },
+        "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+        "evidence": [
+          "importer_livre : image public/icons/tictac-maskable-512.png livrée (fichier suivi au commit)"
+        ],
+        "game": "tictac",
+        "importName": "tictac-maskable-512",
+        "inference": {
+          "role": {
+            "confidence": 1,
+            "evidence": [
+              "public/icons/tictac-maskable-512.png · fichier livré"
+            ],
+            "method": "proven"
+          }
+        },
+        "provider": "github",
+        "releases": [],
+        "repo": "tictac",
+        "role": "image",
+        "scene": "public/icons/tictac-maskable-512.png",
         "status": "active"
       }
     ],
@@ -388972,17 +389265,47 @@
       "asset-style-styles-0002",
       "asset-svg-glyphs-0001"
     ],
+    "tictac/tictac/public/autres-jeux/opencade.png": [
+      "asset-image-opencade-0001"
+    ],
+    "tictac/tictac/public/autres-jeux/opencadkid.png": [
+      "asset-image-opencadkid-0001"
+    ],
+    "tictac/tictac/public/autres-jeux/petit-astronome.png": [
+      "asset-image-petit-astronome-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-192.png": [
+      "asset-image-tictac-192-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-512.png": [
+      "asset-image-tictac-512-0001"
+    ],
+    "tictac/tictac/public/icons/tictac-maskable-512.png": [
+      "asset-image-tictac-512-0001"
+    ],
     "tictac/tictac/pwa-manifest.ts": [
       "asset-image-tictac-192-0001",
       "asset-image-tictac-512-0001"
     ],
+    "tictac/tictac/src/characters/svg.ts": [
+      "asset-codegenerated-svg-0003"
+    ],
     "tictac/tictac/src/main.ts": [
       "asset-style-style-0013"
+    ],
+    "tictac/tictac/src/ui/app.ts": [
+      "asset-codegenerated-app-0002"
+    ],
+    "tictac/tictac/src/ui/clock.ts": [
+      "asset-codegenerated-clock-0001"
     ],
     "tictac/tictac/src/ui/other-games.ts": [
       "asset-image-opencade-0004",
       "asset-image-opencadkid-0004",
       "asset-image-petit-astronome-0004"
+    ],
+    "tictac/tictac/src/ui/scene.ts": [
+      "asset-codegenerated-scene-0025"
     ],
     "tictac/tictac/tests/contrast.test.ts": [
       "asset-codegenerated-app-0002",

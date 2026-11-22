@@ -174,7 +174,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Icônes PWA produites par le code du dépôt : elles prennent la licence du code qui les dessine, MIT (2026-11-22).",
+    "method": "historique git : licence de la source",
+    "ref": "tictac 91332d4 (scripts/make-icons.js écrit public/icons/tictac-*.png) ; LICENSE (MIT, Davy45270) ; HL-538"
+  },
   "name": "tictac-192",
   "orientation": "unknown",
   "originUniverse": "tictac",
@@ -184,7 +189,7 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (icônes dessinées par scripts/make-icons.js du jeu)",
     "evidence": [
       "tictac@05959b8f6103482adf2f4bb3d81f9af823c623f1:public/icons/tictac-192.png"
     ],
@@ -240,6 +245,35 @@
       "repo": "tictac",
       "role": "icon",
       "scene": "pwa-manifest.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/icons/tictac-192.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/icons/tictac-192.png"
+      },
+      "commit": "05959b8f6103482adf2f4bb3d81f9af823c623f1",
+      "evidence": [
+        "importer_livre : image public/icons/tictac-192.png livrée (fichier suivi au commit)"
+      ],
+      "game": "tictac",
+      "importName": "tictac-192",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/icons/tictac-192.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "tictac",
+      "role": "image",
+      "scene": "public/icons/tictac-192.png",
       "status": "active"
     }
   ],

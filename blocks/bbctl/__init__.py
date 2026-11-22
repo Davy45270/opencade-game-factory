@@ -20,6 +20,7 @@ from .duplicates import duplicates
 from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
+from . import index as generes, recu
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
 
@@ -76,6 +77,7 @@ def parser():
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
+        "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
     for name, description in descriptions.items():
@@ -90,7 +92,9 @@ def parser():
     importer.add_argument("--dry-run", action="store_true")
     searcher = sub["search"]
     searcher.add_argument("--query", required=True)
-    searcher.add_argument("--scope", choices=("internal", "opensource"), required=True)
+    searcher.add_argument("--scope", choices=("internal", "opensource", "catalog"), required=True)
+    searcher.add_argument("--index", type=Path, help="catalog : dossier écrit par bbctl index --out.")
+    searcher.add_argument("--project", help="internal avec --receipt : étape 1, specctl resolve du projet.")
     searcher.add_argument("--ecosystem", choices=("npm",), default="npm", help="opensource : registre interrogé.")
     searcher.add_argument("--size", type=int, default=10, help="opensource : nombre de candidats.")
     searcher.add_argument("--record", action="store_true", help="opensource : inscrire les candidats au catalogue.")
@@ -120,6 +124,10 @@ def parser():
     for name in ("adopt", "decide"):
         sub[name].add_argument("--expect", metavar="SHA256", help="Empreinte de la fiche lue : refus si elle a changé.")
     sub["link-specs"].add_argument("--dry-run", action="store_true")
+    sub["index"].add_argument("--out", type=Path, required=True)
+    sub["index"].add_argument("--check", action="store_true")
+    for name in ("evaluate", "decide"):
+        sub[name].add_argument("--receipt", type=Path, help="Reçu commun reuse before build : l'étape y est ajoutée.")
     gater = sub["gate"]
     gater.add_argument("--repo", type=Path, required=True)
     gater.add_argument("--base", required=True)
@@ -166,6 +174,10 @@ def run(args, root):
     with lock(root, write=write):
         if command == "import-decisions":
             return import_decisions(blocks, args.source, args.repo, args.commit, args.dry_run)
+        if command == "search" and args.scope == "catalog":
+            if args.index is None:
+                raise UsageError("--scope catalog exige --index.")
+            return generes.chercher(args.index, args.query, args.size)
         if command == "search" and args.scope == "opensource":
             return search_opensource(blocks, args.query, args.ecosystem, args.size, args.record)
         if command == "search":
@@ -182,8 +194,10 @@ def run(args, root):
             return discover(blocks, args.sources or root / "catalog" / "sources.json", args.clones, args.dry_run)
 
         records = read_catalogue(blocks / "catalog")
+        if command == "index":
+            return generes.index(records, args.out, args.check)
         if command == "inspect":
-            return inspect(records, args.block)
+            return {**inspect(records, args.block), "status": generes.statuts(records[args.block][1])}
         if command == "usages":
             return usages(records, args.block)
         if command == "impact":
@@ -207,12 +221,19 @@ def run(args, root):
                 raise Uncovered(result)
             return result
         if command == "validate":
+            # E183 : `adopted` = approuvée ET consommée ; sans consommateur, les deux axes sont confondus.
+            orphelines = generes.incoherences(records)
+            if orphelines:
+                raise InvalidJSON("Brique adoptée sans consommateur (usedBy vide) : " + ", ".join(orphelines))
             return {"count": len(records), "specLinks": check_spec_links(root, records)}
         if args.candidate not in records:
             raise InvalidJSON(f"Candidat absent du catalogue : {args.candidate}.")
         path, block = records[args.candidate]
         result = evaluate(blocks / "evaluations", block)
         if command == "evaluate":
+            if args.receipt:
+                recu.ajouter(args.receipt, blocks, [{"step": "bbctl evaluate", "candidate": block["id"],
+                                                     "eliminated": result["eliminated"], "score": result["score"]}])
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
@@ -236,6 +257,9 @@ def run(args, root):
             evenements.emettre("bb.decided", "success", projet_de(block), [block["id"]],
                                {"choice": args.choice, "score": result["score"]}, args.choice + args.reason,
                                specs=block.get("specIds") or ())
+        if args.receipt:
+            recu.ajouter(args.receipt, blocks, [{"step": "bbctl decide", "candidate": block["id"], "choice": args.choice,
+                                                 "rationale": args.reason, "score": result["score"]}])
         return {"candidate": block["id"], "decision": decision, "changed": changed}
 
 

@@ -1,0 +1,441 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-ms-moineau-detouree-0001.png"
+  },
+  "id": "sheet-ms-moineau-detouree-0001",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "Moineau champignon (ennemi) — cadres détourés",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : 10_moineaux_champignons.png · SHA-256 e886ed3dc0e90d5b86a2d7ad01edd22d1a0f8ae0ddcc6b9274d2bd009d7897e4",
+      "Canal : Drive « Homelab/assets/Metal Solid » (dossier 1EGvSE0aigwfis8cgtEH2hmSlWGocVsEg), déposé le 2026-11-22 (Drive id 16idk7Re_IeOLdXaGqJ3d8BeYyjjHfy4a) ; copie locale gelée ~/sauvegarde-session-hl538/drive-2026-11-22/metal-solid.",
+      "Version importée : le bandeau de style en haut à droite portent une marque commerciale tierce ; ces zones sont remises au fond (RGB [5, 10, 12]) par sources/editable/metal-solid-2026-11-22/decoupe_ms.py (SHA-256 e7f5b45683fb29a8a1e80f076ca421f0030e7361cbfbcc2d38c55f38444bcaa5). Le reste du dessin est inchangé ; l'original n'entre pas au registre.",
+      "Détourage : seuls les cadres de sources/editable/metal-solid-2026-11-22/ms-moineau.decoupe.json (SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2) sont gardés ; ailleurs alpha 0 et RGB 0 (titres, numéros, nuancier, logo et bandeau ne survivent pas).",
+      "Étiquettes : run-and-gun, univers/metal-solid, refonte-a-venir, ennemi.",
+      "Usage possible : refontes à venir d'un jeu de tir à défilement horizontal (run-and-gun 2D pixel art) ; aucun jeu n'est démarré à partir de ces planches (HL-525 7-3314) et aucune fiche ne les lie à un jeu existant."
+    ],
+    "tool": "decoupe_ms.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-ms-moineau-portrait-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 290,
+      "status": "verified",
+      "w": 304,
+      "x": 18,
+      "y": 129
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-idle-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 77,
+      "status": "verified",
+      "w": 96,
+      "x": 406,
+      "y": 132
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-idle-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 77,
+      "status": "verified",
+      "w": 91,
+      "x": 540,
+      "y": 132
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-idle-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 80,
+      "status": "verified",
+      "w": 91,
+      "x": 670,
+      "y": 129
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-idle-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 80,
+      "status": "verified",
+      "w": 91,
+      "x": 799,
+      "y": 129
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-decollage-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 71,
+      "status": "verified",
+      "w": 100,
+      "x": 973,
+      "y": 142
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-decollage-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 81,
+      "status": "verified",
+      "w": 118,
+      "x": 1097,
+      "y": 135
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-decollage-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 97,
+      "status": "verified",
+      "w": 114,
+      "x": 1230,
+      "y": 118
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-decollage-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 102,
+      "status": "verified",
+      "w": 108,
+      "x": 1382,
+      "y": 102
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 83,
+      "status": "verified",
+      "w": 87,
+      "x": 407,
+      "y": 302
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 77,
+      "status": "verified",
+      "w": 83,
+      "x": 518,
+      "y": 305
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 76,
+      "status": "verified",
+      "w": 83,
+      "x": 626,
+      "y": 298
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 74,
+      "status": "verified",
+      "w": 86,
+      "x": 727,
+      "y": 301
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-e-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 73,
+      "status": "verified",
+      "w": 91,
+      "x": 832,
+      "y": 290
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-vol-f-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 72,
+      "status": "verified",
+      "w": 88,
+      "x": 942,
+      "y": 290
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-atterrissage-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 74,
+      "status": "verified",
+      "w": 89,
+      "x": 1091,
+      "y": 294
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-atterrissage-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 71,
+      "status": "verified",
+      "w": 86,
+      "x": 1200,
+      "y": 305
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-atterrissage-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 73,
+      "status": "verified",
+      "w": 95,
+      "x": 1300,
+      "y": 312
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-atterrissage-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 77,
+      "status": "verified",
+      "w": 104,
+      "x": 1400,
+      "y": 311
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-alerte-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 76,
+      "status": "verified",
+      "w": 97,
+      "x": 60,
+      "y": 482
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-alerte-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 78,
+      "status": "verified",
+      "w": 96,
+      "x": 225,
+      "y": 480
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-alerte-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 99,
+      "status": "verified",
+      "w": 109,
+      "x": 366,
+      "y": 458
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-alerte-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 106,
+      "status": "verified",
+      "w": 130,
+      "x": 520,
+      "y": 450
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-spores-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 83,
+      "status": "verified",
+      "w": 97,
+      "x": 771,
+      "y": 475
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-spores-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 81,
+      "status": "verified",
+      "w": 136,
+      "x": 948,
+      "y": 475
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-spores-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 80,
+      "status": "verified",
+      "w": 165,
+      "x": 1133,
+      "y": 475
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-spores-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 84,
+      "status": "verified",
+      "w": 94,
+      "x": 1345,
+      "y": 473
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-pique-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 74,
+      "status": "verified",
+      "w": 97,
+      "x": 35,
+      "y": 648
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-pique-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 88,
+      "status": "verified",
+      "w": 114,
+      "x": 162,
+      "y": 643
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-pique-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 76,
+      "status": "verified",
+      "w": 134,
+      "x": 305,
+      "y": 661
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-attaque-pique-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 86,
+      "status": "verified",
+      "w": 96,
+      "x": 458,
+      "y": 642
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-degats-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 85,
+      "status": "verified",
+      "w": 103,
+      "x": 585,
+      "y": 645
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-degats-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 79,
+      "status": "verified",
+      "w": 94,
+      "x": 703,
+      "y": 650
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-degats-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 82,
+      "status": "verified",
+      "w": 113,
+      "x": 812,
+      "y": 648
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-degats-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 79,
+      "status": "verified",
+      "w": 90,
+      "x": 953,
+      "y": 650
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-ko-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 78,
+      "status": "verified",
+      "w": 93,
+      "x": 1080,
+      "y": 649
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-ko-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 54,
+      "status": "verified",
+      "w": 94,
+      "x": 1197,
+      "y": 673
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-ko-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 86,
+      "status": "verified",
+      "w": 94,
+      "x": 1309,
+      "y": 639
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-ko-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 86,
+      "status": "verified",
+      "w": 90,
+      "x": 1420,
+      "y": 638
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-a-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 103,
+      "status": "verified",
+      "w": 120,
+      "x": 84,
+      "y": 827
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-b-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 109,
+      "status": "verified",
+      "w": 184,
+      "x": 289,
+      "y": 821
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-c-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 112,
+      "status": "verified",
+      "w": 127,
+      "x": 519,
+      "y": 818
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-d-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 110,
+      "status": "verified",
+      "w": 127,
+      "x": 730,
+      "y": 820
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-e-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 105,
+      "status": "verified",
+      "w": 192,
+      "x": 955,
+      "y": 825
+    },
+    {
+      "assetId": "asset-sprite-ms-moineau-variantes-f-0001",
+      "evidence": "ms-moineau.decoupe.json · SHA-256 3bf48e0e6e90de35de4fb5cc607412e2720dbe93808214dd638cefe20f1000a2 · planche a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+      "h": 168,
+      "status": "verified",
+      "w": 298,
+      "x": 1182,
+      "y": 776
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "a0cf6d280466242a3acc7d9f2865f5a4d4d260954c0f35648a4eb630bca6237f",
+  "status": "active"
+}

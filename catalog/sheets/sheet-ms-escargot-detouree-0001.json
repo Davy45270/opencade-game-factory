@@ -1,0 +1,414 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-ms-escargot-detouree-0001.png"
+  },
+  "id": "sheet-ms-escargot-detouree-0001",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "Escargot champignon (ennemi) — cadres détourés",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : 08_escargots_champignons.png · SHA-256 31b19976813a519d2a27b88bbd20b5d49873ef964256283f1a4ae0a4f2a3e1e2",
+      "Canal : Drive « Homelab/assets/Metal Solid » (dossier 1EGvSE0aigwfis8cgtEH2hmSlWGocVsEg), déposé le 2026-11-22 (Drive id 138OZUIBWWJ1sigZrISYOffLqfBMmloPA) ; copie locale gelée ~/sauvegarde-session-hl538/drive-2026-11-22/metal-solid.",
+      "Version importée : le bandeau de style en haut à droite portent une marque commerciale tierce ; ces zones sont remises au fond (RGB [7, 12, 15]) par sources/editable/metal-solid-2026-11-22/decoupe_ms.py (SHA-256 e7f5b45683fb29a8a1e80f076ca421f0030e7361cbfbcc2d38c55f38444bcaa5). Le reste du dessin est inchangé ; l'original n'entre pas au registre.",
+      "Détourage : seuls les cadres de sources/editable/metal-solid-2026-11-22/ms-escargot.decoupe.json (SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689) sont gardés ; ailleurs alpha 0 et RGB 0 (titres, numéros, nuancier, logo et bandeau ne survivent pas).",
+      "Étiquettes : run-and-gun, univers/metal-solid, refonte-a-venir, ennemi.",
+      "Usage possible : refontes à venir d'un jeu de tir à défilement horizontal (run-and-gun 2D pixel art) ; aucun jeu n'est démarré à partir de ces planches (HL-525 7-3314) et aucune fiche ne les lie à un jeu existant."
+    ],
+    "tool": "decoupe_ms.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-ms-escargot-portrait-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 297,
+      "status": "verified",
+      "w": 325,
+      "x": 10,
+      "y": 125
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-idle-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 79,
+      "status": "verified",
+      "w": 86,
+      "x": 412,
+      "y": 130
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-idle-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 79,
+      "status": "verified",
+      "w": 87,
+      "x": 517,
+      "y": 130
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-idle-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 81,
+      "status": "verified",
+      "w": 89,
+      "x": 621,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-idle-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 81,
+      "status": "verified",
+      "w": 90,
+      "x": 728,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 94,
+      "status": "verified",
+      "w": 87,
+      "x": 904,
+      "y": 113
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 79,
+      "status": "verified",
+      "w": 86,
+      "x": 1008,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 82,
+      "status": "verified",
+      "w": 100,
+      "x": 1100,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 83,
+      "status": "verified",
+      "w": 101,
+      "x": 1204,
+      "y": 127
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-e-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 83,
+      "status": "verified",
+      "w": 100,
+      "x": 1310,
+      "y": 127
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-deplacement-f-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 81,
+      "status": "verified",
+      "w": 99,
+      "x": 1417,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-alerte-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 79,
+      "status": "verified",
+      "w": 97,
+      "x": 414,
+      "y": 310
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-alerte-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 100,
+      "status": "verified",
+      "w": 97,
+      "x": 534,
+      "y": 289
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-alerte-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 82,
+      "status": "verified",
+      "w": 98,
+      "x": 655,
+      "y": 307
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-alerte-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 100,
+      "status": "verified",
+      "w": 97,
+      "x": 775,
+      "y": 289
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-preparation-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 77,
+      "status": "verified",
+      "w": 119,
+      "x": 971,
+      "y": 312
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-preparation-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 77,
+      "status": "verified",
+      "w": 119,
+      "x": 1103,
+      "y": 312
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-preparation-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 76,
+      "status": "verified",
+      "w": 120,
+      "x": 1237,
+      "y": 313
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-preparation-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 81,
+      "status": "verified",
+      "w": 121,
+      "x": 1371,
+      "y": 308
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-spores-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 88,
+      "status": "verified",
+      "w": 105,
+      "x": 48,
+      "y": 482
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-spores-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 87,
+      "status": "verified",
+      "w": 103,
+      "x": 228,
+      "y": 483
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-spores-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 88,
+      "status": "verified",
+      "w": 168,
+      "x": 394,
+      "y": 482
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-spores-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 88,
+      "status": "verified",
+      "w": 102,
+      "x": 593,
+      "y": 482
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-saut-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 86,
+      "status": "verified",
+      "w": 107,
+      "x": 815,
+      "y": 490
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-saut-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 102,
+      "status": "verified",
+      "w": 154,
+      "x": 961,
+      "y": 474
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-saut-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 127,
+      "status": "verified",
+      "w": 119,
+      "x": 1174,
+      "y": 449
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-attaque-saut-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 90,
+      "status": "verified",
+      "w": 140,
+      "x": 1346,
+      "y": 486
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-degats-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 81,
+      "status": "verified",
+      "w": 104,
+      "x": 37,
+      "y": 669
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-degats-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 98,
+      "status": "verified",
+      "w": 106,
+      "x": 165,
+      "y": 652
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-degats-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 83,
+      "status": "verified",
+      "w": 101,
+      "x": 293,
+      "y": 667
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-degats-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 83,
+      "status": "verified",
+      "w": 98,
+      "x": 427,
+      "y": 667
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-ko-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 76,
+      "status": "verified",
+      "w": 119,
+      "x": 603,
+      "y": 671
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-ko-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 59,
+      "status": "verified",
+      "w": 127,
+      "x": 744,
+      "y": 688
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-ko-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 91,
+      "status": "verified",
+      "w": 131,
+      "x": 897,
+      "y": 656
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-ko-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 97,
+      "status": "verified",
+      "w": 145,
+      "x": 1054,
+      "y": 649
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-elements-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 52,
+      "status": "verified",
+      "w": 116,
+      "x": 1263,
+      "y": 675
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-elements-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 63,
+      "status": "verified",
+      "w": 69,
+      "x": 1428,
+      "y": 669
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-variantes-a-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 96,
+      "status": "verified",
+      "w": 132,
+      "x": 125,
+      "y": 850
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-variantes-b-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 102,
+      "status": "verified",
+      "w": 167,
+      "x": 378,
+      "y": 844
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-variantes-c-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 102,
+      "status": "verified",
+      "w": 147,
+      "x": 647,
+      "y": 844
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-variantes-d-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 105,
+      "status": "verified",
+      "w": 157,
+      "x": 904,
+      "y": 841
+    },
+    {
+      "assetId": "asset-sprite-ms-escargot-variantes-e-0001",
+      "evidence": "ms-escargot.decoupe.json · SHA-256 71c5fc0deb91edefcd31b12ceaf226eab254639a3e3499651f4cbbafca68c689 · planche a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+      "h": 149,
+      "status": "verified",
+      "w": 237,
+      "x": 1146,
+      "y": 804
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "a297380b7bbfd1891ee1e6ed6fb423d65ddc9aadd107524af3fbea0f57429db6",
+  "status": "active"
+}

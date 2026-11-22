@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-7481 assets · 477 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8105 assets · 557 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -104,7 +104,7 @@
 |---|---|
 | [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
 | [CC-BY-4.0](licences/CC-BY-4.0.md) | 1208 |
-| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 2468 |
+| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 3092 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
@@ -113,22 +113,38 @@
 | [MIT](licences/MIT.md) | 703 |
 | [unknown](licences/unknown.md) | 3060 |
 
-## Planches (477)
+## Planches (557)
 
 | Planche | Licence | Assets découpés |
 |---|---|---|
 | [01_feuillu_cote](planches/sheet-01-feuillu-cote-0001.md) | unknown | 0 |
 | [01_feuillu_dessus](planches/sheet-01-feuillu-dessus-0001.md) | unknown | 0 |
+| [Coloriage 01 — papillons](planches/sheet-01-papillons-0001.md) | CC-BY-SA-4.0 | 0 |
 | [02_cerisier_cote](planches/sheet-02-cerisier-cote-0001.md) | unknown | 0 |
 | [02_cerisier_dessus](planches/sheet-02-cerisier-dessus-0001.md) | unknown | 0 |
+| [Coloriage 02 — lezards ecureuil](planches/sheet-02-lezards-ecureuil-0001.md) | CC-BY-SA-4.0 | 0 |
 | [03_erable_cote](planches/sheet-03-erable-cote-0001.md) | unknown | 0 |
 | [03_erable_dessus](planches/sheet-03-erable-dessus-0001.md) | unknown | 0 |
+| [Coloriage 03 — gorilles](planches/sheet-03-gorilles-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 04 — crustaces limule](planches/sheet-04-crustaces-limule-0001.md) | CC-BY-SA-4.0 | 0 |
 | [04_pommier_cote](planches/sheet-04-pommier-cote-0001.md) | unknown | 0 |
 | [04_pommier_dessus](planches/sheet-04-pommier-dessus-0001.md) | unknown | 0 |
+| [Coloriage 05 — antilopes](planches/sheet-05-antilopes-0001.md) | CC-BY-SA-4.0 | 0 |
 | [05_sapin_cote](planches/sheet-05-sapin-cote-0001.md) | unknown | 0 |
 | [05_sapin_dessus](planches/sheet-05-sapin-dessus-0001.md) | unknown | 0 |
 | [06_palmier_cote](planches/sheet-06-palmier-cote-0001.md) | unknown | 0 |
 | [06_palmier_dessus](planches/sheet-06-palmier-dessus-0001.md) | unknown | 0 |
+| [Coloriage 06 — rapace](planches/sheet-06-rapace-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 07 — poules huppees](planches/sheet-07-poules-huppees-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 08 — crabes](planches/sheet-08-crabes-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 09 — coleopteres vitrine](planches/sheet-09-coleopteres-vitrine-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 10 — coquillages](planches/sheet-10-coquillages-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 11 — scarabees](planches/sheet-11-scarabees-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 12 — grande galerie elephants](planches/sheet-12-grande-galerie-elephants-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 13 — adele panda](planches/sheet-13-adele-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 14 — rhinoceros](planches/sheet-14-rhinoceros-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 15 — hippopotame](planches/sheet-15-hippopotame-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Coloriage 16 — adele girafes zebres](planches/sheet-16-adele-girafes-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [2026-11-06-j__bande](planches/sheet-2026-11-06-j-bande-0001.md) | unknown | 0 |
 | [Champignon malicieux, amanite (type Végétal, taille M)](planches/sheet-amanite-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Champignon malicieux, amanite (type Végétal, taille M) — détourée](planches/sheet-amanite-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
@@ -143,6 +159,7 @@
 | [animations-jeu@3x](planches/sheet-animations-jeu-3x-0002.md) | unknown | 0 |
 | [Araignée de grotte (taille M)](planches/sheet-araignee-grotte-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Araignée de grotte (taille M) — détourée](planches/sheet-araignee-grotte-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Araignee mer champignon domestique](planches/sheet-araignee-mer-champignon-domestiq-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Arbre_02_cerisier_planche](planches/sheet-arbre-02-cerisier-planche-0001.md) | unknown | 0 |
 | [Arbre_03_erable_planche](planches/sheet-arbre-03-erable-planche-0001.md) | unknown | 0 |
 | [Arbre_04_pommier_planche](planches/sheet-arbre-04-pommier-planche-0001.md) | unknown | 0 |
@@ -163,6 +180,12 @@
 | [bannieres-jeu@3x](planches/sheet-bannieres-jeu-3x-0001.md) | unknown | 0 |
 | [Bibliothécaire des Renards](planches/sheet-bibliothecaire-renards-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Bibliothèque des Renards](planches/sheet-bibliotheque-renards-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon](planches/sheet-blob-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon aquatique](planches/sheet-blob-champignon-aquatique-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon charbon](planches/sheet-blob-champignon-charbon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon diamant](planches/sheet-blob-champignon-diamant-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon feu](planches/sheet-blob-champignon-feu-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Blob champignon or](planches/sheet-blob-champignon-or-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Blob vert, 4 directions (type Blob, taille M)](planches/sheet-blob-vert-4directions-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Blob vert, 4 directions (type Blob, taille M) — détourée](planches/sheet-blob-vert-4directions-detouree-0001.md) | CC-BY-SA-4.0 | 68 |
 | [Six blobs (vert, bleu, feu, glace, poison, or), profil droit](planches/sheet-blobs-variantes-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -230,6 +253,8 @@
 | [Cozy_Room_Sort_Planche_02.webp](planches/sheet-cozy-room-sort-planche-02-webp-0001.md) | unknown | 14 |
 | [Cozy_Room_Sort_Planche_03.webp](planches/sheet-cozy-room-sort-planche-03-webp-0001.md) | unknown | 48 |
 | [Cozy_Room_Sort_Planche_04_Salle_de_bain.webp](planches/sheet-cozy-room-sort-planche-04-salle-0001.md) | unknown | 64 |
+| [Crabe champignon domestique](planches/sheet-crabe-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Crevette champignon domestique](planches/sheet-crevette-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [cuisine-culinaires-detouree](planches/sheet-cuisine-culinaires-detouree-0001.md) | unknown | 16 |
 | [cuisine-patisserie-detouree](planches/sheet-cuisine-patisserie-detouree-0001.md) | unknown | 16 |
 | [cuisine-sprites-culinaires-rotation](planches/sheet-cuisine-sprites-culinaires-rotat-0001.md) | unknown | 0 |
@@ -246,6 +271,7 @@
 | [Diable malicieux (type Démon, taille M)](planches/sheet-diable-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Diable malicieux (type Démon, taille M) — détourée](planches/sheet-diable-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Dionée attrape-mouche domestique](planches/sheet-dionee-attrape-mouche-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Dodo champignon](planches/sheet-dodo-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [e03-interface](planches/sheet-e03-interface-0001.md) | unknown | 0 |
 | [e03-menu](planches/sheet-e03-menu-0001.md) | unknown | 0 |
 | [e03-objets](planches/sheet-e03-objets-0001.md) | unknown | 0 |
@@ -273,6 +299,19 @@
 | [Enfant lémurienne](planches/sheet-enfant-lemurienne-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Enfant renard](planches/sheet-enfant-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Enfant zèbre](planches/sheet-enfant-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere batiments](planches/sheet-ferme-champignonniere-batiments-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere espaces](planches/sheet-ferme-champignonniere-espaces-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere espaces aquatiques](planches/sheet-ferme-champignonniere-espaces-aq-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere sans numeros](planches/sheet-ferme-champignonniere-sans-numer-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere vues 5 angles](planches/sheet-ferme-champignonniere-vues-5-ang-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Ferme champignonniere vues isometriques](planches/sheet-ferme-champignonniere-vues-isome-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fermiere homard](planches/sheet-fermiere-homard-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fille hard rock panda](planches/sheet-fille-hard-rock-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fille paysan panda](planches/sheet-fille-paysan-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fille rebelle panda](planches/sheet-fille-rebelle-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fils artiste panda](planches/sheet-fils-artiste-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fils paysan panda](planches/sheet-fils-paysan-panda-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Fils veterinaire champignons panda](planches/sheet-fils-veterinaire-champignons-pan-0001.md) | CC-BY-SA-4.0 | 0 |
 | [fioles-logo@2x](planches/sheet-fioles-logo-2x-0001.md) | unknown | 0 |
 | [fioles-logo@3x](planches/sheet-fioles-logo-3x-0001.md) | unknown | 0 |
 | [fleche-plateau-apercu@2x](planches/sheet-fleche-plateau-apercu-2x-0001.md) | unknown | 0 |
@@ -287,22 +326,35 @@
 | [foret](planches/sheet-foret-0001.md) | unknown | 0 |
 | [foret-2048x256-sud](planches/sheet-foret-2048x256-sud-0001.md) | unknown | 0 |
 | [Garde fourmi en armure](planches/sheet-garde-fourmi-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Garde panda](planches/sheet-garde-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Garde renard en armure](planches/sheet-garde-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Garde zèbre en armure](planches/sheet-garde-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Gardes lémuriens](planches/sheet-gardes-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
 | [gestes-jeu@2x](planches/sheet-gestes-jeu-2x-0001.md) | unknown | 0 |
 | [gestes-jeu@3x](planches/sheet-gestes-jeu-3x-0001.md) | unknown | 0 |
 | [Girafe barde](planches/sheet-girafe-barde-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Golem eau champignon](planches/sheet-golem-eau-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Golem feu champignon](planches/sheet-golem-feu-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Golem de pierre (type Golem, taille M)](planches/sheet-golem-pierre-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Golem de pierre (type Golem, taille M) — détourée](planches/sheet-golem-pierre-detouree-0001.md) | CC-BY-SA-4.0 | 76 |
+| [Golem terre champignon](planches/sheet-golem-terre-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Golem vent champignon](planches/sheet-golem-vent-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Guêpe guerrière (type Aérien, taille S)](planches/sheet-guepe-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Guêpe guerrière (type Aérien, taille S) — détourée](planches/sheet-guepe-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
+| [Guerriere panda](planches/sheet-guerriere-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [hud-origine@2x](planches/sheet-hud-origine-2x-0001.md) | unknown | 0 |
 | [hud-origine@3x](planches/sheet-hud-origine-3x-0001.md) | unknown | 0 |
+| [Huitre champignon domestique](planches/sheet-huitre-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Huitre perliere champignon elevage](planches/sheet-huitre-perliere-champignon-eleva-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Ines_deplacement_V2](planches/sheet-ines-deplacement-v2-0001.md) | unknown | 0 |
 | [Koala malicieux (type Animal, taille M)](planches/sheet-koala-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Koala malicieux (type Animal, taille M) — détourée](planches/sheet-koala-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Lapin licorne champignon](planches/sheet-lapin-licorne-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Lapin licorne cuisinier guerrier](planches/sheet-lapin-licorne-cuisinier-guerrier-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Lapin licorne patissier guerrier](planches/sheet-lapin-licorne-patissier-guerrier-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Lavoir](planches/sheet-lavoir-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Licorne champignon domestique](planches/sheet-licorne-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Licorne champignon sauvage](planches/sheet-licorne-champignon-sauvage-0001.md) | CC-BY-SA-4.0 | 0 |
 | [logo-apercu@2x](planches/sheet-logo-apercu-2x-0001.md) | unknown | 0 |
 | [logo-apercu@2x](planches/sheet-logo-apercu-2x-0002.md) | unknown | 0 |
 | [logo-apercu@3x](planches/sheet-logo-apercu-3x-0001.md) | unknown | 0 |
@@ -334,6 +386,7 @@
 | [m02-fonds](planches/sheet-m02-fonds-0002.md) | unknown | 0 |
 | [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Maison famille panda](planches/sheet-maison-famille-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison des gardes](planches/sheet-maison-gardes-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison de l’herboriste](planches/sheet-maison-herboriste-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison de paysan](planches/sheet-maison-paysan-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -355,6 +408,33 @@
 | [mode-jeu@3x](planches/sheet-mode-jeu-3x-0002.md) | unknown | 0 |
 | [Moustique piqueur (type Aérien, taille S)](planches/sheet-moustique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Moustique piqueur (type Aérien, taille S) — détourée](planches/sheet-moustique-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
+| [Alligator champignon (ennemi) — cadres détourés](planches/sheet-ms-alligator-detouree-0001.md) | CC-BY-SA-4.0 | 44 |
+| [Alligator champignon (ennemi) — planche de référence](planches/sheet-ms-alligator-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Dodo guerrier (joueur) — cadres détourés](planches/sheet-ms-dodo-detouree-0001.md) | CC-BY-SA-4.0 | 49 |
+| [Dodo guerrier (joueur) — planche de référence](planches/sheet-ms-dodo-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Escargot champignon (ennemi) — cadres détourés](planches/sheet-ms-escargot-detouree-0001.md) | CC-BY-SA-4.0 | 42 |
+| [Escargot champignon (ennemi) — planche de référence](planches/sheet-ms-escargot-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Hélicoptère piloté par le dodo (véhicule joueur) — cadres détourés](planches/sheet-ms-helico-dodo-detouree-0001.md) | CC-BY-SA-4.0 | 49 |
+| [Hélicoptère piloté par le dodo (véhicule joueur) — planche de référence](planches/sheet-ms-helico-dodo-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Décors de jungle : bâtiments — cadres détourés](planches/sheet-ms-jungle-batiments-detouree-0001.md) | CC-BY-SA-4.0 | 65 |
+| [Décors de jungle : bâtiments — planche de référence](planches/sheet-ms-jungle-batiments-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Décors de jungle : habitations — cadres détourés](planches/sheet-ms-jungle-habitations-detouree-0001.md) | CC-BY-SA-4.0 | 50 |
+| [Décors de jungle : habitations — planche de référence](planches/sheet-ms-jungle-habitations-sans-marqu-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Kangourou guerrier (joueur) — cadres détourés](planches/sheet-ms-kangourou-detouree-0001.md) | CC-BY-SA-4.0 | 49 |
+| [Kangourou guerrier (joueur) — planche de référence](planches/sheet-ms-kangourou-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Koala champignon (ennemi) — cadres détourés](planches/sheet-ms-koala-detouree-0001.md) | CC-BY-SA-4.0 | 45 |
+| [Koala champignon (ennemi) — planche de référence](planches/sheet-ms-koala-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Moineau champignon (ennemi) — cadres détourés](planches/sheet-ms-moineau-detouree-0001.md) | CC-BY-SA-4.0 | 45 |
+| [Moineau champignon (ennemi) — planche de référence](planches/sheet-ms-moineau-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Panda guerrier (joueur) — cadres détourés](planches/sheet-ms-panda-detouree-0001.md) | CC-BY-SA-4.0 | 49 |
+| [Panda guerrier (joueur) — planche de référence](planches/sheet-ms-panda-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Serpent champignon (ennemi) — cadres détourés](planches/sheet-ms-serpent-detouree-0001.md) | CC-BY-SA-4.0 | 45 |
+| [Serpent champignon (ennemi) — planche de référence](planches/sheet-ms-serpent-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Tank d'équipe sans personnage (véhicule joueur) — cadres détourés](planches/sheet-ms-tank-detouree-0001.md) | CC-BY-SA-4.0 | 46 |
+| [Tank d'équipe avec les trois joueurs (véhicule joueur) — cadres détourés](planches/sheet-ms-tank-equipe-detouree-0001.md) | CC-BY-SA-4.0 | 46 |
+| [Tank d'équipe avec les trois joueurs (véhicule joueur) — planche de référence](planches/sheet-ms-tank-equipe-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Tank d'équipe : gabarit vide (cases à remplir) — planche de référence](planches/sheet-ms-tank-gabarit-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
+| [Tank d'équipe sans personnage (véhicule joueur) — planche de référence](planches/sheet-ms-tank-sans-marque-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Noe_cycle_marche](planches/sheet-noe-cycle-marche-0001.md) | unknown | 0 |
 | [objets-apercu@2x](planches/sheet-objets-apercu-2x-0001.md) | unknown | 0 |
 | [objets-apercu@3x](planches/sheet-objets-apercu-3x-0001.md) | unknown | 0 |

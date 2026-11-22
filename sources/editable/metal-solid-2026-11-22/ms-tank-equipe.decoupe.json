@@ -1,0 +1,665 @@
+{
+ "planche": "ms-tank-equipe-detouree.png",
+ "planche_sha256": "a898c694aa1aa4dfc8f194ae0cb95ceed1278fbafa68432b352a5c25e0ee7645",
+ "source": "04_tank_equipe.png",
+ "source_sha256": "ab13c4eddfffc26697a559eab3a905337db563b9c4bfde13ab75463277e9d517",
+ "sans_marque": "ms-tank-equipe-sans-marque.png",
+ "sans_marque_sha256": "2e33a907310b929d9ead3beaa7f5370661b1b8c50d39a68383b21806c77e41f2",
+ "fond": [
+  11,
+  16,
+  20
+ ],
+ "seuils": {
+  "masque": 26,
+  "detourage": 9,
+  "texte_h": 28
+ },
+ "constats": [],
+ "elements": [
+  {
+   "id": "ms-tank-equipe-portrait",
+   "boite": [
+    406,
+    298,
+    0,
+    138
+   ],
+   "ancre": "bas",
+   "animation": "portrait",
+   "libelle": "portrait",
+   "cadre": 1,
+   "cadres": 1
+  },
+  {
+   "id": "ms-tank-equipe-idle-a",
+   "boite": [
+    99,
+    87,
+    479,
+    141
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-idle-b",
+   "boite": [
+    99,
+    87,
+    605,
+    141
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-idle-c",
+   "boite": [
+    99,
+    90,
+    732,
+    138
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-idle-d",
+   "boite": [
+    97,
+    88,
+    859,
+    140
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-demarrage-a",
+   "boite": [
+    114,
+    87,
+    1023,
+    141
+   ],
+   "ancre": "bas",
+   "animation": "demarrage",
+   "libelle": "Démarrage (accélération)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-demarrage-b",
+   "boite": [
+    115,
+    88,
+    1147,
+    141
+   ],
+   "ancre": "bas",
+   "animation": "demarrage",
+   "libelle": "Démarrage (accélération)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-demarrage-c",
+   "boite": [
+    116,
+    90,
+    1271,
+    139
+   ],
+   "ancre": "bas",
+   "animation": "demarrage",
+   "libelle": "Démarrage (accélération)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-demarrage-d",
+   "boite": [
+    117,
+    88,
+    1395,
+    141
+   ],
+   "ancre": "bas",
+   "animation": "demarrage",
+   "libelle": "Démarrage (accélération)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-a",
+   "boite": [
+    95,
+    84,
+    447,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-b",
+   "boite": [
+    104,
+    88,
+    545,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-c",
+   "boite": [
+    104,
+    90,
+    654,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-d",
+   "boite": [
+    105,
+    89,
+    760,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-e",
+   "boite": [
+    104,
+    89,
+    869,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-deplacement-f",
+   "boite": [
+    101,
+    90,
+    978,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (marche)",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "ms-tank-equipe-arret-a",
+   "boite": [
+    92,
+    84,
+    1129,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "arret",
+   "libelle": "Arrêt (freinage)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-arret-b",
+   "boite": [
+    93,
+    90,
+    1228,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "arret",
+   "libelle": "Arrêt (freinage)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-arret-c",
+   "boite": [
+    92,
+    90,
+    1328,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "arret",
+   "libelle": "Arrêt (freinage)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-arret-d",
+   "boite": [
+    96,
+    90,
+    1423,
+    321
+   ],
+   "ancre": "bas",
+   "animation": "arret",
+   "libelle": "Arrêt (freinage)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-tir-canon-a",
+   "boite": [
+    111,
+    86,
+    42,
+    496
+   ],
+   "ancre": "bas",
+   "animation": "tir-canon",
+   "libelle": "Tir principal (canon)",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-tir-canon-b",
+   "boite": [
+    111,
+    86,
+    200,
+    496
+   ],
+   "ancre": "bas",
+   "animation": "tir-canon",
+   "libelle": "Tir principal (canon)",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-tir-canon-c",
+   "boite": [
+    153,
+    90,
+    350,
+    492
+   ],
+   "ancre": "bas",
+   "animation": "tir-canon",
+   "libelle": "Tir principal (canon)",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-tir-canon-d",
+   "boite": [
+    111,
+    86,
+    525,
+    496
+   ],
+   "ancre": "bas",
+   "animation": "tir-canon",
+   "libelle": "Tir principal (canon)",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-tir-canon-e",
+   "boite": [
+    144,
+    86,
+    678,
+    496
+   ],
+   "ancre": "bas",
+   "animation": "tir-canon",
+   "libelle": "Tir principal (canon)",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-tir-missile-a",
+   "boite": [
+    106,
+    88,
+    897,
+    494
+   ],
+   "ancre": "bas",
+   "animation": "tir-missile",
+   "libelle": "Tir alternatif (missile)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-tir-missile-b",
+   "boite": [
+    108,
+    98,
+    1054,
+    484
+   ],
+   "ancre": "bas",
+   "animation": "tir-missile",
+   "libelle": "Tir alternatif (missile)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-tir-missile-c",
+   "boite": [
+    162,
+    98,
+    1182,
+    484
+   ],
+   "ancre": "bas",
+   "animation": "tir-missile",
+   "libelle": "Tir alternatif (missile)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-tir-missile-d",
+   "boite": [
+    110,
+    88,
+    1382,
+    494
+   ],
+   "ancre": "bas",
+   "animation": "tir-missile",
+   "libelle": "Tir alternatif (missile)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-saut-a",
+   "boite": [
+    105,
+    88,
+    57,
+    676
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut (bosses / tremplin)",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-saut-b",
+   "boite": [
+    124,
+    94,
+    196,
+    671
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut (bosses / tremplin)",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-saut-c",
+   "boite": [
+    114,
+    87,
+    359,
+    662
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut (bosses / tremplin)",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-saut-d",
+   "boite": [
+    118,
+    80,
+    507,
+    662
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut (bosses / tremplin)",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-saut-e",
+   "boite": [
+    175,
+    89,
+    638,
+    676
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut (bosses / tremplin)",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-degats-a",
+   "boite": [
+    105,
+    88,
+    892,
+    676
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-degats-b",
+   "boite": [
+    116,
+    95,
+    1047,
+    669
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-degats-c",
+   "boite": [
+    115,
+    108,
+    1203,
+    656
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-degats-d",
+   "boite": [
+    148,
+    116,
+    1346,
+    648
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-destruction-a",
+   "boite": [
+    126,
+    90,
+    29,
+    866
+   ],
+   "ancre": "bas",
+   "animation": "destruction",
+   "libelle": "Destruction (K.O. / explosion)",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-destruction-b",
+   "boite": [
+    132,
+    91,
+    179,
+    865
+   ],
+   "ancre": "bas",
+   "animation": "destruction",
+   "libelle": "Destruction (K.O. / explosion)",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-destruction-c",
+   "boite": [
+    133,
+    107,
+    340,
+    850
+   ],
+   "ancre": "bas",
+   "animation": "destruction",
+   "libelle": "Destruction (K.O. / explosion)",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-destruction-d",
+   "boite": [
+    136,
+    106,
+    501,
+    850
+   ],
+   "ancre": "bas",
+   "animation": "destruction",
+   "libelle": "Destruction (K.O. / explosion)",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-destruction-e",
+   "boite": [
+    123,
+    74,
+    666,
+    882
+   ],
+   "ancre": "bas",
+   "animation": "destruction",
+   "libelle": "Destruction (K.O. / explosion)",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-tank-equipe-reparation-a",
+   "boite": [
+    113,
+    80,
+    866,
+    876
+   ],
+   "ancre": "bas",
+   "animation": "reparation",
+   "libelle": "Réapparition / Réparation (optionnel)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-reparation-b",
+   "boite": [
+    131,
+    104,
+    1013,
+    852
+   ],
+   "ancre": "bas",
+   "animation": "reparation",
+   "libelle": "Réapparition / Réparation (optionnel)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-reparation-c",
+   "boite": [
+    109,
+    91,
+    1200,
+    865
+   ],
+   "ancre": "bas",
+   "animation": "reparation",
+   "libelle": "Réapparition / Réparation (optionnel)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-tank-equipe-reparation-d",
+   "boite": [
+    150,
+    101,
+    1351,
+    854
+   ],
+   "ancre": "bas",
+   "animation": "reparation",
+   "libelle": "Réapparition / Réparation (optionnel)",
+   "cadre": 4,
+   "cadres": 4
+  }
+ ]
+}

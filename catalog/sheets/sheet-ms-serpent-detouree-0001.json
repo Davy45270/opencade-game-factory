@@ -1,0 +1,441 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-ms-serpent-detouree-0001.png"
+  },
+  "id": "sheet-ms-serpent-detouree-0001",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "Serpent champignon (ennemi) — cadres détourés",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : 11_serpents_champignons.png · SHA-256 d2d0465e0d55b15e8530ec88ed7f816c7679aa110a138b39b096634846ef303e",
+      "Canal : Drive « Homelab/assets/Metal Solid » (dossier 1EGvSE0aigwfis8cgtEH2hmSlWGocVsEg), déposé le 2026-11-22 (Drive id 1u81xB14PxrQ7Xy5_GO77SSXXTDx5B27c) ; copie locale gelée ~/sauvegarde-session-hl538/drive-2026-11-22/metal-solid.",
+      "Version importée : le bandeau de style en haut à droite portent une marque commerciale tierce ; ces zones sont remises au fond (RGB [6, 11, 14]) par sources/editable/metal-solid-2026-11-22/decoupe_ms.py (SHA-256 e7f5b45683fb29a8a1e80f076ca421f0030e7361cbfbcc2d38c55f38444bcaa5). Le reste du dessin est inchangé ; l'original n'entre pas au registre.",
+      "Détourage : seuls les cadres de sources/editable/metal-solid-2026-11-22/ms-serpent.decoupe.json (SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5) sont gardés ; ailleurs alpha 0 et RGB 0 (titres, numéros, nuancier, logo et bandeau ne survivent pas).",
+      "Étiquettes : run-and-gun, univers/metal-solid, refonte-a-venir, ennemi.",
+      "Usage possible : refontes à venir d'un jeu de tir à défilement horizontal (run-and-gun 2D pixel art) ; aucun jeu n'est démarré à partir de ces planches (HL-525 7-3314) et aucune fiche ne les lie à un jeu existant."
+    ],
+    "tool": "decoupe_ms.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-ms-serpent-portrait-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 294,
+      "status": "verified",
+      "w": 317,
+      "x": 9,
+      "y": 118
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-idle-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 102,
+      "status": "verified",
+      "w": 91,
+      "x": 402,
+      "y": 110
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-idle-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 87,
+      "status": "verified",
+      "w": 97,
+      "x": 521,
+      "y": 125
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-idle-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 89,
+      "status": "verified",
+      "w": 96,
+      "x": 643,
+      "y": 123
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-idle-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 89,
+      "status": "verified",
+      "w": 94,
+      "x": 766,
+      "y": 123
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-apparition-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 30,
+      "status": "verified",
+      "w": 100,
+      "x": 936,
+      "y": 184
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-apparition-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 42,
+      "status": "verified",
+      "w": 98,
+      "x": 1054,
+      "y": 172
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-apparition-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 60,
+      "status": "verified",
+      "w": 102,
+      "x": 1169,
+      "y": 155
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-apparition-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 80,
+      "status": "verified",
+      "w": 100,
+      "x": 1288,
+      "y": 135
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-apparition-e-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 105,
+      "status": "verified",
+      "w": 105,
+      "x": 1403,
+      "y": 110
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 59,
+      "status": "verified",
+      "w": 117,
+      "x": 364,
+      "y": 315
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 56,
+      "status": "verified",
+      "w": 119,
+      "x": 477,
+      "y": 318
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 58,
+      "status": "verified",
+      "w": 124,
+      "x": 592,
+      "y": 318
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 58,
+      "status": "verified",
+      "w": 114,
+      "x": 712,
+      "y": 318
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-e-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 61,
+      "status": "verified",
+      "w": 119,
+      "x": 822,
+      "y": 315
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-deplacement-f-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 61,
+      "status": "verified",
+      "w": 101,
+      "x": 937,
+      "y": 315
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-alerte-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 62,
+      "status": "verified",
+      "w": 98,
+      "x": 1078,
+      "y": 315
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-alerte-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 63,
+      "status": "verified",
+      "w": 92,
+      "x": 1190,
+      "y": 315
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-alerte-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 85,
+      "status": "verified",
+      "w": 107,
+      "x": 1299,
+      "y": 293
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-alerte-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 101,
+      "status": "verified",
+      "w": 108,
+      "x": 1414,
+      "y": 277
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-spores-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 93,
+      "status": "verified",
+      "w": 125,
+      "x": 42,
+      "y": 454
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-spores-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 83,
+      "status": "verified",
+      "w": 128,
+      "x": 200,
+      "y": 464
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-spores-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 79,
+      "status": "verified",
+      "w": 171,
+      "x": 350,
+      "y": 468
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-spores-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 85,
+      "status": "verified",
+      "w": 103,
+      "x": 538,
+      "y": 462
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-morsure-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 75,
+      "status": "verified",
+      "w": 127,
+      "x": 738,
+      "y": 472
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-morsure-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 74,
+      "status": "verified",
+      "w": 153,
+      "x": 875,
+      "y": 472
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-morsure-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 90,
+      "status": "verified",
+      "w": 162,
+      "x": 1031,
+      "y": 453
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-morsure-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 87,
+      "status": "verified",
+      "w": 153,
+      "x": 1212,
+      "y": 459
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-attaque-morsure-e-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 74,
+      "status": "verified",
+      "w": 120,
+      "x": 1385,
+      "y": 473
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-degats-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 76,
+      "status": "verified",
+      "w": 108,
+      "x": 31,
+      "y": 636
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-degats-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 98,
+      "status": "verified",
+      "w": 117,
+      "x": 159,
+      "y": 616
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-degats-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 78,
+      "status": "verified",
+      "w": 104,
+      "x": 291,
+      "y": 635
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-degats-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 76,
+      "status": "verified",
+      "w": 105,
+      "x": 424,
+      "y": 637
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-ko-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 73,
+      "status": "verified",
+      "w": 117,
+      "x": 595,
+      "y": 635
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-ko-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 51,
+      "status": "verified",
+      "w": 119,
+      "x": 737,
+      "y": 658
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-ko-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 54,
+      "status": "verified",
+      "w": 132,
+      "x": 878,
+      "y": 654
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-ko-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 90,
+      "status": "verified",
+      "w": 136,
+      "x": 1031,
+      "y": 618
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-elements-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 43,
+      "status": "verified",
+      "w": 85,
+      "x": 1246,
+      "y": 643
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-elements-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 68,
+      "status": "verified",
+      "w": 70,
+      "x": 1412,
+      "y": 625
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-a-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 125,
+      "status": "verified",
+      "w": 154,
+      "x": 49,
+      "y": 802
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-b-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 125,
+      "status": "verified",
+      "w": 210,
+      "x": 260,
+      "y": 801
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-c-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 124,
+      "status": "verified",
+      "w": 149,
+      "x": 487,
+      "y": 802
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-d-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 126,
+      "status": "verified",
+      "w": 149,
+      "x": 692,
+      "y": 798
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-e-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 128,
+      "status": "verified",
+      "w": 236,
+      "x": 906,
+      "y": 797
+    },
+    {
+      "assetId": "asset-sprite-ms-serpent-variantes-f-0001",
+      "evidence": "ms-serpent.decoupe.json · SHA-256 9d3dc5a0821f9a21a242bf29b1ab3a39c50b869b1bcbe4ec8c92eccae8d943b5 · planche dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+      "h": 188,
+      "status": "verified",
+      "w": 330,
+      "x": 1141,
+      "y": 762
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+  "status": "active"
+}

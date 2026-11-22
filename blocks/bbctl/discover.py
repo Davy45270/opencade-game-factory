@@ -26,6 +26,17 @@ TEST_HARNESSES = {"vitest", "jest", "mocha", "playwright", "@playwright/test", "
                   "@vitest/coverage-v8", "@vitest/browser", "c8", "nyc"}
 LOCAL_ROOTS = (("src", "engines"), ("packages",))
 SOURCE_SUFFIXES = (".ts", ".tsx", ".js", ".jsx", ".mjs", ".cjs")
+IMPORT = re.compile(r"""(?:^|[;\s])(?:import|export)\s[^'";]*?\bfrom\s*['"]([^'"]+)['"]|\bimport\s*\(?\s*['"]([^'"]+)['"]""")
+EXPORT_DECL = re.compile(r"(?m)^\s*export\s+(?:declare\s+)?(?:default\s+)?(?:abstract\s+)?(?:async\s+)?"
+                         r"(?:function\*?|const|let|var|class|type|interface|enum)\s+([A-Za-z_$][\w$]*)")
+EXPORT_LIST = re.compile(r"(?m)^\s*export\s+(?:type\s+)?\{([^}]*)\}")
+EXPORT_STAR = re.compile(r"""(?m)^\s*export\s+\*\s+from\s+['"](\.[^'"]*)['"]""")
+TEST_FILE = re.compile(r"(?:^|/)(?:__tests__|tests?)/|\.(?:test|spec)\.[cm]?[jt]sx?$")
+WORKFLOW_DIRS = {(".woodpecker",): "woodpecker", (".github", "workflows"): "github-actions",
+                 (".forgejo", "workflows"): "forgejo-actions"}
+SCRIPT_RUNTIMES = {".sh": ("shell", "posix-sh"), ".bash": ("shell", "bash"), ".py": ("python", "cpython"),
+                   ".mjs": ("javascript", "node"), ".js": ("javascript", "node"), ".cjs": ("javascript", "node"),
+                   ".ts": ("typescript", "node")}
 REQUIREMENT = re.compile(r"([A-Za-z0-9][A-Za-z0-9._-]*)\s*(?:\[[^\]]*\])?\s*(?:==\s*([A-Za-z0-9.!+_-]+))?")
 
 
@@ -56,8 +67,36 @@ def license_of(raw):
     return raw if isinstance(raw, str) and raw in spdx_ids() else "UNKNOWN"
 
 
+def pnpm_versions(text, importer):
+    """Versions résolues d'un importeur de pnpm-lock.yaml (v6 à v9), sans dépendance YAML : `importers:` → `<importeur>:`
+    → `dependencies|devDependencies|optionalDependencies:` → `<nom>:` → `version: x(suffixe de pairs)`."""
+    versions, section, depth, name = {}, None, None, None
+    in_importers = current = False
+    for line in text.splitlines():
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        indent = len(line) - len(line.lstrip(" "))
+        key, _, value = line.strip().partition(":")
+        key, value = key.strip().strip("'\""), value.strip().strip("'\"")
+        if indent == 0:
+            in_importers, current = key == "importers", False
+            continue
+        if not in_importers:
+            continue
+        if indent == 2:
+            current, section = key == importer, None
+        elif current and indent == 4:
+            section = key if key in ("dependencies", "devDependencies", "optionalDependencies") else None
+        elif current and section and indent == 6:
+            name = key
+        elif current and section and indent == 8 and key == "version" and name:
+            versions[name] = re.split(r"[(\s]", value, maxsplit=1)[0] or None
+    return versions
+
+
 def npm(repo):
-    """package.json à toute profondeur (hors node_modules) ; versions et licences du package-lock.json voisin."""
+    """package.json à toute profondeur (hors node_modules) ; versions et licences du package-lock.json voisin, sinon
+    versions du pnpm-lock.yaml (licence inconnue : pnpm ne la porte pas)."""
     found = []
     for path in repo.paths:
         pure = PurePosixPath(path)
@@ -68,6 +107,14 @@ def npm(repo):
             continue
         lock = repo.json(str(pure.with_name("package-lock.json"))) or repo.json("package-lock.json") or {}
         packages = lock.get("packages") if isinstance(lock.get("packages"), dict) else {}
+        if not packages:
+            for candidate in (str(pure.with_name("pnpm-lock.yaml")), "pnpm-lock.yaml"):
+                if candidate in repo.paths:
+                    importer = str(pure.parent) if candidate == "pnpm-lock.yaml" else "."
+                    text = repo.read(candidate).decode("utf-8", errors="replace")
+                    packages = {f"node_modules/{n}": {"version": v}
+                                for n, v in pnpm_versions(text, importer).items()}
+                    break
         linked = {key.removeprefix("node_modules/") for key, entry in packages.items()
                   if isinstance(entry, dict) and entry.get("link")}
         for section, dev in (("dependencies", False), ("devDependencies", True)):
@@ -222,18 +269,153 @@ def local_modules(repo):
             text = repo.read(path).decode("utf-8", errors="replace") if text is None else text
             if pattern.search(text):
                 users[module].add(unit)
+    analyses = {module: analyse(repo, module, modules) for module in modules}
+    for path in repo.paths:                                    # usages par import RELATIF résolu (« ../save »)
+        parts = PurePosixPath(path).parts
+        if not path.endswith(SOURCE_SUFFIXES) or "node_modules" in parts:
+            continue
+        unit = consumer(repo, parts)
+        if unit is None:
+            continue
+        for target in relative_targets(repo, path, modules):
+            if not path.startswith(target + "/"):
+                users[target].add(unit)
     return [{"key": f"local:{repo.name}:{module}", "ecosystem": "local", "name": name, "kind": "game-local-module",
              "version": None, "license": licenses[module], "path": module, "usedBy": sorted(users[module]),
-             "interface": {"language": "typescript", "runtime": "browser"}, "commitSha": repo.commit}
+             "interface": {"language": "typescript", "runtime": "browser", "exports": analyses[module]["exports"]},
+             "commitSha": repo.commit, "analysis": {**analyses[module], "maturity": maturity(analyses[module],
+                                                                                              users[module])}}
             for module, name in sorted(modules.items())]
 
 
+def specifiers(text):
+    return [a or b for a, b in IMPORT.findall(text)]
+
+
+def owner(path, modules):
+    return next((m for m in modules if path == m or path.startswith(m + "/")), None)
+
+
+def relative_targets(repo, path, modules):
+    """Modules locaux atteints par les imports relatifs d'un fichier."""
+    text = repo.read(path).decode("utf-8", errors="replace")
+    out = set()
+    for spec in specifiers(text):
+        if spec.startswith("."):
+            target = owner(os.path.normpath(str(PurePosixPath(path).parent / spec)), modules)
+            if target:
+                out.add(target)
+    return out
+
+
+def package_of(spec):
+    parts = spec.split("/")
+    return "/".join(parts[:2]) if spec.startswith("@") else parts[0]
+
+
+def entry_files(repo, module, sources):
+    manifest = repo.json(f"{module}/package.json") or {}
+    declared = [manifest.get(k) for k in ("types", "module", "main")]
+    exports = manifest.get("exports")
+    if isinstance(exports, str):
+        declared.insert(0, exports)
+    elif isinstance(exports, dict) and isinstance(exports.get("."), str):
+        declared.insert(0, exports["."])
+    for d in declared:
+        if isinstance(d, str):
+            p = os.path.normpath(f"{module}/{d}")
+            if p in sources:
+                return [p]
+    index = [p for p in sources if PurePosixPath(p).parent == PurePosixPath(module) and PurePosixPath(p).stem == "index"]
+    return index[:1] or sources
+
+
+def exported_names(repo, path, sources, seen):
+    if path in seen or path not in repo.paths:
+        return set()
+    seen.add(path)
+    text = repo.read(path).decode("utf-8", errors="replace")
+    names = set(EXPORT_DECL.findall(text))
+    for group in EXPORT_LIST.findall(text):
+        for item in group.split(","):
+            item = item.strip().removeprefix("type ").strip()
+            if item:
+                names.add(item.split(" as ")[-1].strip())
+    for spec in EXPORT_STAR.findall(text):
+        base = os.path.normpath(str(PurePosixPath(path).parent / spec))
+        target = next((p for p in sources if p == base or os.path.splitext(p)[0] in (base, base + "/index")), None)
+        if target:
+            names |= exported_names(repo, target, sources, seen)
+    return {n for n in names if n and n != "default" and re.fullmatch(r"[A-Za-z_$][\w$]*", n)}
+
+
+def analyse(repo, module, modules):
+    """BB-001 § 3 : exports publics (fichier d'entrée du module), imports (paquets et autres modules locaux), tests du
+    module, mainteneurs DÉCLARÉS par son package.json ; la couverture n'est pas mesurée ici : null."""
+    files = [p for p in repo.paths if p.startswith(module + "/") and "node_modules" not in PurePosixPath(p).parts]
+    sources = [p for p in files if p.endswith(SOURCE_SUFFIXES) and not TEST_FILE.search(p[len(module):])]
+    tests = sorted(p for p in files if p.endswith(SOURCE_SUFFIXES) and TEST_FILE.search(p[len(module):]))
+    exports, seen = set(), set()
+    for entry in entry_files(repo, module, sources):
+        exports |= exported_names(repo, entry, sources, seen)
+    imports = set()
+    for path in sources:
+        for spec in specifiers(repo.read(path).decode("utf-8", errors="replace")):
+            if spec.startswith("."):
+                target = owner(os.path.normpath(str(PurePosixPath(path).parent / spec)), modules)
+                if target and target != module:
+                    imports.add(f"local:{repo.name}:{target}")
+            elif spec:
+                imports.add(package_of(spec))
+    manifest = repo.json(f"{module}/package.json") or {}
+    people = []
+    for person in [manifest.get("author")] + list(manifest.get("maintainers") or []):
+        name = person.get("name") if isinstance(person, dict) else person
+        if isinstance(name, str) and name.strip():
+            people.append(name.strip())
+    return {"exports": sorted(exports), "imports": sorted(imports), "tests": tests,
+            "maintainers": people or None, "coverage": None}
+
+
+def maturity(analysis, users):
+    if not users:
+        return "unused"
+    return "tested" if analysis["tests"] else "untested"
+
+
+def kebab(name):
+    name = re.sub(r"([a-z0-9])([A-Z])", r"\1-\2", name)
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def workflows_and_scripts(repo):
+    """BB-001 § 3 : workflows CI et scripts du dépôt (inventaire de découverte ; le gate ne les compte pas)."""
+    found = []
+    for path in repo.paths:
+        pure = PurePosixPath(path)
+        runtime = WORKFLOW_DIRS.get(pure.parts[:-1])
+        if runtime and pure.suffix in (".yml", ".yaml"):
+            found.append({"key": f"workflow:{repo.name}:{path}", "ecosystem": "workflow", "name": pure.stem,
+                          "kind": "workflow", "version": None, "license": "UNKNOWN", "path": path,
+                          "usedBy": [repo.name], "interface": {"language": "yaml", "runtime": runtime},
+                          "commitSha": repo.commit})
+        elif len(pure.parts) == 2 and pure.parts[0] == "scripts" and pure.suffix in SCRIPT_RUNTIMES:
+            language, rt = SCRIPT_RUNTIMES[pure.suffix]
+            found.append({"key": f"script:{repo.name}:{path}", "ecosystem": "script", "name": pure.name,
+                          "kind": "cli-tool", "version": None, "license": "UNKNOWN", "path": path,
+                          "usedBy": [repo.name], "interface": {"language": language, "runtime": rt},
+                          "commitSha": repo.commit})
+    return found
+
+
 ADAPTERS = (npm, python, pyproject, cargo, gomod, dockerfile, local_modules)
+LOCAL_ECOSYSTEMS = ("local", "workflow", "script")
 
 
-def observe(repo):
+def observe(repo, inventory=False):
+    """`inventory` (discover) ajoute workflows et scripts ; le gate « reuse before build » ne les compte pas."""
     seen = {}
-    for adapter in ADAPTERS:
+    for adapter in ADAPTERS + ((workflows_and_scripts,) if inventory else ()):
         for row in adapter(repo):
             previous = seen.get(row["key"])
             if previous:
@@ -270,19 +452,20 @@ def build(observations, ids, existing):
     records = {}
     for key, entry in sorted(by_key.items()):
         row = entry["row"]
-        if row["ecosystem"] == "local":
+        if row["ecosystem"] in LOCAL_ECOSYSTEMS:
             prefix = f"BB-{slug(entry['observedIn'][0]['repo'])}-{slug(row['name'])}"
         else:
             prefix = f"BB-{slug(row['ecosystem'])}-{slug(row['name'])}"
         block_id = allocate(ids, key, prefix)
         origin = {"repositoryUrl": None, "licenseSpdx": row["license"], "commitSha": row.get("commitSha"),
                   "version": row["version"]}
-        if row["ecosystem"] == "local":
+        if row["ecosystem"] in LOCAL_ECOSYSTEMS:
             origin |= {"repo": entry["observedIn"][0]["repo"], "path": row["path"]}
         previous = existing.get(block_id) or {}
+        derived = sorted({kebab(n) for n in (row.get("analysis") or {}).get("exports", [])} - {""})
         record = {
             "schemaVersion": "1.0", "id": block_id, "name": row["name"], "kind": row["kind"], "origin": origin,
-            "capabilities": previous.get("capabilities", []), "interfaces": [row["interface"]],
+            "capabilities": previous.get("capabilities") or derived, "interfaces": [row["interface"]],
             "specIds": previous.get("specIds", []), "usedBy": sorted(entry["usedBy"]),
             "quality": previous.get("quality", {"status": "discovered", "sbomRef": None, "securityReportRef": None}),
             "decision": previous.get("decision", {"status": "pending", "rationale": None}),
@@ -290,6 +473,8 @@ def build(observations, ids, existing):
             "discovery": {"key": key, "ecosystem": row["ecosystem"]},
             "observedIn": sorted(entry["observedIn"], key=lambda o: (o["repo"], o["path"])),
         }
+        if row.get("analysis") is not None:
+            record["analysis"] = row["analysis"]
         records[block_id] = record
     return records
 
@@ -325,7 +510,7 @@ def discover(blocks, sources_file, clones, dry_run):
             skipped.append(name)
             observations[name] = state[name]
             continue
-        observations[name] = {"commitSha": commit, "blocks": observe(Repo(name, directory, commit))}
+        observations[name] = {"commitSha": commit, "blocks": observe(Repo(name, directory, commit), inventory=True)}
         scanned.append(name)
     existing = {}
     if catalog.is_dir():

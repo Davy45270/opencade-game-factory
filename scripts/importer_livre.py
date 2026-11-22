@@ -194,6 +194,17 @@ PROFILS = {
                                                "decision": "Cadre d'atlas de Capsule Panic dont licences.json déclare "
                                                            "l'identifiant : titulaire Davy45270, CC BY 4.0."}},
     },
+    "echecs-kid": {
+        # Icônes PWA : la tour blanche de src/art/pieces.ts rastérisée par scripts/make-icons.js (commit 419b6f6).
+        "images": [{"prefixe": "public/icons/echecs-", "licence": "MIT",
+                    "auteur": "Davy45270 (icônes dessinées par scripts/make-icons.js depuis src/art/pieces.ts)",
+                    "licence_preuve": {"method": "historique git : licence de la source",
+                                       "ref": "echecs-kid 419b6f6 (« icônes PWA régénérées depuis la tour » : "
+                                              "scripts/make-icons.js rastérise pieceSvg de src/art/pieces.ts) ; "
+                                              "LICENSE (MIT, Davy45270) ; HL-538",
+                                       "decision": "Icônes PWA produites par le code du dépôt : elles prennent la "
+                                                   "licence du code qui les dessine, MIT (2026-11-22)."}}],
+    },
     "opencade": {"monorepo": "src/games"},
     "opencadkid": {"monorepo": "src/games"},
 }

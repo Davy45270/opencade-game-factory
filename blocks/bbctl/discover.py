@@ -392,18 +392,21 @@ def kebab(name):
 def workflows_and_scripts(repo):
     """BB-001 § 3 : workflows CI et scripts du dépôt (inventaire de découverte ; le gate ne les compte pas)."""
     found = []
+    # ARCH-06 (E061) : la licence est celle que le dépôt déclare (package.json racine, SPDX), comme pour ses modules
+    # locaux ; sans déclaration lisible : UNKNOWN, jamais inventée.
+    licence = license_of((repo.json("package.json") or {}).get("license"))
     for path in repo.paths:
         pure = PurePosixPath(path)
         runtime = WORKFLOW_DIRS.get(pure.parts[:-1])
         if runtime and pure.suffix in (".yml", ".yaml"):
             found.append({"key": f"workflow:{repo.name}:{path}", "ecosystem": "workflow", "name": pure.stem,
-                          "kind": "workflow", "version": None, "license": "UNKNOWN", "path": path,
+                          "kind": "workflow", "version": None, "license": licence, "path": path,
                           "usedBy": [repo.name], "interface": {"language": "yaml", "runtime": runtime},
                           "commitSha": repo.commit})
         elif len(pure.parts) == 2 and pure.parts[0] == "scripts" and pure.suffix in SCRIPT_RUNTIMES:
             language, rt = SCRIPT_RUNTIMES[pure.suffix]
             found.append({"key": f"script:{repo.name}:{path}", "ecosystem": "script", "name": pure.name,
-                          "kind": "cli-tool", "version": None, "license": "UNKNOWN", "path": path,
+                          "kind": "cli-tool", "version": None, "license": licence, "path": path,
                           "usedBy": [repo.name], "interface": {"language": language, "runtime": rt},
                           "commitSha": repo.commit})
     return found

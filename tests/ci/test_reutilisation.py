@@ -85,8 +85,8 @@ class Reutilisation(unittest.TestCase):
 
     def test_decision_et_derogation_couvrent(self) -> None:
         self.briques(decided=["npm:howler@2.2.4", "docker:node@22"],
-                     derogations={"local:jeu:src/engines/physique": "HL-525 7-3000", "npm:vitest@3.2.0": "pas une ref",
-                                  "docker:nginx@1.27-alpine": "HL-1 7-1"})
+                     derogations={"local:jeu:src/engines/physique": {"ref": "HL-525 7-3000", "expire": "2099-12-31"}, "npm:vitest@3.2.0": {"ref": "pas une ref", "expire": "2099-12-31"},
+                                  "docker:nginx@1.27-alpine": {"ref": "HL-1 7-1", "expire": "2099-12-31"}})
         rc, rap = self.lancer()
         self.assertEqual(rap["uncovered"], ["npm:vitest@3.2.0"])
         self.assertEqual(sorted(rap["derogations"]), ["docker:nginx@1.27-alpine", "local:jeu:src/engines/physique"])
@@ -124,7 +124,7 @@ class Reutilisation(unittest.TestCase):
 
     def test_bloquant_passe_quand_tout_est_decide_ou_deroge(self) -> None:
         self.briques(decided=["npm:howler@2.2.4", "docker:node@22", "docker:nginx@1.27-alpine", "npm:vitest@3.2.0"],
-                     derogations={"local:jeu:src/engines/physique": "HL-525 7-3000"})
+                     derogations={"local:jeu:src/engines/physique": {"ref": "HL-525 7-3000", "expire": "2099-12-31"}})
         rc, rap = self.lancer("--bloquant")
         self.assertEqual(rc, 0, rap)
         self.assertEqual((rap["mode"], rap["status"], rap["uncovered"]), ("bloquant", "ok", []))

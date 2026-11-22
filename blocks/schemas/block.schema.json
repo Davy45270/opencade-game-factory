@@ -59,7 +59,9 @@
         "status": {"enum": ["pending", "decided"]},
         "rationale": {"$ref": "#/$defs/nullableText"},
         "choice": {"enum": ["reuse", "adapt", "wrap", "fork", "build", "defer"]},
-        "score": {"type": ["number", "null"], "minimum": 0, "maximum": 5}
+        "score": {"type": ["number", "null"], "minimum": 0, "maximum": 5},
+        "alternatives": {"type": "array", "items": {"type": "object", "required": ["block", "whyNotExtend"],
+          "properties": {"block": {"type": "string"}, "whyNotExtend": {"type": ["string", "null"]}}}}
       },
       "if": {"properties": {"status": {"const": "decided"}}},
       "then": {"required": ["choice"], "properties": {"rationale": {"type": "string", "pattern": "\\S"}}}

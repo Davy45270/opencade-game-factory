@@ -29,7 +29,7 @@ function ecrire(rapport) {
   console.log(`--- ${RAPPORT} ---\n${JSON.stringify(rapport)}`);
   if (BLOQUANT && rapport.status !== "ok") {
     console.log("ÉCHEC : création sans recherche documentée ni dérogation (BB-001 § 5) — décider la brique au catalogue de "
-                + "l'usine (bbctl decide) ou enregistrer une dérogation HL-n 7-n, puis régénérer la CI du jeu.");
+                + "l'usine (bbctl decide) ou enregistrer une dérogation HL-n 7-n à échéance (expire), puis régénérer la CI du jeu.");
     process.exit(1);
   }
   process.exit(0);
@@ -127,12 +127,27 @@ const repo = briques.repo;
 const avant = cles(base, repo);
 const nouvelles = [...cles(head, repo)].filter((k) => !avant.has(k)).sort();
 const decidees = new Set(briques.decided || []);
-const derogations = [], uncovered = [], decided = [];
+// ARCH-10 (E065) : une dérogation porte une échéance AAAA-MM-JJ, relue ici le jour de la CI (UTC) ; sans échéance,
+// échue ou illisible, elle ne couvre rien et le refus est dit (refusedDerogations).
+const AUJOURDHUI = new Date().toISOString().slice(0, 10);
+const ECHEANCE = /^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
+function motif(entree) {
+  if (!entree || typeof entree !== "object" || !REF.test(String(entree.ref || ""))) return entree ? "sans-echeance" : null;
+  const fin = String(entree.expire || "").trim();
+  if (!fin) return "sans-echeance";
+  if (!ECHEANCE.test(fin)) return "echeance-illisible";
+  return fin < AUJOURDHUI ? "echue" : "";
+}
+const derogations = [], uncovered = [], decided = [], refusedDerogations = [];
 for (const k of nouvelles) {
-  const ref = (briques.derogations || {})[k];
+  const entree = (briques.derogations || {})[k];
+  const m = typeof entree === "string" ? (REF.test(entree) ? "sans-echeance" : null) : motif(entree);
   if (decidees.has(k)) decided.push(k);
-  else if (typeof ref === "string" && REF.test(ref)) derogations.push(k);
-  else uncovered.push(k);
+  else if (m === "") derogations.push(k);
+  else {
+    if (m) refusedDerogations.push({ key: k, motif: m });
+    uncovered.push(k);
+  }
 }
 ecrire({ status: uncovered.length ? "non-couvert" : "ok", repo, base, head, new: nouvelles,
-         decided, derogations, uncovered });
+         decided, derogations, refusedDerogations, uncovered });

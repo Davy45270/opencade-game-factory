@@ -149,6 +149,8 @@ def parser():
     sub["decide"].add_argument("--reason", required=True)
     sub["decide"].add_argument("--graph", type=Path, help="build seulement : graphe graphify consulté (défaut : BBCTL_GRAPH "
                                "ou ~/graphify/public/graph.json) ; illisible = existant inconnu, build refusé (AT-02).")
+    sub["decide"].add_argument("--why-not-extend", help="build seulement : pourquoi étendre les briques existantes de "
+                               "même nom ne suffit pas (exigé quand il en existe, ARCH-001 E003).")
     return cli
 
 
@@ -165,6 +167,9 @@ def check_args(cli, args):
         args.roots = roots
     if args.command == "decide" and not nonblank(args.reason):
         cli.error("--reason exige une justification.")
+    if args.command == "decide" and args.why_not_extend is not None and (args.choice != "build"
+                                                                         or not nonblank(args.why_not_extend)):
+        cli.error("--why-not-extend : choix build seulement, avec une justification.")
     if args.command == "search" and not nonblank(args.query):
         cli.error("--query exige un terme de recherche.")
     if args.command == "import-decisions":
@@ -278,6 +283,18 @@ def run(args, root):
             except GraphUnavailable as exc:
                 raise Unknown(f"Existant inconnu, décision build bloquée : {exc}") from exc
             decision["searchGraphSha256"] = digest
+            # ARCH-001 E003 : créer seulement après avoir démontré que la capacité n'existe pas, ou qu'étendre
+            # l'existant ne suffit pas. Existant = briques de même nom et même écosystème au catalogue.
+            ecosysteme = (block.get("discovery") or {}).get("ecosystem")
+            semblables = sorted(b["id"] for _, b in records.values() if b["id"] != block["id"]
+                                and b.get("name", "").casefold() == block.get("name", "").casefold()
+                                and (b.get("discovery") or {}).get("ecosystem") == ecosysteme)
+            if semblables and not args.why_not_extend:
+                raise CatalogueScopeError("build refusé : briques existantes de même nom (" + ", ".join(semblables)
+                                          + ") ; dire pourquoi les étendre ne suffit pas (--why-not-extend).")
+            decision["alternatives"] = [{"block": b, "whyNotExtend": args.why_not_extend} for b in semblables]
+        else:
+            decision.pop("alternatives", None)
         changed = False
         if block["decision"] != decision or args.expect is not None:
             block["decision"] = decision

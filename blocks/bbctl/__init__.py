@@ -21,6 +21,7 @@ from .evaluation import evaluate, nonblank
 from .registry import lock, read_catalogue
 from .search import GraphUnavailable, read_graph, search
 from . import index as generes, recu
+from .mutualisation import justifiee, mutualiser
 
 CHOICES = ("reuse", "adapt", "wrap", "fork", "build", "defer")
 
@@ -77,6 +78,7 @@ def parser():
         "adopt": "Adopter une brique décidée : SBOM, verrou de version, PR, tests, usedBy.",
         "gate": "Contrôle « reuse before build » entre deux commits d'un dépôt de jeu.",
         "link-specs": "Relier chaque brique aux spécifications REG-003 de ses projets consommateurs.",
+        "mutualiser": "Recommandations de mutualisation : gains et risques par module présent dans plusieurs dépôts.",
         "index": "Générer l'index SQLite FTS5 et le graphe de dépendances depuis le catalogue (--check : comparer).",
     }
     sub = {}
@@ -196,6 +198,8 @@ def run(args, root):
         records = read_catalogue(blocks / "catalog")
         if command == "index":
             return generes.index(records, args.out, args.check)
+        if command == "mutualiser":
+            return mutualiser(records)
         if command == "inspect":
             return {**inspect(records, args.block), "status": generes.statuts(records[args.block][1])}
         if command == "usages":
@@ -237,6 +241,10 @@ def run(args, root):
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
+        if block["kind"] == "shared-library" and args.choice in {"build", "adapt"} and not justifiee(records, block):
+            # E213 : extraire une brique partagée seulement si la mutualisation est justifiée (bbctl mutualiser).
+            raise CatalogueScopeError(f"Extraction de {block['name']} refusée : mutualisation non justifiée "
+                                      "(bbctl mutualiser ne recommande pas « extract »).")
         # BB-001 T07 : une décision argumentée porte la note pondérée qui l'a fondée (None si le candidat est éliminé).
         decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason,
                     "score": result["score"]}

@@ -29,7 +29,7 @@ jobs:
           # Une spec SANS version publiée (draft, ex. SPEC-ECHECS au 22/11) est signalée en avertissement et comptée :
           # c'est un manque de données, pas un registre cassé. Tout autre refus (conflit de versions, projet introuvable) échoue.
           SANS=0
-          for f in specs/registry/SPEC-*.json; do
+          for f in specs/registry/*/SPEC-*.json; do
             p=$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["project"])' "$f")
             if ! ./specctl --json resolve --project "$p" > /tmp/resolve.json; then
               if grep -q '"status": "version-missing"' /tmp/resolve.json; then
@@ -42,7 +42,7 @@ jobs:
           echo "specs sans version : $SANS" | tee -a "$GITHUB_STEP_SUMMARY"
       - name: impact
         run: |
-          for f in specs/registry/SPEC-*.json; do
+          for f in specs/registry/*/SPEC-*.json; do
             s=$(basename "$f" .json)
             ./specctl --json impact --spec "$s" > /dev/null || { echo "impact $s en échec"; exit 1; }
           done

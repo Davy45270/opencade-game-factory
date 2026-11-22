@@ -103,7 +103,7 @@ def _specs(racine: pathlib.Path, ecarts: list) -> int:
     for f in sorted(reg.rglob("*")) if reg.is_dir() else []:
         if f.is_file() and f.name != ".gitkeep" and f.suffix not in DONNEES_SPECS:
             ecarts.append({"type": "copie-de-document", "fichier": f.relative_to(racine).as_posix()})
-    for f, d in _fiches(reg):
+    for f, d in ((f, json.loads(f.read_text(encoding="utf-8"))) for f in sorted(reg.rglob("SPEC-*.json"))):
         if not f.name.startswith("SPEC-"):
             continue
         groupes = [(v.get("version"), v.get("documents") or []) for v in d.get("versions") or []]

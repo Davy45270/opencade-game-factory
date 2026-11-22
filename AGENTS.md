@@ -89,7 +89,7 @@ contrôle par `agents/brief.py verifier <brief.md>` avant le lancement. Le méca
 | ADD-3 | Préférer configuration, extension et intégration à la création. | `blocks/bbctl/adoption.py`, `ci/gabarit/checks.yml` |
 | ADD-4 | Justifier chaque nouveau building block par une gap analysis et une ADR. | `blocks/bbctl/adoption.py` |
 | ADD-5 | Interroger REG-003 et BB-001 avant toute tâche ; vérifier les licences et versions. | `ci/gabarit/checks.yml`, `blocks/bbctl/opensource.py` |
-| ADD-6 | Référencer toute nouvelle spec dans REG-003, toute solution dans BB-001, toute preuve d'exécution dans OPS-001. | `specs/specctl/commandes.py`, `blocks/bbctl/evenements.py` |
+| ADD-6 | Référencer toute nouvelle spec dans REG-003, toute solution dans BB-001, toute preuve d'exécution dans OPS-001. | `specs/tools/specctl/commandes.py`, `blocks/bbctl/evenements.py` |
 | ADD-7 | Respecter les workflows existants, les accès et les validations humaines nécessaires. | `AGENTS.md` |
 | ADD-8 | Exécuter les tests et produire SBOM, provenance et rapport de livraison. | `ci/gabarit/checks.yml` |
 | ADD-9 | Préserver les dépôts et workflows existants ; aucune modification destructive sans approbation. | `blocks/bbctl/adoption.py`, `AGENTS.md` |
@@ -106,6 +106,6 @@ contrôle par `agents/brief.py verifier <brief.md>` avant le lancement. Le méca
 | Module | Outil | Où |
 | --- | --- | --- |
 | assets | `assetctl` | `tools/` (registre, lots L1 à L3) |
-| specs | `specctl` | `specs/` : REG-003 ; oracles dans `tests/specs/` ; après toute écriture du registre, `./specctl index` (la CI refuse un index périmé) |
+| specs | `specctl` | `specs/` : REG-003 ; oracles dans `specs/tests/{contracts,import,integration,acceptance}/` ; après toute écriture du registre, `./specctl index` (la CI refuse un index périmé) |
 | blocks | `bbctl` | `blocks/` : BB-001 au-dessus de graphify ; oracles dans `tests/blocks/` |
 | CI commune des jeux | `ci/woodpecker.py` | `ci/` : gabarit Woodpecker inclus par génération vérifiée |

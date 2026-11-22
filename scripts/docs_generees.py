@@ -149,7 +149,7 @@ def page_architecture(r):
     clis = [p for p in ("specctl", "bbctl", "assetctl") if (r / p).is_file()]
     srcs = [r / p for p in clis] + [r / "contracts/index.json"]
     l = entete("Architecture de l'usine (carte des modules)", srcs, r)
-    comptes = {"fiches de specs": len(list((r / "specs/registry").glob("SPEC-*.json"))),
+    comptes = {"fiches de specs": len(list((r / "specs/registry").rglob("SPEC-*.json"))),
                "briques": len(list((r / "blocks/catalog").glob("*.json"))),
                "contrats": len(lire_json(r / "contracts/index.json")["contrats"]),
                "ADR": len(list((r / "docs/integration-decisions").glob("ADR-*.md"))),

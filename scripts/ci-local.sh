@@ -131,8 +131,8 @@ case "$PIPELINE" in
   specs)
     dependances
     etape oracles-specctl
-    python3 -m unittest discover -s tests/specs -t . -p 'test_*.py'
-    etape registre
+    python3 -m unittest discover -s specs/tests -t . -p 'test_*.py'
+    etape validate
     ./specctl --json validate
     ./specctl --json verify
     etape index

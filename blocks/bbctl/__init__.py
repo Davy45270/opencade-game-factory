@@ -216,7 +216,9 @@ def run(args, root):
             return result
         if result["eliminated"] and args.choice in {"reuse", "adapt", "wrap", "fork"}:
             raise CatalogueScopeError("Impossible d'adopter un candidat éliminé.")
-        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason}
+        # BB-001 T07 : une décision argumentée porte la note pondérée qui l'a fondée (None si le candidat est éliminé).
+        decision = {**block["decision"], "status": "decided", "choice": args.choice, "rationale": args.reason,
+                    "score": result["score"]}
         decision.pop("searchGraphSha256", None)
         if args.choice == "build":
             # AT-02 : construire = remplacer ce qui existe peut-être. Sans recherche interne lisible, l'existant est

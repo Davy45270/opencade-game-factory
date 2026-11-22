@@ -283,6 +283,29 @@ class BB07MatriceDeDecision(Base):
         f = json.loads((self.u.usine / "blocks/catalog/BB-SIX-PATHFINDING-001.json").read_text())
         self.assertEqual((f["decision"]["choice"], f["decision"]["rationale"]), ("reuse", "déjà pur et testé ; même grille"))
 
+    def test_T07_composant_open_source_compatible_decision_argumentee(self) -> None:
+        # BB-001 T07 : une bibliothèque open source à licence compatible passe les gates ; la décision enregistrée porte
+        # son choix, sa justification ET la note pondérée qui l'a fondée. Témoin : la même sous licence incompatible
+        # est éliminée et son adoption refusée.
+        o = {**fiche()["origin"], "licenseSpdx": "MIT"}
+        self.u.poser(fiche(kind="external-library", origin=o))
+        self.poser_eval(evaluation(gates={"security": {"critical": 0, "accepted": False}, "provenance": "known",
+                                          "technical": "ok", "license": "compatible"}))
+        r = self.evaluer()
+        self.assertEqual((r.rc, r.json["eliminated"], r.json["score"]), (0, False, 3.9), r)
+        r = self.u.bbctl("decide", "--candidate", "BB-SIX-PATHFINDING-001", "--choice", "reuse",
+                         "--reason", "MIT, maintenue, couvre le besoin sans adaptation", "--json")
+        self.assertEqual(r.rc, 0, r)
+        d = json.loads((self.u.usine / "blocks/catalog/BB-SIX-PATHFINDING-001.json").read_text())["decision"]
+        self.assertEqual((d["status"], d["choice"], d["rationale"], d["score"]),
+                         ("decided", "reuse", "MIT, maintenue, couvre le besoin sans adaptation", 3.9))
+        self.assertEqual(self.u.bbctl("validate", "--all", "--json").rc, 0)
+        self.poser_eval(evaluation(gates={"security": {"critical": 0, "accepted": False}, "provenance": "known",
+                                          "technical": "ok", "license": "incompatible"}))
+        self.assertTrue(self.evaluer().json["eliminated"])
+        self.assertEqual(self.u.bbctl("decide", "--candidate", "BB-SIX-PATHFINDING-001", "--choice", "reuse",
+                                      "--reason", "pressé", "--json").rc, 3)
+
     def test_decision_sans_justification_ou_choix_inconnu(self) -> None:
         self.poser_eval(evaluation())
         self.assertEqual(self.u.bbctl("decide", "--candidate", "BB-SIX-PATHFINDING-001", "--choice", "reuse",

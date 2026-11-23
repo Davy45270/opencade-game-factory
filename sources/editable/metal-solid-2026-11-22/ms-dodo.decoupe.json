@@ -1,0 +1,709 @@
+{
+ "planche": "ms-dodo-detouree.png",
+ "planche_sha256": "18a71bbca68ae611434b3ce5e5085c014145603a226c853eec9bda320bfd8586",
+ "source": "03_dodo_guerrier.png",
+ "source_sha256": "f5c4a8444cc3e4b0d43c68b33f028ee534ded4fd95e0f549973d36e0291a16a6",
+ "sans_marque": "ms-dodo-sans-marque.png",
+ "sans_marque_sha256": "239757fb41a73900d4faa79037744441fcfb53a392febfee6af635567eea6deb",
+ "fond": [
+  12,
+  16,
+  19
+ ],
+ "seuils": {
+  "masque": 26,
+  "detourage": 9,
+  "texte_h": 28
+ },
+ "constats": [
+  "saut : 1 coupe(s) forcée(s) au creux de projection"
+ ],
+ "elements": [
+  {
+   "id": "ms-dodo-portrait",
+   "boite": [
+    318,
+    344,
+    7,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "portrait",
+   "libelle": "portrait",
+   "cadre": 1,
+   "cadres": 1
+  },
+  {
+   "id": "ms-dodo-idle-a",
+   "boite": [
+    94,
+    96,
+    386,
+    140
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-idle-b",
+   "boite": [
+    95,
+    96,
+    498,
+    140
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-idle-c",
+   "boite": [
+    91,
+    94,
+    613,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-idle-d",
+   "boite": [
+    90,
+    94,
+    725,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-marche-a",
+   "boite": [
+    83,
+    94,
+    905,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-marche-b",
+   "boite": [
+    83,
+    93,
+    1009,
+    143
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-marche-c",
+   "boite": [
+    83,
+    92,
+    1112,
+    144
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-marche-d",
+   "boite": [
+    83,
+    93,
+    1215,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-marche-e",
+   "boite": [
+    83,
+    94,
+    1319,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-marche-f",
+   "boite": [
+    83,
+    91,
+    1423,
+    142
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "ms-dodo-course-a",
+   "boite": [
+    111,
+    96,
+    349,
+    337
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-course-b",
+   "boite": [
+    112,
+    94,
+    466,
+    339
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-course-c",
+   "boite": [
+    99,
+    94,
+    592,
+    339
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-course-d",
+   "boite": [
+    91,
+    94,
+    711,
+    339
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-course-e",
+   "boite": [
+    109,
+    94,
+    805,
+    339
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-saut-a",
+   "boite": [
+    84,
+    77,
+    980,
+    355
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-saut-b",
+   "boite": [
+    85,
+    91,
+    1095,
+    323
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-saut-c",
+   "boite": [
+    79,
+    78,
+    1216,
+    305
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-saut-d",
+   "boite": [
+    83,
+    84,
+    1319,
+    325
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-saut-e",
+   "boite": [
+    106,
+    80,
+    1400,
+    353
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-tir-sol-a",
+   "boite": [
+    120,
+    87,
+    53,
+    540
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-sol-b",
+   "boite": [
+    124,
+    88,
+    200,
+    539
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-sol-c",
+   "boite": [
+    138,
+    88,
+    354,
+    539
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-sol-d",
+   "boite": [
+    146,
+    87,
+    517,
+    540
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-air-a",
+   "boite": [
+    107,
+    94,
+    818,
+    533
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-air-b",
+   "boite": [
+    137,
+    88,
+    980,
+    520
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-air-c",
+   "boite": [
+    133,
+    87,
+    1147,
+    511
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-tir-air-d",
+   "boite": [
+    147,
+    95,
+    1316,
+    529
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-accroupi-a",
+   "boite": [
+    91,
+    79,
+    50,
+    728
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-accroupi-b",
+   "boite": [
+    115,
+    83,
+    175,
+    724
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-accroupi-c",
+   "boite": [
+    129,
+    83,
+    306,
+    724
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-accroupi-d",
+   "boite": [
+    131,
+    83,
+    447,
+    724
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-objet-a",
+   "boite": [
+    82,
+    77,
+    634,
+    730
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-objet-b",
+   "boite": [
+    87,
+    75,
+    750,
+    732
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-objet-c",
+   "boite": [
+    90,
+    79,
+    856,
+    728
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-objet-d",
+   "boite": [
+    88,
+    124,
+    986,
+    683
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-degats-a",
+   "boite": [
+    84,
+    87,
+    1156,
+    720
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "ms-dodo-degats-b",
+   "boite": [
+    102,
+    109,
+    1266,
+    698
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "ms-dodo-degats-c",
+   "boite": [
+    108,
+    85,
+    1381,
+    704
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "ms-dodo-ko-a",
+   "boite": [
+    106,
+    86,
+    53,
+    892
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-ko-b",
+   "boite": [
+    114,
+    88,
+    176,
+    888
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-ko-c",
+   "boite": [
+    138,
+    55,
+    302,
+    921
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-ko-d",
+   "boite": [
+    129,
+    41,
+    451,
+    936
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-ko-e",
+   "boite": [
+    146,
+    37,
+    591,
+    942
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-dodo-relever-a",
+   "boite": [
+    122,
+    61,
+    833,
+    914
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-relever-b",
+   "boite": [
+    93,
+    77,
+    1003,
+    898
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-relever-c",
+   "boite": [
+    86,
+    86,
+    1142,
+    889
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-dodo-relever-d",
+   "boite": [
+    101,
+    89,
+    1279,
+    886
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 4,
+   "cadres": 4
+  }
+ ]
+}

@@ -1,0 +1,653 @@
+{
+ "planche": "ms-serpent-detouree.png",
+ "planche_sha256": "dd275596a174e520c2edd2722ec8e83849a398f29e8fbe3271b96e4f5624ebbc",
+ "source": "11_serpents_champignons.png",
+ "source_sha256": "d2d0465e0d55b15e8530ec88ed7f816c7679aa110a138b39b096634846ef303e",
+ "sans_marque": "ms-serpent-sans-marque.png",
+ "sans_marque_sha256": "a04050d0498c0ee1866afb92bd8ac36be57351cb07037bdce3e902869debf746",
+ "fond": [
+  6,
+  11,
+  14
+ ],
+ "seuils": {
+  "masque": 26,
+  "detourage": 9,
+  "texte_h": 28
+ },
+ "constats": [
+  "deplacement : 5 coupe(s) forcée(s) au creux de projection"
+ ],
+ "elements": [
+  {
+   "id": "ms-serpent-portrait",
+   "boite": [
+    317,
+    294,
+    9,
+    118
+   ],
+   "ancre": "bas",
+   "animation": "portrait",
+   "libelle": "portrait",
+   "cadre": 1,
+   "cadres": 1
+  },
+  {
+   "id": "ms-serpent-idle-a",
+   "boite": [
+    91,
+    102,
+    402,
+    110
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-idle-b",
+   "boite": [
+    97,
+    87,
+    521,
+    125
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-idle-c",
+   "boite": [
+    96,
+    89,
+    643,
+    123
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-idle-d",
+   "boite": [
+    94,
+    89,
+    766,
+    123
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-apparition-a",
+   "boite": [
+    100,
+    30,
+    936,
+    184
+   ],
+   "ancre": "bas",
+   "animation": "apparition",
+   "libelle": "Sortie du sol / Apparition",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-apparition-b",
+   "boite": [
+    98,
+    42,
+    1054,
+    172
+   ],
+   "ancre": "bas",
+   "animation": "apparition",
+   "libelle": "Sortie du sol / Apparition",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-apparition-c",
+   "boite": [
+    102,
+    60,
+    1169,
+    155
+   ],
+   "ancre": "bas",
+   "animation": "apparition",
+   "libelle": "Sortie du sol / Apparition",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-apparition-d",
+   "boite": [
+    100,
+    80,
+    1288,
+    135
+   ],
+   "ancre": "bas",
+   "animation": "apparition",
+   "libelle": "Sortie du sol / Apparition",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-apparition-e",
+   "boite": [
+    105,
+    105,
+    1403,
+    110
+   ],
+   "ancre": "bas",
+   "animation": "apparition",
+   "libelle": "Sortie du sol / Apparition",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-deplacement-a",
+   "boite": [
+    117,
+    59,
+    364,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-deplacement-b",
+   "boite": [
+    119,
+    56,
+    477,
+    318
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-deplacement-c",
+   "boite": [
+    124,
+    58,
+    592,
+    318
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-deplacement-d",
+   "boite": [
+    114,
+    58,
+    712,
+    318
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-deplacement-e",
+   "boite": [
+    119,
+    61,
+    822,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-deplacement-f",
+   "boite": [
+    101,
+    61,
+    937,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "deplacement",
+   "libelle": "Déplacement (rampement)",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-alerte-a",
+   "boite": [
+    98,
+    62,
+    1078,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "alerte",
+   "libelle": "Alerte / Détection (repère le joueur)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-alerte-b",
+   "boite": [
+    92,
+    63,
+    1190,
+    315
+   ],
+   "ancre": "bas",
+   "animation": "alerte",
+   "libelle": "Alerte / Détection (repère le joueur)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-alerte-c",
+   "boite": [
+    107,
+    85,
+    1299,
+    293
+   ],
+   "ancre": "bas",
+   "animation": "alerte",
+   "libelle": "Alerte / Détection (repère le joueur)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-alerte-d",
+   "boite": [
+    108,
+    101,
+    1414,
+    277
+   ],
+   "ancre": "bas",
+   "animation": "alerte",
+   "libelle": "Alerte / Détection (repère le joueur)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-attaque-spores-a",
+   "boite": [
+    125,
+    93,
+    42,
+    454
+   ],
+   "ancre": "bas",
+   "animation": "attaque-spores",
+   "libelle": "Attaque principale : crachat de spores",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-attaque-spores-b",
+   "boite": [
+    128,
+    83,
+    200,
+    464
+   ],
+   "ancre": "bas",
+   "animation": "attaque-spores",
+   "libelle": "Attaque principale : crachat de spores",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-attaque-spores-c",
+   "boite": [
+    171,
+    79,
+    350,
+    468
+   ],
+   "ancre": "bas",
+   "animation": "attaque-spores",
+   "libelle": "Attaque principale : crachat de spores",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-attaque-spores-d",
+   "boite": [
+    103,
+    85,
+    538,
+    462
+   ],
+   "ancre": "bas",
+   "animation": "attaque-spores",
+   "libelle": "Attaque principale : crachat de spores",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-attaque-morsure-a",
+   "boite": [
+    127,
+    75,
+    738,
+    472
+   ],
+   "ancre": "bas",
+   "animation": "attaque-morsure",
+   "libelle": "Attaque secondaire : morsure / bond court",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-attaque-morsure-b",
+   "boite": [
+    153,
+    74,
+    875,
+    472
+   ],
+   "ancre": "bas",
+   "animation": "attaque-morsure",
+   "libelle": "Attaque secondaire : morsure / bond court",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-attaque-morsure-c",
+   "boite": [
+    162,
+    90,
+    1031,
+    453
+   ],
+   "ancre": "bas",
+   "animation": "attaque-morsure",
+   "libelle": "Attaque secondaire : morsure / bond court",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-attaque-morsure-d",
+   "boite": [
+    153,
+    87,
+    1212,
+    459
+   ],
+   "ancre": "bas",
+   "animation": "attaque-morsure",
+   "libelle": "Attaque secondaire : morsure / bond court",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-attaque-morsure-e",
+   "boite": [
+    120,
+    74,
+    1385,
+    473
+   ],
+   "ancre": "bas",
+   "animation": "attaque-morsure",
+   "libelle": "Attaque secondaire : morsure / bond court",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-serpent-degats-a",
+   "boite": [
+    108,
+    76,
+    31,
+    636
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts (réaction)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-degats-b",
+   "boite": [
+    117,
+    98,
+    159,
+    616
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts (réaction)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-degats-c",
+   "boite": [
+    104,
+    78,
+    291,
+    635
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts (réaction)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-degats-d",
+   "boite": [
+    105,
+    76,
+    424,
+    637
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts (réaction)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-ko-a",
+   "boite": [
+    117,
+    73,
+    595,
+    635
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Destruction",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-ko-b",
+   "boite": [
+    119,
+    51,
+    737,
+    658
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Destruction",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-ko-c",
+   "boite": [
+    132,
+    54,
+    878,
+    654
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Destruction",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-ko-d",
+   "boite": [
+    136,
+    90,
+    1031,
+    618
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Destruction",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-serpent-elements-a",
+   "boite": [
+    85,
+    43,
+    1246,
+    643
+   ],
+   "ancre": "bas",
+   "animation": "elements",
+   "libelle": "Élément de gameplay : spore (projectile), champignon (bonus / loot)",
+   "cadre": 1,
+   "cadres": 2
+  },
+  {
+   "id": "ms-serpent-elements-b",
+   "boite": [
+    70,
+    68,
+    1412,
+    625
+   ],
+   "ancre": "bas",
+   "animation": "elements",
+   "libelle": "Élément de gameplay : spore (projectile), champignon (bonus / loot)",
+   "cadre": 2,
+   "cadres": 2
+  },
+  {
+   "id": "ms-serpent-variantes-a",
+   "boite": [
+    154,
+    125,
+    49,
+    802
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-variantes-b",
+   "boite": [
+    210,
+    125,
+    260,
+    801
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-variantes-c",
+   "boite": [
+    149,
+    124,
+    487,
+    802
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-variantes-d",
+   "boite": [
+    149,
+    126,
+    692,
+    798
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-variantes-e",
+   "boite": [
+    236,
+    128,
+    906,
+    797
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "ms-serpent-variantes-f",
+   "boite": [
+    330,
+    188,
+    1141,
+    762
+   ],
+   "ancre": "bas",
+   "animation": "variantes",
+   "libelle": "Variantes (exemples de level design)",
+   "cadre": 6,
+   "cadres": 6
+  }
+ ]
+}

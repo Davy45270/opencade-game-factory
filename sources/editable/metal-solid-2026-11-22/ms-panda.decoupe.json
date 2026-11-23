@@ -1,0 +1,707 @@
+{
+ "planche": "ms-panda-detouree.png",
+ "planche_sha256": "6fd33e76f8596cf3a6dca3818796368741fe391729b5e5b644ad13be31d4b2ac",
+ "source": "01_panda_guerrier.png",
+ "source_sha256": "ffb7b6b7257aa53dc530073f321dade648d48c52f7e982f0605d46b5f8b873da",
+ "sans_marque": "ms-panda-sans-marque.png",
+ "sans_marque_sha256": "b80e2875588d04c52a449a682ef0652c9a42682c2d84522aed437a70020675eb",
+ "fond": [
+  19,
+  22,
+  24
+ ],
+ "seuils": {
+  "masque": 26,
+  "detourage": 9,
+  "texte_h": 28
+ },
+ "constats": [],
+ "elements": [
+  {
+   "id": "ms-panda-portrait",
+   "boite": [
+    352,
+    341,
+    0,
+    153
+   ],
+   "ancre": "bas",
+   "animation": "portrait",
+   "libelle": "portrait",
+   "cadre": 1,
+   "cadres": 1
+  },
+  {
+   "id": "ms-panda-idle-a",
+   "boite": [
+    86,
+    87,
+    434,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-idle-b",
+   "boite": [
+    85,
+    87,
+    538,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-idle-c",
+   "boite": [
+    85,
+    87,
+    640,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-idle-d",
+   "boite": [
+    86,
+    87,
+    744,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "idle",
+   "libelle": "Idle (repos, en boucle)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-marche-a",
+   "boite": [
+    85,
+    87,
+    916,
+    149
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 1,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-marche-b",
+   "boite": [
+    69,
+    86,
+    1019,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 2,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-marche-c",
+   "boite": [
+    73,
+    86,
+    1117,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 3,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-marche-d",
+   "boite": [
+    74,
+    86,
+    1217,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 4,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-marche-e",
+   "boite": [
+    73,
+    86,
+    1323,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 5,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-marche-f",
+   "boite": [
+    87,
+    86,
+    1423,
+    150
+   ],
+   "ancre": "bas",
+   "animation": "marche",
+   "libelle": "Marche",
+   "cadre": 6,
+   "cadres": 6
+  },
+  {
+   "id": "ms-panda-course-a",
+   "boite": [
+    106,
+    89,
+    371,
+    343
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-course-b",
+   "boite": [
+    106,
+    89,
+    480,
+    343
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-course-c",
+   "boite": [
+    82,
+    88,
+    608,
+    344
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-course-d",
+   "boite": [
+    86,
+    79,
+    715,
+    344
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-course-e",
+   "boite": [
+    100,
+    88,
+    809,
+    344
+   ],
+   "ancre": "bas",
+   "animation": "course",
+   "libelle": "Course",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-saut-a",
+   "boite": [
+    78,
+    68,
+    1003,
+    364
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-saut-b",
+   "boite": [
+    78,
+    81,
+    1114,
+    329
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-saut-c",
+   "boite": [
+    73,
+    79,
+    1222,
+    307
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-saut-d",
+   "boite": [
+    71,
+    81,
+    1326,
+    329
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-saut-e",
+   "boite": [
+    93,
+    79,
+    1409,
+    354
+   ],
+   "ancre": "bas",
+   "animation": "saut",
+   "libelle": "Saut",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-tir-sol-a",
+   "boite": [
+    92,
+    80,
+    59,
+    548
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-sol-b",
+   "boite": [
+    107,
+    80,
+    210,
+    548
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-sol-c",
+   "boite": [
+    128,
+    89,
+    364,
+    539
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-sol-d",
+   "boite": [
+    131,
+    89,
+    524,
+    539
+   ],
+   "ancre": "bas",
+   "animation": "tir-sol",
+   "libelle": "Tir (au sol)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-air-a",
+   "boite": [
+    89,
+    95,
+    846,
+    532
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-air-b",
+   "boite": [
+    124,
+    83,
+    1002,
+    529
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-air-c",
+   "boite": [
+    126,
+    90,
+    1163,
+    514
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-tir-air-d",
+   "boite": [
+    129,
+    94,
+    1323,
+    532
+   ],
+   "ancre": "bas",
+   "animation": "tir-air",
+   "libelle": "Tir (en l'air)",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-accroupi-a",
+   "boite": [
+    93,
+    83,
+    46,
+    725
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-accroupi-b",
+   "boite": [
+    107,
+    83,
+    176,
+    725
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-accroupi-c",
+   "boite": [
+    128,
+    72,
+    304,
+    736
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-accroupi-d",
+   "boite": [
+    128,
+    72,
+    446,
+    736
+   ],
+   "ancre": "bas",
+   "animation": "accroupi",
+   "libelle": "Accroupi / Tir accroupi",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-objet-a",
+   "boite": [
+    75,
+    64,
+    640,
+    744
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-objet-b",
+   "boite": [
+    74,
+    64,
+    752,
+    744
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-objet-c",
+   "boite": [
+    77,
+    71,
+    861,
+    737
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-objet-d",
+   "boite": [
+    91,
+    113,
+    979,
+    695
+   ],
+   "ancre": "bas",
+   "animation": "objet",
+   "libelle": "Prendre un objet",
+   "cadre": 4,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-degats-a",
+   "boite": [
+    79,
+    86,
+    1160,
+    722
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 1,
+   "cadres": 3
+  },
+  {
+   "id": "ms-panda-degats-b",
+   "boite": [
+    99,
+    106,
+    1265,
+    702
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 2,
+   "cadres": 3
+  },
+  {
+   "id": "ms-panda-degats-c",
+   "boite": [
+    103,
+    81,
+    1384,
+    710
+   ],
+   "ancre": "bas",
+   "animation": "degats",
+   "libelle": "Dégâts",
+   "cadre": 3,
+   "cadres": 3
+  },
+  {
+   "id": "ms-panda-ko-a",
+   "boite": [
+    102,
+    84,
+    52,
+    897
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 1,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-ko-b",
+   "boite": [
+    113,
+    85,
+    176,
+    892
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 2,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-ko-c",
+   "boite": [
+    134,
+    48,
+    306,
+    929
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 3,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-ko-d",
+   "boite": [
+    120,
+    37,
+    453,
+    942
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 4,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-ko-e",
+   "boite": [
+    137,
+    34,
+    589,
+    947
+   ],
+   "ancre": "bas",
+   "animation": "ko",
+   "libelle": "K.O. / Mort",
+   "cadre": 5,
+   "cadres": 5
+  },
+  {
+   "id": "ms-panda-relever-a",
+   "boite": [
+    117,
+    50,
+    844,
+    927
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 1,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-relever-b",
+   "boite": [
+    87,
+    67,
+    1004,
+    910
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 2,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-relever-c",
+   "boite": [
+    75,
+    80,
+    1145,
+    897
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 3,
+   "cadres": 4
+  },
+  {
+   "id": "ms-panda-relever-d",
+   "boite": [
+    93,
+    86,
+    1277,
+    891
+   ],
+   "ancre": "bas",
+   "animation": "relever",
+   "libelle": "Se relever (optionnel)",
+   "cadre": 4,
+   "cadres": 4
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-ms-tank-detouree-0001.png"
+  },
+  "id": "sheet-ms-tank-detouree-0001",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "Tank d'équipe sans personnage (véhicule joueur) — cadres détourés",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : 06_tank_sans_personnage.png · SHA-256 b55ae835314a7949a9138a07c803343e6e83a9e7b41d8a51a62cc0f2ce3f37b7",
+      "Canal : Drive « Homelab/assets/Metal Solid » (dossier 1EGvSE0aigwfis8cgtEH2hmSlWGocVsEg), déposé le 2026-11-22 (Drive id 1jvSZpWIhL_2ygJCWRY4eRyDvuixIoMpp) ; copie locale gelée ~/sauvegarde-session-hl538/drive-2026-11-22/metal-solid.",
+      "Version importée : le bandeau de style en haut à droite portent une marque commerciale tierce ; ces zones sont remises au fond (RGB [8, 13, 17]) par sources/editable/metal-solid-2026-11-22/decoupe_ms.py (SHA-256 e7f5b45683fb29a8a1e80f076ca421f0030e7361cbfbcc2d38c55f38444bcaa5). Le reste du dessin est inchangé ; l'original n'entre pas au registre.",
+      "Détourage : seuls les cadres de sources/editable/metal-solid-2026-11-22/ms-tank.decoupe.json (SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665) sont gardés ; ailleurs alpha 0 et RGB 0 (titres, numéros, nuancier, logo et bandeau ne survivent pas).",
+      "Étiquettes : run-and-gun, univers/metal-solid, refonte-a-venir, véhicule joueur.",
+      "Usage possible : refontes à venir d'un jeu de tir à défilement horizontal (run-and-gun 2D pixel art) ; aucun jeu n'est démarré à partir de ces planches (HL-525 7-3314) et aucune fiche ne les lie à un jeu existant."
+    ],
+    "tool": "decoupe_ms.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-ms-tank-portrait-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 294,
+      "status": "verified",
+      "w": 374,
+      "x": 8,
+      "y": 138
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-idle-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 108,
+      "x": 457,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-idle-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 107,
+      "x": 586,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-idle-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 106,
+      "x": 715,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-idle-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 105,
+      "x": 843,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-demarrage-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 114,
+      "x": 1024,
+      "y": 137
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-demarrage-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 95,
+      "status": "verified",
+      "w": 111,
+      "x": 1150,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-demarrage-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 95,
+      "status": "verified",
+      "w": 114,
+      "x": 1273,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-demarrage-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 95,
+      "status": "verified",
+      "w": 115,
+      "x": 1399,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 90,
+      "status": "verified",
+      "w": 105,
+      "x": 430,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 104,
+      "x": 541,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 105,
+      "x": 651,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 98,
+      "x": 767,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-e-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 104,
+      "x": 870,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-deplacement-f-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 103,
+      "x": 980,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-arret-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 90,
+      "status": "verified",
+      "w": 95,
+      "x": 1126,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-arret-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 94,
+      "status": "verified",
+      "w": 93,
+      "x": 1228,
+      "y": 319
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-arret-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 92,
+      "x": 1328,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-arret-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 96,
+      "x": 1424,
+      "y": 320
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-canon-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 91,
+      "status": "verified",
+      "w": 110,
+      "x": 43,
+      "y": 492
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-canon-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 90,
+      "status": "verified",
+      "w": 109,
+      "x": 200,
+      "y": 492
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-canon-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 90,
+      "status": "verified",
+      "w": 156,
+      "x": 349,
+      "y": 492
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-canon-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 91,
+      "status": "verified",
+      "w": 113,
+      "x": 524,
+      "y": 492
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-canon-e-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 92,
+      "status": "verified",
+      "w": 143,
+      "x": 676,
+      "y": 491
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-missile-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 91,
+      "status": "verified",
+      "w": 111,
+      "x": 896,
+      "y": 492
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-missile-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 98,
+      "status": "verified",
+      "w": 107,
+      "x": 1056,
+      "y": 485
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-missile-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 99,
+      "status": "verified",
+      "w": 163,
+      "x": 1182,
+      "y": 484
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-tir-missile-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 89,
+      "status": "verified",
+      "w": 113,
+      "x": 1382,
+      "y": 495
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-saut-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 90,
+      "status": "verified",
+      "w": 104,
+      "x": 52,
+      "y": 672
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-saut-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 97,
+      "status": "verified",
+      "w": 126,
+      "x": 190,
+      "y": 668
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-saut-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 89,
+      "status": "verified",
+      "w": 117,
+      "x": 358,
+      "y": 662
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-saut-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 82,
+      "status": "verified",
+      "w": 119,
+      "x": 511,
+      "y": 662
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-saut-e-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 98,
+      "status": "verified",
+      "w": 169,
+      "x": 647,
+      "y": 668
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-degats-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 92,
+      "status": "verified",
+      "w": 106,
+      "x": 891,
+      "y": 671
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-degats-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 96,
+      "status": "verified",
+      "w": 109,
+      "x": 1045,
+      "y": 668
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-degats-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 114,
+      "status": "verified",
+      "w": 112,
+      "x": 1202,
+      "y": 650
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-degats-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 116,
+      "status": "verified",
+      "w": 145,
+      "x": 1349,
+      "y": 648
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-destruction-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 91,
+      "status": "verified",
+      "w": 111,
+      "x": 44,
+      "y": 867
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-destruction-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 95,
+      "status": "verified",
+      "w": 132,
+      "x": 178,
+      "y": 863
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-destruction-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 112,
+      "status": "verified",
+      "w": 136,
+      "x": 342,
+      "y": 849
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-destruction-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 108,
+      "status": "verified",
+      "w": 137,
+      "x": 504,
+      "y": 849
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-destruction-e-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 87,
+      "status": "verified",
+      "w": 129,
+      "x": 668,
+      "y": 871
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-reparation-a-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 89,
+      "status": "verified",
+      "w": 114,
+      "x": 863,
+      "y": 870
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-reparation-b-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 106,
+      "status": "verified",
+      "w": 135,
+      "x": 1012,
+      "y": 852
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-reparation-c-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 93,
+      "status": "verified",
+      "w": 113,
+      "x": 1199,
+      "y": 865
+    },
+    {
+      "assetId": "asset-sprite-ms-tank-reparation-d-0001",
+      "evidence": "ms-tank.decoupe.json · SHA-256 b29ce1ba425d0b3113a01eda4cd672871a5e336c056c01889ee7bf3064a26665 · planche cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+      "h": 105,
+      "status": "verified",
+      "w": 143,
+      "x": 1350,
+      "y": 854
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "cc22bbcc31b14a5374376c1b248c77d06fcbc3873d47d19865481e7376c51871",
+  "status": "active"
+}

@@ -2,13 +2,13 @@
 
 [Accueil](../index.md)
 
-# Licence CC-BY-SA-4.0 (page 1/10)
+# Licence CC-BY-SA-4.0 (page 1/13)
 
-2468 asset(s) sous `CC-BY-SA-4.0`.
+3092 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
-Pages : **1** · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md) · [4](CC-BY-SA-4.0-4.md) · [5](CC-BY-SA-4.0-5.md) · [6](CC-BY-SA-4.0-6.md) · [7](CC-BY-SA-4.0-7.md) · [8](CC-BY-SA-4.0-8.md) · [9](CC-BY-SA-4.0-9.md) · [10](CC-BY-SA-4.0-10.md)
+Pages : **1** · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md) · [4](CC-BY-SA-4.0-4.md) · [5](CC-BY-SA-4.0-5.md) · [6](CC-BY-SA-4.0-6.md) · [7](CC-BY-SA-4.0-7.md) · [8](CC-BY-SA-4.0-8.md) · [9](CC-BY-SA-4.0-9.md) · [10](CC-BY-SA-4.0-10.md) · [11](CC-BY-SA-4.0-11.md) · [12](CC-BY-SA-4.0-12.md) · [13](CC-BY-SA-4.0-13.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|

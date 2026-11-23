@@ -1,0 +1,477 @@
+{
+  "dimensions": {
+    "height": 1024,
+    "width": 1536
+  },
+  "files": {
+    "locations": [],
+    "registry": "sources/original-sheets/sheet-ms-kangourou-detouree-0001.png"
+  },
+  "id": "sheet-ms-kangourou-detouree-0001",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "Kangourou guerrier (joueur) — cadres détourés",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "evidence": [
+      "Dessin fourni par David : 02_kangourou_guerrier.png · SHA-256 956b60a0445057cdad31a898626de6695f2a86f38b1c8d65de1871369f0f5e11",
+      "Canal : Drive « Homelab/assets/Metal Solid » (dossier 1EGvSE0aigwfis8cgtEH2hmSlWGocVsEg), déposé le 2026-11-22 (Drive id 1lylAOxJ8uvQ8lgnoeoEj-p5STCDezNv5) ; copie locale gelée ~/sauvegarde-session-hl538/drive-2026-11-22/metal-solid.",
+      "Version importée : le bandeau de style en haut à droite portent une marque commerciale tierce ; ces zones sont remises au fond (RGB [12, 16, 19]) par sources/editable/metal-solid-2026-11-22/decoupe_ms.py (SHA-256 e7f5b45683fb29a8a1e80f076ca421f0030e7361cbfbcc2d38c55f38444bcaa5). Le reste du dessin est inchangé ; l'original n'entre pas au registre.",
+      "Détourage : seuls les cadres de sources/editable/metal-solid-2026-11-22/ms-kangourou.decoupe.json (SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e) sont gardés ; ailleurs alpha 0 et RGB 0 (titres, numéros, nuancier, logo et bandeau ne survivent pas).",
+      "Étiquettes : run-and-gun, univers/metal-solid, refonte-a-venir, personnage joueur.",
+      "Usage possible : refontes à venir d'un jeu de tir à défilement horizontal (run-and-gun 2D pixel art) ; aucun jeu n'est démarré à partir de ces planches (HL-525 7-3314) et aucune fiche ne les lie à un jeu existant."
+    ],
+    "tool": "decoupe_ms.py (Pillow, numpy)",
+    "type": "derived"
+  },
+  "regions": [
+    {
+      "assetId": "asset-sprite-ms-kangourou-portrait-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 366,
+      "status": "verified",
+      "w": 327,
+      "x": 0,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-idle-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 107,
+      "status": "verified",
+      "w": 86,
+      "x": 395,
+      "y": 128
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-idle-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 96,
+      "status": "verified",
+      "w": 83,
+      "x": 504,
+      "y": 139
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-idle-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 96,
+      "status": "verified",
+      "w": 84,
+      "x": 608,
+      "y": 139
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-idle-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 99,
+      "status": "verified",
+      "w": 87,
+      "x": 713,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 99,
+      "status": "verified",
+      "w": 86,
+      "x": 903,
+      "y": 136
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 100,
+      "status": "verified",
+      "w": 73,
+      "x": 1012,
+      "y": 135
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 101,
+      "status": "verified",
+      "w": 75,
+      "x": 1109,
+      "y": 134
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 101,
+      "status": "verified",
+      "w": 83,
+      "x": 1205,
+      "y": 134
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-e-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 103,
+      "status": "verified",
+      "w": 83,
+      "x": 1305,
+      "y": 132
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-marche-f-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 104,
+      "status": "verified",
+      "w": 83,
+      "x": 1414,
+      "y": 131
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-course-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 99,
+      "status": "verified",
+      "w": 104,
+      "x": 364,
+      "y": 333
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-course-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 98,
+      "status": "verified",
+      "w": 103,
+      "x": 471,
+      "y": 334
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-course-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 99,
+      "status": "verified",
+      "w": 94,
+      "x": 586,
+      "y": 333
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-course-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 99,
+      "status": "verified",
+      "w": 89,
+      "x": 696,
+      "y": 333
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-course-e-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 98,
+      "status": "verified",
+      "w": 105,
+      "x": 792,
+      "y": 334
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-saut-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 79,
+      "status": "verified",
+      "w": 81,
+      "x": 984,
+      "y": 353
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-saut-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 101,
+      "status": "verified",
+      "w": 86,
+      "x": 1092,
+      "y": 314
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-saut-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 92,
+      "status": "verified",
+      "w": 88,
+      "x": 1197,
+      "y": 299
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-saut-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 93,
+      "status": "verified",
+      "w": 87,
+      "x": 1298,
+      "y": 323
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-saut-e-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 90,
+      "status": "verified",
+      "w": 104,
+      "x": 1403,
+      "y": 342
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-sol-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 92,
+      "status": "verified",
+      "w": 109,
+      "x": 70,
+      "y": 537
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-sol-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 92,
+      "status": "verified",
+      "w": 109,
+      "x": 217,
+      "y": 537
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-sol-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 93,
+      "status": "verified",
+      "w": 138,
+      "x": 368,
+      "y": 536
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-sol-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 93,
+      "status": "verified",
+      "w": 140,
+      "x": 525,
+      "y": 536
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-air-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 97,
+      "status": "verified",
+      "w": 105,
+      "x": 823,
+      "y": 532
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-air-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 93,
+      "status": "verified",
+      "w": 143,
+      "x": 983,
+      "y": 521
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-air-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 95,
+      "status": "verified",
+      "w": 138,
+      "x": 1147,
+      "y": 512
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-tir-air-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 100,
+      "status": "verified",
+      "w": 140,
+      "x": 1316,
+      "y": 528
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-accroupi-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 86,
+      "status": "verified",
+      "w": 91,
+      "x": 60,
+      "y": 722
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-accroupi-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 87,
+      "status": "verified",
+      "w": 106,
+      "x": 184,
+      "y": 721
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-accroupi-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 87,
+      "status": "verified",
+      "w": 122,
+      "x": 313,
+      "y": 721
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-accroupi-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 87,
+      "status": "verified",
+      "w": 128,
+      "x": 452,
+      "y": 721
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-objet-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 82,
+      "status": "verified",
+      "w": 79,
+      "x": 640,
+      "y": 726
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-objet-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 73,
+      "status": "verified",
+      "w": 81,
+      "x": 747,
+      "y": 736
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-objet-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 84,
+      "status": "verified",
+      "w": 81,
+      "x": 864,
+      "y": 724
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-objet-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 122,
+      "status": "verified",
+      "w": 87,
+      "x": 987,
+      "y": 686
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-degats-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 89,
+      "status": "verified",
+      "w": 76,
+      "x": 1161,
+      "y": 719
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-degats-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 108,
+      "status": "verified",
+      "w": 105,
+      "x": 1268,
+      "y": 700
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-degats-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 91,
+      "status": "verified",
+      "w": 105,
+      "x": 1389,
+      "y": 707
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-ko-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 85,
+      "status": "verified",
+      "w": 104,
+      "x": 53,
+      "y": 892
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-ko-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 82,
+      "status": "verified",
+      "w": 113,
+      "x": 177,
+      "y": 891
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-ko-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 52,
+      "status": "verified",
+      "w": 128,
+      "x": 305,
+      "y": 922
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-ko-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 38,
+      "status": "verified",
+      "w": 125,
+      "x": 454,
+      "y": 936
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-ko-e-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 37,
+      "status": "verified",
+      "w": 137,
+      "x": 594,
+      "y": 938
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-relever-a-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 69,
+      "status": "verified",
+      "w": 117,
+      "x": 846,
+      "y": 908
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-relever-b-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 83,
+      "status": "verified",
+      "w": 91,
+      "x": 1003,
+      "y": 894
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-relever-c-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 95,
+      "status": "verified",
+      "w": 73,
+      "x": 1146,
+      "y": 882
+    },
+    {
+      "assetId": "asset-sprite-ms-kangourou-relever-d-0001",
+      "evidence": "ms-kangourou.decoupe.json · SHA-256 21a6ef241ca8e5d8e67371b42dea8fc0d30843c4f7bc5947e334f2bba630bc0e · planche 2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+      "h": 95,
+      "status": "verified",
+      "w": 93,
+      "x": 1271,
+      "y": 882
+    }
+  ],
+  "schemaVersion": "1.0",
+  "sha256": "2572b229befb4cc3c1907e1b5a373f45d7cf54fcbae3feb503fc67af50624654",
+  "status": "active"
+}

@@ -18,5 +18,5 @@ Rôle : game
 
 ## Licences des 400 asset(s) employés
 
-- [CC-BY-4.0](../licences/CC-BY-4.0.md) : 360
+- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 360
 - [unknown](../licences/unknown.md) : 40

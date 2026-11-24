@@ -45,16 +45,19 @@ class WorkflowsRegistreGitHub(unittest.TestCase):
         t = lire("validate")
         for c in ("python3 -m pytest -n 4 -q -p no:cacheprovider tests/unit",
                   "python3 -m pytest -n 4 -q -p no:cacheprovider tests/acceptance",
-                  "./assetctl validate --json", "./assetctl validate --base", "./assetctl validate-atlas",
+                  "python3 scripts/copie_publique.py validate", "./assetctl validate --base", "./assetctl validate-atlas",
                   "./assetctl external audit-licenses --json", "./assetctl duplicates --json", "gitleaks"):
             self.assertIn(c, t, c)
         d = yaml_ou_saut(self).safe_load(t)
         self.assertIn("pull_request", declencheurs(d))
 
     def test_build_index_echoue_sur_un_index_perime(self) -> None:
-        t = lire("build-index")
-        self.assertIn("./assetctl index --json", t)
-        self.assertIn("git diff --stat --exit-code -- generated/", t)
+        # Copie publique (7-3316) : scripts/copie_publique.py lance `assetctl index` et exige generated/ identique
+        # au commit, hors l'effet exact des binaires retirés (tests/unit/test_copie_publique.py).
+        self.assertIn("python3 scripts/copie_publique.py index", lire("build-index"))
+        script = (RACINE / "scripts" / "copie_publique.py").read_text(encoding="utf-8")
+        self.assertIn('_assetctl(racine, "index")', script)
+        self.assertIn('"status", "--porcelain", "--untracked-files=all", "--", "generated/"', script)
 
     def test_e072_scan_periodique_et_crochet_des_jeux(self) -> None:
         d = yaml_ou_saut(self).safe_load(lire("scan"))

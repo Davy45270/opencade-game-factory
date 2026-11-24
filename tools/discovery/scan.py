@@ -500,6 +500,10 @@ def _verify(root, args, git, cache, temporary, copies):
         recorded.update((line["repo"], line["commit"], line["path"]) for line in read_json(exceptions))
     forgotten, drift, errors = [], [], []
     checked = set()
+    # Copies divergentes laissées de côté exprès par le scan (7901d3c) : signalées, jamais comptées en dérive, et
+    # jamais inventoriées. Leur référence reste figée au dernier commit importé, que le catalogue ne porte plus
+    # forcément (la source est rechargée depuis la copie qui fait foi) : défaut du 24/11, 11 « oubliés » d'opencadkid.
+    skipped = _skipped_divergent(root)
     for copy in copies:
         stored = references.get(copy.key)
         if args.fetch:
@@ -512,7 +516,7 @@ def _verify(root, args, git, cache, temporary, copies):
             except GitError as exc:
                 errors.append({"name": copy.name, "provider": copy.provider, "error": str(exc),
                                "stage": "remote-head"})
-        if stored is None:
+        if stored is None or (copy.name, copy.provider) in skipped:
             continue
         commits = {stored["commit"], *stored["releaseCommits"]}
         for commit in sorted(commits):
@@ -532,11 +536,10 @@ def _verify(root, args, git, cache, temporary, copies):
             except GitError as exc:
                 errors.append({"name": copy.name, "provider": copy.provider, "commit": commit,
                                "error": str(exc), "stage": "inventory"})
-    # Copies divergentes laissées de côté exprès par le scan (7901d3c) : signalées, jamais comptées en dérive.
-    skipped = _skipped_divergent(root)
     divergent = [entry for entry in drift if (entry["name"], entry["provider"]) in skipped]
     drift = [entry for entry in drift if (entry["name"], entry["provider"]) not in skipped]
-    required = {(copy.name, commit) for copy in copies if (record := references.get(copy.key))
+    required = {(copy.name, commit) for copy in copies
+                if (copy.name, copy.provider) not in skipped and (record := references.get(copy.key))
                 for commit in [record["commit"], *record["releaseCommits"]]}
     code = (ExitCode.CHECK_FAILED if forgotten or drift else
             ExitCode.IO if required - checked or (errors and not checked) else ExitCode.OK)

@@ -2,11 +2,11 @@
 
 [Accueil](../index.md)
 
-# Licence CC-BY-4.0 (page 2/5)
+# Licence CC-BY-4.0 (page 2/6)
 
-1208 asset(s) sous `CC-BY-4.0`.
+1386 asset(s) sous `CC-BY-4.0`.
 
-Pages : [1](CC-BY-4.0.md) · **2** · [3](CC-BY-4.0-3.md) · [4](CC-BY-4.0-4.md) · [5](CC-BY-4.0-5.md)
+Pages : [1](CC-BY-4.0.md) · **2** · [3](CC-BY-4.0-3.md) · [4](CC-BY-4.0-4.md) · [5](CC-BY-4.0-5.md) · [6](CC-BY-4.0-6.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|

@@ -16,7 +16,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/gourmandises",
         "path": "src/games/gourmandises/style.css",
         "provider": "forgejo",
@@ -51,10 +51,11 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
         "game": "opencade/gourmandises",
         "path": "src/games/gourmandises/style.css",
         "provider": "github",
+        "releaseOnly": true,
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -62,11 +63,10 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/gourmandises",
         "path": "src/games/gourmandises/style.css",
         "provider": "github",
-        "releaseOnly": true,
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -140,7 +140,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -152,7 +152,7 @@
         "line": 256,
         "path": "scripts/gourmandises-mutations.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/gourmandises/style.css",
         "module-path: scripts/gourmandises-mutations.json"
@@ -185,7 +185,7 @@
         "line": 263,
         "path": "scripts/gourmandises-mutations.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/gourmandises/style.css",
         "module-path: scripts/gourmandises-mutations.json"
@@ -218,7 +218,7 @@
         "line": 307,
         "path": "scripts/gourmandises-presentation-oracles.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "new URL: src/games/gourmandises/style.css",
         "module-path: scripts/gourmandises-presentation-oracles.js"
@@ -251,7 +251,7 @@
         "line": 6,
         "path": "src/main.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "import: src/games/gourmandises/style.css",
         "module-path: src/main.ts"
@@ -358,39 +358,6 @@
         "line": 256,
         "path": "scripts/gourmandises-mutations.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/gourmandises/style.css",
-        "module-path: scripts/gourmandises-mutations.json"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/gourmandises-mutations.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
-        "src/games/gourmandises/style.css": "096f93b1ca9e5f9ef18f9e3520ade4cc9248e4c1"
-      },
-      "assetPath": "src/games/gourmandises/style.css",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 256,
-        "path": "scripts/gourmandises-mutations.json"
-      },
       "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
       "evidence": [
         "literal: src/games/gourmandises/style.css",
@@ -413,6 +380,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/gourmandises-mutations.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/gourmandises/style.css": "096f93b1ca9e5f9ef18f9e3520ade4cc9248e4c1"
+      },
+      "assetPath": "src/games/gourmandises/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 256,
+        "path": "scripts/gourmandises-mutations.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/gourmandises/style.css",
+        "module-path: scripts/gourmandises-mutations.json"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/gourmandises-mutations.json",
@@ -502,39 +502,6 @@
         "line": 263,
         "path": "scripts/gourmandises-mutations.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/gourmandises/style.css",
-        "module-path: scripts/gourmandises-mutations.json"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/gourmandises-mutations.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
-        "src/games/gourmandises/style.css": "096f93b1ca9e5f9ef18f9e3520ade4cc9248e4c1"
-      },
-      "assetPath": "src/games/gourmandises/style.css",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 263,
-        "path": "scripts/gourmandises-mutations.json"
-      },
       "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
       "evidence": [
         "literal: src/games/gourmandises/style.css",
@@ -557,6 +524,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/gourmandises-mutations.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/gourmandises/style.css": "096f93b1ca9e5f9ef18f9e3520ade4cc9248e4c1"
+      },
+      "assetPath": "src/games/gourmandises/style.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 263,
+        "path": "scripts/gourmandises-mutations.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/gourmandises/style.css",
+        "module-path: scripts/gourmandises-mutations.json"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/gourmandises-mutations.json",
@@ -683,7 +683,7 @@
         "line": 307,
         "path": "scripts/gourmandises-presentation-oracles.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "new URL: src/games/gourmandises/style.css",
         "module-path: scripts/gourmandises-presentation-oracles.js"
@@ -716,7 +716,7 @@
         "line": 6,
         "path": "src/main.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "import: src/games/gourmandises/style.css",
         "module-path: src/main.ts"

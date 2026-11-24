@@ -22,7 +22,7 @@
         "assetVersion": 3,
         "blobSha256": "60cd16b6b6b90f49a41122c7a93ad8f9cfe6466fde44076c914fcfaf8fd46771",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/alunir",
         "path": "src/games/alunir/scene.ts",
         "provider": "forgejo",
@@ -52,18 +52,6 @@
         "path": "src/games/alunir/scene.ts",
         "provider": "github",
         "releaseOnly": true,
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
-        "assetVersion": 3,
-        "blobSha256": "60cd16b6b6b90f49a41122c7a93ad8f9cfe6466fde44076c914fcfaf8fd46771",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/alunir",
-        "path": "src/games/alunir/scene.ts",
-        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -116,6 +104,18 @@
         "path": "src/games/alunir/scene.ts",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "blobSha256": "60cd16b6b6b90f49a41122c7a93ad8f9cfe6466fde44076c914fcfaf8fd46771",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/alunir",
+        "path": "src/games/alunir/scene.ts",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -173,7 +173,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "scene",
   "orientation": "unknown",
@@ -194,7 +194,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -206,7 +206,7 @@
         "line": 10,
         "path": "scripts/validate-alunir-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir-scene.js"
@@ -239,7 +239,7 @@
         "line": 66,
         "path": "scripts/validate-alunir-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir-scene.js"
@@ -272,7 +272,7 @@
         "line": 69,
         "path": "scripts/validate-alunir-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir-scene.js"
@@ -305,7 +305,7 @@
         "line": 10,
         "path": "scripts/validate-alunir.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir.js"
@@ -367,7 +367,7 @@
         "line": 43,
         "path": "tests/alunir-levels.test.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: tests/alunir-levels.test.ts"
@@ -466,39 +466,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
-      },
-      "assetPath": "src/games/alunir/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 10,
-        "path": "scripts/validate-alunir-scene.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/alunir/scene.ts",
-        "module-path: scripts/validate-alunir-scene.js"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/validate-alunir-scene.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/alunir/scene.ts": "665d952ee0cbe698a1f95e0095f232843d150168"
       },
       "assetPath": "src/games/alunir/scene.ts",
@@ -529,6 +496,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/validate-alunir-scene.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
+      },
+      "assetPath": "src/games/alunir/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 10,
+        "path": "scripts/validate-alunir-scene.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/alunir/scene.ts",
+        "module-path: scripts/validate-alunir-scene.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/validate-alunir-scene.js",
@@ -655,7 +655,7 @@
         "line": 66,
         "path": "scripts/validate-alunir-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir-scene.js"
@@ -799,7 +799,7 @@
         "line": 69,
         "path": "scripts/validate-alunir-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/alunir/scene.ts",
         "module-path: scripts/validate-alunir-scene.js"
@@ -898,39 +898,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
-      },
-      "assetPath": "src/games/alunir/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 10,
-        "path": "scripts/validate-alunir.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/alunir/scene.ts",
-        "module-path: scripts/validate-alunir.js"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/validate-alunir.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/alunir/scene.ts": "665d952ee0cbe698a1f95e0095f232843d150168"
       },
       "assetPath": "src/games/alunir/scene.ts",
@@ -961,6 +928,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/validate-alunir.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
+      },
+      "assetPath": "src/games/alunir/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 10,
+        "path": "scripts/validate-alunir.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/alunir/scene.ts",
+        "module-path: scripts/validate-alunir.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/validate-alunir.js",
@@ -1042,39 +1042,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
-      },
-      "assetPath": "src/games/alunir/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 43,
-        "path": "tests/alunir-levels.test.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/alunir/scene.ts",
-        "module-path: tests/alunir-levels.test.ts"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "tests/alunir-levels.test.ts",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/alunir/scene.ts": "665d952ee0cbe698a1f95e0095f232843d150168"
       },
       "assetPath": "src/games/alunir/scene.ts",
@@ -1105,6 +1072,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "tests/alunir-levels.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/alunir/scene.ts": "6fd344d89caa60ae068cfee777ddd68e6ecdeeaa"
+      },
+      "assetPath": "src/games/alunir/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 43,
+        "path": "tests/alunir-levels.test.ts"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/alunir/scene.ts",
+        "module-path: tests/alunir-levels.test.ts"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "tests/alunir-levels.test.ts",

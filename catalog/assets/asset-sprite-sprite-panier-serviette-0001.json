@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p04-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-panier-serviette",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p04-objets.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p04-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "d7df882fb66cf9e5492f90f95e5fd66b6afab0a133d2c53cd510c64ffbd356d6",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p04-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.012881171405791128
+    },
+    "h": 131,
+    "verified": true,
+    "w": 119,
+    "x": 1404,
+    "y": 283
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 765,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-objets.json",
         "module-path: content/assets/inventaire.json"

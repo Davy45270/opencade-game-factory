@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p01-panneaux.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-sol-chevrons",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p01-panneaux.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p01-panneaux.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "295a8fca9186e91b40e7d2f5e2878e57ac9d52627a72f38f7ea6600e28cb28f3",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "542933b98cb505f38780e351c996549df83b7db52dc8b28147dfd2b8a27f348e",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p01-panneaux.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.006175452808527214
+    },
+    "h": 98,
+    "verified": true,
+    "w": 144,
+    "x": 712,
+    "y": 905
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-01-webp-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 235,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p01-panneaux.json",
         "module-path: content/assets/inventaire.json"

@@ -16,7 +16,7 @@
       {
         "assetVersion": 8,
         "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": null,
         "path": "src/style.css",
         "provider": "forgejo",
@@ -56,17 +56,6 @@
         "path": "src/style.css",
         "provider": "github",
         "releaseOnly": true,
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
-        "assetVersion": 8,
-        "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": null,
-        "path": "src/style.css",
-        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -127,6 +116,17 @@
         "path": "src/style.css",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 8,
+        "classification": "shared-library",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": null,
+        "path": "src/style.css",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -193,7 +193,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -205,7 +205,7 @@
         "line": 584,
         "path": "scripts/collier-scene-oracles.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "new URL: src/style.css",
         "module-path: scripts/collier-scene-oracles.js"
@@ -238,7 +238,7 @@
         "line": 308,
         "path": "scripts/gourmandises-presentation-oracles.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "new URL: src/style.css",
         "module-path: scripts/gourmandises-presentation-oracles.js"
@@ -271,7 +271,7 @@
         "line": 20,
         "path": "scripts/test-e2e-impact.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/test-e2e-impact.js"
@@ -304,7 +304,7 @@
         "line": 32,
         "path": "scripts/validate-action-scenes.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/validate-action-scenes.js"
@@ -337,7 +337,7 @@
         "line": 19,
         "path": "scripts/validate-briqueterie-scene.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/validate-briqueterie-scene.js"
@@ -370,7 +370,7 @@
         "line": 160,
         "path": "scripts/validate-finger.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/validate-finger.js"
@@ -403,7 +403,7 @@
         "line": 45,
         "path": "scripts/validate-pass76.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/validate-pass76.js"
@@ -436,7 +436,7 @@
         "line": 9,
         "path": "src/shell/app.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "import: src/style.css",
         "module-path: src/shell/app.ts"
@@ -532,39 +532,6 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
-      },
-      "assetPath": "src/style.css",
-      "assetVersion": 8,
-      "codeRef": {
-        "line": 584,
-        "path": "scripts/collier-scene-oracles.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "new URL: src/style.css",
-        "module-path: scripts/collier-scene-oracles.js"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/collier-scene-oracles.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/style.css": "1d3d4e466c9dd2e2b636f7859f5a7f3653fd2f08"
       },
       "assetPath": "src/style.css",
@@ -594,6 +561,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/collier-scene-oracles.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
+      },
+      "assetPath": "src/style.css",
+      "assetVersion": 8,
+      "codeRef": {
+        "line": 584,
+        "path": "scripts/collier-scene-oracles.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "new URL: src/style.css",
+        "module-path: scripts/collier-scene-oracles.js"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/collier-scene-oracles.js",
@@ -716,7 +716,7 @@
         "line": 308,
         "path": "scripts/gourmandises-presentation-oracles.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "new URL: src/style.css",
         "module-path: scripts/gourmandises-presentation-oracles.js"
@@ -749,7 +749,7 @@
         "line": 20,
         "path": "scripts/test-e2e-impact.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/test-e2e-impact.js"
@@ -845,39 +845,6 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
-      },
-      "assetPath": "src/style.css",
-      "assetVersion": 8,
-      "codeRef": {
-        "line": 32,
-        "path": "scripts/validate-action-scenes.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/style.css",
-        "module-path: scripts/validate-action-scenes.js"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/validate-action-scenes.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/style.css": "1d3d4e466c9dd2e2b636f7859f5a7f3653fd2f08"
       },
       "assetPath": "src/style.css",
@@ -907,6 +874,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/validate-action-scenes.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
+      },
+      "assetPath": "src/style.css",
+      "assetVersion": 8,
+      "codeRef": {
+        "line": 32,
+        "path": "scripts/validate-action-scenes.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/style.css",
+        "module-path: scripts/validate-action-scenes.js"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/validate-action-scenes.js",
@@ -985,39 +985,6 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
-      },
-      "assetPath": "src/style.css",
-      "assetVersion": 8,
-      "codeRef": {
-        "line": 19,
-        "path": "scripts/validate-briqueterie-scene.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/style.css",
-        "module-path: scripts/validate-briqueterie-scene.js"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/validate-briqueterie-scene.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/style.css": "1d3d4e466c9dd2e2b636f7859f5a7f3653fd2f08"
       },
       "assetPath": "src/style.css",
@@ -1047,6 +1014,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/validate-briqueterie-scene.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
+      },
+      "assetPath": "src/style.css",
+      "assetVersion": 8,
+      "codeRef": {
+        "line": 19,
+        "path": "scripts/validate-briqueterie-scene.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/style.css",
+        "module-path: scripts/validate-briqueterie-scene.js"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/validate-briqueterie-scene.js",
@@ -1169,7 +1169,7 @@
         "line": 160,
         "path": "scripts/validate-finger.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/style.css",
         "module-path: scripts/validate-finger.js"
@@ -1265,39 +1265,6 @@
     },
     {
       "assetBlobs": {
-        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
-      },
-      "assetPath": "src/style.css",
-      "assetVersion": 8,
-      "codeRef": {
-        "line": 45,
-        "path": "scripts/validate-pass76.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/style.css",
-        "module-path: scripts/validate-pass76.js"
-      ],
-      "game": "opencade",
-      "importName": "style",
-      "inference": {
-        "role": {
-          "confidence": 0.9,
-          "evidence": [
-            "style"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "style",
-      "scene": "scripts/validate-pass76.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/style.css": "1d3d4e466c9dd2e2b636f7859f5a7f3653fd2f08"
       },
       "assetPath": "src/style.css",
@@ -1327,6 +1294,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "style",
+      "scene": "scripts/validate-pass76.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/style.css": "c427c9dbd3355917e8f8fd60ec7fda9edbd28e5d"
+      },
+      "assetPath": "src/style.css",
+      "assetVersion": 8,
+      "codeRef": {
+        "line": 45,
+        "path": "scripts/validate-pass76.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/style.css",
+        "module-path: scripts/validate-pass76.js"
+      ],
+      "game": "opencade",
+      "importName": "style",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "style",
       "scene": "scripts/validate-pass76.js",
@@ -1624,7 +1624,7 @@
         "line": 9,
         "path": "src/shell/app.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "import: src/style.css",
         "module-path: src/shell/app.ts"

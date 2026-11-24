@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p03-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-diffuseur",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p03-objets.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p03-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "4e2496817ba12afaa780c43c0ffe93b5e083f980a4cfcc35ec49bf9bced8314a",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "6a996aa8ce186e30434801108e54451a1435eff4dac3fbf9183efaab3f22197e",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p03-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.009767840442985043
+    },
+    "h": 115,
+    "verified": true,
+    "w": 58,
+    "x": 907,
+    "y": 728
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-03-webp-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 605,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p03-objets.json",
         "module-path: content/assets/inventaire.json"

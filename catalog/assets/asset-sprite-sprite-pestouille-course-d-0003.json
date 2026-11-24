@@ -105,7 +105,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "provenance-file",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; déclaration privée périmée : assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-pestouille-course-d",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -115,19 +120,25 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "fee015a05ff0a2a2d219f86ea8c25e61b586e5c14d731bb32860ef176fa5059a",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.00714799202802026
+    },
     "h": 36,
-    "verified": false,
+    "verified": true,
     "w": 38,
     "x": 174,
     "y": 256
@@ -153,7 +164,7 @@
         "line": 296,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/e04-heros.json",
         "module-path: assets.lock.json"
@@ -187,7 +198,7 @@
         "line": 1464,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/e04-heros.json",
         "module-path: assets/liste-assets.json"

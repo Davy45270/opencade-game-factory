@@ -14,9 +14,9 @@ Rôle : game
 
 ## Jeux (1)
 
-- [cozy-room-sort](../jeux/cozy-room-sort.md) — 399 asset(s)
+- [cozy-room-sort](../jeux/cozy-room-sort.md) — 400 asset(s)
 
-## Licences des 399 asset(s) employés
+## Licences des 400 asset(s) employés
 
-- [CC-BY-4.0](../licences/CC-BY-4.0.md) : 182
-- [unknown](../licences/unknown.md) : 217
+- [CC-BY-4.0](../licences/CC-BY-4.0.md) : 360
+- [unknown](../licences/unknown.md) : 40

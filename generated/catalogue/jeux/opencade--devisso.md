@@ -11,4 +11,4 @@ Licences : [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 1
 | Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Commits | Planche |
 |---|---|---|---|---|---|---|---|
 | — | [`asset-codegenerated-scene-0012`](../../../catalog/assets/asset-codegenerated-scene-0012.json) | scene | codegenerated | [MIT](../licences/MIT.md) | unknown | `172156a` | — |
-| — | [`asset-style-style-0006`](../../../catalog/assets/asset-style-style-0006.json) | style | style | [unknown](../licences/unknown.md) | unknown | `172156a` | — |
+| — | [`asset-style-style-0006`](../../../catalog/assets/asset-style-style-0006.json) | style | style | [unknown](../licences/unknown.md) | unknown | `fa8132a` | — |

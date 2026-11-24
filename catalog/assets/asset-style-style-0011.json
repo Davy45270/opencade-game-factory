@@ -14,14 +14,26 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 3,
+        "classification": "game",
+        "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+        "game": "pestouille-rpg",
+        "path": "apps/web/style.css",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 2,
         "classification": "game",
         "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "apps/web/style.css",
         "provider": "forgejo",
+        "removedAtCommit": "199caf77a96970a8298457d311dfe822879c95a2",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -70,21 +82,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/style.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/style.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:apps/web/style.css"
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/style.css"
       ],
       "method": "proven"
     }
@@ -102,26 +114,26 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "1473898c7549f5b5ff136634e0de015c5c83c677d3bfe6b6ffe34aba1348a698",
+  "sha256": "5982a0b138b7ab16f46caff0ec3f9b0c24529fe0b044198ad98f56eb04fc10b9",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-22T00:04:42+01:00",
+  "updatedAt": "2026-11-23T18:16:53+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+        "apps/web/style.css": "ae0e2851770acc2a1d62e411f5eeb59926b1238a"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
-        "line": 20,
+        "line": 23,
         "path": "apps/web/main.ts"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "import: apps/web/style.css",
         "module-path: apps/web/main.ts"
@@ -146,15 +158,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+        "apps/web/style.css": "ae0e2851770acc2a1d62e411f5eeb59926b1238a"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 7,
         "path": "tests/unit/habillage.test.ts"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: apps/web/style.css",
         "module-path: tests/unit/habillage.test.ts"
@@ -179,15 +191,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/style.css": "02f04a1a1311bf13f6a1f0c139292233afd71a74"
+        "apps/web/style.css": "ae0e2851770acc2a1d62e411f5eeb59926b1238a"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 87,
         "path": "tests/unit/lot13-preuves.test.ts"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: apps/web/style.css",
         "module-path: tests/unit/lot13-preuves.test.ts"
@@ -311,7 +323,7 @@
     }
   ],
   "variants": [],
-  "version": 2,
+  "version": 3,
   "versions": [
     {
       "causalNext": 2,
@@ -325,15 +337,26 @@
       "version": 1
     },
     {
-      "causalNext": null,
+      "causalNext": 3,
       "causalPrevious": 1,
       "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "date": "2026-11-22T00:04:42+01:00",
       "format": "css",
-      "nextVersion": null,
+      "nextVersion": 3,
       "previousVersion": 1,
       "sha256": "1473898c7549f5b5ff136634e0de015c5c83c677d3bfe6b6ffe34aba1348a698",
       "version": 2
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 2,
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+      "date": "2026-11-23T18:16:53+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 2,
+      "sha256": "5982a0b138b7ab16f46caff0ec3f9b0c24529fe0b044198ad98f56eb04fc10b9",
+      "version": 3
     }
   ],
   "visualStyle": null

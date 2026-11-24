@@ -22,7 +22,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+        "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
         "game": "cozy-room-sort",
         "path": "apps/web/public/icons/cozy-room-sort-192.png",
         "provider": "forgejo",
@@ -150,8 +150,41 @@
     "icons"
   ],
   "thumbnail": "thumbnails/5e/5ec86821d672437a6647ece28bc8e361641ea71ed206c13bb9e01b356051bb23.webp",
-  "updatedAt": "2026-11-21T23:06:59+01:00",
+  "updatedAt": "2026-11-23T11:47:15+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/public/icons/cozy-room-sort-192.png": "5e476fb83252373e78e71a76b2d03228efc5bb95"
+      },
+      "assetPath": "apps/web/public/icons/cozy-room-sort-192.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "apps/web/editeur.html"
+      },
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "evidence": [
+        "html-attribute: apps/web/public/icons/cozy-room-sort-192.png",
+        "module-path: apps/web/editeur.html"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "cozy-room-sort-192",
+      "inference": {
+        "role": {
+          "confidence": 0.75,
+          "evidence": [
+            "icons"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "icon",
+      "scene": "apps/web/editeur.html",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "apps/web/public/icons/cozy-room-sort-192.png": "5e476fb83252373e78e71a76b2d03228efc5bb95"
@@ -162,7 +195,7 @@
         "line": 2,
         "path": "apps/web/index.html"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "html-attribute: apps/web/public/icons/cozy-room-sort-192.png",
         "module-path: apps/web/index.html"
@@ -224,7 +257,7 @@
         "line": 16,
         "path": "apps/web/pwa-manifest.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/public/icons/cozy-room-sort-192.png",
         "module-path: apps/web/pwa-manifest.ts"
@@ -257,7 +290,7 @@
         "line": 3,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/public/icons/cozy-room-sort-192.png",
         "module-path: content/assets/inventaire.json"
@@ -290,7 +323,7 @@
         "line": 611,
         "path": "content/assets/provenance.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/public/icons/cozy-room-sort-192.png",
         "module-path: content/assets/provenance.json"
@@ -323,7 +356,7 @@
         "line": 47,
         "path": "tests/integration/inventaire-assets.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/public/icons/cozy-room-sort-192.png",
         "module-path: tests/integration/inventaire-assets.test.ts"

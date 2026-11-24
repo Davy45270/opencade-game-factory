@@ -334,7 +334,15 @@ class SheetDiscovery:
             asset["provenance"]["type"] = "original-sheet-cut"
             licenses.assign(asset, "CC-BY-4.0", "provenance-file", ref, licenses.DAVID_DECISION)
         explicit = entry.get("licence")
-        if verified and licenses.explicit_spdx(explicit) and explicit != asset["license"]:
+        if verified and explicit == licenses.DAVID_PRIVATE_SUPERSEDED:
+            license_id, _, decision_ref, decision = licenses.DAVID_CC_BY_SA
+            licenses.assign(asset, license_id, "provenance-file", f"{decision_ref} ; déclaration privée périmée : {ref}",
+                            decision)
+            author = (source or {}).get("provenance", {}).get("author", "")
+            if asset["provenance"].get("author", "unknown") == "unknown":
+                asset["provenance"]["author"] = (author if author.startswith(licenses.DAVID_ATTRIBUTION)
+                                                 else licenses.DAVID_ATTRIBUTION)
+        elif verified and licenses.explicit_spdx(explicit) and explicit != asset["license"]:
             licenses.assign(asset, explicit, "provenance-file", ref, "Licence SPDX déclarée, découpe vérifiée.")
         if not verified:
             asset["status"] = "needs-review"

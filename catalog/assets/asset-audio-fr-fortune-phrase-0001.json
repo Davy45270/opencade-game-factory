@@ -19,14 +19,26 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+        "game": null,
+        "path": "public/dictee/audio/fr-fortune-phrase.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-fortune-phrase.ogg",
         "provider": "forgejo",
+        "removedAtCommit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -114,19 +126,19 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "updatedAt": "2026-11-22T08:33:12+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-fortune-phrase.ogg": "867e39e6fb128241d087e6d8f934d96cc958f177"
+        "public/dictee/audio/fr-fortune-phrase.ogg": "a0a26c00b0bbe3d482d4dfd82c82746103e471bf"
       },
       "assetPath": "public/dictee/audio/fr-fortune-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 14779,
+        "line": 15491,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-fortune-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -151,15 +163,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-fortune-phrase.ogg": "867e39e6fb128241d087e6d8f934d96cc958f177"
+        "public/dictee/audio/fr-fortune-phrase.ogg": "a0a26c00b0bbe3d482d4dfd82c82746103e471bf"
       },
       "assetPath": "public/dictee/audio/fr-fortune-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 350,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-fortune-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -180,6 +192,72 @@
       "repo": "opencadkid",
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-fortune-phrase.ogg": "a0a26c00b0bbe3d482d4dfd82c82746103e471bf"
+      },
+      "assetPath": "public/dictee/audio/fr-fortune-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 350,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-fortune-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-fortune-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-fortune-phrase.ogg": "a0a26c00b0bbe3d482d4dfd82c82746103e471bf"
+      },
+      "assetPath": "public/dictee/audio/fr-fortune-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 350,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-fortune-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-fortune-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
       "status": "active"
     },
     {

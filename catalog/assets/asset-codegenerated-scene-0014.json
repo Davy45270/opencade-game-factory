@@ -22,7 +22,7 @@
         "assetVersion": 3,
         "blobSha256": "d1cd9028f03a5ef8f04b6c9a4d6c60b193868a2d02dc9429eebd27a7ce8fbf3b",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/essaim",
         "path": "src/games/essaim/scene.ts",
         "provider": "forgejo",
@@ -65,18 +65,6 @@
         "path": "src/games/essaim/scene.ts",
         "provider": "github",
         "releaseOnly": true,
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
-        "assetVersion": 3,
-        "blobSha256": "d1cd9028f03a5ef8f04b6c9a4d6c60b193868a2d02dc9429eebd27a7ce8fbf3b",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/essaim",
-        "path": "src/games/essaim/scene.ts",
-        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -129,6 +117,18 @@
         "path": "src/games/essaim/scene.ts",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "blobSha256": "d1cd9028f03a5ef8f04b6c9a4d6c60b193868a2d02dc9429eebd27a7ce8fbf3b",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/essaim",
+        "path": "src/games/essaim/scene.ts",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -186,7 +186,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "scene",
   "orientation": "unknown",
@@ -207,7 +207,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -219,7 +219,7 @@
         "line": 1385,
         "path": "docs/characters-games-4-validation.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/essaim/scene.ts",
         "module-path: docs/characters-games-4-validation.json"
@@ -252,7 +252,7 @@
         "line": 1392,
         "path": "docs/characters-games-4-validation.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/essaim/scene.ts",
         "module-path: docs/characters-games-4-validation.json"
@@ -285,7 +285,7 @@
         "line": 68,
         "path": "scripts/validate-character-games-4.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/essaim/scene.ts",
         "module-path: scripts/validate-character-games-4.js"
@@ -413,39 +413,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
-      },
-      "assetPath": "src/games/essaim/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 1385,
-        "path": "docs/characters-games-4-validation.json"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/essaim/scene.ts",
-        "module-path: docs/characters-games-4-validation.json"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "docs/characters-games-4-validation.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/essaim/scene.ts": "f4e85c51c96f8f246f70c83cf733d1d239226e5a"
       },
       "assetPath": "src/games/essaim/scene.ts",
@@ -476,6 +443,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "docs/characters-games-4-validation.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
+      },
+      "assetPath": "src/games/essaim/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1385,
+        "path": "docs/characters-games-4-validation.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/essaim/scene.ts",
+        "module-path: docs/characters-games-4-validation.json"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "docs/characters-games-4-validation.json",
@@ -557,39 +557,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
-      },
-      "assetPath": "src/games/essaim/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 1392,
-        "path": "docs/characters-games-4-validation.json"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/essaim/scene.ts",
-        "module-path: docs/characters-games-4-validation.json"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "docs/characters-games-4-validation.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/essaim/scene.ts": "f4e85c51c96f8f246f70c83cf733d1d239226e5a"
       },
       "assetPath": "src/games/essaim/scene.ts",
@@ -620,6 +587,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "docs/characters-games-4-validation.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
+      },
+      "assetPath": "src/games/essaim/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 1392,
+        "path": "docs/characters-games-4-validation.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/essaim/scene.ts",
+        "module-path: docs/characters-games-4-validation.json"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "docs/characters-games-4-validation.json",
@@ -701,39 +701,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
-      },
-      "assetPath": "src/games/essaim/scene.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 68,
-        "path": "scripts/validate-character-games-4.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/essaim/scene.ts",
-        "module-path: scripts/validate-character-games-4.js"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/validate-character-games-4.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/essaim/scene.ts": "f4e85c51c96f8f246f70c83cf733d1d239226e5a"
       },
       "assetPath": "src/games/essaim/scene.ts",
@@ -764,6 +731,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/validate-character-games-4.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/essaim/scene.ts": "faa296400a544597cb139486a696756137e85b36"
+      },
+      "assetPath": "src/games/essaim/scene.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 68,
+        "path": "scripts/validate-character-games-4.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/essaim/scene.ts",
+        "module-path: scripts/validate-character-games-4.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/validate-character-games-4.js",

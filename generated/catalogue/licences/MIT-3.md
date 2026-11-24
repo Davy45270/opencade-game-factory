@@ -4,12 +4,14 @@
 
 # Licence MIT (page 3/3)
 
-703 asset(s) sous `MIT`.
+705 asset(s) sous `MIT`.
 
 Pages : [1](MIT.md) · [2](MIT-2.md) · **3**
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-image-dragon-backright-0002`](../../../catalog/assets/asset-image-dragon-backright-0002.json) | dragon_backRight | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
+| [`asset-image-dragon-front-0002`](../../../catalog/assets/asset-image-dragon-front-0002.json) | dragon_front | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-frontleft-0002`](../../../catalog/assets/asset-image-dragon-frontleft-0002.json) | dragon_frontLeft | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-frontright-0002`](../../../catalog/assets/asset-image-dragon-frontright-0002.json) | dragon_frontRight | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-left-0002`](../../../catalog/assets/asset-image-dragon-left-0002.json) | dragon_left | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |

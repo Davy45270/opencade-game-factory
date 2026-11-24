@@ -22,7 +22,7 @@
         "assetVersion": 3,
         "blobSha256": "d4b4f9df99e21235c2ae5b87cb196945d1afa7e9b77f3bebfee725f81d5ed14d",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/derapage",
         "path": "src/games/derapage/road.ts",
         "provider": "forgejo",
@@ -57,18 +57,6 @@
         "visibility": "public"
       },
       {
-        "assetVersion": 3,
-        "blobSha256": "d4b4f9df99e21235c2ae5b87cb196945d1afa7e9b77f3bebfee725f81d5ed14d",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/derapage",
-        "path": "src/games/derapage/road.ts",
-        "provider": "github",
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
         "assetVersion": 1,
         "blobSha256": "f9aa9a1f44802c413c0dd8944c9bf4bad6a67e702affd01a4e7e41309caf4cbe",
         "classification": "game",
@@ -77,6 +65,18 @@
         "path": "src/games/derapage/road.ts",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "blobSha256": "d4b4f9df99e21235c2ae5b87cb196945d1afa7e9b77f3bebfee725f81d5ed14d",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/derapage",
+        "path": "src/games/derapage/road.ts",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -134,7 +134,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "road",
   "orientation": "unknown",
@@ -155,7 +155,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -167,7 +167,7 @@
         "line": 13,
         "path": "scripts/check-level-catalogue-kart.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/derapage/road.ts",
         "module-path: scripts/check-level-catalogue-kart.js"
@@ -292,39 +292,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/derapage/road.ts": "4b54be59fbc7ba52dc81373b5e934a2e4b312f6c"
-      },
-      "assetPath": "src/games/derapage/road.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 13,
-        "path": "scripts/check-level-catalogue-kart.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/derapage/road.ts",
-        "module-path: scripts/check-level-catalogue-kart.js"
-      ],
-      "game": "opencade",
-      "importName": "road",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/check-level-catalogue-kart.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/derapage/road.ts": "0a5a10afafe8eaab81abf535fb6e555cfe890615"
       },
       "assetPath": "src/games/derapage/road.ts",
@@ -354,6 +321,39 @@
         "v0.4.0",
         "v0.5.0"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/check-level-catalogue-kart.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/derapage/road.ts": "4b54be59fbc7ba52dc81373b5e934a2e4b312f6c"
+      },
+      "assetPath": "src/games/derapage/road.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 13,
+        "path": "scripts/check-level-catalogue-kart.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/derapage/road.ts",
+        "module-path: scripts/check-level-catalogue-kart.js"
+      ],
+      "game": "opencade",
+      "importName": "road",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/check-level-catalogue-kart.js",

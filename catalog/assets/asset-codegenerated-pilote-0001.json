@@ -1,0 +1,151 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-22T22:42:46+00:00",
+  "creation": {
+    "importJob": "19baa545421d9c4d"
+  },
+  "description": "Pilote — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "apps/web/pilote.ts",
+      "repo": "pestouille-rpg",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "60dd81ffaa4eb0773eb78844828b57e0546351b06a14aabb5f2f26e5e348e4f1",
+        "classification": "game",
+        "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+        "game": "pestouille-rpg",
+        "path": "apps/web/pilote.ts",
+        "provider": "forgejo",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-pilote-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/pilote.ts · pilote"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@199caf77a96970a8298457d311dfe822879c95a2"
+  },
+  "name": "pilote",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "60dd81ffaa4eb0773eb78844828b57e0546351b06a14aabb5f2f26e5e348e4f1",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/pilote.ts": "c83f734d483b2b6b64c06dea670565945fb77829"
+      },
+      "assetPath": "apps/web/pilote.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 31,
+        "path": "pilote.html"
+      },
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+      "evidence": [
+        "html-attribute: apps/web/pilote.ts",
+        "module-path: pilote.html"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pilote",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "pilote.html",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+      "date": "2026-11-23T18:16:53+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "60dd81ffaa4eb0773eb78844828b57e0546351b06a14aabb5f2f26e5e348e4f1",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

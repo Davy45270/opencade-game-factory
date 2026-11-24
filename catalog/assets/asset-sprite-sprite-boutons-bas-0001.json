@@ -105,7 +105,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-boutons-bas",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -117,14 +122,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p04-ui.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "5246270024c9e36c2969b9266b98c3a6d9e8b819e80c4a1a77d695e83a1ddf11",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.008207787679622934
+    },
+    "h": 67,
+    "verified": true,
+    "w": 250,
+    "x": 18,
+    "y": 606
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": "buttons",
@@ -145,7 +162,7 @@
         "line": 10,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -179,7 +196,7 @@
         "line": 14,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -213,7 +230,7 @@
         "line": 963,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: content/assets/inventaire.json"

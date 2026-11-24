@@ -105,7 +105,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "provenance-file",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; déclaration privée périmée : assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-livre",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -115,19 +120,25 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "unknown",
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "f2e78e21395cec069c81e7a7da6b4d4278b95cfa06825ecfaa612b34465a23ef",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0
+    },
     "h": 38,
-    "verified": false,
+    "verified": true,
     "w": 38,
     "x": 967,
     "y": 805
@@ -153,7 +164,7 @@
         "line": 648,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/m01-icones.json",
         "module-path: assets.lock.json"
@@ -187,7 +198,7 @@
         "line": 6,
         "path": "assets/export/m01-icones.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/m01-icones.json",
         "module-path: assets/export/m01-icones.manifest.json"
@@ -221,7 +232,7 @@
         "line": 770,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/m01-icones.json",
         "module-path: assets/liste-assets.json"
@@ -255,7 +266,7 @@
         "line": 6,
         "path": "assets/manifests/m01-icones.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/m01-icones.json",
         "module-path: assets/manifests/m01-icones.json"

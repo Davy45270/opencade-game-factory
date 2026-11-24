@@ -4,14 +4,15 @@
 
 # Jeu pestouille-rpg (page 2/5)
 
-Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1162 asset(s) employés (usages actifs de l'index d'usage)
+Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1164 asset(s) employés (usages actifs de l'index d'usage)
 
-Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 566 · [unknown](../licences/unknown.md) 596
+Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 960 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 203
 
 Pages : [1](pestouille-rpg.md) · **2** · [3](pestouille-rpg-3.md) · [4](pestouille-rpg-4.md) · [5](pestouille-rpg-5.md)
 
 | Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Commits | Planche |
 |---|---|---|---|---|---|---|---|
+| — | [`asset-sprite-pestouille-rpg-competence-etince-0001`](../../../catalog/assets/asset-sprite-pestouille-rpg-competence-etince-0001.json) | pestouille-rpg competence-etincelle (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
 | — | [`asset-sprite-pestouille-rpg-competence-etince-0002`](../../../catalog/assets/asset-sprite-pestouille-rpg-competence-etince-0002.json) | pestouille-rpg competence-etincelle (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
 | — | [`asset-sprite-pestouille-rpg-competence-griffe-0001`](../../../catalog/assets/asset-sprite-pestouille-rpg-competence-griffe-0001.json) | pestouille-rpg competence-griffe (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
 | — | [`asset-sprite-pestouille-rpg-competence-griffe-0002`](../../../catalog/assets/asset-sprite-pestouille-rpg-competence-griffe-0002.json) | pestouille-rpg competence-griffe (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
@@ -261,4 +262,3 @@ Pages : [1](pestouille-rpg.md) · **2** · [3](pestouille-rpg-3.md) · [4](pesto
 | — | [`asset-sprite-pestouille-rpg-pestouille-marche-0002`](../../../catalog/assets/asset-sprite-pestouille-rpg-pestouille-marche-0002.json) | pestouille-rpg pestouille-marche-b (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
 | — | [`asset-sprite-pestouille-rpg-pestouille-marche-0003`](../../../catalog/assets/asset-sprite-pestouille-rpg-pestouille-marche-0003.json) | pestouille-rpg pestouille-marche-c (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
 | — | [`asset-sprite-pestouille-rpg-pestouille-marche-0004`](../../../catalog/assets/asset-sprite-pestouille-rpg-pestouille-marche-0004.json) | pestouille-rpg pestouille-marche-d (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |
-| — | [`asset-sprite-pestouille-rpg-pestouille-marche-0005`](../../../catalog/assets/asset-sprite-pestouille-rpg-pestouille-marche-0005.json) | pestouille-rpg pestouille-marche-e (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | `2e03e38` | — |

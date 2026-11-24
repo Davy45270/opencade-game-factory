@@ -22,7 +22,7 @@
       {
         "assetVersion": 2,
         "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": null,
         "path": "public/autres-jeux/petit-astronome.png",
         "provider": "forgejo",
@@ -43,17 +43,6 @@
         "visibility": "public"
       },
       {
-        "assetVersion": 2,
-        "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": null,
-        "path": "public/autres-jeux/petit-astronome.png",
-        "provider": "github",
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
@@ -61,6 +50,17 @@
         "path": "public/autres-jeux/petit-astronome.png",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": null,
+        "path": "public/autres-jeux/petit-astronome.png",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -158,7 +158,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/cc/cc08b684944f2da4925b2bdc9b54edf97d7ff778128b642093d1643434d0ec0d.webp",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetPath": "public/autres-jeux/petit-astronome.png",
@@ -199,7 +199,7 @@
         "line": 11,
         "path": "src/shell/other-games.ts"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: public/autres-jeux/petit-astronome.png",
         "module-path: src/shell/other-games.ts"
@@ -260,39 +260,6 @@
     },
     {
       "assetBlobs": {
-        "public/autres-jeux/petit-astronome.png": "799f527b2c529059f0dadab98c70786a66225bd7"
-      },
-      "assetPath": "public/autres-jeux/petit-astronome.png",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 11,
-        "path": "src/shell/other-games.ts"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: public/autres-jeux/petit-astronome.png",
-        "module-path: src/shell/other-games.ts"
-      ],
-      "game": "opencade",
-      "importName": "petit-astronome",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "image"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "src/shell/other-games.ts",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "public/autres-jeux/petit-astronome.png": "17217410e474ee7ed4afa46efff85edd4f521757"
       },
       "assetPath": "public/autres-jeux/petit-astronome.png",
@@ -322,6 +289,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "src/shell/other-games.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/autres-jeux/petit-astronome.png": "799f527b2c529059f0dadab98c70786a66225bd7"
+      },
+      "assetPath": "public/autres-jeux/petit-astronome.png",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 11,
+        "path": "src/shell/other-games.ts"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: public/autres-jeux/petit-astronome.png",
+        "module-path: src/shell/other-games.ts"
+      ],
+      "game": "opencade",
+      "importName": "petit-astronome",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "src/shell/other-games.ts",

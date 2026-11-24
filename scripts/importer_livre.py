@@ -36,7 +36,16 @@ from pathlib import Path, PurePosixPath
 
 REG = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REG))
-from tools.core.catalog import write_json  # noqa: E402
+from tools.core.catalog import write_json as _write_json  # noqa: E402
+from tools.publish.licenses import david_drawing  # noqa: E402
+
+
+def write_json(path, doc):
+    """Toute fiche écrite passe par la règle 7-3316 : dessin de David = CC-BY-SA-4.0 / Davy45270 (jamais le nom
+    complet). Les déclarations des jeux (titulaire, licence déclarée) restent lues telles qu'elles sont écrites."""
+    if isinstance(doc, dict) and "license" in doc:
+        david_drawing(doc)
+    _write_json(path, doc)
 from tools.discovery.snapshots import DELIVERED_MARK as MARQUE  # noqa: E402  (le scan garde ces usages)
 from tools.discovery.formats import CODE, DRAW  # noqa: E402  (même détection « dessiné par le code » que le scan)
 ASSETCTL = str(REG / "assetctl")
@@ -380,6 +389,8 @@ def lire(p):
 
 
 def ecrire_si_change(p, doc, compte):
+    if isinstance(doc, dict) and "license" in doc:
+        david_drawing(doc)
     if not Path(p).exists() or lire(p) != doc:
         write_json(Path(p), doc)
         compte["fiches_ecrites"] += 1

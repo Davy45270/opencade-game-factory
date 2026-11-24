@@ -240,7 +240,9 @@ class L7LicenceDeclareeSansDecoupeVerifiee(_Monde):
         asset_id, fiche = _sprite(self, "sprite-l-conforme")
         mesures = _rmse_mesurees(_regions(self, asset_id))
         self.assertTrue(mesures and min(mesures) <= SEUIL, f"fixture : découpe vérifiée : {mesures}")
-        self.assertEqual(fiche.get("license"), "CC-BY-4.0", "découpe vérifiée : la licence de la planche s'étend")
+        # HL-538 7-3316 (arbitrage du 24/11) : une découpe vérifiée d'une planche de David est un dessin de David,
+        # CC-BY-SA-4.0 même si un provenance.json antérieur déclare CC-BY-4.0.
+        self.assertEqual(fiche.get("license"), "CC-BY-SA-4.0", "découpe vérifiée : dessin de David, 7-3316")
         self.assertEqual(fiche["provenance"].get("type"), "original-sheet-cut")
 
 

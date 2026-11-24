@@ -7,7 +7,7 @@ import json
 import pathlib
 import unittest
 
-from tools.publish.licenses import PRIVATE_LICENSES, public_allowed
+from tools.publish.licenses import PRIVATE_LICENSES, is_david_drawing, public_allowed
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 
@@ -21,7 +21,9 @@ class LicenceCcBySa(unittest.TestCase):
     def setUpClass(cls):
         cls.assets = {a["id"]: a for a in fiches("assets")}
         cls.planches = {s["sha256"].lower() for s in fiches("sheets")}
-        cls.dessins = [a for a in cls.assets.values() if str(a["provenance"].get("author", "")).startswith("Davy45270")]
+        # Dessin de David (règle unique `is_david_drawing`) : hors icônes dessinées par du code (licence du code, MIT) et
+        # hors fiches encore `unknown` (licence non prouvée, jamais publiée), depuis le retrait du nom complet du 24/11.
+        cls.dessins = [a for a in cls.assets.values() if is_david_drawing(a) and a["license"] != "unknown"]
 
     def test_plus_aucune_licence_privee_au_catalogue(self):
         for dossier in ("assets", "sheets"):

@@ -93,7 +93,7 @@ class DiscoveryL2b(unittest.TestCase):
 
     def test_T18_decoupe(self):
         star, cloud = self.frame("sprite-etoile"), self.frame("sprite-nuage")
-        self.assertEqual(star["license"], "CC-BY-4.0")
+        self.assertEqual(star["license"], "CC-BY-SA-4.0")  # dessin de David : HL-538 7-3316 (CC-BY-4.0 avant le 24/11)
         self.assertEqual(star["licenseEvidence"]["method"], "provenance-file")
         self.assertEqual((cloud["license"], cloud["status"]), ("unknown", "needs-review"))
         self.assertFalse(cloud["sourceRegion"]["verified"])
@@ -206,7 +206,8 @@ class DiscoveryL2b(unittest.TestCase):
         self.assertTrue(any(loc["repo"] == "jeux-assets" for loc in sheet["files"]["locations"]))
         self.assertEqual(sheet["license"], "unknown")
         asset = next(a for a in C.assets(world.registre).values() if a["name"] == "sprite-etoile")
-        self.assertEqual((asset["sourceSheetId"], asset["license"]), (sheet["id"], "CC-BY-4.0"))
+        # Découpe vérifiée d'une planche de David : CC-BY-SA-4.0 (HL-538 7-3316, arbitrage du 24/11 ; CC-BY-4.0 avant).
+        self.assertEqual((asset["sourceSheetId"], asset["license"]), (sheet["id"], "CC-BY-SA-4.0"))
 
     def test_import_sheet_et_extraction(self):
         world = M.creer_monde()

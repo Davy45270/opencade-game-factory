@@ -397,6 +397,13 @@ def _scan(root, args, git, cache, temporary, copies, template):
 
         target.save(job)
         repositories = _repo_report(copies, prepared, errors, skipped)
+        # Un scan `--only` ne réécrit que SES dépôts : les entrées des autres (dont la mise à l'écart de leurs copies
+        # divergentes, lue par --verify) sont conservées telles quelles (défaut du 24/11, E072).
+        migration_path = Catalogue._regular_path(root / "generated" / "reports" / "migration.json")
+        if migration_path.is_file():
+            selected = {copy.name for copy in copies}
+            repositories = sorted([repo for repo in read_json(migration_path).get("repositories", [])
+                                   if repo["name"] not in selected] + repositories, key=lambda repo: repo["name"])
         previous_exceptions = [row for row in exceptions if (row["repo"], row["commit"]) not in scanned]
         aliases = list(sheet_discovery.path_aliases.values())
         aliases_path = Catalogue._regular_path(root / "generated" / "reports" / "path-aliases.json")

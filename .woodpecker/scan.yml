@@ -26,7 +26,8 @@ steps:
       - python3 -m venv .venv
       - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
       - . .venv/bin/activate
-      - ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json
+      # `asset` (GitHub privé) : sans jeton, rangé dans « unverifiable » (dette E006), affiché sans faire échouer.
+      - ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac asset --json
 
   # EXT-002 « discover » (E258) : inventaire des niveaux sur les mêmes copies publiques, sources jamais écrites.
   - name: niveaux-discover

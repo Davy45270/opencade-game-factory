@@ -26,4 +26,5 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - run: git config --global --add safe.directory '*'
       - run: pip install --quiet --disable-pip-version-check -r requirements.txt
-      - run: ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac --json
+      # `asset` (GitHub privé) : sans jeton, rangé dans « unverifiable » (dette E006), affiché sans faire échouer.
+      - run: ./assetctl scan-repos --verify --dry-run --provider github --only opencade opencadkid echecs-kid pestouille-rpg capsule-panic six-de-chaque cozy-room-sort petit-astronome tictac asset --json

@@ -22,7 +22,7 @@
         "assetVersion": 3,
         "blobSha256": "bc41c505eed137aaa5a8a3a63f45811dce41ae09ca7af2b0e5e8baf9e3868155",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/essaim",
         "path": "src/games/essaim/art.ts",
         "provider": "forgejo",
@@ -57,18 +57,6 @@
         "visibility": "public"
       },
       {
-        "assetVersion": 3,
-        "blobSha256": "bc41c505eed137aaa5a8a3a63f45811dce41ae09ca7af2b0e5e8baf9e3868155",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/essaim",
-        "path": "src/games/essaim/art.ts",
-        "provider": "github",
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
         "assetVersion": 1,
         "blobSha256": "67ea8eec3da5f582cb1480e06456346ac205846044b2883d746432b11a478d74",
         "classification": "game",
@@ -90,6 +78,18 @@
         "path": "src/games/essaim/art.ts",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 3,
+        "blobSha256": "bc41c505eed137aaa5a8a3a63f45811dce41ae09ca7af2b0e5e8baf9e3868155",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/essaim",
+        "path": "src/games/essaim/art.ts",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -147,7 +147,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "art",
   "orientation": "unknown",
@@ -168,7 +168,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -180,7 +180,7 @@
         "line": 9,
         "path": "scripts/check-essaim-signature-art.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/essaim/art.ts",
         "module-path: scripts/check-essaim-signature-art.js"
@@ -270,41 +270,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/essaim/art.ts": "2595621c2bccf7e94203f45b799abe3ab671d77f"
-      },
-      "assetPath": "src/games/essaim/art.ts",
-      "assetVersion": 3,
-      "codeRef": {
-        "line": 9,
-        "path": "scripts/check-essaim-signature-art.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/essaim/art.ts",
-        "module-path: scripts/check-essaim-signature-art.js"
-      ],
-      "game": "opencade",
-      "importName": "art",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [
-        "v0.5.1"
-      ],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/check-essaim-signature-art.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/essaim/art.ts": "682fbe4564b5aff30db0e11fa06d402f09be4282"
       },
       "assetPath": "src/games/essaim/art.ts",
@@ -333,6 +298,41 @@
       "releases": [
         "v0.4.0",
         "v0.5.0"
+      ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/check-essaim-signature-art.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/essaim/art.ts": "2595621c2bccf7e94203f45b799abe3ab671d77f"
+      },
+      "assetPath": "src/games/essaim/art.ts",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 9,
+        "path": "scripts/check-essaim-signature-art.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/essaim/art.ts",
+        "module-path: scripts/check-essaim-signature-art.js"
+      ],
+      "game": "opencade",
+      "importName": "art",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [
+        "v0.5.1"
       ],
       "repo": "opencade",
       "role": "sprite",

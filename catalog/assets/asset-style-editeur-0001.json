@@ -1,0 +1,140 @@
+{
+  "alpha": null,
+  "category": "style",
+  "createdAt": "2026-11-23T09:25:03+00:00",
+  "creation": {
+    "importJob": "19baa545421d9c4d"
+  },
+  "description": "Editeur — style",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "type": "style"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+        "game": "cozy-room-sort",
+        "path": "apps/web/src/editeur.css",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "css",
+  "id": "asset-style-editeur-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/editeur.css"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "apps/web/src/editeur.css · editeur"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/editeur.css"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/editeur.css"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/editeur.css"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "editeur",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/editeur.css"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e88f8b49636000a3de1084b55f920aaf369d185eaf3f9ffdd9b332e414bdf126",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-23T11:47:15+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "apps/web/src/editeur.css": "c549c5cacf03372ff8ae7760a06339c59ebe9642"
+      },
+      "assetPath": "apps/web/src/editeur.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 11,
+        "path": "apps/web/src/editeur.ts"
+      },
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "evidence": [
+        "import: apps/web/src/editeur.css",
+        "module-path: apps/web/src/editeur.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "editeur",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "apps/web/src/editeur.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "date": "2026-11-23T11:47:15+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e88f8b49636000a3de1084b55f920aaf369d185eaf3f9ffdd9b332e414bdf126",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

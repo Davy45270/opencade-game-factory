@@ -22,7 +22,7 @@
         "assetVersion": 5,
         "blobSha256": "e8f735b1c027209cab8c5a4e7fb4d8dcc746140fc6594a029f1804880d00de82",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/briqueterie",
         "path": "src/games/briqueterie/scene.ts",
         "provider": "forgejo",
@@ -65,18 +65,6 @@
         "path": "src/games/briqueterie/scene.ts",
         "provider": "github",
         "releaseOnly": true,
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
-        "assetVersion": 5,
-        "blobSha256": "e8f735b1c027209cab8c5a4e7fb4d8dcc746140fc6594a029f1804880d00de82",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/briqueterie",
-        "path": "src/games/briqueterie/scene.ts",
-        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -145,6 +133,18 @@
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
+      },
+      {
+        "assetVersion": 5,
+        "blobSha256": "e8f735b1c027209cab8c5a4e7fb4d8dcc746140fc6594a029f1804880d00de82",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/briqueterie",
+        "path": "src/games/briqueterie/scene.ts",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
       }
     ],
     "registry": null
@@ -199,7 +199,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "scene",
   "orientation": "unknown",
@@ -220,7 +220,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -232,7 +232,7 @@
         "line": 1378,
         "path": "docs/characters-games-4-validation.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/briqueterie/scene.ts",
         "module-path: docs/characters-games-4-validation.json"
@@ -357,39 +357,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/briqueterie/scene.ts": "a30638a5b1eb4e879fd195300434f2a9c91fc357"
-      },
-      "assetPath": "src/games/briqueterie/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 1378,
-        "path": "docs/characters-games-4-validation.json"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/briqueterie/scene.ts",
-        "module-path: docs/characters-games-4-validation.json"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "docs/characters-games-4-validation.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/briqueterie/scene.ts": "df368aeff6f0c021937e8a1be3fccd863bad52bc"
       },
       "assetPath": "src/games/briqueterie/scene.ts",
@@ -419,6 +386,39 @@
         "v0.4.0",
         "v0.5.0"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "docs/characters-games-4-validation.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/briqueterie/scene.ts": "a30638a5b1eb4e879fd195300434f2a9c91fc357"
+      },
+      "assetPath": "src/games/briqueterie/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 1378,
+        "path": "docs/characters-games-4-validation.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/briqueterie/scene.ts",
+        "module-path: docs/characters-games-4-validation.json"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "docs/characters-games-4-validation.json",

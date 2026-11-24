@@ -4,7 +4,7 @@
 
 # Licence MIT (page 1/3)
 
-703 asset(s) sous `MIT`.
+705 asset(s) sous `MIT`.
 
 Pages : **1** · [2](MIT-2.md) · [3](MIT-3.md)
 

@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-mini-borin",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,17 +108,23 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "aaef3cd87f41f854c107c57a3f1d5478a55b2502bab64325064f7b28d72c6d94",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0
+    },
     "h": 48,
-    "verified": false,
+    "verified": true,
     "w": 48,
     "x": 307,
     "y": 332
@@ -137,7 +148,7 @@
         "line": 592,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets.lock.json"
@@ -171,7 +182,7 @@
         "line": 6,
         "path": "assets/export/e04-portraits.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets/export/e04-portraits.manifest.json"
@@ -205,7 +216,7 @@
         "line": 497,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -239,7 +250,7 @@
         "line": 6,
         "path": "assets/manifests/e04-portraits.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e04-portraits.json",
         "module-path: assets/manifests/e04-portraits.json"

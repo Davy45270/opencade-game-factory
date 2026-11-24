@@ -1,0 +1,117 @@
+{
+  "alpha": null,
+  "category": "codegenerated",
+  "createdAt": "2026-11-22T11:21:10+00:00",
+  "creation": {
+    "importJob": "19baa545421d9c4d"
+  },
+  "description": "Assets provenance test — code-generated",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "code": {
+      "path": "tests/assets-provenance.test.ts",
+      "repo": "six-de-chaque",
+      "symbol": "module"
+    },
+    "type": "code-generated"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "blobSha256": "cc970003e9bf0854ead8811cbe2d0052443b9ecb226160ea85126996eab3d7b9",
+        "classification": "game",
+        "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
+        "game": "six-de-chaque",
+        "path": "tests/assets-provenance.test.ts",
+        "provider": "forgejo",
+        "repo": "six-de-chaque",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "ts",
+  "id": "asset-codegenerated-assets-provenance-test-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "six-de-chaque@65e616023bd32983ac5fae5f02e3d4f0478c7e2e:tests/assets-provenance.test.ts"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "tests/assets-provenance.test.ts · assets-provenance.test"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@65e616023bd32983ac5fae5f02e3d4f0478c7e2e:tests/assets-provenance.test.ts"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@65e616023bd32983ac5fae5f02e3d4f0478c7e2e:tests/assets-provenance.test.ts"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "six-de-chaque@65e616023bd32983ac5fae5f02e3d4f0478c7e2e:tests/assets-provenance.test.ts"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "MIT",
+  "licenseEvidence": {
+    "decision": "Licence du code identifiée par son texte.",
+    "method": "license-file",
+    "ref": "LICENSE@65e616023bd32983ac5fae5f02e3d4f0478c7e2e"
+  },
+  "name": "assets-provenance.test",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "six-de-chaque@65e616023bd32983ac5fae5f02e3d4f0478c7e2e:tests/assets-provenance.test.ts"
+    ],
+    "type": "code-generated"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "cc970003e9bf0854ead8811cbe2d0052443b9ecb226160ea85126996eab3d7b9",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-22T23:44:46+01:00",
+  "usages": [],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
+      "date": "2026-11-22T23:44:46+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "cc970003e9bf0854ead8811cbe2d0052443b9ecb226160ea85126996eab3d7b9",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

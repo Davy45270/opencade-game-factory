@@ -21,7 +21,7 @@
       {
         "assetVersion": 1,
         "classification": "shared-library",
-        "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+        "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
         "game": null,
         "path": "public/dictee/audio/fr-nez.ogg",
         "provider": "forgejo",
@@ -102,7 +102,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "updatedAt": "2026-11-22T08:33:12+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -111,10 +111,10 @@
       "assetPath": "public/dictee/audio/fr-nez.ogg",
       "assetVersion": 1,
       "codeRef": {
-        "line": 2319,
+        "line": 2432,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-nez.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -147,7 +147,7 @@
         "line": 573,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-nez.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -180,7 +180,7 @@
         "line": 729,
         "path": "scripts/dictee/audio-non-regression.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-nez.ogg",
         "module-path: scripts/dictee/audio-non-regression.json"
@@ -201,6 +201,72 @@
       "repo": "opencadkid",
       "role": "sfx",
       "scene": "scripts/dictee/audio-non-regression.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-nez.ogg": "2194ec2959c0c0fd94232971dbeba6552211ca19"
+      },
+      "assetPath": "public/dictee/audio/fr-nez.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 573,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-nez.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-nez",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-nez.ogg": "2194ec2959c0c0fd94232971dbeba6552211ca19"
+      },
+      "assetPath": "public/dictee/audio/fr-nez.ogg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 573,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-nez.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-nez",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
       "status": "active"
     },
     {

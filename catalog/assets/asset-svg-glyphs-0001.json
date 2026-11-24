@@ -21,7 +21,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+        "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
         "game": "six-de-chaque",
         "path": "apps/web/public/art/glyphs.svg",
         "provider": "forgejo",
@@ -107,7 +107,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-19T15:38:02+01:00",
+  "updatedAt": "2026-11-22T23:44:46+01:00",
   "usages": [
     {
       "assetPath": "apps/web/public/art/glyphs.svg",
@@ -148,7 +148,7 @@
         "line": 60,
         "path": "packages/renderer-pixi/test/palette.test.ts"
       },
-      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
       "evidence": [
         "literal: apps/web/public/art/glyphs.svg",
         "module-path: packages/renderer-pixi/test/palette.test.ts"
@@ -181,7 +181,7 @@
         "line": 14,
         "path": "tests/assets-provenance.test.ts"
       },
-      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
       "evidence": [
         "literal: apps/web/public/art/glyphs.svg",
         "module-path: tests/assets-provenance.test.ts"
@@ -214,7 +214,40 @@
         "line": 66,
         "path": "tests/assets-provenance.test.ts"
       },
-      "commit": "05c83c760d733ac016713c5bd8a0505b3fc19f43",
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
+      "evidence": [
+        "literal: apps/web/public/art/glyphs.svg",
+        "module-path: tests/assets-provenance.test.ts"
+      ],
+      "game": "six-de-chaque",
+      "importName": "glyphs",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "svg"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "six-de-chaque",
+      "role": "sprite",
+      "scene": "tests/assets-provenance.test.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/public/art/glyphs.svg": "01b70008819fc928bbf7006b8deb973e650d3ecd"
+      },
+      "assetPath": "apps/web/public/art/glyphs.svg",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 172,
+        "path": "tests/assets-provenance.test.ts"
+      },
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
       "evidence": [
         "literal: apps/web/public/art/glyphs.svg",
         "module-path: tests/assets-provenance.test.ts"

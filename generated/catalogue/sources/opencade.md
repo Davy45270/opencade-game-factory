@@ -13,7 +13,7 @@ Rôle : game
 
 ## Jeux (26)
 
-- [opencade](../jeux/opencade.md) — 36 asset(s)
+- [opencade](../jeux/opencade.md) — 37 asset(s)
 - [opencade/alunir](../jeux/opencade--alunir.md) — 1 asset(s)
 - [opencade/artificiers](../jeux/opencade--artificiers.md) — 1 asset(s)
 - [opencade/bombercade](../jeux/opencade--bombercade.md) — 4 asset(s)
@@ -40,7 +40,7 @@ Rôle : game
 - [opencade/traverse](../jeux/opencade--traverse.md) — 1 asset(s)
 - [opencade/universal](../jeux/opencade--universal.md) — 1 asset(s)
 
-## Licences des 319 asset(s) employés
+## Licences des 320 asset(s) employés
 
 - [MIT](../licences/MIT.md) : 311
-- [unknown](../licences/unknown.md) : 8
+- [unknown](../licences/unknown.md) : 9

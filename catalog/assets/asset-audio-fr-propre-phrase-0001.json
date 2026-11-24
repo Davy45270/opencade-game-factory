@@ -19,14 +19,26 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 2,
+        "classification": "shared-library",
+        "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+        "game": null,
+        "path": "public/dictee/audio/fr-propre-phrase.ogg",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "shared-library",
         "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
         "game": null,
         "path": "public/dictee/audio/fr-propre-phrase.ogg",
         "provider": "forgejo",
+        "removedAtCommit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -130,19 +142,19 @@
   "tags": [
     "clean"
   ],
-  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "updatedAt": "2026-11-22T08:33:12+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-propre-phrase.ogg": "c5f5ce712ce9b3e5022c068eb703b2c1c4ad575f"
+        "public/dictee/audio/fr-propre-phrase.ogg": "95eb416af627cf9ae1a5fd99c6a2cc79d1fe9435"
       },
       "assetPath": "public/dictee/audio/fr-propre-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 16436,
+        "line": 17224,
         "path": "public/dictee/catalogue.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-propre-phrase.ogg",
         "module-path: public/dictee/catalogue.json"
@@ -167,15 +179,15 @@
     },
     {
       "assetBlobs": {
-        "public/dictee/audio/fr-propre-phrase.ogg": "c5f5ce712ce9b3e5022c068eb703b2c1c4ad575f"
+        "public/dictee/audio/fr-propre-phrase.ogg": "95eb416af627cf9ae1a5fd99c6a2cc79d1fe9435"
       },
       "assetPath": "public/dictee/audio/fr-propre-phrase.ogg",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 744,
         "path": "scripts/dictee/audio-empreintes.json"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: public/dictee/audio/fr-propre-phrase.ogg",
         "module-path: scripts/dictee/audio-empreintes.json"
@@ -196,6 +208,72 @@
       "repo": "opencadkid",
       "role": "sfx",
       "scene": "scripts/dictee/audio-empreintes.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-propre-phrase.ogg": "95eb416af627cf9ae1a5fd99c6a2cc79d1fe9435"
+      },
+      "assetPath": "public/dictee/audio/fr-propre-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 744,
+        "path": "scripts/dictee/audio-octets-anciens.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-propre-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets-anciens.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-propre-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets-anciens.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/dictee/audio/fr-propre-phrase.ogg": "95eb416af627cf9ae1a5fd99c6a2cc79d1fe9435"
+      },
+      "assetPath": "public/dictee/audio/fr-propre-phrase.ogg",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 744,
+        "path": "scripts/dictee/audio-octets.json"
+      },
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "evidence": [
+        "literal: public/dictee/audio/fr-propre-phrase.ogg",
+        "module-path: scripts/dictee/audio-octets.json"
+      ],
+      "game": "opencadkid",
+      "importName": "fr-propre-phrase",
+      "inference": {
+        "role": {
+          "confidence": 0.55,
+          "evidence": [
+            "audio"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "opencadkid",
+      "role": "sfx",
+      "scene": "scripts/dictee/audio-octets.json",
       "status": "active"
     },
     {

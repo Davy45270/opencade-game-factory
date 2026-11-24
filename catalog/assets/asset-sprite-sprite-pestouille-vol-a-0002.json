@@ -103,7 +103,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "568f2011186c415e477fe54463f2dbab38332c631995c6711bb6d353655f4ef2",
     "type": "repo-file"
@@ -111,7 +111,13 @@
   "schemaVersion": "1.0",
   "sha256": "5a58ef27d15340a08bdccab4db5af17801a61d85d5a7af74205bf34463b291ca",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.20703002983344096
+    },
     "h": 43,
     "verified": false,
     "w": 47,
@@ -137,7 +143,7 @@
         "line": 680,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets.lock.json"
@@ -171,7 +177,7 @@
         "line": 6,
         "path": "assets/export/p02-pestouille.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets/export/p02-pestouille.manifest.json"
@@ -205,7 +211,7 @@
         "line": 992,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets/liste-assets.json"
@@ -239,7 +245,7 @@
         "line": 6,
         "path": "assets/manifests/p02-pestouille.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/p02-pestouille.json",
         "module-path: assets/manifests/p02-pestouille.json"

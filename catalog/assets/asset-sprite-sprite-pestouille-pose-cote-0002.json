@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-pestouille-pose-cote",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,17 +108,23 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "74a17a52f5f34fa9a2bfb73b7403901ca3b4a79a2d6ebcca51422273ccb102a0",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0070570962410494795
+    },
     "h": 39,
-    "verified": false,
+    "verified": true,
     "w": 44,
     "x": 146,
     "y": 348
@@ -137,7 +148,7 @@
         "line": 296,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/e04-heros.json",
         "module-path: assets.lock.json"
@@ -171,7 +182,7 @@
         "line": 1464,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/e04-heros.json",
         "module-path: assets/liste-assets.json"

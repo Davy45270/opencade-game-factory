@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-lila-portrait",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,17 +108,23 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "b6a59991d7317814ef500726cf71cb39e5f8a66445d9897c76ac15e92c629b37",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.00962595236321502
+    },
     "h": 180,
-    "verified": false,
+    "verified": true,
     "w": 137,
     "x": 618,
     "y": 13
@@ -137,7 +148,7 @@
         "line": 552,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets.lock.json"
@@ -171,7 +182,7 @@
         "line": 6,
         "path": "assets/export/e03-portraits.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/export/e03-portraits.manifest.json"
@@ -205,7 +216,7 @@
         "line": 221,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -239,7 +250,7 @@
         "line": 6,
         "path": "assets/manifests/e03-portraits.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/manifests/e03-portraits.json"

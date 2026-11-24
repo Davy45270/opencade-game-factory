@@ -105,7 +105,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-fond-combat-roncier",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -117,7 +122,7 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "4170a3672ad5c3e802b51a4eddf6a7c9c0c194c275ba41799444a82bf9d3c477",
     "type": "derived"
@@ -125,9 +130,15 @@
   "schemaVersion": "1.0",
   "sha256": "e484201208aa629a9dc86e6fa2e2a07d97c8cadd19a5ad23186a1f9f63005dfd",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0
+    },
     "h": 168,
-    "verified": false,
+    "verified": true,
     "w": 532,
     "x": 148,
     "y": 680
@@ -153,7 +164,7 @@
         "line": 392,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m02-fonds.json",
         "module-path: assets.lock.json"
@@ -187,7 +198,7 @@
         "line": 1828,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m02-fonds.json",
         "module-path: assets/liste-assets.json"

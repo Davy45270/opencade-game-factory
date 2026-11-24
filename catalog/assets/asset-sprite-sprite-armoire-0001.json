@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p03-meubles.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-armoire",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p03-meubles.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p03-meubles.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "4e2496817ba12afaa780c43c0ffe93b5e083f980a4cfcc35ec49bf9bced8314a",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "a41599f818cb866844faefd468e8f3db996bcb2aabb8e7b4428e0c44e59fa058",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p03-meubles.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.008617788580530682
+    },
+    "h": 226,
+    "verified": true,
+    "w": 160,
+    "x": 406,
+    "y": 311
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-03-webp-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 513,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p03-meubles.json",
         "module-path: content/assets/inventaire.json"

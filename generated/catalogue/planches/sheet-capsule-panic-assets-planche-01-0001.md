@@ -8,6 +8,7 @@ Licence : [unknown](../licences/unknown.md) · auteur : unknown · 1536×1024 ·
 
 Fiche : [`sheet-capsule-panic-assets-planche-01-0001`](../../../catalog/sheets/sheet-capsule-panic-assets-planche-01-0001.json)
 
+- copie : jeux-assets `planches/capsule-panic/Capsule_Panic_Assets_Planche_01.png`
 
 78 asset(s) découpés de cette planche.
 

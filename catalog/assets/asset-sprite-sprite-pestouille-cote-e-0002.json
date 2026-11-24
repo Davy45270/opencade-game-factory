@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-pestouille-cote-e",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,17 +108,23 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "3f912eff1a9ec76363fbc2c61ee3e37db10100250f13a6991b8803b782d418fb",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0
+    },
     "h": 49,
-    "verified": false,
+    "verified": true,
     "w": 52,
     "x": 1485,
     "y": 16
@@ -137,7 +148,7 @@
         "line": 368,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m01-heros.json",
         "module-path: assets.lock.json"
@@ -171,7 +182,7 @@
         "line": 1718,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m01-heros.json",
         "module-path: assets/liste-assets.json"

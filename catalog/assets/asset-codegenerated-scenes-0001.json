@@ -19,6 +19,18 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 3,
+        "blobSha256": "dbbdd8e453c227c727f750d8c2d61fb5c16ade31c8fea9e847f38c2111f3d7be",
+        "classification": "game",
+        "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+        "game": "opencadkid/puzzle",
+        "path": "src/games/puzzle/scenes.ts",
+        "provider": "forgejo",
+        "repo": "opencadkid",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 2,
         "blobSha256": "18e556a07b7247e61d52e6a94f23de80bccd40f1a80554014b2af81092883413",
         "classification": "game",
@@ -26,8 +38,9 @@
         "game": "opencadkid/puzzle",
         "path": "src/games/puzzle/scenes.ts",
         "provider": "forgejo",
+        "removedAtCommit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
         "repo": "opencadkid",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -459,7 +472,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@5d57bd876ff6cfd7a7163ab3e88ceffd266c4def"
+    "ref": "LICENSE@485b81256e4e524a5fcc0edfd82c2a3ed83e6bae"
   },
   "name": "scenes",
   "orientation": "unknown",
@@ -480,19 +493,19 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-20T23:26:57+01:00",
+  "updatedAt": "2026-11-22T08:33:12+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "src/games/puzzle/scenes.ts": "2a25b7b872942392970fca72d77aa082be67822d"
+        "src/games/puzzle/scenes.ts": "931b4e1dc34442b1a72d11c1dc6a572f2d033010"
       },
       "assetPath": "src/games/puzzle/scenes.ts",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 21,
         "path": "scripts/test-e2e-impact.js"
       },
-      "commit": "69948ced3229fc1e850e9ea04b7b71ccb223a982",
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
       "evidence": [
         "literal: src/games/puzzle/scenes.ts",
         "module-path: scripts/test-e2e-impact.js"

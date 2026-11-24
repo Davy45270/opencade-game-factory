@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-8105 assets · 570 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8127 assets · 570 planches · 75 jeux employant des assets · 11 sources · 11 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -11,10 +11,10 @@
 | [capsule-panic](jeux/capsule-panic.md) | 549 | [capsule-panic](sources/capsule-panic.md) |
 | [capsule-panic/assets](jeux/capsule-panic--assets.md) | 768 | [capsule-panic](sources/capsule-panic.md) |
 | [capsule-panic/renderer](jeux/capsule-panic--renderer.md) | 27 | [capsule-panic](sources/capsule-panic.md) |
-| [cozy-room-sort](jeux/cozy-room-sort.md) | 399 | [cozy-room-sort](sources/cozy-room-sort.md) |
+| [cozy-room-sort](jeux/cozy-room-sort.md) | 400 | [cozy-room-sort](sources/cozy-room-sort.md) |
 | [echecs-kid](jeux/echecs-kid.md) | 12 | [echecs-kid](sources/echecs-kid.md) |
 | [jeux-assets](jeux/jeux-assets.md) | 817 | [jeux-assets](sources/jeux-assets.md) |
-| [opencade](jeux/opencade.md) | 36 | [opencade](sources/opencade.md) |
+| [opencade](jeux/opencade.md) | 37 | [opencade](sources/opencade.md) |
 | [opencade/alunir](jeux/opencade--alunir.md) | 1 | [opencade](sources/opencade.md) |
 | [opencade/artificiers](jeux/opencade--artificiers.md) | 1 | [opencade](sources/opencade.md) |
 | [opencade/bombercade](jeux/opencade--bombercade.md) | 4 | [opencade](sources/opencade.md) |
@@ -77,7 +77,7 @@
 | [opencadkid/taupes](jeux/opencadkid--taupes.md) | 5 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/traverse](jeux/opencadkid--traverse.md) | 4 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/vis](jeux/opencadkid--vis.md) | 5 | [opencadkid](sources/opencadkid.md) |
-| [pestouille-rpg](jeux/pestouille-rpg.md) | 1162 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg](jeux/pestouille-rpg.md) | 1164 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 4 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [petit-astronome](jeux/petit-astronome.md) | 22 | [petit-astronome](sources/petit-astronome.md) |
 | [six-de-chaque](jeux/six-de-chaque.md) | 7 | [six-de-chaque](sources/six-de-chaque.md) |
@@ -103,15 +103,16 @@
 | Licence | Assets |
 |---|---|
 | [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
-| [CC-BY-4.0](licences/CC-BY-4.0.md) | 1208 |
+| [CC-BY-4.0](licences/CC-BY-4.0.md) | 1386 |
 | [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 3092 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
+| [LicenseRef-David-Prive-Tous-Droits-Reserves](licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) | 394 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
 | [LicenseRef-OGA-BY-3.0](licences/LicenseRef-OGA-BY-3.0.md) | 1 |
-| [MIT](licences/MIT.md) | 703 |
-| [unknown](licences/unknown.md) | 3060 |
+| [MIT](licences/MIT.md) | 705 |
+| [unknown](licences/unknown.md) | 2508 |
 
 ## Planches (570)
 
@@ -249,10 +250,10 @@
 | [compteurs-maquettes-jeu@2x](planches/sheet-compteurs-maquettes-jeu-2x-0001.md) | unknown | 0 |
 | [compteurs-maquettes-jeu@3x](planches/sheet-compteurs-maquettes-jeu-3x-0001.md) | unknown | 0 |
 | [Corbeau saltimbanque](planches/sheet-corbeau-saltimbanque-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Cozy_Room_Sort_Planche_01.webp](planches/sheet-cozy-room-sort-planche-01-webp-0001.md) | unknown | 51 |
-| [Cozy_Room_Sort_Planche_02.webp](planches/sheet-cozy-room-sort-planche-02-webp-0001.md) | unknown | 14 |
-| [Cozy_Room_Sort_Planche_03.webp](planches/sheet-cozy-room-sort-planche-03-webp-0001.md) | unknown | 48 |
-| [Cozy_Room_Sort_Planche_04_Salle_de_bain.webp](planches/sheet-cozy-room-sort-planche-04-salle-0001.md) | unknown | 64 |
+| [Cozy_Room_Sort_Planche_01.webp](planches/sheet-cozy-room-sort-planche-01-webp-0001.md) | unknown | 102 |
+| [Cozy_Room_Sort_Planche_02.webp](planches/sheet-cozy-room-sort-planche-02-webp-0001.md) | unknown | 28 |
+| [Cozy_Room_Sort_Planche_03.webp](planches/sheet-cozy-room-sort-planche-03-webp-0001.md) | unknown | 96 |
+| [Cozy_Room_Sort_Planche_04_Salle_de_bain.webp](planches/sheet-cozy-room-sort-planche-04-salle-0001.md) | unknown | 129 |
 | [Crabe champignon domestique](planches/sheet-crabe-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Crevette champignon domestique](planches/sheet-crevette-champignon-domestique-0001.md) | CC-BY-SA-4.0 | 0 |
 | [cuisine-culinaires-detouree](planches/sheet-cuisine-culinaires-detouree-0001.md) | unknown | 16 |

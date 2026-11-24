@@ -105,7 +105,12 @@
       "method": "path-tokens"
     }
   },
-  "license": "unknown",
+  "license": "LicenseRef-David-Prive-Tous-Droits-Reserves",
+  "licenseEvidence": {
+    "decision": "Licence SPDX déclarée, découpe vérifiée.",
+    "method": "provenance-file",
+    "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+  },
   "name": "sprite-fond-campement",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -117,17 +122,23 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06"
+      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
     ],
     "sourceSheetSha256": "4170a3672ad5c3e802b51a4eddf6a7c9c0c194c275ba41799444a82bf9d3c477",
-    "type": "repo-file"
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "0a4f39ef4de96d01478a7779a4072b5f15bf66affdef4498b0c075a9b706457e",
   "sourceRegion": {
-    "evidence": "Comparaison indisponible · assets/provenance.json@79ac5d735a2a0f39651719ad464593e857bfef06",
+    "evidence": {
+      "method": "rmse",
+      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
+      "tool": "magick",
+      "toolVersion": "7.1.2-35",
+      "value": 0.0
+    },
     "h": 132,
-    "verified": false,
+    "verified": true,
     "w": 295,
     "x": 1363,
     "y": 659
@@ -153,7 +164,7 @@
         "line": 392,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m02-fonds.json",
         "module-path: assets.lock.json"
@@ -187,7 +198,7 @@
         "line": 1828,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "evidence": [
         "literal: assets/export/m02-fonds.json",
         "module-path: assets/liste-assets.json"

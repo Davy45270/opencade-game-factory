@@ -4,7 +4,7 @@
 
 # Licence MIT (page 2/3)
 
-703 asset(s) sous `MIT`.
+705 asset(s) sous `MIT`.
 
 Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 
@@ -177,6 +177,7 @@ Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 | [`asset-codegenerated-view-0028`](../../../catalog/assets/asset-codegenerated-view-0028.json) | view | codegenerated | [MIT](../licences/MIT.md) | unknown | [opencadkid/traverse](../jeux/opencadkid--traverse.md) | — |
 | [`asset-codegenerated-art-0018`](../../../catalog/assets/asset-codegenerated-art-0018.json) | art | codegenerated | [MIT](../licences/MIT.md) | unknown | [opencadkid/vis](../jeux/opencadkid--vis.md) | — |
 | [`asset-codegenerated-view-0029`](../../../catalog/assets/asset-codegenerated-view-0029.json) | view | codegenerated | [MIT](../licences/MIT.md) | unknown | [opencadkid/vis](../jeux/opencadkid--vis.md) | — |
+| [`asset-codegenerated-pilote-0001`](../../../catalog/assets/asset-codegenerated-pilote-0001.json) | pilote | codegenerated | [MIT](../licences/MIT.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | — |
 | [`asset-codegenerated-app-0001`](../../../catalog/assets/asset-codegenerated-app-0001.json) | app | ui | [MIT](../licences/MIT.md) | unknown | [petit-astronome](../jeux/petit-astronome.md) | — |
 | [`asset-codegenerated-art-0019`](../../../catalog/assets/asset-codegenerated-art-0019.json) | art | ui | [MIT](../licences/MIT.md) | unknown | [petit-astronome](../jeux/petit-astronome.md) | — |
 | [`asset-codegenerated-discovery-0001`](../../../catalog/assets/asset-codegenerated-discovery-0001.json) | discovery | ui | [MIT](../licences/MIT.md) | unknown | [petit-astronome](../jeux/petit-astronome.md) | — |
@@ -199,6 +200,7 @@ Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 | [`asset-image-tictac-192-0001`](../../../catalog/assets/asset-image-tictac-192-0001.json) | tictac-192 | ui | [MIT](../licences/MIT.md) | Davy45270 (icônes dessinées par scripts/make-icons.js du jeu) | [tictac](../jeux/tictac.md) | — |
 | [`asset-image-tictac-512-0001`](../../../catalog/assets/asset-image-tictac-512-0001.json) | tictac-512 | ui | [MIT](../licences/MIT.md) | Davy45270 (icônes dessinées par scripts/make-icons.js du jeu) | [tictac](../jeux/tictac.md) | — |
 | [`asset-codegenerated-art-test-0001`](../../../catalog/assets/asset-codegenerated-art-test-0001.json) | art.test | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
+| [`asset-codegenerated-assets-provenance-test-0001`](../../../catalog/assets/asset-codegenerated-assets-provenance-test-0001.json) | assets-provenance.test | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-assets-test-0001`](../../../catalog/assets/asset-codegenerated-assets-test-0001.json) | assets.test | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-atelier-gomme-spec-0001`](../../../catalog/assets/asset-codegenerated-atelier-gomme-spec-0001.json) | atelier-gomme.spec | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
 | [`asset-codegenerated-character-pixels-spec-0001`](../../../catalog/assets/asset-codegenerated-character-pixels-spec-0001.json) | character-pixels.spec | codegenerated | [MIT](../licences/MIT.md) | unknown | — | — |
@@ -258,5 +260,3 @@ Pages : [1](MIT.md) · **2** · [3](MIT-3.md)
 | [`asset-image-commerce-0002`](../../../catalog/assets/asset-image-commerce-0002.json) | commerce | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David (planches) et agent (découpe, iso-local) | — | — |
 | [`asset-image-dragon-back-0002`](../../../catalog/assets/asset-image-dragon-back-0002.json) | dragon_back | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
 | [`asset-image-dragon-backleft-0002`](../../../catalog/assets/asset-image-dragon-backleft-0002.json) | dragon_backLeft | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
-| [`asset-image-dragon-backright-0002`](../../../catalog/assets/asset-image-dragon-backright-0002.json) | dragon_backRight | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |
-| [`asset-image-dragon-front-0002`](../../../catalog/assets/asset-image-dragon-front-0002.json) | dragon_front | image | [MIT](../licences/MIT.md) | outil IA (ChatGPT) sur commande de David, découpé et réduit par l'agent | — | — |

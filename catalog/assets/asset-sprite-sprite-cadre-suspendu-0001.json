@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p02-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-cadre-suspendu",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p02-objets.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p02-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "2768f96d65ffc1ae25d78ac19763d358eb847bbbbed10ca8f1702618d575bbfc",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "1b2fba45dba06eb5075cad89c97e14006a61f6674598af3632b05acfb6414636",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p02-objets.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.011596136899651128
+    },
+    "h": 236,
+    "verified": true,
+    "w": 184,
+    "x": 733,
+    "y": 728
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-02-webp-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 459,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p02-objets.json",
         "module-path: content/assets/inventaire.json"

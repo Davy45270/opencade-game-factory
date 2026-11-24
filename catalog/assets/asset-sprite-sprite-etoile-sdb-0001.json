@@ -91,7 +91,12 @@
       "method": "proven"
     }
   },
-  "license": "unknown",
+  "license": "CC-BY-4.0",
+  "licenseEvidence": {
+    "decision": "HL-538 condition 3 (David, 2026-11-19)",
+    "method": "provenance-file",
+    "ref": "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
+  },
   "name": "sprite-etoile-sdb",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -103,14 +108,26 @@
   "provenance": {
     "author": "unknown",
     "evidence": [
-      "content/assets/planches/source/p04-ui.decoupe.json@28d2fc67dade88ca7b733569bdb95d6ef53bec13"
+      "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c"
     ],
-    "type": "repo-file"
+    "sourceSheetSha256": "f7cddd336c108528f3d2bf3260990838eb8060a63007efb5f77750b2143afc59",
+    "type": "original-sheet-cut"
   },
   "schemaVersion": "1.0",
   "sha256": "068c3877f1c3f555bab58e70a8c345c293de4130dc5bea7f797e10f8e4cdb82e",
-  "sourceRegion": null,
-  "sourceSheetId": null,
+  "sourceRegion": {
+    "evidence": {
+      "method": "rmse",
+      "ref": "content/assets/planches/source/p04-ui.decoupe.json@22a3884bb23753cad50cc2a0d53637260bac825c",
+      "value": 0.011396520050823887
+    },
+    "h": 50,
+    "verified": true,
+    "w": 55,
+    "x": 51,
+    "y": 685
+  },
+  "sourceSheetId": "sheet-cozy-room-sort-planche-04-salle-0001",
   "state": null,
   "status": "needs-review",
   "subcategory": null,
@@ -129,7 +146,7 @@
         "line": 10,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -163,7 +180,7 @@
         "line": 14,
         "path": "apps/web/src/atlas.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: apps/web/src/atlas.ts"
@@ -197,7 +214,7 @@
         "line": 963,
         "path": "content/assets/inventaire.json"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: content/assets/planches/atlas/p04-ui.json",
         "module-path: content/assets/inventaire.json"

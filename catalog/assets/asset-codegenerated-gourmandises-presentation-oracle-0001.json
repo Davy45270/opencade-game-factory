@@ -22,7 +22,7 @@
         "assetVersion": 2,
         "blobSha256": "fe1972f8ffa17a62946040837af1398b06baf7d56258339f5796ed336ef98960",
         "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": null,
         "path": "scripts/gourmandises-presentation-oracles.js",
         "provider": "forgejo",
@@ -57,18 +57,6 @@
         "visibility": "public"
       },
       {
-        "assetVersion": 2,
-        "blobSha256": "fe1972f8ffa17a62946040837af1398b06baf7d56258339f5796ed336ef98960",
-        "classification": "shared-library",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": null,
-        "path": "scripts/gourmandises-presentation-oracles.js",
-        "provider": "github",
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
         "assetVersion": 1,
         "blobSha256": "687f3828910c16fad8a90d3bdea96c2e7588fb9eb88f753ed2f4449892597775",
         "classification": "shared-library",
@@ -77,6 +65,18 @@
         "path": "scripts/gourmandises-presentation-oracles.js",
         "provider": "github",
         "releaseOnly": true,
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
+      },
+      {
+        "assetVersion": 2,
+        "blobSha256": "fe1972f8ffa17a62946040837af1398b06baf7d56258339f5796ed336ef98960",
+        "classification": "shared-library",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": null,
+        "path": "scripts/gourmandises-presentation-oracles.js",
+        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -127,7 +127,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "gourmandises-presentation-oracles",
   "orientation": "unknown",
@@ -148,7 +148,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -160,7 +160,7 @@
         "line": 14,
         "path": "scripts/gourmandises-validation.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: scripts/gourmandises-presentation-oracles.js",
         "module-path: scripts/gourmandises-validation.js"
@@ -259,39 +259,6 @@
     },
     {
       "assetBlobs": {
-        "scripts/gourmandises-presentation-oracles.js": "e67131a812e4c958030b0075b01a8af1ccd51ae8"
-      },
-      "assetPath": "scripts/gourmandises-presentation-oracles.js",
-      "assetVersion": 2,
-      "codeRef": {
-        "line": 14,
-        "path": "scripts/gourmandises-validation.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: scripts/gourmandises-presentation-oracles.js",
-        "module-path: scripts/gourmandises-validation.js"
-      ],
-      "game": "opencade",
-      "importName": "gourmandises-presentation-oracles",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/gourmandises-validation.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "scripts/gourmandises-presentation-oracles.js": "92cbd7cdefc8cd5cd4396c089c11df2cbb054ab2"
       },
       "assetPath": "scripts/gourmandises-presentation-oracles.js",
@@ -322,6 +289,39 @@
         "v0.5.0",
         "v0.5.1"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/gourmandises-validation.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "scripts/gourmandises-presentation-oracles.js": "e67131a812e4c958030b0075b01a8af1ccd51ae8"
+      },
+      "assetPath": "scripts/gourmandises-presentation-oracles.js",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 14,
+        "path": "scripts/gourmandises-validation.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: scripts/gourmandises-presentation-oracles.js",
+        "module-path: scripts/gourmandises-validation.js"
+      ],
+      "game": "opencade",
+      "importName": "gourmandises-presentation-oracles",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/gourmandises-validation.js",

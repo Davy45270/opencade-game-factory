@@ -14,14 +14,26 @@
   "files": {
     "locations": [
       {
+        "assetVersion": 3,
+        "classification": "game",
+        "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+        "game": "cozy-room-sort",
+        "path": "apps/web/src/styles.css",
+        "provider": "forgejo",
+        "repo": "cozy-room-sort",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 2,
         "classification": "game",
         "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
         "game": "cozy-room-sort",
         "path": "apps/web/src/styles.css",
         "provider": "forgejo",
+        "removedAtCommit": "22a3884bb23753cad50cc2a0d53637260bac825c",
         "repo": "cozy-room-sort",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -70,21 +82,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "cozy-room-sort@28d2fc67dade88ca7b733569bdb95d6ef53bec13:apps/web/src/styles.css"
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/styles.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "cozy-room-sort@28d2fc67dade88ca7b733569bdb95d6ef53bec13:apps/web/src/styles.css"
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/styles.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "cozy-room-sort@28d2fc67dade88ca7b733569bdb95d6ef53bec13:apps/web/src/styles.css"
+        "cozy-room-sort@22a3884bb23753cad50cc2a0d53637260bac825c:apps/web/src/styles.css"
       ],
       "method": "proven"
     }
@@ -102,26 +114,59 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "7d6843731116365c8dc2376a69d263508e0382a7392085d73c18474fb928cfa9",
+  "sha256": "61b8afed22893d76b3cd9f0076f55ffd46e9a8be8d56c9a99c6fa77f69b2bd77",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-21T23:06:59+01:00",
+  "updatedAt": "2026-11-23T11:47:15+01:00",
   "usages": [
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
-        "line": 11,
+        "line": 10,
+        "path": "apps/web/src/editeur.ts"
+      },
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "evidence": [
+        "import: apps/web/src/styles.css",
+        "module-path: apps/web/src/editeur.ts"
+      ],
+      "game": "cozy-room-sort",
+      "importName": "styles",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "cozy-room-sort",
+      "role": "style",
+      "scene": "apps/web/src/editeur.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
+      },
+      "assetPath": "apps/web/src/styles.css",
+      "assetVersion": 3,
+      "codeRef": {
+        "line": 12,
         "path": "apps/web/src/main.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "import: apps/web/src/styles.css",
         "module-path: apps/web/src/main.ts"
@@ -146,15 +191,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 7,
         "path": "tests/unit/web/styles.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/src/styles.css",
         "module-path: tests/unit/web/styles.test.ts"
@@ -179,15 +224,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 29,
         "path": "tests/unit/web/styles.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/src/styles.css",
         "module-path: tests/unit/web/styles.test.ts"
@@ -212,15 +257,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
-        "line": 101,
+        "line": 104,
         "path": "tests/unit/web/styles.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/src/styles.css",
         "module-path: tests/unit/web/styles.test.ts"
@@ -245,15 +290,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
-        "line": 153,
+        "line": 157,
         "path": "tests/unit/web/styles.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/src/styles.css",
         "module-path: tests/unit/web/styles.test.ts"
@@ -278,15 +323,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/src/styles.css": "b481e8e7b33eb730c1335080889f7fed05efca0f"
+        "apps/web/src/styles.css": "d0a48acb86d5583dc551b98c8887fda4df90074e"
       },
       "assetPath": "apps/web/src/styles.css",
-      "assetVersion": 2,
+      "assetVersion": 3,
       "codeRef": {
         "line": 39,
         "path": "tests/unit/web/view-fade.test.ts"
       },
-      "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
       "evidence": [
         "literal: apps/web/src/styles.css",
         "module-path: tests/unit/web/view-fade.test.ts"
@@ -509,7 +554,7 @@
     }
   ],
   "variants": [],
-  "version": 2,
+  "version": 3,
   "versions": [
     {
       "causalNext": 2,
@@ -523,15 +568,26 @@
       "version": 1
     },
     {
-      "causalNext": null,
+      "causalNext": 3,
       "causalPrevious": 1,
       "commit": "28d2fc67dade88ca7b733569bdb95d6ef53bec13",
       "date": "2026-11-21T23:06:59+01:00",
       "format": "css",
-      "nextVersion": null,
+      "nextVersion": 3,
       "previousVersion": 1,
       "sha256": "7d6843731116365c8dc2376a69d263508e0382a7392085d73c18474fb928cfa9",
       "version": 2
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 2,
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "date": "2026-11-23T11:47:15+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 2,
+      "sha256": "61b8afed22893d76b3cd9f0076f55ffd46e9a8be8d56c9a99c6fa77f69b2bd77",
+      "version": 3
     }
   ],
   "visualStyle": null

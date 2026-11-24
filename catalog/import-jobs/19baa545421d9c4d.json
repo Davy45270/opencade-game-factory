@@ -1,0 +1,117 @@
+{
+  "discovery": {
+    "animations": true,
+    "audio": true,
+    "codeReferences": true,
+    "fonts": true,
+    "generatedAssets": true,
+    "images": true,
+    "tilemaps": true
+  },
+  "inputs": [
+    {
+      "commit": "22a3884bb23753cad50cc2a0d53637260bac825c",
+      "name": "cozy-room-sort",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "f5cbe7f894db97d09ce2951ba6d9291d25631917",
+      "name": "echecs-kid",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "8154ec17fcfb78e59ae6440c79e3e85b6ebdff9c",
+      "name": "jeux-assets",
+      "provider": "local"
+    },
+    {
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "name": "opencade",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "04fb2c47dff3ec68eb7ee71c2ce0ab55cfbee89e",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "053ba95739da4a71e343a4b75022bd90b9694a5b",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "0e652a57e4cac687d270a16eb62b43e5df35e220",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "487b0cabc8a7f3997a083a8f796ae042c56f0f47",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "aaadcb40df12e0a3c5c163aba3e5e900192d8942",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "b1c99422e0b6462768ec53acbdaaa03ccb4d8dbf",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "de568999e156d7d5c20fc4957abe6aa76ff892f8",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "name": "opencade",
+      "provider": "github"
+    },
+    {
+      "commit": "485b81256e4e524a5fcc0edfd82c2a3ed83e6bae",
+      "name": "opencadkid",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "199caf77a96970a8298457d311dfe822879c95a2",
+      "name": "pestouille-rpg",
+      "provider": "forgejo"
+    },
+    {
+      "commit": "65e616023bd32983ac5fae5f02e3d4f0478c7e2e",
+      "name": "six-de-chaque",
+      "provider": "forgejo"
+    }
+  ],
+  "jobType": "initial-discovery",
+  "output": {
+    "generateMigrationReport": true,
+    "generateSearchIndex": true
+  },
+  "processing": {
+    "buildUsageGraph": true,
+    "describeWithAI": true,
+    "detectDuplicates": true,
+    "extractSpritesheets": true,
+    "verifyLicenses": true
+  },
+  "safety": {
+    "deleteSourceFiles": false,
+    "modifySourceRepositories": false,
+    "publishUnknownLicenses": false
+  },
+  "schemaVersion": "1.0",
+  "sources": {
+    "includeMonorepos": true,
+    "includeReleases": true,
+    "provider": "github",
+    "scope": "authorized-game-repositories"
+  }
+}

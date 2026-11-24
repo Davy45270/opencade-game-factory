@@ -22,7 +22,7 @@
         "assetVersion": 5,
         "blobSha256": "0a3afc462a54268de6117b0c5ea4602fc33a63b60c135855c2bbe14b5dc5f640",
         "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
         "game": "opencade/orbite",
         "path": "src/games/orbite/scene.ts",
         "provider": "forgejo",
@@ -65,18 +65,6 @@
         "path": "src/games/orbite/scene.ts",
         "provider": "github",
         "releaseOnly": true,
-        "repo": "opencade",
-        "status": "active",
-        "visibility": "public"
-      },
-      {
-        "assetVersion": 5,
-        "blobSha256": "0a3afc462a54268de6117b0c5ea4602fc33a63b60c135855c2bbe14b5dc5f640",
-        "classification": "game",
-        "commit": "172156af3849e6061e3706166a991c77cf95528a",
-        "game": "opencade/orbite",
-        "path": "src/games/orbite/scene.ts",
-        "provider": "github",
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
@@ -145,6 +133,18 @@
         "repo": "opencade",
         "status": "active",
         "visibility": "public"
+      },
+      {
+        "assetVersion": 5,
+        "blobSha256": "0a3afc462a54268de6117b0c5ea4602fc33a63b60c135855c2bbe14b5dc5f640",
+        "classification": "game",
+        "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+        "game": "opencade/orbite",
+        "path": "src/games/orbite/scene.ts",
+        "provider": "github",
+        "repo": "opencade",
+        "status": "active",
+        "visibility": "public"
       }
     ],
     "registry": null
@@ -199,7 +199,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@172156af3849e6061e3706166a991c77cf95528a"
+    "ref": "LICENSE@fa8132addbbfaf3f554f7ef687a338160f3005d4"
   },
   "name": "scene",
   "orientation": "unknown",
@@ -220,7 +220,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-18T20:05:46+01:00",
+  "updatedAt": "2026-11-22T23:15:23+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -232,7 +232,7 @@
         "line": 554,
         "path": "docs/orbite-validation.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/orbite/scene.ts",
         "module-path: docs/orbite-validation.json"
@@ -265,7 +265,7 @@
         "line": 560,
         "path": "docs/orbite-validation.json"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/orbite/scene.ts",
         "module-path: docs/orbite-validation.json"
@@ -298,7 +298,7 @@
         "line": 14,
         "path": "scripts/orbite-scene-checks.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/orbite/scene.ts",
         "module-path: scripts/orbite-scene-checks.js"
@@ -331,7 +331,7 @@
         "line": 108,
         "path": "scripts/validate-orbite.js"
       },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
       "evidence": [
         "literal: src/games/orbite/scene.ts",
         "module-path: scripts/validate-orbite.js"
@@ -456,39 +456,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
-      },
-      "assetPath": "src/games/orbite/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 554,
-        "path": "docs/orbite-validation.json"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/orbite/scene.ts",
-        "module-path: docs/orbite-validation.json"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "docs/orbite-validation.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/orbite/scene.ts": "91c9b0b87599a0999b89a19909f1e80006169f14"
       },
       "assetPath": "src/games/orbite/scene.ts",
@@ -525,6 +492,39 @@
     },
     {
       "assetBlobs": {
+        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
+      },
+      "assetPath": "src/games/orbite/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 554,
+        "path": "docs/orbite-validation.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/orbite/scene.ts",
+        "module-path: docs/orbite-validation.json"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "docs/orbite-validation.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
         "src/games/orbite/scene.ts": "79d80bf5803c1b26d6fed55daeb7eee2cc985add"
       },
       "assetPath": "src/games/orbite/scene.ts",
@@ -596,39 +596,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
-      },
-      "assetPath": "src/games/orbite/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 560,
-        "path": "docs/orbite-validation.json"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/orbite/scene.ts",
-        "module-path: docs/orbite-validation.json"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "docs/orbite-validation.json",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/orbite/scene.ts": "91c9b0b87599a0999b89a19909f1e80006169f14"
       },
       "assetPath": "src/games/orbite/scene.ts",
@@ -658,6 +625,39 @@
         "v0.4.0",
         "v0.5.0"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "docs/orbite-validation.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
+      },
+      "assetPath": "src/games/orbite/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 560,
+        "path": "docs/orbite-validation.json"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/orbite/scene.ts",
+        "module-path: docs/orbite-validation.json"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "docs/orbite-validation.json",
@@ -736,39 +736,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
-      },
-      "assetPath": "src/games/orbite/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 14,
-        "path": "scripts/orbite-scene-checks.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/orbite/scene.ts",
-        "module-path: scripts/orbite-scene-checks.js"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/orbite-scene-checks.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/orbite/scene.ts": "91c9b0b87599a0999b89a19909f1e80006169f14"
       },
       "assetPath": "src/games/orbite/scene.ts",
@@ -798,6 +765,39 @@
         "v0.4.0",
         "v0.5.0"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/orbite-scene-checks.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
+      },
+      "assetPath": "src/games/orbite/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 14,
+        "path": "scripts/orbite-scene-checks.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/orbite/scene.ts",
+        "module-path: scripts/orbite-scene-checks.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/orbite-scene-checks.js",
@@ -876,39 +876,6 @@
     },
     {
       "assetBlobs": {
-        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
-      },
-      "assetPath": "src/games/orbite/scene.ts",
-      "assetVersion": 5,
-      "codeRef": {
-        "line": 108,
-        "path": "scripts/validate-orbite.js"
-      },
-      "commit": "172156af3849e6061e3706166a991c77cf95528a",
-      "evidence": [
-        "literal: src/games/orbite/scene.ts",
-        "module-path: scripts/validate-orbite.js"
-      ],
-      "game": "opencade",
-      "importName": "scene",
-      "inference": {
-        "role": {
-          "confidence": 0.45,
-          "evidence": [
-            "code-generated"
-          ],
-          "method": "heuristic"
-        }
-      },
-      "provider": "github",
-      "releases": [],
-      "repo": "opencade",
-      "role": "sprite",
-      "scene": "scripts/validate-orbite.js",
-      "status": "active"
-    },
-    {
-      "assetBlobs": {
         "src/games/orbite/scene.ts": "91c9b0b87599a0999b89a19909f1e80006169f14"
       },
       "assetPath": "src/games/orbite/scene.ts",
@@ -938,6 +905,39 @@
         "v0.4.0",
         "v0.5.0"
       ],
+      "repo": "opencade",
+      "role": "sprite",
+      "scene": "scripts/validate-orbite.js",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "src/games/orbite/scene.ts": "4c4cbb4cca213a1928e3b22309f850e738c94d9c"
+      },
+      "assetPath": "src/games/orbite/scene.ts",
+      "assetVersion": 5,
+      "codeRef": {
+        "line": 108,
+        "path": "scripts/validate-orbite.js"
+      },
+      "commit": "fa8132addbbfaf3f554f7ef687a338160f3005d4",
+      "evidence": [
+        "literal: src/games/orbite/scene.ts",
+        "module-path: scripts/validate-orbite.js"
+      ],
+      "game": "opencade",
+      "importName": "scene",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "github",
+      "releases": [],
       "repo": "opencade",
       "role": "sprite",
       "scene": "scripts/validate-orbite.js",

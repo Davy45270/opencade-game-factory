@@ -27,6 +27,13 @@ GAME_GRANT = {"ref": "HL-538 (David, 2026-11-21)",
               "decision": "« autorise pour tous mes jeux sans exceptions !!! » : remplace l'autorisation réservée à "
                           "pestouille-rpg (HL-537 7-3167). Restent bloqués : un dépôt public qui n'est pas un jeu de David, "
                           "et la publication d'une planche source brute hors d'un jeu."}
+# HL-538 7-3316 : un provenance.json de jeu antérieur au 22/11 qui déclare encore la licence privée de David est
+# périmé. La déclaration est remplacée par la décision (CC-BY-SA-4.0, attribution « Davy45270 »).
+DAVID_PRIVATE_SUPERSEDED = "LicenseRef-David-Prive-Tous-Droits-Reserves"
+DAVID_ATTRIBUTION = "Davy45270"
+DAVID_CC_BY_SA = ("CC-BY-SA-4.0", "décision du propriétaire", "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
+                  "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
+                  f"décision du 2026-11-22. Attribution : « {DAVID_ATTRIBUTION} ». Texte : LICENSES/CC-BY-SA-4.0.txt.")
 DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
              "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 

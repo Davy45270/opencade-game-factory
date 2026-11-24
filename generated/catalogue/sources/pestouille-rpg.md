@@ -19,7 +19,6 @@ Rôle : game
 
 ## Licences des 1167 asset(s) employés
 
-- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 566
-- [LicenseRef-David-Prive-Tous-Droits-Reserves](../licences/LicenseRef-David-Prive-Tous-Droits-Reserves.md) : 394
+- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 960
 - [MIT](../licences/MIT.md) : 1
 - [unknown](../licences/unknown.md) : 206

@@ -36,8 +36,10 @@ jobs:
           fetch-depth: 0
       - run: git config --global --add safe.directory '*'
       - run: pip install --quiet --disable-pip-version-check -r requirements.txt
+      # Copie publique : seul le fichier absent d'une fiche sans licence libre est toléré ; un fichier non libre
+      # présent est une fuite et bloque (scripts/copie_publique.py).
       - name: validate (schémas, IDs, références, empreintes, dimensions, licences)
-        run: ./assetctl validate --json > /dev/null
+        run: python3 scripts/copie_publique.py validate
       - name: contrôle de PR (AT-10, base = point de divergence)
         if: github.event_name == 'pull_request'
         run: ./assetctl validate --base "$(git merge-base "origin/${{ github.base_ref }}" HEAD)" --json > /dev/null

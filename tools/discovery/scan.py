@@ -488,6 +488,17 @@ def _skipped_divergent(root):
             for item in repo.get("divergentCopies", []) if item.get("imported") is False}
 
 
+# Décision du 24/11 (HL-538, E072) : une copie GitHub PRIVÉE illisible faute de jeton n'est pas une panne du contrôle,
+# c'est la dette E006 (jeton GitHub à privilèges minimaux reporté par David, « plus tard »). Elle est affichée,
+# ne fait pas échouer --verify, et revient dans le verdict dès qu'elle est lisible ou qu'un jeton est fourni.
+NON_VERIFIABLE = "non vérifiable : dépôt GitHub privé sans jeton (dette E006, clé GitHub plus tard)"
+
+
+def _sans_jeton_github(copy):
+    return (copy.provider == "github" and copy.visibility == "private"
+            and not os.environ.get("ASSETCTL_GITHUB_TOKEN") and "GIT_CONFIG_COUNT" not in os.environ)
+
+
 def _verify(root, args, git, cache, temporary, copies):
     references, _ = _load_references(root)
     records = importer.read_assets(root).values()
@@ -498,7 +509,7 @@ def _verify(root, args, git, cache, temporary, copies):
     exceptions = Catalogue._regular_path(root / "generated" / "reports" / "exceptions.json")
     if exceptions.is_file():
         recorded.update((line["repo"], line["commit"], line["path"]) for line in read_json(exceptions))
-    forgotten, drift, errors = [], [], []
+    forgotten, drift, errors, unverifiable = [], [], [], []
     checked = set()
     # Copies divergentes laissées de côté exprès par le scan (7901d3c) : signalées, jamais comptées en dérive, et
     # jamais inventoriées. Leur référence reste figée au dernier commit importé, que le catalogue ne porte plus
@@ -514,6 +525,10 @@ def _verify(root, args, git, cache, temporary, copies):
                                   "catalogCommit": stored["commit"] if stored else None,
                                   "remoteCommit": remote_commit})
             except GitError as exc:
+                if _sans_jeton_github(copy):
+                    unverifiable.append({"name": copy.name, "provider": copy.provider, "error": str(exc),
+                                         "reason": NON_VERIFIABLE})
+                    continue
                 errors.append({"name": copy.name, "provider": copy.provider, "error": str(exc),
                                "stage": "remote-head"})
         if stored is None or (copy.name, copy.provider) in skipped:
@@ -538,13 +553,14 @@ def _verify(root, args, git, cache, temporary, copies):
                                "error": str(exc), "stage": "inventory"})
     divergent = [entry for entry in drift if (entry["name"], entry["provider"]) in skipped]
     drift = [entry for entry in drift if (entry["name"], entry["provider"]) not in skipped]
+    illisibles = {(item["name"], item["provider"]) for item in unverifiable}
     required = {(copy.name, commit) for copy in copies
-                if (copy.name, copy.provider) not in skipped and (record := references.get(copy.key))
+                if (copy.name, copy.provider) not in skipped | illisibles and (record := references.get(copy.key))
                 for commit in [record["commit"], *record["releaseCommits"]]}
     code = (ExitCode.CHECK_FAILED if forgotten or drift else
             ExitCode.IO if required - checked or (errors and not checked) else ExitCode.OK)
     report = {"ok": code == ExitCode.OK, "forgotten": forgotten, "drift": drift, "divergent": divergent,
-              "errors": errors, "checkedCommits": len(checked)}
+              "errors": errors, "unverifiable": unverifiable, "checkedCommits": len(checked)}
     if not args.dry_run:
         destination = root / "generated" / "reports"
         destination.mkdir(parents=True, exist_ok=True)

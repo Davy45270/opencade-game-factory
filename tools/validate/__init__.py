@@ -20,6 +20,8 @@ RECORDS = {"assets": "asset", "sheets": "sheet"}
 IMPORT_TYPES = {"repo-file", "original-sheet-cut", "code-generated", "external"}
 PUBLISHED = PurePosixPath("published", "sha256")
 PUBLISHED_NAME = re.compile(r"([a-f0-9]{64})\.[A-Za-z0-9][A-Za-z0-9_-]{0,31}")
+# Preuve « côte à côte » d'un asset externe employé par un jeu (ADR-0005) : « côte à côte : HL-<n> <pièce> ».
+COTE_A_COTE = re.compile(r"^c[oô]te à c[oô]te : HL-[0-9]+ \S")
 MUTABLE_VERSION_FIELDS = {"nextVersion", "causalPrevious", "causalNext", "causalOrder", "atlasFrames"}
 
 
@@ -141,6 +143,14 @@ class CatalogueValidation:
                 if asset["license"] != "unknown" and (declared["status"] != "verified"
                                                       or declared["spdxId"] != asset["license"]):
                     self.issue(path, "external-license", "Licence externe non vérifiée dans le texte du pack : unknown exigé.")
+                # EXT-001, arbitrage de David (HL-538 7-2949, ADR-0005) : un asset externe peut remplacer un élément de
+                # planche dans un jeu si le style colle ; preuve = un côte à côte avec la planche, joint au ticket du jeu.
+                # Dès qu'un jeu l'emploie (usage actif), sa provenance doit citer ce côte à côte.
+                if (any(usage.get("status") == "active" for usage in asset.get("usages", ()))
+                        and not any(COTE_A_COTE.match(item) for item in provenance["evidence"])):
+                    self.issue(path, "external-without-side-by-side",
+                               "Asset externe employé par un jeu sans côte à côte avec la planche : ajouter à "
+                               "provenance.evidence « côte à côte : HL-<n> <pièce jointe> » (ADR-0005).")
             sheet_id = asset["sourceSheetId"]
             region = asset["sourceRegion"]
             sheet = sheets.get(sheet_id)

@@ -44,7 +44,9 @@
    import transactionnel et idempotent.
 5. Le module reste indépendant, désactivable (`ASSETCTL_EXTERNAL=off`) et entièrement headless.
 6. Un asset externe peut remplacer un élément de planche si le style colle (arbitrage de David, HL-538
-   7-2949) ; la preuve est un côte à côte avec la planche, joint au ticket du jeu.
+   7-2949) ; la preuve est un côte à côte avec la planche, joint au ticket du jeu. `assetctl validate` refuse
+   (`external-without-side-by-side`) un asset externe employé par un jeu dont `provenance.evidence` ne cite pas
+   « côte à côte : HL-<n> <pièce jointe> ».
 
 ## Niveaux et mondes (EXT-002)
 

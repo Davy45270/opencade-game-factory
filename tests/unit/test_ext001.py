@@ -348,6 +348,38 @@ class EXT001Module(ExterneFixture, TestCase):
         self.assertEqual(resultat["sha256"], hashlib.sha256(bytes(5000)).hexdigest())
 
 
+class EXT001CoteACote(ExterneFixture, TestCase):
+    """E186 : un asset externe employé par un jeu (usage actif) sans côte à côte avec la planche est refusé par validate
+    (arbitrage de David HL-538 7-2949, ADR-0005) ; tant qu'aucun jeu ne l'emploie, rien n'est exigé."""
+    USAGE = {"assetVersion": 1, "codeRef": {"line": 1, "path": "src/art.ts"}, "commit": "a" * 40,
+             "evidence": ["literal: assets/whisk.png"], "game": "cuisine", "importName": "whisk", "provider": "forgejo",
+             "releases": [], "repo": "cuisine", "role": "sprite", "scene": "src/art.ts", "status": "active"}
+
+    def employer(self, *preuves):
+        if not self.externals():
+            self.pack("kitchen-kit", {"whisk.png": png((10, 10, 200, 255)), "License.txt": CC0})
+            self.ext("import", "--plan", str(self.plan("kitchen-kit")[0]))
+        (asset_id, asset), = self.externals().items()
+        asset["provenance"]["evidence"] = [e for e in asset["provenance"]["evidence"] if "te à c" not in e]
+        asset["usages"] = [dict(self.USAGE)]
+        asset["provenance"]["evidence"] = [*asset["provenance"]["evidence"], *preuves]
+        (self.root / "catalog" / "assets" / f"{asset_id}.json").write_text(json.dumps(asset))
+        code, rapport = self.cli("validate")
+        return code, {i["code"] for i in rapport.get("issues", [])}
+
+    def test_sans_usage_rien_n_est_exige(self):
+        self.pack("kitchen-kit", {"whisk.png": png((10, 10, 200, 255)), "License.txt": CC0})
+        self.ext("import", "--plan", str(self.plan("kitchen-kit")[0]))
+        self.assertEqual(self.cli("validate")[0], 0)
+
+    def test_employe_sans_cote_a_cote_refuse(self):
+        self.assertEqual(self.employer(), (1, {"external-without-side-by-side"}))
+        self.assertEqual(self.employer("côte à côte : sans ticket"), (1, {"external-without-side-by-side"}))
+
+    def test_employe_avec_cote_a_cote_au_ticket_accepte(self):
+        self.assertEqual(self.employer("côte à côte : HL-541 cote-a-cote-whisk.png"), (0, set()))
+
+
 class EXT001Documentation(TestCase):
     def test_regles_agents_ext001(self):
         texte = (Path(__file__).resolve().parents[2] / "docs" / "AGENTS.md").read_text(encoding="utf-8")

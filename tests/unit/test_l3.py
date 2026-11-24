@@ -20,7 +20,8 @@ class LotL3(unittest.TestCase):
         if result.code != 0:
             raise AssertionError(str(result))
         cls.asset_id, cls.asset = C.asset_par_chemin(cls.root, "jeu-a", M.FOUET)
-        cls.star_id = next(aid for aid, asset in C.assets(cls.root).items() if asset["license"] == "CC-BY-4.0")
+        # Découpe vérifiée d'une planche de David : CC-BY-SA-4.0 depuis HL-538 7-3316 (arbitrage du 24/11).
+        cls.star_id = next(aid for aid, asset in C.assets(cls.root).items() if asset["license"] == "CC-BY-SA-4.0")
         paths = cls.world.git(cls.root, "ls-files", "-m", "-o", "--exclude-standard").splitlines()
         cls.world.git(cls.root, "add", "--", *paths)
         cls.world.git(cls.root, "commit", "-qm", "Import de fixture")
@@ -202,7 +203,7 @@ class LotL3(unittest.TestCase):
         self.assertEqual(child["provenance"]["derivedFrom"], self.star_id)
         identities = C.lire_json(self.root / "catalog" / "ids.json")
         self.assertEqual(identities[f"derived:{self.star_id}:{C.sha256_fichier(recipe)}"], child["id"])
-        self.assertEqual(child["license"], "CC-BY-4.0")
+        self.assertEqual(child["license"], "CC-BY-SA-4.0")
         self.assertEqual(child["dimensions"], {"width": 8, "height": 11})
         binary = self.root / child["files"]["registry"]
         self.assertEqual(hashlib.sha256(binary.read_bytes()).hexdigest(), child["sha256"])

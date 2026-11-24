@@ -19,6 +19,6 @@ Rôle : game
 
 ## Licences des 7 asset(s) employés
 
-- [CC-BY-4.0](../licences/CC-BY-4.0.md) : 4
+- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 4
 - [MIT](../licences/MIT.md) : 2
 - [unknown](../licences/unknown.md) : 1

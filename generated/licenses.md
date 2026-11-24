@@ -7,30 +7,30 @@
 - `asset-atlas-animations-jeu-3x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-bannieres-jeu-2x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-bannieres-jeu-3x-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-atlas-capsule-panic-atlas-animations-a-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-animations-a-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-animations-j-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-animations-j-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-cascade-aper-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-cascade-aper-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-animations-a-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-animations-a-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-animations-j-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-animations-j-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-cascade-aper-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-cascade-aper-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-composants-m-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-composants-m-0002` — unknown · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-logo-apercu-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-logo-apercu-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-logo-jeu-2x-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-logo-jeu-3x-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-mode-jeu-2x-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-mode-jeu-3x-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-logo-apercu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-logo-apercu-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-logo-jeu-2x-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-logo-jeu-3x-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-mode-jeu-2x-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-mode-jeu-3x-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-paires-horiz-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-paires-horiz-0002` — unknown · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-paires-verti-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-paires-verti-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-paires-verti-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-paires-verti-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-pieces-origi-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-pieces-origi-0002` — unknown · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-plateau-aper-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-plateau-aper-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-plateau-jeu-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-capsule-panic-atlas-plateau-jeu-0002` — CC-BY-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-plateau-aper-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-plateau-aper-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-plateau-jeu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-capsule-panic-atlas-plateau-jeu-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-tutoriel-ape-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-atlas-capsule-panic-atlas-tutoriel-ape-0002` — unknown · forbidden · Planche entière réservée.
 - `asset-atlas-cascade-apercu-2x-0001` — unknown · forbidden · Autorisation non établie.
@@ -1449,13 +1449,13 @@
 - `asset-image-accueil-fr-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-algues-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-animations-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-animations-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-animations-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-animations-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-animations-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-animations-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-animations-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-animations-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-animations-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-animations-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-animations-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-animations-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-apercu-code-boubou-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-apercu-code-caliroux-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-apercu-code-lumi-0001` — unknown · forbidden · Autorisation non établie.
@@ -1503,9 +1503,9 @@
 - `asset-image-banc-0003` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-bande-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-bannieres-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-bannieres-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-bannieres-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-bannieres-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-bannieres-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-bannieres-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-barriere-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-barriere-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-barriere-3q-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -1608,212 +1608,212 @@
 - `asset-image-capsule-far-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-panic-192-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-panic-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-animations-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-animations-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-animations-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-animations-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-animations-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-animations-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-animations-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-animations-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-panic-assets-gameplay-02-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-capsule-panic-assets-gameplay-03-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-capsule-panic-assets-planche-01-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-capsule-panic-cascade-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-cascade-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-composants-maquett-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-composants-maquett-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-credits-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-logo-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-logo-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-logo-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-logo-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-cascade-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-cascade-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-composants-maquett-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-composants-maquett-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-credits-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-logo-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-logo-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-logo-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-logo-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-panic-maskable-512-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-mode-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-mode-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-paires-horizontale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-paires-horizontale-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-paires-verticale-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-paires-verticale-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-pieces-origine-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-pieces-origine-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-planche-transparen-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
-- `asset-image-capsule-panic-plateau-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-plateau-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-plateau-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-plateau-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-accueil-com-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-aide-accuei-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-aide-comman-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-aide-menus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-anneau-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-anneau-etoi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-barre-parti-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-barre-parti-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bas-command-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-bleu-p-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-bleu-p-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-jaune-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-jaune-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-rouge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-bloc-rouge-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cadre-nivea-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cadre-nivea-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cadre-score-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cadre-score-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cadre-stati-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-carte-class-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cascade-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-case-sombre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-case-sombre-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cellule-amb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cellule-cya-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cellule-fan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cellule-mag-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-chercheuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-chute-anima-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-chute-anima-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-credits-acc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-credits-acc-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-amb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-bri-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-bri-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-bri-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-cya-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristal-mag-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristaux-co-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristaux-co-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristaux-co-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristaux-el-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-cristaux-hu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-defaite-ban-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-defaite-mes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-deplacement-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-deplacement-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-dialogue-pa-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-droite-comm-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-eclat-effet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-erlenmeyer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-etincelles-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-etoile-obje-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-etoile-obje-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-explosion-a-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-explosion-e-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-explosion-e-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fiole-bleue-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fiole-jaune-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fiole-rouge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fioles-sous-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fioles-trio-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-chut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-desc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-rota-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-rota-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-rota-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fleche-verr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fumee-effet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-fumee-effet-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-gauche-comm-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-gestes-gest-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-gestes-gest-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-grille-fond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-impact-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-jouer-accue-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-jouer-accue-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-jouer-comma-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-jouer-menus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-laboratoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-lecture-com-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-lecture-com-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-legende-cla-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-ligne-elimi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-logo-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-logo-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-logo-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-medaillon-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-menu-reussi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-menu-reussi-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-mode-classi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-niveau-plus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-notation-do-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-notation-si-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-notation-tr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-nuage-aperc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-options-acc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-options-acc-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-options-com-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-options-men-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paillasse-f-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-horiz-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-horiz-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-horiz-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-verti-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-verti-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-paire-verti-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-panneau-niv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-panneau-sco-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-panneau-sui-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-panneaux-pa-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-particules-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-particules-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-particules-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pause-banni-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pause-comma-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pause-comma-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pause-messa-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-plein-ecran-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pont-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pont-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pont-gauche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-pont-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-porte-eprou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-porte-eprou-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-quitter-com-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-quitter-men-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-reacteur-ch-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-reacteur-ch-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-reacteur-fo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-reacteur-vi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-recommencer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-reglages-co-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-rejouer-reu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-rejouer-reu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-responsable-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-rotation-an-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-rotation-co-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-ruban-reuss-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-ruban-reuss-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-satellite-e-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-segment-ble-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-segment-jau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-segment-rou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-suivant-reu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-suivant-reu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-touches-act-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-touches-hor-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trainee-chu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trainee-chu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trainee-dep-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trainee-lon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trainee-ver-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-transformat-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trophee-obj-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-trophee-obj-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-al-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-al-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-de-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-de-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-el-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-el-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-pi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-tutoriel-pi-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-verrouillag-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-victoire-ba-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-sprite-victoire-me-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-tutoriel-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-capsule-panic-tutoriel-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-mode-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-mode-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-paires-horizontale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-paires-horizontale-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-paires-verticale-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-paires-verticale-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-pieces-origine-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-pieces-origine-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-planche-transparen-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-image-capsule-panic-plateau-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-plateau-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-plateau-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-plateau-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-accueil-com-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-aide-accuei-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-aide-comman-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-aide-menus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-anneau-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-anneau-etoi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-barre-parti-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-barre-parti-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bas-command-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-bleu-p-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-bleu-p-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-jaune-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-jaune-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-bloc-rouge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cadre-nivea-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cadre-nivea-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cadre-score-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cadre-score-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cadre-stati-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-carte-class-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cascade-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-case-sombre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-case-sombre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cellule-amb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cellule-cya-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cellule-fan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cellule-mag-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-chercheuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-chute-anima-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-chute-anima-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-credits-acc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-credits-acc-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-amb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-bri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-bri-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-bri-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-cya-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristal-mag-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristaux-co-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristaux-co-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristaux-co-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristaux-el-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-cristaux-hu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-defaite-ban-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-defaite-mes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-deplacement-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-deplacement-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-dialogue-pa-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-droite-comm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-eclat-effet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-erlenmeyer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-etincelles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-etoile-obje-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-etoile-obje-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-explosion-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-explosion-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-explosion-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fiole-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fiole-jaune-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fiole-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fioles-sous-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fioles-trio-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-chut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-desc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-rota-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-rota-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-rota-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fleche-verr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fumee-effet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-fumee-effet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-gauche-comm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-gestes-gest-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-gestes-gest-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-grille-fond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-impact-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-jouer-accue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-jouer-accue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-jouer-comma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-jouer-menus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-laboratoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-lecture-com-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-lecture-com-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-legende-cla-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-ligne-elimi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-logo-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-logo-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-logo-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-medaillon-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-menu-reussi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-menu-reussi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-mode-classi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-niveau-plus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-notation-do-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-notation-si-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-notation-tr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-nuage-aperc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-options-acc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-options-acc-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-options-com-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-options-men-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paillasse-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-horiz-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-horiz-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-horiz-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-verti-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-verti-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-paire-verti-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-panneau-niv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-panneau-sco-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-panneau-sui-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-panneaux-pa-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-particules-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-particules-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-particules-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pause-banni-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pause-comma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pause-comma-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pause-messa-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-plein-ecran-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pont-bas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pont-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pont-gauche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-pont-haut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-porte-eprou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-porte-eprou-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-quitter-com-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-quitter-men-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-reacteur-ch-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-reacteur-ch-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-reacteur-fo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-reacteur-vi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-recommencer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-reglages-co-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-rejouer-reu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-rejouer-reu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-responsable-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-rotation-an-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-rotation-co-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-ruban-reuss-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-ruban-reuss-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-satellite-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-segment-ble-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-segment-jau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-segment-rou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-suivant-reu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-suivant-reu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-touches-act-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-touches-hor-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trainee-chu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trainee-chu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trainee-dep-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trainee-lon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trainee-ver-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-transformat-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trophee-obj-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-trophee-obj-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-al-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-al-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-de-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-de-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-el-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-el-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-pi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-tutoriel-pi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-verrouillag-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-victoire-ba-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-sprite-victoire-me-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-tutoriel-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-capsule-panic-tutoriel-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-capsule-top-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cascade-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-cascade-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cascade-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cascade-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-cascade-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cascade-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-caserne-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-caserne-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cerisier-side-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -1825,13 +1825,13 @@
 - `asset-image-chalet-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chalet-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-chambre-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-chambre-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-chambre-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-chambre-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-chambre-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-chambre-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-chambre-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-chambre-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-chambre-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-chambre-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-chambre-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-chambre-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-characters-model-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-chariot-fleurs-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-chaton-0001` — unknown · forbidden · Planche entière réservée.
@@ -1891,7 +1891,7 @@
 - `asset-image-choc-04-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-image-choc-04-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-image-choc-04-0005` — unknown · forbidden · Autorisation non établie.
-- `asset-image-choix-salle-de-bain-normal-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-choix-salle-de-bain-normal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cloture-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cloud-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-cloud-top-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -1901,52 +1901,52 @@
 - `asset-image-colonne-face-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-colonne-face-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-commandes-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-commandes-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-commandes-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-commandes-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-commandes-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-commandes-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-commandes-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-commandes-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-commandes-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-commandes-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-commandes-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-commandes-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-commerce-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-commerce-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-composants-maquettes-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-composants-maquettes-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-composants-maquettes-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-composants-maquettes-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-composants-maquettes-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-composants-maquettes-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compter-combien-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-compter-etoiles-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-compter-remplir-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-compteur-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteur-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteur-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteur-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteur-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteur-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteur-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteur-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteurs-maquettes-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteurs-maquettes-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteurs-maquettes-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteurs-maquettes-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteurs-maquettes-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteurs-maquettes-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteurs-maquettes-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteurs-maquettes-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteurs-maquettes-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-compteurs-maquettes-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-compteurs-maquettes-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-compteurs-maquettes-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-coquillage-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-cozy-room-sort-192-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-cozy-room-sort-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-cozy-room-sort-maskable-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cozy-room-sort-192-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cozy-room-sort-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-cozy-room-sort-maskable-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cozy-room-sort-planche-01-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-cozy-room-sort-planche-02-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-cozy-room-sort-planche-03-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-cozy-room-sort-planche-04-salle-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-crate-caisse-0001` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-credits-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-credits-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-cristal-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-galaxie-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-cristal-luciole-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -2026,23 +2026,23 @@
 - `asset-image-ecole-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-ecole-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-maquettes-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-maquettes-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-maquettes-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-maquettes-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-maquettes-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-maquettes-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-effets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-effets-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-effets-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-eglantine-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-eglantine-terrain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-elimination-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-elimination-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-elimination-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-elimination-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-elimination-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-elimination-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-emma-cycle-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-enfant-chloe-attente-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-enfant-chloe-attente-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -2164,23 +2164,23 @@
 - `asset-image-feuillu-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-feuillu-top-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-fioles-logo-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fioles-logo-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fioles-logo-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fioles-logo-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fioles-logo-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fioles-logo-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-flammeche-pleine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-flammeche-vide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fleche-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fleche-plateau-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fleche-plateau-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fleche-plateau-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fleche-plateau-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fleche-plateau-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fond-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fond-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fond-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fond-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fond-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fond-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fonds-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fonds-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fonds-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-fonds-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-fonds-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-fonds-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-foret-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-foret-2048x256-sud-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-foret-murmures-dungeon-0001` — unknown · forbidden · Autorisation non établie.
@@ -2272,9 +2272,9 @@
 - `asset-image-games-suites-items-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-games-traverse-art-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gestes-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-gestes-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-gestes-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-gestes-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-gestes-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-gestes-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-gouter-crochet-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-final-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-gouter-miam-0001` — unknown · forbidden · Autorisation non établie.
@@ -2290,9 +2290,9 @@
 - `asset-image-home-phone-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-hublot-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-hud-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-hud-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-hud-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-hud-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-hud-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-hud-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-icon-bulle-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-icon-bulle-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-icon-bulle-small-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2358,13 +2358,13 @@
 - `asset-image-licorne-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-licorne-top-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-logo-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-logo-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-logo-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-logo-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-logo-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-logo-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-logo-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-logo-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-logo-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-logo-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-logo-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-logo-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-lucas-marche-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-lumi-arriere-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-lumi-arriere-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
@@ -2396,22 +2396,22 @@
 - `asset-image-mars-0001` — LicenseRef-JPL-Image-Use-Policy · forbidden · Autorisation non établie.
 - `asset-image-mascotte-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-medaillon-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-medaillon-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-medaillon-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-medaillon-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-medaillon-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-medaillon-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-menus-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-menus-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-menus-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-menus-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-menus-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-menus-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-mercure-0001` — LicenseRef-MESSENGER-Usage-Statement · forbidden · Autorisation non établie.
 - `asset-image-messages-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-messages-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-messages-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-messages-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-messages-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-messages-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-mode-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-mode-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-mode-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-mode-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-mode-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-mode-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-moon-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-mur-maison-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-mur-maison-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -2428,17 +2428,17 @@
 - `asset-image-notion-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-nuage-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-objets-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-objets-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-objets-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-objets-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-objets-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-objets-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-objets-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-objets-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-opencade-0003` — MIT · allowed · Licence et preuve enregistrées.
@@ -2489,14 +2489,14 @@
 - `asset-image-p04-ui-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-p04-vues-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-paires-horizontale-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-paires-horizontale-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-paires-horizontale-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-paires-horizontale-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-paires-horizontale-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-paires-horizontale-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-paires-plateau-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-paires-verticale-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-paires-verticale-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-paires-verticale-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-paires-verticale-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-paires-verticale-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-paires-verticale-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-palmier-side-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-palmier-side-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-palmier-side-far-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2565,18 +2565,18 @@
 - `asset-image-panneau2-dessus-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-panneau2-dessus-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-panneaux-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-panneaux-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-panneaux-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-panneaux-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-panneaux-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-panneaux-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-parents-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-parents-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-image-paris-moodboard-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-paris-pack-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-paves-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-personnages-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-personnages-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-personnages-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-personnages-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-personnages-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-personnages-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pestouille-192-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pestouille-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pestouille-arriere-3-4-gauche-sa-0001` — unknown · forbidden · Planche entière réservée.
@@ -2649,9 +2649,9 @@
 - `asset-image-petit-pompiers-sols-chemins-rout-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-pieces-mobile-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-pieces-origine-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-pieces-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pieces-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pieces-origine-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-pieces-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-pieces-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-piste-bande-acceleration-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-piste-bitume-standard-detail-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-piste-bordure-droite-0001` — unknown · forbidden · Autorisation non établie.
@@ -2747,16 +2747,16 @@
 - `asset-image-planche-inutilises-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-planche-mascottes-code-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-planche-top10-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-planche-transparente-0001` — CC-BY-4.0 · forbidden · Planche entière réservée.
+- `asset-image-planche-transparente-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-image-planets-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-plateau-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-plateau-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-plateau-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-plateau-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-plateau-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-plateau-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-plateau-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-plateau-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-plateau-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-plateau-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-plateau-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-plateau-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-pneus-dessus-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pneus-dessus-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-pneus-face-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -2924,9 +2924,9 @@
 - `asset-image-singe-right-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-top-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-singe-top-0002` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-image-six-de-chaque-192-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-six-de-chaque-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-six-de-chaque-maskable-512-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-six-de-chaque-192-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-six-de-chaque-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-six-de-chaque-maskable-512-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-sizes-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-slalom-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-slalom-0002` — MIT · allowed · Licence et preuve enregistrées.
@@ -2950,206 +2950,206 @@
 - `asset-image-sons-image-lettre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-souche-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-souche-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-image-sprite-accueil-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-accueil-commandes-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-accueil-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-accueil-commandes-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-sprite-aide-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-sprite-aide-commandes-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-aide-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-anneau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-anneau-etoiles-effets-ori-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-barre-partie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-barre-partie-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bas-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bas-commandes-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-bleu-plateau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-bleu-plateau-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-jaune-plateau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-jaune-plateau-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-rouge-plateau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-bloc-rouge-plateau-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cadre-niveau-compteurs-ma-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cadre-niveau-compteurs-ma-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cadre-score-compteurs-maq-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cadre-score-compteurs-maq-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-aide-commandes-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-aide-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-anneau-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-anneau-etoiles-effets-ori-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-barre-partie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-barre-partie-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bas-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bas-commandes-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-bleu-plateau-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-bleu-plateau-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-jaune-plateau-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-jaune-plateau-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-rouge-plateau-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-bloc-rouge-plateau-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cadre-niveau-compteurs-ma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cadre-niveau-compteurs-ma-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cadre-score-compteurs-maq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cadre-score-compteurs-maq-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-sprite-cadre-statistiques-reussi-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-sprite-cadre-statistiques-reussi-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-carte-classique-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-carte-classique-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cascade-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-case-sombre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-case-sombre-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cellule-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cellule-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cellule-fantome-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cellule-magenta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-chercheuse-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-chute-animations-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-chute-animations-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-credits-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-credits-accueil-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-brise-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-brise-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-brise-magenta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristal-magenta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-compteur-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-compteur-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-compteur-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-elimination-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-hud-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-cristaux-hud-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-defaite-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-defaite-bannieres-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-defaite-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-deplacement-animations-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-deplacement-animations-je-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-dialogue-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-droite-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-droite-commandes-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-eclat-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-erlenmeyer-objets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-etincelles-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-etincelles-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-etoile-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-etoile-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-explosion-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-explosion-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-explosion-effets-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-explosion-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fiole-bleue-objets-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fiole-jaune-objets-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fiole-rouge-objets-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fioles-sous-logo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fioles-sous-logo-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fioles-trio-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-chute-fantome-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-descente-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-rotation-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-rotation-bas-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-rotation-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fleche-verrouillage-aperc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fumee-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fumee-effets-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-fumee-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-gauche-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-gauche-commandes-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-gestes-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-gestes-gestes-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-grille-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-impact-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-jouer-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-jouer-accueil-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-jouer-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-jouer-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-laboratoire-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-laboratoire-fonds-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-lecture-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-lecture-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-lecture-commandes-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cadre-statistiques-reussi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-carte-classique-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-carte-classique-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cascade-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-case-sombre-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-case-sombre-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cellule-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cellule-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cellule-fantome-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cellule-magenta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-chercheuse-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-chute-animations-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-chute-animations-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-credits-accueil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-credits-accueil-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-brise-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-brise-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-brise-magenta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristal-magenta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-compteur-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-compteur-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-compteur-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-elimination-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-hud-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-cristaux-hud-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-defaite-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-defaite-bannieres-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-defaite-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-deplacement-animations-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-deplacement-animations-je-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-dialogue-panneaux-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-droite-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-droite-commandes-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-eclat-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-erlenmeyer-objets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-etincelles-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-etincelles-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-etoile-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-etoile-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-explosion-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-explosion-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-explosion-effets-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-explosion-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fiole-bleue-objets-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fiole-jaune-objets-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fiole-rouge-objets-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fioles-sous-logo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fioles-sous-logo-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fioles-trio-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-chute-fantome-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-descente-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-rotation-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-rotation-bas-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-rotation-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fleche-verrouillage-aperc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fumee-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fumee-effets-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-fumee-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-gauche-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-gauche-commandes-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-gestes-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-gestes-gestes-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-grille-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-impact-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-jouer-accueil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-jouer-accueil-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-jouer-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-jouer-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-laboratoire-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-laboratoire-fonds-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-lecture-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-lecture-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-lecture-commandes-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-sprite-legende-clavier-gestes-je-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-image-sprite-legende-clavier-gestes-je-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-ligne-elimination-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-logo-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-logo-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-logo-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-medaillon-cellule-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-menu-reussite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-menu-reussite-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-mode-classique-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-niveau-plus-commandes-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-niveau-plus-commandes-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-notation-double-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-notation-simple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-notation-triple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-nuage-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-options-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-options-accueil-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-options-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-options-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paillasse-fond-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paillasse-fond-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-horizontale-cyan-am-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-horizontale-cyan-ma-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-horizontale-magenta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-verticale-cyan-ambr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-verticale-cyan-mage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-paire-verticale-magenta-a-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneau-niveau-hud-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneau-score-hud-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneau-suivant-partie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneau-suivant-partie-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneaux-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-panneaux-panneaux-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-particules-dorees-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-particules-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-particules-effets-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-particules-rouges-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-bannieres-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-commandes-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pause-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-plein-ecran-commandes-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-plein-ecran-commandes-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pont-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pont-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pont-gauche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-pont-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-porte-eprouvettes-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-porte-eprouvettes-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-quitter-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-quitter-commandes-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-quitter-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reacteur-chambre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reacteur-chambre-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reacteur-chambre-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reacteur-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reacteur-vide-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-recommencer-commandes-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-recommencer-commandes-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-reglages-commandes-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rejouer-reussite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rejouer-reussite-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-responsable-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rotation-animations-aperc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rotation-animations-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rotation-commandes-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-rotation-commandes-origin-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-ruban-reussite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-ruban-reussite-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-satellite-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-segment-bleu-plateau-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-segment-jaune-plateau-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-segment-rouge-plateau-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-suivant-reussite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-suivant-reussite-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-touches-action-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-touches-action-gestes-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-touches-horizontales-gest-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-touches-horizontales-gest-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trainee-chute-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trainee-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trainee-deplacement-aperc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trainee-longue-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trainee-verrouillage-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-transformation-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trophee-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-trophee-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-aligner-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-aligner-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-deplacer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-deplacer-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-eliminer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-eliminer-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-pivoter-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-tutoriel-pivoter-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-verrouillage-animations-a-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-verrouillage-animations-j-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-victoire-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-victoire-bannieres-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-image-sprite-victoire-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-legende-clavier-gestes-je-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-ligne-elimination-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-logo-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-logo-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-logo-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-medaillon-cellule-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-menu-reussite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-menu-reussite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-mode-classique-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-niveau-plus-commandes-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-niveau-plus-commandes-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-notation-double-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-notation-simple-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-notation-triple-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-nuage-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-options-accueil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-options-accueil-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-options-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-options-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paillasse-fond-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paillasse-fond-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-horizontale-cyan-am-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-horizontale-cyan-ma-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-horizontale-magenta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-verticale-cyan-ambr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-verticale-cyan-mage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-paire-verticale-magenta-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneau-niveau-hud-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneau-score-hud-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneau-suivant-partie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneau-suivant-partie-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneaux-panneaux-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-panneaux-panneaux-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-particules-dorees-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-particules-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-particules-effets-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-particules-rouges-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-bannieres-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-commandes-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pause-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-plein-ecran-commandes-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-plein-ecran-commandes-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pont-bas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pont-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pont-gauche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-pont-haut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-porte-eprouvettes-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-porte-eprouvettes-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-quitter-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-quitter-commandes-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-quitter-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reacteur-chambre-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reacteur-chambre-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reacteur-chambre-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reacteur-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reacteur-vide-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-recommencer-commandes-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-recommencer-commandes-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-reglages-commandes-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rejouer-reussite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rejouer-reussite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-responsable-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rotation-animations-aperc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rotation-animations-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rotation-commandes-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-rotation-commandes-origin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-ruban-reussite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-ruban-reussite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-satellite-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-segment-bleu-plateau-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-segment-jaune-plateau-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-segment-rouge-plateau-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-suivant-reussite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-suivant-reussite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-touches-action-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-touches-action-gestes-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-touches-horizontales-gest-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-touches-horizontales-gest-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trainee-chute-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trainee-chute-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trainee-deplacement-aperc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trainee-longue-chute-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trainee-verrouillage-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-transformation-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trophee-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-trophee-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-aligner-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-aligner-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-deplacer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-deplacer-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-eliminer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-eliminer-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-pivoter-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-tutoriel-pivoter-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-verrouillage-animations-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-verrouillage-animations-j-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-victoire-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-victoire-bannieres-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-sprite-victoire-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-stars-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-suites-question-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-image-tambours-ecoute-0001` — unknown · forbidden · Autorisation non établie.
@@ -3164,17 +3164,17 @@
 - `asset-image-tictac-192-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-tictac-512-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-traits-animations-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-traits-animations-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-traits-animations-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-traits-animations-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-traits-animations-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-traits-animations-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-traits-animations-jeu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-traits-animations-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-traits-animations-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-tutoriel-apercu-2x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-tutoriel-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-tutoriel-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-tutoriel-apercu-3x-0001` — unknown · forbidden · Planche entière réservée.
-- `asset-image-tutoriel-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-image-tutoriel-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-image-tutu-arriere-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-tutu-arriere-3-4-droit-0001` — unknown · forbidden · Planche entière réservée.
 - `asset-image-tutu-arriere-3-4-gauche-0001` — unknown · forbidden · Planche entière réservée.
@@ -3234,9 +3234,9 @@
 - `asset-image-volcano-0002` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-zen-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-image-zen-0002` — MIT · allowed · Licence et preuve enregistrées.
-- `asset-sprite-accueil-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-aide-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-aide-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-accueil-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-aide-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-aide-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-amanite-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-amanite-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-amanite-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3294,9 +3294,9 @@
 - `asset-sprite-amanite-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-amanite-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-anneau-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-anneau-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-anneau-argent-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-anneau-etoiles-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-anneau-etoiles-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-araignee-grotte-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-araignee-grotte-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-araignee-grotte-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3409,21 +3409,21 @@
 - `asset-sprite-arbre-vivant-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-arbre-vivant-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-arbre-vivant-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-armoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-armoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-armure-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-aubepin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bac-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bac-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bac-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-baignoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-balayette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bac-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bac-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bac-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-baignoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-balayette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-pm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-barre-progression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-barre-pv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-barre-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bas-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-barre-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bas-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bete-ecarlate-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bibliotheque-arche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bibliotheque-arche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-blob-vert-4directions-bas-attaqu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3578,16 +3578,16 @@
 - `asset-sprite-blobs-variantes-vert-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bloc-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bloc-pousser-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-carton-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-fleurie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-poignee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-pois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-rayee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-sdb-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-sdb-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-sdb-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-carton-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-fleurie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-poignee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-pois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-rayee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-sdb-peche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boite-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-borin-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-borin-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-borin-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3598,13 +3598,13 @@
 - `asset-sprite-borin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bottes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouclier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bougie-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bougie-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bougie-ruban-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bougie-verre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-ruban-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bougie-verre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boule-de-feu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-boule-de-feu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bouquet-blanc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bouquet-blanc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bourse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouton-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouton-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3613,267 +3613,267 @@
 - `asset-sprite-bouton-non-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouton-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-bouton-oui-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boutons-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-boutons-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-brosse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-annuler-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-indice-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-jouer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-recommencer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-refaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-btn-reglages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-bureau-chaise-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cactus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boutons-bas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-boutons-haut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-brosse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-accueil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-annuler-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-indice-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-jouer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-recommencer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-refaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-btn-reglages-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-bureau-chaise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cactus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cadre-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-chat-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-collines-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-montagne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-paysage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-suspendu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cadre-tulipe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-canape-jaune-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-canape-plaid-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-canard-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-accueil-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-accueil-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-aide-commandes-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-aide-commandes-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-aide-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-aide-menus-origine-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0007` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-apercu-0008` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-animations-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-anneau-apercu-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-anneau-apercu-cadr-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-anneau-etoiles-eff-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-anneau-etoiles-eff-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-bas-commandes-orig-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-bas-commandes-orig-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-cascade-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-cascade-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-cascade-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-cascade-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-case-sombre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-case-sombre-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-case-sombre-jeu-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-case-sombre-jeu-ca-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-composants-maquett-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-composants-maquett-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-defaite-bannieres-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-defaite-bannieres-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-defaite-messages-a-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-defaite-messages-a-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-dialogue-panneaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-dialogue-panneaux-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-droite-commandes-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-droite-commandes-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-eclat-effets-origi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-eclat-effets-origi-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-erlenmeyer-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-erlenmeyer-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etincelles-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etincelles-apercu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etoile-objets-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etoile-objets-aper-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etoile-objets-orig-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-etoile-objets-orig-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-apercu-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-apercu-c-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-effets-j-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-effets-j-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-effets-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-explosion-effets-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-bleue-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-bleue-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-jaune-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-jaune-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-rouge-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fiole-rouge-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fioles-trio-objets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fioles-trio-objets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-chute-fanto-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-chute-fanto-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-descente-je-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-descente-je-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-rotation-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-rotation-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-verrouillag-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fleche-verrouillag-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fumee-effets-jeu-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fumee-effets-jeu-c-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fumee-effets-origi-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-fumee-effets-origi-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-gauche-commandes-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-gauche-commandes-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-gestes-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-gestes-gestes-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-grille-fonds-aperc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-grille-fonds-aperc-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-impact-apercu-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-impact-apercu-cadr-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-jouer-commandes-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-jouer-commandes-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-jouer-menus-origin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-jouer-menus-origin-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-laboratoire-fonds-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-laboratoire-fonds-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-lecture-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-lecture-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-lecture-commandes-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-lecture-commandes-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-legende-clavier-ge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-legende-clavier-ge-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-logo-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-logo-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-logo-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-logo-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-mode-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-mode-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-niveau-plus-comman-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-niveau-plus-comman-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-double-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-double-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-simple-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-simple-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-triple-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-notation-triple-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-nuage-apercu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-nuage-apercu-cadre-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-options-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-options-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-options-menus-orig-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-options-menus-orig-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paillasse-fond-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paillasse-fond-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-horizontale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-horizontale-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-horizontale-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-horizontale-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-paires-verticale-o-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneau-niveau-hud-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneau-niveau-hud-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneau-score-hud-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneau-score-hud-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneaux-panneaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-panneaux-panneaux-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-dorees-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-dorees-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-effets-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-effets-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-rouges-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-particules-rouges-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-bannieres-je-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-bannieres-je-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-commandes-ap-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-commandes-ap-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-commandes-or-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-commandes-or-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-messages-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pause-messages-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-2x-0007` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-pieces-origine-3x-0007` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-2x-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-apercu-3x-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-2x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plateau-jeu-3x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plein-ecran-comman-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-plein-ecran-comman-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-porte-eprouvettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-porte-eprouvettes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-porte-eprouvettes-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-porte-eprouvettes-0004` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-quitter-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-quitter-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-quitter-menus-orig-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-quitter-menus-orig-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-reacteur-fonds-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-reacteur-fonds-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-recommencer-comman-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-recommencer-comman-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-reglages-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-reglages-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-rotation-commandes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-rotation-commandes-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-satellite-effets-o-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-satellite-effets-o-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-touches-action-ges-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-touches-action-ges-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-touches-horizontal-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-touches-horizontal-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-chute-aper-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-chute-aper-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-chute-jeu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-deplacemen-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-deplacemen-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-longue-chu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-longue-chu-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-verrouilla-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trainee-verrouilla-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trophee-objets-ape-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trophee-objets-ape-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trophee-objets-ori-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-trophee-objets-ori-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-victoire-bannieres-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-victoire-bannieres-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-victoire-messages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-capsule-panic-victoire-messages-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-chat-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-collines-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-montagne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-paysage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-suspendu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cadre-tulipe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canape-jaune-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canape-plaid-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-canard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-accueil-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-accueil-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-aide-commandes-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-aide-commandes-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-aide-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-aide-menus-origine-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-apercu-0008` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-animations-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-anneau-apercu-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-anneau-apercu-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-anneau-etoiles-eff-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-anneau-etoiles-eff-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-bas-commandes-orig-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-bas-commandes-orig-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-cascade-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-cascade-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-cascade-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-cascade-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-case-sombre-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-case-sombre-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-case-sombre-jeu-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-case-sombre-jeu-ca-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-composants-maquett-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-composants-maquett-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-defaite-bannieres-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-defaite-bannieres-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-defaite-messages-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-defaite-messages-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-dialogue-panneaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-dialogue-panneaux-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-droite-commandes-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-droite-commandes-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-eclat-effets-origi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-eclat-effets-origi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-erlenmeyer-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-erlenmeyer-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etincelles-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etincelles-apercu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etoile-objets-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etoile-objets-aper-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etoile-objets-orig-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-etoile-objets-orig-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-apercu-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-apercu-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-effets-j-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-effets-j-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-effets-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-explosion-effets-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-bleue-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-bleue-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-jaune-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-jaune-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-rouge-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fiole-rouge-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fioles-trio-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fioles-trio-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-chute-fanto-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-chute-fanto-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-descente-je-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-descente-je-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-rotation-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-rotation-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-verrouillag-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fleche-verrouillag-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fumee-effets-jeu-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fumee-effets-jeu-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fumee-effets-origi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-fumee-effets-origi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-gauche-commandes-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-gauche-commandes-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-gestes-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-gestes-gestes-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-grille-fonds-aperc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-grille-fonds-aperc-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-impact-apercu-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-impact-apercu-cadr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-jouer-commandes-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-jouer-commandes-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-jouer-menus-origin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-jouer-menus-origin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-laboratoire-fonds-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-laboratoire-fonds-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-lecture-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-lecture-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-lecture-commandes-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-lecture-commandes-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-legende-clavier-ge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-legende-clavier-ge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-logo-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-logo-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-logo-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-logo-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-mode-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-mode-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-niveau-plus-comman-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-niveau-plus-comman-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-double-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-double-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-simple-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-simple-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-triple-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-notation-triple-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-nuage-apercu-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-nuage-apercu-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-options-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-options-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-options-menus-orig-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-options-menus-orig-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paillasse-fond-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paillasse-fond-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-horizontale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-horizontale-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-horizontale-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-horizontale-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-paires-verticale-o-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneau-niveau-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneau-niveau-hud-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneau-score-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneau-score-hud-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneaux-panneaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-panneaux-panneaux-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-dorees-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-dorees-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-effets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-effets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-rouges-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-particules-rouges-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-bannieres-je-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-bannieres-je-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-commandes-ap-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-commandes-ap-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-commandes-or-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-commandes-or-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-messages-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pause-messages-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-2x-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-pieces-origine-3x-0007` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-2x-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-apercu-3x-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-2x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plateau-jeu-3x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plein-ecran-comman-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-plein-ecran-comman-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-porte-eprouvettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-porte-eprouvettes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-porte-eprouvettes-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-porte-eprouvettes-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-quitter-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-quitter-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-quitter-menus-orig-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-quitter-menus-orig-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-reacteur-fonds-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-reacteur-fonds-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-recommencer-comman-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-recommencer-comman-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-reglages-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-reglages-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-rotation-commandes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-rotation-commandes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-satellite-effets-o-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-satellite-effets-o-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-touches-action-ges-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-touches-action-ges-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-touches-horizontal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-touches-horizontal-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-chute-aper-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-chute-aper-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-chute-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-chute-jeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-deplacemen-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-deplacemen-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-longue-chu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-longue-chu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-verrouilla-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trainee-verrouilla-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trophee-objets-ape-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trophee-objets-ape-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trophee-objets-ori-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-trophee-objets-ori-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-2x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-tutoriel-apercu-3x-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-victoire-bannieres-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-victoire-bannieres-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-victoire-messages-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-capsule-panic-victoire-messages-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-carte-monde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-carton-ferme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-carton-ouvert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-carton-ferme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-carton-ouvert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-case-inventaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-case-sombre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-case-sombre-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-case-tampon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-case-sombre-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-case-sombre-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-case-tampon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-case-tampon-aide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3930,12 +3930,12 @@
 - `asset-sprite-cepe-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cepe-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-chaise-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chaise-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-champignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-champignon-mignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-champignon-mignon-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-chat-dort-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-chat-dort-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chat-dort-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-chat-dort-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chaudron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chauve-souris-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chauve-souris-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -3999,14 +3999,14 @@
 - `asset-sprite-chauve-souris-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chauve-souris-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-chauve-souris-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cheminee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-choix-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-choix-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-choix-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-choix-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cheminee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-chambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-cuisine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-choix-salon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-coche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cloche-lumineuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coffre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coffre-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-coffre-mimic-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4015,194 +4015,194 @@
 - `asset-sprite-commande-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-commande-fuite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-commande-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-commode-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-commode-miel-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commode-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-commode-miel-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-competence-etincelle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-competence-griffe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-competence-protection-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-competence-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cotons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-coussin-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-coussin-patte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-coussins-duo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-armoire-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bac-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bac-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bac-osier-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-baignoire-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-balayette-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-barre-sdb-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bibliotheque-arch-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-carton-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-creme-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-fleurie-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-poignee-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-pois-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-rayee-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-sdb-bois-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-sdb-creme-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-sdb-peche-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bougie-pot-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bougie-rose-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bougie-ruban-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bougie-verre-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bouquet-blanc-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boutons-bas-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-boutons-haut-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-brosse-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-accueil-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-annuler-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-indice-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-jouer-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-recommencer-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-refaire-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-btn-reglages-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-bureau-chaise-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cactus-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-chat-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-collines-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-feuille-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-montagne-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-paysage-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-suspendu-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cadre-tulipe-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-canape-jaune-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-canape-plaid-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-canard-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-carton-ferme-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-carton-ouvert-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-case-tampon-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-chaise-bois-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-chat-dort-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-chat-dort-rose-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cheminee-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-choix-chambre-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-choix-cuisine-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-choix-salle-de-ba-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-choix-salon-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-coche-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-commode-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-commode-miel-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-cotons-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-coussin-creme-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-coussin-patte-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-coussins-duo-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-desserte-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-diffuseur-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-douche-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-eponge-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etagere-bougies-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etagere-livres-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etagere-murale-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etagere-plante-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etagere-sdb-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-droite-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-milieu-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-sdb-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-sdb-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-etoile-sdb-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-evier-vert-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-fauteuil-fleur-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-fauteuil-rose-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-fauteuil-terracot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-fauteuil-vert-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-flacon-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-flacon-creme-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-flacon-pompe-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-flacon-rose-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-fleur-douche-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-frigo-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-gobelet-brosses-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-gueridon-livre-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-guirlande-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-hortensias-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lampadaire-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lampe-chevet-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lampe-table-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lanterne-maison-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lapin-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lavabo-miroir-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lave-linge-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-liseuse-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lit-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-lit-vichy-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-livres-pile-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-livres-plante-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-livres-trio-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-macrame-cadre-liv-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-meuble-tele-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-miroir-rond-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-monstera-coeur-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-monstera-panier-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-mouchoirs-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-mur-fenetre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-ours-cadre-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-ours-panier-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panier-anse-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panier-anses-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panier-linge-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panier-osier-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panneau-quotas-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-papier-rouleaux-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-peigne-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-peignoir-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-pese-personne-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-petit-cadre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-plaid-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-plante-blanche-ca-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-plante-panier-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-plante-pot-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-pot-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-pot-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-pouf-rose-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-rasoir-cadre-livr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-rideau-douche-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-seche-cheveux-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sels-peche-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sels-roses-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-serviette-anneau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-serviette-barre-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-serviettes-pile-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-bleu-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-carreaux-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-chevrons-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-creme-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-fleuri-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-lattes-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-moquette-cadr-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-parquet-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-sol-vert-cadre-li-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-suspension-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-table-ronde-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-bleu-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-bouclette-c-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-feuille-cad-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-fleur-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-nuage-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-ovale-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-pieds-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-rond-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tapis-vichy-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-titre-salle-de-ba-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-toilettes-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tournesols-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-tube-creme-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-vaisselier-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-vue-chambre-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cotons-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussin-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussin-patte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-coussins-duo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-armoire-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-bleu-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-creme-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bac-osier-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-baignoire-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-balayette-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-barre-progression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-barre-sdb-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bibliotheque-arch-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-carton-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-creme-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-fleurie-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-poignee-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-pois-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-rayee-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-bois-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-creme-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-sdb-peche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boite-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-pot-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-rose-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-ruban-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bougie-verre-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bouquet-blanc-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boutons-bas-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-boutons-haut-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-brosse-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-accueil-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-annuler-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-indice-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-jouer-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-recommencer-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-refaire-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-btn-reglages-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-bureau-chaise-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cactus-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-chat-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-collines-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-feuille-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-montagne-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-paysage-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-suspendu-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cadre-tulipe-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canape-jaune-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canape-plaid-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-canard-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-carton-ferme-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-carton-ouvert-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-case-tampon-aide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-case-tampon-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chaise-bois-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chat-dort-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-chat-dort-rose-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cheminee-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-chambre-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-cuisine-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-salle-de-ba-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-choix-salon-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cloche-lumineuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coche-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-commode-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-commode-miel-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-cotons-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussin-creme-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussin-patte-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-coussins-duo-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-desserte-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-diffuseur-bambou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-diffuseur-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-douche-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-eponge-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-bougies-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-livres-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-murale-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-plante-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etagere-sdb-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-droite-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-milieu-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-etoile-sdb-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-evier-vert-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-fleur-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-rose-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-terracot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fauteuil-vert-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-bleu-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-creme-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-pompe-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-flacon-rose-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-fleur-douche-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-frigo-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gobelet-brosses-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gueridon-livre-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-gueridon-tasse-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-guirlande-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-hortensias-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampadaire-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampe-chevet-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lampe-table-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lanterne-maison-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lapin-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lavabo-miroir-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lave-linge-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-liseuse-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lit-bleu-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-lit-vichy-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-pile-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-plante-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-livres-trio-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-macrame-cadre-liv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-meuble-tele-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-miroir-rond-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-monstera-coeur-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-monstera-panier-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-mouchoirs-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-mur-fenetre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-ours-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-ours-panier-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-anse-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-anses-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-linge-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-osier-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panier-serviette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-panneau-quotas-sd-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-papier-rouleaux-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-peigne-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-peignoir-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pese-personne-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-petit-cadre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plaid-bleu-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-blanche-ca-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-panier-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-plante-pot-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-porte-serviettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pot-bleu-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pot-creme-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-pouf-rose-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-rasoir-cadre-livr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-rideau-douche-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-seche-cheveux-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sels-peche-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sels-roses-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviette-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviette-barre-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-serviettes-pile-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-bleu-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-carreaux-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-chevrons-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-creme-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-fleuri-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-lattes-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-moquette-cadr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-parquet-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-sol-vert-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-suspension-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-table-ronde-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-bleu-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-bouclette-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-feuille-cad-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-fleur-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-nuage-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-ovale-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-pieds-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-rond-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tapis-vichy-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-titre-salle-de-ba-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-toilettes-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tournesols-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-tube-creme-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vaisselier-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-chambre-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-cuisine-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-cozy-room-sort-vue-salon-cadre-l-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cristal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cristal-socle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-cuisine-couverts-vue-1-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
@@ -4239,9 +4239,9 @@
 - `asset-sprite-cuisine-torchon-vue-4-0001` — CC0-1.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dalle-mousse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dalles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-defaite-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-defaite-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-desserte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-defaite-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-defaite-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-desserte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4298,49 +4298,49 @@
 - `asset-sprite-diable-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-diable-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-dialogue-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-diffuseur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-dialogue-panneaux-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diffuseur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-diffuseur-bambou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-dragon-violet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-droite-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-eclat-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-droite-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-eclat-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-eclat-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-epee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-eponge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-erlenmeyer-objets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etagere-bougies-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etagere-livres-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etagere-murale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etagere-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etagere-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etincelles-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-sdb-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-etoile-sdb-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-evier-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-explosion-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-explosion-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-explosion-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fauteuil-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fauteuil-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fauteuil-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fauteuil-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-eponge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-erlenmeyer-objets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-bougies-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-livres-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-murale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etagere-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etincelles-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-etoile-sdb-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-evier-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-explosion-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-explosion-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-explosion-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-fleur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fauteuil-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-feuille-doree-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fiole-bleue-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fiole-jaune-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fiole-rouge-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fioles-trio-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-flacon-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-flacon-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-flacon-pompe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-flacon-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fiole-bleue-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fiole-jaune-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fiole-rouge-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fioles-trio-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-pompe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-flacon-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-orange-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4348,12 +4348,12 @@
 - `asset-sprite-flamme-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-verte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-flamme-violette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleche-chute-fantome-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleche-descente-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleche-rotation-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleche-verrouillage-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fleche-chute-fantome-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fleche-descente-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fleche-rotation-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fleche-verrouillage-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fleur-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fleur-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fleur-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-florifeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fond-campement-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fond-combat-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4361,13 +4361,13 @@
 - `asset-sprite-fond-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fond-temple-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-fond-village-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-frigo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fumee-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-fumee-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-gauche-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-gestes-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-frigo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fumee-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-fumee-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gauche-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gestes-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-givreloup-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-gobelet-brosses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gobelet-brosses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-golem-glace-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-golem-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-golem-pierre-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4448,7 +4448,7 @@
 - `asset-sprite-golem-pierre-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-golemice-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-grille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-grille-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-grille-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-grimoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-guepe-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-guepe-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4511,14 +4511,14 @@
 - `asset-sprite-guepe-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-guepe-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-guepe-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-gueridon-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-gueridon-tasse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-guirlande-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-hortensias-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-impact-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gueridon-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-gueridon-tasse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-guirlande-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-hortensias-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-impact-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-interrupteur-mural-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-jouer-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-jouer-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-jouer-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-jouer-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4575,20 +4575,20 @@
 - `asset-sprite-koala-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-laboratoire-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lampadaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lampe-chevet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lampe-table-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-laboratoire-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lampadaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lampe-chevet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lampe-table-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lanterne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lanterne-maison-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lanterne-maison-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lapin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lapin-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lapin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lapin-aile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lavabo-miroir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lave-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lecture-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lecture-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-legende-clavier-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lavabo-miroir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lave-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lecture-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lecture-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-legende-clavier-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-levier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lila-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lila-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4599,16 +4599,16 @@
 - `asset-sprite-lila-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lila-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-lila-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-liseuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lit-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-lit-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-liseuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lit-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-lit-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-livres-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-livres-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-livres-trio-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-livres-pile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-livres-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-livres-trio-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-logo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-loup-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-macrame-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-macrame-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mage-sombre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-meduse-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-meduse-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -4690,18 +4690,18 @@
 - `asset-sprite-metier-mage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-metier-pretre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-metier-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-meuble-tele-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-meuble-tele-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mini-borin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mini-lila-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mini-nox-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mini-pestouille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-minicarte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-miroir-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-monstera-coeur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-monstera-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-miroir-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-monstera-coeur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-monstera-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mossling-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-mossling-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-mouchoirs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mouchoirs-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-moustique-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-moustique-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-moustique-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -5382,11 +5382,11 @@
 - `asset-sprite-ms-tank-tir-missile-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-ms-tank-tir-missile-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-ms-tank-tir-missile-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-mur-fenetre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-niveau-plus-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-notation-double-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-notation-simple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-notation-triple-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-mur-fenetre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-niveau-plus-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-notation-double-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-notation-simple-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-notation-triple-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -5396,38 +5396,38 @@
 - `asset-sprite-nox-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-nox-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-nuage-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-nuage-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-oiseau-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-options-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-options-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-ours-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-ours-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-paillasse-fond-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panier-anse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panier-anses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panier-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panier-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-options-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-options-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-ours-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-ours-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-paillasse-fond-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-anse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-anses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panier-serviette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-panneau-dialogue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneau-niveau-hud-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneau-quotas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneau-quotas-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneau-score-hud-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-panneaux-panneaux-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-papier-rouleaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-niveau-hud-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-quotas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-quotas-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneau-score-hud-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-panneaux-panneaux-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-papier-rouleaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-parchemin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-parchemin-quete-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-particules-dorees-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-particules-effets-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-particules-rouges-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pause-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pause-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pause-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pause-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-peigne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-peignoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pese-personne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-particules-dorees-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-particules-effets-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-particules-rouges-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pause-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pause-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pause-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pause-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-peigne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-peignoir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pese-personne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-4directions-bas-attaq-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-4directions-bas-attaq-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-4directions-bas-attaq-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6299,7 +6299,7 @@
 - `asset-sprite-pestouille-vol-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-vol-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-vol-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-petit-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-petit-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6356,11 +6356,11 @@
 - `asset-sprite-pieuvre-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pieuvre-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plaid-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plante-blanche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plaid-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-blanche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-buisson-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plante-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plante-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plante-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-verte-4directions-bas-att-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-verte-4directions-bas-att-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plante-verte-4directions-bas-att-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6522,7 +6522,7 @@
 - `asset-sprite-plantes-variantes-verte-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plantes-variantes-verte-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plaque-pression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-plein-ecran-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-plein-ecran-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plume-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-plumir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pnj-boulanger-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6534,13 +6534,13 @@
 - `asset-sprite-pnj-villageois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pnj-villageoise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pont-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-porte-eprouvettes-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-porte-eprouvettes-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-porte-eprouvettes-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-porte-eprouvettes-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-porte-serviettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-portrait-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pot-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pot-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pot-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pot-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-potion-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-potion-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-poubelle-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6599,13 +6599,13 @@
 - `asset-sprite-poubelle-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-poubelle-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-poubelle-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-pouf-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-quitter-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-quitter-menus-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-rasoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-reacteur-fonds-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-recommencer-commandes-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-reglages-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pouf-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-quitter-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-quitter-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-rasoir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-reacteur-fonds-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-recommencer-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-reglages-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6667,7 +6667,7 @@
 - `asset-sprite-requin-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-requin-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-rideau-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-rideau-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-robot-bas-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-robot-bas-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-robot-bas-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6730,27 +6730,27 @@
 - `asset-sprite-robot-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-robot-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-rotation-commandes-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-rotation-commandes-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sanglier-brun-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sanglier-brun-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sanglier-epineux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sanglieron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-satellite-effets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-seche-cheveux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sels-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sels-roses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-serviette-anneau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-serviette-barre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-serviettes-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-carreaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-chevrons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-fleuri-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-lattes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-moquette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-parquet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sol-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-satellite-effets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-seche-cheveux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sels-peche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sels-roses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviette-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviette-barre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-serviettes-pile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-carreaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-chevrons-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-lattes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-moquette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-parquet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sol-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-souche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-accueil-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-accueil-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
@@ -6766,29 +6766,29 @@
 - `asset-sprite-sprite-anneau-argent-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-anneau-etoiles-effets-ori-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-anneau-etoiles-effets-ori-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-armoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-armoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-armure-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-armure-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-aubepin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-aubepin-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bac-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bac-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bac-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-baignoire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-balayette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bac-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bac-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bac-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-baignoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-balayette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-barre-partie-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-partie-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-pm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-barre-pm-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-barre-progression-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-barre-progression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-barre-pv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-barre-pv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-barre-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-barre-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bas-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bas-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bete-ecarlate-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bete-ecarlate-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bibliotheque-arche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bibliotheque-arche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bloc-bleu-plateau-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-bleu-plateau-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-bleu-plateau-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -6805,16 +6805,16 @@
 - `asset-sprite-sprite-bloc-rouge-plateau-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-rouge-plateau-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-rouge-plateau-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-boite-carton-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-fleurie-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-poignee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-pois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-rayee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-sdb-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-sdb-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-sdb-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boite-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-carton-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-fleurie-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-poignee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-pois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-rayee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-sdb-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-sdb-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-sdb-peche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boite-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-borin-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-borin-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-borin-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6835,15 +6835,15 @@
 - `asset-sprite-sprite-bottes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bouclier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bouclier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bougie-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bougie-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bougie-ruban-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bougie-verre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bougie-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bougie-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bougie-ruban-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bougie-verre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boule-de-feu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boule-de-feu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boule-de-feu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boule-de-feu-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouquet-blanc-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bouquet-blanc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bourse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bourse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bouton-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6860,49 +6860,49 @@
 - `asset-sprite-sprite-bouton-objet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bouton-oui-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bouton-oui-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boutons-bas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boutons-haut-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-brosse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-accueil-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-annuler-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-indice-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-jouer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-recommencer-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-refaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-btn-reglages-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bureau-chaise-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cactus-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-chat-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-collines-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-montagne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boutons-bas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boutons-haut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-brosse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-accueil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-annuler-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-indice-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-jouer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-recommencer-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-refaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-btn-reglages-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bureau-chaise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cactus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-chat-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-collines-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-montagne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cadre-niveau-compteurs-ma-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-niveau-compteurs-ma-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-niveau-compteurs-ma-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-niveau-compteurs-ma-0004` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-cadre-niveau-compteurs-ma-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-niveau-compteurs-ma-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-paysage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-niveau-compteurs-ma-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-niveau-compteurs-ma-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-paysage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cadre-score-compteurs-maq-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-score-compteurs-maq-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-score-compteurs-maq-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-score-compteurs-maq-0004` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-cadre-score-compteurs-maq-0005` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-score-compteurs-maq-0006` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-score-compteurs-maq-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-score-compteurs-maq-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cadre-statistiques-reussi-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cadre-statistiques-reussi-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-cadre-statistiques-reussi-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-suspendu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cadre-tulipe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-canape-jaune-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-canape-plaid-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-canard-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-statistiques-reussi-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-suspendu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cadre-tulipe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-canape-jaune-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-canape-plaid-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-canard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-carte-classique-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-carte-classique-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-carte-monde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-carte-monde-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-carton-ferme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-carton-ouvert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-carton-ferme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-carton-ouvert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cascade-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cascade-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-inventaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6911,8 +6911,8 @@
 - `asset-sprite-sprite-case-sombre-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-sombre-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-sombre-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-case-tampon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-case-tampon-aide-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-case-tampon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-case-tampon-aide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cellule-ambre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cellule-ambre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cellule-cyan-0001` — unknown · forbidden · Autorisation non établie.
@@ -6921,35 +6921,35 @@
 - `asset-sprite-sprite-cellule-fantome-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cellule-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cellule-magenta-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-chaise-bois-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-chaise-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-mignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-mignon-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-mignon-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-champignon-mignon-evolue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chat-dort-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chat-dort-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-chat-dort-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-chat-dort-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chaudron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chaudron-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chauve-souris-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chauve-souris-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cheminee-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cheminee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chercheuse-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chercheuse-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-chercheuse-origine-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-choix-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-choix-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-choix-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-choix-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-chercheuse-origine-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-choix-chambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-choix-cuisine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-choix-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-choix-salon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chute-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chute-animations-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chute-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chute-animations-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cloche-lumineuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cloche-lumineuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-coche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coffre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coffre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coffre-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6966,8 +6966,8 @@
 - `asset-sprite-sprite-commande-fuite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-commande-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-commande-objet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commode-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commode-miel-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-commode-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-commode-miel-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-competence-etincelle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-competence-etincelle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-competence-griffe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6976,13 +6976,13 @@
 - `asset-sprite-sprite-competence-protection-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-competence-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-competence-souffle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cotons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coussin-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coussin-patte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coussins-duo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cotons-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-coussin-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-coussin-patte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-coussins-duo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-credits-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-credits-accueil-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-credits-accueil-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-credits-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cristal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cristal-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cristal-ambre-0001` — unknown · forbidden · Autorisation non établie.
@@ -7021,12 +7021,12 @@
 - `asset-sprite-sprite-deplacement-animations-ap-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-deplacement-animations-je-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-deplacement-animations-je-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-desserte-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-desserte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-dialogue-panneaux-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-dialogue-panneaux-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-diffuseur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-diffuseur-bambou-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-diffuseur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-diffuseur-bambou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-dragon-violet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-dragon-violet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-droite-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
@@ -7037,37 +7037,37 @@
 - `asset-sprite-sprite-eclat-givre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-epee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-epee-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-eponge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-eponge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-erlenmeyer-objets-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-erlenmeyer-objets-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-etagere-bougies-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etagere-livres-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etagere-murale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etagere-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etagere-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etagere-bougies-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etagere-livres-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etagere-murale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etagere-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etagere-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-etincelles-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etincelles-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-etoile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etoile-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etoile-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-etoile-objets-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etoile-objets-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etoile-objets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etoile-objets-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-etoile-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etoile-sdb-droite-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-etoile-sdb-milieu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-evier-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-sdb-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etoile-sdb-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-evier-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-explosion-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-effets-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-effets-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-effets-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-fauteuil-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fauteuil-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fauteuil-terracotta-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fauteuil-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fauteuil-fleur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fauteuil-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fauteuil-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fauteuil-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-feuille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-feuille-doree-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7080,13 +7080,13 @@
 - `asset-sprite-sprite-fiole-rouge-objets-origin-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fioles-sous-logo-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fioles-sous-logo-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-fioles-sous-logo-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fioles-sous-logo-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fioles-trio-objets-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fioles-trio-objets-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-flacon-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flacon-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flacon-pompe-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flacon-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-flacon-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-flacon-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-flacon-pompe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-flacon-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-flamme-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-flamme-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-flamme-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7109,15 +7109,15 @@
 - `asset-sprite-sprite-fleche-rotation-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-bas-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-bas-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-fleche-rotation-bas-jeu-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fleche-rotation-bas-jeu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fleche-rotation-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-fleche-rotation-jeu-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fleche-rotation-jeu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fleche-verrouillage-aperc-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-verrouillage-aperc-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleur-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fleur-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fleur-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fleur-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-florifeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-florifeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fond-campement-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7132,7 +7132,7 @@
 - `asset-sprite-sprite-fond-temple-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fond-village-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fond-village-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-frigo-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-frigo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fumee-effets-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fumee-effets-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fumee-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
@@ -7143,7 +7143,7 @@
 - `asset-sprite-sprite-gestes-gestes-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-givreloup-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-givreloup-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-gobelet-brosses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-gobelet-brosses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-golem-glace-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-golem-glace-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-golem-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7156,36 +7156,36 @@
 - `asset-sprite-sprite-grille-fonds-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-grimoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-grimoire-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-gueridon-livre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-gueridon-tasse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-guirlande-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-hortensias-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-gueridon-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-gueridon-tasse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-guirlande-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-hortensias-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-impact-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-impact-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-interrupteur-mural-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-interrupteur-mural-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-jouer-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-jouer-accueil-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-jouer-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-jouer-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-menus-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-menus-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-laboratoire-fonds-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-laboratoire-fonds-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-lampadaire-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lampe-chevet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lampe-table-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lampadaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lampe-chevet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lampe-table-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lanterne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lanterne-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lanterne-maison-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lapin-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lanterne-maison-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lapin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lapin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lapin-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lapin-aile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lapin-aile-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lavabo-miroir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lave-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lavabo-miroir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lave-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lecture-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-lecture-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-lecture-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
@@ -7196,7 +7196,7 @@
 - `asset-sprite-sprite-levier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-ligne-elimination-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ligne-elimination-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-ligne-elimination-apercu-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-ligne-elimination-apercu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lila-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lila-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lila-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7215,14 +7215,14 @@
 - `asset-sprite-sprite-lila-face-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lila-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lila-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-liseuse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lit-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lit-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-liseuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lit-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lit-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-livres-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-livres-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-livres-trio-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-livres-pile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-livres-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-livres-trio-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-logo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-logo-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-logo-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7231,7 +7231,7 @@
 - `asset-sprite-sprite-logo-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-loup-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-loup-givre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-macrame-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-macrame-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mage-sombre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mage-sombre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-medaillon-cellule-0001` — unknown · forbidden · Autorisation non établie.
@@ -7250,7 +7250,7 @@
 - `asset-sprite-sprite-menu-quetes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-menu-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-menu-reussite-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-menu-reussite-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-menu-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-metier-alchimiste-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-metier-alchimiste-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-metier-artisan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7267,7 +7267,7 @@
 - `asset-sprite-sprite-metier-pretre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-metier-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-metier-sage-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-meuble-tele-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-meuble-tele-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mini-borin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mini-borin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mini-lila-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7278,17 +7278,17 @@
 - `asset-sprite-sprite-mini-pestouille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-minicarte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-minicarte-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-miroir-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-miroir-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mode-classique-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-mode-classique-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-monstera-coeur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-monstera-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-monstera-coeur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-monstera-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mossling-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mossling-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mossling-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mossling-fleuri-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mouchoirs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mur-fenetre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-mouchoirs-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-mur-fenetre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-niveau-plus-commandes-ape-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-niveau-plus-commandes-ape-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-notation-double-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7321,13 +7321,13 @@
 - `asset-sprite-sprite-oiseau-dore-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-options-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-accueil-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-options-accueil-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-options-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-options-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-menus-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-menus-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-ours-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-ours-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-ours-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-ours-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-paillasse-fond-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-paillasse-fond-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-paire-horizontale-cyan-am-0001` — unknown · forbidden · Autorisation non établie.
@@ -7342,28 +7342,28 @@
 - `asset-sprite-sprite-paire-verticale-cyan-mage-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-paire-verticale-magenta-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-paire-verticale-magenta-a-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-panier-anse-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panier-anses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panier-linge-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panier-osier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panier-serviette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panier-anse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panier-anses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panier-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panier-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panier-serviette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-dialogue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-dialogue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-niveau-hud-origin-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-niveau-hud-origin-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-panneau-quotas-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-quotas-sdb-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-quotas-sdb-0002` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panneau-quotas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panneau-quotas-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panneau-quotas-sdb-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneau-score-hud-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-score-hud-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-suivant-partie-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-suivant-partie-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-panneau-suivant-partie-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panneau-suivant-partie-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panneaux-panneaux-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneaux-panneaux-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-papier-rouleaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-papier-rouleaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-parchemin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-parchemin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-parchemin-quete-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7382,9 +7382,9 @@
 - `asset-sprite-sprite-pause-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pause-messages-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pause-messages-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-peigne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-peignoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pese-personne-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-peigne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-peignoir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pese-personne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pestouille-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pestouille-attaque-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-attaque-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7607,13 +7607,13 @@
 - `asset-sprite-sprite-pestouille-vol-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pestouille-vol-c-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-vol-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-petit-cadre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plaid-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plante-blanche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-petit-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plaid-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plante-blanche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plante-buisson-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plante-buisson-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plante-panier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plante-pot-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plante-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plante-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plaque-pression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plaque-pression-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plein-ecran-commandes-ape-0001` — unknown · forbidden · Autorisation non établie.
@@ -7652,23 +7652,23 @@
 - `asset-sprite-sprite-porte-eprouvettes-objets-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-porte-eprouvettes-objets-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-porte-eprouvettes-objets-0004` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-porte-serviettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-porte-serviettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-portrait-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-portrait-hud-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pot-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pot-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pot-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pot-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pot-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-potion-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-potion-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-potion-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-potion-rouge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pouf-rose-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pouf-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-quitter-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-menus-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-menus-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-rasoir-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-rasoir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-reacteur-chambre-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-reacteur-chambre-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-reacteur-chambre-origine-0001` — unknown · forbidden · Autorisation non établie.
@@ -7683,11 +7683,11 @@
 - `asset-sprite-sprite-reglages-commandes-origin-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-rejouer-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-rejouer-reussite-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-rejouer-reussite-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-rejouer-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-responsable-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-responsable-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-responsable-origine-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-rideau-douche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-responsable-origine-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-rideau-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-roncier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-rotation-animations-aperc-0001` — unknown · forbidden · Autorisation non établie.
@@ -7698,7 +7698,7 @@
 - `asset-sprite-sprite-rotation-commandes-origin-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ruban-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ruban-reussite-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-ruban-reussite-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-ruban-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-sanglier-brun-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-sanglier-brun-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-sanglier-brun-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7709,54 +7709,54 @@
 - `asset-sprite-sprite-sanglieron-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-satellite-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-satellite-effets-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-seche-cheveux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-seche-cheveux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-segment-bleu-plateau-aper-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-segment-bleu-plateau-aper-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-segment-jaune-plateau-ape-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-segment-jaune-plateau-ape-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-segment-rouge-plateau-ape-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-segment-rouge-plateau-ape-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-sels-peche-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sels-roses-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-serviette-anneau-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-serviette-barre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-serviettes-pile-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-carreaux-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-chevrons-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-fleuri-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-lattes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-moquette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-parquet-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sol-vert-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sels-peche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sels-roses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-serviette-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-serviette-barre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-serviettes-pile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-carreaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-chevrons-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-lattes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-moquette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-parquet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sol-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-souche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-souche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-suivant-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-suivant-reussite-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-suivant-reussite-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-suspension-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-table-ronde-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-bouclette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-nuage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-ovale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-pieds-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tapis-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-suivant-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-suspension-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-table-ronde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-bouclette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-fleur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-nuage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-ovale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-pieds-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tapis-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-teleporteur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-teleporteur-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-titre-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-toilettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-titre-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-toilettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tonneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tonneau-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-touches-action-gestes-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-action-gestes-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-horizontales-gest-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-horizontales-gest-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-tournesols-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tournesols-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-trainee-chute-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-chute-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-chute-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7775,17 +7775,17 @@
 - `asset-sprite-sprite-trophee-objets-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trophee-objets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trophee-objets-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-tube-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tube-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tutoriel-aligner-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-aligner-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-tutoriel-aligner-0003` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tutoriel-aligner-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tutoriel-deplacer-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-deplacer-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-eliminer-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-eliminer-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-pivoter-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-tutoriel-pivoter-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-vaisselier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-vaisselier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-verrouillage-animations-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-verrouillage-animations-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-verrouillage-animations-j-0001` — unknown · forbidden · Autorisation non établie.
@@ -7794,21 +7794,21 @@
 - `asset-sprite-sprite-victoire-bannieres-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-victoire-messages-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-victoire-messages-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-vue-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-vue-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-vue-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-suspension-plante-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-table-ronde-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-bleu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-bouclette-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-feuille-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-fleur-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-nuage-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-ovale-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-pieds-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-rond-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tapis-vichy-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-vue-chambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-vue-cuisine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-vue-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-vue-salon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-suspension-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-table-ronde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-bouclette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-fleur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-nuage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-ovale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-pieds-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tapis-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-telephone-malicieux-bas-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-telephone-malicieux-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-telephone-malicieux-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7866,18 +7866,18 @@
 - `asset-sprite-telephone-malicieux-haut-marche-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-telephone-malicieux-haut-marche-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-teleporteur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-titre-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-toilettes-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-titre-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-toilettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tonneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-touches-action-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-touches-horizontales-gestes-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tournesols-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-chute-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-deplacement-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-longue-chute-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-touches-action-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-touches-horizontales-gestes-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tournesols-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trainee-chute-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trainee-chute-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trainee-deplacement-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trainee-longue-chute-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-trainee-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trainee-verrouillage-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trainee-verrouillage-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-troll-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-troll-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-troll-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7934,10 +7934,10 @@
 - `asset-sprite-troll-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-troll-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-troll-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trophee-objets-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-trophee-objets-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-tube-creme-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vaisselier-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trophee-objets-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-trophee-objets-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-tube-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vaisselier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-bas-blesse-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-bas-blesse-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7994,12 +7994,12 @@
 - `asset-sprite-vampire-haut-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-haut-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-vampire-haut-marche-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-victoire-bannieres-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-victoire-messages-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vue-chambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vue-cuisine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vue-salle-de-bain-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-vue-salon-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-victoire-bannieres-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-victoire-messages-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-chambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-cuisine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-vue-salon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-style-editeur-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-style-pilote-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-style-style-0001` — unknown · forbidden · Autorisation non établie.
@@ -8048,13 +8048,13 @@
 - `asset-svg-bambou-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-banc-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-bouee-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-carte-classique-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-carte-classique-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cascade-apercu-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cellule-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cellule-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cellule-ambre-unie-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cellule-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cellule-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cellule-cyan-unie-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cellule-fantome-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cellule-fantome-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cellule-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cellule-magenta-unie-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-chariot-fleurs-0001` — unknown · forbidden · Autorisation non établie.
@@ -8064,18 +8064,18 @@
 - `asset-svg-coffre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-coquillage-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-cristal-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cristal-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristal-brise-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristal-brise-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristal-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristal-brise-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristal-brise-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristal-brise-magenta-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cristal-cyan-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristal-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristal-luciole-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-cristal-magenta-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-cristaux-compteur-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristaux-compteur-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristaux-compteur-origine-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristaux-elimination-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-cristaux-hud-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristaux-compteur-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristaux-compteur-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristaux-compteur-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristaux-elimination-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-cristaux-hud-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-deplacement-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-deplacement-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-eglantine-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -8084,7 +8084,7 @@
 - `asset-svg-flammeche-vide-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-fronde-lianes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-game-icons-lorc-lorc-bloody-swor-0001` — CC-BY-3.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-glyphs-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-glyphs-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-graine-petard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-hublot-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-lanterne-0001` — unknown · forbidden · Autorisation non établie.
@@ -8092,12 +8092,12 @@
 - `asset-svg-logo-apercu-lettres-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-logo-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-logo-jeu-lettres-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-medaillon-cellule-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-medaillon-cellule-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-mode-classique-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-nenuphine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-nenuphine-lotus-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-nuage-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-paire-horizontale-cyan-ambre-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-paire-horizontale-cyan-ambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-paire-horizontale-cyan-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-paire-horizontale-magenta-ambre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-paire-verticale-cyan-ambre-0001` — unknown · forbidden · Autorisation non établie.
@@ -8110,8 +8110,8 @@
 - `asset-svg-pont-droite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-pont-gauche-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-pont-haut-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-svg-reacteur-chambre-apercu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-svg-reacteur-vide-jeu-0001` — CC-BY-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-reacteur-chambre-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-svg-reacteur-vide-jeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-svg-rocher-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-rotation-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-transformation-apercu-0001` — unknown · forbidden · Autorisation non établie.

@@ -20,7 +20,7 @@ PREUVE = {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplac
 # Les citations des preuves restent telles quelles ; les fiches CC BY 4.0 (Capsule, Cozy…) ne sont pas touchées.
 AUTEURS = (("David (dessin fourni par David", "Davy45270 (dessin fourni par David"),
            ("David (planche découpée", "Davy45270 (planche découpée"),
-           ("Davy45270", "Davy45270"))
+           )  # nom complet : retiré par scripts/dessins_davy45270.py (tools.publish.licenses.without_full_name)
 
 
 def migrer(noeud):

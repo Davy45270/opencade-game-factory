@@ -46,14 +46,14 @@ class AT08GardePublication(MondeScanne):
 
     def test_decoupe_prouvee_cc_by_passe(self):
         asset_id, a = self._decoupe_prouvee()
-        self.assertEqual(a.get("license"), "CC-BY-4.0")
+        self.assertEqual(a.get("license"), "CC-BY-SA-4.0")  # dessin de David : HL-538 7-3316 (CC-BY-4.0 avant le 24/11)
         self.assertTrue(a.get("licenseEvidence"), "une licence connue porte sa preuve")
         dest = self.monde.racine / "export-cc-by"
         r = self.ctl(C.cmd_publish([asset_id], "public", dest))
         self.exiger_code(r, C.OK)
         ecrits = [p for p in dest.rglob("*") if p.is_file()]
         self.assertTrue(ecrits, "l'export autorisé écrit le fichier et son manifeste")
-        self.assertTrue(any(C.contient_texte(p.read_text(encoding="utf-8", errors="replace"), "CC-BY-4.0")
+        self.assertTrue(any(C.contient_texte(p.read_text(encoding="utf-8", errors="replace"), "CC-BY-SA-4.0")
                             for p in ecrits if p.suffix in (".json", ".md", ".txt")),
                         "le manifeste d'export cite la licence (attribution CC BY)")
 

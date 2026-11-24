@@ -332,12 +332,12 @@ class SheetDiscovery:
             asset["provenance"]["type"] = "derived"
         if verified and trusted and not derived:
             asset["provenance"]["type"] = "original-sheet-cut"
-            licenses.assign(asset, "CC-BY-4.0", "provenance-file", ref, licenses.DAVID_DECISION)
+            licenses.assign(asset, *_david_cc_by_sa(ref))
         explicit = entry.get("licence")
-        if verified and explicit == licenses.DAVID_PRIVATE_SUPERSEDED:
-            license_id, _, decision_ref, decision = licenses.DAVID_CC_BY_SA
-            licenses.assign(asset, license_id, "provenance-file", f"{decision_ref} ; déclaration privée périmée : {ref}",
-                            decision)
+        # Une découpe vérifiée d'une planche de David est un dessin de David : 7-3316 remplace la licence que déclare
+        # un provenance.json antérieur (privée, ou CC-BY-4.0 du 19/11).
+        if verified and (explicit == licenses.DAVID_PRIVATE_SUPERSEDED or (trusted and explicit == "CC-BY-4.0")):
+            licenses.assign(asset, *_david_cc_by_sa(ref, f"déclaration périmée ({explicit})"))
             author = (source or {}).get("provenance", {}).get("author", "")
             if asset["provenance"].get("author", "unknown") == "unknown":
                 asset["provenance"]["author"] = (author if author.startswith(licenses.DAVID_ATTRIBUTION)
@@ -442,3 +442,10 @@ def _david_location(location):
 def _sheet_path(path):
     parts = PurePosixPath(path.casefold()).parts
     return any(p in {"planches", "sources"} for p in parts[:-1]) or bool(re.search("planche|sheet", parts[-1]))
+
+
+def _david_cc_by_sa(ref, why="découpe vérifiée d'une planche de David"):
+    """Arguments de `licenses.assign` pour un dessin de David (HL-538 7-3316). La méthode reste `provenance-file` :
+    un rescan remet la licence à zéro comme pour toute licence lue dans un provenance.json."""
+    license_id, _, decision_ref, decision = licenses.DAVID_CC_BY_SA
+    return license_id, "provenance-file", f"{decision_ref} ; {why} : {ref}", decision

@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-8127 assets · 570 planches · 75 jeux employant des assets · 11 sources · 10 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8127 assets · 570 planches · 75 jeux employant des assets · 11 sources · 9 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -103,8 +103,7 @@
 | Licence | Assets |
 |---|---|
 | [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
-| [CC-BY-4.0](licences/CC-BY-4.0.md) | 1386 |
-| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 3486 |
+| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 4872 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |

@@ -20,6 +20,6 @@ Rôle : game
 
 ## Licences des 1150 asset(s) employés
 
-- [CC-BY-4.0](../licences/CC-BY-4.0.md) : 623
+- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 623
 - [MIT](../licences/MIT.md) : 8
 - [unknown](../licences/unknown.md) : 519

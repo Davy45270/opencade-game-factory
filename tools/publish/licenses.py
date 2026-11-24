@@ -1,5 +1,6 @@
 """Décisions de licence fondées sur les documents du commit."""
 
+import hashlib
 import re
 import unicodedata
 
@@ -34,6 +35,75 @@ DAVID_ATTRIBUTION = "Davy45270"
 DAVID_CC_BY_SA = ("CC-BY-SA-4.0", "décision du propriétaire", "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
                   "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
                   f"décision du 2026-11-22. Attribution : « {DAVID_ATTRIBUTION} ». Texte : LICENSES/CC-BY-SA-4.0.txt.")
+# Le nom complet de David n'est écrit NULLE PART dans ce dépôt (décision de David, HL-538, 2026-11-24) : seule son
+# empreinte (SHA-256 du nom en minuscules, espaces réduits) permet de le reconnaître dans un fichier de jeu et de le
+# remplacer par l'attribution « Davy45270 ».
+DAVID_FULL_NAME_SHA256 = "9efb1b49516230ec43e0a70733f96c89fe110f1f1deafcb1cfe4eed528e48cec"
+_PRENOM_NOM = re.compile(r"(?i)\bdavid\s+[a-zà-öø-ÿ'-]+")
+
+
+def is_david_full_name(texte):
+    return hashlib.sha256(" ".join(str(texte).split()).lower().encode()).hexdigest() == DAVID_FULL_NAME_SHA256
+
+
+def without_full_name(texte):
+    """`texte` où le nom complet de David (casse et espaces ignorés) devient « Davy45270 »."""
+    return _PRENOM_NOM.sub(lambda m: DAVID_ATTRIBUTION if is_david_full_name(m.group(0)) else m.group(0), texte)
+
+
+def david_cc_by_sa(ref):
+    """Preuve 7-3316 d'un dessin de David ; `ref` garde la trace de la déclaration remplacée."""
+    _, _, decision_ref, decision = DAVID_CC_BY_SA
+    return {"method": "décision du propriétaire", "ref": f"{decision_ref} ; remplace : {ref}" if ref else decision_ref,
+            "decision": decision}
+
+
+def _sans_nom_complet(noeud):
+    if isinstance(noeud, str):
+        return without_full_name(noeud)
+    if isinstance(noeud, list):
+        return [_sans_nom_complet(v) for v in noeud]
+    if isinstance(noeud, dict):
+        return {k: _sans_nom_complet(v) for k, v in noeud.items()}
+    return noeud
+
+
+def is_david_drawing(asset):
+    """Dessin de David : attribué à Davy45270 (hors icônes dessinées par du code, sous la licence du code), ou licence
+    posée par la décision David du 19/11 (`DAVID_DECISION`), que 7-3316 remplace."""
+    author = str((asset.get("provenance") or {}).get("author", ""))
+    by_code = "dessinées par" in author and ("code" in author or "make-icons" in author)
+    evidence = asset.get("licenseEvidence") if isinstance(asset.get("licenseEvidence"), dict) else {}
+    return (author.startswith(DAVID_ATTRIBUTION) and not by_code) or evidence.get("decision") == DAVID_DECISION
+
+
+def david_drawing(asset):
+    """HL-538 7-3316 (2026-11-22, arbitrage du 2026-11-24) : TOUS les dessins de David sont CC-BY-SA-4.0, attribués à
+    « Davy45270 », jamais à son nom complet. Normalise une fiche en place (versions comprises) et la rend."""
+    clean = _sans_nom_complet(asset)
+    asset.clear()
+    asset.update(clean)
+    if not is_david_drawing(asset):
+        return asset
+    if (asset.get("provenance") or {}).get("author") in (None, "unknown"):
+        asset.setdefault("provenance", {})["author"] = DAVID_ATTRIBUTION
+
+    def walk(noeud):
+        if isinstance(noeud, dict):
+            if noeud.get("license") in ("CC-BY-4.0", DAVID_PRIVATE_SUPERSEDED):
+                old = noeud.get("licenseEvidence") if isinstance(noeud.get("licenseEvidence"), dict) else {}
+                noeud["license"] = "CC-BY-SA-4.0"
+                if "licenseEvidence" in noeud or noeud is asset:
+                    noeud["licenseEvidence"] = david_cc_by_sa(old.get("ref"))
+            for v in noeud.values():
+                walk(v)
+        elif isinstance(noeud, list):
+            for v in noeud:
+                walk(v)
+    walk(asset)
+    return asset
+
+
 DERIVABLE = {"CC-BY-4.0", "CC-BY-SA-4.0", "CC0-1.0", "MIT", "Apache-2.0", "ISC", "BSD-2-Clause",
              "BSD-3-Clause", "0BSD", "Unlicense", "Zlib"}
 

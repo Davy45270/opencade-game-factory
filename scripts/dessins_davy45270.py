@@ -16,7 +16,7 @@ def main(racine):
     compte = collections.Counter()
     for chemin in sorted((racine / "catalog").rglob("*.json")):
         texte = chemin.read_text(encoding="utf-8")
-        if licenses.DAVID_FULL_NAME not in texte and '"CC-BY-4.0"' not in texte:
+        if licenses.without_full_name(texte) == texte and '"CC-BY-4.0"' not in texte:
             continue
         avant = json.loads(texte)
         if not isinstance(avant, dict):
@@ -32,7 +32,7 @@ def main(racine):
             compte[f"{dossier}:fiches"] += 1
             if avant.get("license") != apres.get("license"):
                 compte[f"{dossier}:{avant.get('license')}->{apres.get('license')}"] += 1
-            if licenses.DAVID_FULL_NAME in texte:
+            if licenses.without_full_name(texte) != texte:
                 compte[f"{dossier}:nom_complet_retire"] += 1
     print(json.dumps(dict(sorted(compte.items())), ensure_ascii=False))
 

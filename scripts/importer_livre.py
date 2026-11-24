@@ -37,7 +37,7 @@ from pathlib import Path, PurePosixPath
 REG = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REG))
 from tools.core.catalog import write_json as _write_json  # noqa: E402
-from tools.publish.licenses import david_drawing  # noqa: E402
+from tools.publish.licenses import david_drawing, without_full_name  # noqa: E402
 
 
 def write_json(path, doc):
@@ -217,8 +217,8 @@ PROFILS = {
                                   "ref": "capsule-panic ea68eeb scripts/assets-runtime.py (" + source + ") ; "
                                          "rejeu du 2026-11-22 à ea68eeb : octets identiques ; packages/assets/LICENCES.md "
                                          "(sprites CC BY 4.0, Davy45270) ; HL-538",
-                                  "decision": "Image produite par le script du jeu à partir de sprites CC BY 4.0 de David "
-                                              "Sevin, sans trait nouveau : elle garde leur licence, CC BY 4.0."}}
+                                  "decision": "Image produite par le script du jeu à partir de sprites CC BY 4.0 de "
+                                              "Davy45270, sans trait nouveau : elle garde leur licence, CC BY 4.0."}}
               for chemin, auteur, source in (
                   ("packages/assets/runtime/credits.webp",
                    "Davy45270 (montage de ses sprites par scripts/assets-runtime.py du jeu)",
@@ -288,8 +288,8 @@ PROFILS = {
                                                    "licence du code qui les dessine, MIT (2026-11-22)."}}],
     },
     "six-de-chaque": {
-        # README (depuis le socle 20e10f5) : « Art original (galets, glyphes …, motifs et icônes) : CC BY 4.0, David
-        # Sevin. Dessiné pour ce jeu, aucun emprunt. » ; glyphes ajoutés par ef2edac, icônes par scripts/make-icons.js.
+        # README (depuis le socle 20e10f5) : « Art original (galets, glyphes …, motifs et icônes) : CC BY 4.0, Davy45270
+        # (nom complet dans le README). Dessiné pour ce jeu, aucun emprunt. » ; glyphes ajoutés par ef2edac, icônes par scripts/make-icons.js.
         "images": [{"prefixe": prefixe, "licence": "CC-BY-4.0", "auteur": "Davy45270 (README du jeu)",
                     "licence_preuve": {"method": "déclaration du titulaire",
                                        "ref": "six-de-chaque README.md, section Licences (20e10f5) ; ef2edac (glyphes) ; "
@@ -681,7 +681,8 @@ def regle_image(profil, chemin, declarees=None, octets=None):
             return None
         if r.get("licence_declaree") and e.get("licence") != r["licence_declaree"]:
             return None
-        if r.get("titulaire") and e.get("titulaire") != r["titulaire"]:
+        # Le jeu déclare le titulaire sous son nom complet : comparé après remplacement par « Davy45270 ».
+        if r.get("titulaire") and without_full_name(str(e.get("titulaire") or "")) != r["titulaire"]:
             return None
         if e.get("sha256") and (octets is None or e["sha256"] != sha256(octets)):
             return None

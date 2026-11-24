@@ -1,5 +1,6 @@
 """Décisions de licence fondées sur les documents du commit."""
 
+import hashlib
 import re
 import unicodedata
 
@@ -34,7 +35,20 @@ DAVID_ATTRIBUTION = "Davy45270"
 DAVID_CC_BY_SA = ("CC-BY-SA-4.0", "décision du propriétaire", "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
                   "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), "
                   f"décision du 2026-11-22. Attribution : « {DAVID_ATTRIBUTION} ». Texte : LICENSES/CC-BY-SA-4.0.txt.")
-DAVID_FULL_NAME = "David " + "Sevin"  # jamais publié : attribution « Davy45270 » seulement (HL-538, 2026-11-24)
+# Le nom complet de David n'est écrit NULLE PART dans ce dépôt (décision de David, HL-538, 2026-11-24) : seule son
+# empreinte (SHA-256 du nom en minuscules, espaces réduits) permet de le reconnaître dans un fichier de jeu et de le
+# remplacer par l'attribution « Davy45270 ».
+DAVID_FULL_NAME_SHA256 = "9efb1b49516230ec43e0a70733f96c89fe110f1f1deafcb1cfe4eed528e48cec"
+_PRENOM_NOM = re.compile(r"(?i)\bdavid\s+[a-zà-öø-ÿ'-]+")
+
+
+def is_david_full_name(texte):
+    return hashlib.sha256(" ".join(str(texte).split()).lower().encode()).hexdigest() == DAVID_FULL_NAME_SHA256
+
+
+def without_full_name(texte):
+    """`texte` où le nom complet de David (casse et espaces ignorés) devient « Davy45270 »."""
+    return _PRENOM_NOM.sub(lambda m: DAVID_ATTRIBUTION if is_david_full_name(m.group(0)) else m.group(0), texte)
 
 
 def david_cc_by_sa(ref):
@@ -46,7 +60,7 @@ def david_cc_by_sa(ref):
 
 def _sans_nom_complet(noeud):
     if isinstance(noeud, str):
-        return noeud.replace(DAVID_FULL_NAME, DAVID_ATTRIBUTION)
+        return without_full_name(noeud)
     if isinstance(noeud, list):
         return [_sans_nom_complet(v) for v in noeud]
     if isinstance(noeud, dict):

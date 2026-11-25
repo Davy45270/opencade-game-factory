@@ -38,6 +38,6 @@ steps:
     commands:
       - apt-get update -qq && apt-get install -y -qq --no-install-recommends git ca-certificates >/dev/null
       - git config --global --add safe.directory '*'
-      - python3 -m venv .venv
-      - .venv/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
-      - .venv/bin/python3 scripts/niveaux-decouverte-publique.py
+      - python3 -m venv .venv-niveaux  # venv propre : l'étape tourne en parallèle de reconciliation (course sur .venv, pipeline 268)
+      - .venv-niveaux/bin/pip install --quiet --disable-pip-version-check -r requirements.txt
+      - .venv-niveaux/bin/python3 scripts/niveaux-decouverte-publique.py

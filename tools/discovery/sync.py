@@ -20,6 +20,25 @@ def tip(git, ref):
                    ok=(0, 1)).decode().strip()
 
 
+def main_perime(git):
+    """La base d'une synchro est le main LOCAL : il doit être celui du dépôt `origin`. Le 2026-11-26, une synchro partie
+    d'un main local en retard de 60 commits (avant #93) ramenait l'ancienne licence et le nom complet de David sur
+    1 043 fiches. Sans dépôt `origin` (fixture), rien à comparer. Rend l'erreur, ou None."""
+    if "origin" not in git.run("remote").decode().split():
+        return None
+    try:
+        git.run("fetch", "--quiet", "--no-tags", "--no-recurse-submodules", "--", "origin",
+                "+refs/heads/main:refs/remotes/origin/main")
+    except GitError:
+        return {"ok": False, "error": "sync-main-unverified",
+                "message": "origin injoignable : impossible de vérifier que main est à jour, synchro refusée."}
+    local, distant = tip(git, "refs/heads/main"), tip(git, "refs/remotes/origin/main")
+    if local != distant:
+        return {"ok": False, "error": "sync-main-stale", "main": local, "originMain": distant,
+                "message": "main local différent d'origin/main : mettre main à jour avant la synchro."}
+    return None
+
+
 def checked_out(git, ref):
     return f"branch {ref}".encode() in git.run("worktree", "list", "--porcelain", "-z").split(b"\0")
 
@@ -51,6 +70,8 @@ def sync(root, args):
     if checked_out(git, ref):
         return ExitCode.VERSION_CONFLICT, {"ok": False, "error": "sync-branch-checked-out"}
 
+    if perime := main_perime(git):
+        return ExitCode.VERSION_CONFLICT, perime
     base = tip(git, "refs/heads/main") or tip(git, "HEAD")
     old = tip(git, ref)
     if old and git.run("merge-base", base, old, ok=(0, 1)).decode().strip() != base:

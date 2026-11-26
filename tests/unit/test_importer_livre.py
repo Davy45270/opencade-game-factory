@@ -480,3 +480,23 @@ class ImagesRuntimeDeCapsule(TestCase):
         for f in ("packages/assets/runtime/credits.webp", "packages/assets/runtime/sprite-aide-accueil.webp"):
             self.assertEqual(il.regle_image(p, f)["licence"], "CC-BY-4.0")
         self.assertIsNone(il.regle_image(p, "packages/assets/runtime/sprite-inconnu.webp", {}))
+
+
+class PlanchesEnPlusieursDossiers(TestCase):
+    """Les planches v2 de Pestouille (2026-11-21) vivent dans un autre dossier que les v1 : le profil en liste deux."""
+    def test_premier_dossier_qui_contient_la_planche(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as v1, tempfile.TemporaryDirectory() as v2:
+            (il.Path(v1) / "a.png").write_bytes(b"v1")
+            (il.Path(v2) / "b.png").write_bytes(b"v2")
+            profil = {"planches": [v1, v2]}
+            self.assertEqual(il.chemin_planche(profil, "a.png"), il.Path(v1) / "a.png")
+            self.assertEqual(il.chemin_planche(profil, "b.png"), il.Path(v2) / "b.png")
+            self.assertEqual(il.chemin_planche(profil, "c.png"), il.Path(v1) / "c.png")
+            self.assertEqual(il.chemin_planche({"planches": v1}, "a.png"), il.Path(v1) / "a.png")
+            self.assertEqual(il.chemin_planche({}, "a.png"), il.Path("/nonexistent/a.png"))
+
+    def test_profil_pestouille_trouve_les_planches_v2(self):
+        profil = il.PROFILS["pestouille-rpg"]
+        self.assertIsInstance(profil["planches"], list)
+        self.assertTrue(any(str(d).endswith("v2-2026-11-21/Pestouille") for d in profil["planches"]))

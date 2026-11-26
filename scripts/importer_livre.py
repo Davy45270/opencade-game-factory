@@ -115,7 +115,9 @@ PROFILS = {
         "parents": "manifestes",
         "manifestes": "assets/export/*.manifest.json",      # {source: table, frames: json de l'atlas}
         "prefixe_cadre": "sprite-",                          # cadre « sprite-<élément> » → élément de la table
-        "planches": "~/Projets/homelab-docs/specs/pestouille-rpg-sources/planches",
+        # Planches v1 puis planches v2 du 2026-11-21 (dossier à part) : `chemin_planche` cherche dans l'ordre.
+        "planches": ["~/Projets/homelab-docs/specs/pestouille-rpg-sources/planches",
+                     "~/Projets/homelab-docs/specs/pestouille-rpg-sources/v2-2026-11-21/Pestouille"],
         "univers": "pestouille",
         "licence": "CC-BY-SA-4.0",
         "licence_preuve": {"method": "décision du propriétaire", "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)",
@@ -375,6 +377,16 @@ def sh(*cmd, cwd=None, ok=(0,)):
     return r
 
 
+def chemin_planche(profil, nom):
+    """Chemin de la planche `nom` : `profil["planches"]` est un dossier ou une liste de dossiers, parcourus dans l'ordre ;
+    le premier qui contient le fichier gagne. Introuvable : chemin dans le premier dossier (absent, donc refusé par
+    l'appelant), ou /nonexistent sans dossier."""
+    dossiers = profil.get("planches") or ["/nonexistent"]
+    dossiers = [dossiers] if isinstance(dossiers, str) else list(dossiers)
+    chemins = [Path(d).expanduser() / str(nom) for d in dossiers]
+    return next((c for c in chemins if c.is_file()), chemins[0])
+
+
 def assetctl(*args):
     r = sh(ASSETCTL, *args, "--json", cwd=REG)
     return json.loads(r.stdout)
@@ -593,7 +605,7 @@ def importer_bruts(jeu, sha, profil, table_rel, nom, table, elements, recus, com
     """Éléments sans découpe brute au registre : UN `assetctl import-sheet` par table, réduite à ces éléments (boîtes du
     jeu reprises telles quelles, sans redécoupe), puis chaque fiche reçoit la licence et l'auteur du profil du jeu.
     Rend {élément: assetId}."""
-    planche = Path(profil["planches"]).expanduser() / table["planche"]
+    planche = chemin_planche(profil, table["planche"])
     garde = [{k: v for k, v in e.items() if k != "transformations"} for e in table["elements"] if e["id"] in elements]
     reduite = {**table, "elements": garde, "planche_sha256": sha256(planche.read_bytes())}
     texte = json.dumps(reduite, ensure_ascii=False, indent=1) + "\n"
@@ -689,7 +701,7 @@ def regle_image(profil, chemin, declarees=None, octets=None):
         if e.get("sha256_prefixe") and not meme_fichier(e, octets):
             return None
         if r.get("planche_verifiee"):
-            f = Path(profil.get("planches") or "/nonexistent").expanduser() / str(e.get("planche"))
+            f = chemin_planche(profil, e.get("planche"))
             if not f.is_file() or sha256(f.read_bytes()) != e.get("planche_sha256"):
                 return None
         ref = f"{e.get('declare_par') or profil['provenance_images']} · {e.get('id') or e.get('fichier')} (origine « {e['origine']} »"
@@ -815,7 +827,7 @@ def tracer_derives(args, sha, profil, clone, travail, fiches, par_octets, cadres
                     compte["licences_etablies"] += 1
                 a_tracer[aid] = (cadre, nom, parent, f"redessin : rendu de {e['svg']} (provenance.json)")
         elif e.get("origine") == "dérivé" and e.get("planche") and e.get("planche_sha256") and e.get("boite"):
-            planche = Path(profil["planches"]).expanduser() / e["planche"]
+            planche = chemin_planche(profil, e["planche"])
             if not planche.is_file() or sha256(planche.read_bytes()) != e["planche_sha256"]:
                 continue
             tnom = f"{PurePosixPath(e['planche']).stem}.provenance-derives.json"
@@ -1012,7 +1024,7 @@ def main(argv):
     def sha_planche(table):
         nom_p = table["planche"]
         if nom_p not in planches_sha:
-            f = Path(profil.get("planches") or "/nonexistent").expanduser() / nom_p
+            f = chemin_planche(profil, nom_p)
             planches_sha[nom_p] = sha256(f.read_bytes()) if f.is_file() else None
         return planches_sha[nom_p]
     for at in atlas:

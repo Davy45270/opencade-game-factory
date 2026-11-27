@@ -174,6 +174,24 @@ class Discovery(unittest.TestCase):
         self.scan("--verify")
         self.assertEqual(self.scan()["newAssets"], 0)
 
+    def test_fichiers_de_test_jamais_assets(self):
+        """27/11 : des specs e2e (`getContext('2d')`) entraient au registre comme « code-generated », et des captures
+        de référence Playwright comme images. Un fichier de test n'est pas un asset, quel que soit son contenu."""
+        repo = self.world.depot("jeu-a")
+        dessin = b"export const f = (c) => c.getContext('2d');\n"
+        paths = {"src/games/minijeu/vue.ts": dessin,
+                 "tests/e2e/jauge.spec.ts": dessin,
+                 "src/games/minijeu/vue.test.ts": dessin,
+                 "src/__tests__/aide.ts": dessin,
+                 "tests/e2e/rendu.spec.ts-snapshots/ecran-linux.png": picture("PNG")}
+        _ecrire(repo, paths)
+        self.world.git(repo, "add", "--", *paths)
+        self.world.git(repo, "commit", "-qm", "tests", date="2026-02-04T00:00:00+00:00")
+        self.scan("--provider", "local", "--only", "jeu-a")
+        C.asset_par_chemin(self.root, "jeu-a", "src/games/minijeu/vue.ts")
+        chemins = {e.get("path") for a in C.assets(self.root).values() for e in C.emplacements(a.get("files"))}
+        self.assertFalse(chemins & set(list(paths)[1:]), chemins & set(list(paths)[1:]))
+
     def test_tags_classification_exclusions_et_job(self):
         from tools.core.schemas import schemas
 

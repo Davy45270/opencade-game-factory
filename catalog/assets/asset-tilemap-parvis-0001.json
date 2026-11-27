@@ -1,0 +1,155 @@
+{
+  "alpha": null,
+  "category": "tilemap",
+  "createdAt": "2026-11-26T11:17:11+00:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Parvis — tilemap",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "tilemap": {
+      "layerCount": 3,
+      "tileHeight": 16,
+      "tileWidth": 16
+    },
+    "type": "tilemap"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "content/tiled/parvis.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "tiledVersion": "1.11.2"
+  },
+  "id": "asset-tilemap-parvis-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "content/tiled/parvis.json · parvis"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "parvis",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/parvis.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "021fc3dae98efe98483f0b4cd66fc60cdaa44fb84191572088b8a95d4cda6a67",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/tiled/parvis.json": "38843c2ba41131c39c81ee287df4f70a28e0e931"
+      },
+      "assetPath": "content/tiled/parvis.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 12,
+        "path": "packages/content/src/game-data.ts"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "import: content/tiled/parvis.json",
+        "module-path: packages/content/src/game-data.ts"
+      ],
+      "game": "pestouille-rpg/content",
+      "importName": "parvisTiled",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "tilemap"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "tilemap",
+      "scene": "packages/content/src/game-data.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "021fc3dae98efe98483f0b4cd66fc60cdaa44fb84191572088b8a95d4cda6a67",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

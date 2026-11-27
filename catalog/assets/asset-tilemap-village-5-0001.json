@@ -28,6 +28,17 @@
         "repo": "pestouille-rpg",
         "status": "active",
         "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "content/cartes-generees/village-5.tmj",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
       }
     ],
     "registry": null
@@ -55,28 +66,28 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:content/cartes-generees/village-5.tmj"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/cartes-generees/village-5.tmj"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:content/cartes-generees/village-5.tmj"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/cartes-generees/village-5.tmj"
       ],
       "method": "proven"
     },
     "formatMetadata": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:content/cartes-generees/village-5.tmj"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/cartes-generees/village-5.tmj"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:content/cartes-generees/village-5.tmj"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/cartes-generees/village-5.tmj"
       ],
       "method": "proven"
     }
@@ -94,27 +105,39 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "ec7b90ce207869892d3c1c003f78f3e4cf02f9b123de220aa3140d4da2dc286e",
+  "sha256": "3c5e6c7aedc91228aa3b552554a64c8081da17a6eb3b7b849993ca96c3e27968",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "date": "2026-11-23T18:16:53+01:00",
-      "nextVersion": null,
+      "format": "tmj",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "ec7b90ce207869892d3c1c003f78f3e4cf02f9b123de220aa3140d4da2dc286e",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "tmj",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "3c5e6c7aedc91228aa3b552554a64c8081da17a6eb3b7b849993ca96c3e27968",
+      "version": 2
     }
   ],
   "visualStyle": null

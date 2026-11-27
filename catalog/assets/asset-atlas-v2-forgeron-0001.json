@@ -1,0 +1,269 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-24T11:11:40+00:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "V2 forgeron — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 320,
+        "name": "sprite-forgeron",
+        "w": 320,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-forgeron.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "public/assets/v2-forgeron.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "v2-forgeron.png"
+  },
+  "id": "asset-atlas-v2-forgeron-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/v2-forgeron.json · v2-forgeron"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "v2-forgeron",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-forgeron.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5aab109608b1c2cfb1c12ad1ff196a06e6eb3d7758e4086bfa565584128b3a24",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-forgeron.json": "67cc41a2471a4dc1286b566238805038c58ce034"
+      },
+      "assetPath": "public/assets/v2-forgeron.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-forgeron.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-forgeron.json",
+        "module-path: assets/export/v2-forgeron.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-forgeron",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/v2-forgeron.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-forgeron.json": "67cc41a2471a4dc1286b566238805038c58ce034"
+      },
+      "assetPath": "assets/export/v2-forgeron.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3308,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-forgeron.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-forgeron",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-forgeron.json": "67cc41a2471a4dc1286b566238805038c58ce034"
+      },
+      "assetPath": "public/assets/v2-forgeron.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3362,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-forgeron.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-forgeron",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-forgeron.json": "67cc41a2471a4dc1286b566238805038c58ce034"
+      },
+      "assetPath": "public/assets/v2-forgeron.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-forgeron.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-forgeron.json",
+        "module-path: assets/manifests/v2-forgeron.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-forgeron",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/v2-forgeron.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5aab109608b1c2cfb1c12ad1ff196a06e6eb3d7758e4086bfa565584128b3a24",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

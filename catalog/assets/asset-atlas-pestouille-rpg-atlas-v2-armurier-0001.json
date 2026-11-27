@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:51:05.487352+00:00",
+  "createdAt": "2026-11-24T11:11:40+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-armurier.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-armurier-0001.png"
   },
   "format": "png",
@@ -133,8 +145,74 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:51:05.487352+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-armurier.png": "ea6d6298383c91b6e59787e0c8c882c7709225d3"
+      },
+      "assetPath": "assets/export/v2-armurier.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets/export/v2-armurier.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-armurier.png",
+        "module-path: assets/export/v2-armurier.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-armurier",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-armurier.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-armurier.png": "ea6d6298383c91b6e59787e0c8c882c7709225d3"
+      },
+      "assetPath": "assets/export/v2-armurier.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3164,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-armurier.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-armurier",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/v2-armurier.png",
       "assetVersion": 1,
@@ -142,7 +220,7 @@
         "line": 1,
         "path": "assets/export/v2-armurier.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas assets/export/v2-armurier.png livrée"
       ],
@@ -169,6 +247,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "7d93026742caef5116aff8c96f3cd788fc3764ef434da80f6bff941d9a6d3abb",

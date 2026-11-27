@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:51:43.283866+00:00",
+  "createdAt": "2026-11-24T11:11:40+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-maison-paysan.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-maison-p-0001.png"
   },
   "format": "png",
@@ -133,8 +145,74 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:51:43.283866+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-maison-paysan.png": "c9ce473607c3b2f4a97179623339fc7eceb5a274"
+      },
+      "assetPath": "assets/export/v2-maison-paysan.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 14,
+        "path": "assets/export/v2-maison-paysan.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-maison-paysan.png",
+        "module-path: assets/export/v2-maison-paysan.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-maison-paysan",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-maison-paysan.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-maison-paysan.png": "c9ce473607c3b2f4a97179623339fc7eceb5a274"
+      },
+      "assetPath": "assets/export/v2-maison-paysan.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3524,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-maison-paysan.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-maison-paysan",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/v2-maison-paysan.png",
       "assetVersion": 1,
@@ -142,7 +220,7 @@
         "line": 1,
         "path": "assets/export/v2-maison-paysan.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas assets/export/v2-maison-paysan.png livrée"
       ],
@@ -169,6 +247,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "48368203c406a211ae538dc33cfa46322858e94ef9fd6817e7f5b176417d6e3c",

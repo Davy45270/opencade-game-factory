@@ -23,6 +23,17 @@
         "repo": "pestouille-rpg",
         "status": "active",
         "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "apps/web/pilote.css",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
       }
     ],
     "registry": null
@@ -86,7 +97,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -115,6 +126,39 @@
         }
       },
       "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "style",
+      "scene": "apps/web/pilote.ts",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "apps/web/pilote.css": "8bf98fb8b8600df5c4d5c3bc5fdb33f59f0d718b"
+      },
+      "assetPath": "apps/web/pilote.css",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 9,
+        "path": "apps/web/pilote.ts"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "import: apps/web/pilote.css",
+        "module-path: apps/web/pilote.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pilote",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "style"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
       "releases": [],
       "repo": "pestouille-rpg",
       "role": "style",

@@ -1,0 +1,269 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-24T11:11:40+00:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "V2 puits — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 320,
+        "name": "sprite-puits",
+        "w": 320,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-puits.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "public/assets/v2-puits.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "v2-puits.png"
+  },
+  "id": "asset-atlas-v2-puits-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/v2-puits.json · v2-puits"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "v2-puits",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-puits.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "60025832927de264fa89758bd193126c7dc043123103af6f532341b3b1286e2e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-puits.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/export/v2-puits.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/v2-puits.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "assets/export/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4838,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-puits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4892,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-puits.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/manifests/v2-puits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/v2-puits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "60025832927de264fa89758bd193126c7dc043123103af6f532341b3b1286e2e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

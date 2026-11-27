@@ -1,0 +1,189 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite souche — sprite 75×75",
+  "dimensions": {
+    "height": 75,
+    "width": 75
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-souche"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-v2-arbre-village-0001",
+        "h": 75,
+        "w": 75,
+        "x": 0,
+        "y": 160
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-souche-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/v2-arbre-village.json · sprite-souche"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json#sprite-souche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-souche",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "00241b30b9991946",
+    "phash": "fa856578947e6161"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "e5bb2a85569d8011cbc4366d988d920f38cff713020184b1a3edd32d107873f3",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "829a0a34cb73966cc23ee023d68aaa674478b016dcafb4ea683893e23394516d",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 51,
+    "verified": false,
+    "w": 75,
+    "x": 1424,
+    "y": 454
+  },
+  "sourceSheetId": "sheet-arbre-village-social-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/82/829a0a34cb73966cc23ee023d68aaa674478b016dcafb4ea683893e23394516d.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-arbre-village.json": "3249c127124008028edc2a38a0b433b4cf260ad3",
+        "assets/export/v2-arbre-village.png": "17c6f3caa7d5ddbeb2d732450d653a49efbaae10"
+      },
+      "assetPath": "assets/export/v2-arbre-village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3038,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-arbre-village.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-arbre-village",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-v2-arbre-village-0001",
+          "h": 75,
+          "sourceSheetSha256": "013b2696b1dbb092666a533d36abeed7ad3cb5d988f5416efd0cb25fc74a28a4",
+          "w": 75,
+          "x": 0,
+          "y": 160
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "829a0a34cb73966cc23ee023d68aaa674478b016dcafb4ea683893e23394516d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

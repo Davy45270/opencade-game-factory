@@ -1,0 +1,257 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite puits — sprite 320×320",
+  "dimensions": {
+    "height": 320,
+    "width": 320
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-puits"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-v2-puits-0001",
+        "h": 320,
+        "w": 320,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-puits-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/v2-puits.json · sprite-puits"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-puits.json#sprite-puits"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-puits",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "a3277bdbc92c7874",
+    "phash": "bf699ce4c11b8683"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "df393476e6203a99ba7673f40d3d463545ca7d30e017ef5cead10205588c9564",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "edc565d76cf4e18b206d293a3e8c9a5437e2db84dcd2bd05c967ba9a7f84578c",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 415,
+    "verified": false,
+    "w": 375,
+    "x": 22,
+    "y": 8
+  },
+  "sourceSheetId": "sheet-puits-village-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/ed/edc565d76cf4e18b206d293a3e8c9a5437e2db84dcd2bd05c967ba9a7f84578c.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-puits.png": "fb3f2b16038f0bce83a1c686e77d8bca8f9136af",
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-puits.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/export/v2-puits.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-puits.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-puits.png": "fb3f2b16038f0bce83a1c686e77d8bca8f9136af",
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4892,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-puits.png": "fb3f2b16038f0bce83a1c686e77d8bca8f9136af",
+        "public/assets/v2-puits.json": "558ec9fa29019acb419b8a85084800a20fb20f43"
+      },
+      "assetPath": "public/assets/v2-puits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-puits.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.json",
+        "module-path: assets/manifests/v2-puits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/v2-puits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-v2-puits-0001",
+          "h": 320,
+          "sourceSheetSha256": "519d54b2e8adfcbd464a1893ab21ab2be732f4c53b9a3f989787fb848fda6934",
+          "w": 320,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "edc565d76cf4e18b206d293a3e8c9a5437e2db84dcd2bd05c967ba9a7f84578c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

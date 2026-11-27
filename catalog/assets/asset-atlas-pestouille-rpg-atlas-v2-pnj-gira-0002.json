@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:56:44.160071+00:00",
+  "createdAt": "2026-11-24T11:11:40+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -42,7 +42,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "public/assets/v2-pnj-girafe-barde.webp",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-pnj-gira-0002.webp"
   },
   "format": "webp",
@@ -145,8 +157,41 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:56:44.160071+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-pnj-girafe-barde.webp": "59f8deed19009f8c4c7ea7e971a997204e0f1ebf"
+      },
+      "assetPath": "public/assets/v2-pnj-girafe-barde.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4280,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-pnj-girafe-barde.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-pnj-girafe-barde",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/v2-pnj-girafe-barde.webp",
       "assetVersion": 1,
@@ -154,7 +199,7 @@
         "line": 1,
         "path": "public/assets/v2-pnj-girafe-barde.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas public/assets/v2-pnj-girafe-barde.webp livrée"
       ],
@@ -181,6 +226,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "cf2a460c7c58fd796fa74f40f15856b7de2f5f76ef01d2ed3c82967d5cd02f0f",

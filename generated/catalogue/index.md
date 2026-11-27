@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-8439 assets · 570 planches · 75 jeux employant des assets · 11 sources · 9 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8641 assets · 594 planches · 75 jeux employant des assets · 11 sources · 9 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -77,8 +77,8 @@
 | [opencadkid/taupes](jeux/opencadkid--taupes.md) | 5 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/traverse](jeux/opencadkid--traverse.md) | 4 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/vis](jeux/opencadkid--vis.md) | 5 | [opencadkid](sources/opencadkid.md) |
-| [pestouille-rpg](jeux/pestouille-rpg.md) | 1388 | [pestouille-rpg](sources/pestouille-rpg.md) |
-| [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 4 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg](jeux/pestouille-rpg.md) | 1587 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 5 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [petit-astronome](jeux/petit-astronome.md) | 22 | [petit-astronome](sources/petit-astronome.md) |
 | [six-de-chaque](jeux/six-de-chaque.md) | 7 | [six-de-chaque](sources/six-de-chaque.md) |
 | [six-de-chaque/renderer-pixi](jeux/six-de-chaque--renderer-pixi.md) | 1 | [six-de-chaque](sources/six-de-chaque.md) |
@@ -103,16 +103,16 @@
 | Licence | Assets |
 |---|---|
 | [CC-BY-3.0](licences/CC-BY-3.0.md) | 1 |
-| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 5184 |
+| [CC-BY-SA-4.0](licences/CC-BY-SA-4.0.md) | 4788 |
 | [CC0-1.0](licences/CC0-1.0.md) | 32 |
 | [LicenseRef-JPL-Image-Use-Policy](licences/LicenseRef-JPL-Image-Use-Policy.md) | 6 |
 | [LicenseRef-MESSENGER-Usage-Statement](licences/LicenseRef-MESSENGER-Usage-Statement.md) | 1 |
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
 | [LicenseRef-OGA-BY-3.0](licences/LicenseRef-OGA-BY-3.0.md) | 1 |
 | [MIT](licences/MIT.md) | 705 |
-| [unknown](licences/unknown.md) | 2508 |
+| [unknown](licences/unknown.md) | 3106 |
 
-## Planches (570)
+## Planches (594)
 
 | Planche | Licence | Assets découpés |
 |---|---|---|
@@ -170,10 +170,10 @@
 | [Arbre_06_palmier_planche_composants](planches/sheet-arbre-06-palmier-planche-composa-0001.md) | unknown | 0 |
 | [Arbre_06_palmier_profil](planches/sheet-arbre-06-palmier-profil-0001.md) | unknown | 0 |
 | [Arbre du village — sacré](planches/sheet-arbre-village-sacre-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Arbre du village — social](planches/sheet-arbre-village-social-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Arbre du village — social](planches/sheet-arbre-village-social-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Arbre vivant (type Plante, taille M)](planches/sheet-arbre-vivant-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Arbre vivant (type Plante, taille M) — détourée](planches/sheet-arbre-vivant-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
-| [Auberge](planches/sheet-auberge-0001.md) | CC-BY-SA-4.0 | 1 |
+| [Auberge](planches/sheet-auberge-0001.md) | CC-BY-SA-4.0 | 3 |
 | [bande](planches/sheet-bande-0001.md) | unknown | 0 |
 | [bannieres-jeu@2x](planches/sheet-bannieres-jeu-2x-0001.md) | unknown | 0 |
 | [bannieres-jeu@3x](planches/sheet-bannieres-jeu-3x-0001.md) | unknown | 0 |
@@ -228,7 +228,7 @@
 | [Chauve-souris de grotte (type Volant, taille M)](planches/sheet-chauve-souris-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Chauve-souris de grotte (type Volant, taille M) — détourée](planches/sheet-chauve-souris-detouree-0001.md) | CC-BY-SA-4.0 | 61 |
 | [Chloe_cycle_marche](planches/sheet-chloe-cycle-marche-0001.md) | unknown | 0 |
-| [Cochon moine soigneur](planches/sheet-cochon-moine-soigneur-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Cochon moine soigneur](planches/sheet-cochon-moine-soigneur-0001.md) | CC-BY-SA-4.0 | 12 |
 | [commandes-apercu@2x](planches/sheet-commandes-apercu-2x-0001.md) | unknown | 0 |
 | [commandes-apercu@3x](planches/sheet-commandes-apercu-3x-0001.md) | unknown | 0 |
 | [commandes-origine@2x](planches/sheet-commandes-origine-2x-0001.md) | unknown | 0 |
@@ -247,7 +247,7 @@
 | [compteurs-maquettes-apercu@3x](planches/sheet-compteurs-maquettes-apercu-3x-0001.md) | unknown | 0 |
 | [compteurs-maquettes-jeu@2x](planches/sheet-compteurs-maquettes-jeu-2x-0001.md) | unknown | 0 |
 | [compteurs-maquettes-jeu@3x](planches/sheet-compteurs-maquettes-jeu-3x-0001.md) | unknown | 0 |
-| [Corbeau saltimbanque](planches/sheet-corbeau-saltimbanque-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Corbeau saltimbanque](planches/sheet-corbeau-saltimbanque-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Cozy_Room_Sort_Planche_01.webp](planches/sheet-cozy-room-sort-planche-01-webp-0001.md) | unknown | 102 |
 | [Cozy_Room_Sort_Planche_02.webp](planches/sheet-cozy-room-sort-planche-02-webp-0001.md) | unknown | 28 |
 | [Cozy_Room_Sort_Planche_03.webp](planches/sheet-cozy-room-sort-planche-03-webp-0001.md) | unknown | 96 |
@@ -276,12 +276,14 @@
 | [e03-objets](planches/sheet-e03-objets-0001.md) | unknown | 0 |
 | [e03-personnages](planches/sheet-e03-personnages-0001.md) | unknown | 0 |
 | [e03-portraits](planches/sheet-e03-portraits-0001.md) | unknown | 0 |
+| [e03-portraits](planches/sheet-e03-portraits-0002.md) | unknown | 0 |
 | [e04-boss](planches/sheet-e04-boss-0001.md) | unknown | 0 |
 | [e04-heros](planches/sheet-e04-heros-0001.md) | unknown | 0 |
 | [e04-icones](planches/sheet-e04-icones-0001.md) | unknown | 0 |
 | [e04-monstres](planches/sheet-e04-monstres-0001.md) | unknown | 0 |
 | [e04-portraits](planches/sheet-e04-portraits-0001.md) | unknown | 0 |
 | [e04-recrutement](planches/sheet-e04-recrutement-0001.md) | unknown | 0 |
+| [e04-recrutement](planches/sheet-e04-recrutement-0002.md) | unknown | 0 |
 | [École du village](planches/sheet-ecole-village-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Écuries](planches/sheet-ecuries-0001.md) | CC-BY-SA-4.0 | 0 |
 | [effets-jeu@2x](planches/sheet-effets-jeu-2x-0001.md) | unknown | 0 |
@@ -296,7 +298,7 @@
 | [Enfant fourmi](planches/sheet-enfant-fourmi-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Enfant lémurien](planches/sheet-enfant-lemurien-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Enfant lémurienne](planches/sheet-enfant-lemurienne-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Enfant renard](planches/sheet-enfant-renard-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Enfant renard](planches/sheet-enfant-renard-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Enfant zèbre](planches/sheet-enfant-zebre-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Ferme champignonniere batiments](planches/sheet-ferme-champignonniere-batiments-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Ferme champignonniere espaces](planches/sheet-ferme-champignonniere-espaces-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -326,12 +328,12 @@
 | [foret-2048x256-sud](planches/sheet-foret-2048x256-sud-0001.md) | unknown | 0 |
 | [Garde fourmi en armure](planches/sheet-garde-fourmi-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Garde panda](planches/sheet-garde-panda-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Garde renard en armure](planches/sheet-garde-renard-0001.md) | CC-BY-SA-4.0 | 4 |
-| [Garde zèbre en armure](planches/sheet-garde-zebre-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Garde renard en armure](planches/sheet-garde-renard-0001.md) | CC-BY-SA-4.0 | 12 |
+| [Garde zèbre en armure](planches/sheet-garde-zebre-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Gardes lémuriens](planches/sheet-gardes-lemuriens-0001.md) | CC-BY-SA-4.0 | 0 |
 | [gestes-jeu@2x](planches/sheet-gestes-jeu-2x-0001.md) | unknown | 0 |
 | [gestes-jeu@3x](planches/sheet-gestes-jeu-3x-0001.md) | unknown | 0 |
-| [Girafe barde](planches/sheet-girafe-barde-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Girafe barde](planches/sheet-girafe-barde-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Golem eau champignon](planches/sheet-golem-eau-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Golem feu champignon](planches/sheet-golem-feu-champignon-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Golem de pierre (type Golem, taille M)](planches/sheet-golem-pierre-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -383,18 +385,18 @@
 | [m02-creatures](planches/sheet-m02-creatures-0001.md) | unknown | 0 |
 | [m02-fonds](planches/sheet-m02-fonds-0001.md) | unknown | 0 |
 | [m02-fonds](planches/sheet-m02-fonds-0002.md) | unknown | 0 |
-| [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | CC-BY-SA-4.0 | 1 |
-| [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | CC-BY-SA-4.0 | 1 |
+| [Maison du fabricant d’armes](planches/sheet-maison-fabricant-armes-0001.md) | CC-BY-SA-4.0 | 3 |
+| [Maison du fabricant d’armures](planches/sheet-maison-fabricant-armures-0001.md) | CC-BY-SA-4.0 | 3 |
 | [Maison famille panda](planches/sheet-maison-famille-panda-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison des gardes](planches/sheet-maison-gardes-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Maison de l’herboriste](planches/sheet-maison-herboriste-0001.md) | CC-BY-SA-4.0 | 1 |
-| [Maison de paysan](planches/sheet-maison-paysan-0001.md) | CC-BY-SA-4.0 | 1 |
+| [Maison de l’herboriste](planches/sheet-maison-herboriste-0001.md) | CC-BY-SA-4.0 | 3 |
+| [Maison de paysan](planches/sheet-maison-paysan-0001.md) | CC-BY-SA-4.0 | 3 |
 | [Autre maison de villageois](planches/sheet-maison-villageois-2-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Maison de ville](planches/sheet-maison-ville-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Marchand ambulant](planches/sheet-marchand-ambulant-0001.md) | CC-BY-SA-4.0 | 0 |
 | [medaillon-origine@2x](planches/sheet-medaillon-origine-2x-0001.md) | unknown | 0 |
 | [medaillon-origine@3x](planches/sheet-medaillon-origine-3x-0001.md) | unknown | 0 |
-| [Médecin zèbre](planches/sheet-medecin-zebre-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Médecin zèbre](planches/sheet-medecin-zebre-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Méduse luminescente (type Aquatique, taille M)](planches/sheet-meduse-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Méduse luminescente (type Aquatique, taille M) — détourée](planches/sheet-meduse-detouree-0001.md) | CC-BY-SA-4.0 | 66 |
 | [menus-origine@2x](planches/sheet-menus-origine-2x-0001.md) | unknown | 0 |
@@ -474,11 +476,11 @@
 | [panneaux-apercu@3x](planches/sheet-panneaux-apercu-3x-0001.md) | unknown | 0 |
 | [Paysan homard](planches/sheet-paysan-homard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysan panda](planches/sheet-paysan-panda-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Paysan renard](planches/sheet-paysan-renard-0001.md) | CC-BY-SA-4.0 | 4 |
-| [Paysan zèbre](planches/sheet-paysan-zebre-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Paysan renard](planches/sheet-paysan-renard-0001.md) | CC-BY-SA-4.0 | 12 |
+| [Paysan zèbre](planches/sheet-paysan-zebre-0001.md) | CC-BY-SA-4.0 | 12 |
 | [Paysanne enfant renard](planches/sheet-paysanne-enfant-renard-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Paysanne panda](planches/sheet-paysanne-panda-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Paysanne renard](planches/sheet-paysanne-renard-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Paysanne renard](planches/sheet-paysanne-renard-0001.md) | CC-BY-SA-4.0 | 12 |
 | [personnages-origine@2x](planches/sheet-personnages-origine-2x-0001.md) | unknown | 0 |
 | [personnages-origine@3x](planches/sheet-personnages-origine-3x-0001.md) | unknown | 0 |
 | [Pestouille, planche 4 directions](planches/sheet-pestouille-4directions-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -505,8 +507,8 @@
 | [Pestouille de dos (JPEG)](planches/sheet-pestouille-rpg-animations-dos-hl-0001.md) | CC-BY-SA-4.0 | 19 |
 | [Pestouille de face (JPEG)](planches/sheet-pestouille-rpg-animations-face-h-0001.md) | CC-BY-SA-4.0 | 19 |
 | [Pestouille de profil droit (JPEG)](planches/sheet-pestouille-rpg-animations-profil-0001.md) | CC-BY-SA-4.0 | 19 |
-| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | CC-BY-SA-4.0 | 179 |
-| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | CC-BY-SA-4.0 | 194 |
+| [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | CC-BY-SA-4.0 | 189 |
+| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | CC-BY-SA-4.0 | 216 |
 | [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | CC-BY-SA-4.0 | 150 |
 | [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | CC-BY-SA-4.0 | 31 |
 | [pestouille-south](planches/sheet-pestouille-south-0001.md) | unknown | 0 |
@@ -609,7 +611,7 @@
 | [Pistouille_tornade_dessus_1024](planches/sheet-pistouille-tornade-dessus-1024-0001.md) | unknown | 0 |
 | [Pistouille_vues_dessus_3_objets_PLANCHE_REFERENCE_NON_VALIDEE](planches/sheet-pistouille-vues-dessus-3-objets-0001.md) | unknown | 0 |
 | [Pistouille_vues_dessus_4_objets_PLANCHE_REFERENCE_NON_VALIDEE](planches/sheet-pistouille-vues-dessus-4-objets-0001.md) | unknown | 0 |
-| [Place du village](planches/sheet-place-village-0001.md) | CC-BY-SA-4.0 | 13 |
+| [Place du village](planches/sheet-place-village-0001.md) | CC-BY-SA-4.0 | 39 |
 | [planche-inutilises](planches/sheet-planche-inutilises-0001.md) | unknown | 0 |
 | [planche-mascottes-code](planches/sheet-planche-mascottes-code-0001.md) | unknown | 0 |
 | [planche-top10](planches/sheet-planche-top10-0001.md) | unknown | 0 |
@@ -636,7 +638,7 @@
 | [Princesse des Renards](planches/sheet-princesse-renards-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Princesse des Zèbres](planches/sheet-princesse-zebres-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Puits — entrée de donjon](planches/sheet-puits-entree-donjon-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Puits du village](planches/sheet-puits-village-0001.md) | CC-BY-SA-4.0 | 1 |
+| [Puits du village](planches/sheet-puits-village-0001.md) | CC-BY-SA-4.0 | 3 |
 | [Puzzle — photo gorille](planches/sheet-puzzle-photo-gorille-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Puzzle — photo papillons](planches/sheet-puzzle-photo-papillons-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Puzzle — photo rhinoceros](planches/sheet-puzzle-photo-rhinoceros-0001.md) | CC-BY-SA-4.0 | 0 |
@@ -656,7 +658,7 @@
 | [roule](planches/sheet-roule-0001.md) | unknown | 0 |
 | [Téléphone malicieux (type Objet animé, taille M)](planches/sheet-telephone-malicieux-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Téléphone malicieux (type Objet animé, taille M) — détourée](planches/sheet-telephone-malicieux-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
-| [Temple du soigneur](planches/sheet-temple-soigneur-0001.md) | CC-BY-SA-4.0 | 1 |
+| [Temple du soigneur](planches/sheet-temple-soigneur-0001.md) | CC-BY-SA-4.0 | 3 |
 | [Tour du village](planches/sheet-tour-village-0001.md) | CC-BY-SA-4.0 | 0 |
 | [traits-animations-apercu@2x](planches/sheet-traits-animations-apercu-2x-0001.md) | unknown | 0 |
 | [traits-animations-apercu@3x](planches/sheet-traits-animations-apercu-3x-0001.md) | unknown | 0 |
@@ -678,14 +680,36 @@
 | [Tutu_dessus](planches/sheet-tutu-dessus-0001.md) | unknown | 0 |
 | [Tutu_profil_droit](planches/sheet-tutu-profil-droit-0001.md) | unknown | 0 |
 | [Tutu_profil_gauche](planches/sheet-tutu-profil-gauche-0001.md) | unknown | 0 |
+| [v2-arbre-village](planches/sheet-v2-arbre-village-0001.md) | unknown | 0 |
+| [v2-armurier](planches/sheet-v2-armurier-0001.md) | unknown | 0 |
+| [v2-auberge](planches/sheet-v2-auberge-0001.md) | unknown | 0 |
+| [v2-forgeron](planches/sheet-v2-forgeron-0001.md) | unknown | 0 |
+| [v2-herboriste](planches/sheet-v2-herboriste-0001.md) | unknown | 0 |
+| [v2-maison-paysan](planches/sheet-v2-maison-paysan-0001.md) | unknown | 0 |
+| [v2-place](planches/sheet-v2-place-0001.md) | unknown | 0 |
+| [v2-place-sol](planches/sheet-v2-place-sol-0001.md) | unknown | 0 |
+| [v2-pnj-cochon-moine-soigneur](planches/sheet-v2-pnj-cochon-moine-soigneur-0001.md) | unknown | 0 |
+| [v2-pnj-corbeau-saltimbanque](planches/sheet-v2-pnj-corbeau-saltimbanque-0001.md) | unknown | 0 |
+| [v2-pnj-enfant-renard](planches/sheet-v2-pnj-enfant-renard-0001.md) | unknown | 0 |
+| [v2-pnj-garde-renard](planches/sheet-v2-pnj-garde-renard-0001.md) | unknown | 0 |
+| [v2-pnj-garde-zebre](planches/sheet-v2-pnj-garde-zebre-0001.md) | unknown | 0 |
+| [v2-pnj-girafe-barde](planches/sheet-v2-pnj-girafe-barde-0001.md) | unknown | 0 |
+| [v2-pnj-medecin-zebre](planches/sheet-v2-pnj-medecin-zebre-0001.md) | unknown | 0 |
+| [v2-pnj-paysan-renard](planches/sheet-v2-pnj-paysan-renard-0001.md) | unknown | 0 |
+| [v2-pnj-paysan-zebre](planches/sheet-v2-pnj-paysan-zebre-0001.md) | unknown | 0 |
+| [v2-pnj-paysanne-renard](planches/sheet-v2-pnj-paysanne-renard-0001.md) | unknown | 0 |
+| [v2-pnj-villageoise-lemurienne](planches/sheet-v2-pnj-villageoise-lemurienne-0001.md) | unknown | 0 |
+| [v2-pnj-zebre-cuisinier](planches/sheet-v2-pnj-zebre-cuisinier-0001.md) | unknown | 0 |
+| [v2-puits](planches/sheet-v2-puits-0001.md) | unknown | 0 |
+| [v2-temple-soigneur](planches/sheet-v2-temple-soigneur-0001.md) | unknown | 0 |
 | [v6](planches/sheet-v6-0001.md) | unknown | 0 |
 | [Vache champignon à six pattes](planches/sheet-vache-champignon-6-pattes-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Vache girolle à six pattes](planches/sheet-vache-girolle-6-pattes-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Vampire malicieux (type Mort-vivant, taille M)](planches/sheet-vampire-0001.md) | CC-BY-SA-4.0 | 0 |
 | [Vampire malicieux (type Mort-vivant, taille M) — détourée](planches/sheet-vampire-detouree-0001.md) | CC-BY-SA-4.0 | 56 |
 | [Villageois lémurien](planches/sheet-villageois-lemurien-0001.md) | CC-BY-SA-4.0 | 0 |
-| [Villageoise lémurienne](planches/sheet-villageoise-lemurienne-0001.md) | CC-BY-SA-4.0 | 4 |
-| [Zèbre cuisinier](planches/sheet-zebre-cuisinier-0001.md) | CC-BY-SA-4.0 | 4 |
+| [Villageoise lémurienne](planches/sheet-villageoise-lemurienne-0001.md) | CC-BY-SA-4.0 | 12 |
+| [Zèbre cuisinier](planches/sheet-zebre-cuisinier-0001.md) | CC-BY-SA-4.0 | 12 |
 
 ## Rapports existants
 

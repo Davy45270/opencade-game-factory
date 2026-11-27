@@ -1,0 +1,189 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite banc — sprite 101×101",
+  "dimensions": {
+    "height": 101,
+    "width": 101
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-banc"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-v2-place-0001",
+        "h": 101,
+        "w": 101,
+        "x": 0,
+        "y": 128
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-banc-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/v2-place.json · sprite-banc"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-place.json#sprite-banc"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-banc",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "008438e3d84870a3",
+    "phash": "8f61bc13609f639c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "99e83735e99ac059ece53b7a5983542da467281aa8e61ee8efa971ba089c53ef",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 75,
+    "verified": false,
+    "w": 101,
+    "x": 757,
+    "y": 603
+  },
+  "sourceSheetId": "sheet-place-village-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/19/19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.json": "b527654aecb7db47039525c4054ee79b461d4e77",
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610"
+      },
+      "assetPath": "assets/export/v2-place.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3668,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-place.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-v2-place-0001",
+          "h": 101,
+          "sourceSheetSha256": "7f9d31ea4c3695f42b83229f6be6b90b808c36a2f73bde49e721d7ea7b9b9027",
+          "w": 101,
+          "x": 0,
+          "y": 128
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

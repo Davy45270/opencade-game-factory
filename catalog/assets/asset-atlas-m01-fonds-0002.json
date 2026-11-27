@@ -71,7 +71,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
         "game": "pestouille-rpg",
         "path": "assets/export/m01-fonds.json",
         "provider": "local",
@@ -151,7 +151,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -229,7 +229,7 @@
         "line": 360,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/m01-fonds.json",
         "module-path: assets.lock.json"
@@ -262,7 +262,7 @@
         "line": 1680,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/m01-fonds.json",
         "module-path: assets/liste-assets.json"
@@ -283,6 +283,39 @@
       "repo": "pestouille-rpg",
       "role": "atlas",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13,
+        "path": "tests/unit/sol-peint.test.ts"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: tests/unit/sol-peint.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "tests/unit/sol-peint.test.ts",
       "status": "active"
     }
   ],

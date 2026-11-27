@@ -1,0 +1,290 @@
+{
+  "alpha": null,
+  "category": "atlas",
+  "createdAt": "2026-11-24T11:11:41+00:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "V2 arbre village — atlas",
+  "dimensions": null,
+  "facing": "unknown",
+  "family": {
+    "frames": [
+      {
+        "h": 160,
+        "name": "sprite-arbre",
+        "w": 160,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "h": 109,
+        "name": "sprite-barriere",
+        "w": 109,
+        "x": 160,
+        "y": 136
+      },
+      {
+        "h": 136,
+        "name": "sprite-dalle-grise",
+        "w": 136,
+        "x": 160,
+        "y": 0
+      },
+      {
+        "h": 75,
+        "name": "sprite-souche",
+        "w": 75,
+        "x": 0,
+        "y": 160
+      }
+    ],
+    "type": "atlas"
+  },
+  "files": {
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-arbre-village.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "public/assets/v2-arbre-village.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
+    "registry": null
+  },
+  "format": "json",
+  "formatMetadata": {
+    "atlasImage": "v2-arbre-village.png"
+  },
+  "id": "asset-atlas-v2-arbre-village-0001",
+  "inference": {
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/v2-arbre-village.json · v2-arbre-village"
+      ],
+      "method": "heuristic"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+      ],
+      "method": "proven"
+    },
+    "formatMetadata": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "v2-arbre-village",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/v2-arbre-village.json"
+    ],
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "279aaa8eb1a0900ec8a4bc6ae1a13056778a8ed19715c355c2111f53daf53a98",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-arbre-village.json": "3249c127124008028edc2a38a0b433b4cf260ad3"
+      },
+      "assetPath": "public/assets/v2-arbre-village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-arbre-village.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-arbre-village.json",
+        "module-path: assets/export/v2-arbre-village.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-arbre-village",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/export/v2-arbre-village.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-arbre-village.json": "3249c127124008028edc2a38a0b433b4cf260ad3"
+      },
+      "assetPath": "assets/export/v2-arbre-village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3038,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-arbre-village.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-arbre-village",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-arbre-village.json": "3249c127124008028edc2a38a0b433b4cf260ad3"
+      },
+      "assetPath": "public/assets/v2-arbre-village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3092,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-arbre-village.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-arbre-village",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-arbre-village.json": "3249c127124008028edc2a38a0b433b4cf260ad3"
+      },
+      "assetPath": "public/assets/v2-arbre-village.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-arbre-village.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-arbre-village.json",
+        "module-path: assets/manifests/v2-arbre-village.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-arbre-village",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "assets/manifests/v2-arbre-village.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "279aaa8eb1a0900ec8a4bc6ae1a13056778a8ed19715c355c2111f53daf53a98",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

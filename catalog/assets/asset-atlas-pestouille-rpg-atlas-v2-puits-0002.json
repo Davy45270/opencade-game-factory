@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:57:49.859680+00:00",
+  "createdAt": "2026-11-24T11:11:40+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -42,7 +42,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "public/assets/v2-puits.webp",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-puits-0002.webp"
   },
   "format": "webp",
@@ -145,8 +157,41 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:57:49.859680+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-puits.webp": "8e3d9245ee83ee26c94b57ad36c86bda51cc001b"
+      },
+      "assetPath": "public/assets/v2-puits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4910,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-puits.webp",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-puits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "public/assets/v2-puits.webp",
       "assetVersion": 1,
@@ -154,7 +199,7 @@
         "line": 1,
         "path": "public/assets/v2-puits.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas public/assets/v2-puits.webp livrée"
       ],
@@ -181,6 +226,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "58531894ffc69c1634dcb297715079d1d17788f3985c4d423b5590f4d43d2bb9",

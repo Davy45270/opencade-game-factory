@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:52:02.034732+00:00",
+  "createdAt": "2026-11-24T11:11:41+00:00",
   "creation": {
     "rejectedCandidates": [
       {
@@ -42,7 +42,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-place.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-place-0001.png"
   },
   "format": "png",
@@ -145,8 +157,74 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:52:02.034732+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610"
+      },
+      "assetPath": "assets/export/v2-place.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 94,
+        "path": "assets/export/v2-place.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-place.png",
+        "module-path: assets/export/v2-place.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-place.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610"
+      },
+      "assetPath": "assets/export/v2-place.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3704,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-place.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/v2-place.png",
       "assetVersion": 1,
@@ -154,7 +232,7 @@
         "line": 1,
         "path": "assets/export/v2-place.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas assets/export/v2-place.png livrée"
       ],
@@ -181,6 +259,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "7f9d31ea4c3695f42b83229f6be6b90b808c36a2f73bde49e721d7ea7b9b9027",

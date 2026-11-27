@@ -82,8 +82,9 @@ def emit(root, repositories, rows, exceptions, assets, exclusions, manifests, sh
                       for sheet in sorted(sheets, key=lambda item: item["id"]) if sheet["license"] == "unknown"]
     audio = [row for row in rows if row.get("durationUnknown")]
     family_counts = Counter(row["family"] for row in rows if row["status"] == "imported")
-    orphan_ids = sorted(asset["id"] for asset in assets
-                        if not any(usage["status"] == "active" for usage in asset["usages"]))
+    orphan_ids = sorted(asset["id"] for asset in assets                # un asset déprécié est retiré du service
+                        if asset.get("status") != "deprecated"
+                        and not any(usage["status"] == "active" for usage in asset["usages"]))
     limits = [
         "Seuls les blobs des commits Git de référence et des releases demandées sont lus. "
         "Les fichiers et modifications non commités sont invisibles.",

@@ -41,6 +41,19 @@ class RapportLicencesDeterministe(unittest.TestCase):
         self.assertEqual([a["id"] for a in json.loads(first)["assets"]], sorted(ids))
 
 
+class OrphelinsSansDeprecies(unittest.TestCase):
+    """27/11 : 28 fichiers de test dépréciés (#103) restaient listés comme orphelins. Un asset déprécié est retiré
+    du service : son absence d'usage n'est pas une anomalie à signaler."""
+
+    def test_un_asset_deprecie_n_est_pas_orphelin(self):
+        actif, deprecie = _asset("asset-image-actif-0001"), _asset("asset-image-deprecie-0001")
+        actif["status"], deprecie["status"] = "needs-review", "deprecated"
+        with tempfile.TemporaryDirectory() as root:
+            reports.emit(Path(root), [], [], [], [actif, deprecie], (), [], (), ())
+            orphelins = json.loads((Path(root) / "generated" / "reports" / "orphans.json").read_text())["assets"]
+        self.assertEqual(orphelins, ["asset-image-actif-0001"])
+
+
 class VerifyCopiesDivergentes(unittest.TestCase):
     def setUp(self):
         self.world = M.creer_monde()

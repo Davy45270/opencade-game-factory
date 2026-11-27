@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:24:59.007087+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-armurier-0001",
+        "reason": "découpe brute de l'élément armurier : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "f1bb1dee7a1d050979734cbabba7bb259768db418da375015b809b753068e17d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "armurier",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-armurier-0001",
+          "reason": "découpe brute de l'élément armurier : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-armurier-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:24:58.624316+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-armurier » (assets/export/v2-armurier.png), forme normalisée par le jeu de l'élément armurier",
+  "dimensions": {
+    "height": 320,
+    "width": 320
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-armurier-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-armurier-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-armurier.json · cadre sprite-armurier"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-armurier-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-51.png, SHA-256 e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-armurier.json · cadre sprite-armurier"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg armurier (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "23ab2d3d8f733c0c",
+    "phash": "bece81c9b41ec866"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-armurier-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-armurier livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-armurier.png",
+      "recette {\"atlas\": \"assets/export/v2-armurier.png (png)\", \"boite\": [395, 432, 2, 4], \"cadre\": \"sprite-armurier\", \"element\": \"armurier\", \"empreintePixels\": \"eb0f81d4b195ed8b96d01b7d03cf7c2f24eab5e48f6436bb3e5ae1cba04d554f\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"u2netp\", \"taille\": 320, \"unique\": true}, \"regionDuBrut\": {\"h\": 432, \"w\": 395, \"x\": 2, \"y\": 4}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-armurier.decoupe.json\", \"tableSha256\": \"026ec00948170fb7d85258c4f38e797d3684789c61bda1c49e6226644502ac26\"}"
+    ],
+    "parentId": "asset-sprite-armurier-0001",
+    "parentSha256": "88e1828345ae108bbd0346e5ee4fb5b001e42284a879f06d5b1a66083e1e8794",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-armurier.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:24:59.007087+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-armurier.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/v2-armurier.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-armurier de assets/export/v2-armurier.png (empreinte de pixels eb0f81d4b195ed8b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-armurier",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-armurier.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-armurier.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e5a9315e01279e5f1f9a407c265fb225dfd0a667015dc3b26cf3c74cd8e3586c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

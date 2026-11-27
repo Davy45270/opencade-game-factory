@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "enfant_renard.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "enfant-renard/idle": {
+   "frames": [
+    "enfant-renard-bas-repos-a",
+    "enfant-renard-bas-repos-b",
+    "enfant-renard-bas-repos-c",
+    "enfant-renard-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "enfant-renard-bas-repos-a",
+   "boite": [
+    63,
+    119,
+    165,
+    605
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "enfant-renard-bas-repos-b",
+   "boite": [
+    67,
+    120,
+    228,
+    604
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "enfant-renard-bas-repos-c",
+   "boite": [
+    62,
+    119,
+    300,
+    605
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "enfant-renard-bas-repos-d",
+   "boite": [
+    62,
+    120,
+    366,
+    604
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "8aca3d8b306464ad9cb0dbd20f554e3bcea431ad22af997e533abe812fc82496"
+}

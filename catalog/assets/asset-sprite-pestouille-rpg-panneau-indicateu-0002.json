@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:42:19.688645+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-panneau-indicateu-0001",
+        "reason": "pixels différents du cadre livré sprite-panneau-indicateur (empreinte db01ce4c8780)"
+      },
+      {
+        "assetId": "asset-sprite-panneau-indicateur-0001",
+        "reason": "découpe brute de l'élément panneau-indicateur : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4a5bd515a7b52d10bd066e233ad705c2c26e1c19c357e8843cfa27a0d5f9a513",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "panneau indicateur",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-panneau-indicateu-0001",
+          "reason": "pixels différents du cadre livré sprite-panneau-indicateur (empreinte db01ce4c8780)"
+        },
+        {
+          "assetId": "asset-sprite-panneau-indicateur-0001",
+          "reason": "découpe brute de l'élément panneau-indicateur : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-panneau-indicateu-0001",
+        "asset-sprite-panneau-indicateur-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:42:19.226653+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-panneau-indicateur » (public/assets/v2-place.webp), forme normalisée par le jeu de l'élément panneau-indicateur",
+  "dimensions": {
+    "height": 113,
+    "width": 113
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-panneau-indicateu-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-panneau-indicateu-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-panneau-indicateur"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-panneau-indicateur-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-162.png, SHA-256 b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-panneau-indicateur"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg panneau-indicateur (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "6a268e068c684d4d",
+    "phash": "e6cc839b98c69b32"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-panneau-indicateur-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-panneau-indicateur livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-place.webp",
+      "recette {\"atlas\": \"public/assets/v2-place.webp (webp)\", \"boite\": [57, 113, 1463, 588], \"cadre\": \"sprite-panneau-indicateur\", \"element\": \"panneau-indicateur\", \"empreintePixels\": \"db01ce4c8780aea239ee86c54444bffa397d7b4676a3a2958ef1a2553a48f87e\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 113, \"w\": 57, \"x\": 1463, \"y\": 588}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-panneau-indicateur-0001",
+    "parentSha256": "9edde9b9d25bf59ad1b5936753a8af29bafe2fdf6e25c9161076033fc3fc3082",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:42:19.688645+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-place.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "public/assets/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-panneau-indicateur de public/assets/v2-place.webp (empreinte de pixels db01ce4c8780aea2)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-panneau-indicateur",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b0315c0c92101ad0a9e76756327cec446e0292662da220a0179af2382ce55689",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

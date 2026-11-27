@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:38:49.864362+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fleche-haut-0001",
+        "reason": "découpe brute de l'élément fleche-haut : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1d1fb61deef632d5cf1317f36d1760e022119ffea6acc473bf440fde36c5d457",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fleche haut",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fleche-haut-0001",
+          "reason": "découpe brute de l'élément fleche-haut : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fleche-haut-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:38:49.466346+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fleche-haut » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément fleche-haut",
+  "dimensions": {
+    "height": 17,
+    "width": 18
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fleche-haut-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fleche-haut-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-fleche-haut"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-haut-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-140.png, SHA-256 5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-fleche-haut"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg fleche-haut (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b573c99c32333286",
+    "phash": "ccc32f2c34f0734b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fleche-haut-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-haut livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [18, 17, 1322, 253], \"cadre\": \"sprite-fleche-haut\", \"element\": \"fleche-haut\", \"empreintePixels\": \"ba3bb34ba1569c59cc953cad0a1a6971af4ff9b995902377a25778bcc1147f23\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 17, \"w\": 18, \"x\": 1322, \"y\": 253}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-fleche-haut-0001",
+    "parentSha256": "613bf37ac9a3a197b2e287b87c59ebaf117d14b885681f7fc13bb374b36b2466",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:38:49.864362+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 82,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-haut de public/assets/e04-recrutement.webp (empreinte de pixels ba3bb34ba1569c59)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fleche-haut",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "5584ec7c2917b299fc4da18f567512ee89db3a2e100512991de16a9624eaaef4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,231 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:24:21.409333+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-arbre-0001",
+        "reason": "découpe brute de l'élément arbre : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-barriere-0001",
+        "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+      },
+      {
+        "assetId": "asset-sprite-souche-0002",
+        "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+      },
+      {
+        "assetId": "asset-sprite-dalle-grise-0001",
+        "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "53ece5764ad8263c1ac7a46ecfe57e4ce8e99bc0c4d0c84bde444ea78cd16199",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "arbre",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-arbre-0001",
+          "reason": "découpe brute de l'élément arbre : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-barriere-0001",
+          "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+        },
+        {
+          "assetId": "asset-sprite-souche-0002",
+          "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+        },
+        {
+          "assetId": "asset-sprite-dalle-grise-0001",
+          "reason": "pixels différents du cadre livré sprite-arbre (empreinte e51b08c01adf)"
+        }
+      ],
+      "results": [
+        "asset-sprite-arbre-0001",
+        "asset-sprite-barriere-0001",
+        "asset-sprite-souche-0002",
+        "asset-sprite-dalle-grise-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:24:21.025488+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-arbre » (assets/export/v2-arbre-village.png), forme normalisée par le jeu de l'élément arbre",
+  "dimensions": {
+    "height": 160,
+    "width": 160
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-arbre-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-arbre-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-arbre-village.json · cadre sprite-arbre"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-arbre-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-47.png, SHA-256 b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-arbre-village.json · cadre sprite-arbre"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg arbre (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "913c2e3f2fcf5c9e",
+    "phash": "b79cc1c16ec96427"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-arbre-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-arbre livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-arbre-village.png",
+      "recette {\"atlas\": \"assets/export/v2-arbre-village.png (png)\", \"boite\": [152, 174, 1139, 65], \"cadre\": \"sprite-arbre\", \"element\": \"arbre\", \"empreintePixels\": \"e51b08c01adf82eb7ede31872e159da3c5a24c41dd80f001bbaa71fbdaa64c3e\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"u2netp\", \"taille\": 160, \"unique\": true}, \"regionDuBrut\": {\"h\": 174, \"w\": 152, \"x\": 1139, \"y\": 65}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-arbre-village.decoupe.json\", \"tableSha256\": \"368461a2d68d056f46cdfafdca690751b000e46e92b68112ab9ecd74e43c6b14\"}"
+    ],
+    "parentId": "asset-sprite-arbre-0001",
+    "parentSha256": "b5e22386d331afcd52673ee637a558ca72e5b837125a9724f230c6fa5891abc0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-arbre-village.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:24:21.409333+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-arbre-village.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/v2-arbre-village.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-arbre de assets/export/v2-arbre-village.png (empreinte de pixels e51b08c01adf82eb)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-arbre",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-arbre-village.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-arbre-village.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b6fc670ab6d4ab1684fb9ab83b9fe7ced73533e69cba887ed6314a8e519bddd3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

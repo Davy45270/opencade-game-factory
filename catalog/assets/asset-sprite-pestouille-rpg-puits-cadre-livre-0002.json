@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:50:18.599087+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-puits-0001",
+        "reason": "découpe brute de l'élément puits : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-rpg-puits-cadre-livre-0001",
+        "reason": "pixels différents du cadre livré sprite-puits (empreinte 636e9566ef0d)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0f974af8c1513df4f84f7ad1f916ee2f5873f87adb04c4d2bee81d0b9721cf44",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "puits",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-puits-0001",
+          "reason": "découpe brute de l'élément puits : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-rpg-puits-cadre-livre-0001",
+          "reason": "pixels différents du cadre livré sprite-puits (empreinte 636e9566ef0d)"
+        }
+      ],
+      "results": [
+        "asset-sprite-puits-0001",
+        "asset-sprite-pestouille-rpg-puits-cadre-livre-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:50:18.165647+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-puits » (public/assets/v2-puits.webp), forme normalisée par le jeu de l'élément puits",
+  "dimensions": {
+    "height": 320,
+    "width": 320
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-puits-cadre-livre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-puits-cadre-livre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-puits.json · cadre sprite-puits"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-puits-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-213.png, SHA-256 4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-puits.json · cadre sprite-puits"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg puits (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "a3277bdbc92c7874",
+    "phash": "bf699ce4c11b8683"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-puits-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-puits livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-puits.webp",
+      "recette {\"atlas\": \"public/assets/v2-puits.webp (webp)\", \"boite\": [375, 415, 22, 8], \"cadre\": \"sprite-puits\", \"element\": \"puits\", \"empreintePixels\": \"636e9566ef0dacc21451ae7e1f8753e3afa5cab1ca7c2a8fa3330e30b9076678\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"fond:18\", \"taille\": 320, \"unique\": true}, \"regionDuBrut\": {\"h\": 415, \"w\": 375, \"x\": 22, \"y\": 8}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-puits.decoupe.json\", \"tableSha256\": \"7301c502b117ff4c5f82f2800e488029cbe9bbb81de339e1281f1fce81a11e64\"}"
+    ],
+    "parentId": "asset-sprite-puits-0001",
+    "parentSha256": "bedd6dff4616d38f7b98de59ac1bd8dbde8bd8dc736cf3420d65ba7cbceb64a7",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-puits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:50:18.599087+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-puits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/v2-puits.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-puits de public/assets/v2-puits.webp (empreinte de pixels 636e9566ef0dacc2)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-puits",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-puits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-puits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4431805ca815741fde5c31d88d2a25b2ffe20d47f619d419eec8beaa9cac4f07",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

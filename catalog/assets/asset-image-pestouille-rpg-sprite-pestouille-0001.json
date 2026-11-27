@@ -273,64 +273,6 @@
       "status": "active"
     },
     {
-      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png livrée (fichier suivi au commit)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "sprite-pestouille-attaque-a",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "image",
-      "scene": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png",
-      "status": "active"
-    },
-    {
-      "assetPath": "assets/export/p02-pestouille.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 10,
-        "path": "assets/export/p02-pestouille.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : cadre sprite-pestouille-attaque-a de assets/export/p02-pestouille.png (empreinte de pixels 28fe172b6b96cf80)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "sprite-pestouille-attaque-a",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/export/p02-pestouille.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas-frame",
-      "scene": "assets/export/p02-pestouille.json",
-      "status": "active"
-    },
-    {
       "assetBlobs": {
         "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png": "5a29bacaeb3aa7ed94f6eb388b929663ca2feac3"
       },
@@ -460,6 +402,64 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : image assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/cutouts/p02-pestouille/sprite-pestouille-attaque-a.png",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-attaque-a de assets/export/p02-pestouille.png (empreinte de pixels 28fe172b6b96cf80)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-attaque-a",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
       "status": "active"
     }
   ],

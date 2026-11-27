@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:41:11.745021+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-banniere-bleue-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-banniere-bleue (empreinte 123b920afd9b)"
+      },
+      {
+        "assetId": "asset-sprite-banniere-bleue-0001",
+        "reason": "découpe brute de l'élément banniere-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "511f46b1f1931a932d26b2525eb27ce88fb846a49e5154c09cff9a991fe3f8db",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "banniere bleue",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-banniere-bleue-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-banniere-bleue (empreinte 123b920afd9b)"
+        },
+        {
+          "assetId": "asset-sprite-banniere-bleue-0001",
+          "reason": "découpe brute de l'élément banniere-bleue : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-banniere-bleue-ca-0001",
+        "asset-sprite-banniere-bleue-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:41:11.351028+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-banniere-bleue » (public/assets/v2-place.webp), forme normalisée par le jeu de l'élément banniere-bleue",
+  "dimensions": {
+    "height": 108,
+    "width": 108
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-banniere-bleue-ca-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-banniere-bleue-ca-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-banniere-bleue"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-banniere-bleue-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-155.png, SHA-256 7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-banniere-bleue"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg banniere-bleue (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b29696b68eaab2b3",
+    "phash": "eca6cd2392cc9333"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-banniere-bleue-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-banniere-bleue livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-place.webp",
+      "recette {\"atlas\": \"public/assets/v2-place.webp (webp)\", \"boite\": [69, 108, 975, 597], \"cadre\": \"sprite-banniere-bleue\", \"element\": \"banniere-bleue\", \"empreintePixels\": \"123b920afd9b1563ab6eaf2cada2be7baec9ad5cb4303ae5cf85bf41d99f157c\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 108, \"w\": 69, \"x\": 975, \"y\": 597}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-banniere-bleue-0001",
+    "parentSha256": "480cf2ec2057336b29f5f47f2a4904e469c543ce59f9c5ef71be25512893e911",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:41:11.745021+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-place.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "public/assets/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-banniere-bleue de public/assets/v2-place.webp (empreinte de pixels 123b920afd9b1563)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-banniere-bleue",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7f2cdf72032bbce2a40e8e367311e9307ec350f336bb18454e9194b6afe6da30",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

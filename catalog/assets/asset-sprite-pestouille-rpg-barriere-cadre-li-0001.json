@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:24:30.720430+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-barriere-0001",
+        "reason": "découpe brute de l'élément barriere : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b6713e75f9b675371009d8a5c83bd12984461a0432a3ae7becba621bce5d7194",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "barriere",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-barriere-0001",
+          "reason": "découpe brute de l'élément barriere : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-barriere-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:24:30.316741+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-barriere » (assets/export/v2-arbre-village.png), forme normalisée par le jeu de l'élément barriere",
+  "dimensions": {
+    "height": 109,
+    "width": 109
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-barriere-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-barriere-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-arbre-village.json · cadre sprite-barriere"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-barriere-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-48.png, SHA-256 a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-arbre-village.json · cadre sprite-barriere"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg barriere (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0002dc61934d7a61",
+    "phash": "cbe0973a689fd211"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-barriere-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-barriere livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-arbre-village.png",
+      "recette {\"atlas\": \"assets/export/v2-arbre-village.png (png)\", \"boite\": [109, 87, 1385, 897], \"cadre\": \"sprite-barriere\", \"element\": \"barriere\", \"empreintePixels\": \"99a268c728ab0e8b6bf91f746f5398dfee762b0d0bc9b2d0c6ffb6032d5f0ba6\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"u2netp\", \"taille\": 160, \"unique\": true}, \"regionDuBrut\": {\"h\": 87, \"w\": 109, \"x\": 1385, \"y\": 897}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-arbre-village.decoupe.json\", \"tableSha256\": \"368461a2d68d056f46cdfafdca690751b000e46e92b68112ab9ecd74e43c6b14\"}"
+    ],
+    "parentId": "asset-sprite-barriere-0001",
+    "parentSha256": "a42e95837e1f16a1b47ff7e4a98bcbcf6624c5f6fd0a94f97c51c6940f3f8916",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-arbre-village.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:24:30.720430+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-arbre-village.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/v2-arbre-village.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-barriere de assets/export/v2-arbre-village.png (empreinte de pixels 99a268c728ab0e8b)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-barriere",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-arbre-village.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-arbre-village.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a53dc3c9853b8364af28023cdfc559efb3f41529e9517d28e363e907b1d6c08d",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

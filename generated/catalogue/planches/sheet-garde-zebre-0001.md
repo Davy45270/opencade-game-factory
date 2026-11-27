@@ -9,6 +9,11 @@ Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (des
 Fiche : [`sheet-garde-zebre-0001`](../../../catalog/sheets/sheet-garde-zebre-0001.json)
 
 
-0 asset(s) découpés de cette planche.
+4 asset(s) découpés de cette planche.
 
-_Aucun asset._
+| Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
+|---|---|---|---|---|---|---|---|
+| ![](../../../thumbnails/88/8833e7876779b9ed33163151ad4b5401eb5b07bbf68f18dbacfef8fb59ee666f.webp) | [`asset-sprite-garde-zebre-bas-repos-a-0001`](../../../catalog/assets/asset-sprite-garde-zebre-bas-repos-a-0001.json) | garde-zebre-bas-repos-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-garde-zebre-0001](../planches/sheet-garde-zebre-0001.md) |
+| ![](../../../thumbnails/1d/1d2a4cc385958b9bbf30f656a1111e6fefa257d711ab0091982e6d970a0daadf.webp) | [`asset-sprite-garde-zebre-bas-repos-b-0001`](../../../catalog/assets/asset-sprite-garde-zebre-bas-repos-b-0001.json) | garde-zebre-bas-repos-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-garde-zebre-0001](../planches/sheet-garde-zebre-0001.md) |
+| ![](../../../thumbnails/d2/d233fe888a433b54c016a431c2a5ee9927ca52ce2db669630d255b9dc1b38fc8.webp) | [`asset-sprite-garde-zebre-bas-repos-c-0001`](../../../catalog/assets/asset-sprite-garde-zebre-bas-repos-c-0001.json) | garde-zebre-bas-repos-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-garde-zebre-0001](../planches/sheet-garde-zebre-0001.md) |
+| ![](../../../thumbnails/6f/6f899c7370c90a2659d6892ae7ba6344c712969c1514bdb50e142b35312ec352.webp) | [`asset-sprite-garde-zebre-bas-repos-d-0001`](../../../catalog/assets/asset-sprite-garde-zebre-bas-repos-d-0001.json) | garde-zebre-bas-repos-d | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-garde-zebre-0001](../planches/sheet-garde-zebre-0001.md) |

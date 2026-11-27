@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:24:03.028190+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-embleme-quete-0001",
+        "reason": "découpe brute de l'élément embleme-quete : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8a9348bd929fed778ff7865176d15177d766d87bbb1e9e9bfdb61324a4fc1cf8",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "embleme quete",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-embleme-quete-0001",
+          "reason": "découpe brute de l'élément embleme-quete : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-embleme-quete-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:24:02.622636+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-embleme-quete » (assets/export/e04-recrutement.png), forme normalisée par le jeu de l'élément embleme-quete",
+  "dimensions": {
+    "height": 24,
+    "width": 25
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-embleme-quete-cad-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-embleme-quete-cad-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e04-recrutement.json · cadre sprite-embleme-quete"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-embleme-quete-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-45.png, SHA-256 7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e04-recrutement.json · cadre sprite-embleme-quete"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg embleme-quete (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "94b4d4cd6b320dce",
+    "phash": "c8c0b81967279daf"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-embleme-quete-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-embleme-quete livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/e04-recrutement.png",
+      "recette {\"atlas\": \"assets/export/e04-recrutement.png (png)\", \"boite\": [25, 24, 536, 659], \"cadre\": \"sprite-embleme-quete\", \"element\": \"embleme-quete\", \"empreintePixels\": \"9bec3b422a4b92d2bf856e6d1d566d084a48dd9f44ba7fafacb295044f18dc39\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 24, \"w\": 25, \"x\": 536, \"y\": 659}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-embleme-quete-0001",
+    "parentSha256": "777fc767429d06da8bbf33ebc90084e086eb6e44e53f25d88f6dd0279ab134c6",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:24:03.028190+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-recrutement.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 58,
+        "path": "assets/export/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-embleme-quete de assets/export/e04-recrutement.png (empreinte de pixels 9bec3b422a4b92d2)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-embleme-quete",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7ff1b865d3e1f16ba80ceb1977c15951de9306853a82cfcdbf67a62db62b8bca",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

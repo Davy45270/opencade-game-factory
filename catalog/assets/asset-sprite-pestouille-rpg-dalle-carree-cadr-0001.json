@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:25:45.616025+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-dalle-carree-0001",
+        "reason": "découpe brute de l'élément dalle-carree : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "0e26b8aad85480017db7e67696f3b6efe5e462962c57cc722f87d981a074d0e4",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "dalle carree",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-dalle-carree-0001",
+          "reason": "découpe brute de l'élément dalle-carree : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-dalle-carree-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:25:45.208461+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-dalle-carree » (assets/export/v2-place-sol.png), forme normalisée par le jeu de l'élément dalle-carree",
+  "dimensions": {
+    "height": 134,
+    "width": 134
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-dalle-carree-cadr-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-dalle-carree-cadr-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place-sol.json · cadre sprite-dalle-carree"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-dalle-carree-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-56.png, SHA-256 b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place-sol.json · cadre sprite-dalle-carree"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg dalle-carree (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "00201671e0c87196",
+    "phash": "91663b84611fa5fc"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-dalle-carree-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-dalle-carree livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-place-sol.png",
+      "recette {\"atlas\": \"assets/export/v2-place-sol.png (png)\", \"boite\": [134, 82, 754, 411], \"cadre\": \"sprite-dalle-carree\", \"element\": \"dalle-carree\", \"empreintePixels\": \"2e1729a07855b812a667ad839c68ceb116b0df4c42ef7502ad3738bcaac3a208\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"u2netp\", \"taille\": 160, \"unique\": true}, \"regionDuBrut\": {\"h\": 82, \"w\": 134, \"x\": 754, \"y\": 411}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place-sol.decoupe.json\", \"tableSha256\": \"191bb92b1b98e48ce4c048a8beb3c5fbeaaa51848b30493cf1023f98266b10a4\"}"
+    ],
+    "parentId": "asset-sprite-dalle-carree-0001",
+    "parentSha256": "8650143ef7c6e2a464b811d6a1eb600920d41cefddd8c03d294cee3204490c7f",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place-sol.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:25:45.616025+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-place-sol.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/v2-place-sol.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-dalle-carree de assets/export/v2-place-sol.png (empreinte de pixels 2e1729a07855b812)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-dalle-carree",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-place-sol.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-place-sol.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b63ac3239c6096d7035b894d30934e38c6590221c02e581d73145e3846298506",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

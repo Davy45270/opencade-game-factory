@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "garde_zebre.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "garde-zebre/idle": {
+   "frames": [
+    "garde-zebre-bas-repos-a",
+    "garde-zebre-bas-repos-b",
+    "garde-zebre-bas-repos-c",
+    "garde-zebre-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "garde-zebre-bas-repos-a",
+   "boite": [
+    59,
+    113,
+    164,
+    604
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-zebre-bas-repos-b",
+   "boite": [
+    59,
+    113,
+    233,
+    604
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-zebre-bas-repos-c",
+   "boite": [
+    57,
+    114,
+    301,
+    603
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-zebre-bas-repos-d",
+   "boite": [
+    58,
+    114,
+    368,
+    603
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "18b2c45efc15e2d536b789f2619540579f84ebeb48019d1712dbb931345d821c"
+}

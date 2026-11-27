@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:39:08.584440+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-tiret-0001",
+        "reason": "découpe brute de l'élément tiret : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "30896c9162877a7bee45f2310a05e7cb7ddfdb944781a05db14c8fabafa0374b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "tiret",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-tiret-0001",
+          "reason": "découpe brute de l'élément tiret : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-tiret-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:39:08.193321+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-tiret » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément tiret",
+  "dimensions": {
+    "height": 8,
+    "width": 17
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-tiret-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-tiret-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-tiret"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-tiret-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-142.png, SHA-256 fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-tiret"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg tiret (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "0d8e8a828a0f0401",
+    "phash": "81817f7f80d5d781"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-tiret-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-tiret livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [17, 8, 1322, 283], \"cadre\": \"sprite-tiret\", \"element\": \"tiret\", \"empreintePixels\": \"22b73b50b5bf85cacd1a0db6dd3f23e205267a6b43477748a3ac7eb066c15392\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 8, \"w\": 17, \"x\": 1322, \"y\": 283}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-tiret-0001",
+    "parentSha256": "c4c6953a3cd9039cdf37c8edbe054eae52a174513603b82165f773b794523743",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:39:08.584440+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 98,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-tiret de public/assets/e04-recrutement.webp (empreinte de pixels 22b73b50b5bf85ca)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-tiret",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fbc87d440c1aff7c037e1914bf3c6392a92cfc213997c7a59e20d0a191495d3c",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:24:12.237787+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-exp-0001",
+        "reason": "découpe brute de l'élément exp : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b31b23f0a224aee9ef3e226aac6686a8a921cbe119e326cf29dd3f79cb400939",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "exp",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-exp-0001",
+          "reason": "découpe brute de l'élément exp : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-exp-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:24:11.823312+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-exp » (assets/export/e04-recrutement.png), forme normalisée par le jeu de l'élément exp",
+  "dimensions": {
+    "height": 16,
+    "width": 31
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-exp-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-exp-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e04-recrutement.json · cadre sprite-exp"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-exp-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-46.png, SHA-256 3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e04-recrutement.json · cadre sprite-exp"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg exp (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "33adb6b4359e5a32",
+    "phash": "bcd8832bca35d19c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-exp-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-exp livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/e04-recrutement.png",
+      "recette {\"atlas\": \"assets/export/e04-recrutement.png (png)\", \"boite\": [31, 16, 543, 713], \"cadre\": \"sprite-exp\", \"element\": \"exp\", \"empreintePixels\": \"0ee65adbde9aa7c5109e27325b973ea7e328803b315577496678ba5842a10c15\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 16, \"w\": 31, \"x\": 543, \"y\": 713}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-exp-0001",
+    "parentSha256": "49b241ed79ff512857a0c446d2dfa0404219aecab524fddd63a44b24810811d9",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:24:12.237787+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-recrutement.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 66,
+        "path": "assets/export/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-exp de assets/export/e04-recrutement.png (empreinte de pixels 0ee65adbde9aa7c5)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-exp",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3a835e1d50d1c1645106b54fb7e3f0edfc790401f6cae85cbed140c7073a0284",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

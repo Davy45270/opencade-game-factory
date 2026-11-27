@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:42:29.569049+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-pot-fleurs-blanc-0001",
+        "reason": "pixels différents du cadre livré sprite-pot-fleurs-blanc (empreinte 310a1b3ac472)"
+      },
+      {
+        "assetId": "asset-sprite-pot-fleurs-blanc-0001",
+        "reason": "découpe brute de l'élément pot-fleurs-blanc : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "c3cb49fa77d2d56aee09d627512ae8ad92a90b4d9327d2a80ff2a75784fcc6ae",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "pot fleurs blanc",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-pot-fleurs-blanc-0001",
+          "reason": "pixels différents du cadre livré sprite-pot-fleurs-blanc (empreinte 310a1b3ac472)"
+        },
+        {
+          "assetId": "asset-sprite-pot-fleurs-blanc-0001",
+          "reason": "découpe brute de l'élément pot-fleurs-blanc : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-pot-fleurs-blanc-0001",
+        "asset-sprite-pot-fleurs-blanc-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:42:29.176338+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-pot-fleurs-blanc » (public/assets/v2-place.webp), forme normalisée par le jeu de l'élément pot-fleurs-blanc",
+  "dimensions": {
+    "height": 78,
+    "width": 78
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-pot-fleurs-blanc-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-pot-fleurs-blanc-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-pot-fleurs-blanc"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-pot-fleurs-blanc-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-163.png, SHA-256 b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-pot-fleurs-blanc"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg pot-fleurs-blanc (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4c33dc51137c1391",
+    "phash": "99c0f23e69d1a633"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-pot-fleurs-blanc-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-pot-fleurs-blanc livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-place.webp",
+      "recette {\"atlas\": \"public/assets/v2-place.webp (webp)\", \"boite\": [78, 73, 1363, 503], \"cadre\": \"sprite-pot-fleurs-blanc\", \"element\": \"pot-fleurs-blanc\", \"empreintePixels\": \"310a1b3ac47293e1f6cce4a554886bbfb790eaa6b97fe6fefd91e1b39a346385\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 73, \"w\": 78, \"x\": 1363, \"y\": 503}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-pot-fleurs-blanc-0001",
+    "parentSha256": "b5f37901ca4538fb731e699384ffbe4d25214e54d5144a0e2b579c6292c8d2b0",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:42:29.569049+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-place.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "public/assets/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-pot-fleurs-blanc de public/assets/v2-place.webp (empreinte de pixels 310a1b3ac47293e1)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pot-fleurs-blanc",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "b3aff7ccaf365746461774bd1f7d161f673b5422dbc9a885132da93af682ac86",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

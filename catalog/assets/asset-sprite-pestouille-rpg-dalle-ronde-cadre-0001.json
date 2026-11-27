@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:25:55.012729+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-dalle-ronde-0001",
+        "reason": "découpe brute de l'élément dalle-ronde : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "8b1651576f2b6784ca833e359f8e42b3e2e3ebec699cb780375166b35d636bbe",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "dalle ronde",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-dalle-ronde-0001",
+          "reason": "découpe brute de l'élément dalle-ronde : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-dalle-ronde-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:25:54.620701+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-dalle-ronde » (assets/export/v2-place-sol.png), forme normalisée par le jeu de l'élément dalle-ronde",
+  "dimensions": {
+    "height": 136,
+    "width": 136
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-dalle-ronde-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-dalle-ronde-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place-sol.json · cadre sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-dalle-ronde-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-57.png, SHA-256 3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place-sol.json · cadre sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg dalle-ronde (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "208668f0b9e47019",
+    "phash": "856b7f80e817e07a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-dalle-ronde-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-dalle-ronde livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-place-sol.png",
+      "recette {\"atlas\": \"assets/export/v2-place-sol.png (png)\", \"boite\": [136, 92, 1241, 410], \"cadre\": \"sprite-dalle-ronde\", \"element\": \"dalle-ronde\", \"empreintePixels\": \"1e48bd1e97cc328f66798f2006115deabc06b49c830b125a0a7726ecab1e3f7d\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"u2netp\", \"taille\": 160, \"unique\": true}, \"regionDuBrut\": {\"h\": 92, \"w\": 136, \"x\": 1241, \"y\": 410}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place-sol.decoupe.json\", \"tableSha256\": \"191bb92b1b98e48ce4c048a8beb3c5fbeaaa51848b30493cf1023f98266b10a4\"}"
+    ],
+    "parentId": "asset-sprite-dalle-ronde-0001",
+    "parentSha256": "115bf4c51237eee70ad656f7a029ff092c96a8361a6ddafb6ddd3d4c6bcbcbea",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place-sol.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:25:55.012729+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-place-sol.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/v2-place-sol.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-dalle-ronde de assets/export/v2-place-sol.png (empreinte de pixels 1e48bd1e97cc328f)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-dalle-ronde",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-place-sol.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-place-sol.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

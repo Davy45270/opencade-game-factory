@@ -131,6 +131,35 @@
       "role": "sprite",
       "scene": "pilote.html",
       "status": "active"
+    },
+    {
+      "assetPath": "apps/web/pilote.ts",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "apps/web/pilote.ts"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : module apps/web/pilote.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pilote",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "apps/web/pilote.ts · motif de dessin du scan"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "dessin-code",
+      "scene": "apps/web/pilote.ts",
+      "status": "active"
     }
   ],
   "variants": [],

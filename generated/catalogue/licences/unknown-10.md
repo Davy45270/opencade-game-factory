@@ -4,7 +4,7 @@
 
 # Licence unknown (page 10/13)
 
-3110 asset(s) sous `unknown`.
+3106 asset(s) sous `unknown`.
 
 Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown-4.md) · [5](unknown-5.md) · [6](unknown-6.md) · [7](unknown-7.md) · [8](unknown-8.md) · [9](unknown-9.md) · **10** · [11](unknown-11.md) · [12](unknown-12.md) · [13](unknown-13.md)
 
@@ -257,6 +257,6 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 | [`asset-sprite-sprite-interrupteur-mural-0002`](../../../catalog/assets/asset-sprite-sprite-interrupteur-mural-0002.json) | sprite-interrupteur-mural | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-03-monde-0001](../planches/sheet-pestouille-rpg-elements-03-monde-0001.md) |
 | [`asset-sprite-sprite-jauge-0001`](../../../catalog/assets/asset-sprite-sprite-jauge-0001.json) | sprite-jauge | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
 | [`asset-sprite-sprite-jauge-0002`](../../../catalog/assets/asset-sprite-sprite-jauge-0002.json) | sprite-jauge | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
-| [`asset-sprite-sprite-jauge-piste-0001`](../../../catalog/assets/asset-sprite-sprite-jauge-piste-0001.json) | sprite-jauge-piste | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
-| [`asset-sprite-sprite-jauge-piste-0002`](../../../catalog/assets/asset-sprite-sprite-jauge-piste-0002.json) | sprite-jauge-piste | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
-| [`asset-sprite-sprite-jauge-remplissage-0001`](../../../catalog/assets/asset-sprite-sprite-jauge-remplissage-0001.json) | sprite-jauge-remplissage | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
+| [`asset-sprite-sprite-lanterne-0001`](../../../catalog/assets/asset-sprite-sprite-lanterne-0001.json) | sprite-lanterne | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
+| [`asset-sprite-sprite-lanterne-0002`](../../../catalog/assets/asset-sprite-sprite-lanterne-0002.json) | sprite-lanterne | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
+| [`asset-sprite-sprite-lanterne-0003`](../../../catalog/assets/asset-sprite-sprite-lanterne-0003.json) | sprite-lanterne | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-place-village-0001](../planches/sheet-place-village-0001.md) |

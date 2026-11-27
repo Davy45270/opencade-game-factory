@@ -4,9 +4,9 @@
 
 # Jeu pestouille-rpg (page 4/7)
 
-Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1596 asset(s) employés (usages actifs de l'index d'usage)
+Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1592 asset(s) employés (usages actifs de l'index d'usage)
 
-Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 805
+Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 801
 
 Pages : [1](pestouille-rpg.md) · [2](pestouille-rpg-2.md) · [3](pestouille-rpg-3.md) · **4** · [5](pestouille-rpg-5.md) · [6](pestouille-rpg-6.md) · [7](pestouille-rpg-7.md)
 

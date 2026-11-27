@@ -2,7 +2,7 @@
 
 # Catalogue du registre d'assets
 
-8651 assets · 594 planches · 75 jeux employant des assets · 11 sources · 9 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
+8647 assets · 594 planches · 75 jeux employant des assets · 11 sources · 9 licences. Pages générées depuis `catalog/` et `generated/usage-index.json` par `scripts/catalogue_pages.py` (contrôle CI : `--check`).
 
 ## Jeux
 
@@ -77,7 +77,7 @@
 | [opencadkid/taupes](jeux/opencadkid--taupes.md) | 5 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/traverse](jeux/opencadkid--traverse.md) | 4 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/vis](jeux/opencadkid--vis.md) | 5 | [opencadkid](sources/opencadkid.md) |
-| [pestouille-rpg](jeux/pestouille-rpg.md) | 1596 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg](jeux/pestouille-rpg.md) | 1592 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 5 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [petit-astronome](jeux/petit-astronome.md) | 22 | [petit-astronome](sources/petit-astronome.md) |
 | [six-de-chaque](jeux/six-de-chaque.md) | 7 | [six-de-chaque](sources/six-de-chaque.md) |
@@ -110,7 +110,7 @@
 | [LicenseRef-NASA-Media-Usage-Guidelines](licences/LicenseRef-NASA-Media-Usage-Guidelines.md) | 1 |
 | [LicenseRef-OGA-BY-3.0](licences/LicenseRef-OGA-BY-3.0.md) | 1 |
 | [MIT](licences/MIT.md) | 705 |
-| [unknown](licences/unknown.md) | 3110 |
+| [unknown](licences/unknown.md) | 3106 |
 
 ## Planches (594)
 
@@ -508,7 +508,7 @@
 | [Pestouille de face (JPEG)](planches/sheet-pestouille-rpg-animations-face-h-0001.md) | CC-BY-SA-4.0 | 19 |
 | [Pestouille de profil droit (JPEG)](planches/sheet-pestouille-rpg-animations-profil-0001.md) | CC-BY-SA-4.0 | 19 |
 | [Éléments 03 : monde et interface](planches/sheet-pestouille-rpg-elements-03-monde-0001.md) | CC-BY-SA-4.0 | 189 |
-| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | CC-BY-SA-4.0 | 222 |
+| [Éléments 04 : combat et progression](planches/sheet-pestouille-rpg-elements-04-comba-0001.md) | CC-BY-SA-4.0 | 218 |
 | [Maquette 01 : exploration et combat](planches/sheet-pestouille-rpg-maquette-01-explo-0001.md) | CC-BY-SA-4.0 | 150 |
 | [Maquette 02 : métiers et recrutement](planches/sheet-pestouille-rpg-maquette-02-metie-0001.md) | CC-BY-SA-4.0 | 31 |
 | [pestouille-south](planches/sheet-pestouille-south-0001.md) | unknown | 0 |

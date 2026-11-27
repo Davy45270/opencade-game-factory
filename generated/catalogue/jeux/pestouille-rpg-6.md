@@ -4,18 +4,14 @@
 
 # Jeu pestouille-rpg (page 6/7)
 
-Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1596 asset(s) employés (usages actifs de l'index d'usage)
+Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1592 asset(s) employés (usages actifs de l'index d'usage)
 
-Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 805
+Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 801
 
 Pages : [1](pestouille-rpg.md) · [2](pestouille-rpg-2.md) · [3](pestouille-rpg-3.md) · [4](pestouille-rpg-4.md) · [5](pestouille-rpg-5.md) · **6** · [7](pestouille-rpg-7.md)
 
 | Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Commits | Planche |
 |---|---|---|---|---|---|---|---|
-| ![](../../../thumbnails/44/44fb317be3f57b8555e599cff95532328e86c10d484efb5c6ec58375a99ff55c.webp) | [`asset-sprite-sprite-pestouille-course-b-0003`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-b-0003.json) | sprite-pestouille-course-b | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
-| ![](../../../thumbnails/c2/c2abd2706e6cabbcd77f01e15b7630de58afcaf94529b93d4e8057ae7489d861.webp) | [`asset-sprite-sprite-pestouille-course-b-0004`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-b-0004.json) | sprite-pestouille-course-b | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
-| ![](../../../thumbnails/1c/1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba.webp) | [`asset-sprite-sprite-pestouille-course-c-0001`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-c-0001.json) | sprite-pestouille-course-c | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
-| ![](../../../thumbnails/52/5227e4e0b5dc63080e55c3da29f46489cc0d9dac49cb279589004f75bf1d48f6.webp) | [`asset-sprite-sprite-pestouille-course-c-0002`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-c-0002.json) | sprite-pestouille-course-c | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
 | ![](../../../thumbnails/1c/1ccb26419b07f7bb939e86adf07137ec75f25df1c22df86504ce2a5ee140c5ba.webp) | [`asset-sprite-sprite-pestouille-course-c-0003`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-c-0003.json) | sprite-pestouille-course-c | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
 | ![](../../../thumbnails/33/33ba911d45656a2d46e2d718f87f1969b1e15c215ae81cea64c55d7676a193f6.webp) | [`asset-sprite-sprite-pestouille-course-c-0004`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-c-0004.json) | sprite-pestouille-course-c | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
 | ![](../../../thumbnails/fe/fee015a05ff0a2a2d219f86ea8c25e61b586e5c14d731bb32860ef176fa5059a.webp) | [`asset-sprite-sprite-pestouille-course-d-0001`](../../../catalog/assets/asset-sprite-sprite-pestouille-course-d-0001.json) | sprite-pestouille-course-d | sprite | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
@@ -262,3 +258,7 @@ Pages : [1](pestouille-rpg.md) · [2](pestouille-rpg-2.md) · [3](pestouille-rpg
 | — | [`asset-svg-eglantine-terrain-0001`](../../../catalog/assets/asset-svg-eglantine-terrain-0001.json) | eglantine-terrain | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
 | — | [`asset-svg-flammeche-pleine-0001`](../../../catalog/assets/asset-svg-flammeche-pleine-0001.json) | flammeche-pleine | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
 | — | [`asset-svg-flammeche-vide-0001`](../../../catalog/assets/asset-svg-flammeche-vide-0001.json) | flammeche-vide | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
+| — | [`asset-svg-fronde-lianes-0001`](../../../catalog/assets/asset-svg-fronde-lianes-0001.json) | fronde-lianes | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
+| — | [`asset-svg-graine-petard-0001`](../../../catalog/assets/asset-svg-graine-petard-0001.json) | graine-petard | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
+| — | [`asset-svg-nenuphine-0001`](../../../catalog/assets/asset-svg-nenuphine-0001.json) | nenuphine | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
+| — | [`asset-svg-nenuphine-lotus-0001`](../../../catalog/assets/asset-svg-nenuphine-lotus-0001.json) | nenuphine-lotus | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |

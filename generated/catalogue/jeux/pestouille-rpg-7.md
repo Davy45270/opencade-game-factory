@@ -4,18 +4,14 @@
 
 # Jeu pestouille-rpg (page 7/7)
 
-Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1596 asset(s) employés (usages actifs de l'index d'usage)
+Dépôt : [pestouille-rpg](../sources/pestouille-rpg.md) · 1592 asset(s) employés (usages actifs de l'index d'usage)
 
-Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 805
+Licences : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) 790 · [MIT](../licences/MIT.md) 1 · [unknown](../licences/unknown.md) 801
 
 Pages : [1](pestouille-rpg.md) · [2](pestouille-rpg-2.md) · [3](pestouille-rpg-3.md) · [4](pestouille-rpg-4.md) · [5](pestouille-rpg-5.md) · [6](pestouille-rpg-6.md) · **7**
 
 | Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Commits | Planche |
 |---|---|---|---|---|---|---|---|
-| — | [`asset-svg-fronde-lianes-0001`](../../../catalog/assets/asset-svg-fronde-lianes-0001.json) | fronde-lianes | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
-| — | [`asset-svg-graine-petard-0001`](../../../catalog/assets/asset-svg-graine-petard-0001.json) | graine-petard | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
-| — | [`asset-svg-nenuphine-0001`](../../../catalog/assets/asset-svg-nenuphine-0001.json) | nenuphine | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
-| — | [`asset-svg-nenuphine-lotus-0001`](../../../catalog/assets/asset-svg-nenuphine-lotus-0001.json) | nenuphine-lotus | svg | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | redessin dans le style des planches de Davy45270 | `12effa0`, `199caf7` | — |
 | — | [`asset-tilemap-village-0001`](../../../catalog/assets/asset-tilemap-village-0001.json) | village | tilemap | [unknown](../licences/unknown.md) | unknown | `12effa0` | — |
 | — | [`asset-tilemap-village-1-0001`](../../../catalog/assets/asset-tilemap-village-1-0001.json) | village-1 | tilemap | [unknown](../licences/unknown.md) | unknown | `12effa0` | — |
 | — | [`asset-atlas-e04-icones-0001`](../../../catalog/assets/asset-atlas-e04-icones-0001.json) | e04-icones | ui | [unknown](../licences/unknown.md) | unknown | `12effa0`, `199caf7` | — |

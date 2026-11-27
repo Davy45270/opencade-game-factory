@@ -4,16 +4,12 @@
 
 # Licence unknown (page 13/13)
 
-3110 asset(s) sous `unknown`.
+3106 asset(s) sous `unknown`.
 
 Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown-4.md) · [5](unknown-5.md) · [6](unknown-6.md) · [7](unknown-7.md) · [8](unknown-8.md) · [9](unknown-9.md) · [10](unknown-10.md) · [11](unknown-11.md) · [12](unknown-12.md) · **13**
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
-| [`asset-audio-venus-0001`](../../../catalog/assets/asset-audio-venus-0001.json) | venus | audio | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-audio-voici-notre-planete-la-terre-0001`](../../../catalog/assets/asset-audio-voici-notre-planete-la-terre-0001.json) | voici-notre-planete-la-terre | audio | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-codegenerated-rendre-code-kid-0001`](../../../catalog/assets/asset-codegenerated-rendre-code-kid-0001.json) | rendre-code-kid | codegenerated | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-codegenerated-rendre-code-kid-formes-0001`](../../../catalog/assets/asset-codegenerated-rendre-code-kid-formes-0001.json) | rendre-code-kid-formes | codegenerated | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-boubou-0001`](../../../catalog/assets/asset-image-apercu-code-boubou-0001.json) | apercu-code-boubou | characters | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-caliroux-0001`](../../../catalog/assets/asset-image-apercu-code-caliroux-0001.json) | apercu-code-caliroux | characters | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-lumi-0001`](../../../catalog/assets/asset-image-apercu-code-lumi-0001.json) | apercu-code-lumi | characters | [unknown](../licences/unknown.md) | unknown | — | — |

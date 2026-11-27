@@ -4712,10 +4712,6 @@
 | asset-sprite-sprite-interrupteur-mural-0002 | — | — |
 | asset-sprite-sprite-jauge-0001 | — | — |
 | asset-sprite-sprite-jauge-0002 | — | — |
-| asset-sprite-sprite-jauge-piste-0001 | — | — |
-| asset-sprite-sprite-jauge-piste-0002 | — | — |
-| asset-sprite-sprite-jauge-remplissage-0001 | — | — |
-| asset-sprite-sprite-jauge-remplissage-0002 | — | — |
 | asset-sprite-sprite-jouer-accueil-0001 | — | — |
 | asset-sprite-sprite-jouer-accueil-0002 | — | — |
 | asset-sprite-sprite-jouer-commandes-apercu-0001 | — | — |

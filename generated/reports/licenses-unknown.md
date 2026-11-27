@@ -114,6 +114,8 @@
 | asset-atlas-e04-recrutement-0001 | pestouille-rpg | public/assets/e04-recrutement.json |
 | asset-atlas-e04-recrutement-0001 | pestouille-rpg | assets/export/e04-recrutement.json |
 | asset-atlas-e04-recrutement-0001 | pestouille-rpg | assets/export/e04-recrutement.json |
+| asset-atlas-e04-recrutement-0001 | pestouille-rpg | assets/export/e04-recrutement.json |
+| asset-atlas-e04-recrutement-0001 | pestouille-rpg | public/assets/e04-recrutement.json |
 | asset-atlas-e04-recrutement-0001 | pestouille-rpg | public/assets/e04-recrutement.json |
 | asset-atlas-e04-recrutement-0001 | pestouille-rpg | public/assets/e04-recrutement.json |
 | asset-atlas-effets-jeu-2x-0001 | capsule-panic | packages/assets/atlas/effets-jeu@2x.json |
@@ -5397,6 +5399,7 @@
 | asset-style-style-0010 | opencadkid | src/style.css |
 | asset-style-style-0010 | opencadkid | src/style.css |
 | asset-style-style-0010 | opencadkid | src/style.css |
+| asset-style-style-0011 | pestouille-rpg | apps/web/style.css |
 | asset-style-style-0011 | pestouille-rpg | apps/web/style.css |
 | asset-style-style-0011 | pestouille-rpg | apps/web/style.css |
 | asset-style-style-0011 | pestouille-rpg | apps/web/style.css |

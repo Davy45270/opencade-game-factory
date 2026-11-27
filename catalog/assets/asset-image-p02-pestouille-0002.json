@@ -31,6 +31,17 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "game": "pestouille-rpg",
+        "path": "public/assets/p02-pestouille.webp",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
@@ -40,17 +51,6 @@
         "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "repo": "pestouille-rpg",
         "status": "removed",
-        "visibility": "private"
-      },
-      {
-        "assetVersion": 2,
-        "classification": "game",
-        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
-        "game": "pestouille-rpg",
-        "path": "public/assets/p02-pestouille.webp",
-        "provider": "local",
-        "repo": "pestouille-rpg",
-        "status": "active",
         "visibility": "private"
       }
     ],
@@ -141,7 +141,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/a9/a9105ca0f4d3ea2fc4f5fe140170f389b74e1961d58c5fd3b3aadcadc2497bca.webp",
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -219,7 +219,7 @@
         "line": 678,
         "path": "assets.lock.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/p02-pestouille.webp",
         "module-path: assets.lock.json"
@@ -249,10 +249,43 @@
       "assetPath": "public/assets/p02-pestouille.webp",
       "assetVersion": 2,
       "codeRef": {
+        "line": 5,
+        "path": "assets/export/p02-pestouille.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.webp",
+        "module-path: assets/export/p02-pestouille.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/p02-pestouille.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/p02-pestouille.webp": "d29911b2e3aa68b60260f76bb51edc1dc667b095"
+      },
+      "assetPath": "public/assets/p02-pestouille.webp",
+      "assetVersion": 2,
+      "codeRef": {
         "line": 1028,
         "path": "assets/liste-assets.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/p02-pestouille.webp",
         "module-path: assets/liste-assets.json"
@@ -273,6 +306,39 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/p02-pestouille.webp": "d29911b2e3aa68b60260f76bb51edc1dc667b095"
+      },
+      "assetPath": "public/assets/p02-pestouille.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/manifests/p02-pestouille.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/p02-pestouille.webp",
+        "module-path: assets/manifests/p02-pestouille.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "p02-pestouille",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/p02-pestouille.json",
       "status": "active"
     }
   ],

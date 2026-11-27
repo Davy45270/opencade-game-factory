@@ -4,7 +4,7 @@
 
 # Licence CC-BY-SA-4.0 (page 1/20)
 
-4788 asset(s) sous `CC-BY-SA-4.0`.
+4794 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 

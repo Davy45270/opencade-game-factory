@@ -1,0 +1,383 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T14:05:48.619794+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-jauge-piste-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-jauge-piste (empreinte f7d09262e25e)"
+      },
+      {
+        "assetId": "asset-sprite-jauge-piste-0001",
+        "reason": "découpe brute de l'élément jauge-piste : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "d799ad90111e2454adee2b88046092b6e622f658fd49e5b40f0dfd464e7ad91e",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "jauge piste",
+      "registryCommit": "b047434ff66bb52d945c5df921267f5e2f8eb3a0",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-jauge-piste-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-jauge-piste (empreinte f7d09262e25e)"
+        },
+        {
+          "assetId": "asset-sprite-jauge-piste-0001",
+          "reason": "découpe brute de l'élément jauge-piste : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-jauge-piste-cadre-0001",
+        "asset-sprite-jauge-piste-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T14:05:48.227390+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-jauge-piste » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément jauge-piste",
+  "dimensions": {
+    "height": 4,
+    "width": 13
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-jauge-piste-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-jauge-piste-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@12effa0960e1:public/assets/e04-recrutement.json · cadre sprite-jauge-piste"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-jauge-piste-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-6.png, SHA-256 e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@12effa0960e1:public/assets/e04-recrutement.json · cadre sprite-jauge-piste"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg jauge-piste (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "808080c1e5e4e4ec",
+    "phash": "d558550faaf15551"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-jauge-piste-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-jauge-piste livré par pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [13, 4, 1259, 248], \"cadre\": \"sprite-jauge-piste\", \"element\": \"jauge-piste\", \"empreintePixels\": \"f7d09262e25e8199dfccb81395ac677749e9aa67f69608e1f1d6a4411eaf6bbe\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 4, \"w\": 13, \"x\": 1259, \"y\": 248}, \"table\": \"pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"4bd775290aec8e27ad8142de7e82959dc4085f17ea4d3a5ce44a38ba1eaa4aeb\"}"
+    ],
+    "parentId": "asset-sprite-jauge-piste-0001",
+    "parentSha256": "19f8ad9f8e8e84367ef4df733a405ab4e8245e5e9535be7368b96897168c209c",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T14:05:48.619794+00:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 600,
+        "path": "assets.lock.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-recrutement.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/export/e04-recrutement.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-recrutement.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2897,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-recrutement.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/manifests/e04-recrutement.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-recrutement.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 134,
+        "path": "tests/unit/habillage.test.ts"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: tests/unit/habillage.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/habillage.test.ts",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 297,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "importer_livre : cadre sprite-jauge-piste de public/assets/e04-recrutement.webp (empreinte de pixels f7d09262e25e8199)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-jauge-piste",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "e906da8d4ca9061d2015aeac5dd7d0f3e5fede9c36a64a134dacab655862655f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

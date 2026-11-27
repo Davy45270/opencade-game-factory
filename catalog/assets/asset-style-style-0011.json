@@ -37,6 +37,17 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 5,
+        "classification": "game",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "game": "pestouille-rpg",
+        "path": "apps/web/style.css",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
@@ -55,8 +66,9 @@
         "game": "pestouille-rpg",
         "path": "apps/web/style.css",
         "provider": "local",
+        "removedAtCommit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -94,21 +106,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/style.css"
+        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/style.css"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/style.css"
+        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/style.css"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/style.css"
+        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/style.css"
       ],
       "method": "proven"
     }
@@ -126,14 +138,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "61b25f3defae10bd6c1795df7ade02732a00b77c9f3a6a8db2542b657d27c725",
+  "sha256": "66a632d58795b32c4f13d99961aefc4febc4d9992d58f5e77847e986c6849cfd",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -236,15 +248,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/style.css": "903e4a5a85fa06b14e456ec8901ec35d058367ec"
+        "apps/web/style.css": "5a86bba5742d065dc3b7698ffe89a998340ecc95"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 4,
+      "assetVersion": 5,
       "codeRef": {
         "line": 24,
         "path": "apps/web/main.ts"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "import: apps/web/style.css",
         "module-path: apps/web/main.ts"
@@ -269,15 +281,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/style.css": "903e4a5a85fa06b14e456ec8901ec35d058367ec"
+        "apps/web/style.css": "5a86bba5742d065dc3b7698ffe89a998340ecc95"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 4,
+      "assetVersion": 5,
       "codeRef": {
         "line": 7,
         "path": "tests/unit/habillage.test.ts"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: apps/web/style.css",
         "module-path: tests/unit/habillage.test.ts"
@@ -302,15 +314,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/style.css": "903e4a5a85fa06b14e456ec8901ec35d058367ec"
+        "apps/web/style.css": "5a86bba5742d065dc3b7698ffe89a998340ecc95"
       },
       "assetPath": "apps/web/style.css",
-      "assetVersion": 4,
+      "assetVersion": 5,
       "codeRef": {
         "line": 87,
         "path": "tests/unit/lot13-preuves.test.ts"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: apps/web/style.css",
         "module-path: tests/unit/lot13-preuves.test.ts"
@@ -335,7 +347,7 @@
     }
   ],
   "variants": [],
-  "version": 4,
+  "version": 5,
   "versions": [
     {
       "causalNext": 2,
@@ -371,15 +383,26 @@
       "version": 3
     },
     {
-      "causalNext": null,
+      "causalNext": 5,
       "causalPrevious": 3,
       "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "date": "2026-11-27T11:44:13+01:00",
       "format": "css",
-      "nextVersion": null,
+      "nextVersion": 5,
       "previousVersion": 3,
       "sha256": "61b25f3defae10bd6c1795df7ade02732a00b77c9f3a6a8db2542b657d27c725",
       "version": 4
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 4,
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "date": "2026-11-27T15:00:06+01:00",
+      "format": "css",
+      "nextVersion": null,
+      "previousVersion": 4,
+      "sha256": "66a632d58795b32c4f13d99961aefc4febc4d9992d58f5e77847e986c6849cfd",
+      "version": 5
     }
   ],
   "visualStyle": null

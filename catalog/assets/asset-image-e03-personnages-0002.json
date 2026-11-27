@@ -33,7 +33,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
         "game": "pestouille-rpg",
         "path": "public/assets/e03-personnages.webp",
         "provider": "local",
@@ -129,7 +129,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/87/87c34769138b60bee87c0f882afc26ef3b5cd7ebc985b80ca9408bb0e6cc747c.webp",
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -207,7 +207,7 @@
         "line": 542,
         "path": "assets.lock.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/e03-personnages.webp",
         "module-path: assets.lock.json"
@@ -237,10 +237,43 @@
       "assetPath": "public/assets/e03-personnages.webp",
       "assetVersion": 1,
       "codeRef": {
+        "line": 5,
+        "path": "assets/export/e03-personnages.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e03-personnages.webp",
+        "module-path: assets/export/e03-personnages.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e03-personnages.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e03-personnages.webp": "cec82a13024bdae5b1489b495175ba16ca48e542"
+      },
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
         "line": 203,
         "path": "assets/liste-assets.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/e03-personnages.webp",
         "module-path: assets/liste-assets.json"
@@ -264,13 +297,46 @@
       "status": "active"
     },
     {
+      "assetBlobs": {
+        "public/assets/e03-personnages.webp": "cec82a13024bdae5b1489b495175ba16ca48e542"
+      },
+      "assetPath": "public/assets/e03-personnages.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/manifests/e03-personnages.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e03-personnages.webp",
+        "module-path: assets/manifests/e03-personnages.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-personnages",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e03-personnages.json",
+      "status": "active"
+    },
+    {
       "assetPath": "public/assets/e03-personnages.webp",
       "assetVersion": 1,
       "codeRef": {
         "line": 1,
         "path": "public/assets/e03-personnages.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "importer_livre : image d'atlas public/assets/e03-personnages.webp livrée"
       ],

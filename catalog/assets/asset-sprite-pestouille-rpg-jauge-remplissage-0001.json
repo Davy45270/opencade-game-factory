@@ -1,0 +1,272 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T14:05:20.129135+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-jauge-remplissage-0001",
+        "reason": "découpe brute de l'élément jauge-remplissage : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4b4695373ce3f323bfa66d296067e3d2e00ae4a479e634191b6151e30e36354d",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "jauge remplissage",
+      "registryCommit": "b047434ff66bb52d945c5df921267f5e2f8eb3a0",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-jauge-remplissage-0001",
+          "reason": "découpe brute de l'élément jauge-remplissage : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-jauge-remplissage-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T14:05:19.721991+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-jauge-remplissage » (assets/export/e04-recrutement.png), forme normalisée par le jeu de l'élément jauge-remplissage",
+  "dimensions": {
+    "height": 4,
+    "width": 31
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-jauge-remplissage-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-jauge-remplissage-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@12effa0960e1:assets/export/e04-recrutement.json · cadre sprite-jauge-remplissage"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-jauge-remplissage-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-3.png, SHA-256 989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@12effa0960e1:assets/export/e04-recrutement.json · cadre sprite-jauge-remplissage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg jauge-remplissage (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "840404262e2c0c0c",
+    "phash": "d4d45202aded53d6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-jauge-remplissage-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-jauge-remplissage livré par pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f dans assets/export/e04-recrutement.png",
+      "recette {\"atlas\": \"assets/export/e04-recrutement.png (png)\", \"boite\": [31, 4, 1218, 248], \"cadre\": \"sprite-jauge-remplissage\", \"element\": \"jauge-remplissage\", \"empreintePixels\": \"aeebc2bb16b8a4512648bf1f6d33bc300d86f9b1fcfa9b55ce8121043486bc45\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 4, \"w\": 31, \"x\": 1218, \"y\": 248}, \"table\": \"pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"4bd775290aec8e27ad8142de7e82959dc4085f17ea4d3a5ce44a38ba1eaa4aeb\"}"
+    ],
+    "parentId": "asset-sprite-jauge-remplissage-0001",
+    "parentSha256": "989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T14:05:20.129135+00:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3",
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32"
+      },
+      "assetPath": "assets/export/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 328,
+        "path": "assets.lock.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: assets/export/e04-recrutement.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.json": "8ad865fe3ed048d385543a0f7da3148efdd71df3",
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32"
+      },
+      "assetPath": "assets/export/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2951,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: assets/export/e04-recrutement.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/export/e04-recrutement.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 276,
+        "path": "assets/export/e04-recrutement.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "importer_livre : cadre sprite-jauge-remplissage de assets/export/e04-recrutement.png (empreinte de pixels aeebc2bb16b8a451)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-jauge-remplissage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

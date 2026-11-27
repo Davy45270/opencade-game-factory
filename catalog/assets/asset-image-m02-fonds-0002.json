@@ -31,6 +31,17 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "game": "pestouille-rpg",
+        "path": "public/assets/m02-fonds.webp",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
@@ -40,17 +51,6 @@
         "removedAtCommit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "repo": "pestouille-rpg",
         "status": "removed",
-        "visibility": "private"
-      },
-      {
-        "assetVersion": 2,
-        "classification": "game",
-        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
-        "game": "pestouille-rpg",
-        "path": "public/assets/m02-fonds.webp",
-        "provider": "local",
-        "repo": "pestouille-rpg",
-        "status": "active",
         "visibility": "private"
       }
     ],
@@ -141,7 +141,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/77/77e619026b9dfba1a31b9db29b1230c08c97b4cb91f6bb7fd0dbefde6fbea1cc.webp",
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -219,7 +219,7 @@
         "line": 662,
         "path": "assets.lock.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/m02-fonds.webp",
         "module-path: assets.lock.json"
@@ -249,10 +249,43 @@
       "assetPath": "public/assets/m02-fonds.webp",
       "assetVersion": 2,
       "codeRef": {
+        "line": 5,
+        "path": "assets/export/m02-fonds.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/m02-fonds.webp",
+        "module-path: assets/export/m02-fonds.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/m02-fonds.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
+      },
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 2,
+      "codeRef": {
         "line": 917,
         "path": "assets/liste-assets.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/m02-fonds.webp",
         "module-path: assets/liste-assets.json"
@@ -273,6 +306,39 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/m02-fonds.webp": "fbe3771a2390fecc596631bf0fb0fbb54153ebbf"
+      },
+      "assetPath": "public/assets/m02-fonds.webp",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/manifests/m02-fonds.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/m02-fonds.webp",
+        "module-path: assets/manifests/m02-fonds.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m02-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/m02-fonds.json",
       "status": "active"
     }
   ],

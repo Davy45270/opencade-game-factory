@@ -33,7 +33,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
         "game": "pestouille-rpg",
         "path": "public/assets/e04-monstres.webp",
         "provider": "local",
@@ -129,7 +129,7 @@
   "subcategory": null,
   "tags": "unknown",
   "thumbnail": "thumbnails/8a/8a4218e180a5bbfc0a51a80173596eb83d54cbd10e4a53342732b9acec898e25.webp",
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -207,7 +207,7 @@
         "line": 582,
         "path": "assets.lock.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/e04-monstres.webp",
         "module-path: assets.lock.json"
@@ -237,10 +237,43 @@
       "assetPath": "public/assets/e04-monstres.webp",
       "assetVersion": 1,
       "codeRef": {
+        "line": 5,
+        "path": "assets/export/e04-monstres.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-monstres.webp",
+        "module-path: assets/export/e04-monstres.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-monstres.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/e04-monstres.webp": "dcfb29b8db1885f19927146c6d22b0be964cdb08"
+      },
+      "assetPath": "public/assets/e04-monstres.webp",
+      "assetVersion": 1,
+      "codeRef": {
         "line": 479,
         "path": "assets/liste-assets.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/e04-monstres.webp",
         "module-path: assets/liste-assets.json"
@@ -264,13 +297,46 @@
       "status": "active"
     },
     {
+      "assetBlobs": {
+        "public/assets/e04-monstres.webp": "dcfb29b8db1885f19927146c6d22b0be964cdb08"
+      },
+      "assetPath": "public/assets/e04-monstres.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/manifests/e04-monstres.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/e04-monstres.webp",
+        "module-path: assets/manifests/e04-monstres.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-monstres",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-monstres.json",
+      "status": "active"
+    },
+    {
       "assetPath": "public/assets/e04-monstres.webp",
       "assetVersion": 1,
       "codeRef": {
         "line": 1,
         "path": "public/assets/e04-monstres.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "importer_livre : image d'atlas public/assets/e04-monstres.webp livrée"
       ],

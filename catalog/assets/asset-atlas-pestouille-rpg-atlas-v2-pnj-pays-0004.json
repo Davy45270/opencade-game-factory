@@ -46,7 +46,7 @@
       {
         "assetVersion": 1,
         "classification": "game",
-        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
         "game": "pestouille-rpg",
         "path": "public/assets/v2-pnj-paysan-renard.webp",
         "provider": "local",
@@ -157,8 +157,41 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "updatedAt": "2026-11-27T15:00:06+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "public/assets/v2-pnj-paysan-renard.webp": "42eec639b9fb1898e1e96f0a61153b7128346941"
+      },
+      "assetPath": "public/assets/v2-pnj-paysan-renard.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/export/v2-pnj-paysan-renard.manifest.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/v2-pnj-paysan-renard.webp",
+        "module-path: assets/export/v2-pnj-paysan-renard.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-pnj-paysan-renard",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-pnj-paysan-renard.manifest.json",
+      "status": "active"
+    },
     {
       "assetBlobs": {
         "public/assets/v2-pnj-paysan-renard.webp": "42eec639b9fb1898e1e96f0a61153b7128346941"
@@ -169,7 +202,7 @@
         "line": 4460,
         "path": "assets/liste-assets.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "literal: public/assets/v2-pnj-paysan-renard.webp",
         "module-path: assets/liste-assets.json"
@@ -193,13 +226,46 @@
       "status": "active"
     },
     {
+      "assetBlobs": {
+        "public/assets/v2-pnj-paysan-renard.webp": "42eec639b9fb1898e1e96f0a61153b7128346941"
+      },
+      "assetPath": "public/assets/v2-pnj-paysan-renard.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 5,
+        "path": "assets/manifests/v2-pnj-paysan-renard.json"
+      },
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "evidence": [
+        "literal: public/assets/v2-pnj-paysan-renard.webp",
+        "module-path: assets/manifests/v2-pnj-paysan-renard.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-pnj-paysan-renard",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/v2-pnj-paysan-renard.json",
+      "status": "active"
+    },
+    {
       "assetPath": "public/assets/v2-pnj-paysan-renard.webp",
       "assetVersion": 1,
       "codeRef": {
         "line": 1,
         "path": "public/assets/v2-pnj-paysan-renard.json"
       },
-      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "evidence": [
         "importer_livre : image d'atlas public/assets/v2-pnj-paysan-renard.webp livrée"
       ],

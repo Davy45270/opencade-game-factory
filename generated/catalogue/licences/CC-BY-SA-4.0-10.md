@@ -4,7 +4,7 @@
 
 # Licence CC-BY-SA-4.0 (page 10/20)
 
-4788 asset(s) sous `CC-BY-SA-4.0`.
+4794 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
@@ -12,6 +12,10 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-sprite-capsule-panic-notation-triple-ap-0002`](../../../catalog/assets/asset-sprite-capsule-panic-notation-triple-ap-0002.json) | capsule-panic notation-triple-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
+| [`asset-sprite-capsule-panic-nuage-apercu-cadre-0002`](../../../catalog/assets/asset-sprite-capsule-panic-nuage-apercu-cadre-0002.json) | capsule-panic nuage-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
+| [`asset-sprite-capsule-panic-options-commandes-0002`](../../../catalog/assets/asset-sprite-capsule-panic-options-commandes-0002.json) | capsule-panic options-commandes-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
+| [`asset-sprite-capsule-panic-options-menus-orig-0002`](../../../catalog/assets/asset-sprite-capsule-panic-options-menus-orig-0002.json) | capsule-panic options-menus-origine (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
 | [`asset-sprite-capsule-panic-paillasse-fond-jeu-0002`](../../../catalog/assets/asset-sprite-capsule-panic-paillasse-fond-jeu-0002.json) | capsule-panic paillasse-fond-jeu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
 | [`asset-sprite-capsule-panic-paires-horizontale-0003`](../../../catalog/assets/asset-sprite-capsule-panic-paires-horizontale-0003.json) | capsule-panic paires-horizontale-origine@3x | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
 | [`asset-sprite-capsule-panic-paires-horizontale-0004`](../../../catalog/assets/asset-sprite-capsule-panic-paires-horizontale-0004.json) | capsule-panic paires-horizontale-origine@3x | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
@@ -258,7 +262,3 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 | [`asset-sprite-diable-bas-marche-d-0001`](../../../catalog/assets/asset-sprite-diable-bas-marche-d-0001.json) | diable-bas-marche-d | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
 | [`asset-sprite-diable-bas-marche-e-0001`](../../../catalog/assets/asset-sprite-diable-bas-marche-e-0001.json) | diable-bas-marche-e | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
 | [`asset-sprite-diable-bas-marche-f-0001`](../../../catalog/assets/asset-sprite-diable-bas-marche-f-0001.json) | diable-bas-marche-f | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
-| [`asset-sprite-diable-droite-attaque-bloc-0001`](../../../catalog/assets/asset-sprite-diable-droite-attaque-bloc-0001.json) | diable-droite-attaque-bloc | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
-| [`asset-sprite-diable-droite-blesse-a-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-a-0001.json) | diable-droite-blesse-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
-| [`asset-sprite-diable-droite-blesse-b-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-b-0001.json) | diable-droite-blesse-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
-| [`asset-sprite-diable-droite-blesse-c-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-c-0001.json) | diable-droite-blesse-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |

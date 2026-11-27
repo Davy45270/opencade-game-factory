@@ -4,7 +4,7 @@
 
 # Licence CC-BY-SA-4.0 (page 20/20)
 
-4788 asset(s) sous `CC-BY-SA-4.0`.
+4794 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
@@ -12,6 +12,12 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-sprite-vampire-droite-marche-e-0001`](../../../catalog/assets/asset-sprite-vampire-droite-marche-e-0001.json) | vampire-droite-marche-e | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
+| [`asset-sprite-vampire-droite-marche-f-0001`](../../../catalog/assets/asset-sprite-vampire-droite-marche-f-0001.json) | vampire-droite-marche-f | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
+| [`asset-sprite-vampire-gauche-attaque-bloc-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-attaque-bloc-0001.json) | vampire-gauche-attaque-bloc | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
+| [`asset-sprite-vampire-gauche-blesse-a-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-blesse-a-0001.json) | vampire-gauche-blesse-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
+| [`asset-sprite-vampire-gauche-blesse-b-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-blesse-b-0001.json) | vampire-gauche-blesse-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
+| [`asset-sprite-vampire-gauche-blesse-c-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-blesse-c-0001.json) | vampire-gauche-blesse-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
 | [`asset-sprite-vampire-gauche-idle-a-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-idle-a-0001.json) | vampire-gauche-idle-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
 | [`asset-sprite-vampire-gauche-idle-b-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-idle-b-0001.json) | vampire-gauche-idle-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |
 | [`asset-sprite-vampire-gauche-idle-c-0001`](../../../catalog/assets/asset-sprite-vampire-gauche-idle-c-0001.json) | vampire-gauche-idle-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-vampire-detouree-0001](../planches/sheet-vampire-detouree-0001.md) |

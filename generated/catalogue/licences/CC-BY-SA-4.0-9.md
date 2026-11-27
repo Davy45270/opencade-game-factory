@@ -4,7 +4,7 @@
 
 # Licence CC-BY-SA-4.0 (page 9/20)
 
-4788 asset(s) sous `CC-BY-SA-4.0`.
+4794 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
@@ -12,6 +12,10 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-sprite-blob-vert-4directions-droite-att-0001`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-att-0001.json) | blob-vert-4directions-droite-attaque-bloc | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
+| [`asset-sprite-blob-vert-4directions-droite-ble-0001`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-ble-0001.json) | blob-vert-4directions-droite-blesse-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
+| [`asset-sprite-blob-vert-4directions-droite-ble-0002`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-ble-0002.json) | blob-vert-4directions-droite-blesse-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
+| [`asset-sprite-blob-vert-4directions-droite-ble-0003`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-ble-0003.json) | blob-vert-4directions-droite-blesse-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
 | [`asset-sprite-blob-vert-4directions-droite-idl-0001`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-idl-0001.json) | blob-vert-4directions-droite-idle-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
 | [`asset-sprite-blob-vert-4directions-droite-idl-0002`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-idl-0002.json) | blob-vert-4directions-droite-idle-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
 | [`asset-sprite-blob-vert-4directions-droite-idl-0003`](../../../catalog/assets/asset-sprite-blob-vert-4directions-droite-idl-0003.json) | blob-vert-4directions-droite-idle-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-blob-vert-4directions-detouree-0001](../planches/sheet-blob-vert-4directions-detouree-0001.md) |
@@ -258,7 +262,3 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 | [`asset-sprite-capsule-panic-niveau-plus-comman-0002`](../../../catalog/assets/asset-sprite-capsule-panic-niveau-plus-comman-0002.json) | capsule-panic niveau-plus-commandes-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
 | [`asset-sprite-capsule-panic-notation-double-ap-0002`](../../../catalog/assets/asset-sprite-capsule-panic-notation-double-ap-0002.json) | capsule-panic notation-double-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
 | [`asset-sprite-capsule-panic-notation-simple-ap-0002`](../../../catalog/assets/asset-sprite-capsule-panic-notation-simple-ap-0002.json) | capsule-panic notation-simple-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
-| [`asset-sprite-capsule-panic-notation-triple-ap-0002`](../../../catalog/assets/asset-sprite-capsule-panic-notation-triple-ap-0002.json) | capsule-panic notation-triple-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
-| [`asset-sprite-capsule-panic-nuage-apercu-cadre-0002`](../../../catalog/assets/asset-sprite-capsule-panic-nuage-apercu-cadre-0002.json) | capsule-panic nuage-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
-| [`asset-sprite-capsule-panic-options-commandes-0002`](../../../catalog/assets/asset-sprite-capsule-panic-options-commandes-0002.json) | capsule-panic options-commandes-apercu (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |
-| [`asset-sprite-capsule-panic-options-menus-orig-0002`](../../../catalog/assets/asset-sprite-capsule-panic-options-menus-orig-0002.json) | capsule-panic options-menus-origine (cadre livré) | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (LICENCES.md du jeu) | — | — |

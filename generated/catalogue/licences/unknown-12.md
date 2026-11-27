@@ -4,12 +4,16 @@
 
 # Licence unknown (page 12/13)
 
-3106 asset(s) sous `unknown`.
+3110 asset(s) sous `unknown`.
 
 Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown-4.md) · [5](unknown-5.md) · [6](unknown-6.md) · [7](unknown-7.md) · [8](unknown-8.md) · [9](unknown-9.md) · [10](unknown-10.md) · [11](unknown-11.md) · **12** · [13](unknown-13.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-sprite-sprite-pestouille-marche-a-0004`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-a-0004.json) | sprite-pestouille-marche-a | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
+| [`asset-sprite-sprite-pestouille-marche-b-0001`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-b-0001.json) | sprite-pestouille-marche-b | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
+| [`asset-sprite-sprite-pestouille-marche-b-0003`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-b-0003.json) | sprite-pestouille-marche-b | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
+| [`asset-sprite-sprite-pestouille-marche-b-0004`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-b-0004.json) | sprite-pestouille-marche-b | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
 | [`asset-sprite-sprite-pestouille-marche-c-0001`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-c-0001.json) | sprite-pestouille-marche-c | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
 | [`asset-sprite-sprite-pestouille-marche-c-0003`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-c-0003.json) | sprite-pestouille-marche-c | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-rpg-elements-04-comba-0001](../planches/sheet-pestouille-rpg-elements-04-comba-0001.md) |
 | [`asset-sprite-sprite-pestouille-marche-c-0004`](../../../catalog/assets/asset-sprite-sprite-pestouille-marche-c-0004.json) | sprite-pestouille-marche-c | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-pestouille-planche-02-sprites-ti-0001](../planches/sheet-pestouille-planche-02-sprites-ti-0001.md) |
@@ -204,6 +208,7 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 | [`asset-sprite-sprite-zebre-cuisinier-bas-repos-0008`](../../../catalog/assets/asset-sprite-sprite-zebre-cuisinier-bas-repos-0008.json) | sprite-zebre-cuisinier-bas-repos-d | sprite | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | [sheet-zebre-cuisinier-0001](../planches/sheet-zebre-cuisinier-0001.md) |
 | [`asset-style-pilote-0001`](../../../catalog/assets/asset-style-pilote-0001.json) | pilote | style | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | — |
 | [`asset-style-style-0011`](../../../catalog/assets/asset-style-style-0011.json) | style | style | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | — |
+| [`asset-tilemap-village-1-0001`](../../../catalog/assets/asset-tilemap-village-1-0001.json) | village-1 | tilemap | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md) | — |
 | [`asset-tilemap-village-0001`](../../../catalog/assets/asset-tilemap-village-0001.json) | village | tilemap | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg](../jeux/pestouille-rpg.md), [pestouille-rpg/content](../jeux/pestouille-rpg--content.md) | — |
 | [`asset-tilemap-foret-0001`](../../../catalog/assets/asset-tilemap-foret-0001.json) | foret | tilemap | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg/content](../jeux/pestouille-rpg--content.md) | — |
 | [`asset-tilemap-parvis-0001`](../../../catalog/assets/asset-tilemap-parvis-0001.json) | parvis | tilemap | [unknown](../licences/unknown.md) | unknown | [pestouille-rpg/content](../jeux/pestouille-rpg--content.md) | — |
@@ -255,8 +260,3 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 | [`asset-audio-tu-as-trouve-la-plus-grosse-0001`](../../../catalog/assets/asset-audio-tu-as-trouve-la-plus-grosse-0001.json) | tu-as-trouve-la-plus-grosse | audio | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-audio-tu-as-trouve-la-plus-petite-0001`](../../../catalog/assets/asset-audio-tu-as-trouve-la-plus-petite-0001.json) | tu-as-trouve-la-plus-petite | audio | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-audio-uranus-0001`](../../../catalog/assets/asset-audio-uranus-0001.json) | uranus | audio | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-audio-venus-0001`](../../../catalog/assets/asset-audio-venus-0001.json) | venus | audio | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-audio-voici-notre-planete-la-terre-0001`](../../../catalog/assets/asset-audio-voici-notre-planete-la-terre-0001.json) | voici-notre-planete-la-terre | audio | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-codegenerated-rendre-code-kid-0001`](../../../catalog/assets/asset-codegenerated-rendre-code-kid-0001.json) | rendre-code-kid | codegenerated | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-codegenerated-rendre-code-kid-formes-0001`](../../../catalog/assets/asset-codegenerated-rendre-code-kid-formes-0001.json) | rendre-code-kid-formes | codegenerated | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-image-apercu-code-boubou-0001`](../../../catalog/assets/asset-image-apercu-code-boubou-0001.json) | apercu-code-boubou | characters | [unknown](../licences/unknown.md) | unknown | — | — |

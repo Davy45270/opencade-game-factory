@@ -4,7 +4,7 @@
 
 # Licence CC-BY-SA-4.0 (page 11/20)
 
-4788 asset(s) sous `CC-BY-SA-4.0`.
+4794 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
@@ -12,6 +12,10 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-sprite-diable-droite-attaque-bloc-0001`](../../../catalog/assets/asset-sprite-diable-droite-attaque-bloc-0001.json) | diable-droite-attaque-bloc | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
+| [`asset-sprite-diable-droite-blesse-a-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-a-0001.json) | diable-droite-blesse-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
+| [`asset-sprite-diable-droite-blesse-b-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-b-0001.json) | diable-droite-blesse-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
+| [`asset-sprite-diable-droite-blesse-c-0001`](../../../catalog/assets/asset-sprite-diable-droite-blesse-c-0001.json) | diable-droite-blesse-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
 | [`asset-sprite-diable-droite-idle-a-0001`](../../../catalog/assets/asset-sprite-diable-droite-idle-a-0001.json) | diable-droite-idle-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
 | [`asset-sprite-diable-droite-idle-b-0001`](../../../catalog/assets/asset-sprite-diable-droite-idle-b-0001.json) | diable-droite-idle-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
 | [`asset-sprite-diable-droite-idle-c-0001`](../../../catalog/assets/asset-sprite-diable-droite-idle-c-0001.json) | diable-droite-idle-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-diable-detouree-0001](../planches/sheet-diable-detouree-0001.md) |
@@ -258,7 +262,3 @@ Pages : [1](CC-BY-SA-4.0.md) · [2](CC-BY-SA-4.0-2.md) · [3](CC-BY-SA-4.0-3.md)
 | [`asset-sprite-guepe-gauche-blesse-a-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-blesse-a-0001.json) | guepe-gauche-blesse-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
 | [`asset-sprite-guepe-gauche-blesse-b-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-blesse-b-0001.json) | guepe-gauche-blesse-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
 | [`asset-sprite-guepe-gauche-blesse-c-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-blesse-c-0001.json) | guepe-gauche-blesse-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
-| [`asset-sprite-guepe-gauche-idle-a-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-idle-a-0001.json) | guepe-gauche-idle-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
-| [`asset-sprite-guepe-gauche-idle-b-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-idle-b-0001.json) | guepe-gauche-idle-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
-| [`asset-sprite-guepe-gauche-idle-c-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-idle-c-0001.json) | guepe-gauche-idle-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |
-| [`asset-sprite-guepe-gauche-idle-d-0001`](../../../catalog/assets/asset-sprite-guepe-gauche-idle-d-0001.json) | guepe-gauche-idle-d | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-guepe-detouree-0001](../planches/sheet-guepe-detouree-0001.md) |

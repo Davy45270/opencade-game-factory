@@ -2,6 +2,8 @@
 
 | Asset |
 | --- |
+| asset-atlas-pestouille-rpg-atlas-e04-recrute-0003 |
+| asset-atlas-pestouille-rpg-atlas-e04-recrute-0004 |
 | asset-atlas-pestouille-rpg-atlas-m02-bois-0001 |
 | asset-atlas-pestouille-rpg-atlas-m02-bois-0002 |
 | asset-audio-accueil-0001 |
@@ -3464,7 +3466,6 @@
 | asset-svg-cellule-cyan-unie-0001 |
 | asset-svg-cellule-magenta-unie-0001 |
 | asset-svg-game-icons-lorc-lorc-bloody-swor-0001 |
-| asset-tilemap-village-1-0001 |
 | asset-tilemap-village-2-0001 |
 | asset-tilemap-village-3-0001 |
 | asset-tilemap-village-4-0001 |

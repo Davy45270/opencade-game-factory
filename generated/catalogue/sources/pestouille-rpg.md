@@ -14,11 +14,11 @@ Rôle : game
 
 ## Jeux (2)
 
-- [pestouille-rpg](../jeux/pestouille-rpg.md) — 1587 asset(s)
+- [pestouille-rpg](../jeux/pestouille-rpg.md) — 1596 asset(s)
 - [pestouille-rpg/content](../jeux/pestouille-rpg--content.md) — 5 asset(s)
 
-## Licences des 1590 asset(s) employés
+## Licences des 1599 asset(s) employés
 
-- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 786
+- [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) : 790
 - [MIT](../licences/MIT.md) : 1
-- [unknown](../licences/unknown.md) : 803
+- [unknown](../licences/unknown.md) : 808

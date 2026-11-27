@@ -4639,6 +4639,8 @@
 - `asset-sprite-impact-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-interrupteur-mural-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-jauge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-jauge-piste-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-jauge-remplissage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-jouer-commandes-apercu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-jouer-menus-origine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-koala-bas-attaque-bloc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -6151,6 +6153,10 @@
 - `asset-sprite-pestouille-rpg-interrupteur-mura-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-rpg-interrupteur-mura-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-rpg-jauge-cadre-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-jauge-piste-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-jauge-piste-cadre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-jauge-remplissage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-pestouille-rpg-jauge-remplissage-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-rpg-lanterne-cadre-li-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-rpg-lanterne-cadre-li-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-pestouille-rpg-lanterne-cadre-li-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7590,6 +7596,10 @@
 - `asset-sprite-sprite-interrupteur-mural-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jauge-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jauge-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-piste-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-piste-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-remplissage-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-remplissage-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.

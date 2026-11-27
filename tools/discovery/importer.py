@@ -49,6 +49,19 @@ def exclusion(path):
     return next((rule for rule in EXCLUSIONS if rule[:-1] in directories), None)
 
 
+TEST_DIRECTORIES = frozenset(("tests", "test", "__tests__", "e2e"))
+TEST_FILE = re.compile(r"\.(?:spec|test)\.[^./]+$")
+
+
+def test_exclusion(path):
+    """Un fichier de test n'est jamais un asset (27/11 : specs e2e prises pour du « code-generated », captures de
+    référence Playwright prises pour des images). Ses références restent lues : seule l'entrée au registre est refusée."""
+    *directories, name = path.split("/")
+    if TEST_FILE.search(name):
+        return "*.spec.*|*.test.*"
+    return next((f"{d}/" for d in directories if d in TEST_DIRECTORIES or d.endswith("-snapshots")), None)
+
+
 def read_assets(root):
     catalogue = Catalogue(root)
     return {path.stem: catalogue.read(path) for path in catalogue.documents("assets")}
@@ -114,8 +127,9 @@ def scan_tree(git, mirror, repo, commit, tree, import_blob, examine):
                 rows.append({**base, "status": "unsupported", "reason": "unsupported-format"})
                 continue
             rule = exclusion(path)
-            if rule and kind not in formats.CONDITIONAL:
-                rows.append({**base, "status": "excluded", "reason": rule})
+            gate = rule or test_exclusion(path)
+            if gate and kind not in formats.CONDITIONAL:
+                rows.append({**base, "status": "excluded", "reason": gate})
                 continue
             reason = None
             if blob.symlink:
@@ -125,7 +139,7 @@ def scan_tree(git, mirror, repo, commit, tree, import_blob, examine):
             elif blob.size > MAX_BLOB:
                 reason = "too-large"
             if reason:
-                rows.append({**base, "status": "excluded" if rule else "exception", "reason": rule or reason})
+                rows.append({**base, "status": "excluded" if gate else "exception", "reason": gate or reason})
                 continue
             raw = batch.read(blob, MAX_BLOB)
             if not rule:
@@ -133,14 +147,14 @@ def scan_tree(git, mirror, repo, commit, tree, import_blob, examine):
             try:
                 measured = formats.inspect(path, raw)
             except formats.Unreadable as exc:
-                rows.append({**base, "status": "excluded" if rule else "exception", "reason": rule or str(exc)})
+                rows.append({**base, "status": "excluded" if gate else "exception", "reason": gate or str(exc)})
                 continue
             if measured is None:
-                rows.append({**base, "status": "excluded" if rule else "examined",
-                             "reason": rule or "no-asset"})
+                rows.append({**base, "status": "excluded" if gate else "examined",
+                             "reason": gate or "no-asset"})
                 continue
-            if rule:
-                rows.append({**base, "status": "excluded", "reason": rule})
+            if gate:
+                rows.append({**base, "status": "excluded", "reason": gate})
                 continue
             import_blob(path, raw, measured, earliest.get(blob.oid))
             rows.append(added_row(base, measured))

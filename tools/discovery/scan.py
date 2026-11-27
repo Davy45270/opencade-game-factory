@@ -448,7 +448,8 @@ def _inventory(git, mirror, repo, commit, recorded, forgotten):
         for path, blob in tree.items():
             kind = formats.extension(path)
             key = repo, commit, path
-            if kind not in formats.SUPPORTED or key in recorded or importer.exclusion(path):
+            if (kind not in formats.SUPPORTED or key in recorded or importer.exclusion(path)
+                    or importer.test_exclusion(path)):
                 continue
             if kind in formats.CONDITIONAL and not blob.symlink and blob.size <= importer.MAX_BLOB:
                 data = batch.read(blob, importer.MAX_BLOB)

@@ -1,0 +1,223 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite coeur — sprite 19×18",
+  "dimensions": {
+    "height": 18,
+    "width": 19
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-coeur"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e04-recrutement-0002",
+        "h": 18,
+        "w": 19,
+        "x": 31,
+        "y": 26
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-coeur-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "assets/export/e04-recrutement.json · sprite-coeur"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json#sprite-coeur"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-coeur",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "ccaa73722694c932",
+    "phash": "d5f70632340b586f"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "95617f3ca424bf7aa1b25d1ae8bc39ec3a289f18208a966a394b3cdf42d66bd4",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 18,
+    "verified": false,
+    "w": 19,
+    "x": 1215,
+    "y": 217
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-04-comba-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/95/95617f3ca424bf7aa1b25d1ae8bc39ec3a289f18208a966a394b3cdf42d66bd4.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb",
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32"
+      },
+      "assetPath": "assets/export/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 328,
+        "path": "assets.lock.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/e04-recrutement.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb",
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32"
+      },
+      "assetPath": "assets/export/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2951,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/e04-recrutement.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e04-recrutement-0002",
+          "h": 18,
+          "sourceSheetSha256": "669617dcfeb1ee3444ce7ae38b0520e95aad68ef7336327abf7edb29addd8e64",
+          "w": 19,
+          "x": 31,
+          "y": 26
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "95617f3ca424bf7aa1b25d1ae8bc39ec3a289f18208a966a394b3cdf42d66bd4",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

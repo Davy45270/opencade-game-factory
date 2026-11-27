@@ -1,0 +1,257 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite panneau affichage — sprite 105×105",
+  "dimensions": {
+    "height": 105,
+    "width": 105
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-panneau-affichage"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-v2-place-0001",
+        "h": 105,
+        "w": 105,
+        "x": 128,
+        "y": 120
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-panneau-affichage-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/v2-place.json · sprite-panneau-affichage"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place.json#sprite-panneau-affichage"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-panneau-affichage",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "64933d6d696b7b64",
+    "phash": "9ff0616d96163638"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "99e83735e99ac059ece53b7a5983542da467281aa8e61ee8efa971ba089c53ef",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1339078dc1f4dd21083563f5d51d89ad649ab36e055914dcaa96ac8dd87aaa13",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 105,
+    "verified": false,
+    "w": 89,
+    "x": 1118,
+    "y": 596
+  },
+  "sourceSheetId": "sheet-place-village-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/13/1339078dc1f4dd21083563f5d51d89ad649ab36e055914dcaa96ac8dd87aaa13.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610",
+        "public/assets/v2-place.json": "b527654aecb7db47039525c4054ee79b461d4e77"
+      },
+      "assetPath": "public/assets/v2-place.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-place.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place.json",
+        "module-path: assets/export/v2-place.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-place.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610",
+        "public/assets/v2-place.json": "b527654aecb7db47039525c4054ee79b461d4e77"
+      },
+      "assetPath": "public/assets/v2-place.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3722,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-place.png": "5025738aca516d8444cd1c6584f80fb4b9f6d610",
+        "public/assets/v2-place.json": "b527654aecb7db47039525c4054ee79b461d4e77"
+      },
+      "assetPath": "public/assets/v2-place.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-place.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place.json",
+        "module-path: assets/manifests/v2-place.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-v2-place-0001",
+          "h": 105,
+          "sourceSheetSha256": "7f9d31ea4c3695f42b83229f6be6b90b808c36a2f73bde49e721d7ea7b9b9027",
+          "w": 105,
+          "x": 128,
+          "y": 120
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1339078dc1f4dd21083563f5d51d89ad649ab36e055914dcaa96ac8dd87aaa13",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

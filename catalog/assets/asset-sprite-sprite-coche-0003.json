@@ -1,0 +1,325 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite coche — sprite 24×20",
+  "dimensions": {
+    "height": 20,
+    "width": 24
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-coche"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e04-recrutement-0002",
+        "h": 20,
+        "w": 24,
+        "x": 189,
+        "y": 24
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-coche-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e04-recrutement.json · sprite-coche"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e04-recrutement.json#sprite-coche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-coche",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "364429596561338e",
+    "phash": "9e92346cc9391af6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "e9fb9bef0b87b1a065938fc06f85693966fc9ae7c4ef028581d74ef318f9358a",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "31d8f5575a44bb24a9f4fbdcefc58ea8d304b0370f890eff6659f3615e97813f",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 20,
+    "verified": false,
+    "w": 24,
+    "x": 689,
+    "y": 661
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-04-comba-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/31/31d8f5575a44bb24a9f4fbdcefc58ea8d304b0370f890eff6659f3615e97813f.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 600,
+        "path": "assets.lock.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e04-recrutement.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/export/e04-recrutement.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e04-recrutement.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2897,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e04-recrutement.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: assets/manifests/e04-recrutement.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e04-recrutement.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e04-recrutement.png": "abfc542cc21da82d0ea110179e59ce63d8d78b32",
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
+      },
+      "assetPath": "public/assets/e04-recrutement.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 134,
+        "path": "tests/unit/habillage.test.ts"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e04-recrutement.json",
+        "module-path: tests/unit/habillage.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-recrutement",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/habillage.test.ts",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e04-recrutement-0002",
+          "h": 20,
+          "sourceSheetSha256": "669617dcfeb1ee3444ce7ae38b0520e95aad68ef7336327abf7edb29addd8e64",
+          "w": 24,
+          "x": 189,
+          "y": 24
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "31d8f5575a44bb24a9f4fbdcefc58ea8d304b0370f890eff6659f3615e97813f",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -43,14 +43,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 3,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png",
         "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       }
     ],
@@ -62,7 +74,7 @@
     "alpha": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     },
@@ -83,35 +95,35 @@
     "dimensions": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     },
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     },
     "perceptual": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png"
       ],
       "method": "proven"
     }
@@ -121,8 +133,8 @@
   "orientation": "unknown",
   "originUniverse": "unknown",
   "perceptual": {
-    "dhash": "ceccc6c3488e1656",
-    "phash": "e503b5bc4a68c2cf"
+    "dhash": "8466f0d1d0c97892",
+    "phash": "c16c74f2f0d9d0d8"
   },
   "pivot": "unknown",
   "provenance": {
@@ -133,18 +145,18 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "a39bd087bdc893940252a58425acef8fc01e987d53a9e0e513087f4a60523f1d",
+  "sha256": "7e2da0f5b9be80bf80620258e2cefc8771c5655be600437a3d6a1a572bbdaaea",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "thumbnail": "thumbnails/a3/a39bd087bdc893940252a58425acef8fc01e987d53a9e0e513087f4a60523f1d.webp",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "thumbnail": "thumbnails/7e/7e2da0f5b9be80bf80620258e2cefc8771c5655be600437a3d6a1a572bbdaaea.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [],
   "variants": [],
-  "version": 2,
+  "version": 3,
   "versions": [
     {
       "causalNext": 2,
@@ -158,15 +170,26 @@
       "version": 1
     },
     {
-      "causalNext": null,
+      "causalNext": 3,
       "causalPrevious": 1,
       "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "date": "2026-11-23T18:16:53+01:00",
       "format": "png",
-      "nextVersion": null,
+      "nextVersion": 3,
       "previousVersion": 1,
       "sha256": "a39bd087bdc893940252a58425acef8fc01e987d53a9e0e513087f4a60523f1d",
       "version": 2
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 2,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "png",
+      "nextVersion": null,
+      "previousVersion": 2,
+      "sha256": "7e2da0f5b9be80bf80620258e2cefc8771c5655be600437a3d6a1a572bbdaaea",
+      "version": 3
     }
   ],
   "visualStyle": null

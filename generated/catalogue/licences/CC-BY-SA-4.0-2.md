@@ -2,13 +2,13 @@
 
 [Accueil](../index.md)
 
-# Licence CC-BY-SA-4.0 (page 2/21)
+# Licence CC-BY-SA-4.0 (page 2/20)
 
-5184 asset(s) sous `CC-BY-SA-4.0`.
+4788 asset(s) sous `CC-BY-SA-4.0`.
 
 Texte : [LICENSES/CC-BY-SA-4.0.txt](../../../LICENSES/CC-BY-SA-4.0.txt)
 
-Pages : [1](CC-BY-SA-4.0.md) · **2** · [3](CC-BY-SA-4.0-3.md) · [4](CC-BY-SA-4.0-4.md) · [5](CC-BY-SA-4.0-5.md) · [6](CC-BY-SA-4.0-6.md) · [7](CC-BY-SA-4.0-7.md) · [8](CC-BY-SA-4.0-8.md) · [9](CC-BY-SA-4.0-9.md) · [10](CC-BY-SA-4.0-10.md) · [11](CC-BY-SA-4.0-11.md) · [12](CC-BY-SA-4.0-12.md) · [13](CC-BY-SA-4.0-13.md) · [14](CC-BY-SA-4.0-14.md) · [15](CC-BY-SA-4.0-15.md) · [16](CC-BY-SA-4.0-16.md) · [17](CC-BY-SA-4.0-17.md) · [18](CC-BY-SA-4.0-18.md) · [19](CC-BY-SA-4.0-19.md) · [20](CC-BY-SA-4.0-20.md) · [21](CC-BY-SA-4.0-21.md)
+Pages : [1](CC-BY-SA-4.0.md) · **2** · [3](CC-BY-SA-4.0-3.md) · [4](CC-BY-SA-4.0-4.md) · [5](CC-BY-SA-4.0-5.md) · [6](CC-BY-SA-4.0-6.md) · [7](CC-BY-SA-4.0-7.md) · [8](CC-BY-SA-4.0-8.md) · [9](CC-BY-SA-4.0-9.md) · [10](CC-BY-SA-4.0-10.md) · [11](CC-BY-SA-4.0-11.md) · [12](CC-BY-SA-4.0-12.md) · [13](CC-BY-SA-4.0-13.md) · [14](CC-BY-SA-4.0-14.md) · [15](CC-BY-SA-4.0-15.md) · [16](CC-BY-SA-4.0-16.md) · [17](CC-BY-SA-4.0-17.md) · [18](CC-BY-SA-4.0-18.md) · [19](CC-BY-SA-4.0-19.md) · [20](CC-BY-SA-4.0-20.md)
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|

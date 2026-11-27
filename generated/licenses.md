@@ -142,11 +142,11 @@
 - `asset-atlas-personnages-origine-3x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pestouille-east-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pestouille-north-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-atlas-pestouille-rpg-atlas-e03-portrai-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-e03-portrai-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-e03-portrai-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
-- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0001` — unknown · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-pestouille-rpg-atlas-e04-recrute-0003` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-e04-recrute-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-m01-dialogu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -164,49 +164,49 @@
 - `asset-atlas-pestouille-rpg-atlas-pestouille-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-pestouille-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-pestouille-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-arbre-vi-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-arbre-vi-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-arbre-vi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-armurier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-armurier-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-armurier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-auberge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-auberge-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-auberge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-forgeron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-forgeron-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-forgeron-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-herboris-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-herboris-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-herboris-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-maison-p-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-maison-p-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-maison-p-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-place-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-place-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-place-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-place-so-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-place-so-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-place-so-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-coch-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-coch-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-coch-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-corb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-corb-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-corb-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-enfa-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-enfa-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-enfa-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-gard-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gira-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-gira-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-gira-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-mede-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-mede-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-mede-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0002` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0003` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0005` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0006` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-vill-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-vill-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-vill-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-pnj-zebr-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-pnj-zebr-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-pnj-zebr-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-puits-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-puits-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-puits-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-atlas-pestouille-rpg-atlas-v2-temple-s-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-atlas-pestouille-rpg-atlas-v2-temple-s-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `asset-atlas-pestouille-rpg-atlas-v2-temple-s-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-atlas-pestouille-south-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-pieces-origine-2x-0001` — unknown · forbidden · Autorisation non établie.
@@ -221,6 +221,28 @@
 - `asset-atlas-traits-animations-jeu-3x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-tutoriel-apercu-2x-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-atlas-tutoriel-apercu-3x-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-arbre-village-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-armurier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-auberge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-forgeron-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-herboriste-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-maison-paysan-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-place-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-place-sol-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-cochon-moine-soigneur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-corbeau-saltimbanque-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-enfant-renard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-garde-renard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-garde-zebre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-girafe-barde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-medecin-zebre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-paysan-renard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-paysan-zebre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-paysanne-renard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-villageoise-lemurienne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-pnj-zebre-cuisinier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-puits-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-atlas-v2-temple-soigneur-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-bien-vu-ce-sont-les-anneaux-de-s-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-audio-bravo-1-0001` — unknown · forbidden · Autorisation non établie.
@@ -1415,6 +1437,8 @@
 - `asset-codegenerated-view-0027` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-view-0028` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-codegenerated-view-0029` — MIT · allowed · Licence et preuve enregistrées.
+- `asset-font-nunito-latin-400-normal-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-font-nunito-latin-700-normal-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-icon-capsule-panic-capsule-panic-192-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-icon-capsule-panic-capsule-panic-512-0001` — MIT · allowed · Licence et preuve enregistrées.
 - `asset-icon-capsule-panic-capsule-panic-mask-0001` — MIT · allowed · Licence et preuve enregistrées.
@@ -7056,40 +7080,60 @@
 - `asset-sprite-souche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-accueil-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-accueil-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-eau-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-eau-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-feu-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-feu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-terre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-affinite-terre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-aide-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-aide-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-aide-menus-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-aide-menus-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-anneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-anneau-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-anneau-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-anneau-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-anneau-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-anneau-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-anneau-argent-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-anneau-argent-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-anneau-argent-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-anneau-argent-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-anneau-etoiles-effets-ori-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-anneau-etoiles-effets-ori-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-arbre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-arbre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-armoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-armure-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-armure-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-aubepin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-aubepin-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-armure-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-armure-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-armurier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-armurier-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-aubepin-portrait-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-aubepin-portrait-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-auberge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-auberge-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bac-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bac-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bac-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-baignoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-balayette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-banc-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-banc-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-banniere-bleue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-banniere-bleue-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-banniere-rouge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-banniere-rouge-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-partie-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-partie-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-barre-pm-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-barre-pm-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-barre-pm-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-barre-pm-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-progression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-barre-pv-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-barre-pv-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-barre-pv-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-barre-pv-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-barre-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-barriere-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-barriere-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bas-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bas-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-bete-ecarlate-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bete-ecarlate-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bete-ecarlate-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bete-ecarlate-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bibliotheque-arche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bloc-bleu-plateau-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-bleu-plateau-apercu-0002` — unknown · forbidden · Autorisation non établie.
@@ -7099,10 +7143,10 @@
 - `asset-sprite-sprite-bloc-jaune-plateau-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-jaune-plateau-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-jaune-plateau-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-bloc-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bloc-pierre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bloc-pousser-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bloc-pousser-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bloc-pierre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bloc-pierre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bloc-pousser-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bloc-pousser-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-rouge-plateau-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-rouge-plateau-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bloc-rouge-plateau-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7117,51 +7161,53 @@
 - `asset-sprite-sprite-boite-sdb-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boite-sdb-peche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boite-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-borin-carte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-carte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-b-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-borin-cote-c-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-borin-cote-c-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-borin-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-cote-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-dos-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-face-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-borin-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bottes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bottes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouclier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouclier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-borin-cote-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-cote-e-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-dos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-dos-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-face-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-face-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-portrait-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-borin-portrait-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bottes-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bottes-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouclier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouclier-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bougie-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bougie-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bougie-ruban-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-bougie-verre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boule-de-feu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boule-de-feu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boule-de-feu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-boule-de-feu-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-boule-de-feu-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-boule-de-feu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-boule-de-feu-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-boule-de-feu-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-bouquet-blanc-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bourse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bourse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-attaque-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-competence-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-defense-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-fuite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-fuite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-non-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-non-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-objet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-oui-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-bouton-oui-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-bourse-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bourse-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-attaque-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-attaque-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-competence-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-competence-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-defense-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-defense-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-fuite-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-fuite-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-non-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-non-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-objet-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-objet-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-oui-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-bouton-oui-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-boutons-bas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-boutons-haut-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-brosse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7196,19 +7242,21 @@
 - `asset-sprite-sprite-cadre-statistiques-reussi-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cadre-suspendu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cadre-tulipe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-caisses-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-caisses-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-canape-jaune-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-canape-plaid-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-canard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-carte-classique-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-carte-classique-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-carte-monde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-carte-monde-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-carte-monde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-carte-monde-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-carton-ferme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-carton-ouvert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-cascade-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cascade-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-case-inventaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-case-inventaire-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-case-inventaire-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-case-inventaire-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-sombre-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-sombre-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-case-sombre-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7224,18 +7272,18 @@
 - `asset-sprite-sprite-cellule-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cellule-magenta-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chaise-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-mignon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-mignon-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-mignon-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-champignon-mignon-evolue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-champignon-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-champignon-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-champignon-mignon-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-champignon-mignon-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-champignon-mignon-evolue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-champignon-mignon-evolue-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chat-dort-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chat-dort-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chaudron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chaudron-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chauve-souris-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-chauve-souris-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-chaudron-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-chaudron-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-chauve-souris-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-chauve-souris-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cheminee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-chercheuse-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chercheuse-origine-0002` — unknown · forbidden · Autorisation non établie.
@@ -7248,36 +7296,56 @@
 - `asset-sprite-sprite-chute-animations-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chute-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-chute-animations-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-cle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cle-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cle-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cloche-lumineuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-dore-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-mimic-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-coffre-mimic-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-attaque-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-attaque-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-competence-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-competence-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-defense-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-defense-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-fuite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-fuite-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-objet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-commande-objet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-coche-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coche-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0005` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0006` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0007` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cochon-moine-soigneur-bas-0008` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coeur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coeur-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-dore-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-dore-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-mimic-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-coffre-mimic-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-attaque-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-attaque-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-competence-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-competence-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-defense-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-defense-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-fuite-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-fuite-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-objet-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-commande-objet-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-commode-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-commode-miel-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-etincelle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-etincelle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-griffe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-griffe-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-protection-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-protection-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-competence-souffle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-competence-etincelle-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-etincelle-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-griffe-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-griffe-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-protection-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-protection-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-souffle-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-competence-souffle-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0005` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0006` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0007` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-corbeau-saltimbanque-bas-0008` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cotons-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coussin-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-coussin-patte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7285,8 +7353,8 @@
 - `asset-sprite-sprite-credits-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-credits-accueil-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-credits-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cristal-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cristal-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cristal-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cristal-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristal-ambre-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristal-ambre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristal-brise-ambre-0001` — unknown · forbidden · Autorisation non établie.
@@ -7299,8 +7367,8 @@
 - `asset-sprite-sprite-cristal-cyan-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristal-magenta-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristal-magenta-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-cristal-socle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-cristal-socle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-cristal-socle-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-cristal-socle-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristaux-compteur-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristaux-compteur-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristaux-compteur-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7311,10 +7379,16 @@
 - `asset-sprite-sprite-cristaux-elimination-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristaux-hud-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-cristaux-hud-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-dalle-mousse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-dalle-mousse-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-dalles-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-dalles-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-dalle-carree-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-carree-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-grise-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-grise-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-mousse-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-mousse-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-ronde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalle-ronde-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalles-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dalles-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-defaite-bannieres-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-defaite-bannieres-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-defaite-messages-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7329,16 +7403,26 @@
 - `asset-sprite-sprite-diffuseur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-diffuseur-bambou-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-dragon-violet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-dragon-violet-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-dragon-violet-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-dragon-violet-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-droite-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-droite-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-eclat-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-eclat-effets-origine-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-eclat-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-eclat-givre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-epee-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-epee-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-eclat-givre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-eclat-givre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-embleme-quete-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-embleme-quete-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-enfant-renard-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-epee-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-epee-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-eponge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-erlenmeyer-objets-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-erlenmeyer-objets-jeu-0002` — unknown · forbidden · Autorisation non établie.
@@ -7347,6 +7431,8 @@
 - `asset-sprite-sprite-etagere-murale-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-etagere-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-etagere-sdb-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-etal-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-etal-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etincelles-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etincelles-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-etoile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7360,6 +7446,8 @@
 - `asset-sprite-sprite-etoile-sdb-droite-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-etoile-sdb-milieu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-evier-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-exp-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-exp-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-explosion-effets-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7370,10 +7458,10 @@
 - `asset-sprite-sprite-fauteuil-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fauteuil-terracotta-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fauteuil-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-feuille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-feuille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-feuille-doree-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-feuille-doree-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-feuille-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-feuille-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-feuille-doree-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-feuille-doree-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fiole-bleue-objets-origin-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fiole-bleue-objets-origin-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fiole-jaune-objets-origin-0001` — unknown · forbidden · Autorisation non établie.
@@ -7389,24 +7477,28 @@
 - `asset-sprite-sprite-flacon-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-flacon-pompe-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-flacon-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-cyan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-cyan-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-orange-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-orange-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-rose-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-rouge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-verte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-verte-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-violette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-flamme-violette-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-flamme-bleue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-bleue-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-cyan-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-cyan-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-orange-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-orange-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-rose-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-rose-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-rouge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-rouge-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-verte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-verte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-violette-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-flamme-violette-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fleche-bas-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fleche-bas-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-chute-fantome-aper-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-chute-fantome-aper-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-descente-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-descente-jeu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fleche-haut-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fleche-haut-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-rotation-bas-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7417,55 +7509,87 @@
 - `asset-sprite-sprite-fleche-rotation-jeu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fleche-verrouillage-aperc-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleche-verrouillage-aperc-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-fleur-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fleur-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-fleur-bleue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fleur-bleue-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fleur-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-florifeu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-florifeu-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-campement-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-campement-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-combat-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-combat-foret-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-combat-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-combat-roncier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-foret-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-foret-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-temple-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-temple-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-village-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-fond-village-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-florifeu-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-florifeu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-campement-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-campement-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-combat-foret-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-combat-foret-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-combat-roncier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-combat-roncier-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-foret-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-foret-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-temple-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-temple-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-village-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fond-village-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fontaine-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-fontaine-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-forgeron-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-forgeron-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-frigo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-fumee-effets-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fumee-effets-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fumee-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-fumee-effets-origine-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-renard-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-garde-zebre-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gauche-commandes-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gauche-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gestes-gestes-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gestes-gestes-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-givreloup-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-givreloup-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-girafe-barde-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-girafe-barde-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-givreloup-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-givreloup-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gobelet-brosses-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golem-glace-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golem-glace-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golem-pierre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golem-pierre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golemice-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-golemice-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-grille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-grille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-golem-glace-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-golem-glace-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-golem-pierre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-golem-pierre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-golemice-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-golemice-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-grille-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-grille-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-grille-fonds-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-grille-fonds-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-grimoire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-grimoire-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-grimoire-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-grimoire-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-gueridon-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-gueridon-tasse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-guirlande-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-herboriste-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-herboriste-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-hortensias-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-impact-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-impact-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-interrupteur-mural-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-interrupteur-mural-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-interrupteur-mural-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-interrupteur-mural-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-jauge-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-jouer-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7478,14 +7602,16 @@
 - `asset-sprite-sprite-lampadaire-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lampe-chevet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lampe-table-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lanterne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lanterne-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lanterne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lanterne-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lanterne-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lanterne-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-lanterne-maison-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lapin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lapin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lapin-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lapin-aile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lapin-aile-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lapin-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lapin-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lapin-aile-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lapin-aile-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-lavabo-miroir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lave-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lecture-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7494,101 +7620,113 @@
 - `asset-sprite-sprite-lecture-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-legende-clavier-gestes-je-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-legende-clavier-gestes-je-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-levier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-levier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-levier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-levier-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ligne-elimination-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ligne-elimination-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ligne-elimination-apercu-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-cote-f-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-dos-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-face-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-lila-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-lila-carte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-carte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-e-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-f-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-cote-f-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-dos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-dos-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-face-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-face-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-portrait-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-lila-portrait-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-liseuse-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lit-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-lit-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-livre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-livre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-livre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-livre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-livres-pile-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-livres-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-livres-trio-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-logo-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-logo-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-logo-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-logo-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-logo-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-logo-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-logo-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-logo-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-loup-givre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-loup-givre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-loup-givre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-loup-givre-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-macrame-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mage-sombre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mage-sombre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-mage-sombre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mage-sombre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-maison-paysan-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-maison-paysan-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-medaillon-cellule-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-medaillon-cellule-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-menu-carte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-carte-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-competences-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-competences-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-metiers-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-metiers-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-objets-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-objets-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-options-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-options-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-quetes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-menu-quetes-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-medecin-zebre-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-carte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-carte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-competences-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-competences-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-metiers-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-metiers-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-objets-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-objets-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-options-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-options-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-quetes-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-menu-quetes-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-menu-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-menu-reussite-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-menu-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-alchimiste-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-alchimiste-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-artisan-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-artisan-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-barde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-barde-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-eclaireur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-eclaireur-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-guerrier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-guerrier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-mage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-mage-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-pretre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-pretre-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-metier-sage-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-metier-alchimiste-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-alchimiste-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-artisan-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-artisan-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-barde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-barde-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-eclaireur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-eclaireur-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-guerrier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-guerrier-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-mage-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-mage-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-pretre-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-pretre-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-sage-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-metier-sage-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-meuble-tele-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-borin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-borin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-lila-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-lila-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-nox-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-nox-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-pestouille-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mini-pestouille-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-minicarte-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-minicarte-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-mini-borin-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-borin-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-lila-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-lila-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-nox-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-nox-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-pestouille-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mini-pestouille-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-minicarte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-minicarte-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-miroir-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mode-classique-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-mode-classique-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-monstera-coeur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-monstera-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mossling-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mossling-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mossling-fleuri-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-mossling-fleuri-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-mossling-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mossling-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mossling-fleuri-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-mossling-fleuri-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-mouchoirs-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-mur-fenetre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-niveau-plus-commandes-ape-0001` — unknown · forbidden · Autorisation non établie.
@@ -7599,28 +7737,30 @@
 - `asset-sprite-sprite-notation-simple-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-notation-triple-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-notation-triple-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-nox-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-cote-f-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-dos-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-face-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-nox-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-nox-carte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-carte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-e-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-f-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-cote-f-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-dos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-dos-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-face-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-face-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-portrait-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-nox-portrait-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-nuage-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-nuage-apercu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-oiseau-dore-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-oiseau-dore-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-oiseau-dore-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-oiseau-dore-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-accueil-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-accueil-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-options-accueil-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7649,10 +7789,14 @@
 - `asset-sprite-sprite-panier-linge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panier-osier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-panier-serviette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-dialogue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-panneau-dialogue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-panneau-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-affichage-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-affichage-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-dialogue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-dialogue-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-indicateur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-panneau-indicateur-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-niveau-hud-origin-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-niveau-hud-origin-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneau-quotas-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -7666,10 +7810,10 @@
 - `asset-sprite-sprite-panneaux-panneaux-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-panneaux-panneaux-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-papier-rouleaux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-parchemin-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-parchemin-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-parchemin-quete-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-parchemin-quete-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-parchemin-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-parchemin-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-parchemin-quete-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-parchemin-quete-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-particules-dorees-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-particules-dorees-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-particules-effets-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -7684,57 +7828,83 @@
 - `asset-sprite-sprite-pause-commandes-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pause-messages-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pause-messages-apercu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-renard-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysan-zebre-bas-repos-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0005` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0006` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0007` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-paysanne-renard-bas-repos-0008` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-peigne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-peignoir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pese-personne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-attaque-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-attaque-a-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-attaque-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-attaque-a-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-attaque-a-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-attaque-b-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-attaque-b-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-attaque-b-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-attaque-b-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-attaque-b-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-attaque-c-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-attaque-c-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-attaque-c-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-attaque-c-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-d-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-f-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-cote-f-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-attaque-c-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-attaque-c-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-carte-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-carte-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-a-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-a-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-b-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-c-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-c-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-d-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-d-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-e-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-f-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-cote-f-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-course-a-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-course-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-course-a-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-a-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-b-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-course-b-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-course-b-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-course-b-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-b-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-c-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-course-c-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-course-c-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-c-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-course-c-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-c-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-d-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-course-d-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-course-d-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-d-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-course-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-course-d-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-d-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-course-e-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-degats-a-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-degats-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-degats-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-degats-b-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-degats-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-dos-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-dos-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-degats-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-dos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-dos-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-east-attack-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-east-attack-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-east-attack-b-0001` — unknown · forbidden · Autorisation non établie.
@@ -7773,38 +7943,40 @@
 - `asset-sprite-sprite-pestouille-east-walk-e-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-east-walk-f-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-east-walk-f-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-embleme-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-embleme-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-bou-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-bou-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-bou-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-col-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-col-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-col-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-joi-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-joi-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-joi-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-mef-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-mef-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-mef-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-som-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-som-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-som-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-expression-sur-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-expression-sur-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-face-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-face-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-expression-sur-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-face-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-face-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-marche-a-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-marche-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-marche-a-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-a-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-b-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-marche-b-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-marche-b-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-c-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-marche-b-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-b-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-c-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-marche-c-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-marche-c-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-c-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-d-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-marche-c-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-c-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-d-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-marche-d-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-marche-d-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-d-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-e-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-marche-e-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-marche-d-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-d-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-e-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-marche-e-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-north-attack-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-north-attack-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-north-attack-b-0001` — unknown · forbidden · Autorisation non établie.
@@ -7843,20 +8015,20 @@
 - `asset-sprite-sprite-pestouille-north-walk-e-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-north-walk-f-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-north-walk-f-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-portrait-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-portrait-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-pose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-pose-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-pose-cote-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-pose-cote-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-portrait-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-portrait-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-pose-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-pose-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-pose-cote-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-pose-cote-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-repos-a-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-repos-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-repos-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-repos-b-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-repos-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-sommeil-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-sommeil-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-repos-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-sommeil-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-sommeil-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-souffle-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-souffle-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-souffle-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-south-attack-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-south-attack-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-south-attack-b-0001` — unknown · forbidden · Autorisation non établie.
@@ -7896,54 +8068,54 @@
 - `asset-sprite-sprite-pestouille-south-walk-f-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-south-walk-f-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-victoire-a-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-victoire-a-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-victoire-a-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-victoire-b-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-victoire-b-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-vol-a-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-victoire-b-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-vol-a-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-vol-a-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-vol-a-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-vol-a-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-vol-b-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-vol-a-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-vol-a-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-vol-b-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-vol-b-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-vol-b-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pestouille-vol-b-0004` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-vol-b-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pestouille-vol-b-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pestouille-vol-c-0001` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pestouille-vol-c-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pestouille-vol-c-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-petit-cadre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plaid-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plante-blanche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plante-buisson-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plante-buisson-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plante-buisson-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-plante-buisson-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-plante-panier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-plante-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plaque-pression-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plaque-pression-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plaque-pression-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-plaque-pression-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-plein-ecran-commandes-ape-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-plein-ecran-commandes-ape-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-plume-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plume-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plumir-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-plumir-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-boulanger-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-boulanger-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-encapuchonne-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-encapuchonne-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-fillette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-fillette-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-garde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-garde-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-renard-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-renard-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-sage-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-sage-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-villageois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-villageois-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-villageoise-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pnj-villageoise-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-plume-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-plume-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-plumir-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-plumir-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-boulanger-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-boulanger-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-encapuchonne-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-encapuchonne-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-fillette-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-fillette-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-garde-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-garde-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-renard-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-renard-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-sage-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-sage-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-villageois-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-villageois-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-villageoise-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pnj-villageoise-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pont-bas-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pont-bas-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-pont-bois-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pont-bois-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pont-bois-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pont-bois-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pont-droite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pont-droite-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pont-gauche-0001` — unknown · forbidden · Autorisation non établie.
@@ -7955,17 +8127,23 @@
 - `asset-sprite-sprite-porte-eprouvettes-objets-0003` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-porte-eprouvettes-objets-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-porte-serviettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-portrait-hud-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-portrait-hud-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pot-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-pot-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-portrait-hud-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-portrait-hud-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pot-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pot-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pot-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-pot-creme-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-potion-bleue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-potion-bleue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-potion-rouge-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-potion-rouge-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-pot-fleurs-blanc-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pot-fleurs-blanc-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pot-fleurs-rose-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-pot-fleurs-rose-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-potion-bleue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-potion-bleue-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-potion-rouge-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-potion-rouge-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-pouf-rose-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-puits-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-puits-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-commandes-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-commandes-apercu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-quitter-menus-origine-0001` — unknown · forbidden · Autorisation non établie.
@@ -7990,8 +8168,8 @@
 - `asset-sprite-sprite-responsable-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-responsable-origine-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-rideau-douche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-roncier-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-roncier-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-roncier-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-roncier-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-rotation-animations-aperc-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-rotation-animations-aperc-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-rotation-animations-jeu-0001` — unknown · forbidden · Autorisation non établie.
@@ -8001,14 +8179,14 @@
 - `asset-sprite-sprite-ruban-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ruban-reussite-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-ruban-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-brun-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-brun-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-brun-evolue-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-brun-evolue-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-epineux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglier-epineux-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglieron-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-sanglieron-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-sanglier-brun-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglier-brun-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglier-brun-evolue-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglier-brun-evolue-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglier-epineux-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglier-epineux-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglieron-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-sanglieron-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-satellite-effets-origine-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-satellite-effets-origine-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-seche-cheveux-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -8032,8 +8210,10 @@
 - `asset-sprite-sprite-sol-moquette-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-sol-parquet-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-sol-vert-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-souche-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-souche-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-souche-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-souche-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-souche-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-souche-0004` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-suivant-reussite-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-suivant-reussite-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-suivant-reussite-0003` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -8048,12 +8228,16 @@
 - `asset-sprite-sprite-tapis-pieds-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tapis-rond-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-tapis-vichy-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-teleporteur-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-teleporteur-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-teleporteur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-teleporteur-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-temple-soigneur-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-temple-soigneur-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-tiret-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-tiret-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-titre-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-toilettes-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tonneau-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
-- `asset-sprite-sprite-tonneau-0002` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-tonneau-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-tonneau-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-action-gestes-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-action-gestes-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-touches-horizontales-gest-0001` — unknown · forbidden · Autorisation non établie.
@@ -8067,7 +8251,7 @@
 - `asset-sprite-sprite-trainee-deplacement-aperc-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-longue-chute-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-longue-chute-jeu-0002` — unknown · forbidden · Autorisation non établie.
-- `asset-sprite-sprite-trainee-souffle-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-trainee-souffle-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-souffle-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-verrouillage-jeu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-trainee-verrouillage-jeu-0002` — unknown · forbidden · Autorisation non établie.
@@ -8096,10 +8280,26 @@
 - `asset-sprite-sprite-victoire-bannieres-jeu-0002` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-victoire-messages-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-victoire-messages-apercu-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0005` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0006` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0007` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-villageoise-lemurienne-ba-0008` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-sprite-vue-chambre-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-vue-cuisine-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-vue-salle-de-bain-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-sprite-vue-salon-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0002` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0003` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0004` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0005` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0006` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0007` — unknown · forbidden · Autorisation non établie.
+- `asset-sprite-sprite-zebre-cuisinier-bas-repos-0008` — unknown · forbidden · Autorisation non établie.
 - `asset-sprite-suspension-plante-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-table-ronde-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
 - `asset-sprite-tapis-bleu-0001` — CC-BY-SA-4.0 · allowed · Licence et preuve enregistrées.
@@ -8432,6 +8632,7 @@
 - `asset-svg-tutoriel-pivoter-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-svg-verrouillage-animations-apercu-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-foret-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-tilemap-parvis-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-temple-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-village-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-village-1-0001` — unknown · forbidden · Autorisation non établie.
@@ -8439,6 +8640,7 @@
 - `asset-tilemap-village-3-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-village-4-0001` — unknown · forbidden · Autorisation non établie.
 - `asset-tilemap-village-5-0001` — unknown · forbidden · Autorisation non établie.
+- `asset-tilemap-village-8-0001` — unknown · forbidden · Autorisation non établie.
 - `sheet-01-feuillu-cote-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-01-feuillu-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-01-papillons-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
@@ -8599,12 +8801,14 @@
 - `sheet-e03-objets-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e03-personnages-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e03-portraits-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-e03-portraits-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-boss-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-heros-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-icones-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-monstres-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-portraits-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-e04-recrutement-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-e04-recrutement-0002` — unknown · forbidden · Planche entière réservée.
 - `sheet-ecole-village-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-ecuries-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-effets-jeu-2x-0001` — unknown · forbidden · Planche entière réservée.
@@ -9001,6 +9205,28 @@
 - `sheet-tutu-dessus-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-tutu-profil-droit-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-tutu-profil-gauche-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-arbre-village-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-armurier-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-auberge-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-forgeron-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-herboriste-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-maison-paysan-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-place-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-place-sol-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-cochon-moine-soigneur-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-corbeau-saltimbanque-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-enfant-renard-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-garde-renard-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-garde-zebre-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-girafe-barde-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-medecin-zebre-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-paysan-renard-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-paysan-zebre-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-paysanne-renard-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-villageoise-lemurienne-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-pnj-zebre-cuisinier-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-puits-0001` — unknown · forbidden · Planche entière réservée.
+- `sheet-v2-temple-soigneur-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-v6-0001` — unknown · forbidden · Planche entière réservée.
 - `sheet-vache-champignon-6-pattes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.
 - `sheet-vache-girolle-6-pattes-0001` — CC-BY-SA-4.0 · forbidden · Planche entière réservée.

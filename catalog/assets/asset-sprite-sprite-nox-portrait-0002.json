@@ -25,6 +25,13 @@
         "w": 256,
         "x": 0,
         "y": 256
+      },
+      {
+        "atlasSheetId": "sheet-e03-portraits-0002",
+        "h": 256,
+        "w": 256,
+        "x": 768,
+        "y": 280
       }
     ],
     "locations": [],
@@ -91,12 +98,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-SA-4.0",
-  "licenseEvidence": {
-    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
-    "method": "provenance-file",
-    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; déclaration privée périmée : assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
-  },
+  "license": "unknown",
   "name": "sprite-nox-portrait",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -106,25 +108,19 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "author": "unknown",
     "evidence": [
-      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
     ],
     "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
-    "type": "original-sheet-cut"
+    "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "3b725aa56c007ee43e50fd79772e852aaeeb66340a03369c2458adb8c2fd66bd",
   "sourceRegion": {
-    "evidence": {
-      "method": "rmse",
-      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
-      "tool": "magick",
-      "toolVersion": "7.1.2-35",
-      "value": 0.009800614599062365
-    },
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
     "h": 178,
-    "verified": true,
+    "verified": false,
     "w": 138,
     "x": 912,
     "y": 15
@@ -207,8 +203,8 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68",
-        "assets/export/e03-portraits.png": "55218095f8118a7f9f4544ff057044cf32906f45"
+        "assets/export/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf",
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11"
       },
       "assetPath": "assets/export/e03-portraits.json",
       "assetVersion": 1,
@@ -216,7 +212,7 @@
         "line": 280,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e03-portraits.json",
         "module-path: assets.lock.json"
@@ -241,8 +237,8 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68",
-        "assets/export/e03-portraits.png": "55218095f8118a7f9f4544ff057044cf32906f45"
+        "assets/export/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf",
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11"
       },
       "assetPath": "assets/export/e03-portraits.json",
       "assetVersion": 1,
@@ -250,7 +246,7 @@
         "line": 1388,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e03-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -286,6 +282,14 @@
           "w": 256,
           "x": 0,
           "y": 256
+        },
+        {
+          "atlasSheetId": "sheet-e03-portraits-0002",
+          "h": 256,
+          "sourceSheetSha256": "573d4b89ffa0ce9e8ef1ce73714e74e7bf9e928210383896be24293c8973d3af",
+          "w": 256,
+          "x": 768,
+          "y": 280
         }
       ],
       "causalNext": null,

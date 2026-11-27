@@ -11,10 +11,24 @@
   "family": {
     "frames": [
       {
+        "h": 280,
+        "name": "sprite-borin-carte",
+        "w": 256,
+        "x": 0,
+        "y": 0
+      },
+      {
         "h": 256,
         "name": "sprite-borin-portrait",
         "w": 256,
         "x": 0,
+        "y": 280
+      },
+      {
+        "h": 280,
+        "name": "sprite-lila-carte",
+        "w": 256,
+        "x": 256,
         "y": 0
       },
       {
@@ -22,11 +36,18 @@
         "name": "sprite-lila-portrait",
         "w": 256,
         "x": 256,
-        "y": 0
+        "y": 280
       },
       {
         "h": 256,
         "name": "sprite-logo",
+        "w": 256,
+        "x": 512,
+        "y": 280
+      },
+      {
+        "h": 280,
+        "name": "sprite-nox-carte",
         "w": 256,
         "x": 512,
         "y": 0
@@ -35,22 +56,36 @@
         "h": 256,
         "name": "sprite-nox-portrait",
         "w": 256,
-        "x": 0,
-        "y": 256
+        "x": 768,
+        "y": 280
+      },
+      {
+        "h": 280,
+        "name": "sprite-pestouille-carte",
+        "w": 256,
+        "x": 768,
+        "y": 0
+      },
+      {
+        "h": 48,
+        "name": "sprite-pestouille-embleme",
+        "w": 48,
+        "x": 512,
+        "y": 536
       },
       {
         "h": 256,
         "name": "sprite-pestouille-portrait",
         "w": 256,
-        "x": 256,
-        "y": 256
+        "x": 0,
+        "y": 536
       },
       {
         "h": 256,
         "name": "sprite-pestouille-pose",
         "w": 256,
-        "x": 512,
-        "y": 256
+        "x": 256,
+        "y": 536
       }
     ],
     "type": "atlas"
@@ -80,9 +115,9 @@
         "visibility": "private"
       },
       {
-        "assetVersion": 1,
+        "assetVersion": 2,
         "classification": "generated",
-        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
         "game": "pestouille-rpg",
         "path": "assets/export/e03-portraits.json",
         "provider": "local",
@@ -95,10 +130,34 @@
         "classification": "generated",
         "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
+        "path": "assets/export/e03-portraits.json",
+        "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
         "path": "public/assets/e03-portraits.json",
         "provider": "local",
         "repo": "pestouille-rpg",
         "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e03-portraits.json",
+        "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "repo": "pestouille-rpg",
+        "status": "removed",
         "visibility": "private"
       }
     ],
@@ -127,28 +186,28 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e03-portraits.json"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e03-portraits.json"
       ],
       "method": "proven"
     },
     "formatMetadata": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e03-portraits.json"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@183f999d5c685c361f503bc559bf18b84f9e91ae:public/assets/e03-portraits.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e03-portraits.json"
       ],
       "method": "proven"
     }
@@ -166,14 +225,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "f12b1ac21487b000d88554064203f97719d5af2a95fb4112fe2b2e94e48541d5",
+  "sha256": "590a1495649e7738b2e649eaee389493cf1f56f2517ed88a809fe3d3ae4de828",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -375,15 +434,15 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "assets/export/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "assets/export/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 280,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e03-portraits.json",
         "module-path: assets.lock.json"
@@ -408,15 +467,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "public/assets/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 552,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets.lock.json"
@@ -441,15 +500,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "public/assets/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 6,
         "path": "assets/export/e03-portraits.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/export/e03-portraits.manifest.json"
@@ -474,15 +533,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "public/assets/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 221,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -507,15 +566,15 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "assets/export/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "assets/export/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 1388,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e03-portraits.json",
         "module-path: assets/liste-assets.json"
@@ -540,15 +599,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e03-portraits.json": "5473f9dd1abef65efbf70972aa3bfa899d339d68"
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
       },
       "assetPath": "public/assets/e03-portraits.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 6,
         "path": "assets/manifests/e03-portraits.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e03-portraits.json",
         "module-path: assets/manifests/e03-portraits.json"
@@ -573,17 +632,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "183f999d5c685c361f503bc559bf18b84f9e91ae",
       "date": "2026-11-19T15:22:46+01:00",
-      "nextVersion": null,
+      "format": "json",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "f12b1ac21487b000d88554064203f97719d5af2a95fb4112fe2b2e94e48541d5",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "json",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "590a1495649e7738b2e649eaee389493cf1f56f2517ed88a809fe3d3ae4de828",
+      "version": 2
     }
   ],
   "visualStyle": null

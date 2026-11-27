@@ -94,13 +94,9 @@ Copies divergentes.
 
 ## pestouille-rpg
 
-Copies divergentes.
-
 | Fournisseur | Branche | Commit | Date | Erreur |
 | --- | --- | --- | --- | --- |
-| forgejo | main | 199caf77a96970a8298457d311dfe822879c95a2 | 2026-11-23T18:16:53+01:00 | — |
-| github | main | 2e03e382c8709eaf5c2bedce2313cad36e097fde | 2026-11-21T23:08:14+01:00 | — |
-| local | main | 79ac5d735a2a0f39651719ad464593e857bfef06 | 2026-11-22T00:04:42+01:00 | — |
+| local | main | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | 2026-11-27T11:44:13+01:00 | — |
 
 ## petit-astronome
 
@@ -140,86 +136,34 @@ Copies divergentes.
 | Famille | Fichiers importés |
 | --- | --- |
 | animation | 1 |
-| atlas | 63 |
-| audio | 1020 |
-| code-generated | 275 |
-| image | 1357 |
-| style | 28 |
-| svg | 53 |
-| tilemap | 8 |
+| atlas | 92 |
+| code-generated | 1 |
+| font | 2 |
+| image | 143 |
+| style | 2 |
+| svg | 9 |
+| tilemap | 9 |
 
 ## Manifests de build
 
 | Dépôt | Commit | Chemin |
 | --- | --- | --- |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | apps/web/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | apps/web/vite.config.ts |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | packages/engine/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | packages/generator/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | packages/level-tools/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | packages/schemas/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | packages/solver/package.json |
-| cozy-room-sort | 22a3884bb23753cad50cc2a0d53637260bac825c | tsconfig.json |
-| echecs-kid | f5cbe7f894db97d09ce2951ba6d9291d25631917 | package.json |
-| echecs-kid | f5cbe7f894db97d09ce2951ba6d9291d25631917 | tsconfig.json |
-| echecs-kid | f5cbe7f894db97d09ce2951ba6d9291d25631917 | vite.config.ts |
-| opencade | fa8132addbbfaf3f554f7ef687a338160f3005d4 | package.json |
-| opencade | fa8132addbbfaf3f554f7ef687a338160f3005d4 | tsconfig.json |
-| opencade | fa8132addbbfaf3f554f7ef687a338160f3005d4 | vite.config.ts |
-| opencadkid | 485b81256e4e524a5fcc0edfd82c2a3ed83e6bae | package.json |
-| opencadkid | 485b81256e4e524a5fcc0edfd82c2a3ed83e6bae | tsconfig.json |
-| opencadkid | 485b81256e4e524a5fcc0edfd82c2a3ed83e6bae | vite.config.ts |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | apps/web/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/assets-pipeline/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/characters/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/combat/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/content/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/core/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/creatures/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/engine/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/inventory/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/quests/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/renderer-phaser/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/solver/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | packages/world/package.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | tsconfig.json |
-| pestouille-rpg | 199caf77a96970a8298457d311dfe822879c95a2 | vite.config.ts |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | apps/web/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | apps/web/vite.config.ts |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/ai/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/contracts/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/engine/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/puzzles/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/renderer-pixi/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | packages/shared/package.json |
-| six-de-chaque | 65e616023bd32983ac5fae5f02e3d4f0478c7e2e | tsconfig.json |
-| opencade | 04fb2c47dff3ec68eb7ee71c2ce0ab55cfbee89e | package.json |
-| opencade | 04fb2c47dff3ec68eb7ee71c2ce0ab55cfbee89e | tsconfig.json |
-| opencade | 04fb2c47dff3ec68eb7ee71c2ce0ab55cfbee89e | vite.config.ts |
-| opencade | 053ba95739da4a71e343a4b75022bd90b9694a5b | package.json |
-| opencade | 053ba95739da4a71e343a4b75022bd90b9694a5b | tsconfig.json |
-| opencade | 053ba95739da4a71e343a4b75022bd90b9694a5b | vite.config.ts |
-| opencade | 0e652a57e4cac687d270a16eb62b43e5df35e220 | package.json |
-| opencade | 0e652a57e4cac687d270a16eb62b43e5df35e220 | tsconfig.json |
-| opencade | 0e652a57e4cac687d270a16eb62b43e5df35e220 | vite.config.ts |
-| opencade | 487b0cabc8a7f3997a083a8f796ae042c56f0f47 | package.json |
-| opencade | 487b0cabc8a7f3997a083a8f796ae042c56f0f47 | tsconfig.json |
-| opencade | 487b0cabc8a7f3997a083a8f796ae042c56f0f47 | vite.config.ts |
-| opencade | aaadcb40df12e0a3c5c163aba3e5e900192d8942 | package.json |
-| opencade | aaadcb40df12e0a3c5c163aba3e5e900192d8942 | tsconfig.json |
-| opencade | aaadcb40df12e0a3c5c163aba3e5e900192d8942 | vite.config.ts |
-| opencade | b1c99422e0b6462768ec53acbdaaa03ccb4d8dbf | package.json |
-| opencade | b1c99422e0b6462768ec53acbdaaa03ccb4d8dbf | tsconfig.json |
-| opencade | b1c99422e0b6462768ec53acbdaaa03ccb4d8dbf | vite.config.ts |
-| opencade | c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78 | package.json |
-| opencade | c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78 | tsconfig.json |
-| opencade | c6dba9cfdee9e85f7985a2a9acb9354fa44d2c78 | vite.config.ts |
-| opencade | de568999e156d7d5c20fc4957abe6aa76ff892f8 | package.json |
-| opencade | de568999e156d7d5c20fc4957abe6aa76ff892f8 | tsconfig.json |
-| opencade | de568999e156d7d5c20fc4957abe6aa76ff892f8 | vite.config.ts |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | apps/web/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/assets-pipeline/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/characters/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/combat/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/content/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/core/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/creatures/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/engine/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/inventory/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/quests/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/renderer-phaser/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/solver/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | packages/world/package.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | tsconfig.json |
+| pestouille-rpg | 6fe278a6cf5cd538f80cc376218af11a3117fe55 | vite.config.ts |
 
 ## Tags divergents
 

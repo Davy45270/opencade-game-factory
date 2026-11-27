@@ -29,6 +29,18 @@
         "repo": "pestouille-rpg",
         "status": "active",
         "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "blobSha256": "c149278aa6b5cff82892169e2e4df882ea263568528ad029cd001cf3b5746594",
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "apps/web/pilote.ts",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
       }
     ],
     "registry": null
@@ -53,21 +65,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/pilote.ts"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/pilote.ts"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@199caf77a96970a8298457d311dfe822879c95a2:apps/web/pilote.ts"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:apps/web/pilote.ts"
       ],
       "method": "proven"
     }
@@ -76,7 +88,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@199caf77a96970a8298457d311dfe822879c95a2"
+    "ref": "LICENSE@6fe278a6cf5cd538f80cc376218af11a3117fe55"
   },
   "name": "pilote",
   "orientation": "unknown",
@@ -90,14 +102,14 @@
     "type": "code-generated"
   },
   "schemaVersion": "1.0",
-  "sha256": "60dd81ffaa4eb0773eb78844828b57e0546351b06a14aabb5f2f26e5e348e4f1",
+  "sha256": "c149278aa6b5cff82892169e2e4df882ea263568528ad029cd001cf3b5746594",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -133,13 +145,46 @@
       "status": "active"
     },
     {
+      "assetBlobs": {
+        "apps/web/pilote.ts": "778635e102cdf7add55b4f969afe4abb113e3b04"
+      },
       "assetPath": "apps/web/pilote.ts",
-      "assetVersion": 1,
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 31,
+        "path": "pilote.html"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "html-attribute: apps/web/pilote.ts",
+        "module-path: pilote.html"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "pilote",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "code-generated"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "pilote.html",
+      "status": "active"
+    },
+    {
+      "assetPath": "apps/web/pilote.ts",
+      "assetVersion": 2,
       "codeRef": {
         "line": 1,
         "path": "apps/web/pilote.ts"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : module apps/web/pilote.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
       ],
@@ -163,17 +208,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "199caf77a96970a8298457d311dfe822879c95a2",
       "date": "2026-11-23T18:16:53+01:00",
-      "nextVersion": null,
+      "format": "ts",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "60dd81ffaa4eb0773eb78844828b57e0546351b06a14aabb5f2f26e5e348e4f1",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "ts",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "c149278aa6b5cff82892169e2e4df882ea263568528ad029cd001cf3b5746594",
+      "version": 2
     }
   ],
   "visualStyle": null

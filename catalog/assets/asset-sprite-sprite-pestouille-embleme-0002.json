@@ -1,0 +1,291 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite pestouille embleme — sprite 48×48",
+  "dimensions": {
+    "height": 48,
+    "width": 48
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-pestouille-embleme"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-e03-portraits-0002",
+        "h": 48,
+        "w": 48,
+        "x": 512,
+        "y": 536
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-pestouille-embleme-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/e03-portraits.json · sprite-pestouille-embleme"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/e03-portraits.json#sprite-pestouille-embleme"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-pestouille-embleme",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "9353717071338669",
+    "phash": "db5961f99624ca86"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "21d74c8655c9bfc6e62690aa3b4bc1a72d7e0f18752d723ea6ed0cb85f615ebd",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "a0886577a78d57aebd5d447b8992be7ffc4cb06f24883849151c43149ed092d7",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 30,
+    "verified": false,
+    "w": 34,
+    "x": 523,
+    "y": 244
+  },
+  "sourceSheetId": "sheet-pestouille-rpg-elements-03-monde-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/a0/a0886577a78d57aebd5d447b8992be7ffc4cb06f24883849151c43149ed092d7.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11",
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 552,
+        "path": "assets.lock.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets.lock.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets.lock.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11",
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/e03-portraits.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets/export/e03-portraits.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/e03-portraits.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11",
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 221,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/e03-portraits.png": "43cf80ec9ec48e57ebd1914e30bb2d5ebcf2ea11",
+        "public/assets/e03-portraits.json": "60924acd62d71c86bb52e4600e18ea20fd2c8caf"
+      },
+      "assetPath": "public/assets/e03-portraits.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/e03-portraits.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/e03-portraits.json",
+        "module-path: assets/manifests/e03-portraits.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e03-portraits",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-e03-portraits-0002",
+          "h": 48,
+          "sourceSheetSha256": "573d4b89ffa0ce9e8ef1ce73714e74e7bf9e928210383896be24293c8973d3af",
+          "w": 48,
+          "x": 512,
+          "y": 536
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "a0886577a78d57aebd5d447b8992be7ffc4cb06f24883849151c43149ed092d7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

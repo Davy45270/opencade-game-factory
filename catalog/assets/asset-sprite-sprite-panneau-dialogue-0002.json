@@ -91,12 +91,7 @@
       "method": "proven"
     }
   },
-  "license": "CC-BY-SA-4.0",
-  "licenseEvidence": {
-    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
-    "method": "provenance-file",
-    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165) ; déclaration privée périmée : assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
-  },
+  "license": "unknown",
   "name": "sprite-panneau-dialogue",
   "orientation": "unknown",
   "originUniverse": "unknown",
@@ -106,25 +101,19 @@
   },
   "pivot": "unknown",
   "provenance": {
-    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "author": "unknown",
     "evidence": [
-      "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2"
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
     ],
     "sourceSheetSha256": "3ced6ff532c1f474f6d80724190ea6ce7ba21dffc984de129fe219365ad5e479",
-    "type": "original-sheet-cut"
+    "type": "repo-file"
   },
   "schemaVersion": "1.0",
   "sha256": "46cdc7d1632b413b30d7b9e2d69f6e051d906baf5a394bd711241e2ea84baace",
   "sourceRegion": {
-    "evidence": {
-      "method": "rmse",
-      "ref": "assets/provenance.json@199caf77a96970a8298457d311dfe822879c95a2",
-      "tool": "magick",
-      "toolVersion": "7.1.2-35",
-      "value": 0.0
-    },
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
     "h": 91,
-    "verified": true,
+    "verified": false,
     "w": 218,
     "x": 697,
     "y": 797
@@ -216,7 +205,7 @@
         "line": 360,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/m01-fonds.json",
         "module-path: assets.lock.json"
@@ -250,7 +239,7 @@
         "line": 1680,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/m01-fonds.json",
         "module-path: assets/liste-assets.json"
@@ -271,6 +260,40 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/m01-fonds.json": "c67a2b7d3620c78dfe166b0aba3abe49c9cbba48",
+        "assets/export/m01-fonds.png": "d16aee1e7b435eb219068edadd8e42314f37df13"
+      },
+      "assetPath": "assets/export/m01-fonds.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 13,
+        "path": "tests/unit/sol-peint.test.ts"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/m01-fonds.json",
+        "module-path: tests/unit/sol-peint.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "m01-fonds",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "tests/unit/sol-peint.test.ts",
       "status": "active"
     }
   ],

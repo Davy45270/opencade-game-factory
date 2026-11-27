@@ -1,0 +1,257 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T11:44:13+01:00",
+  "creation": {
+    "importJob": "f8ec4cfba9ed067f"
+  },
+  "description": "Sprite dalle ronde — sprite 136×136",
+  "dimensions": {
+    "height": 136,
+    "width": 136
+  },
+  "facing": "unknown",
+  "family": {
+    "sprite": {
+      "frameName": "sprite-dalle-ronde"
+    },
+    "type": "sprite"
+  },
+  "files": {
+    "atlasFrames": [
+      {
+        "atlasSheetId": "sheet-v2-place-sol-0001",
+        "h": 136,
+        "w": 136,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "locations": [],
+    "registry": null,
+    "sha256Method": "canonical-crop-png"
+  },
+  "format": "png",
+  "id": "asset-sprite-sprite-dalle-ronde-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 0.4,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "heuristic"
+    },
+    "description": {
+      "confidence": 0.2,
+      "evidence": [
+        "public/assets/v2-place-sol.json · sprite-dalle-ronde"
+      ],
+      "method": "heuristic"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:public/assets/v2-place-sol.json#sprite-dalle-ronde"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "unknown",
+  "name": "sprite-dalle-ronde",
+  "orientation": "unknown",
+  "originUniverse": "unknown",
+  "perceptual": {
+    "dhash": "208668f0b9e47019",
+    "phash": "856b7f80e817e07a"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "unknown",
+    "evidence": [
+      "assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55"
+    ],
+    "sourceSheetSha256": "99e83735e99ac059ece53b7a5983542da467281aa8e61ee8efa971ba089c53ef",
+    "type": "repo-file"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb",
+  "sourceRegion": {
+    "evidence": "Comparaison indisponible · assets/provenance.json@6fe278a6cf5cd538f80cc376218af11a3117fe55",
+    "h": 92,
+    "verified": false,
+    "w": 136,
+    "x": 1241,
+    "y": 410
+  },
+  "sourceSheetId": "sheet-place-village-0001",
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": "unknown",
+  "thumbnail": "thumbnails/30/3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb.webp",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-place-sol.png": "5beeae5fece0cd65df10f681589bc355e7f521b2",
+        "public/assets/v2-place-sol.json": "dc4c72d268b95948ea0ed495a3fef5306698cfe1"
+      },
+      "assetPath": "public/assets/v2-place-sol.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/export/v2-place-sol.manifest.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place-sol.json",
+        "module-path: assets/export/v2-place-sol.manifest.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place-sol",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-place-sol.manifest.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-place-sol.png": "5beeae5fece0cd65df10f681589bc355e7f521b2",
+        "public/assets/v2-place-sol.json": "dc4c72d268b95948ea0ed495a3fef5306698cfe1"
+      },
+      "assetPath": "public/assets/v2-place-sol.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 3632,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place-sol.json",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place-sol",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-place-sol.png": "5beeae5fece0cd65df10f681589bc355e7f521b2",
+        "public/assets/v2-place-sol.json": "dc4c72d268b95948ea0ed495a3fef5306698cfe1"
+      },
+      "assetPath": "public/assets/v2-place-sol.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 6,
+        "path": "assets/manifests/v2-place-sol.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: public/assets/v2-place-sol.json",
+        "module-path: assets/manifests/v2-place-sol.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-place-sol",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "sprite"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/manifests/v2-place-sol.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "atlasFrames": [
+        {
+          "atlasSheetId": "sheet-v2-place-sol-0001",
+          "h": 136,
+          "sourceSheetSha256": "f05aad04bc3847685bf0c67e7efa89ec34241628ac09f8d167aa399bcdb7aabd",
+          "w": 136,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "causalNext": null,
+      "causalPrevious": null,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3025687fb8aa2790dceae677eea76a0e8d78699f8236245248102bf505c82feb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

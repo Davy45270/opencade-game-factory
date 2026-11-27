@@ -1,7 +1,7 @@
 {
   "alpha": true,
   "category": "atlas",
-  "createdAt": "2026-11-27T08:53:26.792912+00:00",
+  "createdAt": "2026-11-24T11:11:40+00:00",
   "creation": {
     "rejectedCandidates": [],
     "searchReceipt": {
@@ -30,7 +30,19 @@
     "type": "image"
   },
   "files": {
-    "locations": [],
+    "locations": [
+      {
+        "assetVersion": 1,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "assets/export/v2-pnj-paysan-zebre.png",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      }
+    ],
     "registry": "sprites/asset-atlas-pestouille-rpg-atlas-v2-pnj-pays-0002.png"
   },
   "format": "png",
@@ -133,8 +145,74 @@
     "pestouille-rpg",
     "atlas-livre"
   ],
-  "updatedAt": "2026-11-27T08:53:26.792912+00:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
+    {
+      "assetBlobs": {
+        "assets/export/v2-pnj-paysan-zebre.png": "441ecc6c37c29fd961370b70c0ad0d93deea4984"
+      },
+      "assetPath": "assets/export/v2-pnj-paysan-zebre.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 38,
+        "path": "assets/export/v2-pnj-paysan-zebre.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-pnj-paysan-zebre.png",
+        "module-path: assets/export/v2-pnj-paysan-zebre.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-pnj-paysan-zebre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/export/v2-pnj-paysan-zebre.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "assets/export/v2-pnj-paysan-zebre.png": "441ecc6c37c29fd961370b70c0ad0d93deea4984"
+      },
+      "assetPath": "assets/export/v2-pnj-paysan-zebre.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 4514,
+        "path": "assets/liste-assets.json"
+      },
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "evidence": [
+        "literal: assets/export/v2-pnj-paysan-zebre.png",
+        "module-path: assets/liste-assets.json"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "v2-pnj-paysan-zebre",
+      "inference": {
+        "role": {
+          "confidence": 0.45,
+          "evidence": [
+            "image"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "sprite",
+      "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
     {
       "assetPath": "assets/export/v2-pnj-paysan-zebre.png",
       "assetVersion": 1,
@@ -142,7 +220,7 @@
         "line": 1,
         "path": "assets/export/v2-pnj-paysan-zebre.json"
       },
-      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "importer_livre : image d'atlas assets/export/v2-pnj-paysan-zebre.png livrée"
       ],
@@ -169,6 +247,8 @@
   "version": 1,
   "versions": [
     {
+      "causalNext": null,
+      "causalPrevious": null,
       "nextVersion": null,
       "previousVersion": null,
       "sha256": "2f32448915d13490c71e23045af57c3315534bb12059da69f9026a7e11c4e72a",

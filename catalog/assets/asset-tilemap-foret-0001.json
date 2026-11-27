@@ -30,14 +30,26 @@
         "visibility": "private"
       },
       {
+        "assetVersion": 2,
+        "classification": "game",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
+        "path": "content/tiled/foret.json",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
+        "visibility": "private"
+      },
+      {
         "assetVersion": 1,
         "classification": "game",
         "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
         "path": "content/tiled/foret.json",
         "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       }
     ],
@@ -66,28 +78,28 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/foret.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/foret.json"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/foret.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/foret.json"
       ],
       "method": "proven"
     },
     "formatMetadata": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/foret.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/foret.json"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:content/tiled/foret.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:content/tiled/foret.json"
       ],
       "method": "proven"
     }
@@ -105,14 +117,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "8687a3faafed126de9f8012d839e89ef5e902190cc125bdc2c477ebff7c35732",
+  "sha256": "e91bd3d0acbe1907b6e378d87bbc62138e3678451c2ca7f5c964cbbcfdc3c2db",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -149,15 +161,15 @@
     },
     {
       "assetBlobs": {
-        "content/tiled/foret.json": "1cfa092333ca0e31157a9148fb878871bd967318"
+        "content/tiled/foret.json": "273bbba185ce3c9052e98e4102d5bb35f9b57734"
       },
       "assetPath": "content/tiled/foret.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 10,
         "path": "packages/content/src/game-data.ts"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "import: content/tiled/foret.json",
         "module-path: packages/content/src/game-data.ts"
@@ -182,17 +194,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "date": "2026-11-22T00:04:42+01:00",
-      "nextVersion": null,
+      "format": "json",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "8687a3faafed126de9f8012d839e89ef5e902190cc125bdc2c477ebff7c35732",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "json",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "e91bd3d0acbe1907b6e378d87bbc62138e3678451c2ca7f5c964cbbcfdc3c2db",
+      "version": 2
     }
   ],
   "visualStyle": null

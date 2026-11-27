@@ -11,6 +11,27 @@
   "family": {
     "frames": [
       {
+        "h": 20,
+        "name": "sprite-affinite-eau",
+        "w": 20,
+        "x": 262,
+        "y": 10
+      },
+      {
+        "h": 24,
+        "name": "sprite-affinite-feu",
+        "w": 24,
+        "x": 214,
+        "y": 10
+      },
+      {
+        "h": 21,
+        "name": "sprite-affinite-terre",
+        "w": 24,
+        "x": 238,
+        "y": 10
+      },
+      {
         "h": 26,
         "name": "sprite-bouton-non",
         "w": 95,
@@ -23,6 +44,62 @@
         "w": 94,
         "x": 95,
         "y": 0
+      },
+      {
+        "h": 20,
+        "name": "sprite-coche",
+        "w": 24,
+        "x": 189,
+        "y": 24
+      },
+      {
+        "h": 18,
+        "name": "sprite-coeur",
+        "w": 19,
+        "x": 31,
+        "y": 26
+      },
+      {
+        "h": 24,
+        "name": "sprite-embleme-quete",
+        "w": 25,
+        "x": 189,
+        "y": 0
+      },
+      {
+        "h": 16,
+        "name": "sprite-exp",
+        "w": 31,
+        "x": 0,
+        "y": 26
+      },
+      {
+        "h": 19,
+        "name": "sprite-fleche-bas",
+        "w": 18,
+        "x": 50,
+        "y": 26
+      },
+      {
+        "h": 17,
+        "name": "sprite-fleche-haut",
+        "w": 18,
+        "x": 68,
+        "y": 26
+      },
+      {
+        "h": 10,
+        "name": "sprite-jauge",
+        "w": 60,
+        "x": 214,
+        "y": 0
+      },
+      {
+        "h": 8,
+        "name": "sprite-tiret",
+        "w": 17,
+        "x": 86,
+        "y": 26
       }
     ],
     "type": "atlas"
@@ -52,9 +129,9 @@
         "visibility": "private"
       },
       {
-        "assetVersion": 1,
+        "assetVersion": 2,
         "classification": "generated",
-        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
         "game": "pestouille-rpg",
         "path": "assets/export/e04-recrutement.json",
         "provider": "local",
@@ -67,10 +144,34 @@
         "classification": "generated",
         "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
         "game": "pestouille-rpg",
+        "path": "assets/export/e04-recrutement.json",
+        "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "repo": "pestouille-rpg",
+        "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 2,
+        "classification": "generated",
+        "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "game": "pestouille-rpg",
         "path": "public/assets/e04-recrutement.json",
         "provider": "local",
         "repo": "pestouille-rpg",
         "status": "active",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 1,
+        "classification": "generated",
+        "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+        "game": "pestouille-rpg",
+        "path": "public/assets/e04-recrutement.json",
+        "provider": "local",
+        "removedAtCommit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+        "repo": "pestouille-rpg",
+        "status": "removed",
         "visibility": "private"
       }
     ],
@@ -99,28 +200,28 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e04-recrutement.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e04-recrutement.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json"
       ],
       "method": "proven"
     },
     "formatMetadata": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e04-recrutement.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@79ac5d735a2a0f39651719ad464593e857bfef06:assets/export/e04-recrutement.json"
+        "pestouille-rpg@6fe278a6cf5cd538f80cc376218af11a3117fe55:assets/export/e04-recrutement.json"
       ],
       "method": "proven"
     }
@@ -138,14 +239,14 @@
     "type": "repo-file"
   },
   "schemaVersion": "1.0",
-  "sha256": "ac336dc183fa4334f55d62b6540aff9d2570d7d29ea8f73502346eb560bc23b7",
+  "sha256": "b5fc33166bab27a71caca5002c969e67263925871998b5c1465eb6865e7f16bd",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-23T18:16:53+01:00",
+  "updatedAt": "2026-11-27T11:44:13+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -380,15 +481,15 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "assets/export/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "assets/export/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 328,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e04-recrutement.json",
         "module-path: assets.lock.json"
@@ -413,15 +514,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "public/assets/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 600,
         "path": "assets.lock.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e04-recrutement.json",
         "module-path: assets.lock.json"
@@ -446,15 +547,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "public/assets/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 6,
         "path": "assets/export/e04-recrutement.manifest.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e04-recrutement.json",
         "module-path: assets/export/e04-recrutement.manifest.json"
@@ -479,15 +580,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "public/assets/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 2897,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e04-recrutement.json",
         "module-path: assets/liste-assets.json"
@@ -512,15 +613,15 @@
     },
     {
       "assetBlobs": {
-        "assets/export/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "assets/export/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "assets/export/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 2951,
         "path": "assets/liste-assets.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: assets/export/e04-recrutement.json",
         "module-path: assets/liste-assets.json"
@@ -545,15 +646,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "public/assets/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
         "line": 6,
         "path": "assets/manifests/e04-recrutement.json"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e04-recrutement.json",
         "module-path: assets/manifests/e04-recrutement.json"
@@ -578,15 +679,15 @@
     },
     {
       "assetBlobs": {
-        "public/assets/e04-recrutement.json": "8d16cf6c4b8de2cf5a7d0d386822dab06283bbc3"
+        "public/assets/e04-recrutement.json": "81c03fab0c38aeae1eeaa9400970f8433e511cdb"
       },
       "assetPath": "public/assets/e04-recrutement.json",
-      "assetVersion": 1,
+      "assetVersion": 2,
       "codeRef": {
-        "line": 144,
+        "line": 134,
         "path": "tests/unit/habillage.test.ts"
       },
-      "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
       "evidence": [
         "literal: public/assets/e04-recrutement.json",
         "module-path: tests/unit/habillage.test.ts"
@@ -611,17 +712,29 @@
     }
   ],
   "variants": [],
-  "version": 1,
+  "version": 2,
   "versions": [
     {
-      "causalNext": null,
+      "causalNext": 2,
       "causalPrevious": null,
       "commit": "79ac5d735a2a0f39651719ad464593e857bfef06",
       "date": "2026-11-22T00:04:42+01:00",
-      "nextVersion": null,
+      "format": "json",
+      "nextVersion": 2,
       "previousVersion": null,
       "sha256": "ac336dc183fa4334f55d62b6540aff9d2570d7d29ea8f73502346eb560bc23b7",
       "version": 1
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 1,
+      "commit": "6fe278a6cf5cd538f80cc376218af11a3117fe55",
+      "date": "2026-11-27T11:44:13+01:00",
+      "format": "json",
+      "nextVersion": null,
+      "previousVersion": 1,
+      "sha256": "b5fc33166bab27a71caca5002c969e67263925871998b5c1465eb6865e7f16bd",
+      "version": 2
     }
   ],
   "visualStyle": null

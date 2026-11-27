@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "medecin_zebre.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "medecin-zebre/idle": {
+   "frames": [
+    "medecin-zebre-bas-repos-a",
+    "medecin-zebre-bas-repos-b",
+    "medecin-zebre-bas-repos-c",
+    "medecin-zebre-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "medecin-zebre-bas-repos-a",
+   "boite": [
+    62,
+    123,
+    163,
+    606
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "medecin-zebre-bas-repos-b",
+   "boite": [
+    61,
+    123,
+    231,
+    605
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "medecin-zebre-bas-repos-c",
+   "boite": [
+    61,
+    122,
+    298,
+    606
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "medecin-zebre-bas-repos-d",
+   "boite": [
+    61,
+    123,
+    366,
+    605
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "5f0e62fad9a4b6de7341e60dcccf64d88ebaa60575dd16b4ad1d1b5900d1ce34"
+}

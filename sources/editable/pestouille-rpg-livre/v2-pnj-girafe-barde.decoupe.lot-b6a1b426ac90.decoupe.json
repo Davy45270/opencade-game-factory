@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "girafe_barde.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "girafe-barde/idle": {
+   "frames": [
+    "girafe-barde-bas-repos-a",
+    "girafe-barde-bas-repos-b",
+    "girafe-barde-bas-repos-c",
+    "girafe-barde-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "girafe-barde-bas-repos-a",
+   "boite": [
+    62,
+    119,
+    165,
+    598
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "girafe-barde-bas-repos-b",
+   "boite": [
+    62,
+    119,
+    232,
+    598
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "girafe-barde-bas-repos-c",
+   "boite": [
+    61,
+    118,
+    301,
+    599
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "girafe-barde-bas-repos-d",
+   "boite": [
+    61,
+    118,
+    369,
+    599
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "72cb04db3eca2ecf8fc8ed6b177a64530c1be325f37f2ff777d727ec4667bcd4"
+}

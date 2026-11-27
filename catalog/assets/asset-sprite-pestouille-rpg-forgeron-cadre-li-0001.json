@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:25:17.631717+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-forgeron-0001",
+        "reason": "découpe brute de l'élément forgeron : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "531eead24123de777f4e56ae915e1c15b0aa1e96fece5d5d0697b29e1118c545",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "forgeron",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-forgeron-0001",
+          "reason": "découpe brute de l'élément forgeron : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-forgeron-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:25:17.246292+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-forgeron » (assets/export/v2-forgeron.png), forme normalisée par le jeu de l'élément forgeron",
+  "dimensions": {
+    "height": 320,
+    "width": 320
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-forgeron-cadre-li-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-forgeron-cadre-li-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-forgeron.json · cadre sprite-forgeron"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-forgeron-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-53.png, SHA-256 3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-forgeron.json · cadre sprite-forgeron"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg forgeron (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "62a3296d856b3c2c",
+    "phash": "bec895c9a41ecb70"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-forgeron-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-forgeron livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-forgeron.png",
+      "recette {\"atlas\": \"assets/export/v2-forgeron.png (png)\", \"boite\": [380, 440, 20, 0], \"cadre\": \"sprite-forgeron\", \"element\": \"forgeron\", \"empreintePixels\": \"5ec7b0233cf78d9c8b1832427927444c368ee784a7223ff52ce1b48abc3ee605\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"u2netp\", \"taille\": 320, \"unique\": true}, \"regionDuBrut\": {\"h\": 440, \"w\": 380, \"x\": 20, \"y\": 0}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-forgeron.decoupe.json\", \"tableSha256\": \"9ad512d5f29210d4678bcd6f0aa96e75be3ae57884d9553b25ea8a6db0f42b71\"}"
+    ],
+    "parentId": "asset-sprite-forgeron-0001",
+    "parentSha256": "78ca7b37841de1e24c653464483acd046f4b3e7f96f01e1ca0e34de40f065312",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-forgeron.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:25:17.631717+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-forgeron.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/v2-forgeron.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-forgeron de assets/export/v2-forgeron.png (empreinte de pixels 5ec7b0233cf78d9c)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-forgeron",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-forgeron.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-forgeron.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "3925b5fad5cab09ab7cc3138517d5ee781c3a166af6ee56d2965d41118c686b7",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

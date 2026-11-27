@@ -255,64 +255,6 @@
       "status": "active"
     },
     {
-      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png livrée (fichier suivi au commit)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "sprite-pestouille-expression-bouderie",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png · fichier livré"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "image",
-      "scene": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png",
-      "status": "active"
-    },
-    {
-      "assetPath": "assets/export/p02-pestouille.png",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 82,
-        "path": "assets/export/p02-pestouille.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : cadre sprite-pestouille-expression-bouderie de assets/export/p02-pestouille.png (empreinte de pixels c2b2ff0f120f6a60)"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "sprite-pestouille-expression-bouderie",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "assets/export/p02-pestouille.json · frames"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas-frame",
-      "scene": "assets/export/p02-pestouille.json",
-      "status": "active"
-    },
-    {
       "assetBlobs": {
         "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png": "02b1904e82e56176cff53a58bc95508ecac274a1"
       },
@@ -442,6 +384,64 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : image assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png livrée (fichier suivi au commit)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-bouderie",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png · fichier livré"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "image",
+      "scene": "assets/cutouts/p02-pestouille/sprite-pestouille-expression-bouderie.png",
+      "status": "active"
+    },
+    {
+      "assetPath": "assets/export/p02-pestouille.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 82,
+        "path": "assets/export/p02-pestouille.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-pestouille-expression-bouderie de assets/export/p02-pestouille.png (empreinte de pixels c2b2ff0f120f6a60)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-pestouille-expression-bouderie",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/p02-pestouille.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/p02-pestouille.json",
       "status": "active"
     }
   ],

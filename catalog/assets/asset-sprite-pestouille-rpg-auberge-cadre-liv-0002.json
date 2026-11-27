@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:40:05.073798+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-auberge-0001",
+        "reason": "découpe brute de l'élément auberge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-rpg-auberge-cadre-liv-0001",
+        "reason": "pixels différents du cadre livré sprite-auberge (empreinte e1df126a7283)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4f51b0299a8db08dd3846835f25f071e6f430f5a59c9b3a372aeebd0ae4b0e94",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "auberge",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-auberge-0001",
+          "reason": "découpe brute de l'élément auberge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-rpg-auberge-cadre-liv-0001",
+          "reason": "pixels différents du cadre livré sprite-auberge (empreinte e1df126a7283)"
+        }
+      ],
+      "results": [
+        "asset-sprite-auberge-0001",
+        "asset-sprite-pestouille-rpg-auberge-cadre-liv-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:40:04.654090+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-auberge » (public/assets/v2-auberge.webp), forme normalisée par le jeu de l'élément auberge",
+  "dimensions": {
+    "height": 320,
+    "width": 320
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-auberge-cadre-liv-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-auberge-cadre-liv-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-auberge.json · cadre sprite-auberge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-auberge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-148.png, SHA-256 1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-auberge.json · cadre sprite-auberge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg auberge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "21b32d4a4bdb3c1c",
+    "phash": "bbccd4c19716e036"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-auberge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-auberge livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-auberge.webp",
+      "recette {\"atlas\": \"public/assets/v2-auberge.webp (webp)\", \"boite\": [420, 440, 6, 0], \"cadre\": \"sprite-auberge\", \"element\": \"auberge\", \"empreintePixels\": \"e1df126a72831950f6b3a7ca3f3e7ef387dc0d3b6b903368ab8000693b8e2c74\", \"parametres\": {\"detoure\": true, \"marge\": 0, \"modele\": \"u2netp\", \"taille\": 320, \"unique\": true}, \"regionDuBrut\": {\"h\": 440, \"w\": 420, \"x\": 6, \"y\": 0}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-auberge.decoupe.json\", \"tableSha256\": \"a0b4bca574e477e00dc3556b7bcd14d46f01a7eb5dd1b54730927c95cf495871\"}"
+    ],
+    "parentId": "asset-sprite-auberge-0001",
+    "parentSha256": "496ccf4ad088b256160066678afe052f551bcf787cb5750f25ad08f54ef377fc",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-auberge.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:40:05.073798+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-auberge.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "public/assets/v2-auberge.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-auberge de public/assets/v2-auberge.webp (empreinte de pixels e1df126a72831950)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-auberge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-auberge.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-auberge.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1bf968a1f811e3cf64d8261e051cce65f3709f8b28b225fb5c3b2d2ee5119fd0",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "paysanne_renard.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "paysanne-renard/idle": {
+   "frames": [
+    "paysanne-renard-bas-repos-a",
+    "paysanne-renard-bas-repos-b",
+    "paysanne-renard-bas-repos-c",
+    "paysanne-renard-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "paysanne-renard-bas-repos-a",
+   "boite": [
+    63,
+    127,
+    163,
+    602
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysanne-renard-bas-repos-b",
+   "boite": [
+    62,
+    126,
+    231,
+    602
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysanne-renard-bas-repos-c",
+   "boite": [
+    61,
+    127,
+    298,
+    601
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysanne-renard-bas-repos-d",
+   "boite": [
+    60,
+    126,
+    366,
+    602
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "ffcd78df2815fd43e5c3d3ba55fd22aaca16a48645987d36a32e94203ca264c0"
+}

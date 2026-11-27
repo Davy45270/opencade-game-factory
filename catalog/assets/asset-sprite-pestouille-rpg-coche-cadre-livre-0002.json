@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:38:03.244267+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-coche-cadre-livre-0001",
+        "reason": "pixels différents du cadre livré sprite-coche (empreinte 320f42945933)"
+      },
+      {
+        "assetId": "asset-sprite-coche-0002",
+        "reason": "découpe brute de l'élément coche : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "4b48b0e1795eedaf562227530337f104b7bf479507c65981aa91bf389d7e2d1b",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "coche",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-coche-cadre-livre-0001",
+          "reason": "pixels différents du cadre livré sprite-coche (empreinte 320f42945933)"
+        },
+        {
+          "assetId": "asset-sprite-coche-0002",
+          "reason": "découpe brute de l'élément coche : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-coche-cadre-livre-0001",
+        "asset-sprite-coche-0002"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:38:02.850119+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-coche » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément coche",
+  "dimensions": {
+    "height": 20,
+    "width": 24
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-coche-cadre-livre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-coche-cadre-livre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-coche"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-coche-0002"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-135.png, SHA-256 beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-coche"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg coche (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "364429596561138e",
+    "phash": "9e92346cc9391af6"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-coche-0002",
+    "evidence": [
+      "importer_livre : cadre sprite-coche livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [24, 20, 689, 661], \"cadre\": \"sprite-coche\", \"element\": \"coche\", \"empreintePixels\": \"320f429459330a94fc84877504c3fe7ffe9be5d2ddae001f17ece864c90b5aef\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 20, \"w\": 24, \"x\": 689, \"y\": 661}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-coche-0002",
+    "parentSha256": "c1b08199c4d964e101042de944d3f1b967aac57848612fa19b34608e4a8472ad",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:38:03.244267+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 42,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-coche de public/assets/e04-recrutement.webp (empreinte de pixels 320f429459330a94)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-coche",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "beb0cbb918b185705dc2ae30759ef4fffaaada15da07f8122c7c92c908ff2493",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

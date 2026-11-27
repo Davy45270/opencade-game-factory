@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "garde_renard.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "garde-renard/idle": {
+   "frames": [
+    "garde-renard-bas-repos-a",
+    "garde-renard-bas-repos-b",
+    "garde-renard-bas-repos-c",
+    "garde-renard-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "garde-renard-bas-repos-a",
+   "boite": [
+    64,
+    131,
+    165,
+    596
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-renard-bas-repos-b",
+   "boite": [
+    60,
+    129,
+    236,
+    596
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-renard-bas-repos-c",
+   "boite": [
+    59,
+    129,
+    306,
+    595
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "garde-renard-bas-repos-d",
+   "boite": [
+    59,
+    128,
+    373,
+    595
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "1538861865abfc324ff938e01219f37f8564cc1500a80a316f735356f3ab5ec7"
+}

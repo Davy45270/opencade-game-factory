@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:35:50.306450+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-lila-carte-cadre-0001",
+        "reason": "pixels différents du cadre livré sprite-lila-carte (empreinte 046dd4a1e056)"
+      },
+      {
+        "assetId": "asset-sprite-lila-carte-0001",
+        "reason": "découpe brute de l'élément lila-carte : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "ae5b2062f9736c18f51e00864a97e62b46d736f8766b74264f8e0f90d3bc80b6",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "lila carte",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-lila-carte-cadre-0001",
+          "reason": "pixels différents du cadre livré sprite-lila-carte (empreinte 046dd4a1e056)"
+        },
+        {
+          "assetId": "asset-sprite-lila-carte-0001",
+          "reason": "découpe brute de l'élément lila-carte : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-lila-carte-cadre-0001",
+        "asset-sprite-lila-carte-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:35:49.922869+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-lila-carte » (public/assets/e03-portraits.webp), forme normalisée par le jeu de l'élément lila-carte",
+  "dimensions": {
+    "height": 280,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-lila-carte-cadre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-lila-carte-cadre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e03-portraits.json · cadre sprite-lila-carte"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-lila-carte-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-121.png, SHA-256 10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e03-portraits.json · cadre sprite-lila-carte"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg lila-carte (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "94b4923612322959",
+    "phash": "b834c649679669cb"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-lila-carte-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-lila-carte livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e03-portraits.webp",
+      "recette {\"atlas\": \"public/assets/e03-portraits.webp (webp)\", \"boite\": [146, 270, 616, 2], \"cadre\": \"sprite-lila-carte\", \"element\": \"lila-carte\", \"empreintePixels\": \"046dd4a1e056e3bc3fcdf8f89e1059948382dd7bab8e4ca3d4b5ddfca0dbe9ee\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 270, \"w\": 146, \"x\": 616, \"y\": 2}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"2fc497afdec3eba49ec1701146ae233e6662dd80b5fca71a301a2692b524fc72\"}"
+    ],
+    "parentId": "asset-sprite-lila-carte-0001",
+    "parentSha256": "e308aa1a3813b7961f605157b8d409ee922d3ac240cd3a07561c8e5dceb0cc89",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:35:50.306450+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-portraits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/e03-portraits.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-lila-carte de public/assets/e03-portraits.webp (empreinte de pixels 046dd4a1e056e3bc)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-lila-carte",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "10102f6afdec792122868015fc197dcff94b002b430f9f04629bc5fde226d4eb",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

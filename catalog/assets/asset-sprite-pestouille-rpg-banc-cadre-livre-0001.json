@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:26:04.301702+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-banc-0001",
+        "reason": "découpe brute de l'élément banc : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b58a1c28321f424487294332e20c92be239f35360ab035b2a7086c4d406fc534",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "banc",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-banc-0001",
+          "reason": "découpe brute de l'élément banc : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-banc-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:26:03.908637+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-banc » (assets/export/v2-place.png), forme normalisée par le jeu de l'élément banc",
+  "dimensions": {
+    "height": 101,
+    "width": 101
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-banc-cadre-livre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-banc-cadre-livre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place.json · cadre sprite-banc"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-banc-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-58.png, SHA-256 19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-place.json · cadre sprite-banc"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg banc (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "008438e3d84870a3",
+    "phash": "8f61bc13609f639c"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-banc-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-banc livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-place.png",
+      "recette {\"atlas\": \"assets/export/v2-place.png (png)\", \"boite\": [101, 75, 757, 603], \"cadre\": \"sprite-banc\", \"element\": \"banc\", \"empreintePixels\": \"bea52762e5b04faf6bdb24572b61fb6df7e725d7a0efa6f400ea5a26842a17ef\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 75, \"w\": 101, \"x\": 757, \"y\": 603}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-banc-0001",
+    "parentSha256": "1c01dd2dba12b110e387e9f87994ae0e1ac2cfd7c25b8627afb799cac038063e",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:26:04.301702+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-place.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-banc de assets/export/v2-place.png (empreinte de pixels bea52762e5b04faf)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-banc",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "19ff038301f44e5e4e9fc80cf0285852b34f1b5efc720ea573b62cb3fb95da8a",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

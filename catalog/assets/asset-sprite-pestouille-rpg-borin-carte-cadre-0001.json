@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:23:07.378650+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-borin-carte-0001",
+        "reason": "découpe brute de l'élément borin-carte : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "536f51e927053c39571a5d37c20a78aea597de25410ff7bd07f409f5fa7e6fa7",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "borin carte",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-borin-carte-0001",
+          "reason": "découpe brute de l'élément borin-carte : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-borin-carte-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:23:06.977074+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-borin-carte » (assets/export/e03-portraits.png), forme normalisée par le jeu de l'élément borin-carte",
+  "dimensions": {
+    "height": 280,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-borin-carte-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-borin-carte-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e03-portraits.json · cadre sprite-borin-carte"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-borin-carte-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-39.png, SHA-256 4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/e03-portraits.json · cadre sprite-borin-carte"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg borin-carte (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "4c922b363b3b2958",
+    "phash": "bce1c338648e63d3"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-borin-carte-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-borin-carte livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/e03-portraits.png",
+      "recette {\"atlas\": \"assets/export/e03-portraits.png (png)\", \"boite\": [148, 270, 760, 2], \"cadre\": \"sprite-borin-carte\", \"element\": \"borin-carte\", \"empreintePixels\": \"05933b9eeb1e8b13f380a8f10c75a17de28128775e7d27acce2271c1bda351cc\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 270, \"w\": 148, \"x\": 760, \"y\": 2}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"2fc497afdec3eba49ec1701146ae233e6662dd80b5fca71a301a2692b524fc72\"}"
+    ],
+    "parentId": "asset-sprite-borin-carte-0001",
+    "parentSha256": "8093e428113fa666e17d3d9adb7efeefd314c0897ba8aea2bf4f69f5ba06b474",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:23:07.378650+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/e03-portraits.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 2,
+        "path": "assets/export/e03-portraits.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-borin-carte de assets/export/e03-portraits.png (empreinte de pixels 05933b9eeb1e8b13)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-borin-carte",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "4cb27f9bf97ccb810f52beaeb9c8e5e3be13ac0a662aebb8399a06ea1b7c28ae",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

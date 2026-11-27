@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:38:40.532831+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-fleche-bas-0001",
+        "reason": "découpe brute de l'élément fleche-bas : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "1caf15c6f4fe75928cc8c04f213012e4fe1fa4d4ee2ee26392e63076ef4d02d9",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "fleche bas",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-fleche-bas-0001",
+          "reason": "découpe brute de l'élément fleche-bas : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-fleche-bas-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:38:40.130502+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-fleche-bas » (public/assets/e04-recrutement.webp), forme normalisée par le jeu de l'élément fleche-bas",
+  "dimensions": {
+    "height": 19,
+    "width": 18
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-fleche-bas-cadre-0001.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-fleche-bas-cadre-0001",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-fleche-bas"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-fleche-bas-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-139.png, SHA-256 1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e04-recrutement.json · cadre sprite-fleche-bas"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg fleche-bas (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "987263a29cc972b5",
+    "phash": "cd6d2ed3b02d03f0"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-fleche-bas-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-fleche-bas livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e04-recrutement.webp",
+      "recette {\"atlas\": \"public/assets/e04-recrutement.webp (webp)\", \"boite\": [18, 19, 1322, 325], \"cadre\": \"sprite-fleche-bas\", \"element\": \"fleche-bas\", \"empreintePixels\": \"95e4e8f32092e0c2bc35a7c9049c1512dc6b0608a26be726e14432e791f3a05f\", \"parametres\": {\"detoure\": false, \"marge\": 0, \"taille\": \"96x32\"}, \"regionDuBrut\": {\"h\": 19, \"w\": 18, \"x\": 1322, \"y\": 325}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e04-recrutement.decoupe.json\", \"tableSha256\": \"ad58046d333eef653c66702f747d142fd35d8d0e92771c432617c57e5cbe7baa\"}"
+    ],
+    "parentId": "asset-sprite-fleche-bas-0001",
+    "parentSha256": "ee8a87000e65f04c4ce90e14dda40b6b13fd5bc7dd87de48ab4957abe92faeda",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e04-recrutement.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:38:40.532831+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e04-recrutement.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 74,
+        "path": "public/assets/e04-recrutement.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-fleche-bas de public/assets/e04-recrutement.webp (empreinte de pixels 95e4e8f32092e0c2)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-fleche-bas",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "1e5e31a8fead0e01e74dcc3fc2a4b081713ee73e71649c4fc8ff5810396b450e",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:41:40.751685+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-etal-cadre-livre-0001",
+        "reason": "pixels différents du cadre livré sprite-etal (empreinte 745040508b8c)"
+      },
+      {
+        "assetId": "asset-sprite-etal-0001",
+        "reason": "découpe brute de l'élément etal : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "90100f81682b4e388e913d16aba605a13c1decc41daea449c8e63c155559a038",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "etal",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-etal-cadre-livre-0001",
+          "reason": "pixels différents du cadre livré sprite-etal (empreinte 745040508b8c)"
+        },
+        {
+          "assetId": "asset-sprite-etal-0001",
+          "reason": "découpe brute de l'élément etal : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-etal-cadre-livre-0001",
+        "asset-sprite-etal-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:41:40.341501+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-etal » (public/assets/v2-place.webp), forme normalisée par le jeu de l'élément etal",
+  "dimensions": {
+    "height": 98,
+    "width": 98
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-etal-cadre-livre-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-etal-cadre-livre-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-etal"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-etal-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-158.png, SHA-256 7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-etal"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg etal (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "ca6c765355695592",
+    "phash": "9f87d26279198da4"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-etal-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-etal livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-place.webp",
+      "recette {\"atlas\": \"public/assets/v2-place.webp (webp)\", \"boite\": [94, 98, 1215, 606], \"cadre\": \"sprite-etal\", \"element\": \"etal\", \"empreintePixels\": \"745040508b8c37e728722bba6abe9db2be88a8921ecf38c0c184402205d7f1d1\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 98, \"w\": 94, \"x\": 1215, \"y\": 606}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-etal-0001",
+    "parentSha256": "ceb2f8ddb7ddd52a95e16968e4c4099937ddb2d66550323bdf47ee04add8c478",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:41:40.751685+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-place.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-etal de public/assets/v2-place.webp (empreinte de pixels 745040508b8c37e7)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-etal",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "7fedd890ef3a6af0a044c0a8dd6b77961dc9de5f865f1d53f328236c37d50a80",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

@@ -1,0 +1,213 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:41:21.335298+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-banniere-rouge-ca-0001",
+        "reason": "pixels différents du cadre livré sprite-banniere-rouge (empreinte 2dc65fa26b22)"
+      },
+      {
+        "assetId": "asset-sprite-banniere-rouge-0001",
+        "reason": "découpe brute de l'élément banniere-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "7b1c30b3fe1b89ae18f945a2714d250db2388c2f161fa5b60d80219ca0483e50",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "banniere rouge",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-banniere-rouge-ca-0001",
+          "reason": "pixels différents du cadre livré sprite-banniere-rouge (empreinte 2dc65fa26b22)"
+        },
+        {
+          "assetId": "asset-sprite-banniere-rouge-0001",
+          "reason": "découpe brute de l'élément banniere-rouge : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-banniere-rouge-ca-0001",
+        "asset-sprite-banniere-rouge-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:41:20.928194+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-banniere-rouge » (public/assets/v2-place.webp), forme normalisée par le jeu de l'élément banniere-rouge",
+  "dimensions": {
+    "height": 108,
+    "width": 108
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-banniere-rouge-ca-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-banniere-rouge-ca-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-banniere-rouge"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-banniere-rouge-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-156.png, SHA-256 fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/v2-place.json · cadre sprite-banniere-rouge"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg banniere-rouge (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "b29694b09da84c2c",
+    "phash": "b83867329ccf9a32"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-banniere-rouge-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-banniere-rouge livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/v2-place.webp",
+      "recette {\"atlas\": \"public/assets/v2-place.webp (webp)\", \"boite\": [59, 108, 1050, 597], \"cadre\": \"sprite-banniere-rouge\", \"element\": \"banniere-rouge\", \"empreintePixels\": \"2dc65fa26b22efb399a5b04f815639805ad10a0ca9fdc8ce8ec5a0b946f36785\", \"parametres\": {\"detoure\": true, \"marge\": 3, \"modele\": \"fond:30\", \"taille\": 128, \"unique\": true}, \"regionDuBrut\": {\"h\": 108, \"w\": 59, \"x\": 1050, \"y\": 597}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-place.decoupe.json\", \"tableSha256\": \"a045a5d7077447ef239c27d75c05311312c8e4e5522b52d4bb2b55441d616d71\"}"
+    ],
+    "parentId": "asset-sprite-banniere-rouge-0001",
+    "parentSha256": "f532f4be58eb8664b2c630138a4929e868d2c0411d47c5d3e5bd85482fe206cd",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-place.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:41:21.335298+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/v2-place.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 18,
+        "path": "public/assets/v2-place.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-banniere-rouge de public/assets/v2-place.webp (empreinte de pixels 2dc65fa26b22efb3)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-banniere-rouge",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/v2-place.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/v2-place.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "fac1b3b19d4a657992d554f099023e7050ce3b657724f3a7f814ab84080830b3",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

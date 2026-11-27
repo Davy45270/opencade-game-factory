@@ -198,35 +198,6 @@
       "status": "active"
     },
     {
-      "assetPath": "public/assets/e04-boss.webp",
-      "assetVersion": 1,
-      "codeRef": {
-        "line": 1,
-        "path": "public/assets/e04-boss.json"
-      },
-      "commit": "2e03e382c8709eaf5c2bedce2313cad36e097fde",
-      "evidence": [
-        "importer_livre : image d'atlas public/assets/e04-boss.webp livrée"
-      ],
-      "game": "pestouille-rpg",
-      "importName": "e04-boss",
-      "inference": {
-        "role": {
-          "confidence": 1,
-          "evidence": [
-            "public/assets/e04-boss.json · meta.image"
-          ],
-          "method": "proven"
-        }
-      },
-      "provider": "forgejo",
-      "releases": [],
-      "repo": "pestouille-rpg",
-      "role": "atlas",
-      "scene": "public/assets/e04-boss.json",
-      "status": "active"
-    },
-    {
       "assetBlobs": {
         "public/assets/e04-boss.webp": "6ba99b6a037360945053381e1d8af74942514eb0"
       },
@@ -290,6 +261,35 @@
       "repo": "pestouille-rpg",
       "role": "sprite",
       "scene": "assets/liste-assets.json",
+      "status": "active"
+    },
+    {
+      "assetPath": "public/assets/e04-boss.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 1,
+        "path": "public/assets/e04-boss.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : image d'atlas public/assets/e04-boss.webp livrée"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "e04-boss",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e04-boss.json · meta.image"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "public/assets/e04-boss.json",
       "status": "active"
     }
   ],

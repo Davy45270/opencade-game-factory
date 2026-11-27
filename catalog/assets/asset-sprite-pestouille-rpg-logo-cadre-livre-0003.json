@@ -1,0 +1,222 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:36:09.478891+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-pestouille-rpg-logo-cadre-livre-0001",
+        "reason": "pixels différents du cadre livré sprite-logo (empreinte 7d168a94f4cf)"
+      },
+      {
+        "assetId": "asset-sprite-pestouille-rpg-logo-cadre-livre-0002",
+        "reason": "pixels différents du cadre livré sprite-logo (empreinte 7d168a94f4cf)"
+      },
+      {
+        "assetId": "asset-sprite-logo-0001",
+        "reason": "découpe brute de l'élément logo : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "116225dbee64f20c2722cbc0b02445b11e4ba7b3f56e1fe027c35b1436d4b9fd",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "logo",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-pestouille-rpg-logo-cadre-livre-0001",
+          "reason": "pixels différents du cadre livré sprite-logo (empreinte 7d168a94f4cf)"
+        },
+        {
+          "assetId": "asset-sprite-pestouille-rpg-logo-cadre-livre-0002",
+          "reason": "pixels différents du cadre livré sprite-logo (empreinte 7d168a94f4cf)"
+        },
+        {
+          "assetId": "asset-sprite-logo-0001",
+          "reason": "découpe brute de l'élément logo : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-pestouille-rpg-logo-cadre-livre-0001",
+        "asset-sprite-pestouille-rpg-logo-cadre-livre-0002",
+        "asset-sprite-logo-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:36:09.054070+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-logo » (public/assets/e03-portraits.webp), forme normalisée par le jeu de l'élément logo",
+  "dimensions": {
+    "height": 256,
+    "width": 256
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-logo-cadre-livre-0003.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-logo-cadre-livre-0003",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e03-portraits.json · cadre sprite-logo"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-logo-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-123.png, SHA-256 57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:public/assets/e03-portraits.json · cadre sprite-logo"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg logo (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "64338b96237c1031",
+    "phash": "f3a09e1f80e1636b"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-logo-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-logo livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans public/assets/e03-portraits.webp",
+      "recette {\"atlas\": \"public/assets/e03-portraits.webp (webp)\", \"boite\": [280, 192, 50, 8], \"cadre\": \"sprite-logo\", \"element\": \"logo\", \"empreintePixels\": \"7d168a94f4cf7e99c398b647eb00f3ef612423d863414ed285d8f3a1415b732c\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"isnet-anime\", \"taille\": 256, \"unique\": true}, \"regionDuBrut\": {\"h\": 192, \"w\": 280, \"x\": 50, \"y\": 8}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/e03-portraits.decoupe.json\", \"tableSha256\": \"2fc497afdec3eba49ec1701146ae233e6662dd80b5fca71a301a2692b524fc72\"}"
+    ],
+    "parentId": "asset-sprite-logo-0001",
+    "parentSha256": "269dfe1280875cab3b9ec408c675b26285a74f305770c52597046cb2c06623ae",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "e03-portraits.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:36:09.478891+00:00",
+  "usages": [
+    {
+      "assetPath": "public/assets/e03-portraits.webp",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 34,
+        "path": "public/assets/e03-portraits.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-logo de public/assets/e03-portraits.webp (empreinte de pixels 7d168a94f4cf7e99)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-logo",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "public/assets/e03-portraits.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "public/assets/e03-portraits.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "57698b27b6a9fef4516eb74e17dc155b481c80e220f733bd42ecb6d574f26970",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

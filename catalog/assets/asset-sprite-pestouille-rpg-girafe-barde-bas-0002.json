@@ -1,0 +1,204 @@
+{
+  "alpha": true,
+  "category": "sprite",
+  "createdAt": "2026-11-27T08:31:02.666301+00:00",
+  "creation": {
+    "rejectedCandidates": [
+      {
+        "assetId": "asset-sprite-girafe-barde-bas-repos-b-0001",
+        "reason": "découpe brute de l'élément girafe-barde-bas-repos-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+      }
+    ],
+    "searchReceipt": {
+      "catalogFingerprint": "b9b8bf7e7caac871c1ed4f0da67994c352550ad416943239865d59308054c3e1",
+      "filters": {
+        "tag": "pestouille-rpg"
+      },
+      "query": "girafe barde bas repos b",
+      "registryCommit": "38e5bc76b1ea32fd81e5443f9d527ea3eb58f727",
+      "rejectedCandidates": [
+        {
+          "assetId": "asset-sprite-girafe-barde-bas-repos-b-0001",
+          "reason": "découpe brute de l'élément girafe-barde-bas-repos-b : le jeu livre le cadre normalisé (parent derivedFrom)"
+        }
+      ],
+      "results": [
+        "asset-sprite-girafe-barde-bas-repos-b-0001"
+      ],
+      "schemaVersion": "1.0",
+      "searchedAt": "2026-11-27T08:31:02.252519+00:00"
+    }
+  },
+  "description": "pestouille-rpg — cadre livré « sprite-girafe-barde-bas-repos-b » (assets/export/v2-pnj-girafe-barde.png), forme normalisée par le jeu de l'élément girafe-barde-bas-repos-b",
+  "dimensions": {
+    "height": 96,
+    "width": 96
+  },
+  "facing": "unknown",
+  "family": {
+    "image": {
+      "mode": "RGBA"
+    },
+    "type": "image"
+  },
+  "files": {
+    "locations": [],
+    "registry": "sprites/asset-sprite-pestouille-rpg-girafe-barde-bas-0002.png"
+  },
+  "format": "png",
+  "id": "asset-sprite-pestouille-rpg-girafe-barde-bas-0002",
+  "inference": {
+    "alpha": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "category": {
+      "confidence": 1,
+      "evidence": [
+        "Catégorie déclarée avec register."
+      ],
+      "method": "proven"
+    },
+    "description": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-pnj-girafe-barde.json · cadre sprite-girafe-barde-bas-repos-b"
+      ],
+      "method": "proven"
+    },
+    "dimensions": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "family": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "format": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "originUniverse": {
+      "confidence": 1,
+      "evidence": [
+        "parent asset-sprite-girafe-barde-bas-repos-b-0001"
+      ],
+      "method": "proven"
+    },
+    "perceptual": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "sha256": {
+      "confidence": 1,
+      "evidence": [
+        "Import local de cadre-90.png, SHA-256 0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490"
+      ],
+      "method": "proven"
+    },
+    "tags": {
+      "confidence": 1,
+      "evidence": [
+        "pestouille-rpg@b7c866bf8338:assets/export/v2-pnj-girafe-barde.json · cadre sprite-girafe-barde-bas-repos-b"
+      ],
+      "method": "proven"
+    }
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseEvidence": {
+    "decision": "Dessins de David : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), décision du 2026-11-22. Attribution : « Davy45270 ». Texte : LICENSES/CC-BY-SA-4.0.txt.",
+    "method": "décision du propriétaire",
+    "ref": "HL-538 7-3316 (remplace 7-3162 et 7-3165)"
+  },
+  "name": "pestouille-rpg girafe-barde-bas-repos-b (cadre livré)",
+  "orientation": "unknown",
+  "originUniverse": "pestouille",
+  "perceptual": {
+    "dhash": "299f92524d56960c",
+    "phash": "b99e26268699ce69"
+  },
+  "pivot": "unknown",
+  "provenance": {
+    "author": "Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré)",
+    "derivedFrom": "asset-sprite-girafe-barde-bas-repos-b-0001",
+    "evidence": [
+      "importer_livre : cadre sprite-girafe-barde-bas-repos-b livré par pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1 dans assets/export/v2-pnj-girafe-barde.png",
+      "recette {\"atlas\": \"assets/export/v2-pnj-girafe-barde.png (png)\", \"boite\": [62, 119, 232, 598], \"cadre\": \"sprite-girafe-barde-bas-repos-b\", \"element\": \"girafe-barde-bas-repos-b\", \"empreintePixels\": \"4ae5e77083582e78e5ff5b75cb3d0c86da89add3d33dde696b66ee9f17b0c8ca\", \"parametres\": {\"detoure\": true, \"marge\": 2, \"modele\": \"fond:40\", \"taille\": 96, \"unique\": true}, \"regionDuBrut\": {\"h\": 119, \"w\": 62, \"x\": 232, \"y\": 598}, \"table\": \"pestouille-rpg@b7c866bf8338df58b80bae84737a22665988f8b1:assets/source/v2-pnj-girafe-barde.decoupe.json\", \"tableSha256\": \"7409708ede31506b941b1516c9cc2f77ab0b0b30ae9b49b31fd0666fa9f976ef\"}"
+    ],
+    "parentId": "asset-sprite-girafe-barde-bas-repos-b-0001",
+    "parentSha256": "e1fc24e63d6ebc413afa9742d9de2996c9159a31354f9120fc09186bcbb8c705",
+    "parentVersion": 1,
+    "type": "derived"
+  },
+  "schemaVersion": "1.0",
+  "sha256": "0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490",
+  "sourceRegion": null,
+  "sourceSheetId": null,
+  "state": null,
+  "status": "needs-review",
+  "subcategory": null,
+  "tags": [
+    "pestouille",
+    "pestouille-rpg",
+    "v2-pnj-girafe-barde.decoupe",
+    "cadre-livre"
+  ],
+  "updatedAt": "2026-11-27T08:31:02.666301+00:00",
+  "usages": [
+    {
+      "assetPath": "assets/export/v2-pnj-girafe-barde.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 10,
+        "path": "assets/export/v2-pnj-girafe-barde.json"
+      },
+      "commit": "b7c866bf8338df58b80bae84737a22665988f8b1",
+      "evidence": [
+        "importer_livre : cadre sprite-girafe-barde-bas-repos-b de assets/export/v2-pnj-girafe-barde.png (empreinte de pixels 4ae5e77083582e78)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-girafe-barde-bas-repos-b",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/v2-pnj-girafe-barde.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/v2-pnj-girafe-barde.json",
+      "status": "active"
+    }
+  ],
+  "variants": [],
+  "version": 1,
+  "versions": [
+    {
+      "nextVersion": null,
+      "previousVersion": null,
+      "sha256": "0102339d8c10429e92f0a700517392d8cd8fcbc9c3c210f4b538a2b9f7f8a490",
+      "version": 1
+    }
+  ],
+  "visualStyle": null
+}

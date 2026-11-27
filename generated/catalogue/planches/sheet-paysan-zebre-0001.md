@@ -9,6 +9,11 @@ Licence : [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) · auteur : Davy45270 (des
 Fiche : [`sheet-paysan-zebre-0001`](../../../catalog/sheets/sheet-paysan-zebre-0001.json)
 
 
-0 asset(s) découpés de cette planche.
+4 asset(s) découpés de cette planche.
 
-_Aucun asset._
+| Vignette | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
+|---|---|---|---|---|---|---|---|
+| ![](../../../thumbnails/84/8404cdb4a1d59a82898312b4b1d93cac1cc9cdaae2a61ba0110a60abdbb69220.webp) | [`asset-sprite-paysan-zebre-bas-repos-a-0001`](../../../catalog/assets/asset-sprite-paysan-zebre-bas-repos-a-0001.json) | paysan-zebre-bas-repos-a | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-paysan-zebre-0001](../planches/sheet-paysan-zebre-0001.md) |
+| ![](../../../thumbnails/14/14f1ee7aa80169299079f508d11a3332ad91e3e1afacad078474dd73ee9ac25e.webp) | [`asset-sprite-paysan-zebre-bas-repos-b-0001`](../../../catalog/assets/asset-sprite-paysan-zebre-bas-repos-b-0001.json) | paysan-zebre-bas-repos-b | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-paysan-zebre-0001](../planches/sheet-paysan-zebre-0001.md) |
+| ![](../../../thumbnails/a4/a4efd27e7255db6bef602b94510550e234db0a27318d2919a3422f483b118778.webp) | [`asset-sprite-paysan-zebre-bas-repos-c-0001`](../../../catalog/assets/asset-sprite-paysan-zebre-bas-repos-c-0001.json) | paysan-zebre-bas-repos-c | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-paysan-zebre-0001](../planches/sheet-paysan-zebre-0001.md) |
+| ![](../../../thumbnails/e4/e42d701cd6579c4f674cec73f529e59a556fd066a596dcba9efe6f8b7a1bdc40.webp) | [`asset-sprite-paysan-zebre-bas-repos-d-0001`](../../../catalog/assets/asset-sprite-paysan-zebre-bas-repos-d-0001.json) | paysan-zebre-bas-repos-d | sprite | [CC-BY-SA-4.0](../licences/CC-BY-SA-4.0.md) | Davy45270 (dessin fourni par David ; auteur ou outil de création non déclaré) | — | [sheet-paysan-zebre-0001](../planches/sheet-paysan-zebre-0001.md) |

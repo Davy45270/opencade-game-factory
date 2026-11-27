@@ -1,0 +1,64 @@
+{
+ "status": "provisoire",
+ "licence": "CC-BY-SA-4.0",
+ "planche": "paysan_zebre.png",
+ "marge": 2,
+ "taille": 96,
+ "detoure": true,
+ "modele": "fond:40",
+ "unique": true,
+ "animations": {
+  "paysan-zebre/idle": {
+   "frames": [
+    "paysan-zebre-bas-repos-a",
+    "paysan-zebre-bas-repos-b",
+    "paysan-zebre-bas-repos-c",
+    "paysan-zebre-bas-repos-d"
+   ],
+   "fps": 4
+  }
+ },
+ "elements": [
+  {
+   "id": "paysan-zebre-bas-repos-a",
+   "boite": [
+    65,
+    119,
+    164,
+    602
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysan-zebre-bas-repos-b",
+   "boite": [
+    64,
+    119,
+    234,
+    602
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysan-zebre-bas-repos-c",
+   "boite": [
+    69,
+    118,
+    298,
+    603
+   ],
+   "ancre": "bas"
+  },
+  {
+   "id": "paysan-zebre-bas-repos-d",
+   "boite": [
+    70,
+    119,
+    367,
+    602
+   ],
+   "ancre": "bas"
+  }
+ ],
+ "planche_sha256": "ecb854656a3dd4775b7e17d69634dcd6f009d0b51620464ef66f0f1e59302845"
+}

@@ -32,7 +32,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
         "game": "pestouille-rpg",
         "path": "assets/export/v2-place-sol.json",
         "provider": "local",
@@ -43,7 +43,7 @@
       {
         "assetVersion": 1,
         "classification": "generated",
-        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
         "game": "pestouille-rpg",
         "path": "public/assets/v2-place-sol.json",
         "provider": "local",
@@ -123,7 +123,7 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-27T15:00:06+01:00",
+  "updatedAt": "2026-11-27T20:34:25+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -135,7 +135,7 @@
         "line": 6,
         "path": "assets/export/v2-place-sol.manifest.json"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "literal: public/assets/v2-place-sol.json",
         "module-path: assets/export/v2-place-sol.manifest.json"
@@ -168,7 +168,7 @@
         "line": 3578,
         "path": "assets/liste-assets.json"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "literal: assets/export/v2-place-sol.json",
         "module-path: assets/liste-assets.json"
@@ -201,7 +201,7 @@
         "line": 3632,
         "path": "assets/liste-assets.json"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "literal: public/assets/v2-place-sol.json",
         "module-path: assets/liste-assets.json"
@@ -234,7 +234,7 @@
         "line": 6,
         "path": "assets/manifests/v2-place-sol.json"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "literal: public/assets/v2-place-sol.json",
         "module-path: assets/manifests/v2-place-sol.json"
@@ -255,6 +255,39 @@
       "repo": "pestouille-rpg",
       "role": "atlas",
       "scene": "assets/manifests/v2-place-sol.json",
+      "status": "active"
+    },
+    {
+      "assetBlobs": {
+        "public/assets/v2-place-sol.json": "dc4c72d268b95948ea0ed495a3fef5306698cfe1"
+      },
+      "assetPath": "public/assets/v2-place-sol.json",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 7,
+        "path": "tests/unit/sol-village-derogation.test.ts"
+      },
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "evidence": [
+        "import: public/assets/v2-place-sol.json",
+        "module-path: tests/unit/sol-village-derogation.test.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "atlasPlace",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "atlas"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas",
+      "scene": "tests/unit/sol-village-derogation.test.ts",
       "status": "active"
     }
   ],

@@ -10,6 +10,7 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 
 | Fiche | Nom | Catégorie | Licence | Auteur | Jeux | Planche |
 |---|---|---|---|---|---|---|
+| [`asset-codegenerated-rendre-code-kid-formes-0001`](../../../catalog/assets/asset-codegenerated-rendre-code-kid-formes-0001.json) | rendre-code-kid-formes | codegenerated | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-boubou-0001`](../../../catalog/assets/asset-image-apercu-code-boubou-0001.json) | apercu-code-boubou | characters | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-caliroux-0001`](../../../catalog/assets/asset-image-apercu-code-caliroux-0001.json) | apercu-code-caliroux | characters | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-image-apercu-code-lumi-0001`](../../../catalog/assets/asset-image-apercu-code-lumi-0001.json) | apercu-code-lumi | characters | [unknown](../licences/unknown.md) | unknown | — | — |
@@ -111,7 +112,6 @@ Pages : [1](unknown.md) · [2](unknown-2.md) · [3](unknown-3.md) · [4](unknown
 | [`asset-svg-cellule-ambre-unie-0001`](../../../catalog/assets/asset-svg-cellule-ambre-unie-0001.json) | cellule-ambre-unie | svg | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-svg-cellule-cyan-unie-0001`](../../../catalog/assets/asset-svg-cellule-cyan-unie-0001.json) | cellule-cyan-unie | svg | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-svg-cellule-magenta-unie-0001`](../../../catalog/assets/asset-svg-cellule-magenta-unie-0001.json) | cellule-magenta-unie | svg | [unknown](../licences/unknown.md) | unknown | — | — |
-| [`asset-tilemap-village-2-0001`](../../../catalog/assets/asset-tilemap-village-2-0001.json) | village-2 | tilemap | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-tilemap-village-3-0001`](../../../catalog/assets/asset-tilemap-village-3-0001.json) | village-3 | tilemap | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-tilemap-village-4-0001`](../../../catalog/assets/asset-tilemap-village-4-0001.json) | village-4 | tilemap | [unknown](../licences/unknown.md) | unknown | — | — |
 | [`asset-tilemap-village-5-0001`](../../../catalog/assets/asset-tilemap-village-5-0001.json) | village-5 | tilemap | [unknown](../licences/unknown.md) | unknown | — | — |

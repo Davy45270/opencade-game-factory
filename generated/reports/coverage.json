@@ -1,5 +1,1278 @@
 {
-  "excluded": [],
+  "excluded": [
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/acceptance.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/assets/empreintes-planches.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/assets/exigences-planches.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/ci/dist.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/ci/secrets.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/accessibilite.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/assets-employes.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/atlas.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/bandeau-lieu.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/camera-stable.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/carte-editee-murs.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/carte-editee-sauvegarde.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/choix-dialogue.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/combat-formation.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/defauts-joueur.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/demarrage-csp.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/dialogue-hauteur.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/dialogue-pages-choix.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/doigt.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/ecrans-outils.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/ecrans.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/editeur-cartes.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/editeur-export-import.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/equipe-combat.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/expressions-et-souffle.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/focus-rendu.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/fonds-facteur-entier.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/foret-groupe.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/habillage-mesures.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/hors-ligne.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/icones-commandes.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/inventaire-planche.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/lot14.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/manette.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/modales-planche.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/opacite-sprites.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/options.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/outils.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/e2e/p16-elements-attendus.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/parcours.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/personnages-et-jauges.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/pestouille-directions.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/police-embarquee.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/preuves-a-coder.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/preuves-fps.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/preuves-interactions.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/preuves-rendu.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-clavier-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-1280x800-tactile-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-360x740-clavier-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-360x740-tactile-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-390x844-clavier-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "png",
+      "path": "tests/e2e/preuves-rendu.spec.ts-snapshots/scene-test-390x844-tactile-linux.png",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/preuves-tranche.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/recrutement-jauge.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/e2e/rejeux-assets.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/rejeux-assets.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/reprise-rencontres.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/scene-gestes.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/souffle-impact.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/temple-coffre-leviers.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/temple-contraste.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/titre-planche.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/e2e/village-v2.spec.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/fixtures/commandes/clavier-village.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/fixtures/golden/slice-1.1.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "json",
+      "path": "tests/fixtures/golden/v1.0.json",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/integration/commande-locale.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/acceptance.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/ai.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/architecture.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/assets-chaine.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/assets-employes-code.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/assets-planches.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/atlas-generation.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/audit.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/boss.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/brand-guard.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/cadres-animation.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/carte-import.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/carte-url.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/cartes-generees.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/cartes-tiled.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/ci-pipeline.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/combat-api.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/combat.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/commande-locale.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/content.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/critical-branches.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/dialogue-interface.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/dialogues-lot.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/docs.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/equilibrage-premiere-aventure.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/evolution.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/factory-request.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/file-du-groupe.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/gestes.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/golden.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/grid-exploration.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/habillage.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/helpers.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/herbe-village.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/inventory.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/jobs.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/licence-dessins.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/licenses.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/lot13-preuves.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/lot13-regles.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/lot14.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/manette.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/mutants-p8.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/mvp-world.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/narrate-web.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/options-web.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/pilotage.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/played-content.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-a-coder.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-contenu-riche.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-contenu.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-outillage.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-schemas.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/preuves-socle.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/progression.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/puzzles.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/qualification-creature.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/quest-schema-ajv.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/quests.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/recruit.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/recrutement-jauge-assets.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/recrutement-jauge.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rejeu-boss-campagne.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rejeu-web.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rng.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rulesets.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rythme-joueur.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/rythme-modele.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sans-nom-complet.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/save.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sbom.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/scenarios-p0.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/security.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/simulation.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/skill-access.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/slice-bot.ts",
+      "reason": "tests/",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/slice.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sol-peint.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sol-village-derogation.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sorties-conditionnelles.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/souffle.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/source-content.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/source-maps.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/source-schemas.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/sprites-branchement.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/storage.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/store-web.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/village-collisions.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/web-assets.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/world-collection.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    },
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "format": "ts",
+      "path": "tests/unit/world.test.ts",
+      "reason": "*.spec.*|*.test.*",
+      "repo": "pestouille-rpg",
+      "status": "excluded"
+    }
+  ],
   "formats": [
     {
       "examined": 0,
@@ -32,10 +1305,12 @@
       "unsupported": 0
     },
     {
-      "examined": 321,
+      "examined": 313,
       "exception": 0,
-      "excluded": 0,
-      "exclusionReasons": {},
+      "excluded": 8,
+      "exclusionReasons": {
+        "tests/": 8
+      },
       "format": "json",
       "found": 417,
       "imported": 96,
@@ -54,11 +1329,13 @@
     {
       "examined": 0,
       "exception": 0,
-      "excluded": 0,
-      "exclusionReasons": {},
+      "excluded": 6,
+      "exclusionReasons": {
+        "tests/": 6
+      },
       "format": "png",
       "found": 97,
-      "imported": 97,
+      "imported": 91,
       "unsupported": 0
     },
     {
@@ -82,13 +1359,16 @@
       "unsupported": 0
     },
     {
-      "examined": 233,
+      "examined": 93,
       "exception": 0,
-      "excluded": 0,
-      "exclusionReasons": {},
+      "excluded": 145,
+      "exclusionReasons": {
+        "*.spec.*|*.test.*": 139,
+        "tests/": 6
+      },
       "format": "ts",
-      "found": 236,
-      "imported": 3,
+      "found": 239,
+      "imported": 1,
       "unsupported": 0
     },
     {

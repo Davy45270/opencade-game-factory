@@ -32,7 +32,7 @@
       {
         "assetVersion": 2,
         "classification": "game",
-        "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+        "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
         "game": "pestouille-rpg",
         "path": "content/cartes-generees/village-2.tmj",
         "provider": "local",
@@ -112,8 +112,42 @@
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-27T15:00:06+01:00",
-  "usages": [],
+  "updatedAt": "2026-11-27T20:34:25+01:00",
+  "usages": [
+    {
+      "assetBlobs": {
+        "content/cartes-generees/village-2.tmj": "393f515b0ee197071d62a15ac81de85f5a93198e"
+      },
+      "assetPath": "content/cartes-generees/village-2.tmj",
+      "assetVersion": 2,
+      "codeRef": {
+        "line": 183,
+        "path": "tests/e2e/editeur-export-import.spec.ts"
+      },
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "evidence": [
+        "literal: content/cartes-generees/village-2.tmj",
+        "module-path: tests/e2e/editeur-export-import.spec.ts"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "village-2",
+      "inference": {
+        "role": {
+          "confidence": 0.9,
+          "evidence": [
+            "tilemap"
+          ],
+          "method": "heuristic"
+        }
+      },
+      "provider": "local",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "tilemap",
+      "scene": "tests/e2e/editeur-export-import.spec.ts",
+      "status": "active"
+    }
+  ],
   "variants": [],
   "version": 2,
   "versions": [

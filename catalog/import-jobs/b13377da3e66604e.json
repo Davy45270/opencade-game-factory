@@ -1,0 +1,42 @@
+{
+  "discovery": {
+    "animations": true,
+    "audio": true,
+    "codeReferences": true,
+    "fonts": true,
+    "generatedAssets": true,
+    "images": true,
+    "tilemaps": true
+  },
+  "inputs": [
+    {
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "name": "pestouille-rpg",
+      "provider": "local"
+    }
+  ],
+  "jobType": "initial-discovery",
+  "output": {
+    "generateMigrationReport": true,
+    "generateSearchIndex": true
+  },
+  "processing": {
+    "buildUsageGraph": true,
+    "describeWithAI": true,
+    "detectDuplicates": true,
+    "extractSpritesheets": true,
+    "verifyLicenses": true
+  },
+  "safety": {
+    "deleteSourceFiles": false,
+    "modifySourceRepositories": false,
+    "publishUnknownLicenses": false
+  },
+  "schemaVersion": "1.0",
+  "sources": {
+    "includeMonorepos": true,
+    "includeReleases": true,
+    "provider": "local",
+    "scope": "authorized-game-repositories"
+  }
+}

@@ -152,7 +152,37 @@
   ],
   "thumbnail": "thumbnails/98/989ad368d983a4bd731ce8578caf8f7e38ecf503b0f1c4c2c20841b3d7670861.webp",
   "updatedAt": null,
-  "usages": [],
+  "usages": [
+    {
+      "assetPath": "assets/export/e04-recrutement.png",
+      "assetVersion": 1,
+      "codeRef": {
+        "line": 276,
+        "path": "assets/export/e04-recrutement.json"
+      },
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "evidence": [
+        "importer_livre : cadre sprite-jauge-remplissage de assets/export/e04-recrutement.png (empreinte de pixels aeebc2bb16b8a451)"
+      ],
+      "game": "pestouille-rpg",
+      "importName": "sprite-jauge-remplissage",
+      "inference": {
+        "role": {
+          "confidence": 1,
+          "evidence": [
+            "assets/export/e04-recrutement.json · frames"
+          ],
+          "method": "proven"
+        }
+      },
+      "provider": "forgejo",
+      "releases": [],
+      "repo": "pestouille-rpg",
+      "role": "atlas-frame",
+      "scene": "assets/export/e04-recrutement.json",
+      "status": "active"
+    }
+  ],
   "variants": [
     "asset-sprite-pestouille-rpg-jauge-remplissage-0001",
     "asset-sprite-pestouille-rpg-jauge-remplissage-0002"

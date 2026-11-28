@@ -1419,6 +1419,8 @@
 | asset-sprite-hortensias-0001 |
 | asset-sprite-impact-apercu-0001 |
 | asset-sprite-interrupteur-mural-0001 |
+| asset-sprite-jauge-piste-0001 |
+| asset-sprite-jauge-remplissage-0001 |
 | asset-sprite-jouer-commandes-apercu-0001 |
 | asset-sprite-jouer-menus-origine-0001 |
 | asset-sprite-koala-bas-attaque-bloc-0001 |
@@ -3443,7 +3445,6 @@
 | asset-svg-cellule-cyan-unie-0001 |
 | asset-svg-cellule-magenta-unie-0001 |
 | asset-svg-game-icons-lorc-lorc-bloody-swor-0001 |
-| asset-tilemap-village-2-0001 |
 | asset-tilemap-village-3-0001 |
 | asset-tilemap-village-4-0001 |
 | asset-tilemap-village-5-0001 |

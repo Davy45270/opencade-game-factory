@@ -38,8 +38,9 @@
         "game": "pestouille-rpg",
         "path": "apps/web/pilote.ts",
         "provider": "local",
+        "removedAtCommit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
         "repo": "pestouille-rpg",
-        "status": "active",
+        "status": "removed",
         "visibility": "private"
       },
       {
@@ -53,6 +54,18 @@
         "removedAtCommit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
         "repo": "pestouille-rpg",
         "status": "removed",
+        "visibility": "private"
+      },
+      {
+        "assetVersion": 4,
+        "blobSha256": "2f22ee0cb38a4beef66ae254d142fe1a3909423862ae811eaad1ad92b2c21d61",
+        "classification": "game",
+        "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+        "game": "pestouille-rpg",
+        "path": "apps/web/pilote.ts",
+        "provider": "local",
+        "repo": "pestouille-rpg",
+        "status": "active",
         "visibility": "private"
       }
     ],
@@ -78,21 +91,21 @@
     "family": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/pilote.ts"
+        "pestouille-rpg@bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67:apps/web/pilote.ts"
       ],
       "method": "proven"
     },
     "format": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/pilote.ts"
+        "pestouille-rpg@bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67:apps/web/pilote.ts"
       ],
       "method": "proven"
     },
     "sha256": {
       "confidence": 1,
       "evidence": [
-        "pestouille-rpg@12effa0960e1d2a0223a538293f5ba51f18c768f:apps/web/pilote.ts"
+        "pestouille-rpg@bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67:apps/web/pilote.ts"
       ],
       "method": "proven"
     }
@@ -101,7 +114,7 @@
   "licenseEvidence": {
     "decision": "Licence du code identifiée par son texte.",
     "method": "license-file",
-    "ref": "LICENSE@12effa0960e1d2a0223a538293f5ba51f18c768f"
+    "ref": "LICENSE@bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67"
   },
   "name": "pilote",
   "orientation": "unknown",
@@ -115,14 +128,14 @@
     "type": "code-generated"
   },
   "schemaVersion": "1.0",
-  "sha256": "830adaa91a8f36a6c0a989e64326e770949752671c5296e15664581bf7e8165c",
+  "sha256": "2f22ee0cb38a4beef66ae254d142fe1a3909423862ae811eaad1ad92b2c21d61",
   "sourceRegion": null,
   "sourceSheetId": null,
   "state": null,
   "status": "needs-review",
   "subcategory": null,
   "tags": "unknown",
-  "updatedAt": "2026-11-27T15:00:06+01:00",
+  "updatedAt": "2026-11-27T20:34:25+01:00",
   "usages": [
     {
       "assetBlobs": {
@@ -159,15 +172,15 @@
     },
     {
       "assetBlobs": {
-        "apps/web/pilote.ts": "d46d740bd78c4b61e40da6930ce3dc2ef7b726a7"
+        "apps/web/pilote.ts": "0a2662514bd0d52dac66f71230f2ce28e76a1237"
       },
       "assetPath": "apps/web/pilote.ts",
-      "assetVersion": 3,
+      "assetVersion": 4,
       "codeRef": {
         "line": 31,
         "path": "pilote.html"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "html-attribute: apps/web/pilote.ts",
         "module-path: pilote.html"
@@ -192,12 +205,12 @@
     },
     {
       "assetPath": "apps/web/pilote.ts",
-      "assetVersion": 3,
+      "assetVersion": 4,
       "codeRef": {
         "line": 1,
         "path": "apps/web/pilote.ts"
       },
-      "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
       "evidence": [
         "importer_livre : module apps/web/pilote.ts dessine l'image du jeu (code-generated, octets identiques au sha)"
       ],
@@ -221,7 +234,7 @@
     }
   ],
   "variants": [],
-  "version": 3,
+  "version": 4,
   "versions": [
     {
       "causalNext": 2,
@@ -246,15 +259,26 @@
       "version": 2
     },
     {
-      "causalNext": null,
+      "causalNext": 4,
       "causalPrevious": 2,
       "commit": "12effa0960e1d2a0223a538293f5ba51f18c768f",
       "date": "2026-11-27T15:00:06+01:00",
       "format": "ts",
-      "nextVersion": null,
+      "nextVersion": 4,
       "previousVersion": 2,
       "sha256": "830adaa91a8f36a6c0a989e64326e770949752671c5296e15664581bf7e8165c",
       "version": 3
+    },
+    {
+      "causalNext": null,
+      "causalPrevious": 3,
+      "commit": "bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67",
+      "date": "2026-11-27T20:34:25+01:00",
+      "format": "ts",
+      "nextVersion": null,
+      "previousVersion": 3,
+      "sha256": "2f22ee0cb38a4beef66ae254d142fe1a3909423862ae811eaad1ad92b2c21d61",
+      "version": 4
     }
   ],
   "visualStyle": null

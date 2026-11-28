@@ -96,7 +96,7 @@ Copies divergentes.
 
 | Fournisseur | Branche | Commit | Date | Erreur |
 | --- | --- | --- | --- | --- |
-| local | main | 12effa0960e1d2a0223a538293f5ba51f18c768f | 2026-11-27T15:00:06+01:00 | — |
+| local | main | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | 2026-11-27T20:34:25+01:00 | — |
 
 ## petit-astronome
 
@@ -137,9 +137,9 @@ Copies divergentes.
 | --- | --- |
 | animation | 1 |
 | atlas | 92 |
-| code-generated | 3 |
+| code-generated | 1 |
 | font | 2 |
-| image | 143 |
+| image | 137 |
 | style | 2 |
 | svg | 9 |
 | tilemap | 9 |
@@ -148,22 +148,22 @@ Copies divergentes.
 
 | Dépôt | Commit | Chemin |
 | --- | --- | --- |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | apps/web/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/assets-pipeline/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/characters/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/combat/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/content/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/core/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/creatures/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/engine/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/inventory/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/quests/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/renderer-phaser/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/solver/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | packages/world/package.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | tsconfig.json |
-| pestouille-rpg | 12effa0960e1d2a0223a538293f5ba51f18c768f | vite.config.ts |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | apps/web/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/assets-pipeline/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/characters/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/combat/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/content/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/core/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/creatures/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/engine/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/inventory/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/quests/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/renderer-phaser/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/solver/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | packages/world/package.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | tsconfig.json |
+| pestouille-rpg | bce6bfc7e0a87ea6cb1d2d19f6150badea0eeb67 | vite.config.ts |
 
 ## Tags divergents
 

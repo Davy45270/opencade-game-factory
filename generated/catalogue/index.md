@@ -77,7 +77,7 @@
 | [opencadkid/taupes](jeux/opencadkid--taupes.md) | 5 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/traverse](jeux/opencadkid--traverse.md) | 4 | [opencadkid](sources/opencadkid.md) |
 | [opencadkid/vis](jeux/opencadkid--vis.md) | 5 | [opencadkid](sources/opencadkid.md) |
-| [pestouille-rpg](jeux/pestouille-rpg.md) | 1592 | [pestouille-rpg](sources/pestouille-rpg.md) |
+| [pestouille-rpg](jeux/pestouille-rpg.md) | 1594 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [pestouille-rpg/content](jeux/pestouille-rpg--content.md) | 5 | [pestouille-rpg](sources/pestouille-rpg.md) |
 | [petit-astronome](jeux/petit-astronome.md) | 22 | [petit-astronome](sources/petit-astronome.md) |
 | [six-de-chaque](jeux/six-de-chaque.md) | 7 | [six-de-chaque](sources/six-de-chaque.md) |
